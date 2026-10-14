@@ -1,12 +1,12 @@
 {
   "id": "agent-toolkit__sanity-best-practices",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
   ],
   "license": "MIT",
   "hash": "d2024b1046a60cc249868eb0c78394b906b0c89a35c9f58997a769c638fffd75",
-  "purpose": "Sanity development best practices for schema design, GROQ queries, TypeGen, Visual Editing, images, Portable Text, Studio structure, localization, migrations, Sanity Functions, webhooks, Blueprints, a",
+  "purpose": "Sanity CMS best practices: GROQ performance, schema/content modeling, Visual Editing, images, Portable Text, Studio, TypeGen, localization, migrations.",
   "domain": "frontend",
   "task_types": [
     "review",
@@ -16,14 +16,18 @@
     "design"
   ],
   "use_when": [
-    "Sanity development best practices for schema design, GROQ queries, TypeGen, Visual Editing, images, Portable Text, Studio structure, localization, migrations, S"
+    "Design Sanity content schemas and GROQ queries with performance tuning",
+    "Sanity content modeling, page builders, Portable Text, Studio configuration",
+    "Sanity migrations, localization, TypeGen, Visual Editing setup"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to frontend"
+    "Postgres/database work -> supabase or neondatabase cards",
+    "UI/frontend design -> anthropic__frontend-design",
+    "Neon or Supabase platform tasks -> their own skills"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
-  "cluster": "frontend",
+  "disambiguator": "Sanity CMS + GROQ -> this. Postgres -> supabase/neon. UI design -> frontend-design.",
+  "cluster": "sanity-cms",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,
