@@ -1,0 +1,34 @@
+{
+  "id": "ponytail__ponytail-debt",
+  "tier": "B",
+  "origin": [
+    "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
+  ],
+  "license": "MIT",
+  "hash": "4666dfd5fbab7b8b4a6a0d8f5ccae20603fe773443e958d47aa00845d888c0c4",
+  "purpose": ">",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 466,
+  "core_bytes": 1863,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/ponytail/skills/ponytail-debt/SKILL.md"
+}

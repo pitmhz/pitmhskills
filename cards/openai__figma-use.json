@@ -1,0 +1,35 @@
+{
+  "id": "openai__figma-use",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "504ade6e3c5dbdde720600bb4be8a041fc6c50e86883cb5a2638651cc723002e",
+  "purpose": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug f",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Sk"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4488,
+  "core_bytes": 18032,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/figma-use/SKILL.md"
+}

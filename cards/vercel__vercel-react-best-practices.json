@@ -1,0 +1,44 @@
+{
+  "id": "vercel__vercel-react-best-practices",
+  "tier": "A",
+  "origin": [
+    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278"
+  ],
+  "license": "MIT",
+  "hash": "3286ace648b4d740317b9c1cb7fbd38600eaacc62a8b57ea5e06fd2992b5582e",
+  "purpose": "React and Next.js performance patterns for existing code: eliminating waterfalls, cutting bundle size, RSC serialization, re-render and caching optimization.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Refactoring React or Next.js code to eliminate waterfalls with Promise.all, Suspense boundaries, and parallel data fetching",
+    "Optimizing bundle size by removing barrel imports and adding next/dynamic imports for heavy components",
+    "Reviewing React Server Components for serialization bloat, re-render memoization, and request caching issues"
+  ],
+  "do_not_use_when": [
+    "Designing a new landing page or app UI visual identity with typography and palette (use anthropic__frontend-design)",
+    "Building a high-density desktop dashboard with container queries and sidebar-adaptive layout (use local__desktop-dashboard-ui)",
+    "Scaffolding or bundling a multi-component claude.ai HTML artifact with React and shadcn (use anthropic__web-artifacts-builder)"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Fixing performance of existing React code -> this. Doing visual/UI design for new or reshaped interfaces -> anthropic__frontend-design. Building dashboard grid systems -> local__desktop-dashboard-ui.",
+  "cluster": "react-perf",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "anthropic__frontend-design",
+    "local__desktop-dashboard-ui",
+    "anthropic__web-artifacts-builder"
+  ],
+  "body_tokens": 1850,
+  "core_bytes": 7400,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/vercel/skills/react-best-practices/SKILL.md"
+}

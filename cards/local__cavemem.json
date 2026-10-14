@@ -1,0 +1,33 @@
+{
+  "id": "local__cavemem",
+  "tier": "B",
+  "origin": [
+    "local@cavemem"
+  ],
+  "license": "MIT",
+  "hash": "d5b0d0e831c8a1faa481631d40a2933883ab97145ddf0461f9a0354160543cd8",
+  "purpose": "Persistent memory support. Use when the user asks to remember, store, or retrieve context across sessions.",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Persistent memory support. Use when the user asks to remember, store, or retrieve context across sessions."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 268,
+  "core_bytes": 1072,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:/Users/Mattchine/skills/cavemem/SKILL.md"
+}

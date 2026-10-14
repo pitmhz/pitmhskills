@@ -1,0 +1,33 @@
+{
+  "id": "openai__skill-creator",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "02167b0ecf9f17bb3d2e3395c3d20fe0c356e4edc57a99fc3ad8a82ef82ccfe2",
+  "purpose": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codexs capabilities with specialized knowledge, workflow",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codexs capabilit"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4721,
+  "core_bytes": 19032,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.system/skill-creator/SKILL.md"
+}

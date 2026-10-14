@@ -1,0 +1,34 @@
+{
+  "id": "pocock__loop-me",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "38ac316635d244abfdc1526edec49596f9284b36595f5a212fc5983894b6094a",
+  "purpose": "Grill me about specs for the workflows I want to build, within this workspace.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Grill me about specs for the workflows I want to build, within this workspace."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 639,
+  "core_bytes": 2554,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/in-progress/loop-me/SKILL.md"
+}

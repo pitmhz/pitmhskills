@@ -1,0 +1,33 @@
+{
+  "id": "anthropic__discernment-nudge",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "8e498a6c417b707a845a5373d56dabf5f812c50a25152752ace76251a9515c1c",
+  "purpose": ">",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2676,
+  "core_bytes": 10801,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/discernment-nudge/SKILL.md"
+}

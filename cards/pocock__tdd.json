@@ -1,0 +1,36 @@
+{
+  "id": "pocock__tdd",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "969583080caf842ae86a53501a0091eced13fd89cad65d3aa75c09112318ff33",
+  "purpose": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions red-green-refactor, or wants integration tests.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions red-green-refactor, or wants integration tests."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 915,
+  "core_bytes": 3667,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/tdd/SKILL.md"
+}

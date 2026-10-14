@@ -1,0 +1,33 @@
+{
+  "id": "local__memory-navigator",
+  "tier": "B",
+  "origin": [
+    "local@memory-navigator"
+  ],
+  "license": "MIT",
+  "hash": "eea4a14895dc711cf21e78d9e04a9d23fd8a4f0427d4882c826285b1ea0da941",
+  "purpose": "Retrieve project memory through PITMRY context, then inspect canonical records only when required.",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Retrieve project memory through PITMRY context, then inspect canonical records only when required."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 643,
+  "core_bytes": 2569,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:/Users/Mattchine/skills/memory-navigator/SKILL.md"
+}

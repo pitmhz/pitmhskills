@@ -1,0 +1,40 @@
+{
+  "id": "ponytail__ponytail",
+  "tier": "A",
+  "origin": [
+    "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
+  ],
+  "license": "MIT",
+  "hash": "fc12a0b9588a7fa3543d31ddc41541f735a5626105781643873110f2da1bd52a",
+  "purpose": "Lazy senior dev mode: the smallest change that fully solves the task. Ladder after reading touched code: need it? exists here? stdlib? platform? installed dep? one line? else minimum + one test if logic. Never cut validation, errors, security, a11y.",
+  "domain": "engineering",
+  "task_types": [
+    "implement",
+    "refactor",
+    "review"
+  ],
+  "use_when": [
+    "Writing, fixing, or refactoring code with the smallest sufficient change (reuse over build)",
+    "Cutting an over-engineered diff down to the minimum that works, keeping tests for logic",
+    "Reviewing a change for necessity: what can be deleted, what already exists, what the platform gives free"
+  ],
+  "do_not_use_when": [
+    "Sharpening the plan before building (use grill-with-docs; ladder runs after scope is set)",
+    "Conformance review against repo standards or spec (use code-review; ponytail judges necessity, not compliance)",
+    "typo",
+    "UI visual design, database rules, or GPU work"
+  ],
+  "scope": "Read broadly, modify only task-named files; every reply ends with skipped/not-checked items and risks.",
+  "disambiguator": "Smallest sufficient implementation -> this. Sharpening scope before building -> grill-with-docs. Standards/spec conformance -> code-review.",
+  "cluster": "code-minimalism",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": "pocock__code-review",
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 886,
+  "core_bytes": 3544,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/ponytail/skills/ponytail/SKILL.md"
+}

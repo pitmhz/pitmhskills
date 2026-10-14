@@ -1,0 +1,34 @@
+{
+  "id": "openai__hatch-pet",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "a4ba304ec6370d4b4e73d0fdf2c20789bf1b477f84621f410842e0c4a714f8bb",
+  "purpose": "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use w",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 9458,
+  "core_bytes": 37835,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/hatch-pet/SKILL.md"
+}

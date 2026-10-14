@@ -1,0 +1,33 @@
+{
+  "id": "cloudflare__nextjs-on-cloudflare",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "23223769a754ca8b99a576f62ab9d739988dbbf72753c1a3e3751852d4653df8",
+  "purpose": "Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloudflare, moving an existing app to Workers, choosing between vinext and OpenNext, o",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloudflare, moving an existing app to Workers,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 686,
+  "core_bytes": 2744,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/nextjs-on-cloudflare/SKILL.md"
+}

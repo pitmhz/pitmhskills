@@ -1,0 +1,33 @@
+{
+  "id": "vercel__writing-guidelines",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278"
+  ],
+  "license": "MIT-claimed (README/frontmatter, no LICENSE file)",
+  "hash": "c28458a39d09a2fb7d6459eb7311d1a30c7c7f17069ad28132031b916d74d269",
+  "purpose": "Review docs/prose for Writing Guidelines compliance. Use when asked to review my docs, check writing style, audit prose, review docs voice and tone, or check this page against the writing handbook.",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Review docs/prose for Writing Guidelines compliance. Use when asked to review my docs, check writing style, audit prose, review docs voice and tone, or check th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 318,
+  "core_bytes": 1272,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/vercel/skills/writing-guidelines/SKILL.md"
+}

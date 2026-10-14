@@ -1,0 +1,34 @@
+{
+  "id": "openai__figma-generate-design",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "8820e9c330345e801549f0bf6d2a1274abba6e4322bae02b9242d634c00cca2f",
+  "purpose": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: write to Figma, create in Figma from code, push page to F",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: write to Figma, c"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5113,
+  "core_bytes": 20505,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/figma-generate-design/SKILL.md"
+}

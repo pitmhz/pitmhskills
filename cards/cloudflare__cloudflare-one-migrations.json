@@ -1,0 +1,35 @@
+{
+  "id": "cloudflare__cloudflare-one-migrations",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "aef654c7e0a649978581054c28a0b8fb92f011456080b7cc0a01b2d063846177",
+  "purpose": "Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3152,
+  "core_bytes": 12605,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/cloudflare-one-migrations/SKILL.md"
+}

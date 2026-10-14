@@ -1,0 +1,34 @@
+{
+  "id": "anthropic__webapp-testing",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34",
+  "purpose": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser l",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing br"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 989,
+  "core_bytes": 4008,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/webapp-testing/SKILL.md"
+}

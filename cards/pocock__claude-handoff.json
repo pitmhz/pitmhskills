@@ -1,0 +1,33 @@
+{
+  "id": "pocock__claude-handoff",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "24853e92b98dea61e5e6cdfeb929e47f98d61d9ccb21e8bb952f917d29980970",
+  "purpose": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Hand the current conversation off to a fresh background agent that picks up the work immediately."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 361,
+  "core_bytes": 1442,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/in-progress/claude-handoff/SKILL.md"
+}

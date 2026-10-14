@@ -1,0 +1,33 @@
+{
+  "id": "pocock__migrate-to-shoehorn",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "200c11163ecd56d908ec431154e4b452cd6afeb3de91e5b54434f543f0822201",
+  "purpose": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial te"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 728,
+  "core_bytes": 2913,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/misc/migrate-to-shoehorn/SKILL.md"
+}

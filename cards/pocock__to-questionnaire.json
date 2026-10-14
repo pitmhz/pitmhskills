@@ -1,0 +1,33 @@
+{
+  "id": "pocock__to-questionnaire",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "77825120815c21400f82e2794faf342d1d1a4ab1493be3fe061857885d26b768",
+  "purpose": "Turn a decision you cant fully answer into a questionnaire for someone else to fill in.",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Turn a decision you cant fully answer into a questionnaire for someone else to fill in."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 739,
+  "core_bytes": 2958,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/productivity/to-questionnaire/SKILL.md"
+}

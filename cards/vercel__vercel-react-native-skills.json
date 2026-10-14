@@ -1,0 +1,35 @@
+{
+  "id": "vercel__vercel-react-native-skills",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278"
+  ],
+  "license": "MIT-claimed (README/frontmatter, no LICENSE file)",
+  "hash": "aff91057282facb41ddc8873a482e19cfb928056fc32b350e1b084b16cb58dc2",
+  "purpose": "React Native and Expo best practices for building performant mobile apps. Use",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "React Native and Expo best practices for building performant mobile apps. Use"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1140,
+  "core_bytes": 4560,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/vercel/skills/react-native-skills/SKILL.md"
+}

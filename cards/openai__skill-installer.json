@@ -1,0 +1,33 @@
+{
+  "id": "openai__skill-installer",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "1d487e6d3635ab1112287ee5d2a2186951ca2e5848c82ba0122be5da19d25680",
+  "purpose": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 825,
+  "core_bytes": 3298,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.system/skill-installer/SKILL.md"
+}

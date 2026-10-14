@@ -1,0 +1,37 @@
+{
+  "body_tokens": 464,
+  "cluster": "browser-automation",
+  "cluster_role": "primary",
+  "conflicts_with": [],
+  "core_bytes": 1858,
+  "disambiguator": "Needs JS rendering, stealth, screenshots, or multi-URL scraping -> this. Single static fetch -> webfetch. Finding new skills -> skill-finder.",
+  "do_not_use_when": [
+    "Fetching a single static page (use webfetch)",
+    "Finding or installing new skills (use skill-finder)",
+    "Non-web tasks"
+  ],
+  "domain": "web-automation",
+  "hash": "f9cbba7bd80efb240fdabadb7b7eed575065e7c0b0de591accfa2f152ecb0f55",
+  "id": "local__obscura",
+  "license": "MIT",
+  "origin": [
+    "local@obscura"
+  ],
+  "pairs_with": null,
+  "pick_over_primary_when": null,
+  "purpose": "Headless stealth browsing: fetch, scrape, screenshot, and automate JS-heavy pages via Obscura CLI/MCP",
+  "requires": {},
+  "scope": "Browse, scrape, and automate web pages; write files only when the task asks for output.",
+  "sections": [],
+  "skill_path": "C:/Users/Mattchine/skills/obscura/SKILL.md",
+  "task_types": [
+    "implement"
+  ],
+  "tier": "A",
+  "use_when": [
+    "Stealth-scraping a JS-heavy or bot-defended site",
+    "Scraping many URLs in parallel",
+    "Capturing screenshots or PDFs of pages"
+  ],
+  "verify": []
+}

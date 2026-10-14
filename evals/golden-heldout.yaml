@@ -1,0 +1,10 @@
+- task: "Page feels slow, too many client components in Next.js"
+  expect: NONE
+- task: "Simulate quantum chromodynamics on GPU"
+  expect: NONE
+- task: "Design a landing page for a laptop repair service"
+  expect: anthropic__frontend-design
+- task: "Search past architectural decisions in strategic memory"
+  expect: local__strategic-memory
+- task: "Grill me with interview questions on my deployment plan before I build it"
+  expect: pocock__grill-with-docs

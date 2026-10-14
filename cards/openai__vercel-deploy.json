@@ -1,0 +1,35 @@
+{
+  "id": "openai__vercel-deploy",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "afac6b5b71952af08f8dcd19c01ec1d80a040240cc50929e3add8200b3fcd459",
+  "purpose": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like deploy my app, deploy and give me the link, push this live, or create a preview deployment.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Deploy applications and websites to Vercel. Use when the user requests deployment actions like deploy my app, deploy and give me the link, push this live, or cr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 682,
+  "core_bytes": 2730,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/vercel-deploy/SKILL.md"
+}

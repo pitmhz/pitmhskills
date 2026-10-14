@@ -1,0 +1,24 @@
+- task: "Refactor React components to eliminate waterfalls with Promise.all and Suspense boundaries for parallel data fetching"
+  expect: vercel__vercel-react-best-practices
+- task: "Optimize Next.js bundle size by removing barrel imports and adding next/dynamic imports for heavy components"
+  expect: vercel__vercel-react-best-practices
+- task: "Create a static poster as PNG or PDF from a design-philosophy movement with minimal text"
+  expect: anthropic__canvas-design
+- task: "Express an aesthetic movement visually on a canvas as a museum-quality art object with spatial composition and color zones"
+  expect: anthropic__canvas-design
+- task: "Scaffold a new claude.ai artifact project with init-artifact.sh using React Tailwind and shadcn/ui components"
+  expect: anthropic__web-artifacts-builder
+- task: "Bundle a Vite React artifact with state management and routing into a single bundle.html with bundle-artifact.sh"
+  expect: anthropic__web-artifacts-builder
+- task: "Build a high-density desktop dashboard feed with container queries and minmax grid columns adapting to sidebar and inspector width"
+  expect: local__desktop-dashboard-ui
+- task: "Apply system-font stacks, tabular numerals, and WCAG focus and contrast rules to an observability dashboard with inspector drawers"
+  expect: local__desktop-dashboard-ui
+- task: "Design a distinctive landing page with visual identity, typography, and palette direction"
+  expect: anthropic__frontend-design
+- task: "Reshape existing UI with new aesthetic direction, typography, and palette choices because it looks templated and generic"
+  expect: anthropic__frontend-design
+- task: "Design a new app UI with distinctive visual identity, typography, palette, and layout choices"
+  expect: anthropic__frontend-design
+- task: "Grill my artifact plan with interview questions before building it, sharpening requirements and producing ADRs"
+  expect: pocock__grill-with-docs

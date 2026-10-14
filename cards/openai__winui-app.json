@@ -1,0 +1,37 @@
+{
+  "id": "openai__winui-app",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "69e4e697a60403b587b4eb36c8fa2d3699f4943ed66747bce268828a5ef9de4c",
+  "purpose": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityTool",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Wi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2842,
+  "core_bytes": 11366,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/winui-app/SKILL.md"
+}

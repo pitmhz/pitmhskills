@@ -1,0 +1,34 @@
+{
+  "id": "openai__figma-create-design-system-rules",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "a4717512addcae1e869ed8f21c4dbcea8276570ace415496cda3d9549a8256ae",
+  "purpose": "Generates custom design system rules for the users codebase. Use when user says create design system rules, generate rules for my project, set up design rules, customize design system guidelines, or w",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generates custom design system rules for the users codebase. Use when user says create design system rules, generate rules for my project, set up design rules, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4690,
+  "core_bytes": 18758,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/figma-create-design-system-rules/SKILL.md"
+}

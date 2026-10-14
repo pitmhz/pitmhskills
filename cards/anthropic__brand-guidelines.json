@@ -1,0 +1,33 @@
+{
+  "id": "anthropic__brand-guidelines",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "a0aa0a21ebf9e8511a045cc234bc839adc2b6706db727add14e9855f242e11a7",
+  "purpose": "Applies Anthropics official brand colors and typography to any sort of artifact that may benefit from having Anthropics look-and-feel. Use it when brand colors or style guidelines, visual formatting, ",
+  "domain": "general",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Applies Anthropics official brand colors and typography to any sort of artifact that may benefit from having Anthropics look-and-feel. Use it when brand colors "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 577,
+  "core_bytes": 2308,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/brand-guidelines/SKILL.md"
+}

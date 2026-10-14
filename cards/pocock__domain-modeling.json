@@ -1,0 +1,34 @@
+{
+  "id": "pocock__domain-modeling",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "b62d997256cc073e123d4303da8e9db00db0e28de9739660ca3e55ab76e09cdb",
+  "purpose": "Build and sharpen a projects domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build and sharpen a projects domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 824,
+  "core_bytes": 3420,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/domain-modeling/SKILL.md"
+}

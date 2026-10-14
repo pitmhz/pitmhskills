@@ -1,0 +1,33 @@
+{
+  "id": "openai__screenshot",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "2fb7b2d8010517699b1a44f1d587d028b9dad2e2770366d2052238d46c9a9e36",
+  "purpose": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-leve",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture cap"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2006,
+  "core_bytes": 8021,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/screenshot/SKILL.md"
+}

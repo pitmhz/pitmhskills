@@ -1,0 +1,39 @@
+{
+  "id": "supabase__supabase-postgres-best-practices",
+  "tier": "A",
+  "origin": [
+    "supabase/agent-skills@c9be0e931b7930f7d02126d04774d904c381e7d7"
+  ],
+  "license": "MIT",
+  "hash": "4d7d1bd60f2ad7fd0d510269279519059dcc630d832f4c241d90735244c70525",
+  "purpose": "Postgres rules for schema design, RLS policies, migrations, indexes, and query diagnosis — load BEFORE writing anything that lives in Postgres.",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Writing RLS policies so tenants only see their own rows, plus tests verifying them",
+    "Creating or altering tables, columns, migrations, indexes, triggers, or Postgres functions",
+    "Diagnosing slow queries, EXPLAIN plans, bloat, locking, or rows visible to the wrong tenant"
+  ],
+  "do_not_use_when": [
+    "Supabase product surface (Auth config, CLI, client libraries, Edge Functions) -> supabase skill",
+    "UI, design, or frontend work",
+    "GPU, CUDA, or ML model work"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Postgres rules and SQL/RLS authoring -> this. Supabase product surface (Auth, CLI, JS libs) -> supabase skill.",
+  "cluster": "postgres-rules",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 824,
+  "core_bytes": 3295,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/supabase/skills/supabase-postgres-best-practices/SKILL.md"
+}

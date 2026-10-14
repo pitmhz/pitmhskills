@@ -1,0 +1,42 @@
+{
+  "id": "anthropic__web-artifacts-builder",
+  "tier": "A",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Source-available (see LICENSE.txt in skill dir)",
+  "hash": "fed403699c30a8dfc91b43bc82e76c06a0e935e86395cab943644767878a48d4",
+  "purpose": "Scaffold, develop, and bundle elaborate multi-component claude.ai HTML artifacts (React 18, Vite, Tailwind, shadcn/ui) into a single HTML file.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Scaffolding a new claude.ai artifact project with init-artifact.sh for React, Tailwind, and shadcn/ui components",
+    "Developing a multi-component artifact requiring state management, routing, or shadcn/ui primitives",
+    "Bundling a Vite React artifact into a single self-contained bundle.html with bundle-artifact.sh"
+  ],
+  "do_not_use_when": [
+    "Designing visual identity, typography, or palette direction for a new UI (use anthropic__frontend-design)",
+    "Optimizing React render or bundle performance of existing code (use vercel__vercel-react-best-practices)",
+    "Creating a static PNG or PDF poster from a design philosophy (use anthropic__canvas-design)"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Scaffolding and bundling multi-component HTML artifacts with scripts -> this. Doing visual design direction -> anthropic__frontend-design. Tuning React performance -> vercel__vercel-react-best-practices.",
+  "cluster": "artifact-tooling",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "anthropic__frontend-design",
+    "vercel__vercel-react-best-practices",
+    "anthropic__canvas-design"
+  ],
+  "body_tokens": 787,
+  "core_bytes": 3160,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/web-artifacts-builder/SKILL.md"
+}

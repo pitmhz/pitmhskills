@@ -1,0 +1,42 @@
+- task: "Add RLS policies so tenants can only read their own rows"
+  expect: supabase__supabase-postgres-best-practices
+- task: "Diagnose a slow Postgres query with EXPLAIN and add the missing index"
+  expect: supabase__supabase-postgres-best-practices
+- task: "Fix Supabase login losing session cookies in Next.js SSR, check getClaims and JWT"
+  expect: supabase__supabase
+- task: "Configure Supabase Auth JWT expiry and Storage bucket policies via the CLI"
+  expect: supabase__supabase
+- task: "Grill my migration plan with interview questions before I implement it"
+  expect: pocock__grill-with-docs
+- task: "Fix a typo in README"
+  expect: NONE
+- task: "Develop wordpress theme development with php templates"
+  expect: NONE
+- task: "Use cavemem to remember user preferences across sessions"
+  expect: local__cavemem
+- task: "Route this task to the right skill using the skill router"
+  expect: local__skill-router
+- task: "Design a desktop dashboard with sidebar grid and WCAG typography"
+  expect: local__desktop-dashboard-ui
+- task: "Remember my project preferences with persistent memory across sessions"
+  expect: local__cavemem
+- task: "Tune a diesel engine injection pump"
+  expect: NONE
+- task: "Fix a typo in the changelog"
+  expect: NONE
+- task: "scrape a JS-heavy dashboard stealthily and extract prices"
+  expect: local__obscura
+- task: "capture a full-page screenshot and PDF of a bot-protected pricing page"
+  expect: local__obscura
+- task: "Cut this 50-line helper down to the minimum that works"
+  expect: ponytail__ponytail
+- task: "Review this branch against the repo coding standards and the originating spec"
+  expect: pocock__code-review
+- task: "Rank the whole repo by what to fix first"
+  expect: ponytail__ponytail
+- task: "find skills for PDF handling to add"
+  expect: local__skill-finder
+- task: "discover agent skills for RLS/postgres"
+  expect: local__skill-finder
+- task: "pick which registered skill fits this task"
+  expect: local__skill-router

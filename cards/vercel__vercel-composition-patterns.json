@@ -1,0 +1,37 @@
+{
+  "id": "vercel__vercel-composition-patterns",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278"
+  ],
+  "license": "MIT-claimed (README/frontmatter, no LICENSE file)",
+  "hash": "fb8f849b4d46c0c4d364ae6fb398a5cb693b54f9a4c31765a1ec0689c7cb93d5",
+  "purpose": "React composition patterns that scale. Use when refactoring components with",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "React composition patterns that scale. Use when refactoring components with"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 743,
+  "core_bytes": 2975,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/vercel/skills/composition-patterns/SKILL.md"
+}

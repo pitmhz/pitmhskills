@@ -1,0 +1,33 @@
+{
+  "id": "pocock__writing-for-agents",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2",
+  "purpose": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2741,
+  "core_bytes": 10967,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/productivity/writing-for-agents/SKILL.md"
+}

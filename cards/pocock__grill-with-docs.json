@@ -1,0 +1,39 @@
+{
+  "id": "pocock__grill-with-docs",
+  "tier": "A",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "abc0fa7948db18b5fb0e1cc1c522ac5ff47d874e2da1e5df60619d79be11f38b",
+  "purpose": "A relentless interview to sharpen a plan or design, creating ADRs and glossary docs along the way.",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Grilling a plan or spec with interview questions before implementing",
+    "Sharpening a design approach through docs-grounded Q&A, producing ADRs",
+    "Aligning with the agent on requirements before code is written"
+  ],
+  "do_not_use_when": [
+    "Doing visual or UI design implementation (use frontend-design)",
+    "Writing code directly without an interview step",
+    "Backend, database, or GPU work"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Interviewing to sharpen a plan before building -> this. Doing the visual design itself -> frontend-design.",
+  "cluster": "design-interview",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "anthropic__frontend-design"
+  ],
+  "body_tokens": 64,
+  "core_bytes": 254,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/grill-with-docs/SKILL.md"
+}

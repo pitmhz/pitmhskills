@@ -1,0 +1,35 @@
+{
+  "id": "vercel__vercel-optimize",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278"
+  ],
+  "license": "MIT-claimed (README/frontmatter, no LICENSE file)",
+  "hash": "3675219c3b9622513696dd359ff70a8fa38c0b3c3b554b237e10f2b4807fcfb3",
+  "purpose": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usag"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4409,
+  "core_bytes": 17633,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/vercel/skills/vercel-optimize/SKILL.md"
+}

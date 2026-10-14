@@ -1,0 +1,33 @@
+{
+  "id": "pocock__to-spec",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "c73a2250beac0479e384f5466e834bb54ce6e30b7f8705e9999ba840d9d59b36",
+  "purpose": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what youve already discussed.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what youve already discussed."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 780,
+  "core_bytes": 3118,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/to-spec/SKILL.md"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "openai__aspnet-core",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "803979c258908f2e575196295c119001817673e3bbf9babf54f5c24a41ac3328",
+  "purpose": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, contr",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web App"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1402,
+  "core_bytes": 5605,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/aspnet-core/SKILL.md"
+}

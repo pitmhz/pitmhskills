@@ -1,0 +1,36 @@
+{
+  "id": "openai__chatgpt-apps",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "928530dd05490d9cd38a8935c824049c5f562422a1bcaa2516ff3032d524ee44",
+  "purpose": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridg",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, regist"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4984,
+  "core_bytes": 19946,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/chatgpt-apps/SKILL.md"
+}

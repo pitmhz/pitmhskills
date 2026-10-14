@@ -1,0 +1,33 @@
+{
+  "id": "cloudflare__cloudflare",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "6299e862c09f1990706d73e732e625d7422de42822fef27a8a14f719f05c32d8",
+  "purpose": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architecture and product selection, including when the user describes a need without namin",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architecture and product selection, including when"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6735,
+  "core_bytes": 26938,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/cloudflare/SKILL.md"
+}

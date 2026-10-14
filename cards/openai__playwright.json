@@ -1,0 +1,33 @@
+{
+  "id": "openai__playwright",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "c52cc95125b720cdc3c9829b0294c2752d4ae9b85a5282aa153da8bba929af87",
+  "purpose": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrappe",
+  "domain": "frontend",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) vi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 980,
+  "core_bytes": 3918,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/playwright/SKILL.md"
+}

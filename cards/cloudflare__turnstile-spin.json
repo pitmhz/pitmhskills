@@ -1,0 +1,33 @@
+{
+  "id": "cloudflare__turnstile-spin",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "90718831f2427b8b5f1ccbf2c830061f377b0defcd609e5e2023421c78a53373",
+  "purpose": "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 7252,
+  "core_bytes": 29025,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/turnstile-spin/SKILL.md"
+}

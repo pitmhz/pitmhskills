@@ -1,0 +1,33 @@
+{
+  "id": "openai__render-deploy",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "e785be3b5ab4b418a1d51c19d8d9208830fa62d0dc19555e7a0b36248b345db4",
+  "purpose": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their applicatio",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, h"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4515,
+  "core_bytes": 18061,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/render-deploy/SKILL.md"
+}

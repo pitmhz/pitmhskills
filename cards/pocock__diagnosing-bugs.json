@@ -1,0 +1,34 @@
+{
+  "id": "pocock__diagnosing-bugs",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "aa87b0ac245c6d1b203c4678eb34dc101af02291448780c55c5e58ccc1619bd7",
+  "purpose": "Diagnosis loop for hard bugs and performance regressions. Use when the user says diagnose/debug this, or reports something broken/throwing/failing/slow.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Diagnosis loop for hard bugs and performance regressions. Use when the user says diagnose/debug this, or reports something broken/throwing/failing/slow."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2200,
+  "core_bytes": 8802,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/diagnosing-bugs/SKILL.md"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "cloudflare__sandbox-migrate-to-next",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "241d42f5da0e28c7c349d253cb9682f090f0622bce45e7956ca5491f294a376b",
+  "purpose": "Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-next for apps already on the preview.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-next for apps already on the preview."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2013,
+  "core_bytes": 8087,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/sandbox-migrate-to-next/SKILL.md"
+}

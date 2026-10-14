@@ -1,0 +1,42 @@
+{
+  "id": "anthropic__canvas-design",
+  "tier": "A",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Source-available (see LICENSE.txt in skill dir)",
+  "hash": "7bebc4a2cf108c55c1e52bb96b1050dc1ab2f9492e9c2d43f1fe57f826728f4d",
+  "purpose": "Static single-page visual art as PNG or PDF: a design-philosophy movement expressed visually with minimal text.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Creating a static poster, artwork, or single-page design as PNG or PDF from a design-philosophy movement",
+    "Expressing an aesthetic movement visually on a canvas with minimal text as visual accent",
+    "Producing a museum-quality art object with spatial composition, color zones, and refined typography"
+  ],
+  "do_not_use_when": [
+    "Designing a new landing page or app UI with visual identity and layout (use anthropic__frontend-design)",
+    "Building an interactive claude.ai HTML artifact with React and bundling scripts (use anthropic__web-artifacts-builder)",
+    "Generating code-driven generative art with p5.js seeded randomness (use anthropic__algorithmic-art)"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Making static PNG/PDF art objects from a design philosophy -> this. Designing interactive UI or websites -> anthropic__frontend-design. Building bundled HTML artifacts -> anthropic__web-artifacts-builder.",
+  "cluster": "static-art",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "anthropic__frontend-design",
+    "anthropic__web-artifacts-builder",
+    "anthropic__algorithmic-art"
+  ],
+  "body_tokens": 3017,
+  "core_bytes": 12068,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/canvas-design/SKILL.md"
+}

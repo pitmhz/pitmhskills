@@ -1,0 +1,33 @@
+{
+  "id": "pocock__grilling",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "26d225ea8a36f4acacbe267e789cfb97d73964412f4243dd4b65b6cb806ddebc",
+  "purpose": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any grill trigger phrases.",
+  "domain": "workflow",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any grill trigger phrases."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 517,
+  "core_bytes": 2079,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/productivity/grilling/SKILL.md"
+}

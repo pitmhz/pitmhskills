@@ -1,0 +1,37 @@
+{
+  "body_tokens": 472,
+  "cluster": "skill-routing",
+  "cluster_role": "primary",
+  "conflicts_with": [],
+  "core_bytes": 1886,
+  "disambiguator": "Resolving which skill fits a task -> this. Remembering facts across sessions -> cavemem/strategic-memory. Doing the task itself (code, design, docs) -> that domain skill, not the router.",
+  "do_not_use_when": [
+    "Writing code, designing UI, or editing docs directly",
+    "Remembering user facts across sessions",
+    "Tasks with no skill-selection step"
+  ],
+  "domain": "workflow",
+  "hash": "2d98f03da52283cd38e1177941e1f2c0e57648dfe00af7d9cf4d33c6560d82af",
+  "id": "local__skill-router",
+  "license": "MIT",
+  "origin": [
+    "local@skill-router"
+  ],
+  "pairs_with": null,
+  "pick_over_primary_when": null,
+  "purpose": "Route a task to the right skill: pick which specialized skill fits the user's request.",
+  "requires": {},
+  "scope": "Only touch files the task names; everything else read-only.",
+  "sections": [],
+  "skill_path": "C:/Users/Mattchine/skills/skill-router/SKILL.md",
+  "task_types": [
+    "implement"
+  ],
+  "tier": "A",
+  "use_when": [
+    "Route this task to the right skill",
+    "Pick which skill fits the request",
+    "Resolve a task to its specialized capability"
+  ],
+  "verify": []
+}

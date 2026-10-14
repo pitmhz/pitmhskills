@@ -1,0 +1,35 @@
+{
+  "id": "cloudflare__cloudflare-one",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "209eaae49f223ca5d7327a66af86acddc9ed76bee2013d881cf782520b98eff9",
+  "purpose": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrations for migration planning from other vendors.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrations for migration planning from other vendo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5976,
+  "core_bytes": 23902,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/cloudflare-one/SKILL.md"
+}

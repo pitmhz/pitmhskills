@@ -1,0 +1,33 @@
+{
+  "id": "anthropic__internal-comms",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "c5c061ab25b33fab2358a9be53a5cc0d528ec7c3e8a29285a041ffc95d0d8947",
+  "purpose": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal com",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 386,
+  "core_bytes": 1543,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/internal-comms/SKILL.md"
+}

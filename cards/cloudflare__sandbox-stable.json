@@ -1,0 +1,34 @@
+{
+  "id": "cloudflare__sandbox-stable",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "55a5e8ebf45c1e143e173be6cf2f729c0ac956958716d313689d9bebadff8623",
+  "purpose": "Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps and sandbox-migrate-to-next for stable-to-preview migrations.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps and sandbox-migrate-to-next for stable-to"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2346,
+  "core_bytes": 9419,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/sandbox-stable/SKILL.md"
+}

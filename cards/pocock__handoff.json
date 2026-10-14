@@ -1,0 +1,33 @@
+{
+  "id": "pocock__handoff",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "739d8fbe3e6ed688581eb62b35f04834822eae47e57bc35a79c8d8dc9ac703d3",
+  "purpose": "Compact the current conversation into a handoff document for another agent to pick up.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Compact the current conversation into a handoff document for another agent to pick up."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 239,
+  "core_bytes": 956,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/productivity/handoff/SKILL.md"
+}

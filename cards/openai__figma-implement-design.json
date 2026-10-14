@@ -1,0 +1,34 @@
+{
+  "id": "openai__figma-implement-design",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "da1a3b54b179d975a14532d6b0b7def1a59f93984481203449516107e3713388",
+  "purpose": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions implement design, generate code, implement ",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions imp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2970,
+  "core_bytes": 11879,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/figma-implement-design/SKILL.md"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "anthropic__mcp-builder",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "57231330040e18e033dad8b2fdc0340a6185034c32b42b7d3448f444a6af6cf2",
+  "purpose": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate externa",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when b"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2326,
+  "core_bytes": 9328,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/mcp-builder/SKILL.md"
+}

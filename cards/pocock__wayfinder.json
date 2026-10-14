@@ -1,0 +1,33 @@
+{
+  "id": "pocock__wayfinder",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "0efeec3d47d2fdd3d9b677f19ca7360a3e1e2034ff23bfee33765a74c5d27d22",
+  "purpose": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3127,
+  "core_bytes": 12508,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/wayfinder/SKILL.md"
+}

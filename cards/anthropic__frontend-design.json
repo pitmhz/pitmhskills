@@ -1,0 +1,40 @@
+{
+  "id": "anthropic__frontend-design",
+  "tier": "A",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Source-available (see LICENSE.txt in skill dir)",
+  "hash": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8",
+  "purpose": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.",
+  "domain": "frontend",
+  "task_types": [
+    "design",
+    "implement"
+  ],
+  "use_when": [
+    "Designing a new landing page, website, or app UI with distinctive visual identity",
+    "Reshaping existing UI: aesthetic direction, typography, palette, layout choices",
+    "Reviewing UI that looks templated or generic and needs opinionated design direction"
+  ],
+  "do_not_use_when": [
+    "Interviewing or sharpening a plan before building (use grill-with-docs)",
+    "Optimizing React render or bundle performance of existing code (use react-best-practices)",
+    "Backend, database, auth, or GPU work"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Doing visual/UI design -> this. Interviewing the user to sharpen a plan -> grill-with-docs. Fixing performance of existing React code -> react-best-practices.",
+  "cluster": "visual-design",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "pocock__grill-with-docs"
+  ],
+  "body_tokens": 2359,
+  "core_bytes": 9461,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/frontend-design/SKILL.md"
+}

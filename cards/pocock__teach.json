@@ -1,0 +1,33 @@
+{
+  "id": "pocock__teach",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "d9480a846c88bb1151947eb484bab1a8c9a84af4d9ddf1ea0f6fb7fe639cf9b3",
+  "purpose": "Teach the user a new skill or concept, within this workspace.",
+  "domain": "general",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Teach the user a new skill or concept, within this workspace."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2469,
+  "core_bytes": 9873,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/productivity/teach/SKILL.md"
+}

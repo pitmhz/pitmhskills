@@ -1,0 +1,33 @@
+{
+  "id": "pocock__wait-what",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "95393f96e730b20dabc6b425515cb6292d34bd9a91859a03c2c821e24d321112",
+  "purpose": "Stop. That last message did not land: re-pitch it.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Stop. That last message did not land: re-pitch it."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 101,
+  "core_bytes": 403,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/productivity/wait-what/SKILL.md"
+}

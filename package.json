@@ -1,0 +1,19 @@
+{
+  "name": "pitmhskills",
+  "version": "0.1.0",
+  "description": "Standalone deterministic skill router - Bun + SQLite, no external services",
+  "type": "module",
+  "scripts": {
+    "ingest": "bun src/cli.ts ingest",
+    "cards": "bun src/cli.ts cards",
+    "index": "bun src/cli.ts index",
+    "route": "bun src/cli.ts route",
+    "eval": "bun src/cli.ts eval",
+    "calibrate": "bun src/cli.ts calibrate",
+    "check": "bun src/cli.ts cards --check",
+    "serve": "bun src/serve.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

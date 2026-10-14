@@ -1,0 +1,34 @@
+{
+  "id": "openai__playwright-interactive",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "5b143fbf51ac867d39708f1c99908bb08ac6e9e856c3e5d48329ee607331b014",
+  "purpose": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 8101,
+  "core_bytes": 32404,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/playwright-interactive/SKILL.md"
+}

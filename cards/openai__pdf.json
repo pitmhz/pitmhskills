@@ -1,0 +1,36 @@
+{
+  "id": "openai__pdf",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "724b72c932053fd87133144405b00fbeec30285ee770168328c8f591ec89c134",
+  "purpose": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplum",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Py"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 646,
+  "core_bytes": 2584,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/pdf/SKILL.md"
+}

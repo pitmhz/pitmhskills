@@ -1,0 +1,34 @@
+{
+  "id": "openai__figma-create-new-file",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "8fc3e90f05db3c028107279115005c660efa02d3cd7326d607cc1f808df78121",
+  "purpose": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handle"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 696,
+  "core_bytes": 2799,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/figma-create-new-file/SKILL.md"
+}

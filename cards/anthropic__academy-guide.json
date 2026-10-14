@@ -1,0 +1,33 @@
+{
+  "id": "anthropic__academy-guide",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "102ce9bf7624e88cf29b80b18fe5c6e1959dc58b1d66915acf808cca1704f610",
+  "purpose": ">",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1966,
+  "core_bytes": 7902,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/skills/academy-guide/SKILL.md"
+}

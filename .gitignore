@@ -1,0 +1,6 @@
+node_modules/
+pitmhskills.db*
+skills/
+.state/
+.pitmhskills/
+*.log

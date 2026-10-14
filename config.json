@@ -1,0 +1,10 @@
+{
+  "floor": 60,
+  "margin": 10,
+  "pick_floor": 80,
+  "top_k_retrieve": 8,
+  "max_bytes": 20480,
+  "avg_bytes_target": 12288,
+  "max_skills_per_task": 2,
+  "db_path": "pitmhskills.db"
+}

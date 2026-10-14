@@ -1,0 +1,34 @@
+{
+  "id": "openai__openai-docs",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "117e696f80607076f63887f4f892418f38b6af4c56ccf2b6e50e1dd1a4871da4",
+  "purpose": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest m",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation wi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4728,
+  "core_bytes": 18914,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.system/openai-docs/SKILL.md"
+}

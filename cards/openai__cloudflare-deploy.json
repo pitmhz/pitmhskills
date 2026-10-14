@@ -1,0 +1,34 @@
+{
+  "id": "openai__cloudflare-deploy",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "30d345ed3affdc61fcfc51cc5dbab977659bb4839f79363bc5f4869b674d4be4",
+  "purpose": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or se"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1838,
+  "core_bytes": 7601,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/cloudflare-deploy/SKILL.md"
+}

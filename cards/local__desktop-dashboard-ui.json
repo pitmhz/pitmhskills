@@ -1,0 +1,42 @@
+{
+  "id": "local__desktop-dashboard-ui",
+  "tier": "A",
+  "origin": [
+    "local@desktop-dashboard-ui"
+  ],
+  "license": "MIT",
+  "hash": "f05b8c4b4fadcd3d6b6d998764aa2fe7bfe932e8122dbd3c93e2cd269bbb346e",
+  "purpose": "High-density desktop dashboard system: container-query minmax grids, sidebar-adaptive layouts, system-font typography, WCAG compliance.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Building a high-density desktop dashboard feed with container queries and minmax grid columns that adapt to sidebar and inspector width",
+    "Implementing sidebar-adaptive layouts with collapsible navigation and right inspector drawers for observability dashboards",
+    "Applying system-font stacks, tabular numerals, subpixel rendering, and WCAG focus and contrast rules to dashboard UI"
+  ],
+  "do_not_use_when": [
+    "Designing a new marketing landing page or app visual identity (use anthropic__frontend-design)",
+    "Reviewing UI code for Web Interface Guidelines accessibility compliance (use vercel__web-design-guidelines)",
+    "Tuning React bundle or render performance of existing code (use vercel__vercel-react-best-practices)"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Building desktop dashboard grids, sidebar-adaptive layouts, and system-font WCAG typography -> this. Doing general visual or landing-page design -> anthropic__frontend-design. Auditing UI for guideline compliance -> vercel__web-design-guidelines.",
+  "cluster": "dashboard-system",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "anthropic__frontend-design",
+    "vercel__web-design-guidelines",
+    "vercel__vercel-react-best-practices"
+  ],
+  "body_tokens": 1879,
+  "core_bytes": 7529,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:/Users/Mattchine/skills/desktop-dashboard-ui/SKILL.md"
+}

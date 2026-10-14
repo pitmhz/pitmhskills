@@ -1,0 +1,35 @@
+{
+  "id": "openai__figma",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "132f90f8ebe18a1579ac3aa45b78f3bccb6b96ff3cd0942b50aec79edd6fb04d",
+  "purpose": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, d",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 802,
+  "core_bytes": 3212,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/figma/SKILL.md"
+}

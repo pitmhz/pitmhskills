@@ -1,0 +1,34 @@
+{
+  "id": "ponytail__ponytail-review",
+  "tier": "B",
+  "origin": [
+    "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
+  ],
+  "license": "MIT",
+  "hash": "affa0eedca467b58699fafbea28f6f85352aa3e7f23785964bf42f029a291504",
+  "purpose": ">",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1311,
+  "core_bytes": 5244,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/ponytail/skills/ponytail-review/SKILL.md"
+}

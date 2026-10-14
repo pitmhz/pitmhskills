@@ -1,0 +1,35 @@
+{
+  "id": "pocock__chief-of-staff",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "001ffc84d809d3dc97751e58227f26c20806722f067abcee51ec640f7c97af24",
+  "purpose": "Pursue a long-running goal in a single session by co-ordinating subagents.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Pursue a long-running goal in a single session by co-ordinating subagents."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 540,
+  "core_bytes": 2157,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/in-progress/chief-of-staff/SKILL.md"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "openai__sentry",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "020211a5c198ff0354e268f9d5ff75990c990acc24894ad56b9b12dc7b0a5d7e",
+  "purpose": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 983,
+  "core_bytes": 3930,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/sentry/SKILL.md"
+}

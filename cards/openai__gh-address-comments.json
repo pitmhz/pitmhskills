@@ -1,0 +1,35 @@
+{
+  "id": "openai__gh-address-comments",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "947b0bcea8f1649d46b07dcdeeff6e0b294002093e7d2ce39aa026e05bb5add6",
+  "purpose": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not lo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 326,
+  "core_bytes": 1303,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/gh-address-comments/SKILL.md"
+}

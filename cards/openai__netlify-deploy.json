@@ -1,0 +1,33 @@
+{
+  "id": "openai__netlify-deploy",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "34ded49fb82fe5fc66f390947eba58e50436184d8b0584154612c1d021438f15",
+  "purpose": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1809,
+  "core_bytes": 7258,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/netlify-deploy/SKILL.md"
+}

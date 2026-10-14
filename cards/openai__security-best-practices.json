@@ -1,0 +1,34 @@
+{
+  "id": "openai__security-best-practices",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "7a889544c0ae67982a918a4b28569cc93f7426ae39306a0cb786603445714162",
+  "purpose": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/repo",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best pr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2175,
+  "core_bytes": 8698,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/security-best-practices/SKILL.md"
+}

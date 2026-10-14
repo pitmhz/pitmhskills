@@ -1,0 +1,34 @@
+{
+  "id": "cloudflare__cf-cli",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e101cac1e668ba54c33fe3afd89f91d64fdee74ab7256458ccde546dff51b842",
+  "purpose": "Cloudflares official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Cloudflare commands from the terminal — sign-in and profiles, cf cli search, cf schem",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Cloudflares official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Cloudflare commands from the terminal — sign-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1679,
+  "core_bytes": 6731,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/cf-cli/SKILL.md"
+}

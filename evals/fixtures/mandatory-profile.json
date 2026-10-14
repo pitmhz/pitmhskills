@@ -1,0 +1,1 @@
+{"blocked":["pocock__grill-me"],"budget":{"always_on_bytes":2048,"per_task_bytes":20480},"grill_answers":[],"mandatory":[{"guard_bytes":1800,"id":"local__cavemem","why":"repo-wide memory"}],"preferred":[],"signals_sha":"demo","stack":["bun","typescript"],"updated_at":0,"version":1}

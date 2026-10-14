@@ -1,0 +1,33 @@
+{
+  "id": "local__simple-english",
+  "tier": "B",
+  "origin": [
+    "local@simple-english"
+  ],
+  "license": "MIT",
+  "hash": "297eddd84f3bb11bc3c351c4ebacf0214b5ba9401e7aefea4d08b7b1c8dcc1d1",
+  "purpose": "Write clear, precise technical communication using ASD-STE100 Simplified Technical English principles. Use by default for technical explanations, documentation, instructions, code comments, plans, rep",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Write clear, precise technical communication using ASD-STE100 Simplified Technical English principles. Use by default for technical explanations, documentation,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 287,
+  "core_bytes": 1148,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:/Users/Mattchine/skills/simple-english/SKILL.md"
+}

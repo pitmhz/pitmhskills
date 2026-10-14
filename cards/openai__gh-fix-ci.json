@@ -1,0 +1,34 @@
+{
+  "id": "openai__gh-fix-ci",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "2e45c71cdf8690b54639c1b7aa6e4401f5db557c45b283e213d4f793cc570661",
+  "purpose": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after exp",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 930,
+  "core_bytes": 3720,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/gh-fix-ci/SKILL.md"
+}

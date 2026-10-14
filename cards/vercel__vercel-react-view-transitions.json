@@ -1,0 +1,33 @@
+{
+  "id": "vercel__vercel-react-view-transitions",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278"
+  ],
+  "license": "MIT-claimed (README/frontmatter, no LICENSE file)",
+  "hash": "a7b2831ef90e3f3a75d6380ec5532988a1d1c9b2eb431a7e67ae2cb471030f41",
+  "purpose": "Guide for implementing smooth, native-feeling animations using Reacts View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill w",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guide for implementing smooth, native-feeling animations using Reacts View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view trans"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3669,
+  "core_bytes": 14739,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/vercel/skills/react-view-transitions/SKILL.md"
+}

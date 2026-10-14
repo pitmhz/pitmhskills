@@ -1,0 +1,35 @@
+{
+  "id": "pocock__retro",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "42110f533f169026d037cf141b9f6c2752c6d914903be4758c38a68349e83e78",
+  "purpose": "Conduct a retrospective on a coding session.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Conduct a retrospective on a coding session."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1104,
+  "core_bytes": 4413,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/retro/SKILL.md"
+}

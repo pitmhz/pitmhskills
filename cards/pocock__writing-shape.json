@@ -1,0 +1,33 @@
+{
+  "id": "pocock__writing-shape",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "c13cbc364fbceefce654d9a4b0331113ff47efe90ce2523c2de23ecef63fefbd",
+  "purpose": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+  "domain": "memory",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Writing, exploit: shape raw material into an article, paragraph by paragraph."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1499,
+  "core_bytes": 6001,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/in-progress/writing-shape/SKILL.md"
+}

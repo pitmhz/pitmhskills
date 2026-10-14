@@ -1,0 +1,35 @@
+{
+  "id": "openai__security-threat-model",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "7718bb4d7d9855cdf2e90e920e0cbc489cb24ea55e2f9734fd041c53f1e04f68",
+  "purpose": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the use",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1410,
+  "core_bytes": 5642,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/security-threat-model/SKILL.md"
+}

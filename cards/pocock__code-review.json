@@ -1,0 +1,36 @@
+{
+  "id": "pocock__code-review",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "9e6d1b00c31e10a002ac3e5fb49014c9589166f668c62996e80a36d23ca21e70",
+  "purpose": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repos documented coding standards?) and Spec (does the code match what ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repos documented coding standar"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1683,
+  "core_bytes": 6759,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/code-review/SKILL.md"
+}

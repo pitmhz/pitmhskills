@@ -1,0 +1,35 @@
+{
+  "id": "pocock__scaffold-exercises",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "de28db7a0954db55c11ba1e3cc0fd4c037bf0f5cb8313cb292e319bcce47f424",
+  "purpose": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course sect",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exe"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 924,
+  "core_bytes": 3695,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/misc/scaffold-exercises/SKILL.md"
+}

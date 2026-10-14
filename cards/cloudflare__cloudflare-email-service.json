@@ -1,0 +1,34 @@
+{
+  "id": "cloudflare__cloudflare-email-service",
+  "tier": "B",
+  "origin": [
+    "cloudflare/skills@53395984c3ea1925d00fce03b266112302f050e6"
+  ],
+  "license": "Apache-2.0",
+  "hash": "badef8a71cc0f7196b5e4049706c10d6546aab85b230e581eedbfa5fde2c2e3e",
+  "purpose": "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1669,
+  "core_bytes": 6692,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/cloudflare/skills/cloudflare-email-service/SKILL.md"
+}

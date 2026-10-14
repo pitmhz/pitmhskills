@@ -1,0 +1,35 @@
+{
+  "id": "openai__migrate-to-codex",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "b41905a5b7f0bee55ac4fcd372fdd9c5f0641378e56731b34ad283e4d1bbf872",
+  "purpose": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2011,
+  "core_bytes": 8053,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/migrate-to-codex/SKILL.md"
+}

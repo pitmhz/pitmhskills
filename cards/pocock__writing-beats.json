@@ -1,0 +1,34 @@
+{
+  "id": "pocock__writing-beats",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621",
+  "purpose": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1229,
+  "core_bytes": 4922,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/in-progress/writing-beats/SKILL.md"
+}

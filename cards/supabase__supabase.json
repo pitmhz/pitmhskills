@@ -1,0 +1,38 @@
+{
+  "id": "supabase__supabase",
+  "tier": "A",
+  "origin": [
+    "supabase/agent-skills@c9be0e931b7930f7d02126d04774d904c381e7d7"
+  ],
+  "license": "MIT",
+  "hash": "44f4cfefb57751abf9288fb2920de621c748964de1301db627dea725e187bccf",
+  "purpose": "Supabase product surface: Auth, CLI, client libraries, Edge Functions, Realtime, Storage, and Supabase debugging.",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Working with Supabase Auth (login, JWT, cookies, RLS surprises from auth claims)",
+    "Using Supabase CLI, MCP server, client libraries, Edge Functions, Realtime, or Storage",
+    "Debugging Supabase project errors: permission denied, schema cache, timeouts, logs"
+  ],
+  "do_not_use_when": [
+    "Plain Postgres SQL rules, schema authoring, or RLS policy writing -> supabase-postgres-best-practices",
+    "UI, design, or frontend work",
+    "GPU, CUDA, or ML model work"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Supabase product surface (Auth, CLI, JS libs) -> this. Postgres rules and SQL/RLS authoring -> supabase-postgres-best-practices.",
+  "cluster": "supabase-platform",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3607,
+  "core_bytes": 14462,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/supabase/skills/supabase/SKILL.md"
+}

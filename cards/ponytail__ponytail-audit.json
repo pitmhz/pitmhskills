@@ -1,0 +1,35 @@
+{
+  "id": "ponytail__ponytail-audit",
+  "tier": "B",
+  "origin": [
+    "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
+  ],
+  "license": "MIT",
+  "hash": "3ab632ce4695de214dafe4db13d6f939e1c4be328bd0754ea751dc28b70be554",
+  "purpose": ">",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1380,
+  "core_bytes": 5520,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/ponytail/skills/ponytail-audit/SKILL.md"
+}

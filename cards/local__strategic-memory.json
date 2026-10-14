@@ -1,0 +1,35 @@
+{
+  "id": "local__strategic-memory",
+  "tier": "B",
+  "origin": [
+    "local@strategic-memory"
+  ],
+  "license": "MIT",
+  "hash": "a38d972255f065f82cb5e2e7b10d916665e4efe4d7ac6c158f69f5f565cfc471",
+  "purpose": "Offline episodic & semantic vector memory engine. Search past architectural decisions, grill-me histories, and git digests before starting tasks. Export session summaries, ADRs, and commits to offline",
+  "domain": "backend-data",
+  "task_types": [
+    "refactor",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Offline episodic & semantic vector memory engine. Search past architectural decisions, grill-me histories, and git digests before starting tasks. Export session"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 829,
+  "core_bytes": 3315,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:/Users/Mattchine/skills/strategic-memory/SKILL.md"
+}

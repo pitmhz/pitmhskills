@@ -1,0 +1,33 @@
+{
+  "id": "openai__cli-creator",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "cadfb50f883f1214654875b00c03096449ed8c365afd9bcae26d66789c28cf9e",
+  "purpose": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line too",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2666,
+  "core_bytes": 10662,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/cli-creator/SKILL.md"
+}

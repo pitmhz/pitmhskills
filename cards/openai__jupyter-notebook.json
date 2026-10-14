@@ -1,0 +1,34 @@
+{
+  "id": "openai__jupyter-notebook",
+  "tier": "B",
+  "origin": [
+    "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
+  ],
+  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "hash": "a2ed923c4af32d850eff94df5297a358654e966c8bcd526c6718d26921a87931",
+  "purpose": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` t",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and r"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1066,
+  "core_bytes": 4261,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/openai/skills/.curated/jupyter-notebook/SKILL.md"
+}

@@ -1,0 +1,54 @@
+# pinned upstreams - update via `bun src/cli.ts ingest --bump <id>`
+# ref must be a full commit SHA, never a branch name
+sources:
+  - id: anthropic
+    repo: anthropics/skills
+    ref: dbd4588f9e1033efb41dad4bef2f7947c8993d44
+    glob: "skills/**/SKILL.md"
+    license_allow: ["Apache-2.0", "MIT", "CC-BY-4.0"]
+  - id: vercel
+    repo: vercel-labs/agent-skills
+    ref: 063bee94c3f4df8453406c830b0a7df0f2860278
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: openai
+    repo: openai/skills
+    ref: 49f948faa9258a0c61caceaf225e179651397431
+    glob: "skills/**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: cloudflare
+    repo: cloudflare/skills
+    ref: 53395984c3ea1925d00fce03b266112302f050e6
+    glob: "skills/**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: nvidia
+    repo: NVIDIA/skills
+    ref: e0e9a6d9b1a1308af40f5b804d21e4acf180f022
+    glob: "skills/**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0", "BSD-3-Clause"]
+  - id: pocock
+    repo: mattpocock/skills
+    ref: 49dd158d1076134a641b33efb035946536778336
+    glob: "skills/**/SKILL.md"
+    license_allow: ["MIT"]
+  - id: supabase
+    repo: supabase/agent-skills
+    ref: c9be0e931b7930f7d02126d04774d904c381e7d7
+    glob: "skills/**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: local
+    repo: null
+    ref: local
+    path: ../skills
+    glob: "*/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0", "ISC", "CC-BY-4.0"]
+  - id: antislop
+    repo: jalaalrd/anti-ai-slop-writing
+    ref: 63255f9bbb75a265dc5786a04535cd033f487756
+    glob: "**/*.md"
+    license_allow: ["MIT"]
+  - id: ponytail
+    repo: DietrichGebert/ponytail
+    ref: 2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]

@@ -1,0 +1,35 @@
+{
+  "id": "pocock__improve-codebase-architecture",
+  "tier": "B",
+  "origin": [
+    "mattpocock/skills@49dd158d1076134a641b33efb035946536778336"
+  ],
+  "license": "MIT",
+  "hash": "f053ff6d7a70f10bd0104e368f7e664b23ea6378898e305bf027e8864757822f",
+  "purpose": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+  "domain": "workflow",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1518,
+  "core_bytes": 6071,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/pocock/skills/engineering/improve-codebase-architecture/SKILL.md"
+}

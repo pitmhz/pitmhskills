@@ -1,0 +1,37 @@
+{
+  "id": "local__skill-finder",
+  "tier": "A",
+  "origin": [
+    "local@skill-finder"
+  ],
+  "license": "MIT",
+  "hash": "7787010228df354645f25e0e33729cfa28f84142bcd54f9b5657b4d6d4361807",
+  "purpose": "find candidate skills on the web BEFORE adding; output ranked candidates, never installs",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Finding candidate skills on the web with skills.sh search before adding",
+    "Discovering agent skills for a topic via GitHub SKILL.md repo search",
+    "Ranking new skill candidates with license, installs, and freshness for user confirmation"
+  ],
+  "do_not_use_when": [
+    "Installing or adding anything (candidates go to user/skillhub add for confirmation)",
+    "Answering the underlying task itself (use that domain skill, not the finder)",
+    "Static single-page fetch (use webfetch)"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Finding NEW skills to add -> this. Picking AMONG registered skills -> skill-router. Stealth browsing or scraping pages -> obscura.",
+  "cluster": "skill-discovery",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 234,
+  "core_bytes": 933,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:/Users/Mattchine/skills/skill-finder/SKILL.md"
+}

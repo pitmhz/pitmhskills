@@ -1,0 +1,34 @@
+{
+  "id": "ponytail__ponytail-gain",
+  "tier": "B",
+  "origin": [
+    "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
+  ],
+  "license": "MIT",
+  "hash": "ce19da91423c46c89205c5089aeb8bf40de3e6432c87f213a4bf180fb9919686",
+  "purpose": ">",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 521,
+  "core_bytes": 2259,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/ponytail/skills/ponytail-gain/SKILL.md"
+}

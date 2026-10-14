@@ -1,0 +1,47 @@
+# Golden grill cases: buildInitQuestions(pair, maxQ) -> qid contains substring,
+# then applyGrillAnswer(profile, question, answer) pins expect_constrains to mandatory.
+# Disambiguator/purpose text is read live from cards/ at eval time; ids below are real.
+- pair: [anthropic__frontend-design, pocock__grill-with-docs]
+  maxQ: 5
+  expect_qid_contains: init:anthropic__frontend-design-vs-pocock__grill-with-docs
+  answer: "1"
+  expect_constrains: [anthropic__frontend-design]
+  note: grill-vs-design pair, both cards carry disambiguators
+- pair: [pocock__grill-with-docs, anthropic__frontend-design]
+  maxQ: 5
+  expect_qid_contains: init:anthropic__frontend-design-vs-pocock__grill-with-docs
+  answer: "1"
+  expect_constrains: [anthropic__frontend-design]
+  note: input order must not matter, sort by id is deterministic
+- pair: [local__skill-router, local__strategic-memory]
+  maxQ: 5
+  expect_qid_contains: init:local__skill-router-vs-local__strategic-memory
+  answer: "1"
+  expect_constrains: [local__skill-router]
+  note: memory-vs-router pair, router card has a disambiguator
+- pair: [local__strategic-memory, local__skill-router]
+  maxQ: 5
+  expect_qid_contains: init:local__skill-router-vs-local__strategic-memory
+  answer: "2"
+  expect_constrains: [local__strategic-memory]
+  note: answering by index 2 picks the second sorted option
+- pair: [local__cavemem, local__memory-navigator]
+  maxQ: 5
+  expect_qid_contains: init:local__cavemem-vs-local__memory-navigator
+  answer: "2"
+  expect_constrains: [local__memory-navigator]
+  note: both disambiguators empty, question text must fall back to purpose
+- pair: [pocock__grill-me]
+  maxQ: 5
+  expect_qid_contains: ""
+  answer: "1"
+  expect_constrains: []
+  expect_questions: 0
+  note: single candidate yields zero questions
+- pair: [anthropic__frontend-design, pocock__grill-with-docs]
+  maxQ: 0
+  expect_qid_contains: ""
+  answer: "1"
+  expect_constrains: []
+  expect_questions: 0
+  note: maxQ 0 yields zero questions
