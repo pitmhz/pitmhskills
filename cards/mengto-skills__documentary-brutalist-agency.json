@@ -1,0 +1,114 @@
+{
+  "id": "mengto-skills__documentary-brutalist-agency",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b8e44918132ca80f165a0505ac2e5c041849b64e6ecfa9a76fd3fce97c2b6789",
+  "purpose": "Create or redesign creative agency, production studio, architecture, culture, and portfolio websites with billboard typography, hard black-and-white chapters, exposed grids, documentary imagery, irreg",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create or redesign creative agency, production studio, architecture, culture, and portfolio websites with billboard typography, hard black-and-white chapters, e"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1059,
+  "core_bytes": 4240,
+  "sections": [
+    {
+      "name": "Establish the Story",
+      "bytes": 556,
+      "when": [
+        "establish",
+        "story"
+      ]
+    },
+    {
+      "name": "Build the Visual System",
+      "bytes": 484,
+      "when": [
+        "build",
+        "visual",
+        "system"
+      ]
+    },
+    {
+      "name": "Compose the Page",
+      "bytes": 703,
+      "when": [
+        "compose",
+        "page"
+      ]
+    },
+    {
+      "name": "Implement the Documentary Collage",
+      "bytes": 517,
+      "when": [
+        "implement",
+        "documentary",
+        "collage"
+      ]
+    },
+    {
+      "name": "Implement Menu and FAQ Controls",
+      "bytes": 439,
+      "when": [
+        "implement",
+        "menu",
+        "controls"
+      ]
+    },
+    {
+      "name": "Motion Defaults",
+      "bytes": 381,
+      "when": [
+        "motion",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 403,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 274,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "establish",
+    "story",
+    "build",
+    "visual",
+    "system",
+    "compose",
+    "page",
+    "implement",
+    "collage",
+    "menu",
+    "motion",
+    "defaults"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\documentary-brutalist-agency\\SKILL.md"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "nvidia__mcore-split-pr",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "54ccb0324f62dac85e2fae5d20a759457774697d34f8574f5f1b9fdd1642b105",
+  "purpose": "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1141,
+  "core_bytes": 4566,
+  "sections": [
+    {
+      "name": "Answer-First Constraints",
+      "bytes": 794,
+      "when": [
+        "answer",
+        "first",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2223,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Analyze the PR",
+      "bytes": 642,
+      "when": [
+        "analyze"
+      ]
+    },
+    {
+      "name": "2. Propose a split that minimizes reviewer groups per PR",
+      "bytes": 1032,
+      "when": [
+        "propose",
+        "split",
+        "minimizes",
+        "reviewer",
+        "groups"
+      ]
+    },
+    {
+      "name": "3. Execute the split (after user approval)",
+      "bytes": 534,
+      "when": [
+        "execute",
+        "split",
+        "after",
+        "user",
+        "approval"
+      ]
+    },
+    {
+      "name": "Important guidelines",
+      "bytes": 722,
+      "when": [
+        "important",
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/mcore-split-pr/SKILL.md",
+  "curated": true
+}

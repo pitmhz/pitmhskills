@@ -1,0 +1,138 @@
+{
+  "id": "nvidia__foundationpose-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d29ee3f45ad7ca5cf747c8978f5ceda7a929a2a921c486a6800694e5a6613380",
+  "purpose": "Adapt BOP datasets, run the FoundationPose perception pipeline with TAO depth, and evaluate or re-score pose results. Use for dataset runs and result comparisons; environment installation belongs to f",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Adapt BOP datasets, run the FoundationPose perception pipeline with TAO depth, and evaluate or re-score pose results. Use for dataset runs and result comparison"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2493,
+  "core_bytes": 9970,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 357,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 1512,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 6836,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Resolve the task and inputs",
+      "bytes": 900,
+      "when": [
+        "resolve",
+        "task",
+        "inputs"
+      ]
+    },
+    {
+      "name": "2. Adapt before building or checking an engine",
+      "bytes": 1019,
+      "when": [
+        "adapt",
+        "before",
+        "building",
+        "checking",
+        "engine"
+      ]
+    },
+    {
+      "name": "3. Validate inputs and prepare GT caches",
+      "bytes": 909,
+      "when": [
+        "validate",
+        "inputs",
+        "prepare",
+        "caches"
+      ]
+    },
+    {
+      "name": "4. Run only the work needed",
+      "bytes": 1600,
+      "when": [
+        "work",
+        "needed"
+      ]
+    },
+    {
+      "name": "5. Re-score without repeating inference",
+      "bytes": 770,
+      "when": [
+        "score",
+        "repeating",
+        "inference"
+      ]
+    },
+    {
+      "name": "6. Verify provenance and interpret results",
+      "bytes": 1104,
+      "when": [
+        "verify",
+        "provenance",
+        "interpret",
+        "results"
+      ]
+    },
+    {
+      "name": "7. Batch runs",
+      "bytes": 515,
+      "when": [
+        "batch",
+        "runs"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 261,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Troubleshooting and limitations",
+      "bytes": 566,
+      "when": [
+        "troubleshooting",
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/foundationpose-pipeline/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "antfu-skills__antfu-create-pr",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "171598c116abadb3e27aed01f4f834775fe8640df6b829da0151e5c57fb2b7f6",
+  "purpose": "Create a reviewable GitHub pull request from the current branch with a Conventional Commits title, a concise evidence-based body, and before/after screenshots for UI changes. Use when asked to open, c",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create a reviewable GitHub pull request from the current branch with a Conventional Commits title, a concise evidence-based body, and before/after screenshots f",
+    "there are real failure modes, migrations, or external effects."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1428,
+  "core_bytes": 5711,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1592,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Title",
+      "bytes": 583,
+      "when": [
+        "title"
+      ]
+    },
+    {
+      "name": "Commits",
+      "bytes": 912,
+      "when": [
+        "commits"
+      ]
+    },
+    {
+      "name": "Body",
+      "bytes": 1214,
+      "when": [
+        "body"
+      ]
+    },
+    {
+      "name": "Rules",
+      "bytes": 783,
+      "when": [
+        "rules"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "good",
+    "each",
+    "commit",
+    "self",
+    "contained",
+    "everything",
+    "mixed",
+    "together",
+    "rules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\antfu-create-pr\\SKILL.md"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "awesome-copilot__java-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "20fa88231a723885af2bf3a65d38f6095bdbfa0b51641bb8df1d0cfd87c5c111",
+  "purpose": "Use this skill when the user wants to create a Model Context Protocol (MCP) server in Java or in a Spring Boot app. Also use it when the user wants AI agents, such as GitHub Copilot or Claude, to use ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when the user wants to create a Model Context Protocol (MCP) server in Java or in a Spring Boot app. Also use it when the user wants AI agents, s"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3363,
+  "core_bytes": 13476,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 9665,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Create the project",
+      "bytes": 3029,
+      "when": [
+        "step",
+        "create",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 2: Write the server",
+      "bytes": 3006,
+      "when": [
+        "step",
+        "write",
+        "server"
+      ]
+    },
+    {
+      "name": "Step 3: Write the tests",
+      "bytes": 2333,
+      "when": [
+        "step",
+        "write",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 4: Build until the tests pass",
+      "bytes": 294,
+      "when": [
+        "step",
+        "build",
+        "until",
+        "tests",
+        "pass"
+      ]
+    },
+    {
+      "name": "Step 5: Configure the client",
+      "bytes": 768,
+      "when": [
+        "step",
+        "configure",
+        "client"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2715,
+      "when": [
+        "gotchas"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\java-mcp-server-generator\\SKILL.md"
+}

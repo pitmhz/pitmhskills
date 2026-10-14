@@ -1,0 +1,123 @@
+{
+  "id": "awesome-copilot__openapi-to-application-code",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4ac9c35e14140129df922091b62288258887e5d0efc0760ab390b3b248a35c16",
+  "purpose": "Generate a complete, production-ready application from an OpenAPI specification",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generate a complete, production-ready application from an OpenAPI specification"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1144,
+  "core_bytes": 4744,
+  "sections": [
+    {
+      "name": "Input Requirements",
+      "bytes": 460,
+      "when": [
+        "input",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Generation Process",
+      "bytes": 1338,
+      "when": [
+        "generation",
+        "process"
+      ]
+    },
+    {
+      "name": "Step 1: Analyze the OpenAPI Specification",
+      "bytes": 329,
+      "when": [
+        "step",
+        "analyze",
+        "openapi",
+        "specification"
+      ]
+    },
+    {
+      "name": "Step 2: Design Application Architecture",
+      "bytes": 313,
+      "when": [
+        "step",
+        "design",
+        "application",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Step 3: Generate Application Code",
+      "bytes": 388,
+      "when": [
+        "step",
+        "generate",
+        "application",
+        "code"
+      ]
+    },
+    {
+      "name": "Step 4: Add Supporting Files",
+      "bytes": 285,
+      "when": [
+        "step",
+        "supporting",
+        "files"
+      ]
+    },
+    {
+      "name": "Output Structure",
+      "bytes": 1191,
+      "when": [
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "Best Practices Applied",
+      "bytes": 677,
+      "when": [
+        "best",
+        "practices",
+        "applied"
+      ]
+    },
+    {
+      "name": "Next Steps",
+      "bytes": 344,
+      "when": [
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "Questions to Ask if Needed",
+      "bytes": 405,
+      "when": [
+        "questions",
+        "needed"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\openapi-to-application-code\\SKILL.md"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "antfu-skills__pnpm",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "326c03a26ac2fac42b86939521308bae155c038dd1787cd4e5424c93e90c7dbc",
+  "purpose": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces via pnpm-workspace.yaml, or managing dependencies with catalogs, patches, ove",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces via pnpm-workspace.yaml, or managing "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1291,
+  "core_bytes": 5172,
+  "sections": [
+    {
+      "name": "Core",
+      "bytes": 687,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 2070,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 580,
+      "when": [
+        "best",
+        "practices"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "features",
+    "best",
+    "practices"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\pnpm\\SKILL.md"
+}

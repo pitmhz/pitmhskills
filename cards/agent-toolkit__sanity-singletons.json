@@ -28,7 +28,90 @@
   "conflicts_with": [],
   "body_tokens": 4821,
   "core_bytes": 19341,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 499,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Registering a singleton",
+      "bytes": 3237,
+      "when": [
+        "registering",
+        "singleton"
+      ]
+    },
+    {
+      "name": "What Studio does automatically",
+      "bytes": 2493,
+      "when": [
+        "studio",
+        "automatically"
+      ]
+    },
+    {
+      "name": "Surfacing singletons in Structure Tool",
+      "bytes": 3120,
+      "when": [
+        "surfacing",
+        "singletons",
+        "structure",
+        "tool"
+      ]
+    },
+    {
+      "name": "Shared schema types and the \"create new\" escape hatch",
+      "bytes": 1629,
+      "when": [
+        "shared",
+        "schema",
+        "types",
+        "create",
+        "escape",
+        "hatch"
+      ]
+    },
+    {
+      "name": "Reading singletons from plugins",
+      "bytes": 283,
+      "when": [
+        "reading",
+        "singletons",
+        "plugins"
+      ]
+    },
+    {
+      "name": "Migrating a userland singleton setup",
+      "bytes": 1651,
+      "when": [
+        "migrating",
+        "userland",
+        "singleton",
+        "setup"
+      ]
+    },
+    {
+      "name": "Migrating from `sanity-plugin-singleton-management`",
+      "bytes": 3722,
+      "when": [
+        "migrating",
+        "sanity",
+        "plugin",
+        "singleton",
+        "management"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 1573,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-singletons\\SKILL.md"
 }

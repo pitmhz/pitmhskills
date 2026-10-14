@@ -1,0 +1,210 @@
+{
+  "id": "awesome-copilot__vcpkg",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c9568ce0fd8c7afbff4dc242af9b96290651352bdc83ed18c5db9c63cabc021c",
+  "purpose": "Guide for setting up vcpkg in C++ projects, managing dependency versions, and cross-compiling. Covers manifest initialization, CMake and Visual Studio integration, classic-to-manifest migration, versi",
+  "domain": "workflow",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guide for setting up vcpkg in C++ projects, managing dependency versions, and cross-compiling. Covers manifest initialization, CMake and Visual Studio integrati"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2578,
+  "core_bytes": 10323,
+  "sections": [
+    {
+      "name": "Additional References (load on demand)",
+      "bytes": 1103,
+      "when": [
+        "additional",
+        "references",
+        "load",
+        "demand"
+      ]
+    },
+    {
+      "name": "Important Behavioral Rules",
+      "bytes": 1759,
+      "when": [
+        "important",
+        "behavioral",
+        "rules"
+      ]
+    },
+    {
+      "name": "Classic vs. Manifest Mode",
+      "bytes": 862,
+      "when": [
+        "classic",
+        "manifest",
+        "mode"
+      ]
+    },
+    {
+      "name": "Visual Studio Environment",
+      "bytes": 670,
+      "when": [
+        "visual",
+        "studio",
+        "environment"
+      ]
+    },
+    {
+      "name": "Shell Environment Variable Syntax",
+      "bytes": 196,
+      "when": [
+        "shell",
+        "environment",
+        "variable",
+        "syntax"
+      ]
+    },
+    {
+      "name": "Project Setup",
+      "bytes": 2227,
+      "when": [
+        "project",
+        "setup"
+      ]
+    },
+    {
+      "name": "Initializing vcpkg in a New Project (Manifest Mode)",
+      "bytes": 566,
+      "when": [
+        "initializing",
+        "vcpkg",
+        "project",
+        "manifest",
+        "mode"
+      ]
+    },
+    {
+      "name": "Adding vcpkg to an Existing Visual Studio Solution",
+      "bytes": 1003,
+      "when": [
+        "adding",
+        "vcpkg",
+        "existing",
+        "visual",
+        "studio",
+        "solution"
+      ]
+    },
+    {
+      "name": "Classic-to-Manifest Migration",
+      "bytes": 640,
+      "when": [
+        "classic",
+        "manifest",
+        "migration"
+      ]
+    },
+    {
+      "name": "Installing Dependencies",
+      "bytes": 1769,
+      "when": [
+        "installing",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Installing with Features (e.g., curl with SSL + HTTP2)",
+      "bytes": 548,
+      "when": [
+        "installing",
+        "features",
+        "curl",
+        "http2"
+      ]
+    },
+    {
+      "name": "Installing for a Specific Triplet",
+      "bytes": 446,
+      "when": [
+        "installing",
+        "specific",
+        "triplet"
+      ]
+    },
+    {
+      "name": "Bulk-Adding Multiple Dependencies",
+      "bytes": 316,
+      "when": [
+        "bulk",
+        "adding",
+        "multiple",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Dev-Only Dependencies",
+      "bytes": 431,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Version Management",
+      "bytes": 1149,
+      "when": [
+        "version",
+        "management"
+      ]
+    },
+    {
+      "name": "Setting Versions for Individual Dependencies",
+      "bytes": 1126,
+      "when": [
+        "setting",
+        "versions",
+        "individual",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Cross-Platform",
+      "bytes": 1491,
+      "when": [
+        "cross",
+        "platform"
+      ]
+    },
+    {
+      "name": "Cross-Compiling for arm64",
+      "bytes": 854,
+      "when": [
+        "cross",
+        "compiling",
+        "arm64"
+      ]
+    },
+    {
+      "name": "Building for Android (NDK)",
+      "bytes": 618,
+      "when": [
+        "building",
+        "android"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\vcpkg\\SKILL.md"
+}

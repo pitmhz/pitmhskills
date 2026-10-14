@@ -29,6 +29,10 @@
   "body_tokens": 160,
   "core_bytes": 639,
   "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/implement/SKILL.md"
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/implement/SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__nested-container-clean-agency",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "9ff7c08cd199bf199f9b855ebfff072847d299e8fee70c0d21d2ed81dc0ea796",
+  "purpose": "Create a clean agency design system built from nested containers, with an outer editorial shell, inset dark feature blocks, rounded premium cards, and restrained accent color.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a clean agency design system built from nested containers, with an outer editorial shell, inset dark feature blocks, rounded premium cards, and restraine"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1016,
+  "core_bytes": 4062,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 194,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 15,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 456,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Visual target",
+      "bytes": 783,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "Implementation guidance",
+      "bytes": 828,
+      "when": [
+        "implementation",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Recommended patterns",
+      "bytes": 573,
+      "when": [
+        "recommended",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Tuning knobs",
+      "bytes": 547,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 384,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "container",
+    "skill",
+    "workflow",
+    "scope",
+    "visual",
+    "target",
+    "implementation",
+    "guidance",
+    "recommended",
+    "patterns",
+    "tuning",
+    "knobs"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\nested-container-clean-agency\\SKILL.md"
+}

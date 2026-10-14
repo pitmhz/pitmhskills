@@ -1,0 +1,138 @@
+{
+  "id": "awesome-copilot__azure-resource-health-diagnose",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b23ce684d839475f5ae397ce6d1973106f481d4a73d40bc1bebb45012a6ff436",
+  "purpose": "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2859,
+  "core_bytes": 11501,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 292,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow Steps",
+      "bytes": 9849,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Get Azure Best Practices",
+      "bytes": 419,
+      "when": [
+        "step",
+        "azure",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Step 2: Resource Discovery & Identification",
+      "bytes": 1351,
+      "when": [
+        "step",
+        "resource",
+        "discovery",
+        "identification"
+      ]
+    },
+    {
+      "name": "Step 3: Health Status Assessment",
+      "bytes": 824,
+      "when": [
+        "step",
+        "health",
+        "status",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Step 4: Log & Telemetry Analysis",
+      "bytes": 2082,
+      "when": [
+        "step",
+        "telemetry",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 5: Issue Classification & Root Cause Analysis",
+      "bytes": 1119,
+      "when": [
+        "step",
+        "issue",
+        "classification",
+        "root",
+        "cause",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 6: Generate Remediation Plan",
+      "bytes": 890,
+      "when": [
+        "step",
+        "generate",
+        "remediation",
+        "plan"
+      ]
+    },
+    {
+      "name": "Step 7: User Confirmation & Report Generation",
+      "bytes": 3145,
+      "when": [
+        "step",
+        "user",
+        "confirmation",
+        "report",
+        "generation"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 493,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 426,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-resource-health-diagnose\\SKILL.md"
+}

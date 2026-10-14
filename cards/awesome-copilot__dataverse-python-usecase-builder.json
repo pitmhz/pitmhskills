@@ -1,0 +1,221 @@
+{
+  "id": "awesome-copilot__dataverse-python-usecase-builder",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ce508ea0fc88dd380fe8b0865c2555d5cca7b4edc4ed215a63547a73b512c5c2",
+  "purpose": "Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1684,
+  "core_bytes": 6753,
+  "sections": [
+    {
+      "name": "Phase 1: Requirement Analysis",
+      "bytes": 434,
+      "when": [
+        "phase",
+        "requirement",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Phase 2: Data Model Design",
+      "bytes": 606,
+      "when": [
+        "phase",
+        "data",
+        "model",
+        "design"
+      ]
+    },
+    {
+      "name": "Phase 3: Pattern Selection",
+      "bytes": 1086,
+      "when": [
+        "phase",
+        "pattern",
+        "selection"
+      ]
+    },
+    {
+      "name": "Pattern 1: Transactional (CRUD Operations)",
+      "bytes": 192,
+      "when": [
+        "pattern",
+        "transactional",
+        "crud",
+        "operations"
+      ]
+    },
+    {
+      "name": "Pattern 2: Batch Processing",
+      "bytes": 155,
+      "when": [
+        "pattern",
+        "batch",
+        "processing"
+      ]
+    },
+    {
+      "name": "Pattern 3: Query & Analytics",
+      "bytes": 159,
+      "when": [
+        "pattern",
+        "query",
+        "analytics"
+      ]
+    },
+    {
+      "name": "Pattern 4: File Management",
+      "bytes": 162,
+      "when": [
+        "pattern",
+        "file",
+        "management"
+      ]
+    },
+    {
+      "name": "Pattern 5: Scheduled Jobs",
+      "bytes": 183,
+      "when": [
+        "pattern",
+        "scheduled",
+        "jobs"
+      ]
+    },
+    {
+      "name": "Pattern 6: Real-time Integration",
+      "bytes": 157,
+      "when": [
+        "pattern",
+        "real",
+        "time",
+        "integration"
+      ]
+    },
+    {
+      "name": "Phase 4: Complete Implementation Template",
+      "bytes": 1353,
+      "when": [
+        "phase",
+        "complete",
+        "implementation",
+        "template"
+      ]
+    },
+    {
+      "name": "Phase 5: Optimization Recommendations",
+      "bytes": 738,
+      "when": [
+        "phase",
+        "optimization",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "For High-Volume Operations",
+      "bytes": 208,
+      "when": [
+        "high",
+        "volume",
+        "operations"
+      ]
+    },
+    {
+      "name": "For Complex Queries",
+      "bytes": 233,
+      "when": [
+        "complex",
+        "queries"
+      ]
+    },
+    {
+      "name": "For Large Data Transfers",
+      "bytes": 255,
+      "when": [
+        "large",
+        "data",
+        "transfers"
+      ]
+    },
+    {
+      "name": "Category 1: Customer Relationship Management",
+      "bytes": 148,
+      "when": [
+        "category",
+        "customer",
+        "relationship",
+        "management"
+      ]
+    },
+    {
+      "name": "Category 2: Document Management",
+      "bytes": 141,
+      "when": [
+        "category",
+        "document",
+        "management"
+      ]
+    },
+    {
+      "name": "Category 3: Data Integration",
+      "bytes": 153,
+      "when": [
+        "category",
+        "data",
+        "integration"
+      ]
+    },
+    {
+      "name": "Category 4: Business Process",
+      "bytes": 137,
+      "when": [
+        "category",
+        "business",
+        "process"
+      ]
+    },
+    {
+      "name": "Category 5: Reporting & Analytics",
+      "bytes": 134,
+      "when": [
+        "category",
+        "reporting",
+        "analytics"
+      ]
+    },
+    {
+      "name": "Category 6: Compliance & Audit",
+      "bytes": 1070,
+      "when": [
+        "category",
+        "compliance",
+        "audit"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dataverse-python-usecase-builder\\SKILL.md"
+}

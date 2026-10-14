@@ -1,0 +1,129 @@
+{
+  "id": "mengto-skills__illustration-isometric-mono",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "73cb69db104560350cf75cf7d65a38a93cbe8af3aa5a2919ead9eaae39ae06bd",
+  "purpose": "Draws true-isometric diorama illustrations of developer and design workspaces in one green ramp, generated as SVG with a bundled scene kit. Traits: one rounded off-white slab with a faceted bevelled e",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Draws true-isometric diorama illustrations of developer and design workspaces in one green ramp, generated as SVG with a bundled scene kit. Traits: one rounded "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5008,
+  "core_bytes": 20129,
+  "sections": [
+    {
+      "name": "The look in one sentence",
+      "bytes": 258,
+      "when": [
+        "look",
+        "sentence"
+      ]
+    },
+    {
+      "name": "Palette",
+      "bytes": 1676,
+      "when": [
+        "palette"
+      ]
+    },
+    {
+      "name": "Line and fill",
+      "bytes": 1238,
+      "when": [
+        "line",
+        "fill"
+      ]
+    },
+    {
+      "name": "Characters",
+      "bytes": 1141,
+      "when": [
+        "characters"
+      ]
+    },
+    {
+      "name": "Decor and props",
+      "bytes": 1602,
+      "when": [
+        "decor",
+        "props"
+      ]
+    },
+    {
+      "name": "Composition",
+      "bytes": 1961,
+      "when": [
+        "composition"
+      ]
+    },
+    {
+      "name": "Techniques",
+      "bytes": 3778,
+      "when": [
+        "techniques"
+      ]
+    },
+    {
+      "name": "Failure modes",
+      "bytes": 2560,
+      "when": [
+        "failure",
+        "modes"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 929,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1795,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1241,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "mono",
+    "look",
+    "sentence",
+    "palette",
+    "fill",
+    "characters",
+    "decor",
+    "props",
+    "composition",
+    "techniques",
+    "failure",
+    "modes"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\illustration\\illustration-isometric-mono\\SKILL.md"
+}

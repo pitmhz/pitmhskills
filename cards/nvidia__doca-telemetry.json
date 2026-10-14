@@ -1,0 +1,96 @@
+{
+  "id": "nvidia__doca-telemetry",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9acfdd4ad763b80d818a2c2bb03c280c578ac34d6550b69d542e84ee40dd6f3d",
+  "purpose": "Use this skill to read DOCA hardware-counter events from a `doca_dev` through the per-domain Telemetry reader libraries: `doca_telemetry_pcc`, `_dpa`, `_diag`, `_adp_retx`, `_phy`, and `_pci`. It cove",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill to read DOCA hardware-counter events from a `doca_dev` through the per-domain Telemetry reader libraries: `doca_telemetry_pcc`, `_dpa`, `_diag`, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2829,
+  "core_bytes": 11353,
+  "sections": [
+    {
+      "name": "Audience",
+      "bytes": 1616,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 3079,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 2035,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 1385,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 145,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 147,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 91,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-telemetry\\SKILL.md",
+  "curated": true
+}

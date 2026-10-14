@@ -1,0 +1,208 @@
+{
+  "id": "awesome-copilot__create-implementation-plan",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "11caba1048cbdbfca6f7ce13a0e0580d6e9d943f7b775ee24978ece1d3334066",
+  "purpose": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2091,
+  "core_bytes": 8366,
+  "sections": [
+    {
+      "name": "Primary Directive",
+      "bytes": 229,
+      "when": [
+        "primary",
+        "directive"
+      ]
+    },
+    {
+      "name": "Execution Context",
+      "bytes": 222,
+      "when": [
+        "execution",
+        "context"
+      ]
+    },
+    {
+      "name": "Core Requirements",
+      "bytes": 296,
+      "when": [
+        "core",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Plan Structure Requirements",
+      "bytes": 237,
+      "when": [
+        "plan",
+        "structure",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Phase Architecture",
+      "bytes": 337,
+      "when": [
+        "phase",
+        "architecture"
+      ]
+    },
+    {
+      "name": "AI-Optimized Implementation Standards",
+      "bytes": 548,
+      "when": [
+        "optimized",
+        "implementation",
+        "standards"
+      ]
+    },
+    {
+      "name": "Output File Specifications",
+      "bytes": 378,
+      "when": [
+        "output",
+        "file",
+        "specifications"
+      ]
+    },
+    {
+      "name": "Mandatory Template Structure",
+      "bytes": 251,
+      "when": [
+        "mandatory",
+        "template",
+        "structure"
+      ]
+    },
+    {
+      "name": "Template Validation Rules",
+      "bytes": 1011,
+      "when": [
+        "template",
+        "validation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Identifier Uniqueness Check",
+      "bytes": 1363,
+      "when": [
+        "identifier",
+        "uniqueness",
+        "check"
+      ]
+    },
+    {
+      "name": "Status",
+      "bytes": 1049,
+      "when": [
+        "status"
+      ]
+    },
+    {
+      "name": "1. Requirements & Constraints",
+      "bytes": 384,
+      "when": [
+        "requirements",
+        "constraints"
+      ]
+    },
+    {
+      "name": "2. Implementation Steps",
+      "bytes": 726,
+      "when": [
+        "implementation",
+        "steps"
+      ]
+    },
+    {
+      "name": "Implementation Phase 1",
+      "bytes": 356,
+      "when": [
+        "implementation",
+        "phase"
+      ]
+    },
+    {
+      "name": "Implementation Phase 2",
+      "bytes": 342,
+      "when": [
+        "implementation",
+        "phase"
+      ]
+    },
+    {
+      "name": "3. Alternatives",
+      "bytes": 270,
+      "when": [
+        "alternatives"
+      ]
+    },
+    {
+      "name": "4. Dependencies",
+      "bytes": 205,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "5. Files",
+      "bytes": 166,
+      "when": [
+        "files"
+      ]
+    },
+    {
+      "name": "6. Testing",
+      "bytes": 181,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "7. Risks & Assumptions",
+      "bytes": 162,
+      "when": [
+        "risks",
+        "assumptions"
+      ]
+    },
+    {
+      "name": "8. Related Specifications / Further Reading",
+      "bytes": 119,
+      "when": [
+        "related",
+        "specifications",
+        "further",
+        "reading"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-implementation-plan\\SKILL.md"
+}

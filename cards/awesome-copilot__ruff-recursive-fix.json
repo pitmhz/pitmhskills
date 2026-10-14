@@ -1,0 +1,161 @@
+{
+  "id": "awesome-copilot__ruff-recursive-fix",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "92151e328fbccab628de9496797fce39636555e65dd7434687751673b4b57f8c",
+  "purpose": "Run Ruff checks with optional scope and rule overrides, apply safe and unsafe autofixes iteratively, review each change, and resolve remaining findings with targeted edits or user decisions.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Run Ruff checks with optional scope and rule overrides, apply safe and unsafe autofixes iteratively, review each change, and resolve remaining findings with tar"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1549,
+  "core_bytes": 6193,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 615,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 736,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Command Construction",
+      "bytes": 1352,
+      "when": [
+        "command",
+        "construction"
+      ]
+    },
+    {
+      "name": "0. Resolve Ruff Runner",
+      "bytes": 1293,
+      "when": [
+        "resolve",
+        "ruff",
+        "runner"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2296,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Baseline Analysis",
+      "bytes": 216,
+      "when": [
+        "baseline",
+        "analysis"
+      ]
+    },
+    {
+      "name": "2. Safe Autofix Pass",
+      "bytes": 271,
+      "when": [
+        "safe",
+        "autofix",
+        "pass"
+      ]
+    },
+    {
+      "name": "3. Unsafe Autofix Pass",
+      "bytes": 310,
+      "when": [
+        "unsafe",
+        "autofix",
+        "pass"
+      ]
+    },
+    {
+      "name": "4. Manual Remediation Pass",
+      "bytes": 231,
+      "when": [
+        "manual",
+        "remediation",
+        "pass"
+      ]
+    },
+    {
+      "name": "5. Ambiguity Policy",
+      "bytes": 167,
+      "when": [
+        "ambiguity",
+        "policy"
+      ]
+    },
+    {
+      "name": "6. Suppression Decision (`# noqa`)",
+      "bytes": 549,
+      "when": [
+        "suppression",
+        "decision",
+        "noqa"
+      ]
+    },
+    {
+      "name": "7. Recursive Loop and Stop Criteria",
+      "bytes": 539,
+      "when": [
+        "recursive",
+        "loop",
+        "stop",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Quality Gates",
+      "bytes": 352,
+      "when": [
+        "quality",
+        "gates"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 271,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "Suggested Prompt Starters",
+      "bytes": 311,
+      "when": [
+        "suggested",
+        "prompt",
+        "starters"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ruff-recursive-fix\\SKILL.md"
+}

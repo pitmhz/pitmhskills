@@ -1,0 +1,92 @@
+{
+  "id": "awesome-copilot__acreadiness-generate-instructions",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b0f4f82099fbfdcd2a45d54b8db9392d6ebe26cd396843453e9dcae14de513e8",
+  "purpose": "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS Code) plus optional per-area .instructio",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2104,
+  "core_bytes": 8450,
+  "sections": [
+    {
+      "name": "Output options",
+      "bytes": 569,
+      "when": [
+        "output",
+        "options"
+      ]
+    },
+    {
+      "name": "Strategies",
+      "bytes": 1766,
+      "when": [
+        "strategies"
+      ]
+    },
+    {
+      "name": "Topic vs area `.instructions.md` files",
+      "bytes": 544,
+      "when": [
+        "topic",
+        "area",
+        "instructions",
+        "files"
+      ]
+    },
+    {
+      "name": "Per-area files with `applyTo`",
+      "bytes": 1246,
+      "when": [
+        "area",
+        "files",
+        "applyto"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 3479,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "Topic `applyTo` defaults",
+      "bytes": 987,
+      "when": [
+        "topic",
+        "applyto",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 453,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\acreadiness-generate-instructions\\SKILL.md"
+}

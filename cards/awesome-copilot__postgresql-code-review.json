@@ -1,0 +1,218 @@
+{
+  "id": "awesome-copilot__postgresql-code-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5c2f68120440692ae4b030b17e2a3553c1204d63ee871d6d994c6925b1f874cb",
+  "purpose": "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, functio",
+  "domain": "backend-data",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1847,
+  "core_bytes": 7439,
+  "sections": [
+    {
+      "name": "🎯 PostgreSQL-Specific Review Areas",
+      "bytes": 2453,
+      "when": [
+        "postgresql",
+        "specific",
+        "review",
+        "areas"
+      ]
+    },
+    {
+      "name": "JSONB Best Practices",
+      "bytes": 604,
+      "when": [
+        "jsonb",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Array Operations Review",
+      "bytes": 588,
+      "when": [
+        "array",
+        "operations",
+        "review"
+      ]
+    },
+    {
+      "name": "PostgreSQL Schema Design Review",
+      "bytes": 613,
+      "when": [
+        "postgresql",
+        "schema",
+        "design",
+        "review"
+      ]
+    },
+    {
+      "name": "Custom Types and Domains",
+      "bytes": 606,
+      "when": [
+        "custom",
+        "types",
+        "domains"
+      ]
+    },
+    {
+      "name": "🔍 PostgreSQL-Specific Anti-Patterns",
+      "bytes": 1360,
+      "when": [
+        "postgresql",
+        "specific",
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Performance Anti-Patterns",
+      "bytes": 339,
+      "when": [
+        "performance",
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Schema Design Issues",
+      "bytes": 298,
+      "when": [
+        "schema",
+        "design",
+        "issues"
+      ]
+    },
+    {
+      "name": "Function and Trigger Issues",
+      "bytes": 680,
+      "when": [
+        "function",
+        "trigger",
+        "issues"
+      ]
+    },
+    {
+      "name": "📊 PostgreSQL Extension Usage Review",
+      "bytes": 479,
+      "when": [
+        "postgresql",
+        "extension",
+        "usage",
+        "review"
+      ]
+    },
+    {
+      "name": "Extension Best Practices",
+      "bytes": 436,
+      "when": [
+        "extension",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "🛡️ PostgreSQL Security Review",
+      "bytes": 610,
+      "when": [
+        "postgresql",
+        "security",
+        "review"
+      ]
+    },
+    {
+      "name": "Row Level Security (RLS)",
+      "bytes": 278,
+      "when": [
+        "level",
+        "security"
+      ]
+    },
+    {
+      "name": "Privilege Management",
+      "bytes": 293,
+      "when": [
+        "privilege",
+        "management"
+      ]
+    },
+    {
+      "name": "🎯 PostgreSQL Code Quality Checklist",
+      "bytes": 1191,
+      "when": [
+        "postgresql",
+        "code",
+        "quality",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Schema Design",
+      "bytes": 284,
+      "when": [
+        "schema",
+        "design"
+      ]
+    },
+    {
+      "name": "Performance Considerations",
+      "bytes": 316,
+      "when": [
+        "performance",
+        "considerations"
+      ]
+    },
+    {
+      "name": "PostgreSQL Features Utilization",
+      "bytes": 305,
+      "when": [
+        "postgresql",
+        "features",
+        "utilization"
+      ]
+    },
+    {
+      "name": "Security and Compliance",
+      "bytes": 243,
+      "when": [
+        "security",
+        "compliance"
+      ]
+    },
+    {
+      "name": "📝 PostgreSQL-Specific Review Guidelines",
+      "bytes": 769,
+      "when": [
+        "postgresql",
+        "specific",
+        "review",
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\postgresql-code-review\\SKILL.md"
+}

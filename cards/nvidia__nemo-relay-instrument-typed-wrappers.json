@@ -1,0 +1,85 @@
+{
+  "id": "nvidia__nemo-relay-instrument-typed-wrappers",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "78bb0305ba6c71fc02919a21872e2d0a3d50aeb1b0c20c6f2276e888993b120e",
+  "purpose": "Use this skill when adding NeMo Relay typed wrappers, domain types, or provider codecs while preserving JSON middleware semantics and caller-visible behavior.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when adding NeMo Relay typed wrappers, domain types, or provider codecs while preserving JSON middleware semantics and caller-visible behavior."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 885,
+  "core_bytes": 3538,
+  "sections": [
+    {
+      "name": "Default Guidance",
+      "bytes": 232,
+      "when": [
+        "default",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Embedded Codec Model",
+      "bytes": 1546,
+      "when": [
+        "embedded",
+        "codec",
+        "model"
+      ]
+    },
+    {
+      "name": "Key Rules",
+      "bytes": 296,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Choose A Codec",
+      "bytes": 367,
+      "when": [
+        "choose",
+        "codec"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 438,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 133,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-relay-instrument-typed-wrappers/SKILL.md",
+  "curated": true
+}

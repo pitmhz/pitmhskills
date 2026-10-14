@@ -1,0 +1,245 @@
+{
+  "id": "emilkowalski__apple-design",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "bcab965ec01d05101b817714f8ccaf68632d1697b822f65718e811119a77c049",
+  "purpose": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum an",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, dr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Apple-style fluid motion and materials -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "apple fluid gesture materials",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5793,
+  "core_bytes": 23326,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 1009,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "The Core Idea",
+      "bytes": 584,
+      "when": [
+        "core",
+        "idea"
+      ]
+    },
+    {
+      "name": "1. Response — kill latency",
+      "bytes": 881,
+      "when": [
+        "response",
+        "kill",
+        "latency"
+      ]
+    },
+    {
+      "name": "2. Direct manipulation — 1:1 tracking",
+      "bytes": 812,
+      "when": [
+        "direct",
+        "manipulation",
+        "tracking"
+      ]
+    },
+    {
+      "name": "3. Interruptibility — the single most important principle",
+      "bytes": 1455,
+      "when": [
+        "interruptibility",
+        "single",
+        "important",
+        "principle"
+      ]
+    },
+    {
+      "name": "4. Behavior over animation — use springs",
+      "bytes": 1973,
+      "when": [
+        "behavior",
+        "animation",
+        "springs"
+      ]
+    },
+    {
+      "name": "5. Velocity handoff — the seam between drag and animation",
+      "bytes": 778,
+      "when": [
+        "velocity",
+        "handoff",
+        "seam",
+        "between",
+        "drag",
+        "animation"
+      ]
+    },
+    {
+      "name": "6. Momentum projection — animate to where the gesture is *going*",
+      "bytes": 1174,
+      "when": [
+        "momentum",
+        "projection",
+        "animate",
+        "where",
+        "gesture",
+        "going"
+      ]
+    },
+    {
+      "name": "7. Spatial consistency — symmetric paths, anchored origins",
+      "bytes": 820,
+      "when": [
+        "spatial",
+        "consistency",
+        "symmetric",
+        "paths",
+        "anchored",
+        "origins"
+      ]
+    },
+    {
+      "name": "8. Hint in the direction of the gesture",
+      "bytes": 307,
+      "when": [
+        "hint",
+        "direction",
+        "gesture"
+      ]
+    },
+    {
+      "name": "9. Rubber-banding — soft boundaries",
+      "bytes": 559,
+      "when": [
+        "rubber",
+        "banding",
+        "soft",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "10. Gesture design details (the \"feel\" checklist)",
+      "bytes": 765,
+      "when": [
+        "gesture",
+        "design",
+        "details",
+        "feel",
+        "checklist"
+      ]
+    },
+    {
+      "name": "11. Frame-level smoothness",
+      "bytes": 537,
+      "when": [
+        "frame",
+        "level",
+        "smoothness"
+      ]
+    },
+    {
+      "name": "12. Materials & depth — translucency conveys hierarchy",
+      "bytes": 2098,
+      "when": [
+        "materials",
+        "depth",
+        "translucency",
+        "conveys",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "13. Multimodal feedback — motion + sound + haptics",
+      "bytes": 736,
+      "when": [
+        "multimodal",
+        "feedback",
+        "motion",
+        "sound",
+        "haptics"
+      ]
+    },
+    {
+      "name": "14. Reduced motion & accessibility",
+      "bytes": 1206,
+      "when": [
+        "reduced",
+        "motion",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "15. Typography — optical sizing, tracking, leading",
+      "bytes": 1533,
+      "when": [
+        "typography",
+        "optical",
+        "sizing",
+        "tracking",
+        "leading"
+      ]
+    },
+    {
+      "name": "16. Design foundations — the eight principles",
+      "bytes": 3719,
+      "when": [
+        "design",
+        "foundations",
+        "eight",
+        "principles"
+      ]
+    },
+    {
+      "name": "17. Process",
+      "bytes": 592,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1298,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    }
+  ],
+  "keywords": [
+    "initial",
+    "response",
+    "core",
+    "idea",
+    "kill",
+    "latency",
+    "direct",
+    "manipulation",
+    "interruptibility",
+    "single",
+    "important",
+    "principle"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\apple-design\\SKILL.md"
+}

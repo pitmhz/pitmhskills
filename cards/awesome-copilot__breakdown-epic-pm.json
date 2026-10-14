@@ -1,0 +1,65 @@
+{
+  "id": "awesome-copilot__breakdown-epic-pm",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0818b54601c15a0360978c530e0f6f2560626a8024773587a7da57fe211b458b",
+  "purpose": "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as input for generating a technical architecture specification.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as input for generating a technical architecture specifica"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 575,
+  "core_bytes": 2297,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 560,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 1309,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "PRD Structure",
+      "bytes": 1173,
+      "when": [
+        "structure"
+      ]
+    },
+    {
+      "name": "Context Template",
+      "bytes": 163,
+      "when": [
+        "context",
+        "template"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-epic-pm\\SKILL.md"
+}

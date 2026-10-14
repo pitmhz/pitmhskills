@@ -1,0 +1,149 @@
+{
+  "id": "nvidia__rtvi-cv-customize-model",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0e8fa5a0c417edf29c61740ee5ccd143ae0977badd27c5a7f93bfda5eff3c6ba",
+  "purpose": "How to swap the DeepStream CV detection model in the VSS Alerts Blueprint verification (2d_cv) mode - covers ONNX export, custom bbox parsers, compose mount gotchas, nvinfer config, runtime TRT engine",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "How to swap the DeepStream CV detection model in the VSS Alerts Blueprint verification (2d_cv) mode - covers ONNX export, custom bbox parsers, compose mount got"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4568,
+  "core_bytes": 18337,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 506,
+      "when": []
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1339,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 359,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "bytes": 757,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "VSS source location",
+      "bytes": 374,
+      "when": [
+        "source",
+        "location"
+      ]
+    },
+    {
+      "name": "Adapting to a Different Model",
+      "bytes": 1249,
+      "when": [
+        "adapting",
+        "different",
+        "model"
+      ]
+    },
+    {
+      "name": "Step 1: Stage Your ONNX Model (Host, One-Time)",
+      "bytes": 734,
+      "when": [
+        "step",
+        "stage",
+        "onnx",
+        "model",
+        "host",
+        "time"
+      ]
+    },
+    {
+      "name": "Steps 2–3: Inspect the Model Output and Build the Parser",
+      "bytes": 1435,
+      "when": [
+        "steps",
+        "inspect",
+        "model",
+        "output",
+        "build",
+        "parser"
+      ]
+    },
+    {
+      "name": "Step 4: nvinfer Config",
+      "bytes": 1501,
+      "when": [
+        "step",
+        "nvinfer",
+        "config"
+      ]
+    },
+    {
+      "name": "Step 5: Runtime TRT Engine Build (`ds-start.sh`)",
+      "bytes": 3928,
+      "when": [
+        "step",
+        "runtime",
+        "engine",
+        "build",
+        "start"
+      ]
+    },
+    {
+      "name": "Step 6: Compose + Env",
+      "bytes": 2183,
+      "when": [
+        "step",
+        "compose"
+      ]
+    },
+    {
+      "name": "Step 7: Deploy",
+      "bytes": 2488,
+      "when": [
+        "step",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Common Gotchas",
+      "bytes": 242,
+      "when": [
+        "common",
+        "gotchas"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/rtvi-cv-customize-model/SKILL.md",
+  "curated": true
+}

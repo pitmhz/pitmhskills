@@ -1,0 +1,108 @@
+{
+  "id": "compact-landing-skill__compact-landing",
+  "tier": "B",
+  "origin": [
+    "Danilaa1/compact-landing-skill@1d79ea7832d16b88151ccf48e05d97014d139ebb"
+  ],
+  "license": "MIT",
+  "hash": "1cb750030c35212631ce83d5fe56e1f9acc732caf39af8e73b21643a79bf58d6",
+  "purpose": "Build compact, distinctive landing pages and product skeletons without repeating one visual template. Use for package demos, developer tools, documentation intros, focused product pages, and micro-Saa",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build compact, distinctive landing pages and product skeletons without repeating one visual template. Use for package demos, developer tools, documentation intr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Compact quiet premium landing -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "compact quiet minimal cta skeleton",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1961,
+  "core_bytes": 7852,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1407,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Design Fingerprint",
+      "bytes": 1613,
+      "when": [
+        "design",
+        "fingerprint"
+      ]
+    },
+    {
+      "name": "Invariants",
+      "bytes": 768,
+      "when": [
+        "invariants"
+      ]
+    },
+    {
+      "name": "Zero-Shift Motion",
+      "bytes": 867,
+      "when": [
+        "zero",
+        "shift",
+        "motion"
+      ]
+    },
+    {
+      "name": "Buttons",
+      "bytes": 567,
+      "when": [
+        "buttons"
+      ]
+    },
+    {
+      "name": "Purposeful Personality",
+      "bytes": 701,
+      "when": [
+        "purposeful",
+        "personality"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 557,
+      "when": [
+        "avoid"
+      ]
+    },
+    {
+      "name": "Final Check",
+      "bytes": 638,
+      "when": [
+        "final",
+        "check"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "design",
+    "fingerprint",
+    "invariants",
+    "buttons",
+    "purposeful",
+    "personality",
+    "avoid",
+    "final",
+    "check"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\compact-landing-skill\\skills\\compact-landing\\SKILL.md"
+}

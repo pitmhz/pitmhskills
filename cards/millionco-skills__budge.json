@@ -1,0 +1,153 @@
+{
+  "id": "millionco-skills__budge",
+  "tier": "B",
+  "origin": [
+    "millionco/skills@462b78424e14ba6895a717733e1d57191dd9912f"
+  ],
+  "license": "MIT",
+  "hash": "c8be728a12a4559e4f1af38a7535c3288037a67cf3fc8b513b9a1782c02af44b",
+  "purpose": "Use when making single-property CSS or Tailwind visual changes in Next.js App Router projects. Presents a floating control widget on the page so the user can tweak the value before it is persisted. Co",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "design"
+  ],
+  "use_when": [
+    "Use when making single-property CSS or Tailwind visual changes in Next.js App Router projects. Presents a floating control widget on the page so the user can tw"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Live-tune a single CSS property -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "tune property live widget nextjs",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2390,
+  "core_bytes": 9637,
+  "sections": [
+    {
+      "name": "Installation",
+      "bytes": 190,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Default Flow",
+      "bytes": 430,
+      "when": [
+        "default",
+        "flow"
+      ]
+    },
+    {
+      "name": "Troubleshooting — bar does not appear",
+      "bytes": 627,
+      "when": [
+        "troubleshooting",
+        "appear"
+      ]
+    },
+    {
+      "name": "Manual Fallback — Trigger Test",
+      "bytes": 636,
+      "when": [
+        "manual",
+        "fallback",
+        "trigger",
+        "test"
+      ]
+    },
+    {
+      "name": "Step 2 — Build Slides",
+      "bytes": 4693,
+      "when": [
+        "step",
+        "build",
+        "slides"
+      ]
+    },
+    {
+      "name": "Slide generation rules",
+      "bytes": 1506,
+      "when": [
+        "slide",
+        "generation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Related property suggestions",
+      "bytes": 478,
+      "when": [
+        "related",
+        "property",
+        "suggestions"
+      ]
+    },
+    {
+      "name": "Tailwind resolution",
+      "bytes": 894,
+      "when": [
+        "tailwind",
+        "resolution"
+      ]
+    },
+    {
+      "name": "Design token snapping",
+      "bytes": 1153,
+      "when": [
+        "design",
+        "token",
+        "snapping"
+      ]
+    },
+    {
+      "name": "Step 3 — Mark Target Element",
+      "bytes": 169,
+      "when": [
+        "step",
+        "mark",
+        "target",
+        "element"
+      ]
+    },
+    {
+      "name": "Step 4 — Activate",
+      "bytes": 541,
+      "when": [
+        "step",
+        "activate"
+      ]
+    },
+    {
+      "name": "Step 5 — Complete",
+      "bytes": 387,
+      "when": [
+        "step",
+        "complete"
+      ]
+    }
+  ],
+  "keywords": [
+    "budge",
+    "installation",
+    "default",
+    "flow",
+    "troubleshooting",
+    "appear",
+    "manual",
+    "fallback",
+    "trigger",
+    "test",
+    "step",
+    "build",
+    "slides"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\millionco-skills\\skills\\budge\\SKILL.md"
+}

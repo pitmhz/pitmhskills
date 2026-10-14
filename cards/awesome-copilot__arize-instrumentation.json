@@ -1,0 +1,178 @@
+{
+  "id": "awesome-copilot__arize-instrumentation",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9f591abcf628b13e682a9e838cce58aaa569c5bd513a88853696a352a3fe2798",
+  "purpose": "Adds Arize AX tracing to an LLM application for the first time. Follows a two-phase agent-assisted flow to analyze the codebase then implement instrumentation after user confirmation. Use when the use",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Adds Arize AX tracing to an LLM application for the first time. Follows a two-phase agent-assisted flow to analyze the codebase then implement instrumentation a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6210,
+  "core_bytes": 24934,
+  "sections": [
+    {
+      "name": "Quick start (for the user)",
+      "bytes": 261,
+      "when": [
+        "quick",
+        "start",
+        "user"
+      ]
+    },
+    {
+      "name": "Core principles",
+      "bytes": 782,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "Phase 0: Environment preflight",
+      "bytes": 777,
+      "when": [
+        "phase",
+        "environment",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Phase 1: Analysis (read-only)",
+      "bytes": 2527,
+      "when": [
+        "phase",
+        "analysis",
+        "read"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 647,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "What to identify",
+      "bytes": 1046,
+      "when": [
+        "identify"
+      ]
+    },
+    {
+      "name": "Phase 1 output",
+      "bytes": 734,
+      "when": [
+        "phase",
+        "output"
+      ]
+    },
+    {
+      "name": "Integration routing and docs",
+      "bytes": 4564,
+      "when": [
+        "integration",
+        "routing",
+        "docs"
+      ]
+    },
+    {
+      "name": "Phase 2: Implementation",
+      "bytes": 4753,
+      "when": [
+        "phase",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 2693,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "Implementation rules",
+      "bytes": 1968,
+      "when": [
+        "implementation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Enriching traces: manual spans for tool use and agent loops",
+      "bytes": 6703,
+      "when": [
+        "enriching",
+        "traces",
+        "manual",
+        "spans",
+        "tool",
+        "agent",
+        "loops"
+      ]
+    },
+    {
+      "name": "Why doesn't the auto-instrumentor do this?",
+      "bytes": 6639,
+      "when": [
+        "doesn",
+        "auto",
+        "instrumentor"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 2181,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Leveraging the Tracing Assistant (MCP)",
+      "bytes": 840,
+      "when": [
+        "leveraging",
+        "tracing",
+        "assistant"
+      ]
+    },
+    {
+      "name": "Reference links",
+      "bytes": 397,
+      "when": [
+        "reference",
+        "links"
+      ]
+    },
+    {
+      "name": "Save Credentials for Future Use",
+      "bytes": 102,
+      "when": [
+        "save",
+        "credentials",
+        "future"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-instrumentation\\SKILL.md"
+}

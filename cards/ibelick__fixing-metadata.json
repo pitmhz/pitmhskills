@@ -1,0 +1,163 @@
+{
+  "id": "ibelick__fixing-metadata",
+  "tier": "B",
+  "origin": [
+    "ibelick/ui-skills@c628a5917754ec2396d9cbb47988f280ba1d5cb0"
+  ],
+  "license": "MIT",
+  "hash": "498a1ae121c010df199c2f1bcd4a0ccda92351f2b4eb33b7be73715db702dec6",
+  "purpose": "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding SEO meta",
+  "domain": "backend-data",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and rob"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1137,
+  "core_bytes": 4551,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 443,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "when to apply",
+      "bytes": 448,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "rule categories by priority",
+      "bytes": 409,
+      "when": [
+        "rule",
+        "categories",
+        "priority"
+      ]
+    },
+    {
+      "name": "quick reference",
+      "bytes": 2515,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "1. correctness and duplication (critical)",
+      "bytes": 377,
+      "when": [
+        "correctness",
+        "duplication",
+        "critical"
+      ]
+    },
+    {
+      "name": "2. title and description (high)",
+      "bytes": 298,
+      "when": [
+        "title",
+        "description",
+        "high"
+      ]
+    },
+    {
+      "name": "3. canonical and indexing (high)",
+      "bytes": 339,
+      "when": [
+        "canonical",
+        "indexing",
+        "high"
+      ]
+    },
+    {
+      "name": "4. social cards (high)",
+      "bytes": 376,
+      "when": [
+        "social",
+        "cards",
+        "high"
+      ]
+    },
+    {
+      "name": "5. icons and manifest (medium)",
+      "bytes": 300,
+      "when": [
+        "icons",
+        "manifest",
+        "medium"
+      ]
+    },
+    {
+      "name": "6. structured data (medium)",
+      "bytes": 294,
+      "when": [
+        "structured",
+        "data",
+        "medium"
+      ]
+    },
+    {
+      "name": "7. locale and alternates (low-medium)",
+      "bytes": 243,
+      "when": [
+        "locale",
+        "alternates",
+        "medium"
+      ]
+    },
+    {
+      "name": "8. tool boundaries (critical)",
+      "bytes": 266,
+      "when": [
+        "tool",
+        "boundaries",
+        "critical"
+      ]
+    },
+    {
+      "name": "review guidance",
+      "bytes": 302,
+      "when": [
+        "review",
+        "guidance"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "apply",
+    "rule",
+    "categories",
+    "priority",
+    "quick",
+    "reference",
+    "correctness",
+    "duplication",
+    "critical",
+    "title",
+    "description",
+    "high"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\fixing-metadata\\SKILL.md"
+}

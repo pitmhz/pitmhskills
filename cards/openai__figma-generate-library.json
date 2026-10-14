@@ -28,7 +28,103 @@
   "conflicts_with": [],
   "body_tokens": 4493,
   "core_bytes": 18167,
-  "sections": [],
+  "sections": [
+    {
+      "name": "1. The One Rule That Matters Most",
+      "bytes": 405,
+      "when": [
+        "rule",
+        "matters"
+      ]
+    },
+    {
+      "name": "2. Mandatory Workflow",
+      "bytes": 2876,
+      "when": [
+        "mandatory",
+        "workflow"
+      ]
+    },
+    {
+      "name": "3. Critical Rules",
+      "bytes": 3025,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "4. State Management (Required for Long Workflows)",
+      "bytes": 2586,
+      "when": [
+        "state",
+        "management",
+        "required",
+        "long",
+        "workflows"
+      ]
+    },
+    {
+      "name": "5. search_design_system — Reuse Decision Matrix",
+      "bytes": 1062,
+      "when": [
+        "search",
+        "design",
+        "system",
+        "reuse",
+        "decision",
+        "matrix"
+      ]
+    },
+    {
+      "name": "6. User Checkpoints",
+      "bytes": 869,
+      "when": [
+        "user",
+        "checkpoints"
+      ]
+    },
+    {
+      "name": "7. Naming Conventions",
+      "bytes": 832,
+      "when": [
+        "naming",
+        "conventions"
+      ]
+    },
+    {
+      "name": "8. Token Architecture",
+      "bytes": 943,
+      "when": [
+        "token",
+        "architecture"
+      ]
+    },
+    {
+      "name": "9. Per-Phase Anti-Patterns",
+      "bytes": 1723,
+      "when": [
+        "phase",
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "10. Reference Docs",
+      "bytes": 1266,
+      "when": [
+        "reference",
+        "docs"
+      ]
+    },
+    {
+      "name": "11. Scripts",
+      "bytes": 1343,
+      "when": [
+        "scripts"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/figma-generate-library/SKILL.md"
 }

@@ -1,0 +1,75 @@
+{
+  "id": "awesome-copilot__generate-image",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "95e604ccc07f7c81370361ef5afe63de3d99c8165eb5f700fc464d175d79a206",
+  "purpose": "Generate images using AI. Use when asked to generate, create, or make images, textures, icons, sprites, artwork, visual assets, or mockups. Supports OpenAI (gpt-image-2) and Google Gemini (Nano Banana",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate images using AI. Use when asked to generate, create, or make images, textures, icons, sprites, artwork, visual assets, or mockups. Supports OpenAI (gpt"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 958,
+  "core_bytes": 3849,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 509,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Onboarding",
+      "bytes": 668,
+      "when": [
+        "onboarding"
+      ]
+    },
+    {
+      "name": "API Reference: OpenAI",
+      "bytes": 751,
+      "when": [
+        "reference",
+        "openai"
+      ]
+    },
+    {
+      "name": "API Reference: Google Gemini (Nano Banana)",
+      "bytes": 848,
+      "when": [
+        "reference",
+        "google",
+        "gemini",
+        "nano",
+        "banana"
+      ]
+    },
+    {
+      "name": "Agent Guidelines",
+      "bytes": 546,
+      "when": [
+        "agent",
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\generate-image\\SKILL.md"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "nvidia__dali-dynamic-mode",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b2642df2599eef01de1b366bfd7addbcbadd9134e3660b636c34677439ac4aa6",
+  "purpose": "DALI imperative dynamic mode (`nvidia.dali.experimental.dynamic`, ndd): use when working on ndd code or migrating pipelines; skip pipeline-only tasks.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "DALI imperative dynamic mode (`nvidia.dali.experimental.dynamic`, ndd): use when working on ndd code or migrating pipelines; skip pipeline-only tasks."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3804,
+  "core_bytes": 15214,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 165,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 754,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 354,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Introduction",
+      "bytes": 192,
+      "when": [
+        "introduction"
+      ]
+    },
+    {
+      "name": "Core Data Types",
+      "bytes": 2585,
+      "when": [
+        "core",
+        "data",
+        "types"
+      ]
+    },
+    {
+      "name": "Tensor -- single sample",
+      "bytes": 532,
+      "when": [
+        "tensor",
+        "single",
+        "sample"
+      ]
+    },
+    {
+      "name": "Batch -- collection of samples (variable shapes OK)",
+      "bytes": 1094,
+      "when": [
+        "batch",
+        "collection",
+        "samples",
+        "variable",
+        "shapes"
+      ]
+    },
+    {
+      "name": "Advanced slicing",
+      "bytes": 937,
+      "when": [
+        "advanced",
+        "slicing"
+      ]
+    },
+    {
+      "name": "Readers",
+      "bytes": 1370,
+      "when": [
+        "readers"
+      ]
+    },
+    {
+      "name": "Device Handling",
+      "bytes": 619,
+      "when": [
+        "device",
+        "handling"
+      ]
+    },
+    {
+      "name": "Execution Model",
+      "bytes": 906,
+      "when": [
+        "execution",
+        "model"
+      ]
+    },
+    {
+      "name": "Thread Configuration",
+      "bytes": 298,
+      "when": [
+        "thread",
+        "configuration"
+      ]
+    },
+    {
+      "name": "RNG",
+      "bytes": 686,
+      "when": []
+    },
+    {
+      "name": "Checkpointing",
+      "bytes": 2985,
+      "when": [
+        "checkpointing"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 655,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Image Classification Pipeline",
+      "bytes": 640,
+      "when": [
+        "image",
+        "classification",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 1643,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Pipeline Mode Migration",
+      "bytes": 1083,
+      "when": [
+        "pipeline",
+        "mode",
+        "migration"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 158,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 272,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/dali-dynamic-mode/SKILL.md",
+  "curated": true
+}

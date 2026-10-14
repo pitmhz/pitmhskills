@@ -1,0 +1,110 @@
+{
+  "id": "uiskills-staged__colorize",
+  "tier": "B",
+  "origin": [
+    "local@colorize"
+  ],
+  "license": "Apache-2.0",
+  "hash": "83439249764d38c840a300fa2840f352b6be5e0af7a1fc9f29aa2c06092aad7a",
+  "purpose": "Introduce color as hierarchy, meaning, and atmosphere. Preserve confirmed brand and semantic conventions; do not replace a visual world under the guise of colorizing it.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Introduce color as hierarchy, meaning, and atmosphere. Preserve confirmed brand and semantic conventions; do not replace a visual world under the guise of color"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Strategic color for dull interfaces -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "colorize dull monochrome flat strategic",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1160,
+  "core_bytes": 4646,
+  "sections": [
+    {
+      "name": "Visitor mode",
+      "bytes": 276,
+      "when": [
+        "visitor",
+        "mode"
+      ]
+    },
+    {
+      "name": "Audit before choosing",
+      "bytes": 561,
+      "when": [
+        "audit",
+        "before",
+        "choosing"
+      ]
+    },
+    {
+      "name": "Choose a strategy",
+      "bytes": 752,
+      "when": [
+        "choose",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Apply at system scale",
+      "bytes": 1019,
+      "when": [
+        "apply",
+        "system",
+        "scale"
+      ]
+    },
+    {
+      "name": "Contrast and perception",
+      "bytes": 722,
+      "when": [
+        "contrast",
+        "perception"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 559,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Live-mode signature params",
+      "bytes": 518,
+      "when": [
+        "live",
+        "mode",
+        "signature",
+        "params"
+      ]
+    }
+  ],
+  "keywords": [
+    "visitor",
+    "mode",
+    "audit",
+    "before",
+    "choosing",
+    "choose",
+    "strategy",
+    "apply",
+    "system",
+    "scale",
+    "contrast",
+    "perception"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\colorize\\SKILL.md"
+}

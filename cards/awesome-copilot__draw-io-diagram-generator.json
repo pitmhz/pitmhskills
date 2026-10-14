@@ -1,0 +1,220 @@
+{
+  "id": "awesome-copilot__draw-io-diagram-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0d5d86c1fe7dc596f9bb7058291469cf5671ab55fcfeabce8451eb513a705868",
+  "purpose": "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style strings, flowcharts, system architecture, sequ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style string"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4884,
+  "core_bytes": 19595,
+  "sections": [
+    {
+      "name": "1. When to Use This Skill",
+      "bytes": 1318,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "2. Prerequisites",
+      "bytes": 405,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "3. Step-by-Step Agent Workflow",
+      "bytes": 5489,
+      "when": [
+        "step",
+        "agent",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Understand the Request",
+      "bytes": 639,
+      "when": [
+        "step",
+        "understand",
+        "request"
+      ]
+    },
+    {
+      "name": "Step 2 — Select a Template or Start Fresh",
+      "bytes": 972,
+      "when": [
+        "step",
+        "select",
+        "template",
+        "start",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Step 3 — Plan the Layout",
+      "bytes": 393,
+      "when": [
+        "step",
+        "plan",
+        "layout"
+      ]
+    },
+    {
+      "name": "Step 4 — Generate the mxGraph XML",
+      "bytes": 1218,
+      "when": [
+        "step",
+        "generate",
+        "mxgraph"
+      ]
+    },
+    {
+      "name": "Step 5 — Apply Correct Styles",
+      "bytes": 1585,
+      "when": [
+        "step",
+        "apply",
+        "correct",
+        "styles"
+      ]
+    },
+    {
+      "name": "Step 6 — Save and Validate",
+      "bytes": 583,
+      "when": [
+        "step",
+        "save",
+        "validate"
+      ]
+    },
+    {
+      "name": "4. Diagram-Type Recipes",
+      "bytes": 5564,
+      "when": [
+        "diagram",
+        "type",
+        "recipes"
+      ]
+    },
+    {
+      "name": "Flowchart",
+      "bytes": 1104,
+      "when": [
+        "flowchart"
+      ]
+    },
+    {
+      "name": "Architecture Diagram (3-tier)",
+      "bytes": 792,
+      "when": [
+        "architecture",
+        "diagram",
+        "tier"
+      ]
+    },
+    {
+      "name": "Sequence Diagram",
+      "bytes": 2372,
+      "when": [
+        "sequence",
+        "diagram"
+      ]
+    },
+    {
+      "name": "ER Diagram",
+      "bytes": 458,
+      "when": [
+        "diagram"
+      ]
+    },
+    {
+      "name": "UML Class Diagram",
+      "bytes": 810,
+      "when": [
+        "class",
+        "diagram"
+      ]
+    },
+    {
+      "name": "5. Multi-Page Diagrams",
+      "bytes": 451,
+      "when": [
+        "multi",
+        "page",
+        "diagrams"
+      ]
+    },
+    {
+      "name": "6. Editing Existing Diagrams",
+      "bytes": 719,
+      "when": [
+        "editing",
+        "existing",
+        "diagrams"
+      ]
+    },
+    {
+      "name": "7. Best Practices",
+      "bytes": 931,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "8. Troubleshooting",
+      "bytes": 873,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "9. Validation Checklist",
+      "bytes": 1136,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "10. Output Format",
+      "bytes": 597,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "11. References",
+      "bytes": 1218,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\draw-io-diagram-generator\\SKILL.md"
+}

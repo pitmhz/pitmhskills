@@ -1,0 +1,117 @@
+{
+  "id": "mengto-skills__webgl-laser",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "c7afb9c4ea22f8d78b6964872551cabda12c7f3755fcae1309c13ae33220da95",
+  "purpose": "Create a fixed full-screen WebGL laser background effect with a thin white-hot vertical core, restrained brand-colored halo, and soft smoky fog around the beam. Use only for laser background effects, ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create a fixed full-screen WebGL laser background effect with a thin white-hot vertical core, restrained brand-colored halo, and soft smoky fog around the beam."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2429,
+  "core_bytes": 9713,
+  "sections": [
+    {
+      "name": "Scope",
+      "bytes": 281,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Visual Target",
+      "bytes": 390,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "Layering",
+      "bytes": 336,
+      "when": [
+        "layering"
+      ]
+    },
+    {
+      "name": "Brand Color",
+      "bytes": 621,
+      "when": [
+        "brand",
+        "color"
+      ]
+    },
+    {
+      "name": "Raw WebGL Setup",
+      "bytes": 2528,
+      "when": [
+        "webgl",
+        "setup"
+      ]
+    },
+    {
+      "name": "Initializer",
+      "bytes": 4033,
+      "when": [
+        "initializer"
+      ]
+    },
+    {
+      "name": "Tuning Knobs",
+      "bytes": 466,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Taste Rules",
+      "bytes": 302,
+      "when": [
+        "taste",
+        "rules"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 405,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "scope",
+    "visual",
+    "target",
+    "layering",
+    "color",
+    "setup",
+    "initializer",
+    "tuning",
+    "knobs",
+    "taste",
+    "rules",
+    "avoid"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\webgl-laser\\SKILL.md"
+}

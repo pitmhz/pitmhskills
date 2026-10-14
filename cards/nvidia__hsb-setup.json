@@ -1,0 +1,191 @@
+{
+  "id": "nvidia__hsb-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "5c65364dd5263a2ae3ff33e376590f653632450445261da618f230b4477f95be",
+  "purpose": "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container, run it, and verify HSB connectivity by",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4987,
+  "core_bytes": 20009,
+  "sections": [
+    {
+      "name": "Before you start — required gates (do these first, in order)",
+      "bytes": 1634,
+      "when": [
+        "before",
+        "start",
+        "required",
+        "gates",
+        "first",
+        "order"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 185,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "What this skill must do",
+      "bytes": 3507,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Supported platforms and build mapping",
+      "bytes": 595,
+      "when": [
+        "supported",
+        "platforms",
+        "build",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Host platform auto-detection",
+      "bytes": 3325,
+      "when": [
+        "host",
+        "platform",
+        "auto",
+        "detection"
+      ]
+    },
+    {
+      "name": "Product-name-to-platform mapping",
+      "bytes": 713,
+      "when": [
+        "product",
+        "name",
+        "platform",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Detection and reconciliation logic",
+      "bytes": 2380,
+      "when": [
+        "detection",
+        "reconciliation",
+        "logic"
+      ]
+    },
+    {
+      "name": "Linux/Windows-friendly wrapper variables",
+      "bytes": 969,
+      "when": [
+        "linux",
+        "windows",
+        "friendly",
+        "wrapper",
+        "variables"
+      ]
+    },
+    {
+      "name": "Mandatory interaction pattern",
+      "bytes": 873,
+      "when": [
+        "mandatory",
+        "interaction",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Token-budget preflight",
+      "bytes": 3005,
+      "when": [
+        "token",
+        "budget",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Phase 0 - token-budget preflight",
+      "bytes": 2976,
+      "when": [
+        "phase",
+        "token",
+        "budget",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Platform questions to ask when missing",
+      "bytes": 424,
+      "when": [
+        "platform",
+        "questions",
+        "missing"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 334,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Phase details",
+      "bytes": 237,
+      "when": [
+        "phase",
+        "details"
+      ]
+    },
+    {
+      "name": "Recovery playbook",
+      "bytes": 417,
+      "when": [
+        "recovery",
+        "playbook"
+      ]
+    },
+    {
+      "name": "Supporting files in this skill",
+      "bytes": 401,
+      "when": [
+        "supporting",
+        "files",
+        "skill"
+      ]
+    },
+    {
+      "name": "Built-in help (`--help`)",
+      "bytes": 2987,
+      "when": [
+        "built",
+        "help"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/hsb-setup/SKILL.md",
+  "curated": true
+}

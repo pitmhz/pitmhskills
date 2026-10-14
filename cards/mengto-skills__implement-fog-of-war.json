@@ -1,0 +1,146 @@
+{
+  "id": "mengto-skills__implement-fog-of-war",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "6f04aa42582adc9bfaf5359411e30bcc6d51b118d5deec04f846240e8bc05fa7",
+  "purpose": "Implement, tune, debug, or validate soft wall-aware fog of war and gameplay perception in Three.js action games. Use for orthographic or isometric visibility masks, obstacle-aware line of sight, playe",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Implement, tune, debug, or validate soft wall-aware fog of war and gameplay perception in Three.js action games. Use for orthographic or isometric visibility ma"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1695,
+  "core_bytes": 6782,
+  "sections": [
+    {
+      "name": "Preserve the architecture",
+      "bytes": 678,
+      "when": [
+        "preserve",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Inspect before editing",
+      "bytes": 844,
+      "when": [
+        "inspect",
+        "before",
+        "editing"
+      ]
+    },
+    {
+      "name": "Implement in dependency order",
+      "bytes": 3192,
+      "when": [
+        "implement",
+        "dependency",
+        "order"
+      ]
+    },
+    {
+      "name": "1. Define perception truth",
+      "bytes": 581,
+      "when": [
+        "define",
+        "perception",
+        "truth"
+      ]
+    },
+    {
+      "name": "2. Build the visibility lookup",
+      "bytes": 516,
+      "when": [
+        "build",
+        "visibility",
+        "lookup"
+      ]
+    },
+    {
+      "name": "3. Render one soft overlay",
+      "bytes": 713,
+      "when": [
+        "render",
+        "soft",
+        "overlay"
+      ]
+    },
+    {
+      "name": "4. Integrate gameplay",
+      "bytes": 731,
+      "when": [
+        "integrate",
+        "gameplay"
+      ]
+    },
+    {
+      "name": "5. Integrate state and lifecycle",
+      "bytes": 615,
+      "when": [
+        "integrate",
+        "state",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Tune in the right order",
+      "bytes": 583,
+      "when": [
+        "tune",
+        "right",
+        "order"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 529,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Protect the proven qualities",
+      "bytes": 391,
+      "when": [
+        "protect",
+        "proven",
+        "qualities"
+      ]
+    }
+  ],
+  "keywords": [
+    "preserve",
+    "architecture",
+    "inspect",
+    "before",
+    "editing",
+    "dependency",
+    "order",
+    "define",
+    "truth",
+    "build",
+    "lookup",
+    "render",
+    "overlay"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\implement-fog-of-war\\SKILL.md"
+}

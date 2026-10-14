@@ -1,0 +1,313 @@
+{
+  "id": "taste-skill__design-taste-frontend-v1",
+  "tier": "C",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "48ef62d95507bf60f4dac488906d06dac207569f695459a1f835ed519137d3f5",
+  "purpose": "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2), which is a new skill. Use this v1 install name only if you nee",
+  "domain": "frontend",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2), which is a new skill. "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5349,
+  "core_bytes": 21398,
+  "sections": [
+    {
+      "name": "1. ACTIVE BASELINE CONFIGURATION",
+      "bytes": 646,
+      "when": [
+        "active",
+        "baseline",
+        "configuration"
+      ]
+    },
+    {
+      "name": "2. DEFAULT ARCHITECTURE & CONVENTIONS",
+      "bytes": 2374,
+      "when": [
+        "default",
+        "architecture",
+        "conventions"
+      ]
+    },
+    {
+      "name": "3. DESIGN ENGINEERING DIRECTIVES (Bias Correction)",
+      "bytes": 2714,
+      "when": [
+        "design",
+        "engineering",
+        "directives",
+        "bias",
+        "correction"
+      ]
+    },
+    {
+      "name": "4. CREATIVE PROACTIVITY (Anti-Slop Implementation)",
+      "bytes": 1712,
+      "when": [
+        "creative",
+        "proactivity",
+        "anti",
+        "slop",
+        "implementation"
+      ]
+    },
+    {
+      "name": "5. PERFORMANCE GUARDRAILS",
+      "bytes": 581,
+      "when": [
+        "performance",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "6. TECHNICAL REFERENCE (Dial Definitions)",
+      "bytes": 1630,
+      "when": [
+        "technical",
+        "reference",
+        "dial",
+        "definitions"
+      ]
+    },
+    {
+      "name": "DESIGN_VARIANCE (Level 1-10)",
+      "bytes": 703,
+      "when": [
+        "design",
+        "variance",
+        "level"
+      ]
+    },
+    {
+      "name": "MOTION_INTENSITY (Level 1-10)",
+      "bytes": 490,
+      "when": [
+        "motion",
+        "intensity",
+        "level"
+      ]
+    },
+    {
+      "name": "VISUAL_DENSITY (Level 1-10)",
+      "bytes": 389,
+      "when": [
+        "visual",
+        "density",
+        "level"
+      ]
+    },
+    {
+      "name": "7. AI TELLS (Forbidden Patterns)",
+      "bytes": 2589,
+      "when": [
+        "tells",
+        "forbidden",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Visual & CSS",
+      "bytes": 483,
+      "when": [
+        "visual"
+      ]
+    },
+    {
+      "name": "Typography",
+      "bytes": 351,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "Layout & Spacing",
+      "bytes": 334,
+      "when": [
+        "layout",
+        "spacing"
+      ]
+    },
+    {
+      "name": "Content & Data (The \"Jane Doe\" Effect)",
+      "bytes": 717,
+      "when": [
+        "content",
+        "data",
+        "jane",
+        "effect"
+      ]
+    },
+    {
+      "name": "External Resources & Components",
+      "bytes": 533,
+      "when": [
+        "external",
+        "resources",
+        "components"
+      ]
+    },
+    {
+      "name": "8. THE CREATIVE ARSENAL (High-End Inspiration)",
+      "bytes": 5015,
+      "when": [
+        "creative",
+        "arsenal",
+        "high",
+        "inspiration"
+      ]
+    },
+    {
+      "name": "The Standard Hero Paradigm",
+      "bytes": 349,
+      "when": [
+        "standard",
+        "hero",
+        "paradigm"
+      ]
+    },
+    {
+      "name": "Navigation & Menüs",
+      "bytes": 614,
+      "when": [
+        "navigation"
+      ]
+    },
+    {
+      "name": "Layout & Grids",
+      "bytes": 458,
+      "when": [
+        "layout",
+        "grids"
+      ]
+    },
+    {
+      "name": "Cards & Containers",
+      "bytes": 534,
+      "when": [
+        "cards",
+        "containers"
+      ]
+    },
+    {
+      "name": "Scroll-Animations",
+      "bytes": 603,
+      "when": [
+        "scroll",
+        "animations"
+      ]
+    },
+    {
+      "name": "Galleries & Media",
+      "bytes": 534,
+      "when": [
+        "galleries",
+        "media"
+      ]
+    },
+    {
+      "name": "Typography & Text",
+      "bytes": 557,
+      "when": [
+        "typography",
+        "text"
+      ]
+    },
+    {
+      "name": "Micro-Interactions & Effects",
+      "bytes": 748,
+      "when": [
+        "micro",
+        "interactions",
+        "effects"
+      ]
+    },
+    {
+      "name": "9. THE \"MOTION-ENGINE\" BENTO PARADIGM",
+      "bytes": 3096,
+      "when": [
+        "motion",
+        "engine",
+        "bento",
+        "paradigm"
+      ]
+    },
+    {
+      "name": "A. Core Design Philosophy",
+      "bytes": 763,
+      "when": [
+        "core",
+        "design",
+        "philosophy"
+      ]
+    },
+    {
+      "name": "B. The Animation Engine Specs (Perpetual Motion)",
+      "bytes": 890,
+      "when": [
+        "animation",
+        "engine",
+        "specs",
+        "perpetual",
+        "motion"
+      ]
+    },
+    {
+      "name": "C. The 5-Card Archetypes (Micro-Animation Specs)",
+      "bytes": 1131,
+      "when": [
+        "card",
+        "archetypes",
+        "micro",
+        "animation",
+        "specs"
+      ]
+    },
+    {
+      "name": "10. FINAL PRE-FLIGHT CHECK",
+      "bytes": 719,
+      "when": [
+        "final",
+        "flight",
+        "check"
+      ]
+    }
+  ],
+  "keywords": [
+    "high",
+    "agency",
+    "active",
+    "baseline",
+    "configuration",
+    "architecture",
+    "conventions",
+    "engineering",
+    "directives",
+    "bias",
+    "correction",
+    "creative",
+    "proactivity",
+    "anti",
+    "slop",
+    "implementation"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\taste-skill-v1\\SKILL.md",
+  "curated": true
+}

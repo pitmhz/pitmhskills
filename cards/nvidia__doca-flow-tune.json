@@ -1,0 +1,103 @@
+{
+  "id": "nvidia__doca-flow-tune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ee432123807ab1e2697d47ab4b35dc6393c3ceeb22672e5885c686af8cc4783a",
+  "purpose": "Use this skill when the user is tuning a live or captured `doca-flow` pipeline with `doca_flow_tune` — snapshotting pipe / counter / KPI state, picking a tuning axis (rule placement, resource hints / ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when the user is tuning a live or captured `doca-flow` pipeline with `doca_flow_tune` — snapshotting pipe / counter / KPI state, picking a tuning"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4902,
+  "core_bytes": 19710,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 3040,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "Audience",
+      "bytes": 1986,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "Language scope",
+      "bytes": 746,
+      "when": [
+        "language",
+        "scope"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 1867,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 2219,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 2053,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 717,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 2567,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-flow-tune\\SKILL.md",
+  "curated": true
+}

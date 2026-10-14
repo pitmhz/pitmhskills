@@ -1,0 +1,199 @@
+{
+  "id": "nvidia__physical-ai-video-data-augmentation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "57adde2af333d49b0cf91c7bbf0cc14bbad53fa00475c675762a88c538da5cc0",
+  "purpose": "Use when running video data augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: video data augme",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when running video data augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retri"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4860,
+  "core_bytes": 19439,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 180,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1459,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 939,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 970,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Supported Flows",
+      "bytes": 1239,
+      "when": [
+        "supported",
+        "flows"
+      ]
+    },
+    {
+      "name": "Pick the right workflow for the user's request",
+      "bytes": 381,
+      "when": [
+        "pick",
+        "right",
+        "workflow",
+        "user",
+        "request"
+      ]
+    },
+    {
+      "name": "Disambiguation: handle vague requests before committing",
+      "bytes": 1882,
+      "when": [
+        "disambiguation",
+        "handle",
+        "vague",
+        "requests",
+        "before",
+        "committing"
+      ]
+    },
+    {
+      "name": "Autonomous defaults (do NOT ask)",
+      "bytes": 649,
+      "when": [
+        "autonomous",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Triggers that should pause for disambiguation",
+      "bytes": 584,
+      "when": [
+        "triggers",
+        "pause",
+        "disambiguation"
+      ]
+    },
+    {
+      "name": "When NOT to disambiguate",
+      "bytes": 511,
+      "when": [
+        "disambiguate"
+      ]
+    },
+    {
+      "name": "Step 0: Select Flow and Gather Inputs",
+      "bytes": 1627,
+      "when": [
+        "step",
+        "select",
+        "flow",
+        "gather",
+        "inputs"
+      ]
+    },
+    {
+      "name": "Input video policy (non-negotiable)",
+      "bytes": 1583,
+      "when": [
+        "input",
+        "video",
+        "policy",
+        "negotiable"
+      ]
+    },
+    {
+      "name": "Execution Time Overview (required before run)",
+      "bytes": 1222,
+      "when": [
+        "execution",
+        "time",
+        "overview",
+        "required",
+        "before"
+      ]
+    },
+    {
+      "name": "Common Preconditions (all flows)",
+      "bytes": 3343,
+      "when": [
+        "common",
+        "preconditions",
+        "flows"
+      ]
+    },
+    {
+      "name": "Submit (all flows)",
+      "bytes": 2272,
+      "when": [
+        "submit",
+        "flows"
+      ]
+    },
+    {
+      "name": "OSMO Monitoring",
+      "bytes": 1670,
+      "when": [
+        "osmo",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Post-Run Comparison Evidence (required for augmented flows)",
+      "bytes": 1321,
+      "when": [
+        "post",
+        "comparison",
+        "evidence",
+        "required",
+        "augmented",
+        "flows"
+      ]
+    },
+    {
+      "name": "Supporting files",
+      "bytes": 420,
+      "when": [
+        "supporting",
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\physical-ai-video-data-augmentation\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,288 @@
+{
+  "id": "awesome-copilot__freecad-scripts",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d7cf141375e743f9f56811a0d16877aaf8e9a2d0dfc31cd48378bd17720ba840",
+  "purpose": "Expert skill for writing FreeCAD Python scripts, macros, and automation. Use when asked to create FreeCAD models, parametric objects, Part/Mesh/Sketcher scripts, workbench tools, GUI dialogs with PySi",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Expert skill for writing FreeCAD Python scripts, macros, and automation. Use when asked to create FreeCAD models, parametric objects, Part/Mesh/Sketcher scripts"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5330,
+  "core_bytes": 21356,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 546,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 215,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "FreeCAD Python Environment",
+      "bytes": 1275,
+      "when": [
+        "freecad",
+        "python",
+        "environment"
+      ]
+    },
+    {
+      "name": "The FreeCAD Document Model",
+      "bytes": 418,
+      "when": [
+        "freecad",
+        "document",
+        "model"
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "bytes": 6318,
+      "when": [
+        "core",
+        "concepts"
+      ]
+    },
+    {
+      "name": "Vectors and Placements",
+      "bytes": 921,
+      "when": [
+        "vectors",
+        "placements"
+      ]
+    },
+    {
+      "name": "Creating and Manipulating Geometry (Part Module)",
+      "bytes": 2275,
+      "when": [
+        "creating",
+        "manipulating",
+        "geometry",
+        "part",
+        "module"
+      ]
+    },
+    {
+      "name": "Topological Exploration",
+      "bytes": 719,
+      "when": [
+        "topological",
+        "exploration"
+      ]
+    },
+    {
+      "name": "Mesh Module",
+      "bytes": 652,
+      "when": [
+        "mesh",
+        "module"
+      ]
+    },
+    {
+      "name": "Sketcher Module",
+      "bytes": 1014,
+      "when": [
+        "sketcher",
+        "module"
+      ]
+    },
+    {
+      "name": "Draft Module",
+      "bytes": 719,
+      "when": [
+        "draft",
+        "module"
+      ]
+    },
+    {
+      "name": "Creating Parametric Objects (FeaturePython)",
+      "bytes": 2559,
+      "when": [
+        "creating",
+        "parametric",
+        "objects",
+        "featurepython"
+      ]
+    },
+    {
+      "name": "Common Property Types",
+      "bytes": 884,
+      "when": [
+        "common",
+        "property",
+        "types"
+      ]
+    },
+    {
+      "name": "Creating GUI Tools",
+      "bytes": 2838,
+      "when": [
+        "creating",
+        "tools"
+      ]
+    },
+    {
+      "name": "Gui Commands",
+      "bytes": 601,
+      "when": [
+        "commands"
+      ]
+    },
+    {
+      "name": "PySide Dialogs",
+      "bytes": 1262,
+      "when": [
+        "pyside",
+        "dialogs"
+      ]
+    },
+    {
+      "name": "Task Panel (Recommended for FreeCAD integration)",
+      "bytes": 952,
+      "when": [
+        "task",
+        "panel",
+        "recommended",
+        "freecad",
+        "integration"
+      ]
+    },
+    {
+      "name": "Coin3D Scenegraph (Pivy)",
+      "bytes": 542,
+      "when": [
+        "coin3d",
+        "scenegraph",
+        "pivy"
+      ]
+    },
+    {
+      "name": "Custom Workbench Creation",
+      "bytes": 635,
+      "when": [
+        "custom",
+        "workbench",
+        "creation"
+      ]
+    },
+    {
+      "name": "Macro Best Practices",
+      "bytes": 1604,
+      "when": [
+        "macro",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Selection Handling",
+      "bytes": 551,
+      "when": [
+        "selection",
+        "handling"
+      ]
+    },
+    {
+      "name": "Console Output",
+      "bytes": 226,
+      "when": [
+        "console",
+        "output"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 1537,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Parametric Pad from Sketch",
+      "bytes": 835,
+      "when": [
+        "parametric",
+        "sketch"
+      ]
+    },
+    {
+      "name": "Export Shapes",
+      "bytes": 373,
+      "when": [
+        "export",
+        "shapes"
+      ]
+    },
+    {
+      "name": "Units and Quantities",
+      "bytes": 309,
+      "when": [
+        "units",
+        "quantities"
+      ]
+    },
+    {
+      "name": "Compensation Rules (Quasi-Coder Integration)",
+      "bytes": 940,
+      "when": [
+        "compensation",
+        "rules",
+        "quasi",
+        "coder",
+        "integration"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1655,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Primary Links",
+      "bytes": 996,
+      "when": [
+        "primary",
+        "links"
+      ]
+    },
+    {
+      "name": "Bundled Reference Documents",
+      "bytes": 644,
+      "when": [
+        "bundled",
+        "reference",
+        "documents"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\freecad-scripts\\SKILL.md"
+}

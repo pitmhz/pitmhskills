@@ -1,0 +1,143 @@
+{
+  "id": "nvidia__nv-reason-cxr",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3228c58aa5879d5e83c0dc4afc32cf8a9e3ea73d0bdcfacf7fdd47a55bde936f",
+  "purpose": "Used for command-shape or live NV-Reason-CXR chest X-ray reasoning smoke tests. Not for diagnosis or clinical reporting.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Used for command-shape or live NV-Reason-CXR chest X-ray reasoning smoke tests. Not for diagnosis or clinical reporting."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4011,
+  "core_bytes": 16061,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 340,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 837,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 267,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 751,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 898,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1681,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Exact Runnable Surface",
+      "bytes": 931,
+      "when": [
+        "exact",
+        "runnable",
+        "surface"
+      ]
+    },
+    {
+      "name": "Preconditions",
+      "bytes": 1829,
+      "when": [
+        "preconditions"
+      ]
+    },
+    {
+      "name": "Prompt Routing",
+      "bytes": 2312,
+      "when": [
+        "prompt",
+        "routing"
+      ]
+    },
+    {
+      "name": "Follow-up Handling",
+      "bytes": 1084,
+      "when": [
+        "follow",
+        "handling"
+      ]
+    },
+    {
+      "name": "License",
+      "bytes": 238,
+      "when": [
+        "license"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 3902,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Fixture Smoke Test",
+      "bytes": 338,
+      "when": [
+        "fixture",
+        "smoke",
+        "test"
+      ]
+    },
+    {
+      "name": "Limits",
+      "bytes": 330,
+      "when": [
+        "limits"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-reason-cxr/SKILL.md",
+  "curated": true
+}

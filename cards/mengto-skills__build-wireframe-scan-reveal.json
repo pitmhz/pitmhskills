@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__build-wireframe-scan-reveal",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "0d52591f0f4f713cc3c127d0c83c7690374c7c3a34738eefad762530953b0014",
+  "purpose": "Reveal Three.js geometry with an expanding world-space scan whose wire cage leads the solid surface, then burns away. Use for wireframe scanning, radial mesh reveals, survey pulses, holographic assemb",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Reveal Three.js geometry with an expanding world-space scan whose wire cage leads the solid surface, then burns away. Use for wireframe scanning, radial mesh re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1603,
+  "core_bytes": 6413,
+  "sections": [
+    {
+      "name": "Pair two representations",
+      "bytes": 1157,
+      "when": [
+        "pair",
+        "representations"
+      ]
+    },
+    {
+      "name": "Make the cage ride the front",
+      "bytes": 664,
+      "when": [
+        "cage",
+        "ride",
+        "front"
+      ]
+    },
+    {
+      "name": "Animate one conductor",
+      "bytes": 1179,
+      "when": [
+        "animate",
+        "conductor"
+      ]
+    },
+    {
+      "name": "Stage and size the scan",
+      "bytes": 557,
+      "when": [
+        "stage",
+        "size",
+        "scan"
+      ]
+    },
+    {
+      "name": "Respect motion and lifecycle",
+      "bytes": 750,
+      "when": [
+        "respect",
+        "motion",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "State the cost honestly",
+      "bytes": 419,
+      "when": [
+        "state",
+        "cost",
+        "honestly"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 799,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "build",
+    "pair",
+    "representations",
+    "ride",
+    "front",
+    "animate",
+    "conductor",
+    "stage",
+    "size",
+    "respect",
+    "motion",
+    "lifecycle"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\build-wireframe-scan-reveal\\SKILL.md"
+}

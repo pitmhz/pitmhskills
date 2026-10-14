@@ -1,0 +1,99 @@
+{
+  "id": "nvidia__nvidia-skill-finder",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "12e25cee934df5b0405569a624fd1495006629677cca58827a4e018289d14b3d",
+  "purpose": "Use for NVIDIA-related requests where an NVIDIA skill might help, even if the user did not ask for a skill. Trigger on NVIDIA products, hardware, software, SDKs, GPUs, Jetson/JetPack/L4T/BSP/SDK Manag",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Use for NVIDIA-related requests where an NVIDIA skill might help, even if the user did not ask for a skill. Trigger on NVIDIA products, hardware, software, SDKs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2129,
+  "core_bytes": 8517,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 389,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to Use this Skill",
+      "bytes": 2155,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Implicit Invocation Constraints",
+      "bytes": 915,
+      "when": [
+        "implicit",
+        "invocation",
+        "constraints"
+      ]
+    },
+    {
+      "name": "When Not to Use this Skill",
+      "bytes": 777,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1899,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Recommendation Format",
+      "bytes": 712,
+      "when": [
+        "recommendation",
+        "format"
+      ]
+    },
+    {
+      "name": "Confidence Rules",
+      "bytes": 700,
+      "when": [
+        "confidence",
+        "rules"
+      ]
+    },
+    {
+      "name": "When No Skills are Found",
+      "bytes": 272,
+      "when": [
+        "skills",
+        "found"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\plugins\\nvidia-skills\\skills\\nvidia-skill-finder\\SKILL.md",
+  "curated": true
+}

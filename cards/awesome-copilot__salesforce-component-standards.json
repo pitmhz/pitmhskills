@@ -1,0 +1,208 @@
+{
+  "id": "awesome-copilot__salesforce-component-standards",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cbc52d34e7f41a125996ae8573b800a43881c3fab4b81a11a6bd7ba2ee9ff13b",
+  "purpose": "Quality standards for Salesforce Lightning Web Components (LWC), Aura components, and Visualforce pages. Covers SLDS 2 compliance, accessibility (WCAG 2.1 AA), data access pattern selection, component",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Quality standards for Salesforce Lightning Web Components (LWC), Aura components, and Visualforce pages. Covers SLDS 2 compliance, accessibility (WCAG 2.1 AA), "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2448,
+  "core_bytes": 9866,
+  "sections": [
+    {
+      "name": "Section 1 — LWC Quality Standards",
+      "bytes": 4839,
+      "when": [
+        "section",
+        "quality",
+        "standards"
+      ]
+    },
+    {
+      "name": "1.1 Data Access Pattern Selection",
+      "bytes": 1073,
+      "when": [
+        "data",
+        "access",
+        "pattern",
+        "selection"
+      ]
+    },
+    {
+      "name": "1.2 Security Rules",
+      "bytes": 627,
+      "when": [
+        "security",
+        "rules"
+      ]
+    },
+    {
+      "name": "1.3 SLDS 2 and Styling Standards",
+      "bytes": 615,
+      "when": [
+        "slds",
+        "styling",
+        "standards"
+      ]
+    },
+    {
+      "name": "1.4 Accessibility Requirements (WCAG 2.1 AA)",
+      "bytes": 691,
+      "when": [
+        "accessibility",
+        "requirements",
+        "wcag"
+      ]
+    },
+    {
+      "name": "1.5 Component Communication Rules",
+      "bytes": 583,
+      "when": [
+        "component",
+        "communication",
+        "rules"
+      ]
+    },
+    {
+      "name": "1.6 JavaScript Performance Rules",
+      "bytes": 528,
+      "when": [
+        "javascript",
+        "performance",
+        "rules"
+      ]
+    },
+    {
+      "name": "1.7 Jest Test Requirements",
+      "bytes": 682,
+      "when": [
+        "jest",
+        "test",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Section 2 — Aura Component Standards",
+      "bytes": 1190,
+      "when": [
+        "section",
+        "aura",
+        "component",
+        "standards"
+      ]
+    },
+    {
+      "name": "2.1 When to Use Aura vs LWC",
+      "bytes": 313,
+      "when": [
+        "aura"
+      ]
+    },
+    {
+      "name": "2.2 Aura Security Rules",
+      "bytes": 410,
+      "when": [
+        "aura",
+        "security",
+        "rules"
+      ]
+    },
+    {
+      "name": "2.3 Aura Event Design",
+      "bytes": 424,
+      "when": [
+        "aura",
+        "event",
+        "design"
+      ]
+    },
+    {
+      "name": "Section 3 — Visualforce Security Standards",
+      "bytes": 2079,
+      "when": [
+        "section",
+        "visualforce",
+        "security",
+        "standards"
+      ]
+    },
+    {
+      "name": "3.1 XSS Prevention",
+      "bytes": 451,
+      "when": [
+        "prevention"
+      ]
+    },
+    {
+      "name": "3.2 CSRF Protection",
+      "bytes": 223,
+      "when": [
+        "csrf",
+        "protection"
+      ]
+    },
+    {
+      "name": "3.3 SOQL Injection Prevention in Controllers",
+      "bytes": 418,
+      "when": [
+        "soql",
+        "injection",
+        "prevention",
+        "controllers"
+      ]
+    },
+    {
+      "name": "3.4 View State Management Checklist",
+      "bytes": 394,
+      "when": [
+        "view",
+        "state",
+        "management",
+        "checklist"
+      ]
+    },
+    {
+      "name": "3.5 FLS / CRUD in Visualforce Controllers",
+      "bytes": 544,
+      "when": [
+        "crud",
+        "visualforce",
+        "controllers"
+      ]
+    },
+    {
+      "name": "Quick Reference — Component Anti-Patterns Summary",
+      "bytes": 1092,
+      "when": [
+        "quick",
+        "reference",
+        "component",
+        "anti",
+        "patterns",
+        "summary"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\salesforce-component-standards\\SKILL.md"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "daisyui__daisyui-colors",
+  "tier": "B",
+  "origin": [
+    "saadeghi/daisyui@bf3bac3a397b543e55641ecb2d60a2ed961f09ec"
+  ],
+  "license": "MIT",
+  "hash": "9a5feef20e3bdf24c9435afa7a66771873fb1362f6d4611f8f491cb1a0550337",
+  "purpose": "Color rules that you must use with daisyUI 5",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Color rules that you must use with daisyUI 5"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "daisyUI theme colors -> this.",
+  "cluster": "component-library",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "themes semantics",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1762,
+  "core_bytes": 7045,
+  "sections": [
+    {
+      "name": "daisyUI 5 colors",
+      "bytes": 6952,
+      "when": [
+        "daisyui",
+        "colors"
+      ]
+    },
+    {
+      "name": "daisyUI color names",
+      "bytes": 1278,
+      "when": [
+        "daisyui",
+        "color",
+        "names"
+      ]
+    },
+    {
+      "name": "daisyUI color rules",
+      "bytes": 1319,
+      "when": [
+        "daisyui",
+        "color",
+        "rules"
+      ]
+    },
+    {
+      "name": "Enable and apply themes",
+      "bytes": 685,
+      "when": [
+        "enable",
+        "apply",
+        "themes"
+      ]
+    },
+    {
+      "name": "daisyUI custom theme with custom colors",
+      "bytes": 2832,
+      "when": [
+        "daisyui",
+        "custom",
+        "theme",
+        "colors"
+      ]
+    },
+    {
+      "name": "Change a built-in theme",
+      "bytes": 815,
+      "when": [
+        "change",
+        "built",
+        "theme"
+      ]
+    }
+  ],
+  "keywords": [
+    "colors",
+    "names",
+    "enable",
+    "apply",
+    "themes",
+    "custom",
+    "theme",
+    "change",
+    "built"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\daisyui\\skills\\daisyui\\colors\\SKILL.md"
+}

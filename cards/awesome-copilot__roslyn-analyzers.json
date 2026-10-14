@@ -1,0 +1,147 @@
+{
+  "id": "awesome-copilot__roslyn-analyzers",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "48e96b0d8e7e3fdbdd244153a12735d550ad8ba9622133eb9ec92f228f28646b",
+  "purpose": "Build, review, debug, package, and test Roslyn diagnostic analyzers, code fix providers, and incremental source generators. Use for DiagnosticAnalyzer, CodeFixProvider, IIncrementalGenerator, IOperati",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Build, review, debug, package, and test Roslyn diagnostic analyzers, code fix providers, and incremental source generators. Use for DiagnosticAnalyzer, CodeFixP"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 9049,
+  "core_bytes": 36195,
+  "sections": [
+    {
+      "name": "Non-negotiable design rules",
+      "bytes": 4051,
+      "when": [
+        "negotiable",
+        "design",
+        "rules"
+      ]
+    },
+    {
+      "name": "Implementation workflow",
+      "bytes": 3123,
+      "when": [
+        "implementation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Analyzer pattern",
+      "bytes": 2428,
+      "when": [
+        "analyzer",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Syntax-analysis exception",
+      "bytes": 702,
+      "when": [
+        "syntax",
+        "analysis",
+        "exception"
+      ]
+    },
+    {
+      "name": "Incremental source generators",
+      "bytes": 4688,
+      "when": [
+        "incremental",
+        "source",
+        "generators"
+      ]
+    },
+    {
+      "name": "Generator tests",
+      "bytes": 996,
+      "when": [
+        "generator",
+        "tests"
+      ]
+    },
+    {
+      "name": "Diagnostic documentation and help links",
+      "bytes": 1842,
+      "when": [
+        "diagnostic",
+        "documentation",
+        "help",
+        "links"
+      ]
+    },
+    {
+      "name": "Project and dependency boundaries",
+      "bytes": 7832,
+      "when": [
+        "project",
+        "dependency",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Code-fix boundaries",
+      "bytes": 826,
+      "when": [
+        "code",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Unique assembly versions",
+      "bytes": 1973,
+      "when": [
+        "unique",
+        "assembly",
+        "versions"
+      ]
+    },
+    {
+      "name": "Test structure",
+      "bytes": 3985,
+      "when": [
+        "test",
+        "structure"
+      ]
+    },
+    {
+      "name": "Packaging",
+      "bytes": 1149,
+      "when": [
+        "packaging"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 2780,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\roslyn-analyzers\\SKILL.md"
+}

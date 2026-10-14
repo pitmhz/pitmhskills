@@ -1,0 +1,134 @@
+{
+  "id": "web-animation__ascii-animation",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "09a37d9d826acd537f2b86f624396f5946fe3ab150e05fa228374af1c13acaea",
+  "purpose": "This skill should be used when the user asks to \"make an ASCII animation\", \"build a terminal/CLI intro or loader\", \"convert an image or video to ASCII art\", \"add an ASCII shader/post-effect to a canva",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"make an ASCII animation\", \"build a terminal/CLI intro or loader\", \"convert an image or video to ASCII art\", \"ad"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "ASCII / terminal animation -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "ascii terminal loader characters",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2336,
+  "core_bytes": 9398,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 301,
+      "when": []
+    },
+    {
+      "name": "Core concept: the brightness ramp",
+      "bytes": 747,
+      "when": [
+        "core",
+        "concept",
+        "brightness",
+        "ramp"
+      ]
+    },
+    {
+      "name": "Character cell aspect correction (the #1 gotcha)",
+      "bytes": 475,
+      "when": [
+        "character",
+        "cell",
+        "aspect",
+        "correction",
+        "gotcha"
+      ]
+    },
+    {
+      "name": "Web rendering: `<pre>` vs canvas",
+      "bytes": 1038,
+      "when": [
+        "rendering",
+        "canvas"
+      ]
+    },
+    {
+      "name": "Image / video to ASCII",
+      "bytes": 1168,
+      "when": [
+        "image",
+        "video",
+        "ascii"
+      ]
+    },
+    {
+      "name": "3D-to-ASCII with Three.js",
+      "bytes": 568,
+      "when": [
+        "ascii",
+        "three"
+      ]
+    },
+    {
+      "name": "Terminal / CLI animation",
+      "bytes": 776,
+      "when": [
+        "terminal",
+        "animation"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2667,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 525,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 410,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "concept",
+    "cell",
+    "aspect",
+    "correction",
+    "gotcha",
+    "rendering",
+    "deliver",
+    "verify",
+    "standalone",
+    "html",
+    "quick",
+    "reference"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\ascii-animation\\SKILL.md"
+}

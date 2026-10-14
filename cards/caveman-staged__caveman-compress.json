@@ -1,0 +1,49 @@
+{
+  "id": "caveman-staged__caveman-compress",
+  "tier": "B",
+  "origin": [
+    "local@caveman-compress"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dd5388f085316f9f6a8b34ad906441023033596f8ac1d63b81fb20e8d3f50283",
+  "purpose": "Compress a memory file such as CLAUDE.md or a todo list into caveman format to save input tokens, keeping a readable backup. Sends the file's text to the configured model provider. Trigger: /caveman-c",
+  "domain": "memory",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Compress a memory file such as CLAUDE.md or a todo list into caveman format to save input tokens, keeping a readable backup. Sends the file's text to the config",
+    "Compress a memory file or todo list into short form to save input tokens",
+    "Shrink an instruction file keeping every heading, path and code block intact"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1390,
+  "core_bytes": 5578,
+  "sections": [],
+  "keywords": [
+    "purpose",
+    "process",
+    "compression",
+    "rules",
+    "remove",
+    "preserve",
+    "exactly",
+    "modify",
+    "structure",
+    "pattern",
+    "boundaries"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\caveman-staged\\caveman-compress\\SKILL.md",
+  "curated": true
+}

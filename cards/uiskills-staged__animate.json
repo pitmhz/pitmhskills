@@ -1,0 +1,112 @@
+{
+  "id": "uiskills-staged__animate",
+  "tier": "B",
+  "origin": [
+    "local@animate"
+  ],
+  "license": "Apache-2.0",
+  "hash": "81ad919855a7cc3184648249e3b41b7bd29d826ee61aed160e068103e7098779",
+  "purpose": "Use motion to explain state, relationship, and hierarchy, or to create one authored moment the surface has earned. Decoration without purpose is animation debt.",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use motion to explain state, relationship, and hierarchy, or to create one authored moment the surface has earned. Decoration without purpose is animation debt."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Purposeful animation selection -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "purposeful delight usability",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1336,
+  "core_bytes": 5354,
+  "sections": [
+    {
+      "name": "Visitor mode",
+      "bytes": 511,
+      "when": [
+        "visitor",
+        "mode"
+      ]
+    },
+    {
+      "name": "Find the job",
+      "bytes": 500,
+      "when": [
+        "find"
+      ]
+    },
+    {
+      "name": "Set the motion thesis",
+      "bytes": 540,
+      "when": [
+        "motion",
+        "thesis"
+      ]
+    },
+    {
+      "name": "Choose material by meaning",
+      "bytes": 991,
+      "when": [
+        "choose",
+        "material",
+        "meaning"
+      ]
+    },
+    {
+      "name": "Timing and easing",
+      "bytes": 523,
+      "when": [
+        "timing",
+        "easing"
+      ]
+    },
+    {
+      "name": "Implement to the runtime",
+      "bytes": 975,
+      "when": [
+        "implement",
+        "runtime"
+      ]
+    },
+    {
+      "name": "Accessibility and control",
+      "bytes": 469,
+      "when": [
+        "accessibility",
+        "control"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 613,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "visitor",
+    "mode",
+    "find",
+    "thesis",
+    "choose",
+    "material",
+    "meaning",
+    "timing",
+    "easing",
+    "implement",
+    "runtime",
+    "accessibility",
+    "control"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\animate\\SKILL.md"
+}

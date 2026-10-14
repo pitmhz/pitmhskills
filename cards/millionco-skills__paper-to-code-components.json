@@ -1,0 +1,178 @@
+{
+  "id": "millionco-skills__paper-to-code-components",
+  "tier": "B",
+  "origin": [
+    "millionco/skills@462b78424e14ba6895a717733e1d57191dd9912f"
+  ],
+  "license": "MIT",
+  "hash": "93a98f64993cd9efff60e1c0bf108d405c7dee36e27cb0663cf3559054bfb932",
+  "purpose": "Use when implementing Paper MCP, Paper-to-code, design-to-code, Viewfinder, or Paper-exported JSX in React/Next.js apps. Covers component candidates, choosing the canonical artboard among iterations, ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use when implementing Paper MCP, Paper-to-code, design-to-code, Viewfinder, or Paper-exported JSX in React/Next.js apps. Covers component candidates, choosing t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6714,
+  "core_bytes": 26916,
+  "sections": [
+    {
+      "name": "RED/GREEN Intent",
+      "bytes": 1496,
+      "when": [
+        "green",
+        "intent"
+      ]
+    },
+    {
+      "name": "1. Extract the Design Hierarchy First",
+      "bytes": 1708,
+      "when": [
+        "extract",
+        "design",
+        "hierarchy",
+        "first"
+      ]
+    },
+    {
+      "name": "2. Choose Component Candidates",
+      "bytes": 880,
+      "when": [
+        "choose",
+        "component",
+        "candidates"
+      ]
+    },
+    {
+      "name": "3. One Component Per Icon",
+      "bytes": 1608,
+      "when": [
+        "component",
+        "icon"
+      ]
+    },
+    {
+      "name": "4. Define Boundaries and Props",
+      "bytes": 1546,
+      "when": [
+        "define",
+        "boundaries",
+        "props"
+      ]
+    },
+    {
+      "name": "5. Implementation Rules",
+      "bytes": 1074,
+      "when": [
+        "implementation",
+        "rules"
+      ]
+    },
+    {
+      "name": "6. Standardize Arbitrary Values",
+      "bytes": 2553,
+      "when": [
+        "standardize",
+        "arbitrary",
+        "values"
+      ]
+    },
+    {
+      "name": "7. Reuse shadcn Before Custom Markup",
+      "bytes": 991,
+      "when": [
+        "reuse",
+        "shadcn",
+        "before",
+        "custom",
+        "markup"
+      ]
+    },
+    {
+      "name": "8. Port the Real Fonts, Don't Substitute",
+      "bytes": 2233,
+      "when": [
+        "port",
+        "real",
+        "fonts",
+        "substitute"
+      ]
+    },
+    {
+      "name": "9. Charts and Data Visualizations Are Semantic, Not Pixels",
+      "bytes": 3191,
+      "when": [
+        "charts",
+        "data",
+        "visualizations",
+        "semantic",
+        "pixels"
+      ]
+    },
+    {
+      "name": "10. Verify Against the Source Render",
+      "bytes": 2076,
+      "when": [
+        "verify",
+        "against",
+        "source",
+        "render"
+      ]
+    },
+    {
+      "name": "Example",
+      "bytes": 442,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Escape Hatches Closed",
+      "bytes": 3492,
+      "when": [
+        "escape",
+        "hatches",
+        "closed"
+      ]
+    },
+    {
+      "name": "Before Marking Complete, You MUST:",
+      "bytes": 2917,
+      "when": [
+        "before",
+        "marking",
+        "complete"
+      ]
+    }
+  ],
+  "keywords": [
+    "componentization",
+    "green",
+    "intent",
+    "extract",
+    "hierarchy",
+    "first",
+    "choose",
+    "icon",
+    "define",
+    "boundaries",
+    "props",
+    "implementation",
+    "rules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\millionco-skills\\skills\\paper-to-code-components\\SKILL.md"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "nvidia__tao-list-capabilities",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9cd9e5a174d7f22f6dfddc041152a93f648f89766ebce9a40dd21cde494310ce",
+  "purpose": "Answer what the TAO Skill Bank plugin can do by generating the response from packaged application, data, model, AutoML, and platform manifests. Use when the user asks \"what can TAO Skill Bank do\", \"li",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Answer what the TAO Skill Bank plugin can do by generating the response from packaged application, data, model, AutoML, and platform manifests. Use when the use"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 901,
+  "core_bytes": 3602,
+  "sections": [
+    {
+      "name": "Quick Start",
+      "bytes": 174,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Capability Answers",
+      "bytes": 1105,
+      "when": [
+        "capability",
+        "answers"
+      ]
+    },
+    {
+      "name": "Model Lists",
+      "bytes": 424,
+      "when": [
+        "model",
+        "lists"
+      ]
+    },
+    {
+      "name": "AutoML Lists",
+      "bytes": 882,
+      "when": [
+        "automl",
+        "lists"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-list-capabilities\\SKILL.md",
+  "curated": true
+}

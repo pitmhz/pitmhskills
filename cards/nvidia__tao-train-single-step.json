@@ -1,0 +1,73 @@
+{
+  "id": "nvidia__tao-train-single-step",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9c15f97138f9e2994cb1cfabd664f5470ed257f2bce25caa525421adaf0e272f",
+  "purpose": "Standard single-step train/eval/export workflow for any TAO model. Use when training a TAO model on a dataset",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Standard single-step train/eval/export workflow for any TAO model. Use when training a TAO model on a dataset"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1212,
+  "core_bytes": 4855,
+  "sections": [
+    {
+      "name": "Steps",
+      "bytes": 320,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1663,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required",
+      "bytes": 678,
+      "when": [
+        "required"
+      ]
+    },
+    {
+      "name": "Optional",
+      "bytes": 610,
+      "when": [
+        "optional"
+      ]
+    },
+    {
+      "name": "Launch Intake",
+      "bytes": 1697,
+      "when": [
+        "launch",
+        "intake"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-single-step/SKILL.md",
+  "curated": true
+}

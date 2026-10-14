@@ -27,7 +27,23 @@
   "conflicts_with": [],
   "body_tokens": 686,
   "core_bytes": 2744,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Why vinext",
+      "bytes": 529,
+      "when": [
+        "vinext"
+      ]
+    },
+    {
+      "name": "Use the upstream workflow",
+      "bytes": 1402,
+      "when": [
+        "upstream",
+        "workflow"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/nextjs-on-cloudflare/SKILL.md"
 }

@@ -28,7 +28,124 @@
   "conflicts_with": [],
   "body_tokens": 3603,
   "core_bytes": 14480,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 1736,
+      "when": []
+    },
+    {
+      "name": "What It Does",
+      "bytes": 550,
+      "when": []
+    },
+    {
+      "name": "Availability",
+      "bytes": 349,
+      "when": [
+        "availability"
+      ]
+    },
+    {
+      "name": "Architecture: Where Object Storage Fits",
+      "bytes": 1685,
+      "when": [
+        "architecture",
+        "where",
+        "object",
+        "storage",
+        "fits"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 583,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Neon Infrastructure as Code (`neon.ts`)",
+      "bytes": 1133,
+      "when": [
+        "neon",
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 1510,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Working with Objects: the Files SDK (Recommended)",
+      "bytes": 1684,
+      "when": [
+        "working",
+        "objects",
+        "files",
+        "recommended"
+      ]
+    },
+    {
+      "name": "Working with Objects: the AWS S3 Client (Alternative)",
+      "bytes": 1378,
+      "when": [
+        "working",
+        "objects",
+        "client",
+        "alternative"
+      ]
+    },
+    {
+      "name": "Pairing Storage with the Database on a Branch",
+      "bytes": 405,
+      "when": [
+        "pairing",
+        "storage",
+        "database",
+        "branch"
+      ]
+    },
+    {
+      "name": "CLI Bucket and Object Commands",
+      "bytes": 206,
+      "when": [
+        "bucket",
+        "object",
+        "commands"
+      ]
+    },
+    {
+      "name": "Built-in Branch Logs",
+      "bytes": 498,
+      "when": [
+        "built",
+        "branch",
+        "logs"
+      ]
+    },
+    {
+      "name": "Neon Documentation",
+      "bytes": 376,
+      "when": [
+        "neon",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Further Reading",
+      "bytes": 481,
+      "when": [
+        "further",
+        "reading"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-object-storage\\SKILL.md"
 }

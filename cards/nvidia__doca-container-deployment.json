@@ -1,0 +1,95 @@
+{
+  "id": "nvidia__doca-container-deployment",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "59fcdc71123bd6fbb483b7b5115ae5a03f261feb43a49a0b7a52f39ba3010e62",
+  "purpose": "Use this skill when the user is hands-on deploying an in-bundle DOCA service container (Argus, DMS, Firefly, or UROM service) on a BlueField — kubelet standalone watching a static-pod manifests direct",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when the user is hands-on deploying an in-bundle DOCA service container (Argus, DMS, Firefly, or UROM service) on a BlueField — kubelet standalon"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2562,
+  "core_bytes": 10299,
+  "sections": [
+    {
+      "name": "Audience",
+      "bytes": 1533,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 2080,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 2126,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 614,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 145,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 147,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 91,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-container-deployment\\SKILL.md",
+  "curated": true
+}

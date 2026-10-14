@@ -1,0 +1,87 @@
+{
+  "id": "awesome-copilot__qdrant-model-migration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "811cc59e1b1f421449e898f4e2e3f6d4b43fd220af2d544aaed0e7e134639b07",
+  "purpose": "Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding models', 'how to migrate vectors', 'how to update to a new model', 'zero-downtime model chan",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding models', 'how to migrate vectors', 'how to update to"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1379,
+  "core_bytes": 5514,
+  "sections": [
+    {
+      "name": "Can I Avoid Re-embedding?",
+      "bytes": 691,
+      "when": [
+        "avoid",
+        "embedding"
+      ]
+    },
+    {
+      "name": "Need Zero Downtime (Alias Swap)",
+      "bytes": 654,
+      "when": [
+        "need",
+        "zero",
+        "downtime",
+        "alias",
+        "swap"
+      ]
+    },
+    {
+      "name": "Need Both Models Live (Side-by-Side)",
+      "bytes": 1230,
+      "when": [
+        "need",
+        "both",
+        "models",
+        "live",
+        "side"
+      ]
+    },
+    {
+      "name": "Dense to Hybrid Search Migration",
+      "bytes": 578,
+      "when": [
+        "dense",
+        "hybrid",
+        "search",
+        "migration"
+      ]
+    },
+    {
+      "name": "Re-embedding Is Too Slow",
+      "bytes": 904,
+      "when": [
+        "embedding",
+        "slow"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 519,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-model-migration\\SKILL.md"
+}

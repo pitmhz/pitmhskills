@@ -1,0 +1,89 @@
+{
+  "id": "taste-skill__full-output-enforcement",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "7b2275b591af7760b36a2dfb1dbcf3c99c5054c52298a1066c4979f39ed947d9",
+  "purpose": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged outp",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any ta"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 658,
+  "core_bytes": 2641,
+  "sections": [
+    {
+      "name": "Baseline",
+      "bytes": 284,
+      "when": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Banned Output Patterns",
+      "bytes": 838,
+      "when": [
+        "banned",
+        "output",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Execution Process",
+      "bytes": 457,
+      "when": [
+        "execution",
+        "process"
+      ]
+    },
+    {
+      "name": "Handling Long Outputs",
+      "bytes": 461,
+      "when": [
+        "handling",
+        "long",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Quick Check",
+      "bytes": 311,
+      "when": [
+        "quick",
+        "check"
+      ]
+    }
+  ],
+  "keywords": [
+    "full",
+    "enforcement",
+    "baseline",
+    "banned",
+    "execution",
+    "process",
+    "handling",
+    "long",
+    "outputs",
+    "quick",
+    "check"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\output-skill\\SKILL.md"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "nvidia__physical-ai-neural-reconstruction",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8cb3bb6dcfd634a3022cc519fac52f4a435311ff6371513a222a8cc9dc421bbc",
+  "purpose": "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, carline adaptation, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, carline adaptation, PhysicalAI HF datasets. Do NOT use for SimReady or inf"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4600,
+  "core_bytes": 18477,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 1121,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 881,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 677,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "What is NuRec?",
+      "bytes": 726,
+      "when": [
+        "nurec"
+      ]
+    },
+    {
+      "name": "Pick a skill",
+      "bytes": 2576,
+      "when": [
+        "pick",
+        "skill"
+      ]
+    },
+    {
+      "name": "Common workflows",
+      "bytes": 598,
+      "when": [
+        "common",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Sibling skills (upstream)",
+      "bytes": 1932,
+      "when": [
+        "sibling",
+        "skills",
+        "upstream"
+      ]
+    },
+    {
+      "name": "Locate and fetch the upstream skills",
+      "bytes": 2409,
+      "when": [
+        "locate",
+        "fetch",
+        "upstream",
+        "skills"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 2212,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1640,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 351,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Cross-skill teardown",
+      "bytes": 468,
+      "when": [
+        "cross",
+        "skill",
+        "teardown"
+      ]
+    },
+    {
+      "name": "Keeping this router up to date",
+      "bytes": 583,
+      "when": [
+        "keeping",
+        "router",
+        "date"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/physical-ai-neural-reconstruction/SKILL.md",
+  "curated": true
+}

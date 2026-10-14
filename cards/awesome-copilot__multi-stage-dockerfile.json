@@ -1,0 +1,76 @@
+{
+  "id": "awesome-copilot__multi-stage-dockerfile",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7dfea7d31f3744930cb07869e15a79f90dbd47d2ddc56d165715fbd257db9ba7",
+  "purpose": "Create optimized multi-stage Dockerfiles for any language or framework",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Create optimized multi-stage Dockerfiles for any language or framework"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 577,
+  "core_bytes": 2314,
+  "sections": [
+    {
+      "name": "Multi-Stage Structure",
+      "bytes": 452,
+      "when": [
+        "multi",
+        "stage",
+        "structure"
+      ]
+    },
+    {
+      "name": "Base Images",
+      "bytes": 397,
+      "when": [
+        "base",
+        "images"
+      ]
+    },
+    {
+      "name": "Layer Optimization",
+      "bytes": 420,
+      "when": [
+        "layer",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Security Practices",
+      "bytes": 333,
+      "when": [
+        "security",
+        "practices"
+      ]
+    },
+    {
+      "name": "Performance Considerations",
+      "bytes": 442,
+      "when": [
+        "performance",
+        "considerations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\multi-stage-dockerfile\\SKILL.md"
+}

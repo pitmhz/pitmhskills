@@ -1,0 +1,116 @@
+{
+  "id": "nvidia__cuopt-routing-api-python",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9a4a45e82f2465edaa6d0a13ed1fb2205998f84f016dbc1e2163d3aefab47852",
+  "purpose": "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 950,
+  "core_bytes": 3820,
+  "sections": [
+    {
+      "name": "Required questions",
+      "bytes": 510,
+      "when": [
+        "required",
+        "questions"
+      ]
+    },
+    {
+      "name": "Minimal VRP Example",
+      "bytes": 419,
+      "when": [
+        "minimal",
+        "example"
+      ]
+    },
+    {
+      "name": "Adding Constraints",
+      "bytes": 590,
+      "when": [
+        "adding",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Solution Checking",
+      "bytes": 321,
+      "when": [
+        "solution",
+        "checking"
+      ]
+    },
+    {
+      "name": "Data Types (use explicit dtypes)",
+      "bytes": 199,
+      "when": [
+        "data",
+        "types",
+        "explicit",
+        "dtypes"
+      ]
+    },
+    {
+      "name": "Solver Settings",
+      "bytes": 154,
+      "when": [
+        "solver",
+        "settings"
+      ]
+    },
+    {
+      "name": "Common Issues",
+      "bytes": 502,
+      "when": [
+        "common",
+        "issues"
+      ]
+    },
+    {
+      "name": "Debugging",
+      "bytes": 275,
+      "when": [
+        "debugging"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 328,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Escalate",
+      "bytes": 80,
+      "when": [
+        "escalate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/cuopt-routing-api-python/SKILL.md",
+  "curated": true
+}

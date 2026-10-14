@@ -1,0 +1,162 @@
+{
+  "id": "awesome-copilot__power-bi-report-design-consultation",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0151c2ebaed4d6fde6c747cfd14c324b54013ec59ef4f43872e043976d880b2b",
+  "purpose": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "design"
+  ],
+  "use_when": [
+    "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2723,
+  "core_bytes": 11727,
+  "sections": [
+    {
+      "name": "Design Consultation Framework",
+      "bytes": 2793,
+      "when": [
+        "design",
+        "consultation",
+        "framework"
+      ]
+    },
+    {
+      "name": "**Initial Requirements Gathering**",
+      "bytes": 941,
+      "when": [
+        "initial",
+        "requirements",
+        "gathering"
+      ]
+    },
+    {
+      "name": "**Chart Selection Methodology**",
+      "bytes": 1818,
+      "when": [
+        "chart",
+        "selection",
+        "methodology"
+      ]
+    },
+    {
+      "name": "Visualization Design Process",
+      "bytes": 4982,
+      "when": [
+        "visualization",
+        "design",
+        "process"
+      ]
+    },
+    {
+      "name": "**Phase 1: Information Architecture**",
+      "bytes": 1617,
+      "when": [
+        "phase",
+        "information",
+        "architecture"
+      ]
+    },
+    {
+      "name": "**Phase 2: Visual Design Specifications**",
+      "bytes": 1418,
+      "when": [
+        "phase",
+        "visual",
+        "design",
+        "specifications"
+      ]
+    },
+    {
+      "name": "**Phase 3: Interactive Design**",
+      "bytes": 1267,
+      "when": [
+        "phase",
+        "interactive",
+        "design"
+      ]
+    },
+    {
+      "name": "**Phase 4: Mobile and Responsive Design**",
+      "bytes": 647,
+      "when": [
+        "phase",
+        "mobile",
+        "responsive",
+        "design"
+      ]
+    },
+    {
+      "name": "Design Review and Validation",
+      "bytes": 1335,
+      "when": [
+        "design",
+        "review",
+        "validation"
+      ]
+    },
+    {
+      "name": "**Design Quality Checklist**",
+      "bytes": 681,
+      "when": [
+        "design",
+        "quality",
+        "checklist"
+      ]
+    },
+    {
+      "name": "**User Testing Framework**",
+      "bytes": 621,
+      "when": [
+        "user",
+        "testing",
+        "framework"
+      ]
+    },
+    {
+      "name": "Visualization Recommendations Output",
+      "bytes": 2106,
+      "when": [
+        "visualization",
+        "recommendations",
+        "output"
+      ]
+    },
+    {
+      "name": "**Design Specification Template**",
+      "bytes": 850,
+      "when": [
+        "design",
+        "specification",
+        "template"
+      ]
+    },
+    {
+      "name": "**Implementation Guidelines**",
+      "bytes": 1215,
+      "when": [
+        "implementation",
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\power-bi-report-design-consultation\\SKILL.md"
+}

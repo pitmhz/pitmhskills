@@ -1,0 +1,67 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-tp-dp-comm-overlap",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "fcfbe68677688d6ea7e44836d2b932ec16a37f66aedbf32c7d90e7eb8336bc9d",
+  "purpose": "Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 954,
+  "core_bytes": 3813,
+  "sections": [
+    {
+      "name": "Enablement",
+      "bytes": 887,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 1306,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 564,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 430,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run python -m pytest tests/unit_tests/training/test_comm_overlap.py -q",
+    "rtk test -- uv run python -m pytest tests/unit_tests/recipes/test_run_plugins.py -q"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md",
+  "curated": true
+}

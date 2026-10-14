@@ -1,0 +1,77 @@
+{
+  "id": "awesome-copilot__structured-autonomy-generate",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5fc7a8560d1d540a6c5208b59aaa51c153963fca93ac69055777592f9a1133bb",
+  "purpose": "Structured Autonomy Implementation Generator Prompt",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Structured Autonomy Implementation Generator Prompt"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1033,
+  "core_bytes": 4129,
+  "sections": [
+    {
+      "name": "Step 1: Parse Plan & Research Codebase",
+      "bytes": 413,
+      "when": [
+        "step",
+        "parse",
+        "plan",
+        "research",
+        "codebase"
+      ]
+    },
+    {
+      "name": "Step 2: Generate Implementation File",
+      "bytes": 1745,
+      "when": [
+        "step",
+        "generate",
+        "implementation",
+        "file"
+      ]
+    },
+    {
+      "name": "Goal",
+      "bytes": 81,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1286,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Step-by-Step Instructions",
+      "bytes": 1076,
+      "when": [
+        "step",
+        "instructions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\structured-autonomy-generate\\SKILL.md"
+}

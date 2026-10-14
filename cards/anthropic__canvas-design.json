@@ -36,7 +36,84 @@
   ],
   "body_tokens": 3017,
   "core_bytes": 12068,
-  "sections": [],
+  "sections": [
+    {
+      "name": "DESIGN PHILOSOPHY CREATION",
+      "bytes": 5603,
+      "when": [
+        "design",
+        "philosophy",
+        "creation"
+      ]
+    },
+    {
+      "name": "THE CRITICAL UNDERSTANDING",
+      "bytes": 658,
+      "when": [
+        "critical",
+        "understanding"
+      ]
+    },
+    {
+      "name": "HOW TO GENERATE A VISUAL PHILOSOPHY",
+      "bytes": 1362,
+      "when": [
+        "generate",
+        "visual",
+        "philosophy"
+      ]
+    },
+    {
+      "name": "PHILOSOPHY EXAMPLES",
+      "bytes": 2302,
+      "when": [
+        "philosophy",
+        "examples"
+      ]
+    },
+    {
+      "name": "ESSENTIAL PRINCIPLES",
+      "bytes": 1041,
+      "when": [
+        "essential",
+        "principles"
+      ]
+    },
+    {
+      "name": "DEDUCING THE SUBTLE REFERENCE",
+      "bytes": 846,
+      "when": [
+        "deducing",
+        "subtle",
+        "reference"
+      ]
+    },
+    {
+      "name": "CANVAS CREATION",
+      "bytes": 3650,
+      "when": [
+        "canvas",
+        "creation"
+      ]
+    },
+    {
+      "name": "FINAL STEP",
+      "bytes": 790,
+      "when": [
+        "final",
+        "step"
+      ]
+    },
+    {
+      "name": "MULTI-PAGE OPTION",
+      "bytes": 468,
+      "when": [
+        "multi",
+        "page",
+        "option"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/canvas-design/SKILL.md"
 }

@@ -1,0 +1,168 @@
+{
+  "id": "awesome-copilot__msgraph-sdk",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cafac367eb3fdc99e05aedc76d46ad77f49e6c3fbc549e3cc6ec86d657638d8b",
+  "purpose": "Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python. Covers auth patterns (client credentials, OBO, managed identity), SDK setup, calling Graph APIs, batching, delt",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python. Covers auth patterns (client credentials, OBO, managed identity), SDK s"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2054,
+  "core_bytes": 8250,
+  "sections": [
+    {
+      "name": "Determine the target language first",
+      "bytes": 752,
+      "when": [
+        "determine",
+        "target",
+        "language",
+        "first"
+      ]
+    },
+    {
+      "name": "Always consult live documentation",
+      "bytes": 384,
+      "when": [
+        "consult",
+        "live",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Authentication — choose the right pattern",
+      "bytes": 989,
+      "when": [
+        "authentication",
+        "choose",
+        "right",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Core SDK usage patterns",
+      "bytes": 943,
+      "when": [
+        "core",
+        "usage",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Building the client",
+      "bytes": 215,
+      "when": [
+        "building",
+        "client"
+      ]
+    },
+    {
+      "name": "Making calls",
+      "bytes": 385,
+      "when": [
+        "making",
+        "calls"
+      ]
+    },
+    {
+      "name": "Pagination",
+      "bytes": 315,
+      "when": [
+        "pagination"
+      ]
+    },
+    {
+      "name": "Advanced patterns",
+      "bytes": 1904,
+      "when": [
+        "advanced",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Batch requests",
+      "bytes": 368,
+      "when": [
+        "batch",
+        "requests"
+      ]
+    },
+    {
+      "name": "Delta queries",
+      "bytes": 422,
+      "when": [
+        "delta",
+        "queries"
+      ]
+    },
+    {
+      "name": "Change notifications (webhooks)",
+      "bytes": 716,
+      "when": [
+        "change",
+        "notifications",
+        "webhooks"
+      ]
+    },
+    {
+      "name": "Throttling",
+      "bytes": 376,
+      "when": [
+        "throttling"
+      ]
+    },
+    {
+      "name": "Permissions",
+      "bytes": 685,
+      "when": [
+        "permissions"
+      ]
+    },
+    {
+      "name": "Common Graph resources — quick reference",
+      "bytes": 757,
+      "when": [
+        "common",
+        "graph",
+        "resources",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 653,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Completion criteria",
+      "bytes": 465,
+      "when": [
+        "completion",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\msgraph-sdk\\SKILL.md"
+}

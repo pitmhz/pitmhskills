@@ -1,0 +1,84 @@
+{
+  "id": "awesome-copilot__steno-mode",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b37fb0e2c81e15ad517e4ec06cf4e5ec90ff5e7fce634727ff880a65279a5205",
+  "purpose": "Shorthand-first response compression that cuts ~40% of response tokens while preserving technical precision and exact literals. Use when the user says \"steno mode\", \"shorthand mode\", \"compressed respo",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Shorthand-first response compression that cuts ~40% of response tokens while preserving technical precision and exact literals. Use when the user says \"steno mo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1053,
+  "core_bytes": 4216,
+  "sections": [
+    {
+      "name": "Persistence",
+      "bytes": 291,
+      "when": [
+        "persistence"
+      ]
+    },
+    {
+      "name": "Contract",
+      "bytes": 200,
+      "when": [
+        "contract"
+      ]
+    },
+    {
+      "name": "Core Rules",
+      "bytes": 822,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "Levels",
+      "bytes": 429,
+      "when": [
+        "levels"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1187,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 338,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 261,
+      "when": [
+        "safety"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\steno-mode\\SKILL.md"
+}

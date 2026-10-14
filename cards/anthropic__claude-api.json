@@ -6,21 +6,22 @@
   ],
   "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
   "hash": "8e75de73fc85704940a75e7fab234fb48d201372dcacd501a7f492f89f94601f",
-  "purpose": "|-",
-  "domain": "general",
+  "purpose": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; do",
+  "domain": "memory",
   "task_types": [
     "review",
-    "implement"
+    "implement",
+    "debug"
   ],
   "use_when": [
-    "|-"
+    "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER —"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to general"
+    "Tasks unrelated to memory"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "memory",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,
@@ -28,7 +29,361 @@
   "conflicts_with": [],
   "body_tokens": 26434,
   "core_bytes": 105762,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Before You Start",
+      "bytes": 804,
+      "when": [
+        "before",
+        "start"
+      ]
+    },
+    {
+      "name": "Output Requirement",
+      "bytes": 1630,
+      "when": [
+        "output",
+        "requirement"
+      ]
+    },
+    {
+      "name": "Defaults",
+      "bytes": 1696,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Warning: API Drift - Your Training Prior May Be Stale",
+      "bytes": 2160,
+      "when": [
+        "warning",
+        "drift",
+        "training",
+        "prior",
+        "stale"
+      ]
+    },
+    {
+      "name": "Subcommands",
+      "bytes": 6955,
+      "when": [
+        "subcommands"
+      ]
+    },
+    {
+      "name": "Language Detection",
+      "bytes": 2786,
+      "when": [
+        "language",
+        "detection"
+      ]
+    },
+    {
+      "name": "Language-Specific Feature Support",
+      "bytes": 642,
+      "when": [
+        "language",
+        "specific",
+        "feature",
+        "support"
+      ]
+    },
+    {
+      "name": "Which Surface Should I Use?",
+      "bytes": 8089,
+      "when": [
+        "surface"
+      ]
+    },
+    {
+      "name": "Building an Agent: Four Approaches",
+      "bytes": 4071,
+      "when": [
+        "building",
+        "agent",
+        "four",
+        "approaches"
+      ]
+    },
+    {
+      "name": "Should I Build an Agent?",
+      "bytes": 564,
+      "when": [
+        "build",
+        "agent"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "bytes": 1343,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "Current Models (cached: 2026-10-06)",
+      "bytes": 13307,
+      "when": [
+        "current",
+        "models",
+        "cached",
+        "2026"
+      ]
+    },
+    {
+      "name": "Claude Fable 5.1 (`claude-fable-5-1`) - most capable widely released model",
+      "bytes": 5842,
+      "when": [
+        "claude",
+        "fable",
+        "capable",
+        "widely",
+        "released",
+        "model"
+      ]
+    },
+    {
+      "name": "Claude Opus 5.5 (`claude-opus-5-5`) - the current Opus and the default model",
+      "bytes": 1447,
+      "when": [
+        "claude",
+        "opus",
+        "current",
+        "default",
+        "model"
+      ]
+    },
+    {
+      "name": "Claude Sonnet 5.5 (`claude-sonnet-5-5`) - the current Sonnet: speed and capabili",
+      "bytes": 1875,
+      "when": [
+        "claude",
+        "sonnet",
+        "current",
+        "speed",
+        "capability",
+        "everyday",
+        "coding",
+        "agent"
+      ]
+    },
+    {
+      "name": "Claude Haiku 5.5 (`claude-haiku-5-5`) - the current Haiku",
+      "bytes": 783,
+      "when": [
+        "claude",
+        "haiku",
+        "current"
+      ]
+    },
+    {
+      "name": "Authentication (Quick Reference)",
+      "bytes": 1758,
+      "when": [
+        "authentication",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Thinking & Effort (Quick Reference)",
+      "bytes": 9037,
+      "when": [
+        "thinking",
+        "effort",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Compaction (Quick Reference)",
+      "bytes": 877,
+      "when": [
+        "compaction",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Prompt Caching (Quick Reference)",
+      "bytes": 1591,
+      "when": [
+        "prompt",
+        "caching",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Fast Mode (Quick Reference)",
+      "bytes": 2268,
+      "when": [
+        "fast",
+        "mode",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Task Budgets (Quick Reference)",
+      "bytes": 2092,
+      "when": [
+        "task",
+        "budgets",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Provider Clients (Quick Reference)",
+      "bytes": 3849,
+      "when": [
+        "provider",
+        "clients",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Amazon Bedrock",
+      "bytes": 1125,
+      "when": [
+        "amazon",
+        "bedrock"
+      ]
+    },
+    {
+      "name": "Microsoft Foundry",
+      "bytes": 826,
+      "when": [
+        "microsoft",
+        "foundry"
+      ]
+    },
+    {
+      "name": "Google Cloud Vertex AI",
+      "bytes": 1582,
+      "when": [
+        "google",
+        "cloud",
+        "vertex"
+      ]
+    },
+    {
+      "name": "Context Editing (Quick Reference)",
+      "bytes": 898,
+      "when": [
+        "context",
+        "editing",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Mid-Conversation System Messages (Quick Reference)",
+      "bytes": 2002,
+      "when": [
+        "conversation",
+        "system",
+        "messages",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Managed Agents (Beta)",
+      "bytes": 9021,
+      "when": [
+        "managed",
+        "agents",
+        "beta"
+      ]
+    },
+    {
+      "name": "Server Tools (Quick Reference)",
+      "bytes": 2506,
+      "when": [
+        "server",
+        "tools",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Document & File Input (Quick Reference)",
+      "bytes": 1412,
+      "when": [
+        "document",
+        "file",
+        "input",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Tool Use Patterns (Quick Reference)",
+      "bytes": 2168,
+      "when": [
+        "tool",
+        "patterns",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Other API Surfaces (Quick Reference)",
+      "bytes": 2839,
+      "when": [
+        "surfaces",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Workload Identity Federation (Quick Reference)",
+      "bytes": 902,
+      "when": [
+        "workload",
+        "identity",
+        "federation",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Reading Guide",
+      "bytes": 8042,
+      "when": [
+        "reading",
+        "guide"
+      ]
+    },
+    {
+      "name": "Quick Task Reference",
+      "bytes": 6942,
+      "when": [
+        "quick",
+        "task",
+        "reference"
+      ]
+    },
+    {
+      "name": "When to Use WebFetch",
+      "bytes": 270,
+      "when": [
+        "webfetch"
+      ]
+    },
+    {
+      "name": "Common Pitfalls",
+      "bytes": 14035,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    }
+  ],
   "verify": [],
-  "skill_path": "skills/anthropic/skills/claude-api/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\anthropic\\skills\\claude-api\\SKILL.md"
 }

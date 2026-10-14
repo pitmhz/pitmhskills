@@ -1,0 +1,81 @@
+{
+  "id": "nvidia__tao-mine-od-images",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d1296872d4750711121dbcc25695d1304b4874e54b7513cbeeacb236624f04bb",
+  "purpose": "Run TAO Data Services TMM unique-neighbor matching mining from embedding parquet files for object detection workflows. Use when an object detection workflow needs to mine a bijectively-assigned set of",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run TAO Data Services TMM unique-neighbor matching mining from embedding parquet files for object detection workflows. Use when an object detection workflow nee"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2225,
+  "core_bytes": 8905,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 2404,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 1374,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Generate A Spec",
+      "bytes": 1597,
+      "when": [
+        "generate",
+        "spec"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 709,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 577,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 945,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-mine-od-images\\SKILL.md",
+  "curated": true
+}

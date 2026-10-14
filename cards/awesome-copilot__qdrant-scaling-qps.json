@@ -1,0 +1,76 @@
+{
+  "id": "awesome-copilot__qdrant-scaling-qps",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "fe26245826d3e4be330bcb61bf38df5d48d0dc31cc2ffa512997903f91e91dfa",
+  "purpose": "Guides Qdrant query throughput (QPS) scaling. Use when someone asks 'how to increase QPS', 'need more throughput', 'queries per second too low', 'batch search', 'read replicas', or 'how to handle more",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant query throughput (QPS) scaling. Use when someone asks 'how to increase QPS', 'need more throughput', 'queries per second too low', 'batch search',"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 902,
+  "core_bytes": 3608,
+  "sections": [
+    {
+      "name": "Performance Tuning for Higher RPS",
+      "bytes": 499,
+      "when": [
+        "performance",
+        "tuning",
+        "higher"
+      ]
+    },
+    {
+      "name": "Minimize impact of Update Workloads",
+      "bytes": 507,
+      "when": [
+        "minimize",
+        "impact",
+        "update",
+        "workloads"
+      ]
+    },
+    {
+      "name": "Horizontal Scaling for Throughput",
+      "bytes": 610,
+      "when": [
+        "horizontal",
+        "scaling",
+        "throughput"
+      ]
+    },
+    {
+      "name": "Disk I/O Bottlenecks",
+      "bytes": 1038,
+      "when": [
+        "disk",
+        "bottlenecks"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 346,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\scaling-qps\\SKILL.md"
+}

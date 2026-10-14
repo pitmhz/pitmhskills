@@ -1,0 +1,75 @@
+{
+  "id": "awesome-copilot__qdrant-sliding-time-window",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cc055f73d7c163fb7ea0e9400497ed4ed4b2d350169ca08cc34ede524f71a753",
+  "purpose": "Guides sliding time window scaling in Qdrant. Use when someone asks 'only recent data matters', 'how to expire old vectors', 'time-based data rotation', 'delete old data efficiently', 'social media fe",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Guides sliding time window scaling in Qdrant. Use when someone asks 'only recent data matters', 'how to expire old vectors', 'time-based data rotation', 'delete"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1119,
+  "core_bytes": 4476,
+  "sections": [
+    {
+      "name": "Shard Rotation (Recommended)",
+      "bytes": 993,
+      "when": [
+        "shard",
+        "rotation",
+        "recommended"
+      ]
+    },
+    {
+      "name": "Collection Rotation (Alias Swap)",
+      "bytes": 794,
+      "when": [
+        "collection",
+        "rotation",
+        "alias",
+        "swap"
+      ]
+    },
+    {
+      "name": "Filter-and-Delete",
+      "bytes": 857,
+      "when": [
+        "filter",
+        "delete"
+      ]
+    },
+    {
+      "name": "Hot/Cold Tiers",
+      "bytes": 521,
+      "when": [
+        "cold",
+        "tiers"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 555,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\scaling-data-volume\\sliding-time-window\\SKILL.md"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "mengto-skills__tech-green-dark-mode-modern",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "0d3c7ebeaed1463e71b519da01ab0831c424a94a4dabb6b79d351533b058cd14",
+  "purpose": "Create a modern dark-mode technical design system with matte-black surfaces, emerald signal accents, mono system labeling, framed dashboard cards, and restrained glow.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a modern dark-mode technical design system with matte-black surfaces, emerald signal accents, mono system labeling, framed dashboard cards, and restraine"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1020,
+  "core_bytes": 4080,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 186,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 15,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 424,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Visual target",
+      "bytes": 755,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "Implementation guidance",
+      "bytes": 895,
+      "when": [
+        "implementation",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Recommended patterns",
+      "bytes": 571,
+      "when": [
+        "recommended",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Tuning knobs",
+      "bytes": 607,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 357,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "tech",
+    "green",
+    "skill",
+    "workflow",
+    "scope",
+    "visual",
+    "target",
+    "implementation",
+    "guidance",
+    "recommended",
+    "patterns",
+    "tuning",
+    "knobs"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\tech-green-dark-mode-modern\\SKILL.md"
+}

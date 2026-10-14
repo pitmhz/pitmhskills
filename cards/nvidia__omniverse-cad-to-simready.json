@@ -1,0 +1,111 @@
+{
+  "id": "nvidia__omniverse-cad-to-simready",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dffcaef71f8f7c43fe3b16f519075b9d2eae386ff4c9c68557447ac00ad61923",
+  "purpose": "Coordinate the end-to-end CAD/source-asset to SimReady workflow. Use for broad requests such as CAD to SimReady, source asset to simulation-ready USD, or prop packaging that require conversion, materi",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Coordinate the end-to-end CAD/source-asset to SimReady workflow. Use for broad requests such as CAD to SimReady, source asset to simulation-ready USD, or prop p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2796,
+  "core_bytes": 11181,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 611,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 825,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "First Action",
+      "bytes": 1379,
+      "when": [
+        "first",
+        "action"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2841,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 292,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Detailed References",
+      "bytes": 837,
+      "when": [
+        "detailed",
+        "references"
+      ]
+    },
+    {
+      "name": "Publishing Layout Notes",
+      "bytes": 386,
+      "when": [
+        "publishing",
+        "layout",
+        "notes"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 221,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 181,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 2228,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/omniverse-cad-to-simready/SKILL.md",
+  "curated": true
+}

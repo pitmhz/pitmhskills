@@ -1,0 +1,166 @@
+{
+  "id": "awesome-copilot__linkedin-post-formatter",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "10fbdf86b0e01ea59922138ff7d6568d1b5a70a7aafd902c31ac4c45d96a19a9",
+  "purpose": "Format and draft compelling LinkedIn posts using Unicode bold/italic styling, visual separators, structured sections, and engagement-optimized patterns. USE FOR: draft LinkedIn post, format text for L",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Format and draft compelling LinkedIn posts using Unicode bold/italic styling, visual separators, structured sections, and engagement-optimized patterns. USE FOR"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1411,
+  "core_bytes": 6089,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 273,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Unicode Typography Reference",
+      "bytes": 966,
+      "when": [
+        "unicode",
+        "typography",
+        "reference"
+      ]
+    },
+    {
+      "name": "Bold (Mathematical Sans-Serif Bold)",
+      "bytes": 245,
+      "when": [
+        "bold",
+        "mathematical",
+        "sans",
+        "serif"
+      ]
+    },
+    {
+      "name": "Italic (Mathematical Sans-Serif Italic)",
+      "bytes": 224,
+      "when": [
+        "italic",
+        "mathematical",
+        "sans",
+        "serif"
+      ]
+    },
+    {
+      "name": "Bold-Italic (Mathematical Sans-Serif Bold Italic)",
+      "bytes": 227,
+      "when": [
+        "bold",
+        "italic",
+        "mathematical",
+        "sans",
+        "serif"
+      ]
+    },
+    {
+      "name": "Visual Separators",
+      "bytes": 457,
+      "when": [
+        "visual",
+        "separators"
+      ]
+    },
+    {
+      "name": "Post Structure Patterns",
+      "bytes": 1759,
+      "when": [
+        "post",
+        "structure",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Pattern 1: Hook → Content → CTA (General Purpose)",
+      "bytes": 493,
+      "when": [
+        "pattern",
+        "hook",
+        "content",
+        "general",
+        "purpose"
+      ]
+    },
+    {
+      "name": "Pattern 2: Listicle (Numbered Insights)",
+      "bytes": 325,
+      "when": [
+        "pattern",
+        "listicle",
+        "numbered",
+        "insights"
+      ]
+    },
+    {
+      "name": "Pattern 3: Story → Lesson (Thought Leadership)",
+      "bytes": 336,
+      "when": [
+        "pattern",
+        "story",
+        "lesson",
+        "thought",
+        "leadership"
+      ]
+    },
+    {
+      "name": "Pattern 4: Resource Share (Cheatsheet/Guide/Tool)",
+      "bytes": 577,
+      "when": [
+        "pattern",
+        "resource",
+        "share",
+        "cheatsheet",
+        "guide",
+        "tool"
+      ]
+    },
+    {
+      "name": "Formatting Rules",
+      "bytes": 989,
+      "when": [
+        "formatting",
+        "rules"
+      ]
+    },
+    {
+      "name": "Engagement Optimization",
+      "bytes": 528,
+      "when": [
+        "engagement",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Process",
+      "bytes": 517,
+      "when": [
+        "process"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\linkedin-post-formatter\\SKILL.md"
+}

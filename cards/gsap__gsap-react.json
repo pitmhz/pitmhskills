@@ -1,0 +1,129 @@
+{
+  "id": "gsap__gsap-react",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "fd1ce4fa883a256e6578f13a4271b494a18dffaaa6111ab64ca1bc97d4dd8b21",
+  "purpose": "Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with React, useGSAP, or cleanup on unmount. Recom",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with Reac"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1667,
+  "core_bytes": 6700,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 528,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 140,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Prefer the useGSAP() Hook",
+      "bytes": 873,
+      "when": [
+        "prefer",
+        "usegsap",
+        "hook"
+      ]
+    },
+    {
+      "name": "Refs for Targets",
+      "bytes": 417,
+      "when": [
+        "refs",
+        "targets"
+      ]
+    },
+    {
+      "name": "Dependency array, scope, and revertOnUpdate",
+      "bytes": 716,
+      "when": [
+        "dependency",
+        "array",
+        "scope",
+        "revertonupdate"
+      ]
+    },
+    {
+      "name": "gsap.context() in useEffect (when useGSAP isn't used)",
+      "bytes": 831,
+      "when": [
+        "gsap",
+        "context",
+        "useeffect",
+        "usegsap",
+        "used"
+      ]
+    },
+    {
+      "name": "Context-Safe Callbacks",
+      "bytes": 1304,
+      "when": [
+        "context",
+        "safe",
+        "callbacks"
+      ]
+    },
+    {
+      "name": "Server-Side Rendering (Next.js, etc.)",
+      "bytes": 404,
+      "when": [
+        "server",
+        "side",
+        "rendering",
+        "next"
+      ]
+    },
+    {
+      "name": "Best practices",
+      "bytes": 404,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 728,
+      "when": []
+    },
+    {
+      "name": "Learn More",
+      "bytes": 50,
+      "when": [
+        "learn"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-react\\SKILL.md",
+  "curated": true
+}

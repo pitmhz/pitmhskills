@@ -4,8 +4,23 @@ import { cardFromRow } from "./db.ts";
 
 // Hybrid: FTS5 BM25 (lexical, always on) + hashed TF-IDF cosine (vector arm, pure JS).
 // No ONNX download needed for v0; real embeddings can fill vecs later with same cosine fn.
+// Stopwords are stripped at the query AND index side: OR'd function words flood
+// BM25 ranks and hash-vector space with noise once the library grows past a few
+// hundred cards.
+export const STOPWORDS = new Set([
+  "the", "and", "for", "with", "this", "that", "these", "those", "from", "your",
+  "you", "are", "was", "were", "will", "would", "can", "could", "should", "may",
+  "might", "must", "have", "has", "had", "been", "its", "into", "about", "over",
+  "how", "what", "when", "why", "who", "which", "their", "there", "here", "some",
+  "use", "using", "make", "get", "set",
+  "does", "more", "same", "then", "gives", "than", "such", "only", "just", "very",
+  "much", "many", "most", "other", "like", "well", "also", "always", "never", "often",
+  "every", "thing", "things", "without", "within", "while", "across", "another", "along",
+  "around", "every", "such",
+]);
+
 export function tokenize(s: string): string[] {
-  return s.toLowerCase().split(/[^a-z0-9]+/).filter((t) => t.length > 1);
+  return s.toLowerCase().split(/[^a-z0-9]+/).filter((t) => t.length > 1 && !STOPWORDS.has(t));
 }
 
 function hashToken(t: string, dim: number): number {
@@ -45,15 +60,22 @@ function rrf(rank: number, k = 60): number {
 export function retrieve(db: Database, task: string, candidates: Card[], topK = 8, boosts?: Map<string, number>): RankedCard[] {
   if (candidates.length === 0) return [];
   const ids = new Set(candidates.map((c) => c.id));
-  // BM25 ranks via FTS5 match
-  const q = task.replace(/"/g, '""').split(/\s+/).filter(Boolean).map((t) => `"${t}"`).join(" OR ");
+  // BM25 ranks via FTS5 match; query tokens get the same stopword/len filter as
+  // the index side via tokenize(), so "the/this/with" cannot drown real terms.
+  // LIMIT is generous on purpose: OR queries with common terms (page, score,
+  // change) flood BM25 ranks, and a niche card matching 2 rare terms can sit
+  // past a tight limit. RRF + collapse sort it out downstream.
+  const qt = tokenize(task);
+  const q = qt.map((t) => `"${t}"`).join(" OR ");
   let bmRank = new Map<string, number>();
-  try {
-    const rows = db.query<{ id: string; rank: number }, string>(
-      `SELECT id, rank FROM cards_fts WHERE cards_fts MATCH ? ORDER BY rank LIMIT 50`
-    ).all(q);
-    rows.forEach((r, i) => { if (ids.has(r.id)) bmRank.set(r.id, i); });
-  } catch { /* FTS empty */ }
+  if (q) {
+    try {
+      const rows = db.query<{ id: string; rank: number }, string>(
+        `SELECT id, rank FROM cards_fts WHERE cards_fts MATCH ? ORDER BY rank LIMIT 200`
+      ).all(q);
+      rows.forEach((r, i) => { if (ids.has(r.id)) bmRank.set(r.id, i); });
+    } catch { /* FTS empty */ }
+  }
   // Vector arm: cosine vs stored vecs, fallback to live hash embed
   const qv = embed(task);
   const scored: RankedCard[] = candidates.map((c) => {

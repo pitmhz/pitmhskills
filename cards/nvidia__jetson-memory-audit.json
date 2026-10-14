@@ -1,0 +1,131 @@
+{
+  "id": "nvidia__jetson-memory-audit",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "74855ac318b9e164e31374815e7eeb821b8d2a9ad29cd3530acb78ac56be1117",
+  "purpose": "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2311,
+  "core_bytes": 9254,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 259,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "CRITICAL: Memory appears stuck after stopping vLLM / sglang (JetPack below 7.2 /",
+      "bytes": 1695,
+      "when": [
+        "critical",
+        "memory",
+        "appears",
+        "stuck",
+        "after",
+        "stopping",
+        "vllm",
+        "sglang"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 399,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 410,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 586,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 146,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Reporting guidance",
+      "bytes": 3141,
+      "when": [
+        "reporting",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Output contract for `audit.sh`",
+      "bytes": 686,
+      "when": [
+        "output",
+        "contract",
+        "audit"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 419,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 477,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 171,
+      "when": [
+        "safety"
+      ]
+    },
+    {
+      "name": "Hand off to",
+      "bytes": 365,
+      "when": [
+        "hand"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-memory-audit/SKILL.md",
+  "curated": true
+}

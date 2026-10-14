@@ -1,0 +1,144 @@
+{
+  "id": "nvidia__tao-finetune-cosmos-reason",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0fe26cc390a51a62ef97888e5671edc8afc649102b2439f2d3eb8eeef4689d56",
+  "purpose": "Shared Cosmos3 frontend that explicitly routes Cosmos Framework and Cosmos-RL, validates runtime model/video-dataset/SLURM inputs, consumes an SQSH or packaged backend image, optionally plans explicit",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Shared Cosmos3 frontend that explicitly routes Cosmos Framework and Cosmos-RL, validates runtime model/video-dataset/SLURM inputs, consumes an SQSH or packaged "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5077,
+  "core_bytes": 20311,
+  "sections": [
+    {
+      "name": "Mandatory runtime intake",
+      "bytes": 5832,
+      "when": [
+        "mandatory",
+        "runtime",
+        "intake"
+      ]
+    },
+    {
+      "name": "Nano checkpoint model-type choice",
+      "bytes": 1811,
+      "when": [
+        "nano",
+        "checkpoint",
+        "model",
+        "type",
+        "choice"
+      ]
+    },
+    {
+      "name": "Public Cosmos3-Edge checkpoint contract",
+      "bytes": 385,
+      "when": [
+        "public",
+        "cosmos3",
+        "edge",
+        "checkpoint",
+        "contract"
+      ]
+    },
+    {
+      "name": "Backend selection",
+      "bytes": 859,
+      "when": [
+        "backend",
+        "selection"
+      ]
+    },
+    {
+      "name": "Evaluation intake and inheritance",
+      "bytes": 816,
+      "when": [
+        "evaluation",
+        "intake",
+        "inheritance"
+      ]
+    },
+    {
+      "name": "Framework checkpoint pre-action",
+      "bytes": 609,
+      "when": [
+        "framework",
+        "checkpoint",
+        "action"
+      ]
+    },
+    {
+      "name": "Required gates",
+      "bytes": 5908,
+      "when": [
+        "required",
+        "gates"
+      ]
+    },
+    {
+      "name": "Dataset contracts",
+      "bytes": 1160,
+      "when": [
+        "dataset",
+        "contracts"
+      ]
+    },
+    {
+      "name": "Dense and PEFT contracts",
+      "bytes": 767,
+      "when": [
+        "dense",
+        "peft",
+        "contracts"
+      ]
+    },
+    {
+      "name": "Metrics and completion",
+      "bytes": 951,
+      "when": [
+        "metrics",
+        "completion"
+      ]
+    },
+    {
+      "name": "SLURM invariants",
+      "bytes": 1454,
+      "when": [
+        "slurm",
+        "invariants"
+      ]
+    },
+    {
+      "name": "Source-affecting recovery",
+      "bytes": 879,
+      "when": [
+        "source",
+        "affecting",
+        "recovery"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-finetune-cosmos-reason\\SKILL.md",
+  "curated": true
+}

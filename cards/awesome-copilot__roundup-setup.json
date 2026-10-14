@@ -1,0 +1,189 @@
+{
+  "id": "awesome-copilot__roundup-setup",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c5f936c3e8a5b0884cbe89e8cdd9d93b16b359ff5510cfa3f9b0539165a5ce20",
+  "purpose": "Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings. Paste in examples of updates you already write, answer a few questi",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings. Paste in examples of update"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3669,
+  "core_bytes": 14674,
+  "sections": [
+    {
+      "name": "How This Conversation Should Feel",
+      "bytes": 1138,
+      "when": [
+        "conversation",
+        "feel"
+      ]
+    },
+    {
+      "name": "The Onboarding Flow",
+      "bytes": 11191,
+      "when": [
+        "onboarding",
+        "flow"
+      ]
+    },
+    {
+      "name": "Phase 1: Welcome",
+      "bytes": 515,
+      "when": [
+        "phase",
+        "welcome"
+      ]
+    },
+    {
+      "name": "Phase 2: Your Role",
+      "bytes": 721,
+      "when": [
+        "phase",
+        "role"
+      ]
+    },
+    {
+      "name": "Phase 3: Show Me What Good Looks Like",
+      "bytes": 1325,
+      "when": [
+        "phase",
+        "show",
+        "good",
+        "looks"
+      ]
+    },
+    {
+      "name": "Phase 4: Style Analysis and Playback",
+      "bytes": 1723,
+      "when": [
+        "phase",
+        "style",
+        "analysis",
+        "playback"
+      ]
+    },
+    {
+      "name": "Phase 5: Your Audiences",
+      "bytes": 1480,
+      "when": [
+        "phase",
+        "audiences"
+      ]
+    },
+    {
+      "name": "Phase 6: Information Sources",
+      "bytes": 1738,
+      "when": [
+        "phase",
+        "information",
+        "sources"
+      ]
+    },
+    {
+      "name": "Phase 7: Preferences and Guardrails",
+      "bytes": 766,
+      "when": [
+        "phase",
+        "preferences",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Phase 8: Generate the Configuration",
+      "bytes": 2014,
+      "when": [
+        "phase",
+        "generate",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Phase 9: Offer a Test Run",
+      "bytes": 661,
+      "when": [
+        "phase",
+        "offer",
+        "test"
+      ]
+    },
+    {
+      "name": "Edge Cases",
+      "bytes": 1704,
+      "when": [
+        "edge",
+        "cases"
+      ]
+    },
+    {
+      "name": "User doesn't have examples to paste",
+      "bytes": 475,
+      "when": [
+        "user",
+        "doesn",
+        "examples",
+        "paste"
+      ]
+    },
+    {
+      "name": "User wants to change something mid-flow",
+      "bytes": 220,
+      "when": [
+        "user",
+        "wants",
+        "change",
+        "something",
+        "flow"
+      ]
+    },
+    {
+      "name": "User seems rushed",
+      "bytes": 275,
+      "when": [
+        "user",
+        "seems",
+        "rushed"
+      ]
+    },
+    {
+      "name": "User has never written a status update before",
+      "bytes": 459,
+      "when": [
+        "user",
+        "written",
+        "status",
+        "update",
+        "before"
+      ]
+    },
+    {
+      "name": "Config file already exists",
+      "bytes": 260,
+      "when": [
+        "config",
+        "file",
+        "already",
+        "exists"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\roundup-setup\\SKILL.md"
+}

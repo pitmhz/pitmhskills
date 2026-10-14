@@ -1,0 +1,225 @@
+{
+  "id": "awesome-copilot__import-infrastructure-as-code",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "66f2e1461aa2ec1459ed1ce16d28213b0f27375021b7f7f69d2f2e5c049f5b7d",
+  "purpose": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrastructure, generate Infrastructure as Code",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrast"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4680,
+  "core_bytes": 18742,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 434,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 213,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 506,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflows",
+      "bytes": 12203,
+      "when": [
+        "step",
+        "workflows"
+      ]
+    },
+    {
+      "name": "1) Collect Required Scope (Mandatory)",
+      "bytes": 957,
+      "when": [
+        "collect",
+        "required",
+        "scope",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "2) Authenticate and Set Context",
+      "bytes": 688,
+      "when": [
+        "authenticate",
+        "context"
+      ]
+    },
+    {
+      "name": "3) Run Discovery Commands",
+      "bytes": 561,
+      "when": [
+        "discovery",
+        "commands"
+      ]
+    },
+    {
+      "name": "4) Resolve Dependencies Before Code Generation",
+      "bytes": 587,
+      "when": [
+        "resolve",
+        "dependencies",
+        "before",
+        "code",
+        "generation"
+      ]
+    },
+    {
+      "name": "5) Select Azure Verified Modules (Required)",
+      "bytes": 101,
+      "when": [
+        "select",
+        "azure",
+        "verified",
+        "modules",
+        "required"
+      ]
+    },
+    {
+      "name": "Terraform Registry",
+      "bytes": 177,
+      "when": [
+        "terraform",
+        "registry"
+      ]
+    },
+    {
+      "name": "Official AVM Index",
+      "bytes": 785,
+      "when": [
+        "official",
+        "index"
+      ]
+    },
+    {
+      "name": "Individual Module information",
+      "bytes": 733,
+      "when": [
+        "individual",
+        "module",
+        "information"
+      ]
+    },
+    {
+      "name": "5a) Read the Module README Before Writing Any Code (Mandatory)",
+      "bytes": 3061,
+      "when": [
+        "read",
+        "module",
+        "readme",
+        "before",
+        "writing",
+        "code",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "6) Generate Terraform Files",
+      "bytes": 33,
+      "when": [
+        "generate",
+        "terraform",
+        "files"
+      ]
+    },
+    {
+      "name": "Before Writing Import Blocks — Inspect Module Source (Mandatory)",
+      "bytes": 2695,
+      "when": [
+        "before",
+        "writing",
+        "import",
+        "blocks",
+        "inspect",
+        "module",
+        "source",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "Diff Live Properties Against Module Defaults (Mandatory)",
+      "bytes": 1557,
+      "when": [
+        "diff",
+        "live",
+        "properties",
+        "against",
+        "module",
+        "defaults",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "7) Validate Generated Code",
+      "bytes": 241,
+      "when": [
+        "validate",
+        "generated",
+        "code"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2243,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Response Contract",
+      "bytes": 324,
+      "when": [
+        "response",
+        "contract"
+      ]
+    },
+    {
+      "name": "Execution Rules for the Agent",
+      "bytes": 1873,
+      "when": [
+        "execution",
+        "rules",
+        "agent"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 231,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\import-infrastructure-as-code\\SKILL.md"
+}

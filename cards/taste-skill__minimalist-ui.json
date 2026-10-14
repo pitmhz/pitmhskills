@@ -1,0 +1,122 @@
+{
+  "id": "taste-skill__minimalist-ui",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "c3230cbad9d8b0c0477b4299f7bcd3304dca9e5d33dd37cef774e767be165fce",
+  "purpose": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Minimalist editorial direction -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "minimalist editorial monochrome bento",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2074,
+  "core_bytes": 8298,
+  "sections": [
+    {
+      "name": "1. Protocol Overview",
+      "bytes": 563,
+      "when": [
+        "protocol",
+        "overview"
+      ]
+    },
+    {
+      "name": "2. Absolute Negative Constraints (Banned Elements)",
+      "bytes": 1209,
+      "when": [
+        "absolute",
+        "negative",
+        "constraints",
+        "banned",
+        "elements"
+      ]
+    },
+    {
+      "name": "3. Typographic Architecture",
+      "bytes": 926,
+      "when": [
+        "typographic",
+        "architecture"
+      ]
+    },
+    {
+      "name": "4. Color Palette (Warm Monochrome + Spot Pastels)",
+      "bytes": 680,
+      "when": [
+        "color",
+        "palette",
+        "warm",
+        "monochrome",
+        "spot",
+        "pastels"
+      ]
+    },
+    {
+      "name": "5. Component Specifications",
+      "bytes": 1306,
+      "when": [
+        "component",
+        "specifications"
+      ]
+    },
+    {
+      "name": "6. Iconography & Imagery Directives",
+      "bytes": 1003,
+      "when": [
+        "iconography",
+        "imagery",
+        "directives"
+      ]
+    },
+    {
+      "name": "7. Subtle Motion & Micro-Animations",
+      "bytes": 1540,
+      "when": [
+        "subtle",
+        "motion",
+        "micro",
+        "animations"
+      ]
+    },
+    {
+      "name": "8. Execution Protocol",
+      "bytes": 819,
+      "when": [
+        "execution",
+        "protocol"
+      ]
+    }
+  ],
+  "keywords": [
+    "protocol",
+    "premium",
+    "utilitarian",
+    "minimalism",
+    "architect",
+    "overview",
+    "absolute",
+    "negative",
+    "constraints",
+    "banned",
+    "elements",
+    "architecture"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\minimalist-skill\\SKILL.md"
+}

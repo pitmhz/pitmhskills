@@ -1,0 +1,459 @@
+{
+  "id": "awesome-copilot__markdown-to-html",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a51376b7c8e88e009c60f20af5b9c1157d4e5c3b40dd62f43abc0e873381e0e4",
+  "purpose": "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html and/or working on web template systems li",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6151,
+  "core_bytes": 24632,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 462,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Converting Markdown to HTML",
+      "bytes": 6073,
+      "when": [
+        "converting",
+        "markdown",
+        "html"
+      ]
+    },
+    {
+      "name": "Essential Basic Conversions",
+      "bytes": 1563,
+      "when": [
+        "essential",
+        "basic",
+        "conversions"
+      ]
+    },
+    {
+      "name": "Code Block Conversions",
+      "bytes": 607,
+      "when": [
+        "code",
+        "block",
+        "conversions"
+      ]
+    },
+    {
+      "name": "Collapsed Section Conversions",
+      "bytes": 657,
+      "when": [
+        "collapsed",
+        "section",
+        "conversions"
+      ]
+    },
+    {
+      "name": "Mathematical Expression Conversions",
+      "bytes": 1875,
+      "when": [
+        "mathematical",
+        "expression",
+        "conversions"
+      ]
+    },
+    {
+      "name": "Table Conversions",
+      "bytes": 1339,
+      "when": [
+        "table",
+        "conversions"
+      ]
+    },
+    {
+      "name": "Working with [`markedJS/marked`](references/marked.md)",
+      "bytes": 2168,
+      "when": [
+        "working",
+        "markedjs",
+        "marked",
+        "references"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 174,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Quick Conversion Methods",
+      "bytes": 98,
+      "when": [
+        "quick",
+        "conversion",
+        "methods"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflows",
+      "bytes": 94,
+      "when": [
+        "step",
+        "workflows"
+      ]
+    },
+    {
+      "name": "CLI Configuration",
+      "bytes": 23,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Using Config Files",
+      "bytes": 209,
+      "when": [
+        "config",
+        "files"
+      ]
+    },
+    {
+      "name": "CLI Options Reference",
+      "bytes": 402,
+      "when": [
+        "options",
+        "reference"
+      ]
+    },
+    {
+      "name": "Security Warning",
+      "bytes": 505,
+      "when": [
+        "security",
+        "warning"
+      ]
+    },
+    {
+      "name": "Supported Markdown Flavors",
+      "bytes": 165,
+      "when": [
+        "supported",
+        "markdown",
+        "flavors"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 439,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Working with [`pandoc`](references/pandoc.md)",
+      "bytes": 2653,
+      "when": [
+        "working",
+        "pandoc",
+        "references"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 217,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Quick Conversion Methods",
+      "bytes": 829,
+      "when": [
+        "quick",
+        "conversion",
+        "methods"
+      ]
+    },
+    {
+      "name": "CLI Configuration",
+      "bytes": 571,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Security Warning",
+      "bytes": 340,
+      "when": [
+        "security",
+        "warning"
+      ]
+    },
+    {
+      "name": "Supported Markdown Flavors",
+      "bytes": 234,
+      "when": [
+        "supported",
+        "markdown",
+        "flavors"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 412,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Working with [`gomarkdown/markdown`](references/gomarkdown.md)",
+      "bytes": 3347,
+      "when": [
+        "working",
+        "gomarkdown",
+        "markdown",
+        "references"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 180,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Quick Conversion Methods",
+      "bytes": 1184,
+      "when": [
+        "quick",
+        "conversion",
+        "methods"
+      ]
+    },
+    {
+      "name": "CLI Configuration",
+      "bytes": 818,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Security Warning",
+      "bytes": 406,
+      "when": [
+        "security",
+        "warning"
+      ]
+    },
+    {
+      "name": "Supported Markdown Flavors",
+      "bytes": 288,
+      "when": [
+        "supported",
+        "markdown",
+        "flavors"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 404,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Working with [`jekyll`](references/jekyll.md)",
+      "bytes": 2557,
+      "when": [
+        "working",
+        "jekyll",
+        "references"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 160,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Quick Conversion Methods",
+      "bytes": 604,
+      "when": [
+        "quick",
+        "conversion",
+        "methods"
+      ]
+    },
+    {
+      "name": "CLI Configuration",
+      "bytes": 619,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Security Warning",
+      "bytes": 397,
+      "when": [
+        "security",
+        "warning"
+      ]
+    },
+    {
+      "name": "Supported Markdown Flavors",
+      "bytes": 394,
+      "when": [
+        "supported",
+        "markdown",
+        "flavors"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 333,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Working with [`hugo`](references/hugo.md)",
+      "bytes": 3585,
+      "when": [
+        "working",
+        "hugo",
+        "references"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 164,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Quick Conversion Methods",
+      "bytes": 851,
+      "when": [
+        "quick",
+        "conversion",
+        "methods"
+      ]
+    },
+    {
+      "name": "CLI Configuration",
+      "bytes": 982,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Security Warning",
+      "bytes": 514,
+      "when": [
+        "security",
+        "warning"
+      ]
+    },
+    {
+      "name": "Supported Markdown Flavors",
+      "bytes": 608,
+      "when": [
+        "supported",
+        "markdown",
+        "flavors"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 420,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 2372,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Writing and Styling Markdown",
+      "bytes": 455,
+      "when": [
+        "writing",
+        "styling",
+        "markdown"
+      ]
+    },
+    {
+      "name": "[`markedJS/marked`](references/marked.md)",
+      "bytes": 267,
+      "when": [
+        "markedjs",
+        "marked",
+        "references"
+      ]
+    },
+    {
+      "name": "[`pandoc`](references/pandoc.md)",
+      "bytes": 262,
+      "when": [
+        "pandoc",
+        "references"
+      ]
+    },
+    {
+      "name": "[`gomarkdown/markdown`](references/gomarkdown.md)",
+      "bytes": 420,
+      "when": [
+        "gomarkdown",
+        "markdown",
+        "references"
+      ]
+    },
+    {
+      "name": "[`jekyll`](references/jekyll.md)",
+      "bytes": 694,
+      "when": [
+        "jekyll",
+        "references"
+      ]
+    },
+    {
+      "name": "[`hugo`](references/hugo.md)",
+      "bytes": 259,
+      "when": [
+        "hugo",
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\markdown-to-html\\SKILL.md"
+}

@@ -1,0 +1,175 @@
+{
+  "id": "nvidia__jetson-init-target",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "02752fa5d81d298366b246416d0246eccd8da4bc5404fbdb32e5e9feb71cbc05",
+  "purpose": "Author a new Jetson target-platform profile (reference_devkit + optional custom_carrier) and update the active pointer. Use to create a target; not for switching existing profiles.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Author a new Jetson target-platform profile (reference_devkit + optional custom_carrier) and update the active pointer. Use to create a target; not for switchin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4859,
+  "core_bytes": 19529,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 1274,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 327,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 14630,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Quick-start prefill mapping",
+      "bytes": 694,
+      "when": [
+        "quick",
+        "start",
+        "prefill",
+        "mapping"
+      ]
+    },
+    {
+      "name": "How the skill consumes the template",
+      "bytes": 1199,
+      "when": [
+        "skill",
+        "consumes",
+        "template"
+      ]
+    },
+    {
+      "name": "Survey current state",
+      "bytes": 1256,
+      "when": [
+        "survey",
+        "current",
+        "state"
+      ]
+    },
+    {
+      "name": "Read the platforms catalogue",
+      "bytes": 420,
+      "when": [
+        "read",
+        "platforms",
+        "catalogue"
+      ]
+    },
+    {
+      "name": "Pick the reference product (baseline)",
+      "bytes": 2023,
+      "when": [
+        "pick",
+        "reference",
+        "product",
+        "baseline"
+      ]
+    },
+    {
+      "name": "Pick the flash config",
+      "bytes": 914,
+      "when": [
+        "pick",
+        "flash",
+        "config"
+      ]
+    },
+    {
+      "name": "Optional: add custom carrier details",
+      "bytes": 4419,
+      "when": [
+        "optional",
+        "custom",
+        "carrier",
+        "details"
+      ]
+    },
+    {
+      "name": "Confirm",
+      "bytes": 1621,
+      "when": [
+        "confirm"
+      ]
+    },
+    {
+      "name": "Write (and optionally activate)",
+      "bytes": 752,
+      "when": [
+        "write",
+        "optionally",
+        "activate"
+      ]
+    },
+    {
+      "name": "Confirm",
+      "bytes": 1316,
+      "when": [
+        "confirm"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 360,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 333,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 826,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1315,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-init-target\\SKILL.md",
+  "curated": true
+}

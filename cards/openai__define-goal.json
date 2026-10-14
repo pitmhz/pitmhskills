@@ -28,7 +28,50 @@
   "conflicts_with": [],
   "body_tokens": 1437,
   "core_bytes": 5746,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/define-goal/SKILL.md"
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 372,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2754,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Goal Quality Bar",
+      "bytes": 907,
+      "when": [
+        "goal",
+        "quality"
+      ]
+    },
+    {
+      "name": "Quantification Heuristics",
+      "bytes": 685,
+      "when": [
+        "quantification",
+        "heuristics"
+      ]
+    },
+    {
+      "name": "Clarifying Questions",
+      "bytes": 585,
+      "when": [
+        "clarifying",
+        "questions"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/define-goal/SKILL.md",
+  "curated": true
 }

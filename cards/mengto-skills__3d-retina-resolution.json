@@ -1,0 +1,90 @@
+{
+  "id": "mengto-skills__3d-retina-resolution",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "8fdbb0cf11babcfa591583c9fe50b1b3e7d51c99b1ab7255c8e50eaaae911612",
+  "purpose": "Render a 3D canvas sharply on Retina and HiDPI displays, including explicit 200 percent resolution, synchronized renderer and post-processing sizes, correct pointer coordinates, and measured quality f",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Render a 3D canvas sharply on Retina and HiDPI displays, including explicit 200 percent resolution, synchronized renderer and post-processing sizes, correct poi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1585,
+  "core_bytes": 6352,
+  "sections": [
+    {
+      "name": "Choose the scale deliberately",
+      "bytes": 765,
+      "when": [
+        "choose",
+        "scale",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "Synchronize the rendering pipeline",
+      "bytes": 2104,
+      "when": [
+        "synchronize",
+        "rendering",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "Handle layout and display changes",
+      "bytes": 1074,
+      "when": [
+        "handle",
+        "layout",
+        "display",
+        "changes"
+      ]
+    },
+    {
+      "name": "Budget and fallback",
+      "bytes": 922,
+      "when": [
+        "budget",
+        "fallback"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 842,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "choose",
+    "scale",
+    "deliberately",
+    "synchronize",
+    "pipeline",
+    "handle",
+    "layout",
+    "budget",
+    "fallback",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-retina-resolution\\SKILL.md"
+}

@@ -28,7 +28,168 @@
   "conflicts_with": [],
   "body_tokens": 4113,
   "core_bytes": 16483,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Top-level modes and rules",
+      "bytes": 2442,
+      "when": [
+        "level",
+        "modes",
+        "rules"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 383,
+      "when": []
+    },
+    {
+      "name": "When not to use",
+      "bytes": 465,
+      "when": []
+    },
+    {
+      "name": "Decision tree",
+      "bytes": 1641,
+      "when": [
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2467,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Prompt augmentation",
+      "bytes": 1114,
+      "when": [
+        "prompt",
+        "augmentation"
+      ]
+    },
+    {
+      "name": "Specificity policy",
+      "bytes": 772,
+      "when": [
+        "specificity",
+        "policy"
+      ]
+    },
+    {
+      "name": "Use-case taxonomy (exact slugs)",
+      "bytes": 1380,
+      "when": [
+        "case",
+        "taxonomy",
+        "exact",
+        "slugs"
+      ]
+    },
+    {
+      "name": "Shared prompt schema",
+      "bytes": 1394,
+      "when": [
+        "shared",
+        "prompt",
+        "schema"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 710,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Generation example (hero image)",
+      "bytes": 387,
+      "when": [
+        "generation",
+        "example",
+        "hero",
+        "image"
+      ]
+    },
+    {
+      "name": "Edit example (invariants)",
+      "bytes": 308,
+      "when": [
+        "edit",
+        "example",
+        "invariants"
+      ]
+    },
+    {
+      "name": "Prompting best practices",
+      "bytes": 1158,
+      "when": [
+        "prompting",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Guidance by asset type",
+      "bytes": 151,
+      "when": [
+        "guidance",
+        "asset",
+        "type"
+      ]
+    },
+    {
+      "name": "Fallback CLI mode only",
+      "bytes": 1796,
+      "when": [
+        "fallback",
+        "mode"
+      ]
+    },
+    {
+      "name": "Temp and output conventions",
+      "bytes": 397,
+      "when": [
+        "temp",
+        "output",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 438,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Environment",
+      "bytes": 715,
+      "when": [
+        "environment"
+      ]
+    },
+    {
+      "name": "Script-mode notes",
+      "bytes": 217,
+      "when": [
+        "script",
+        "mode",
+        "notes"
+      ]
+    },
+    {
+      "name": "Reference map",
+      "bytes": 547,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.system/imagegen/SKILL.md"
 }

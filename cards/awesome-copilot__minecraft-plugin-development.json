@@ -1,0 +1,216 @@
+{
+  "id": "awesome-copilot__minecraft-plugin-development",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "49cae402f5313d85323a0381c9ed3d9d2e1279ce5bc43cef17c40d497d1c8328",
+  "purpose": "Use this skill when building or modifying Minecraft server plugins for Paper, Spigot, or Bukkit, including plugin.yml setup, commands, listeners, schedulers, player state, team or arena systems, persi",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when building or modifying Minecraft server plugins for Paper, Spigot, or Bukkit, including plugin.yml setup, commands, listeners, schedulers, pl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3187,
+  "core_bytes": 12746,
+  "sections": [
+    {
+      "name": "Scope",
+      "bytes": 648,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Default Working Style",
+      "bytes": 1554,
+      "when": [
+        "default",
+        "working",
+        "style"
+      ]
+    },
+    {
+      "name": "Project Discovery Checklist",
+      "bytes": 537,
+      "when": [
+        "project",
+        "discovery",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Core Rules",
+      "bytes": 2040,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "Prefer the concrete server API in the repo",
+      "bytes": 323,
+      "when": [
+        "prefer",
+        "concrete",
+        "server",
+        "repo"
+      ]
+    },
+    {
+      "name": "Keep registration in sync",
+      "bytes": 270,
+      "when": [
+        "keep",
+        "registration",
+        "sync"
+      ]
+    },
+    {
+      "name": "Respect main-thread boundaries",
+      "bytes": 326,
+      "when": [
+        "respect",
+        "main",
+        "thread",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Model gameplay as state, not scattered booleans",
+      "bytes": 601,
+      "when": [
+        "model",
+        "gameplay",
+        "state",
+        "scattered",
+        "booleans"
+      ]
+    },
+    {
+      "name": "Favor config-driven values",
+      "bytes": 284,
+      "when": [
+        "favor",
+        "config",
+        "driven",
+        "values"
+      ]
+    },
+    {
+      "name": "Be careful with reload behavior",
+      "bytes": 221,
+      "when": [
+        "careful",
+        "reload",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Implementation Patterns",
+      "bytes": 2366,
+      "when": [
+        "implementation",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Commands",
+      "bytes": 676,
+      "when": [
+        "commands"
+      ]
+    },
+    {
+      "name": "Listeners",
+      "bytes": 277,
+      "when": [
+        "listeners"
+      ]
+    },
+    {
+      "name": "Scheduled Tasks",
+      "bytes": 829,
+      "when": [
+        "scheduled",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Player and Match State",
+      "bytes": 297,
+      "when": [
+        "player",
+        "match",
+        "state"
+      ]
+    },
+    {
+      "name": "Text and Messages",
+      "bytes": 259,
+      "when": [
+        "text",
+        "messages"
+      ]
+    },
+    {
+      "name": "High-Risk Areas",
+      "bytes": 635,
+      "when": [
+        "high",
+        "risk",
+        "areas"
+      ]
+    },
+    {
+      "name": "Output Expectations",
+      "bytes": 579,
+      "when": [
+        "output",
+        "expectations"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 609,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Common Gotchas",
+      "bytes": 902,
+      "when": [
+        "common",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Preferred Response Shape",
+      "bytes": 367,
+      "when": [
+        "preferred",
+        "response",
+        "shape"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\minecraft-plugin-development\\SKILL.md"
+}

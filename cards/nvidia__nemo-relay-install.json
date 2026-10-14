@@ -1,0 +1,100 @@
+{
+  "id": "nvidia__nemo-relay-install",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9410671d2c5c20ba572bb770ba75e3de6077fd915c3982737fff1cfba7efe52f",
+  "purpose": "Use this skill when choosing or running NeMo Relay installation for the CLI, Python, Node.js, Rust, OpenClaw, Hermes, or maintained framework integrations before runtime configuration or quick-start s",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when choosing or running NeMo Relay installation for the CLI, Python, Node.js, Rust, OpenClaw, Hermes, or maintained framework integrations befor"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1776,
+  "core_bytes": 7101,
+  "sections": [
+    {
+      "name": "Choose The Install Path",
+      "bytes": 1528,
+      "when": [
+        "choose",
+        "install",
+        "path"
+      ]
+    },
+    {
+      "name": "Protect Codex Desktop Continuity",
+      "bytes": 1284,
+      "when": [
+        "protect",
+        "codex",
+        "desktop",
+        "continuity"
+      ]
+    },
+    {
+      "name": "Install And Verify",
+      "bytes": 914,
+      "when": [
+        "install",
+        "verify"
+      ]
+    },
+    {
+      "name": "Use Doctor For CLI Readiness And Configuration Issues",
+      "bytes": 1067,
+      "when": [
+        "doctor",
+        "readiness",
+        "configuration",
+        "issues"
+      ]
+    },
+    {
+      "name": "Hand Off After Install",
+      "bytes": 468,
+      "when": [
+        "hand",
+        "after",
+        "install"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 670,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Public Docs To Reference",
+      "bytes": 485,
+      "when": [
+        "public",
+        "docs",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-relay-install/SKILL.md",
+  "curated": true
+}

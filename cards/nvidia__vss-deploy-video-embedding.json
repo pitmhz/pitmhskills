@@ -1,0 +1,161 @@
+{
+  "id": "nvidia__vss-deploy-video-embedding",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8ab25f88c7ea078a046fd40c75925755ad1b3e78037efa59ba444df5ddc90987",
+  "purpose": "Use this skill when deploying, operating, or integrating the VSS 3.2 GA RT-Embed Video Embedding microservice. Covers Docker Compose bring-up, GPU and storage prerequisites, the `/v1` REST API (file u",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when deploying, operating, or integrating the VSS 3.2 GA RT-Embed Video Embedding microservice. Covers Docker Compose bring-up, GPU and storage p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3730,
+  "core_bytes": 14943,
+  "sections": [
+    {
+      "name": "Service Snapshot",
+      "bytes": 638,
+      "when": [
+        "service",
+        "snapshot"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 816,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Deploy",
+      "bytes": 3395,
+      "when": [
+        "deploy"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 657,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Common Operations",
+      "bytes": 2354,
+      "when": [
+        "common",
+        "operations"
+      ]
+    },
+    {
+      "name": "Generate video embeddings from an uploaded file",
+      "bytes": 457,
+      "when": [
+        "generate",
+        "video",
+        "embeddings",
+        "uploaded",
+        "file"
+      ]
+    },
+    {
+      "name": "Generate text embeddings (for text-to-video search)",
+      "bytes": 258,
+      "when": [
+        "generate",
+        "text",
+        "embeddings",
+        "video",
+        "search"
+      ]
+    },
+    {
+      "name": "Embed a live RTSP stream",
+      "bytes": 1615,
+      "when": [
+        "embed",
+        "live",
+        "rtsp",
+        "stream"
+      ]
+    },
+    {
+      "name": "Logs, Metrics, And Status",
+      "bytes": 462,
+      "when": [
+        "logs",
+        "metrics",
+        "status"
+      ]
+    },
+    {
+      "name": "Integration Surface",
+      "bytes": 925,
+      "when": [
+        "integration",
+        "surface"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 2539,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 836,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Upgrade And Rollback",
+      "bytes": 316,
+      "when": [
+        "upgrade",
+        "rollback"
+      ]
+    },
+    {
+      "name": "Tear Down",
+      "bytes": 278,
+      "when": [
+        "tear",
+        "down"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1086,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\vss-deploy-video-embedding\\SKILL.md",
+  "curated": true
+}

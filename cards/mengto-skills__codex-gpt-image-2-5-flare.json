@@ -1,0 +1,95 @@
+{
+  "id": "mengto-skills__codex-gpt-image-2-5-flare",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "99e89ba100723c78c98aa7138c63f0f7e38bb10921e0cfa536eefbc8ab777d3d",
+  "purpose": "Generate or edit artwork with built-in Codex image gen, especially transparent PNG ornaments, game sprites, emblems, and UI graphics. Use when the user requests GPT 2.5 Flare, /codex-gpt-image-2-5-fla",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate or edit artwork with built-in Codex image gen, especially transparent PNG ornaments, game sprites, emblems, and UI graphics. Use when the user requests"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1932,
+  "core_bytes": 7736,
+  "sections": [
+    {
+      "name": "1. Establish the asset contract",
+      "bytes": 960,
+      "when": [
+        "establish",
+        "asset",
+        "contract"
+      ]
+    },
+    {
+      "name": "2. Write the generation prompt",
+      "bytes": 1533,
+      "when": [
+        "write",
+        "generation",
+        "prompt"
+      ]
+    },
+    {
+      "name": "3. Use built-in Codex image gen",
+      "bytes": 1457,
+      "when": [
+        "built",
+        "codex",
+        "image"
+      ]
+    },
+    {
+      "name": "4. Verify the PNG and transparency",
+      "bytes": 1207,
+      "when": [
+        "verify",
+        "transparency"
+      ]
+    },
+    {
+      "name": "5. Preserve and integrate",
+      "bytes": 1513,
+      "when": [
+        "preserve",
+        "integrate"
+      ]
+    },
+    {
+      "name": "6. Deliver",
+      "bytes": 316,
+      "when": [
+        "deliver"
+      ]
+    }
+  ],
+  "keywords": [
+    "establish",
+    "contract",
+    "write",
+    "generation",
+    "verify",
+    "transparency",
+    "preserve",
+    "integrate",
+    "deliver"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\codex-gpt-image-2-5-flare\\SKILL.md"
+}

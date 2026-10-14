@@ -1,0 +1,134 @@
+{
+  "id": "awesome-copilot__mini-context-graph",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "53faa986896b13ef99f03681e7b3a7a5a8ac7b93120387922459527450022aaa",
+  "purpose": "A persistent, compounding knowledge base combining Karpathy's LLM Wiki pattern\nwith a structured knowledge graph. Ingest documents once — the LLM writes wiki\npages, extracts entities/relations into th",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "A persistent, compounding knowledge base combining Karpathy's LLM Wiki pattern\nwith a structured knowledge graph. Ingest documents once — the LLM writes wiki\npa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2028,
+  "core_bytes": 8168,
+  "sections": [
+    {
+      "name": "The Core Idea",
+      "bytes": 718,
+      "when": [
+        "core",
+        "idea"
+      ]
+    },
+    {
+      "name": "Three Layers",
+      "bytes": 419,
+      "when": [
+        "three",
+        "layers"
+      ]
+    },
+    {
+      "name": "⚡ Quick Start for Agents",
+      "bytes": 1507,
+      "when": [
+        "quick",
+        "start",
+        "agents"
+      ]
+    },
+    {
+      "name": "Key Claims",
+      "bytes": 76,
+      "when": [
+        "claims"
+      ]
+    },
+    {
+      "name": "Entities",
+      "bytes": 499,
+      "when": [
+        "entities"
+      ]
+    },
+    {
+      "name": "Operations",
+      "bytes": 1522,
+      "when": [
+        "operations"
+      ]
+    },
+    {
+      "name": "Ingest",
+      "bytes": 708,
+      "when": [
+        "ingest"
+      ]
+    },
+    {
+      "name": "Query",
+      "bytes": 439,
+      "when": [
+        "query"
+      ]
+    },
+    {
+      "name": "Lint",
+      "bytes": 360,
+      "when": [
+        "lint"
+      ]
+    },
+    {
+      "name": "Ingestion Constraints",
+      "bytes": 490,
+      "when": [
+        "ingestion",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Retrieval Constraints",
+      "bytes": 274,
+      "when": [
+        "retrieval",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Full Python API Reference",
+      "bytes": 1479,
+      "when": [
+        "full",
+        "python",
+        "reference"
+      ]
+    },
+    {
+      "name": "Design Philosophy",
+      "bytes": 758,
+      "when": [
+        "design",
+        "philosophy"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mini-context-graph\\SKILL.md"
+}

@@ -2,7 +2,8 @@
   "id": "vercel__web-design-guidelines",
   "tier": "B",
   "origin": [
-    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278"
+    "vercel-labs/agent-skills@063bee94c3f4df8453406c830b0a7df0f2860278",
+    "local@web-design-guidelines"
   ],
   "license": "MIT-claimed (README/frontmatter, no LICENSE file)",
   "hash": "17e48da905f83a19c174079b50760a98c069527ba50079239b3c187236627c29",
@@ -28,7 +29,34 @@
   "conflicts_with": [],
   "body_tokens": 318,
   "core_bytes": 1270,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/vercel/skills/web-design-guidelines/SKILL.md"
+  "sections": [
+    {
+      "name": "How It Works",
+      "bytes": 249,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Guidelines Source",
+      "bytes": 291,
+      "when": [
+        "guidelines",
+        "source"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 313,
+      "when": [
+        "usage"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/vercel/skills/web-design-guidelines/SKILL.md",
+  "curated": true
 }

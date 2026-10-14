@@ -29,9 +29,61 @@
   "conflicts_with": [],
   "body_tokens": 829,
   "core_bytes": 3315,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "1. When to Use",
+      "bytes": 1055,
+      "when": []
+    },
+    {
+      "name": "At the Start of a Task (Recall Past Context)",
+      "bytes": 1034,
+      "when": [
+        "start",
+        "task",
+        "recall",
+        "past",
+        "context"
+      ]
+    },
+    {
+      "name": "2. When Finishing a Feature, Commit, or Milestone (Export & Store)",
+      "bytes": 884,
+      "when": [
+        "finishing",
+        "feature",
+        "commit",
+        "milestone",
+        "export",
+        "store"
+      ]
+    },
+    {
+      "name": "3. After Design Interviews or `/grill-me` Sessions",
+      "bytes": 529,
+      "when": [
+        "after",
+        "design",
+        "interviews",
+        "grill",
+        "sessions"
+      ]
+    },
+    {
+      "name": "4. Backfilling / Ingesting Existing Workspace Docs",
+      "bytes": 255,
+      "when": [
+        "backfilling",
+        "ingesting",
+        "existing",
+        "workspace",
+        "docs"
+      ]
+    }
   ],
-  "skill_path": "C:/Users/Mattchine/skills/strategic-memory/SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:/Users/Mattchine/skills/strategic-memory/SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,141 @@
+{
+  "id": "nvidia__mcore-testing",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1c1750d8124d4d189021aecd1d2ecdf2a8ff0a381473f139798843287368bba1",
+  "purpose": "Test system for Megatron-LM. Covers test layout, recipe YAML structure, adding and running unit and functional tests, golden values, marker filters, and CI parity.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Test system for Megatron-LM. Covers test layout, recipe YAML structure, adding and running unit and functional tests, golden values, marker filters, and CI pari"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1890,
+  "core_bytes": 7652,
+  "sections": [
+    {
+      "name": "Answer-First Testing Facts",
+      "bytes": 516,
+      "when": [
+        "answer",
+        "first",
+        "testing",
+        "facts"
+      ]
+    },
+    {
+      "name": "Test Layout",
+      "bytes": 664,
+      "when": [
+        "test",
+        "layout"
+      ]
+    },
+    {
+      "name": "How Tests Execute",
+      "bytes": 940,
+      "when": [
+        "tests",
+        "execute"
+      ]
+    },
+    {
+      "name": "Recipe YAML Structure",
+      "bytes": 1284,
+      "when": [
+        "recipe",
+        "yaml",
+        "structure"
+      ]
+    },
+    {
+      "name": "Disabling a Test Without Deleting It",
+      "bytes": 337,
+      "when": [
+        "disabling",
+        "test",
+        "deleting"
+      ]
+    },
+    {
+      "name": "Running Unit Tests Locally",
+      "bytes": 1709,
+      "when": [
+        "running",
+        "unit",
+        "tests",
+        "locally"
+      ]
+    },
+    {
+      "name": "Marker filters",
+      "bytes": 351,
+      "when": [
+        "marker",
+        "filters"
+      ]
+    },
+    {
+      "name": "CI parity",
+      "bytes": 179,
+      "when": [
+        "parity"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 437,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Adding a Unit Test",
+      "bytes": 674,
+      "when": [
+        "adding",
+        "unit",
+        "test"
+      ]
+    },
+    {
+      "name": "Adding a Functional / Integration Test",
+      "bytes": 689,
+      "when": [
+        "adding",
+        "functional",
+        "integration",
+        "test"
+      ]
+    },
+    {
+      "name": "Common Pitfalls",
+      "bytes": 546,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/mcore-testing/SKILL.md",
+  "curated": true
+}

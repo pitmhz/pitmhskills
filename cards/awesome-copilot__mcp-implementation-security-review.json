@@ -1,0 +1,237 @@
+{
+  "id": "awesome-copilot__mcp-implementation-security-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8974ffc89746dd2bf947069d6a162120df8f81fdf0a1ca31b3bb1781cf8bb31f",
+  "purpose": "Review the implementation source code of MCP (Model Context Protocol) servers, clients, and tool handlers against a security baseline — authentication, sessions, rate limiting, input-schema validation",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Review the implementation source code of MCP (Model Context Protocol) servers, clients, and tool handlers against a security baseline — authentication, sessions"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5176,
+  "core_bytes": 20873,
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 2626,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Step 1 — Classify the target",
+      "bytes": 604,
+      "when": [
+        "step",
+        "classify",
+        "target"
+      ]
+    },
+    {
+      "name": "Step 2 — Filter false positives",
+      "bytes": 426,
+      "when": [
+        "step",
+        "filter",
+        "false",
+        "positives"
+      ]
+    },
+    {
+      "name": "Step 3 — Check baseline controls",
+      "bytes": 484,
+      "when": [
+        "step",
+        "check",
+        "baseline",
+        "controls"
+      ]
+    },
+    {
+      "name": "Step 4 — Check RCE vectors",
+      "bytes": 304,
+      "when": [
+        "step",
+        "check",
+        "vectors"
+      ]
+    },
+    {
+      "name": "Step 5 — Check OWASP MCP Top 10",
+      "bytes": 444,
+      "when": [
+        "step",
+        "check",
+        "owasp"
+      ]
+    },
+    {
+      "name": "Step 6 — Report",
+      "bytes": 352,
+      "when": [
+        "step",
+        "report"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 2949,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Decision rules",
+      "bytes": 989,
+      "when": [
+        "decision",
+        "rules"
+      ]
+    },
+    {
+      "name": "Transport classification",
+      "bytes": 1224,
+      "when": [
+        "transport",
+        "classification"
+      ]
+    },
+    {
+      "name": "False Positive Filters",
+      "bytes": 722,
+      "when": [
+        "false",
+        "positive",
+        "filters"
+      ]
+    },
+    {
+      "name": "Controls Reference",
+      "bytes": 6027,
+      "when": [
+        "controls",
+        "reference"
+      ]
+    },
+    {
+      "name": "MCP-01 — Identity isolation",
+      "bytes": 1271,
+      "when": [
+        "identity",
+        "isolation"
+      ]
+    },
+    {
+      "name": "MCP-02 — Sessions",
+      "bytes": 1248,
+      "when": [
+        "sessions"
+      ]
+    },
+    {
+      "name": "MCP-03 — Rate limits",
+      "bytes": 1366,
+      "when": [
+        "rate",
+        "limits"
+      ]
+    },
+    {
+      "name": "MCP-04 — Schema validation",
+      "bytes": 910,
+      "when": [
+        "schema",
+        "validation"
+      ]
+    },
+    {
+      "name": "MCP-05 — SDK-first",
+      "bytes": 1209,
+      "when": [
+        "first"
+      ]
+    },
+    {
+      "name": "RCE Vectors",
+      "bytes": 2261,
+      "when": [
+        "vectors"
+      ]
+    },
+    {
+      "name": "OWASP MCP Top 10",
+      "bytes": 3907,
+      "when": [
+        "owasp"
+      ]
+    },
+    {
+      "name": "Compliance Output Format",
+      "bytes": 1629,
+      "when": [
+        "compliance",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Control summary",
+      "bytes": 647,
+      "when": [
+        "control",
+        "summary"
+      ]
+    },
+    {
+      "name": "RCE summary",
+      "bytes": 308,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "OWASP summary",
+      "bytes": 383,
+      "when": [
+        "owasp",
+        "summary"
+      ]
+    },
+    {
+      "name": "Manual follow-ups",
+      "bytes": 150,
+      "when": [
+        "manual",
+        "follow"
+      ]
+    },
+    {
+      "name": "Exception process",
+      "bytes": 448,
+      "when": [
+        "exception",
+        "process"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-implementation-security-review\\SKILL.md"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "awesome-copilot__typescript-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e409edb78ed746e7a335c35063dea5c2d462e0498740014a58a9c250891cba19",
+  "purpose": "Generate a complete MCP server project in TypeScript using the MCP TypeScript SDK v2 (@modelcontextprotocol/server) with tools, resources, and proper configuration",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete MCP server project in TypeScript using the MCP TypeScript SDK v2 (@modelcontextprotocol/server) with tools, resources, and proper configurat"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1678,
+  "core_bytes": 6731,
+  "sections": [
+    {
+      "name": "Requirements",
+      "bytes": 1350,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Implementation Details",
+      "bytes": 2898,
+      "when": [
+        "implementation",
+        "details"
+      ]
+    },
+    {
+      "name": "Project Setup",
+      "bytes": 501,
+      "when": [
+        "project",
+        "setup"
+      ]
+    },
+    {
+      "name": "Server Configuration",
+      "bytes": 698,
+      "when": [
+        "server",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Tool Implementation",
+      "bytes": 991,
+      "when": [
+        "tool",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Resource/Prompt Setup (Optional)",
+      "bytes": 397,
+      "when": [
+        "resource",
+        "prompt",
+        "setup",
+        "optional"
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "bytes": 284,
+      "when": [
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "Example Tool Types to Consider",
+      "bytes": 292,
+      "when": [
+        "example",
+        "tool",
+        "types",
+        "consider"
+      ]
+    },
+    {
+      "name": "Configuration Options",
+      "bytes": 441,
+      "when": [
+        "configuration",
+        "options"
+      ]
+    },
+    {
+      "name": "Migrating an Existing v1 Server",
+      "bytes": 557,
+      "when": [
+        "migrating",
+        "existing",
+        "server"
+      ]
+    },
+    {
+      "name": "Testing Guidance",
+      "bytes": 313,
+      "when": [
+        "testing",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Additional Features to Consider",
+      "bytes": 480,
+      "when": [
+        "additional",
+        "features",
+        "consider"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\typescript-mcp-server-generator\\SKILL.md"
+}

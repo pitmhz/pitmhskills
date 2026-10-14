@@ -27,7 +27,81 @@
   "conflicts_with": [],
   "body_tokens": 863,
   "core_bytes": 3463,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Quick start",
+      "bytes": 593,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1991,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "0) If any MCP call fails because Notion MCP is not connected, pause and set it u",
+      "bytes": 521,
+      "when": [
+        "call",
+        "fails",
+        "because",
+        "notion",
+        "connected",
+        "pause"
+      ]
+    },
+    {
+      "name": "1) Gather sources",
+      "bytes": 334,
+      "when": [
+        "gather",
+        "sources"
+      ]
+    },
+    {
+      "name": "2) Select the format",
+      "bytes": 261,
+      "when": [
+        "select",
+        "format"
+      ]
+    },
+    {
+      "name": "3) Synthesize",
+      "bytes": 216,
+      "when": [
+        "synthesize"
+      ]
+    },
+    {
+      "name": "4) Create the doc",
+      "bytes": 365,
+      "when": [
+        "create"
+      ]
+    },
+    {
+      "name": "5) Finalize & handoff",
+      "bytes": 281,
+      "when": [
+        "finalize",
+        "handoff"
+      ]
+    },
+    {
+      "name": "References and examples",
+      "bytes": 394,
+      "when": [
+        "references",
+        "examples"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/notion-research-documentation/SKILL.md"
 }

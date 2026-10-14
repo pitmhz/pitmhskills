@@ -1,0 +1,127 @@
+{
+  "id": "nvidia__codonfm-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7108480b94acc10ac751c5165ee8ee111932655ef42225426ae0083f5b53fdc7",
+  "purpose": "Set up the public CodonFM v1 repository and download public Encodon checkpoints. Use for requests to build or launch the CodonFM development container, configure local data/checkpoint mounts, verify G",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Set up the public CodonFM v1 repository and download public Encodon checkpoints. Use for requests to build or launch the CodonFM development container, configur"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3341,
+  "core_bytes": 13364,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 2489,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Reporting setup instructions",
+      "bytes": 1133,
+      "when": [
+        "reporting",
+        "setup",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Runtime preflight",
+      "bytes": 2140,
+      "when": [
+        "runtime",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Container preflight",
+      "bytes": 1393,
+      "when": [
+        "container",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Build and launch",
+      "bytes": 766,
+      "when": [
+        "build",
+        "launch"
+      ]
+    },
+    {
+      "name": "Run directly without Docker",
+      "bytes": 1266,
+      "when": [
+        "directly",
+        "docker"
+      ]
+    },
+    {
+      "name": "Download a checkpoint",
+      "bytes": 2807,
+      "when": [
+        "download",
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "Small checkpoint example",
+      "bytes": 1646,
+      "when": [
+        "small",
+        "checkpoint",
+        "example"
+      ]
+    },
+    {
+      "name": "Verify the runtime",
+      "bytes": 895,
+      "when": [
+        "verify",
+        "runtime"
+      ]
+    },
+    {
+      "name": "Failure handling",
+      "bytes": 826,
+      "when": [
+        "failure",
+        "handling"
+      ]
+    },
+    {
+      "name": "Public-v1 boundaries",
+      "bytes": 346,
+      "when": [
+        "public",
+        "boundaries"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-codonfm-setup/SKILL.md",
+  "curated": true
+}

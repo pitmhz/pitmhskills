@@ -27,7 +27,149 @@
   "conflicts_with": [],
   "body_tokens": 2088,
   "core_bytes": 8386,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 284,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 255,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Python Libraries",
+      "bytes": 4270,
+      "when": [
+        "python",
+        "libraries"
+      ]
+    },
+    {
+      "name": "pypdf - Basic Operations",
+      "bytes": 1089,
+      "when": [
+        "pypdf",
+        "basic",
+        "operations"
+      ]
+    },
+    {
+      "name": "pdfplumber - Text and Table Extraction",
+      "bytes": 1126,
+      "when": [
+        "pdfplumber",
+        "text",
+        "table",
+        "extraction"
+      ]
+    },
+    {
+      "name": "reportlab - Create PDFs",
+      "bytes": 2032,
+      "when": [
+        "reportlab",
+        "create",
+        "pdfs"
+      ]
+    },
+    {
+      "name": "Command-Line Tools",
+      "bytes": 859,
+      "when": [
+        "command",
+        "line",
+        "tools"
+      ]
+    },
+    {
+      "name": "pdftotext (poppler-utils)",
+      "bytes": 254,
+      "when": [
+        "pdftotext",
+        "poppler",
+        "utils"
+      ]
+    },
+    {
+      "name": "qpdf",
+      "bytes": 385,
+      "when": [
+        "qpdf"
+      ]
+    },
+    {
+      "name": "pdftk (if available)",
+      "bytes": 195,
+      "when": [
+        "pdftk",
+        "available"
+      ]
+    },
+    {
+      "name": "Common Tasks",
+      "bytes": 1371,
+      "when": [
+        "common",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Extract Text from Scanned PDFs",
+      "bytes": 411,
+      "when": [
+        "extract",
+        "text",
+        "scanned",
+        "pdfs"
+      ]
+    },
+    {
+      "name": "Add Watermark",
+      "bytes": 412,
+      "when": [
+        "watermark"
+      ]
+    },
+    {
+      "name": "Extract Images",
+      "bytes": 193,
+      "when": [
+        "extract",
+        "images"
+      ]
+    },
+    {
+      "name": "Password Protection",
+      "bytes": 336,
+      "when": [
+        "password",
+        "protection"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 546,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Next Steps",
+      "bytes": 246,
+      "when": [
+        "next",
+        "steps"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/pdf/SKILL.md"
 }

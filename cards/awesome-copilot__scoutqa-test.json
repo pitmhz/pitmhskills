@@ -1,0 +1,164 @@
+{
+  "id": "awesome-copilot__scoutqa-test",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6c09a43984b05b6a108e79c2defb51d8f7fee7e230610a5e220f63dde8bcdee1",
+  "purpose": "This skill should be used when the user asks to \"test this website\", \"run exploratory testing\", \"check for accessibility issues\", \"verify the login flow works\", \"find bugs on this page\", or requests a",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"test this website\", \"run exploratory testing\", \"check for accessibility issues\", \"verify the login flow works\","
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3472,
+  "core_bytes": 13914,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 798,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Running Tests",
+      "bytes": 3203,
+      "when": [
+        "running",
+        "tests"
+      ]
+    },
+    {
+      "name": "Testing Workflow",
+      "bytes": 2232,
+      "when": [
+        "testing",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Command Options",
+      "bytes": 305,
+      "when": [
+        "command",
+        "options"
+      ]
+    },
+    {
+      "name": "Local Testing Support",
+      "bytes": 290,
+      "when": [
+        "local",
+        "testing",
+        "support"
+      ]
+    },
+    {
+      "name": "When to Use Each Command",
+      "bytes": 358,
+      "when": [
+        "each",
+        "command"
+      ]
+    },
+    {
+      "name": "Writing Effective Prompts",
+      "bytes": 4956,
+      "when": [
+        "writing",
+        "effective",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Common Test Scenarios",
+      "bytes": 2413,
+      "when": [
+        "common",
+        "test",
+        "scenarios"
+      ]
+    },
+    {
+      "name": "Listing Issues",
+      "bytes": 732,
+      "when": [
+        "listing",
+        "issues"
+      ]
+    },
+    {
+      "name": "Presenting Results",
+      "bytes": 1362,
+      "when": [
+        "presenting",
+        "results"
+      ]
+    },
+    {
+      "name": "Immediate Presentation (After Starting Test)",
+      "bytes": 388,
+      "when": [
+        "immediate",
+        "presentation",
+        "after",
+        "starting",
+        "test"
+      ]
+    },
+    {
+      "name": "Final Results (After Completion)",
+      "bytes": 951,
+      "when": [
+        "final",
+        "results",
+        "after",
+        "completion"
+      ]
+    },
+    {
+      "name": "Following Up on Stuck Executions",
+      "bytes": 506,
+      "when": [
+        "following",
+        "stuck",
+        "executions"
+      ]
+    },
+    {
+      "name": "Checking Test Results",
+      "bytes": 807,
+      "when": [
+        "checking",
+        "test",
+        "results"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 699,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\scoutqa-test\\SKILL.md"
+}

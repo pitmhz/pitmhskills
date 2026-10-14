@@ -1,0 +1,273 @@
+{
+  "id": "awesome-copilot__python-pypi-package-builder",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a936499b350cc292fead873345f54893c2e91c46ce0bae8620bd2f1734376f3e",
+  "purpose": "End-to-end skill for building, testing, linting, versioning, and publishing a production-grade Python library to PyPI. Covers all four build backends (setuptools+setuptools_scm, hatchling, flit, poetr",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "End-to-end skill for building, testing, linting, versioning, and publishing a production-grade Python library to PyPI. Covers all four build backends (setuptool"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4610,
+  "core_bytes": 19188,
+  "sections": [
+    {
+      "name": "Quick Navigation",
+      "bytes": 2007,
+      "when": [
+        "quick",
+        "navigation"
+      ]
+    },
+    {
+      "name": "1. Skill Trigger",
+      "bytes": 1076,
+      "when": [
+        "skill",
+        "trigger"
+      ]
+    },
+    {
+      "name": "2. Package Type Decision",
+      "bytes": 1654,
+      "when": [
+        "package",
+        "type",
+        "decision"
+      ]
+    },
+    {
+      "name": "Decision Table",
+      "bytes": 1237,
+      "when": [
+        "decision",
+        "table"
+      ]
+    },
+    {
+      "name": "Package Naming Rules",
+      "bytes": 290,
+      "when": [
+        "package",
+        "naming",
+        "rules"
+      ]
+    },
+    {
+      "name": "3. Folder Structure Decision",
+      "bytes": 1119,
+      "when": [
+        "folder",
+        "structure",
+        "decision"
+      ]
+    },
+    {
+      "name": "Decision Tree",
+      "bytes": 714,
+      "when": [
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Quick Rule Summary",
+      "bytes": 372,
+      "when": [
+        "quick",
+        "rule",
+        "summary"
+      ]
+    },
+    {
+      "name": "4. Build Backend Decision",
+      "bytes": 1645,
+      "when": [
+        "build",
+        "backend",
+        "decision"
+      ]
+    },
+    {
+      "name": "Decision Tree",
+      "bytes": 927,
+      "when": [
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Backend Comparison",
+      "bytes": 688,
+      "when": [
+        "backend",
+        "comparison"
+      ]
+    },
+    {
+      "name": "5. PyPA Packaging Flow",
+      "bytes": 1739,
+      "when": [
+        "pypa",
+        "packaging",
+        "flow"
+      ]
+    },
+    {
+      "name": "Key PyPA Concepts",
+      "bytes": 746,
+      "when": [
+        "pypa",
+        "concepts"
+      ]
+    },
+    {
+      "name": "6. Project Structure Templates",
+      "bytes": 4067,
+      "when": [
+        "project",
+        "structure",
+        "templates"
+      ]
+    },
+    {
+      "name": "A. src/ Layout (Recommended default for new projects)",
+      "bytes": 2215,
+      "when": [
+        "layout",
+        "recommended",
+        "default",
+        "projects"
+      ]
+    },
+    {
+      "name": "B. Flat Layout (Small / focused packages)",
+      "bytes": 286,
+      "when": [
+        "flat",
+        "layout",
+        "small",
+        "focused",
+        "packages"
+      ]
+    },
+    {
+      "name": "C. Namespace / Monorepo Layout (Multiple related packages)",
+      "bytes": 639,
+      "when": [
+        "namespace",
+        "monorepo",
+        "layout",
+        "multiple",
+        "related",
+        "packages"
+      ]
+    },
+    {
+      "name": "Internal Module Guidelines",
+      "bytes": 892,
+      "when": [
+        "internal",
+        "module",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "7. Versioning Strategy",
+      "bytes": 2654,
+      "when": [
+        "versioning",
+        "strategy"
+      ]
+    },
+    {
+      "name": "PEP 440 — The Standard",
+      "bytes": 336,
+      "when": [
+        "standard"
+      ]
+    },
+    {
+      "name": "Semantic Versioning (recommended)",
+      "bytes": 212,
+      "when": [
+        "semantic",
+        "versioning",
+        "recommended"
+      ]
+    },
+    {
+      "name": "Dynamic versioning with setuptools_scm (recommended for git-tag workflows)",
+      "bytes": 940,
+      "when": [
+        "dynamic",
+        "versioning",
+        "setuptools",
+        "recommended",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Static versioning (flit, hatchling manual, poetry)",
+      "bytes": 158,
+      "when": [
+        "static",
+        "versioning",
+        "flit",
+        "hatchling",
+        "manual",
+        "poetry"
+      ]
+    },
+    {
+      "name": "Version specifier best practices for dependencies",
+      "bytes": 472,
+      "when": [
+        "version",
+        "specifier",
+        "best",
+        "practices",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Version bump → release flow",
+      "bytes": 509,
+      "when": [
+        "version",
+        "bump",
+        "release",
+        "flow"
+      ]
+    },
+    {
+      "name": "Where to Go Next",
+      "bytes": 1983,
+      "when": [
+        "where",
+        "next"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\python-pypi-package-builder\\SKILL.md"
+}

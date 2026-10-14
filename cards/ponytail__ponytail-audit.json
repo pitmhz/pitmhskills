@@ -6,30 +6,71 @@
   ],
   "license": "MIT",
   "hash": "3ab632ce4695de214dafe4db13d6f939e1c4be328bd0754ea751dc28b70be554",
-  "purpose": ">",
-  "domain": "general",
+  "purpose": "Whole-repo quality audit: bugs, security holes, what breaks under real load, risky code without tests, slow paths, and what to delete, merge or split. Ranked findings, each with the smallest fix. One-shot report, changes nothing.",
+  "domain": "workflow",
   "task_types": [
-    "review",
-    "implement",
-    "debug"
+    "review"
   ],
   "use_when": [
-    ">"
+    "Auditing a whole repo or package for bugs, bloat, and risk, ranked by what to fix first",
+    "Asking what can be deleted, merged, or split across the codebase",
+    "Inheriting a codebase and needing the senior-dev once-over"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to general"
+    "Reviewing one change or diff rather than the whole repo (use ponytail-review)",
+    "Standards or spec conformance checks (use code-review)",
+    "Writing or editing code (use ponytail)"
   ],
-  "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
-  "cluster": "general",
-  "cluster_role": "primary",
-  "pick_over_primary_when": null,
+  "scope": "Reads broadly, changes nothing; one-shot ranked report.",
+  "disambiguator": "Whole-repo audit and bloat hunt -> this. One diff/PR -> ponytail-review. Implementing with least code -> ponytail.",
+  "cluster": "code-minimalism",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "audit codebase bloat",
   "pairs_with": null,
   "requires": {},
   "conflicts_with": [],
   "body_tokens": 1380,
   "core_bytes": 5520,
-  "sections": [],
+  "sections": [
+    {
+      "name": "1. Map first",
+      "bytes": 751,
+      "when": [
+        "first"
+      ]
+    },
+    {
+      "name": "2. Look for",
+      "bytes": 1686,
+      "when": [
+        "look"
+      ]
+    },
+    {
+      "name": "3. Check before you report",
+      "bytes": 646,
+      "when": [
+        "check",
+        "before",
+        "report"
+      ]
+    },
+    {
+      "name": "4. Output",
+      "bytes": 1710,
+      "when": [
+        "output"
+      ]
+    }
+  ],
+  "keywords": [
+    "first",
+    "look",
+    "check",
+    "before",
+    "output"
+  ],
   "verify": [],
-  "skill_path": "skills/ponytail/skills/ponytail-audit/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-audit\\SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,113 @@
+{
+  "id": "awesome-copilot__x-twitter-scraper",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5203d59a9effb79eeeafb5532c04814648e6b4a4fc64cdcf7ee018f86d53e689",
+  "purpose": "Build GitHub Copilot workflows with Xquik X API SDKs, REST endpoints, hosted Apify Actor runs, MCP tools, TweetClaw OpenClaw plugin installs, signed webhooks, tweet search, user lookup, follower expor",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build GitHub Copilot workflows with Xquik X API SDKs, REST endpoints, hosted Apify Actor runs, MCP tools, TweetClaw OpenClaw plugin installs, signed webhooks, t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2184,
+  "core_bytes": 8736,
+  "sections": [
+    {
+      "name": "Use Cases",
+      "bytes": 664,
+      "when": [
+        "cases"
+      ]
+    },
+    {
+      "name": "Source Checks",
+      "bytes": 802,
+      "when": [
+        "source",
+        "checks"
+      ]
+    },
+    {
+      "name": "Implementation Flow",
+      "bytes": 948,
+      "when": [
+        "implementation",
+        "flow"
+      ]
+    },
+    {
+      "name": "SDK Pattern",
+      "bytes": 725,
+      "when": [
+        "pattern"
+      ]
+    },
+    {
+      "name": "Extraction Pattern",
+      "bytes": 561,
+      "when": [
+        "extraction",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Apify Actor Pattern",
+      "bytes": 2032,
+      "when": [
+        "apify",
+        "actor",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Webhook Pattern",
+      "bytes": 458,
+      "when": [
+        "webhook",
+        "pattern"
+      ]
+    },
+    {
+      "name": "MCP Pattern",
+      "bytes": 490,
+      "when": [
+        "pattern"
+      ]
+    },
+    {
+      "name": "OpenClaw Plugin Pattern",
+      "bytes": 811,
+      "when": [
+        "openclaw",
+        "plugin",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Safety And Accuracy",
+      "bytes": 788,
+      "when": [
+        "safety",
+        "accuracy"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\x-twitter-scraper\\SKILL.md"
+}

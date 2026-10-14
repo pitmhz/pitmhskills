@@ -1,0 +1,129 @@
+{
+  "id": "mengto-skills__illustration-ink-sketch",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "e39f9d0cdfd82306e6a6877a65f2d21db21d4e998f9efc2099e5f751db2a6538",
+  "purpose": "Draws hand-inked cartoon critters and living objects as SVG cards (480x360), each acting out a coding or design idea. Identified by thick black brush-pen outlines that swell and taper and break into s",
+  "domain": "workflow",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Draws hand-inked cartoon critters and living objects as SVG cards (480x360), each acting out a coding or design idea. Identified by thick black brush-pen outlin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4656,
+  "core_bytes": 18623,
+  "sections": [
+    {
+      "name": "The look in one sentence",
+      "bytes": 258,
+      "when": [
+        "look",
+        "sentence"
+      ]
+    },
+    {
+      "name": "Palette",
+      "bytes": 1693,
+      "when": [
+        "palette"
+      ]
+    },
+    {
+      "name": "Line and fill",
+      "bytes": 1610,
+      "when": [
+        "line",
+        "fill"
+      ]
+    },
+    {
+      "name": "Characters",
+      "bytes": 2297,
+      "when": [
+        "characters"
+      ]
+    },
+    {
+      "name": "Decor and props",
+      "bytes": 1114,
+      "when": [
+        "decor",
+        "props"
+      ]
+    },
+    {
+      "name": "Composition",
+      "bytes": 1009,
+      "when": [
+        "composition"
+      ]
+    },
+    {
+      "name": "Techniques",
+      "bytes": 3493,
+      "when": [
+        "techniques"
+      ]
+    },
+    {
+      "name": "Failure modes",
+      "bytes": 2040,
+      "when": [
+        "failure",
+        "modes"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 773,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1602,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1053,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "illustration",
+    "look",
+    "sentence",
+    "fill",
+    "characters",
+    "decor",
+    "composition",
+    "techniques",
+    "failure",
+    "modes",
+    "examples",
+    "workflow"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\illustration\\illustration-ink-sketch\\SKILL.md"
+}

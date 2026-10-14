@@ -1,0 +1,87 @@
+{
+  "id": "flornkm-skills__prefer-container-queries",
+  "tier": "B",
+  "origin": [
+    "flornkm/skills@cf1c0094e1826230623ecdb6e7b3c44bdfc593c3"
+  ],
+  "license": "MIT",
+  "hash": "7e09ad23db02795f69605c0971b8c6ccef7b0996b90fed4899b307cb71556dd4",
+  "purpose": "Enforce Tailwind container queries over viewport breakpoints for responsive components. Use when writing or reviewing responsive Tailwind code, when a component needs to adapt to its available space (",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Enforce Tailwind container queries over viewport breakpoints for responsive components. Use when writing or reviewing responsive Tailwind code, when a component"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Migrate to container queries -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "container queries component",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1088,
+  "core_bytes": 4352,
+  "sections": [
+    {
+      "name": "How it works",
+      "bytes": 792,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Variants",
+      "bytes": 992,
+      "when": [
+        "variants"
+      ]
+    },
+    {
+      "name": "When viewport breakpoints are still right",
+      "bytes": 526,
+      "when": [
+        "viewport",
+        "breakpoints",
+        "still",
+        "right"
+      ]
+    },
+    {
+      "name": "Migrating existing code",
+      "bytes": 593,
+      "when": [
+        "migrating",
+        "existing",
+        "code"
+      ]
+    },
+    {
+      "name": "Mistakes to catch in review",
+      "bytes": 571,
+      "when": [
+        "mistakes",
+        "catch",
+        "review"
+      ]
+    }
+  ],
+  "keywords": [
+    "prefer",
+    "works",
+    "still",
+    "right",
+    "existing",
+    "mistakes",
+    "catch",
+    "review"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\flornkm-skills\\skills\\prefer-container-queries\\SKILL.md"
+}

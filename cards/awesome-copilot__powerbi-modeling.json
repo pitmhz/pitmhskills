@@ -1,0 +1,160 @@
+{
+  "id": "awesome-copilot__powerbi-modeling",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0730f587a313065335e1ff58f5b5dcb60a150c1632451a365f9d232ada0e54ff",
+  "purpose": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implement",
+  "domain": "backend-data",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schem"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1495,
+  "core_bytes": 5979,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 727,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 534,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required Tools",
+      "bytes": 276,
+      "when": [
+        "required",
+        "tools"
+      ]
+    },
+    {
+      "name": "Optional Dependencies",
+      "bytes": 240,
+      "when": [
+        "optional",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1529,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Connect and Analyze First",
+      "bytes": 576,
+      "when": [
+        "connect",
+        "analyze",
+        "first"
+      ]
+    },
+    {
+      "name": "2. Evaluate Model Health",
+      "bytes": 490,
+      "when": [
+        "evaluate",
+        "model",
+        "health"
+      ]
+    },
+    {
+      "name": "3. Provide Targeted Guidance",
+      "bytes": 450,
+      "when": [
+        "provide",
+        "targeted",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Quick Reference: Model Quality Checklist",
+      "bytes": 549,
+      "when": [
+        "quick",
+        "reference",
+        "model",
+        "quality",
+        "checklist"
+      ]
+    },
+    {
+      "name": "MCP Tools Reference",
+      "bytes": 758,
+      "when": [
+        "tools",
+        "reference"
+      ]
+    },
+    {
+      "name": "Common Tasks",
+      "bytes": 782,
+      "when": [
+        "common",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Add Measure with Description",
+      "bytes": 269,
+      "when": [
+        "measure",
+        "description"
+      ]
+    },
+    {
+      "name": "Update Column Description",
+      "bytes": 238,
+      "when": [
+        "update",
+        "column",
+        "description"
+      ]
+    },
+    {
+      "name": "Create Relationship",
+      "bytes": 258,
+      "when": [
+        "create",
+        "relationship"
+      ]
+    },
+    {
+      "name": "When to Use Microsoft Learn MCP",
+      "bytes": 309,
+      "when": [
+        "microsoft",
+        "learn"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\powerbi-modeling\\SKILL.md"
+}

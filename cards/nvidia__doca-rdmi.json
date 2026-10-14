@@ -1,0 +1,105 @@
+{
+  "id": "nvidia__doca-rdmi",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f02d7917ff2ca6a44d554e1b80e93822f5b382ba51ecd61a65178c0db64538f6",
+  "purpose": "Use this skill when the user is doing hands-on DOCA RDMI (RDMA Initiator) programming — picking doca-rdmi vs doca-rdma for an accelerator-initiated one-sided RDMA flow, standing up a doca_rdmi_connect",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when the user is doing hands-on DOCA RDMI (RDMA Initiator) programming — picking doca-rdmi vs doca-rdma for an accelerator-initiated one-sided RD"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3909,
+  "core_bytes": 15716,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 2997,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "Audience",
+      "bytes": 792,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "Language scope",
+      "bytes": 862,
+      "when": [
+        "language",
+        "scope"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 1529,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1554,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 1721,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 689,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 2807,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-rdmi\\SKILL.md",
+  "curated": true
+}

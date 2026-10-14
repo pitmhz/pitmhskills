@@ -1,0 +1,180 @@
+{
+  "id": "emilkowalski__animation-performance",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "15220ebda30a5db60f14331769ef28b756f10924463791fb096d2f396a8d1571",
+  "purpose": "Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the la",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Keep animations in frame budget -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "frame budget composite thread",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3546,
+  "core_bytes": 14188,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 671,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Why This Matters",
+      "bytes": 267,
+      "when": [
+        "matters"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 679,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 866,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "The Symptom Table",
+      "bytes": 955,
+      "when": [
+        "symptom",
+        "table"
+      ]
+    },
+    {
+      "name": "The Frame Budget",
+      "bytes": 589,
+      "when": [
+        "frame",
+        "budget"
+      ]
+    },
+    {
+      "name": "What You Animate",
+      "bytes": 2129,
+      "when": [
+        "animate"
+      ]
+    },
+    {
+      "name": "Where It Runs",
+      "bytes": 2273,
+      "when": [
+        "where",
+        "runs"
+      ]
+    },
+    {
+      "name": "React: Don't Animate Through State",
+      "bytes": 564,
+      "when": [
+        "react",
+        "animate",
+        "through",
+        "state"
+      ]
+    },
+    {
+      "name": "Two Traps That Look Correct",
+      "bytes": 945,
+      "when": [
+        "traps",
+        "look",
+        "correct"
+      ]
+    },
+    {
+      "name": "`will-change`",
+      "bytes": 777,
+      "when": [
+        "change"
+      ]
+    },
+    {
+      "name": "Should You Avoid JS Animation?",
+      "bytes": 544,
+      "when": [
+        "avoid",
+        "animation"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2037,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1: Find what animates",
+      "bytes": 437,
+      "when": [
+        "phase",
+        "find",
+        "animates"
+      ]
+    },
+    {
+      "name": "Phase 2: Diagnose",
+      "bytes": 1176,
+      "when": [
+        "phase",
+        "diagnose"
+      ]
+    },
+    {
+      "name": "Phase 3: Report",
+      "bytes": 409,
+      "when": [
+        "phase",
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "initial",
+    "response",
+    "matters",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "symptom",
+    "table",
+    "where",
+    "runs",
+    "through",
+    "state"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\animation-performance\\SKILL.md"
+}

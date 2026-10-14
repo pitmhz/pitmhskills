@@ -1,0 +1,84 @@
+{
+  "id": "awesome-copilot__qdrant-monitoring-setup",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5659b271b878467cdf7631c918635c79c64e89ebc97733acd0296fe1d483f635",
+  "purpose": "Guides Qdrant monitoring setup including Prometheus scraping, health probes, Hybrid Cloud metrics, alerting, and log centralization. Use when someone asks 'how to set up monitoring', 'Prometheus confi",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guides Qdrant monitoring setup including Prometheus scraping, health probes, Hybrid Cloud metrics, alerting, and log centralization. Use when someone asks 'how "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 855,
+  "core_bytes": 3418,
+  "sections": [
+    {
+      "name": "Prometheus Metrics",
+      "bytes": 528,
+      "when": [
+        "prometheus",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Hybrid Cloud Scraping",
+      "bytes": 572,
+      "when": [
+        "hybrid",
+        "cloud",
+        "scraping"
+      ]
+    },
+    {
+      "name": "Liveness and Readiness Probes",
+      "bytes": 293,
+      "when": [
+        "liveness",
+        "readiness",
+        "probes"
+      ]
+    },
+    {
+      "name": "Alerting",
+      "bytes": 464,
+      "when": [
+        "alerting"
+      ]
+    },
+    {
+      "name": "Log Centralization and Audit Logging",
+      "bytes": 646,
+      "when": [
+        "centralization",
+        "audit",
+        "logging"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 344,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-monitoring\\setup\\SKILL.md"
+}

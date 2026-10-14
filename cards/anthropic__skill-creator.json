@@ -29,7 +29,311 @@
   "conflicts_with": [],
   "body_tokens": 8368,
   "core_bytes": 33653,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Communicating with the user",
+      "bytes": 962,
+      "when": [
+        "communicating",
+        "user"
+      ]
+    },
+    {
+      "name": "Creating a skill",
+      "bytes": 4607,
+      "when": [
+        "creating",
+        "skill"
+      ]
+    },
+    {
+      "name": "Capture Intent",
+      "bytes": 957,
+      "when": [
+        "capture",
+        "intent"
+      ]
+    },
+    {
+      "name": "Interview and Research",
+      "bytes": 458,
+      "when": [
+        "interview",
+        "research"
+      ]
+    },
+    {
+      "name": "Write the SKILL.md",
+      "bytes": 1022,
+      "when": [
+        "write",
+        "skill"
+      ]
+    },
+    {
+      "name": "Skill Writing Guide",
+      "bytes": 2147,
+      "when": [
+        "skill",
+        "writing",
+        "guide"
+      ]
+    },
+    {
+      "name": "Report structure",
+      "bytes": 65,
+      "when": [
+        "report",
+        "structure"
+      ]
+    },
+    {
+      "name": "Executive summary",
+      "bytes": 22,
+      "when": [
+        "executive",
+        "summary"
+      ]
+    },
+    {
+      "name": "Key findings",
+      "bytes": 17,
+      "when": [
+        "findings"
+      ]
+    },
+    {
+      "name": "Recommendations",
+      "bytes": 213,
+      "when": [
+        "recommendations"
+      ]
+    },
+    {
+      "name": "Commit message format",
+      "bytes": 1265,
+      "when": [
+        "commit",
+        "message",
+        "format"
+      ]
+    },
+    {
+      "name": "Writing Style",
+      "bytes": 287,
+      "when": [
+        "writing",
+        "style"
+      ]
+    },
+    {
+      "name": "Test Cases",
+      "bytes": 823,
+      "when": [
+        "test",
+        "cases"
+      ]
+    },
+    {
+      "name": "Running and evaluating test cases",
+      "bytes": 7717,
+      "when": [
+        "running",
+        "evaluating",
+        "test",
+        "cases"
+      ]
+    },
+    {
+      "name": "Step 1: Spawn all runs (with-skill AND baseline) in the same turn",
+      "bytes": 1564,
+      "when": [
+        "step",
+        "spawn",
+        "runs",
+        "skill",
+        "baseline",
+        "turn"
+      ]
+    },
+    {
+      "name": "Step 2: While runs are in progress, draft assertions",
+      "bytes": 889,
+      "when": [
+        "step",
+        "runs",
+        "progress",
+        "draft",
+        "assertions"
+      ]
+    },
+    {
+      "name": "Step 3: As runs complete, capture timing data",
+      "bytes": 537,
+      "when": [
+        "step",
+        "runs",
+        "complete",
+        "capture",
+        "timing",
+        "data"
+      ]
+    },
+    {
+      "name": "Step 4: Grade, aggregate, and launch the viewer",
+      "bytes": 2722,
+      "when": [
+        "step",
+        "grade",
+        "aggregate",
+        "launch",
+        "viewer"
+      ]
+    },
+    {
+      "name": "What the user sees in the viewer",
+      "bytes": 838,
+      "when": [
+        "user",
+        "sees",
+        "viewer"
+      ]
+    },
+    {
+      "name": "Step 5: Read the feedback",
+      "bytes": 676,
+      "when": [
+        "step",
+        "read",
+        "feedback"
+      ]
+    },
+    {
+      "name": "Improving the skill",
+      "bytes": 3876,
+      "when": [
+        "improving",
+        "skill"
+      ]
+    },
+    {
+      "name": "How to think about improvements",
+      "bytes": 2860,
+      "when": [
+        "think",
+        "improvements"
+      ]
+    },
+    {
+      "name": "The iteration loop",
+      "bytes": 827,
+      "when": [
+        "iteration",
+        "loop"
+      ]
+    },
+    {
+      "name": "Advanced: Blind comparison",
+      "bytes": 568,
+      "when": [
+        "advanced",
+        "blind",
+        "comparison"
+      ]
+    },
+    {
+      "name": "Description Optimization",
+      "bytes": 6113,
+      "when": [
+        "description",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Step 1: Generate trigger eval queries",
+      "bytes": 2182,
+      "when": [
+        "step",
+        "generate",
+        "trigger",
+        "eval",
+        "queries"
+      ]
+    },
+    {
+      "name": "Step 2: Review with user",
+      "bytes": 910,
+      "when": [
+        "step",
+        "review",
+        "user"
+      ]
+    },
+    {
+      "name": "Step 3: Run the optimization loop",
+      "bytes": 1290,
+      "when": [
+        "step",
+        "optimization",
+        "loop"
+      ]
+    },
+    {
+      "name": "How skill triggering works",
+      "bytes": 885,
+      "when": [
+        "skill",
+        "triggering",
+        "works"
+      ]
+    },
+    {
+      "name": "Step 4: Apply the result",
+      "bytes": 182,
+      "when": [
+        "step",
+        "apply",
+        "result"
+      ]
+    },
+    {
+      "name": "Package and Present (only if `present_files` tool is available)",
+      "bytes": 408,
+      "when": [
+        "package",
+        "present",
+        "files",
+        "tool",
+        "available"
+      ]
+    },
+    {
+      "name": "Claude.ai-specific instructions",
+      "bytes": 2712,
+      "when": [
+        "claude",
+        "specific",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Cowork-Specific Instructions",
+      "bytes": 1888,
+      "when": [
+        "cowork",
+        "specific",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 1258,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/skill-creator/SKILL.md"
 }

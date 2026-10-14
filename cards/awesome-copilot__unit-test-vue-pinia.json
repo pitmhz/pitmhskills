@@ -1,0 +1,179 @@
+{
+  "id": "awesome-copilot__unit-test-vue-pinia",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4239e4c27c148bf4bbafd338bf8aeeb7993eda9e544eb80f0f15c68d5536e167",
+  "purpose": "Write and review unit tests for Vue 3 + TypeScript + Vitest + Pinia codebases. Use when creating or updating tests for components, composables, and stores; mocking Pinia with createTestingPinia; apply",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Write and review unit tests for Vue 3 + TypeScript + Vitest + Pinia codebases. Use when creating or updating tests for components, composables, and stores; mock"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1777,
+  "core_bytes": 7108,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 578,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Core Rules",
+      "bytes": 527,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "Pinia Testing Approach",
+      "bytes": 2913,
+      "when": [
+        "pinia",
+        "testing",
+        "approach"
+      ]
+    },
+    {
+      "name": "Default pattern for component tests",
+      "bytes": 497,
+      "when": [
+        "default",
+        "pattern",
+        "component",
+        "tests"
+      ]
+    },
+    {
+      "name": "Accepted minimal Pinia setups",
+      "bytes": 646,
+      "when": [
+        "accepted",
+        "minimal",
+        "pinia",
+        "setups"
+      ]
+    },
+    {
+      "name": "Execute real actions only when needed",
+      "bytes": 383,
+      "when": [
+        "execute",
+        "real",
+        "actions",
+        "needed"
+      ]
+    },
+    {
+      "name": "Seed store state with `initialState`",
+      "bytes": 275,
+      "when": [
+        "seed",
+        "store",
+        "state",
+        "initialstate"
+      ]
+    },
+    {
+      "name": "Add Pinia plugins through `createTestingPinia`",
+      "bytes": 227,
+      "when": [
+        "pinia",
+        "plugins",
+        "through",
+        "createtestingpinia"
+      ]
+    },
+    {
+      "name": "Getter override pattern for edge cases",
+      "bytes": 253,
+      "when": [
+        "getter",
+        "override",
+        "pattern",
+        "edge",
+        "cases"
+      ]
+    },
+    {
+      "name": "Pure store unit tests",
+      "bytes": 467,
+      "when": [
+        "pure",
+        "store",
+        "unit",
+        "tests"
+      ]
+    },
+    {
+      "name": "Vue Test Utils Approach",
+      "bytes": 726,
+      "when": [
+        "test",
+        "utils",
+        "approach"
+      ]
+    },
+    {
+      "name": "Key Testing Snippets",
+      "bytes": 384,
+      "when": [
+        "testing",
+        "snippets"
+      ]
+    },
+    {
+      "name": "Test Writing Workflow",
+      "bytes": 336,
+      "when": [
+        "test",
+        "writing",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Constraints and Safety",
+      "bytes": 602,
+      "when": [
+        "constraints",
+        "safety"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 323,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 184,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\unit-test-vue-pinia\\SKILL.md"
+}

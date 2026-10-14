@@ -1,0 +1,74 @@
+{
+  "id": "awesome-copilot__creating-oracle-to-postgres-migration-bug-report",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "993ffe2426a60038b6917068d52a8784eda3aa90d9894e3e840b3c7f289cbb41",
+  "purpose": "Creates structured bug reports for defects found during Oracle-to-PostgreSQL migration. Use when documenting behavioral differences between Oracle and PostgreSQL as actionable bug reports with severit",
+  "domain": "backend-data",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Creates structured bug reports for defects found during Oracle-to-PostgreSQL migration. Use when documenting behavioral differences between Oracle and PostgreSQ"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 616,
+  "core_bytes": 2472,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 185,
+      "when": []
+    },
+    {
+      "name": "Bug Report Format",
+      "bytes": 783,
+      "when": [
+        "report",
+        "format"
+      ]
+    },
+    {
+      "name": "Oracle-to-PostgreSQL Guidance",
+      "bytes": 403,
+      "when": [
+        "oracle",
+        "postgresql",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Writing Style",
+      "bytes": 332,
+      "when": [
+        "writing",
+        "style"
+      ]
+    },
+    {
+      "name": "Filename Convention",
+      "bytes": 393,
+      "when": [
+        "filename",
+        "convention"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\creating-oracle-to-postgres-migration-bug-report\\SKILL.md"
+}

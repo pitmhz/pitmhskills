@@ -27,7 +27,66 @@
   "conflicts_with": [],
   "body_tokens": 1499,
   "core_bytes": 6001,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/in-progress/writing-shape/SKILL.md"
+  "sections": [
+    {
+      "name": "The loop",
+      "bytes": 1239,
+      "when": [
+        "loop"
+      ]
+    },
+    {
+      "name": "Grounding",
+      "bytes": 1350,
+      "when": [
+        "grounding"
+      ]
+    },
+    {
+      "name": "Conversational feel",
+      "bytes": 681,
+      "when": [
+        "conversational",
+        "feel"
+      ]
+    },
+    {
+      "name": "Pulling from the pile",
+      "bytes": 491,
+      "when": [
+        "pulling",
+        "pile"
+      ]
+    },
+    {
+      "name": "Format arguments to actually have",
+      "bytes": 865,
+      "when": [
+        "format",
+        "arguments",
+        "actually"
+      ]
+    },
+    {
+      "name": "Writing rhythm",
+      "bytes": 290,
+      "when": [
+        "writing",
+        "rhythm"
+      ]
+    },
+    {
+      "name": "Out of scope",
+      "bytes": 270,
+      "when": [
+        "scope"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/in-progress/writing-shape/SKILL.md",
+  "curated": true
 }

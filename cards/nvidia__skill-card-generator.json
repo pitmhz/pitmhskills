@@ -1,0 +1,96 @@
+{
+  "id": "nvidia__skill-card-generator",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f3834a985b7f62953f10aa4821b538ad3b0e01c7aab428558b3c35c0507194dc",
+  "purpose": "Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, or discussing skill capabilities.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, or discuss"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1640,
+  "core_bytes": 6560,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 839,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 494,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1510,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 550,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 591,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 376,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 656,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Files in this skill",
+      "bytes": 621,
+      "when": [
+        "files",
+        "skill"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/skill-card-generator/SKILL.md",
+  "curated": true
+}

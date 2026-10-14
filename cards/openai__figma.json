@@ -29,7 +29,61 @@
   "conflicts_with": [],
   "body_tokens": 802,
   "core_bytes": 3212,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/figma/SKILL.md"
+  "sections": [
+    {
+      "name": "Figma MCP Integration Rules",
+      "bytes": 2459,
+      "when": [
+        "figma",
+        "integration",
+        "rules"
+      ]
+    },
+    {
+      "name": "Required flow (do not skip)",
+      "bytes": 765,
+      "when": [
+        "required",
+        "flow",
+        "skip"
+      ]
+    },
+    {
+      "name": "Implementation rules",
+      "bytes": 806,
+      "when": [
+        "implementation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Asset handling",
+      "bytes": 421,
+      "when": [
+        "asset",
+        "handling"
+      ]
+    },
+    {
+      "name": "Link-based prompting",
+      "bytes": 304,
+      "when": [
+        "link",
+        "based",
+        "prompting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 264,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/figma/SKILL.md",
+  "curated": true
 }

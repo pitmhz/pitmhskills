@@ -8,6 +8,7 @@ export function hardFilter(cards: Card[], task: string, sig: Signals, profile?: 
   const tl = task.toLowerCase();
   const tokens = new Set(tl.split(/[^a-z0-9]+/).filter((t) => t.length > 2));
   for (const c of cards) {
+    // Tier C = user-invoked-only, never enters the route pool (mirrors Agent Skills disable-model-invocation).
     if (c.tier === "C") { dropped.push({ id: c.id, why: "tier-C frozen" }); continue; }
     const req = c.requires;
     if (req?.stack_any?.length) {
@@ -19,9 +20,12 @@ export function hardFilter(cards: Card[], task: string, sig: Signals, profile?: 
       const hit = req.files_any.some((f) => sig.files.some((sf) => sf.endsWith(f)));
       if (sig.files.length > 0 && !hit) { dropped.push({ id: c.id, why: "requires files miss" }); continue; }
     }
+    // Token-exact negative match: substring matching ("typo" in "typography")
+    // drops cards on unrelated tasks. Both sides split identically, so compare
+    // token sets only.
     const negHit = c.do_not_use_when.some((w) => {
       const words = w.toLowerCase().split(/[^a-z0-9]+/).filter((x) => x.length > 3);
-      return words.length > 0 && words.every((x) => tokens.has(x) || tl.includes(x));
+      return words.length > 0 && words.every((x) => tokens.has(x));
     });
     if (negHit) { dropped.push({ id: c.id, why: "do_not_use_when hit" }); continue; }
     if (profile?.blocked?.includes(c.id)) { dropped.push({ id: c.id, why: "profile blocked" }); continue; }

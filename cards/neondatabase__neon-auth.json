@@ -36,9 +36,75 @@
   ],
   "body_tokens": 3138,
   "core_bytes": 12559,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 1809,
+      "when": []
+    },
+    {
+      "name": "What It Does",
+      "bytes": 826,
+      "when": []
+    },
+    {
+      "name": "Availability",
+      "bytes": 429,
+      "when": [
+        "availability"
+      ]
+    },
+    {
+      "name": "Managed setup",
+      "bytes": 794,
+      "when": [
+        "managed",
+        "setup"
+      ]
+    },
+    {
+      "name": "Supabase Auth",
+      "bytes": 1492,
+      "when": [
+        "supabase",
+        "auth"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 376,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Plugin support",
+      "bytes": 3234,
+      "when": [
+        "plugin",
+        "support"
+      ]
+    },
+    {
+      "name": "Trusted domains",
+      "bytes": 1036,
+      "when": [
+        "trusted",
+        "domains"
+      ]
+    },
+    {
+      "name": "Functions and Data API",
+      "bytes": 764,
+      "when": [
+        "functions",
+        "data"
+      ]
+    }
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-auth\\SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-auth\\SKILL.md",
+  "curated": true
 }

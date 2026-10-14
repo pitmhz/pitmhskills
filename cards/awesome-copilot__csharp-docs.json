@@ -1,0 +1,70 @@
+{
+  "id": "awesome-copilot__csharp-docs",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ddcc59c5f0320af04a59ba090b8e6490ce537aad2d8b2667fdf386686d037826",
+  "purpose": "Ensure that C# types are documented with XML comments and follow best practices for documentation.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Ensure that C# types are documented with XML comments and follow best practices for documentation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1021,
+  "core_bytes": 4082,
+  "sections": [
+    {
+      "name": "Guidance for all APIs",
+      "bytes": 1111,
+      "when": [
+        "guidance",
+        "apis"
+      ]
+    },
+    {
+      "name": "Methods",
+      "bytes": 1275,
+      "when": [
+        "methods"
+      ]
+    },
+    {
+      "name": "Constructors",
+      "bytes": 114,
+      "when": [
+        "constructors"
+      ]
+    },
+    {
+      "name": "Properties",
+      "bytes": 669,
+      "when": [
+        "properties"
+      ]
+    },
+    {
+      "name": "Exceptions",
+      "bytes": 566,
+      "when": [
+        "exceptions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\csharp-docs\\SKILL.md"
+}

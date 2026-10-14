@@ -1,0 +1,169 @@
+{
+  "id": "uiskills-staged__audit",
+  "tier": "B",
+  "origin": [
+    "local@audit"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9d47294fd6ba7bd03c8b430f35d24d00c98e781c8cdba0d4af7a278502ac7d8d",
+  "purpose": "Run systematic **technical** quality checks and generate a comprehensive report. Don't fix issues; document them for other commands to address.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Run systematic **technical** quality checks and generate a comprehensive report. Don't fix issues; document them for other commands to address."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Technical UI quality audit report -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "audit technical report",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1998,
+  "core_bytes": 7991,
+  "sections": [
+    {
+      "name": "Diagnostic Scan",
+      "bytes": 4371,
+      "when": [
+        "diagnostic",
+        "scan"
+      ]
+    },
+    {
+      "name": "1. Accessibility (A11y)",
+      "bytes": 1035,
+      "when": [
+        "accessibility",
+        "a11y"
+      ]
+    },
+    {
+      "name": "2. Performance",
+      "bytes": 888,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "3. Theming",
+      "bytes": 563,
+      "when": [
+        "theming"
+      ]
+    },
+    {
+      "name": "4. Responsive Design",
+      "bytes": 1259,
+      "when": [
+        "responsive",
+        "design"
+      ]
+    },
+    {
+      "name": "5. Implementation Integrity (CRITICAL)",
+      "bytes": 504,
+      "when": [
+        "implementation",
+        "integrity",
+        "critical"
+      ]
+    },
+    {
+      "name": "Generate Report",
+      "bytes": 2064,
+      "when": [
+        "generate",
+        "report"
+      ]
+    },
+    {
+      "name": "Audit Health Score",
+      "bytes": 542,
+      "when": [
+        "audit",
+        "health",
+        "score"
+      ]
+    },
+    {
+      "name": "Implementation Integrity Verdict",
+      "bytes": 182,
+      "when": [
+        "implementation",
+        "integrity",
+        "verdict"
+      ]
+    },
+    {
+      "name": "Executive Summary",
+      "bytes": 182,
+      "when": [
+        "executive",
+        "summary"
+      ]
+    },
+    {
+      "name": "Detailed Findings by Severity",
+      "bytes": 764,
+      "when": [
+        "detailed",
+        "findings",
+        "severity"
+      ]
+    },
+    {
+      "name": "Patterns & Systemic Issues",
+      "bytes": 276,
+      "when": [
+        "patterns",
+        "systemic",
+        "issues"
+      ]
+    },
+    {
+      "name": "Positive Findings",
+      "bytes": 96,
+      "when": [
+        "positive",
+        "findings"
+      ]
+    },
+    {
+      "name": "Recommended Actions",
+      "bytes": 1129,
+      "when": [
+        "recommended",
+        "actions"
+      ]
+    }
+  ],
+  "keywords": [
+    "diagnostic",
+    "scan",
+    "accessibility",
+    "a11y",
+    "performance",
+    "theming",
+    "responsive",
+    "design",
+    "implementation",
+    "integrity",
+    "critical",
+    "audit",
+    "health",
+    "score"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\audit\\SKILL.md"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "awesome-copilot__gtm-product-led-growth",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c938e886e38cd6d6ad89da3ec005053bc1adb37db4ccfd473b242a4f0aad33de",
+  "purpose": "Build self-serve acquisition and expansion motions. Use when deciding PLG vs sales-led, optimizing activation, driving freemium conversion, building growth equations, or recognizing when product compl",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Build self-serve acquisition and expansion motions. Use when deciding PLG vs sales-led, optimizing activation, driving freemium conversion, building growth equa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3127,
+  "core_bytes": 12688,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 471,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 8791,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. The PLG Reality Check (Test Before You Commit)",
+      "bytes": 1356,
+      "when": [
+        "reality",
+        "check",
+        "test",
+        "before",
+        "commit"
+      ]
+    },
+    {
+      "name": "2. The Growth Equation (Map Inputs to Outputs)",
+      "bytes": 1406,
+      "when": [
+        "growth",
+        "equation",
+        "inputs",
+        "outputs"
+      ]
+    },
+    {
+      "name": "3. Channel Economics (Kill Losers, Double Down on Winners)",
+      "bytes": 1413,
+      "when": [
+        "channel",
+        "economics",
+        "kill",
+        "losers",
+        "double",
+        "down",
+        "winners"
+      ]
+    },
+    {
+      "name": "4. Time to First Value (The Only Activation Metric)",
+      "bytes": 1223,
+      "when": [
+        "time",
+        "first",
+        "value",
+        "activation",
+        "metric"
+      ]
+    },
+    {
+      "name": "5. The $5K → $50K Inflection (When PLG Breaks)",
+      "bytes": 1300,
+      "when": [
+        "inflection",
+        "breaks"
+      ]
+    },
+    {
+      "name": "6. Growth Forecasting (Plan for Uncertainty)",
+      "bytes": 1167,
+      "when": [
+        "growth",
+        "forecasting",
+        "plan",
+        "uncertainty"
+      ]
+    },
+    {
+      "name": "7. The Playbook Documentation Habit",
+      "bytes": 906,
+      "when": [
+        "playbook",
+        "documentation",
+        "habit"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 617,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Should We Build PLG or Sales-Led?",
+      "bytes": 339,
+      "when": [
+        "build",
+        "sales"
+      ]
+    },
+    {
+      "name": "Keep, Scale, or Kill This Channel?",
+      "bytes": 259,
+      "when": [
+        "keep",
+        "scale",
+        "kill",
+        "channel"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 707,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 609,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 863,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-product-led-growth\\SKILL.md"
+}

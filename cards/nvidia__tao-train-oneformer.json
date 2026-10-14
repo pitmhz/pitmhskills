@@ -1,0 +1,145 @@
+{
+  "id": "nvidia__tao-train-oneformer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "92ce4be9319f6fcf3bee3b2575a4058429db15d2b07316c49beaa6fc8dfa6a0d",
+  "purpose": "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5066,
+  "core_bytes": 20269,
+  "sections": [
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 833,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 6756,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 2852,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 3663,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Checkpoint Selection",
+      "bytes": 766,
+      "when": [
+        "checkpoint",
+        "selection"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 91,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 1367,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 665,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 249,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 3550,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 3299,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 79,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-oneformer/SKILL.md",
+  "curated": true
+}

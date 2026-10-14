@@ -1,0 +1,120 @@
+{
+  "id": "nvidia__nemotron-retrieval-recipes",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e9143e072f8de2169f790ef8ec8c90066a418e015885116681262f244678be18",
+  "purpose": "Use when planning, debugging, tuning, evaluating, exporting, or deploying public Nemotron `embed`/`rerank` retrieval recipes.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Use when planning, debugging, tuning, evaluating, exporting, or deploying public Nemotron `embed`/`rerank` retrieval recipes."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2653,
+  "core_bytes": 10613,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 1029,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Security Notes",
+      "bytes": 574,
+      "when": [
+        "security",
+        "notes"
+      ]
+    },
+    {
+      "name": "Source Priority",
+      "bytes": 403,
+      "when": [
+        "source",
+        "priority"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 808,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1871,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Safe Workflow",
+      "bytes": 3213,
+      "when": [
+        "safe",
+        "workflow"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 444,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 411,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 165,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 277,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Output Style",
+      "bytes": 776,
+      "when": [
+        "output",
+        "style"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run pytest tests/recipes/embed tests/nemo_runspec/test_execution_uv_spec.py -q",
+    "rtk test -- uv run pytest src/nemotron/recipes/rerank/stage2_finetune/tests tests/nemo_runspec/test_execution_uv_spec.py -q"
+  ],
+  "skill_path": "skills/nvidia/skills/nemotron-retrieval-recipes/SKILL.md",
+  "curated": true
+}

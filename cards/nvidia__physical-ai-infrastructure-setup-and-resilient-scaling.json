@@ -1,0 +1,119 @@
+{
+  "id": "nvidia__physical-ai-infrastructure-setup-and-resilient-scaling",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dfee683cda96f69ccf5b629f83c8cf5c943e0b7f502b9434733d0262fe9c7698",
+  "purpose": "Use when the user wants to set up, scale, validate, or harden NVIDIA physical AI infrastructure for synthetic data generation workflows across local MicroK8s or Azure AKS, including Kubernetes cluster",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use when the user wants to set up, scale, validate, or harden NVIDIA physical AI infrastructure for synthetic data generation workflows across local MicroK8s or"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2833,
+  "core_bytes": 11329,
+  "sections": [
+    {
+      "name": "Operating Rules",
+      "bytes": 1403,
+      "when": [
+        "operating",
+        "rules"
+      ]
+    },
+    {
+      "name": "Component References",
+      "bytes": 2751,
+      "when": [
+        "component",
+        "references"
+      ]
+    },
+    {
+      "name": "OSMO CLI Support Files",
+      "bytes": 1107,
+      "when": [
+        "osmo",
+        "support",
+        "files"
+      ]
+    },
+    {
+      "name": "Target Selection",
+      "bytes": 926,
+      "when": [
+        "target",
+        "selection"
+      ]
+    },
+    {
+      "name": "Setup Flow",
+      "bytes": 1202,
+      "when": [
+        "setup",
+        "flow"
+      ]
+    },
+    {
+      "name": "Inference Discovery",
+      "bytes": 778,
+      "when": [
+        "inference",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Verification Gates",
+      "bytes": 836,
+      "when": [
+        "verification",
+        "gates"
+      ]
+    },
+    {
+      "name": "Resilient Scaling",
+      "bytes": 836,
+      "when": [
+        "resilient",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Workload Routing",
+      "bytes": 534,
+      "when": [
+        "workload",
+        "routing"
+      ]
+    },
+    {
+      "name": "Evaluation Prompts And Results",
+      "bytes": 510,
+      "when": [
+        "evaluation",
+        "prompts",
+        "results"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\physical-ai-infrastructure-setup-and-resilient-scaling\\SKILL.md",
+  "curated": true
+}

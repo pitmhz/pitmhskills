@@ -1,0 +1,137 @@
+{
+  "id": "mengto-skills__webgl-landing-steering",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "892ba3bc63fb4dadc9ec508b522abccc2d1281b6fbb854ebd74a10452f27fbd7",
+  "purpose": "Use when creating or refining WebGL-heavy landing pages and you need to steer toward a specific visual outcome (premium, technical, playful, cinematic) while balancing conversion clarity, performance,",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when creating or refining WebGL-heavy landing pages and you need to steer toward a specific visual outcome (premium, technical, playful, cinematic) while ba"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1318,
+  "core_bytes": 5272,
+  "sections": [
+    {
+      "name": "Use this skill to steer outcomes",
+      "bytes": 4661,
+      "when": [
+        "skill",
+        "steer",
+        "outcomes"
+      ]
+    },
+    {
+      "name": "1) Define the page intent",
+      "bytes": 440,
+      "when": [
+        "define",
+        "page",
+        "intent"
+      ]
+    },
+    {
+      "name": "2) Choose the WebGL lane",
+      "bytes": 1604,
+      "when": [
+        "choose",
+        "webgl",
+        "lane"
+      ]
+    },
+    {
+      "name": "3) Steering matrix by landing page type",
+      "bytes": 515,
+      "when": [
+        "steering",
+        "matrix",
+        "landing",
+        "page",
+        "type"
+      ]
+    },
+    {
+      "name": "4) Quality gates before shipping",
+      "bytes": 690,
+      "when": [
+        "quality",
+        "gates",
+        "before",
+        "shipping"
+      ]
+    },
+    {
+      "name": "5) Implementation strategy by risk",
+      "bytes": 356,
+      "when": [
+        "implementation",
+        "strategy",
+        "risk"
+      ]
+    },
+    {
+      "name": "6) Prompting template for Codex-style execution",
+      "bytes": 412,
+      "when": [
+        "prompting",
+        "template",
+        "codex",
+        "style",
+        "execution"
+      ]
+    },
+    {
+      "name": "7) Common failure patterns and corrections",
+      "bytes": 542,
+      "when": [
+        "common",
+        "failure",
+        "patterns",
+        "corrections"
+      ]
+    },
+    {
+      "name": "Output format when applying this skill",
+      "bytes": 289,
+      "when": [
+        "output",
+        "format",
+        "applying",
+        "skill"
+      ]
+    }
+  ],
+  "keywords": [
+    "steering",
+    "skill",
+    "outcomes",
+    "define",
+    "page",
+    "intent",
+    "choose",
+    "lane",
+    "subtle",
+    "depth",
+    "field",
+    "high",
+    "safety"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\webgl-landing-steering\\SKILL.md"
+}

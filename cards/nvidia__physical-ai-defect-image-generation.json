@@ -1,0 +1,183 @@
+{
+  "id": "nvidia__physical-ai-defect-image-generation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0fc6b2598b110f4344b63c10da1822216efb61f9a672e8e6f2d8fef2f976c84a",
+  "purpose": "Use when the user wants to orchestrate defect image generation with NVIDIA Cosmos AnomalyGen (Cosmos-Predict2-derived) on OSMO for PCBA, metal surface, and glass inspection. The Day 0 path handles col",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when the user wants to orchestrate defect image generation with NVIDIA Cosmos AnomalyGen (Cosmos-Predict2-derived) on OSMO for PCBA, metal surface, and glas"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5008,
+  "core_bytes": 20214,
+  "sections": [
+    {
+      "name": "Table of Contents",
+      "bytes": 1219,
+      "when": [
+        "table",
+        "contents"
+      ]
+    },
+    {
+      "name": "Supported Flows",
+      "bytes": 4991,
+      "when": [
+        "supported",
+        "flows"
+      ]
+    },
+    {
+      "name": "Pick the right workflow for the user's defect class",
+      "bytes": 1416,
+      "when": [
+        "pick",
+        "right",
+        "workflow",
+        "user",
+        "defect",
+        "class"
+      ]
+    },
+    {
+      "name": "User intent → knob mapping",
+      "bytes": 615,
+      "when": [
+        "user",
+        "intent",
+        "knob",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Structural-defect sizing (no `crop_max_emit` knob exists)",
+      "bytes": 461,
+      "when": [
+        "structural",
+        "defect",
+        "sizing",
+        "crop",
+        "emit",
+        "knob",
+        "exists"
+      ]
+    },
+    {
+      "name": "Disambiguation: handle vague requests before committing",
+      "bytes": 1466,
+      "when": [
+        "disambiguation",
+        "handle",
+        "vague",
+        "requests",
+        "before",
+        "committing"
+      ]
+    },
+    {
+      "name": "Step 0: Select Flow, Cookbook, and Gather Inputs",
+      "bytes": 4148,
+      "when": [
+        "step",
+        "select",
+        "flow",
+        "cookbook",
+        "gather",
+        "inputs"
+      ]
+    },
+    {
+      "name": "First-time gate",
+      "bytes": 994,
+      "when": [
+        "first",
+        "time",
+        "gate"
+      ]
+    },
+    {
+      "name": "Preflight ordering (after the first-time gate)",
+      "bytes": 2775,
+      "when": [
+        "preflight",
+        "ordering",
+        "after",
+        "first",
+        "time",
+        "gate"
+      ]
+    },
+    {
+      "name": "Common Preconditions (all flows)",
+      "bytes": 2721,
+      "when": [
+        "common",
+        "preconditions",
+        "flows"
+      ]
+    },
+    {
+      "name": "Flow walkthroughs",
+      "bytes": 1870,
+      "when": [
+        "flow",
+        "walkthroughs"
+      ]
+    },
+    {
+      "name": "Cross-flow invariants",
+      "bytes": 564,
+      "when": [
+        "cross",
+        "flow",
+        "invariants"
+      ]
+    },
+    {
+      "name": "OSMO Monitoring",
+      "bytes": 949,
+      "when": [
+        "osmo",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Response Template",
+      "bytes": 1124,
+      "when": [
+        "response",
+        "template"
+      ]
+    },
+    {
+      "name": "Supporting files",
+      "bytes": 251,
+      "when": [
+        "supporting",
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\physical-ai-defect-image-generation\\SKILL.md",
+  "curated": true
+}

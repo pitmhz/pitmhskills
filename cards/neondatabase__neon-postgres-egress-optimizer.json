@@ -43,9 +43,140 @@
   ],
   "body_tokens": 2620,
   "core_bytes": 10493,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "Step 1: Diagnose",
+      "bytes": 2790,
+      "when": [
+        "step",
+        "diagnose"
+      ]
+    },
+    {
+      "name": "Check if pg_stat_statements is available",
+      "bytes": 327,
+      "when": [
+        "check",
+        "stat",
+        "statements",
+        "available"
+      ]
+    },
+    {
+      "name": "Handle empty stats",
+      "bytes": 614,
+      "when": [
+        "handle",
+        "empty",
+        "stats"
+      ]
+    },
+    {
+      "name": "Diagnostic queries",
+      "bytes": 1226,
+      "when": [
+        "diagnostic",
+        "queries"
+      ]
+    },
+    {
+      "name": "Interpret the results",
+      "bytes": 494,
+      "when": [
+        "interpret",
+        "results"
+      ]
+    },
+    {
+      "name": "Step 2: Analyze the Codebase",
+      "bytes": 468,
+      "when": [
+        "step",
+        "analyze",
+        "codebase"
+      ]
+    },
+    {
+      "name": "Step 3: Fix",
+      "bytes": 3615,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Unused columns (SELECT \\*)",
+      "bytes": 392,
+      "when": [
+        "unused",
+        "columns",
+        "select"
+      ]
+    },
+    {
+      "name": "Missing pagination",
+      "bytes": 883,
+      "when": [
+        "missing",
+        "pagination"
+      ]
+    },
+    {
+      "name": "High-frequency queries on static data",
+      "bytes": 584,
+      "when": [
+        "high",
+        "frequency",
+        "queries",
+        "static",
+        "data"
+      ]
+    },
+    {
+      "name": "Application-side aggregation",
+      "bytes": 626,
+      "when": [
+        "application",
+        "side",
+        "aggregation"
+      ]
+    },
+    {
+      "name": "JOIN duplication",
+      "bytes": 991,
+      "when": [
+        "join",
+        "duplication"
+      ]
+    },
+    {
+      "name": "Step 4: Verify",
+      "bytes": 503,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Neon Infrastructure as Code (`neon.ts`)",
+      "bytes": 1437,
+      "when": [
+        "neon",
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Further Reading",
+      "bytes": 139,
+      "when": [
+        "further",
+        "reading"
+      ]
+    }
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-egress-optimizer\\SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-egress-optimizer\\SKILL.md",
+  "curated": true
 }

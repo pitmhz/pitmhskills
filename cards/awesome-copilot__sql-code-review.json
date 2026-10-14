@@ -1,0 +1,324 @@
+{
+  "id": "awesome-copilot__sql-code-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3f359d49372c1635176461fd6d82b4cfc799c6e0e29539c8414e67633395a984",
+  "purpose": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL in",
+  "domain": "backend-data",
+  "task_types": [
+    "review",
+    "refactor"
+  ],
+  "use_when": [
+    "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2220,
+  "core_bytes": 8927,
+  "sections": [
+    {
+      "name": "🔒 Security Analysis",
+      "bytes": 1074,
+      "when": [
+        "security",
+        "analysis"
+      ]
+    },
+    {
+      "name": "SQL Injection Prevention",
+      "bytes": 440,
+      "when": [
+        "injection",
+        "prevention"
+      ]
+    },
+    {
+      "name": "Access Control & Permissions",
+      "bytes": 319,
+      "when": [
+        "access",
+        "control",
+        "permissions"
+      ]
+    },
+    {
+      "name": "Data Protection",
+      "bytes": 288,
+      "when": [
+        "data",
+        "protection"
+      ]
+    },
+    {
+      "name": "⚡ Performance Optimization",
+      "bytes": 1309,
+      "when": [
+        "performance",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Query Structure Analysis",
+      "bytes": 400,
+      "when": [
+        "query",
+        "structure",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Index Strategy Review",
+      "bytes": 272,
+      "when": [
+        "index",
+        "strategy",
+        "review"
+      ]
+    },
+    {
+      "name": "Join Optimization",
+      "bytes": 280,
+      "when": [
+        "join",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Aggregate and Window Functions",
+      "bytes": 324,
+      "when": [
+        "aggregate",
+        "window",
+        "functions"
+      ]
+    },
+    {
+      "name": "🛠️ Code Quality & Maintainability",
+      "bytes": 1079,
+      "when": [
+        "code",
+        "quality",
+        "maintainability"
+      ]
+    },
+    {
+      "name": "SQL Style & Formatting",
+      "bytes": 408,
+      "when": [
+        "style",
+        "formatting"
+      ]
+    },
+    {
+      "name": "Naming Conventions",
+      "bytes": 308,
+      "when": [
+        "naming",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Schema Design Review",
+      "bytes": 320,
+      "when": [
+        "schema",
+        "design",
+        "review"
+      ]
+    },
+    {
+      "name": "🗄️ Database-Specific Best Practices",
+      "bytes": 1224,
+      "when": [
+        "database",
+        "specific",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "bytes": 361,
+      "when": [
+        "postgresql"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "bytes": 266,
+      "when": [
+        "mysql"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "bytes": 324,
+      "when": [
+        "server"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "bytes": 228,
+      "when": [
+        "oracle"
+      ]
+    },
+    {
+      "name": "🧪 Testing & Validation",
+      "bytes": 591,
+      "when": [
+        "testing",
+        "validation"
+      ]
+    },
+    {
+      "name": "Data Integrity Checks",
+      "bytes": 287,
+      "when": [
+        "data",
+        "integrity",
+        "checks"
+      ]
+    },
+    {
+      "name": "Performance Testing",
+      "bytes": 274,
+      "when": [
+        "performance",
+        "testing"
+      ]
+    },
+    {
+      "name": "📊 Common Anti-Patterns",
+      "bytes": 855,
+      "when": [
+        "common",
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "N+1 Query Problem",
+      "bytes": 273,
+      "when": [
+        "query",
+        "problem"
+      ]
+    },
+    {
+      "name": "Overuse of DISTINCT",
+      "bytes": 276,
+      "when": [
+        "overuse",
+        "distinct"
+      ]
+    },
+    {
+      "name": "Function Misuse in WHERE Clauses",
+      "bytes": 276,
+      "when": [
+        "function",
+        "misuse",
+        "where",
+        "clauses"
+      ]
+    },
+    {
+      "name": "📋 SQL Review Checklist",
+      "bytes": 978,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 257,
+      "when": [
+        "security"
+      ]
+    },
+    {
+      "name": "Performance",
+      "bytes": 264,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "bytes": 212,
+      "when": [
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "Schema Design",
+      "bytes": 215,
+      "when": [
+        "schema",
+        "design"
+      ]
+    },
+    {
+      "name": "🎯 Review Output Format",
+      "bytes": 54,
+      "when": [
+        "review",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Issue Template",
+      "bytes": 24,
+      "when": [
+        "issue",
+        "template"
+      ]
+    },
+    {
+      "name": "[PRIORITY] [CATEGORY]: [Brief Description]",
+      "bytes": 1178,
+      "when": [
+        "priority",
+        "category",
+        "brief",
+        "description"
+      ]
+    },
+    {
+      "name": "Summary Assessment",
+      "bytes": 295,
+      "when": [
+        "summary",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Top 3 Priority Actions",
+      "bytes": 377,
+      "when": [
+        "priority",
+        "actions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\sql-code-review\\SKILL.md"
+}

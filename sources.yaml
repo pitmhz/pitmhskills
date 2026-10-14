@@ -77,3 +77,161 @@ sources:
     ref: c1c8a8c1471069fb0e188eeaff69b8e8db6564a8
     glob: "**/SKILL.md"
     license_allow: ["MIT", "Apache-2.0"]
+  - id: ibelick
+    repo: ibelick/ui-skills
+    ref: c628a5917754ec2396d9cbb47988f280ba1d5cb0
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: emilkowalski
+    repo: emilkowalski/skills
+    ref: 2d228630ba1446365f614a108cb8252f1feda202
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: jakubkrehel-skills
+    repo: jakubkrehel/skills
+    ref: 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: mengto-skills
+    repo: MengTo/Skills
+    ref: 83a47fee32f0b6349bff1fede99257a5ef03dc93
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: antfu-skills
+    repo: antfu/skills
+    ref: feb0f3aba6566426f12230e7fc7a10d97c1293bb
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: interface-design
+    repo: Dammyjay93/interface-design
+    ref: 2f9be3206855bcb2d1d0af262c8bae25cba6658d
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: ai-design
+    repo: elayadesign/ai-design-skills
+    ref: 1c1e97cb9878e236552c772092dda7adcdddbcb2
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: swiss-design-skill
+    repo: zeke/swiss-design-skill
+    ref: 285009f3dc4ba311f59bb757973274de2c9446c3
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: web-animation
+    repo: iart-ai/web-animation-skills
+    ref: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: daisyui
+    repo: saadeghi/daisyui
+    ref: bf3bac3a397b543e55641ecb2d60a2ed961f09ec
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: web-quality
+    repo: addyosmani/web-quality-skills
+    ref: afa8da942115f2961fdbfa80807ea0b232ff6c00
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: kemiljk-skills
+    repo: kemiljk/skills
+    ref: 9504260005cd17e97d82a8da604b1f46d7278f0f
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: refactoring-ui-skill
+    repo: s0xDk/refactoring-ui-skill
+    ref: 48872143abb0a8feb6d9bf58e222afbd800210b0
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: compact-landing-skill
+    repo: Danilaa1/compact-landing-skill
+    ref: 1d79ea7832d16b88151ccf48e05d97014d139ebb
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: human-review
+    repo: petergyang/human-review
+    ref: f9a55812f6f37e2c53da6ec26c52ef7a489485d6
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: transitions-dev
+    repo: Jakubantalik/transitions-dev
+    ref: 038b0bdc75375c2beed51d1e824c98cdc7b86f8c
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: flornkm-skills
+    repo: flornkm/skills
+    ref: cf1c0094e1826230623ecdb6e7b3c44bdfc593c3
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: dotfiles
+    repo: elithrar/dotfiles
+    ref: 9a692ad2d352156dc9de570c9f6dcec0ebfaad7e
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: millionco-skills
+    repo: millionco/skills
+    ref: 462b78424e14ba6895a717733e1d57191dd9912f
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: oklch-skill
+    repo: jakubkrehel/oklch-skill
+    ref: 0e81f040e16d48fcc61d3e1b7ea548542371321f
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: make-interfaces-feel-better
+    repo: jakubkrehel/make-interfaces-feel-better
+    ref: 35545ea1512ad59fa463e6b1f95ca9c052981fe6
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: design-plugin
+    repo: 0xdesign/design-plugin
+    ref: 913a7ab2ac7e0f48eab77c93f2f5376150864b02
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: design-review
+    repo: Superfuture/design-review
+    ref: d4d2609b53fccb475d11490e2c6261e5eb2f0c5d
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: scandinavian-design
+    repo: ericzakariasson/scandinavian-design
+    ref: 295742307b97fa0fb848f9be2d6e229ca517c736
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: apple-design-skill
+    repo: dickwu/apple-design-skill
+    ref: 904b0eedc7cc778152f545506075d5bb5219ce77
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: higagentskills
+    repo: justinwetch/HIGAgentSkills
+    ref: 77f32a4085ad93a9f354819a23a4caefbb1e802a
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: raphaelsalaja
+    repo: raphaelsalaja/skill
+    ref: dc9eef22f13635df77d9b9e67c82aa85d52a97b7
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: uiskills-staged
+    repo: null
+    ref: local
+    path: skills/uiskills-staged
+    glob: "*/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  # upstream JuliusBrussee/caveman @ d262ab3882952a59312ff3537cd86d894523c5ab (voice skill ingest only: caveman + caveman-compress)
+  - id: caveman-staged
+    repo: null
+    ref: local
+    path: skills/caveman-staged
+    glob: "*/SKILL.md"
+    license_allow: ["Apache-2.0"]
+  - id: taste-skill
+    repo: Leonxlnx/taste-skill
+    ref: f624f37a8c650b9cc550253104925efe4c8de246
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: mcp-server-guide
+    repo: figma/mcp-server-guide
+    ref: 2b85b7d27bd6ee124667fcfe88856f6b1f81671a
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]

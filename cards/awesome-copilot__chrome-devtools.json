@@ -1,0 +1,132 @@
+{
+  "id": "awesome-copilot__chrome-devtools",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e85ec55f68317923033375f00b431e9d5822283ea4bfad967f5fa7cbc61e6265",
+  "purpose": "Expert-level browser automation, debugging, and performance analysis using Chrome DevTools MCP. Use for interacting with web pages, capturing screenshots, analyzing network traffic, and profiling perf",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Expert-level browser automation, debugging, and performance analysis using Chrome DevTools MCP. Use for interacting with web pages, capturing screenshots, analy"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1037,
+  "core_bytes": 4145,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 249,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 534,
+      "when": []
+    },
+    {
+      "name": "Tool Categories",
+      "bytes": 1622,
+      "when": [
+        "tool",
+        "categories"
+      ]
+    },
+    {
+      "name": "1. Navigation & Page Management",
+      "bytes": 344,
+      "when": [
+        "navigation",
+        "page",
+        "management"
+      ]
+    },
+    {
+      "name": "2. Input & Interaction",
+      "bytes": 442,
+      "when": [
+        "input",
+        "interaction"
+      ]
+    },
+    {
+      "name": "3. Debugging & Inspection",
+      "bytes": 454,
+      "when": [
+        "debugging",
+        "inspection"
+      ]
+    },
+    {
+      "name": "4. Emulation & Performance",
+      "bytes": 362,
+      "when": [
+        "emulation",
+        "performance"
+      ]
+    },
+    {
+      "name": "Workflow Patterns",
+      "bytes": 992,
+      "when": [
+        "workflow",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Pattern A: Identifying Elements (Snapshot-First)",
+      "bytes": 373,
+      "when": [
+        "pattern",
+        "identifying",
+        "elements",
+        "snapshot",
+        "first"
+      ]
+    },
+    {
+      "name": "Pattern B: Troubleshooting Errors",
+      "bytes": 339,
+      "when": [
+        "pattern",
+        "troubleshooting",
+        "errors"
+      ]
+    },
+    {
+      "name": "Pattern C: Performance Profiling",
+      "bytes": 258,
+      "when": [
+        "pattern",
+        "performance",
+        "profiling"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 455,
+      "when": [
+        "best",
+        "practices"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\chrome-devtools\\SKILL.md"
+}

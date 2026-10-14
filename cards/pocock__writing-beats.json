@@ -28,7 +28,46 @@
   "conflicts_with": [],
   "body_tokens": 1229,
   "core_bytes": 4922,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Grounding",
+      "bytes": 1770,
+      "when": [
+        "grounding"
+      ]
+    },
+    {
+      "name": "What is a beat",
+      "bytes": 619,
+      "when": [
+        "beat"
+      ]
+    },
+    {
+      "name": "Pulling from the pile",
+      "bytes": 156,
+      "when": [
+        "pulling",
+        "pile"
+      ]
+    },
+    {
+      "name": "Ending the journey",
+      "bytes": 241,
+      "when": [
+        "ending",
+        "journey"
+      ]
+    },
+    {
+      "name": "Writing rhythm",
+      "bytes": 390,
+      "when": [
+        "writing",
+        "rhythm"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/in-progress/writing-beats/SKILL.md"
 }

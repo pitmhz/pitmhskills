@@ -36,7 +36,86 @@
   ],
   "body_tokens": 787,
   "core_bytes": 3160,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/anthropic/skills/web-artifacts-builder/SKILL.md"
+  "sections": [
+    {
+      "name": "Design & Style Guidelines",
+      "bytes": 199,
+      "when": [
+        "design",
+        "style",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 2045,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Step 1: Initialize Project",
+      "bytes": 566,
+      "when": [
+        "step",
+        "initialize",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 2: Develop Your Artifact",
+      "bytes": 142,
+      "when": [
+        "step",
+        "develop",
+        "artifact"
+      ]
+    },
+    {
+      "name": "Step 3: Bundle to Single HTML File",
+      "bytes": 695,
+      "when": [
+        "step",
+        "bundle",
+        "single",
+        "html",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 4: Share Artifact with User",
+      "bytes": 146,
+      "when": [
+        "step",
+        "share",
+        "artifact",
+        "user"
+      ]
+    },
+    {
+      "name": "Step 5: Testing/Visualizing the Artifact (Optional)",
+      "bytes": 478,
+      "when": [
+        "step",
+        "testing",
+        "visualizing",
+        "artifact",
+        "optional"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 81,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/anthropic/skills/web-artifacts-builder/SKILL.md",
+  "curated": true
 }

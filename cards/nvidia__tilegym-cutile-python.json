@@ -1,0 +1,314 @@
+{
+  "id": "nvidia__tilegym-cutile-python",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ca15271e527776adc11c56d3452125383cfd720174e0d809fa7d89cf7266e3fe",
+  "purpose": "Expert cuTile programming assistant. Write high-performance GPU kernels using cuTiles tile-based programming model with proper validation and optimization. Supports deep agent orchestration for comple",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Expert cuTile programming assistant. Write high-performance GPU kernels using cuTiles tile-based programming model with proper validation and optimization. Supp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5083,
+  "core_bytes": 20743,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 235,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use This Skill",
+      "bytes": 540,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Reference Documentation",
+      "bytes": 814,
+      "when": [
+        "reference",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1057,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "When to Clarify Before Implementation",
+      "bytes": 1961,
+      "when": [
+        "clarify",
+        "before",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Clarify for These Task Types",
+      "bytes": 825,
+      "when": [
+        "clarify",
+        "task",
+        "types"
+      ]
+    },
+    {
+      "name": "Act Directly for These Task Types",
+      "bytes": 308,
+      "when": [
+        "directly",
+        "task",
+        "types"
+      ]
+    },
+    {
+      "name": "How to Clarify",
+      "bytes": 636,
+      "when": [
+        "clarify"
+      ]
+    },
+    {
+      "name": "Complexity Assessment: Simple vs. Orchestrated Workflow",
+      "bytes": 1077,
+      "when": [
+        "complexity",
+        "assessment",
+        "simple",
+        "orchestrated",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Use the Simple Workflow (Steps 0-6 below) when:",
+      "bytes": 233,
+      "when": [
+        "simple",
+        "workflow",
+        "steps",
+        "below"
+      ]
+    },
+    {
+      "name": "Use the Deep Agent Orchestration Workflow when ANY of these apply:",
+      "bytes": 680,
+      "when": [
+        "deep",
+        "agent",
+        "orchestration",
+        "workflow",
+        "apply"
+      ]
+    },
+    {
+      "name": "Deep Agent Orchestration Workflow",
+      "bytes": 751,
+      "when": [
+        "deep",
+        "agent",
+        "orchestration",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 4680,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 0: Search Examples and Consult References (MANDATORY)",
+      "bytes": 1393,
+      "when": [
+        "step",
+        "search",
+        "examples",
+        "consult",
+        "references",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "Step 1: Understand the Problem",
+      "bytes": 1008,
+      "when": [
+        "step",
+        "understand",
+        "problem"
+      ]
+    },
+    {
+      "name": "Step 2: Design Kernel Architecture",
+      "bytes": 370,
+      "when": [
+        "step",
+        "design",
+        "kernel",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Step 3: Prepare Type System and Constants",
+      "bytes": 369,
+      "when": [
+        "step",
+        "prepare",
+        "type",
+        "system",
+        "constants"
+      ]
+    },
+    {
+      "name": "Step 4: Implement the Kernel",
+      "bytes": 508,
+      "when": [
+        "step",
+        "implement",
+        "kernel"
+      ]
+    },
+    {
+      "name": "Step 5: Prepare and Launch",
+      "bytes": 338,
+      "when": [
+        "step",
+        "prepare",
+        "launch"
+      ]
+    },
+    {
+      "name": "Step 6: Validate and Test",
+      "bytes": 290,
+      "when": [
+        "step",
+        "validate",
+        "test"
+      ]
+    },
+    {
+      "name": "Validation Loop (MANDATORY)",
+      "bytes": 3702,
+      "when": [
+        "validation",
+        "loop",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "Validation Workflow",
+      "bytes": 1212,
+      "when": [
+        "validation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Execution Steps",
+      "bytes": 593,
+      "when": [
+        "execution",
+        "steps"
+      ]
+    },
+    {
+      "name": "Validation Output Best Practices",
+      "bytes": 629,
+      "when": [
+        "validation",
+        "output",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Common Issues and Fixes",
+      "bytes": 561,
+      "when": [
+        "common",
+        "issues",
+        "fixes"
+      ]
+    },
+    {
+      "name": "Default Tolerance Values",
+      "bytes": 177,
+      "when": [
+        "default",
+        "tolerance",
+        "values"
+      ]
+    },
+    {
+      "name": "Testing Checklist",
+      "bytes": 349,
+      "when": [
+        "testing",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Critical Requirements",
+      "bytes": 1541,
+      "when": [
+        "critical",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Performance Optimization",
+      "bytes": 202,
+      "when": [
+        "performance",
+        "optimization"
+      ]
+    },
+    {
+      "name": "File Management Guidelines",
+      "bytes": 1820,
+      "when": [
+        "file",
+        "management",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 1640,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tilegym-cutile-python/SKILL.md",
+  "curated": true
+}

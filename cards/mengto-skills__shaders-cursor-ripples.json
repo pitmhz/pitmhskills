@@ -1,0 +1,138 @@
+{
+  "id": "mengto-skills__shaders-cursor-ripples",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "61912897df41391567a18200076865c7fa1993bf5c120e6573e82a74a1b962bc",
+  "purpose": "Add cursor-following fluid WebGPU distortion over an existing image with the Shaders library's ImageTexture and CursorRipples components. Use when a hero, gallery, or media panel needs a water-ripple ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Add cursor-following fluid WebGPU distortion over an existing image with the Shaders library's ImageTexture and CursorRipples components. Use when a hero, galle"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2016,
+  "core_bytes": 8064,
+  "sections": [
+    {
+      "name": "Core Contract",
+      "bytes": 968,
+      "when": [
+        "core",
+        "contract"
+      ]
+    },
+    {
+      "name": "Inspect Before Editing",
+      "bytes": 545,
+      "when": [
+        "inspect",
+        "before",
+        "editing"
+      ]
+    },
+    {
+      "name": "Install",
+      "bytes": 372,
+      "when": [
+        "install"
+      ]
+    },
+    {
+      "name": "Required Composition",
+      "bytes": 659,
+      "when": [
+        "required",
+        "composition"
+      ]
+    },
+    {
+      "name": "Client and Fallback Pattern",
+      "bytes": 1441,
+      "when": [
+        "client",
+        "fallback",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Layering Rules",
+      "bytes": 722,
+      "when": [
+        "layering",
+        "rules"
+      ]
+    },
+    {
+      "name": "Remove the Failed Spotlight Pattern",
+      "bytes": 557,
+      "when": [
+        "remove",
+        "failed",
+        "spotlight",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Performance and Motion",
+      "bytes": 527,
+      "when": [
+        "performance",
+        "motion"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 741,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Failure Diagnosis",
+      "bytes": 792,
+      "when": [
+        "failure",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Handoff",
+      "bytes": 230,
+      "when": [
+        "handoff"
+      ]
+    }
+  ],
+  "keywords": [
+    "ripples",
+    "core",
+    "contract",
+    "inspect",
+    "before",
+    "editing",
+    "install",
+    "required",
+    "composition",
+    "client",
+    "fallback",
+    "pattern"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\shaders-cursor-ripples\\SKILL.md"
+}

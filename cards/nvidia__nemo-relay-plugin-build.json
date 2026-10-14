@@ -1,0 +1,129 @@
+{
+  "id": "nvidia__nemo-relay-plugin-build",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bf039ec03b89afa996f0b888f7418bdfe14267787b03dfe67a7ae9d6dc5acd8f",
+  "purpose": "Use this skill when building or packaging reusable NeMo Relay runtime behavior as an embedded configuration component or a manifest-backed `rust_dynamic` native or `worker` gRPC plugin, with determini",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use this skill when building or packaging reusable NeMo Relay runtime behavior as an embedded configuration component or a manifest-backed `rust_dynamic` native"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2622,
+  "core_bytes": 10485,
+  "sections": [
+    {
+      "name": "Use This When",
+      "bytes": 563,
+      "when": []
+    },
+    {
+      "name": "Do Not Use This When",
+      "bytes": 503,
+      "when": []
+    },
+    {
+      "name": "Choose A Delivery Model",
+      "bytes": 836,
+      "when": [
+        "choose",
+        "delivery",
+        "model"
+      ]
+    },
+    {
+      "name": "Embedded Component Model",
+      "bytes": 911,
+      "when": [
+        "embedded",
+        "component",
+        "model"
+      ]
+    },
+    {
+      "name": "Default Path",
+      "bytes": 1868,
+      "when": [
+        "default",
+        "path"
+      ]
+    },
+    {
+      "name": "Config Shape",
+      "bytes": 631,
+      "when": [
+        "config",
+        "shape"
+      ]
+    },
+    {
+      "name": "Binding Pointers",
+      "bytes": 349,
+      "when": [
+        "binding",
+        "pointers"
+      ]
+    },
+    {
+      "name": "Dynamic Package Essentials",
+      "bytes": 368,
+      "when": [
+        "dynamic",
+        "package",
+        "essentials"
+      ]
+    },
+    {
+      "name": "Native Version Compatibility",
+      "bytes": 1255,
+      "when": [
+        "native",
+        "version",
+        "compatibility"
+      ]
+    },
+    {
+      "name": "Failure Modes To Avoid",
+      "bytes": 1003,
+      "when": [
+        "failure",
+        "modes",
+        "avoid"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 1261,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Use Another Skill When",
+      "bytes": 342,
+      "when": [
+        "skill"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-relay-plugin-build/SKILL.md"
+}

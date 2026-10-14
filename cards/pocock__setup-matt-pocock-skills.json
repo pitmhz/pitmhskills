@@ -27,7 +27,88 @@
   "conflicts_with": [],
   "body_tokens": 1774,
   "core_bytes": 7096,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/setup-matt-pocock-skills/SKILL.md"
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 4771,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "1. Explore",
+      "bytes": 1004,
+      "when": [
+        "explore"
+      ]
+    },
+    {
+      "name": "2. Present findings and ask",
+      "bytes": 2845,
+      "when": [
+        "present",
+        "findings"
+      ]
+    },
+    {
+      "name": "3. Confirm and edit",
+      "bytes": 374,
+      "when": [
+        "confirm",
+        "edit"
+      ]
+    },
+    {
+      "name": "4. Write",
+      "bytes": 534,
+      "when": [
+        "write"
+      ]
+    },
+    {
+      "name": "Agent skills",
+      "bytes": 1534,
+      "when": [
+        "agent",
+        "skills"
+      ]
+    },
+    {
+      "name": "Issue tracker",
+      "bytes": 108,
+      "when": [
+        "issue",
+        "tracker"
+      ]
+    },
+    {
+      "name": "Triage labels",
+      "bytes": 104,
+      "when": [
+        "triage",
+        "labels"
+      ]
+    },
+    {
+      "name": "Domain docs",
+      "bytes": 1030,
+      "when": [
+        "domain",
+        "docs"
+      ]
+    },
+    {
+      "name": "5. Done",
+      "bytes": 273,
+      "when": [
+        "done"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "curated": true
 }

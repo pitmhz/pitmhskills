@@ -1,0 +1,125 @@
+{
+  "id": "mengto-skills__x-bookmark-quote-posts",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "533937637708b624d02b3bf19f4720002b1fb234870de09bfd2d284796c173bd",
+  "purpose": "Check a user's latest X/Twitter bookmarks and turn recent saved posts into source-backed quote-post drafts calibrated against the user's latest 100 authored posts. Use when asked to review X bookmarks",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Check a user's latest X/Twitter bookmarks and turn recent saved posts into source-backed quote-post drafts calibrated against the user's latest 100 authored pos"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2381,
+  "core_bytes": 9523,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 211,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Start",
+      "bytes": 940,
+      "when": [
+        "start"
+      ]
+    },
+    {
+      "name": "Calibrate Voice From 100 Posts",
+      "bytes": 2134,
+      "when": [
+        "calibrate",
+        "voice",
+        "posts"
+      ]
+    },
+    {
+      "name": "Collect Bookmarks",
+      "bytes": 1286,
+      "when": [
+        "collect",
+        "bookmarks"
+      ]
+    },
+    {
+      "name": "Draft",
+      "bytes": 725,
+      "when": [
+        "draft"
+      ]
+    },
+    {
+      "name": "Best Picks",
+      "bytes": 709,
+      "when": [
+        "best",
+        "picks"
+      ]
+    },
+    {
+      "name": "1. Source Name - Topic",
+      "bytes": 692,
+      "when": [
+        "source",
+        "name",
+        "topic"
+      ]
+    },
+    {
+      "name": "Voice",
+      "bytes": 1208,
+      "when": [
+        "voice"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 866,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 984,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "overview",
+    "start",
+    "calibrate",
+    "collect",
+    "draft",
+    "yyyy",
+    "best",
+    "picks",
+    "name",
+    "topic",
+    "verify",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\x-bookmark-quote-posts\\SKILL.md"
+}

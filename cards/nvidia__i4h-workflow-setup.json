@@ -1,0 +1,115 @@
+{
+  "id": "nvidia__i4h-workflow-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9d7893816ce40e9b084c714877251cc96ced646272c056b9fe3418d31064704b",
+  "purpose": "Preflight and set up the root-level workflow runtime. Use for installation, missing component environments, or third-party failures; do not use for rollout validation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Preflight and set up the root-level workflow runtime. Use for installation, missing component environments, or third-party failures; do not use for rollout vali"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1035,
+  "core_bytes": 4140,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 101,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 155,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve the checkout",
+      "bytes": 1178,
+      "when": [
+        "resolve",
+        "checkout"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 511,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Sync",
+      "bytes": 503,
+      "when": [
+        "sync"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 323,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 151,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 141,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 178,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 188,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 215,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "./run.sh lint --all"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-setup/SKILL.md"
+}

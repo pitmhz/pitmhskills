@@ -1,0 +1,62 @@
+{
+  "id": "uiskills-staged__web-design-guidelines",
+  "tier": "B",
+  "origin": [
+    "local@web-design-guidelines"
+  ],
+  "license": "MIT",
+  "hash": "17e48da905f83a19c174079b50760a98c069527ba50079239b3c187236627c29",
+  "purpose": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "design"
+  ],
+  "use_when": [
+    "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 318,
+  "core_bytes": 1270,
+  "sections": [
+    {
+      "name": "How It Works",
+      "bytes": 249,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Guidelines Source",
+      "bytes": 291,
+      "when": [
+        "guidelines",
+        "source"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 313,
+      "when": [
+        "usage"
+      ]
+    }
+  ],
+  "keywords": [
+    "works",
+    "source",
+    "usage"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\web-design-guidelines\\SKILL.md"
+}

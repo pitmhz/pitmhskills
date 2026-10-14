@@ -1,0 +1,109 @@
+{
+  "id": "mengto-skills__container-lines",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "fb68121d0b1e2f8d6588bac839eae9208614efc6c46fd8d86a15dfecc4ab1354",
+  "purpose": "Add vertical container-size guide lines with mini corner squares for precise, structured web layouts. Use when asked for container lines, measured layout guides, vertical boundary lines, editorial gri",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Add vertical container-size guide lines with mini corner squares for precise, structured web layouts. Use when asked for container lines, measured layout guides"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 933,
+  "core_bytes": 3730,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 266,
+      "when": []
+    },
+    {
+      "name": "Rules",
+      "bytes": 404,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Base Tokens",
+      "bytes": 223,
+      "when": [
+        "base",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Page Container Lines",
+      "bytes": 588,
+      "when": [
+        "page",
+        "container",
+        "lines"
+      ]
+    },
+    {
+      "name": "Corner Squares",
+      "bytes": 932,
+      "when": [
+        "corner",
+        "squares"
+      ]
+    },
+    {
+      "name": "Minimal Section Wrapper",
+      "bytes": 219,
+      "when": [
+        "minimal",
+        "section",
+        "wrapper"
+      ]
+    },
+    {
+      "name": "Taste Rules",
+      "bytes": 426,
+      "when": [
+        "taste",
+        "rules"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 353,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "rules",
+    "base",
+    "tokens",
+    "page",
+    "minimal",
+    "section",
+    "wrapper",
+    "taste",
+    "quick",
+    "checks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\container-lines\\SKILL.md"
+}

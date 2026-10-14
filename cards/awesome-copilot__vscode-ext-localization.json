@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot__vscode-ext-localization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a238b58545bc23476ac0bd6451e9b01a225cb125096b90b3425e8e08943e3d6c",
+  "purpose": "Guidelines for proper localization of VS Code extensions, following VS Code extension development guidelines, libraries and good practices",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guidelines for proper localization of VS Code extensions, following VS Code extension development guidelines, libraries and good practices"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 369,
+  "core_bytes": 1473,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 1180,
+      "when": [
+        "skill"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\vscode-ext-localization\\SKILL.md"
+}

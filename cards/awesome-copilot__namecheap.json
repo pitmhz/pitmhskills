@@ -1,0 +1,97 @@
+{
+  "id": "awesome-copilot__namecheap",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5023cc6052e48e32c5f93a076cf88d67ea7fd2ed20e67e5a1d0f78daa0457ca6",
+  "purpose": "Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), and guide users through API setup includi",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1726,
+  "core_bytes": 6921,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 4082,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "First-time Setup",
+      "bytes": 1237,
+      "when": [
+        "first",
+        "time",
+        "setup"
+      ]
+    },
+    {
+      "name": "DNS Operations",
+      "bytes": 2204,
+      "when": [
+        "operations"
+      ]
+    },
+    {
+      "name": "JSON file formats",
+      "bytes": 628,
+      "when": [
+        "json",
+        "file",
+        "formats"
+      ]
+    },
+    {
+      "name": "Behavior",
+      "bytes": 1350,
+      "when": [
+        "behavior"
+      ]
+    },
+    {
+      "name": "Credential Storage",
+      "bytes": 386,
+      "when": [
+        "credential",
+        "storage"
+      ]
+    },
+    {
+      "name": "Supported Record Types",
+      "bytes": 77,
+      "when": [
+        "supported",
+        "record",
+        "types"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 112,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\namecheap\\SKILL.md"
+}

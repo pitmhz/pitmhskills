@@ -1,0 +1,193 @@
+{
+  "id": "nvidia__warp-eval",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "173fa5c2f87981a068a3ad5683afd62d621048ea17e79dbe58e49c5822094658",
+  "purpose": "Evaluate whether an existing hot path is a credible NVIDIA Warp candidate. Use for irregular or spatial queries, particle or geometry simulation, branch-heavy loops, many small launches, host fallback",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Evaluate whether an existing hot path is a credible NVIDIA Warp candidate. Use for irregular or spatial queries, particle or geometry simulation, branch-heavy l"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5012,
+  "core_bytes": 20080,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 590,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 2457,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 247,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1034,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 1422,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 523,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 451,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Available scripts",
+      "bytes": 640,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 360,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 11347,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Read the code, derive the contract, check the gates",
+      "bytes": 2766,
+      "when": [
+        "read",
+        "code",
+        "derive",
+        "contract",
+        "check",
+        "gates"
+      ]
+    },
+    {
+      "name": "2. Profile the real application",
+      "bytes": 1623,
+      "when": [
+        "profile",
+        "real",
+        "application"
+      ]
+    },
+    {
+      "name": "3. Form falsifiable hypotheses",
+      "bytes": 355,
+      "when": [
+        "form",
+        "falsifiable",
+        "hypotheses"
+      ]
+    },
+    {
+      "name": "4. Write the contract before the prototype",
+      "bytes": 784,
+      "when": [
+        "write",
+        "contract",
+        "before",
+        "prototype"
+      ]
+    },
+    {
+      "name": "5. Improve the baseline first",
+      "bytes": 1591,
+      "when": [
+        "improve",
+        "baseline",
+        "first"
+      ]
+    },
+    {
+      "name": "6. Prototype the minimum unit",
+      "bytes": 1206,
+      "when": [
+        "prototype",
+        "minimum",
+        "unit"
+      ]
+    },
+    {
+      "name": "7. Benchmark the whole boundary",
+      "bytes": 1058,
+      "when": [
+        "benchmark",
+        "whole",
+        "boundary"
+      ]
+    },
+    {
+      "name": "8. Summarize the evidence",
+      "bytes": 1042,
+      "when": [
+        "summarize",
+        "evidence"
+      ]
+    },
+    {
+      "name": "9. Hand back",
+      "bytes": 757,
+      "when": [
+        "hand",
+        "back"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\warp-eval\\SKILL.md",
+  "curated": true
+}

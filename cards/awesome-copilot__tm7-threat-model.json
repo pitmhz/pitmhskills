@@ -1,0 +1,141 @@
+{
+  "id": "awesome-copilot__tm7-threat-model",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6f0613a2b3343f5f86b37b78c856a718df92507600ce8f4543e4e9ffe4e18fc0",
+  "purpose": "Creates valid Microsoft Threat Modeling Tool (.tm7) files compatible with the Microsoft Threat Modeling Tool v7.3+. Use this skill whenever asked to create, generate, or modify a .tm7 threat model fil",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Creates valid Microsoft Threat Modeling Tool (.tm7) files compatible with the Microsoft Threat Modeling Tool v7.3+. Use this skill whenever asked to create, gen"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3734,
+  "core_bytes": 14975,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1364,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "CRITICAL: Serialization format",
+      "bytes": 1060,
+      "when": [
+        "critical",
+        "serialization",
+        "format"
+      ]
+    },
+    {
+      "name": "Required namespace prefixes",
+      "bytes": 644,
+      "when": [
+        "required",
+        "namespace",
+        "prefixes"
+      ]
+    },
+    {
+      "name": "File structure (correct order)",
+      "bytes": 1933,
+      "when": [
+        "file",
+        "structure",
+        "correct",
+        "order"
+      ]
+    },
+    {
+      "name": "Stencil elements",
+      "bytes": 2226,
+      "when": [
+        "stencil",
+        "elements"
+      ]
+    },
+    {
+      "name": "Stencil shape types",
+      "bytes": 469,
+      "when": [
+        "stencil",
+        "shape",
+        "types"
+      ]
+    },
+    {
+      "name": "Common `TypeId` values (SDL TM knowledge base)",
+      "bytes": 477,
+      "when": [
+        "common",
+        "typeid",
+        "values",
+        "knowledge",
+        "base"
+      ]
+    },
+    {
+      "name": "Data flow lines",
+      "bytes": 903,
+      "when": [
+        "data",
+        "flow",
+        "lines"
+      ]
+    },
+    {
+      "name": "Property attribute types",
+      "bytes": 435,
+      "when": [
+        "property",
+        "attribute",
+        "types"
+      ]
+    },
+    {
+      "name": "Threat instances",
+      "bytes": 2877,
+      "when": [
+        "threat",
+        "instances"
+      ]
+    },
+    {
+      "name": "Common mistakes that break TM7 files",
+      "bytes": 1761,
+      "when": [
+        "common",
+        "mistakes",
+        "break",
+        "files"
+      ]
+    },
+    {
+      "name": "Reference asset",
+      "bytes": 763,
+      "when": [
+        "reference",
+        "asset"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\tm7-threat-model\\SKILL.md"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "awesome-copilot__aws-resource-query",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "bf92899618f707b0c6439e0255e352486821b3eead6e9dbba4a585306c456e5f",
+  "purpose": "Query AWS resources using natural language. Covers EC2, S3, RDS, Lambda, ECS, EKS, Secrets Manager, IAM, VPC, networking, messaging, and more. Strictly read-only — no writes, deletes, or mutations.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Query AWS resources using natural language. Covers EC2, S3, RDS, Lambda, ECS, EKS, Secrets Manager, IAM, VPC, networking, messaging, and more. Strictly read-onl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5521,
+  "core_bytes": 22097,
+  "sections": [
+    {
+      "name": "Safety Contract",
+      "bytes": 769,
+      "when": [
+        "safety",
+        "contract"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 534,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Parse Intent",
+      "bytes": 116,
+      "when": [
+        "step",
+        "parse",
+        "intent"
+      ]
+    },
+    {
+      "name": "Step 2: Confirm Account & Region",
+      "bytes": 217,
+      "when": [
+        "step",
+        "confirm",
+        "account",
+        "region"
+      ]
+    },
+    {
+      "name": "Step 3: Execute & Format",
+      "bytes": 188,
+      "when": [
+        "step",
+        "execute",
+        "format"
+      ]
+    },
+    {
+      "name": "Intent → Command Mapping",
+      "bytes": 19433,
+      "when": [
+        "intent",
+        "command",
+        "mapping"
+      ]
+    },
+    {
+      "name": "COMPUTE",
+      "bytes": 4018,
+      "when": [
+        "compute"
+      ]
+    },
+    {
+      "name": "STORAGE",
+      "bytes": 1475,
+      "when": [
+        "storage"
+      ]
+    },
+    {
+      "name": "DATABASES",
+      "bytes": 2440,
+      "when": [
+        "databases"
+      ]
+    },
+    {
+      "name": "NETWORKING",
+      "bytes": 3440,
+      "when": [
+        "networking"
+      ]
+    },
+    {
+      "name": "SECURITY & IDENTITY",
+      "bytes": 3665,
+      "when": [
+        "security",
+        "identity"
+      ]
+    },
+    {
+      "name": "MESSAGING & EVENTS",
+      "bytes": 1000,
+      "when": [
+        "messaging",
+        "events"
+      ]
+    },
+    {
+      "name": "API GATEWAY & SERVERLESS",
+      "bytes": 679,
+      "when": [
+        "gateway",
+        "serverless"
+      ]
+    },
+    {
+      "name": "MONITORING & OBSERVABILITY",
+      "bytes": 996,
+      "when": [
+        "monitoring",
+        "observability"
+      ]
+    },
+    {
+      "name": "COST & BILLING",
+      "bytes": 1007,
+      "when": [
+        "cost",
+        "billing"
+      ]
+    },
+    {
+      "name": "CROSS-SERVICE QUERIES",
+      "bytes": 682,
+      "when": [
+        "cross",
+        "service",
+        "queries"
+      ]
+    },
+    {
+      "name": "Output Formatting Rules",
+      "bytes": 506,
+      "when": [
+        "output",
+        "formatting",
+        "rules"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 397,
+      "when": [
+        "error",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aws-resource-query\\SKILL.md"
+}

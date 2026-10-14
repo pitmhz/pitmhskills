@@ -27,7 +27,35 @@
   "conflicts_with": [],
   "body_tokens": 910,
   "core_bytes": 3637,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/in-progress/writing-fragments/SKILL.md"
+  "sections": [
+    {
+      "name": "What is a fragment",
+      "bytes": 1485,
+      "when": [
+        "fragment"
+      ]
+    },
+    {
+      "name": "File format",
+      "bytes": 567,
+      "when": [
+        "file",
+        "format"
+      ]
+    },
+    {
+      "name": "Writing rhythm",
+      "bytes": 596,
+      "when": [
+        "writing",
+        "rhythm"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/in-progress/writing-fragments/SKILL.md",
+  "curated": true
 }

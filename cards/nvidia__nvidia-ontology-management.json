@@ -1,0 +1,110 @@
+{
+  "id": "nvidia__nvidia-ontology-management",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a7f80c131e258ab15ad79134a1df4af87e52d379854fc12778f1074792eecc20",
+  "purpose": "Model and publish semantic definitions in Auto Ontology. Use for terms, relationships, measures, imports, and governed results—not deployment or querying.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Model and publish semantic definitions in Auto Ontology. Use for terms, relationships, measures, imports, and governed results—not deployment or querying."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1608,
+  "core_bytes": 6456,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 1024,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 159,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 267,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Auth",
+      "bytes": 430,
+      "when": [
+        "auth"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1639,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Semantic relationships and \"what does this dataset mean\"",
+      "bytes": 731,
+      "when": [
+        "semantic",
+        "relationships",
+        "dataset",
+        "mean"
+      ]
+    },
+    {
+      "name": "Bulk import / export",
+      "bytes": 713,
+      "when": [
+        "bulk",
+        "import",
+        "export"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 293,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 236,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "See also",
+      "bytes": 348,
+      "when": []
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\nvidia-ontology-management\\SKILL.md",
+  "curated": true
+}

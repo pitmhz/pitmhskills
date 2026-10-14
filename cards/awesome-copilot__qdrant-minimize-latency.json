@@ -1,0 +1,67 @@
+{
+  "id": "awesome-copilot__qdrant-minimize-latency",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e8f0c32d41e69d807a40e68a8da36eb5789c3bf349320dccd8e758eb533f1650",
+  "purpose": "Guides Qdrant query latency optimization. Use when someone asks 'search is slow', 'how to reduce latency', 'p99 is too high', 'tail latency', 'single query too slow', 'how to make search faster', or '",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Guides Qdrant query latency optimization. Use when someone asks 'search is slow', 'how to reduce latency', 'p99 is too high', 'tail latency', 'single query too "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 643,
+  "core_bytes": 2574,
+  "sections": [
+    {
+      "name": "Performance Tuning for Lower Latency",
+      "bytes": 507,
+      "when": [
+        "performance",
+        "tuning",
+        "lower",
+        "latency"
+      ]
+    },
+    {
+      "name": "Memory Pressure and Latency",
+      "bytes": 705,
+      "when": [
+        "memory",
+        "pressure",
+        "latency"
+      ]
+    },
+    {
+      "name": "Vertical Scaling for Latency",
+      "bytes": 185,
+      "when": [
+        "vertical",
+        "scaling",
+        "latency"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 458,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\minimize-latency\\SKILL.md"
+}

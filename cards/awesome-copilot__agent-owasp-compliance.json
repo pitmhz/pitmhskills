@@ -1,0 +1,192 @@
+{
+  "id": "awesome-copilot__agent-owasp-compliance",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5c1f92c48888beb811d2435e58aa02b2619422a921d6f70e3cc15e5c5be8e7da",
+  "purpose": "Check any AI agent codebase against the OWASP Agentic Security Initiative (ASI) Top 10 risks.\nUse this skill when:\n- Evaluating an agent system's security posture before production deployment\n- Runnin",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Check any AI agent codebase against the OWASP Agentic Security Initiative (ASI) Top 10 risks.\nUse this skill when:\n- Evaluating an agent system's security postu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2970,
+  "core_bytes": 11894,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 686,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "The 10 Risks",
+      "bytes": 1069,
+      "when": [
+        "risks"
+      ]
+    },
+    {
+      "name": "Check ASI-01: Prompt Injection Protection",
+      "bytes": 1994,
+      "when": [
+        "check",
+        "prompt",
+        "injection",
+        "protection"
+      ]
+    },
+    {
+      "name": "Check ASI-02: Insecure Tool Use",
+      "bytes": 680,
+      "when": [
+        "check",
+        "insecure",
+        "tool"
+      ]
+    },
+    {
+      "name": "Check ASI-03: Excessive Agency",
+      "bytes": 409,
+      "when": [
+        "check",
+        "excessive",
+        "agency"
+      ]
+    },
+    {
+      "name": "Check ASI-04: Unauthorized Escalation",
+      "bytes": 487,
+      "when": [
+        "check",
+        "unauthorized",
+        "escalation"
+      ]
+    },
+    {
+      "name": "Check ASI-05: Trust Boundary Violation",
+      "bytes": 782,
+      "when": [
+        "check",
+        "trust",
+        "boundary",
+        "violation"
+      ]
+    },
+    {
+      "name": "Check ASI-06: Insufficient Logging",
+      "bytes": 559,
+      "when": [
+        "check",
+        "insufficient",
+        "logging"
+      ]
+    },
+    {
+      "name": "Check ASI-07: Insecure Identity",
+      "bytes": 459,
+      "when": [
+        "check",
+        "insecure",
+        "identity"
+      ]
+    },
+    {
+      "name": "Check ASI-08: Policy Bypass",
+      "bytes": 537,
+      "when": [
+        "check",
+        "policy",
+        "bypass"
+      ]
+    },
+    {
+      "name": "Check ASI-09: Supply Chain Integrity",
+      "bytes": 317,
+      "when": [
+        "check",
+        "supply",
+        "chain",
+        "integrity"
+      ]
+    },
+    {
+      "name": "Check ASI-10: Behavioral Anomaly",
+      "bytes": 524,
+      "when": [
+        "check",
+        "behavioral",
+        "anomaly"
+      ]
+    },
+    {
+      "name": "Compliance Report Format",
+      "bytes": 119,
+      "when": [
+        "compliance",
+        "report",
+        "format"
+      ]
+    },
+    {
+      "name": "Summary: 7/10 Controls Covered",
+      "bytes": 875,
+      "when": [
+        "summary",
+        "controls",
+        "covered"
+      ]
+    },
+    {
+      "name": "Critical Gaps",
+      "bytes": 213,
+      "when": [
+        "critical",
+        "gaps"
+      ]
+    },
+    {
+      "name": "Recommendation",
+      "bytes": 148,
+      "when": [
+        "recommendation"
+      ]
+    },
+    {
+      "name": "Quick Assessment Questions",
+      "bytes": 855,
+      "when": [
+        "quick",
+        "assessment",
+        "questions"
+      ]
+    },
+    {
+      "name": "Related Resources",
+      "bytes": 389,
+      "when": [
+        "related",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\agent-owasp-compliance\\SKILL.md"
+}

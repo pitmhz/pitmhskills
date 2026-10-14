@@ -1,0 +1,164 @@
+{
+  "id": "awesome-copilot__mvvm-toolkit-messenger",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "05fe9691a670b8d5d43184f66f40e36d980c9e878673d11639a3ac48375fa563",
+  "purpose": "CommunityToolkit.Mvvm Messenger pub/sub for decoupled communication between ViewModels (or any objects). Covers WeakReferenceMessenger vs StrongReferenceMessenger, IRecipient<TMessage>, RequestMessage",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "CommunityToolkit.Mvvm Messenger pub/sub for decoupled communication between ViewModels (or any objects). Covers WeakReferenceMessenger vs StrongReferenceMesseng"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2214,
+  "core_bytes": 8867,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 555,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Choose an implementation",
+      "bytes": 721,
+      "when": [
+        "choose",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Define a message",
+      "bytes": 435,
+      "when": [
+        "define",
+        "message"
+      ]
+    },
+    {
+      "name": "Register a recipient",
+      "bytes": 990,
+      "when": [
+        "register",
+        "recipient"
+      ]
+    },
+    {
+      "name": "Lambda style (recommended)",
+      "bytes": 352,
+      "when": [
+        "lambda",
+        "style",
+        "recommended"
+      ]
+    },
+    {
+      "name": "`IRecipient<TMessage>` interface style",
+      "bytes": 613,
+      "when": [
+        "irecipient",
+        "tmessage",
+        "interface",
+        "style"
+      ]
+    },
+    {
+      "name": "Send a message",
+      "bytes": 231,
+      "when": [
+        "send",
+        "message"
+      ]
+    },
+    {
+      "name": "Channels (tokens)",
+      "bytes": 539,
+      "when": [
+        "channels",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Request / reply",
+      "bytes": 1428,
+      "when": [
+        "request",
+        "reply"
+      ]
+    },
+    {
+      "name": "Sync request",
+      "bytes": 593,
+      "when": [
+        "sync",
+        "request"
+      ]
+    },
+    {
+      "name": "Async request",
+      "bytes": 324,
+      "when": [
+        "async",
+        "request"
+      ]
+    },
+    {
+      "name": "Collection requests (fan-in)",
+      "bytes": 375,
+      "when": [
+        "collection",
+        "requests"
+      ]
+    },
+    {
+      "name": "Lifecycle",
+      "bytes": 793,
+      "when": [
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 1221,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Multiple messengers (per-window scoping)",
+      "bytes": 542,
+      "when": [
+        "multiple",
+        "messengers",
+        "window",
+        "scoping"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 482,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mvvm-toolkit-messenger\\SKILL.md"
+}

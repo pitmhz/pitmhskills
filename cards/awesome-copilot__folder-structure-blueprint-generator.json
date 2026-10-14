@@ -1,0 +1,147 @@
+{
+  "id": "awesome-copilot__folder-structure-blueprint-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6e0c362502ea65b3c929fb02baecaf6da2420352c4aa27eebbd2b89643198be3",
+  "purpose": "Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed ",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3470,
+  "core_bytes": 13880,
+  "sections": [
+    {
+      "name": "Configuration Variables",
+      "bytes": 946,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generated Prompt",
+      "bytes": 12432,
+      "when": [
+        "generated",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Initial Auto-detection Phase",
+      "bytes": 1900,
+      "when": [
+        "initial",
+        "auto",
+        "detection",
+        "phase"
+      ]
+    },
+    {
+      "name": "1. Structural Overview",
+      "bytes": 971,
+      "when": [
+        "structural",
+        "overview"
+      ]
+    },
+    {
+      "name": "2. Directory Visualization",
+      "bytes": 590,
+      "when": [
+        "directory",
+        "visualization"
+      ]
+    },
+    {
+      "name": "3. Key Directory Analysis",
+      "bytes": 2139,
+      "when": [
+        "directory",
+        "analysis"
+      ]
+    },
+    {
+      "name": "4. File Placement Patterns",
+      "bytes": 996,
+      "when": [
+        "file",
+        "placement",
+        "patterns"
+      ]
+    },
+    {
+      "name": "5. Naming and Organization Conventions",
+      "bytes": 740,
+      "when": [
+        "naming",
+        "organization",
+        "conventions"
+      ]
+    },
+    {
+      "name": "6. Navigation and Development Workflow",
+      "bytes": 740,
+      "when": [
+        "navigation",
+        "development",
+        "workflow"
+      ]
+    },
+    {
+      "name": "7. Build and Output Organization",
+      "bytes": 501,
+      "when": [
+        "build",
+        "output",
+        "organization"
+      ]
+    },
+    {
+      "name": "8. Technology-Specific Organization",
+      "bytes": 1758,
+      "when": [
+        "technology",
+        "specific",
+        "organization"
+      ]
+    },
+    {
+      "name": "9. Extension and Evolution",
+      "bytes": 1322,
+      "when": [
+        "extension",
+        "evolution"
+      ]
+    },
+    {
+      "name": "${INCLUDE_TEMPLATES ? \"11\" : \"10\"}. Structure Enforcement",
+      "bytes": 528,
+      "when": [
+        "include",
+        "templates",
+        "structure",
+        "enforcement"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\folder-structure-blueprint-generator\\SKILL.md"
+}

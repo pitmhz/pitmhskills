@@ -1,0 +1,126 @@
+{
+  "id": "awesome-copilot__foundry-hosted-agent-copilotkit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "63fef867b096178e2836c714a0d0fce85b8373a13e87321201e682eda30b77a1",
+  "purpose": "Build and evolve agentic web apps that pair a CopilotKit React frontend with a Microsoft Agent Framework agent running as a Microsoft Foundry hosted agent, connected over the AG-UI protocol. Covers ch",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build and evolve agentic web apps that pair a CopilotKit React frontend with a Microsoft Agent Framework agent running as a Microsoft Foundry hosted agent, conn"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2457,
+  "core_bytes": 9856,
+  "sections": [
+    {
+      "name": "Mental model",
+      "bytes": 1027,
+      "when": [
+        "mental",
+        "model"
+      ]
+    },
+    {
+      "name": "Use the platform first",
+      "bytes": 1388,
+      "when": [
+        "platform",
+        "first"
+      ]
+    },
+    {
+      "name": "Choose the wiring",
+      "bytes": 1104,
+      "when": [
+        "choose",
+        "wiring"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 707,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Playbooks",
+      "bytes": 4012,
+      "when": [
+        "playbooks"
+      ]
+    },
+    {
+      "name": "Build a new app end to end (wiring A)",
+      "bytes": 1148,
+      "when": [
+        "build",
+        "wiring"
+      ]
+    },
+    {
+      "name": "Add or change an agent tool",
+      "bytes": 630,
+      "when": [
+        "change",
+        "agent",
+        "tool"
+      ]
+    },
+    {
+      "name": "Generative UI and shared state (CopilotKit v2 hooks)",
+      "bytes": 1000,
+      "when": [
+        "generative",
+        "shared",
+        "state",
+        "copilotkit",
+        "hooks"
+      ]
+    },
+    {
+      "name": "Debug a broken flow",
+      "bytes": 1030,
+      "when": [
+        "debug",
+        "broken",
+        "flow"
+      ]
+    },
+    {
+      "name": "Upgrade dependencies",
+      "bytes": 190,
+      "when": [
+        "upgrade",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Completion criteria",
+      "bytes": 659,
+      "when": [
+        "completion",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\foundry-hosted-agent-copilotkit\\SKILL.md"
+}

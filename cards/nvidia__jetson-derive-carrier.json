@@ -1,0 +1,105 @@
+{
+  "id": "nvidia__jetson-derive-carrier",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "34b53fb00f21bb10713bf332a0b5012308a9852712596d247f5614fb9bfed7b1",
+  "purpose": "Bootstrap a custom carrier board by forking carrier files and scaffolding a DT overlay from the reference devkit. Use after jetson-init-source; not for module-level or kernel-DTB changes.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Bootstrap a custom carrier board by forking carrier files and scaffolding a DT overlay from the reference devkit. Use after jetson-init-source; not for module-l"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4285,
+  "core_bytes": 17248,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 10911,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Fork plan",
+      "bytes": 3055,
+      "when": [
+        "fork",
+        "plan"
+      ]
+    },
+    {
+      "name": "Discovery (single batched pass)",
+      "bytes": 7172,
+      "when": [
+        "discovery",
+        "single",
+        "batched",
+        "pass"
+      ]
+    },
+    {
+      "name": "Edit verification",
+      "bytes": 485,
+      "when": [
+        "edit",
+        "verification"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 426,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 351,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 595,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1003,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1413,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-derive-carrier\\SKILL.md",
+  "curated": true
+}

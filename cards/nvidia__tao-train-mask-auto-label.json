@@ -1,0 +1,147 @@
+{
+  "id": "nvidia__tao-train-mask-auto-label",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a46e65dd0c4c16cd4ab0c5096ef82c4ab3b35bb8328d618eb2ccef31f2556037",
+  "purpose": "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2894,
+  "core_bytes": 11580,
+  "sections": [
+    {
+      "name": "Quick Start (docker run)",
+      "bytes": 1275,
+      "when": [
+        "quick",
+        "start",
+        "docker"
+      ]
+    },
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 833,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 2888,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 708,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 1857,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 93,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 950,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "AutoML / HPO Notes",
+      "bytes": 519,
+      "when": [
+        "automl",
+        "notes"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 673,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 155,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 285,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 1557,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-mask-auto-label/SKILL.md",
+  "curated": true
+}

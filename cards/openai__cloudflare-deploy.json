@@ -28,7 +28,198 @@
   "conflicts_with": [],
   "body_tokens": 1838,
   "core_bytes": 7601,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 206,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Authentication (Required Before Deploy)",
+      "bytes": 363,
+      "when": [
+        "authentication",
+        "required",
+        "before",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Quick Decision Trees",
+      "bytes": 2769,
+      "when": [
+        "quick",
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "\"I need to run code\"",
+      "bytes": 652,
+      "when": [
+        "need",
+        "code"
+      ]
+    },
+    {
+      "name": "\"I need to store data\"",
+      "bytes": 591,
+      "when": [
+        "need",
+        "store",
+        "data"
+      ]
+    },
+    {
+      "name": "\"I need AI/ML\"",
+      "bytes": 331,
+      "when": [
+        "need"
+      ]
+    },
+    {
+      "name": "\"I need networking/connectivity\"",
+      "bytes": 451,
+      "when": [
+        "need",
+        "networking",
+        "connectivity"
+      ]
+    },
+    {
+      "name": "\"I need security\"",
+      "bytes": 325,
+      "when": [
+        "need",
+        "security"
+      ]
+    },
+    {
+      "name": "\"I need media/content\"",
+      "bytes": 265,
+      "when": [
+        "need",
+        "media",
+        "content"
+      ]
+    },
+    {
+      "name": "\"I need infrastructure-as-code\"",
+      "bytes": 127,
+      "when": [
+        "need",
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Product Index",
+      "bytes": 3341,
+      "when": [
+        "product",
+        "index"
+      ]
+    },
+    {
+      "name": "Compute & Runtime",
+      "bytes": 588,
+      "when": [
+        "compute",
+        "runtime"
+      ]
+    },
+    {
+      "name": "Storage & Data",
+      "bytes": 452,
+      "when": [
+        "storage",
+        "data"
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "bytes": 290,
+      "when": [
+        "machine",
+        "learning"
+      ]
+    },
+    {
+      "name": "Networking & Connectivity",
+      "bytes": 355,
+      "when": [
+        "networking",
+        "connectivity"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 272,
+      "when": [
+        "security"
+      ]
+    },
+    {
+      "name": "Media & Content",
+      "bytes": 233,
+      "when": [
+        "media",
+        "content"
+      ]
+    },
+    {
+      "name": "Real-Time Communication",
+      "bytes": 173,
+      "when": [
+        "real",
+        "time",
+        "communication"
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "bytes": 466,
+      "when": [
+        "developer",
+        "tools"
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "bytes": 185,
+      "when": [
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Other Services",
+      "bytes": 307,
+      "when": [
+        "services"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 512,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Escalated Network Access",
+      "bytes": 490,
+      "when": [
+        "escalated",
+        "network",
+        "access"
+      ]
+    }
+  ],
+  "verify": [
+    "npx wrangler deploy --dry-run"
+  ],
   "skill_path": "skills/openai/skills/.curated/cloudflare-deploy/SKILL.md"
 }

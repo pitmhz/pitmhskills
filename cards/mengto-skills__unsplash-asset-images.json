@@ -1,0 +1,140 @@
+{
+  "id": "mengto-skills__unsplash-asset-images",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "39e0fe5fde604a92b8832122c701f6c5f93d7bb2edbdd27137ee903d031eeab1",
+  "purpose": "Use when you need to pick high-quality Unsplash images for product/design assets (avatars, headshots, portraits, large website backgrounds, and abstract wallpapers) and output real Unsplash URLs plus ",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use when you need to pick high-quality Unsplash images for product/design assets (avatars, headshots, portraits, large website backgrounds, and abstract wallpap",
+    "you need “brand-safe”, non-specific visuals."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1288,
+  "core_bytes": 5207,
+  "sections": [
+    {
+      "name": "Output rule",
+      "bytes": 287,
+      "when": [
+        "output",
+        "rule"
+      ]
+    },
+    {
+      "name": "License / safety (keep it simple)",
+      "bytes": 304,
+      "when": [
+        "license",
+        "safety",
+        "keep",
+        "simple"
+      ]
+    },
+    {
+      "name": "How to deliver the right size + ratio",
+      "bytes": 385,
+      "when": [
+        "deliver",
+        "right",
+        "size",
+        "ratio"
+      ]
+    },
+    {
+      "name": "Curated picks (5 each)",
+      "bytes": 3304,
+      "when": [
+        "curated",
+        "picks",
+        "each"
+      ]
+    },
+    {
+      "name": "1) Avatars (1:1)",
+      "bytes": 592,
+      "when": [
+        "avatars"
+      ]
+    },
+    {
+      "name": "2) Headshots (4:5 or 3:4)",
+      "bytes": 627,
+      "when": [
+        "headshots"
+      ]
+    },
+    {
+      "name": "3) Portraits (editorial / candid)",
+      "bytes": 571,
+      "when": [
+        "portraits",
+        "editorial",
+        "candid"
+      ]
+    },
+    {
+      "name": "4) Large backgrounds (website hero, banners) — 16:9",
+      "bytes": 799,
+      "when": [
+        "large",
+        "backgrounds",
+        "website",
+        "hero",
+        "banners"
+      ]
+    },
+    {
+      "name": "5) Abstract wallpapers (desktop/mobile)",
+      "bytes": 686,
+      "when": [
+        "abstract",
+        "wallpapers",
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "name": "Quick “which ratio do I use?” cheatsheet",
+      "bytes": 387,
+      "when": [
+        "quick",
+        "ratio",
+        "cheatsheet"
+      ]
+    }
+  ],
+  "keywords": [
+    "asset",
+    "rule",
+    "license",
+    "safety",
+    "keep",
+    "simple",
+    "deliver",
+    "size",
+    "ratio",
+    "curated",
+    "picks",
+    "each"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\media\\unsplash-asset-images\\SKILL.md"
+}

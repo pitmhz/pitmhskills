@@ -1,0 +1,115 @@
+{
+  "id": "awesome-copilot__code-exemplars-blueprint-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "005a023337c8c7edf7dc55b9317fd246f9093f8d6e7eb9072fff7e2e51b38f95",
+  "purpose": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaS",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1678,
+  "core_bytes": 6710,
+  "sections": [
+    {
+      "name": "Configuration Variables",
+      "bytes": 603,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generated Prompt",
+      "bytes": 5352,
+      "when": [
+        "generated",
+        "prompt"
+      ]
+    },
+    {
+      "name": "1. Codebase Analysis Phase",
+      "bytes": 576,
+      "when": [
+        "codebase",
+        "analysis",
+        "phase"
+      ]
+    },
+    {
+      "name": "2. Exemplar Identification Criteria",
+      "bytes": 398,
+      "when": [
+        "exemplar",
+        "identification",
+        "criteria"
+      ]
+    },
+    {
+      "name": "3. Core Pattern Categories",
+      "bytes": 2192,
+      "when": [
+        "core",
+        "pattern",
+        "categories"
+      ]
+    },
+    {
+      "name": "4. Architecture Layer Exemplars",
+      "bytes": 483,
+      "when": [
+        "architecture",
+        "layer",
+        "exemplars"
+      ]
+    },
+    {
+      "name": "5. Exemplar Documentation Format",
+      "bytes": 803,
+      "when": [
+        "exemplar",
+        "documentation",
+        "format"
+      ]
+    },
+    {
+      "name": "${SCAN_DEPTH == \"Comprehensive\" ? \"7\" : \"6\"}. Output Format",
+      "bytes": 639,
+      "when": [
+        "scan",
+        "depth",
+        "comprehensive",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Expected Output",
+      "bytes": 244,
+      "when": [
+        "expected",
+        "output"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\code-exemplars-blueprint-generator\\SKILL.md"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "mengto-skills__3d-high-resolution-textures",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "32aec1e104f8ac5a4d9ca549e9cf4188489ace20b9417ed64cd87811533bdc5d",
+  "purpose": "Build sharp, physically coherent high-resolution materials for 3D rendering with appropriate PBR maps, texel density, UV direction, mipmaps, anisotropic filtering, and progressive asset delivery. Use ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build sharp, physically coherent high-resolution materials for 3D rendering with appropriate PBR maps, texel density, UV direction, mipmaps, anisotropic filteri"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1451,
+  "core_bytes": 5805,
+  "sections": [
+    {
+      "name": "Choose resolution from the view",
+      "bytes": 727,
+      "when": [
+        "choose",
+        "resolution",
+        "view"
+      ]
+    },
+    {
+      "name": "Build a coherent PBR material",
+      "bytes": 1477,
+      "when": [
+        "build",
+        "coherent",
+        "material"
+      ]
+    },
+    {
+      "name": "Preserve detail during sampling",
+      "bytes": 698,
+      "when": [
+        "preserve",
+        "detail",
+        "during",
+        "sampling"
+      ]
+    },
+    {
+      "name": "Deliver detail progressively",
+      "bytes": 1701,
+      "when": [
+        "deliver",
+        "detail",
+        "progressively"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 651,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "textures",
+    "choose",
+    "view",
+    "material",
+    "preserve",
+    "detail",
+    "during",
+    "sampling",
+    "deliver",
+    "progressively",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-high-resolution-textures\\SKILL.md"
+}

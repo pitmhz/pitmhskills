@@ -1,0 +1,410 @@
+{
+  "id": "awesome-copilot__batch-files",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "64915b51fab7af2111809a3c787fcf572d3944dcc1310d2478e97e3f9df5ee3c",
+  "purpose": "Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts. Use when asked to \"create a batch file\", \"write a .bat script\", \"automate a Windows task\", \"CMD s",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts. Use when asked to \"create a batch file\", \"write a .bat sc"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4310,
+  "core_bytes": 17286,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 476,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 234,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Command Interpretation",
+      "bytes": 734,
+      "when": [
+        "command",
+        "interpretation"
+      ]
+    },
+    {
+      "name": "Variables",
+      "bytes": 1364,
+      "when": [
+        "variables"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 274,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Special Variables",
+      "bytes": 490,
+      "when": [
+        "special",
+        "variables"
+      ]
+    },
+    {
+      "name": "Scoping with SETLOCAL / ENDLOCAL",
+      "bytes": 225,
+      "when": [
+        "scoping",
+        "setlocal",
+        "endlocal"
+      ]
+    },
+    {
+      "name": "Delayed Expansion",
+      "bytes": 361,
+      "when": [
+        "delayed",
+        "expansion"
+      ]
+    },
+    {
+      "name": "Control Flow",
+      "bytes": 1321,
+      "when": [
+        "control",
+        "flow"
+      ]
+    },
+    {
+      "name": "Conditional Execution",
+      "bytes": 329,
+      "when": [
+        "conditional",
+        "execution"
+      ]
+    },
+    {
+      "name": "Compound Commands",
+      "bytes": 225,
+      "when": [
+        "compound",
+        "commands"
+      ]
+    },
+    {
+      "name": "FOR Loops",
+      "bytes": 530,
+      "when": [
+        "loops"
+      ]
+    },
+    {
+      "name": "GOTO and Labels",
+      "bytes": 220,
+      "when": [
+        "goto",
+        "labels"
+      ]
+    },
+    {
+      "name": "Command-Line Arguments",
+      "bytes": 861,
+      "when": [
+        "command",
+        "line",
+        "arguments"
+      ]
+    },
+    {
+      "name": "Argument Parsing Pattern",
+      "bytes": 215,
+      "when": [
+        "argument",
+        "parsing",
+        "pattern"
+      ]
+    },
+    {
+      "name": "String Processing",
+      "bytes": 487,
+      "when": [
+        "string",
+        "processing"
+      ]
+    },
+    {
+      "name": "Substrings",
+      "bytes": 197,
+      "when": [
+        "substrings"
+      ]
+    },
+    {
+      "name": "Search and Replace",
+      "bytes": 169,
+      "when": [
+        "search",
+        "replace"
+      ]
+    },
+    {
+      "name": "Substring Containment Test",
+      "bytes": 99,
+      "when": [
+        "substring",
+        "containment",
+        "test"
+      ]
+    },
+    {
+      "name": "Functions",
+      "bytes": 395,
+      "when": [
+        "functions"
+      ]
+    },
+    {
+      "name": "Arithmetic",
+      "bytes": 378,
+      "when": [
+        "arithmetic"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 554,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Error Level Conventions",
+      "bytes": 216,
+      "when": [
+        "error",
+        "level",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Fail-Fast Pattern",
+      "bytes": 129,
+      "when": [
+        "fail",
+        "fast",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Setting Exit Codes",
+      "bytes": 190,
+      "when": [
+        "setting",
+        "exit",
+        "codes"
+      ]
+    },
+    {
+      "name": "Essential Commands Reference",
+      "bytes": 3069,
+      "when": [
+        "essential",
+        "commands",
+        "reference"
+      ]
+    },
+    {
+      "name": "File Operations",
+      "bytes": 823,
+      "when": [
+        "file",
+        "operations"
+      ]
+    },
+    {
+      "name": "Text Search and Processing",
+      "bytes": 374,
+      "when": [
+        "text",
+        "search",
+        "processing"
+      ]
+    },
+    {
+      "name": "System Information",
+      "bytes": 541,
+      "when": [
+        "system",
+        "information"
+      ]
+    },
+    {
+      "name": "Network",
+      "bytes": 521,
+      "when": [
+        "network"
+      ]
+    },
+    {
+      "name": "Scheduling and Automation",
+      "bytes": 342,
+      "when": [
+        "scheduling",
+        "automation"
+      ]
+    },
+    {
+      "name": "Shell Utilities",
+      "bytes": 435,
+      "when": [
+        "shell",
+        "utilities"
+      ]
+    },
+    {
+      "name": "Shell Syntax and Expressions",
+      "bytes": 1268,
+      "when": [
+        "shell",
+        "syntax",
+        "expressions"
+      ]
+    },
+    {
+      "name": "Parentheses for Grouping",
+      "bytes": 289,
+      "when": [
+        "parentheses",
+        "grouping"
+      ]
+    },
+    {
+      "name": "Escape Characters",
+      "bytes": 356,
+      "when": [
+        "escape",
+        "characters"
+      ]
+    },
+    {
+      "name": "Wildcards",
+      "bytes": 221,
+      "when": [
+        "wildcards"
+      ]
+    },
+    {
+      "name": "Redirection Summary",
+      "bytes": 369,
+      "when": [
+        "redirection",
+        "summary"
+      ]
+    },
+    {
+      "name": "Writing Production-Quality Batch Files",
+      "bytes": 2606,
+      "when": [
+        "writing",
+        "production",
+        "quality",
+        "batch",
+        "files"
+      ]
+    },
+    {
+      "name": "Standard Script Structure",
+      "bytes": 888,
+      "when": [
+        "standard",
+        "script",
+        "structure"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 1061,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Security Considerations",
+      "bytes": 614,
+      "when": [
+        "security",
+        "considerations"
+      ]
+    },
+    {
+      "name": "Debugging and Troubleshooting",
+      "bytes": 802,
+      "when": [
+        "debugging",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Cross-Platform and Extended Tools",
+      "bytes": 729,
+      "when": [
+        "cross",
+        "platform",
+        "extended",
+        "tools"
+      ]
+    },
+    {
+      "name": "CMD Keyboard Shortcuts",
+      "bytes": 336,
+      "when": [
+        "keyboard",
+        "shortcuts"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 549,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Asset Templates",
+      "bytes": 335,
+      "when": [
+        "asset",
+        "templates"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\batch-files\\SKILL.md"
+}

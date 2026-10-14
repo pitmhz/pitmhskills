@@ -1,0 +1,61 @@
+{
+  "id": "awesome-copilot__api-breaking-change-detector",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1fcd27dcb533c23baaeef7a70089a8095fa0cc21425457b9a653535034d71a80",
+  "purpose": "Cross-references C# Web API controllers/DTOs against their TypeScript/JavaScript consumers (React, Angular, Vue, Svelte, Node.js, or hand-written/auto-generated HTTP clients like Fetch, Axios, NSwag) ",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Cross-references C# Web API controllers/DTOs against their TypeScript/JavaScript consumers (React, Angular, Vue, Svelte, Node.js, or hand-written/auto-generated"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1679,
+  "core_bytes": 6741,
+  "sections": [
+    {
+      "name": "When to use this",
+      "bytes": 577,
+      "when": []
+    },
+    {
+      "name": "Process",
+      "bytes": 3294,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 808,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 932,
+      "when": [
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\api-breaking-change-detector\\SKILL.md"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "awesome-copilot__azure-architecture-autopilot",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5306e06c35079bcb267e3696f0d40fbf2b7b804e6b3d34f255c3fbc45ae64cda",
+  "purpose": "Design Azure infrastructure using natural language, or analyze existing Azure resources to auto-generate architecture diagrams, refine them through conversation, and deploy with Bicep.\nWhen to use thi",
+  "domain": "memory",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design Azure infrastructure using natural language, or analyze existing Azure resources to auto-generate architecture diagrams, refine them through conversation"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1890,
+  "core_bytes": 7649,
+  "sections": [
+    {
+      "name": "Automatic User Language Detection",
+      "bytes": 662,
+      "when": [
+        "automatic",
+        "user",
+        "language",
+        "detection"
+      ]
+    },
+    {
+      "name": "Tool Usage Guide (GHCP Environment)",
+      "bytes": 580,
+      "when": [
+        "tool",
+        "usage",
+        "guide",
+        "ghcp",
+        "environment"
+      ]
+    },
+    {
+      "name": "External Tool Path Discovery",
+      "bytes": 854,
+      "when": [
+        "external",
+        "tool",
+        "path",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Progress Updates Required",
+      "bytes": 219,
+      "when": [
+        "progress",
+        "updates",
+        "required"
+      ]
+    },
+    {
+      "name": "Parallel Preload Principle",
+      "bytes": 493,
+      "when": [
+        "parallel",
+        "preload",
+        "principle"
+      ]
+    },
+    {
+      "name": "Path Branching — Automatically Determined by User Request",
+      "bytes": 1270,
+      "when": [
+        "path",
+        "branching",
+        "automatically",
+        "determined",
+        "user",
+        "request"
+      ]
+    },
+    {
+      "name": "Path A: New Design (New Build)",
+      "bytes": 435,
+      "when": [
+        "path",
+        "design",
+        "build"
+      ]
+    },
+    {
+      "name": "Path B: Existing Analysis + Modification (Analyze & Modify)",
+      "bytes": 518,
+      "when": [
+        "path",
+        "existing",
+        "analysis",
+        "modification",
+        "analyze",
+        "modify"
+      ]
+    },
+    {
+      "name": "When Path Determination Is Ambiguous",
+      "bytes": 253,
+      "when": [
+        "path",
+        "determination",
+        "ambiguous"
+      ]
+    },
+    {
+      "name": "Phase Transition Rules",
+      "bytes": 734,
+      "when": [
+        "phase",
+        "transition",
+        "rules"
+      ]
+    },
+    {
+      "name": "Service Coverage & Fallback",
+      "bytes": 700,
+      "when": [
+        "service",
+        "coverage",
+        "fallback"
+      ]
+    },
+    {
+      "name": "Optimized Services",
+      "bytes": 162,
+      "when": [
+        "optimized",
+        "services"
+      ]
+    },
+    {
+      "name": "Other Azure Services",
+      "bytes": 212,
+      "when": [
+        "azure",
+        "services"
+      ]
+    },
+    {
+      "name": "Stable vs Dynamic Information Handling",
+      "bytes": 294,
+      "when": [
+        "stable",
+        "dynamic",
+        "information",
+        "handling"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 929,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-architecture-autopilot\\SKILL.md"
+}

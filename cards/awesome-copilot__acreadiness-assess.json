@@ -1,0 +1,48 @@
+{
+  "id": "awesome-copilot__acreadiness-assess",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e632ae0d57b87accd0ca1488dba27bd842c6e6c4c28670f2da101f1322ba5f8d",
+  "purpose": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off rendering to the ",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 839,
+  "core_bytes": 3371,
+  "sections": [
+    {
+      "name": "Steps",
+      "bytes": 1997,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 416,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\acreadiness-assess\\SKILL.md"
+}

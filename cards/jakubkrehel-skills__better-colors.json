@@ -1,0 +1,154 @@
+{
+  "id": "jakubkrehel-skills__better-colors",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "74919670a4b6c3f647043594000c269c52de6b4f80001650abcfe0b3a3469f6e",
+  "purpose": "Helps you build and check a color system for your project. It generates palettes, names semantic tokens, converts between formats and measures contrast.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Helps you build and check a color system for your project. It generates palettes, names semantic tokens, converts between formats and measures contrast."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Color system / palette / tokens -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "palette tokens contrast semantic",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1944,
+  "core_bytes": 7787,
+  "sections": [
+    {
+      "name": "Match the project's color system",
+      "bytes": 398,
+      "when": [
+        "match",
+        "project",
+        "color",
+        "system"
+      ]
+    },
+    {
+      "name": "A system is ramps, not colors",
+      "bytes": 337,
+      "when": [
+        "system",
+        "ramps",
+        "colors"
+      ]
+    },
+    {
+      "name": "Every step has a job",
+      "bytes": 355,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Name primitives by hue, semantics by role",
+      "bytes": 360,
+      "when": [
+        "name",
+        "primitives",
+        "semantics",
+        "role"
+      ]
+    },
+    {
+      "name": "Use a token only in its role",
+      "bytes": 232,
+      "when": [
+        "token",
+        "role"
+      ]
+    },
+    {
+      "name": "Hold the hue across the ramp",
+      "bytes": 233,
+      "when": [
+        "hold",
+        "ramp"
+      ]
+    },
+    {
+      "name": "One color, one meaning",
+      "bytes": 311,
+      "when": [
+        "color",
+        "meaning"
+      ]
+    },
+    {
+      "name": "Fill exactly one action per view",
+      "bytes": 484,
+      "when": [
+        "fill",
+        "exactly",
+        "action",
+        "view"
+      ]
+    },
+    {
+      "name": "Measure the rendered pair, then report",
+      "bytes": 361,
+      "when": [
+        "measure",
+        "rendered",
+        "pair",
+        "report"
+      ]
+    },
+    {
+      "name": "Pick a gradient's interpolation space",
+      "bytes": 227,
+      "when": [
+        "pick",
+        "gradient",
+        "interpolation",
+        "space"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 2264,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 1377,
+      "when": [
+        "reporting"
+      ]
+    }
+  ],
+  "keywords": [
+    "colors",
+    "match",
+    "ramps",
+    "step",
+    "name",
+    "primitives",
+    "semantics",
+    "role",
+    "token",
+    "hold",
+    "ramp",
+    "meaning"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\better-colors\\SKILL.md"
+}

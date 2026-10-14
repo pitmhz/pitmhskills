@@ -1,0 +1,182 @@
+{
+  "id": "awesome-copilot__ai-prompt-engineering-safety-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8ff9d227e96fb3364b9b2e0bd28d73ef0e49cc33fa832dfe8c87d79ddef9a7a7",
+  "purpose": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommenda",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor"
+  ],
+  "use_when": [
+    "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2540,
+  "core_bytes": 10167,
+  "sections": [
+    {
+      "name": "Your Mission",
+      "bytes": 333,
+      "when": [
+        "mission"
+      ]
+    },
+    {
+      "name": "Analysis Framework",
+      "bytes": 3091,
+      "when": [
+        "analysis",
+        "framework"
+      ]
+    },
+    {
+      "name": "1. Safety Assessment",
+      "bytes": 402,
+      "when": [
+        "safety",
+        "assessment"
+      ]
+    },
+    {
+      "name": "2. Bias Detection & Mitigation",
+      "bytes": 437,
+      "when": [
+        "bias",
+        "detection",
+        "mitigation"
+      ]
+    },
+    {
+      "name": "3. Security & Privacy Assessment",
+      "bytes": 335,
+      "when": [
+        "security",
+        "privacy",
+        "assessment"
+      ]
+    },
+    {
+      "name": "4. Effectiveness Evaluation",
+      "bytes": 350,
+      "when": [
+        "effectiveness",
+        "evaluation"
+      ]
+    },
+    {
+      "name": "5. Best Practices Compliance",
+      "bytes": 273,
+      "when": [
+        "best",
+        "practices",
+        "compliance"
+      ]
+    },
+    {
+      "name": "6. Advanced Pattern Analysis",
+      "bytes": 469,
+      "when": [
+        "advanced",
+        "pattern",
+        "analysis"
+      ]
+    },
+    {
+      "name": "7. Technical Robustness",
+      "bytes": 387,
+      "when": [
+        "technical",
+        "robustness"
+      ]
+    },
+    {
+      "name": "8. Performance Optimization",
+      "bytes": 415,
+      "when": [
+        "performance",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 4675,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "🔍 **Prompt Analysis Report**",
+      "bytes": 2042,
+      "when": [
+        "prompt",
+        "analysis",
+        "report"
+      ]
+    },
+    {
+      "name": "🛡️ **Improved Prompt**",
+      "bytes": 1126,
+      "when": [
+        "improved",
+        "prompt"
+      ]
+    },
+    {
+      "name": "📋 **Testing Recommendations**",
+      "bytes": 926,
+      "when": [
+        "testing",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "🎓 **Educational Insights**",
+      "bytes": 504,
+      "when": [
+        "educational",
+        "insights"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 433,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Safety Guidelines",
+      "bytes": 307,
+      "when": [
+        "safety",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Quality Standards",
+      "bytes": 512,
+      "when": [
+        "quality",
+        "standards"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ai-prompt-engineering-safety-review\\SKILL.md"
+}

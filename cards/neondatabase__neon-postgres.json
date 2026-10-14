@@ -44,9 +44,202 @@
   ],
   "body_tokens": 4230,
   "core_bytes": 16933,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "Setup Flow",
+      "bytes": 2720,
+      "when": [
+        "setup",
+        "flow"
+      ]
+    },
+    {
+      "name": "1. Select the organization and project",
+      "bytes": 383,
+      "when": [
+        "select",
+        "organization",
+        "project"
+      ]
+    },
+    {
+      "name": "2. Get the connection string",
+      "bytes": 987,
+      "when": [
+        "connection",
+        "string"
+      ]
+    },
+    {
+      "name": "3. Pick the connection method and driver",
+      "bytes": 964,
+      "when": [
+        "pick",
+        "connection",
+        "method",
+        "driver"
+      ]
+    },
+    {
+      "name": "4. Set up the schema",
+      "bytes": 369,
+      "when": [
+        "schema"
+      ]
+    },
+    {
+      "name": "Branching",
+      "bytes": 751,
+      "when": [
+        "branching"
+      ]
+    },
+    {
+      "name": "Migrations",
+      "bytes": 350,
+      "when": [
+        "migrations"
+      ]
+    },
+    {
+      "name": "Troubleshooting and Neon-Specific Performance",
+      "bytes": 6571,
+      "when": [
+        "troubleshooting",
+        "neon",
+        "specific",
+        "performance"
+      ]
+    },
+    {
+      "name": "Choose CLI or MCP",
+      "bytes": 732,
+      "when": [
+        "choose"
+      ]
+    },
+    {
+      "name": "Pick the Diagnostic",
+      "bytes": 1542,
+      "when": [
+        "pick",
+        "diagnostic"
+      ]
+    },
+    {
+      "name": "Interpret Results Safely",
+      "bytes": 989,
+      "when": [
+        "interpret",
+        "results",
+        "safely"
+      ]
+    },
+    {
+      "name": "Inspect Neon Cache Behavior Per Query",
+      "bytes": 1373,
+      "when": [
+        "inspect",
+        "neon",
+        "cache",
+        "behavior",
+        "query"
+      ]
+    },
+    {
+      "name": "Performance Workflow",
+      "bytes": 971,
+      "when": [
+        "performance",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Autoscaling",
+      "bytes": 208,
+      "when": [
+        "autoscaling"
+      ]
+    },
+    {
+      "name": "Scale to Zero",
+      "bytes": 517,
+      "when": [
+        "scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "Instant Restore",
+      "bytes": 428,
+      "when": [
+        "instant",
+        "restore"
+      ]
+    },
+    {
+      "name": "Read Replicas",
+      "bytes": 417,
+      "when": [
+        "read",
+        "replicas"
+      ]
+    },
+    {
+      "name": "Connection Pooling",
+      "bytes": 417,
+      "when": [
+        "connection",
+        "pooling"
+      ]
+    },
+    {
+      "name": "IP Allow Lists",
+      "bytes": 179,
+      "when": [
+        "allow",
+        "lists"
+      ]
+    },
+    {
+      "name": "Logical Replication",
+      "bytes": 330,
+      "when": [
+        "logical",
+        "replication"
+      ]
+    },
+    {
+      "name": "Lakebase Search",
+      "bytes": 827,
+      "when": [
+        "lakebase",
+        "search"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1570,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Pooled vs direct connections: use the direct URL for migrations, dumps, and repl",
+      "bytes": 1556,
+      "when": [
+        "pooled",
+        "direct",
+        "connections",
+        "migrations",
+        "dumps",
+        "replication"
+      ]
+    }
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres\\SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres\\SKILL.md",
+  "curated": true
 }

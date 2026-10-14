@@ -1,0 +1,160 @@
+{
+  "id": "nvidia__earth2studio-deterministic-forecast",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ad1be92f9ce8d9c7b5b81ac517b3f368283d7db3d85b6e63178a43549633de73",
+  "purpose": "Build deterministic forecast scripts with Earth2Studio (model, data source, IO, inference). Do NOT use for ensemble, diagnostics, data-only fetch, or install.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build deterministic forecast scripts with Earth2Studio (model, data source, IO, inference). Do NOT use for ensemble, diagnostics, data-only fetch, or install."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1408,
+  "core_bytes": 5636,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 129,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Live Doc References",
+      "bytes": 619,
+      "when": [
+        "live",
+        "references"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3138,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Gather Requirements (skip what's already provided)",
+      "bytes": 219,
+      "when": [
+        "gather",
+        "requirements",
+        "skip",
+        "already",
+        "provided"
+      ]
+    },
+    {
+      "name": "2. Select Model",
+      "bytes": 205,
+      "when": [
+        "select",
+        "model"
+      ]
+    },
+    {
+      "name": "3. Select Data Source",
+      "bytes": 212,
+      "when": [
+        "select",
+        "data",
+        "source"
+      ]
+    },
+    {
+      "name": "4. Select IO Backend",
+      "bytes": 137,
+      "when": [
+        "select",
+        "backend"
+      ]
+    },
+    {
+      "name": "5. Calculate nsteps",
+      "bytes": 143,
+      "when": [
+        "calculate",
+        "nsteps"
+      ]
+    },
+    {
+      "name": "6. Decide: output_coords Filtering",
+      "bytes": 298,
+      "when": [
+        "decide",
+        "output",
+        "coords",
+        "filtering"
+      ]
+    },
+    {
+      "name": "7. Generate Script",
+      "bytes": 811,
+      "when": [
+        "generate",
+        "script"
+      ]
+    },
+    {
+      "name": "8. Manual Loop Alternative",
+      "bytes": 908,
+      "when": [
+        "manual",
+        "loop",
+        "alternative"
+      ]
+    },
+    {
+      "name": "9. Explain Next Steps",
+      "bytes": 190,
+      "when": [
+        "explain",
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "Ownership",
+      "bytes": 271,
+      "when": [
+        "ownership"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 94,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Reminders",
+      "bytes": 770,
+      "when": [
+        "reminders"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\earth2studio-deterministic-forecast\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,103 @@
+{
+  "id": "nvidia__doca-flow-perf",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b480b80a58f10c071841f5677d4718350bd711e11adc1a2f04b7d27152d82675",
+  "purpose": "Use this skill when the user is measuring the host or DPU-CPU control-plane rate of a DOCA Flow pipeline with doca_flow_perf — picking a JSON policy from configs/, choosing the DPDK or DOCA backend, r",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Use this skill when the user is measuring the host or DPU-CPU control-plane rate of a DOCA Flow pipeline with doca_flow_perf — picking a JSON policy from config"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3963,
+  "core_bytes": 15936,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 2452,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "Audience",
+      "bytes": 1080,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "Language scope",
+      "bytes": 883,
+      "when": [
+        "language",
+        "scope"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 1581,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1302,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 1957,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 1016,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 2575,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-flow-perf\\SKILL.md",
+  "curated": true
+}

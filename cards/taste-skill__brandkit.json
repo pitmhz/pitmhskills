@@ -1,0 +1,235 @@
+{
+  "id": "taste-skill__brandkit",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "cfa1a800ef2e7a60d04b232b0195e11beef5c6801127665514cbbd8652f27b83",
+  "purpose": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained fo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Brand-kit / identity boards -> this.",
+  "cluster": "image-direction",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "brand boards logo identity",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4969,
+  "core_bytes": 19900,
+  "sections": [
+    {
+      "name": "1. Monogram + Meaning",
+      "bytes": 320,
+      "when": [
+        "monogram",
+        "meaning"
+      ]
+    },
+    {
+      "name": "2. Product Action",
+      "bytes": 394,
+      "when": [
+        "product",
+        "action"
+      ]
+    },
+    {
+      "name": "3. Metaphor Fusion",
+      "bytes": 314,
+      "when": [
+        "metaphor",
+        "fusion"
+      ]
+    },
+    {
+      "name": "4. Negative Space",
+      "bytes": 243,
+      "when": [
+        "negative",
+        "space"
+      ]
+    },
+    {
+      "name": "5. Construction Geometry",
+      "bytes": 877,
+      "when": [
+        "construction",
+        "geometry"
+      ]
+    },
+    {
+      "name": "1. Logo Cover",
+      "bytes": 90,
+      "when": [
+        "logo",
+        "cover"
+      ]
+    },
+    {
+      "name": "2. Logo Construction",
+      "bytes": 212,
+      "when": [
+        "logo",
+        "construction"
+      ]
+    },
+    {
+      "name": "3. Digital Application",
+      "bytes": 101,
+      "when": [
+        "digital",
+        "application"
+      ]
+    },
+    {
+      "name": "4. Brand Essence",
+      "bytes": 96,
+      "when": [
+        "brand",
+        "essence"
+      ]
+    },
+    {
+      "name": "5. Color System",
+      "bytes": 97,
+      "when": [
+        "color",
+        "system"
+      ]
+    },
+    {
+      "name": "6. Typography",
+      "bytes": 91,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "7. Physical Application",
+      "bytes": 102,
+      "when": [
+        "physical",
+        "application"
+      ]
+    },
+    {
+      "name": "8. Image Direction",
+      "bytes": 113,
+      "when": [
+        "image",
+        "direction"
+      ]
+    },
+    {
+      "name": "9. System Detail",
+      "bytes": 926,
+      "when": [
+        "system",
+        "detail"
+      ]
+    },
+    {
+      "name": "Dark Developer / Builder",
+      "bytes": 504,
+      "when": [
+        "dark",
+        "developer",
+        "builder"
+      ]
+    },
+    {
+      "name": "Dark Product / Operator",
+      "bytes": 409,
+      "when": [
+        "dark",
+        "product",
+        "operator"
+      ]
+    },
+    {
+      "name": "Dark Nature / Calm System",
+      "bytes": 366,
+      "when": [
+        "dark",
+        "nature",
+        "calm",
+        "system"
+      ]
+    },
+    {
+      "name": "Dark Security / Threat Intelligence",
+      "bytes": 373,
+      "when": [
+        "dark",
+        "security",
+        "threat",
+        "intelligence"
+      ]
+    },
+    {
+      "name": "Light Editorial / Compliance",
+      "bytes": 399,
+      "when": [
+        "light",
+        "editorial",
+        "compliance"
+      ]
+    },
+    {
+      "name": "Luxury / Beauty / Fashion",
+      "bytes": 390,
+      "when": [
+        "luxury",
+        "beauty",
+        "fashion"
+      ]
+    },
+    {
+      "name": "Voice / Communication",
+      "bytes": 345,
+      "when": [
+        "voice",
+        "communication"
+      ]
+    },
+    {
+      "name": "Cultural / Experimental",
+      "bytes": 5955,
+      "when": [
+        "cultural",
+        "experimental"
+      ]
+    }
+  ],
+  "keywords": [
+    "brandkit",
+    "reference",
+    "style",
+    "core",
+    "principle",
+    "default",
+    "output",
+    "intake",
+    "strategy",
+    "first",
+    "standard",
+    "concept",
+    "methods"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\brandkit\\SKILL.md"
+}

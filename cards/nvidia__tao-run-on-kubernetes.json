@@ -1,0 +1,178 @@
+{
+  "id": "nvidia__tao-run-on-kubernetes",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e74981cd0873fd2ec4d7b6620bcda995411b122d6a8601b92ab6c973c51b50e6",
+  "purpose": "Kubernetes execution platform — submits TAO container jobs as k8s Jobs with NVIDIA GPU scheduling; single-pod",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Kubernetes execution platform — submits TAO container jobs as k8s Jobs with NVIDIA GPU scheduling; single-pod"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5013,
+  "core_bytes": 20146,
+  "sections": [
+    {
+      "name": "Preflight",
+      "bytes": 2850,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Credentials & configuration",
+      "bytes": 1382,
+      "when": [
+        "credentials",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Execution — the four verbs",
+      "bytes": 5308,
+      "when": [
+        "execution",
+        "four",
+        "verbs"
+      ]
+    },
+    {
+      "name": "submit",
+      "bytes": 2754,
+      "when": [
+        "submit"
+      ]
+    },
+    {
+      "name": "status",
+      "bytes": 872,
+      "when": [
+        "status"
+      ]
+    },
+    {
+      "name": "logs",
+      "bytes": 105,
+      "when": [
+        "logs"
+      ]
+    },
+    {
+      "name": "cancel",
+      "bytes": 300,
+      "when": [
+        "cancel"
+      ]
+    },
+    {
+      "name": "Multi-node (nodes > 1)",
+      "bytes": 991,
+      "when": [
+        "multi",
+        "node",
+        "nodes"
+      ]
+    },
+    {
+      "name": "Local cluster (development, CI, and evals)",
+      "bytes": 1067,
+      "when": [
+        "local",
+        "cluster",
+        "development",
+        "evals"
+      ]
+    },
+    {
+      "name": "Container shell",
+      "bytes": 605,
+      "when": [
+        "container",
+        "shell"
+      ]
+    },
+    {
+      "name": "GPU Operator dependency",
+      "bytes": 764,
+      "when": [
+        "operator",
+        "dependency"
+      ]
+    },
+    {
+      "name": "Multi-node training (distributed)",
+      "bytes": 4091,
+      "when": [
+        "multi",
+        "node",
+        "training",
+        "distributed"
+      ]
+    },
+    {
+      "name": "Cluster requirements for multi-node",
+      "bytes": 649,
+      "when": [
+        "cluster",
+        "requirements",
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Reference reading",
+      "bytes": 448,
+      "when": [
+        "reference",
+        "reading"
+      ]
+    },
+    {
+      "name": "Kubernetes operator alternatives",
+      "bytes": 921,
+      "when": [
+        "kubernetes",
+        "operator",
+        "alternatives"
+      ]
+    },
+    {
+      "name": "Common error patterns",
+      "bytes": 1733,
+      "when": [
+        "common",
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "What this skill does NOT support (yet)",
+      "bytes": 913,
+      "when": [
+        "skill",
+        "support"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-run-on-kubernetes/SKILL.md",
+  "curated": true
+}

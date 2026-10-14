@@ -1,0 +1,97 @@
+{
+  "id": "antfu-skills__pinia",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "504786e177f4e7d00ab1e269f3c84ff7e987ed73868f914266b263f1715775b1",
+  "purpose": "Pinia official Vue state management library, type-safe and extensible. Use when defining stores, working with state/getters/actions, or implementing store patterns in Vue apps.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Pinia official Vue state management library, type-safe and extensible. Use when defining stores, working with state/getters/actions, or implementing store patte"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 695,
+  "core_bytes": 2778,
+  "sections": [
+    {
+      "name": "Core References",
+      "bytes": 224,
+      "when": [
+        "core",
+        "references"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 622,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Extensibility",
+      "bytes": 223,
+      "when": [
+        "extensibility"
+      ]
+    },
+    {
+      "name": "Composability",
+      "bytes": 384,
+      "when": [
+        "composability"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 396,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "bytes": 391,
+      "when": [
+        "advanced"
+      ]
+    },
+    {
+      "name": "Key Recommendations",
+      "bytes": 468,
+      "when": [
+        "recommendations"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "references",
+    "features",
+    "extensibility",
+    "composability",
+    "best",
+    "practices",
+    "advanced",
+    "recommendations"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\pinia\\SKILL.md"
+}

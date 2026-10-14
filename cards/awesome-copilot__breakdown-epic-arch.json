@@ -1,0 +1,73 @@
+{
+  "id": "awesome-copilot__breakdown-epic-arch",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "27d126ec1ab88dd60dadb41d7434036aa7480df8757e9a076cf5d0a8bbb711c9",
+  "purpose": "Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 712,
+  "core_bytes": 2846,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 270,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Context Considerations",
+      "bytes": 485,
+      "when": [
+        "context",
+        "considerations"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 1805,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Specification Structure",
+      "bytes": 1646,
+      "when": [
+        "specification",
+        "structure"
+      ]
+    },
+    {
+      "name": "Context Template",
+      "bytes": 81,
+      "when": [
+        "context",
+        "template"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-epic-arch\\SKILL.md"
+}

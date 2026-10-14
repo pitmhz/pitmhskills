@@ -1,0 +1,311 @@
+{
+  "id": "awesome-copilot__quasi-coder",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5bd225b43ce82a866b25477d11df02fa8ad35305afa66d56ebb878ec6d9f9dce",
+  "purpose": "Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language descriptions. Use when collaborators provide incomplete code snippets, pseudo-code, or",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language descriptions. Use when collaborators provide i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3907,
+  "core_bytes": 15641,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 542,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Role",
+      "bytes": 719,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Understanding Collaborator Expertise Levels",
+      "bytes": 1269,
+      "when": [
+        "understanding",
+        "collaborator",
+        "expertise",
+        "levels"
+      ]
+    },
+    {
+      "name": "High Confidence (90%+)",
+      "bytes": 327,
+      "when": [
+        "high",
+        "confidence"
+      ]
+    },
+    {
+      "name": "Medium Confidence (30-90%)",
+      "bytes": 358,
+      "when": [
+        "medium",
+        "confidence"
+      ]
+    },
+    {
+      "name": "Low Confidence (<30%)",
+      "bytes": 415,
+      "when": [
+        "confidence"
+      ]
+    },
+    {
+      "name": "Compensation Rules",
+      "bytes": 675,
+      "when": [
+        "compensation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Shorthand Interpretation",
+      "bytes": 1443,
+      "when": [
+        "shorthand",
+        "interpretation"
+      ]
+    },
+    {
+      "name": "Markers and Boundaries",
+      "bytes": 358,
+      "when": [
+        "markers",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Shorthand Indicators",
+      "bytes": 281,
+      "when": [
+        "shorthand",
+        "indicators"
+      ]
+    },
+    {
+      "name": "Interpretation Process",
+      "bytes": 454,
+      "when": [
+        "interpretation",
+        "process"
+      ]
+    },
+    {
+      "name": "Comment Handling",
+      "bytes": 245,
+      "when": [
+        "comment",
+        "handling"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 998,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Working with Tools and Reference Files",
+      "bytes": 2758,
+      "when": [
+        "working",
+        "tools",
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Types of Resources",
+      "bytes": 910,
+      "when": [
+        "types",
+        "resources"
+      ]
+    },
+    {
+      "name": "Resource Management Best Practices",
+      "bytes": 615,
+      "when": [
+        "resource",
+        "management",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 948,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Shorthand Key",
+      "bytes": 869,
+      "when": [
+        "shorthand"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 356,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "Variables and Markers",
+      "bytes": 674,
+      "when": [
+        "variables",
+        "markers"
+      ]
+    },
+    {
+      "name": "Example Workflow",
+      "bytes": 1649,
+      "when": [
+        "example",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Scenario: Collaborator Provides Shorthand",
+      "bytes": 323,
+      "when": [
+        "scenario",
+        "collaborator",
+        "provides",
+        "shorthand"
+      ]
+    },
+    {
+      "name": "Step 1: Assess Expertise Level",
+      "bytes": 173,
+      "when": [
+        "step",
+        "assess",
+        "expertise",
+        "level"
+      ]
+    },
+    {
+      "name": "Step 2: Interpret Intent",
+      "bytes": 153,
+      "when": [
+        "step",
+        "interpret",
+        "intent"
+      ]
+    },
+    {
+      "name": "Step 3: Apply Expert Implementation",
+      "bytes": 634,
+      "when": [
+        "step",
+        "apply",
+        "expert",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Expert Decisions Made:",
+      "bytes": 345,
+      "when": [
+        "expert",
+        "decisions",
+        "made"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1512,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Common Pitfalls to Avoid",
+      "bytes": 508,
+      "when": [
+        "common",
+        "pitfalls",
+        "avoid"
+      ]
+    },
+    {
+      "name": "Advanced Usage",
+      "bytes": 1072,
+      "when": [
+        "advanced",
+        "usage"
+      ]
+    },
+    {
+      "name": "Mixed-Language Pseudo-Code",
+      "bytes": 439,
+      "when": [
+        "mixed",
+        "language",
+        "pseudo",
+        "code"
+      ]
+    },
+    {
+      "name": "Non-Code Actions",
+      "bytes": 254,
+      "when": [
+        "code",
+        "actions"
+      ]
+    },
+    {
+      "name": "Complex Multi-Step Logic",
+      "bytes": 360,
+      "when": [
+        "complex",
+        "multi",
+        "step",
+        "logic"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 494,
+      "when": [
+        "summary"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\quasi-coder\\SKILL.md"
+}

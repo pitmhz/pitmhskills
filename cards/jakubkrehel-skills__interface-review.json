@@ -1,0 +1,157 @@
+{
+  "id": "jakubkrehel-skills__interface-review",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "79625246bd1544d4282c6ca3e2eb69c3ea874205521cb84a601c70c2fc638c02",
+  "purpose": "Reviews a branch, pull request or uncommitted change for the interface problems it introduced or regressed, across accessibility, layout, writing, typography, color and UI.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Reviews a branch, pull request or uncommitted change for the interface problems it introduced or regressed, across accessibility, layout, writing, typography, c"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Interface review of a branch/PR/change -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "branch pull request regressed introduced change",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2578,
+  "core_bytes": 10310,
+  "sections": [
+    {
+      "name": "The change, not the codebase",
+      "bytes": 394,
+      "when": [
+        "change",
+        "codebase"
+      ]
+    },
+    {
+      "name": "Core principles",
+      "bytes": 6027,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "1. Resolve the change scope first",
+      "bytes": 1031,
+      "when": [
+        "resolve",
+        "change",
+        "scope",
+        "first"
+      ]
+    },
+    {
+      "name": "2. With no change, ask rather than invent one",
+      "bytes": 1110,
+      "when": [
+        "change",
+        "rather",
+        "invent"
+      ]
+    },
+    {
+      "name": "3. A diff is not a surface",
+      "bytes": 581,
+      "when": [
+        "diff",
+        "surface"
+      ]
+    },
+    {
+      "name": "4. Read the removed lines",
+      "bytes": 426,
+      "when": [
+        "read",
+        "removed",
+        "lines"
+      ]
+    },
+    {
+      "name": "5. Classify every finding",
+      "bytes": 868,
+      "when": [
+        "classify",
+        "finding"
+      ]
+    },
+    {
+      "name": "6. Hold the change to its stated intent",
+      "bytes": 841,
+      "when": [
+        "hold",
+        "change",
+        "stated",
+        "intent"
+      ]
+    },
+    {
+      "name": "7. Hand the review to `better-interface`",
+      "bytes": 359,
+      "when": [
+        "hand",
+        "review",
+        "better",
+        "interface"
+      ]
+    },
+    {
+      "name": "8. Never mutate the working tree",
+      "bytes": 789,
+      "when": [
+        "mutate",
+        "working",
+        "tree"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1313,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Review output format",
+      "bytes": 1712,
+      "when": [
+        "review",
+        "output",
+        "format"
+      ]
+    }
+  ],
+  "keywords": [
+    "review",
+    "codebase",
+    "core",
+    "principles",
+    "resolve",
+    "scope",
+    "first",
+    "rather",
+    "invent",
+    "diff",
+    "surface",
+    "read",
+    "removed",
+    "lines"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\interface-review\\SKILL.md"
+}

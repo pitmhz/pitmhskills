@@ -1,0 +1,233 @@
+{
+  "id": "awesome-copilot__incident-postmortem",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0492b8e05eba16cf045041b519536f906b06b278c77a0a33b4b947ed0b79176b",
+  "purpose": "Use when an outage, production incident, or significant service degradation has occurred and the team needs to write a structured blameless post-mortem. Triggers on phrases like \"write a post-mortem\",",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Use when an outage, production incident, or significant service degradation has occurred and the team needs to write a structured blameless post-mortem. Trigger"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1823,
+  "core_bytes": 7349,
+  "sections": [
+    {
+      "name": "Blameless Principle",
+      "bytes": 258,
+      "when": [
+        "blameless",
+        "principle"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 380,
+      "when": []
+    },
+    {
+      "name": "Input Requirements",
+      "bytes": 1146,
+      "when": [
+        "input",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Incident Metadata",
+      "bytes": 223,
+      "when": [
+        "incident",
+        "metadata"
+      ]
+    },
+    {
+      "name": "Impact",
+      "bytes": 215,
+      "when": [
+        "impact"
+      ]
+    },
+    {
+      "name": "Timeline Events",
+      "bytes": 286,
+      "when": [
+        "timeline",
+        "events"
+      ]
+    },
+    {
+      "name": "Contributing Factors",
+      "bytes": 319,
+      "when": [
+        "contributing",
+        "factors"
+      ]
+    },
+    {
+      "name": "Process",
+      "bytes": 2398,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Step 1 — Gather Metadata",
+      "bytes": 232,
+      "when": [
+        "step",
+        "gather",
+        "metadata"
+      ]
+    },
+    {
+      "name": "Step 2 — Reconstruct Timeline",
+      "bytes": 370,
+      "when": [
+        "step",
+        "reconstruct",
+        "timeline"
+      ]
+    },
+    {
+      "name": "Step 3 — Root Cause Analysis",
+      "bytes": 750,
+      "when": [
+        "step",
+        "root",
+        "cause",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 4 — Impact Quantification",
+      "bytes": 264,
+      "when": [
+        "step",
+        "impact",
+        "quantification"
+      ]
+    },
+    {
+      "name": "Step 5 — Action Items",
+      "bytes": 631,
+      "when": [
+        "step",
+        "action",
+        "items"
+      ]
+    },
+    {
+      "name": "Step 6 — Write the Document",
+      "bytes": 139,
+      "when": [
+        "step",
+        "write",
+        "document"
+      ]
+    },
+    {
+      "name": "Output Template",
+      "bytes": 230,
+      "when": [
+        "output",
+        "template"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 135,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Impact",
+      "bytes": 315,
+      "when": [
+        "impact"
+      ]
+    },
+    {
+      "name": "Timeline",
+      "bytes": 317,
+      "when": [
+        "timeline"
+      ]
+    },
+    {
+      "name": "Root Cause",
+      "bytes": 182,
+      "when": [
+        "root",
+        "cause"
+      ]
+    },
+    {
+      "name": "Contributing Factors",
+      "bytes": 108,
+      "when": [
+        "contributing",
+        "factors"
+      ]
+    },
+    {
+      "name": "What Went Well",
+      "bytes": 108,
+      "when": [
+        "went"
+      ]
+    },
+    {
+      "name": "What Could Have Gone Better",
+      "bytes": 112,
+      "when": [
+        "gone",
+        "better"
+      ]
+    },
+    {
+      "name": "Action Items",
+      "bytes": 194,
+      "when": [
+        "action",
+        "items"
+      ]
+    },
+    {
+      "name": "Lessons Learned",
+      "bytes": 125,
+      "when": [
+        "lessons",
+        "learned"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 603,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\incident-postmortem\\SKILL.md"
+}

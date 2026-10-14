@@ -1,0 +1,235 @@
+{
+  "id": "emilkowalski__write-swift",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "7ff7bdc61fe95535b2be82af72e5e948599b72ccf189a6ac9038c6297bd934f5",
+  "purpose": "How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (som",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 10653,
+  "core_bytes": 42841,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 1944,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "1. Model data with value types",
+      "bytes": 2530,
+      "when": [
+        "model",
+        "data",
+        "value",
+        "types"
+      ]
+    },
+    {
+      "name": "2. Errors and optionals — make the failure paths visible",
+      "bytes": 1316,
+      "when": [
+        "errors",
+        "optionals",
+        "failure",
+        "paths",
+        "visible"
+      ]
+    },
+    {
+      "name": "3. Concurrency: stay single-threaded until profiling says otherwise",
+      "bytes": 4005,
+      "when": [
+        "concurrency",
+        "stay",
+        "single",
+        "threaded",
+        "until",
+        "profiling",
+        "says",
+        "otherwise"
+      ]
+    },
+    {
+      "name": "The rule that changed",
+      "bytes": 1808,
+      "when": [
+        "rule",
+        "changed"
+      ]
+    },
+    {
+      "name": "Actor reentrancy",
+      "bytes": 841,
+      "when": [
+        "actor",
+        "reentrancy"
+      ]
+    },
+    {
+      "name": "4. Sendable and sharing data",
+      "bytes": 2603,
+      "when": [
+        "sendable",
+        "sharing",
+        "data"
+      ]
+    },
+    {
+      "name": "5. Structured concurrency",
+      "bytes": 2746,
+      "when": [
+        "structured",
+        "concurrency"
+      ]
+    },
+    {
+      "name": "6. Concurrency in SwiftUI",
+      "bytes": 1388,
+      "when": [
+        "concurrency",
+        "swiftui"
+      ]
+    },
+    {
+      "name": "7. Protocols and generics",
+      "bytes": 3223,
+      "when": [
+        "protocols",
+        "generics"
+      ]
+    },
+    {
+      "name": "`some` vs `any`",
+      "bytes": 1531,
+      "when": []
+    },
+    {
+      "name": "8. API design — clarity at the point of use",
+      "bytes": 1349,
+      "when": [
+        "design",
+        "clarity",
+        "point"
+      ]
+    },
+    {
+      "name": "9. Performance — measure, then choose",
+      "bytes": 4332,
+      "when": [
+        "performance",
+        "measure",
+        "choose"
+      ]
+    },
+    {
+      "name": "10. ARC and object lifetime",
+      "bytes": 1273,
+      "when": [
+        "object",
+        "lifetime"
+      ]
+    },
+    {
+      "name": "11. Testing — Swift Testing by default",
+      "bytes": 2877,
+      "when": [
+        "testing",
+        "swift",
+        "default"
+      ]
+    },
+    {
+      "name": "12. Macros",
+      "bytes": 1105,
+      "when": [
+        "macros"
+      ]
+    },
+    {
+      "name": "13. Logging and debugging",
+      "bytes": 1287,
+      "when": [
+        "logging",
+        "debugging"
+      ]
+    },
+    {
+      "name": "14. Unsafe code and interop",
+      "bytes": 1331,
+      "when": [
+        "unsafe",
+        "code",
+        "interop"
+      ]
+    },
+    {
+      "name": "15. Modern syntax you should be using",
+      "bytes": 4404,
+      "when": [
+        "modern",
+        "syntax"
+      ]
+    },
+    {
+      "name": "16. Migrating an existing codebase to Swift 6",
+      "bytes": 1362,
+      "when": [
+        "migrating",
+        "existing",
+        "codebase",
+        "swift"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 3219,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    }
+  ],
+  "keywords": [
+    "initial",
+    "response",
+    "model",
+    "errors",
+    "optionals",
+    "failure",
+    "paths",
+    "visible",
+    "stay",
+    "single",
+    "threaded",
+    "until",
+    "profiling",
+    "says",
+    "otherwise"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\write-swift\\SKILL.md"
+}

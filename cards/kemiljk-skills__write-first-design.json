@@ -1,0 +1,49 @@
+{
+  "id": "kemiljk-skills__write-first-design",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "1b5e03889d0db1a882e3790445976ce20945d5b9aad12212f44a1d1e77791977",
+  "purpose": "Clarify uncertain product decisions in a short written brief before substantial design or implementation work.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Clarify uncertain product decisions in a short written brief before substantial design or implementation work."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Settle product decisions in a written brief first -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "brief decisions",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 363,
+  "core_bytes": 1458,
+  "sections": [
+    {
+      "name": "Source essays",
+      "bytes": 116,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "write",
+    "first",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\write-first-design\\SKILL.md"
+}

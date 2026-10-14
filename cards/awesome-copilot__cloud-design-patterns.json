@@ -1,0 +1,72 @@
+{
+  "id": "awesome-copilot__cloud-design-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "69b0e14a0011137f7253f90b85745eba1710d8849710e3b5b677e3bf9dfe6320",
+  "purpose": "Cloud design patterns for distributed systems architecture covering 42 industry-standard patterns across reliability, performance, messaging, security, and deployment categories. Use when designing, r",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Cloud design patterns for distributed systems architecture covering 42 industry-standard patterns across reliability, performance, messaging, security, and depl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1139,
+  "core_bytes": 4555,
+  "sections": [
+    {
+      "name": "How Cloud Design Patterns Enhance the Design Process",
+      "bytes": 812,
+      "when": [
+        "cloud",
+        "design",
+        "patterns",
+        "enhance",
+        "process"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1539,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Pattern Categories at a Glance",
+      "bytes": 715,
+      "when": [
+        "pattern",
+        "categories",
+        "glance"
+      ]
+    },
+    {
+      "name": "External Links",
+      "bytes": 227,
+      "when": [
+        "external",
+        "links"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\cloud-design-patterns\\SKILL.md"
+}

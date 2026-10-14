@@ -1,0 +1,95 @@
+{
+  "id": "uiskills-staged__typeset",
+  "tier": "B",
+  "origin": [
+    "local@typeset"
+  ],
+  "license": "Apache-2.0",
+  "hash": "2e257f1699a437baa4ef516129b2ec9ac08244cff315b5684743be48a287dd96",
+  "purpose": "Typography carries information, hierarchy, and voice. Improve it inside the established visual world; do not replace the identity unless the user asked to.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Typography carries information, hierarchy, and voice. Improve it inside the established visual world; do not replace the identity unless the user asked to."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Typography system refinement -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "typeset cadence readability",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1334,
+  "core_bytes": 5348,
+  "sections": [
+    {
+      "name": "Visitor mode",
+      "bytes": 600,
+      "when": [
+        "visitor",
+        "mode"
+      ]
+    },
+    {
+      "name": "Two isolated assessments",
+      "bytes": 1703,
+      "when": [
+        "isolated",
+        "assessments"
+      ]
+    },
+    {
+      "name": "Set the system",
+      "bytes": 525,
+      "when": [
+        "system"
+      ]
+    },
+    {
+      "name": "Apply",
+      "bytes": 1308,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 663,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Live-mode signature params",
+      "bytes": 383,
+      "when": [
+        "live",
+        "mode",
+        "signature",
+        "params"
+      ]
+    }
+  ],
+  "keywords": [
+    "visitor",
+    "mode",
+    "isolated",
+    "assessments",
+    "system",
+    "apply",
+    "verify",
+    "live",
+    "signature",
+    "params"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\typeset\\SKILL.md"
+}

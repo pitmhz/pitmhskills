@@ -27,10 +27,17 @@ export function buildIndex(): { cards: number; errors: string[] } {
       const errs = validateCard(c);
       if (errs.length) { errors.push(`${f}: ${errs.join("; ")}`); continue; }
       const provider = c.id.split("__")[0] ?? "unknown";
-      const useW = JSON.stringify(c.use_when);
+      // keywords fold into the indexed text only (FTS + vectors + scoring hay);
+      // the card's use_when stays human-readable for guards and ASK questions.
+      const kw = (c as Card & { keywords?: string[] }).keywords ?? [];
+      // keywords fold into the indexed use_when text so FTS, vectors, and the
+      // scoring hay all see them. Guards slice use_when[0..3], so appended
+      // keywords never surface in delivered bodies or ASK questions.
+      const useW = JSON.stringify([...c.use_when, ...kw]);
+      const indexText = [...c.use_when, ...kw].join(" ");
       ins.run(c.id, provider, c.tier, JSON.stringify(c.origin ?? []), c.license ?? "UNKNOWN", c.hash ?? "", c.purpose, c.domain, JSON.stringify(c.task_types), useW, JSON.stringify(c.do_not_use_when), c.scope, c.disambiguator ?? "", c.cluster ?? "", c.cluster_role ?? "primary", c.pick_over_primary_when ?? null, c.pairs_with ?? null, JSON.stringify(c.requires ?? {}), JSON.stringify(c.conflicts_with ?? []), c.core_bytes ?? 0, JSON.stringify(c.sections ?? []), JSON.stringify(c.verify ?? []), c.skill_path ?? "", "");
-      insFts.run(c.id, c.purpose, c.use_when.join(" "), c.domain, c.task_types.join(" "));
-      const text = [c.purpose, c.domain, c.task_types.join(" "), c.use_when.join(" ")].join("\n");
+      insFts.run(c.id, c.purpose, indexText, c.domain, c.task_types.join(" "));
+      const text = [c.purpose, c.domain, c.task_types.join(" "), indexText].join("\n");
       insVec.run(c.id, JSON.stringify(embed(text)), 512);
       n++;
     } catch (e) {

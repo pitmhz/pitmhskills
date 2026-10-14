@@ -29,7 +29,41 @@
   "conflicts_with": [],
   "body_tokens": 1104,
   "core_bytes": 4413,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/retro/SKILL.md"
+  "sections": [
+    {
+      "name": "Steps",
+      "bytes": 2888,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 1266,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Implementation vs Review",
+      "bytes": 511,
+      "when": [
+        "implementation",
+        "review"
+      ]
+    },
+    {
+      "name": "Files",
+      "bytes": 739,
+      "when": [
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/retro/SKILL.md",
+  "curated": true
 }

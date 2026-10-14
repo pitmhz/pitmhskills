@@ -1,0 +1,95 @@
+{
+  "id": "awesome-copilot__python-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d12cecc1c39ef7fb3e580b7965bb1a8bf46daf1b0d5d04f09d0b858283c5ae2a",
+  "purpose": "Use this skill when the user wants to create a new Model Context Protocol (MCP) server in Python. Also use it to expose Python functions, an API, or a database to AI clients as MCP tools. The skill ma",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when the user wants to create a new Model Context Protocol (MCP) server in Python. Also use it to expose Python functions, an API, or a database "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1728,
+  "core_bytes": 6910,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 3581,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Create the project",
+      "bytes": 395,
+      "when": [
+        "step",
+        "create",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 2: Write the server",
+      "bytes": 1350,
+      "when": [
+        "step",
+        "write",
+        "server"
+      ]
+    },
+    {
+      "name": "Step 3: Write the tests",
+      "bytes": 868,
+      "when": [
+        "step",
+        "write",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 4: Run the tests until they pass",
+      "bytes": 200,
+      "when": [
+        "step",
+        "tests",
+        "until",
+        "they",
+        "pass"
+      ]
+    },
+    {
+      "name": "Step 5: Configure the client",
+      "bytes": 530,
+      "when": [
+        "step",
+        "configure",
+        "client"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2395,
+      "when": [
+        "gotchas"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\python-mcp-server-generator\\SKILL.md"
+}

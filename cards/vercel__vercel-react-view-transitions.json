@@ -27,7 +27,269 @@
   "conflicts_with": [],
   "body_tokens": 3669,
   "core_bytes": 14739,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "When to Animate",
+      "bytes": 1687,
+      "when": [
+        "animate"
+      ]
+    },
+    {
+      "name": "Choosing Animation Style",
+      "bytes": 864,
+      "when": [
+        "choosing",
+        "animation",
+        "style"
+      ]
+    },
+    {
+      "name": "Availability",
+      "bytes": 519,
+      "when": [
+        "availability"
+      ]
+    },
+    {
+      "name": "Implementation Workflow",
+      "bytes": 323,
+      "when": [
+        "implementation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "bytes": 1349,
+      "when": [
+        "core",
+        "concepts"
+      ]
+    },
+    {
+      "name": "The `<ViewTransition>` Component",
+      "bytes": 309,
+      "when": [
+        "viewtransition",
+        "component"
+      ]
+    },
+    {
+      "name": "Animation Triggers",
+      "bytes": 622,
+      "when": [
+        "animation",
+        "triggers"
+      ]
+    },
+    {
+      "name": "Critical Placement Rule",
+      "bytes": 398,
+      "when": [
+        "critical",
+        "placement",
+        "rule"
+      ]
+    },
+    {
+      "name": "Styling with View Transition Classes",
+      "bytes": 735,
+      "when": [
+        "styling",
+        "view",
+        "transition",
+        "classes"
+      ]
+    },
+    {
+      "name": "Props",
+      "bytes": 332,
+      "when": [
+        "props"
+      ]
+    },
+    {
+      "name": "CSS Pseudo-Elements",
+      "bytes": 360,
+      "when": [
+        "pseudo",
+        "elements"
+      ]
+    },
+    {
+      "name": "Transition Types",
+      "bytes": 2591,
+      "when": [
+        "transition",
+        "types"
+      ]
+    },
+    {
+      "name": "`router.back()` and Browser Back Button",
+      "bytes": 335,
+      "when": [
+        "router",
+        "back",
+        "browser",
+        "button"
+      ]
+    },
+    {
+      "name": "Types and Suspense",
+      "bytes": 234,
+      "when": [
+        "types",
+        "suspense"
+      ]
+    },
+    {
+      "name": "Shared Element Readiness",
+      "bytes": 326,
+      "when": [
+        "shared",
+        "element",
+        "readiness"
+      ]
+    },
+    {
+      "name": "Shared Element Transitions",
+      "bytes": 1501,
+      "when": [
+        "shared",
+        "element",
+        "transitions"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 2304,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Enter/Exit",
+      "bytes": 127,
+      "when": [
+        "enter",
+        "exit"
+      ]
+    },
+    {
+      "name": "List Reorder",
+      "bytes": 218,
+      "when": [
+        "list",
+        "reorder"
+      ]
+    },
+    {
+      "name": "Layout Displacement Morph",
+      "bytes": 351,
+      "when": [
+        "layout",
+        "displacement",
+        "morph"
+      ]
+    },
+    {
+      "name": "Composing Shared Elements with List Identity",
+      "bytes": 859,
+      "when": [
+        "composing",
+        "shared",
+        "elements",
+        "list",
+        "identity"
+      ]
+    },
+    {
+      "name": "Force Re-Enter with `key`",
+      "bytes": 260,
+      "when": [
+        "force",
+        "enter"
+      ]
+    },
+    {
+      "name": "Suspense Fallback to Content",
+      "bytes": 467,
+      "when": [
+        "suspense",
+        "fallback",
+        "content"
+      ]
+    },
+    {
+      "name": "How Multiple VTs Interact",
+      "bytes": 1583,
+      "when": [
+        "multiple",
+        "interact"
+      ]
+    },
+    {
+      "name": "Use `default=\"none\"` Deliberately",
+      "bytes": 492,
+      "when": [
+        "default",
+        "none",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "Two Patterns Coexist",
+      "bytes": 411,
+      "when": [
+        "patterns",
+        "coexist"
+      ]
+    },
+    {
+      "name": "Nested VT Limitation",
+      "bytes": 463,
+      "when": [
+        "nested",
+        "limitation"
+      ]
+    },
+    {
+      "name": "Next.js Integration",
+      "bytes": 202,
+      "when": [
+        "next",
+        "integration"
+      ]
+    },
+    {
+      "name": "Accessibility",
+      "bytes": 166,
+      "when": [
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 578,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Full Compiled Document",
+      "bytes": 100,
+      "when": [
+        "full",
+        "compiled",
+        "document"
+      ]
+    }
+  ],
+  "verify": [
+    "npx tsc --noEmit"
+  ],
   "skill_path": "skills/vercel/skills/react-view-transitions/SKILL.md"
 }

@@ -27,7 +27,89 @@
   "conflicts_with": [],
   "body_tokens": 890,
   "core_bytes": 3579,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/notion-spec-to-implementation/SKILL.md"
+  "sections": [
+    {
+      "name": "Quick start",
+      "bytes": 460,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2343,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "0) If any MCP call fails because Notion MCP is not connected, pause and set it u",
+      "bytes": 521,
+      "when": [
+        "call",
+        "fails",
+        "because",
+        "notion",
+        "connected",
+        "pause"
+      ]
+    },
+    {
+      "name": "1) Locate and read the spec",
+      "bytes": 371,
+      "when": [
+        "locate",
+        "read",
+        "spec"
+      ]
+    },
+    {
+      "name": "2) Choose plan depth",
+      "bytes": 361,
+      "when": [
+        "choose",
+        "plan",
+        "depth"
+      ]
+    },
+    {
+      "name": "3) Create tasks",
+      "bytes": 562,
+      "when": [
+        "create",
+        "tasks"
+      ]
+    },
+    {
+      "name": "4) Link artifacts",
+      "bytes": 220,
+      "when": [
+        "link",
+        "artifacts"
+      ]
+    },
+    {
+      "name": "5) Track progress",
+      "bytes": 293,
+      "when": [
+        "track",
+        "progress"
+      ]
+    },
+    {
+      "name": "References and examples",
+      "bytes": 323,
+      "when": [
+        "references",
+        "examples"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/notion-spec-to-implementation/SKILL.md",
+  "curated": true
 }

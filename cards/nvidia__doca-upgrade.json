@@ -1,0 +1,93 @@
+{
+  "id": "nvidia__doca-upgrade",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b3878cb6a45fff3ce5ff7be8ee1cf31be123751d57cea9afc85f44bb06a52fc8",
+  "purpose": "Use this skill when the user is contemplating a DOCA upgrade or downgrade — moving a host to a newer DOCA release, refreshing the BlueField BFB, bumping the NGC DOCA container tag, or rolling back. Th",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when the user is contemplating a DOCA upgrade or downgrade — moving a host to a newer DOCA release, refreshing the BlueField BFB, bumping the NGC"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3440,
+  "core_bytes": 13833,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 3178,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 843,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "Agent activation checklist — load this skill at the START of the answer when any",
+      "bytes": 3353,
+      "when": [
+        "agent",
+        "activation",
+        "checklist",
+        "load",
+        "skill",
+        "start",
+        "answer",
+        "cell"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1209,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 549,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 1845,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-upgrade\\SKILL.md",
+  "curated": true
+}

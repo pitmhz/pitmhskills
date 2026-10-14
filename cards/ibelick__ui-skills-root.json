@@ -1,0 +1,63 @@
+{
+  "id": "ibelick__ui-skills-root",
+  "tier": "C",
+  "origin": [
+    "ibelick/ui-skills@c628a5917754ec2396d9cbb47988f280ba1d5cb0"
+  ],
+  "license": "MIT",
+  "hash": "3438b30675301cff02949a892e1d227ab3cc57a9ec88dc9ad38c3b613fab9afa",
+  "purpose": "Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI."
+  ],
+  "do_not_use_when": [
+    "Any routing task (pitmhskills routes; this card points at the external ui-skills CLI)"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 377,
+  "core_bytes": 1507,
+  "sections": [
+    {
+      "name": "Protocol",
+      "bytes": 269,
+      "when": [
+        "protocol"
+      ]
+    },
+    {
+      "name": "CLI",
+      "bytes": 141,
+      "when": []
+    },
+    {
+      "name": "Selection Rules",
+      "bytes": 495,
+      "when": [
+        "selection",
+        "rules"
+      ]
+    }
+  ],
+  "keywords": [
+    "root",
+    "protocol",
+    "selection",
+    "rules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\ui-skills-root\\SKILL.md",
+  "curated": true
+}

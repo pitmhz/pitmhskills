@@ -1,0 +1,184 @@
+{
+  "id": "nvidia__tilegym-cutile-autotuning",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3225a000c7decf4e24002be257bbe918096107021f2f39f1aa7c619c2340a01b",
+  "purpose": "Use when adding, modifying, optimizing, or debugging CuTile autotuning code. Trigger signals: `exhaustive_search` / `replace_hints` / `hints_fn` / `cuda.tile.tune` in code, `autotune` in filenames, or",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when adding, modifying, optimizing, or debugging CuTile autotuning code. Trigger signals: `exhaustive_search` / `replace_hints` / `hints_fn` / `cuda.tile.tu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4677,
+  "core_bytes": 18943,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1015,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Task Router — Jump to What You Need",
+      "bytes": 786,
+      "when": [
+        "task",
+        "router",
+        "jump",
+        "need"
+      ]
+    },
+    {
+      "name": "Quick Reference — Occupancy-Only Autotune (Tune-Once/Cache/Launch)",
+      "bytes": 4442,
+      "when": [
+        "quick",
+        "reference",
+        "occupancy",
+        "autotune",
+        "tune",
+        "once",
+        "cache",
+        "launch"
+      ]
+    },
+    {
+      "name": "Reading Guide",
+      "bytes": 1029,
+      "when": [
+        "reading",
+        "guide"
+      ]
+    },
+    {
+      "name": "Design Philosophy",
+      "bytes": 1052,
+      "when": [
+        "design",
+        "philosophy"
+      ]
+    },
+    {
+      "name": "Decision Tree: What Search Dimensions Does This Kernel Need?",
+      "bytes": 2584,
+      "when": [
+        "decision",
+        "tree",
+        "search",
+        "dimensions",
+        "kernel",
+        "need"
+      ]
+    },
+    {
+      "name": "Occupancy Selection Guide",
+      "bytes": 676,
+      "when": [
+        "occupancy",
+        "selection",
+        "guide"
+      ]
+    },
+    {
+      "name": "exhaustive_search API Reference",
+      "bytes": 305,
+      "when": [
+        "exhaustive",
+        "search",
+        "reference"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflow",
+      "bytes": 329,
+      "when": [
+        "step",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Pitfall Checklist",
+      "bytes": 334,
+      "when": [
+        "pitfall",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Scope and Boundaries",
+      "bytes": 856,
+      "when": [
+        "scope",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Further Optimization Suggestions",
+      "bytes": 1239,
+      "when": [
+        "further",
+        "optimization",
+        "suggestions"
+      ]
+    },
+    {
+      "name": "Differences from Triton Autotune",
+      "bytes": 539,
+      "when": [
+        "differences",
+        "triton",
+        "autotune"
+      ]
+    },
+    {
+      "name": "Reference Documents",
+      "bytes": 1437,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "Source Code References",
+      "bytes": 411,
+      "when": [
+        "source",
+        "code",
+        "references"
+      ]
+    },
+    {
+      "name": "Worked Examples",
+      "bytes": 1238,
+      "when": [
+        "worked",
+        "examples"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- pytest -k \"test_op and cutile\""
+  ],
+  "skill_path": "skills/nvidia/skills/tilegym-cutile-autotuning/SKILL.md",
+  "curated": true
+}

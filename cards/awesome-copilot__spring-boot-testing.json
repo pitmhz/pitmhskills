@@ -1,0 +1,190 @@
+{
+  "id": "awesome-copilot__spring-boot-testing",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8161940340dc52766242ab30589369623b31089b41ebd7baa19a27f411648550",
+  "purpose": "Expert Spring Boot 4 testing specialist that selects the best Spring Boot testing techniques for your situation with Junit 6 and AssertJ.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Expert Spring Boot 4 testing specialist that selects the best Spring Boot testing techniques for your situation with Junit 6 and AssertJ."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1664,
+  "core_bytes": 6668,
+  "sections": [
+    {
+      "name": "Core Principles",
+      "bytes": 323,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "Which Test Slice?",
+      "bytes": 652,
+      "when": [
+        "test",
+        "slice"
+      ]
+    },
+    {
+      "name": "Test Slices Reference",
+      "bytes": 390,
+      "when": [
+        "test",
+        "slices",
+        "reference"
+      ]
+    },
+    {
+      "name": "Testing Tools Reference",
+      "bytes": 392,
+      "when": [
+        "testing",
+        "tools",
+        "reference"
+      ]
+    },
+    {
+      "name": "Assertion Libraries",
+      "bytes": 225,
+      "when": [
+        "assertion",
+        "libraries"
+      ]
+    },
+    {
+      "name": "Testcontainers",
+      "bytes": 119,
+      "when": [
+        "testcontainers"
+      ]
+    },
+    {
+      "name": "Test Data Generation",
+      "bytes": 127,
+      "when": [
+        "test",
+        "data",
+        "generation"
+      ]
+    },
+    {
+      "name": "Performance & Migration",
+      "bytes": 204,
+      "when": [
+        "performance",
+        "migration"
+      ]
+    },
+    {
+      "name": "Quick Decision Tree",
+      "bytes": 484,
+      "when": [
+        "quick",
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Spring Boot 4 Highlights",
+      "bytes": 342,
+      "when": [
+        "spring",
+        "boot",
+        "highlights"
+      ]
+    },
+    {
+      "name": "Testing Best Practices",
+      "bytes": 2537,
+      "when": [
+        "testing",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Code Complexity Assessment",
+      "bytes": 1034,
+      "when": [
+        "code",
+        "complexity",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Avoid Code Redundancy",
+      "bytes": 135,
+      "when": [
+        "avoid",
+        "code",
+        "redundancy"
+      ]
+    },
+    {
+      "name": "Test Organization with @DisplayName",
+      "bytes": 346,
+      "when": [
+        "test",
+        "organization",
+        "displayname"
+      ]
+    },
+    {
+      "name": "Test Coverage Order",
+      "bytes": 261,
+      "when": [
+        "test",
+        "coverage",
+        "order"
+      ]
+    },
+    {
+      "name": "Test Production Scenarios",
+      "bytes": 179,
+      "when": [
+        "test",
+        "production",
+        "scenarios"
+      ]
+    },
+    {
+      "name": "Test Coverage Goals",
+      "bytes": 555,
+      "when": [
+        "test",
+        "coverage",
+        "goals"
+      ]
+    },
+    {
+      "name": "Dependencies (Spring Boot 4)",
+      "bytes": 550,
+      "when": [
+        "dependencies",
+        "spring",
+        "boot"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\spring-boot-testing\\SKILL.md"
+}

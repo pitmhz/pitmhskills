@@ -1,0 +1,277 @@
+{
+  "id": "awesome-copilot__php-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e4ac56da9b7bfea6a03dece665b2c959ba8862da2ab97dc4041b891662620e37",
+  "purpose": "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2697,
+  "core_bytes": 10897,
+  "sections": [
+    {
+      "name": "Project Requirements",
+      "bytes": 357,
+      "when": [
+        "project",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Project Structure",
+      "bytes": 460,
+      "when": [
+        "project",
+        "structure"
+      ]
+    },
+    {
+      "name": "File Templates",
+      "bytes": 780,
+      "when": [
+        "file",
+        "templates"
+      ]
+    },
+    {
+      "name": "composer.json",
+      "bytes": 612,
+      "when": [
+        "composer",
+        "json"
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "bytes": 82,
+      "when": [
+        "gitignore"
+      ]
+    },
+    {
+      "name": "README.md",
+      "bytes": 67,
+      "when": [
+        "readme"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 49,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 47,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 237,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Start Server (Stdio)",
+      "bytes": 54,
+      "when": [
+        "start",
+        "server",
+        "stdio"
+      ]
+    },
+    {
+      "name": "Configure in Claude Desktop",
+      "bytes": 173,
+      "when": [
+        "configure",
+        "claude",
+        "desktop"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 44,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Tools",
+      "bytes": 49,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Development",
+      "bytes": 6493,
+      "when": [
+        "development"
+      ]
+    },
+    {
+      "name": "server.php",
+      "bytes": 767,
+      "when": [
+        "server"
+      ]
+    },
+    {
+      "name": "src/Tools/ExampleTool.php",
+      "bytes": 1092,
+      "when": [
+        "tools",
+        "exampletool"
+      ]
+    },
+    {
+      "name": "src/Resources/ConfigResource.php",
+      "bytes": 639,
+      "when": [
+        "resources",
+        "configresource"
+      ]
+    },
+    {
+      "name": "src/Resources/DataProvider.php",
+      "bytes": 646,
+      "when": [
+        "resources",
+        "dataprovider"
+      ]
+    },
+    {
+      "name": "src/Prompts/PromptGenerator.php",
+      "bytes": 1358,
+      "when": [
+        "prompts",
+        "promptgenerator"
+      ]
+    },
+    {
+      "name": "tests/ToolsTest.php",
+      "bytes": 1337,
+      "when": [
+        "tests",
+        "toolstest"
+      ]
+    },
+    {
+      "name": "phpunit.xml.dist",
+      "bytes": 544,
+      "when": [
+        "phpunit",
+        "dist"
+      ]
+    },
+    {
+      "name": "Implementation Guidelines",
+      "bytes": 591,
+      "when": [
+        "implementation",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Tool Patterns",
+      "bytes": 597,
+      "when": [
+        "tool",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Simple Tool",
+      "bytes": 129,
+      "when": [
+        "simple",
+        "tool"
+      ]
+    },
+    {
+      "name": "Tool with Validation",
+      "bytes": 204,
+      "when": [
+        "tool",
+        "validation"
+      ]
+    },
+    {
+      "name": "Tool with Enum",
+      "bytes": 246,
+      "when": [
+        "tool",
+        "enum"
+      ]
+    },
+    {
+      "name": "Resource Patterns",
+      "bytes": 407,
+      "when": [
+        "resource",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Static Resource",
+      "bytes": 175,
+      "when": [
+        "static",
+        "resource"
+      ]
+    },
+    {
+      "name": "Dynamic Resource",
+      "bytes": 210,
+      "when": [
+        "dynamic",
+        "resource"
+      ]
+    },
+    {
+      "name": "Running the Server",
+      "bytes": 213,
+      "when": [
+        "running",
+        "server"
+      ]
+    },
+    {
+      "name": "Claude Desktop Configuration",
+      "bytes": 235,
+      "when": [
+        "claude",
+        "desktop",
+        "configuration"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\php-mcp-server-generator\\SKILL.md"
+}

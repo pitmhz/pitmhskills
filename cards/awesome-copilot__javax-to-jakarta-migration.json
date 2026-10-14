@@ -1,0 +1,101 @@
+{
+  "id": "awesome-copilot__javax-to-jakarta-migration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f93b85539e4f58f0254f935c053fb8a1923b1482ff17062046d884b6ed910c79",
+  "purpose": "Migrate Java code from javax.* to jakarta.* namespace. Use when upgrading to Tomcat 11, Jakarta EE 10, or when javax imports are detected in the codebase.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Migrate Java code from javax.* to jakarta.* namespace. Use when upgrading to Tomcat 11, Jakarta EE 10, or when javax imports are detected in the codebase."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 626,
+  "core_bytes": 2556,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 155,
+      "when": []
+    },
+    {
+      "name": "Procedure",
+      "bytes": 2099,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Step 1 — Scan for javax Usage",
+      "bytes": 922,
+      "when": [
+        "step",
+        "scan",
+        "javax",
+        "usage"
+      ]
+    },
+    {
+      "name": "Step 2 — Update pom.xml",
+      "bytes": 462,
+      "when": [
+        "step",
+        "update"
+      ]
+    },
+    {
+      "name": "Step 3 — Update web.xml (if present)",
+      "bytes": 237,
+      "when": [
+        "step",
+        "update",
+        "present"
+      ]
+    },
+    {
+      "name": "Step 4 — Update Java Source Files",
+      "bytes": 116,
+      "when": [
+        "step",
+        "update",
+        "java",
+        "source",
+        "files"
+      ]
+    },
+    {
+      "name": "Step 5 — Verify",
+      "bytes": 233,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 115,
+      "when": [
+        "output"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\javax-to-jakarta-migration\\SKILL.md"
+}

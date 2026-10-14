@@ -1,0 +1,142 @@
+{
+  "id": "nvidia__vss-setup-video-analytics-api",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a38120b0682a5da3391f991c7c81a02140fc06cbfe8ba4102dc34f5b84e79455",
+  "purpose": "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2353,
+  "core_bytes": 9430,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 158,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 239,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 937,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 337,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1277,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 353,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 2245,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 646,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Endpoint Reference",
+      "bytes": 193,
+      "when": [
+        "endpoint",
+        "reference"
+      ]
+    },
+    {
+      "name": "Kafka-dependent features (runtime, requires broker)",
+      "bytes": 1464,
+      "when": [
+        "kafka",
+        "dependent",
+        "features",
+        "runtime",
+        "requires",
+        "broker"
+      ]
+    },
+    {
+      "name": "Dynamic config",
+      "bytes": 677,
+      "when": [
+        "dynamic",
+        "config"
+      ]
+    },
+    {
+      "name": "Dynamic calibration",
+      "bytes": 472,
+      "when": [
+        "dynamic",
+        "calibration"
+      ]
+    },
+    {
+      "name": "RTLS / AMR",
+      "bytes": 147,
+      "when": [
+        "rtls"
+      ]
+    },
+    {
+      "name": "Routing rules",
+      "bytes": 1084,
+      "when": [
+        "routing",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-setup-video-analytics-api/SKILL.md",
+  "curated": true
+}

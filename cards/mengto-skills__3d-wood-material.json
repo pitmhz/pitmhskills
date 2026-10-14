@@ -1,0 +1,95 @@
+{
+  "id": "mengto-skills__3d-wood-material",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "0ba0a910347b3079acdb8446954724be07a09b99462b794fa366557acf3e5994",
+  "purpose": "Build convincing timber for Three.js as one procedural MeshPhysicalMaterial with growth rings, cathedral figure, pores, medullary rays, checks, tool marks, end grain, and oil, wax, or lacquer finishes",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build convincing timber for Three.js as one procedural MeshPhysicalMaterial with growth rings, cathedral figure, pores, medullary rays, checks, tool marks, end "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2778,
+  "core_bytes": 11124,
+  "sections": [
+    {
+      "name": "Recipe",
+      "bytes": 3681,
+      "when": [
+        "recipe"
+      ]
+    },
+    {
+      "name": "Species constants (from the workshop)",
+      "bytes": 874,
+      "when": [
+        "species",
+        "constants",
+        "workshop"
+      ]
+    },
+    {
+      "name": "Anchored failures",
+      "bytes": 3005,
+      "when": [
+        "anchored",
+        "failures"
+      ]
+    },
+    {
+      "name": "Budgets",
+      "bytes": 788,
+      "when": [
+        "budgets"
+      ]
+    },
+    {
+      "name": "Self-score of this material (0 to 10, anchored)",
+      "bytes": 952,
+      "when": [
+        "self",
+        "score",
+        "material",
+        "anchored"
+      ]
+    },
+    {
+      "name": "Provenance",
+      "bytes": 342,
+      "when": [
+        "provenance"
+      ]
+    }
+  ],
+  "keywords": [
+    "material",
+    "recipe",
+    "species",
+    "constants",
+    "workshop",
+    "anchored",
+    "failures",
+    "budgets",
+    "self",
+    "score",
+    "provenance"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-wood-material\\SKILL.md"
+}

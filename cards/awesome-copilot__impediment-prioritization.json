@@ -1,0 +1,115 @@
+{
+  "id": "awesome-copilot__impediment-prioritization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "dd6c9adda40b97375f9a72537d536ef9c9e98a1f43827d9f84bea4e699bece43",
+  "purpose": "Ranks any list of impediments and their countermeasures using a value-stream scoring model (ROI, Cost to Implement, Ease of Deployment, Risk Factor) and a fixed prioritization formula. Use when someon",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Ranks any list of impediments and their countermeasures using a value-stream scoring model (ROI, Cost to Implement, Ease of Deployment, Risk Factor) and a fixed"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2256,
+  "core_bytes": 9072,
+  "sections": [
+    {
+      "name": "When to Activate",
+      "bytes": 455,
+      "when": [
+        "activate"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1046,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Scoring Rubric (1–10 scales)",
+      "bytes": 1427,
+      "when": [
+        "scoring",
+        "rubric",
+        "scales"
+      ]
+    },
+    {
+      "name": "Formula",
+      "bytes": 504,
+      "when": [
+        "formula"
+      ]
+    },
+    {
+      "name": "Method (agent procedure)",
+      "bytes": 912,
+      "when": [
+        "method",
+        "agent",
+        "procedure"
+      ]
+    },
+    {
+      "name": "Output Template",
+      "bytes": 32,
+      "when": [
+        "output",
+        "template"
+      ]
+    },
+    {
+      "name": "Prioritized Impediments",
+      "bytes": 2662,
+      "when": [
+        "prioritized",
+        "impediments"
+      ]
+    },
+    {
+      "name": "Top 3 — Act First",
+      "bytes": 2145,
+      "when": [
+        "first"
+      ]
+    },
+    {
+      "name": "Assumptions & Guardrails",
+      "bytes": 575,
+      "when": [
+        "assumptions",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Downstream Integration (optional)",
+      "bytes": 307,
+      "when": [
+        "downstream",
+        "integration",
+        "optional"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\impediment-prioritization\\SKILL.md"
+}

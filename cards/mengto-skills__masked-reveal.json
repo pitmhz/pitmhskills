@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__masked-reveal",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "42fd8ab9f3659cbe2ba5782a4b79cbe9f69a9628778d63bb04e7117ffd332e8f",
+  "purpose": "Create masked staggered word reveals on scroll with GSAP ScrollTrigger. Use when headings, hero copy, section titles, or editorial text should reveal word-by-word through an overflow mask as they ente",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create masked staggered word reveals on scroll with GSAP ScrollTrigger. Use when headings, hero copy, section titles, or editorial text should reveal word-by-wo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Masked/clipped entrance reveals -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "masked clipped entrances headings",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1028,
+  "core_bytes": 4112,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 227,
+      "when": []
+    },
+    {
+      "name": "Motion Defaults",
+      "bytes": 270,
+      "when": [
+        "motion",
+        "defaults"
+      ]
+    },
+    {
+      "name": "HTML",
+      "bytes": 138,
+      "when": [
+        "html"
+      ]
+    },
+    {
+      "name": "CSS Mask",
+      "bytes": 614,
+      "when": [
+        "mask"
+      ]
+    },
+    {
+      "name": "GSAP ScrollTrigger",
+      "bytes": 1595,
+      "when": [
+        "gsap",
+        "scrolltrigger"
+      ]
+    },
+    {
+      "name": "React Cleanup Pattern",
+      "bytes": 208,
+      "when": [
+        "react",
+        "cleanup",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Taste Rules",
+      "bytes": 483,
+      "when": [
+        "taste",
+        "rules"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 295,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "motion",
+    "defaults",
+    "html",
+    "react",
+    "cleanup",
+    "pattern",
+    "taste",
+    "rules",
+    "quick",
+    "checks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\masked-reveal\\SKILL.md"
+}

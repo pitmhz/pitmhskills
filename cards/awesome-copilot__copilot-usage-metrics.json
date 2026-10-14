@@ -1,0 +1,88 @@
+{
+  "id": "awesome-copilot__copilot-usage-metrics",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5ebe9cf0fd07a9be9dacb36c0dfd00c00bd30328ef086928be6d850bda9cebe6",
+  "purpose": "Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API.",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 609,
+  "core_bytes": 2441,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 307,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "How to use this skill",
+      "bytes": 410,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Available scripts",
+      "bytes": 641,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Organization metrics",
+      "bytes": 309,
+      "when": [
+        "organization",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Enterprise metrics",
+      "bytes": 310,
+      "when": [
+        "enterprise",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Formatting the output",
+      "bytes": 373,
+      "when": [
+        "formatting",
+        "output"
+      ]
+    },
+    {
+      "name": "Important notes",
+      "bytes": 413,
+      "when": [
+        "important",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\copilot-usage-metrics\\SKILL.md"
+}

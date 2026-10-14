@@ -1,0 +1,130 @@
+{
+  "id": "nvidia__tao-train-sparse4d",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "be7fb2d9274e17f6d87edb7ad8c864808984aebbb18284c4225520bb83b54703",
+  "purpose": "Sparse4D for multi-camera temporal 3D object detection and tracking. Uses sparse queries with deformable",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Sparse4D for multi-camera temporal 3D object detection and tracking. Uses sparse queries with deformable"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3823,
+  "core_bytes": 15293,
+  "sections": [
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 833,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 6562,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 2545,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 3251,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 87,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 1413,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 803,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 282,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 2285,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 355,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-sparse4d/SKILL.md",
+  "curated": true
+}

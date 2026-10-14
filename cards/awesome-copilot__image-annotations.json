@@ -1,0 +1,194 @@
+{
+  "id": "awesome-copilot__image-annotations",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "741579d05e56a3730a441be9eeaf9f5c84f01c05684f111c42ead3b82db087fe",
+  "purpose": "Annotate screenshots, diagrams, and images with callout rectangles, arrows, labels, and color-coded highlights using PIL. Includes rules for animated GIF annotations with timing and pacing.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Annotate screenshots, diagrams, and images with callout rectangles, arrows, labels, and color-coded highlights using PIL. Includes rules for animated GIF annota"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5957,
+  "core_bytes": 23906,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 289,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 53,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Color Rules",
+      "bytes": 278,
+      "when": [
+        "color",
+        "rules"
+      ]
+    },
+    {
+      "name": "Font",
+      "bytes": 364,
+      "when": [
+        "font"
+      ]
+    },
+    {
+      "name": "Shapes",
+      "bytes": 220,
+      "when": [
+        "shapes"
+      ]
+    },
+    {
+      "name": "Reference Snippet",
+      "bytes": 761,
+      "when": [
+        "reference",
+        "snippet"
+      ]
+    },
+    {
+      "name": "Algorithmic Annotation — `annotate.py`",
+      "bytes": 17591,
+      "when": [
+        "algorithmic",
+        "annotation",
+        "annotate"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 677,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Coordinate grid helper",
+      "bytes": 521,
+      "when": [
+        "coordinate",
+        "grid",
+        "helper"
+      ]
+    },
+    {
+      "name": "Algorithm overview",
+      "bytes": 601,
+      "when": [
+        "algorithm",
+        "overview"
+      ]
+    },
+    {
+      "name": "Debug mode colors",
+      "bytes": 289,
+      "when": [
+        "debug",
+        "mode",
+        "colors"
+      ]
+    },
+    {
+      "name": "Arrow styles",
+      "bytes": 165,
+      "when": [
+        "arrow",
+        "styles"
+      ]
+    },
+    {
+      "name": "`annotate.py` — full module",
+      "bytes": 15103,
+      "when": [
+        "annotate",
+        "full",
+        "module"
+      ]
+    },
+    {
+      "name": "Image Diffing",
+      "bytes": 1130,
+      "when": [
+        "image",
+        "diffing"
+      ]
+    },
+    {
+      "name": "Animated GIF Annotations",
+      "bytes": 1592,
+      "when": [
+        "animated",
+        "annotations"
+      ]
+    },
+    {
+      "name": "Element highlighting",
+      "bytes": 549,
+      "when": [
+        "element",
+        "highlighting"
+      ]
+    },
+    {
+      "name": "Timing and pacing",
+      "bytes": 431,
+      "when": [
+        "timing",
+        "pacing"
+      ]
+    },
+    {
+      "name": "Pop-in fade implementation",
+      "bytes": 483,
+      "when": [
+        "fade",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 832,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 345,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\image-annotations\\SKILL.md"
+}

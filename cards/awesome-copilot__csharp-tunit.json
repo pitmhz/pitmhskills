@@ -1,0 +1,107 @@
+{
+  "id": "awesome-copilot__csharp-tunit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "60bda4de96d73461f44acea9ef0978a5b4eadb0a1d764fd0398b66a75bfd2e03",
+  "purpose": "Get best practices for TUnit unit testing, including data-driven tests",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Get best practices for TUnit unit testing, including data-driven tests"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1287,
+  "core_bytes": 5145,
+  "sections": [
+    {
+      "name": "Project Setup",
+      "bytes": 362,
+      "when": [
+        "project",
+        "setup"
+      ]
+    },
+    {
+      "name": "Test Structure",
+      "bytes": 619,
+      "when": [
+        "test",
+        "structure"
+      ]
+    },
+    {
+      "name": "Standard Tests",
+      "bytes": 376,
+      "when": [
+        "standard",
+        "tests"
+      ]
+    },
+    {
+      "name": "Data-Driven Tests",
+      "bytes": 438,
+      "when": [
+        "data",
+        "driven",
+        "tests"
+      ]
+    },
+    {
+      "name": "Assertions",
+      "bytes": 957,
+      "when": [
+        "assertions"
+      ]
+    },
+    {
+      "name": "Advanced Features",
+      "bytes": 425,
+      "when": [
+        "advanced",
+        "features"
+      ]
+    },
+    {
+      "name": "Test Organization",
+      "bytes": 337,
+      "when": [
+        "test",
+        "organization"
+      ]
+    },
+    {
+      "name": "Performance and Parallel Execution",
+      "bytes": 415,
+      "when": [
+        "performance",
+        "parallel",
+        "execution"
+      ]
+    },
+    {
+      "name": "Migration from xUnit",
+      "bytes": 955,
+      "when": [
+        "migration",
+        "xunit"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\csharp-tunit\\SKILL.md"
+}

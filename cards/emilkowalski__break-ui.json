@@ -1,0 +1,181 @@
+{
+  "id": "emilkowalski__break-ui",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "c162e1a2f0ce720cc774b336089c7c4af01bb141bdca8dd7491b8727193ad11c",
+  "purpose": "Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme number",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long label"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Stress-test UI with worst-case data -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "worst-case data edge",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3624,
+  "core_bytes": 14555,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 702,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 1289,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 1324,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 8325,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1 — Map the surface",
+      "bytes": 1116,
+      "when": [
+        "phase",
+        "surface"
+      ]
+    },
+    {
+      "name": "Phase 2 — Build the worst case",
+      "bytes": 999,
+      "when": [
+        "phase",
+        "build",
+        "worst",
+        "case"
+      ]
+    },
+    {
+      "name": "Phase 3 — Wire the toggle",
+      "bytes": 953,
+      "when": [
+        "phase",
+        "wire",
+        "toggle"
+      ]
+    },
+    {
+      "name": "Phase 4 — Break it",
+      "bytes": 4587,
+      "when": [
+        "phase",
+        "break"
+      ]
+    },
+    {
+      "name": "Phase 5 — Report and stop",
+      "bytes": 163,
+      "when": [
+        "phase",
+        "report",
+        "stop"
+      ]
+    },
+    {
+      "name": "Phase 6 — Fix on request",
+      "bytes": 492,
+      "when": [
+        "phase",
+        "request"
+      ]
+    },
+    {
+      "name": "Required Output Format",
+      "bytes": 1578,
+      "when": [
+        "required",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Part 1 — What broke",
+      "bytes": 1026,
+      "when": [
+        "part",
+        "broke"
+      ]
+    },
+    {
+      "name": "Part 2 — Decisions for you",
+      "bytes": 241,
+      "when": [
+        "part",
+        "decisions"
+      ]
+    },
+    {
+      "name": "Part 3 — What held up",
+      "bytes": 282,
+      "when": [
+        "part",
+        "held"
+      ]
+    },
+    {
+      "name": "Invocation Variants",
+      "bytes": 453,
+      "when": [
+        "invocation",
+        "variants"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 303,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "keywords": [
+    "breaking",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "workflow",
+    "phase",
+    "surface",
+    "build",
+    "wire"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\break-ui\\SKILL.md"
+}

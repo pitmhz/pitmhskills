@@ -29,7 +29,30 @@
   "conflicts_with": [],
   "body_tokens": 540,
   "core_bytes": 2157,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Schedules",
+      "bytes": 114,
+      "when": [
+        "schedules"
+      ]
+    },
+    {
+      "name": "Subagents",
+      "bytes": 376,
+      "when": [
+        "subagents"
+      ]
+    },
+    {
+      "name": "Strategic View",
+      "bytes": 982,
+      "when": [
+        "strategic",
+        "view"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/in-progress/chief-of-staff/SKILL.md"
 }

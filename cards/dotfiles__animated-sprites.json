@@ -1,0 +1,81 @@
+{
+  "id": "dotfiles__animated-sprites",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "f2784468a93722a574cc8402eef118b52a4ab1a093e23f06f52bc8b44b62dc73",
+  "purpose": "Create, repair, and review custom characters for 2D animation, animated sprite sheets, and custom Codex or ChatGPT pets, with consistent identity, readable motion, and timing-faithful previews.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create, repair, and review custom characters for 2D animation, animated sprite sheets, and custom Codex or ChatGPT pets, with consistent identity, readable moti"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1108,
+  "core_bytes": 4429,
+  "sections": [
+    {
+      "name": "Establish the target",
+      "bytes": 1047,
+      "when": [
+        "establish",
+        "target"
+      ]
+    },
+    {
+      "name": "Build or revise",
+      "bytes": 1108,
+      "when": [
+        "build",
+        "revise"
+      ]
+    },
+    {
+      "name": "Use two separate acceptance gates",
+      "bytes": 923,
+      "when": [
+        "separate",
+        "acceptance",
+        "gates"
+      ]
+    },
+    {
+      "name": "Close the iteration",
+      "bytes": 903,
+      "when": [
+        "close",
+        "iteration"
+      ]
+    }
+  ],
+  "keywords": [
+    "sprites",
+    "establish",
+    "target",
+    "build",
+    "revise",
+    "separate",
+    "acceptance",
+    "gates",
+    "close",
+    "iteration"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\animated-sprites\\SKILL.md"
+}

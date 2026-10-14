@@ -28,7 +28,43 @@
   "conflicts_with": [],
   "body_tokens": 1698,
   "core_bytes": 6826,
-  "sections": [],
+  "sections": [
+    {
+      "name": "1. Gate — confirm the package line",
+      "bytes": 1000,
+      "when": [
+        "gate",
+        "confirm",
+        "package",
+        "line"
+      ]
+    },
+    {
+      "name": "2. Contract — non-negotiables",
+      "bytes": 2027,
+      "when": [
+        "contract",
+        "negotiables"
+      ]
+    },
+    {
+      "name": "3. Retrieve — open the doc for the task",
+      "bytes": 2844,
+      "when": [
+        "retrieve",
+        "open",
+        "task"
+      ]
+    },
+    {
+      "name": "4. Before you ship",
+      "bytes": 267,
+      "when": [
+        "before",
+        "ship"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/sandbox-next/SKILL.md"
 }

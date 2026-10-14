@@ -1,0 +1,121 @@
+{
+  "id": "nvidia__i4h-workflow-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "60edfaf6426f1c091099b0f6b536116b2c98887613d3ba235268fa37ec3969d1",
+  "purpose": "Fine-tune a manifest-backed GR00T or openpi remote Task on compatible LeRobot data. Use for training; do not use for inference-only Tasks or checkpoint rollout.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Fine-tune a manifest-backed GR00T or openpi remote Task on compatible LeRobot data. Use for training; do not use for inference-only Tasks or checkpoint rollout."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1496,
+  "core_bytes": 5987,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 111,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 234,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve the workflow, task, and data",
+      "bytes": 1806,
+      "when": [
+        "resolve",
+        "workflow",
+        "task",
+        "data"
+      ]
+    },
+    {
+      "name": "Resolve configuration before a long run",
+      "bytes": 678,
+      "when": [
+        "resolve",
+        "configuration",
+        "before",
+        "long"
+      ]
+    },
+    {
+      "name": "Train",
+      "bytes": 501,
+      "when": [
+        "train"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1160,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 172,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 158,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 131,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 202,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 319,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-finetune/SKILL.md",
+  "curated": true
+}

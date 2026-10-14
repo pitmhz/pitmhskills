@@ -1,0 +1,116 @@
+{
+  "id": "mengto-skills__gsap",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "7a70139af20dfae9e35b14c3642836bc93cdfd5c07769266bb71221afbf01c12",
+  "purpose": "Use when you need to add or debug professional web animations with GSAP (timelines, ScrollTrigger, stagger, transforms) in HTML/CSS/JS/React. Includes patterns for smooth motion, performance, and comm",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when you need to add or debug professional web animations with GSAP (timelines, ScrollTrigger, stagger, transforms) in HTML/CSS/JS/React. Includes patterns "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "GSAP timelines/stagger work -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "gsap timelines stagger debug",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 790,
+  "core_bytes": 3166,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 277,
+      "when": []
+    },
+    {
+      "name": "Key concepts & APIs",
+      "bytes": 961,
+      "when": [
+        "concepts",
+        "apis"
+      ]
+    },
+    {
+      "name": "Common pitfalls (and fixes)",
+      "bytes": 642,
+      "when": [
+        "common",
+        "pitfalls",
+        "fixes"
+      ]
+    },
+    {
+      "name": "Quick recipes",
+      "bytes": 750,
+      "when": [
+        "quick",
+        "recipes"
+      ]
+    },
+    {
+      "name": "1) Hero entrance (stagger)",
+      "bytes": 171,
+      "when": [
+        "hero",
+        "entrance",
+        "stagger"
+      ]
+    },
+    {
+      "name": "2) Sequenced timeline",
+      "bytes": 285,
+      "when": [
+        "sequenced",
+        "timeline"
+      ]
+    },
+    {
+      "name": "3) Scroll-scrub pinned section",
+      "bytes": 274,
+      "when": [
+        "scroll",
+        "scrub",
+        "pinned",
+        "section"
+      ]
+    },
+    {
+      "name": "What to ask the user (if requirements unclear)",
+      "bytes": 239,
+      "when": [
+        "user",
+        "requirements",
+        "unclear"
+      ]
+    }
+  ],
+  "keywords": [
+    "greensock",
+    "animation",
+    "skill",
+    "concepts",
+    "apis",
+    "fixes",
+    "quick",
+    "recipes",
+    "hero",
+    "entrance",
+    "sequenced",
+    "timeline"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\gsap\\SKILL.md"
+}

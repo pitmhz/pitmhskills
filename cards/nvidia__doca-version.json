@@ -1,0 +1,104 @@
+{
+  "id": "nvidia__doca-version",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "6bc4fdf8f90ef275bbbe9ab122dcf234ea69a11faec49602cda85a6c5e840555",
+  "purpose": "Use this skill when the user is doing DOCA version handling — detecting the installed release, validating the four-way match across pkg-config doca-common, applications/VERSION, doca_caps --version, a",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when the user is doing DOCA version handling — detecting the installed release, validating the four-way match across pkg-config doca-common, appl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3078,
+  "core_bytes": 12379,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 3395,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 453,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "Agent activation checklist — load this skill at the START of the answer when any",
+      "bytes": 2765,
+      "when": [
+        "agent",
+        "activation",
+        "checklist",
+        "load",
+        "skill",
+        "start",
+        "answer",
+        "cell"
+      ]
+    },
+    {
+      "name": "Universal version-coherence trigger",
+      "bytes": 934,
+      "when": [
+        "universal",
+        "version",
+        "coherence",
+        "trigger"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1110,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 423,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 1371,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-version\\SKILL.md",
+  "curated": true
+}

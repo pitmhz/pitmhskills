@@ -1,0 +1,74 @@
+{
+  "id": "nvidia__rtx-remix-modding",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "09351528ef37148fd4940bb016e05ac6f2465f8c44fe16fb7f396ea5380cd36c",
+  "purpose": "Mod or remaster a game with RTX Remix - open and edit projects, swap textures and models. Connect to the Remix Toolkit App via MCP. Not for non-Remix game interaction.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Mod or remaster a game with RTX Remix - open and edit projects, swap textures and models. Connect to the Remix Toolkit App via MCP. Not for non-Remix game inter"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2209,
+  "core_bytes": 8878,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 417,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Connecting to Remix",
+      "bytes": 752,
+      "when": [
+        "connecting",
+        "remix"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 639,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 711,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Rules",
+      "bytes": 5972,
+      "when": [
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/rtx-remix-modding/SKILL.md",
+  "curated": true
+}

@@ -38,7 +38,124 @@
   ],
   "body_tokens": 1850,
   "core_bytes": 7400,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 283,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Rule Categories by Priority",
+      "bytes": 556,
+      "when": [
+        "rule",
+        "categories",
+        "priority"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 5416,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "1. Eliminating Waterfalls (CRITICAL)",
+      "bytes": 493,
+      "when": [
+        "eliminating",
+        "waterfalls",
+        "critical"
+      ]
+    },
+    {
+      "name": "2. Bundle Size Optimization (CRITICAL)",
+      "bytes": 510,
+      "when": [
+        "bundle",
+        "size",
+        "optimization",
+        "critical"
+      ]
+    },
+    {
+      "name": "3. Server-Side Performance (HIGH)",
+      "bytes": 792,
+      "when": [
+        "server",
+        "side",
+        "performance",
+        "high"
+      ]
+    },
+    {
+      "name": "4. Client-Side Data Fetching (MEDIUM-HIGH)",
+      "bytes": 329,
+      "when": [
+        "client",
+        "side",
+        "data",
+        "fetching",
+        "medium",
+        "high"
+      ]
+    },
+    {
+      "name": "5. Re-render Optimization (MEDIUM)",
+      "bytes": 1191,
+      "when": [
+        "render",
+        "optimization",
+        "medium"
+      ]
+    },
+    {
+      "name": "6. Rendering Performance (MEDIUM)",
+      "bytes": 829,
+      "when": [
+        "rendering",
+        "performance",
+        "medium"
+      ]
+    },
+    {
+      "name": "7. JavaScript Performance (LOW-MEDIUM)",
+      "bytes": 945,
+      "when": [
+        "javascript",
+        "performance",
+        "medium"
+      ]
+    },
+    {
+      "name": "8. Advanced Patterns (LOW)",
+      "bytes": 305,
+      "when": [
+        "advanced",
+        "patterns"
+      ]
+    },
+    {
+      "name": "How to Use",
+      "bytes": 349,
+      "when": []
+    },
+    {
+      "name": "Full Compiled Document",
+      "bytes": 90,
+      "when": [
+        "full",
+        "compiled",
+        "document"
+      ]
+    }
+  ],
+  "verify": [
+    "npx tsc --noEmit"
+  ],
   "skill_path": "skills/vercel/skills/react-best-practices/SKILL.md"
 }

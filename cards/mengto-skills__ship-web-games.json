@@ -1,0 +1,66 @@
+{
+  "id": "mengto-skills__ship-web-games",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "f6610e102268411e607353f1ab502eb0ae807092f4fe9316e10de44979fcaa44",
+  "purpose": "Package, deploy, and verify a playable Three.js or web game. Use for release builds, asset delivery, private/public deployment, production smoke tests, browser proof, release notes, rollback readiness",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Package, deploy, and verify a playable Three.js or web game. Use for release builds, asset delivery, private/public deployment, production smoke tests, browser "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 290,
+  "core_bytes": 1159,
+  "sections": [
+    {
+      "name": "Release sequence",
+      "bytes": 314,
+      "when": [
+        "release",
+        "sequence"
+      ]
+    },
+    {
+      "name": "Production proof",
+      "bytes": 245,
+      "when": [
+        "production",
+        "proof"
+      ]
+    },
+    {
+      "name": "Finish cleanly",
+      "bytes": 200,
+      "when": [
+        "finish",
+        "cleanly"
+      ]
+    }
+  ],
+  "keywords": [
+    "ship",
+    "games",
+    "sequence",
+    "finish",
+    "cleanly"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\ship-web-games\\SKILL.md"
+}

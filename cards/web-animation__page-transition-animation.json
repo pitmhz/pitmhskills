@@ -1,0 +1,140 @@
+{
+  "id": "web-animation__page-transition-animation",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "1c91c88ea88da5cdbd21404cc270b4f9fbe0f2061fabbd9367f208ea35c63fbd",
+  "purpose": "This skill should be used when the user asks to \"animate page or route transitions\", \"add a page transition or crossfade between views\", \"animate route changes in Next.js App Router\", \"use the View Tr",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"animate page or route transitions\", \"add a page transition or crossfade between views\", \"animate route changes "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Page/route transitions -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "route transitions view",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3092,
+  "core_bytes": 12413,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 367,
+      "when": []
+    },
+    {
+      "name": "Why exit doesn't fire (the core problem)",
+      "bytes": 641,
+      "when": [
+        "exit",
+        "doesn",
+        "fire",
+        "core",
+        "problem"
+      ]
+    },
+    {
+      "name": "Solution A: template.tsx + keyed AnimatePresence + FrozenRouter",
+      "bytes": 3012,
+      "when": [
+        "solution",
+        "template",
+        "keyed",
+        "animatepresence",
+        "frozenrouter"
+      ]
+    },
+    {
+      "name": "Solution B: native View Transitions API",
+      "bytes": 1673,
+      "when": [
+        "solution",
+        "native",
+        "view",
+        "transitions"
+      ]
+    },
+    {
+      "name": "next-view-transitions library",
+      "bytes": 964,
+      "when": [
+        "next",
+        "view",
+        "transitions",
+        "library"
+      ]
+    },
+    {
+      "name": "AnimatePresence debug checklist",
+      "bytes": 1012,
+      "when": [
+        "animatepresence",
+        "debug",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2703,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 541,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 813,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 285,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "problem",
+    "solution",
+    "template",
+    "keyed",
+    "frozenrouter",
+    "native",
+    "library",
+    "debug",
+    "checklist",
+    "deliver",
+    "verify",
+    "standalone",
+    "html"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\page-transition-animation\\SKILL.md"
+}

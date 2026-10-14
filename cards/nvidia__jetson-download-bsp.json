@@ -1,0 +1,168 @@
+{
+  "id": "nvidia__jetson-download-bsp",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "acd670f5fad92ede67710350e0c6f773a4286df7db224f39f99388f1a64d3920",
+  "purpose": "Download NVIDIA Jetson Linux BSP artifacts (BSP tarball, sample rootfs, public_sources, x-tools, guides) for the active target. Use for Auto Setup; not for extraction or profile edits.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Download NVIDIA Jetson Linux BSP artifacts (BSP tarball, sample rootfs, public_sources, x-tools, guides) for the active target. Use for Auto Setup; not for extr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3023,
+  "core_bytes": 12115,
+  "sections": [
+    {
+      "name": "When to invoke",
+      "bytes": 180,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Inputs and outputs",
+      "bytes": 1434,
+      "when": [
+        "inputs",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 6705,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Resolve target release",
+      "bytes": 2175,
+      "when": [
+        "resolve",
+        "target",
+        "release"
+      ]
+    },
+    {
+      "name": "Discovery retries",
+      "bytes": 667,
+      "when": [
+        "discovery",
+        "retries"
+      ]
+    },
+    {
+      "name": "Locate release artifacts",
+      "bytes": 901,
+      "when": [
+        "locate",
+        "release",
+        "artifacts"
+      ]
+    },
+    {
+      "name": "Show the fetch plan",
+      "bytes": 1024,
+      "when": [
+        "show",
+        "fetch",
+        "plan"
+      ]
+    },
+    {
+      "name": "Verify disk space",
+      "bytes": 194,
+      "when": [
+        "verify",
+        "disk",
+        "space"
+      ]
+    },
+    {
+      "name": "Download safely",
+      "bytes": 745,
+      "when": [
+        "download",
+        "safely"
+      ]
+    },
+    {
+      "name": "Validate filenames",
+      "bytes": 983,
+      "when": [
+        "validate",
+        "filenames"
+      ]
+    },
+    {
+      "name": "Finish",
+      "bytes": 218,
+      "when": [
+        "finish"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 752,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 298,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 316,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 388,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 643,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 469,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-download-bsp\\SKILL.md",
+  "curated": true
+}

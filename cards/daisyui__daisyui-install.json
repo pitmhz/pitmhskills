@@ -1,0 +1,66 @@
+{
+  "id": "daisyui__daisyui-install",
+  "tier": "B",
+  "origin": [
+    "saadeghi/daisyui@bf3bac3a397b543e55641ecb2d60a2ed961f09ec"
+  ],
+  "license": "MIT",
+  "hash": "d3a2aba5e8177878b083dae37343f63b447222e0ec8ff2a380b27707dabb02da",
+  "purpose": "Installation instructions for daisyUI 5",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Installation instructions for daisyUI 5",
+    "Installing and configuring daisyUI 5 in a Tailwind CSS v4 project via npm, CDN, or CSS import"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Install daisyUI -> this.",
+  "cluster": "component-library",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "install setup",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 986,
+  "core_bytes": 3944,
+  "sections": [
+    {
+      "name": "Install daisyUI 5",
+      "bytes": 3855,
+      "when": [
+        "install",
+        "daisyui"
+      ]
+    },
+    {
+      "name": "CDN",
+      "bytes": 661,
+      "when": []
+    },
+    {
+      "name": "Standalone and framework-specific setup",
+      "bytes": 2303,
+      "when": [
+        "standalone",
+        "framework",
+        "specific",
+        "setup"
+      ]
+    }
+  ],
+  "keywords": [
+    "install",
+    "standalone",
+    "framework",
+    "specific",
+    "setup"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\daisyui\\skills\\daisyui\\install\\SKILL.md",
+  "curated": true
+}

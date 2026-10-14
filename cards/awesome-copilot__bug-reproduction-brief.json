@@ -1,0 +1,118 @@
+{
+  "id": "awesome-copilot__bug-reproduction-brief",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "522ad2948c498f6dcee6d48773387058d2cba3c45ba9e093ed35210601d141b6",
+  "purpose": "Turn a vague, intermittent, or environment-specific bug report into a minimal evidence-backed reproduction before proposing a fix.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Turn a vague, intermittent, or environment-specific bug report into a minimal evidence-backed reproduction before proposing a fix."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 740,
+  "core_bytes": 2958,
+  "sections": [
+    {
+      "name": "1. Record the observed failure",
+      "bytes": 250,
+      "when": [
+        "record",
+        "observed",
+        "failure"
+      ]
+    },
+    {
+      "name": "2. Identify the environment",
+      "bytes": 331,
+      "when": [
+        "identify",
+        "environment"
+      ]
+    },
+    {
+      "name": "3. Separate expected from actual behaviour",
+      "bytes": 243,
+      "when": [
+        "separate",
+        "expected",
+        "actual",
+        "behaviour"
+      ]
+    },
+    {
+      "name": "4. Reduce the reproduction",
+      "bytes": 345,
+      "when": [
+        "reduce",
+        "reproduction"
+      ]
+    },
+    {
+      "name": "5. Prove repeatability",
+      "bytes": 225,
+      "when": [
+        "prove",
+        "repeatability"
+      ]
+    },
+    {
+      "name": "6. Stop before repair",
+      "bytes": 201,
+      "when": [
+        "stop",
+        "before",
+        "repair"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 242,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Safety boundaries",
+      "bytes": 327,
+      "when": [
+        "safety",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Example prompt",
+      "bytes": 260,
+      "when": [
+        "example",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Source and licence",
+      "bytes": 119,
+      "when": [
+        "source",
+        "licence"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\bug-reproduction-brief\\SKILL.md"
+}

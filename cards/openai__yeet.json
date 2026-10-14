@@ -27,7 +27,88 @@
   "conflicts_with": [],
   "body_tokens": 1771,
   "core_bytes": 7084,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 291,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Naming conventions",
+      "bytes": 186,
+      "when": [
+        "naming",
+        "conventions"
+      ]
+    },
+    {
+      "name": "PR template discovery",
+      "bytes": 868,
+      "when": [
+        "template",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1457,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Determining the PR",
+      "bytes": 448,
+      "when": [
+        "determining"
+      ]
+    },
+    {
+      "name": "PR Title",
+      "bytes": 859,
+      "when": [
+        "title"
+      ]
+    },
+    {
+      "name": "Example",
+      "bytes": 681,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "PR Body Contents",
+      "bytes": 2607,
+      "when": [
+        "body",
+        "contents"
+      ]
+    },
+    {
+      "name": "Suggested PR Body Shape",
+      "bytes": 119,
+      "when": [
+        "suggested",
+        "body",
+        "shape"
+      ]
+    },
+    {
+      "name": "Why",
+      "bytes": 109,
+      "when": []
+    },
+    {
+      "name": "What Changed",
+      "bytes": 82,
+      "when": [
+        "changed"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/yeet/SKILL.md"
 }

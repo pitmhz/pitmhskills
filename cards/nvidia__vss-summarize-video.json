@@ -1,0 +1,206 @@
+{
+  "id": "nvidia__vss-summarize-video",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "da604da93646987f2af86606a874d6fc95cd134a6952356b5db9dbb7d109c6f1",
+  "purpose": "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4789,
+  "core_bytes": 19252,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 239,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 593,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 434,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 357,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 310,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 788,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Reference Map",
+      "bytes": 1515,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Video Summarization API And Service Ops Requests",
+      "bytes": 805,
+      "when": [
+        "video",
+        "summarization",
+        "service",
+        "requests"
+      ]
+    },
+    {
+      "name": "Routing",
+      "bytes": 797,
+      "when": [
+        "routing"
+      ]
+    },
+    {
+      "name": "Deployment prerequisite",
+      "bytes": 1023,
+      "when": [
+        "deployment",
+        "prerequisite"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 2614,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Step 1 - Get the clip URL via `vss-manage-video-io-storage` (sub-task, NOT the f",
+      "bytes": 1087,
+      "when": [
+        "step",
+        "clip",
+        "manage",
+        "video",
+        "storage",
+        "task",
+        "final",
+        "answer"
+      ]
+    },
+    {
+      "name": "Step 2 — Primary: video summarization microservice with HITL",
+      "bytes": 2629,
+      "when": [
+        "step",
+        "primary",
+        "video",
+        "summarization",
+        "microservice",
+        "hitl"
+      ]
+    },
+    {
+      "name": "HITL: collect scenario and events first (REQUIRED — do not skip)",
+      "bytes": 2270,
+      "when": [
+        "hitl",
+        "collect",
+        "scenario",
+        "events",
+        "first",
+        "required",
+        "skip"
+      ]
+    },
+    {
+      "name": "Step 2 fallback — VLM direct with default prompt",
+      "bytes": 1807,
+      "when": [
+        "step",
+        "fallback",
+        "direct",
+        "default",
+        "prompt"
+      ]
+    },
+    {
+      "name": "End-to-end example",
+      "bytes": 207,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Responses",
+      "bytes": 1518,
+      "when": [
+        "responses"
+      ]
+    },
+    {
+      "name": "Presenting the output to the user",
+      "bytes": 1114,
+      "when": [
+        "presenting",
+        "output",
+        "user"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 1413,
+      "when": [
+        "tips"
+      ]
+    },
+    {
+      "name": "Cross-reference",
+      "bytes": 671,
+      "when": [
+        "cross",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-summarize-video/SKILL.md",
+  "curated": true
+}

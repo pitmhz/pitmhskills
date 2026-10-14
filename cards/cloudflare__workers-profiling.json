@@ -28,7 +28,47 @@
   "conflicts_with": [],
   "body_tokens": 505,
   "core_bytes": 2020,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Retrieve the docs",
+      "bytes": 225,
+      "when": [
+        "retrieve",
+        "docs"
+      ]
+    },
+    {
+      "name": "Profiling steps",
+      "bytes": 778,
+      "when": [
+        "profiling",
+        "steps"
+      ]
+    },
+    {
+      "name": "Inspect the evidence",
+      "bytes": 356,
+      "when": [
+        "inspect",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Optimise",
+      "bytes": 114,
+      "when": [
+        "optimise"
+      ]
+    },
+    {
+      "name": "Report findings",
+      "bytes": 221,
+      "when": [
+        "report",
+        "findings"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/workers-profiling/SKILL.md"
 }

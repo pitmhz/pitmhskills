@@ -1,0 +1,133 @@
+{
+  "id": "uiskills-staged__polish",
+  "tier": "B",
+  "origin": [
+    "local@polish"
+  ],
+  "license": "Apache-2.0",
+  "hash": "40afe65d3efe399937a799d1ebfac81f6aa215a11587ff9e82c1cac099750636",
+  "purpose": "Polish is refinement, never concealed redesign. Preserve the incumbent visual world, content, behavior, and everything outside scope. If the concept itself is wrong, say so and recommend redesign or `",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Polish is refinement, never concealed redesign. Preserve the incumbent visual world, content, behavior, and everything outside scope. If the concept itself is w"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Pre-launch polish pass -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "polish launch consistency final pass",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1680,
+  "core_bytes": 6717,
+  "sections": [
+    {
+      "name": "1. Establish the system",
+      "bytes": 678,
+      "when": [
+        "establish",
+        "system"
+      ]
+    },
+    {
+      "name": "2. Gather the evidence",
+      "bytes": 1459,
+      "when": [
+        "gather",
+        "evidence"
+      ]
+    },
+    {
+      "name": "3. Triage",
+      "bytes": 455,
+      "when": [
+        "triage"
+      ]
+    },
+    {
+      "name": "4. Polish the whole path",
+      "bytes": 2032,
+      "when": [
+        "polish",
+        "whole",
+        "path"
+      ]
+    },
+    {
+      "name": "Flow and hierarchy",
+      "bytes": 360,
+      "when": [
+        "flow",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "Layout and type",
+      "bytes": 396,
+      "when": [
+        "layout",
+        "type"
+      ]
+    },
+    {
+      "name": "Color, imagery, and icons",
+      "bytes": 336,
+      "when": [
+        "color",
+        "imagery",
+        "icons"
+      ]
+    },
+    {
+      "name": "Interaction and state",
+      "bytes": 476,
+      "when": [
+        "interaction",
+        "state"
+      ]
+    },
+    {
+      "name": "Content and code",
+      "bytes": 433,
+      "when": [
+        "content",
+        "code"
+      ]
+    },
+    {
+      "name": "5. Verify and finish",
+      "bytes": 1647,
+      "when": [
+        "verify",
+        "finish"
+      ]
+    }
+  ],
+  "keywords": [
+    "establish",
+    "system",
+    "gather",
+    "evidence",
+    "triage",
+    "whole",
+    "path",
+    "flow",
+    "hierarchy",
+    "layout",
+    "type",
+    "color",
+    "imagery",
+    "icons"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\polish\\SKILL.md"
+}

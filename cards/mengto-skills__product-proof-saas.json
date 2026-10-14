@@ -1,0 +1,114 @@
+{
+  "id": "mengto-skills__product-proof-saas",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "1e5ac0b79ffc9f0d0df97549d11f576747859bf9a2c3c380fff7cd14ca965187",
+  "purpose": "Create or redesign SaaS and AI product landing pages where a real workflow, interface, or deterministic demo is the central proof. Use for pale atmospheric shells, product UI in the hero, prompt-to-ou",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create or redesign SaaS and AI product landing pages where a real workflow, interface, or deterministic demo is the central proof. Use for pale atmospheric shel"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "SaaS landing led by a real product demo -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "demo workflow proof real product",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1108,
+  "core_bytes": 4438,
+  "sections": [
+    {
+      "name": "Establish the Story",
+      "bytes": 507,
+      "when": [
+        "establish",
+        "story"
+      ]
+    },
+    {
+      "name": "Build the Visual System",
+      "bytes": 534,
+      "when": [
+        "build",
+        "visual",
+        "system"
+      ]
+    },
+    {
+      "name": "Compose the Page",
+      "bytes": 830,
+      "when": [
+        "compose",
+        "page"
+      ]
+    },
+    {
+      "name": "Implement the Prompt-to-Output Story",
+      "bytes": 544,
+      "when": [
+        "implement",
+        "prompt",
+        "output",
+        "story"
+      ]
+    },
+    {
+      "name": "Implement Pricing and FAQ",
+      "bytes": 392,
+      "when": [
+        "implement",
+        "pricing"
+      ]
+    },
+    {
+      "name": "Motion Defaults",
+      "bytes": 395,
+      "when": [
+        "motion",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 432,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 321,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "establish",
+    "story",
+    "build",
+    "visual",
+    "system",
+    "compose",
+    "page",
+    "implement",
+    "motion",
+    "defaults",
+    "validate",
+    "avoid"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\product-proof-saas\\SKILL.md"
+}

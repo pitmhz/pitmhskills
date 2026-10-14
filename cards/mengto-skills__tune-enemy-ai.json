@@ -1,0 +1,86 @@
+{
+  "id": "mengto-skills__tune-enemy-ai",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "2592157ac12325c36eb745d92787721455fa708116c6706986df05cd8773d18a",
+  "purpose": "Build, debug, balance, or test combat enemy AI for playable action games. Use for aggro, target selection, navigation, spacing, attack choices, telegraphs, retreats, boss behavior, behavior-state mach",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build, debug, balance, or test combat enemy AI for playable action games. Use for aggro, target selection, navigation, spacing, attack choices, telegraphs, retr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 432,
+  "core_bytes": 1728,
+  "sections": [
+    {
+      "name": "Model decisions explicitly",
+      "bytes": 310,
+      "when": [
+        "model",
+        "decisions",
+        "explicitly"
+      ]
+    },
+    {
+      "name": "Separate perception, intent, and motion",
+      "bytes": 438,
+      "when": [
+        "separate",
+        "perception",
+        "intent",
+        "motion"
+      ]
+    },
+    {
+      "name": "Preserve fair combat",
+      "bytes": 277,
+      "when": [
+        "preserve",
+        "fair",
+        "combat"
+      ]
+    },
+    {
+      "name": "Test the decision surface",
+      "bytes": 334,
+      "when": [
+        "test",
+        "decision",
+        "surface"
+      ]
+    }
+  ],
+  "keywords": [
+    "tune",
+    "model",
+    "decisions",
+    "explicitly",
+    "separate",
+    "perception",
+    "intent",
+    "motion",
+    "preserve",
+    "fair",
+    "decision",
+    "surface"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\tune-enemy-ai\\SKILL.md"
+}

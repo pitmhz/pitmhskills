@@ -1,0 +1,104 @@
+{
+  "id": "mengto-skills__scroll-progress-timeline",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "bd2f0cc520619243c54570e672f04f6a54540ec6cf09efb1f23defb500b41d3a",
+  "purpose": "Turn any ordered process into a data-driven vertical or horizontal scroll story with a base line, progress fill, active step states, responsive collapse, semantic fallback, and reduced-motion behavior",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Turn any ordered process into a data-driven vertical or horizontal scroll story with a base line, progress fill, active step states, responsive collapse, semant"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1016,
+  "core_bytes": 4063,
+  "sections": [
+    {
+      "name": "Model the steps",
+      "bytes": 451,
+      "when": [
+        "model",
+        "steps"
+      ]
+    },
+    {
+      "name": "Build the line",
+      "bytes": 768,
+      "when": [
+        "build",
+        "line"
+      ]
+    },
+    {
+      "name": "Choose the layout",
+      "bytes": 564,
+      "when": [
+        "choose",
+        "layout"
+      ]
+    },
+    {
+      "name": "Animate step state",
+      "bytes": 474,
+      "when": [
+        "animate",
+        "step",
+        "state"
+      ]
+    },
+    {
+      "name": "Handle navigation",
+      "bytes": 403,
+      "when": [
+        "handle",
+        "navigation"
+      ]
+    },
+    {
+      "name": "Reduce motion",
+      "bytes": 231,
+      "when": [
+        "reduce",
+        "motion"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 557,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "timeline",
+    "model",
+    "steps",
+    "build",
+    "choose",
+    "layout",
+    "animate",
+    "state",
+    "handle",
+    "navigation",
+    "reduce",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\scroll-progress-timeline\\SKILL.md"
+}

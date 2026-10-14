@@ -1,0 +1,171 @@
+{
+  "id": "awesome-copilot__java-helidon",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d4891e0e448c718440736bbe5d8f95fb8839fd13536631435bd589d57ea6855c",
+  "purpose": "Get best practices for developing applications with Helidon 4 (SE and MP). Use when working with Helidon SE or Helidon MP, HttpService routing, Helidon DB Client, MicroProfile Config, Helidon Security",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Get best practices for developing applications with Helidon 4 (SE and MP). Use when working with Helidon SE or Helidon MP, HttpService routing, Helidon DB Clien"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4531,
+  "core_bytes": 18124,
+  "sections": [
+    {
+      "name": "Helidon 3 → 4 API changes",
+      "bytes": 1688,
+      "when": [
+        "helidon",
+        "changes"
+      ]
+    },
+    {
+      "name": "Project Setup & Structure",
+      "bytes": 633,
+      "when": [
+        "project",
+        "setup",
+        "structure"
+      ]
+    },
+    {
+      "name": "Helidon SE",
+      "bytes": 670,
+      "when": [
+        "helidon"
+      ]
+    },
+    {
+      "name": "Helidon MP",
+      "bytes": 721,
+      "when": [
+        "helidon"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 584,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Web Layer",
+      "bytes": 3147,
+      "when": [
+        "layer"
+      ]
+    },
+    {
+      "name": "Helidon SE Example",
+      "bytes": 1346,
+      "when": [
+        "helidon",
+        "example"
+      ]
+    },
+    {
+      "name": "Helidon MP Example",
+      "bytes": 1040,
+      "when": [
+        "helidon",
+        "example"
+      ]
+    },
+    {
+      "name": "Service Layer",
+      "bytes": 3089,
+      "when": [
+        "service",
+        "layer"
+      ]
+    },
+    {
+      "name": "Helidon SE Example",
+      "bytes": 1163,
+      "when": [
+        "helidon",
+        "example"
+      ]
+    },
+    {
+      "name": "Helidon MP Example",
+      "bytes": 1424,
+      "when": [
+        "helidon",
+        "example"
+      ]
+    },
+    {
+      "name": "Data Layer",
+      "bytes": 4830,
+      "when": [
+        "data",
+        "layer"
+      ]
+    },
+    {
+      "name": "Helidon SE Example",
+      "bytes": 1944,
+      "when": [
+        "helidon",
+        "example"
+      ]
+    },
+    {
+      "name": "Helidon MP Example",
+      "bytes": 1614,
+      "when": [
+        "helidon",
+        "example"
+      ]
+    },
+    {
+      "name": "Observability",
+      "bytes": 402,
+      "when": [
+        "observability"
+      ]
+    },
+    {
+      "name": "Logging",
+      "bytes": 317,
+      "when": [
+        "logging"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 871,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 754,
+      "when": [
+        "security"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\java-helidon\\SKILL.md"
+}

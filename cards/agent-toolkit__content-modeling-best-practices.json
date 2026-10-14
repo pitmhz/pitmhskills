@@ -30,10 +30,34 @@
   "conflicts_with": [],
   "body_tokens": 471,
   "core_bytes": 1897,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 320,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Core Principles",
+      "bytes": 306,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 544,
+      "when": [
+        "references"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\content-modeling-best-practices\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\content-modeling-best-practices\\SKILL.md",
+  "curated": true
 }

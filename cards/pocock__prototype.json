@@ -28,7 +28,29 @@
   "conflicts_with": [],
   "body_tokens": 738,
   "core_bytes": 2957,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/prototype/SKILL.md"
+  "sections": [
+    {
+      "name": "Pick a branch",
+      "bytes": 971,
+      "when": [
+        "pick",
+        "branch"
+      ]
+    },
+    {
+      "name": "Rules that apply to both",
+      "bytes": 1654,
+      "when": [
+        "rules",
+        "apply",
+        "both"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/prototype/SKILL.md",
+  "curated": true
 }

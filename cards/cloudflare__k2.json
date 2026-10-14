@@ -28,7 +28,15 @@
   "conflicts_with": [],
   "body_tokens": 550,
   "core_bytes": 2197,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Documentation",
+      "bytes": 1443,
+      "when": [
+        "documentation"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/k2/SKILL.md"
 }

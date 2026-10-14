@@ -1,0 +1,220 @@
+{
+  "id": "awesome-copilot__power-bi-performance-troubleshooting",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3901de5f09fff6a226b9a458f147875084d2aac30329c3f4c3b1bb3318316921",
+  "purpose": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2591,
+  "core_bytes": 10504,
+  "sections": [
+    {
+      "name": "Troubleshooting Methodology",
+      "bytes": 3042,
+      "when": [
+        "troubleshooting",
+        "methodology"
+      ]
+    },
+    {
+      "name": "Step 1: **Problem Definition and Scope**",
+      "bytes": 543,
+      "when": [
+        "step",
+        "problem",
+        "definition",
+        "scope"
+      ]
+    },
+    {
+      "name": "Step 2: **Performance Baseline Collection**",
+      "bytes": 349,
+      "when": [
+        "step",
+        "performance",
+        "baseline",
+        "collection"
+      ]
+    },
+    {
+      "name": "Step 3: **Systematic Diagnosis**",
+      "bytes": 2118,
+      "when": [
+        "step",
+        "systematic",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Diagnostic Tools and Techniques",
+      "bytes": 1181,
+      "when": [
+        "diagnostic",
+        "tools",
+        "techniques"
+      ]
+    },
+    {
+      "name": "**Power BI Desktop Tools**",
+      "bytes": 406,
+      "when": [
+        "power",
+        "desktop",
+        "tools"
+      ]
+    },
+    {
+      "name": "**DAX Studio Analysis**",
+      "bytes": 356,
+      "when": [
+        "studio",
+        "analysis"
+      ]
+    },
+    {
+      "name": "**Capacity Monitoring**",
+      "bytes": 383,
+      "when": [
+        "capacity",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Solution Framework",
+      "bytes": 1991,
+      "when": [
+        "solution",
+        "framework"
+      ]
+    },
+    {
+      "name": "**Immediate Performance Fixes**",
+      "bytes": 1043,
+      "when": [
+        "immediate",
+        "performance",
+        "fixes"
+      ]
+    },
+    {
+      "name": "**Advanced Performance Solutions**",
+      "bytes": 925,
+      "when": [
+        "advanced",
+        "performance",
+        "solutions"
+      ]
+    },
+    {
+      "name": "Troubleshooting Workflows",
+      "bytes": 1156,
+      "when": [
+        "troubleshooting",
+        "workflows"
+      ]
+    },
+    {
+      "name": "**Quick Win Checklist** (30 minutes)",
+      "bytes": 388,
+      "when": [
+        "quick",
+        "checklist",
+        "minutes"
+      ]
+    },
+    {
+      "name": "**Comprehensive Analysis** (2-4 hours)",
+      "bytes": 386,
+      "when": [
+        "comprehensive",
+        "analysis",
+        "hours"
+      ]
+    },
+    {
+      "name": "**Strategic Optimization** (1-2 weeks)",
+      "bytes": 352,
+      "when": [
+        "strategic",
+        "optimization",
+        "weeks"
+      ]
+    },
+    {
+      "name": "Performance Monitoring Setup",
+      "bytes": 986,
+      "when": [
+        "performance",
+        "monitoring",
+        "setup"
+      ]
+    },
+    {
+      "name": "**Proactive Monitoring**",
+      "bytes": 458,
+      "when": [
+        "proactive",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "**Regular Health Checks**",
+      "bytes": 495,
+      "when": [
+        "regular",
+        "health",
+        "checks"
+      ]
+    },
+    {
+      "name": "Communication and Documentation",
+      "bytes": 1654,
+      "when": [
+        "communication",
+        "documentation"
+      ]
+    },
+    {
+      "name": "**Issue Reporting Template**",
+      "bytes": 711,
+      "when": [
+        "issue",
+        "reporting",
+        "template"
+      ]
+    },
+    {
+      "name": "**Resolution Documentation**",
+      "bytes": 907,
+      "when": [
+        "resolution",
+        "documentation"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\power-bi-performance-troubleshooting\\SKILL.md"
+}

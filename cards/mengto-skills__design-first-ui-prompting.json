@@ -1,0 +1,131 @@
+{
+  "id": "mengto-skills__design-first-ui-prompting",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "6c3545d7753be6ea5c5638b041b4baab5d349bbef01b546e7ad17e6a177e0d2f",
+  "purpose": "Use when you need design-first, spec-driven, skimmable prompts for UI generation. Covers prompt structure, constraints, variations, typography/spacing rules, and iteration workflow for consistent UI o",
+  "domain": "frontend",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Use when you need design-first, spec-driven, skimmable prompts for UI generation. Covers prompt structure, constraints, variations, typography/spacing rules, an"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Design-first prompts for UI generation -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "design-first prompt spec skimmable",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 791,
+  "core_bytes": 3199,
+  "sections": [
+    {
+      "name": "Core principle",
+      "bytes": 67,
+      "when": [
+        "core",
+        "principle"
+      ]
+    },
+    {
+      "name": "Prompt Structure (copy/paste)",
+      "bytes": 1266,
+      "when": [
+        "prompt",
+        "structure",
+        "copy",
+        "paste"
+      ]
+    },
+    {
+      "name": "Rules that improve consistency",
+      "bytes": 938,
+      "when": [
+        "rules",
+        "improve",
+        "consistency"
+      ]
+    },
+    {
+      "name": "1) Lock one “system”, then iterate with variants",
+      "bytes": 240,
+      "when": [
+        "lock",
+        "system",
+        "iterate",
+        "variants"
+      ]
+    },
+    {
+      "name": "2) Treat typography as fragile",
+      "bytes": 183,
+      "when": [
+        "treat",
+        "typography",
+        "fragile"
+      ]
+    },
+    {
+      "name": "3) Use “constraints cards”",
+      "bytes": 272,
+      "when": [
+        "constraints",
+        "cards"
+      ]
+    },
+    {
+      "name": "4) Keep a local reference pack",
+      "bytes": 206,
+      "when": [
+        "keep",
+        "local",
+        "reference",
+        "pack"
+      ]
+    },
+    {
+      "name": "Fast iteration checklist (what to tweak)",
+      "bytes": 248,
+      "when": [
+        "fast",
+        "iteration",
+        "checklist",
+        "tweak"
+      ]
+    },
+    {
+      "name": "Questions to ask (when user is vague)",
+      "bytes": 263,
+      "when": [
+        "questions",
+        "user",
+        "vague"
+      ]
+    }
+  ],
+  "keywords": [
+    "prompting",
+    "skill",
+    "core",
+    "principle",
+    "copy",
+    "paste",
+    "improve",
+    "consistency",
+    "lock",
+    "system",
+    "iterate",
+    "variants"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\ui\\design-first-ui-prompting\\SKILL.md"
+}

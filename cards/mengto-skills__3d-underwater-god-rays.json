@@ -1,0 +1,105 @@
+{
+  "id": "mengto-skills__3d-underwater-god-rays",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "2cb257a9852733a16038aa3ac4177b245dd320e92ac5cbdced48436860c5a373",
+  "purpose": "Add volumetric underwater god rays to a Three.js scene, marching one drifting swell field along every view ray at half resolution so the light shafts converge on the sun, parallax with the camera and ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Add volumetric underwater god rays to a Three.js scene, marching one drifting swell field along every view ray at half resolution so the light shafts converge o"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2507,
+  "core_bytes": 10098,
+  "sections": [
+    {
+      "name": "The mechanism",
+      "bytes": 475,
+      "when": [
+        "mechanism"
+      ]
+    },
+    {
+      "name": "Reuse the working effect",
+      "bytes": 1718,
+      "when": [
+        "reuse",
+        "working",
+        "effect"
+      ]
+    },
+    {
+      "name": "The numbers that shipped",
+      "bytes": 1662,
+      "when": [
+        "numbers",
+        "shipped"
+      ]
+    },
+    {
+      "name": "Rules, each with the failure it prevents",
+      "bytes": 2449,
+      "when": [
+        "rules",
+        "each",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Cost",
+      "bytes": 617,
+      "when": [
+        "cost"
+      ]
+    },
+    {
+      "name": "Lifecycle and accessibility",
+      "bytes": 569,
+      "when": [
+        "lifecycle",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 801,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "mechanism",
+    "reuse",
+    "working",
+    "effect",
+    "numbers",
+    "shipped",
+    "rules",
+    "each",
+    "failure",
+    "prevents",
+    "cost",
+    "lifecycle",
+    "accessibility"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-underwater-god-rays\\SKILL.md"
+}

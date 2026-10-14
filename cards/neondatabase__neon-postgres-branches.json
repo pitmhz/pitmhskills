@@ -36,9 +36,219 @@
   ],
   "body_tokens": 3485,
   "core_bytes": 13955,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "Branch Type Decision",
+      "bytes": 443,
+      "when": [
+        "branch",
+        "type",
+        "decision"
+      ]
+    },
+    {
+      "name": "Tool Selection: CLI or MCP",
+      "bytes": 1479,
+      "when": [
+        "tool",
+        "selection"
+      ]
+    },
+    {
+      "name": "Selection order",
+      "bytes": 777,
+      "when": [
+        "selection",
+        "order"
+      ]
+    },
+    {
+      "name": "MCP branch flow",
+      "bytes": 340,
+      "when": [
+        "branch",
+        "flow"
+      ]
+    },
+    {
+      "name": "Create a Normal Branch (Preferred for Real-Data Migration Testing)",
+      "bytes": 951,
+      "when": [
+        "create",
+        "normal",
+        "branch",
+        "preferred",
+        "real",
+        "data",
+        "migration",
+        "testing"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 614,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "Create a Schema-Only Branch (Beta, Sensitive Data)",
+      "bytes": 1256,
+      "when": [
+        "create",
+        "schema",
+        "branch",
+        "beta",
+        "sensitive",
+        "data"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 702,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "Beta Support Guidance (Mandatory)",
+      "bytes": 359,
+      "when": [
+        "beta",
+        "support",
+        "guidance",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "Reset from Parent",
+      "bytes": 1985,
+      "when": [
+        "reset",
+        "parent"
+      ]
+    },
+    {
+      "name": "What it does",
+      "bytes": 267,
+      "when": []
+    },
+    {
+      "name": "When to recommend it",
+      "bytes": 248,
+      "when": [
+        "recommend"
+      ]
+    },
+    {
+      "name": "Hard constraints and blockers",
+      "bytes": 467,
+      "when": [
+        "hard",
+        "constraints",
+        "blockers"
+      ]
+    },
+    {
+      "name": "CLI usage",
+      "bytes": 559,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Console and API usage",
+      "bytes": 233,
+      "when": [
+        "console",
+        "usage"
+      ]
+    },
+    {
+      "name": "Notes and Caveats",
+      "bytes": 646,
+      "when": [
+        "notes",
+        "caveats"
+      ]
+    },
+    {
+      "name": "Useful Workflow Patterns",
+      "bytes": 1283,
+      "when": [
+        "useful",
+        "workflow",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Post-creation environment update prompt",
+      "bytes": 507,
+      "when": [
+        "post",
+        "creation",
+        "environment",
+        "update",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Neon Infrastructure as Code (`neon.ts`)",
+      "bytes": 2109,
+      "when": [
+        "neon",
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Branching in CI/CD",
+      "bytes": 915,
+      "when": [
+        "branching"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1217,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: Migration testing with realistic data",
+      "bytes": 542,
+      "when": [
+        "example",
+        "migration",
+        "testing",
+        "realistic",
+        "data"
+      ]
+    },
+    {
+      "name": "Example 2: Sensitive data development workflow",
+      "bytes": 660,
+      "when": [
+        "example",
+        "sensitive",
+        "data",
+        "development",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Further Reading",
+      "bytes": 211,
+      "when": [
+        "further",
+        "reading"
+      ]
+    }
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-branches\\SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-branches\\SKILL.md",
+  "curated": true
 }

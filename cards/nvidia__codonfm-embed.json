@@ -1,0 +1,109 @@
+{
+  "id": "nvidia__codonfm-embed",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c94b5b84ec8e7c2d05655e4b18f5016dba86b2e96b86d8e21b81a67cae35b233",
+  "purpose": "Validate coding-sequence CSVs, extract public CodonFM/Encodon embeddings, and choose checkpoints for downstream property modeling.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Validate coding-sequence CSVs, extract public CodonFM/Encodon embeddings, and choose checkpoints for downstream property modeling."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2435,
+  "core_bytes": 9738,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 310,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 625,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1380,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2254,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 696,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 415,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1009,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 870,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 892,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 941,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-codonfm-embed/SKILL.md",
+  "curated": true
+}

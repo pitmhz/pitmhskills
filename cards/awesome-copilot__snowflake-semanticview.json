@@ -1,0 +1,88 @@
+{
+  "id": "awesome-copilot__snowflake-semanticview",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f9fd64e6980ec2016956afa1dbc3997da9a5d3f3c80a5df0aa78f133a5a4fbb6",
+  "purpose": "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to v",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitio"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1103,
+  "core_bytes": 4411,
+  "sections": [
+    {
+      "name": "One-Time Setup",
+      "bytes": 521,
+      "when": [
+        "time",
+        "setup"
+      ]
+    },
+    {
+      "name": "Workflow For Each Semantic View Request",
+      "bytes": 1985,
+      "when": [
+        "workflow",
+        "each",
+        "semantic",
+        "view",
+        "request"
+      ]
+    },
+    {
+      "name": "Synonyms And Comments (Required)",
+      "bytes": 675,
+      "when": [
+        "synonyms",
+        "comments",
+        "required"
+      ]
+    },
+    {
+      "name": "Validation Pattern (Required)",
+      "bytes": 227,
+      "when": [
+        "validation",
+        "pattern",
+        "required"
+      ]
+    },
+    {
+      "name": "Example CLI Validation (Template)",
+      "bytes": 269,
+      "when": [
+        "example",
+        "validation",
+        "template"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 341,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\snowflake-semanticview\\SKILL.md"
+}

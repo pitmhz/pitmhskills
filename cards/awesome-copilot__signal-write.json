@@ -1,0 +1,145 @@
+{
+  "id": "awesome-copilot__signal-write",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e02e9c3bf342f3e9f758cd6862f470d8cbfd76d95c16dcc3833602568c54a296",
+  "purpose": "Emit structured agent signals — hands-up, blocked, done, checkpoint, partnership. Signals are written as JSON to .signals/ for dashboard consumption and noted in the journal for persistence.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Emit structured agent signals — hands-up, blocked, done, checkpoint, partnership. Signals are written as JSON to .signals/ for dashboard consumption and noted i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1305,
+  "core_bytes": 5260,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 277,
+      "when": []
+    },
+    {
+      "name": "Signal types",
+      "bytes": 924,
+      "when": [
+        "signal",
+        "types"
+      ]
+    },
+    {
+      "name": "`hands-up`",
+      "bytes": 188,
+      "when": [
+        "hands"
+      ]
+    },
+    {
+      "name": "`blocked`",
+      "bytes": 131,
+      "when": [
+        "blocked"
+      ]
+    },
+    {
+      "name": "`done`",
+      "bytes": 79,
+      "when": [
+        "done"
+      ]
+    },
+    {
+      "name": "`checkpoint`",
+      "bytes": 134,
+      "when": [
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "`partnership`",
+      "bytes": 375,
+      "when": [
+        "partnership"
+      ]
+    },
+    {
+      "name": "How to emit",
+      "bytes": 1829,
+      "when": [
+        "emit"
+      ]
+    },
+    {
+      "name": "1. Write a JSON signal file to `.signals/`",
+      "bytes": 740,
+      "when": [
+        "write",
+        "json",
+        "signal",
+        "file",
+        "signals"
+      ]
+    },
+    {
+      "name": "Signal type mapping",
+      "bytes": 955,
+      "when": [
+        "signal",
+        "type",
+        "mapping"
+      ]
+    },
+    {
+      "name": "2. Note the signal in the journal",
+      "bytes": 118,
+      "when": [
+        "note",
+        "signal",
+        "journal"
+      ]
+    },
+    {
+      "name": "<date> — [signal:<type>] <summary>",
+      "bytes": 146,
+      "when": [
+        "date",
+        "signal",
+        "type",
+        "summary"
+      ]
+    },
+    {
+      "name": "Outcome signals (calibration)",
+      "bytes": 1195,
+      "when": [
+        "outcome",
+        "signals",
+        "calibration"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 567,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\signal-write\\SKILL.md"
+}

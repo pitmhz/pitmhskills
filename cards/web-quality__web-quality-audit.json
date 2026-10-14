@@ -1,0 +1,221 @@
+{
+  "id": "web-quality__web-quality-audit",
+  "tier": "B",
+  "origin": [
+    "addyosmani/web-quality-skills@afa8da942115f2961fdbfa80807ea0b232ff6c00"
+  ],
+  "license": "MIT",
+  "hash": "4c3b04c727c11a819910b28056834ec7ae6e891ce5a16ca216f5a1a490f961a3",
+  "purpose": "Run an evidence-led web quality audit covering performance, accessibility, SEO, best practices, and agentic browsing. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Run an evidence-led web quality audit covering performance, accessibility, SEO, best practices, and agentic browsing. Use when asked to \"audit my site\", \"review"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2664,
+  "core_bytes": 10659,
+  "sections": [
+    {
+      "name": "How it works",
+      "bytes": 690,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Tool routing",
+      "bytes": 1396,
+      "when": [
+        "tool",
+        "routing"
+      ]
+    },
+    {
+      "name": "Audit categories",
+      "bytes": 5191,
+      "when": [
+        "audit",
+        "categories"
+      ]
+    },
+    {
+      "name": "Performance",
+      "bytes": 1258,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "Accessibility",
+      "bytes": 1292,
+      "when": [
+        "accessibility"
+      ]
+    },
+    {
+      "name": "SEO",
+      "bytes": 1079,
+      "when": []
+    },
+    {
+      "name": "Best practices",
+      "bytes": 753,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Agentic browsing",
+      "bytes": 786,
+      "when": [
+        "agentic",
+        "browsing"
+      ]
+    },
+    {
+      "name": "Severity levels",
+      "bytes": 409,
+      "when": [
+        "severity",
+        "levels"
+      ]
+    },
+    {
+      "name": "Audit output format",
+      "bytes": 91,
+      "when": [
+        "audit",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Audit results",
+      "bytes": 1034,
+      "when": [
+        "audit",
+        "results"
+      ]
+    },
+    {
+      "name": "Evidence",
+      "bytes": 245,
+      "when": [
+        "evidence"
+      ]
+    },
+    {
+      "name": "Critical issues (X found)",
+      "bytes": 264,
+      "when": [
+        "critical",
+        "issues",
+        "found"
+      ]
+    },
+    {
+      "name": "High priority (X found)",
+      "bytes": 36,
+      "when": [
+        "high",
+        "priority",
+        "found"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 237,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Recommended priority",
+      "bytes": 102,
+      "when": [
+        "recommended",
+        "priority"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 130,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Quick checklist",
+      "bytes": 506,
+      "when": [
+        "quick",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Before every deploy",
+      "bytes": 177,
+      "when": [
+        "before",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Weekly review",
+      "bytes": 155,
+      "when": [
+        "weekly",
+        "review"
+      ]
+    },
+    {
+      "name": "Monthly deep dive",
+      "bytes": 152,
+      "when": [
+        "monthly",
+        "deep",
+        "dive"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 286,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "works",
+    "tool",
+    "routing",
+    "categories",
+    "severity",
+    "levels",
+    "output",
+    "format",
+    "results",
+    "critical",
+    "issues",
+    "found"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-quality\\skills\\web-quality-audit\\SKILL.md"
+}

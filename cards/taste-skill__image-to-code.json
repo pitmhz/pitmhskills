@@ -1,0 +1,575 @@
+{
+  "id": "taste-skill__image-to-code",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "2944189b448e2a77cbbf55014030b1890a9ec5891acc9fa97fb8c215e0008407",
+  "purpose": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as close",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then impl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Generate-then-match image-to-code -> this.",
+  "cluster": "image-direction",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "match implement codex",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 9398,
+  "core_bytes": 37670,
+  "sections": [
+    {
+      "name": "1. ACTIVE BASELINE CONFIGURATION",
+      "bytes": 1748,
+      "when": [
+        "active",
+        "baseline",
+        "configuration"
+      ]
+    },
+    {
+      "name": "2. MANDATORY IMAGE-FIRST RULE",
+      "bytes": 684,
+      "when": [
+        "mandatory",
+        "image",
+        "first",
+        "rule"
+      ]
+    },
+    {
+      "name": "3. GENERATE ENOUGH IMAGES RULE",
+      "bytes": 785,
+      "when": [
+        "generate",
+        "enough",
+        "images",
+        "rule"
+      ]
+    },
+    {
+      "name": "4. CODEX-SPECIFIC SECTION IMAGE RULE",
+      "bytes": 1485,
+      "when": [
+        "codex",
+        "specific",
+        "section",
+        "image",
+        "rule"
+      ]
+    },
+    {
+      "name": "5. DO NOT CROP OLD IMAGES RULE",
+      "bytes": 1069,
+      "when": [
+        "crop",
+        "images",
+        "rule"
+      ]
+    },
+    {
+      "name": "6. FRESH RE-GENERATION RULE",
+      "bytes": 818,
+      "when": [
+        "fresh",
+        "generation",
+        "rule"
+      ]
+    },
+    {
+      "name": "7. OPTIONAL DETAIL / EXTRACTION IMAGE RULE",
+      "bytes": 1204,
+      "when": [
+        "optional",
+        "detail",
+        "extraction",
+        "image",
+        "rule"
+      ]
+    },
+    {
+      "name": "8. CLEAN ANALYSIS STANDARD",
+      "bytes": 734,
+      "when": [
+        "clean",
+        "analysis",
+        "standard"
+      ]
+    },
+    {
+      "name": "9. DEEP IMAGE ANALYSIS REQUIREMENT",
+      "bytes": 1118,
+      "when": [
+        "deep",
+        "image",
+        "analysis",
+        "requirement"
+      ]
+    },
+    {
+      "name": "10. IMAGE-FIRST CODEX WEBSITE WORKFLOW",
+      "bytes": 1003,
+      "when": [
+        "image",
+        "first",
+        "codex",
+        "website",
+        "workflow"
+      ]
+    },
+    {
+      "name": "11. WHEN TO TRIGGER IMAGE GENERATION FIRST",
+      "bytes": 800,
+      "when": [
+        "trigger",
+        "image",
+        "generation",
+        "first"
+      ]
+    },
+    {
+      "name": "12. THE COMBINATORIAL VARIATION ENGINE",
+      "bytes": 1966,
+      "when": [
+        "combinatorial",
+        "variation",
+        "engine"
+      ]
+    },
+    {
+      "name": "Theme Paradigm",
+      "bytes": 124,
+      "when": [
+        "theme",
+        "paradigm"
+      ]
+    },
+    {
+      "name": "Background Character",
+      "bytes": 201,
+      "when": [
+        "background",
+        "character"
+      ]
+    },
+    {
+      "name": "Typography Character",
+      "bytes": 192,
+      "when": [
+        "typography",
+        "character"
+      ]
+    },
+    {
+      "name": "Hero Architecture",
+      "bytes": 240,
+      "when": [
+        "hero",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Section System",
+      "bytes": 216,
+      "when": [
+        "section",
+        "system"
+      ]
+    },
+    {
+      "name": "Signature Component Set",
+      "bytes": 391,
+      "when": [
+        "signature",
+        "component"
+      ]
+    },
+    {
+      "name": "Motion-Implied Language",
+      "bytes": 349,
+      "when": [
+        "motion",
+        "implied",
+        "language"
+      ]
+    },
+    {
+      "name": "13. WEBSITE REFERENCE RULE",
+      "bytes": 460,
+      "when": [
+        "website",
+        "reference",
+        "rule"
+      ]
+    },
+    {
+      "name": "14. HERO MINIMALISM RULES",
+      "bytes": 1771,
+      "when": [
+        "hero",
+        "minimalism",
+        "rules"
+      ]
+    },
+    {
+      "name": "Absolute Hero Rules",
+      "bytes": 769,
+      "when": [
+        "absolute",
+        "hero",
+        "rules"
+      ]
+    },
+    {
+      "name": "Hero Cleanliness Rule",
+      "bytes": 682,
+      "when": [
+        "hero",
+        "cleanliness",
+        "rule"
+      ]
+    },
+    {
+      "name": "Headline Rule",
+      "bytes": 231,
+      "when": [
+        "headline",
+        "rule"
+      ]
+    },
+    {
+      "name": "15. RESPONSIVE FIRST-VIEW RULE",
+      "bytes": 783,
+      "when": [
+        "responsive",
+        "first",
+        "view",
+        "rule"
+      ]
+    },
+    {
+      "name": "16. ANTI-NESTED-BOX RULE",
+      "bytes": 821,
+      "when": [
+        "anti",
+        "nested",
+        "rule"
+      ]
+    },
+    {
+      "name": "17. REDUCE MICRO-UI CLUTTER RULE",
+      "bytes": 842,
+      "when": [
+        "reduce",
+        "micro",
+        "clutter",
+        "rule"
+      ]
+    },
+    {
+      "name": "18. SECTION IMAGE GENERATION RULE",
+      "bytes": 723,
+      "when": [
+        "section",
+        "image",
+        "generation",
+        "rule"
+      ]
+    },
+    {
+      "name": "19. WEBSITE IMAGE SYSTEM RULE",
+      "bytes": 760,
+      "when": [
+        "website",
+        "image",
+        "system",
+        "rule"
+      ]
+    },
+    {
+      "name": "20. FIXED MEDIA FRAME RULE",
+      "bytes": 882,
+      "when": [
+        "fixed",
+        "media",
+        "frame",
+        "rule"
+      ]
+    },
+    {
+      "name": "21. TEXT EXTRACTION RULE",
+      "bytes": 614,
+      "when": [
+        "text",
+        "extraction",
+        "rule"
+      ]
+    },
+    {
+      "name": "22. TYPOGRAPHY EXTRACTION RULE",
+      "bytes": 496,
+      "when": [
+        "typography",
+        "extraction",
+        "rule"
+      ]
+    },
+    {
+      "name": "23. SPACING EXTRACTION RULE",
+      "bytes": 540,
+      "when": [
+        "spacing",
+        "extraction",
+        "rule"
+      ]
+    },
+    {
+      "name": "24. BUTTON / COMPONENT EXTRACTION RULE",
+      "bytes": 443,
+      "when": [
+        "button",
+        "component",
+        "extraction",
+        "rule"
+      ]
+    },
+    {
+      "name": "25. COLOR EXTRACTION RULE",
+      "bytes": 495,
+      "when": [
+        "color",
+        "extraction",
+        "rule"
+      ]
+    },
+    {
+      "name": "26. DESIGN-TO-CODE COPY DISCIPLINE",
+      "bytes": 684,
+      "when": [
+        "design",
+        "code",
+        "copy",
+        "discipline"
+      ]
+    },
+    {
+      "name": "27. ANTI-DRIFT IMPLEMENTATION RULE",
+      "bytes": 769,
+      "when": [
+        "anti",
+        "drift",
+        "implementation",
+        "rule"
+      ]
+    },
+    {
+      "name": "28. MISSING DETAIL RESOLUTION",
+      "bytes": 543,
+      "when": [
+        "missing",
+        "detail",
+        "resolution"
+      ]
+    },
+    {
+      "name": "29. ANTI-AI-SLOP RULES",
+      "bytes": 1462,
+      "when": [
+        "anti",
+        "slop",
+        "rules"
+      ]
+    },
+    {
+      "name": "Layout slop",
+      "bytes": 382,
+      "when": [
+        "layout",
+        "slop"
+      ]
+    },
+    {
+      "name": "Visual slop",
+      "bytes": 242,
+      "when": [
+        "visual",
+        "slop"
+      ]
+    },
+    {
+      "name": "Typography slop",
+      "bytes": 170,
+      "when": [
+        "typography",
+        "slop"
+      ]
+    },
+    {
+      "name": "Content slop",
+      "bytes": 430,
+      "when": [
+        "content",
+        "slop"
+      ]
+    },
+    {
+      "name": "Density slop",
+      "bytes": 147,
+      "when": [
+        "density",
+        "slop"
+      ]
+    },
+    {
+      "name": "30. TYPOGRAPHY-FIRST DISCIPLINE",
+      "bytes": 411,
+      "when": [
+        "typography",
+        "first",
+        "discipline"
+      ]
+    },
+    {
+      "name": "31. SECTION RHYTHM RULE",
+      "bytes": 420,
+      "when": [
+        "section",
+        "rhythm",
+        "rule"
+      ]
+    },
+    {
+      "name": "32. DENSITY & SPACING DISCIPLINE",
+      "bytes": 704,
+      "when": [
+        "density",
+        "spacing",
+        "discipline"
+      ]
+    },
+    {
+      "name": "33. DEFAULT SECTION PACKS",
+      "bytes": 580,
+      "when": [
+        "default",
+        "section",
+        "packs"
+      ]
+    },
+    {
+      "name": "4-section pack",
+      "bytes": 83,
+      "when": [
+        "section",
+        "pack"
+      ]
+    },
+    {
+      "name": "8-section pack",
+      "bytes": 141,
+      "when": [
+        "section",
+        "pack"
+      ]
+    },
+    {
+      "name": "12-section pack",
+      "bytes": 324,
+      "when": [
+        "section",
+        "pack"
+      ]
+    },
+    {
+      "name": "34. MULTI-IMAGE CONSISTENCY RULE",
+      "bytes": 327,
+      "when": [
+        "multi",
+        "image",
+        "consistency",
+        "rule"
+      ]
+    },
+    {
+      "name": "35. CLARITY CHECK",
+      "bytes": 1198,
+      "when": [
+        "clarity",
+        "check"
+      ]
+    },
+    {
+      "name": "36. RESPONSE BEHAVIOR",
+      "bytes": 1778,
+      "when": [
+        "response",
+        "behavior"
+      ]
+    },
+    {
+      "name": "37. EXAMPLE INTERPRETATIONS",
+      "bytes": 1477,
+      "when": [
+        "example",
+        "interpretations"
+      ]
+    },
+    {
+      "name": "Example 1",
+      "bytes": 497,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Example 2",
+      "bytes": 493,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Example 3",
+      "bytes": 453,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "38. FINAL GOAL",
+      "bytes": 1586,
+      "when": [
+        "final",
+        "goal"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "directive",
+    "active",
+    "baseline",
+    "configuration",
+    "mandatory",
+    "rule",
+    "enough",
+    "crop",
+    "optional",
+    "extraction",
+    "analysis",
+    "standard"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\image-to-code-skill\\SKILL.md"
+}

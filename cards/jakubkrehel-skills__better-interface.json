@@ -1,0 +1,170 @@
+{
+  "id": "jakubkrehel-skills__better-interface",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "4430fcd5202f0ef7b598e0e9e10d0860e4df277c5839b66bb442bf173c0e3bf4",
+  "purpose": "Combines all of the `better-*` skills into a single review across accessibility, layout, writing, typography, color and UI polish.",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Combines all of the `better-*` skills into a single review across accessibility, layout, writing, typography, color and UI polish."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Combined holistic interface review -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "holistic combined",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2252,
+  "core_bytes": 9005,
+  "sections": [
+    {
+      "name": "Evidence, not taste",
+      "bytes": 351,
+      "when": [
+        "evidence",
+        "taste"
+      ]
+    },
+    {
+      "name": "Core principles",
+      "bytes": 6670,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "1. Resolve the scope first",
+      "bytes": 554,
+      "when": [
+        "resolve",
+        "scope",
+        "first"
+      ]
+    },
+    {
+      "name": "2. Send a change to `interface-review`",
+      "bytes": 578,
+      "when": [
+        "send",
+        "change",
+        "interface",
+        "review"
+      ]
+    },
+    {
+      "name": "3. Recon before judgment",
+      "bytes": 760,
+      "when": [
+        "recon",
+        "before",
+        "judgment"
+      ]
+    },
+    {
+      "name": "4. Use domain skills as the sources of truth",
+      "bytes": 852,
+      "when": [
+        "domain",
+        "skills",
+        "sources",
+        "truth"
+      ]
+    },
+    {
+      "name": "5. Require evidence",
+      "bytes": 252,
+      "when": [
+        "require",
+        "evidence"
+      ]
+    },
+    {
+      "name": "6. Rank by user impact",
+      "bytes": 1952,
+      "when": [
+        "rank",
+        "user",
+        "impact"
+      ]
+    },
+    {
+      "name": "7. Prefer the cheaper fix",
+      "bytes": 910,
+      "when": [
+        "prefer",
+        "cheaper"
+      ]
+    },
+    {
+      "name": "8. Consolidate systemic findings",
+      "bytes": 224,
+      "when": [
+        "consolidate",
+        "systemic",
+        "findings"
+      ]
+    },
+    {
+      "name": "9. Verify what can be verified",
+      "bytes": 293,
+      "when": [
+        "verify",
+        "verified"
+      ]
+    },
+    {
+      "name": "10. Review without mutating by default",
+      "bytes": 273,
+      "when": [
+        "review",
+        "mutating",
+        "default"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1009,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Review output format",
+      "bytes": 220,
+      "when": [
+        "review",
+        "output",
+        "format"
+      ]
+    }
+  ],
+  "keywords": [
+    "cross",
+    "discipline",
+    "evidence",
+    "taste",
+    "core",
+    "principles",
+    "resolve",
+    "scope",
+    "first",
+    "send",
+    "change",
+    "interface"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\better-interface\\SKILL.md"
+}

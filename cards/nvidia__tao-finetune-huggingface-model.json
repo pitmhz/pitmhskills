@@ -1,0 +1,163 @@
+{
+  "id": "nvidia__tao-finetune-huggingface-model",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a1fca7f82443f221959bc44201d6c404f1cbd03193b69de8f03cfa99d2a1b39b",
+  "purpose": "Fine-tune any HuggingFace CV / VLM / LLM model on local NVIDIA GPUs inside an NGC PyTorch container when no dedicated TAO model skill matches. Use when the user wants to fine-tune a HuggingFace model ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Fine-tune any HuggingFace CV / VLM / LLM model on local NVIDIA GPUs inside an NGC PyTorch container when no dedicated TAO model skill matches. Use when the user"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4983,
+  "core_bytes": 20101,
+  "sections": [
+    {
+      "name": "Dedicated-model routing gate",
+      "bytes": 2158,
+      "when": [
+        "dedicated",
+        "model",
+        "routing",
+        "gate"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1724,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Execution platform",
+      "bytes": 1448,
+      "when": [
+        "execution",
+        "platform"
+      ]
+    },
+    {
+      "name": "References — fallback safety net",
+      "bytes": 1127,
+      "when": [
+        "references",
+        "fallback",
+        "safety"
+      ]
+    },
+    {
+      "name": "Core rules",
+      "bytes": 1349,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "Workflow — 6 steps",
+      "bytes": 9217,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1 — Inspect & qualify",
+      "bytes": 1849,
+      "when": [
+        "step",
+        "inspect",
+        "qualify"
+      ]
+    },
+    {
+      "name": "Step 2 — Hardware audit & NGC image",
+      "bytes": 2444,
+      "when": [
+        "step",
+        "hardware",
+        "audit",
+        "image"
+      ]
+    },
+    {
+      "name": "Step 3 — Research the recipe",
+      "bytes": 897,
+      "when": [
+        "step",
+        "research",
+        "recipe"
+      ]
+    },
+    {
+      "name": "Step 4 — Generate project & smoke-test",
+      "bytes": 1710,
+      "when": [
+        "step",
+        "generate",
+        "project",
+        "smoke",
+        "test"
+      ]
+    },
+    {
+      "name": "Step 5 — Train, evaluate, infer",
+      "bytes": 1176,
+      "when": [
+        "step",
+        "train",
+        "evaluate",
+        "infer"
+      ]
+    },
+    {
+      "name": "Step 6 — Push & emit rerun skill",
+      "bytes": 1035,
+      "when": [
+        "step",
+        "push",
+        "emit",
+        "rerun",
+        "skill"
+      ]
+    },
+    {
+      "name": "Error playbook",
+      "bytes": 482,
+      "when": [
+        "error",
+        "playbook"
+      ]
+    },
+    {
+      "name": "Communication style",
+      "bytes": 324,
+      "when": [
+        "communication",
+        "style"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- pytest tests/"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-finetune-huggingface-model\\SKILL.md",
+  "curated": true
+}

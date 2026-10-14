@@ -1,0 +1,161 @@
+{
+  "id": "awesome-copilot__azure-smart-city-iot-solution-builder",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "eeb05e3e2288af37b2612c421f6e88d797de66b79c14d40ff0416882e77990d1",
+  "purpose": "Design and plan end-to-end Azure IoT and Smart City solutions: requirements, architecture, security, operations, cost, and a phased delivery plan with concrete implementation artifacts.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design and plan end-to-end Azure IoT and Smart City solutions: requirements, architecture, security, operations, cost, and a phased delivery plan with concrete "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1359,
+  "core_bytes": 5436,
+  "sections": [
+    {
+      "name": "When to use it",
+      "bytes": 285,
+      "when": []
+    },
+    {
+      "name": "Objectives",
+      "bytes": 186,
+      "when": [
+        "objectives"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2422,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "0) Mandatory documentation review (before any architecture)",
+      "bytes": 527,
+      "when": [
+        "mandatory",
+        "documentation",
+        "review",
+        "before",
+        "architecture"
+      ]
+    },
+    {
+      "name": "1) Scope and constraints",
+      "bytes": 356,
+      "when": [
+        "scope",
+        "constraints"
+      ]
+    },
+    {
+      "name": "2) Capability map",
+      "bytes": 390,
+      "when": [
+        "capability"
+      ]
+    },
+    {
+      "name": "3) Azure service selection (reference)",
+      "bytes": 516,
+      "when": [
+        "azure",
+        "service",
+        "selection",
+        "reference"
+      ]
+    },
+    {
+      "name": "4) Non-functional design",
+      "bytes": 346,
+      "when": [
+        "functional",
+        "design"
+      ]
+    },
+    {
+      "name": "5) Delivery plan",
+      "bytes": 274,
+      "when": [
+        "delivery",
+        "plan"
+      ]
+    },
+    {
+      "name": "Reuse other skills first",
+      "bytes": 1219,
+      "when": [
+        "reuse",
+        "skills",
+        "first"
+      ]
+    },
+    {
+      "name": "Runtime-provided Azure skills (optional)",
+      "bytes": 307,
+      "when": [
+        "runtime",
+        "provided",
+        "azure",
+        "skills",
+        "optional"
+      ]
+    },
+    {
+      "name": "Local repository alternatives (use in this repo)",
+      "bytes": 641,
+      "when": [
+        "local",
+        "repository",
+        "alternatives",
+        "repo"
+      ]
+    },
+    {
+      "name": "Required output artifacts",
+      "bytes": 307,
+      "when": [
+        "required",
+        "output",
+        "artifacts"
+      ]
+    },
+    {
+      "name": "Output template",
+      "bytes": 334,
+      "when": [
+        "output",
+        "template"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 285,
+      "when": [
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-smart-city-iot-solution-builder\\SKILL.md"
+}

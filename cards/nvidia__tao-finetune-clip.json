@@ -1,0 +1,144 @@
+{
+  "id": "nvidia__tao-finetune-clip",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "74dc8ace189bd75ac288f2a8189234e2247906ac739b96742463f5f1ab413791",
+  "purpose": "CLIP vision-language model for image-text retrieval, zero-shot classification, embedding extraction, ONNX",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "CLIP vision-language model for image-text retrieval, zero-shot classification, embedding extraction, ONNX"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4020,
+  "core_bytes": 16077,
+  "sections": [
+    {
+      "name": "Train Action Policy",
+      "bytes": 1518,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1331,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 7079,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Supported Models",
+      "bytes": 564,
+      "when": [
+        "supported",
+        "models"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 2386,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 3617,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 140,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Deploy Workflow",
+      "bytes": 1423,
+      "when": [
+        "deploy",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 1356,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 260,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 400,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 309,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 69,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-finetune-clip/SKILL.md",
+  "curated": true
+}

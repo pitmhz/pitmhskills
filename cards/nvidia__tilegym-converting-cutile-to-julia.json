@@ -1,0 +1,92 @@
+{
+  "id": "nvidia__tilegym-converting-cutile-to-julia",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c74ecc762dd41bd8ed89f8c2349457c20f891bcd9adef10cea6d1d5a7328fbe7",
+  "purpose": "Converts cuTile Python GPU kernels (@ct.kernel) to cuTile.jl Julia equivalents. Handles kernel syntax translation, 0-indexed to 1-indexed conversion, broadcasting differences, memory layout (row-major",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Converts cuTile Python GPU kernels (@ct.kernel) to cuTile.jl Julia equivalents. Handles kernel syntax translation, 0-indexed to 1-indexed conversion, broadcasti"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1732,
+  "core_bytes": 7046,
+  "sections": [
+    {
+      "name": "Workflow Selection",
+      "bytes": 469,
+      "when": [
+        "workflow",
+        "selection"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "bytes": 1246,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 846,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "⚠️ Top Pitfalls",
+      "bytes": 752,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Worked Examples",
+      "bytes": 1061,
+      "when": [
+        "worked",
+        "examples"
+      ]
+    },
+    {
+      "name": "Reference Documents",
+      "bytes": 1022,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "Environment Setup",
+      "bytes": 857,
+      "when": [
+        "environment",
+        "setup"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tilegym-converting-cutile-to-julia/SKILL.md",
+  "curated": true
+}

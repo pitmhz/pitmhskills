@@ -1,0 +1,306 @@
+{
+  "id": "awesome-copilot__prompt-optimizer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "191e2544ccf5890c4d7134b116d5fc2b554571d596d1b8a43ef260d77168caab",
+  "purpose": "Turn any rough prompt, half-formed idea, or task description into a finished, ready-to-send prompt optimized for any LLM model inside a chat interface — NOT the API. Use this skill whenever the user w",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "design"
+  ],
+  "use_when": [
+    "Turn any rough prompt, half-formed idea, or task description into a finished, ready-to-send prompt optimized for any LLM model inside a chat interface — NOT the"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4945,
+  "core_bytes": 19876,
+  "sections": [
+    {
+      "name": "Two hard rules",
+      "bytes": 1798,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Rule 1 — No placeholders. Ever.",
+      "bytes": 545,
+      "when": [
+        "rule",
+        "placeholders",
+        "ever"
+      ]
+    },
+    {
+      "name": "Rule 2 — Ship a finished prompt no matter what the user gave you.",
+      "bytes": 1147,
+      "when": [
+        "rule",
+        "ship",
+        "finished",
+        "prompt",
+        "matter",
+        "user",
+        "gave"
+      ]
+    },
+    {
+      "name": "What you output",
+      "bytes": 678,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Why these principles work",
+      "bytes": 421,
+      "when": [
+        "principles",
+        "work"
+      ]
+    },
+    {
+      "name": "The rewrite workflow",
+      "bytes": 1421,
+      "when": [
+        "rewrite",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Core principles to apply",
+      "bytes": 3593,
+      "when": [
+        "core",
+        "principles",
+        "apply"
+      ]
+    },
+    {
+      "name": "Be clear and direct",
+      "bytes": 416,
+      "when": [
+        "clear",
+        "direct"
+      ]
+    },
+    {
+      "name": "Explain the why",
+      "bytes": 314,
+      "when": [
+        "explain"
+      ]
+    },
+    {
+      "name": "Tell the LLM model what to do, not what to avoid",
+      "bytes": 170,
+      "when": [
+        "tell",
+        "model",
+        "avoid"
+      ]
+    },
+    {
+      "name": "Match prompt style to desired output style",
+      "bytes": 195,
+      "when": [
+        "match",
+        "prompt",
+        "style",
+        "desired",
+        "output"
+      ]
+    },
+    {
+      "name": "Use XML tags when sections multiply",
+      "bytes": 392,
+      "when": [
+        "tags",
+        "sections",
+        "multiply"
+      ]
+    },
+    {
+      "name": "Give the LLM model a role when it sharpens behavior",
+      "bytes": 257,
+      "when": [
+        "give",
+        "model",
+        "role",
+        "sharpens",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Use examples for format, tone, or structure",
+      "bytes": 365,
+      "when": [
+        "examples",
+        "format",
+        "tone",
+        "structure"
+      ]
+    },
+    {
+      "name": "Put long inputs on top, the question on the bottom",
+      "bytes": 274,
+      "when": [
+        "long",
+        "inputs",
+        "question",
+        "bottom"
+      ]
+    },
+    {
+      "name": "Ask for grounding in long-document tasks",
+      "bytes": 245,
+      "when": [
+        "grounding",
+        "long",
+        "document",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Be literal about scope",
+      "bytes": 382,
+      "when": [
+        "literal",
+        "scope"
+      ]
+    },
+    {
+      "name": "Trigger deeper reasoning deliberately",
+      "bytes": 297,
+      "when": [
+        "trigger",
+        "deeper",
+        "reasoning",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "Self-check for high-stakes outputs",
+      "bytes": 257,
+      "when": [
+        "self",
+        "check",
+        "high",
+        "stakes",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Domain-specific moves",
+      "bytes": 1658,
+      "when": [
+        "domain",
+        "specific",
+        "moves"
+      ]
+    },
+    {
+      "name": "Output format",
+      "bytes": 560,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 7097,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1 — Case B (user described a task class, no content given)",
+      "bytes": 1263,
+      "when": [
+        "example",
+        "case",
+        "user",
+        "described",
+        "task",
+        "class",
+        "content",
+        "given"
+      ]
+    },
+    {
+      "name": "Example 2 — Case B (rough draft prompt, no product details given)",
+      "bytes": 1688,
+      "when": [
+        "example",
+        "case",
+        "rough",
+        "draft",
+        "prompt",
+        "product",
+        "details",
+        "given"
+      ]
+    },
+    {
+      "name": "Example 3 — Case B (technical task, no code given)",
+      "bytes": 1510,
+      "when": [
+        "example",
+        "case",
+        "technical",
+        "task",
+        "code",
+        "given"
+      ]
+    },
+    {
+      "name": "Example 4 — Case A (real content provided, no follow-up needed)",
+      "bytes": 1860,
+      "when": [
+        "example",
+        "case",
+        "real",
+        "content",
+        "provided",
+        "follow",
+        "needed"
+      ]
+    },
+    {
+      "name": "Example 5 — simple task",
+      "bytes": 639,
+      "when": [
+        "example",
+        "simple",
+        "task"
+      ]
+    },
+    {
+      "name": "Edge cases",
+      "bytes": 1254,
+      "when": [
+        "edge",
+        "cases"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\prompt-optimizer\\SKILL.md"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "nvidia__nemotron-speech",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dcc3022f397c9e27b9ae789cd70c044bfec3b4ed653662240a9010e6b147e575",
+  "purpose": "Routes NVIDIA Nemotron Speech (Formerly Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Routes NVIDIA Nemotron Speech (Formerly Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3025,
+  "core_bytes": 12175,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 449,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to Use This Skill",
+      "bytes": 213,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 265,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1325,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1898,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Source of truth",
+      "bytes": 1794,
+      "when": [
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1871,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Naming & Terminology",
+      "bytes": 408,
+      "when": [
+        "naming",
+        "terminology"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 867,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 599,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Next Steps",
+      "bytes": 433,
+      "when": [
+        "next",
+        "steps"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemotron-speech/SKILL.md",
+  "curated": true
+}

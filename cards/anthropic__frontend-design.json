@@ -23,8 +23,8 @@
     "Backend, database, auth, or GPU work"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "Doing visual/UI design -> this. Interviewing the user to sharpen a plan -> grill-with-docs. Fixing performance of existing React code -> react-best-practices.",
-  "cluster": "visual-design",
+  "disambiguator": "Build new distinctive UI from scratch -> this. Polish/audit/restyle existing UI -> the variant below.",
+  "cluster": "frontend-design",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,
@@ -34,7 +34,60 @@
   ],
   "body_tokens": 2359,
   "core_bytes": 9461,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/anthropic/skills/frontend-design/SKILL.md"
+  "sections": [
+    {
+      "name": "Ground your designs in the subject matter",
+      "bytes": 736,
+      "when": [
+        "ground",
+        "designs",
+        "subject",
+        "matter"
+      ]
+    },
+    {
+      "name": "Design principles",
+      "bytes": 2683,
+      "when": [
+        "design",
+        "principles"
+      ]
+    },
+    {
+      "name": "Process: plan, review against the brief, build, critique",
+      "bytes": 2959,
+      "when": [
+        "process",
+        "plan",
+        "review",
+        "against",
+        "brief",
+        "build",
+        "critique"
+      ]
+    },
+    {
+      "name": "Restraint and self-critique",
+      "bytes": 797,
+      "when": [
+        "restraint",
+        "self",
+        "critique"
+      ]
+    },
+    {
+      "name": "More on writing in design",
+      "bytes": 1551,
+      "when": [
+        "writing",
+        "design"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/anthropic/skills/frontend-design/SKILL.md",
+  "curated": true
 }

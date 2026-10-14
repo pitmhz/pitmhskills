@@ -1,0 +1,120 @@
+{
+  "id": "dotfiles__prompt-engineer",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "9ccc0dcaee535032cbcaef7a859f380ee1f98a81c33c60fb04b9df8354ea46aa",
+  "purpose": "Audit and revise system prompts, developer instructions, tool descriptions, and reusable LLM prompt templates. Use for behavioral failures such as over-searching, format drift, weak tool use, instruct",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Audit and revise system prompts, developer instructions, tool descriptions, and reusable LLM prompt templates. Use for behavioral failures such as over-searchin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1732,
+  "core_bytes": 6926,
+  "sections": [
+    {
+      "name": "Operating Rules",
+      "bytes": 1225,
+      "when": [
+        "operating",
+        "rules"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3455,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Establish the Contract",
+      "bytes": 627,
+      "when": [
+        "establish",
+        "contract"
+      ]
+    },
+    {
+      "name": "2. Diagnose the Failure",
+      "bytes": 1177,
+      "when": [
+        "diagnose",
+        "failure"
+      ]
+    },
+    {
+      "name": "3. Revise",
+      "bytes": 1032,
+      "when": [
+        "revise"
+      ]
+    },
+    {
+      "name": "4. Present the Result",
+      "bytes": 604,
+      "when": [
+        "present",
+        "result"
+      ]
+    },
+    {
+      "name": "Skill Routing",
+      "bytes": 309,
+      "when": [
+        "skill",
+        "routing"
+      ]
+    },
+    {
+      "name": "Model-Specific Guidance",
+      "bytes": 849,
+      "when": [
+        "model",
+        "specific",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Iteration",
+      "bytes": 550,
+      "when": [
+        "iteration"
+      ]
+    }
+  ],
+  "keywords": [
+    "engineer",
+    "operating",
+    "rules",
+    "workflow",
+    "establish",
+    "contract",
+    "diagnose",
+    "failure",
+    "goal",
+    "context",
+    "boundaries",
+    "output"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\prompt-engineer\\SKILL.md"
+}

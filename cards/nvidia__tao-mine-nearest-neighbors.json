@@ -1,0 +1,81 @@
+{
+  "id": "nvidia__tao-mine-nearest-neighbors",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a15695b96081863b063148856611e8804c0cf93c59976eed48f2dac4e4529a20",
+  "purpose": "Run TAO Data Services TMM nearest-neighbor mining from embedding parquet files. Use when a workflow needs to mine source samples closest to target samples.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run TAO Data Services TMM nearest-neighbor mining from embedding parquet files. Use when a workflow needs to mine source samples closest to target samples."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1602,
+  "core_bytes": 6407,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 1332,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 1255,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Generate A Spec",
+      "bytes": 762,
+      "when": [
+        "generate",
+        "spec"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 662,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 472,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 787,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-mine-nearest-neighbors\\SKILL.md",
+  "curated": true
+}

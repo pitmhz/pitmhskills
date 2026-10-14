@@ -1,0 +1,238 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-memory-tuning",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d04747c07f3c07ebe86392888d5814b6b39cbd82ebfd5ee4a1c2a2336a8b1ff0",
+  "purpose": "Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, PEFT + SP input re-gather, parallelism resizing, activation recompute, CPU offloading constraints, and common OOM fixe",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, PEFT + SP input re-gather, parallelism resizing, activation recompute, CPU off"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3686,
+  "core_bytes": 14759,
+  "sections": [
+    {
+      "name": "What It Is",
+      "bytes": 1514,
+      "when": []
+    },
+    {
+      "name": "Quick Decision",
+      "bytes": 1148,
+      "when": [
+        "quick",
+        "decision"
+      ]
+    },
+    {
+      "name": "Enablement",
+      "bytes": 2587,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Expandable segments (recommended first step)",
+      "bytes": 457,
+      "when": [
+        "expandable",
+        "segments",
+        "recommended",
+        "first",
+        "step"
+      ]
+    },
+    {
+      "name": "Parallelism resizing",
+      "bytes": 591,
+      "when": [
+        "parallelism",
+        "resizing"
+      ]
+    },
+    {
+      "name": "Activation recompute",
+      "bytes": 109,
+      "when": [
+        "activation",
+        "recompute"
+      ]
+    },
+    {
+      "name": "PEFT + sequence-parallel input re-gather",
+      "bytes": 1254,
+      "when": [
+        "peft",
+        "sequence",
+        "parallel",
+        "input",
+        "gather"
+      ]
+    },
+    {
+      "name": "CPU offloading",
+      "bytes": 159,
+      "when": [
+        "offloading"
+      ]
+    },
+    {
+      "name": "A Note on VPP",
+      "bytes": 783,
+      "when": [
+        "note"
+      ]
+    },
+    {
+      "name": "Compatibility and Constraints",
+      "bytes": 789,
+      "when": [
+        "compatibility",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Measured Results",
+      "bytes": 2644,
+      "when": [
+        "measured",
+        "results"
+      ]
+    },
+    {
+      "name": "Strategy comparison: parallelism changes for memory reduction",
+      "bytes": 1057,
+      "when": [
+        "strategy",
+        "comparison",
+        "parallelism",
+        "changes",
+        "memory",
+        "reduction"
+      ]
+    },
+    {
+      "name": "CPU offloading: blocked",
+      "bytes": 354,
+      "when": [
+        "offloading",
+        "blocked"
+      ]
+    },
+    {
+      "name": "Activation recompute: expensive alternative",
+      "bytes": 248,
+      "when": [
+        "activation",
+        "recompute",
+        "expensive",
+        "alternative"
+      ]
+    },
+    {
+      "name": "LoRA + SP input re-gather",
+      "bytes": 763,
+      "when": [
+        "lora",
+        "input",
+        "gather"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 2055,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "LoRA sequence-parallel input re-gather",
+      "bytes": 288,
+      "when": [
+        "lora",
+        "sequence",
+        "parallel",
+        "input",
+        "gather"
+      ]
+    },
+    {
+      "name": "CPU offloading PP incompatibility (MCore)",
+      "bytes": 354,
+      "when": [
+        "offloading",
+        "incompatibility",
+        "mcore"
+      ]
+    },
+    {
+      "name": "VPP config and layer divisibility validation (MCore)",
+      "bytes": 863,
+      "when": [
+        "config",
+        "layer",
+        "divisibility",
+        "validation",
+        "mcore"
+      ]
+    },
+    {
+      "name": "Parallelism docs on interleaved pipeline schedule",
+      "bytes": 531,
+      "when": [
+        "parallelism",
+        "docs",
+        "interleaved",
+        "pipeline",
+        "schedule"
+      ]
+    },
+    {
+      "name": "Failure Diagnosis",
+      "bytes": 1305,
+      "when": [
+        "failure",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Known Limitations",
+      "bytes": 408,
+      "when": [
+        "known",
+        "limitations"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 749,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run python -m pytest tests/unit_tests/peft/test_utils.py -k \"sequence_parallel_input_regather\" tests/unit_tests/peft/test_lora.py -k \"sequence_parallel_input_regather\""
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-memory-tuning/SKILL.md",
+  "curated": true
+}

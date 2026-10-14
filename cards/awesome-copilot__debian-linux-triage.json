@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__debian-linux-triage",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "75ed743f3862662099c0c0af8aeeea61b93812656dd93cbd2305fbe74e6177f9",
+  "purpose": "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 240,
+  "core_bytes": 961,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 114,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 411,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 157,
+      "when": [
+        "output",
+        "format"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\debian-linux-triage\\SKILL.md"
+}

@@ -28,7 +28,58 @@
   "conflicts_with": [],
   "body_tokens": 696,
   "core_bytes": 2799,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Skill Arguments",
+      "bytes": 665,
+      "when": [
+        "skill",
+        "arguments"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1294,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Resolve the planKey",
+      "bytes": 608,
+      "when": [
+        "step",
+        "resolve",
+        "plankey"
+      ]
+    },
+    {
+      "name": "Step 2: Call create_new_file",
+      "bytes": 445,
+      "when": [
+        "step",
+        "call",
+        "create",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 3: Use the result",
+      "bytes": 226,
+      "when": [
+        "step",
+        "result"
+      ]
+    },
+    {
+      "name": "Important Notes",
+      "bytes": 245,
+      "when": [
+        "important",
+        "notes"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/figma-create-new-file/SKILL.md"
 }

@@ -1,0 +1,117 @@
+{
+  "id": "nvidia__jetson-speculative-decoding",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8cead9f312b19ef870c61246b162501e5008614c2bde22d9907e4778d4602069",
+  "purpose": "Add EAGLE-3 or draft-model speculative decoding to a Jetson vLLM server when TPOT is the bottleneck.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Add EAGLE-3 or draft-model speculative decoding to a Jetson vLLM server when TPOT is the bottleneck."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1229,
+  "core_bytes": 4930,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 194,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 374,
+      "when": []
+    },
+    {
+      "name": "When NOT to use",
+      "bytes": 363,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 363,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1273,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Jetson-specific tuning rules",
+      "bytes": 677,
+      "when": [
+        "jetson",
+        "specific",
+        "tuning",
+        "rules"
+      ]
+    },
+    {
+      "name": "How to verify it actually helped",
+      "bytes": 415,
+      "when": [
+        "verify",
+        "actually",
+        "helped"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 423,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 557,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Hand off to",
+      "bytes": 145,
+      "when": [
+        "hand"
+      ]
+    },
+    {
+      "name": "Source",
+      "bytes": 153,
+      "when": [
+        "source"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-speculative-decoding/SKILL.md",
+  "curated": true
+}

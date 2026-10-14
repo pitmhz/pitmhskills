@@ -1,0 +1,200 @@
+{
+  "id": "emilkowalski__animate-expo",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "7a3dd553e23e15959ce8b3ec8cd4c1605c0d2e576c3a484a13b989e0700a48dc",
+  "purpose": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, h",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs o"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Expo / React Native animation -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "expo native reanimated gesture",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4512,
+  "core_bytes": 18154,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 1300,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 565,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 614,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "The Build Sequence",
+      "bytes": 11339,
+      "when": [
+        "build",
+        "sequence"
+      ]
+    },
+    {
+      "name": "1. Should this animate at all?",
+      "bytes": 796,
+      "when": [
+        "animate"
+      ]
+    },
+    {
+      "name": "2. What is the purpose?",
+      "bytes": 251,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "3. Pick the tool — cheapest that works",
+      "bytes": 2777,
+      "when": [
+        "pick",
+        "tool",
+        "cheapest",
+        "works"
+      ]
+    },
+    {
+      "name": "4. Pick the properties",
+      "bytes": 1246,
+      "when": [
+        "pick",
+        "properties"
+      ]
+    },
+    {
+      "name": "5. Timing or spring",
+      "bytes": 1936,
+      "when": [
+        "timing",
+        "spring"
+      ]
+    },
+    {
+      "name": "6. Keep it off the JS thread",
+      "bytes": 1449,
+      "when": [
+        "keep",
+        "thread"
+      ]
+    },
+    {
+      "name": "7. Press, not hover",
+      "bytes": 816,
+      "when": [
+        "press",
+        "hover"
+      ]
+    },
+    {
+      "name": "8. Haptics",
+      "bytes": 1247,
+      "when": [
+        "haptics"
+      ]
+    },
+    {
+      "name": "9. Reduced motion and accessibility",
+      "bytes": 796,
+      "when": [
+        "reduced",
+        "motion",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Setup that silently breaks motion",
+      "bytes": 869,
+      "when": [
+        "setup",
+        "silently",
+        "breaks",
+        "motion"
+      ]
+    },
+    {
+      "name": "120fps",
+      "bytes": 443,
+      "when": [
+        "120fps"
+      ]
+    },
+    {
+      "name": "Recipes",
+      "bytes": 330,
+      "when": [
+        "recipes"
+      ]
+    },
+    {
+      "name": "Never Ship",
+      "bytes": 1411,
+      "when": [
+        "ship"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 515,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 163,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "keywords": [
+    "building",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "sequence",
+    "purpose",
+    "pick",
+    "tool",
+    "cheapest",
+    "works"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\animate-expo\\SKILL.md"
+}

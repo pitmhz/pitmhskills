@@ -1,0 +1,106 @@
+{
+  "id": "awesome-copilot__github-codespaces-efficiency",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "933339dc228208ba51428186d31407e186604ddaa8611bc307c9de1ad712e5b1",
+  "purpose": "Audit and improve GitHub Codespaces efficiency. Use this skill when a user wants faster Codespaces startup, lower Codespaces spend, slim devcontainers, right-size machines, tune idle timeout, or scope",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Audit and improve GitHub Codespaces efficiency. Use this skill when a user wants faster Codespaces startup, lower Codespaces spend, slim devcontainers, right-si"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1166,
+  "core_bytes": 4688,
+  "sections": [
+    {
+      "name": "Use This Skill When",
+      "bytes": 400,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Load Only What You Need",
+      "bytes": 268,
+      "when": [
+        "load",
+        "need"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 2786,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Measure first",
+      "bytes": 649,
+      "when": [
+        "measure",
+        "first"
+      ]
+    },
+    {
+      "name": "2. Apply guardrails",
+      "bytes": 840,
+      "when": [
+        "apply",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "3. Select the top 3 fixes",
+      "bytes": 968,
+      "when": [
+        "select",
+        "fixes"
+      ]
+    },
+    {
+      "name": "4. Verify",
+      "bytes": 311,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Required Output",
+      "bytes": 406,
+      "when": [
+        "required",
+        "output"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 189,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\github-codespaces-efficiency\\SKILL.md"
+}

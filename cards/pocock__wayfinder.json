@@ -27,7 +27,130 @@
   "conflicts_with": [],
   "body_tokens": 3127,
   "core_bytes": 12508,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/wayfinder/SKILL.md"
+  "sections": [
+    {
+      "name": "Plan, don't do",
+      "bytes": 459,
+      "when": [
+        "plan"
+      ]
+    },
+    {
+      "name": "Refer by name",
+      "bytes": 396,
+      "when": [
+        "refer",
+        "name"
+      ]
+    },
+    {
+      "name": "The Map",
+      "bytes": 945,
+      "when": []
+    },
+    {
+      "name": "The map body",
+      "bytes": 171,
+      "when": [
+        "body"
+      ]
+    },
+    {
+      "name": "Destination",
+      "bytes": 206,
+      "when": [
+        "destination"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 99,
+      "when": [
+        "notes"
+      ]
+    },
+    {
+      "name": "Decisions so far",
+      "bytes": 218,
+      "when": [
+        "decisions"
+      ]
+    },
+    {
+      "name": "Not yet specified",
+      "bytes": 124,
+      "when": [
+        "specified"
+      ]
+    },
+    {
+      "name": "Out of scope",
+      "bytes": 296,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Tickets",
+      "bytes": 181,
+      "when": [
+        "tickets"
+      ]
+    },
+    {
+      "name": "Question",
+      "bytes": 1213,
+      "when": [
+        "question"
+      ]
+    },
+    {
+      "name": "Ticket Types",
+      "bytes": 1761,
+      "when": [
+        "ticket",
+        "types"
+      ]
+    },
+    {
+      "name": "Fog of war",
+      "bytes": 1453,
+      "when": []
+    },
+    {
+      "name": "Out of scope",
+      "bytes": 1025,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Invocation",
+      "bytes": 3259,
+      "when": [
+        "invocation"
+      ]
+    },
+    {
+      "name": "Chart the map",
+      "bytes": 1652,
+      "when": [
+        "chart"
+      ]
+    },
+    {
+      "name": "Work through the map",
+      "bytes": 1472,
+      "when": [
+        "work",
+        "through"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/wayfinder/SKILL.md",
+  "curated": true
 }

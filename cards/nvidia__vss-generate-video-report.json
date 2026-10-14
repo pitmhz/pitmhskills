@@ -1,0 +1,192 @@
+{
+  "id": "nvidia__vss-generate-video-report",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1df903c183712917740015155a59a5a8b62de9849df6ed315897ac74d87d0064",
+  "purpose": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4738,
+  "core_bytes": 19062,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1017,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 436,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Negative Triggers",
+      "bytes": 735,
+      "when": [
+        "negative",
+        "triggers"
+      ]
+    },
+    {
+      "name": "Deployment prerequisite",
+      "bytes": 559,
+      "when": [
+        "deployment",
+        "prerequisite"
+      ]
+    },
+    {
+      "name": "Clip URLs: VLM input vs browser report link",
+      "bytes": 1401,
+      "when": [
+        "clip",
+        "urls",
+        "input",
+        "browser",
+        "report",
+        "link"
+      ]
+    },
+    {
+      "name": "Mode A — Report on a recorded video clip",
+      "bytes": 9896,
+      "when": [
+        "mode",
+        "report",
+        "recorded",
+        "video",
+        "clip"
+      ]
+    },
+    {
+      "name": "Step 1 — Resolve the clip URL",
+      "bytes": 1203,
+      "when": [
+        "step",
+        "resolve",
+        "clip"
+      ]
+    },
+    {
+      "name": "Step 2 — Resolve VLM endpoint and model",
+      "bytes": 2378,
+      "when": [
+        "step",
+        "resolve",
+        "endpoint",
+        "model"
+      ]
+    },
+    {
+      "name": "Step 3 — Call the VLM directly",
+      "bytes": 5405,
+      "when": [
+        "step",
+        "call",
+        "directly"
+      ]
+    },
+    {
+      "name": "Step 4 — Fill the Video Analysis Report template",
+      "bytes": 531,
+      "when": [
+        "step",
+        "fill",
+        "video",
+        "analysis",
+        "report",
+        "template"
+      ]
+    },
+    {
+      "name": "Mode B — Report on incidents in a time range",
+      "bytes": 2591,
+      "when": [
+        "mode",
+        "report",
+        "incidents",
+        "time",
+        "range"
+      ]
+    },
+    {
+      "name": "Step 1 — Resolve the time range and (optionally) sensor",
+      "bytes": 358,
+      "when": [
+        "step",
+        "resolve",
+        "time",
+        "range",
+        "optionally",
+        "sensor"
+      ]
+    },
+    {
+      "name": "Step 2 — Fetch incidents via `/vss-query-analytics`",
+      "bytes": 1411,
+      "when": [
+        "step",
+        "fetch",
+        "incidents",
+        "query",
+        "analytics"
+      ]
+    },
+    {
+      "name": "Step 3 — Fill the Incident Range Report template",
+      "bytes": 769,
+      "when": [
+        "step",
+        "fill",
+        "incident",
+        "range",
+        "report",
+        "template"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 830,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Cross-Reference",
+      "bytes": 482,
+      "when": [
+        "cross",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-generate-video-report/SKILL.md",
+  "curated": true
+}

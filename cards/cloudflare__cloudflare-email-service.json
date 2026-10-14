@@ -28,7 +28,57 @@
   "conflicts_with": [],
   "body_tokens": 1669,
   "core_bytes": 6692,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Retrieval Sources",
+      "bytes": 676,
+      "when": [
+        "retrieval",
+        "sources"
+      ]
+    },
+    {
+      "name": "FIRST: Check Prerequisites",
+      "bytes": 560,
+      "when": [
+        "first",
+        "check",
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "What Do You Need?",
+      "bytes": 1263,
+      "when": [
+        "need"
+      ]
+    },
+    {
+      "name": "Sending Workflow",
+      "bytes": 470,
+      "when": [
+        "sending",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 1925,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 761,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "npx wrangler deploy --dry-run"
+  ],
   "skill_path": "skills/cloudflare/skills/cloudflare-email-service/SKILL.md"
 }

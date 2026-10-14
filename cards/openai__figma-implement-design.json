@@ -28,7 +28,287 @@
   "conflicts_with": [],
   "body_tokens": 2970,
   "core_bytes": 11879,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/figma-implement-design/SKILL.md"
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 272,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Skill Boundaries",
+      "bytes": 686,
+      "when": [
+        "skill",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 488,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required Workflow",
+      "bytes": 4472,
+      "when": [
+        "required",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Get Node ID",
+      "bytes": 1250,
+      "when": [
+        "step",
+        "node"
+      ]
+    },
+    {
+      "name": "Step 2: Fetch Design Context",
+      "bytes": 711,
+      "when": [
+        "step",
+        "fetch",
+        "design",
+        "context"
+      ]
+    },
+    {
+      "name": "Step 3: Capture Visual Reference",
+      "bytes": 303,
+      "when": [
+        "step",
+        "capture",
+        "visual",
+        "reference"
+      ]
+    },
+    {
+      "name": "Step 4: Download Required Assets",
+      "bytes": 507,
+      "when": [
+        "step",
+        "download",
+        "required",
+        "assets"
+      ]
+    },
+    {
+      "name": "Step 5: Translate to Project Conventions",
+      "bytes": 652,
+      "when": [
+        "step",
+        "translate",
+        "project",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Step 6: Achieve 1:1 Visual Parity",
+      "bytes": 494,
+      "when": [
+        "step",
+        "achieve",
+        "visual",
+        "parity"
+      ]
+    },
+    {
+      "name": "Step 7: Validate Against Figma",
+      "bytes": 476,
+      "when": [
+        "step",
+        "validate",
+        "against",
+        "figma"
+      ]
+    },
+    {
+      "name": "Implementation Rules",
+      "bytes": 772,
+      "when": [
+        "implementation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Component Organization",
+      "bytes": 225,
+      "when": [
+        "component",
+        "organization"
+      ]
+    },
+    {
+      "name": "Design System Integration",
+      "bytes": 295,
+      "when": [
+        "design",
+        "system",
+        "integration"
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "bytes": 225,
+      "when": [
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1880,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: Implementing a Button Component",
+      "bytes": 900,
+      "when": [
+        "example",
+        "implementing",
+        "button",
+        "component"
+      ]
+    },
+    {
+      "name": "Example 2: Building a Dashboard Layout",
+      "bytes": 965,
+      "when": [
+        "example",
+        "building",
+        "dashboard",
+        "layout"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 732,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Always Start with Context",
+      "bytes": 136,
+      "when": [
+        "start",
+        "context"
+      ]
+    },
+    {
+      "name": "Incremental Validation",
+      "bytes": 124,
+      "when": [
+        "incremental",
+        "validation"
+      ]
+    },
+    {
+      "name": "Document Deviations",
+      "bytes": 155,
+      "when": [
+        "document",
+        "deviations"
+      ]
+    },
+    {
+      "name": "Reuse Over Recreation",
+      "bytes": 175,
+      "when": [
+        "reuse",
+        "recreation"
+      ]
+    },
+    {
+      "name": "Design System First",
+      "bytes": 121,
+      "when": [
+        "design",
+        "system",
+        "first"
+      ]
+    },
+    {
+      "name": "Common Issues and Solutions",
+      "bytes": 1214,
+      "when": [
+        "common",
+        "issues",
+        "solutions"
+      ]
+    },
+    {
+      "name": "Issue: Figma output is truncated",
+      "bytes": 269,
+      "when": [
+        "issue",
+        "figma",
+        "output",
+        "truncated"
+      ]
+    },
+    {
+      "name": "Issue: Design doesn't match after implementation",
+      "bytes": 293,
+      "when": [
+        "issue",
+        "design",
+        "doesn",
+        "match",
+        "after",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Issue: Assets not loading",
+      "bytes": 299,
+      "when": [
+        "issue",
+        "assets",
+        "loading"
+      ]
+    },
+    {
+      "name": "Issue: Design token values differ from Figma",
+      "bytes": 319,
+      "when": [
+        "issue",
+        "design",
+        "token",
+        "values",
+        "differ",
+        "figma"
+      ]
+    },
+    {
+      "name": "Understanding Design Implementation",
+      "bytes": 588,
+      "when": [
+        "understanding",
+        "design",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Additional Resources",
+      "bytes": 351,
+      "when": [
+        "additional",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/figma-implement-design/SKILL.md",
+  "curated": true
 }

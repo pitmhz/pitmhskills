@@ -1,0 +1,134 @@
+{
+  "id": "mengto-skills__editorial-portfolio-chapters",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "e1f64e8f534d6319e01452511b5d38cd5cdcfc0b0c8e32fa34bdc708241f07ec",
+  "purpose": "Create or redesign creative-studio, agency, photographer, artist, and portfolio websites where project work leads the story. Use for dark editorial shells, full-bleed campaign media, color-coded case-",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create or redesign creative-studio, agency, photographer, artist, and portfolio websites where project work leads the story. Use for dark editorial shells, full"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1145,
+  "core_bytes": 4588,
+  "sections": [
+    {
+      "name": "Establish the Story",
+      "bytes": 591,
+      "when": [
+        "establish",
+        "story"
+      ]
+    },
+    {
+      "name": "Build the Visual System",
+      "bytes": 544,
+      "when": [
+        "build",
+        "visual",
+        "system"
+      ]
+    },
+    {
+      "name": "Compose the Page",
+      "bytes": 729,
+      "when": [
+        "compose",
+        "page"
+      ]
+    },
+    {
+      "name": "Implement the Signature Interactions",
+      "bytes": 737,
+      "when": [
+        "implement",
+        "signature",
+        "interactions"
+      ]
+    },
+    {
+      "name": "Editorial project panel reveal",
+      "bytes": 348,
+      "when": [
+        "editorial",
+        "project",
+        "panel",
+        "reveal"
+      ]
+    },
+    {
+      "name": "Oversized service handoff",
+      "bytes": 346,
+      "when": [
+        "oversized",
+        "service",
+        "handoff"
+      ]
+    },
+    {
+      "name": "Motion Defaults",
+      "bytes": 407,
+      "when": [
+        "motion",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 412,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Source-Backed Prompt Pack",
+      "bytes": 326,
+      "when": [
+        "source",
+        "backed",
+        "prompt",
+        "pack"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 317,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "establish",
+    "build",
+    "visual",
+    "system",
+    "compose",
+    "page",
+    "implement",
+    "signature",
+    "interactions",
+    "panel",
+    "reveal",
+    "handoff"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\editorial-portfolio-chapters\\SKILL.md"
+}

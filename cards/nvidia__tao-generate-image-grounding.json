@@ -1,0 +1,112 @@
+{
+  "id": "nvidia__tao-generate-image-grounding",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a8e51a589bf5229e32c5ca41e2b6fc1d16e62f14b4eff19087b3b2e351c9830c",
+  "purpose": "Two-step image grounding pipeline: extracts referring expressions from (image, caption) pairs and grounds them",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Two-step image grounding pipeline: extracts referring expressions from (image, caption) pairs and grounds them"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2038,
+  "core_bytes": 8180,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 284,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Pipeline Architecture",
+      "bytes": 498,
+      "when": [
+        "pipeline",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 3930,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Initial setup",
+      "bytes": 2577,
+      "when": [
+        "initial",
+        "setup"
+      ]
+    },
+    {
+      "name": "Running the pipeline",
+      "bytes": 734,
+      "when": [
+        "running",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "Recommended pilot workflow",
+      "bytes": 600,
+      "when": [
+        "recommended",
+        "pilot",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 774,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 502,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 632,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 242,
+      "when": [
+        "prerequisites"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-generate-image-grounding/SKILL.md",
+  "curated": true
+}

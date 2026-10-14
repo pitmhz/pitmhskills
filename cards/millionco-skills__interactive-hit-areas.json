@@ -1,0 +1,102 @@
+{
+  "id": "millionco-skills__interactive-hit-areas",
+  "tier": "B",
+  "origin": [
+    "millionco/skills@462b78424e14ba6895a717733e1d57191dd9912f"
+  ],
+  "license": "MIT",
+  "hash": "87244a7277865fa445940a115b427cb02ab4dd291154bfff0ecf72f4ae5da875",
+  "purpose": "Use when interactive elements that have visual spacing between them (chart bars/columns, list rows, nav items, segmented controls, tabs, calendar cells, icon buttons, legend chips) need hover or click",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when interactive elements that have visual spacing between them (chart bars/columns, list rows, nav items, segmented controls, tabs, calendar cells, icon bu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1202,
+  "core_bytes": 4828,
+  "sections": [
+    {
+      "name": "The core rule",
+      "bytes": 607,
+      "when": [
+        "core",
+        "rule"
+      ]
+    },
+    {
+      "name": "Symptom & detection",
+      "bytes": 488,
+      "when": [
+        "symptom",
+        "detection"
+      ]
+    },
+    {
+      "name": "The fix (general)",
+      "bytes": 626,
+      "when": [
+        "general"
+      ]
+    },
+    {
+      "name": "React / Tailwind specifics",
+      "bytes": 728,
+      "when": [
+        "react",
+        "tailwind",
+        "specifics"
+      ]
+    },
+    {
+      "name": "Worked example (bar chart)",
+      "bytes": 1031,
+      "when": [
+        "worked",
+        "example",
+        "chart"
+      ]
+    },
+    {
+      "name": "When gaps between items ARE fine",
+      "bytes": 405,
+      "when": [
+        "gaps",
+        "between",
+        "items",
+        "fine"
+      ]
+    }
+  ],
+  "keywords": [
+    "areas",
+    "core",
+    "rule",
+    "symptom",
+    "detection",
+    "general",
+    "react",
+    "tailwind",
+    "specifics",
+    "worked",
+    "example",
+    "gaps",
+    "fine"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\millionco-skills\\skills\\interactive-hit-areas\\SKILL.md"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "awesome-copilot__java-docs",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9f837092e00114d9f18a9e744707ef11bfc68913247d8014adc534a29e46d087",
+  "purpose": "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 360,
+  "core_bytes": 1439,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\java-docs\\SKILL.md"
+}

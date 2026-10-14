@@ -1,0 +1,124 @@
+{
+  "id": "nvidia__doca-verbs",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "27272554014f19c72ba9b5f646c548a51f1cf55bbee7154ba12b38a57a5da14f",
+  "purpose": "Use this skill when the user is dropping below the higher-level DOCA libraries (doca-rdma / doca-eth / doca-rmax) into the raw-verbs escape hatch — managing QP / CQ / PD / MR / SRQ / AH / CC-group / E",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when the user is dropping below the higher-level DOCA libraries (doca-rdma / doca-eth / doca-rmax) into the raw-verbs escape hatch — managing QP "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4972,
+  "core_bytes": 19982,
+  "sections": [
+    {
+      "name": "STOP — most RDMA tasks do NOT belong here",
+      "bytes": 1919,
+      "when": [
+        "stop",
+        "rdma",
+        "tasks",
+        "belong"
+      ]
+    },
+    {
+      "name": "The decision this skill exists to gate",
+      "bytes": 2298,
+      "when": [
+        "decision",
+        "skill",
+        "exists",
+        "gate"
+      ]
+    },
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 2931,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "Audience",
+      "bytes": 562,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "Language scope",
+      "bytes": 979,
+      "when": [
+        "language",
+        "scope"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 1907,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1723,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 1461,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 1180,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 3350,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-verbs\\SKILL.md",
+  "curated": true
+}

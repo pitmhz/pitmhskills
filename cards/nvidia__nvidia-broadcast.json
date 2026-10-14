@@ -1,0 +1,215 @@
+{
+  "id": "nvidia__nvidia-broadcast",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1bba9beac0e47f2b1a19e7339624379e5688ffefdbf6e0faf0becf23187a524e",
+  "purpose": "Use when controlling NVIDIA Broadcast through MCP to apply effects, process local media, select devices, or change camera resolution, or when Broadcast is missing or too old to expose the gateway and ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when controlling NVIDIA Broadcast through MCP to apply effects, process local media, select devices, or change camera resolution, or when Broadcast is missi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 10555,
+  "core_bytes": 42422,
+  "sections": [
+    {
+      "name": "Hard rules",
+      "bytes": 5952,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 390,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 798,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 895,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Which tool to run commands with",
+      "bytes": 299,
+      "when": [
+        "tool",
+        "commands"
+      ]
+    },
+    {
+      "name": "Connecting",
+      "bytes": 8365,
+      "when": [
+        "connecting"
+      ]
+    },
+    {
+      "name": "MCP client identity",
+      "bytes": 1684,
+      "when": [
+        "client",
+        "identity"
+      ]
+    },
+    {
+      "name": "If the default port does not work",
+      "bytes": 3476,
+      "when": [
+        "default",
+        "port",
+        "work"
+      ]
+    },
+    {
+      "name": "If your client cannot register MCP servers at runtime",
+      "bytes": 1225,
+      "when": [
+        "client",
+        "cannot",
+        "register",
+        "servers",
+        "runtime"
+      ]
+    },
+    {
+      "name": "If you are running inside WSL",
+      "bytes": 1963,
+      "when": [
+        "running",
+        "inside"
+      ]
+    },
+    {
+      "name": "Installing or updating NVIDIA Broadcast",
+      "bytes": 4141,
+      "when": [
+        "installing",
+        "updating",
+        "nvidia",
+        "broadcast"
+      ]
+    },
+    {
+      "name": "Tools",
+      "bytes": 3548,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Studio Voice microphone profiles",
+      "bytes": 396,
+      "when": [
+        "studio",
+        "voice",
+        "microphone",
+        "profiles"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 311,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Worked flows",
+      "bytes": 2364,
+      "when": [
+        "worked",
+        "flows"
+      ]
+    },
+    {
+      "name": "Several files as one batch",
+      "bytes": 1077,
+      "when": [
+        "several",
+        "files",
+        "batch"
+      ]
+    },
+    {
+      "name": "Switch camera and set its resolution",
+      "bytes": 1205,
+      "when": [
+        "switch",
+        "camera",
+        "resolution"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 7022,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Safety and scope",
+      "bytes": 2584,
+      "when": [
+        "safety",
+        "scope"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 977,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 3131,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "More detail (load only if needed)",
+      "bytes": 601,
+      "when": [
+        "detail",
+        "load",
+        "needed"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nvidia-broadcast/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,151 @@
+{
+  "id": "nvidia__hsb-ip-packetizer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "2869339867a0bcace2f14d4ec5b99c2b7598bed0849cccc54ca5f97f627454b8",
+  "purpose": "Choose or explain HSB Sensor RX packetizer fields for HOLOLINK_def.svh. Do not use for full defs, validation, or runtime APB programming.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Choose or explain HSB Sensor RX packetizer fields for HOLOLINK_def.svh. Do not use for full defs, validation, or runtime APB programming."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3642,
+  "core_bytes": 14567,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 419,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 477,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1811,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Live HSB IP source policy",
+      "bytes": 1305,
+      "when": [
+        "live",
+        "source",
+        "policy"
+      ]
+    },
+    {
+      "name": "Reference Loading",
+      "bytes": 617,
+      "when": [
+        "reference",
+        "loading"
+      ]
+    },
+    {
+      "name": "Workflow Decision",
+      "bytes": 537,
+      "when": [
+        "workflow",
+        "decision"
+      ]
+    },
+    {
+      "name": "Requirement Discovery",
+      "bytes": 1088,
+      "when": [
+        "requirement",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Deriving Fields",
+      "bytes": 1787,
+      "when": [
+        "deriving",
+        "fields"
+      ]
+    },
+    {
+      "name": "Emitted Field Format",
+      "bytes": 860,
+      "when": [
+        "emitted",
+        "field",
+        "format"
+      ]
+    },
+    {
+      "name": "Standalone SVH",
+      "bytes": 754,
+      "when": [
+        "standalone"
+      ]
+    },
+    {
+      "name": "Def-Skill Handoff",
+      "bytes": 1233,
+      "when": [
+        "skill",
+        "handoff"
+      ]
+    },
+    {
+      "name": "Explain",
+      "bytes": 650,
+      "when": [
+        "explain"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 559,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1297,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 269,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/hsb-ip-packetizer/SKILL.md",
+  "curated": true
+}

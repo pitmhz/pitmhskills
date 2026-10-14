@@ -27,7 +27,73 @@
   "conflicts_with": [],
   "body_tokens": 780,
   "core_bytes": 3118,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/to-spec/SKILL.md"
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 770,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Problem Statement",
+      "bytes": 93,
+      "when": [
+        "problem",
+        "statement"
+      ]
+    },
+    {
+      "name": "Solution",
+      "bytes": 76,
+      "when": [
+        "solution"
+      ]
+    },
+    {
+      "name": "User Stories",
+      "bytes": 440,
+      "when": [
+        "user",
+        "stories"
+      ]
+    },
+    {
+      "name": "Implementation Decisions",
+      "bytes": 753,
+      "when": [
+        "implementation",
+        "decisions"
+      ]
+    },
+    {
+      "name": "Testing Decisions",
+      "bytes": 288,
+      "when": [
+        "testing",
+        "decisions"
+      ]
+    },
+    {
+      "name": "Out of Scope",
+      "bytes": 87,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Further Notes",
+      "bytes": 78,
+      "when": [
+        "further",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/to-spec/SKILL.md",
+  "curated": true
 }

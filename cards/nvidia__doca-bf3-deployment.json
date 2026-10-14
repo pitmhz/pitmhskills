@@ -1,0 +1,95 @@
+{
+  "id": "nvidia__doca-bf3-deployment",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7b3dffd4956913d027aecf40ef09d9fa02df0b3cdb36792bf7da7412a45bc25a",
+  "purpose": "Use this skill for BlueField-3 (BF3) day-1 platform bring-up via the classic RShim/BFB path: pushing a BlueField bundle (BFB) to the DPU over RShim with bfb-install from the host, the host-to-DPU TMFI",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill for BlueField-3 (BF3) day-1 platform bring-up via the classic RShim/BFB path: pushing a BlueField bundle (BFB) to the DPU over RShim with bfb-ins"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2789,
+  "core_bytes": 11194,
+  "sections": [
+    {
+      "name": "Audience",
+      "bytes": 1998,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 2573,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 2217,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 765,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 145,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 147,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 91,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-bf3-deployment\\SKILL.md",
+  "curated": true
+}

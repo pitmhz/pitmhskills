@@ -1,0 +1,124 @@
+{
+  "id": "awesome-copilot__workiq-copilot",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "29ed1f4026b4676d5f50e13169f8c64cb4a8ce4f58e9f2261acfd17f069b2e69",
+  "purpose": "Guides the Copilot CLI on how to use the WorkIQ CLI/MCP server to query Microsoft 365 Copilot data (emails, meetings, docs, Teams, people) for live context, summaries, and recommendations.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Guides the Copilot CLI on how to use the WorkIQ CLI/MCP server to query Microsoft 365 Copilot data (emails, meetings, docs, Teams, people) for live context, sum"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1361,
+  "core_bytes": 5539,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 316,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Supported Data & Sample Prompts",
+      "bytes": 379,
+      "when": [
+        "supported",
+        "data",
+        "sample",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Getting Access",
+      "bytes": 558,
+      "when": [
+        "getting",
+        "access"
+      ]
+    },
+    {
+      "name": "Pre-flight Checklist",
+      "bytes": 287,
+      "when": [
+        "flight",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 651,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Command Reference",
+      "bytes": 941,
+      "when": [
+        "command",
+        "reference"
+      ]
+    },
+    {
+      "name": "Prompt Patterns",
+      "bytes": 406,
+      "when": [
+        "prompt",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Response Guidelines",
+      "bytes": 419,
+      "when": [
+        "response",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 472,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 513,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Follow-up Actions to Offer",
+      "bytes": 339,
+      "when": [
+        "follow",
+        "actions",
+        "offer"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\workiq-copilot\\SKILL.md"
+}

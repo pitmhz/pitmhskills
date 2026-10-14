@@ -1,0 +1,69 @@
+{
+  "id": "nvidia__paidf-auto-labeling",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1a940f8241c5974bfe1ce1611bbaafc045a558ee11ad53ac91de9c9cfa9ac261",
+  "purpose": "Use when a user needs to get started with PAIDF Auto-Labeling, plan a scenario, run or debug a shipped cookbook, author prompts or cookbooks, migrate a pipeline, or configure a stage. Confirm critical",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when a user needs to get started with PAIDF Auto-Labeling, plan a scenario, run or debug a shipped cookbook, author prompts or cookbooks, migrate a pipeline"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1863,
+  "core_bytes": 7453,
+  "sections": [
+    {
+      "name": "Routing (Read First)",
+      "bytes": 2034,
+      "when": [
+        "routing",
+        "read",
+        "first"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2115,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1226,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 1059,
+      "when": [
+        "guardrails"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\paidf-auto-labeling\\SKILL.md",
+  "curated": true
+}

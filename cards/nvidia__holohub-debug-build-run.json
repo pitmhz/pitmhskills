@@ -1,0 +1,93 @@
+{
+  "id": "nvidia__holohub-debug-build-run",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0014d4398497daf058257ebdc46990f0837c0bb171f6c843e6be107d99baff55",
+  "purpose": "Use when a concrete ./holohub command fails, hangs, regresses, or returns wrong output and needs reproducible diagnosis and verification.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use when a concrete ./holohub command fails, hangs, regresses, or returns wrong output and needs reproducible diagnosis and verification."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1748,
+  "core_bytes": 6992,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 136,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 605,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 539,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 3823,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 224,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 166,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 644,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 387,
+      "when": [
+        "output"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/holohub-debug-build-run/SKILL.md",
+  "curated": true
+}

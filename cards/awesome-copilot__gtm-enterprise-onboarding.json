@@ -1,0 +1,160 @@
+{
+  "id": "awesome-copilot__gtm-enterprise-onboarding",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d70746655ff049c6600cd7e7e3ba8aeb5bc318f4a8996979b8db2be096f003de",
+  "purpose": "Four-phase framework for onboarding enterprise customers from contract to value realization. Use when implementing new enterprise customers, preventing churn during onboarding, or solving the adoption",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Four-phase framework for onboarding enterprise customers from contract to value realization. Use when implementing new enterprise customers, preventing churn du"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3574,
+  "core_bytes": 14423,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 477,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 9485,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. The Week 4 Ghosting Problem (And How to Prevent It)",
+      "bytes": 1810,
+      "when": [
+        "week",
+        "ghosting",
+        "problem",
+        "prevent"
+      ]
+    },
+    {
+      "name": "2. The Adoption Cliff (Week 12 Problem)",
+      "bytes": 1865,
+      "when": [
+        "adoption",
+        "cliff",
+        "week",
+        "problem"
+      ]
+    },
+    {
+      "name": "3. Pre-Onboarding: Success Is Built Before First Customer Call",
+      "bytes": 1962,
+      "when": [
+        "onboarding",
+        "success",
+        "built",
+        "before",
+        "first",
+        "customer",
+        "call"
+      ]
+    },
+    {
+      "name": "4. The Four-Phase Onboarding Flow",
+      "bytes": 2649,
+      "when": [
+        "four",
+        "phase",
+        "onboarding",
+        "flow"
+      ]
+    },
+    {
+      "name": "5. The Parallel Tracks Anti-Pattern",
+      "bytes": 1179,
+      "when": [
+        "parallel",
+        "tracks",
+        "anti",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 1284,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Should I Start Customer Onboarding?",
+      "bytes": 481,
+      "when": [
+        "start",
+        "customer",
+        "onboarding"
+      ]
+    },
+    {
+      "name": "Is This Onboarding At Risk?",
+      "bytes": 466,
+      "when": [
+        "onboarding",
+        "risk"
+      ]
+    },
+    {
+      "name": "Is Adoption Sustained Post-Go-Live?",
+      "bytes": 318,
+      "when": [
+        "adoption",
+        "sustained",
+        "post",
+        "live"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 785,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1128,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 586,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-enterprise-onboarding\\SKILL.md"
+}

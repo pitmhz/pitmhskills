@@ -38,9 +38,136 @@
   ],
   "body_tokens": 5603,
   "core_bytes": 22503,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 1573,
+      "when": []
+    },
+    {
+      "name": "What It Does",
+      "bytes": 669,
+      "when": []
+    },
+    {
+      "name": "Availability",
+      "bytes": 1946,
+      "when": [
+        "availability"
+      ]
+    },
+    {
+      "name": "Enabling the gateway: plan and model-catalog gating",
+      "bytes": 1640,
+      "when": [
+        "enabling",
+        "gateway",
+        "plan",
+        "model",
+        "catalog",
+        "gating"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 369,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Neon Infrastructure as Code (`neon.ts`)",
+      "bytes": 1142,
+      "when": [
+        "neon",
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 2949,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Build Agents with the Vercel AI SDK (Recommended)",
+      "bytes": 2921,
+      "when": [
+        "build",
+        "agents",
+        "vercel",
+        "recommended"
+      ]
+    },
+    {
+      "name": "Generate Embeddings with the AI SDK",
+      "bytes": 1224,
+      "when": [
+        "generate",
+        "embeddings"
+      ]
+    },
+    {
+      "name": "Build Agents with Mastra (Recommended)",
+      "bytes": 1053,
+      "when": [
+        "build",
+        "agents",
+        "mastra",
+        "recommended"
+      ]
+    },
+    {
+      "name": "Use with Plain SDKs (Lower-Level)",
+      "bytes": 1407,
+      "when": [
+        "plain",
+        "sdks",
+        "lower",
+        "level"
+      ]
+    },
+    {
+      "name": "Model Identifiers",
+      "bytes": 626,
+      "when": [
+        "model",
+        "identifiers"
+      ]
+    },
+    {
+      "name": "List Available Models at Runtime (`/v1/models`)",
+      "bytes": 3364,
+      "when": [
+        "list",
+        "available",
+        "models",
+        "runtime"
+      ]
+    },
+    {
+      "name": "Neon Documentation",
+      "bytes": 376,
+      "when": [
+        "neon",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Further Reading",
+      "bytes": 492,
+      "when": [
+        "further",
+        "reading"
+      ]
+    }
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-ai-gateway\\SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-ai-gateway\\SKILL.md",
+  "curated": true
 }

@@ -27,7 +27,126 @@
   "conflicts_with": [],
   "body_tokens": 983,
   "core_bytes": 3930,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/sentry/SKILL.md"
+  "sections": [
+    {
+      "name": "Quick start",
+      "bytes": 933,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Core tasks (use Sentry CLI)",
+      "bytes": 1252,
+      "when": [
+        "core",
+        "tasks",
+        "sentry"
+      ]
+    },
+    {
+      "name": "1) List issues (ordered by most recent)",
+      "bytes": 454,
+      "when": [
+        "list",
+        "issues",
+        "ordered",
+        "recent"
+      ]
+    },
+    {
+      "name": "2) Resolve an issue short ID to issue detail",
+      "bytes": 170,
+      "when": [
+        "resolve",
+        "issue",
+        "short",
+        "detail"
+      ]
+    },
+    {
+      "name": "3) Issue detail",
+      "bytes": 68,
+      "when": [
+        "issue",
+        "detail"
+      ]
+    },
+    {
+      "name": "4) Issue events",
+      "bytes": 88,
+      "when": [
+        "issue",
+        "events"
+      ]
+    },
+    {
+      "name": "5) Event detail",
+      "bytes": 102,
+      "when": [
+        "event",
+        "detail"
+      ]
+    },
+    {
+      "name": "6) AI-powered root cause analysis",
+      "bytes": 89,
+      "when": [
+        "powered",
+        "root",
+        "cause",
+        "analysis"
+      ]
+    },
+    {
+      "name": "7) AI-powered fix plan",
+      "bytes": 75,
+      "when": [
+        "powered",
+        "plan"
+      ]
+    },
+    {
+      "name": "Fallback: arbitrary API access",
+      "bytes": 279,
+      "when": [
+        "fallback",
+        "arbitrary",
+        "access"
+      ]
+    },
+    {
+      "name": "Inputs and defaults",
+      "bytes": 574,
+      "when": [
+        "inputs",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Output formatting rules",
+      "bytes": 358,
+      "when": [
+        "output",
+        "formatting",
+        "rules"
+      ]
+    },
+    {
+      "name": "Golden test inputs",
+      "bytes": 248,
+      "when": [
+        "golden",
+        "test",
+        "inputs"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/sentry/SKILL.md",
+  "curated": true
 }

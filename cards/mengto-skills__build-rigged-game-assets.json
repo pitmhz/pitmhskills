@@ -1,0 +1,103 @@
+{
+  "id": "mengto-skills__build-rigged-game-assets",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "812f3da2a3803a9465dfb6976b3b389da3f28f1c25f7721b4b53a9d8f8aa9a52",
+  "purpose": "Create, integrate, or audit production-ready rigged 3D characters and monsters with a main model, skeleton, animation library, sockets, collision contracts, separate character equipment, optimized run",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Create, integrate, or audit production-ready rigged 3D characters and monsters with a main model, skeleton, animation library, sockets, collision contracts, sep"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1966,
+  "core_bytes": 7867,
+  "sections": [
+    {
+      "name": "Establish the contract first",
+      "bytes": 1337,
+      "when": [
+        "establish",
+        "contract",
+        "first"
+      ]
+    },
+    {
+      "name": "Build the common actor package",
+      "bytes": 1702,
+      "when": [
+        "build",
+        "common",
+        "actor",
+        "package"
+      ]
+    },
+    {
+      "name": "Apply the character profile",
+      "bytes": 1203,
+      "when": [
+        "apply",
+        "character",
+        "profile"
+      ]
+    },
+    {
+      "name": "Apply the monster profile",
+      "bytes": 944,
+      "when": [
+        "apply",
+        "monster",
+        "profile"
+      ]
+    },
+    {
+      "name": "Build the catalog lab",
+      "bytes": 925,
+      "when": [
+        "build",
+        "catalog"
+      ]
+    },
+    {
+      "name": "Verify and commit",
+      "bytes": 947,
+      "when": [
+        "verify",
+        "commit"
+      ]
+    }
+  ],
+  "keywords": [
+    "build",
+    "assets",
+    "establish",
+    "contract",
+    "first",
+    "common",
+    "actor",
+    "package",
+    "apply",
+    "profile",
+    "verify",
+    "commit"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\build-rigged-game-assets\\SKILL.md"
+}

@@ -1,0 +1,249 @@
+{
+  "id": "awesome-copilot__rust-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7d60ebdec91be10f4f9a3b2560559d1a9ef4f7adc0e4a310f868e943e362cf03",
+  "purpose": "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3190,
+  "core_bytes": 12902,
+  "sections": [
+    {
+      "name": "Project Requirements",
+      "bytes": 318,
+      "when": [
+        "project",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Project Structure",
+      "bytes": 556,
+      "when": [
+        "project",
+        "structure"
+      ]
+    },
+    {
+      "name": "File Templates",
+      "bytes": 903,
+      "when": [
+        "file",
+        "templates"
+      ]
+    },
+    {
+      "name": "Cargo.toml",
+      "bytes": 739,
+      "when": [
+        "cargo",
+        "toml"
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "bytes": 78,
+      "when": [
+        "gitignore"
+      ]
+    },
+    {
+      "name": "README.md",
+      "bytes": 67,
+      "when": [
+        "readme"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 52,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 210,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Stdio Transport",
+      "bytes": 44,
+      "when": [
+        "stdio",
+        "transport"
+      ]
+    },
+    {
+      "name": "SSE Transport",
+      "bytes": 77,
+      "when": [
+        "transport"
+      ]
+    },
+    {
+      "name": "HTTP Transport",
+      "bytes": 79,
+      "when": [
+        "http",
+        "transport"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 216,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Tools",
+      "bytes": 49,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Development",
+      "bytes": 8208,
+      "when": [
+        "development"
+      ]
+    },
+    {
+      "name": "src/main.rs",
+      "bytes": 1270,
+      "when": [
+        "main"
+      ]
+    },
+    {
+      "name": "src/handler.rs",
+      "bytes": 3771,
+      "when": [
+        "handler"
+      ]
+    },
+    {
+      "name": "src/state.rs",
+      "bytes": 539,
+      "when": [
+        "state"
+      ]
+    },
+    {
+      "name": "src/tools/mod.rs",
+      "bytes": 85,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "src/tools/example.rs",
+      "bytes": 739,
+      "when": [
+        "tools",
+        "example"
+      ]
+    },
+    {
+      "name": "src/prompts/mod.rs",
+      "bytes": 85,
+      "when": [
+        "prompts"
+      ]
+    },
+    {
+      "name": "src/resources/mod.rs",
+      "bytes": 89,
+      "when": [
+        "resources"
+      ]
+    },
+    {
+      "name": "tests/integration_test.rs",
+      "bytes": 1517,
+      "when": [
+        "tests",
+        "integration",
+        "test"
+      ]
+    },
+    {
+      "name": "Implementation Guidelines",
+      "bytes": 607,
+      "when": [
+        "implementation",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Example Tool Patterns",
+      "bytes": 1060,
+      "when": [
+        "example",
+        "tool",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Simple Read-Only Tool",
+      "bytes": 378,
+      "when": [
+        "simple",
+        "read",
+        "tool"
+      ]
+    },
+    {
+      "name": "Tool with Error Handling",
+      "bytes": 423,
+      "when": [
+        "tool",
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Tool with State",
+      "bytes": 233,
+      "when": [
+        "tool",
+        "state"
+      ]
+    },
+    {
+      "name": "Running the Generated Server",
+      "bytes": 376,
+      "when": [
+        "running",
+        "generated",
+        "server"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\rust-mcp-server-generator\\SKILL.md"
+}

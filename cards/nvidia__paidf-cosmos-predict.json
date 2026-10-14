@@ -1,0 +1,120 @@
+{
+  "id": "nvidia__paidf-cosmos-predict",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "106f8544a3846db8ebcc2218c9399c41d0498340100342608d080a669d03ce83",
+  "purpose": "Prepare and run PAIDF Cosmos Predict video generation for DEFT media samples.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Prepare and run PAIDF Cosmos Predict video generation for DEFT media samples."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4644,
+  "core_bytes": 18577,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 307,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 998,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 3181,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Runtime Image",
+      "bytes": 191,
+      "when": [
+        "runtime",
+        "image"
+      ]
+    },
+    {
+      "name": "Agent Run Procedure",
+      "bytes": 4860,
+      "when": [
+        "agent",
+        "procedure"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 706,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Long-Running Run Updates",
+      "bytes": 1103,
+      "when": [
+        "long",
+        "running",
+        "updates"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 442,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Deterministic Mapping",
+      "bytes": 583,
+      "when": [
+        "deterministic",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 1571,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 3904,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\paidf-cosmos-predict\\SKILL.md",
+  "curated": true
+}

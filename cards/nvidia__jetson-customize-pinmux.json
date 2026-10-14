@@ -1,0 +1,81 @@
+{
+  "id": "nvidia__jetson-customize-pinmux",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f5b62da6f589da1754ceb53077ee2f29cfa9959e2411aea830e9ceeaa8e32c1f",
+  "purpose": "Per-pin SFIO / direction / initial-state configurator for a Jetson Orin or Thor custom carrier from the pinmux XLSM. Do NOT use for kernel-DT overlay or ODMDATA edits.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Per-pin SFIO / direction / initial-state configurator for a Jetson Orin or Thor custom carrier from the pinmux XLSM. Do NOT use for kernel-DT overlay or ODMDATA"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2460,
+  "core_bytes": 9910,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 1281,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 1269,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 1950,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2946,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 902,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1087,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-customize-pinmux\\SKILL.md",
+  "curated": true
+}

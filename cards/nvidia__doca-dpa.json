@@ -1,0 +1,96 @@
+{
+  "id": "nvidia__doca-dpa",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0ea745135f76602d0e66d70ebfd27fa653b8e516b18ec011eabdb7d745c2ca5b",
+  "purpose": "Use this skill when the user is doing hands-on DOCA DPA host-side work on a BlueField — creating the `doca_dpa` Core context, loading a DPACC-compiled DPA app image (`doca_dpa_app`), creating DPA thre",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when the user is doing hands-on DOCA DPA host-side work on a BlueField — creating the `doca_dpa` Core context, loading a DPACC-compiled DPA app i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5094,
+  "core_bytes": 20456,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 4664,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "Audience",
+      "bytes": 1612,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 3682,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1784,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 1818,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 1118,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 3192,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-dpa\\SKILL.md",
+  "curated": true
+}

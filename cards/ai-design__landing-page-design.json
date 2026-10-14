@@ -1,0 +1,275 @@
+{
+  "id": "ai-design__landing-page-design",
+  "tier": "B",
+  "origin": [
+    "elayadesign/ai-design-skills@1c1e97cb9878e236552c772092dda7adcdddbcb2"
+  ],
+  "license": "MIT",
+  "hash": "e6800ad380dbf0e5041b65bc3d2a186d2be856e333886307c16c84324688729b",
+  "purpose": "Complete system for building high converting landing pages: intake questions, page structure, layout selection, conversion copywriting, SEO, plus strict visual rules for typography, spacing, corner ra",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Complete system for building high converting landing pages: intake questions, page structure, layout selection, conversion copywriting, SEO, plus strict visual "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Landing page with intake questions + conversion copy -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "intake conversion copy",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4219,
+  "core_bytes": 16931,
+  "sections": [
+    {
+      "name": "Scope",
+      "bytes": 606,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "A1. Intake",
+      "bytes": 1023,
+      "when": [
+        "intake"
+      ]
+    },
+    {
+      "name": "A2. Page structure",
+      "bytes": 816,
+      "when": [
+        "page",
+        "structure"
+      ]
+    },
+    {
+      "name": "A3. Layout selection",
+      "bytes": 518,
+      "when": [
+        "layout",
+        "selection"
+      ]
+    },
+    {
+      "name": "A4. Conversion rules",
+      "bytes": 735,
+      "when": [
+        "conversion",
+        "rules"
+      ]
+    },
+    {
+      "name": "A5. Copywriting",
+      "bytes": 584,
+      "when": [
+        "copywriting"
+      ]
+    },
+    {
+      "name": "A6. Build order",
+      "bytes": 250,
+      "when": [
+        "build",
+        "order"
+      ]
+    },
+    {
+      "name": "A7. SEO and AEO",
+      "bytes": 410,
+      "when": []
+    },
+    {
+      "name": "A8. Pitfalls",
+      "bytes": 359,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "B1. Typography",
+      "bytes": 2010,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "Fonts",
+      "bytes": 477,
+      "when": [
+        "fonts"
+      ]
+    },
+    {
+      "name": "Copy rules",
+      "bytes": 285,
+      "when": [
+        "copy",
+        "rules"
+      ]
+    },
+    {
+      "name": "Type scale",
+      "bytes": 1104,
+      "when": [
+        "type",
+        "scale"
+      ]
+    },
+    {
+      "name": "Button type",
+      "bytes": 123,
+      "when": [
+        "button",
+        "type"
+      ]
+    },
+    {
+      "name": "B2. Spacing",
+      "bytes": 485,
+      "when": [
+        "spacing"
+      ]
+    },
+    {
+      "name": "B3. Corner radius",
+      "bytes": 473,
+      "when": [
+        "corner",
+        "radius"
+      ]
+    },
+    {
+      "name": "B4. Borders and backgrounds",
+      "bytes": 334,
+      "when": [
+        "borders",
+        "backgrounds"
+      ]
+    },
+    {
+      "name": "Dark mode background colors",
+      "bytes": 132,
+      "when": [
+        "dark",
+        "mode",
+        "background",
+        "colors"
+      ]
+    },
+    {
+      "name": "B5. Hero section",
+      "bytes": 592,
+      "when": [
+        "hero",
+        "section"
+      ]
+    },
+    {
+      "name": "Heading color",
+      "bytes": 288,
+      "when": [
+        "heading",
+        "color"
+      ]
+    },
+    {
+      "name": "Layout",
+      "bytes": 281,
+      "when": [
+        "layout"
+      ]
+    },
+    {
+      "name": "B6. Icons",
+      "bytes": 111,
+      "when": [
+        "icons"
+      ]
+    },
+    {
+      "name": "B7. Motion choreography (fluid dynamics)",
+      "bytes": 1446,
+      "when": [
+        "motion",
+        "choreography",
+        "fluid",
+        "dynamics"
+      ]
+    },
+    {
+      "name": "Fluid island nav",
+      "bytes": 741,
+      "when": [
+        "fluid",
+        "island"
+      ]
+    },
+    {
+      "name": "Scroll interpolation",
+      "bytes": 462,
+      "when": [
+        "scroll",
+        "interpolation"
+      ]
+    },
+    {
+      "name": "B8. Content realism",
+      "bytes": 902,
+      "when": [
+        "content",
+        "realism"
+      ]
+    },
+    {
+      "name": "B9. States",
+      "bytes": 653,
+      "when": [
+        "states"
+      ]
+    },
+    {
+      "name": "B10. Ship requirements",
+      "bytes": 562,
+      "when": [
+        "ship",
+        "requirements"
+      ]
+    },
+    {
+      "name": "B11. Tagline reveal section (mandatory)",
+      "bytes": 2987,
+      "when": [
+        "tagline",
+        "reveal",
+        "section",
+        "mandatory"
+      ]
+    }
+  ],
+  "keywords": [
+    "scope",
+    "part",
+    "strategy",
+    "build",
+    "order",
+    "pitfalls",
+    "type",
+    "scale",
+    "button",
+    "borders",
+    "dark",
+    "mode"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ai-design\\skills\\landing-page-design\\SKILL.md"
+}

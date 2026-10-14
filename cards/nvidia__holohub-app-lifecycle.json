@@ -1,0 +1,95 @@
+{
+  "id": "nvidia__holohub-app-lifecycle",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f75e62f2d13410b85ed307b5ccc836ebe48748af74bf5c64d61521747f3e6680",
+  "purpose": "Use for non-failing HoloHub app work with ./holohub: scaffold, build, run, test, visual evidence, lint, and flow benchmarking.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use for non-failing HoloHub app work with ./holohub: scaffold, build, run, test, visual evidence, lint, and flow benchmarking."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1852,
+  "core_bytes": 7405,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 153,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1030,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 585,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 3699,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 197,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 185,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 650,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 430,
+      "when": [
+        "output"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/holohub-app-lifecycle/SKILL.md",
+  "curated": true
+}

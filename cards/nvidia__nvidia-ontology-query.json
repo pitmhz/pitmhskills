@@ -1,0 +1,139 @@
+{
+  "id": "nvidia__nvidia-ontology-query",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c5207992b417ae152b9ced4b27913129ffa74d88d2e9a2e6d76ce369a80198cd",
+  "purpose": "Query Auto Ontology and validate generated SQL, rows, and answers. Use for MCP or REST access, readiness, authentication, conversations, and grounded questions.",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Query Auto Ontology and validate generated SQL, rows, and answers. Use for MCP or REST access, readiness, authentication, conversations, and grounded questions."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1698,
+  "core_bytes": 6818,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 257,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 172,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 251,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 328,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Prefer MCP for reads",
+      "bytes": 1276,
+      "when": [
+        "prefer",
+        "reads"
+      ]
+    },
+    {
+      "name": "REST fallback and write handoff",
+      "bytes": 2392,
+      "when": [
+        "rest",
+        "fallback",
+        "write",
+        "handoff"
+      ]
+    },
+    {
+      "name": "Chat",
+      "bytes": 1159,
+      "when": [
+        "chat"
+      ]
+    },
+    {
+      "name": "Discovery (semantic layer, not a catalog browser)",
+      "bytes": 308,
+      "when": [
+        "discovery",
+        "semantic",
+        "layer",
+        "catalog",
+        "browser"
+      ]
+    },
+    {
+      "name": "Validate claim-bearing answers",
+      "bytes": 410,
+      "when": [
+        "validate",
+        "claim",
+        "bearing",
+        "answers"
+      ]
+    },
+    {
+      "name": "Empty or failed answers",
+      "bytes": 271,
+      "when": [
+        "empty",
+        "failed",
+        "answers"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 281,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 221,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "See also",
+      "bytes": 370,
+      "when": []
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\nvidia-ontology-query\\SKILL.md",
+  "curated": true
+}

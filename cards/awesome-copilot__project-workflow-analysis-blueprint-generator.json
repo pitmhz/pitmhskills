@@ -1,0 +1,86 @@
+{
+  "id": "awesome-copilot__project-workflow-analysis-blueprint-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1563be31e5dd0568317b196dc92e10282a41d628db7bc04a990ad9019d35c37b",
+  "purpose": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to g",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, techno"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2719,
+  "core_bytes": 10879,
+  "sections": [
+    {
+      "name": "Configuration Variables",
+      "bytes": 884,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generated Prompt",
+      "bytes": 9443,
+      "when": [
+        "generated",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Initial Detection Phase",
+      "bytes": 1083,
+      "when": [
+        "initial",
+        "detection",
+        "phase"
+      ]
+    },
+    {
+      "name": "Workflow Documentation Instructions",
+      "bytes": 5644,
+      "when": [
+        "workflow",
+        "documentation",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Technology-Specific Implementation Patterns",
+      "bytes": 1615,
+      "when": [
+        "technology",
+        "specific",
+        "implementation",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Implementation Guidelines",
+      "bytes": 888,
+      "when": [
+        "implementation",
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\project-workflow-analysis-blueprint-generator\\SKILL.md"
+}

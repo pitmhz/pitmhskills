@@ -1,0 +1,119 @@
+{
+  "id": "mengto-skills__globe-particles",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "deac008240b045d47c96f06fd476961149f1167afe86a14d7fdcb86538648f04",
+  "purpose": "Create a globe-like 3D particle visualization with a dense luminous spherical core and thinner orbital ring or flattened disc. Use when a design needs a premium planetary, orbital, synthesized data-gl",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a globe-like 3D particle visualization with a dense luminous spherical core and thinner orbital ring or flattened disc. Use when a design needs a premium"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2547,
+  "core_bytes": 10188,
+  "sections": [
+    {
+      "name": "Scope",
+      "bytes": 321,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Visual Target",
+      "bytes": 344,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "HTML And CSS",
+      "bytes": 417,
+      "when": [
+        "html"
+      ]
+    },
+    {
+      "name": "Particle Shader",
+      "bytes": 1403,
+      "when": [
+        "particle",
+        "shader"
+      ]
+    },
+    {
+      "name": "Three.js Recipe",
+      "bytes": 5791,
+      "when": [
+        "three",
+        "recipe"
+      ]
+    },
+    {
+      "name": "Tuning Knobs",
+      "bytes": 513,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Taste Rules",
+      "bytes": 381,
+      "when": [
+        "taste",
+        "rules"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 306,
+      "when": [
+        "avoid"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 334,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "scope",
+    "visual",
+    "target",
+    "html",
+    "shader",
+    "recipe",
+    "tuning",
+    "knobs",
+    "taste",
+    "rules",
+    "avoid",
+    "quick",
+    "checks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\globe-particles\\SKILL.md"
+}

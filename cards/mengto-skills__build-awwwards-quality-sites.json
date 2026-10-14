@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__build-awwwards-quality-sites",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "955df3fef8ee1262ff40fc8fb5bca97498867855ccfc8e4b016a1aea60b04c9e",
+  "purpose": "Art-direct and implement distinctive, motion-rich marketing, editorial, portfolio, and landing websites with original reference-inspired imagery, standout heroes, GSAP choreography, one smooth-scroll ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Art-direct and implement distinctive, motion-rich marketing, editorial, portfolio, and landing websites with original reference-inspired imagery, standout heroe"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Awwwards-grade marketing/editorial site -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "awwwards marketing portfolio editorial motion-rich",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1820,
+  "core_bytes": 7281,
+  "sections": [
+    {
+      "name": "1. Set the art direction",
+      "bytes": 944,
+      "when": [
+        "direction"
+      ]
+    },
+    {
+      "name": "2. Build an honest asset system",
+      "bytes": 1225,
+      "when": [
+        "build",
+        "honest",
+        "asset",
+        "system"
+      ]
+    },
+    {
+      "name": "3. Compose the hero",
+      "bytes": 652,
+      "when": [
+        "compose",
+        "hero"
+      ]
+    },
+    {
+      "name": "4. Build the motion system",
+      "bytes": 1064,
+      "when": [
+        "build",
+        "motion",
+        "system"
+      ]
+    },
+    {
+      "name": "5. Add Three.js only with purpose",
+      "bytes": 764,
+      "when": [
+        "three",
+        "purpose"
+      ]
+    },
+    {
+      "name": "6. Meet the quality bar",
+      "bytes": 1017,
+      "when": [
+        "meet",
+        "quality"
+      ]
+    },
+    {
+      "name": "7. Validate before handoff",
+      "bytes": 828,
+      "when": [
+        "validate",
+        "before",
+        "handoff"
+      ]
+    }
+  ],
+  "keywords": [
+    "build",
+    "sites",
+    "direction",
+    "asset",
+    "compose",
+    "hero",
+    "purpose",
+    "meet",
+    "validate",
+    "before",
+    "handoff"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\build-awwwards-quality-sites\\SKILL.md"
+}

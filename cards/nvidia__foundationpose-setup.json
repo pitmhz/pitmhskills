@@ -1,0 +1,80 @@
+{
+  "id": "nvidia__foundationpose-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1a765e548e3c33602a649de13b5862cb2af63ce96c5c85be5c9159ff80112240",
+  "purpose": "Install or repair the FoundationPose perception pipeline and build its FoundationStereo TensorRT engines. Use for SAM3/TAO dependency conflicts, CUDA library failures, and depth-engine shape or precis",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Install or repair the FoundationPose perception pipeline and build its FoundationStereo TensorRT engines. Use for SAM3/TAO dependency conflicts, CUDA library fa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1546,
+  "core_bytes": 6181,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 361,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 1237,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2562,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 750,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 239,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations and completion",
+      "bytes": 618,
+      "when": [
+        "limitations",
+        "completion"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/foundationpose-setup/SKILL.md",
+  "curated": true
+}

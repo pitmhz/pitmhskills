@@ -1,0 +1,224 @@
+{
+  "id": "nvidia__nemo-rl-session-memory",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3f2c8e64a2083c2f1c1f68517265a59afd8448a35924a23889ac6fb2cb671714",
+  "purpose": "Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restarts, long-running work, handoffs, or any session whe",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restarts, long-ru"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1403,
+  "core_bytes": 5611,
+  "sections": [
+    {
+      "name": "When To Use",
+      "bytes": 354,
+      "when": []
+    },
+    {
+      "name": "Session Directory",
+      "bytes": 798,
+      "when": [
+        "session",
+        "directory"
+      ]
+    },
+    {
+      "name": "Start Or Resume",
+      "bytes": 621,
+      "when": [
+        "start",
+        "resume"
+      ]
+    },
+    {
+      "name": "Checkpoint Rhythm",
+      "bytes": 544,
+      "when": [
+        "checkpoint",
+        "rhythm"
+      ]
+    },
+    {
+      "name": "File Templates",
+      "bytes": 228,
+      "when": [
+        "file",
+        "templates"
+      ]
+    },
+    {
+      "name": "`session_state.md`",
+      "bytes": 207,
+      "when": [
+        "session",
+        "state"
+      ]
+    },
+    {
+      "name": "Goal",
+      "bytes": 143,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Current Subtask",
+      "bytes": 85,
+      "when": [
+        "current",
+        "subtask"
+      ]
+    },
+    {
+      "name": "Loaded Skills",
+      "bytes": 104,
+      "when": [
+        "loaded",
+        "skills"
+      ]
+    },
+    {
+      "name": "Current Status",
+      "bytes": 90,
+      "when": [
+        "current",
+        "status"
+      ]
+    },
+    {
+      "name": "Plan",
+      "bytes": 67,
+      "when": [
+        "plan"
+      ]
+    },
+    {
+      "name": "Assumptions",
+      "bytes": 66,
+      "when": [
+        "assumptions"
+      ]
+    },
+    {
+      "name": "Blockers",
+      "bytes": 98,
+      "when": [
+        "blockers"
+      ]
+    },
+    {
+      "name": "`timeline.md`",
+      "bytes": 48,
+      "when": [
+        "timeline"
+      ]
+    },
+    {
+      "name": "<local timestamp>",
+      "bytes": 234,
+      "when": [
+        "local",
+        "timestamp"
+      ]
+    },
+    {
+      "name": "`files.md`",
+      "bytes": 42,
+      "when": [
+        "files"
+      ]
+    },
+    {
+      "name": "Inspected",
+      "bytes": 48,
+      "when": [
+        "inspected"
+      ]
+    },
+    {
+      "name": "Changed",
+      "bytes": 51,
+      "when": [
+        "changed"
+      ]
+    },
+    {
+      "name": "Generated",
+      "bytes": 91,
+      "when": [
+        "generated"
+      ]
+    },
+    {
+      "name": "`handoff.md`",
+      "bytes": 46,
+      "when": [
+        "handoff"
+      ]
+    },
+    {
+      "name": "Resume From Here",
+      "bytes": 70,
+      "when": [
+        "resume"
+      ]
+    },
+    {
+      "name": "Next Actions",
+      "bytes": 93,
+      "when": [
+        "next",
+        "actions"
+      ]
+    },
+    {
+      "name": "Watch Outs",
+      "bytes": 102,
+      "when": [
+        "watch",
+        "outs"
+      ]
+    },
+    {
+      "name": "Recovery Workflow",
+      "bytes": 430,
+      "when": [
+        "recovery",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Quality Rules",
+      "bytes": 489,
+      "when": [
+        "quality",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-rl-session-memory/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,101 @@
+{
+  "id": "nvidia__tao-run-on-virtualenv",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c5682c24934feb84b081b9b82181b536ade2c8aa3c50bd1e0714503c8acb165b",
+  "purpose": "Run a Python training/eval script directly in an existing local virtualenv — no docker, no container. Implements the four-verb consumer contract (submit/status/logs/cancel) over a vendored process-lif",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run a Python training/eval script directly in an existing local virtualenv — no docker, no container. Implements the four-verb consumer contract (submit/status/"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1564,
+  "core_bytes": 6288,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 391,
+      "when": []
+    },
+    {
+      "name": "Preflight",
+      "bytes": 703,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Storage",
+      "bytes": 250,
+      "when": [
+        "storage"
+      ]
+    },
+    {
+      "name": "Execution — the four verbs",
+      "bytes": 2748,
+      "when": [
+        "execution",
+        "four",
+        "verbs"
+      ]
+    },
+    {
+      "name": "submit",
+      "bytes": 1570,
+      "when": [
+        "submit"
+      ]
+    },
+    {
+      "name": "status",
+      "bytes": 444,
+      "when": [
+        "status"
+      ]
+    },
+    {
+      "name": "logs",
+      "bytes": 88,
+      "when": [
+        "logs"
+      ]
+    },
+    {
+      "name": "cancel",
+      "bytes": 480,
+      "when": [
+        "cancel"
+      ]
+    },
+    {
+      "name": "Platform caveats",
+      "bytes": 445,
+      "when": [
+        "platform",
+        "caveats"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-run-on-virtualenv/SKILL.md",
+  "curated": true
+}

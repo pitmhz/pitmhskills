@@ -1,0 +1,85 @@
+{
+  "id": "kemiljk-skills__design-engineering",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "ff71a71d19cc26371b985712e47aa4c8ce5d4d4cbfb90e33961932f117218065",
+  "purpose": "Translate design intent into production components or improve collaboration between design and engineering.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Translate design intent into production components or improve collaboration between design and engineering."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Turn design intent into production components -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "intent production components handoff",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 506,
+  "core_bytes": 2022,
+  "sections": [
+    {
+      "name": "Defaults",
+      "bytes": 372,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Translation map",
+      "bytes": 332,
+      "when": [
+        "translation"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 366,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 454,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Source essays",
+      "bytes": 147,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "defaults",
+    "translation",
+    "prefer",
+    "reject",
+    "review",
+    "checklist",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\design-engineering\\SKILL.md"
+}

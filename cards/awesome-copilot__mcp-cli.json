@@ -1,0 +1,70 @@
+{
+  "id": "awesome-copilot__mcp-cli",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "54081db970e9333dad51f8458bc623912fab2087ecacccb6298f2c53833d6070",
+  "purpose": "Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with external tools, APIs, or data sources through MCP servers, list available MCP servers/tools, or call MCP ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with external tools, APIs, or data sources through MCP servers, list a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 633,
+  "core_bytes": 2539,
+  "sections": [
+    {
+      "name": "Commands",
+      "bytes": 595,
+      "when": [
+        "commands"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 289,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 874,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Options",
+      "bytes": 238,
+      "when": [
+        "options"
+      ]
+    },
+    {
+      "name": "Exit Codes",
+      "bytes": 132,
+      "when": [
+        "exit",
+        "codes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-cli\\SKILL.md"
+}

@@ -1,0 +1,327 @@
+{
+  "id": "web-quality__accessibility",
+  "tier": "B",
+  "origin": [
+    "addyosmani/web-quality-skills@afa8da942115f2961fdbfa80807ea0b232ff6c00"
+  ],
+  "license": "MIT",
+  "hash": "5f96552e41db945f7672deee9b9aa307eb5b72d950f29a52b87b07114ad95b11",
+  "purpose": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader su"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "WCAG 2.2 compliance audit -> this.",
+  "cluster": "frontend-a11y",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "wcag compliance guidelines",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3683,
+  "core_bytes": 14822,
+  "sections": [
+    {
+      "name": "Evidence-led audit workflow",
+      "bytes": 1034,
+      "when": [
+        "evidence",
+        "audit",
+        "workflow"
+      ]
+    },
+    {
+      "name": "WCAG Principles: POUR",
+      "bytes": 347,
+      "when": [
+        "wcag",
+        "principles",
+        "pour"
+      ]
+    },
+    {
+      "name": "Conformance levels",
+      "bytes": 292,
+      "when": [
+        "conformance",
+        "levels"
+      ]
+    },
+    {
+      "name": "Perceivable",
+      "bytes": 2934,
+      "when": [
+        "perceivable"
+      ]
+    },
+    {
+      "name": "Text alternatives (1.1)",
+      "bytes": 1286,
+      "when": [
+        "text",
+        "alternatives"
+      ]
+    },
+    {
+      "name": "Color contrast (1.4.3, 1.4.6)",
+      "bytes": 1102,
+      "when": [
+        "color",
+        "contrast"
+      ]
+    },
+    {
+      "name": "Media alternatives (1.2)",
+      "bytes": 528,
+      "when": [
+        "media",
+        "alternatives"
+      ]
+    },
+    {
+      "name": "Operable",
+      "bytes": 4281,
+      "when": [
+        "operable"
+      ]
+    },
+    {
+      "name": "Keyboard accessible (2.1)",
+      "bytes": 1362,
+      "when": [
+        "keyboard",
+        "accessible"
+      ]
+    },
+    {
+      "name": "Focus visible (2.4.7)",
+      "bytes": 510,
+      "when": [
+        "focus",
+        "visible"
+      ]
+    },
+    {
+      "name": "Focus not obscured (2.4.11) — new in 2.2",
+      "bytes": 542,
+      "when": [
+        "focus",
+        "obscured"
+      ]
+    },
+    {
+      "name": "Skip links (2.4.1)",
+      "bytes": 196,
+      "when": [
+        "skip",
+        "links"
+      ]
+    },
+    {
+      "name": "Target size (2.5.8) — new in 2.2",
+      "bytes": 660,
+      "when": [
+        "target",
+        "size"
+      ]
+    },
+    {
+      "name": "Dragging movements (2.5.7) — new in 2.2",
+      "bytes": 264,
+      "when": [
+        "dragging",
+        "movements"
+      ]
+    },
+    {
+      "name": "Timing (2.2)",
+      "bytes": 390,
+      "when": [
+        "timing"
+      ]
+    },
+    {
+      "name": "Motion (2.3)",
+      "bytes": 342,
+      "when": [
+        "motion"
+      ]
+    },
+    {
+      "name": "Understandable",
+      "bytes": 2648,
+      "when": [
+        "understandable"
+      ]
+    },
+    {
+      "name": "Page language (3.1.1)",
+      "bytes": 256,
+      "when": [
+        "page",
+        "language"
+      ]
+    },
+    {
+      "name": "Consistent navigation (3.2.3)",
+      "bytes": 301,
+      "when": [
+        "consistent",
+        "navigation"
+      ]
+    },
+    {
+      "name": "Consistent help (3.2.6) — new in 2.2",
+      "bytes": 303,
+      "when": [
+        "consistent",
+        "help"
+      ]
+    },
+    {
+      "name": "Form labels (3.3.2)",
+      "bytes": 208,
+      "when": [
+        "form",
+        "labels"
+      ]
+    },
+    {
+      "name": "Error handling (3.3.1, 3.3.3)",
+      "bytes": 293,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Redundant entry (3.3.7) — new in 2.2",
+      "bytes": 576,
+      "when": [
+        "redundant",
+        "entry"
+      ]
+    },
+    {
+      "name": "Accessible authentication (3.3.8) — new in 2.2",
+      "bytes": 690,
+      "when": [
+        "accessible",
+        "authentication"
+      ]
+    },
+    {
+      "name": "Robust",
+      "bytes": 803,
+      "when": [
+        "robust"
+      ]
+    },
+    {
+      "name": "ARIA usage (4.1.2)",
+      "bytes": 533,
+      "when": [
+        "aria",
+        "usage"
+      ]
+    },
+    {
+      "name": "Live regions (4.1.3)",
+      "bytes": 257,
+      "when": [
+        "live",
+        "regions"
+      ]
+    },
+    {
+      "name": "Testing checklist",
+      "bytes": 1035,
+      "when": [
+        "testing",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Automated testing",
+      "bytes": 370,
+      "when": [
+        "automated",
+        "testing"
+      ]
+    },
+    {
+      "name": "Manual testing",
+      "bytes": 641,
+      "when": [
+        "manual",
+        "testing"
+      ]
+    },
+    {
+      "name": "Common issues by impact",
+      "bytes": 535,
+      "when": [
+        "common",
+        "issues",
+        "impact"
+      ]
+    },
+    {
+      "name": "Critical (fix immediately)",
+      "bytes": 160,
+      "when": [
+        "critical",
+        "immediately"
+      ]
+    },
+    {
+      "name": "Serious (fix before launch)",
+      "bytes": 167,
+      "when": [
+        "serious",
+        "before",
+        "launch"
+      ]
+    },
+    {
+      "name": "Moderate (fix soon)",
+      "bytes": 178,
+      "when": [
+        "moderate",
+        "soon"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 382,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "evidence",
+    "workflow",
+    "principles",
+    "pour",
+    "conformance",
+    "levels",
+    "perceivable",
+    "text",
+    "alternatives",
+    "color",
+    "contrast",
+    "media"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-quality\\skills\\accessibility\\SKILL.md"
+}

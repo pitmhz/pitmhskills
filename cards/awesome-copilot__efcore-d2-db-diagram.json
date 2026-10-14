@@ -1,0 +1,186 @@
+{
+  "id": "awesome-copilot__efcore-d2-db-diagram",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e0689c25df306906b3d916a90fa63a8a5bf78f8ee41328befcbe7f475a58d011",
+  "purpose": "Generate D2 database diagrams from Entity Framework Core models. USE FOR: EF Core database diagram, Entity Framework Core ERD, DbContext diagram, C# entity relationship diagram, PostgreSQL schema visu",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Generate D2 database diagrams from Entity Framework Core models. USE FOR: EF Core database diagram, Entity Framework Core ERD, DbContext diagram, C# entity rela"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2287,
+  "core_bytes": 9145,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 502,
+      "when": []
+    },
+    {
+      "name": "Goal",
+      "bytes": 542,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Tools",
+      "bytes": 253,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Recommended Workflow",
+      "bytes": 768,
+      "when": [
+        "recommended",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Mandatory Questions Before Diagram Generation",
+      "bytes": 1208,
+      "when": [
+        "mandatory",
+        "questions",
+        "before",
+        "diagram",
+        "generation"
+      ]
+    },
+    {
+      "name": "Reference Documents",
+      "bytes": 615,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "EF Core Extraction Rules",
+      "bytes": 1222,
+      "when": [
+        "core",
+        "extraction",
+        "rules"
+      ]
+    },
+    {
+      "name": "Source Priority",
+      "bytes": 271,
+      "when": [
+        "source",
+        "priority"
+      ]
+    },
+    {
+      "name": "Required EF Core Concepts to Detect",
+      "bytes": 922,
+      "when": [
+        "required",
+        "core",
+        "concepts",
+        "detect"
+      ]
+    },
+    {
+      "name": "Diagram Rendering Rules",
+      "bytes": 1501,
+      "when": [
+        "diagram",
+        "rendering",
+        "rules"
+      ]
+    },
+    {
+      "name": "Tables",
+      "bytes": 366,
+      "when": [
+        "tables"
+      ]
+    },
+    {
+      "name": "Relationships",
+      "bytes": 302,
+      "when": [
+        "relationships"
+      ]
+    },
+    {
+      "name": "Owned Types",
+      "bytes": 343,
+      "when": [
+        "owned",
+        "types"
+      ]
+    },
+    {
+      "name": "Many-to-Many",
+      "bytes": 197,
+      "when": []
+    },
+    {
+      "name": "Technical Tables",
+      "bytes": 265,
+      "when": [
+        "technical",
+        "tables"
+      ]
+    },
+    {
+      "name": "Grouping Modes",
+      "bytes": 254,
+      "when": [
+        "grouping",
+        "modes"
+      ]
+    },
+    {
+      "name": "Style Rules",
+      "bytes": 376,
+      "when": [
+        "style",
+        "rules"
+      ]
+    },
+    {
+      "name": "Quality Gate Before Delivery",
+      "bytes": 761,
+      "when": [
+        "quality",
+        "gate",
+        "before",
+        "delivery"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 522,
+      "when": [
+        "output",
+        "format"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\efcore-d2-db-diagram\\SKILL.md"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "mengto-skills__test-playable-web-games",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "dbb8b6214b1aef08b7952c9247a9d97eaac097498ac7ad168945c85f628d9c83",
+  "purpose": "Test a playable browser game end to end with deterministic fixtures and real browser evidence. Use for gameplay QA, regression testing, controls, accessibility, responsive/mobile testing, save flows, ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Test a playable browser game end to end with deterministic fixtures and real browser evidence. Use for gameplay QA, regression testing, controls, accessibility,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 435,
+  "core_bytes": 1739,
+  "sections": [
+    {
+      "name": "Start with a test matrix",
+      "bytes": 308,
+      "when": [
+        "start",
+        "test",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Prefer deterministic review states",
+      "bytes": 293,
+      "when": [
+        "prefer",
+        "deterministic",
+        "review",
+        "states"
+      ]
+    },
+    {
+      "name": "Verify the player experience",
+      "bytes": 356,
+      "when": [
+        "verify",
+        "player",
+        "experience"
+      ]
+    },
+    {
+      "name": "Report actionable evidence",
+      "bytes": 322,
+      "when": [
+        "report",
+        "actionable",
+        "evidence"
+      ]
+    }
+  ],
+  "keywords": [
+    "games",
+    "start",
+    "matrix",
+    "prefer",
+    "review",
+    "states",
+    "verify",
+    "player",
+    "experience",
+    "report",
+    "actionable"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\test-playable-web-games\\SKILL.md"
+}

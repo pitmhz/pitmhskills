@@ -1,0 +1,134 @@
+{
+  "id": "jakubkrehel-skills__state-machine",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "991827c7bd9e70c8c0f563f5e183b1f9fcad834c0ec0dc9dcc4f15ed74c8c706",
+  "purpose": "Renders every state of a component you choose on a throwaway page, with mock data and a switcher, so you can work on each state.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Renders every state of a component you choose on a throwaway page, with mock data and a switcher, so you can work on each state."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Render every component state with a switcher -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "states switcher mock data throwaway",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1603,
+  "core_bytes": 6409,
+  "sections": [
+    {
+      "name": "1. Scope one component",
+      "bytes": 299,
+      "when": [
+        "scope",
+        "component"
+      ]
+    },
+    {
+      "name": "2. Find the states in the code",
+      "bytes": 1138,
+      "when": [
+        "find",
+        "states",
+        "code"
+      ]
+    },
+    {
+      "name": "3. Build the throwaway page",
+      "bytes": 737,
+      "when": [
+        "build",
+        "throwaway",
+        "page"
+      ]
+    },
+    {
+      "name": "4. Feed each state at the data boundary",
+      "bytes": 799,
+      "when": [
+        "feed",
+        "each",
+        "state",
+        "data",
+        "boundary"
+      ]
+    },
+    {
+      "name": "5. Add the switcher",
+      "bytes": 339,
+      "when": [
+        "switcher"
+      ]
+    },
+    {
+      "name": "6. Confirm every state renders, then hand over",
+      "bytes": 644,
+      "when": [
+        "confirm",
+        "state",
+        "renders",
+        "hand"
+      ]
+    },
+    {
+      "name": "Re-check every state after each change",
+      "bytes": 151,
+      "when": [
+        "check",
+        "state",
+        "after",
+        "each",
+        "change"
+      ]
+    },
+    {
+      "name": "Remove it in one step, on the user's word",
+      "bytes": 247,
+      "when": [
+        "remove",
+        "step",
+        "user",
+        "word"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1310,
+      "when": [
+        "before",
+        "finish"
+      ]
+    }
+  ],
+  "keywords": [
+    "machine",
+    "scope",
+    "find",
+    "states",
+    "code",
+    "build",
+    "feed",
+    "boundary",
+    "confirm",
+    "hand",
+    "check",
+    "after",
+    "change"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\state-machine\\SKILL.md"
+}

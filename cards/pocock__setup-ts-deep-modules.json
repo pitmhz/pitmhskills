@@ -29,7 +29,91 @@
   "conflicts_with": [],
   "body_tokens": 1909,
   "core_bytes": 7648,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "The shape this enforces",
+      "bytes": 1819,
+      "when": [
+        "shape",
+        "enforces"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 4152,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "1. Detect the environment",
+      "bytes": 642,
+      "when": [
+        "detect",
+        "environment"
+      ]
+    },
+    {
+      "name": "2. Install dependency-cruiser",
+      "bytes": 187,
+      "when": [
+        "install",
+        "dependency",
+        "cruiser"
+      ]
+    },
+    {
+      "name": "3. Write the config",
+      "bytes": 415,
+      "when": [
+        "write",
+        "config"
+      ]
+    },
+    {
+      "name": "4. Wire it into the checks",
+      "bytes": 492,
+      "when": [
+        "wire",
+        "checks"
+      ]
+    },
+    {
+      "name": "5. Scaffold the example package",
+      "bytes": 669,
+      "when": [
+        "scaffold",
+        "example",
+        "package"
+      ]
+    },
+    {
+      "name": "6. Prove the rules bite",
+      "bytes": 644,
+      "when": [
+        "prove",
+        "rules",
+        "bite"
+      ]
+    },
+    {
+      "name": "7. Document the convention",
+      "bytes": 1091,
+      "when": [
+        "document",
+        "convention"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 838,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "npx depcruise src"
+  ],
   "skill_path": "skills/pocock/skills/in-progress/setup-ts-deep-modules/SKILL.md"
 }

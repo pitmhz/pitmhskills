@@ -1,0 +1,165 @@
+{
+  "id": "nvidia__jetson-flash-image",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f64832ef6008dadc2cffec116e0559d885c4273612edaced351cd7673aec3203",
+  "purpose": "Use to flash a promoted BSP image to a Jetson DUT in RCM mode via flash.sh or l4t_initrd_flash.sh. Do NOT use for BSP customization, image promotion, or carrier derivation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Use to flash a promoted BSP image to a Jetson DUT in RCM mode via flash.sh or l4t_initrd_flash.sh. Do NOT use for BSP customization, image promotion, or carrier"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4998,
+  "core_bytes": 20081,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 1386,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 865,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 234,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 11099,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve target and `bsp_image`",
+      "bytes": 300,
+      "when": [
+        "resolve",
+        "target",
+        "image"
+      ]
+    },
+    {
+      "name": "Resolve the flash conf path",
+      "bytes": 1798,
+      "when": [
+        "resolve",
+        "flash",
+        "conf",
+        "path"
+      ]
+    },
+    {
+      "name": "Select `<boot-dev>` and flash flow",
+      "bytes": 726,
+      "when": [
+        "select",
+        "boot",
+        "flash",
+        "flow"
+      ]
+    },
+    {
+      "name": "Put the DUT into recovery mode",
+      "bytes": 791,
+      "when": [
+        "recovery",
+        "mode"
+      ]
+    },
+    {
+      "name": "Preflight checks",
+      "bytes": 4313,
+      "when": [
+        "preflight",
+        "checks"
+      ]
+    },
+    {
+      "name": "Confirm resolution",
+      "bytes": 1934,
+      "when": [
+        "confirm",
+        "resolution"
+      ]
+    },
+    {
+      "name": "Invoke the flash",
+      "bytes": 375,
+      "when": [
+        "invoke",
+        "flash"
+      ]
+    },
+    {
+      "name": "Post-flash reset (T26x / Thor only)",
+      "bytes": 650,
+      "when": [
+        "post",
+        "flash",
+        "reset",
+        "t26x",
+        "thor"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 193,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1148,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 3469,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1479,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-flash-image/SKILL.md",
+  "curated": true
+}

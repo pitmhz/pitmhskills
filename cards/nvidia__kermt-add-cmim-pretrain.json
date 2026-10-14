@@ -1,0 +1,107 @@
+{
+  "id": "nvidia__kermt-add-cmim-pretrain",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f8d54e42b73304267b5146b6baf7a41b4438f9bf62b1b3316e58e3ada022d7eb",
+  "purpose": "Convert a grover_base checkpoint (encoder-only or encoder + vocab heads) into a hybrid checkpoint by adding a randomly-initialized cMIM decoder + latent_dist, then continue pretraining on the users co",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Convert a grover_base checkpoint (encoder-only or encoder + vocab heads) into a hybrid checkpoint by adding a randomly-initialized cMIM decoder + latent_dist, t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2198,
+  "core_bytes": 8820,
+  "sections": [
+    {
+      "name": "Skill and runtime paths",
+      "bytes": 392,
+      "when": [
+        "skill",
+        "runtime",
+        "paths"
+      ]
+    },
+    {
+      "name": "Hardware requirements",
+      "bytes": 264,
+      "when": [
+        "hardware",
+        "requirements"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 542,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 838,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3062,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 681,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Common errors",
+      "bytes": 733,
+      "when": [
+        "common",
+        "errors"
+      ]
+    },
+    {
+      "name": "What's in `run.json` after a successful run",
+      "bytes": 257,
+      "when": [
+        "json",
+        "after",
+        "successful"
+      ]
+    },
+    {
+      "name": "Replayability",
+      "bytes": 334,
+      "when": [
+        "replayability"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-kermt-add-cmim-pretrain/SKILL.md",
+  "curated": true
+}

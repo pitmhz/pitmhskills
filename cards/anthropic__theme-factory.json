@@ -27,7 +27,55 @@
   "conflicts_with": [],
   "body_tokens": 796,
   "core_bytes": 3183,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 301,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Usage Instructions",
+      "bytes": 541,
+      "when": [
+        "usage",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Themes Available",
+      "bytes": 690,
+      "when": [
+        "themes",
+        "available"
+      ]
+    },
+    {
+      "name": "Theme Details",
+      "bytes": 284,
+      "when": [
+        "theme",
+        "details"
+      ]
+    },
+    {
+      "name": "Application Process",
+      "bytes": 309,
+      "when": [
+        "application",
+        "process"
+      ]
+    },
+    {
+      "name": "Create your Own Theme",
+      "bytes": 469,
+      "when": [
+        "create",
+        "theme"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/theme-factory/SKILL.md"
 }

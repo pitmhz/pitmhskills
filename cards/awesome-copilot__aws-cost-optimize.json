@@ -1,0 +1,188 @@
+{
+  "id": "awesome-copilot__aws-cost-optimize",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e289482d227558774a220b79cf00c03340d1d35b3ffc2a4703659dd67a719e4d",
+  "purpose": "Analyze AWS resources used in the app (IaC files and/or resources in a target account/region) and optimize costs - creating GitHub issues for identified optimizations.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Analyze AWS resources used in the app (IaC files and/or resources in a target account/region) and optimize costs - creating GitHub issues for identified optimiz"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2048,
+  "core_bytes": 8256,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 243,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow Steps",
+      "bytes": 5435,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Get AWS Cost Optimization Best Practices",
+      "bytes": 470,
+      "when": [
+        "step",
+        "cost",
+        "optimization",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Step 2: Discover AWS Infrastructure",
+      "bytes": 1453,
+      "when": [
+        "step",
+        "discover",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "Step 3: Collect Usage Metrics & Validate Current Costs",
+      "bytes": 1312,
+      "when": [
+        "step",
+        "collect",
+        "usage",
+        "metrics",
+        "validate",
+        "current",
+        "costs"
+      ]
+    },
+    {
+      "name": "Step 4: Generate Cost Optimization Recommendations",
+      "bytes": 1306,
+      "when": [
+        "step",
+        "generate",
+        "cost",
+        "optimization",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "Step 5: User Confirmation",
+      "bytes": 595,
+      "when": [
+        "step",
+        "user",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Step 6: Create Individual Optimization Issues",
+      "bytes": 280,
+      "when": [
+        "step",
+        "create",
+        "individual",
+        "optimization",
+        "issues"
+      ]
+    },
+    {
+      "name": "💰 Cost Optimization: [Brief Title]",
+      "bytes": 1294,
+      "when": [
+        "cost",
+        "optimization",
+        "brief",
+        "title"
+      ]
+    },
+    {
+      "name": "📋 Description",
+      "bytes": 82,
+      "when": [
+        "description"
+      ]
+    },
+    {
+      "name": "🔧 Implementation",
+      "bytes": 123,
+      "when": [
+        "implementation"
+      ]
+    },
+    {
+      "name": "📊 Evidence",
+      "bytes": 135,
+      "when": [
+        "evidence"
+      ]
+    },
+    {
+      "name": "✅ Validation Steps",
+      "bytes": 172,
+      "when": [
+        "validation",
+        "steps"
+      ]
+    },
+    {
+      "name": "⚠️ Risks & Considerations",
+      "bytes": 122,
+      "when": [
+        "risks",
+        "considerations"
+      ]
+    },
+    {
+      "name": "Step 7: Create EPIC Coordinating Issue",
+      "bytes": 536,
+      "when": [
+        "step",
+        "create",
+        "epic",
+        "coordinating",
+        "issue"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 382,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 350,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aws-cost-optimize\\SKILL.md"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "awesome-copilot__pester-should-migration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d80c47ed3cda083f6411da12d0251a136608eada05c846eeba361e3168c9f14f",
+  "purpose": "Experimental (preview) Pester skill for migrating classic Should -Be (v5) assertion syntax to the new Should-* (v6) assertions (note the hyphen, no space), e.g. `Should -Be` -> `Should-Be`, `Should -N",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Experimental (preview) Pester skill for migrating classic Should -Be (v5) assertion syntax to the new Should-* (v6) assertions (note the hyphen, no space), e.g."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1970,
+  "core_bytes": 7927,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 218,
+      "when": []
+    },
+    {
+      "name": "Know This First",
+      "bytes": 742,
+      "when": [
+        "know",
+        "first"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 4830,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Step 1 — Find the classic assertions",
+      "bytes": 379,
+      "when": [
+        "step",
+        "find",
+        "classic",
+        "assertions"
+      ]
+    },
+    {
+      "name": "Step 2 — Apply the mapping",
+      "bytes": 1135,
+      "when": [
+        "step",
+        "apply",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Step 3 — Check the behavioral gotchas (do NOT skip)",
+      "bytes": 2689,
+      "when": [
+        "step",
+        "check",
+        "behavioral",
+        "gotchas",
+        "skip"
+      ]
+    },
+    {
+      "name": "Step 4 — Verify",
+      "bytes": 305,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Step 5 — (Optional) Enforce the new style",
+      "bytes": 308,
+      "when": [
+        "step",
+        "optional",
+        "enforce",
+        "style"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 248,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 492,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\pester-should-migration\\SKILL.md"
+}

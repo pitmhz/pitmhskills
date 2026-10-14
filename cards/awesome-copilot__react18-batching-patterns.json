@@ -1,0 +1,60 @@
+{
+  "id": "awesome-copilot__react18-batching-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f4bdb6d5b817c19b00062392ff51965d42fe185facbb5724653dd9aa39c3140e",
+  "purpose": "Provides exact patterns for diagnosing and fixing automatic batching regressions in React 18 class components. Use this skill whenever a class component has multiple setState calls in an async method,",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Provides exact patterns for diagnosing and fixing automatic batching regressions in React 18 class components. Use this skill whenever a class component has mul"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 621,
+  "core_bytes": 2489,
+  "sections": [
+    {
+      "name": "The Core Change",
+      "bytes": 541,
+      "when": [
+        "core",
+        "change"
+      ]
+    },
+    {
+      "name": "Quick Diagnosis",
+      "bytes": 585,
+      "when": [
+        "quick",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "The flushSync Rule",
+      "bytes": 630,
+      "when": [
+        "flushsync",
+        "rule"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react18-batching-patterns\\SKILL.md"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "awesome-copilot__git-flow-branch-creator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7674b5753d7d72e6e9698d8d8f857c017e0650364f3b96fcaac743fe21f7f9d9",
+  "purpose": "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2605,
+  "core_bytes": 10417,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 495,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 549,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Git Flow Branch Analysis Framework",
+      "bytes": 1884,
+      "when": [
+        "flow",
+        "branch",
+        "analysis",
+        "framework"
+      ]
+    },
+    {
+      "name": "Branch Naming Conventions",
+      "bytes": 917,
+      "when": [
+        "branch",
+        "naming",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Analysis Process",
+      "bytes": 1490,
+      "when": [
+        "analysis",
+        "process"
+      ]
+    },
+    {
+      "name": "Edge Cases and Validation",
+      "bytes": 860,
+      "when": [
+        "edge",
+        "cases",
+        "validation"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1434,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 905,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Final Execution",
+      "bytes": 951,
+      "when": [
+        "final",
+        "execution"
+      ]
+    },
+    {
+      "name": "Git Flow Reference",
+      "bytes": 734,
+      "when": [
+        "flow",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\git-flow-branch-creator\\SKILL.md"
+}

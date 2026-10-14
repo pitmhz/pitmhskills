@@ -1,0 +1,193 @@
+{
+  "id": "nvidia__tao-port-huggingface-model",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7112666980edc3424dde5a19cf84e61d928b4e72e988651e824468de455e6ad8",
+  "purpose": "Integrate a HuggingFace Computer Vision model into the NVIDIA TAO Toolkit ecosystem (tao-core config, tao-pytorch trainer, tao-deploy TensorRT pipeline). Use when the user asks to \"integrate a Hugging",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Integrate a HuggingFace Computer Vision model into the NVIDIA TAO Toolkit ecosystem (tao-core config, tao-pytorch trainer, tao-deploy TensorRT pipeline). Use wh"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4552,
+  "core_bytes": 18376,
+  "sections": [
+    {
+      "name": "Local-Only Rule",
+      "bytes": 344,
+      "when": [
+        "local",
+        "rule"
+      ]
+    },
+    {
+      "name": "Submodule Override Strategy",
+      "bytes": 783,
+      "when": [
+        "submodule",
+        "override",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Execution platform",
+      "bytes": 580,
+      "when": [
+        "execution",
+        "platform"
+      ]
+    },
+    {
+      "name": "Phase Map",
+      "bytes": 1754,
+      "when": [
+        "phase"
+      ]
+    },
+    {
+      "name": "Development Loop",
+      "bytes": 282,
+      "when": [
+        "development",
+        "loop"
+      ]
+    },
+    {
+      "name": "Debugging Playbook",
+      "bytes": 395,
+      "when": [
+        "debugging",
+        "playbook"
+      ]
+    },
+    {
+      "name": "Environment Isolation Strategy",
+      "bytes": 757,
+      "when": [
+        "environment",
+        "isolation",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Phase 0 — Prerequisites Check",
+      "bytes": 1107,
+      "when": [
+        "phase",
+        "prerequisites",
+        "check"
+      ]
+    },
+    {
+      "name": "Phase 1 — Information Gathering & Validation",
+      "bytes": 1016,
+      "when": [
+        "phase",
+        "information",
+        "gathering",
+        "validation"
+      ]
+    },
+    {
+      "name": "Phase 2 — Codebase Exploration",
+      "bytes": 1468,
+      "when": [
+        "phase",
+        "codebase",
+        "exploration"
+      ]
+    },
+    {
+      "name": "Phase 3 — TAO Core Configuration & Native Implementation",
+      "bytes": 1243,
+      "when": [
+        "phase",
+        "core",
+        "configuration",
+        "native",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Phase 4 — Export, Deployment & TensorRT Integration",
+      "bytes": 1119,
+      "when": [
+        "phase",
+        "export",
+        "deployment",
+        "tensorrt",
+        "integration"
+      ]
+    },
+    {
+      "name": "Phase 5 — Packaging & L0 Testing",
+      "bytes": 699,
+      "when": [
+        "phase",
+        "packaging",
+        "testing"
+      ]
+    },
+    {
+      "name": "Cross-Phase Data Flow & Consistency Verification",
+      "bytes": 1074,
+      "when": [
+        "cross",
+        "phase",
+        "data",
+        "flow",
+        "consistency",
+        "verification"
+      ]
+    },
+    {
+      "name": "Phase 6 — Container Testing & End-to-End Validation",
+      "bytes": 1694,
+      "when": [
+        "phase",
+        "container",
+        "testing",
+        "validation"
+      ]
+    },
+    {
+      "name": "Phase 7 — Optimization & Tuning (conditional)",
+      "bytes": 698,
+      "when": [
+        "phase",
+        "optimization",
+        "tuning",
+        "conditional"
+      ]
+    },
+    {
+      "name": "Argument",
+      "bytes": 219,
+      "when": [
+        "argument"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- pytest tests/ -m \"not slow\""
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-port-huggingface-model\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,96 @@
+{
+  "id": "awesome-copilot__copilot-pr-autopilot",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ef7c5be457339930774dac90be235335245f0edd361adc6176794cd932b44934",
+  "purpose": "Copilot left 14 review comments on your PR — half are nits. Hours of fix → reply → resolve → re-request, and each round lands MORE comments. This skill runs loop engineering: auto-triggers Copilot Cod",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Copilot left 14 review comments on your PR — half are nits. Hours of fix → reply → resolve → re-request, and each round lands MORE comments. This skill runs loo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3436,
+  "core_bytes": 13882,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 343,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "When NOT to Use This Skill",
+      "bytes": 212,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 2440,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Permissions: who can run the full loop",
+      "bytes": 1562,
+      "when": [
+        "permissions",
+        "full",
+        "loop"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflow",
+      "bytes": 3028,
+      "when": [
+        "step",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1870,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1734,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 2623,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\copilot-pr-autopilot\\SKILL.md"
+}

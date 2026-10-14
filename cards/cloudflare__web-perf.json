@@ -28,7 +28,143 @@
   "conflicts_with": [],
   "body_tokens": 2114,
   "core_bytes": 8460,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Retrieval Sources",
+      "bytes": 452,
+      "when": [
+        "retrieval",
+        "sources"
+      ]
+    },
+    {
+      "name": "FIRST: Verify MCP Tools Available",
+      "bytes": 760,
+      "when": [
+        "first",
+        "verify",
+        "tools",
+        "available"
+      ]
+    },
+    {
+      "name": "Key Guidelines",
+      "bytes": 623,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 483,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3542,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1: Performance Trace",
+      "bytes": 534,
+      "when": [
+        "phase",
+        "performance",
+        "trace"
+      ]
+    },
+    {
+      "name": "Phase 2: Core Web Vitals Analysis",
+      "bytes": 1274,
+      "when": [
+        "phase",
+        "core",
+        "vitals",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Phase 3: Network Analysis",
+      "bytes": 1018,
+      "when": [
+        "phase",
+        "network",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Phase 4: Accessibility Snapshot",
+      "bytes": 378,
+      "when": [
+        "phase",
+        "accessibility",
+        "snapshot"
+      ]
+    },
+    {
+      "name": "Phase 5: Codebase Analysis",
+      "bytes": 1788,
+      "when": [
+        "phase",
+        "codebase",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Detect Framework & Bundler",
+      "bytes": 658,
+      "when": [
+        "detect",
+        "framework",
+        "bundler"
+      ]
+    },
+    {
+      "name": "Tree-Shaking & Dead Code",
+      "bytes": 338,
+      "when": [
+        "tree",
+        "shaking",
+        "dead",
+        "code"
+      ]
+    },
+    {
+      "name": "Unused JS/CSS",
+      "bytes": 189,
+      "when": [
+        "unused"
+      ]
+    },
+    {
+      "name": "Polyfills",
+      "bytes": 192,
+      "when": [
+        "polyfills"
+      ]
+    },
+    {
+      "name": "Compression & Minification",
+      "bytes": 240,
+      "when": [
+        "compression",
+        "minification"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 437,
+      "when": [
+        "output",
+        "format"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/web-perf/SKILL.md"
 }

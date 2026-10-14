@@ -1,0 +1,74 @@
+{
+  "id": "awesome-copilot__mcp-copilot-studio-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "55a4523e7480cc4fc7c0524b5c50d471bebe8100b408131aebb1fbab064e181d",
+  "purpose": "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1063,
+  "core_bytes": 4258,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1451,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Context Variables",
+      "bytes": 383,
+      "when": [
+        "context",
+        "variables"
+      ]
+    },
+    {
+      "name": "Expected Output",
+      "bytes": 1162,
+      "when": [
+        "expected",
+        "output"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 449,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Example Usage",
+      "bytes": 311,
+      "when": [
+        "example",
+        "usage"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-copilot-studio-server-generator\\SKILL.md"
+}

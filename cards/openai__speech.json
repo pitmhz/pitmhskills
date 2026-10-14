@@ -27,7 +27,130 @@
   "conflicts_with": [],
   "body_tokens": 1847,
   "core_bytes": 7385,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 117,
+      "when": []
+    },
+    {
+      "name": "Decision tree (single vs batch)",
+      "bytes": 142,
+      "when": [
+        "decision",
+        "tree",
+        "single",
+        "batch"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 756,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Temp and output conventions",
+      "bytes": 294,
+      "when": [
+        "temp",
+        "output",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Dependencies (install if missing)",
+      "bytes": 199,
+      "when": [
+        "dependencies",
+        "install",
+        "missing"
+      ]
+    },
+    {
+      "name": "Environment",
+      "bytes": 605,
+      "when": [
+        "environment"
+      ]
+    },
+    {
+      "name": "Defaults & rules",
+      "bytes": 908,
+      "when": [
+        "defaults",
+        "rules"
+      ]
+    },
+    {
+      "name": "Instruction augmentation",
+      "bytes": 1039,
+      "when": [
+        "instruction",
+        "augmentation"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 575,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Single example (narration)",
+      "bytes": 258,
+      "when": [
+        "single",
+        "example",
+        "narration"
+      ]
+    },
+    {
+      "name": "Batch example (IVR prompts)",
+      "bytes": 302,
+      "when": [
+        "batch",
+        "example",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Instructioning best practices (short list)",
+      "bytes": 548,
+      "when": [
+        "instructioning",
+        "best",
+        "practices",
+        "short",
+        "list"
+      ]
+    },
+    {
+      "name": "Guidance by use case",
+      "bytes": 348,
+      "when": [
+        "guidance",
+        "case"
+      ]
+    },
+    {
+      "name": "CLI + environment notes",
+      "bytes": 304,
+      "when": [
+        "environment",
+        "notes"
+      ]
+    },
+    {
+      "name": "Reference map",
+      "bytes": 917,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/speech/SKILL.md"
 }

@@ -1,0 +1,107 @@
+{
+  "id": "nvidia__rag-eval",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "df80825698eaba8a3a7b3f53980afb75d0e4996aca100ada91f986869868c20d",
+  "purpose": "Filesystem RAG benchmarks: corpus/, train.json, evaluate_rag.py (RAGAS quality). Not for prod monitoring, latency/throughput benchmarking (use rag-perf), or evals outside this repo layout.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Filesystem RAG benchmarks: corpus/, train.json, evaluate_rag.py (RAGAS quality). Not for prod monitoring, latency/throughput benchmarking (use rag-perf), or eva"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2379,
+  "core_bytes": 9545,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 510,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When not to use",
+      "bytes": 313,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 531,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1428,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 849,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 614,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1104,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 957,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Source of truth",
+      "bytes": 763,
+      "when": [
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Agent playbook",
+      "bytes": 1042,
+      "when": [
+        "agent",
+        "playbook"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\rag-eval\\SKILL.md",
+  "curated": true
+}

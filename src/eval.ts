@@ -1,9 +1,12 @@
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 import { routeWith } from "./route.ts";
 import { parseFrontmatter } from "./card.ts";
+import { openDb, initDb } from "./db.ts";
+import { loadAllCards } from "./retrieve.ts";
+import type { Card } from "./types.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -127,6 +130,52 @@ function scoreSet(cases: Golden[], cwd: string): Scored {
     else { wrong++; fails.push(`expected ${g.expect}, got ${got} for "${g.task}"`); }
   }
   return { top1: hit / cases.length, wrong: wrong / cases.length, nonePrec: noneTotal ? noneOk / noneTotal : 1, total: cases.length, fails };
+}
+
+// Self-route coverage: every Tier-A card must route itself from its own
+// use_when[0] phrasing. Catches retrieval regressions and thin cards across the
+// whole library, not just the small curated tune set. Info-only — the gate
+// stays on the curated tune set. --write drafts evals/coverage/golden-<src>.yaml
+// files for hand review (auto-drafted, never auto-trusted).
+export function runCoverage(
+  cwd: string,
+  write = false
+): { top1: number; total: number; perSource: Record<string, { hit: number; total: number }>; fails: string[] } {
+  const db = openDb();
+  initDb(db);
+  let cards: Card[] = [];
+  try {
+    cards = loadAllCards(db);
+  } finally {
+    db.close();
+  }
+  const pool = cards.filter((c) => c.tier === "A" && c.use_when.length > 0);
+  const perSource = new Map<string, { hit: number; total: number }>();
+  const drafts = new Map<string, Golden[]>();
+  const fails: string[] = [];
+  let hit = 0;
+  for (const c of pool) {
+    const task = c.use_when[0]!;
+    const src = c.id.split("__")[0] ?? "unknown";
+    const s = perSource.get(src) ?? { hit: 0, total: 0 };
+    s.total++;
+    const list = drafts.get(src) ?? [];
+    list.push({ task, expect: c.id });
+    drafts.set(src, list);
+    const r = routeWith(task, cwd, { sessionId: "cover", lock: false, log: false });
+    if (r.skill_id === c.id) { hit++; s.hit++; }
+    else fails.push(`${c.id} <- "${task.slice(0, 70)}" got ${r.skill_id ?? "NONE"}`);
+    perSource.set(src, s);
+  }
+  if (write) {
+    const dir = join(ROOT, "evals", "coverage");
+    mkdirSync(dir, { recursive: true });
+    for (const [src, items] of drafts) {
+      const lines = items.map((g) => `- task: ${JSON.stringify(g.task)}\n  expect: ${g.expect}`);
+      writeFileSync(join(dir, `golden-${src}.yaml`), lines.join("\n") + "\n");
+    }
+  }
+  return { top1: pool.length ? hit / pool.length : 0, total: pool.length, perSource: Object.fromEntries(perSource), fails };
 }
 
 export function runEval(cwd: string): Scored & { heldout: Scored; parsers: { pass: number; total: number; fails: string[] } } {

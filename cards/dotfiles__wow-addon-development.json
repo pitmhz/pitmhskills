@@ -1,0 +1,84 @@
+{
+  "id": "dotfiles__wow-addon-development",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "950b6219b56234c1f1abb30bb876d704bd5fa58c9e79b09a11e532425e5df7c0",
+  "purpose": "Build, improve, debug, port, or review World of Warcraft Retail and official Forever add-ons. Use for addon Lua/XML, packaging, settings, persistence, performance, and in-game UI. Not for gameplay adv",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Build, improve, debug, port, or review World of Warcraft Retail and official Forever add-ons. Use for addon Lua/XML, packaging, settings, persistence, performan"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1160,
+  "core_bytes": 4639,
+  "sections": [
+    {
+      "name": "Read what the task needs",
+      "bytes": 1000,
+      "when": [
+        "read",
+        "task",
+        "needs"
+      ]
+    },
+    {
+      "name": "Choose the starting point",
+      "bytes": 881,
+      "when": [
+        "choose",
+        "starting",
+        "point"
+      ]
+    },
+    {
+      "name": "Implement and verify",
+      "bytes": 1049,
+      "when": [
+        "implement",
+        "verify"
+      ]
+    },
+    {
+      "name": "Shared constraints",
+      "bytes": 1037,
+      "when": [
+        "shared",
+        "constraints"
+      ]
+    }
+  ],
+  "keywords": [
+    "development",
+    "read",
+    "task",
+    "needs",
+    "choose",
+    "starting",
+    "point",
+    "implement",
+    "verify",
+    "shared",
+    "constraints"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\wow-addon-development\\SKILL.md"
+}

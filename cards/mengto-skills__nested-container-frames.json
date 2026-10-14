@@ -1,0 +1,58 @@
+{
+  "id": "mengto-skills__nested-container-frames",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "63ee2b26954de4d4ac833afd80010c188aa6d6effd4f22a9b7c115f39d343a2f",
+  "purpose": "Create a container-in-container layout system using nested frames. Use an outer centered container with visible vertical boundary lines and corner markers. Inside, place inner containers inset from th",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create a container-in-container layout system using nested frames. Use an outer centered container with visible vertical boundary lines and corner markers. Insi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 325,
+  "core_bytes": 1300,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 140,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 448,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 139,
+      "when": [
+        "guardrails"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "guardrails"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\nested-container-frames\\SKILL.md"
+}

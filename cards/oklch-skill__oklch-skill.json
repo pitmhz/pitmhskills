@@ -1,0 +1,102 @@
+{
+  "id": "oklch-skill__oklch-skill",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/oklch-skill@0e81f040e16d48fcc61d3e1b7ea548542371321f"
+  ],
+  "license": "MIT",
+  "hash": "10d1a44a0eb3669b7ec277caa663724bdfc7333099edb778980c571dbf483f5a",
+  "purpose": "OKLCH color space for web projects. Convert hex/rgb/hsl to oklch, generate palettes, check contrast, handle gamut boundaries, and theme with Tailwind v4. Triggers on oklch, color conversion, palette g",
+  "domain": "general",
+  "task_types": [
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "OKLCH color space for web projects. Convert hex/rgb/hsl to oklch, generate palettes, check contrast, handle gamut boundaries, and theme with Tailwind v4. Trigge"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "OKLCH conversion / gamut work -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "oklch convert gamut p3 hex",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1220,
+  "core_bytes": 4906,
+  "sections": [
+    {
+      "name": "Quick Reference",
+      "bytes": 506,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Why OKLCH",
+      "bytes": 573,
+      "when": [
+        "oklch"
+      ]
+    },
+    {
+      "name": "OKLCH Syntax",
+      "bytes": 609,
+      "when": [
+        "oklch",
+        "syntax"
+      ]
+    },
+    {
+      "name": "Key Thresholds",
+      "bytes": 532,
+      "when": [
+        "thresholds"
+      ]
+    },
+    {
+      "name": "Review Output Format",
+      "bytes": 626,
+      "when": [
+        "review",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 766,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 585,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "quick",
+    "reference",
+    "syntax",
+    "thresholds",
+    "review",
+    "output",
+    "format",
+    "common",
+    "mistakes",
+    "files"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\oklch-skill\\skills\\oklch-skill\\SKILL.md"
+}

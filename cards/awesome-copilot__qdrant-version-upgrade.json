@@ -1,0 +1,33 @@
+{
+  "id": "awesome-copilot__qdrant-version-upgrade",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1a6722e67b24970d52ef94386e162e97f4b4c10eb1599d6d0165050df2ba4993",
+  "purpose": "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 485,
+  "core_bytes": 1937,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-version-upgrade\\SKILL.md"
+}

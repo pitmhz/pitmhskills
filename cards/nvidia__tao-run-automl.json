@@ -1,0 +1,160 @@
+{
+  "id": "nvidia__tao-run-automl",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a9a4c184cb258e7fcd0cc4486ea92ed59c04a5a32d1dc7ce371fc1b5644cf74d",
+  "purpose": "Run container-backed AutoML / hyperparameter optimization (HPO) for NVIDIA TAO networks using AutoMLRunner. Handles algorithm",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Run container-backed AutoML / hyperparameter optimization (HPO) for NVIDIA TAO networks using AutoMLRunner. Handles algorithm"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5072,
+  "core_bytes": 20300,
+  "sections": [
+    {
+      "name": "Execution Runtime — Hard Gate",
+      "bytes": 710,
+      "when": [
+        "execution",
+        "runtime",
+        "hard",
+        "gate"
+      ]
+    },
+    {
+      "name": "Reference Map",
+      "bytes": 1241,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 1133,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Model Support Gate",
+      "bytes": 624,
+      "when": [
+        "model",
+        "support",
+        "gate"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1394,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Pre-Launch Review Gate",
+      "bytes": 1593,
+      "when": [
+        "launch",
+        "review",
+        "gate"
+      ]
+    },
+    {
+      "name": "Automatic Baseline Eval Job",
+      "bytes": 1352,
+      "when": [
+        "automatic",
+        "baseline",
+        "eval"
+      ]
+    },
+    {
+      "name": "Dependency And Data Preflight",
+      "bytes": 1970,
+      "when": [
+        "dependency",
+        "data",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Algorithm Policy",
+      "bytes": 1744,
+      "when": [
+        "algorithm",
+        "policy"
+      ]
+    },
+    {
+      "name": "Spec And Search Space",
+      "bytes": 847,
+      "when": [
+        "spec",
+        "search",
+        "space"
+      ]
+    },
+    {
+      "name": "Metric Policy",
+      "bytes": 881,
+      "when": [
+        "metric",
+        "policy"
+      ]
+    },
+    {
+      "name": "Runner Construction",
+      "bytes": 2251,
+      "when": [
+        "runner",
+        "construction"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "bytes": 1209,
+      "when": [
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Result Handoff",
+      "bytes": 1231,
+      "when": [
+        "result",
+        "handoff"
+      ]
+    },
+    {
+      "name": "Common Pitfalls",
+      "bytes": 113,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-run-automl/SKILL.md",
+  "curated": true
+}

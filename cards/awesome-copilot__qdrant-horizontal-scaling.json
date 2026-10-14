@@ -1,0 +1,67 @@
+{
+  "id": "awesome-copilot__qdrant-horizontal-scaling",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e768679bda54dd9f333a9b1861bfc239922d5c07725418b72df69dcd0fe020c4",
+  "purpose": "Diagnoses and guides Qdrant horizontal scaling decisions. Use when someone asks 'vertical or horizontal?', 'how many nodes?', 'how many shards?', 'how to add nodes', 'resharding', 'data doesn't fit', ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Diagnoses and guides Qdrant horizontal scaling decisions. Use when someone asks 'vertical or horizontal?', 'how many nodes?', 'how many shards?', 'how to add no"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 749,
+  "core_bytes": 2995,
+  "sections": [
+    {
+      "name": "Most basic distributed configuration",
+      "bytes": 587,
+      "when": [
+        "basic",
+        "distributed",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Choosing number of shards",
+      "bytes": 353,
+      "when": [
+        "choosing",
+        "number",
+        "shards"
+      ]
+    },
+    {
+      "name": "Changing number of shards",
+      "bytes": 843,
+      "when": [
+        "changing",
+        "number",
+        "shards"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 545,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\scaling-data-volume\\horizontal-scaling\\SKILL.md"
+}

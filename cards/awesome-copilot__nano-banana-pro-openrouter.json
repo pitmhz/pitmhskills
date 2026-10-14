@@ -1,0 +1,99 @@
+{
+  "id": "awesome-copilot__nano-banana-pro-openrouter",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3e0ce50fe4b76ad1fa7adcaaceb88f3e8c3c1ecb251f980fbe58a8edc2470fb8",
+  "purpose": "Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Use for prompt-only image generation, image edits, and multi-image compositing; supports 1K/2K/4K output.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Use for prompt-only image generation, image edits, and multi-image compositing; suppor"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 664,
+  "core_bytes": 2658,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 772,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prompt-only generation",
+      "bytes": 167,
+      "when": [
+        "prompt",
+        "generation"
+      ]
+    },
+    {
+      "name": "Edit a single image",
+      "bytes": 185,
+      "when": [
+        "edit",
+        "single",
+        "image"
+      ]
+    },
+    {
+      "name": "Compose multiple images",
+      "bytes": 232,
+      "when": [
+        "compose",
+        "multiple",
+        "images"
+      ]
+    },
+    {
+      "name": "Resolution",
+      "bytes": 99,
+      "when": [
+        "resolution"
+      ]
+    },
+    {
+      "name": "System prompt customization",
+      "bytes": 189,
+      "when": [
+        "system",
+        "prompt",
+        "customization"
+      ]
+    },
+    {
+      "name": "Behavior and constraints",
+      "bytes": 341,
+      "when": [
+        "behavior",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 863,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\nano-banana-pro-openrouter\\SKILL.md"
+}

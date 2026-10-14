@@ -1,0 +1,221 @@
+{
+  "id": "awesome-copilot__swift-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ca0b454b3f2125d370397c69509fc6ac739180c07385c239bb36323bda03cf69",
+  "purpose": "Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4374,
+  "core_bytes": 17652,
+  "sections": [
+    {
+      "name": "Project Generation",
+      "bytes": 757,
+      "when": [
+        "project",
+        "generation"
+      ]
+    },
+    {
+      "name": "Package.swift Template",
+      "bytes": 1142,
+      "when": [
+        "package",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "main.swift Template",
+      "bytes": 1275,
+      "when": [
+        "main",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "Server.swift Template",
+      "bytes": 670,
+      "when": [
+        "server",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "ToolDefinitions.swift Template",
+      "bytes": 1833,
+      "when": [
+        "tooldefinitions",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "ToolHandlers.swift Template",
+      "bytes": 2617,
+      "when": [
+        "toolhandlers",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "ResourceDefinitions.swift Template",
+      "bytes": 514,
+      "when": [
+        "resourcedefinitions",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "ResourceHandlers.swift Template",
+      "bytes": 2384,
+      "when": [
+        "resourcehandlers",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "PromptDefinitions.swift Template",
+      "bytes": 457,
+      "when": [
+        "promptdefinitions",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "PromptHandlers.swift Template",
+      "bytes": 1809,
+      "when": [
+        "prompthandlers",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "ServerTests.swift Template",
+      "bytes": 1693,
+      "when": [
+        "servertests",
+        "swift",
+        "template"
+      ]
+    },
+    {
+      "name": "README.md Template",
+      "bytes": 101,
+      "when": [
+        "readme",
+        "template"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 227,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 62,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 53,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 107,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 36,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Development",
+      "bytes": 309,
+      "when": [
+        "development"
+      ]
+    },
+    {
+      "name": "Project Structure",
+      "bytes": 379,
+      "when": [
+        "project",
+        "structure"
+      ]
+    },
+    {
+      "name": "License",
+      "bytes": 21,
+      "when": [
+        "license"
+      ]
+    },
+    {
+      "name": "Generation Instructions",
+      "bytes": 525,
+      "when": [
+        "generation",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Build and Run",
+      "bytes": 207,
+      "when": [
+        "build"
+      ]
+    },
+    {
+      "name": "Integration with Claude Desktop",
+      "bytes": 181,
+      "when": [
+        "integration",
+        "claude",
+        "desktop"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\swift-mcp-server-generator\\SKILL.md"
+}

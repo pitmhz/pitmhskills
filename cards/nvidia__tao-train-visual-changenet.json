@@ -1,0 +1,170 @@
+{
+  "id": "nvidia__tao-train-visual-changenet",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e798df80fc4390fdd9b71728f9d9c57ce22a2fbdbafa2baee4cd4915d1467f10",
+  "purpose": "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training,",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4778,
+  "core_bytes": 19130,
+  "sections": [
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 809,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 2832,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 7409,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Classify",
+      "bytes": 2431,
+      "when": [
+        "classify"
+      ]
+    },
+    {
+      "name": "Segment",
+      "bytes": 1456,
+      "when": [
+        "segment"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 3389,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Running via local Docker",
+      "bytes": 429,
+      "when": [
+        "running",
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "Tasks",
+      "bytes": 1462,
+      "when": [
+        "tasks"
+      ]
+    },
+    {
+      "name": "Classify (default)",
+      "bytes": 545,
+      "when": [
+        "classify",
+        "default"
+      ]
+    },
+    {
+      "name": "Segment",
+      "bytes": 905,
+      "when": [
+        "segment"
+      ]
+    },
+    {
+      "name": "Data Format",
+      "bytes": 782,
+      "when": [
+        "data",
+        "format"
+      ]
+    },
+    {
+      "name": "Pre-Flight: validate the classify dataset (mandatory before every classify run)",
+      "bytes": 1004,
+      "when": [
+        "flight",
+        "validate",
+        "classify",
+        "dataset",
+        "mandatory",
+        "before"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 957,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 501,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 572,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 93,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-visual-changenet/SKILL.md",
+  "curated": true
+}

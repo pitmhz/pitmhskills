@@ -1,0 +1,143 @@
+{
+  "id": "nvidia__nvidia-ontology-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "96daa8148fb23dff44102f1cbda4890e77808ea95e994bc0ea4a750ab5e82c28",
+  "purpose": "Set up or troubleshoot the Auto Ontology runtime. Use for Helm (the official install), Docker Compose, developer setup, and MCP connection to an existing deployment.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Set up or troubleshoot the Auto Ontology runtime. Use for Helm (the official install), Docker Compose, developer setup, and MCP connection to an existing deploy"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2817,
+  "core_bytes": 11294,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 618,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1188,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Required questions",
+      "bytes": 1169,
+      "when": [
+        "required",
+        "questions"
+      ]
+    },
+    {
+      "name": "Install with Helm (official)",
+      "bytes": 1404,
+      "when": [
+        "install",
+        "helm",
+        "official"
+      ]
+    },
+    {
+      "name": "Local: Docker Compose",
+      "bytes": 1559,
+      "when": [
+        "local",
+        "docker",
+        "compose"
+      ]
+    },
+    {
+      "name": "Developer workflows (`--dev`, `--ds`)",
+      "bytes": 1500,
+      "when": [
+        "developer",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 251,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Auto Ontology is already up — MCP only",
+      "bytes": 886,
+      "when": [
+        "auto",
+        "ontology",
+        "already"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 339,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Connect a source",
+      "bytes": 1499,
+      "when": [
+        "connect",
+        "source"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 563,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Stop",
+      "bytes": 319,
+      "when": [
+        "stop"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 252,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "See also",
+      "bytes": 305,
+      "when": []
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\nvidia-ontology-setup\\SKILL.md",
+  "curated": true
+}

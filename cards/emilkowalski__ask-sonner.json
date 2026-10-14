@@ -1,0 +1,91 @@
+{
+  "id": "emilkowalski__ask-sonner",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "bc59ef252d11095cb7722be0ed6c0b882dcd4ae06cd64b3842709a89ab868c1a",
+  "purpose": "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and ic",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and pe"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1809,
+  "core_bytes": 7321,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 638,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 665,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Picking the right call",
+      "bytes": 852,
+      "when": [
+        "picking",
+        "right",
+        "call"
+      ]
+    },
+    {
+      "name": "Recipes",
+      "bytes": 982,
+      "when": [
+        "recipes"
+      ]
+    },
+    {
+      "name": "Styling — the escalation ladder",
+      "bytes": 1348,
+      "when": [
+        "styling",
+        "escalation",
+        "ladder"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2339,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "keywords": [
+    "initial",
+    "response",
+    "setup",
+    "picking",
+    "recipes",
+    "escalation",
+    "ladder"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\ask-sonner\\SKILL.md"
+}

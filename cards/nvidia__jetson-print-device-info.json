@@ -1,0 +1,114 @@
+{
+  "id": "nvidia__jetson-print-device-info",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ec358299820aac7a12d9a6ffae6691aeded2e5a5b23bc9a19376deec4cb1cc37",
+  "purpose": "Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an example skill.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an examp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1332,
+  "core_bytes": 5342,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 160,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 216,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 252,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 95,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1478,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output format",
+      "bytes": 362,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 673,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 348,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 226,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 490,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 292,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-print-device-info/SKILL.md",
+  "curated": true
+}

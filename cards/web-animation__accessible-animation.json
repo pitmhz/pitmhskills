@@ -1,0 +1,147 @@
+{
+  "id": "web-animation__accessible-animation",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "e1eb1a0acdb2bb21e7e6c47d642a0af6311488805bd6f5a075b9bd979d107afb",
+  "purpose": "This skill should be used when the user asks to \"respect prefers-reduced-motion\", \"honor reduced motion\", \"make my animations accessible\", \"fix vestibular / motion-sickness issues\", \"add a useReducedM",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"respect prefers-reduced-motion\", \"honor reduced motion\", \"make my animations accessible\", \"fix vestibular / mot"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Reduced-motion-safe animation -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "reduced prefers-reduced-motion",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2993,
+  "core_bytes": 12006,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 262,
+      "when": []
+    },
+    {
+      "name": "The core principle: tier motion, do not nuke it",
+      "bytes": 1267,
+      "when": [
+        "core",
+        "principle",
+        "tier",
+        "motion",
+        "nuke"
+      ]
+    },
+    {
+      "name": "CSS layer: media-query gating",
+      "bytes": 1589,
+      "when": [
+        "layer",
+        "media",
+        "query",
+        "gating"
+      ]
+    },
+    {
+      "name": "JS layer: matchMedia gating",
+      "bytes": 1666,
+      "when": [
+        "layer",
+        "matchmedia",
+        "gating"
+      ]
+    },
+    {
+      "name": "Library gating, applied as one reusable layer",
+      "bytes": 846,
+      "when": [
+        "library",
+        "gating",
+        "applied",
+        "reusable",
+        "layer"
+      ]
+    },
+    {
+      "name": "React: a `useReducedMotion` hook",
+      "bytes": 1258,
+      "when": [
+        "react",
+        "usereducedmotion",
+        "hook"
+      ]
+    },
+    {
+      "name": "WCAG mapping",
+      "bytes": 530,
+      "when": [
+        "wcag",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2834,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 615,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 781,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 271,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "animation",
+    "core",
+    "principle",
+    "tier",
+    "nuke",
+    "layer",
+    "media",
+    "query",
+    "gating",
+    "matchmedia",
+    "library",
+    "applied",
+    "reusable"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\accessible-animation\\SKILL.md"
+}

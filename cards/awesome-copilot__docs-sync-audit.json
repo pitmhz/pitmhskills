@@ -1,0 +1,116 @@
+{
+  "id": "awesome-copilot__docs-sync-audit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c21b20dcc59ac43449ef02ed7f69bfa222a241cdf46b870675ac10aac736a203",
+  "purpose": "Run a read-only documentation drift audit for a feature, PR, branch, release, API, configuration change, workflow, CLI, package, or repository area. Use when the user asks whether docs are stale, miss",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Run a read-only documentation drift audit for a feature, PR, branch, release, API, configuration change, workflow, CLI, package, or repository area. Use when th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3311,
+  "core_bytes": 13243,
+  "sections": [
+    {
+      "name": "Core Rules",
+      "bytes": 1790,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 746,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Discovery Workflow",
+      "bytes": 3464,
+      "when": [
+        "discovery",
+        "workflow"
+      ]
+    },
+    {
+      "name": "What To Look For",
+      "bytes": 754,
+      "when": [
+        "look"
+      ]
+    },
+    {
+      "name": "Severity Rubric",
+      "bytes": 522,
+      "when": [
+        "severity",
+        "rubric"
+      ]
+    },
+    {
+      "name": "Evidence Standards",
+      "bytes": 2424,
+      "when": [
+        "evidence",
+        "standards"
+      ]
+    },
+    {
+      "name": "Report Format",
+      "bytes": 1369,
+      "when": [
+        "report",
+        "format"
+      ]
+    },
+    {
+      "name": "Post-Audit Update Workflow",
+      "bytes": 627,
+      "when": [
+        "post",
+        "audit",
+        "update",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 399,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Agent Portability Notes",
+      "bytes": 383,
+      "when": [
+        "agent",
+        "portability",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\docs-sync-audit\\SKILL.md"
+}

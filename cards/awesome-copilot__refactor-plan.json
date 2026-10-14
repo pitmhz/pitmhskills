@@ -1,0 +1,107 @@
+{
+  "id": "awesome-copilot__refactor-plan",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "93741df0042a15c01ae8589e72014dcf53c557c11ca1df69c29737534c312c29",
+  "purpose": "Create a concrete plan before starting a multi-file refactor. Use when the user asks to plan, sequence, scope, or safely execute a refactor across multiple files; always investigate first, output the ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Create a concrete plan before starting a multi-file refactor. Use when the user asks to plan, sequence, scope, or safely execute a refactor across multiple file"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 573,
+  "core_bytes": 2289,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 988,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 30,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Refactor Plan: [title]",
+      "bytes": 894,
+      "when": [
+        "refactor",
+        "plan",
+        "title"
+      ]
+    },
+    {
+      "name": "Current State",
+      "bytes": 62,
+      "when": [
+        "current",
+        "state"
+      ]
+    },
+    {
+      "name": "Target State",
+      "bytes": 68,
+      "when": [
+        "target",
+        "state"
+      ]
+    },
+    {
+      "name": "Affected Files",
+      "bytes": 153,
+      "when": [
+        "affected",
+        "files"
+      ]
+    },
+    {
+      "name": "Execution Plan",
+      "bytes": 406,
+      "when": [
+        "execution",
+        "plan"
+      ]
+    },
+    {
+      "name": "Rollback Plan",
+      "bytes": 75,
+      "when": [
+        "rollback",
+        "plan"
+      ]
+    },
+    {
+      "name": "Risks",
+      "bytes": 103,
+      "when": [
+        "risks"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\refactor-plan\\SKILL.md"
+}

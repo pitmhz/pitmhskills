@@ -1,0 +1,120 @@
+{
+  "id": "awesome-copilot__pr-screenshots",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9f385d36d5341c16005ed107568b9826ebdf5c9cd4475bfb1a4226defc641622",
+  "purpose": "Embed before/after screenshots and annotated images in pull request descriptions. Covers PR description patterns, image upload for Azure DevOps and GitHub, and sizing best practices.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Embed before/after screenshots and annotated images in pull request descriptions. Covers PR description patterns, image upload for Azure DevOps and GitHub, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1220,
+  "core_bytes": 4924,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 222,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "PR Description Pattern",
+      "bytes": 637,
+      "when": [
+        "description",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Multiple changes",
+      "bytes": 119,
+      "when": [
+        "multiple",
+        "changes"
+      ]
+    },
+    {
+      "name": "Filter bar alignment",
+      "bytes": 189,
+      "when": [
+        "filter",
+        "alignment"
+      ]
+    },
+    {
+      "name": "Chart tooltip",
+      "bytes": 172,
+      "when": [
+        "chart",
+        "tooltip"
+      ]
+    },
+    {
+      "name": "Image Sizing",
+      "bytes": 348,
+      "when": [
+        "image",
+        "sizing"
+      ]
+    },
+    {
+      "name": "Uploading Images",
+      "bytes": 2134,
+      "when": [
+        "uploading",
+        "images"
+      ]
+    },
+    {
+      "name": "Azure DevOps",
+      "bytes": 1670,
+      "when": [
+        "azure",
+        "devops"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "bytes": 443,
+      "when": [
+        "github"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 600,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 243,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\pr-screenshots\\SKILL.md"
+}

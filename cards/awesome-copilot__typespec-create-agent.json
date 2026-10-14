@@ -1,0 +1,64 @@
+{
+  "id": "awesome-copilot__typespec-create-agent",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a25c02160da90770d824b693bd408c94e830942a657c99511a00174506ec1672",
+  "purpose": "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 737,
+  "core_bytes": 2946,
+  "sections": [
+    {
+      "name": "Requirements",
+      "bytes": 1218,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Template Structure",
+      "bytes": 673,
+      "when": [
+        "template",
+        "structure"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 491,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 241,
+      "when": [
+        "examples"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\typespec-create-agent\\SKILL.md"
+}

@@ -1,0 +1,154 @@
+{
+  "id": "gsap__gsap-scrolltrigger",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "e6612777bcce1617d3b9e061b2f671fb0f36379684d0c61f7a1baa06d7f7a989",
+  "purpose": "Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub, triggers. Use when building or recommending scroll-based animation, parallax, pinned sections, or when the user asks a",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub, triggers. Use when building or recommending scroll-based animation, parallax, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4649,
+  "core_bytes": 18686,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 558,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Registering the Plugin",
+      "bytes": 162,
+      "when": [
+        "registering",
+        "plugin"
+      ]
+    },
+    {
+      "name": "Basic Trigger",
+      "bytes": 1156,
+      "when": [
+        "basic",
+        "trigger"
+      ]
+    },
+    {
+      "name": "Key config options",
+      "bytes": 3730,
+      "when": [
+        "config",
+        "options"
+      ]
+    },
+    {
+      "name": "ScrollTrigger.batch()",
+      "bytes": 2418,
+      "when": [
+        "scrolltrigger",
+        "batch"
+      ]
+    },
+    {
+      "name": "ScrollTrigger.scrollerProxy()",
+      "bytes": 2605,
+      "when": [
+        "scrolltrigger",
+        "scrollerproxy"
+      ]
+    },
+    {
+      "name": "Scrub",
+      "bytes": 544,
+      "when": [
+        "scrub"
+      ]
+    },
+    {
+      "name": "Pinning",
+      "bytes": 442,
+      "when": [
+        "pinning"
+      ]
+    },
+    {
+      "name": "Markers (Development)",
+      "bytes": 261,
+      "when": [
+        "markers",
+        "development"
+      ]
+    },
+    {
+      "name": "Timeline + ScrollTrigger",
+      "bytes": 423,
+      "when": [
+        "timeline",
+        "scrolltrigger"
+      ]
+    },
+    {
+      "name": "Horizontal scroll (containerAnimation)",
+      "bytes": 2319,
+      "when": [
+        "horizontal",
+        "scroll",
+        "containeranimation"
+      ]
+    },
+    {
+      "name": "Refresh and Cleanup",
+      "bytes": 926,
+      "when": [
+        "refresh",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "Official GSAP best practices",
+      "bytes": 1175,
+      "when": [
+        "official",
+        "gsap",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 1551,
+      "when": []
+    },
+    {
+      "name": "Learn More",
+      "bytes": 69,
+      "when": [
+        "learn"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-scrolltrigger\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,108 @@
+{
+  "id": "awesome-copilot__kotlin-springboot",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0ddd1ab19b608348a3728443160cc7a3a7feaa61ed1ae7cc812cdcd62b574ca2",
+  "purpose": "Get best practices for developing applications with Spring Boot and Kotlin.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Get best practices for developing applications with Spring Boot and Kotlin."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1102,
+  "core_bytes": 4406,
+  "sections": [
+    {
+      "name": "Project Setup & Structure",
+      "bytes": 556,
+      "when": [
+        "project",
+        "setup",
+        "structure"
+      ]
+    },
+    {
+      "name": "Dependency Injection & Components",
+      "bytes": 460,
+      "when": [
+        "dependency",
+        "injection",
+        "components"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 544,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Web Layer (Controllers)",
+      "bytes": 535,
+      "when": [
+        "layer",
+        "controllers"
+      ]
+    },
+    {
+      "name": "Service Layer",
+      "bytes": 276,
+      "when": [
+        "service",
+        "layer"
+      ]
+    },
+    {
+      "name": "Data Layer (Repositories)",
+      "bytes": 563,
+      "when": [
+        "data",
+        "layer",
+        "repositories"
+      ]
+    },
+    {
+      "name": "Logging",
+      "bytes": 357,
+      "when": [
+        "logging"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 531,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Coroutines & Asynchronous Programming",
+      "bytes": 324,
+      "when": [
+        "coroutines",
+        "asynchronous",
+        "programming"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\kotlin-springboot\\SKILL.md"
+}

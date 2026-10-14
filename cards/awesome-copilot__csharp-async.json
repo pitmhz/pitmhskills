@@ -1,0 +1,83 @@
+{
+  "id": "awesome-copilot__csharp-async",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d52c0812a3e4325ab0d89aebd074efe5e6246e722522180f8613ef3c72a72acc",
+  "purpose": "Get best practices for C# async programming",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Get best practices for C# async programming"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 466,
+  "core_bytes": 1862,
+  "sections": [
+    {
+      "name": "Naming Conventions",
+      "bytes": 185,
+      "when": [
+        "naming",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Return Types",
+      "bytes": 272,
+      "when": [
+        "return",
+        "types"
+      ]
+    },
+    {
+      "name": "Exception Handling",
+      "bytes": 306,
+      "when": [
+        "exception",
+        "handling"
+      ]
+    },
+    {
+      "name": "Performance",
+      "bytes": 297,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "Common Pitfalls",
+      "bytes": 239,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Implementation Patterns",
+      "bytes": 354,
+      "when": [
+        "implementation",
+        "patterns"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\csharp-async\\SKILL.md"
+}

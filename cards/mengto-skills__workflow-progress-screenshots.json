@@ -1,0 +1,63 @@
+{
+  "id": "mengto-skills__workflow-progress-screenshots",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "a6ad975a4c81e4c001a666af208011199399da3ac54735a4e05938245353527c",
+  "purpose": "Show the user real screenshots of the work as it progresses, without being asked. Capture the start, the key moment and the result of every visual change, send them as files with captions as soon as e",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Show the user real screenshots of the work as it progresses, without being asked. Capture the start, the key moment and the result of every visual change, send "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1070,
+  "core_bytes": 4286,
+  "sections": [
+    {
+      "name": "Rules",
+      "bytes": 1742,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "How to capture",
+      "bytes": 1311,
+      "when": [
+        "capture"
+      ]
+    },
+    {
+      "name": "In the final report",
+      "bytes": 276,
+      "when": [
+        "final",
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "progress",
+    "rules",
+    "final"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\workflow\\workflow-progress-screenshots\\SKILL.md"
+}

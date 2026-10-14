@@ -1,0 +1,300 @@
+{
+  "id": "awesome-copilot__lean-comments",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "bf10076ba6db8f1f7eff318edb6c7b5167b76c96a8bc6801923ac3f1aa1ef9c4",
+  "purpose": "Audits, writes, and refines maintained first-party source-code comments and declaration-level documentation across languages. Use when adding, editing, reviewing, cleaning up, or auditing comments, do",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Audits, writes, and refines maintained first-party source-code comments and declaration-level documentation across languages. Use when adding, editing, reviewin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5333,
+  "core_bytes": 21330,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 477,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Reader model",
+      "bytes": 483,
+      "when": [
+        "reader",
+        "model"
+      ]
+    },
+    {
+      "name": "Authority and evidence",
+      "bytes": 953,
+      "when": [
+        "authority",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Core decision rule",
+      "bytes": 681,
+      "when": [
+        "core",
+        "decision",
+        "rule"
+      ]
+    },
+    {
+      "name": "Decision order",
+      "bytes": 766,
+      "when": [
+        "decision",
+        "order"
+      ]
+    },
+    {
+      "name": "What deserves an implementation comment",
+      "bytes": 627,
+      "when": [
+        "deserves",
+        "implementation",
+        "comment"
+      ]
+    },
+    {
+      "name": "Remove low-value commentary",
+      "bytes": 1030,
+      "when": [
+        "remove",
+        "value",
+        "commentary"
+      ]
+    },
+    {
+      "name": "Prefer self-explanatory code",
+      "bytes": 510,
+      "when": [
+        "prefer",
+        "self",
+        "explanatory",
+        "code"
+      ]
+    },
+    {
+      "name": "Comment and documentation forms",
+      "bytes": 2194,
+      "when": [
+        "comment",
+        "documentation",
+        "forms"
+      ]
+    },
+    {
+      "name": "Implementation comments",
+      "bytes": 233,
+      "when": [
+        "implementation",
+        "comments"
+      ]
+    },
+    {
+      "name": "Declaration documentation",
+      "bytes": 470,
+      "when": [
+        "declaration",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Module and file documentation",
+      "bytes": 329,
+      "when": [
+        "module",
+        "file",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Runtime-visible documentation",
+      "bytes": 355,
+      "when": [
+        "runtime",
+        "visible",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Declaration documentation rules",
+      "bytes": 1847,
+      "when": [
+        "declaration",
+        "documentation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Do not repeat the type system",
+      "bytes": 612,
+      "when": [
+        "repeat",
+        "type",
+        "system"
+      ]
+    },
+    {
+      "name": "Style",
+      "bytes": 1292,
+      "when": [
+        "style"
+      ]
+    },
+    {
+      "name": "Single-line prose implementation comments",
+      "bytes": 995,
+      "when": [
+        "single",
+        "line",
+        "prose",
+        "implementation",
+        "comments"
+      ]
+    },
+    {
+      "name": "Declaration documentation",
+      "bytes": 287,
+      "when": [
+        "declaration",
+        "documentation"
+      ]
+    },
+    {
+      "name": "High-value examples",
+      "bytes": 1575,
+      "when": [
+        "high",
+        "value",
+        "examples"
+      ]
+    },
+    {
+      "name": "TODO, FIXME, NOTE, and similar markers",
+      "bytes": 547,
+      "when": [
+        "todo",
+        "fixme",
+        "note",
+        "similar",
+        "markers"
+      ]
+    },
+    {
+      "name": "Commented-out code",
+      "bytes": 672,
+      "when": [
+        "commented",
+        "code"
+      ]
+    },
+    {
+      "name": "Technically significant directives and headers",
+      "bytes": 1422,
+      "when": [
+        "technically",
+        "significant",
+        "directives",
+        "headers"
+      ]
+    },
+    {
+      "name": "Stale directives",
+      "bytes": 709,
+      "when": [
+        "stale",
+        "directives"
+      ]
+    },
+    {
+      "name": "Durable references and links",
+      "bytes": 552,
+      "when": [
+        "durable",
+        "references",
+        "links"
+      ]
+    },
+    {
+      "name": "Editing existing code",
+      "bytes": 525,
+      "when": [
+        "editing",
+        "existing",
+        "code"
+      ]
+    },
+    {
+      "name": "Interaction with prose-refinement skills",
+      "bytes": 961,
+      "when": [
+        "interaction",
+        "prose",
+        "refinement",
+        "skills"
+      ]
+    },
+    {
+      "name": "Normal implementation work",
+      "bytes": 346,
+      "when": [
+        "normal",
+        "implementation",
+        "work"
+      ]
+    },
+    {
+      "name": "Repository-wide audits",
+      "bytes": 1450,
+      "when": [
+        "repository",
+        "wide",
+        "audits"
+      ]
+    },
+    {
+      "name": "Scope boundaries",
+      "bytes": 419,
+      "when": [
+        "scope",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Final acceptance check",
+      "bytes": 1413,
+      "when": [
+        "final",
+        "acceptance",
+        "check"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\lean-comments\\SKILL.md"
+}

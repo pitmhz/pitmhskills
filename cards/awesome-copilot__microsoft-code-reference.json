@@ -1,0 +1,88 @@
+{
+  "id": "awesome-copilot__microsoft-code-reference",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "19f13822dd8674ac0a24787ac15472c9137d0db5b03750ba43ee9dcdac8ddd03",
+  "purpose": "Look up Microsoft API references, find working code samples, and verify SDK code is correct. Use when working with Azure SDKs, .NET libraries, or Microsoft APIs—to find the right method, check paramet",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Look up Microsoft API references, find working code samples, and verify SDK code is correct. Use when working with Azure SDKs, .NET libraries, or Microsoft APIs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1047,
+  "core_bytes": 4203,
+  "sections": [
+    {
+      "name": "Tools",
+      "bytes": 407,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Finding Code Samples",
+      "bytes": 577,
+      "when": [
+        "finding",
+        "code",
+        "samples"
+      ]
+    },
+    {
+      "name": "API Lookups",
+      "bytes": 424,
+      "when": [
+        "lookups"
+      ]
+    },
+    {
+      "name": "Error Troubleshooting",
+      "bytes": 623,
+      "when": [
+        "error",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "When to Verify",
+      "bytes": 303,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Validation Workflow",
+      "bytes": 498,
+      "when": [
+        "validation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "CLI Alternative",
+      "bytes": 797,
+      "when": [
+        "alternative"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\microsoft-code-reference\\SKILL.md"
+}

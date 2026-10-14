@@ -1,0 +1,82 @@
+{
+  "id": "awesome-copilot__appinsights-instrumentation",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "15d281900b1fa0d7d29b086257c54b5852e0ba652b62fe877c6342fa1a8554af",
+  "purpose": "Instrument a webapp to send useful telemetry data to Azure App Insights",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Instrument a webapp to send useful telemetry data to Azure App Insights"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 616,
+  "core_bytes": 2462,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 101,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 142,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 1935,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Collect context information",
+      "bytes": 527,
+      "when": [
+        "collect",
+        "context",
+        "information"
+      ]
+    },
+    {
+      "name": "Prefer auto-instrument if possible",
+      "bytes": 181,
+      "when": [
+        "prefer",
+        "auto",
+        "instrument",
+        "possible"
+      ]
+    },
+    {
+      "name": "Manually instrument",
+      "bytes": 1212,
+      "when": [
+        "manually",
+        "instrument"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\appinsights-instrumentation\\SKILL.md"
+}

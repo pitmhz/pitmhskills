@@ -1,0 +1,165 @@
+{
+  "id": "awesome-copilot__power-apps-code-app-scaffold",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2418cc29dd18c22377792ce9662e5b5281609b1f3ed0091e54f416af6ef37720",
+  "purpose": "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1786,
+  "core_bytes": 7190,
+  "sections": [
+    {
+      "name": "Context",
+      "bytes": 301,
+      "when": [
+        "context"
+      ]
+    },
+    {
+      "name": "Task",
+      "bytes": 3150,
+      "when": [
+        "task"
+      ]
+    },
+    {
+      "name": "1. Project Initialization",
+      "bytes": 302,
+      "when": [
+        "project",
+        "initialization"
+      ]
+    },
+    {
+      "name": "2. Essential Configuration Files",
+      "bytes": 402,
+      "when": [
+        "essential",
+        "configuration",
+        "files"
+      ]
+    },
+    {
+      "name": "3. Project Structure",
+      "bytes": 613,
+      "when": [
+        "project",
+        "structure"
+      ]
+    },
+    {
+      "name": "4. Development Scripts Setup",
+      "bytes": 340,
+      "when": [
+        "development",
+        "scripts",
+        "setup"
+      ]
+    },
+    {
+      "name": "5. Sample Implementation",
+      "bytes": 1126,
+      "when": [
+        "sample",
+        "implementation"
+      ]
+    },
+    {
+      "name": "6. Documentation",
+      "bytes": 270,
+      "when": [
+        "documentation"
+      ]
+    },
+    {
+      "name": "Implementation Guidelines",
+      "bytes": 2721,
+      "when": [
+        "implementation",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Prerequisites to Mention",
+      "bytes": 398,
+      "when": [
+        "prerequisites",
+        "mention"
+      ]
+    },
+    {
+      "name": "PAC CLI Commands to Include",
+      "bytes": 453,
+      "when": [
+        "commands",
+        "include"
+      ]
+    },
+    {
+      "name": "Officially Supported Connectors",
+      "bytes": 723,
+      "when": [
+        "officially",
+        "supported",
+        "connectors"
+      ]
+    },
+    {
+      "name": "Sample Connector Integration",
+      "bytes": 344,
+      "when": [
+        "sample",
+        "connector",
+        "integration"
+      ]
+    },
+    {
+      "name": "Current Limitations to Document",
+      "bytes": 251,
+      "when": [
+        "current",
+        "limitations",
+        "document"
+      ]
+    },
+    {
+      "name": "Best Practices to Include",
+      "bytes": 522,
+      "when": [
+        "best",
+        "practices",
+        "include"
+      ]
+    },
+    {
+      "name": "Deliverables",
+      "bytes": 573,
+      "when": [
+        "deliverables"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\power-apps-code-app-scaffold\\SKILL.md"
+}

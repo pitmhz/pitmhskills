@@ -1,0 +1,161 @@
+{
+  "id": "awesome-copilot__security-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "002392d88637b89e4cbc409a0531834970937f3b57c0b448a17e04b5ca6d356c",
+  "purpose": "AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, understanding component interactions, and catching vulnerabilities that pattern-matching t",
+  "domain": "backend-data",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, understanding component interactions, and catching"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2259,
+  "core_bytes": 9094,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 727,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "How This Skill Works",
+      "bytes": 598,
+      "when": [
+        "skill",
+        "works"
+      ]
+    },
+    {
+      "name": "Execution Workflow",
+      "bytes": 4214,
+      "when": [
+        "execution",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Scope Resolution",
+      "bytes": 447,
+      "when": [
+        "step",
+        "scope",
+        "resolution"
+      ]
+    },
+    {
+      "name": "Step 2 — Dependency Audit",
+      "bytes": 552,
+      "when": [
+        "step",
+        "dependency",
+        "audit"
+      ]
+    },
+    {
+      "name": "Step 3 — Secrets & Exposure Scan",
+      "bytes": 443,
+      "when": [
+        "step",
+        "secrets",
+        "exposure",
+        "scan"
+      ]
+    },
+    {
+      "name": "Step 4 — Vulnerability Deep Scan",
+      "bytes": 1398,
+      "when": [
+        "step",
+        "vulnerability",
+        "deep",
+        "scan"
+      ]
+    },
+    {
+      "name": "Step 5 — Cross-File Data Flow Analysis",
+      "bytes": 417,
+      "when": [
+        "step",
+        "cross",
+        "file",
+        "data",
+        "flow",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 6 — Self-Verification Pass",
+      "bytes": 378,
+      "when": [
+        "step",
+        "self",
+        "verification",
+        "pass"
+      ]
+    },
+    {
+      "name": "Step 7 — Generate Security Report",
+      "bytes": 120,
+      "when": [
+        "step",
+        "generate",
+        "security",
+        "report"
+      ]
+    },
+    {
+      "name": "Step 8 — Propose Patches",
+      "bytes": 391,
+      "when": [
+        "step",
+        "propose",
+        "patches"
+      ]
+    },
+    {
+      "name": "Severity Guide",
+      "bytes": 544,
+      "when": [
+        "severity",
+        "guide"
+      ]
+    },
+    {
+      "name": "Output Rules",
+      "bytes": 553,
+      "when": [
+        "output",
+        "rules"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 1389,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\security-review\\SKILL.md"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "kemiljk-skills__subtractive-design",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "82619cbd7117c6ca80b37c66d3f2cf0ff46529be587c89925907beafe67e29bb",
+  "purpose": "Simplify noisy interfaces and evaluate whether proposed UI additions serve a concrete user need.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Simplify noisy interfaces and evaluate whether proposed UI additions serve a concrete user need."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Simplify a noisy interface / judge additions -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "simplify noisy additions serve",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 451,
+  "core_bytes": 1803,
+  "sections": [
+    {
+      "name": "Defaults",
+      "bytes": 340,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 371,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Process",
+      "bytes": 302,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 353,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Source essays",
+      "bytes": 105,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "subtractive",
+    "design",
+    "defaults",
+    "prefer",
+    "reject",
+    "process",
+    "review",
+    "checklist",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\subtractive-design\\SKILL.md"
+}

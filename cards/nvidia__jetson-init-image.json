@@ -1,0 +1,145 @@
+{
+  "id": "nvidia__jetson-init-image",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "04a726d42f50e1dee90fb1e00810c84dc26c5269bc2fce5af6be5233283bea67",
+  "purpose": "Extract Jetson Linux + sample-rootfs tarballs and run apply_binaries.sh for the active target, then record bsp_image in the profile. Use after jetson-init-target; not for source-tree setup.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Extract Jetson Linux + sample-rootfs tarballs and run apply_binaries.sh for the active target, then record bsp_image in the profile. Use after jetson-init-targe"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1870,
+  "core_bytes": 7491,
+  "sections": [
+    {
+      "name": "When to invoke",
+      "bytes": 226,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 4386,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Resolve target and image path",
+      "bytes": 757,
+      "when": [
+        "resolve",
+        "target",
+        "image",
+        "path"
+      ]
+    },
+    {
+      "name": "Determine GPU stack",
+      "bytes": 661,
+      "when": [
+        "determine",
+        "stack"
+      ]
+    },
+    {
+      "name": "Reuse or extract",
+      "bytes": 1185,
+      "when": [
+        "reuse",
+        "extract"
+      ]
+    },
+    {
+      "name": "Locate tarballs",
+      "bytes": 456,
+      "when": [
+        "locate",
+        "tarballs"
+      ]
+    },
+    {
+      "name": "Extract and apply binaries",
+      "bytes": 713,
+      "when": [
+        "extract",
+        "apply",
+        "binaries"
+      ]
+    },
+    {
+      "name": "Update the active profile",
+      "bytes": 598,
+      "when": [
+        "update",
+        "active",
+        "profile"
+      ]
+    },
+    {
+      "name": "Finish",
+      "bytes": 158,
+      "when": [
+        "finish"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 320,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 374,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 317,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 621,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 503,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-init-image\\SKILL.md",
+  "curated": true
+}

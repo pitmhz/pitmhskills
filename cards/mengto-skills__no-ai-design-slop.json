@@ -1,0 +1,149 @@
+{
+  "id": "mengto-skills__no-ai-design-slop",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "3f12f8fb09c67bcaee0718f2b7e3488f0ccb38b045d30f14f3b9a040c6f80c16",
+  "purpose": "Prevent and remove generic AI-generated design defaults, incoherent visual choices, and established UI defects while creating, revising, or reviewing websites, apps, screenshots, mockups, and design c",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Prevent and remove generic AI-generated design defaults, incoherent visual choices, and established UI defects while creating, revising, or reviewing websites, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Remove generic AI-design defaults -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "slop clichés generic defaults incoherent",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1782,
+  "core_bytes": 7125,
+  "sections": [
+    {
+      "name": "Core Judgment",
+      "bytes": 612,
+      "when": [
+        "core",
+        "judgment"
+      ]
+    },
+    {
+      "name": "Apply Passively",
+      "bytes": 1058,
+      "when": [
+        "apply",
+        "passively"
+      ]
+    },
+    {
+      "name": "Design Principles",
+      "bytes": 2004,
+      "when": [
+        "design",
+        "principles"
+      ]
+    },
+    {
+      "name": "Start from context",
+      "bytes": 431,
+      "when": [
+        "start",
+        "context"
+      ]
+    },
+    {
+      "name": "Choose one coherent idea",
+      "bytes": 364,
+      "when": [
+        "choose",
+        "coherent",
+        "idea"
+      ]
+    },
+    {
+      "name": "Make relationships visible",
+      "bytes": 410,
+      "when": [
+        "relationships",
+        "visible"
+      ]
+    },
+    {
+      "name": "Make the product specific",
+      "bytes": 502,
+      "when": [
+        "product",
+        "specific"
+      ]
+    },
+    {
+      "name": "Make motion explain something",
+      "bytes": 273,
+      "when": [
+        "motion",
+        "explain",
+        "something"
+      ]
+    },
+    {
+      "name": "Compact Quality Gates",
+      "bytes": 970,
+      "when": [
+        "compact",
+        "quality",
+        "gates"
+      ]
+    },
+    {
+      "name": "Removal Test",
+      "bytes": 546,
+      "when": [
+        "removal",
+        "test"
+      ]
+    },
+    {
+      "name": "Boundaries",
+      "bytes": 684,
+      "when": [
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 649,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "keywords": [
+    "slops",
+    "core",
+    "judgment",
+    "apply",
+    "passively",
+    "principles",
+    "start",
+    "context",
+    "choose",
+    "coherent",
+    "idea",
+    "relationships",
+    "visible"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\ui\\no-ai-design-slop\\SKILL.md"
+}

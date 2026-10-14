@@ -1,0 +1,159 @@
+{
+  "id": "nvidia__earth2studio-install",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "529f83cf870140fc62f2da5048fecff14877912b2b1e57a0de378cabfa80de3b",
+  "purpose": "Guide installing Earth2Studio via uv or pip, selecting model extras, and configuring the environment. Do NOT use for writing inference code, choosing models, or PhysicsNeMo questions.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guide installing Earth2Studio via uv or pip, selecting model extras, and configuring the environment. Do NOT use for writing inference code, choosing models, or"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1689,
+  "core_bytes": 6774,
+  "sections": [
+    {
+      "name": "Never install packages automatically",
+      "bytes": 683,
+      "when": [
+        "install",
+        "packages",
+        "automatically"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 246,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 441,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core principle: docs are the source of truth",
+      "bytes": 512,
+      "when": [
+        "core",
+        "principle",
+        "docs",
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2929,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1. Fetch live docs",
+      "bytes": 319,
+      "when": [
+        "step",
+        "fetch",
+        "live",
+        "docs"
+      ]
+    },
+    {
+      "name": "Step 2. Understand the user's environment",
+      "bytes": 412,
+      "when": [
+        "step",
+        "understand",
+        "user",
+        "environment"
+      ]
+    },
+    {
+      "name": "Step 3. Base install",
+      "bytes": 364,
+      "when": [
+        "step",
+        "base",
+        "install"
+      ]
+    },
+    {
+      "name": "Step 4. Select models and extras",
+      "bytes": 792,
+      "when": [
+        "step",
+        "select",
+        "models",
+        "extras"
+      ]
+    },
+    {
+      "name": "Step 5. Install selected extras",
+      "bytes": 515,
+      "when": [
+        "step",
+        "install",
+        "selected",
+        "extras"
+      ]
+    },
+    {
+      "name": "Step 6. Configuration (offer, don't force)",
+      "bytes": 508,
+      "when": [
+        "step",
+        "configuration",
+        "offer",
+        "force"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 773,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 307,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Ownership and out-of-scope",
+      "bytes": 408,
+      "when": [
+        "ownership",
+        "scope"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\earth2studio-install\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,354 @@
+{
+  "id": "awesome-copilot__apple-appstore-reviewer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "09cb2403169f3789733648751cb93b16e6cb314e064d68d44cfca98cfe518e4e",
+  "purpose": "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3572,
+  "core_bytes": 14375,
+  "sections": [
+    {
+      "name": "Specific Instructions",
+      "bytes": 905,
+      "when": [
+        "specific",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Primary Objective",
+      "bytes": 441,
+      "when": [
+        "primary",
+        "objective"
+      ]
+    },
+    {
+      "name": "Constraints",
+      "bytes": 293,
+      "when": [
+        "constraints"
+      ]
+    },
+    {
+      "name": "Inputs You Should Look For",
+      "bytes": 1721,
+      "when": [
+        "inputs",
+        "look"
+      ]
+    },
+    {
+      "name": "App metadata & configuration",
+      "bytes": 427,
+      "when": [
+        "metadata",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Monetization",
+      "bytes": 239,
+      "when": [
+        "monetization"
+      ]
+    },
+    {
+      "name": "Account & access",
+      "bytes": 182,
+      "when": [
+        "account",
+        "access"
+      ]
+    },
+    {
+      "name": "Content & safety",
+      "bytes": 381,
+      "when": [
+        "content",
+        "safety"
+      ]
+    },
+    {
+      "name": "Technical quality",
+      "bytes": 225,
+      "when": [
+        "technical",
+        "quality"
+      ]
+    },
+    {
+      "name": "UX & product expectations",
+      "bytes": 190,
+      "when": [
+        "product",
+        "expectations"
+      ]
+    },
+    {
+      "name": "Review Method (Follow This Order)",
+      "bytes": 1080,
+      "when": [
+        "review",
+        "method",
+        "follow",
+        "order"
+      ]
+    },
+    {
+      "name": "Step 1 — Identify the App’s Core",
+      "bytes": 183,
+      "when": [
+        "step",
+        "identify",
+        "core"
+      ]
+    },
+    {
+      "name": "Step 2 — Flag “Top Rejection Risks” First",
+      "bytes": 449,
+      "when": [
+        "step",
+        "flag",
+        "rejection",
+        "risks",
+        "first"
+      ]
+    },
+    {
+      "name": "Step 3 — Compliance Checklist",
+      "bytes": 114,
+      "when": [
+        "step",
+        "compliance",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Step 4 — Optimization Suggestions",
+      "bytes": 296,
+      "when": [
+        "step",
+        "optimization",
+        "suggestions"
+      ]
+    },
+    {
+      "name": "Conditional Guideline Checks",
+      "bytes": 3524,
+      "when": [
+        "conditional",
+        "guideline",
+        "checks"
+      ]
+    },
+    {
+      "name": "Output Requirements (Your Report Must Use This Structure)",
+      "bytes": 1859,
+      "when": [
+        "output",
+        "requirements",
+        "report",
+        "structure"
+      ]
+    },
+    {
+      "name": "1) Executive Summary (5–10 bullets)",
+      "bytes": 111,
+      "when": [
+        "executive",
+        "summary",
+        "bullets"
+      ]
+    },
+    {
+      "name": "2) Risk Register (Prioritized Table)",
+      "bytes": 373,
+      "when": [
+        "risk",
+        "register",
+        "prioritized",
+        "table"
+      ]
+    },
+    {
+      "name": "3) Detailed Findings",
+      "bytes": 395,
+      "when": [
+        "detailed",
+        "findings"
+      ]
+    },
+    {
+      "name": "4) “Reviewer Experience” Checklist",
+      "bytes": 291,
+      "when": [
+        "reviewer",
+        "experience",
+        "checklist"
+      ]
+    },
+    {
+      "name": "5) Suggested Reviewer Notes (Draft)",
+      "bytes": 357,
+      "when": [
+        "suggested",
+        "reviewer",
+        "notes",
+        "draft"
+      ]
+    },
+    {
+      "name": "6) “Next Pass” Option (Only After Report)",
+      "bytes": 270,
+      "when": [
+        "next",
+        "pass",
+        "option",
+        "after",
+        "report"
+      ]
+    },
+    {
+      "name": "Severity Definitions",
+      "bytes": 318,
+      "when": [
+        "severity",
+        "definitions"
+      ]
+    },
+    {
+      "name": "Common Rejection Hotspots (Use as Heuristics)",
+      "bytes": 2141,
+      "when": [
+        "common",
+        "rejection",
+        "hotspots",
+        "heuristics"
+      ]
+    },
+    {
+      "name": "Privacy & tracking",
+      "bytes": 296,
+      "when": [
+        "privacy",
+        "tracking"
+      ]
+    },
+    {
+      "name": "Permissions",
+      "bytes": 229,
+      "when": [
+        "permissions"
+      ]
+    },
+    {
+      "name": "Payments / IAP",
+      "bytes": 419,
+      "when": [
+        "payments"
+      ]
+    },
+    {
+      "name": "Accounts",
+      "bytes": 247,
+      "when": [
+        "accounts"
+      ]
+    },
+    {
+      "name": "User-generated content",
+      "bytes": 506,
+      "when": [
+        "user",
+        "generated",
+        "content"
+      ]
+    },
+    {
+      "name": "Minimum functionality / completeness",
+      "bytes": 206,
+      "when": [
+        "minimum",
+        "functionality",
+        "completeness"
+      ]
+    },
+    {
+      "name": "Misleading claims / regulated areas",
+      "bytes": 188,
+      "when": [
+        "misleading",
+        "claims",
+        "regulated",
+        "areas"
+      ]
+    },
+    {
+      "name": "Evidence Standard",
+      "bytes": 448,
+      "when": [
+        "evidence",
+        "standard"
+      ]
+    },
+    {
+      "name": "Tone & Style",
+      "bytes": 201,
+      "when": [
+        "tone",
+        "style"
+      ]
+    },
+    {
+      "name": "Example Priority Patterns (Guidance)",
+      "bytes": 534,
+      "when": [
+        "example",
+        "priority",
+        "patterns",
+        "guidance"
+      ]
+    },
+    {
+      "name": "What You Should Do First When Run",
+      "bytes": 259,
+      "when": [
+        "first"
+      ]
+    },
+    {
+      "name": "Final Reminder",
+      "bytes": 201,
+      "when": [
+        "final",
+        "reminder"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\apple-appstore-reviewer\\SKILL.md"
+}

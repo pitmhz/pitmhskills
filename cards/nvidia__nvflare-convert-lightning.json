@@ -1,0 +1,77 @@
+{
+  "id": "nvidia__nvflare-convert-lightning",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "71b1e0fc117c28da20f4b29553800df5f0250ae39b97c156c8d6c18f7a3975e3",
+  "purpose": "Convert existing PyTorch Lightning training code into an NVFLARE federated job using the Lightning Client API patch, local validation, and job export; use only when the request names federated/NVFLARE",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Convert existing PyTorch Lightning training code into an NVFLARE federated job using the Lightning Client API patch, local validation, and job export; use only "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3348,
+  "core_bytes": 13399,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 808,
+      "when": []
+    },
+    {
+      "name": "Standard Path",
+      "bytes": 1064,
+      "when": [
+        "standard",
+        "path"
+      ]
+    },
+    {
+      "name": "Do Not Use When",
+      "bytes": 1750,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 5125,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Non-standard Cases",
+      "bytes": 978,
+      "when": [
+        "standard",
+        "cases"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 2581,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nvflare-convert-lightning/SKILL.md",
+  "curated": true
+}

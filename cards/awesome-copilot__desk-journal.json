@@ -1,0 +1,96 @@
+{
+  "id": "awesome-copilot__desk-journal",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9c25843ca8f39e75dcae595af5cd3993db8c6e6b01999d06e9d6738d0e8712f3",
+  "purpose": "Write, append, or read desk journal entries. The journal is persistent memory — what survives session boundaries. A good entry has: what was done, current state, next step.",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Write, append, or read desk journal entries. The journal is persistent memory — what survives session boundaries. A good entry has: what was done, current state"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 610,
+  "core_bytes": 2453,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 297,
+      "when": []
+    },
+    {
+      "name": "How to write a journal entry",
+      "bytes": 113,
+      "when": [
+        "write",
+        "journal",
+        "entry"
+      ]
+    },
+    {
+      "name": "<date> — <short summary>",
+      "bytes": 831,
+      "when": [
+        "date",
+        "short",
+        "summary"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 642,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "End-of-desk entry",
+      "bytes": 125,
+      "when": [
+        "desk",
+        "entry"
+      ]
+    },
+    {
+      "name": "<date> — Desk closed",
+      "bytes": 207,
+      "when": [
+        "date",
+        "desk",
+        "closed"
+      ]
+    },
+    {
+      "name": "Reading the journal",
+      "bytes": 218,
+      "when": [
+        "reading",
+        "journal"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 343,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\desk-journal\\SKILL.md"
+}

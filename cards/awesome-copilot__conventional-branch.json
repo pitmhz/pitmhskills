@@ -1,0 +1,108 @@
+{
+  "id": "awesome-copilot__conventional-branch",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "94b962ff93ac639c8b760a29465ca48f51d6af1ad1b4bdd242d52f1260959b07",
+  "purpose": "Create Git branches following the Conventional Branch specification (feature/, bugfix/, hotfix/, release/, chore/). Use when creating a new branch, naming a branch, or checking whether a branch name c",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create Git branches following the Conventional Branch specification (feature/, bugfix/, hotfix/, release/, chore/). Use when creating a new branch, naming a bra"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1063,
+  "core_bytes": 4278,
+  "sections": [
+    {
+      "name": "Branch Name Format",
+      "bytes": 599,
+      "when": [
+        "branch",
+        "name",
+        "format"
+      ]
+    },
+    {
+      "name": "Branch Types",
+      "bytes": 354,
+      "when": [
+        "branch",
+        "types"
+      ]
+    },
+    {
+      "name": "Trunk Branches",
+      "bytes": 192,
+      "when": [
+        "trunk",
+        "branches"
+      ]
+    },
+    {
+      "name": "Naming Rules",
+      "bytes": 436,
+      "when": [
+        "naming",
+        "rules"
+      ]
+    },
+    {
+      "name": "Valid Examples",
+      "bytes": 219,
+      "when": [
+        "valid",
+        "examples"
+      ]
+    },
+    {
+      "name": "Invalid Examples",
+      "bytes": 396,
+      "when": [
+        "invalid",
+        "examples"
+      ]
+    },
+    {
+      "name": "Description Guidelines",
+      "bytes": 212,
+      "when": [
+        "description",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1387,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Relationship with Conventional Commits",
+      "bytes": 560,
+      "when": [
+        "relationship",
+        "conventional",
+        "commits"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\conventional-branch\\SKILL.md"
+}

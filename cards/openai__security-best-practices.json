@@ -28,7 +28,52 @@
   "conflicts_with": [],
   "body_tokens": 2175,
   "core_bytes": 8698,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/security-best-practices/SKILL.md"
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 487,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2430,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Workflow Decision Tree",
+      "bytes": 5305,
+      "when": [
+        "workflow",
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Avoid Using Incrementing IDs for Public IDs of Resources",
+      "bytes": 358,
+      "when": [
+        "avoid",
+        "incrementing",
+        "public",
+        "resources"
+      ]
+    },
+    {
+      "name": "A note on TLS",
+      "bytes": 857,
+      "when": [
+        "note"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- go test -race ./...",
+    "npx next build"
+  ],
+  "skill_path": "skills/openai/skills/.curated/security-best-practices/SKILL.md",
+  "curated": true
 }

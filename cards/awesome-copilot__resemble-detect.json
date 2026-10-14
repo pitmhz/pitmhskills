@@ -1,0 +1,237 @@
+{
+  "id": "awesome-copilot__resemble-detect",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "54fd45fbb68e01beda1d71f1a9e0f23da1cb0d3022ff2992fc4d4ec415cd9530",
+  "purpose": "Deepfake detection and media safety — detect AI-generated audio, images, video, and text, trace synthesis sources, apply watermarks, verify speaker identity, and analyze media intelligence using Resem",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Deepfake detection and media safety — detect AI-generated audio, images, video, and text, trace synthesis sources, apply watermarks, verify speaker identity, an"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4084,
+  "core_bytes": 16452,
+  "sections": [
+    {
+      "name": "Core Principle — THE IRON LAW",
+      "bytes": 424,
+      "when": [
+        "core",
+        "principle",
+        "iron"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 966,
+      "when": []
+    },
+    {
+      "name": "Capability Decision Tree",
+      "bytes": 1625,
+      "when": [
+        "capability",
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Required Setup",
+      "bytes": 530,
+      "when": [
+        "required",
+        "setup"
+      ]
+    },
+    {
+      "name": "MCP Tools Available",
+      "bytes": 955,
+      "when": [
+        "tools",
+        "available"
+      ]
+    },
+    {
+      "name": "Full API Reference",
+      "bytes": 328,
+      "when": [
+        "full",
+        "reference"
+      ]
+    },
+    {
+      "name": "Phase 1: Deepfake Detection",
+      "bytes": 2018,
+      "when": [
+        "phase",
+        "deepfake",
+        "detection"
+      ]
+    },
+    {
+      "name": "Reading Results",
+      "bytes": 489,
+      "when": [
+        "reading",
+        "results"
+      ]
+    },
+    {
+      "name": "Interpreting Scores",
+      "bytes": 637,
+      "when": [
+        "interpreting",
+        "scores"
+      ]
+    },
+    {
+      "name": "Phase 2: Intelligence — Media Analysis",
+      "bytes": 1616,
+      "when": [
+        "phase",
+        "intelligence",
+        "media",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Detect Intelligence — Ask Questions About Results",
+      "bytes": 856,
+      "when": [
+        "detect",
+        "intelligence",
+        "questions",
+        "results"
+      ]
+    },
+    {
+      "name": "Phase 3: Audio Source Tracing",
+      "bytes": 566,
+      "when": [
+        "phase",
+        "audio",
+        "source",
+        "tracing"
+      ]
+    },
+    {
+      "name": "Phase 4: Watermarking",
+      "bytes": 611,
+      "when": [
+        "phase",
+        "watermarking"
+      ]
+    },
+    {
+      "name": "Phase 5: Identity — Speaker Verification (Beta)",
+      "bytes": 602,
+      "when": [
+        "phase",
+        "identity",
+        "speaker",
+        "verification",
+        "beta"
+      ]
+    },
+    {
+      "name": "Phase 6: Text Detection",
+      "bytes": 719,
+      "when": [
+        "phase",
+        "text",
+        "detection"
+      ]
+    },
+    {
+      "name": "Recommended Workflows",
+      "bytes": 1235,
+      "when": [
+        "recommended",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Full Media Forensics (Most Thorough)",
+      "bytes": 759,
+      "when": [
+        "full",
+        "media",
+        "forensics",
+        "thorough"
+      ]
+    },
+    {
+      "name": "Quick Authenticity Check (Fastest)",
+      "bytes": 233,
+      "when": [
+        "quick",
+        "authenticity",
+        "check",
+        "fastest"
+      ]
+    },
+    {
+      "name": "Provenance Pipeline (Content Creators)",
+      "bytes": 217,
+      "when": [
+        "provenance",
+        "pipeline",
+        "content",
+        "creators"
+      ]
+    },
+    {
+      "name": "Red Flags — Stop and Reassess",
+      "bytes": 1291,
+      "when": [
+        "flags",
+        "stop",
+        "reassess"
+      ]
+    },
+    {
+      "name": "Response Presentation Guidelines",
+      "bytes": 744,
+      "when": [
+        "response",
+        "presentation",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 891,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Privacy & Compliance Notes",
+      "bytes": 611,
+      "when": [
+        "privacy",
+        "compliance",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\resemble-detect\\SKILL.md"
+}

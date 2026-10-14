@@ -1,0 +1,156 @@
+{
+  "id": "awesome-copilot__python-azure-iot-edge-modules",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "51b16bbdf7271198b60bc1958322b6c52be19ab7313e1f146b77dd7c31add26d",
+  "purpose": "Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1070,
+  "core_bytes": 4277,
+  "sections": [
+    {
+      "name": "When To Use",
+      "bytes": 253,
+      "when": []
+    },
+    {
+      "name": "Mandatory Docs Review",
+      "bytes": 466,
+      "when": [
+        "mandatory",
+        "docs",
+        "review"
+      ]
+    },
+    {
+      "name": "Python Official References and Best Practices (Required)",
+      "bytes": 428,
+      "when": [
+        "python",
+        "official",
+        "references",
+        "best",
+        "practices",
+        "required"
+      ]
+    },
+    {
+      "name": "Goals",
+      "bytes": 216,
+      "when": [
+        "goals"
+      ]
+    },
+    {
+      "name": "Module Use Cases",
+      "bytes": 221,
+      "when": [
+        "module",
+        "cases"
+      ]
+    },
+    {
+      "name": "Delivery Workflow",
+      "bytes": 1097,
+      "when": [
+        "delivery",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1) Contract and Interfaces",
+      "bytes": 222,
+      "when": [
+        "contract",
+        "interfaces"
+      ]
+    },
+    {
+      "name": "2) Runtime and Packaging",
+      "bytes": 213,
+      "when": [
+        "runtime",
+        "packaging"
+      ]
+    },
+    {
+      "name": "3) Reliability Design",
+      "bytes": 232,
+      "when": [
+        "reliability",
+        "design"
+      ]
+    },
+    {
+      "name": "4) Security Controls",
+      "bytes": 223,
+      "when": [
+        "security",
+        "controls"
+      ]
+    },
+    {
+      "name": "5) Deployment and Operations",
+      "bytes": 185,
+      "when": [
+        "deployment",
+        "operations"
+      ]
+    },
+    {
+      "name": "Reuse Other Skills",
+      "bytes": 416,
+      "when": [
+        "reuse",
+        "skills"
+      ]
+    },
+    {
+      "name": "Required Output",
+      "bytes": 283,
+      "when": [
+        "required",
+        "output"
+      ]
+    },
+    {
+      "name": "Output Template",
+      "bytes": 274,
+      "when": [
+        "output",
+        "template"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 212,
+      "when": [
+        "guardrails"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\python-azure-iot-edge-modules\\SKILL.md"
+}

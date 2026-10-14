@@ -1,0 +1,142 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-parallelism-strategies",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "23358acab497498e7faee8200f17504f30085a4e52900d41e9b4b463d96f35de",
+  "purpose": "Operational guide for choosing and combining parallelism strategies in Megatron Bridge, including sizing rules, hardware topology mapping, and combined parallelism configuration.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Operational guide for choosing and combining parallelism strategies in Megatron Bridge, including sizing rules, hardware topology mapping, and combined parallel"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2464,
+  "core_bytes": 9877,
+  "sections": [
+    {
+      "name": "Decision by Model Size",
+      "bytes": 1651,
+      "when": [
+        "decision",
+        "model",
+        "size"
+      ]
+    },
+    {
+      "name": "Dense models",
+      "bytes": 287,
+      "when": [
+        "dense",
+        "models"
+      ]
+    },
+    {
+      "name": "MoE models",
+      "bytes": 1335,
+      "when": [
+        "models"
+      ]
+    },
+    {
+      "name": "Decision by Hardware Topology",
+      "bytes": 552,
+      "when": [
+        "decision",
+        "hardware",
+        "topology"
+      ]
+    },
+    {
+      "name": "Decision by Sequence Length",
+      "bytes": 245,
+      "when": [
+        "decision",
+        "sequence",
+        "length"
+      ]
+    },
+    {
+      "name": "Combined Parallelism Enablement",
+      "bytes": 1103,
+      "when": [
+        "combined",
+        "parallelism",
+        "enablement"
+      ]
+    },
+    {
+      "name": "Minimum GPU Count",
+      "bytes": 2327,
+      "when": [
+        "minimum",
+        "count"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 475,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Scaling above the minimum",
+      "bytes": 998,
+      "when": [
+        "scaling",
+        "above",
+        "minimum"
+      ]
+    },
+    {
+      "name": "Memory Estimation",
+      "bytes": 461,
+      "when": [
+        "memory",
+        "estimation"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 964,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 1055,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 821,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-parallelism-strategies/SKILL.md",
+  "curated": true
+}

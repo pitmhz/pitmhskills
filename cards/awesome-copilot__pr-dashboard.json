@@ -1,0 +1,66 @@
+{
+  "id": "awesome-copilot__pr-dashboard",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1c5dfa5d5c9b0a849d442b2b34580d49b8f993eebf3402e1eb622d82ca57d3b1",
+  "purpose": "Open a GitHub PR dashboard in the browser. Use when the user asks to see their pull requests, open the PR dashboard, show PRs for a date range, or check PR status. Trigger phrases include \"show my PRs",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Open a GitHub PR dashboard in the browser. Use when the user asks to see their pull requests, open the PR dashboard, show PRs for a date range, or check PR stat"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 524,
+  "core_bytes": 2105,
+  "sections": [
+    {
+      "name": "What to do",
+      "bytes": 424,
+      "when": []
+    },
+    {
+      "name": "Parsing the user's request",
+      "bytes": 676,
+      "when": [
+        "parsing",
+        "user",
+        "request"
+      ]
+    },
+    {
+      "name": "Supported date range formats",
+      "bytes": 281,
+      "when": [
+        "supported",
+        "date",
+        "range",
+        "formats"
+      ]
+    },
+    {
+      "name": "After running",
+      "bytes": 224,
+      "when": [
+        "after",
+        "running"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\pr-dashboard\\SKILL.md"
+}

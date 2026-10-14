@@ -1,0 +1,137 @@
+{
+  "id": "millionco-skills__reconcile-paper-sync",
+  "tier": "B",
+  "origin": [
+    "millionco/skills@462b78424e14ba6895a717733e1d57191dd9912f"
+  ],
+  "license": "MIT",
+  "hash": "a2572d9c43052f2ca8f8311b0c08c548fdfb919855e48d9948a744b68bcc69b8",
+  "purpose": "Use when a built app that was derived from a Paper design looks \"slightly off\" versus the design, or to verify a Paper-to-code implementation against its source. Covers using a local paper-sync projec",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when a built app that was derived from a Paper design looks \"slightly off\" versus the design, or to verify a Paper-to-code implementation against its source"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1907,
+  "core_bytes": 7654,
+  "sections": [
+    {
+      "name": "When this applies",
+      "bytes": 437,
+      "when": [
+        "applies"
+      ]
+    },
+    {
+      "name": "RED/GREEN Intent",
+      "bytes": 828,
+      "when": [
+        "green",
+        "intent"
+      ]
+    },
+    {
+      "name": "1. Find the paper-sync canonical",
+      "bytes": 995,
+      "when": [
+        "find",
+        "paper",
+        "sync",
+        "canonical"
+      ]
+    },
+    {
+      "name": "2. Fonts first — the biggest lever",
+      "bytes": 879,
+      "when": [
+        "fonts",
+        "first",
+        "biggest",
+        "lever"
+      ]
+    },
+    {
+      "name": "3. Extract exact values from the canonical",
+      "bytes": 527,
+      "when": [
+        "extract",
+        "exact",
+        "values",
+        "canonical"
+      ]
+    },
+    {
+      "name": "4. Screenshot-diff the running app against the frame",
+      "bytes": 888,
+      "when": [
+        "screenshot",
+        "diff",
+        "running",
+        "against",
+        "frame"
+      ]
+    },
+    {
+      "name": "5. Separate conversion drift from version drift",
+      "bytes": 704,
+      "when": [
+        "separate",
+        "conversion",
+        "drift",
+        "version"
+      ]
+    },
+    {
+      "name": "Escape Hatches Closed",
+      "bytes": 837,
+      "when": [
+        "escape",
+        "hatches",
+        "closed"
+      ]
+    },
+    {
+      "name": "Before Marking Complete, You MUST:",
+      "bytes": 687,
+      "when": [
+        "before",
+        "marking",
+        "complete"
+      ]
+    }
+  ],
+  "keywords": [
+    "reconcile",
+    "applies",
+    "green",
+    "intent",
+    "find",
+    "first",
+    "biggest",
+    "lever",
+    "extract",
+    "diff",
+    "separate",
+    "conversion",
+    "drift",
+    "version"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\millionco-skills\\skills\\reconcile-paper-sync\\SKILL.md"
+}

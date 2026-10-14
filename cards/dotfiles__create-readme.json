@@ -1,0 +1,57 @@
+{
+  "id": "dotfiles__create-readme",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "99b4ac879b42f291cad18aa69e373ff16392c6873a26fabb902985ffac40d767",
+  "purpose": "Write or improve concise, reader-focused README.md files for open source projects. Use for new READMEs, README rewrites, installation and usage examples, or README reviews. Do not use for API referenc",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Write or improve concise, reader-focused README.md files for open source projects. Use for new READMEs, README rewrites, installation and usage examples, or REA"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 756,
+  "core_bytes": 3022,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 883,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "House Style",
+      "bytes": 1674,
+      "when": [
+        "house",
+        "style"
+      ]
+    }
+  ],
+  "keywords": [
+    "create",
+    "workflow",
+    "house",
+    "style"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\create-readme\\SKILL.md"
+}

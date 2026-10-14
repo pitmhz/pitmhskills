@@ -1,0 +1,114 @@
+{
+  "id": "nvidia__jetson-print-bsp-info",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c33f47c2027b24ff1f50c7b41b9bdb9dac13151f293b13b224a3ceb4ea3090ef",
+  "purpose": "Use when you need to print Jetson BSP info (L4T version, board configs, rootfs state) from a Linux_for_Tegra root on the host PC. This is an example skill.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when you need to print Jetson BSP info (L4T version, board configs, rootfs state) from a Linux_for_Tegra root on the host PC. This is an example skill."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1305,
+  "core_bytes": 5232,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 212,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 280,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 219,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 137,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1448,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output format",
+      "bytes": 253,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 537,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 329,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 355,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 619,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 184,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-print-bsp-info/SKILL.md",
+  "curated": true
+}

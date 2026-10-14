@@ -27,7 +27,95 @@
   "conflicts_with": [],
   "body_tokens": 7252,
   "core_bytes": 29025,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Framework references",
+      "bytes": 477,
+      "when": [
+        "framework",
+        "references"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 551,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "Choose the flow before responding",
+      "bytes": 334,
+      "when": [
+        "choose",
+        "flow",
+        "before",
+        "responding"
+      ]
+    },
+    {
+      "name": "Conversation flow",
+      "bytes": 22172,
+      "when": [
+        "conversation",
+        "flow"
+      ]
+    },
+    {
+      "name": "Things you must NOT do",
+      "bytes": 1004,
+      "when": []
+    },
+    {
+      "name": "Hard scope boundary: DO NOT ask the user about",
+      "bytes": 955,
+      "when": [
+        "hard",
+        "scope",
+        "boundary",
+        "user"
+      ]
+    },
+    {
+      "name": "Existing-widget flow: retrieve and store the secret without chat",
+      "bytes": 8377,
+      "when": [
+        "existing",
+        "widget",
+        "flow",
+        "retrieve",
+        "store",
+        "secret",
+        "chat"
+      ]
+    },
+    {
+      "name": "The frontend-edit contract",
+      "bytes": 1624,
+      "when": [
+        "frontend",
+        "edit",
+        "contract"
+      ]
+    },
+    {
+      "name": "Migrating from another CAPTCHA",
+      "bytes": 1651,
+      "when": [
+        "migrating",
+        "captcha"
+      ]
+    },
+    {
+      "name": "Edge cases",
+      "bytes": 2855,
+      "when": [
+        "edge",
+        "cases"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/turnstile-spin/SKILL.md"
 }

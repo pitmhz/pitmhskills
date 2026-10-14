@@ -1,0 +1,161 @@
+{
+  "id": "awesome-copilot__tldr-prompt",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "050f2dd8319fcddebfca3a9d9ddc375efbf66df792c4f63219c7e3f1bdb29a3f",
+  "purpose": "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries.",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3066,
+  "core_bytes": 12299,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 645,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Objectives",
+      "bytes": 891,
+      "when": [
+        "objectives"
+      ]
+    },
+    {
+      "name": "Prompt Parameters",
+      "bytes": 2042,
+      "when": [
+        "prompt",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Required",
+      "bytes": 2020,
+      "when": [
+        "required"
+      ]
+    },
+    {
+      "name": "URL Resolver",
+      "bytes": 2070,
+      "when": [
+        "resolver"
+      ]
+    },
+    {
+      "name": "Ambiguous Queries",
+      "bytes": 1830,
+      "when": [
+        "ambiguous",
+        "queries"
+      ]
+    },
+    {
+      "name": "Unambiguous Queries",
+      "bytes": 124,
+      "when": [
+        "unambiguous",
+        "queries"
+      ]
+    },
+    {
+      "name": "Optional",
+      "bytes": 99,
+      "when": [
+        "optional"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 2738,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Syntax",
+      "bytes": 426,
+      "when": [
+        "syntax"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 528,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "AMBIGUOUS QUERIES",
+      "bytes": 1182,
+      "when": [
+        "ambiguous",
+        "queries"
+      ]
+    },
+    {
+      "name": "UNAMBIGUOUS QUERIES",
+      "bytes": 592,
+      "when": [
+        "unambiguous",
+        "queries"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1188,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Template",
+      "bytes": 1835,
+      "when": [
+        "template"
+      ]
+    },
+    {
+      "name": "Template Guidelines",
+      "bytes": 1436,
+      "when": [
+        "template",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 687,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\tldr-prompt\\SKILL.md"
+}

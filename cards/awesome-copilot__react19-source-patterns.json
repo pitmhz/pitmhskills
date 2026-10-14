@@ -1,0 +1,60 @@
+{
+  "id": "awesome-copilot__react19-source-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cbbf1227b3f46f9b91c948c3846611a539496b363e4dc1bbd3faff2e913dff86",
+  "purpose": "Reference for React 19 source-file migration patterns, including API changes, ref handling, and context updates.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Reference for React 19 source-file migration patterns, including API changes, ref handling, and context updates."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 489,
+  "core_bytes": 1977,
+  "sections": [
+    {
+      "name": "Quick Reference Table",
+      "bytes": 971,
+      "when": [
+        "quick",
+        "reference",
+        "table"
+      ]
+    },
+    {
+      "name": "PropTypes Rule",
+      "bytes": 421,
+      "when": [
+        "proptypes",
+        "rule"
+      ]
+    },
+    {
+      "name": "Read the Reference",
+      "bytes": 314,
+      "when": [
+        "read",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react19-source-patterns\\SKILL.md"
+}

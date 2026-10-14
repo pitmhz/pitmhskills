@@ -28,7 +28,87 @@
   "conflicts_with": [],
   "body_tokens": 1668,
   "core_bytes": 6670,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/triage/SKILL.md"
+  "sections": [
+    {
+      "name": "Reference docs",
+      "bytes": 179,
+      "when": [
+        "reference",
+        "docs"
+      ]
+    },
+    {
+      "name": "Roles",
+      "bytes": 1315,
+      "when": [
+        "roles"
+      ]
+    },
+    {
+      "name": "Invocation",
+      "bytes": 303,
+      "when": [
+        "invocation"
+      ]
+    },
+    {
+      "name": "Show what needs attention",
+      "bytes": 693,
+      "when": [
+        "show",
+        "needs",
+        "attention"
+      ]
+    },
+    {
+      "name": "Triage a specific issue or PR",
+      "bytes": 2444,
+      "when": [
+        "triage",
+        "specific",
+        "issue"
+      ]
+    },
+    {
+      "name": "Quick state override",
+      "bytes": 319,
+      "when": [
+        "quick",
+        "state",
+        "override"
+      ]
+    },
+    {
+      "name": "Needs-info template",
+      "bytes": 39,
+      "when": [
+        "needs",
+        "info",
+        "template"
+      ]
+    },
+    {
+      "name": "Triage Notes",
+      "bytes": 337,
+      "when": [
+        "triage",
+        "notes"
+      ]
+    },
+    {
+      "name": "Resuming a previous session",
+      "bytes": 244,
+      "when": [
+        "resuming",
+        "previous",
+        "session"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/triage/SKILL.md",
+  "curated": true
 }

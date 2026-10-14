@@ -1,0 +1,125 @@
+{
+  "id": "nvidia__vss-setup-behavior-analytics",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "57e2c7062e905c1572b90d4f9e5ef54a4ca5b52bc9b06c16d7446dd252722ea6",
+  "purpose": "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1992,
+  "core_bytes": 7990,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 126,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 239,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 598,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 337,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1142,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 483,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1030,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 677,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Dynamic updates (runtime, no restart)",
+      "bytes": 2064,
+      "when": [
+        "dynamic",
+        "updates",
+        "runtime",
+        "restart"
+      ]
+    },
+    {
+      "name": "Dynamic config",
+      "bytes": 924,
+      "when": [
+        "dynamic",
+        "config"
+      ]
+    },
+    {
+      "name": "Dynamic calibration",
+      "bytes": 964,
+      "when": [
+        "dynamic",
+        "calibration"
+      ]
+    },
+    {
+      "name": "Routing rules",
+      "bytes": 820,
+      "when": [
+        "routing",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-setup-behavior-analytics/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,121 @@
+{
+  "id": "awesome-copilot__commit-message-storyteller",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9a351d6276d9c17c5e5ac0920efc1dfa054cf9e17c7db52a9fc2a0e38f39e65a",
+  "purpose": "Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change was made, not just what changed — following Conventional Commits format. Use when asked to \"write",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change was made, not just what changed — following Conventional "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1289,
+  "core_bytes": 5175,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 370,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 180,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "How It Works",
+      "bytes": 2719,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Step 1: Gather the Change Context",
+      "bytes": 384,
+      "when": [
+        "step",
+        "gather",
+        "change",
+        "context"
+      ]
+    },
+    {
+      "name": "Step 2: Identify the Commit Type",
+      "bytes": 721,
+      "when": [
+        "step",
+        "identify",
+        "commit",
+        "type"
+      ]
+    },
+    {
+      "name": "Step 3: Write the Commit Message",
+      "bytes": 854,
+      "when": [
+        "step",
+        "write",
+        "commit",
+        "message"
+      ]
+    },
+    {
+      "name": "Step 4: Generate Output",
+      "bytes": 743,
+      "when": [
+        "step",
+        "generate",
+        "output"
+      ]
+    },
+    {
+      "name": "Multiple Commits from One Diff",
+      "bytes": 380,
+      "when": [
+        "multiple",
+        "commits",
+        "diff"
+      ]
+    },
+    {
+      "name": "Edge Cases",
+      "bytes": 489,
+      "when": [
+        "edge",
+        "cases"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 244,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\commit-message-storyteller\\SKILL.md"
+}

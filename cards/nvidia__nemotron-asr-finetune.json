@@ -1,0 +1,99 @@
+{
+  "id": "nvidia__nemotron-asr-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "754bd7d11d3cd59e4af96a9c3485dcce2ef7edc8980b76406f21883141bb2597",
+  "purpose": "Orchestration skill for NVIDIA Nemotron Speech (Riva) / NeMo ASR domain and language adaptation. Given a goal like improve/fine-tune ASR for my domain or language, it scopes the task, picks the cheape",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Orchestration skill for NVIDIA Nemotron Speech (Riva) / NeMo ASR domain and language adaptation. Given a goal like improve/fine-tune ASR for my domain or langua"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2990,
+  "core_bytes": 12035,
+  "sections": [
+    {
+      "name": "What This Skill Is",
+      "bytes": 888,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 403,
+      "when": []
+    },
+    {
+      "name": "Orchestration Workflow",
+      "bytes": 2953,
+      "when": [
+        "orchestration",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Sub-Skills This Skill Calls",
+      "bytes": 1023,
+      "when": [
+        "skills",
+        "skill",
+        "calls"
+      ]
+    },
+    {
+      "name": "Choosing The Path (cheapest first)",
+      "bytes": 2034,
+      "when": [
+        "choosing",
+        "path",
+        "cheapest",
+        "first"
+      ]
+    },
+    {
+      "name": "Key Principles",
+      "bytes": 1755,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "Source of Truth",
+      "bytes": 782,
+      "when": [
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 565,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemotron-asr-finetune/SKILL.md",
+  "curated": true
+}

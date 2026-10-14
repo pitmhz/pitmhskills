@@ -1,0 +1,264 @@
+{
+  "id": "awesome-copilot__mcp-create-declarative-agent",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8aa6694de0da94ea8e1231555cca446d50a1c4553c898e7382e04b30120a2820",
+  "purpose": "Skill converted from mcp-create-declarative-agent.prompt.md",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Skill converted from mcp-create-declarative-agent.prompt.md"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2036,
+  "core_bytes": 8144,
+  "sections": [
+    {
+      "name": "Requirements",
+      "bytes": 2890,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Project Setup",
+      "bytes": 299,
+      "when": [
+        "project",
+        "setup"
+      ]
+    },
+    {
+      "name": "Key Files Generated",
+      "bytes": 2496,
+      "when": [
+        "files",
+        "generated"
+      ]
+    },
+    {
+      "name": "MCP Server Integration",
+      "bytes": 818,
+      "when": [
+        "server",
+        "integration"
+      ]
+    },
+    {
+      "name": "Supported MCP Endpoints",
+      "bytes": 203,
+      "when": [
+        "supported",
+        "endpoints"
+      ]
+    },
+    {
+      "name": "Tool Selection",
+      "bytes": 201,
+      "when": [
+        "tool",
+        "selection"
+      ]
+    },
+    {
+      "name": "Authentication Types",
+      "bytes": 387,
+      "when": [
+        "authentication",
+        "types"
+      ]
+    },
+    {
+      "name": "Response Semantics",
+      "bytes": 433,
+      "when": [
+        "response",
+        "semantics"
+      ]
+    },
+    {
+      "name": "Define Data Mapping",
+      "bytes": 298,
+      "when": [
+        "define",
+        "data",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Add Adaptive Cards (Optional)",
+      "bytes": 112,
+      "when": [
+        "adaptive",
+        "cards",
+        "optional"
+      ]
+    },
+    {
+      "name": "Environment Configuration",
+      "bytes": 195,
+      "when": [
+        "environment",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Testing & Deployment",
+      "bytes": 426,
+      "when": [
+        "testing",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Local Testing",
+      "bytes": 246,
+      "when": [
+        "local",
+        "testing"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 155,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 1005,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Tool Design",
+      "bytes": 268,
+      "when": [
+        "tool",
+        "design"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 247,
+      "when": [
+        "security"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 274,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Performance",
+      "bytes": 197,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "Common MCP Server Examples",
+      "bytes": 447,
+      "when": [
+        "common",
+        "server",
+        "examples"
+      ]
+    },
+    {
+      "name": "GitHub MCP Server",
+      "bytes": 144,
+      "when": [
+        "github",
+        "server"
+      ]
+    },
+    {
+      "name": "Jira MCP Server",
+      "bytes": 138,
+      "when": [
+        "jira",
+        "server"
+      ]
+    },
+    {
+      "name": "Custom Service",
+      "bytes": 134,
+      "when": [
+        "custom",
+        "service"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 469,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 767,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "MCP Server Not Responding",
+      "bytes": 143,
+      "when": [
+        "server",
+        "responding"
+      ]
+    },
+    {
+      "name": "Authentication Fails",
+      "bytes": 179,
+      "when": [
+        "authentication",
+        "fails"
+      ]
+    },
+    {
+      "name": "Tools Not Appearing",
+      "bytes": 213,
+      "when": [
+        "tools",
+        "appearing"
+      ]
+    },
+    {
+      "name": "Agent Not Understanding Queries",
+      "bytes": 212,
+      "when": [
+        "agent",
+        "understanding",
+        "queries"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-create-declarative-agent\\SKILL.md"
+}

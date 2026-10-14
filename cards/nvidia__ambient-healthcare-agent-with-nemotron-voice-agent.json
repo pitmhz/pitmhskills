@@ -1,0 +1,169 @@
+{
+  "id": "nvidia__ambient-healthcare-agent-with-nemotron-voice-agent",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ead4d131634081d06b843dba803e1503d291fc5a03363c189c6c71a2a6e31d71",
+  "purpose": "Customize NVIDIA Nemotron Voice Agents Generic Pipecat example for healthcare appointment, five-field patient intake, or custom tool-calling workflows without a separate backend.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Customize NVIDIA Nemotron Voice Agents Generic Pipecat example for healthcare appointment, five-field patient intake, or custom tool-calling workflows without a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3657,
+  "core_bytes": 14652,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 734,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 590,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Required Welcome",
+      "bytes": 700,
+      "when": [
+        "required",
+        "welcome"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 9249,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Resolve and validate the NVA checkout",
+      "bytes": 1258,
+      "when": [
+        "resolve",
+        "validate",
+        "checkout"
+      ]
+    },
+    {
+      "name": "2. Inspect compatibility and service defaults",
+      "bytes": 766,
+      "when": [
+        "inspect",
+        "compatibility",
+        "service",
+        "defaults"
+      ]
+    },
+    {
+      "name": "3. Select the runtime and verify setup access",
+      "bytes": 1899,
+      "when": [
+        "select",
+        "runtime",
+        "verify",
+        "setup",
+        "access"
+      ]
+    },
+    {
+      "name": "4. Obtain informed scenario selection",
+      "bytes": 1222,
+      "when": [
+        "obtain",
+        "informed",
+        "scenario",
+        "selection"
+      ]
+    },
+    {
+      "name": "5. Apply a preset",
+      "bytes": 1715,
+      "when": [
+        "apply",
+        "preset"
+      ]
+    },
+    {
+      "name": "6. Design a custom workflow",
+      "bytes": 610,
+      "when": [
+        "design",
+        "custom",
+        "workflow"
+      ]
+    },
+    {
+      "name": "7. Validate, start, and test voice",
+      "bytes": 1341,
+      "when": [
+        "validate",
+        "start",
+        "test",
+        "voice"
+      ]
+    },
+    {
+      "name": "8. Handoff",
+      "bytes": 419,
+      "when": [
+        "handoff"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 935,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 416,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 550,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 889,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/ambient-healthcare-agent-with-nemotron-voice-agent/SKILL.md",
+  "curated": true
+}

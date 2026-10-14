@@ -1,0 +1,238 @@
+{
+  "id": "nvidia__tao-train-codetr",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ce5a554fbf79589ba31538b1daa06bd877bee13a21f3cb783f2368038893f6b4",
+  "purpose": "Co-DETR (CoDINO) for object detection. A DETR-family detector with collaborative hybrid",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Co-DETR (CoDINO) for object detection. A DETR-family detector with collaborative hybrid"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4856,
+  "core_bytes": 19506,
+  "sections": [
+    {
+      "name": "Availability — probe, then fall back to the module",
+      "bytes": 1295,
+      "when": [
+        "availability",
+        "probe",
+        "fall",
+        "back",
+        "module"
+      ]
+    },
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 505,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 354,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Supported Actions",
+      "bytes": 544,
+      "when": [
+        "supported",
+        "actions"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 1243,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 605,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 460,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Getting Weights",
+      "bytes": 3296,
+      "when": [
+        "getting",
+        "weights"
+      ]
+    },
+    {
+      "name": "A COCO-trained detector checkpoint",
+      "bytes": 936,
+      "when": [
+        "coco",
+        "trained",
+        "detector",
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "The classmap file",
+      "bytes": 908,
+      "when": [
+        "classmap",
+        "file"
+      ]
+    },
+    {
+      "name": "Deriving the spec from a checkpoint",
+      "bytes": 3231,
+      "when": [
+        "deriving",
+        "spec",
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "Verified inference spec — ViT-Large, COCO-80",
+      "bytes": 998,
+      "when": [
+        "verified",
+        "inference",
+        "spec",
+        "large",
+        "coco"
+      ]
+    },
+    {
+      "name": "The published docs are ahead of the 7.0.1 image",
+      "bytes": 1061,
+      "when": [
+        "published",
+        "docs",
+        "ahead",
+        "image"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 1115,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Inference Output",
+      "bytes": 3801,
+      "when": [
+        "inference",
+        "output"
+      ]
+    },
+    {
+      "name": "Predicted vocabulary",
+      "bytes": 252,
+      "when": [
+        "predicted",
+        "vocabulary"
+      ]
+    },
+    {
+      "name": "Folding to a smaller class set — use `inference.category_mapping`",
+      "bytes": 2098,
+      "when": [
+        "folding",
+        "smaller",
+        "class",
+        "inference",
+        "category",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Converting labels for downstream training",
+      "bytes": 960,
+      "when": [
+        "converting",
+        "labels",
+        "downstream",
+        "training"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 235,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 255,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 1761,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 282,
+      "when": [
+        "deployment"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 223,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-codetr/SKILL.md",
+  "curated": true
+}

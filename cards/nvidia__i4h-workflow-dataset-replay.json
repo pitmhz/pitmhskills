@@ -1,0 +1,118 @@
+{
+  "id": "nvidia__i4h-workflow-dataset-replay",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "eaac70a2cb2c89349c5adb7bc270a9940b09fe4cbb379231a3e3b3b352718d23",
+  "purpose": "Replay a workflow HDF5 episode through its original Scene. Use for visual trajectory and recording verification; do not use for policy evaluation or LeRobot data.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Replay a workflow HDF5 episode through its original Scene. Use for visual trajectory and recording verification; do not use for policy evaluation or LeRobot dat"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 996,
+  "core_bytes": 3988,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 113,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 240,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve the recording",
+      "bytes": 1513,
+      "when": [
+        "resolve",
+        "recording"
+      ]
+    },
+    {
+      "name": "Inspect before launch",
+      "bytes": 351,
+      "when": [
+        "inspect",
+        "before",
+        "launch"
+      ]
+    },
+    {
+      "name": "Replay",
+      "bytes": 262,
+      "when": [
+        "replay"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 258,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 160,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 123,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 144,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 146,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 161,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-dataset-replay/SKILL.md",
+  "curated": true
+}

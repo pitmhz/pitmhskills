@@ -1,0 +1,145 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-moe-long-context",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8c7289a2802ebd45aef6f026b1bf9cafe4266e532b7fba68f3d18757ec7f1f7d",
+  "purpose": "Long-context MoE training guidance for Megatron Bridge. Covers CP sizing, selective recompute, dispatcher choices, and practical patterns from DSV3, Qwen3, and Qwen3-Next long-context experiments.",
+  "domain": "frontend",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Long-context MoE training guidance for Megatron Bridge. Covers CP sizing, selective recompute, dispatcher choices, and practical patterns from DSV3, Qwen3, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1269,
+  "core_bytes": 5074,
+  "sections": [
+    {
+      "name": "What Changes At Long Context",
+      "bytes": 420,
+      "when": [
+        "changes",
+        "long",
+        "context"
+      ]
+    },
+    {
+      "name": "Rounded Scaling Patterns",
+      "bytes": 1182,
+      "when": [
+        "rounded",
+        "scaling",
+        "patterns"
+      ]
+    },
+    {
+      "name": "DSV3 on H100",
+      "bytes": 528,
+      "when": [
+        "dsv3",
+        "h100"
+      ]
+    },
+    {
+      "name": "Qwen3-Next on GB200",
+      "bytes": 318,
+      "when": [
+        "qwen3",
+        "next",
+        "gb200"
+      ]
+    },
+    {
+      "name": "Qwen3 235B on GB200",
+      "bytes": 305,
+      "when": [
+        "qwen3",
+        "235b",
+        "gb200"
+      ]
+    },
+    {
+      "name": "CP Sizing Rules Of Thumb",
+      "bytes": 932,
+      "when": [
+        "sizing",
+        "rules",
+        "thumb"
+      ]
+    },
+    {
+      "name": "Representative Config Families",
+      "bytes": 644,
+      "when": [
+        "representative",
+        "config",
+        "families"
+      ]
+    },
+    {
+      "name": "DSV3 at 128K on H100",
+      "bytes": 197,
+      "when": [
+        "dsv3",
+        "128k",
+        "h100"
+      ]
+    },
+    {
+      "name": "DSV3 at 256K on H100",
+      "bytes": 204,
+      "when": [
+        "dsv3",
+        "256k",
+        "h100"
+      ]
+    },
+    {
+      "name": "Qwen3 235B at 128K on GB200",
+      "bytes": 206,
+      "when": [
+        "qwen3",
+        "235b",
+        "128k",
+        "gb200"
+      ]
+    },
+    {
+      "name": "Recompute And CUDA Graph Guidance",
+      "bytes": 432,
+      "when": [
+        "recompute",
+        "cuda",
+        "graph",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 773,
+      "when": [
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-moe-long-context/SKILL.md",
+  "curated": true
+}

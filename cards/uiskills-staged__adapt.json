@@ -1,0 +1,187 @@
+{
+  "id": "uiskills-staged__adapt",
+  "tier": "B",
+  "origin": [
+    "local@adapt"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b99fd1fca1be50491cb002c3db47ce643b028385ff5dcc7d65952c5e8521d94a",
+  "purpose": "Adapt an existing design to a different context: another screen size, device, platform, or use case. The trap is treating adaptation as scaling. The job is rethinking the experience for the new contex",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Adapt an existing design to a different context: another screen size, device, platform, or use case. The trap is treating adaptation as scaling. The job is reth"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Adapt across breakpoints/devices -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "adapt breakpoints devices contexts",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2909,
+  "core_bytes": 11648,
+  "sections": [
+    {
+      "name": "Assess Adaptation Challenge",
+      "bytes": 1075,
+      "when": [
+        "assess",
+        "adaptation",
+        "challenge"
+      ]
+    },
+    {
+      "name": "Plan Adaptation Strategy",
+      "bytes": 2855,
+      "when": [
+        "plan",
+        "adaptation",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Mobile Adaptation (Desktop ÔåÆ Mobile)",
+      "bytes": 904,
+      "when": [
+        "mobile",
+        "adaptation",
+        "desktop"
+      ]
+    },
+    {
+      "name": "Tablet Adaptation (Hybrid Approach)",
+      "bytes": 442,
+      "when": [
+        "tablet",
+        "adaptation",
+        "hybrid",
+        "approach"
+      ]
+    },
+    {
+      "name": "Desktop Adaptation (Mobile ÔåÆ Desktop)",
+      "bytes": 627,
+      "when": [
+        "desktop",
+        "adaptation",
+        "mobile"
+      ]
+    },
+    {
+      "name": "Print Adaptation (Screen ÔåÆ Print)",
+      "bytes": 437,
+      "when": [
+        "print",
+        "adaptation",
+        "screen"
+      ]
+    },
+    {
+      "name": "Email Adaptation (Web ÔåÆ Email)",
+      "bytes": 374,
+      "when": [
+        "email",
+        "adaptation"
+      ]
+    },
+    {
+      "name": "Implement Adaptations",
+      "bytes": 1878,
+      "when": [
+        "implement",
+        "adaptations"
+      ]
+    },
+    {
+      "name": "Responsive Breakpoints",
+      "bytes": 187,
+      "when": [
+        "responsive",
+        "breakpoints"
+      ]
+    },
+    {
+      "name": "Layout Adaptation Techniques",
+      "bytes": 328,
+      "when": [
+        "layout",
+        "adaptation",
+        "techniques"
+      ]
+    },
+    {
+      "name": "Touch Adaptation",
+      "bytes": 265,
+      "when": [
+        "touch",
+        "adaptation"
+      ]
+    },
+    {
+      "name": "Content Adaptation",
+      "bytes": 249,
+      "when": [
+        "content",
+        "adaptation"
+      ]
+    },
+    {
+      "name": "Navigation Adaptation",
+      "bytes": 788,
+      "when": [
+        "navigation",
+        "adaptation"
+      ]
+    },
+    {
+      "name": "Verify Adaptations",
+      "bytes": 1593,
+      "when": [
+        "verify",
+        "adaptations"
+      ]
+    },
+    {
+      "name": "Reference Material",
+      "bytes": 3767,
+      "when": [
+        "reference",
+        "material"
+      ]
+    },
+    {
+      "name": "Responsive Design",
+      "bytes": 3595,
+      "when": [
+        "responsive",
+        "design"
+      ]
+    }
+  ],
+  "keywords": [
+    "assess",
+    "challenge",
+    "plan",
+    "strategy",
+    "mobile",
+    "desktop",
+    "tablet",
+    "hybrid",
+    "approach",
+    "print",
+    "email",
+    "implement",
+    "adaptations"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\adapt\\SKILL.md"
+}

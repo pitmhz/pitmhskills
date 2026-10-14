@@ -1,0 +1,79 @@
+{
+  "id": "awesome-copilot__dataverse-python-production-code",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ca94ff0124379fa15b28e15fa36d3568524c5f9386ae8b8d6a768356313714ff",
+  "purpose": "Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 913,
+  "core_bytes": 3670,
+  "sections": [
+    {
+      "name": "Error Handling Structure",
+      "bytes": 720,
+      "when": [
+        "error",
+        "handling",
+        "structure"
+      ]
+    },
+    {
+      "name": "Client Management Pattern",
+      "bytes": 480,
+      "when": [
+        "client",
+        "management",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Logging Pattern",
+      "bytes": 325,
+      "when": [
+        "logging",
+        "pattern"
+      ]
+    },
+    {
+      "name": "OData Optimization",
+      "bytes": 215,
+      "when": [
+        "odata",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Code Structure",
+      "bytes": 1161,
+      "when": [
+        "code",
+        "structure"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dataverse-python-production-code\\SKILL.md"
+}

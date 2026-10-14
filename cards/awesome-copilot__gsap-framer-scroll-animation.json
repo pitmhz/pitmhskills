@@ -1,0 +1,174 @@
+{
+  "id": "awesome-copilot__gsap-framer-scroll-animation",
+  "tier": "A",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1ae197bfe22da3f51b7e77e67af01f87f12b9e797c237ce87e64f644b6528238",
+  "purpose": "Use this skill whenever the user wants to build scroll animations, scroll effects, parallax, scroll-triggered reveals, pinned sections, horizontal scroll, text animations, or any motion tied to scroll",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "GSAP ScrollTrigger: pin-and-scrub, parallax, scroll-linked reveal animations",
+    "Framer Motion / Motion v12: enter-exit, layout animations, whileInView in React",
+    "Choose between GSAP and Framer Motion for scroll or interaction animation"
+  ],
+  "do_not_use_when": [
+    "Static UI design with no motion -> anthropic__frontend-design",
+    "CSS-only keyframe animations -> gsap__gsap-core",
+    "Backend/database work -> supabase or neondatabase cards"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Scroll/interaction animation (GSAP or Framer) -> this. Static visual design -> frontend-design. Base GSAP API -> gsap-core.",
+  "cluster": "web-animation",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1592,
+  "core_bytes": 6399,
+  "sections": [
+    {
+      "name": "Quick Library Selector",
+      "bytes": 575,
+      "when": [
+        "quick",
+        "library",
+        "selector"
+      ]
+    },
+    {
+      "name": "Setup (Always Do First)",
+      "bytes": 549,
+      "when": [
+        "setup",
+        "first"
+      ]
+    },
+    {
+      "name": "GSAP",
+      "bytes": 206,
+      "when": [
+        "gsap"
+      ]
+    },
+    {
+      "name": "Framer Motion (Motion v12, 2025)",
+      "bytes": 315,
+      "when": [
+        "framer",
+        "motion",
+        "2025"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 544,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "The 5 Most Common Scroll Patterns",
+      "bytes": 1190,
+      "when": [
+        "common",
+        "scroll",
+        "patterns"
+      ]
+    },
+    {
+      "name": "1. Fade-in on enter (GSAP)",
+      "bytes": 174,
+      "when": [
+        "fade",
+        "enter",
+        "gsap"
+      ]
+    },
+    {
+      "name": "2. Fade-in on enter (Framer Motion)",
+      "bytes": 216,
+      "when": [
+        "fade",
+        "enter",
+        "framer",
+        "motion"
+      ]
+    },
+    {
+      "name": "3. Scrub / scroll-linked (GSAP)",
+      "bytes": 202,
+      "when": [
+        "scrub",
+        "scroll",
+        "linked",
+        "gsap"
+      ]
+    },
+    {
+      "name": "4. Scroll-linked (Framer Motion)",
+      "bytes": 238,
+      "when": [
+        "scroll",
+        "linked",
+        "framer",
+        "motion"
+      ]
+    },
+    {
+      "name": "5. Pinned timeline (GSAP)",
+      "bytes": 239,
+      "when": [
+        "pinned",
+        "timeline",
+        "gsap"
+      ]
+    },
+    {
+      "name": "Critical Rules (Apply Always)",
+      "bytes": 943,
+      "when": [
+        "critical",
+        "rules",
+        "apply"
+      ]
+    },
+    {
+      "name": "Copilot Prompting Tips",
+      "bytes": 532,
+      "when": [
+        "copilot",
+        "prompting",
+        "tips"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 290,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 190,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gsap-framer-scroll-animation\\SKILL.md",
+  "curated": true
+}

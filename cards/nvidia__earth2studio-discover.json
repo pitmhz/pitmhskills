@@ -1,0 +1,202 @@
+{
+  "id": "nvidia__earth2studio-discover",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "73ff79a07e79b82ab032bcfd09c5344e25206562a66b115546c947f6ff98eb7d",
+  "purpose": "Find Earth2Studio models, data sources, and examples for a weather/climate use case. Do NOT use for writing inference code, downloading data, or installation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Find Earth2Studio models, data sources, and examples for a weather/climate use case. Do NOT use for writing inference code, downloading data, or installation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2167,
+  "core_bytes": 8734,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 378,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 415,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core principle: discover from live docs, don't memorize",
+      "bytes": 572,
+      "when": [
+        "core",
+        "principle",
+        "discover",
+        "live",
+        "docs",
+        "memorize"
+      ]
+    },
+    {
+      "name": "Live doc references",
+      "bytes": 904,
+      "when": [
+        "live",
+        "references"
+      ]
+    },
+    {
+      "name": "Interaction protocol",
+      "bytes": 4210,
+      "when": [
+        "interaction",
+        "protocol"
+      ]
+    },
+    {
+      "name": "Step 1. Understand the user's problem",
+      "bytes": 925,
+      "when": [
+        "step",
+        "understand",
+        "user",
+        "problem"
+      ]
+    },
+    {
+      "name": "Step 2. Fetch relevant model docs",
+      "bytes": 765,
+      "when": [
+        "step",
+        "fetch",
+        "relevant",
+        "model",
+        "docs"
+      ]
+    },
+    {
+      "name": "Step 3. Fetch relevant data source docs",
+      "bytes": 353,
+      "when": [
+        "step",
+        "fetch",
+        "relevant",
+        "data",
+        "source",
+        "docs"
+      ]
+    },
+    {
+      "name": "Step 4. Verify compatibility via lexicon",
+      "bytes": 1241,
+      "when": [
+        "step",
+        "verify",
+        "compatibility",
+        "lexicon"
+      ]
+    },
+    {
+      "name": "Step 5. Suggest examples",
+      "bytes": 813,
+      "when": [
+        "step",
+        "suggest",
+        "examples"
+      ]
+    },
+    {
+      "name": "Step 6. Return recommendations",
+      "bytes": 86,
+      "when": [
+        "step",
+        "return",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "Your use case",
+      "bytes": 77,
+      "when": [
+        "case"
+      ]
+    },
+    {
+      "name": "Recommended models",
+      "bytes": 144,
+      "when": [
+        "recommended",
+        "models"
+      ]
+    },
+    {
+      "name": "Compatible data sources",
+      "bytes": 146,
+      "when": [
+        "compatible",
+        "data",
+        "sources"
+      ]
+    },
+    {
+      "name": "Relevant examples",
+      "bytes": 73,
+      "when": [
+        "relevant",
+        "examples"
+      ]
+    },
+    {
+      "name": "Next steps",
+      "bytes": 250,
+      "when": [
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 288,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 466,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Ownership and out-of-scope",
+      "bytes": 361,
+      "when": [
+        "ownership",
+        "scope"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\earth2studio-discover\\SKILL.md",
+  "curated": true
+}

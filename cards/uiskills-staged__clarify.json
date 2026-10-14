@@ -1,0 +1,133 @@
+{
+  "id": "uiskills-staged__clarify",
+  "tier": "B",
+  "origin": [
+    "local@clarify"
+  ],
+  "license": "Apache-2.0",
+  "hash": "140ac553fb8c61fd53aeb372b165fd47c4e3a96a98e14db407f740e9fcffbe3f",
+  "purpose": "Rewrite unclear interface text so users understand what happened, what matters, and what to do next. Preserve factual meaning, product terminology, and brand voice.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Rewrite unclear interface text so users understand what happened, what matters, and what to do next. Preserve factual meaning, product terminology, and brand vo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Clarify labels and UX messaging -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "clarify microcopy labels messaging",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1176,
+  "core_bytes": 4701,
+  "sections": [
+    {
+      "name": "Audit the language",
+      "bytes": 653,
+      "when": [
+        "audit",
+        "language"
+      ]
+    },
+    {
+      "name": "Set the message hierarchy",
+      "bytes": 345,
+      "when": [
+        "message",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "Rewrite by function",
+      "bytes": 2080,
+      "when": [
+        "rewrite",
+        "function"
+      ]
+    },
+    {
+      "name": "Actions and navigation",
+      "bytes": 497,
+      "when": [
+        "actions",
+        "navigation"
+      ]
+    },
+    {
+      "name": "Forms",
+      "bytes": 418,
+      "when": [
+        "forms"
+      ]
+    },
+    {
+      "name": "Errors and permissions",
+      "bytes": 387,
+      "when": [
+        "errors",
+        "permissions"
+      ]
+    },
+    {
+      "name": "Loading, empty, and success states",
+      "bytes": 507,
+      "when": [
+        "loading",
+        "empty",
+        "success",
+        "states"
+      ]
+    },
+    {
+      "name": "Help and instructional text",
+      "bytes": 245,
+      "when": [
+        "help",
+        "instructional",
+        "text"
+      ]
+    },
+    {
+      "name": "Voice, accessibility, and localization",
+      "bytes": 751,
+      "when": [
+        "voice",
+        "accessibility",
+        "localization"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 628,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "audit",
+    "language",
+    "message",
+    "hierarchy",
+    "function",
+    "actions",
+    "navigation",
+    "forms",
+    "errors",
+    "permissions",
+    "loading",
+    "empty",
+    "success",
+    "states"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\clarify\\SKILL.md"
+}

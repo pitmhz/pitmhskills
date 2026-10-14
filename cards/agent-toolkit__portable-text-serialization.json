@@ -28,10 +28,99 @@
   "conflicts_with": [],
   "body_tokens": 1106,
   "core_bytes": 4513,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Portable Text Structure (Quick Reference)",
+      "bytes": 965,
+      "when": [
+        "portable",
+        "text",
+        "structure",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Component Mapping Pattern (All Frameworks)",
+      "bytes": 569,
+      "when": [
+        "component",
+        "mapping",
+        "pattern",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "Framework-Specific Rules",
+      "bytes": 1198,
+      "when": [
+        "framework",
+        "specific",
+        "rules"
+      ]
+    },
+    {
+      "name": "Additional Community Serializers",
+      "bytes": 631,
+      "when": [
+        "additional",
+        "community",
+        "serializers"
+      ]
+    },
+    {
+      "name": "Common Patterns (All Frameworks)",
+      "bytes": 940,
+      "when": [
+        "common",
+        "patterns",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "Custom Types Need Explicit Components",
+      "bytes": 223,
+      "when": [
+        "custom",
+        "types",
+        "need",
+        "explicit",
+        "components"
+      ]
+    },
+    {
+      "name": "Keep Components Object Stable",
+      "bytes": 175,
+      "when": [
+        "keep",
+        "components",
+        "object",
+        "stable"
+      ]
+    },
+    {
+      "name": "Handle Missing Components Gracefully",
+      "bytes": 212,
+      "when": [
+        "handle",
+        "missing",
+        "components",
+        "gracefully"
+      ]
+    },
+    {
+      "name": "Querying PT with GROQ",
+      "bytes": 291,
+      "when": [
+        "querying",
+        "groq"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\portable-text-serialization\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\portable-text-serialization\\SKILL.md",
+  "curated": true
 }

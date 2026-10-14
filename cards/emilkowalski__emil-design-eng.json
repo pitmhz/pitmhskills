@@ -1,0 +1,591 @@
+{
+  "id": "emilkowalski__emil-design-eng",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "a2ee9da0840c23b509a27e742edbc8f8fdb4416ca7d6ffde67d79023bfb8a5bf",
+  "purpose": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Design-engineering philosophy / craft bar -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "philosophy craft kowalski",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6926,
+  "core_bytes": 27797,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 553,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Core Philosophy",
+      "bytes": 1237,
+      "when": [
+        "core",
+        "philosophy"
+      ]
+    },
+    {
+      "name": "Taste is trained, not innate",
+      "bytes": 465,
+      "when": [
+        "taste",
+        "trained",
+        "innate"
+      ]
+    },
+    {
+      "name": "Unseen details compound",
+      "bytes": 514,
+      "when": [
+        "unseen",
+        "details",
+        "compound"
+      ]
+    },
+    {
+      "name": "Beauty is leverage",
+      "bytes": 236,
+      "when": [
+        "beauty",
+        "leverage"
+      ]
+    },
+    {
+      "name": "Review Format (Required)",
+      "bytes": 1309,
+      "when": [
+        "review",
+        "format",
+        "required"
+      ]
+    },
+    {
+      "name": "The Animation Decision Framework",
+      "bytes": 4275,
+      "when": [
+        "animation",
+        "decision",
+        "framework"
+      ]
+    },
+    {
+      "name": "1. Should this animate at all?",
+      "bytes": 968,
+      "when": [
+        "animate"
+      ]
+    },
+    {
+      "name": "2. What is the purpose?",
+      "bytes": 665,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "3. What easing should it use?",
+      "bytes": 1336,
+      "when": [
+        "easing"
+      ]
+    },
+    {
+      "name": "4. How fast should it be?",
+      "bytes": 571,
+      "when": [
+        "fast"
+      ]
+    },
+    {
+      "name": "Perceived performance",
+      "bytes": 625,
+      "when": [
+        "perceived",
+        "performance"
+      ]
+    },
+    {
+      "name": "Spring Animations",
+      "bytes": 1915,
+      "when": [
+        "spring",
+        "animations"
+      ]
+    },
+    {
+      "name": "When to use springs",
+      "bytes": 223,
+      "when": [
+        "springs"
+      ]
+    },
+    {
+      "name": "Spring-based mouse interactions",
+      "bytes": 764,
+      "when": [
+        "spring",
+        "based",
+        "mouse",
+        "interactions"
+      ]
+    },
+    {
+      "name": "Spring configuration",
+      "bytes": 401,
+      "when": [
+        "spring",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Interruptibility advantage",
+      "bytes": 329,
+      "when": [
+        "interruptibility",
+        "advantage"
+      ]
+    },
+    {
+      "name": "Component Building Principles",
+      "bytes": 4325,
+      "when": [
+        "component",
+        "building",
+        "principles"
+      ]
+    },
+    {
+      "name": "Buttons must feel responsive",
+      "bytes": 372,
+      "when": [
+        "buttons",
+        "feel",
+        "responsive"
+      ]
+    },
+    {
+      "name": "Never animate from scale(0)",
+      "bytes": 505,
+      "when": [
+        "animate",
+        "scale"
+      ]
+    },
+    {
+      "name": "Make popovers origin-aware",
+      "bytes": 564,
+      "when": [
+        "popovers",
+        "origin",
+        "aware"
+      ]
+    },
+    {
+      "name": "Tooltips: skip delay on subsequent hovers",
+      "bytes": 659,
+      "when": [
+        "tooltips",
+        "skip",
+        "delay",
+        "subsequent",
+        "hovers"
+      ]
+    },
+    {
+      "name": "Use CSS transitions over keyframes for interruptible UI",
+      "bytes": 550,
+      "when": [
+        "transitions",
+        "keyframes",
+        "interruptible"
+      ]
+    },
+    {
+      "name": "Use blur to mask imperfect transitions",
+      "bytes": 954,
+      "when": [
+        "blur",
+        "mask",
+        "imperfect",
+        "transitions"
+      ]
+    },
+    {
+      "name": "Animate enter states with @starting-style",
+      "bytes": 685,
+      "when": [
+        "animate",
+        "enter",
+        "states",
+        "starting",
+        "style"
+      ]
+    },
+    {
+      "name": "CSS Transform Mastery",
+      "bytes": 1538,
+      "when": [
+        "transform",
+        "mastery"
+      ]
+    },
+    {
+      "name": "translateY with percentages",
+      "bytes": 596,
+      "when": [
+        "translatey",
+        "percentages"
+      ]
+    },
+    {
+      "name": "scale() scales children too",
+      "bytes": 226,
+      "when": [
+        "scale",
+        "scales",
+        "children"
+      ]
+    },
+    {
+      "name": "3D transforms for depth",
+      "bytes": 502,
+      "when": [
+        "transforms",
+        "depth"
+      ]
+    },
+    {
+      "name": "transform-origin",
+      "bytes": 186,
+      "when": [
+        "transform",
+        "origin"
+      ]
+    },
+    {
+      "name": "clip-path for Animation",
+      "bytes": 1722,
+      "when": [
+        "clip",
+        "path",
+        "animation"
+      ]
+    },
+    {
+      "name": "The inset shape",
+      "bytes": 539,
+      "when": [
+        "inset",
+        "shape"
+      ]
+    },
+    {
+      "name": "Tabs with perfect color transitions",
+      "bytes": 325,
+      "when": [
+        "tabs",
+        "perfect",
+        "color",
+        "transitions"
+      ]
+    },
+    {
+      "name": "Hold-to-delete pattern",
+      "bytes": 258,
+      "when": [
+        "hold",
+        "delete",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Image reveals on scroll",
+      "bytes": 263,
+      "when": [
+        "image",
+        "reveals",
+        "scroll"
+      ]
+    },
+    {
+      "name": "Comparison sliders",
+      "bytes": 213,
+      "when": [
+        "comparison",
+        "sliders"
+      ]
+    },
+    {
+      "name": "Gesture and Drag Interactions",
+      "bytes": 1371,
+      "when": [
+        "gesture",
+        "drag",
+        "interactions"
+      ]
+    },
+    {
+      "name": "Momentum-based dismissal",
+      "bytes": 456,
+      "when": [
+        "momentum",
+        "based",
+        "dismissal"
+      ]
+    },
+    {
+      "name": "Damping at boundaries",
+      "bytes": 252,
+      "when": [
+        "damping",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Pointer capture for drag",
+      "bytes": 183,
+      "when": [
+        "pointer",
+        "capture",
+        "drag"
+      ]
+    },
+    {
+      "name": "Multi-touch protection",
+      "bytes": 270,
+      "when": [
+        "multi",
+        "touch",
+        "protection"
+      ]
+    },
+    {
+      "name": "Friction instead of hard stops",
+      "bytes": 174,
+      "when": [
+        "friction",
+        "instead",
+        "hard",
+        "stops"
+      ]
+    },
+    {
+      "name": "Performance Rules",
+      "bytes": 2156,
+      "when": [
+        "performance",
+        "rules"
+      ]
+    },
+    {
+      "name": "Only animate transform and opacity",
+      "bytes": 193,
+      "when": [
+        "animate",
+        "transform",
+        "opacity"
+      ]
+    },
+    {
+      "name": "CSS variables are inheritable",
+      "bytes": 488,
+      "when": [
+        "variables",
+        "inheritable"
+      ]
+    },
+    {
+      "name": "Framer Motion hardware acceleration caveat",
+      "bytes": 769,
+      "when": [
+        "framer",
+        "motion",
+        "hardware",
+        "acceleration",
+        "caveat"
+      ]
+    },
+    {
+      "name": "CSS animations beat JS under load",
+      "bytes": 303,
+      "when": [
+        "animations",
+        "beat",
+        "under",
+        "load"
+      ]
+    },
+    {
+      "name": "Use WAAPI for programmatic CSS animations",
+      "bytes": 379,
+      "when": [
+        "waapi",
+        "programmatic",
+        "animations"
+      ]
+    },
+    {
+      "name": "Accessibility",
+      "bytes": 776,
+      "when": [
+        "accessibility"
+      ]
+    },
+    {
+      "name": "prefers-reduced-motion",
+      "bytes": 495,
+      "when": [
+        "prefers",
+        "reduced",
+        "motion"
+      ]
+    },
+    {
+      "name": "Touch device hover states",
+      "bytes": 261,
+      "when": [
+        "touch",
+        "device",
+        "hover",
+        "states"
+      ]
+    },
+    {
+      "name": "The Sonner Principles (Building Loved Components)",
+      "bytes": 2861,
+      "when": [
+        "sonner",
+        "principles",
+        "building",
+        "loved",
+        "components"
+      ]
+    },
+    {
+      "name": "Cohesion matters",
+      "bytes": 573,
+      "when": [
+        "cohesion",
+        "matters"
+      ]
+    },
+    {
+      "name": "The opacity + height combination",
+      "bytes": 249,
+      "when": [
+        "opacity",
+        "height",
+        "combination"
+      ]
+    },
+    {
+      "name": "Review your work the next day",
+      "bytes": 254,
+      "when": [
+        "review",
+        "work",
+        "next"
+      ]
+    },
+    {
+      "name": "Asymmetric enter/exit timing",
+      "bytes": 471,
+      "when": [
+        "asymmetric",
+        "enter",
+        "exit",
+        "timing"
+      ]
+    },
+    {
+      "name": "Stagger Animations",
+      "bytes": 849,
+      "when": [
+        "stagger",
+        "animations"
+      ]
+    },
+    {
+      "name": "Debugging Animations",
+      "bytes": 1085,
+      "when": [
+        "debugging",
+        "animations"
+      ]
+    },
+    {
+      "name": "Slow motion testing",
+      "bytes": 552,
+      "when": [
+        "slow",
+        "motion",
+        "testing"
+      ]
+    },
+    {
+      "name": "Frame-by-frame inspection",
+      "bytes": 207,
+      "when": [
+        "frame",
+        "inspection"
+      ]
+    },
+    {
+      "name": "Test on real devices",
+      "bytes": 299,
+      "when": [
+        "test",
+        "real",
+        "devices"
+      ]
+    },
+    {
+      "name": "Review Checklist",
+      "bytes": 1596,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    }
+  ],
+  "keywords": [
+    "engineering",
+    "initial",
+    "response",
+    "core",
+    "taste",
+    "trained",
+    "innate",
+    "unseen",
+    "compound",
+    "beauty",
+    "leverage",
+    "review",
+    "format",
+    "required"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\emil-design-eng\\SKILL.md"
+}

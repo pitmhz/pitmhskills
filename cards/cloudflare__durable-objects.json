@@ -30,7 +30,132 @@
   "conflicts_with": [],
   "body_tokens": 1555,
   "core_bytes": 6220,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/cloudflare/skills/durable-objects/SKILL.md"
+  "sections": [
+    {
+      "name": "Retrieval Sources",
+      "bytes": 716,
+      "when": [
+        "retrieval",
+        "sources"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 379,
+      "when": []
+    },
+    {
+      "name": "Reference Documentation",
+      "bytes": 398,
+      "when": [
+        "reference",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Core Principles",
+      "bytes": 579,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "Use Durable Objects For",
+      "bytes": 409,
+      "when": [
+        "durable",
+        "objects"
+      ]
+    },
+    {
+      "name": "Do NOT Use For",
+      "bytes": 148,
+      "when": []
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1298,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Wrangler Configuration",
+      "bytes": 252,
+      "when": [
+        "wrangler",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Basic Durable Object Pattern",
+      "bytes": 1024,
+      "when": [
+        "basic",
+        "durable",
+        "object",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 604,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "Authorization",
+      "bytes": 397,
+      "when": [
+        "authorization"
+      ]
+    },
+    {
+      "name": "Anti-Patterns (NEVER)",
+      "bytes": 359,
+      "when": [
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Stub Creation",
+      "bytes": 366,
+      "when": [
+        "stub",
+        "creation"
+      ]
+    },
+    {
+      "name": "Storage Operations",
+      "bytes": 338,
+      "when": [
+        "storage",
+        "operations"
+      ]
+    },
+    {
+      "name": "Alarms",
+      "bytes": 319,
+      "when": [
+        "alarms"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 214,
+      "when": [
+        "testing"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- npx vitest run"
+  ],
+  "skill_path": "skills/cloudflare/skills/durable-objects/SKILL.md",
+  "curated": true
 }

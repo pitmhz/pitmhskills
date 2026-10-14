@@ -1,0 +1,139 @@
+{
+  "id": "mengto-skills__build-game-map-editor",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b551ec847589b1fbe486210b3da82f95a85801a02c69a34d386ddb65a12ef21a",
+  "purpose": "Build, extend, or audit production-linked browser map editors for Three.js and isometric games. Use when Codex needs to create a private director view, derive a versioned editor document from authored",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Build, extend, or audit production-linked browser map editors for Three.js and isometric games. Use when Codex needs to create a private director view, derive a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2326,
+  "core_bytes": 9303,
+  "sections": [
+    {
+      "name": "Establish the authority boundary",
+      "bytes": 1022,
+      "when": [
+        "establish",
+        "authority",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Define a versioned editor document",
+      "bytes": 1169,
+      "when": [
+        "define",
+        "versioned",
+        "editor",
+        "document"
+      ]
+    },
+    {
+      "name": "Render a paused director scene",
+      "bytes": 1017,
+      "when": [
+        "render",
+        "paused",
+        "director",
+        "scene"
+      ]
+    },
+    {
+      "name": "Make navigation and selection predictable",
+      "bytes": 924,
+      "when": [
+        "navigation",
+        "selection",
+        "predictable"
+      ]
+    },
+    {
+      "name": "Expose gameplay meaning in the inspector",
+      "bytes": 716,
+      "when": [
+        "expose",
+        "gameplay",
+        "meaning",
+        "inspector"
+      ]
+    },
+    {
+      "name": "Keep drafts reversible and isolated",
+      "bytes": 867,
+      "when": [
+        "keep",
+        "drafts",
+        "reversible",
+        "isolated"
+      ]
+    },
+    {
+      "name": "Gate private production tools",
+      "bytes": 1001,
+      "when": [
+        "gate",
+        "private",
+        "production",
+        "tools"
+      ]
+    },
+    {
+      "name": "Integrate a reviewed draft",
+      "bytes": 657,
+      "when": [
+        "integrate",
+        "reviewed",
+        "draft"
+      ]
+    },
+    {
+      "name": "Verify the editor",
+      "bytes": 1138,
+      "when": [
+        "verify",
+        "editor"
+      ]
+    }
+  ],
+  "keywords": [
+    "game",
+    "establish",
+    "authority",
+    "boundary",
+    "define",
+    "render",
+    "paused",
+    "scene",
+    "navigation",
+    "predictable",
+    "meaning",
+    "keep",
+    "drafts",
+    "reversible",
+    "isolated"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\build-game-map-editor\\SKILL.md"
+}

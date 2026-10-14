@@ -1,0 +1,93 @@
+{
+  "id": "awesome-copilot__dotnet-mcp-builder",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7860696a124e61fc1fa6bb38f9c79f6be6eda130e245a814e41f0e7030d09619",
+  "purpose": "Build Model Context Protocol (MCP) servers in C#/.NET against the current ModelContextProtocol 2.x NuGet packages. Helps with cases the model gets wrong without guidance — stale versions (0.x preview ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build Model Context Protocol (MCP) servers in C#/.NET against the current ModelContextProtocol 2.x NuGet packages. Helps with cases the model gets wrong without"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2148,
+  "core_bytes": 8614,
+  "sections": [
+    {
+      "name": "When this skill earns its keep",
+      "bytes": 1028,
+      "when": [
+        "skill",
+        "earns",
+        "keep"
+      ]
+    },
+    {
+      "name": "Mental model in 30 seconds",
+      "bytes": 941,
+      "when": [
+        "mental",
+        "model",
+        "seconds"
+      ]
+    },
+    {
+      "name": "Decision tree → which references to load",
+      "bytes": 1173,
+      "when": [
+        "decision",
+        "tree",
+        "references",
+        "load"
+      ]
+    },
+    {
+      "name": "Cardinal rules (apply always; these prevent the highest-frequency breakages)",
+      "bytes": 2456,
+      "when": [
+        "cardinal",
+        "rules",
+        "apply",
+        "prevent",
+        "highest",
+        "frequency",
+        "breakages"
+      ]
+    },
+    {
+      "name": "Working style",
+      "bytes": 431,
+      "when": [
+        "working",
+        "style"
+      ]
+    },
+    {
+      "name": "When the user is stuck",
+      "bytes": 1223,
+      "when": [
+        "user",
+        "stuck"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dotnet-mcp-builder\\SKILL.md"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "mengto-skills__threejs-towers",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "21ffebe2159b772874a92339e8d145ee34a282f8bfa0797e442cf64d805c4025",
+  "purpose": "Generate architecture procedurally in Three.js and film it assembling — a small geometry vocabulary that builds pagodas, castles, domes and spires from parameters instead of mesh files, hip roofs with",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate architecture procedurally in Three.js and film it assembling — a small geometry vocabulary that builds pagodas, castles, domes and spires from paramete"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2082,
+  "core_bytes": 8388,
+  "sections": [
+    {
+      "name": "Build the vocabulary before the building",
+      "bytes": 1380,
+      "when": [
+        "build",
+        "vocabulary",
+        "before",
+        "building"
+      ]
+    },
+    {
+      "name": "Roofs are a function of position along the eave",
+      "bytes": 1162,
+      "when": [
+        "roofs",
+        "function",
+        "position",
+        "eave"
+      ]
+    },
+    {
+      "name": "Non-square plans",
+      "bytes": 803,
+      "when": [
+        "square",
+        "plans"
+      ]
+    },
+    {
+      "name": "Size detail to the surface it sits on",
+      "bytes": 413,
+      "when": [
+        "size",
+        "detail",
+        "surface",
+        "sits"
+      ]
+    },
+    {
+      "name": "The build animation is one clipping plane",
+      "bytes": 1269,
+      "when": [
+        "build",
+        "animation",
+        "clipping",
+        "plane"
+      ]
+    },
+    {
+      "name": "Scaffolding is the exception to the plane",
+      "bytes": 845,
+      "when": [
+        "scaffolding",
+        "exception",
+        "plane"
+      ]
+    },
+    {
+      "name": "Stages carry the timeline",
+      "bytes": 630,
+      "when": [
+        "stages",
+        "carry",
+        "timeline"
+      ]
+    },
+    {
+      "name": "Emissive light leaks",
+      "bytes": 362,
+      "when": [
+        "emissive",
+        "light",
+        "leaks"
+      ]
+    },
+    {
+      "name": "What to check before you call it done",
+      "bytes": 631,
+      "when": [
+        "check",
+        "before",
+        "call",
+        "done"
+      ]
+    }
+  ],
+  "keywords": [
+    "towers",
+    "before",
+    "building",
+    "position",
+    "eave",
+    "square",
+    "plans",
+    "size",
+    "detail",
+    "surface",
+    "sits",
+    "exception"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\threejs-towers\\SKILL.md"
+}

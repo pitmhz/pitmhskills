@@ -1,0 +1,101 @@
+{
+  "id": "jakubkrehel-skills__build-design",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "0674c683f069f1bb4bd0646537bb926fa604ff725b13001542bf88e5e7fbb210",
+  "purpose": "Builds UI from a Figma file or a design image so it matches the design, using your project's existing tokens and components.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Builds UI from a Figma file or a design image so it matches the design, using your project's existing tokens and components."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Build UI matching a Figma file / design image -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "figma image match tokens",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1543,
+  "core_bytes": 6169,
+  "sections": [
+    {
+      "name": "1. Read the design at its source",
+      "bytes": 1144,
+      "when": [
+        "read",
+        "design",
+        "source"
+      ]
+    },
+    {
+      "name": "2. Map the design onto the project",
+      "bytes": 1180,
+      "when": [
+        "design",
+        "onto",
+        "project"
+      ]
+    },
+    {
+      "name": "3. Build only what the design shows",
+      "bytes": 479,
+      "when": [
+        "build",
+        "design",
+        "shows"
+      ]
+    },
+    {
+      "name": "4. Compare against the design",
+      "bytes": 617,
+      "when": [
+        "compare",
+        "against",
+        "design"
+      ]
+    },
+    {
+      "name": "5. Report and stop",
+      "bytes": 626,
+      "when": [
+        "report",
+        "stop"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 976,
+      "when": [
+        "before",
+        "finish"
+      ]
+    }
+  ],
+  "keywords": [
+    "build",
+    "read",
+    "source",
+    "onto",
+    "shows",
+    "compare",
+    "against",
+    "report",
+    "stop",
+    "before",
+    "finish"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\build-design\\SKILL.md"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "kemiljk-skills__ai-output-judgement",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "d13c41bea8a602cee0e57225f4e8f3a4c7b9834d1c73e1fdd0b70c3ffd90108c",
+  "purpose": "Critique generated UI, copy, or code when the user requests a quality review of AI output.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Critique generated UI, copy, or code when the user requests a quality review of AI output."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Quality review of AI-generated UI/copy/code -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "judge generated output",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 550,
+  "core_bytes": 2215,
+  "sections": [
+    {
+      "name": "Defaults",
+      "bytes": 342,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Common median failures",
+      "bytes": 390,
+      "when": [
+        "common",
+        "median",
+        "failures"
+      ]
+    },
+    {
+      "name": "Review rubric",
+      "bytes": 379,
+      "when": [
+        "review",
+        "rubric"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 318,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 308,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Source essays",
+      "bytes": 120,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "judgement",
+    "defaults",
+    "common",
+    "median",
+    "failures",
+    "rubric",
+    "prefer",
+    "reject",
+    "checklist",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\ai-output-judgement\\SKILL.md"
+}

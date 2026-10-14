@@ -1,0 +1,265 @@
+{
+  "id": "anthropic__doc-coauthoring",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "Apache-2.0",
+  "hash": "acb9b89b228fb818ffe2f464e40b1cdbf6948b50ceeeb7378f0e5b9d78c996ad",
+  "purpose": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This wor",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4048,
+  "core_bytes": 16190,
+  "sections": [
+    {
+      "name": "When to Offer This Workflow",
+      "bytes": 995,
+      "when": [
+        "offer",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Stage 1: Context Gathering",
+      "bytes": 3837,
+      "when": [
+        "stage",
+        "context",
+        "gathering"
+      ]
+    },
+    {
+      "name": "Initial Questions",
+      "bytes": 1099,
+      "when": [
+        "initial",
+        "questions"
+      ]
+    },
+    {
+      "name": "Info Dumping",
+      "bytes": 2596,
+      "when": [
+        "info",
+        "dumping"
+      ]
+    },
+    {
+      "name": "Stage 2: Refinement & Structure",
+      "bytes": 5916,
+      "when": [
+        "stage",
+        "refinement",
+        "structure"
+      ]
+    },
+    {
+      "name": "Step 1: Clarifying Questions",
+      "bytes": 318,
+      "when": [
+        "step",
+        "clarifying",
+        "questions"
+      ]
+    },
+    {
+      "name": "Step 2: Brainstorming",
+      "bytes": 390,
+      "when": [
+        "step",
+        "brainstorming"
+      ]
+    },
+    {
+      "name": "Step 3: Curation",
+      "bytes": 511,
+      "when": [
+        "step",
+        "curation"
+      ]
+    },
+    {
+      "name": "Step 4: Gap Check",
+      "bytes": 134,
+      "when": [
+        "step",
+        "check"
+      ]
+    },
+    {
+      "name": "Step 5: Drafting",
+      "bytes": 1011,
+      "when": [
+        "step",
+        "drafting"
+      ]
+    },
+    {
+      "name": "Step 6: Iterative Refinement",
+      "bytes": 482,
+      "when": [
+        "step",
+        "iterative",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Quality Checking",
+      "bytes": 291,
+      "when": [
+        "quality",
+        "checking"
+      ]
+    },
+    {
+      "name": "Near Completion",
+      "bytes": 677,
+      "when": [
+        "near",
+        "completion"
+      ]
+    },
+    {
+      "name": "Stage 3: Reader Testing",
+      "bytes": 2931,
+      "when": [
+        "stage",
+        "reader",
+        "testing"
+      ]
+    },
+    {
+      "name": "Testing Approach",
+      "bytes": 150,
+      "when": [
+        "testing",
+        "approach"
+      ]
+    },
+    {
+      "name": "Step 1: Predict Reader Questions",
+      "bytes": 210,
+      "when": [
+        "step",
+        "predict",
+        "reader",
+        "questions"
+      ]
+    },
+    {
+      "name": "Step 2: Test with Sub-Agent",
+      "bytes": 306,
+      "when": [
+        "step",
+        "test",
+        "agent"
+      ]
+    },
+    {
+      "name": "Step 3: Run Additional Checks",
+      "bytes": 196,
+      "when": [
+        "step",
+        "additional",
+        "checks"
+      ]
+    },
+    {
+      "name": "Step 4: Report and Fix",
+      "bytes": 356,
+      "when": [
+        "step",
+        "report"
+      ]
+    },
+    {
+      "name": "Step 1: Predict Reader Questions",
+      "bytes": 220,
+      "when": [
+        "step",
+        "predict",
+        "reader",
+        "questions"
+      ]
+    },
+    {
+      "name": "Step 2: Setup Testing",
+      "bytes": 529,
+      "when": [
+        "step",
+        "setup",
+        "testing"
+      ]
+    },
+    {
+      "name": "Step 3: Additional Checks",
+      "bytes": 261,
+      "when": [
+        "step",
+        "additional",
+        "checks"
+      ]
+    },
+    {
+      "name": "Step 4: Iterate Based on Results",
+      "bytes": 197,
+      "when": [
+        "step",
+        "iterate",
+        "based",
+        "results"
+      ]
+    },
+    {
+      "name": "Exit Condition (Both Approaches)",
+      "bytes": 166,
+      "when": [
+        "exit",
+        "condition",
+        "both",
+        "approaches"
+      ]
+    },
+    {
+      "name": "Final Review",
+      "bytes": 762,
+      "when": [
+        "final",
+        "review"
+      ]
+    },
+    {
+      "name": "Tips for Effective Guidance",
+      "bytes": 1013,
+      "when": [
+        "tips",
+        "effective",
+        "guidance"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/anthropic/skills/doc-coauthoring/SKILL.md",
+  "curated": true
+}

@@ -28,7 +28,67 @@
   "conflicts_with": [],
   "body_tokens": 1679,
   "core_bytes": 6731,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Documentation",
+      "bytes": 1268,
+      "when": [
+        "documentation"
+      ]
+    },
+    {
+      "name": "FIRST: check installation and sign in",
+      "bytes": 1036,
+      "when": [
+        "first",
+        "check",
+        "installation",
+        "sign"
+      ]
+    },
+    {
+      "name": "Find commands",
+      "bytes": 532,
+      "when": [
+        "find",
+        "commands"
+      ]
+    },
+    {
+      "name": "Read output",
+      "bytes": 329,
+      "when": [
+        "read",
+        "output"
+      ]
+    },
+    {
+      "name": "Run commands safely",
+      "bytes": 750,
+      "when": [
+        "commands",
+        "safely"
+      ]
+    },
+    {
+      "name": "Choose the CLI for this project",
+      "bytes": 1228,
+      "when": [
+        "choose",
+        "project"
+      ]
+    },
+    {
+      "name": "Commands `cf` does not support yet",
+      "bytes": 661,
+      "when": [
+        "commands",
+        "support"
+      ]
+    }
+  ],
+  "verify": [
+    "npx wrangler deploy --dry-run"
+  ],
   "skill_path": "skills/cloudflare/skills/cf-cli/SKILL.md"
 }

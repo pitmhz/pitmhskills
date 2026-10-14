@@ -1,0 +1,181 @@
+{
+  "id": "awesome-copilot__go-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "70d1f1f45ab175da155c5d1109394a8eab074bdd85fa01e452d68347cf132ccb",
+  "purpose": "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1759,
+  "core_bytes": 7115,
+  "sections": [
+    {
+      "name": "Project Requirements",
+      "bytes": 464,
+      "when": [
+        "project",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Template Structure",
+      "bytes": 298,
+      "when": [
+        "template",
+        "structure"
+      ]
+    },
+    {
+      "name": "go.mod Template",
+      "bytes": 151,
+      "when": [
+        "template"
+      ]
+    },
+    {
+      "name": "main.go Template",
+      "bytes": 1270,
+      "when": [
+        "main",
+        "template"
+      ]
+    },
+    {
+      "name": "tools/tool1.go Template",
+      "bytes": 1300,
+      "when": [
+        "tools",
+        "tool1",
+        "template"
+      ]
+    },
+    {
+      "name": "tools/registry.go Template",
+      "bytes": 243,
+      "when": [
+        "tools",
+        "registry",
+        "template"
+      ]
+    },
+    {
+      "name": "config/config.go Template",
+      "bytes": 518,
+      "when": [
+        "config",
+        "template"
+      ]
+    },
+    {
+      "name": "main_test.go Template",
+      "bytes": 626,
+      "when": [
+        "main",
+        "test",
+        "template"
+      ]
+    },
+    {
+      "name": "README.md Template",
+      "bytes": 109,
+      "when": [
+        "readme",
+        "template"
+      ]
+    },
+    {
+      "name": "Description",
+      "bytes": 41,
+      "when": [
+        "description"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 81,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 86,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 211,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Available Tools",
+      "bytes": 253,
+      "when": [
+        "available",
+        "tools"
+      ]
+    },
+    {
+      "name": "tool1",
+      "bytes": 233,
+      "when": [
+        "tool1"
+      ]
+    },
+    {
+      "name": "Development",
+      "bytes": 117,
+      "when": [
+        "development"
+      ]
+    },
+    {
+      "name": "License",
+      "bytes": 21,
+      "when": [
+        "license"
+      ]
+    },
+    {
+      "name": "Generation Instructions",
+      "bytes": 658,
+      "when": [
+        "generation",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 332,
+      "when": [
+        "best",
+        "practices"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\go-mcp-server-generator\\SKILL.md"
+}

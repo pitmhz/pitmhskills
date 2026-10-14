@@ -28,7 +28,452 @@
   "conflicts_with": [],
   "body_tokens": 4690,
   "core_bytes": 18758,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/figma-create-design-system-rules/SKILL.md"
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 532,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Supported Rule Files",
+      "bytes": 190,
+      "when": [
+        "supported",
+        "rule",
+        "files"
+      ]
+    },
+    {
+      "name": "What Are Design System Rules?",
+      "bytes": 642,
+      "when": [
+        "design",
+        "system",
+        "rules"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 211,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "When to Use This Skill",
+      "bytes": 427,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Required Workflow",
+      "bytes": 2435,
+      "when": [
+        "required",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Run the Create Design System Rules Tool",
+      "bytes": 597,
+      "when": [
+        "step",
+        "create",
+        "design",
+        "system",
+        "rules",
+        "tool"
+      ]
+    },
+    {
+      "name": "Step 2: Analyze the Codebase",
+      "bytes": 968,
+      "when": [
+        "step",
+        "analyze",
+        "codebase"
+      ]
+    },
+    {
+      "name": "Step 3: Generate Project-Specific Rules",
+      "bytes": 791,
+      "when": [
+        "step",
+        "generate",
+        "project",
+        "specific",
+        "rules"
+      ]
+    },
+    {
+      "name": "Figma MCP Integration Rules",
+      "bytes": 1502,
+      "when": [
+        "figma",
+        "integration",
+        "rules"
+      ]
+    },
+    {
+      "name": "Required Flow (do not skip)",
+      "bytes": 679,
+      "when": [
+        "required",
+        "flow",
+        "skip"
+      ]
+    },
+    {
+      "name": "Implementation Rules",
+      "bytes": 658,
+      "when": [
+        "implementation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Asset Handling",
+      "bytes": 504,
+      "when": [
+        "asset",
+        "handling"
+      ]
+    },
+    {
+      "name": "Project-Specific Conventions",
+      "bytes": 1947,
+      "when": [
+        "project",
+        "specific",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Step 4: Save Rules to the Appropriate Rule File",
+      "bytes": 1410,
+      "when": [
+        "step",
+        "save",
+        "rules",
+        "appropriate",
+        "rule",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 5: Validate and Iterate",
+      "bytes": 300,
+      "when": [
+        "step",
+        "validate",
+        "iterate"
+      ]
+    },
+    {
+      "name": "Rule Categories and Examples",
+      "bytes": 2069,
+      "when": [
+        "rule",
+        "categories",
+        "examples"
+      ]
+    },
+    {
+      "name": "Essential Rules (Always Include)",
+      "bytes": 691,
+      "when": [
+        "essential",
+        "rules",
+        "include"
+      ]
+    },
+    {
+      "name": "Recommended Rules (Highly Valuable)",
+      "bytes": 682,
+      "when": [
+        "recommended",
+        "rules",
+        "highly",
+        "valuable"
+      ]
+    },
+    {
+      "name": "Optional Rules (Project-Specific)",
+      "bytes": 661,
+      "when": [
+        "optional",
+        "rules",
+        "project",
+        "specific"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 341,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: React + Tailwind Project",
+      "bytes": 326,
+      "when": [
+        "example",
+        "react",
+        "tailwind",
+        "project"
+      ]
+    },
+    {
+      "name": "Component Organization",
+      "bytes": 141,
+      "when": [
+        "component",
+        "organization"
+      ]
+    },
+    {
+      "name": "Figma Implementation Flow",
+      "bytes": 301,
+      "when": [
+        "figma",
+        "implementation",
+        "flow"
+      ]
+    },
+    {
+      "name": "Styling Rules",
+      "bytes": 232,
+      "when": [
+        "styling",
+        "rules"
+      ]
+    },
+    {
+      "name": "Asset Rules",
+      "bytes": 742,
+      "when": [
+        "asset",
+        "rules"
+      ]
+    },
+    {
+      "name": "Example 2: Vue + Custom CSS Project",
+      "bytes": 355,
+      "when": [
+        "example",
+        "custom",
+        "project"
+      ]
+    },
+    {
+      "name": "Component Organization",
+      "bytes": 176,
+      "when": [
+        "component",
+        "organization"
+      ]
+    },
+    {
+      "name": "Design Tokens",
+      "bytes": 275,
+      "when": [
+        "design",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Figma Implementation Flow",
+      "bytes": 318,
+      "when": [
+        "figma",
+        "implementation",
+        "flow"
+      ]
+    },
+    {
+      "name": "Styling Rules",
+      "bytes": 725,
+      "when": [
+        "styling",
+        "rules"
+      ]
+    },
+    {
+      "name": "Example 3: Design System Team",
+      "bytes": 343,
+      "when": [
+        "example",
+        "design",
+        "system",
+        "team"
+      ]
+    },
+    {
+      "name": "Repository Structure",
+      "bytes": 175,
+      "when": [
+        "repository",
+        "structure"
+      ]
+    },
+    {
+      "name": "Component Development",
+      "bytes": 289,
+      "when": [
+        "component",
+        "development"
+      ]
+    },
+    {
+      "name": "Design Tokens",
+      "bytes": 226,
+      "when": [
+        "design",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Documentation Requirements",
+      "bytes": 176,
+      "when": [
+        "documentation",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Figma Integration",
+      "bytes": 492,
+      "when": [
+        "figma",
+        "integration"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 1172,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Start Simple, Iterate",
+      "bytes": 163,
+      "when": [
+        "start",
+        "simple",
+        "iterate"
+      ]
+    },
+    {
+      "name": "Be Specific",
+      "bytes": 187,
+      "when": [
+        "specific"
+      ]
+    },
+    {
+      "name": "Make Rules Actionable",
+      "bytes": 226,
+      "when": [
+        "rules",
+        "actionable"
+      ]
+    },
+    {
+      "name": "Use IMPORTANT for Critical Rules",
+      "bytes": 274,
+      "when": [
+        "important",
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "Document the Why",
+      "bytes": 301,
+      "when": [
+        "document"
+      ]
+    },
+    {
+      "name": "Common Issues and Solutions",
+      "bytes": 1306,
+      "when": [
+        "common",
+        "issues",
+        "solutions"
+      ]
+    },
+    {
+      "name": "Issue: The agent isn't following the rules",
+      "bytes": 334,
+      "when": [
+        "issue",
+        "agent",
+        "following",
+        "rules"
+      ]
+    },
+    {
+      "name": "Issue: Rules conflict with each other",
+      "bytes": 271,
+      "when": [
+        "issue",
+        "rules",
+        "conflict",
+        "each"
+      ]
+    },
+    {
+      "name": "Issue: Too many rules increase latency",
+      "bytes": 359,
+      "when": [
+        "issue",
+        "rules",
+        "increase",
+        "latency"
+      ]
+    },
+    {
+      "name": "Issue: Rules become outdated as project evolves",
+      "bytes": 308,
+      "when": [
+        "issue",
+        "rules",
+        "become",
+        "outdated",
+        "project",
+        "evolves"
+      ]
+    },
+    {
+      "name": "Understanding Design System Rules",
+      "bytes": 741,
+      "when": [
+        "understanding",
+        "design",
+        "system",
+        "rules"
+      ]
+    },
+    {
+      "name": "Additional Resources",
+      "bytes": 240,
+      "when": [
+        "additional",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/figma-create-design-system-rules/SKILL.md",
+  "curated": true
 }

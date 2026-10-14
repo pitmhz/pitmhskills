@@ -29,7 +29,153 @@
   "conflicts_with": [],
   "body_tokens": 4409,
   "core_bytes": 17633,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/vercel/skills/vercel-optimize/SKILL.md"
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 774,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Framework Support",
+      "bytes": 1239,
+      "when": [
+        "framework",
+        "support"
+      ]
+    },
+    {
+      "name": "Run Directory",
+      "bytes": 196,
+      "when": [
+        "directory"
+      ]
+    },
+    {
+      "name": "Pipeline",
+      "bytes": 10212,
+      "when": [
+        "pipeline"
+      ]
+    },
+    {
+      "name": "1. Collect, scan, and merge signals",
+      "bytes": 2158,
+      "when": [
+        "collect",
+        "scan",
+        "merge",
+        "signals"
+      ]
+    },
+    {
+      "name": "1.1 Stop on blockers",
+      "bytes": 2066,
+      "when": [
+        "stop",
+        "blockers"
+      ]
+    },
+    {
+      "name": "2. Gate candidates",
+      "bytes": 792,
+      "when": [
+        "gate",
+        "candidates"
+      ]
+    },
+    {
+      "name": "2.1 Ask about audit scope when needed",
+      "bytes": 661,
+      "when": [
+        "audit",
+        "scope",
+        "needed"
+      ]
+    },
+    {
+      "name": "2.2 Deep-dive and reconcile",
+      "bytes": 751,
+      "when": [
+        "deep",
+        "dive",
+        "reconcile"
+      ]
+    },
+    {
+      "name": "2.3 Generate briefs and investigate",
+      "bytes": 1524,
+      "when": [
+        "generate",
+        "briefs",
+        "investigate"
+      ]
+    },
+    {
+      "name": "2.4 Collect outputs",
+      "bytes": 466,
+      "when": [
+        "collect",
+        "outputs"
+      ]
+    },
+    {
+      "name": "3. Verify recommendations",
+      "bytes": 910,
+      "when": [
+        "verify",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "4. Render report and final message",
+      "bytes": 869,
+      "when": [
+        "render",
+        "report",
+        "final",
+        "message"
+      ]
+    },
+    {
+      "name": "Recommendation Rules",
+      "bytes": 1845,
+      "when": [
+        "recommendation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Scanner Rules",
+      "bytes": 449,
+      "when": [
+        "scanner",
+        "rules"
+      ]
+    },
+    {
+      "name": "Final Customer Terms",
+      "bytes": 271,
+      "when": [
+        "final",
+        "customer",
+        "terms"
+      ]
+    },
+    {
+      "name": "Failure Copy",
+      "bytes": 1183,
+      "when": [
+        "failure",
+        "copy"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/vercel/skills/vercel-optimize/SKILL.md",
+  "curated": true
 }

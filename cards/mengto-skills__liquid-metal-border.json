@@ -1,0 +1,172 @@
+{
+  "id": "mengto-skills__liquid-metal-border",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "48cfbe4b4b529f62389a63167bfc8a781ffd778bc21772fffdae0cd06415b961",
+  "purpose": "Add and tune animated liquid-metal WebGL borders with the React `metal-fx` package. Use when buttons, icon controls, chips, tabs, cards, or selected surfaces need a metallic active, selected, hover, f",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Add and tune animated liquid-metal WebGL borders with the React `metal-fx` package. Use when buttons, icon controls, chips, tabs, cards, or selected surfaces ne"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3490,
+  "core_bytes": 13972,
+  "sections": [
+    {
+      "name": "Core Contract",
+      "bytes": 651,
+      "when": [
+        "core",
+        "contract"
+      ]
+    },
+    {
+      "name": "Inspect Before Editing",
+      "bytes": 676,
+      "when": [
+        "inspect",
+        "before",
+        "editing"
+      ]
+    },
+    {
+      "name": "Install and Import",
+      "bytes": 550,
+      "when": [
+        "install",
+        "import"
+      ]
+    },
+    {
+      "name": "Baseline Button",
+      "bytes": 562,
+      "when": [
+        "baseline",
+        "button"
+      ]
+    },
+    {
+      "name": "Active-State Pattern",
+      "bytes": 2356,
+      "when": [
+        "active",
+        "state",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Static Border and Card Pattern",
+      "bytes": 656,
+      "when": [
+        "static",
+        "border",
+        "card",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Complete Customization Surface",
+      "bytes": 2352,
+      "when": [
+        "complete",
+        "customization",
+        "surface"
+      ]
+    },
+    {
+      "name": "Tuning Defaults",
+      "bytes": 772,
+      "when": [
+        "tuning",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Sizing and Radius",
+      "bytes": 612,
+      "when": [
+        "sizing",
+        "radius"
+      ]
+    },
+    {
+      "name": "Proximity Reflections",
+      "bytes": 460,
+      "when": [
+        "proximity",
+        "reflections"
+      ]
+    },
+    {
+      "name": "Accessibility and Motion",
+      "bytes": 776,
+      "when": [
+        "accessibility",
+        "motion"
+      ]
+    },
+    {
+      "name": "Performance",
+      "bytes": 576,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 1016,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Failure Diagnosis",
+      "bytes": 1184,
+      "when": [
+        "failure",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Handoff",
+      "bytes": 264,
+      "when": [
+        "handoff"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "contract",
+    "inspect",
+    "before",
+    "editing",
+    "install",
+    "import",
+    "pnpm",
+    "yarn",
+    "baseline",
+    "button",
+    "state",
+    "pattern"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\liquid-metal-border\\SKILL.md"
+}

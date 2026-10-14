@@ -1,0 +1,109 @@
+{
+  "id": "nvidia__tilegym-adding-cutile-kernel",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f780e59c0c23def35cce6f1de82bcba027e065682e2f855e8da9f7ba83a978bc",
+  "purpose": "Add a new cuTile GPU kernel operator to TileGym. Covers dispatch registration in ops.py, cuTile backend implementation, __init__.py exports, test creation, and benchmark in tests/benchmark. Use when a",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Add a new cuTile GPU kernel operator to TileGym. Covers dispatch registration in ops.py, cuTile backend implementation, __init__.py exports, test creation, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2124,
+  "core_bytes": 8506,
+  "sections": [
+    {
+      "name": "Execution Rules",
+      "bytes": 486,
+      "when": [
+        "execution",
+        "rules"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 342,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1: Register dispatch interface",
+      "bytes": 876,
+      "when": [
+        "step",
+        "register",
+        "dispatch",
+        "interface"
+      ]
+    },
+    {
+      "name": "Step 2: Implement cuTile backend",
+      "bytes": 899,
+      "when": [
+        "step",
+        "implement",
+        "cutile",
+        "backend"
+      ]
+    },
+    {
+      "name": "Step 3: Register in `__init__.py` (CRITICAL)",
+      "bytes": 413,
+      "when": [
+        "step",
+        "register",
+        "init",
+        "critical"
+      ]
+    },
+    {
+      "name": "Step 4: Add tests",
+      "bytes": 1733,
+      "when": [
+        "step",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 5: Add benchmark to tests/benchmark",
+      "bytes": 2895,
+      "when": [
+        "step",
+        "benchmark",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 6: Verify",
+      "bytes": 181,
+      "when": [
+        "step",
+        "verify"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- pytest",
+    "pre-commit run -a"
+  ],
+  "skill_path": "skills/nvidia/skills/tilegym-adding-cutile-kernel/SKILL.md",
+  "curated": true
+}

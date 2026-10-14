@@ -1,0 +1,110 @@
+{
+  "id": "nvidia__i4h-workflow-dataset-mimic",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e0ad2f83146f5ec3e60a1f39219e69e3a5012e830714ed4cdd7ba786fd7adc8a",
+  "purpose": "Expand workflow HDF5 demonstrations with action jitter, optionally scoped to node segments. Use for synthetic variants; do not use to collect data, alter state directly, or generate new images.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Expand workflow HDF5 demonstrations with action jitter, optionally scoped to node segments. Use for synthetic variants; do not use to collect data, alter state "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1007,
+  "core_bytes": 4027,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 80,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 250,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve and inspect",
+      "bytes": 1472,
+      "when": [
+        "resolve",
+        "inspect"
+      ]
+    },
+    {
+      "name": "Expand",
+      "bytes": 499,
+      "when": [
+        "expand"
+      ]
+    },
+    {
+      "name": "Verify and compose",
+      "bytes": 416,
+      "when": [
+        "verify",
+        "compose"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 145,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 132,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 122,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 161,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 195,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-dataset-mimic/SKILL.md",
+  "curated": true
+}

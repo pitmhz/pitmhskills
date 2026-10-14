@@ -1,0 +1,116 @@
+{
+  "id": "gsap__gsap-timeline",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "fbe7a2b9e66e66d2c956f650583d48385498b677ba1292f1dce9d1ffb1a77ea0",
+  "purpose": "Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing keyframes, or when the user asks about animation sequencing, ",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing keyframes, or when th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1112,
+  "core_bytes": 4501,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 372,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Creating a Timeline",
+      "bytes": 351,
+      "when": [
+        "creating",
+        "timeline"
+      ]
+    },
+    {
+      "name": "Position Parameter",
+      "bytes": 783,
+      "when": [
+        "position",
+        "parameter"
+      ]
+    },
+    {
+      "name": "Timeline Defaults",
+      "bytes": 268,
+      "when": [
+        "timeline",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Timeline Options (constructor)",
+      "bytes": 303,
+      "when": [
+        "timeline",
+        "options",
+        "constructor"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 424,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Nesting Timelines",
+      "bytes": 268,
+      "when": [
+        "nesting",
+        "timelines"
+      ]
+    },
+    {
+      "name": "Controlling Playback",
+      "bytes": 310,
+      "when": [
+        "controlling",
+        "playback"
+      ]
+    },
+    {
+      "name": "Official GSAP Best practices",
+      "bytes": 463,
+      "when": [
+        "official",
+        "gsap",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 581,
+      "when": []
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-timeline\\SKILL.md",
+  "curated": true
+}

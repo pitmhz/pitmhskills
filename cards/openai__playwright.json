@@ -27,7 +27,110 @@
   "conflicts_with": [],
   "body_tokens": 980,
   "core_bytes": 3918,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/playwright/SKILL.md"
+  "sections": [
+    {
+      "name": "Prerequisite check (required)",
+      "bytes": 598,
+      "when": [
+        "prerequisite",
+        "check",
+        "required"
+      ]
+    },
+    {
+      "name": "Skill path (set once)",
+      "bytes": 252,
+      "when": [
+        "skill",
+        "path",
+        "once"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 357,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Core workflow",
+      "bytes": 379,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "When to snapshot again",
+      "bytes": 256,
+      "when": [
+        "snapshot",
+        "again"
+      ]
+    },
+    {
+      "name": "Recommended patterns",
+      "bytes": 538,
+      "when": [
+        "recommended",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Form fill and submit",
+      "bytes": 210,
+      "when": [
+        "form",
+        "fill",
+        "submit"
+      ]
+    },
+    {
+      "name": "Debug a UI flow with traces",
+      "bytes": 164,
+      "when": [
+        "debug",
+        "flow",
+        "traces"
+      ]
+    },
+    {
+      "name": "Multi-tab work",
+      "bytes": 137,
+      "when": [
+        "multi",
+        "work"
+      ]
+    },
+    {
+      "name": "Wrapper script",
+      "bytes": 259,
+      "when": [
+        "wrapper",
+        "script"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 163,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 547,
+      "when": [
+        "guardrails"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/playwright/SKILL.md",
+  "curated": true
 }

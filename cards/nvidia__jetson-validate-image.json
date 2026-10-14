@@ -1,0 +1,108 @@
+{
+  "id": "nvidia__jetson-validate-image",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "98c8a04a00ba1344cc8569395d65c9e26f5c5b9dd0427b69e8235bc6a293ecde",
+  "purpose": "Use after jetson-flash-image to run static BSP checks, on-target smoke/regression tests on a flashed DUT, or both. Not for build or flash steps. Triggers: validate bsp, on-target validation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use after jetson-flash-image to run static BSP checks, on-target smoke/regression tests on a flashed DUT, or both. Not for build or flash steps. Triggers: valid"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3535,
+  "core_bytes": 14207,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 446,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 743,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 254,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 5195,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "DUT access",
+      "bytes": 1010,
+      "when": [
+        "access"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 1282,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 539,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1322,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2208,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 633,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-validate-image\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,112 @@
+{
+  "id": "mengto-skills__paper-cinder-transition",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "74f9c2ceaa7eac3f3a41d63491adf8f7b85271a916967dff46c1a52a0b952d08",
+  "purpose": "Change between pages, chapters or scenes with a paper-burn transition, a ragged ember line that sweeps across the frame, chars the old page ahead of it and reveals the next scene live behind it, writt",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Change between pages, chapters or scenes with a paper-burn transition, a ragged ember line that sweeps across the frame, chars the old page ahead of it and reve"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2936,
+  "core_bytes": 11744,
+  "sections": [
+    {
+      "name": "The mechanism",
+      "bytes": 883,
+      "when": [
+        "mechanism"
+      ]
+    },
+    {
+      "name": "Staging split",
+      "bytes": 425,
+      "when": [
+        "staging",
+        "split"
+      ]
+    },
+    {
+      "name": "Rules, each tied to the failure it prevents",
+      "bytes": 5512,
+      "when": [
+        "rules",
+        "each",
+        "tied",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Constants",
+      "bytes": 850,
+      "when": [
+        "constants"
+      ]
+    },
+    {
+      "name": "Gotchas, symptom first",
+      "bytes": 1531,
+      "when": [
+        "gotchas",
+        "symptom",
+        "first"
+      ]
+    },
+    {
+      "name": "Accessibility and lifecycle",
+      "bytes": 674,
+      "when": [
+        "accessibility",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Cost",
+      "bytes": 287,
+      "when": [
+        "cost"
+      ]
+    },
+    {
+      "name": "Provenance",
+      "bytes": 319,
+      "when": [
+        "provenance"
+      ]
+    }
+  ],
+  "keywords": [
+    "mechanism",
+    "staging",
+    "split",
+    "rules",
+    "each",
+    "tied",
+    "failure",
+    "prevents",
+    "constants",
+    "gotchas",
+    "symptom",
+    "first"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\paper-cinder-transition\\SKILL.md"
+}

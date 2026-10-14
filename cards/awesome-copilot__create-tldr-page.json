@@ -1,0 +1,140 @@
+{
+  "id": "awesome-copilot__create-tldr-page",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "84f5de3042628b193ea9316518542454caef11007635229ca4262445b510356b",
+  "purpose": "Create a tldr page from documentation URLs and command examples, requiring both URL and command name.",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create a tldr page from documentation URLs and command examples, requiring both URL and command name."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1583,
+  "core_bytes": 6331,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 251,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Objectives",
+      "bytes": 396,
+      "when": [
+        "objectives"
+      ]
+    },
+    {
+      "name": "Prompt Parameters",
+      "bytes": 1102,
+      "when": [
+        "prompt",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Required",
+      "bytes": 584,
+      "when": [
+        "required"
+      ]
+    },
+    {
+      "name": "Optional",
+      "bytes": 496,
+      "when": [
+        "optional"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 860,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Syntax",
+      "bytes": 93,
+      "when": [
+        "syntax"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 757,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Template",
+      "bytes": 810,
+      "when": [
+        "template"
+      ]
+    },
+    {
+      "name": "Template Guidelines",
+      "bytes": 409,
+      "when": [
+        "template",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 2743,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Reference Examples",
+      "bytes": 409,
+      "when": [
+        "reference",
+        "examples"
+      ]
+    },
+    {
+      "name": "Expected Output Using Example",
+      "bytes": 921,
+      "when": [
+        "expected",
+        "output",
+        "example"
+      ]
+    },
+    {
+      "name": "Output Formatting Rules",
+      "bytes": 1400,
+      "when": [
+        "output",
+        "formatting",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-tldr-page\\SKILL.md"
+}

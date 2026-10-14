@@ -1,0 +1,313 @@
+{
+  "id": "awesome-copilot__arize-prompt-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c46bfbea3014681cc140827d9bed11834371b74dc26d792a31ba615bb60f919e",
+  "purpose": "Optimizes, improves, and debugs LLM prompts using production trace data, evaluations, and annotations. Extracts prompts from spans, gathers performance signal, and runs a data-driven optimization loop",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Optimizes, improves, and debugs LLM prompts using production trace data, evaluations, and annotations. Extracts prompts from spans, gathers performance signal, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4799,
+  "core_bytes": 19208,
+  "sections": [
+    {
+      "name": "Concepts",
+      "bytes": 2913,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "Where Prompts Live in Trace Data",
+      "bytes": 1354,
+      "when": [
+        "where",
+        "prompts",
+        "live",
+        "trace",
+        "data"
+      ]
+    },
+    {
+      "name": "Finding Prompts by Span Kind",
+      "bytes": 583,
+      "when": [
+        "finding",
+        "prompts",
+        "span",
+        "kind"
+      ]
+    },
+    {
+      "name": "Performance Signal Columns",
+      "bytes": 963,
+      "when": [
+        "performance",
+        "signal",
+        "columns"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1275,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Phase 1: Extract the Current Prompt",
+      "bytes": 1745,
+      "when": [
+        "phase",
+        "extract",
+        "current",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Find LLM spans containing prompts",
+      "bytes": 416,
+      "when": [
+        "find",
+        "spans",
+        "containing",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Export a trace to inspect prompt structure",
+      "bytes": 201,
+      "when": [
+        "export",
+        "trace",
+        "inspect",
+        "prompt",
+        "structure"
+      ]
+    },
+    {
+      "name": "Extract prompts from exported JSON",
+      "bytes": 621,
+      "when": [
+        "extract",
+        "prompts",
+        "exported",
+        "json"
+      ]
+    },
+    {
+      "name": "Reconstruct the prompt as messages",
+      "bytes": 467,
+      "when": [
+        "reconstruct",
+        "prompt",
+        "messages"
+      ]
+    },
+    {
+      "name": "Phase 2: Gather Performance Data",
+      "bytes": 2129,
+      "when": [
+        "phase",
+        "gather",
+        "performance",
+        "data"
+      ]
+    },
+    {
+      "name": "From traces (production feedback)",
+      "bytes": 653,
+      "when": [
+        "traces",
+        "production",
+        "feedback"
+      ]
+    },
+    {
+      "name": "From datasets and experiments",
+      "bytes": 322,
+      "when": [
+        "datasets",
+        "experiments"
+      ]
+    },
+    {
+      "name": "Merge dataset + experiment for analysis",
+      "bytes": 655,
+      "when": [
+        "merge",
+        "dataset",
+        "experiment",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Identify what to optimize",
+      "bytes": 462,
+      "when": [
+        "identify",
+        "optimize"
+      ]
+    },
+    {
+      "name": "Phase 3: Optimize the Prompt",
+      "bytes": 3737,
+      "when": [
+        "phase",
+        "optimize",
+        "prompt"
+      ]
+    },
+    {
+      "name": "The Optimization Meta-Prompt",
+      "bytes": 2516,
+      "when": [
+        "optimization",
+        "meta",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Preparing the performance data",
+      "bytes": 905,
+      "when": [
+        "preparing",
+        "performance",
+        "data"
+      ]
+    },
+    {
+      "name": "Applying the revised prompt",
+      "bytes": 283,
+      "when": [
+        "applying",
+        "revised",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Phase 4: Iterate",
+      "bytes": 1366,
+      "when": [
+        "phase",
+        "iterate"
+      ]
+    },
+    {
+      "name": "The optimization loop",
+      "bytes": 370,
+      "when": [
+        "optimization",
+        "loop"
+      ]
+    },
+    {
+      "name": "Measure improvement",
+      "bytes": 620,
+      "when": [
+        "measure",
+        "improvement"
+      ]
+    },
+    {
+      "name": "A/B compare two prompts",
+      "bytes": 355,
+      "when": [
+        "compare",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Prompt Engineering Best Practices",
+      "bytes": 1693,
+      "when": [
+        "prompt",
+        "engineering",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Variable preservation",
+      "bytes": 479,
+      "when": [
+        "variable",
+        "preservation"
+      ]
+    },
+    {
+      "name": "Workflows",
+      "bytes": 2483,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "Optimize a prompt from a failing trace",
+      "bytes": 746,
+      "when": [
+        "optimize",
+        "prompt",
+        "failing",
+        "trace"
+      ]
+    },
+    {
+      "name": "Optimize using a dataset and experiment",
+      "bytes": 512,
+      "when": [
+        "optimize",
+        "dataset",
+        "experiment"
+      ]
+    },
+    {
+      "name": "Debug a prompt that produces wrong format",
+      "bytes": 508,
+      "when": [
+        "debug",
+        "prompt",
+        "produces",
+        "wrong",
+        "format"
+      ]
+    },
+    {
+      "name": "Reduce hallucination in a RAG prompt",
+      "bytes": 703,
+      "when": [
+        "reduce",
+        "hallucination",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1078,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-prompt-optimization\\SKILL.md"
+}

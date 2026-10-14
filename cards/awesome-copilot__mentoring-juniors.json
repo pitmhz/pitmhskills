@@ -1,0 +1,293 @@
+{
+  "id": "awesome-copilot__mentoring-juniors",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "09bc1b382bc94670b8d4724fc8a204b0170121ebd1a5e091a0cc46a18787967e",
+  "purpose": "Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers. Triggers: \"help me understand\", \"explain this code\", \"I'm stuck\", \"Im stuck\", \"I'm confused\", \"Im co",
+  "domain": "general",
+  "task_types": [
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers. Triggers: \"help me understand\", \"explain this code\", \"I'm st"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3481,
+  "core_bytes": 14060,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 243,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Persona: Sensei",
+      "bytes": 2548,
+      "when": [
+        "persona",
+        "sensei"
+      ]
+    },
+    {
+      "name": "Target Audience",
+      "bytes": 178,
+      "when": [
+        "target",
+        "audience"
+      ]
+    },
+    {
+      "name": "Golden Rules (NEVER broken)",
+      "bytes": 464,
+      "when": [
+        "golden",
+        "rules",
+        "broken"
+      ]
+    },
+    {
+      "name": "Tone & Vocabulary",
+      "bytes": 622,
+      "when": [
+        "tone",
+        "vocabulary"
+      ]
+    },
+    {
+      "name": "Special Cases",
+      "bytes": 932,
+      "when": [
+        "special",
+        "cases"
+      ]
+    },
+    {
+      "name": "Copilot-Assisted Learning Workflow",
+      "bytes": 2769,
+      "when": [
+        "copilot",
+        "assisted",
+        "learning",
+        "workflow"
+      ]
+    },
+    {
+      "name": "The PEAR Loop",
+      "bytes": 459,
+      "when": [
+        "pear",
+        "loop"
+      ]
+    },
+    {
+      "name": "Copilot Tools Reference",
+      "bytes": 657,
+      "when": [
+        "copilot",
+        "tools",
+        "reference"
+      ]
+    },
+    {
+      "name": "Delivery vs. Learning Balance",
+      "bytes": 615,
+      "when": [
+        "delivery",
+        "learning",
+        "balance"
+      ]
+    },
+    {
+      "name": "Post-Urgency Debriefing Template",
+      "bytes": 892,
+      "when": [
+        "post",
+        "urgency",
+        "debriefing",
+        "template"
+      ]
+    },
+    {
+      "name": "Concepts & Domains Covered",
+      "bytes": 619,
+      "when": [
+        "concepts",
+        "domains",
+        "covered"
+      ]
+    },
+    {
+      "name": "Complete Response Protocol",
+      "bytes": 2039,
+      "when": [
+        "complete",
+        "response",
+        "protocol"
+      ]
+    },
+    {
+      "name": "Phase 1: Context Gathering",
+      "bytes": 387,
+      "when": [
+        "phase",
+        "context",
+        "gathering"
+      ]
+    },
+    {
+      "name": "Phase 2: Socratic Questioning",
+      "bytes": 425,
+      "when": [
+        "phase",
+        "socratic",
+        "questioning"
+      ]
+    },
+    {
+      "name": "Phase 3: Conceptual Explanation",
+      "bytes": 353,
+      "when": [
+        "phase",
+        "conceptual",
+        "explanation"
+      ]
+    },
+    {
+      "name": "Phase 4: Progressive Clues",
+      "bytes": 509,
+      "when": [
+        "phase",
+        "progressive",
+        "clues"
+      ]
+    },
+    {
+      "name": "Phase 5: Validation & Feedback",
+      "bytes": 334,
+      "when": [
+        "phase",
+        "validation",
+        "feedback"
+      ]
+    },
+    {
+      "name": "Teaching Techniques",
+      "bytes": 910,
+      "when": [
+        "teaching",
+        "techniques"
+      ]
+    },
+    {
+      "name": "Rubber Duck Debugging",
+      "bytes": 214,
+      "when": [
+        "rubber",
+        "duck",
+        "debugging"
+      ]
+    },
+    {
+      "name": "The 5 Whys",
+      "bytes": 206,
+      "when": [
+        "whys"
+      ]
+    },
+    {
+      "name": "Minimal Reproducible Example",
+      "bytes": 180,
+      "when": [
+        "minimal",
+        "reproducible",
+        "example"
+      ]
+    },
+    {
+      "name": "Guided Red-Green-Refactor",
+      "bytes": 286,
+      "when": [
+        "guided",
+        "green",
+        "refactor"
+      ]
+    },
+    {
+      "name": "AI Usage Education",
+      "bytes": 1917,
+      "when": [
+        "usage",
+        "education"
+      ]
+    },
+    {
+      "name": "Best Practices to Teach",
+      "bytes": 616,
+      "when": [
+        "best",
+        "practices",
+        "teach"
+      ]
+    },
+    {
+      "name": "Prompt Engineering for Juniors",
+      "bytes": 922,
+      "when": [
+        "prompt",
+        "engineering",
+        "juniors"
+      ]
+    },
+    {
+      "name": "Common Pitfalls",
+      "bytes": 356,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Recommended Resources",
+      "bytes": 532,
+      "when": [
+        "recommended",
+        "resources"
+      ]
+    },
+    {
+      "name": "Success Metrics",
+      "bytes": 895,
+      "when": [
+        "success",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Session Recap Template",
+      "bytes": 379,
+      "when": [
+        "session",
+        "recap",
+        "template"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mentoring-juniors\\SKILL.md"
+}

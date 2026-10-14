@@ -1,0 +1,155 @@
+{
+  "id": "awesome-copilot__gtm-0-to-1-launch",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3a919ad65a5537d81dcc245dec8062eb747d08e0f22991f25f87e6bee9f3230e",
+  "purpose": "Launch new products from idea to first customers. Use when launching products, finding early adopters, building launch week playbooks, diagnosing why adoption stalls, or learning that press coverage d",
+  "domain": "memory",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Launch new products from idea to first customers. Use when launching products, finding early adopters, building launch week playbooks, diagnosing why adoption s"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3186,
+  "core_bytes": 12885,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 451,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 8423,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. Press ≠ Growth (The Launch That Got 12 Signups)",
+      "bytes": 961,
+      "when": [
+        "press",
+        "growth",
+        "launch",
+        "signups"
+      ]
+    },
+    {
+      "name": "2. The Three-Layer Diagnosis (Why Launches Stall)",
+      "bytes": 2347,
+      "when": [
+        "three",
+        "layer",
+        "diagnosis",
+        "launches",
+        "stall"
+      ]
+    },
+    {
+      "name": "3. The First 10 Customers Framework",
+      "bytes": 1504,
+      "when": [
+        "first",
+        "customers",
+        "framework"
+      ]
+    },
+    {
+      "name": "4. The 2-Week Experiment Cycle",
+      "bytes": 1253,
+      "when": [
+        "week",
+        "experiment",
+        "cycle"
+      ]
+    },
+    {
+      "name": "5. Partner-Led Market Entry (When You Don't Have Distribution)",
+      "bytes": 1540,
+      "when": [
+        "partner",
+        "market",
+        "entry",
+        "distribution"
+      ]
+    },
+    {
+      "name": "6. PMF Validation Checklist",
+      "bytes": 798,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 1018,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Why Is Our Launch Stalling?",
+      "bytes": 666,
+      "when": [
+        "launch",
+        "stalling"
+      ]
+    },
+    {
+      "name": "Press Launch or Direct Outreach?",
+      "bytes": 333,
+      "when": [
+        "press",
+        "launch",
+        "direct",
+        "outreach"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 870,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 793,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 648,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-0-to-1-launch\\SKILL.md"
+}

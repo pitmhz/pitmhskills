@@ -1,0 +1,176 @@
+{
+  "id": "nvidia__deepstream-generate-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9c7eaf4defe5f76a005172a45e2c13c1be6777cb07e75a92094775fdce751234",
+  "purpose": "Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — including natural phrases like pipeline to inf",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — includ"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4238,
+  "core_bytes": 17070,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 431,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Usage Examples",
+      "bytes": 290,
+      "when": [
+        "usage",
+        "examples"
+      ]
+    },
+    {
+      "name": "Supported Configurations",
+      "bytes": 619,
+      "when": [
+        "supported",
+        "configurations"
+      ]
+    },
+    {
+      "name": "Scripts",
+      "bytes": 473,
+      "when": [
+        "scripts"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 11967,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Collect Pipeline Requirements",
+      "bytes": 1525,
+      "when": [
+        "step",
+        "collect",
+        "pipeline",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Step 2 — Build the Natural Language Query",
+      "bytes": 1490,
+      "when": [
+        "step",
+        "build",
+        "natural",
+        "language",
+        "query"
+      ]
+    },
+    {
+      "name": "Step 3 — Run the Pipeline Generator Script",
+      "bytes": 1966,
+      "when": [
+        "step",
+        "pipeline",
+        "generator",
+        "script"
+      ]
+    },
+    {
+      "name": "Step 4 — Validate the Pipeline",
+      "bytes": 1574,
+      "when": [
+        "step",
+        "validate",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "Step 5 — Present the Pipeline",
+      "bytes": 3641,
+      "when": [
+        "step",
+        "present",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "Step 6 — Offer Refinement",
+      "bytes": 564,
+      "when": [
+        "step",
+        "offer",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Step 6.5 — Optional: Save Pipeline to a Script",
+      "bytes": 1192,
+      "when": [
+        "step",
+        "optional",
+        "save",
+        "pipeline",
+        "script"
+      ]
+    },
+    {
+      "name": "Pipeline Assembly Rules",
+      "bytes": 365,
+      "when": [
+        "pipeline",
+        "assembly",
+        "rules"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 799,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 752,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Security, Limitations & Notes",
+      "bytes": 333,
+      "when": [
+        "security",
+        "limitations",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/deepstream-generate-pipeline/SKILL.md",
+  "curated": true
+}

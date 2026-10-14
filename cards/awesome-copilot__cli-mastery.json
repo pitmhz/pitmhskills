@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot__cli-mastery",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d3e4194d69f973aa5bf8993c8e68b09fea9f0f2c0427e740a18fd4175d956879",
+  "purpose": "Interactive training for the GitHub Copilot CLI. Guided lessons, quizzes, scenario challenges, and a full reference covering slash commands, shortcuts, modes, agents, skills, MCP, and configuration. S",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Interactive training for the GitHub Copilot CLI. Guided lessons, quizzes, scenario challenges, and a full reference covering slash commands, shortcuts, modes, a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 517,
+  "core_bytes": 2070,
+  "sections": [
+    {
+      "name": "Routing and Content",
+      "bytes": 516,
+      "when": [
+        "routing",
+        "content"
+      ]
+    },
+    {
+      "name": "Behavior",
+      "bytes": 941,
+      "when": [
+        "behavior"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\cli-mastery\\SKILL.md"
+}

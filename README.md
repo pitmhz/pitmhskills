@@ -36,6 +36,44 @@ Useful next steps: `bun src/cli.ts init` (repo profile + mandatory skills),
 cluster) → `decide` (calibrated floor/margin → PICK / ASK / ABSTAIN) → `deliver`
 (byte-capped body + scope fence + slop fence).
 
+### Authoring do_not_use_when
+
+`do_not_use_when` lines gate in `src/gate.ts`: a card is dropped only if EVERY
+word (len > 3) of one line appears as an exact token in the task. Substring does
+not count (`typo` never matches `typography`; `page` never matches `pages`).
+Keep each line to 2-3 distinctive words. Never write `(use X)` pointers — their
+words never co-occur with the rest of the line, so the line can never fire.
+Put boundary statements in the card's `disambiguator` field instead (shown on
+ASK, never gated).
+Fires: `"Bot-protected page"` drops the card on a bot-protected-page task
+(`bot` + `protected` + `page` all match).
+Never fires: `"Fixing typos and spelling mistakes in documentation (use code-review)"`
+— all seven long words must co-occur, so it never drops anything.
+Tier C cards are user-invoked-only and never enter the route pool (see `src/gate.ts` tier-C freeze; mirrors Agent Skills `disable-model-invocation`).
+Staged skills get spec frontmatter via `specFrontmatter(card)` in `src/cardtext.ts`: card `use_when[0..2]` maps to `when_to_use` on staging.
+
+### Verify commands
+
+Cards carry `verify: string[]`, run as gates at `phase_done` (`src/gates.ts`:
+shell `execSync`, nonzero exit fails the phase). Prefer the `rtk` 0.50.0 winner
+per output class (see `evals/token-benchmark.md`; rtk wins every measurable
+class 6x–2500x, `--ultra-compact` inert, never stack compressors):
+
+- test output → `rtk test -- <cmd>` (failures-only; exit code still signals
+  pass; passing-test console noise stripped, counts kept).
+- logs → `rtk log` (800 lines → 23; severity counts kept, order lost).
+- recursive grep → `rtk rg`, not `rtk grep` (`grep` binary absent on Windows;
+  totals/paths intact, long lines truncated).
+- diffs → `rtk diff` for "what changed" only; keep raw `git diff` whenever the
+  output must apply as a patch (rtk drops context/hunk headers).
+- large JSON → `rtk json` for schema/shape questions only; keep raw output for
+  name enumeration (rtk collapses rows, per-row names lost).
+- directory listings → native commands (`rtk ls` broken on Windows).
+
+Edited verify cards are marked `curated: true` so template rebuilds keep the
+convention (builder never overwrites curated cards; upstream drift is reported
+stale for human re-review instead).
+
 ## Repo layout
 
 ```
@@ -44,7 +82,7 @@ sources.yaml         # pinned skill upstreams (repo@sha, never branches)
 cards/               # routing cards: the committed source of truth
 skills/              # raw checkouts (gitignored, rebuilt by ingest)
 evals/               # golden sets (tune + held-out) + slop patterns
-src/                 # 26 modules, each <=200 lines, zero deps
+src/                 # 27 modules, each <=200 lines, zero deps
 hooks/               # prompt-hook scripts for agent clients
 ```
 

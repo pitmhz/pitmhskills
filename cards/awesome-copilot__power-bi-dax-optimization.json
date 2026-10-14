@@ -1,0 +1,179 @@
+{
+  "id": "awesome-copilot__power-bi-dax-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5c94805ea59a827571464d169571db6f9100859c9072ef7af4aba24aba4ea5be",
+  "purpose": "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor"
+  ],
+  "use_when": [
+    "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1390,
+  "core_bytes": 5558,
+  "sections": [
+    {
+      "name": "Analysis Framework",
+      "bytes": 1039,
+      "when": [
+        "analysis",
+        "framework"
+      ]
+    },
+    {
+      "name": "1. **Performance Analysis**",
+      "bytes": 291,
+      "when": [
+        "performance",
+        "analysis"
+      ]
+    },
+    {
+      "name": "2. **Readability Assessment**",
+      "bytes": 213,
+      "when": [
+        "readability",
+        "assessment"
+      ]
+    },
+    {
+      "name": "3. **Best Practices Compliance**",
+      "bytes": 239,
+      "when": [
+        "best",
+        "practices",
+        "compliance"
+      ]
+    },
+    {
+      "name": "4. **Maintainability Review**",
+      "bytes": 201,
+      "when": [
+        "maintainability",
+        "review"
+      ]
+    },
+    {
+      "name": "Optimization Process",
+      "bytes": 1031,
+      "when": [
+        "optimization",
+        "process"
+      ]
+    },
+    {
+      "name": "Step 1: **Current Formula Analysis**",
+      "bytes": 231,
+      "when": [
+        "step",
+        "current",
+        "formula",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 2: **Optimization Strategy**",
+      "bytes": 240,
+      "when": [
+        "step",
+        "optimization",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Step 3: **Optimized Formula**",
+      "bytes": 254,
+      "when": [
+        "step",
+        "optimized",
+        "formula"
+      ]
+    },
+    {
+      "name": "Step 4: **Explanation and Justification**",
+      "bytes": 249,
+      "when": [
+        "step",
+        "explanation",
+        "justification"
+      ]
+    },
+    {
+      "name": "Common Optimization Patterns",
+      "bytes": 942,
+      "when": [
+        "common",
+        "optimization",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Performance Optimizations:",
+      "bytes": 344,
+      "when": [
+        "performance",
+        "optimizations"
+      ]
+    },
+    {
+      "name": "Readability Improvements:",
+      "bytes": 319,
+      "when": [
+        "readability",
+        "improvements"
+      ]
+    },
+    {
+      "name": "Error Handling:",
+      "bytes": 246,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Example Output Format",
+      "bytes": 822,
+      "when": [
+        "example",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Request Instructions",
+      "bytes": 478,
+      "when": [
+        "request",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Additional Services",
+      "bytes": 833,
+      "when": [
+        "additional",
+        "services"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\power-bi-dax-optimization\\SKILL.md"
+}

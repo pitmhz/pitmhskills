@@ -1,0 +1,135 @@
+{
+  "id": "emilkowalski__improve-animations",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "4c57bd88188834434022b8ea0ea47f361963db5746198a7ce752eaef9ac221db",
+  "purpose": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other age",
+    "Surveying animation and motion code to produce a prioritized fix roadmap without changing code"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Codebase-wide motion audit with roadmap (read-only) -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "audit roadmap survey advisor read-only",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2064,
+  "core_bytes": 8317,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 792,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 784,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 1015,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 4050,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1 — Recon (always first)",
+      "bytes": 1033,
+      "when": [
+        "phase",
+        "recon",
+        "first"
+      ]
+    },
+    {
+      "name": "Phase 2 — Audit (parallel)",
+      "bytes": 1012,
+      "when": [
+        "phase",
+        "audit",
+        "parallel"
+      ]
+    },
+    {
+      "name": "Phase 3 — Vet, prioritize, confirm",
+      "bytes": 1186,
+      "when": [
+        "phase",
+        "prioritize",
+        "confirm"
+      ]
+    },
+    {
+      "name": "Phase 4 — Write plans",
+      "bytes": 804,
+      "when": [
+        "phase",
+        "write",
+        "plans"
+      ]
+    },
+    {
+      "name": "Invocation Variants",
+      "bytes": 788,
+      "when": [
+        "invocation",
+        "variants"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 360,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "keywords": [
+    "improving",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "workflow",
+    "phase",
+    "recon",
+    "first",
+    "parallel"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\improve-animations\\SKILL.md",
+  "curated": true
+}

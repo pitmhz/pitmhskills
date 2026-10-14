@@ -1,0 +1,105 @@
+{
+  "id": "awesome-copilot__context-map",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "af0037b06a0b56a5014e16a32538ac419725638659428b7e229ed5bbb9087a37",
+  "purpose": "Generate a map of all files relevant to a task before making changes",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Generate a map of all files relevant to a task before making changes"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 287,
+  "core_bytes": 1146,
+  "sections": [
+    {
+      "name": "Task",
+      "bytes": 31,
+      "when": [
+        "task"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 190,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 30,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Context Map",
+      "bytes": 688,
+      "when": [
+        "context"
+      ]
+    },
+    {
+      "name": "Files to Modify",
+      "bytes": 139,
+      "when": [
+        "files",
+        "modify"
+      ]
+    },
+    {
+      "name": "Dependencies (may need updates)",
+      "bytes": 132,
+      "when": [
+        "dependencies",
+        "need",
+        "updates"
+      ]
+    },
+    {
+      "name": "Test Files",
+      "bytes": 104,
+      "when": [
+        "test",
+        "files"
+      ]
+    },
+    {
+      "name": "Reference Patterns",
+      "bytes": 102,
+      "when": [
+        "reference",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Risk Assessment",
+      "bytes": 195,
+      "when": [
+        "risk",
+        "assessment"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\context-map\\SKILL.md"
+}

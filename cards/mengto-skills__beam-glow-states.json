@@ -1,0 +1,142 @@
+{
+  "id": "mengto-skills__beam-glow-states",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "f50d2d25e444e91246c52e01aae65387fd1489a48b079ffb936dfa58ad150e8e",
+  "purpose": "Create React loading, processing, selected, current, focus, and pressed states with the border-beam package's animated edge glow. Use when a card, button, input, tab, option, task panel, or agent surf",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create React loading, processing, selected, current, focus, and pressed states with the border-beam package's animated edge glow. Use when a card, button, input",
+    "the component is offscreen."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3270,
+  "core_bytes": 13091,
+  "sections": [
+    {
+      "name": "Install and import",
+      "bytes": 913,
+      "when": [
+        "install",
+        "import"
+      ]
+    },
+    {
+      "name": "Choose the effect",
+      "bytes": 1134,
+      "when": [
+        "choose",
+        "effect"
+      ]
+    },
+    {
+      "name": "Start with one mounted wrapper",
+      "bytes": 615,
+      "when": [
+        "start",
+        "mounted",
+        "wrapper"
+      ]
+    },
+    {
+      "name": "Wire loading state",
+      "bytes": 1089,
+      "when": [
+        "wire",
+        "loading",
+        "state"
+      ]
+    },
+    {
+      "name": "Wire selected or current state",
+      "bytes": 1049,
+      "when": [
+        "wire",
+        "selected",
+        "current",
+        "state"
+      ]
+    },
+    {
+      "name": "Wire focus and active state",
+      "bytes": 1806,
+      "when": [
+        "wire",
+        "focus",
+        "active",
+        "state"
+      ]
+    },
+    {
+      "name": "Handle reduced motion",
+      "bytes": 1100,
+      "when": [
+        "handle",
+        "reduced",
+        "motion"
+      ]
+    },
+    {
+      "name": "API reference",
+      "bytes": 1924,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Respect the wrapper",
+      "bytes": 1288,
+      "when": [
+        "respect",
+        "wrapper"
+      ]
+    },
+    {
+      "name": "Keep it restrained",
+      "bytes": 640,
+      "when": [
+        "keep",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 763,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "install",
+    "import",
+    "choose",
+    "effect",
+    "start",
+    "mounted",
+    "wrapper",
+    "wire",
+    "active",
+    "handle",
+    "reference",
+    "respect"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\beam-glow-states\\SKILL.md"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "nvidia__nvflare-autofl",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "01affc576bbe9c1ae3761522a86be6541a205375b6cfdde2b2c791cd5bb33a36",
+  "purpose": "Use for agent-assisted Auto-FL optimization of an existing NVFLARE job in simulation, POC, or production. Do not use for code conversion, diagnosis-only work, or deployment setup.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Use for agent-assisted Auto-FL optimization of an existing NVFLARE job in simulation, POC, or production. Do not use for code conversion, diagnosis-only work, o"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3956,
+  "core_bytes": 15827,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 241,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 701,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 588,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 4087,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Permissions and Production Safety",
+      "bytes": 1363,
+      "when": [
+        "permissions",
+        "production",
+        "safety"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 608,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 1727,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Candidate Loop",
+      "bytes": 478,
+      "when": [
+        "candidate",
+        "loop"
+      ]
+    },
+    {
+      "name": "Continuous Campaign Rule",
+      "bytes": 414,
+      "when": [
+        "continuous",
+        "campaign",
+        "rule"
+      ]
+    },
+    {
+      "name": "Candidate Caps",
+      "bytes": 3022,
+      "when": [
+        "candidate",
+        "caps"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 286,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 963,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 278,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Stop Handling",
+      "bytes": 271,
+      "when": [
+        "stop",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nvflare-autofl/SKILL.md",
+  "curated": true
+}

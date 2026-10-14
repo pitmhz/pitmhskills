@@ -1,0 +1,117 @@
+{
+  "id": "awesome-copilot__protobuf-grpc-api-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0897f9b79c4aaa4842e4b6b3aff48ddddee97d88fed25376eb5f9f24749c1747",
+  "purpose": "Review Protocol Buffer (.proto) and gRPC API changes for wire and JSON compatibility, safe schema evolution, rollout hazards, and RPC contract quality. Use when reviewing proto diffs, adding or changi",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Review Protocol Buffer (.proto) and gRPC API changes for wire and JSON compatibility, safe schema evolution, rollout hazards, and RPC contract quality. Use when"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1716,
+  "core_bytes": 6877,
+  "sections": [
+    {
+      "name": "Start With the Compatibility Envelope",
+      "bytes": 778,
+      "when": [
+        "start",
+        "compatibility",
+        "envelope"
+      ]
+    },
+    {
+      "name": "Review Workflow",
+      "bytes": 3950,
+      "when": [
+        "review",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Inventory Contract Changes",
+      "bytes": 550,
+      "when": [
+        "inventory",
+        "contract",
+        "changes"
+      ]
+    },
+    {
+      "name": "2. Evaluate Four Compatibility Dimensions",
+      "bytes": 826,
+      "when": [
+        "evaluate",
+        "four",
+        "compatibility",
+        "dimensions"
+      ]
+    },
+    {
+      "name": "3. Trace Mixed-Version Scenarios",
+      "bytes": 562,
+      "when": [
+        "trace",
+        "mixed",
+        "version",
+        "scenarios"
+      ]
+    },
+    {
+      "name": "4. Review Repository Evidence",
+      "bytes": 680,
+      "when": [
+        "review",
+        "repository",
+        "evidence"
+      ]
+    },
+    {
+      "name": "5. Produce an Actionable Review",
+      "bytes": 1312,
+      "when": [
+        "produce",
+        "actionable",
+        "review"
+      ]
+    },
+    {
+      "name": "Default Safety Principles",
+      "bytes": 1026,
+      "when": [
+        "default",
+        "safety",
+        "principles"
+      ]
+    },
+    {
+      "name": "Avoid False Positives",
+      "bytes": 538,
+      "when": [
+        "avoid",
+        "false",
+        "positives"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\protobuf-grpc-api-review\\SKILL.md"
+}

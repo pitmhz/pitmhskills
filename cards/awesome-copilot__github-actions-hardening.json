@@ -1,0 +1,155 @@
+{
+  "id": "awesome-copilot__github-actions-hardening",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "31a8e7483d978e6267941edefebbe42aaa946bb3d43c9095aa3db343d4a8ff06",
+  "purpose": "Security hardening reviewer for GitHub Actions workflow files (.github/workflows/*.yml). Reasons about the Actions threat model that pattern matchers and general code linters miss — untrusted-input sc",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Security hardening reviewer for GitHub Actions workflow files (.github/workflows/*.yml). Reasons about the Actions threat model that pattern matchers and genera"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2449,
+  "core_bytes": 9852,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 723,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "The Core Insight",
+      "bytes": 619,
+      "when": [
+        "core",
+        "insight"
+      ]
+    },
+    {
+      "name": "Execution Workflow",
+      "bytes": 4191,
+      "when": [
+        "execution",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Map the Triggers and Trust Level",
+      "bytes": 634,
+      "when": [
+        "step",
+        "triggers",
+        "trust",
+        "level"
+      ]
+    },
+    {
+      "name": "Step 2 — Hunt for Script Injection",
+      "bytes": 738,
+      "when": [
+        "step",
+        "hunt",
+        "script",
+        "injection"
+      ]
+    },
+    {
+      "name": "Step 3 — Check Privileged Triggers Don't Execute Untrusted Code",
+      "bytes": 569,
+      "when": [
+        "step",
+        "check",
+        "privileged",
+        "triggers",
+        "execute",
+        "untrusted",
+        "code"
+      ]
+    },
+    {
+      "name": "Step 4 — Audit `permissions:`",
+      "bytes": 529,
+      "when": [
+        "step",
+        "audit",
+        "permissions"
+      ]
+    },
+    {
+      "name": "Step 5 — Audit Action References (Supply Chain)",
+      "bytes": 746,
+      "when": [
+        "step",
+        "audit",
+        "action",
+        "references",
+        "supply",
+        "chain"
+      ]
+    },
+    {
+      "name": "Step 6 — Check Secret and Output Handling",
+      "bytes": 582,
+      "when": [
+        "step",
+        "check",
+        "secret",
+        "output",
+        "handling"
+      ]
+    },
+    {
+      "name": "Step 7 — Produce the Report",
+      "bytes": 308,
+      "when": [
+        "step",
+        "produce",
+        "report"
+      ]
+    },
+    {
+      "name": "Severity Guide",
+      "bytes": 800,
+      "when": [
+        "severity",
+        "guide"
+      ]
+    },
+    {
+      "name": "Output Rules",
+      "bytes": 534,
+      "when": [
+        "output",
+        "rules"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 1494,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\github-actions-hardening\\SKILL.md"
+}

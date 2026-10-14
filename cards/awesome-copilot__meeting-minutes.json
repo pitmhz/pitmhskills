@@ -1,0 +1,277 @@
+{
+  "id": "awesome-copilot__meeting-minutes",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "69420bbe78b2f6c81f9689672360dd97e71e9fc83045a70e3d6924f24973a789",
+  "purpose": "Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda, decisions, action items (owner + due date), and follow-up steps.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda, decisions, action items (owner + due date), and follow"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1969,
+  "core_bytes": 7894,
+  "sections": [
+    {
+      "name": "Purpose / Overview",
+      "bytes": 367,
+      "when": [
+        "purpose",
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 335,
+      "when": []
+    },
+    {
+      "name": "Operational Workflow",
+      "bytes": 1192,
+      "when": [
+        "operational",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1: Intake (before drafting)",
+      "bytes": 338,
+      "when": [
+        "phase",
+        "intake",
+        "before",
+        "drafting"
+      ]
+    },
+    {
+      "name": "Phase 2: Capture (during / immediately after meeting)",
+      "bytes": 267,
+      "when": [
+        "phase",
+        "capture",
+        "during",
+        "immediately",
+        "after",
+        "meeting"
+      ]
+    },
+    {
+      "name": "Phase 3: Drafting",
+      "bytes": 275,
+      "when": [
+        "phase",
+        "drafting"
+      ]
+    },
+    {
+      "name": "Phase 4: Review & Publish",
+      "bytes": 287,
+      "when": [
+        "phase",
+        "review",
+        "publish"
+      ]
+    },
+    {
+      "name": "Discovery (required clarifying questions)",
+      "bytes": 524,
+      "when": [
+        "discovery",
+        "required",
+        "clarifying",
+        "questions"
+      ]
+    },
+    {
+      "name": "Strict Minutes Schema (Output Structure)",
+      "bytes": 2568,
+      "when": [
+        "strict",
+        "minutes",
+        "schema",
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "1. Metadata",
+      "bytes": 254,
+      "when": [
+        "metadata"
+      ]
+    },
+    {
+      "name": "2. Attendance",
+      "bytes": 136,
+      "when": [
+        "attendance"
+      ]
+    },
+    {
+      "name": "3. Agenda",
+      "bytes": 106,
+      "when": [
+        "agenda"
+      ]
+    },
+    {
+      "name": "4. Summary",
+      "bytes": 118,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "5. Decisions Made",
+      "bytes": 256,
+      "when": [
+        "decisions",
+        "made"
+      ]
+    },
+    {
+      "name": "6. Action Items",
+      "bytes": 585,
+      "when": [
+        "action",
+        "items"
+      ]
+    },
+    {
+      "name": "7. Notes by Agenda Item",
+      "bytes": 272,
+      "when": [
+        "notes",
+        "agenda",
+        "item"
+      ]
+    },
+    {
+      "name": "8. Parking Lot / Unresolved Items",
+      "bytes": 145,
+      "when": [
+        "parking",
+        "unresolved",
+        "items"
+      ]
+    },
+    {
+      "name": "9. Risks / Blockers (if any)",
+      "bytes": 111,
+      "when": [
+        "risks",
+        "blockers"
+      ]
+    },
+    {
+      "name": "10. Next Meeting / Follow-up",
+      "bytes": 95,
+      "when": [
+        "next",
+        "meeting",
+        "follow"
+      ]
+    },
+    {
+      "name": "11. Attachments / References",
+      "bytes": 141,
+      "when": [
+        "attachments",
+        "references"
+      ]
+    },
+    {
+      "name": "12. Version & Change Log",
+      "bytes": 150,
+      "when": [
+        "version",
+        "change"
+      ]
+    },
+    {
+      "name": "Style & Quality Rules",
+      "bytes": 526,
+      "when": [
+        "style",
+        "quality",
+        "rules"
+      ]
+    },
+    {
+      "name": "DO / DON'T",
+      "bytes": 546,
+      "when": []
+    },
+    {
+      "name": "Example Prompts (for Copilot / Agent)",
+      "bytes": 727,
+      "when": [
+        "example",
+        "prompts",
+        "copilot",
+        "agent"
+      ]
+    },
+    {
+      "name": "Quick Templates (copyable)",
+      "bytes": 374,
+      "when": [
+        "quick",
+        "templates",
+        "copyable"
+      ]
+    },
+    {
+      "name": "Concise minutes template (short):",
+      "bytes": 254,
+      "when": [
+        "concise",
+        "minutes",
+        "template",
+        "short"
+      ]
+    },
+    {
+      "name": "Detailed minutes template (full schema):",
+      "bytes": 89,
+      "when": [
+        "detailed",
+        "minutes",
+        "template",
+        "full",
+        "schema"
+      ]
+    },
+    {
+      "name": "Verification & Acceptance Criteria for Generated Minutes",
+      "bytes": 465,
+      "when": [
+        "verification",
+        "acceptance",
+        "criteria",
+        "generated",
+        "minutes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\meeting-minutes\\SKILL.md"
+}

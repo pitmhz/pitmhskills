@@ -1,0 +1,137 @@
+{
+  "id": "awesome-copilot__aws-resource-health-diagnose",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "80bb83b79e74c7f4b97994f89e4feb821bb68868e4809dcffbdbc9d2dc3f00cc",
+  "purpose": "Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1743,
+  "core_bytes": 7014,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 198,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow Steps",
+      "bytes": 5625,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Get AWS Diagnostic Best Practices",
+      "bytes": 198,
+      "when": [
+        "step",
+        "diagnostic",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Step 2: Resource Discovery & Identification",
+      "bytes": 712,
+      "when": [
+        "step",
+        "resource",
+        "discovery",
+        "identification"
+      ]
+    },
+    {
+      "name": "Step 3: Health Status Assessment",
+      "bytes": 1223,
+      "when": [
+        "step",
+        "health",
+        "status",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Step 4: Log & Metrics Analysis",
+      "bytes": 1235,
+      "when": [
+        "step",
+        "metrics",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 5: Issue Classification & Root Cause Analysis",
+      "bytes": 834,
+      "when": [
+        "step",
+        "issue",
+        "classification",
+        "root",
+        "cause",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 6: Generate Remediation Plan",
+      "bytes": 635,
+      "when": [
+        "step",
+        "generate",
+        "remediation",
+        "plan"
+      ]
+    },
+    {
+      "name": "Step 7: Report & User Confirmation",
+      "bytes": 769,
+      "when": [
+        "step",
+        "report",
+        "user",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 359,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 386,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aws-resource-health-diagnose\\SKILL.md"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "awesome-copilot__review-and-refactor",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "95b48ed4b137777ddc87b77cb0873ed7f485141a517825e71af1a984cf5a6cd6",
+  "purpose": "Review and refactor code in your project according to defined instructions",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor"
+  ],
+  "use_when": [
+    "Review and refactor code in your project according to defined instructions"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 193,
+  "core_bytes": 770,
+  "sections": [
+    {
+      "name": "Role",
+      "bytes": 163,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Task",
+      "bytes": 482,
+      "when": [
+        "task"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\review-and-refactor\\SKILL.md"
+}

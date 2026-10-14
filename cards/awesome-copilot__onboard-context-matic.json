@@ -1,0 +1,143 @@
+{
+  "id": "awesome-copilot__onboard-context-matic",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "db5b6ff9092017ab254334daee1df36ee526b3f1af42d9d8197d6dc6f7a4edb9",
+  "purpose": "Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server does, shows all available APIs, lets them pick one to explore, explains it in their project languag",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server does, shows all available APIs, lets them pick one to explo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3361,
+  "core_bytes": 13517,
+  "sections": [
+    {
+      "name": "Phase 0 — Opening statement and tool walkthrough",
+      "bytes": 2885,
+      "when": [
+        "phase",
+        "opening",
+        "statement",
+        "tool",
+        "walkthrough"
+      ]
+    },
+    {
+      "name": "Phase 1 — Show available APIs",
+      "bytes": 1505,
+      "when": [
+        "phase",
+        "show",
+        "available",
+        "apis"
+      ]
+    },
+    {
+      "name": "1a. Detect the project language",
+      "bytes": 640,
+      "when": [
+        "detect",
+        "project",
+        "language"
+      ]
+    },
+    {
+      "name": "1b. Fetch available APIs",
+      "bytes": 829,
+      "when": [
+        "fetch",
+        "available",
+        "apis"
+      ]
+    },
+    {
+      "name": "Phase 2 — API selection (interaction)",
+      "bytes": 370,
+      "when": [
+        "phase",
+        "selection",
+        "interaction"
+      ]
+    },
+    {
+      "name": "Phase 3 — Explain the chosen API",
+      "bytes": 654,
+      "when": [
+        "phase",
+        "explain",
+        "chosen"
+      ]
+    },
+    {
+      "name": "Phase 4 — Integration in the project language (interaction)",
+      "bytes": 798,
+      "when": [
+        "phase",
+        "integration",
+        "project",
+        "language",
+        "interaction"
+      ]
+    },
+    {
+      "name": "Phase 5 — Demonstrate `model_search`",
+      "bytes": 1207,
+      "when": [
+        "phase",
+        "demonstrate",
+        "model",
+        "search"
+      ]
+    },
+    {
+      "name": "Phase 6 — Demonstrate `endpoint_search`",
+      "bytes": 1440,
+      "when": [
+        "phase",
+        "demonstrate",
+        "endpoint",
+        "search"
+      ]
+    },
+    {
+      "name": "Phase 7 — Closing: what you can ask",
+      "bytes": 2663,
+      "when": [
+        "phase",
+        "closing"
+      ]
+    },
+    {
+      "name": "What you can do with this MCP",
+      "bytes": 2500,
+      "when": []
+    },
+    {
+      "name": "Notes for the agent",
+      "bytes": 496,
+      "when": [
+        "notes",
+        "agent"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\onboard-context-matic\\SKILL.md"
+}

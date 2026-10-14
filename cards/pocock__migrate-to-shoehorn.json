@@ -27,7 +27,71 @@
   "conflicts_with": [],
   "body_tokens": 728,
   "core_bytes": 2913,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Why shoehorn?",
+      "bytes": 382,
+      "when": [
+        "shoehorn"
+      ]
+    },
+    {
+      "name": "Install",
+      "bytes": 64,
+      "when": [
+        "install"
+      ]
+    },
+    {
+      "name": "Migration patterns",
+      "bytes": 1166,
+      "when": [
+        "migration",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Large objects with few needed properties",
+      "bytes": 628,
+      "when": [
+        "large",
+        "objects",
+        "needed",
+        "properties"
+      ]
+    },
+    {
+      "name": "`as Type` → `fromPartial()`",
+      "bytes": 241,
+      "when": [
+        "type",
+        "frompartial"
+      ]
+    },
+    {
+      "name": "`as unknown as Type` → `fromAny()`",
+      "bytes": 272,
+      "when": [
+        "unknown",
+        "type",
+        "fromany"
+      ]
+    },
+    {
+      "name": "When to use each",
+      "bytes": 395,
+      "when": [
+        "each"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 659,
+      "when": [
+        "workflow"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/misc/migrate-to-shoehorn/SKILL.md"
 }

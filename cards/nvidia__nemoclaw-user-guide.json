@@ -1,0 +1,87 @@
+{
+  "id": "nvidia__nemoclaw-user-guide",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "671c92977f35e6b56f9435151d88d9659a9ef2986fd204e5356b17d7801a01b3",
+  "purpose": "Guides human users AI agents to the NemoClaw docs MCP server and canonical Fern documentation in Markdown form. Use when users ask how to install, configure, operate, troubleshoot, secure, or learn Ne",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guides human users AI agents to the NemoClaw docs MCP server and canonical Fern documentation in Markdown form. Use when users ask how to install, configure, op"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1211,
+  "core_bytes": 4841,
+  "sections": [
+    {
+      "name": "Retrieval Order",
+      "bytes": 727,
+      "when": [
+        "retrieval",
+        "order"
+      ]
+    },
+    {
+      "name": "Configure the MCP Server",
+      "bytes": 335,
+      "when": [
+        "configure",
+        "server"
+      ]
+    },
+    {
+      "name": "Starting Pages",
+      "bytes": 1043,
+      "when": [
+        "starting",
+        "pages"
+      ]
+    },
+    {
+      "name": "How to Help the User",
+      "bytes": 728,
+      "when": [
+        "help",
+        "user"
+      ]
+    },
+    {
+      "name": "Common Task Routing",
+      "bytes": 874,
+      "when": [
+        "common",
+        "task",
+        "routing"
+      ]
+    },
+    {
+      "name": "Response Requirements",
+      "bytes": 431,
+      "when": [
+        "response",
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemoclaw-user-guide/SKILL.md",
+  "curated": true
+}

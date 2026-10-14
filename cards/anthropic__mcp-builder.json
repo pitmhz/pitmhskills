@@ -30,7 +30,114 @@
   "conflicts_with": [],
   "body_tokens": 2326,
   "core_bytes": 9328,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 264,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "🚀 High-Level Workflow",
+      "bytes": 6873,
+      "when": [
+        "high",
+        "level",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1: Deep Research and Planning",
+      "bytes": 3120,
+      "when": [
+        "phase",
+        "deep",
+        "research",
+        "planning"
+      ]
+    },
+    {
+      "name": "Phase 2: Implementation",
+      "bytes": 1390,
+      "when": [
+        "phase",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Phase 3: Review and Test",
+      "bytes": 538,
+      "when": [
+        "phase",
+        "review",
+        "test"
+      ]
+    },
+    {
+      "name": "Phase 4: Create Evaluations",
+      "bytes": 1729,
+      "when": [
+        "phase",
+        "create",
+        "evaluations"
+      ]
+    },
+    {
+      "name": "📚 Documentation Library",
+      "bytes": 1794,
+      "when": [
+        "documentation",
+        "library"
+      ]
+    },
+    {
+      "name": "Core MCP Documentation (Load First)",
+      "bytes": 496,
+      "when": [
+        "core",
+        "documentation",
+        "load",
+        "first"
+      ]
+    },
+    {
+      "name": "SDK Documentation (Load During Phase 1/2)",
+      "bytes": 283,
+      "when": [
+        "documentation",
+        "load",
+        "during",
+        "phase"
+      ]
+    },
+    {
+      "name": "Language-Specific Implementation Guides (Load During Phase 2)",
+      "bytes": 599,
+      "when": [
+        "language",
+        "specific",
+        "implementation",
+        "guides",
+        "load",
+        "during",
+        "phase"
+      ]
+    },
+    {
+      "name": "Evaluation Guide (Load During Phase 4)",
+      "bytes": 329,
+      "when": [
+        "evaluation",
+        "guide",
+        "load",
+        "during",
+        "phase"
+      ]
+    }
+  ],
+  "verify": [
+    "npm run build"
+  ],
   "skill_path": "skills/anthropic/skills/mcp-builder/SKILL.md"
 }

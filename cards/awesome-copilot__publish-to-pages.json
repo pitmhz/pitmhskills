@@ -1,0 +1,129 @@
+{
+  "id": "awesome-copilot__publish-to-pages",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0f970c26b1c167f3d230258d6c32530fd5c32bfd2c9da439c1d9ad376f7f23cc",
+  "purpose": "Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conversion, Pages enablement, and returns the ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conver"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1133,
+  "core_bytes": 4540,
+  "sections": [
+    {
+      "name": "1. Prerequisites Check",
+      "bytes": 431,
+      "when": [
+        "prerequisites",
+        "check"
+      ]
+    },
+    {
+      "name": "2. Input Detection",
+      "bytes": 385,
+      "when": [
+        "input",
+        "detection"
+      ]
+    },
+    {
+      "name": "3. Conversion",
+      "bytes": 1727,
+      "when": [
+        "conversion"
+      ]
+    },
+    {
+      "name": "Large File Handling",
+      "bytes": 550,
+      "when": [
+        "large",
+        "file",
+        "handling"
+      ]
+    },
+    {
+      "name": "HTML",
+      "bytes": 71,
+      "when": [
+        "html"
+      ]
+    },
+    {
+      "name": "PPTX",
+      "bytes": 319,
+      "when": [
+        "pptx"
+      ]
+    },
+    {
+      "name": "PDF",
+      "bytes": 479,
+      "when": []
+    },
+    {
+      "name": "Google Slides",
+      "bytes": 290,
+      "when": [
+        "google",
+        "slides"
+      ]
+    },
+    {
+      "name": "4. Publishing",
+      "bytes": 796,
+      "when": [
+        "publishing"
+      ]
+    },
+    {
+      "name": "Visibility",
+      "bytes": 222,
+      "when": [
+        "visibility"
+      ]
+    },
+    {
+      "name": "Publish",
+      "bytes": 556,
+      "when": [
+        "publish"
+      ]
+    },
+    {
+      "name": "5. Output",
+      "bytes": 192,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 563,
+      "when": [
+        "error",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\publish-to-pages\\SKILL.md"
+}

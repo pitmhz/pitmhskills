@@ -1,0 +1,326 @@
+{
+  "id": "awesome-copilot__typespec-api-operations",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "882751e73fb23048fcffd739345cabec0b3176a922b528f271c3dc7ce78ddd8a",
+  "purpose": "Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2287,
+  "core_bytes": 9157,
+  "sections": [
+    {
+      "name": "Adding GET Operations",
+      "bytes": 1511,
+      "when": [
+        "adding",
+        "operations"
+      ]
+    },
+    {
+      "name": "Simple GET - List All Items",
+      "bytes": 124,
+      "when": [
+        "simple",
+        "list",
+        "items"
+      ]
+    },
+    {
+      "name": "GET with Query Parameter - Filter Results",
+      "bytes": 228,
+      "when": [
+        "query",
+        "parameter",
+        "filter",
+        "results"
+      ]
+    },
+    {
+      "name": "GET with Path Parameter - Get Single Item",
+      "bytes": 211,
+      "when": [
+        "path",
+        "parameter",
+        "single",
+        "item"
+      ]
+    },
+    {
+      "name": "GET with Adaptive Card",
+      "bytes": 922,
+      "when": [
+        "adaptive",
+        "card"
+      ]
+    },
+    {
+      "name": "Adding POST Operations",
+      "bytes": 752,
+      "when": [
+        "adding",
+        "post",
+        "operations"
+      ]
+    },
+    {
+      "name": "Simple POST - Create Item",
+      "bytes": 277,
+      "when": [
+        "simple",
+        "post",
+        "create",
+        "item"
+      ]
+    },
+    {
+      "name": "POST with Confirmation",
+      "bytes": 448,
+      "when": [
+        "post",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Adding PATCH Operations",
+      "bytes": 896,
+      "when": [
+        "adding",
+        "patch",
+        "operations"
+      ]
+    },
+    {
+      "name": "Simple PATCH - Update Item",
+      "bytes": 390,
+      "when": [
+        "simple",
+        "patch",
+        "update",
+        "item"
+      ]
+    },
+    {
+      "name": "PATCH with Confirmation",
+      "bytes": 478,
+      "when": [
+        "patch",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Adding DELETE Operations",
+      "bytes": 598,
+      "when": [
+        "adding",
+        "delete",
+        "operations"
+      ]
+    },
+    {
+      "name": "Simple DELETE",
+      "bytes": 176,
+      "when": [
+        "simple",
+        "delete"
+      ]
+    },
+    {
+      "name": "DELETE with Confirmation",
+      "bytes": 393,
+      "when": [
+        "delete",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Complete CRUD Example",
+      "bytes": 1914,
+      "when": [
+        "complete",
+        "crud",
+        "example"
+      ]
+    },
+    {
+      "name": "Define the Service and Models",
+      "bytes": 1888,
+      "when": [
+        "define",
+        "service",
+        "models"
+      ]
+    },
+    {
+      "name": "Advanced Features",
+      "bytes": 927,
+      "when": [
+        "advanced",
+        "features"
+      ]
+    },
+    {
+      "name": "Multiple Query Parameters",
+      "bytes": 307,
+      "when": [
+        "multiple",
+        "query",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Header Parameters",
+      "bytes": 162,
+      "when": [
+        "header",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Custom Response Models",
+      "bytes": 213,
+      "when": [
+        "custom",
+        "response",
+        "models"
+      ]
+    },
+    {
+      "name": "Error Responses",
+      "bytes": 223,
+      "when": [
+        "error",
+        "responses"
+      ]
+    },
+    {
+      "name": "Testing Prompts",
+      "bytes": 525,
+      "when": [
+        "testing",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 1187,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Parameter Naming",
+      "bytes": 154,
+      "when": [
+        "parameter",
+        "naming"
+      ]
+    },
+    {
+      "name": "Documentation",
+      "bytes": 124,
+      "when": [
+        "documentation"
+      ]
+    },
+    {
+      "name": "Models",
+      "bytes": 219,
+      "when": [
+        "models"
+      ]
+    },
+    {
+      "name": "Confirmations",
+      "bytes": 182,
+      "when": [
+        "confirmations"
+      ]
+    },
+    {
+      "name": "Adaptive Cards",
+      "bytes": 203,
+      "when": [
+        "adaptive",
+        "cards"
+      ]
+    },
+    {
+      "name": "Routing",
+      "bytes": 286,
+      "when": [
+        "routing"
+      ]
+    },
+    {
+      "name": "Common Issues",
+      "bytes": 555,
+      "when": [
+        "common",
+        "issues"
+      ]
+    },
+    {
+      "name": "Issue: Parameter not showing in Copilot",
+      "bytes": 132,
+      "when": [
+        "issue",
+        "parameter",
+        "showing",
+        "copilot"
+      ]
+    },
+    {
+      "name": "Issue: Adaptive card not rendering",
+      "bytes": 114,
+      "when": [
+        "issue",
+        "adaptive",
+        "card",
+        "rendering"
+      ]
+    },
+    {
+      "name": "Issue: Confirmation not appearing",
+      "bytes": 133,
+      "when": [
+        "issue",
+        "confirmation",
+        "appearing"
+      ]
+    },
+    {
+      "name": "Issue: Model property not appearing in response",
+      "bytes": 158,
+      "when": [
+        "issue",
+        "model",
+        "property",
+        "appearing",
+        "response"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\typespec-api-operations\\SKILL.md"
+}

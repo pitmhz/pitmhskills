@@ -1,0 +1,381 @@
+{
+  "id": "awesome-copilot__copilot-cli-quickstart",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a7de35da1454e0858d443d681cc468ed109de6d33d9014e75556103895e64ff0",
+  "purpose": "Use this skill when someone wants to learn GitHub Copilot CLI from scratch. Offers interactive step-by-step tutorials with separate Developer and Non-Developer tracks, plus on-demand Q&A. Just say \"st",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use this skill when someone wants to learn GitHub Copilot CLI from scratch. Offers interactive step-by-step tutorials with separate Developer and Non-Developer "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 7225,
+  "core_bytes": 29776,
+  "sections": [
+    {
+      "name": "🎯 Three Modes",
+      "bytes": 620,
+      "when": [
+        "three",
+        "modes"
+      ]
+    },
+    {
+      "name": "🎓 Tutorial Mode",
+      "bytes": 134,
+      "when": [
+        "tutorial",
+        "mode"
+      ]
+    },
+    {
+      "name": "❓ Q&A Mode",
+      "bytes": 123,
+      "when": [
+        "mode"
+      ]
+    },
+    {
+      "name": "🔄 Reset Mode",
+      "bytes": 342,
+      "when": [
+        "reset",
+        "mode"
+      ]
+    },
+    {
+      "name": "🛤️ Audience Detection",
+      "bytes": 733,
+      "when": [
+        "audience",
+        "detection"
+      ]
+    },
+    {
+      "name": "📊 Progress Tracking",
+      "bytes": 842,
+      "when": [
+        "progress",
+        "tracking"
+      ]
+    },
+    {
+      "name": "🔄 Reset Tutorial",
+      "bytes": 262,
+      "when": [
+        "reset",
+        "tutorial"
+      ]
+    },
+    {
+      "name": "📚 Lesson Structure",
+      "bytes": 904,
+      "when": [
+        "lesson",
+        "structure"
+      ]
+    },
+    {
+      "name": "Shared Lessons (Both Tracks)",
+      "bytes": 217,
+      "when": [
+        "shared",
+        "lessons",
+        "both",
+        "tracks"
+      ]
+    },
+    {
+      "name": "🧑‍💻 Developer Track",
+      "bytes": 333,
+      "when": [
+        "developer",
+        "track"
+      ]
+    },
+    {
+      "name": "🎨 Non-Developer Track",
+      "bytes": 328,
+      "when": [
+        "developer",
+        "track"
+      ]
+    },
+    {
+      "name": "🏠 Lesson S1: Welcome & Verify Your Setup",
+      "bytes": 3270,
+      "when": [
+        "lesson",
+        "welcome",
+        "verify",
+        "setup"
+      ]
+    },
+    {
+      "name": "💬 Lesson S2: Your First Prompt",
+      "bytes": 2859,
+      "when": [
+        "lesson",
+        "first",
+        "prompt"
+      ]
+    },
+    {
+      "name": "🎮 Lesson S3: The Permission Model",
+      "bytes": 2912,
+      "when": [
+        "lesson",
+        "permission",
+        "model"
+      ]
+    },
+    {
+      "name": "🧑‍💻 Developer Track Lessons",
+      "bytes": 5982,
+      "when": [
+        "developer",
+        "track",
+        "lessons"
+      ]
+    },
+    {
+      "name": "🎛️ Lesson D1: Slash Commands & Modes",
+      "bytes": 1486,
+      "when": [
+        "lesson",
+        "slash",
+        "commands",
+        "modes"
+      ]
+    },
+    {
+      "name": "📎 Lesson D2: Mentioning Files with @",
+      "bytes": 1003,
+      "when": [
+        "lesson",
+        "mentioning",
+        "files"
+      ]
+    },
+    {
+      "name": "📋 Lesson D3: Planning with /plan",
+      "bytes": 978,
+      "when": [
+        "lesson",
+        "planning",
+        "plan"
+      ]
+    },
+    {
+      "name": "⚙️ Lesson D4: Custom Instructions",
+      "bytes": 1265,
+      "when": [
+        "lesson",
+        "custom",
+        "instructions"
+      ]
+    },
+    {
+      "name": "🚀 Lesson D5: Advanced — MCP, Skills & Beyond",
+      "bytes": 1210,
+      "when": [
+        "lesson",
+        "advanced",
+        "skills",
+        "beyond"
+      ]
+    },
+    {
+      "name": "🎨 Non-Developer Track Lessons",
+      "bytes": 5339,
+      "when": [
+        "developer",
+        "track",
+        "lessons"
+      ]
+    },
+    {
+      "name": "📝 Lesson N1: Writing & Editing with Copilot",
+      "bytes": 1329,
+      "when": [
+        "lesson",
+        "writing",
+        "editing",
+        "copilot"
+      ]
+    },
+    {
+      "name": "📋 Lesson N2: Task Planning with /plan",
+      "bytes": 1250,
+      "when": [
+        "lesson",
+        "task",
+        "planning",
+        "plan"
+      ]
+    },
+    {
+      "name": "🔍 Lesson N3: Understanding Code (Without Writing It)",
+      "bytes": 1473,
+      "when": [
+        "lesson",
+        "understanding",
+        "code",
+        "writing"
+      ]
+    },
+    {
+      "name": "📊 Lesson N4: Getting Summaries & Explanations",
+      "bytes": 1250,
+      "when": [
+        "lesson",
+        "getting",
+        "summaries",
+        "explanations"
+      ]
+    },
+    {
+      "name": "🎉 Graduation Ceremonies",
+      "bytes": 1360,
+      "when": [
+        "graduation",
+        "ceremonies"
+      ]
+    },
+    {
+      "name": "🧑‍💻 Developer Track Complete!",
+      "bytes": 722,
+      "when": [
+        "developer",
+        "track",
+        "complete"
+      ]
+    },
+    {
+      "name": "🎨 Non-Developer Track Complete!",
+      "bytes": 607,
+      "when": [
+        "developer",
+        "track",
+        "complete"
+      ]
+    },
+    {
+      "name": "❓ Q&A Mode",
+      "bytes": 857,
+      "when": [
+        "mode"
+      ]
+    },
+    {
+      "name": "Quick Q&A Format:",
+      "bytes": 63,
+      "when": [
+        "quick",
+        "format"
+      ]
+    },
+    {
+      "name": "Deep Q&A Format:",
+      "bytes": 209,
+      "when": [
+        "deep",
+        "format"
+      ]
+    },
+    {
+      "name": "📖 CLI Glossary (for Non-Technical Users)",
+      "bytes": 1242,
+      "when": [
+        "glossary",
+        "technical",
+        "users"
+      ]
+    },
+    {
+      "name": "⚠️ Failure Handling",
+      "bytes": 1233,
+      "when": [
+        "failure",
+        "handling"
+      ]
+    },
+    {
+      "name": "🔌 If `fetch_copilot_cli_documentation` fails or returns empty:",
+      "bytes": 276,
+      "when": [
+        "fetch",
+        "copilot",
+        "documentation",
+        "fails",
+        "returns",
+        "empty"
+      ]
+    },
+    {
+      "name": "🗄️ If SQL operations fail:",
+      "bytes": 242,
+      "when": [
+        "operations",
+        "fail"
+      ]
+    },
+    {
+      "name": "🤷 If user input is unclear:",
+      "bytes": 232,
+      "when": [
+        "user",
+        "input",
+        "unclear"
+      ]
+    },
+    {
+      "name": "📊 If user requests a lesson that doesn't exist:",
+      "bytes": 204,
+      "when": [
+        "user",
+        "requests",
+        "lesson",
+        "doesn",
+        "exist"
+      ]
+    },
+    {
+      "name": "🔄 If user wants to switch tracks mid-tutorial:",
+      "bytes": 251,
+      "when": [
+        "user",
+        "wants",
+        "switch",
+        "tracks",
+        "tutorial"
+      ]
+    },
+    {
+      "name": "📏 Rules",
+      "bytes": 818,
+      "when": [
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\copilot-cli-quickstart\\SKILL.md"
+}

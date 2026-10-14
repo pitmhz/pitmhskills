@@ -1,0 +1,147 @@
+{
+  "id": "nvidia__tao-train-nvpanoptix3d",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "15d244608490e5874a89e6873cb789af5d249bb5ca72d21f61cd3ed5ec07a09b",
+  "purpose": "NVPanoptix3D for panoptic 3D scene reconstruction from posed RGB images. Produces 3D panoptic segmentation",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "NVPanoptix3D for panoptic 3D scene reconstruction from posed RGB images. Produces 3D panoptic segmentation"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4336,
+  "core_bytes": 17348,
+  "sections": [
+    {
+      "name": "Quick Start (docker run)",
+      "bytes": 1651,
+      "when": [
+        "quick",
+        "start",
+        "docker"
+      ]
+    },
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 833,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1979,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 4014,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 1398,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 2156,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 99,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 1867,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 796,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Export / TRT Defaults",
+      "bytes": 318,
+      "when": [
+        "export",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 384,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 2087,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 1994,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-nvpanoptix3d/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,97 @@
+{
+  "id": "nvidia__cudaq-importing",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "789191bc0d344cdc974f937edbac405d3fda326be806735127fe24bfff8a585c",
+  "purpose": "Use when porting circuits from another framework (e.g. Qiskit) into CUDA-Q kernels while preserving the source algorithm and validation fidelity.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when porting circuits from another framework (e.g. Qiskit) into CUDA-Q kernels while preserving the source algorithm and validation fidelity."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1901,
+  "core_bytes": 7603,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 618,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 849,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1227,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Core Rules",
+      "bytes": 744,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "When to Read the Reference",
+      "bytes": 483,
+      "when": [
+        "read",
+        "reference"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 780,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1810,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 243,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/cudaq-importing/SKILL.md",
+  "curated": true
+}

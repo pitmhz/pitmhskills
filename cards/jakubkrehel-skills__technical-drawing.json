@@ -1,0 +1,123 @@
+{
+  "id": "jakubkrehel-skills__technical-drawing",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "42b862a570ebc954d3059956f6f1019d41d8ae8a7b5c7623d9056fbeb576487b",
+  "purpose": "Creates precise static technical drawings of physical objects, with coherent views and fine linework. Delivers a blank-page viewer with zoom, editable colors and SVG, PNG and PDF downloads.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Creates precise static technical drawings of physical objects, with coherent views and fine linework. Delivers a blank-page viewer with zoom, editable colors an"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2636,
+  "core_bytes": 10544,
+  "sections": [
+    {
+      "name": "1. Read the object and the reference separately",
+      "bytes": 1971,
+      "when": [
+        "read",
+        "object",
+        "reference",
+        "separately"
+      ]
+    },
+    {
+      "name": "2. Choose views that explain the construction",
+      "bytes": 1225,
+      "when": [
+        "choose",
+        "views",
+        "explain",
+        "construction"
+      ]
+    },
+    {
+      "name": "3. Construct one object, then project it",
+      "bytes": 1826,
+      "when": [
+        "construct",
+        "object",
+        "project"
+      ]
+    },
+    {
+      "name": "4. Ink the drawing and add requested annotations",
+      "bytes": 1474,
+      "when": [
+        "drawing",
+        "requested",
+        "annotations"
+      ]
+    },
+    {
+      "name": "5. Render, inspect and correct",
+      "bytes": 737,
+      "when": [
+        "render",
+        "inspect",
+        "correct"
+      ]
+    },
+    {
+      "name": "6. Package and test the preview page",
+      "bytes": 696,
+      "when": [
+        "package",
+        "test",
+        "preview",
+        "page"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1246,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Deliver the drawing with its source",
+      "bytes": 494,
+      "when": [
+        "deliver",
+        "drawing",
+        "source"
+      ]
+    }
+  ],
+  "keywords": [
+    "drawing",
+    "read",
+    "object",
+    "reference",
+    "separately",
+    "choose",
+    "explain",
+    "construction",
+    "construct",
+    "project",
+    "requested",
+    "annotations"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\technical-drawing\\SKILL.md"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "nvidia__warp-debug-gradients",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "93dbe19aaba9e2de9daacea4eeb5ff7e292c27c40b435c71824e5b4b6eeb7c08",
+  "purpose": "Use to diagnose and fix incorrect gradients in differentiable Warp programs. Anything trained, optimized, calibrated, or fit through Warp kernels depends on wp.Tape gradients, so treat any misbehavior",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use to diagnose and fix incorrect gradients in differentiable Warp programs. Anything trained, optimized, calibrated, or fit through Warp kernels depends on wp."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4836,
+  "core_bytes": 19460,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 1741,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 508,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 5843,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Failure signatures",
+      "bytes": 3622,
+      "when": [
+        "failure",
+        "signatures"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1588,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 981,
+      "when": [
+        "reporting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1240,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Edge case: out of memory",
+      "bytes": 470,
+      "when": [
+        "edge",
+        "case",
+        "memory"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 779,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\warp-debug-gradients\\SKILL.md",
+  "curated": true
+}

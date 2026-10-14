@@ -1,0 +1,172 @@
+{
+  "id": "nvidia__physicsnemo-discover",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c6147b7e08d96305ded980558eeb2f9d9fa0c4c33452c6410bfe1485e6041e70",
+  "purpose": "Official NVIDIA-authored guidance for navigating PhysicsNeMo — pick the model, datapipe, or example for a SciML/AI4Science task (surrogates, forecasting, downscaling, physics-informed, inverse, genera",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Official NVIDIA-authored guidance for navigating PhysicsNeMo — pick the model, datapipe, or example for a SciML/AI4Science task (surrogates, forecasting, downsc"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1874,
+  "core_bytes": 7567,
+  "sections": [
+    {
+      "name": "Core principle",
+      "bytes": 556,
+      "when": [
+        "core",
+        "principle"
+      ]
+    },
+    {
+      "name": "What a correct answer satisfies",
+      "bytes": 2039,
+      "when": [
+        "correct",
+        "answer",
+        "satisfies"
+      ]
+    },
+    {
+      "name": "Discovery",
+      "bytes": 903,
+      "when": [
+        "discovery"
+      ]
+    },
+    {
+      "name": "Output format",
+      "bytes": 25,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Problem shape",
+      "bytes": 119,
+      "when": [
+        "problem",
+        "shape"
+      ]
+    },
+    {
+      "name": "Candidate model families (for your data shape)",
+      "bytes": 326,
+      "when": [
+        "candidate",
+        "model",
+        "families",
+        "data",
+        "shape"
+      ]
+    },
+    {
+      "name": "Datapipe(s) for your data format",
+      "bytes": 243,
+      "when": [
+        "datapipe",
+        "data",
+        "format"
+      ]
+    },
+    {
+      "name": "Reference example(s) — one instantiation of the above axes",
+      "bytes": 195,
+      "when": [
+        "reference",
+        "example",
+        "instantiation",
+        "above",
+        "axes"
+      ]
+    },
+    {
+      "name": "Supporting docs",
+      "bytes": 62,
+      "when": [
+        "supporting",
+        "docs"
+      ]
+    },
+    {
+      "name": "Suggested reading order",
+      "bytes": 894,
+      "when": [
+        "suggested",
+        "reading",
+        "order"
+      ]
+    },
+    {
+      "name": "Abstention output",
+      "bytes": 142,
+      "when": [
+        "abstention",
+        "output"
+      ]
+    },
+    {
+      "name": "PhysicsNeMo does not have direct support for <user's problem class>",
+      "bytes": 247,
+      "when": [
+        "physicsnemo",
+        "direct",
+        "support",
+        "user",
+        "problem",
+        "class"
+      ]
+    },
+    {
+      "name": "Where to look instead",
+      "bytes": 196,
+      "when": [
+        "where",
+        "look",
+        "instead"
+      ]
+    },
+    {
+      "name": "If you still want to build it in PhysicsNeMo",
+      "bytes": 454,
+      "when": [
+        "still",
+        "want",
+        "build",
+        "physicsnemo"
+      ]
+    },
+    {
+      "name": "Related resources",
+      "bytes": 223,
+      "when": [
+        "related",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/physicsnemo-discover/SKILL.md",
+  "curated": true
+}

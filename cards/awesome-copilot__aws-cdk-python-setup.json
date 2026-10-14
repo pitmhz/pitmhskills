@@ -1,0 +1,141 @@
+{
+  "id": "awesome-copilot__aws-cdk-python-setup",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ffc9ecadc84bdeaf29c4e5616d497254339e5bad77f05e6c370da569ce9c98c3",
+  "purpose": "Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enables users to configure environment prerequisites, create new CDK projects, manage d",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enables users to configure environment prerequi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 650,
+  "core_bytes": 2621,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 299,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Installation Steps",
+      "bytes": 968,
+      "when": [
+        "installation",
+        "steps"
+      ]
+    },
+    {
+      "name": "1. Install AWS CDK CLI",
+      "bytes": 77,
+      "when": [
+        "install"
+      ]
+    },
+    {
+      "name": "2. Configure AWS Credentials",
+      "bytes": 237,
+      "when": [
+        "configure",
+        "credentials"
+      ]
+    },
+    {
+      "name": "3. Create a New CDK Project",
+      "bytes": 314,
+      "when": [
+        "create",
+        "project"
+      ]
+    },
+    {
+      "name": "4. Set Up Python Virtual Environment",
+      "bytes": 128,
+      "when": [
+        "python",
+        "virtual",
+        "environment"
+      ]
+    },
+    {
+      "name": "5. Install Python Dependencies",
+      "bytes": 189,
+      "when": [
+        "install",
+        "python",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Development Workflow",
+      "bytes": 394,
+      "when": [
+        "development",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Synthesize CloudFormation Templates",
+      "bytes": 121,
+      "when": [
+        "synthesize",
+        "cloudformation",
+        "templates"
+      ]
+    },
+    {
+      "name": "Deploy Stacks to AWS",
+      "bytes": 112,
+      "when": [
+        "deploy",
+        "stacks"
+      ]
+    },
+    {
+      "name": "Bootstrap (First Deployment Only)",
+      "bytes": 136,
+      "when": [
+        "bootstrap",
+        "first",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 286,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Troubleshooting Tips",
+      "bytes": 236,
+      "when": [
+        "troubleshooting",
+        "tips"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aws-cdk-python-setup\\SKILL.md"
+}

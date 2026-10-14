@@ -29,10 +29,65 @@
   "conflicts_with": [],
   "body_tokens": 479,
   "core_bytes": 1922,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 283,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "bytes": 408,
+      "when": [
+        "core",
+        "concepts"
+      ]
+    },
+    {
+      "name": "A/B Testing",
+      "bytes": 88,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Multivariate Testing",
+      "bytes": 101,
+      "when": [
+        "multivariate",
+        "testing"
+      ]
+    },
+    {
+      "name": "Statistical Significance",
+      "bytes": 96,
+      "when": [
+        "statistical",
+        "significance"
+      ]
+    },
+    {
+      "name": "Experimentation Culture",
+      "bytes": 103,
+      "when": [
+        "experimentation",
+        "culture"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 607,
+      "when": [
+        "references"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\content-experimentation-best-practices\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\content-experimentation-best-practices\\SKILL.md",
+  "curated": true
 }

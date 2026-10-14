@@ -1,0 +1,121 @@
+{
+  "id": "nvidia__holoscan-install-source",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "479688edba8adc66493c540b5ef10ee68cb09f3418feb3962a9c777e4f05e2b5",
+  "purpose": "Build Holoscan SDK from source via the in-tree ./run script. Use only when published packages dont meet the users needs.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build Holoscan SDK from source via the in-tree ./run script. Use only when published packages dont meet the users needs."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1569,
+  "core_bytes": 6292,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 224,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 292,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 353,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Step 0: Consult the Official Install Instructions",
+      "bytes": 523,
+      "when": [
+        "step",
+        "consult",
+        "official",
+        "install",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1: Prerequisites",
+      "bytes": 1039,
+      "when": [
+        "step",
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Step 2: Clone the Repository",
+      "bytes": 432,
+      "when": [
+        "step",
+        "clone",
+        "repository"
+      ]
+    },
+    {
+      "name": "Step 3: Build",
+      "bytes": 917,
+      "when": [
+        "step",
+        "build"
+      ]
+    },
+    {
+      "name": "Step 4: Run Tests",
+      "bytes": 1124,
+      "when": [
+        "step",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 5: Point Applications at the Install Tree",
+      "bytes": 322,
+      "when": [
+        "step",
+        "point",
+        "applications",
+        "install",
+        "tree"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 595,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/holoscan-install-source/SKILL.md",
+  "curated": true
+}

@@ -8,3 +8,65 @@
   expect: local__strategic-memory
 - task: "Grill me with interview questions on my deployment plan before I build it"
   expect: pocock__grill-with-docs
+- task: "Tune a slow Supabase Postgres query using EXPLAIN and create the right index"
+  expect: supabase__supabase-postgres-best-practices
+- task: "Tune a slow Neon Postgres query with EXPLAIN ANALYZE and add indexes"
+  expect: neondatabase__neon-postgres
+- task: "Wire up Neon Auth with JWT claims for tenant isolation"
+  expect: neondatabase__neon-auth
+- task: "Set up Supabase Auth with Row Level Security for tenant data isolation"
+  expect: supabase__supabase
+- task: "Create a Neon Postgres branch for preview deploys in CI"
+  expect: neondatabase__neon-postgres-branches
+- task: "Configure Neon serverless functions to process inbound webhooks"
+  expect: neondatabase__neon-functions
+- task: "Set up Neon AI Gateway with pgvector similarity search"
+  expect: neondatabase__neon-ai-gateway
+- task: "Do a postgresql code review of this function"
+  expect: awesome-copilot__postgresql-code-review
+- task: "Optimize this slow SQL query with proper indexing"
+  expect: awesome-copilot__sql-optimization
+- task: "Save these user preferences to persistent memory with cavemem"
+  expect: local__cavemem
+- task: "Remember my codebase preferences using persistent memory"
+  expect: local__cavemem
+- task: "Export this session to offline docs and Cavemem SQLite memory"
+  expect: local__strategic-memory
+- task: "Stealth-scrape a JavaScript-heavy pricing dashboard and pull the numbers"
+  expect: local__obscura
+- task: "Grab a full-page screenshot plus PDF from a bot-guarded pricing page"
+  expect: local__obscura
+- task: "Generate a Playwright test for this checkout flow"
+  expect: awesome-copilot__playwright-generate-test
+- task: "Use playwright to fill in form fields and submit automatically"
+  expect: awesome-copilot__playwright-automation-fill-in-form
+- task: "Debug this page with chrome devtools MCP inspection"
+  expect: awesome-copilot__chrome-devtools
+- task: "Challenge my deployment plan with tough interview questions before I build"
+  expect: pocock__grill-with-docs
+- task: "Check this branch against our coding standards and the original spec"
+  expect: pocock__code-review
+- task: "Find agent skills that handle PDF workflows"
+  expect: local__skill-finder
+- task: "Decide which registered skill matches this task"
+  expect: local__skill-router
+- task: "Send this task to the correct skill via the router"
+  expect: local__skill-router
+- task: "Commit these changes with a git commit message"
+  expect: awesome-copilot__git-commit
+- task: "Threat-model this auth flow for STRIDE issues"
+  expect: awesome-copilot__threat-model-analyst
+- task: "Harden these GitHub Actions workflows against injection"
+  expect: awesome-copilot__github-actions-hardening
+- task: "Triage this Arch Linux boot failure from journal logs"
+  expect: awesome-copilot__arch-linux-triage
+- task: "Transcribe this meeting recording to text"
+  expect: openai__transcribe
+- task: "Draft meeting notes and action items from this transcript"
+  expect: awesome-copilot__meeting-minutes
+- task: "Generate a Word docx from this report"
+  expect: anthropic__docx
+- task: "Scaffold a Cloudflare Worker with best practices"
+  expect: cloudflare__workers-best-practices
+- task: "Profile Core Web Vitals LCP CLS INP on this page"
+  expect: web-quality__core-web-vitals

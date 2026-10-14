@@ -1,0 +1,195 @@
+{
+  "id": "antfu-skills__antfu",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "5df5eb6667bcd7c0c5fc47f23d2f22ae51ea2a335f6c4fc9341b44fe4fa5918c",
+  "purpose": "Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2013,
+  "core_bytes": 8062,
+  "sections": [
+    {
+      "name": "Coding Practices",
+      "bytes": 1981,
+      "when": [
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "name": "Code Organization",
+      "bytes": 378,
+      "when": [
+        "code",
+        "organization"
+      ]
+    },
+    {
+      "name": "Runtime Environment",
+      "bytes": 298,
+      "when": [
+        "runtime",
+        "environment"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 203,
+      "when": [
+        "typescript"
+      ]
+    },
+    {
+      "name": "Explicitness",
+      "bytes": 632,
+      "when": [
+        "explicitness"
+      ]
+    },
+    {
+      "name": "Comments",
+      "bytes": 190,
+      "when": [
+        "comments"
+      ]
+    },
+    {
+      "name": "Testing (Vitest)",
+      "bytes": 257,
+      "when": [
+        "testing",
+        "vitest"
+      ]
+    },
+    {
+      "name": "Tooling Choices",
+      "bytes": 4701,
+      "when": [
+        "tooling",
+        "choices"
+      ]
+    },
+    {
+      "name": "@antfu/ni Commands",
+      "bytes": 385,
+      "when": [
+        "antfu",
+        "commands"
+      ]
+    },
+    {
+      "name": "Checking npm Package Versions",
+      "bytes": 763,
+      "when": [
+        "checking",
+        "package",
+        "versions"
+      ]
+    },
+    {
+      "name": "TypeScript Config",
+      "bytes": 322,
+      "when": [
+        "typescript",
+        "config"
+      ]
+    },
+    {
+      "name": "ESLint Setup",
+      "bytes": 516,
+      "when": [
+        "eslint",
+        "setup"
+      ]
+    },
+    {
+      "name": "Knip",
+      "bytes": 421,
+      "when": [
+        "knip"
+      ]
+    },
+    {
+      "name": "Scripts and the `ci` Gate",
+      "bytes": 580,
+      "when": [
+        "scripts",
+        "gate"
+      ]
+    },
+    {
+      "name": "Git Hooks",
+      "bytes": 605,
+      "when": [
+        "hooks"
+      ]
+    },
+    {
+      "name": "skills-npm",
+      "bytes": 380,
+      "when": [
+        "skills"
+      ]
+    },
+    {
+      "name": "Publishing",
+      "bytes": 310,
+      "when": [
+        "publishing"
+      ]
+    },
+    {
+      "name": "pnpm Catalogs",
+      "bytes": 397,
+      "when": [
+        "pnpm",
+        "catalogs"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 777,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "coding",
+    "practices",
+    "code",
+    "organization",
+    "runtime",
+    "environment",
+    "explicitness",
+    "comments",
+    "testing",
+    "vitest",
+    "choices",
+    "antfu",
+    "commands"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\antfu\\SKILL.md"
+}

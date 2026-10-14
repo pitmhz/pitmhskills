@@ -1,0 +1,429 @@
+{
+  "id": "awesome-copilot__mcp-deploy-manage-agents",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9da69b1360ab1e8cfa07e0d1900e0dbdd2ec3927136985d34ad17d0ad099f58d",
+  "purpose": "Skill converted from mcp-deploy-manage-agents.prompt.md",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Skill converted from mcp-deploy-manage-agents.prompt.md"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2471,
+  "core_bytes": 9883,
+  "sections": [
+    {
+      "name": "Agent Types",
+      "bytes": 1052,
+      "when": [
+        "agent",
+        "types"
+      ]
+    },
+    {
+      "name": "Published by Organization",
+      "bytes": 225,
+      "when": [
+        "published",
+        "organization"
+      ]
+    },
+    {
+      "name": "Shared by Creator",
+      "bytes": 222,
+      "when": [
+        "shared",
+        "creator"
+      ]
+    },
+    {
+      "name": "Microsoft Agents",
+      "bytes": 135,
+      "when": [
+        "microsoft",
+        "agents"
+      ]
+    },
+    {
+      "name": "External Partner Agents",
+      "bytes": 163,
+      "when": [
+        "external",
+        "partner",
+        "agents"
+      ]
+    },
+    {
+      "name": "Frontier Agents",
+      "bytes": 291,
+      "when": [
+        "frontier",
+        "agents"
+      ]
+    },
+    {
+      "name": "Admin Roles and Permissions",
+      "bytes": 300,
+      "when": [
+        "admin",
+        "roles",
+        "permissions"
+      ]
+    },
+    {
+      "name": "Required Roles",
+      "bytes": 122,
+      "when": [
+        "required",
+        "roles"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 146,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Agent Management in Microsoft 365 Admin Center",
+      "bytes": 979,
+      "when": [
+        "agent",
+        "management",
+        "microsoft",
+        "admin",
+        "center"
+      ]
+    },
+    {
+      "name": "Access Agent Management",
+      "bytes": 175,
+      "when": [
+        "access",
+        "agent",
+        "management"
+      ]
+    },
+    {
+      "name": "Available Actions",
+      "bytes": 753,
+      "when": [
+        "available",
+        "actions"
+      ]
+    },
+    {
+      "name": "Deployment Workflows",
+      "bytes": 1388,
+      "when": [
+        "deployment",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Publish to Organization",
+      "bytes": 405,
+      "when": [
+        "publish",
+        "organization"
+      ]
+    },
+    {
+      "name": "Deploy via Agent Store",
+      "bytes": 412,
+      "when": [
+        "deploy",
+        "agent",
+        "store"
+      ]
+    },
+    {
+      "name": "Deploy Organizational Agent",
+      "bytes": 546,
+      "when": [
+        "deploy",
+        "organizational",
+        "agent"
+      ]
+    },
+    {
+      "name": "User Experience",
+      "bytes": 525,
+      "when": [
+        "user",
+        "experience"
+      ]
+    },
+    {
+      "name": "Agent Discovery",
+      "bytes": 138,
+      "when": [
+        "agent",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Agent Access Control",
+      "bytes": 200,
+      "when": [
+        "agent",
+        "access",
+        "control"
+      ]
+    },
+    {
+      "name": "Agent Usage",
+      "bytes": 167,
+      "when": [
+        "agent",
+        "usage"
+      ]
+    },
+    {
+      "name": "Governance and Compliance",
+      "bytes": 677,
+      "when": [
+        "governance",
+        "compliance"
+      ]
+    },
+    {
+      "name": "Security Considerations",
+      "bytes": 243,
+      "when": [
+        "security",
+        "considerations"
+      ]
+    },
+    {
+      "name": "Compliance Requirements",
+      "bytes": 246,
+      "when": [
+        "compliance",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Monitoring and Reporting",
+      "bytes": 158,
+      "when": [
+        "monitoring",
+        "reporting"
+      ]
+    },
+    {
+      "name": "MCP-Specific Management",
+      "bytes": 660,
+      "when": [
+        "specific",
+        "management"
+      ]
+    },
+    {
+      "name": "MCP Agent Characteristics",
+      "bytes": 210,
+      "when": [
+        "agent",
+        "characteristics"
+      ]
+    },
+    {
+      "name": "MCP Agent Validation",
+      "bytes": 226,
+      "when": [
+        "agent",
+        "validation"
+      ]
+    },
+    {
+      "name": "MCP Agent Deployment",
+      "bytes": 196,
+      "when": [
+        "agent",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Agent Settings and Configuration",
+      "bytes": 565,
+      "when": [
+        "agent",
+        "settings",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Organizational Settings",
+      "bytes": 174,
+      "when": [
+        "organizational",
+        "settings"
+      ]
+    },
+    {
+      "name": "Per-Agent Settings",
+      "bytes": 169,
+      "when": [
+        "agent",
+        "settings"
+      ]
+    },
+    {
+      "name": "Environment Routing",
+      "bytes": 185,
+      "when": [
+        "environment",
+        "routing"
+      ]
+    },
+    {
+      "name": "Shared Agent Management",
+      "bytes": 509,
+      "when": [
+        "shared",
+        "agent",
+        "management"
+      ]
+    },
+    {
+      "name": "View Shared Agents",
+      "bytes": 144,
+      "when": [
+        "view",
+        "shared",
+        "agents"
+      ]
+    },
+    {
+      "name": "Manage Shared Agents",
+      "bytes": 168,
+      "when": [
+        "manage",
+        "shared",
+        "agents"
+      ]
+    },
+    {
+      "name": "User Access to Shared Agents",
+      "bytes": 169,
+      "when": [
+        "user",
+        "access",
+        "shared",
+        "agents"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 903,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Before Deployment",
+      "bytes": 226,
+      "when": [
+        "before",
+        "deployment"
+      ]
+    },
+    {
+      "name": "During Deployment",
+      "bytes": 206,
+      "when": [
+        "during",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Post-Deployment",
+      "bytes": 265,
+      "when": [
+        "post",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Communication",
+      "bytes": 187,
+      "when": [
+        "communication"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 729,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Agent Not Appearing",
+      "bytes": 194,
+      "when": [
+        "agent",
+        "appearing"
+      ]
+    },
+    {
+      "name": "Authentication Failures",
+      "bytes": 181,
+      "when": [
+        "authentication",
+        "failures"
+      ]
+    },
+    {
+      "name": "Performance Issues",
+      "bytes": 161,
+      "when": [
+        "performance",
+        "issues"
+      ]
+    },
+    {
+      "name": "Compliance Violations",
+      "bytes": 173,
+      "when": [
+        "compliance",
+        "violations"
+      ]
+    },
+    {
+      "name": "Resources",
+      "bytes": 432,
+      "when": [
+        "resources"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 525,
+      "when": [
+        "workflow"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-deploy-manage-agents\\SKILL.md"
+}

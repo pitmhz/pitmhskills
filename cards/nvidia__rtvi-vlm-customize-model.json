@@ -1,0 +1,190 @@
+{
+  "id": "nvidia__rtvi-vlm-customize-model",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d3abed4ed795fbe62c7122a19939e4534af87849ff9e059506c449042eaa4abc",
+  "purpose": "How to swap the VLM in the VSS Alerts Blueprint — covers RTVI-VLM microservice deployment methods, all three VLM consumers (rtvi-vlm, vlm-as-verifier, vss-agent), and health checks.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "How to swap the VLM in the VSS Alerts Blueprint — covers RTVI-VLM microservice deployment methods, all three VLM consumers (rtvi-vlm, vlm-as-verifier, vss-agent"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5092,
+  "core_bytes": 20400,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 462,
+      "when": []
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1466,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 347,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Source locations",
+      "bytes": 317,
+      "when": [
+        "source",
+        "locations"
+      ]
+    },
+    {
+      "name": "Which modes this applies to",
+      "bytes": 1249,
+      "when": [
+        "modes",
+        "applies"
+      ]
+    },
+    {
+      "name": "RTVI-VLM: Two Deployment Methods",
+      "bytes": 976,
+      "when": [
+        "rtvi",
+        "deployment",
+        "methods"
+      ]
+    },
+    {
+      "name": "Method A: OpenAI-Compatible Endpoint (`openai-compat`)",
+      "bytes": 231,
+      "when": [
+        "method",
+        "openai",
+        "compatible",
+        "endpoint",
+        "compat"
+      ]
+    },
+    {
+      "name": "Method B: vLLM Inside the RTVI Container (`vllm-compatible`)",
+      "bytes": 592,
+      "when": [
+        "method",
+        "vllm",
+        "inside",
+        "rtvi",
+        "container",
+        "compatible"
+      ]
+    },
+    {
+      "name": "Configuring RTVI-VLM via VSS Blueprint",
+      "bytes": 6379,
+      "when": [
+        "configuring",
+        "rtvi",
+        "blueprint"
+      ]
+    },
+    {
+      "name": "Required port configuration — all Blueprint workflows",
+      "bytes": 815,
+      "when": [
+        "required",
+        "port",
+        "configuration",
+        "blueprint",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Method A — OpenAI-compatible endpoint",
+      "bytes": 3987,
+      "when": [
+        "method",
+        "openai",
+        "compatible",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "Method B — vLLM inside RTVI container",
+      "bytes": 1137,
+      "when": [
+        "method",
+        "vllm",
+        "inside",
+        "rtvi",
+        "container"
+      ]
+    },
+    {
+      "name": "Configuring RTVI-VLM Standalone",
+      "bytes": 1781,
+      "when": [
+        "configuring",
+        "rtvi",
+        "standalone"
+      ]
+    },
+    {
+      "name": "Configuring vlm-as-verifier (`2d_cv` mode only)",
+      "bytes": 1265,
+      "when": [
+        "configuring",
+        "verifier",
+        "mode"
+      ]
+    },
+    {
+      "name": "Configuring vss-agent",
+      "bytes": 1520,
+      "when": [
+        "configuring",
+        "agent"
+      ]
+    },
+    {
+      "name": "Health Checks",
+      "bytes": 4138,
+      "when": [
+        "health",
+        "checks"
+      ]
+    },
+    {
+      "name": "Model identity differs by method",
+      "bytes": 1337,
+      "when": [
+        "model",
+        "identity",
+        "differs",
+        "method"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/rtvi-vlm-customize-model/SKILL.md",
+  "curated": true
+}

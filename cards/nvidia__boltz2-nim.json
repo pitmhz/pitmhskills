@@ -1,0 +1,92 @@
+{
+  "id": "nvidia__boltz2-nim",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "90c180149d73ffb390c22b8dc8af9047c6b3f01c38a0a6ae63ebd284ed183094",
+  "purpose": "Use Boltz2 NIM for biomolecular structure prediction and binding affinity. Invoke for Boltz2, protein structures, protein-ligand/DNA/RNA complexes, SMILES or CCD ligands, pIC50/IC50 affinity scoring, ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use Boltz2 NIM for biomolecular structure prediction and binding affinity. Invoke for Boltz2, protein structures, protein-ligand/DNA/RNA complexes, SMILES or CC"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1418,
+  "core_bytes": 5672,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1044,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Choose Mode",
+      "bytes": 653,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Local Docker",
+      "bytes": 1001,
+      "when": [
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1842,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Prediction Request",
+      "bytes": 1827,
+      "when": [
+        "prediction",
+        "request"
+      ]
+    },
+    {
+      "name": "Save And Report Output",
+      "bytes": 333,
+      "when": [
+        "save",
+        "report",
+        "output"
+      ]
+    },
+    {
+      "name": "Limits And Troubleshooting",
+      "bytes": 449,
+      "when": [
+        "limits",
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-boltz2-nim\\SKILL.md",
+  "curated": true
+}

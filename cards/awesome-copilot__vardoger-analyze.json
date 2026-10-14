@@ -1,0 +1,139 @@
+{
+  "id": "awesome-copilot__vardoger-analyze",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b591aabb62aa9876039938220e346e93fa929788b23c07b73be05d2686d41525",
+  "purpose": "Use when the user asks to personalize the GitHub Copilot CLI assistant, adapt Copilot to their style, use vardoger, or analyze their Copilot CLI conversation history. Reads the local session directory",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when the user asks to personalize the GitHub Copilot CLI assistant, adapt Copilot to their style, use vardoger, or analyze their Copilot CLI conversation hi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1408,
+  "core_bytes": 5630,
+  "sections": [
+    {
+      "name": "How it works",
+      "bytes": 346,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Sandbox note (read before running any command)",
+      "bytes": 619,
+      "when": [
+        "sandbox",
+        "note",
+        "read",
+        "before",
+        "running",
+        "command"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 868,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 2597,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "1. Verify vardoger is installed",
+      "bytes": 599,
+      "when": [
+        "verify",
+        "vardoger",
+        "installed"
+      ]
+    },
+    {
+      "name": "2. Check if a refresh is needed",
+      "bytes": 280,
+      "when": [
+        "check",
+        "refresh",
+        "needed"
+      ]
+    },
+    {
+      "name": "3. Get batch metadata",
+      "bytes": 238,
+      "when": [
+        "batch",
+        "metadata"
+      ]
+    },
+    {
+      "name": "4. Summarize each batch",
+      "bytes": 488,
+      "when": [
+        "summarize",
+        "each",
+        "batch"
+      ]
+    },
+    {
+      "name": "5. Get the synthesis prompt",
+      "bytes": 95,
+      "when": [
+        "synthesis",
+        "prompt"
+      ]
+    },
+    {
+      "name": "6. Synthesize the personalization",
+      "bytes": 222,
+      "when": [
+        "synthesize",
+        "personalization"
+      ]
+    },
+    {
+      "name": "7. Write the result",
+      "bytes": 414,
+      "when": [
+        "write",
+        "result"
+      ]
+    },
+    {
+      "name": "8. Report to the user",
+      "bytes": 251,
+      "when": [
+        "report",
+        "user"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 190,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\vardoger-analyze\\SKILL.md"
+}

@@ -28,7 +28,53 @@
   "conflicts_with": [],
   "body_tokens": 2346,
   "core_bytes": 9419,
-  "sections": [],
+  "sections": [
+    {
+      "name": "1. Gate — confirm the package line",
+      "bytes": 1011,
+      "when": [
+        "gate",
+        "confirm",
+        "package",
+        "line"
+      ]
+    },
+    {
+      "name": "2. Contract — non-negotiables",
+      "bytes": 1850,
+      "when": [
+        "contract",
+        "negotiables"
+      ]
+    },
+    {
+      "name": "3. Retrieve — open the doc for the task",
+      "bytes": 5121,
+      "when": [
+        "retrieve",
+        "open",
+        "task"
+      ]
+    },
+    {
+      "name": "Deprecated-API cleanup (stay on stable)",
+      "bytes": 304,
+      "when": [
+        "deprecated",
+        "cleanup",
+        "stay",
+        "stable"
+      ]
+    },
+    {
+      "name": "4. Before you ship",
+      "bytes": 432,
+      "when": [
+        "before",
+        "ship"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/sandbox-stable/SKILL.md"
 }

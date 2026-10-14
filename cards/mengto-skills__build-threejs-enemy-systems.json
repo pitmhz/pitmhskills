@@ -1,0 +1,100 @@
+{
+  "id": "mengto-skills__build-threejs-enemy-systems",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "dc5a3c42c39c38b52458c4a3a2e9159d0f7aaddda96e7124bc0c91d027b59174",
+  "purpose": "Build or refactor reusable, data-driven enemy archetype and moveset systems for Three.js action games. Use for enemy content schemas, model and rig conventions, combat move timing and contact contract",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build or refactor reusable, data-driven enemy archetype and moveset systems for Three.js action games. Use for enemy content schemas, model and rig conventions,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1120,
+  "core_bytes": 4477,
+  "sections": [
+    {
+      "name": "Separate content from runtime state",
+      "bytes": 641,
+      "when": [
+        "separate",
+        "content",
+        "runtime",
+        "state"
+      ]
+    },
+    {
+      "name": "Normalize presentation contracts",
+      "bytes": 763,
+      "when": [
+        "normalize",
+        "presentation",
+        "contracts"
+      ]
+    },
+    {
+      "name": "Define moves as data",
+      "bytes": 762,
+      "when": [
+        "define",
+        "moves",
+        "data"
+      ]
+    },
+    {
+      "name": "Provide an honest fallback",
+      "bytes": 357,
+      "when": [
+        "provide",
+        "honest",
+        "fallback"
+      ]
+    },
+    {
+      "name": "Add a new enemy",
+      "bytes": 572,
+      "when": [
+        "enemy"
+      ]
+    },
+    {
+      "name": "Prove the system",
+      "bytes": 777,
+      "when": [
+        "prove",
+        "system"
+      ]
+    }
+  ],
+  "keywords": [
+    "separate",
+    "normalize",
+    "presentation",
+    "define",
+    "moves",
+    "provide",
+    "honest",
+    "fallback",
+    "prove",
+    "system"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\build-threejs-enemy-systems\\SKILL.md"
+}

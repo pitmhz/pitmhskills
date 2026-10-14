@@ -1,0 +1,159 @@
+{
+  "id": "awesome-copilot__premium-frontend-ui",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b7edf35b33931d15ea0c1d271f3c05d469e2b6923ed4df1c955d4da86287d9fb",
+  "purpose": "A comprehensive guide for GitHub Copilot to craft immersive, high-performance web experiences with advanced motion, typography, and architectural craftsmanship.",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "A comprehensive guide for GitHub Copilot to craft immersive, high-performance web experiences with advanced motion, typography, and architectural craftsmanship."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1797,
+  "core_bytes": 7188,
+  "sections": [
+    {
+      "name": "1. Establishing the Creative Foundation",
+      "bytes": 797,
+      "when": [
+        "establishing",
+        "creative",
+        "foundation"
+      ]
+    },
+    {
+      "name": "2. Structural Requirements for Immersive UI",
+      "bytes": 1416,
+      "when": [
+        "structural",
+        "requirements",
+        "immersive"
+      ]
+    },
+    {
+      "name": "2.1 The Entry Sequence (Preloading & Initialization)",
+      "bytes": 421,
+      "when": [
+        "entry",
+        "sequence",
+        "preloading",
+        "initialization"
+      ]
+    },
+    {
+      "name": "2.2 The Hero Architecture",
+      "bytes": 461,
+      "when": [
+        "hero",
+        "architecture"
+      ]
+    },
+    {
+      "name": "2.3 Fluid & Contextual Navigation",
+      "bytes": 338,
+      "when": [
+        "fluid",
+        "contextual",
+        "navigation"
+      ]
+    },
+    {
+      "name": "3. The Motion Design System",
+      "bytes": 1243,
+      "when": [
+        "motion",
+        "design",
+        "system"
+      ]
+    },
+    {
+      "name": "3.1 Scroll-Driven Narratives",
+      "bytes": 514,
+      "when": [
+        "scroll",
+        "driven",
+        "narratives"
+      ]
+    },
+    {
+      "name": "3.2 High-Fidelity Micro-Interactions",
+      "bytes": 565,
+      "when": [
+        "high",
+        "fidelity",
+        "micro",
+        "interactions"
+      ]
+    },
+    {
+      "name": "4. Typography & Visual Texture",
+      "bytes": 766,
+      "when": [
+        "typography",
+        "visual",
+        "texture"
+      ]
+    },
+    {
+      "name": "5. The Performance Imperative",
+      "bytes": 845,
+      "when": [
+        "performance",
+        "imperative"
+      ]
+    },
+    {
+      "name": "6. Implementation Ecosystem",
+      "bytes": 724,
+      "when": [
+        "implementation",
+        "ecosystem"
+      ]
+    },
+    {
+      "name": "For React / Next.js Targets",
+      "bytes": 311,
+      "when": [
+        "react",
+        "next",
+        "targets"
+      ]
+    },
+    {
+      "name": "For Vanilla / HTML / Astro Targets",
+      "bytes": 262,
+      "when": [
+        "vanilla",
+        "html",
+        "astro",
+        "targets"
+      ]
+    },
+    {
+      "name": "Summary of Action",
+      "bytes": 473,
+      "when": [
+        "summary",
+        "action"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\premium-frontend-ui\\SKILL.md"
+}

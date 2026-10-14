@@ -1,0 +1,181 @@
+{
+  "id": "mengto-skills__scroll-world-storytelling",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "28b93103f59927b17dae4f528dd81ada4354092c49359fad1c5d0927d8face18",
+  "purpose": "Turn an article, case study, brand narrative, product journey, or long-form story into a cinematic scroll-driven landing page using one of three renderers: scrubbed video, a real-time Three.js world, ",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Turn an article, case study, brand narrative, product journey, or long-form story into a cinematic scroll-driven landing page using one of three renderers: scru"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Long-form scroll narrative -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "longform narrative journey",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3016,
+  "core_bytes": 12130,
+  "sections": [
+    {
+      "name": "Start with the contract",
+      "bytes": 1190,
+      "when": [
+        "start",
+        "contract"
+      ]
+    },
+    {
+      "name": "Goal",
+      "bytes": 231,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "House rules",
+      "bytes": 544,
+      "when": [
+        "house",
+        "rules"
+      ]
+    },
+    {
+      "name": "Bar",
+      "bytes": 340,
+      "when": []
+    },
+    {
+      "name": "Read the whole source",
+      "bytes": 842,
+      "when": [
+        "read",
+        "whole",
+        "source"
+      ]
+    },
+    {
+      "name": "Build the story map",
+      "bytes": 901,
+      "when": [
+        "build",
+        "story"
+      ]
+    },
+    {
+      "name": "Write the style bible",
+      "bytes": 640,
+      "when": [
+        "write",
+        "style",
+        "bible"
+      ]
+    },
+    {
+      "name": "Choose one mode",
+      "bytes": 752,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Mode 1 — Video scrub",
+      "bytes": 2201,
+      "when": [
+        "mode",
+        "video",
+        "scrub"
+      ]
+    },
+    {
+      "name": "Generate the source clip",
+      "bytes": 1404,
+      "when": [
+        "generate",
+        "source",
+        "clip"
+      ]
+    },
+    {
+      "name": "Encode for scrubbing",
+      "bytes": 664,
+      "when": [
+        "encode",
+        "scrubbing"
+      ]
+    },
+    {
+      "name": "Mode 2 — Three.js world",
+      "bytes": 1248,
+      "when": [
+        "mode",
+        "three",
+        "world"
+      ]
+    },
+    {
+      "name": "Mode 3 — HTML / data / type",
+      "bytes": 946,
+      "when": [
+        "mode",
+        "html",
+        "data",
+        "type"
+      ]
+    },
+    {
+      "name": "Shared page contract",
+      "bytes": 875,
+      "when": [
+        "shared",
+        "page",
+        "contract"
+      ]
+    },
+    {
+      "name": "Verify with a fresh pass",
+      "bytes": 863,
+      "when": [
+        "verify",
+        "fresh",
+        "pass"
+      ]
+    },
+    {
+      "name": "Deliverables",
+      "bytes": 501,
+      "when": [
+        "deliverables"
+      ]
+    }
+  ],
+  "keywords": [
+    "storytelling",
+    "start",
+    "contract",
+    "goal",
+    "house",
+    "rules",
+    "read",
+    "whole",
+    "source",
+    "build",
+    "write",
+    "style",
+    "bible"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\scroll-world-storytelling\\SKILL.md"
+}

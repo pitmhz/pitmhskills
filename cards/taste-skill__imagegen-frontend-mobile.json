@@ -1,0 +1,594 @@
+{
+  "id": "taste-skill__imagegen-frontend-mobile",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "3cadf1bfbe836d377832d090e5db8479f98903453a4d1342be9636178755f9dd",
+  "purpose": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comforta",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile product"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Mobile app screen concepts/flows -> this.",
+  "cluster": "image-direction",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "mobile screens mockup flows",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 10438,
+  "core_bytes": 41791,
+  "sections": [
+    {
+      "name": "1. ACTIVE BASELINE CONFIGURATION",
+      "bytes": 3460,
+      "when": [
+        "active",
+        "baseline",
+        "configuration"
+      ]
+    },
+    {
+      "name": "2. PLATFORM MODE RULE",
+      "bytes": 990,
+      "when": [
+        "platform",
+        "mode",
+        "rule"
+      ]
+    },
+    {
+      "name": "iOS-native premium",
+      "bytes": 241,
+      "when": [
+        "native",
+        "premium"
+      ]
+    },
+    {
+      "name": "Android-native premium",
+      "bytes": 246,
+      "when": [
+        "android",
+        "native",
+        "premium"
+      ]
+    },
+    {
+      "name": "Cross-platform premium neutral",
+      "bytes": 333,
+      "when": [
+        "cross",
+        "platform",
+        "premium",
+        "neutral"
+      ]
+    },
+    {
+      "name": "3. MANDATORY SCREEN-FIRST RULE",
+      "bytes": 475,
+      "when": [
+        "mandatory",
+        "screen",
+        "first",
+        "rule"
+      ]
+    },
+    {
+      "name": "4. GENERATE ENOUGH SCREENS RULE",
+      "bytes": 897,
+      "when": [
+        "generate",
+        "enough",
+        "screens",
+        "rule"
+      ]
+    },
+    {
+      "name": "5. DO NOT CROP OLD IMAGES RULE",
+      "bytes": 704,
+      "when": [
+        "crop",
+        "images",
+        "rule"
+      ]
+    },
+    {
+      "name": "6. APP DESIGN BIBLE RULE",
+      "bytes": 679,
+      "when": [
+        "design",
+        "bible",
+        "rule"
+      ]
+    },
+    {
+      "name": "7. MULTI-SCREEN CONSISTENCY RULE",
+      "bytes": 625,
+      "when": [
+        "multi",
+        "screen",
+        "consistency",
+        "rule"
+      ]
+    },
+    {
+      "name": "8. LOGICAL FLOW RULE",
+      "bytes": 732,
+      "when": [
+        "logical",
+        "flow",
+        "rule"
+      ]
+    },
+    {
+      "name": "9. DEFAULT MOCKUP PRESENCE RULE",
+      "bytes": 713,
+      "when": [
+        "default",
+        "mockup",
+        "presence",
+        "rule"
+      ]
+    },
+    {
+      "name": "10. DEVICE MOCKUP FRAME RULE",
+      "bytes": 1376,
+      "when": [
+        "device",
+        "mockup",
+        "frame",
+        "rule"
+      ]
+    },
+    {
+      "name": "11. ONBOARDING FLOW RULE",
+      "bytes": 686,
+      "when": [
+        "onboarding",
+        "flow",
+        "rule"
+      ]
+    },
+    {
+      "name": "12. FIRST SCREEN CLEANLINESS RULE",
+      "bytes": 929,
+      "when": [
+        "first",
+        "screen",
+        "cleanliness",
+        "rule"
+      ]
+    },
+    {
+      "name": "13. SAFE AREA AND SYSTEM REGION RULE",
+      "bytes": 563,
+      "when": [
+        "safe",
+        "area",
+        "system",
+        "region",
+        "rule"
+      ]
+    },
+    {
+      "name": "14. NAVIGATION RULE",
+      "bytes": 605,
+      "when": [
+        "navigation",
+        "rule"
+      ]
+    },
+    {
+      "name": "15. CLEAN LAYOUT RULE",
+      "bytes": 623,
+      "when": [
+        "clean",
+        "layout",
+        "rule"
+      ]
+    },
+    {
+      "name": "16. CREATIVE IMAGE DIRECTION RULE",
+      "bytes": 886,
+      "when": [
+        "creative",
+        "image",
+        "direction",
+        "rule"
+      ]
+    },
+    {
+      "name": "17. BACKGROUND TEXTURE AND SURFACE RULE",
+      "bytes": 851,
+      "when": [
+        "background",
+        "texture",
+        "surface",
+        "rule"
+      ]
+    },
+    {
+      "name": "18. IMAGE-BEHIND-TEXT RULE",
+      "bytes": 1098,
+      "when": [
+        "image",
+        "behind",
+        "text",
+        "rule"
+      ]
+    },
+    {
+      "name": "19. CREATIVE ASSET RULE",
+      "bytes": 831,
+      "when": [
+        "creative",
+        "asset",
+        "rule"
+      ]
+    },
+    {
+      "name": "20. ICONOGRAPHY RULE",
+      "bytes": 725,
+      "when": [
+        "iconography",
+        "rule"
+      ]
+    },
+    {
+      "name": "21. MOBILE ANTI-AI-TELLS RULE",
+      "bytes": 1117,
+      "when": [
+        "mobile",
+        "anti",
+        "tells",
+        "rule"
+      ]
+    },
+    {
+      "name": "Visual AI tells",
+      "bytes": 282,
+      "when": [
+        "visual",
+        "tells"
+      ]
+    },
+    {
+      "name": "Layout AI tells",
+      "bytes": 277,
+      "when": [
+        "layout",
+        "tells"
+      ]
+    },
+    {
+      "name": "Copy AI tells",
+      "bytes": 257,
+      "when": [
+        "copy",
+        "tells"
+      ]
+    },
+    {
+      "name": "UI clutter tells",
+      "bytes": 212,
+      "when": [
+        "clutter",
+        "tells"
+      ]
+    },
+    {
+      "name": "22. STYLE VARIATION ENGINE",
+      "bytes": 2877,
+      "when": [
+        "style",
+        "variation",
+        "engine"
+      ]
+    },
+    {
+      "name": "Theme Paradigm",
+      "bytes": 214,
+      "when": [
+        "theme",
+        "paradigm"
+      ]
+    },
+    {
+      "name": "Typography Character",
+      "bytes": 205,
+      "when": [
+        "typography",
+        "character"
+      ]
+    },
+    {
+      "name": "Structure Bias",
+      "bytes": 262,
+      "when": [
+        "structure",
+        "bias"
+      ]
+    },
+    {
+      "name": "Image Art Direction Bias",
+      "bytes": 293,
+      "when": [
+        "image",
+        "direction",
+        "bias"
+      ]
+    },
+    {
+      "name": "Texture / Surface Treatment",
+      "bytes": 274,
+      "when": [
+        "texture",
+        "surface",
+        "treatment"
+      ]
+    },
+    {
+      "name": "Palette Logic",
+      "bytes": 411,
+      "when": [
+        "palette",
+        "logic"
+      ]
+    },
+    {
+      "name": "Signature Component Set",
+      "bytes": 482,
+      "when": [
+        "signature",
+        "component"
+      ]
+    },
+    {
+      "name": "Decorative Asset Set",
+      "bytes": 295,
+      "when": [
+        "decorative",
+        "asset"
+      ]
+    },
+    {
+      "name": "Motion-Implied Language",
+      "bytes": 313,
+      "when": [
+        "motion",
+        "implied",
+        "language"
+      ]
+    },
+    {
+      "name": "23. COLOR PALETTE RULE",
+      "bytes": 1029,
+      "when": [
+        "color",
+        "palette",
+        "rule"
+      ]
+    },
+    {
+      "name": "24. NON-GENERICITY RULE",
+      "bytes": 688,
+      "when": [
+        "genericity",
+        "rule"
+      ]
+    },
+    {
+      "name": "25. NOT ALWAYS SIMPLE RULE",
+      "bytes": 867,
+      "when": [
+        "simple",
+        "rule"
+      ]
+    },
+    {
+      "name": "26. IMAGE SYSTEM RULE",
+      "bytes": 1218,
+      "when": [
+        "image",
+        "system",
+        "rule"
+      ]
+    },
+    {
+      "name": "27. FIXED MOBILE MEDIA FRAME RULE",
+      "bytes": 644,
+      "when": [
+        "fixed",
+        "mobile",
+        "media",
+        "frame",
+        "rule"
+      ]
+    },
+    {
+      "name": "28. TEXT RULE",
+      "bytes": 508,
+      "when": [
+        "text",
+        "rule"
+      ]
+    },
+    {
+      "name": "29. TEXT SIZE AND READABILITY RULE",
+      "bytes": 985,
+      "when": [
+        "text",
+        "size",
+        "readability",
+        "rule"
+      ]
+    },
+    {
+      "name": "30. TYPOGRAPHY RULE",
+      "bytes": 538,
+      "when": [
+        "typography",
+        "rule"
+      ]
+    },
+    {
+      "name": "31. SPACING AND DENSITY RULE",
+      "bytes": 664,
+      "when": [
+        "spacing",
+        "density",
+        "rule"
+      ]
+    },
+    {
+      "name": "32. SCREEN-TO-SCREEN VARIATION RULE",
+      "bytes": 586,
+      "when": [
+        "screen",
+        "variation",
+        "rule"
+      ]
+    },
+    {
+      "name": "33. CATEGORY-SPECIFIC BIAS",
+      "bytes": 1159,
+      "when": [
+        "category",
+        "specific",
+        "bias"
+      ]
+    },
+    {
+      "name": "Fintech",
+      "bytes": 178,
+      "when": [
+        "fintech"
+      ]
+    },
+    {
+      "name": "Health / Fitness",
+      "bytes": 215,
+      "when": [
+        "health",
+        "fitness"
+      ]
+    },
+    {
+      "name": "Productivity",
+      "bytes": 176,
+      "when": [
+        "productivity"
+      ]
+    },
+    {
+      "name": "Social",
+      "bytes": 191,
+      "when": [
+        "social"
+      ]
+    },
+    {
+      "name": "Commerce",
+      "bytes": 187,
+      "when": [
+        "commerce"
+      ]
+    },
+    {
+      "name": "Wellness / Lifestyle",
+      "bytes": 179,
+      "when": [
+        "wellness",
+        "lifestyle"
+      ]
+    },
+    {
+      "name": "34. REGENERATION RULE",
+      "bytes": 946,
+      "when": [
+        "regeneration",
+        "rule"
+      ]
+    },
+    {
+      "name": "35. QUALITY CHECK",
+      "bytes": 1625,
+      "when": [
+        "quality",
+        "check"
+      ]
+    },
+    {
+      "name": "36. RESPONSE BEHAVIOR",
+      "bytes": 1498,
+      "when": [
+        "response",
+        "behavior"
+      ]
+    },
+    {
+      "name": "37. EXAMPLE INTERPRETATIONS",
+      "bytes": 1662,
+      "when": [
+        "example",
+        "interpretations"
+      ]
+    },
+    {
+      "name": "Example 1",
+      "bytes": 528,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Example 2",
+      "bytes": 540,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Example 3",
+      "bytes": 560,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "38. FINAL GOAL",
+      "bytes": 1796,
+      "when": [
+        "final",
+        "goal"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "directive",
+    "active",
+    "baseline",
+    "configuration",
+    "mode",
+    "rule",
+    "neutral",
+    "mandatory",
+    "first",
+    "generate",
+    "enough"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\imagegen-frontend-mobile\\SKILL.md"
+}

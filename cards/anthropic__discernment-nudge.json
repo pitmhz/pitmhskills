@@ -6,20 +6,21 @@
   ],
   "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
   "hash": "8e498a6c417b707a845a5373d56dabf5f812c50a25152752ace76251a9515c1c",
-  "purpose": ">",
-  "domain": "general",
+  "purpose": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, anal",
+  "domain": "workflow",
   "task_types": [
+    "review",
     "implement"
   ],
   "use_when": [
-    ">"
+    "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, o"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to general"
+    "Tasks unrelated to workflow"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,
@@ -27,7 +28,44 @@
   "conflicts_with": [],
   "body_tokens": 2676,
   "core_bytes": 10801,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Why this exists",
+      "bytes": 912,
+      "when": [
+        "exists"
+      ]
+    },
+    {
+      "name": "When to offer the nudge",
+      "bytes": 1557,
+      "when": [
+        "offer",
+        "nudge"
+      ]
+    },
+    {
+      "name": "When not to",
+      "bytes": 5245,
+      "when": []
+    },
+    {
+      "name": "Writing the prompts",
+      "bytes": 1108,
+      "when": [
+        "writing",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Output format",
+      "bytes": 828,
+      "when": [
+        "output",
+        "format"
+      ]
+    }
+  ],
   "verify": [],
-  "skill_path": "skills/anthropic/skills/discernment-nudge/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\anthropic\\skills\\discernment-nudge\\SKILL.md"
 }

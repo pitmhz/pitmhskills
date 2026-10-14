@@ -1,0 +1,179 @@
+{
+  "id": "awesome-copilot__copilot-spaces",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6069534e09f04fef7dc02113fe5981c23c73e8faeab3e68d6db21a2c48b80f73",
+  "purpose": "Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared knowledge base, discover available spac",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2182,
+  "core_bytes": 8726,
+  "sections": [
+    {
+      "name": "Available Tools",
+      "bytes": 1315,
+      "when": [
+        "available",
+        "tools"
+      ]
+    },
+    {
+      "name": "MCP Tools (Read-only)",
+      "bytes": 239,
+      "when": [
+        "tools",
+        "read"
+      ]
+    },
+    {
+      "name": "REST API via `gh api` (Full CRUD)",
+      "bytes": 1056,
+      "when": [
+        "rest",
+        "full",
+        "crud"
+      ]
+    },
+    {
+      "name": "When to Use Spaces",
+      "bytes": 410,
+      "when": [
+        "spaces"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3389,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Discover Spaces",
+      "bytes": 385,
+      "when": [
+        "discover",
+        "spaces"
+      ]
+    },
+    {
+      "name": "2. Load a Space",
+      "bytes": 438,
+      "when": [
+        "load",
+        "space"
+      ]
+    },
+    {
+      "name": "3. Follow the Breadcrumbs",
+      "bytes": 484,
+      "when": [
+        "follow",
+        "breadcrumbs"
+      ]
+    },
+    {
+      "name": "4. Answer or Execute",
+      "bytes": 629,
+      "when": [
+        "answer",
+        "execute"
+      ]
+    },
+    {
+      "name": "5. Manage Spaces (via `gh api`)",
+      "bytes": 1440,
+      "when": [
+        "manage",
+        "spaces"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1985,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: User Asks for a Space",
+      "bytes": 306,
+      "when": [
+        "example",
+        "user",
+        "asks",
+        "space"
+      ]
+    },
+    {
+      "name": "Example 2: User Wants to Find Spaces",
+      "bytes": 273,
+      "when": [
+        "example",
+        "user",
+        "wants",
+        "find",
+        "spaces"
+      ]
+    },
+    {
+      "name": "Example 3: Context-Grounded Question",
+      "bytes": 311,
+      "when": [
+        "example",
+        "context",
+        "grounded",
+        "question"
+      ]
+    },
+    {
+      "name": "Example 4: Space as a Workflow Engine",
+      "bytes": 602,
+      "when": [
+        "example",
+        "space",
+        "workflow",
+        "engine"
+      ]
+    },
+    {
+      "name": "Example 5: Update Space Instructions Programmatically",
+      "bytes": 480,
+      "when": [
+        "example",
+        "update",
+        "space",
+        "instructions",
+        "programmatically"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 1033,
+      "when": [
+        "tips"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\copilot-spaces\\SKILL.md"
+}

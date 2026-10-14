@@ -1,0 +1,150 @@
+{
+  "id": "nvidia__cuopt-install",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "990bec651929aa28006a682bda80f4da1395c4a201832d967844cae84eab5bcf",
+  "purpose": "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1084,
+  "core_bytes": 4362,
+  "sections": [
+    {
+      "name": "System requirements",
+      "bytes": 574,
+      "when": [
+        "system",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Required questions",
+      "bytes": 426,
+      "when": [
+        "required",
+        "questions"
+      ]
+    },
+    {
+      "name": "Python API",
+      "bytes": 618,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "pip",
+      "bytes": 231,
+      "when": []
+    },
+    {
+      "name": "conda",
+      "bytes": 87,
+      "when": [
+        "conda"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 161,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "C API",
+      "bytes": 845,
+      "when": []
+    },
+    {
+      "name": "pip",
+      "bytes": 237,
+      "when": []
+    },
+    {
+      "name": "conda",
+      "bytes": 90,
+      "when": [
+        "conda"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 185,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Server (REST)",
+      "bytes": 561,
+      "when": [
+        "server",
+        "rest"
+      ]
+    },
+    {
+      "name": "pip",
+      "bytes": 116,
+      "when": []
+    },
+    {
+      "name": "conda",
+      "bytes": 110,
+      "when": [
+        "conda"
+      ]
+    },
+    {
+      "name": "Docker",
+      "bytes": 160,
+      "when": [
+        "docker"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 155,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Common Issues",
+      "bytes": 581,
+      "when": [
+        "common",
+        "issues"
+      ]
+    },
+    {
+      "name": "See also",
+      "bytes": 228,
+      "when": []
+    }
+  ],
+  "verify": [
+    "python -c \"import cuopt\""
+  ],
+  "skill_path": "skills/nvidia/skills/cuopt-install/SKILL.md"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "awesome-copilot__create-technical-spike",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2caccb0ba3b9851b82c648870330b6d22a47ee7cda4d3770ef8b5f8d6e439281",
+  "purpose": "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1643,
+  "core_bytes": 6578,
+  "sections": [
+    {
+      "name": "Document Structure",
+      "bytes": 596,
+      "when": [
+        "document",
+        "structure"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 302,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Research Question(s)",
+      "bytes": 191,
+      "when": [
+        "research",
+        "question"
+      ]
+    },
+    {
+      "name": "Investigation Plan",
+      "bytes": 435,
+      "when": [
+        "investigation",
+        "plan"
+      ]
+    },
+    {
+      "name": "Research Tasks",
+      "bytes": 208,
+      "when": [
+        "research",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 204,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Technical Context",
+      "bytes": 254,
+      "when": [
+        "technical",
+        "context"
+      ]
+    },
+    {
+      "name": "Research Findings",
+      "bytes": 362,
+      "when": [
+        "research",
+        "findings"
+      ]
+    },
+    {
+      "name": "Investigation Results",
+      "bytes": 94,
+      "when": [
+        "investigation",
+        "results"
+      ]
+    },
+    {
+      "name": "Prototype/Testing Notes",
+      "bytes": 94,
+      "when": [
+        "prototype",
+        "testing",
+        "notes"
+      ]
+    },
+    {
+      "name": "External Resources",
+      "bytes": 152,
+      "when": [
+        "external",
+        "resources"
+      ]
+    },
+    {
+      "name": "Decision",
+      "bytes": 358,
+      "when": [
+        "decision"
+      ]
+    },
+    {
+      "name": "Recommendation",
+      "bytes": 71,
+      "when": [
+        "recommendation"
+      ]
+    },
+    {
+      "name": "Rationale",
+      "bytes": 65,
+      "when": [
+        "rationale"
+      ]
+    },
+    {
+      "name": "Implementation Notes",
+      "bytes": 67,
+      "when": [
+        "implementation",
+        "notes"
+      ]
+    },
+    {
+      "name": "Follow-up Actions",
+      "bytes": 142,
+      "when": [
+        "follow",
+        "actions"
+      ]
+    },
+    {
+      "name": "Status History",
+      "bytes": 354,
+      "when": [
+        "status",
+        "history"
+      ]
+    },
+    {
+      "name": "Categories for Technical Spikes",
+      "bytes": 855,
+      "when": [
+        "categories",
+        "technical",
+        "spikes"
+      ]
+    },
+    {
+      "name": "API Integration",
+      "bytes": 157,
+      "when": [
+        "integration"
+      ]
+    },
+    {
+      "name": "Architecture & Design",
+      "bytes": 122,
+      "when": [
+        "architecture",
+        "design"
+      ]
+    },
+    {
+      "name": "Performance & Scalability",
+      "bytes": 147,
+      "when": [
+        "performance",
+        "scalability"
+      ]
+    },
+    {
+      "name": "Platform & Infrastructure",
+      "bytes": 142,
+      "when": [
+        "platform",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "Security & Compliance",
+      "bytes": 143,
+      "when": [
+        "security",
+        "compliance"
+      ]
+    },
+    {
+      "name": "User Experience",
+      "bytes": 108,
+      "when": [
+        "user",
+        "experience"
+      ]
+    },
+    {
+      "name": "File Naming Conventions",
+      "bytes": 616,
+      "when": [
+        "file",
+        "naming",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Best Practices for AI Agents",
+      "bytes": 640,
+      "when": [
+        "best",
+        "practices",
+        "agents"
+      ]
+    },
+    {
+      "name": "Research Strategy",
+      "bytes": 657,
+      "when": [
+        "research",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Phase 1: Information Gathering",
+      "bytes": 224,
+      "when": [
+        "phase",
+        "information",
+        "gathering"
+      ]
+    },
+    {
+      "name": "Phase 2: Validation & Testing",
+      "bytes": 207,
+      "when": [
+        "phase",
+        "validation",
+        "testing"
+      ]
+    },
+    {
+      "name": "Phase 3: Decision & Documentation",
+      "bytes": 204,
+      "when": [
+        "phase",
+        "decision",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Tools Usage",
+      "bytes": 517,
+      "when": [
+        "tools",
+        "usage"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-technical-spike\\SKILL.md"
+}

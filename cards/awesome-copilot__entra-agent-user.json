@@ -1,0 +1,215 @@
+{
+  "id": "awesome-copilot__entra-agent-user",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1d36474ce96eb53bc1aabe1f0005fa9df18e7502af1e412d7c679ce45c4e6807",
+  "purpose": "Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with user identity capabilities in Microsoft 365 and Azure environments.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with user identity capabilities in Microsoft 365 an"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2308,
+  "core_bytes": 9306,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 427,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 770,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "bytes": 561,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "Step 1: Verify the Agent Identity Exists",
+      "bytes": 894,
+      "when": [
+        "step",
+        "verify",
+        "agent",
+        "identity",
+        "exists"
+      ]
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 448,
+      "when": [
+        "powershell"
+      ]
+    },
+    {
+      "name": "Step 2: Create the Agent User",
+      "bytes": 1759,
+      "when": [
+        "step",
+        "create",
+        "agent",
+        "user"
+      ]
+    },
+    {
+      "name": "HTTP Request",
+      "bytes": 380,
+      "when": [
+        "http",
+        "request"
+      ]
+    },
+    {
+      "name": "Required Properties",
+      "bytes": 423,
+      "when": [
+        "required",
+        "properties"
+      ]
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 564,
+      "when": [
+        "powershell"
+      ]
+    },
+    {
+      "name": "Key Notes",
+      "bytes": 358,
+      "when": [
+        "notes"
+      ]
+    },
+    {
+      "name": "Step 3: Assign a Manager (Optional)",
+      "bytes": 646,
+      "when": [
+        "step",
+        "assign",
+        "manager",
+        "optional"
+      ]
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 299,
+      "when": [
+        "powershell"
+      ]
+    },
+    {
+      "name": "Step 4: Set Usage Location and Assign Licenses (Optional)",
+      "bytes": 1608,
+      "when": [
+        "step",
+        "usage",
+        "location",
+        "assign",
+        "licenses",
+        "optional"
+      ]
+    },
+    {
+      "name": "Set Usage Location",
+      "bytes": 188,
+      "when": [
+        "usage",
+        "location"
+      ]
+    },
+    {
+      "name": "List Available Licenses",
+      "bytes": 225,
+      "when": [
+        "list",
+        "available",
+        "licenses"
+      ]
+    },
+    {
+      "name": "Assign a License",
+      "bytes": 250,
+      "when": [
+        "assign",
+        "license"
+      ]
+    },
+    {
+      "name": "PowerShell (all in one)",
+      "bytes": 769,
+      "when": [
+        "powershell"
+      ]
+    },
+    {
+      "name": "Provisioning Times",
+      "bytes": 287,
+      "when": [
+        "provisioning",
+        "times"
+      ]
+    },
+    {
+      "name": "Agent User Capabilities",
+      "bytes": 339,
+      "when": [
+        "agent",
+        "user",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "Agent User Security Constraints",
+      "bytes": 295,
+      "when": [
+        "agent",
+        "user",
+        "security",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 605,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 827,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\entra-agent-user\\SKILL.md"
+}

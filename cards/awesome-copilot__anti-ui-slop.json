@@ -1,0 +1,89 @@
+{
+  "id": "awesome-copilot__anti-ui-slop",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "38beaf00024589581ed70bcf97e1372e0cdca8e08bfd69ee5e8d3b8beefb3f35",
+  "purpose": "Stop coding agents from shipping generic UI. Use UIZZE's 800,000+ real web and iOS screens to build product-specific interfaces, define a design contract, cover required states, and run a hard finish ",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Stop coding agents from shipping generic UI. Use UIZZE's 800,000+ real web and iOS screens to build product-specific interfaces, define a design contract, cover"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 811,
+  "core_bytes": 3244,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 221,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 332,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Authentication",
+      "bytes": 292,
+      "when": [
+        "authentication"
+      ]
+    },
+    {
+      "name": "Work from the product",
+      "bytes": 294,
+      "when": [
+        "work",
+        "product"
+      ]
+    },
+    {
+      "name": "Load one playbook",
+      "bytes": 462,
+      "when": [
+        "load",
+        "playbook"
+      ]
+    },
+    {
+      "name": "Optional Uizze evidence",
+      "bytes": 306,
+      "when": [
+        "optional",
+        "uizze",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Finish",
+      "bytes": 240,
+      "when": [
+        "finish"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\anti-ui-slop\\SKILL.md"
+}

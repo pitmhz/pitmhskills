@@ -1,0 +1,63 @@
+{
+  "id": "nvidia__nvflare-convert-pytorch",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "73816768d5a830f82037269c506a1f27569f787699e406130a3d5c8694980173",
+  "purpose": "Convert existing plain or manual PyTorch training code into an NVFLARE federated job using Client API model exchange, local validation, and job export; use when the user names plain PyTorch or prelimi",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Convert existing plain or manual PyTorch training code into an NVFLARE federated job using Client API model exchange, local validation, and job export; use when"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2688,
+  "core_bytes": 10759,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 346,
+      "when": []
+    },
+    {
+      "name": "Do Not Use When",
+      "bytes": 1286,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 4208,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 4137,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nvflare-convert-pytorch/SKILL.md",
+  "curated": true
+}

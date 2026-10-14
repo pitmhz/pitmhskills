@@ -28,7 +28,63 @@
   "conflicts_with": [],
   "body_tokens": 989,
   "core_bytes": 4008,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/anthropic/skills/webapp-testing/SKILL.md"
+  "sections": [
+    {
+      "name": "Decision Tree: Choosing Your Approach",
+      "bytes": 795,
+      "when": [
+        "decision",
+        "tree",
+        "choosing",
+        "approach"
+      ]
+    },
+    {
+      "name": "Example: Using with_server.py",
+      "bytes": 1004,
+      "when": [
+        "example",
+        "server"
+      ]
+    },
+    {
+      "name": "Reconnaissance-Then-Action Pattern",
+      "bytes": 324,
+      "when": [
+        "reconnaissance",
+        "action",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Common Pitfall",
+      "bytes": 184,
+      "when": [
+        "common",
+        "pitfall"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 545,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 290,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/anthropic/skills/webapp-testing/SKILL.md",
+  "curated": true
 }

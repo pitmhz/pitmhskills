@@ -1,0 +1,165 @@
+{
+  "id": "nvidia__dynamo-recipe-runner",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "19bedae8fcc82c3abd8564390bfc839fc9328007f0f53f841f1c9058418e3a2a",
+  "purpose": "Select, validate, patch, and deploy existing NVIDIA Dynamo Kubernetes recipes. Use for model/backend/GPU/deployment-mode recipe bring-up; use router-starter for router-only mode work and troubleshoot ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Select, validate, patch, and deploy existing NVIDIA Dynamo Kubernetes recipes. Use for model/backend/GPU/deployment-mode recipe bring-up; use router-starter for"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1888,
+  "core_bytes": 7549,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 327,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 374,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required Inputs",
+      "bytes": 562,
+      "when": [
+        "required",
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2648,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Preflight",
+      "bytes": 498,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "2. Select The Recipe",
+      "bytes": 333,
+      "when": [
+        "select",
+        "recipe"
+      ]
+    },
+    {
+      "name": "3. Inspect And Validate",
+      "bytes": 410,
+      "when": [
+        "inspect",
+        "validate"
+      ]
+    },
+    {
+      "name": "4. Patch Minimal Values",
+      "bytes": 416,
+      "when": [
+        "patch",
+        "minimal",
+        "values"
+      ]
+    },
+    {
+      "name": "5. Deploy",
+      "bytes": 541,
+      "when": [
+        "deploy"
+      ]
+    },
+    {
+      "name": "6. Smoke Test",
+      "bytes": 431,
+      "when": [
+        "smoke",
+        "test"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 592,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 481,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 276,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 402,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 843,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Benchmark",
+      "bytes": 197,
+      "when": [
+        "benchmark"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 186,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/dynamo-recipe-runner/SKILL.md",
+  "curated": true
+}

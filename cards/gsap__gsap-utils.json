@@ -1,0 +1,246 @@
+{
+  "id": "gsap__gsap-utils",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "f71503f423561eeb5567ae8ee41e4363c85fd3970a8feaeac2c2b18309596bab",
+  "purpose": "Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks about gsap.utils, clamp, mapRange, random, snap, toArray, wrap, ",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks about gsap.utils, clamp,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3084,
+  "core_bytes": 12377,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 448,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 1020,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Clamping and Ranges",
+      "bytes": 1722,
+      "when": [
+        "clamping",
+        "ranges"
+      ]
+    },
+    {
+      "name": "clamp(min, max, value?)",
+      "bytes": 297,
+      "when": [
+        "clamp",
+        "value"
+      ]
+    },
+    {
+      "name": "mapRange(inMin, inMax, outMin, outMax, value?)",
+      "bytes": 489,
+      "when": [
+        "maprange",
+        "inmin",
+        "inmax",
+        "outmin",
+        "outmax",
+        "value"
+      ]
+    },
+    {
+      "name": "normalize(min, max, value?)",
+      "bytes": 387,
+      "when": [
+        "normalize",
+        "value"
+      ]
+    },
+    {
+      "name": "interpolate(start, end, progress?)",
+      "bytes": 523,
+      "when": [
+        "interpolate",
+        "start",
+        "progress"
+      ]
+    },
+    {
+      "name": "Random and Snap",
+      "bytes": 4579,
+      "when": [
+        "random",
+        "snap"
+      ]
+    },
+    {
+      "name": "random(minimum, maximum[, snapIncrement, returnFunction]) / random(array[, retur",
+      "bytes": 1461,
+      "when": [
+        "random",
+        "minimum",
+        "maximum",
+        "snapincrement",
+        "returnfunction",
+        "array"
+      ]
+    },
+    {
+      "name": "snap(snapTo, value?)",
+      "bytes": 567,
+      "when": [
+        "snap",
+        "snapto",
+        "value"
+      ]
+    },
+    {
+      "name": "shuffle(array)",
+      "bytes": 231,
+      "when": [
+        "shuffle",
+        "array"
+      ]
+    },
+    {
+      "name": "distribute(config)",
+      "bytes": 2298,
+      "when": [
+        "distribute",
+        "config"
+      ]
+    },
+    {
+      "name": "Units and Parsing",
+      "bytes": 1526,
+      "when": [
+        "units",
+        "parsing"
+      ]
+    },
+    {
+      "name": "getUnit(value)",
+      "bytes": 284,
+      "when": [
+        "getunit",
+        "value"
+      ]
+    },
+    {
+      "name": "unitize(value, unit)",
+      "bytes": 285,
+      "when": [
+        "unitize",
+        "value",
+        "unit"
+      ]
+    },
+    {
+      "name": "splitColor(color, returnHSL?)",
+      "bytes": 933,
+      "when": [
+        "splitcolor",
+        "color",
+        "returnhsl"
+      ]
+    },
+    {
+      "name": "Arrays and Collections",
+      "bytes": 2014,
+      "when": [
+        "arrays",
+        "collections"
+      ]
+    },
+    {
+      "name": "selector(scope)",
+      "bytes": 467,
+      "when": [
+        "selector",
+        "scope"
+      ]
+    },
+    {
+      "name": "toArray(value, scope?)",
+      "bytes": 445,
+      "when": [
+        "toarray",
+        "value",
+        "scope"
+      ]
+    },
+    {
+      "name": "pipe(...functions)",
+      "bytes": 375,
+      "when": [
+        "pipe",
+        "functions"
+      ]
+    },
+    {
+      "name": "wrap(min, max, value?)",
+      "bytes": 366,
+      "when": [
+        "wrap",
+        "value"
+      ]
+    },
+    {
+      "name": "wrapYoyo(min, max, value?)",
+      "bytes": 332,
+      "when": [
+        "wrapyoyo",
+        "value"
+      ]
+    },
+    {
+      "name": "Best practices",
+      "bytes": 481,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 282,
+      "when": []
+    },
+    {
+      "name": "Learn More",
+      "bytes": 60,
+      "when": [
+        "learn"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-utils\\SKILL.md",
+  "curated": true
+}

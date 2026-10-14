@@ -1,0 +1,70 @@
+{
+  "id": "mengto-skills__elevenlabs-tts",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "265fd4d323415a9512b1ece22192115b1b92d66b8028ab71877374409b4db7d8",
+  "purpose": "Generate ElevenLabs text-to-speech audio from scripts or inline text using local voice profiles. Use when the user asks for ElevenLabs, text-to-speech, TTS, narration, voiceover, speech audio, or voic",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate ElevenLabs text-to-speech audio from scripts or inline text using local voice profiles. Use when the user asks for ElevenLabs, text-to-speech, TTS, nar"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 903,
+  "core_bytes": 3610,
+  "sections": [
+    {
+      "name": "Local Profiles",
+      "bytes": 1082,
+      "when": [
+        "local",
+        "profiles"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 718,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Helper Script",
+      "bytes": 628,
+      "when": [
+        "helper",
+        "script"
+      ]
+    },
+    {
+      "name": "API Notes",
+      "bytes": 254,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "helper",
+    "script",
+    "notes"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\elevenlabs-tts\\SKILL.md"
+}

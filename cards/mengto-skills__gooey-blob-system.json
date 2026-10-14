@@ -1,0 +1,58 @@
+{
+  "id": "mengto-skills__gooey-blob-system",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b0b1524f0501042d3df27e7229f06bc18fbaa958687ad8ec903be2b24e1bd08b",
+  "purpose": "Create a gooey blob system using SVG filters where multiple shapes merge into a single fluid form. Use overlapping circles combined with a Gaussian blur and color matrix filter to produce a continuous",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create a gooey blob system using SVG filters where multiple shapes merge into a single fluid form. Use overlapping circles combined with a Gaussian blur and col"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 346,
+  "core_bytes": 1382,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 112,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 472,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 222,
+      "when": [
+        "guardrails"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "guardrails"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\gooey-blob-system\\SKILL.md"
+}

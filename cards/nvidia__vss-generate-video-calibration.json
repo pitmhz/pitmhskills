@@ -1,0 +1,204 @@
+{
+  "id": "nvidia__vss-generate-video-calibration",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "94ae6a1d18cc4b52e0fac713571f4c081cea755abe867bdb8da1ad73bb1afe02",
+  "purpose": "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4214,
+  "core_bytes": 17081,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 154,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 299,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 269,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 337,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1379,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Input Routing",
+      "bytes": 1319,
+      "when": [
+        "input",
+        "routing"
+      ]
+    },
+    {
+      "name": "Prerequisites (shared across calibration modes)",
+      "bytes": 952,
+      "when": [
+        "prerequisites",
+        "shared",
+        "calibration",
+        "modes"
+      ]
+    },
+    {
+      "name": "Shared Calibration Tail",
+      "bytes": 5892,
+      "when": [
+        "shared",
+        "calibration",
+        "tail"
+      ]
+    },
+    {
+      "name": "Step A — Verify Project",
+      "bytes": 278,
+      "when": [
+        "step",
+        "verify",
+        "project"
+      ]
+    },
+    {
+      "name": "Step B — Start Calibration",
+      "bytes": 2084,
+      "when": [
+        "step",
+        "start",
+        "calibration"
+      ]
+    },
+    {
+      "name": "Step C — Poll for Completion",
+      "bytes": 897,
+      "when": [
+        "step",
+        "poll",
+        "completion"
+      ]
+    },
+    {
+      "name": "Step D — Results",
+      "bytes": 1265,
+      "when": [
+        "step",
+        "results"
+      ]
+    },
+    {
+      "name": "Step E — VGGT Refinement",
+      "bytes": 1017,
+      "when": [
+        "step",
+        "vggt",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Settings File + Detector Pattern",
+      "bytes": 793,
+      "when": [
+        "settings",
+        "file",
+        "detector",
+        "pattern"
+      ]
+    },
+    {
+      "name": "UI Fallback Pattern",
+      "bytes": 1310,
+      "when": [
+        "fallback",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 438,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Key Output Files",
+      "bytes": 764,
+      "when": [
+        "output",
+        "files"
+      ]
+    },
+    {
+      "name": "Cross-cutting Troubleshooting",
+      "bytes": 1426,
+      "when": [
+        "cross",
+        "cutting",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "For Downstream Skills — MV3DT Export",
+      "bytes": 973,
+      "when": [
+        "downstream",
+        "skills",
+        "mv3dt",
+        "export"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 351,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-generate-video-calibration/SKILL.md",
+  "curated": true
+}

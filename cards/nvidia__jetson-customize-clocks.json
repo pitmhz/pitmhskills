@@ -1,0 +1,203 @@
+{
+  "id": "nvidia__jetson-customize-clocks",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "aaf64a450ec75065eb153198eb6a84830244c0f371291276cf2a387c20aceac0",
+  "purpose": "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tuning or nvpmodel edits.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4830,
+  "core_bytes": 19416,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 953,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1239,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1488,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Supported operations",
+      "bytes": 968,
+      "when": [
+        "supported",
+        "operations"
+      ]
+    },
+    {
+      "name": "Operation 1 — BPMP DTB edits",
+      "bytes": 4854,
+      "when": [
+        "operation",
+        "bpmp",
+        "edits"
+      ]
+    },
+    {
+      "name": "Resolve the SKU-correct BPMP DTB",
+      "bytes": 1071,
+      "when": [
+        "resolve",
+        "correct",
+        "bpmp"
+      ]
+    },
+    {
+      "name": "List effective max rates (inspection)",
+      "bytes": 744,
+      "when": [
+        "list",
+        "effective",
+        "rates",
+        "inspection"
+      ]
+    },
+    {
+      "name": "Content edit: `max-rate-custom` on a named clock node",
+      "bytes": 815,
+      "when": [
+        "content",
+        "edit",
+        "rate",
+        "custom",
+        "named",
+        "clock",
+        "node"
+      ]
+    },
+    {
+      "name": "Content edit: EMC DVFS disable / enable",
+      "bytes": 1076,
+      "when": [
+        "content",
+        "edit",
+        "dvfs",
+        "disable",
+        "enable"
+      ]
+    },
+    {
+      "name": "Re-run + idempotency",
+      "bytes": 386,
+      "when": [
+        "idempotency"
+      ]
+    },
+    {
+      "name": "Operation 2 — nvpower.sh edits",
+      "bytes": 2914,
+      "when": [
+        "operation",
+        "nvpower",
+        "edits"
+      ]
+    },
+    {
+      "name": "The per-script file",
+      "bytes": 694,
+      "when": [
+        "script",
+        "file"
+      ]
+    },
+    {
+      "name": "Overlay edit recipe (apply before editing nvpower.sh)",
+      "bytes": 865,
+      "when": [
+        "overlay",
+        "edit",
+        "recipe",
+        "apply",
+        "before",
+        "editing",
+        "nvpower"
+      ]
+    },
+    {
+      "name": "Pick the edit",
+      "bytes": 282,
+      "when": [
+        "pick",
+        "edit"
+      ]
+    },
+    {
+      "name": "Deploy",
+      "bytes": 923,
+      "when": [
+        "deploy"
+      ]
+    },
+    {
+      "name": "Recipe — pin everything to MAXN for stress / performance runs",
+      "bytes": 1835,
+      "when": [
+        "recipe",
+        "everything",
+        "maxn",
+        "stress",
+        "performance",
+        "runs"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1807,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2655,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1146,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-customize-clocks/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,745 @@
+{
+  "id": "taste-skill__imagegen-frontend-web",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "23e6d27ab410e97fe5e844d18db97c8e674d317abd8567f4c7726ee16f56da6e",
+  "purpose": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Website design reference images (one per section) -> this.",
+  "cluster": "image-direction",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 9442,
+  "core_bytes": 37841,
+  "sections": [
+    {
+      "name": "1. ACTIVE BASELINE CONFIGURATION",
+      "bytes": 4516,
+      "when": [
+        "active",
+        "baseline",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Brief-to-direction mapping",
+      "bytes": 2461,
+      "when": [
+        "brief",
+        "direction",
+        "mapping"
+      ]
+    },
+    {
+      "name": "2. THE COMBINATORIAL VARIATION ENGINE",
+      "bytes": 6307,
+      "when": [
+        "combinatorial",
+        "variation",
+        "engine"
+      ]
+    },
+    {
+      "name": "Theme Paradigm",
+      "bytes": 456,
+      "when": [
+        "theme",
+        "paradigm"
+      ]
+    },
+    {
+      "name": "Background Character",
+      "bytes": 255,
+      "when": [
+        "background",
+        "character"
+      ]
+    },
+    {
+      "name": "Typography Character",
+      "bytes": 355,
+      "when": [
+        "typography",
+        "character"
+      ]
+    },
+    {
+      "name": "Hero Architecture",
+      "bytes": 240,
+      "when": [
+        "hero",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Section System",
+      "bytes": 249,
+      "when": [
+        "section",
+        "system"
+      ]
+    },
+    {
+      "name": "Signature Component Set",
+      "bytes": 418,
+      "when": [
+        "signature",
+        "component"
+      ]
+    },
+    {
+      "name": "Motion-Implied Language",
+      "bytes": 247,
+      "when": [
+        "motion",
+        "implied",
+        "language"
+      ]
+    },
+    {
+      "name": "Composition Anchor (per-section)",
+      "bytes": 901,
+      "when": [
+        "composition",
+        "anchor",
+        "section"
+      ]
+    },
+    {
+      "name": "Background Mode (per-section)",
+      "bytes": 959,
+      "when": [
+        "background",
+        "mode",
+        "section"
+      ]
+    },
+    {
+      "name": "CTA Variation",
+      "bytes": 381,
+      "when": [
+        "variation"
+      ]
+    },
+    {
+      "name": "Hero Scale (per-page)",
+      "bytes": 386,
+      "when": [
+        "hero",
+        "scale",
+        "page"
+      ]
+    },
+    {
+      "name": "Narrative / Concept Spine",
+      "bytes": 577,
+      "when": [
+        "narrative",
+        "concept",
+        "spine"
+      ]
+    },
+    {
+      "name": "Second-Read Moment",
+      "bytes": 602,
+      "when": [
+        "second",
+        "read",
+        "moment"
+      ]
+    },
+    {
+      "name": "3. FRONTEND REFERENCE RULE",
+      "bytes": 423,
+      "when": [
+        "frontend",
+        "reference",
+        "rule"
+      ]
+    },
+    {
+      "name": "4. HERO MINIMALISM RULES",
+      "bytes": 2218,
+      "when": [
+        "hero",
+        "minimalism",
+        "rules"
+      ]
+    },
+    {
+      "name": "Hero Composition Bias",
+      "bytes": 737,
+      "when": [
+        "hero",
+        "composition",
+        "bias"
+      ]
+    },
+    {
+      "name": "Pre-output check",
+      "bytes": 253,
+      "when": [
+        "output",
+        "check"
+      ]
+    },
+    {
+      "name": "Absolute Hero Rules",
+      "bytes": 438,
+      "when": [
+        "absolute",
+        "hero",
+        "rules"
+      ]
+    },
+    {
+      "name": "Headline Rule",
+      "bytes": 127,
+      "when": [
+        "headline",
+        "rule"
+      ]
+    },
+    {
+      "name": "Typography Execution",
+      "bytes": 300,
+      "when": [
+        "typography",
+        "execution"
+      ]
+    },
+    {
+      "name": "Graphic Restraint",
+      "bytes": 277,
+      "when": [
+        "graphic",
+        "restraint"
+      ]
+    },
+    {
+      "name": "5. IMAGE COUNT & PAGE SLICING",
+      "bytes": 2204,
+      "when": [
+        "image",
+        "count",
+        "page",
+        "slicing"
+      ]
+    },
+    {
+      "name": "THIS IS THE PRIMARY OUTPUT RULE",
+      "bytes": 901,
+      "when": [
+        "primary",
+        "output",
+        "rule"
+      ]
+    },
+    {
+      "name": "Format",
+      "bytes": 207,
+      "when": [
+        "format"
+      ]
+    },
+    {
+      "name": "Counting rule",
+      "bytes": 331,
+      "when": [
+        "counting",
+        "rule"
+      ]
+    },
+    {
+      "name": "Section size variety",
+      "bytes": 313,
+      "when": [
+        "section",
+        "size",
+        "variety"
+      ]
+    },
+    {
+      "name": "Continuity Rule",
+      "bytes": 416,
+      "when": [
+        "continuity",
+        "rule"
+      ]
+    },
+    {
+      "name": "6. CREATIVITY ESCALATION RULE",
+      "bytes": 949,
+      "when": [
+        "creativity",
+        "escalation",
+        "rule"
+      ]
+    },
+    {
+      "name": "7. IMAGE-FIRST ART DIRECTION",
+      "bytes": 1188,
+      "when": [
+        "image",
+        "first",
+        "direction"
+      ]
+    },
+    {
+      "name": "8. ANTI-AI-SLOP RULES",
+      "bytes": 1728,
+      "when": [
+        "anti",
+        "slop",
+        "rules"
+      ]
+    },
+    {
+      "name": "Layout slop",
+      "bytes": 264,
+      "when": [
+        "layout",
+        "slop"
+      ]
+    },
+    {
+      "name": "Visual slop",
+      "bytes": 252,
+      "when": [
+        "visual",
+        "slop"
+      ]
+    },
+    {
+      "name": "Typography slop",
+      "bytes": 193,
+      "when": [
+        "typography",
+        "slop"
+      ]
+    },
+    {
+      "name": "Content slop",
+      "bytes": 318,
+      "when": [
+        "content",
+        "slop"
+      ]
+    },
+    {
+      "name": "Density slop",
+      "bytes": 212,
+      "when": [
+        "density",
+        "slop"
+      ]
+    },
+    {
+      "name": "Carousel / marquee slop (layout)",
+      "bytes": 206,
+      "when": [
+        "carousel",
+        "marquee",
+        "slop",
+        "layout"
+      ]
+    },
+    {
+      "name": "Data / KPI slop",
+      "bytes": 195,
+      "when": [
+        "data",
+        "slop"
+      ]
+    },
+    {
+      "name": "9. TYPOGRAPHY-FIRST DISCIPLINE",
+      "bytes": 465,
+      "when": [
+        "typography",
+        "first",
+        "discipline"
+      ]
+    },
+    {
+      "name": "10. SECTION RHYTHM RULE",
+      "bytes": 717,
+      "when": [
+        "section",
+        "rhythm",
+        "rule"
+      ]
+    },
+    {
+      "name": "11. COMPONENT EXECUTION GUIDELINES",
+      "bytes": 1187,
+      "when": [
+        "component",
+        "execution",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Diagonal Staggered Square Masonry",
+      "bytes": 161,
+      "when": [
+        "diagonal",
+        "staggered",
+        "square",
+        "masonry"
+      ]
+    },
+    {
+      "name": "3D Cascading Card Deck",
+      "bytes": 131,
+      "when": [
+        "cascading",
+        "card",
+        "deck"
+      ]
+    },
+    {
+      "name": "Hover-Accordion Slice Layout",
+      "bytes": 172,
+      "when": [
+        "hover",
+        "accordion",
+        "slice",
+        "layout"
+      ]
+    },
+    {
+      "name": "Pristine Gapless Bento Grid",
+      "bytes": 148,
+      "when": [
+        "pristine",
+        "gapless",
+        "bento",
+        "grid"
+      ]
+    },
+    {
+      "name": "Turning Polaroid Arc",
+      "bytes": 141,
+      "when": [
+        "turning",
+        "polaroid"
+      ]
+    },
+    {
+      "name": "Off-Grid Editorial Layout",
+      "bytes": 120,
+      "when": [
+        "grid",
+        "editorial",
+        "layout"
+      ]
+    },
+    {
+      "name": "Product UI Panel Stack",
+      "bytes": 125,
+      "when": [
+        "product",
+        "panel",
+        "stack"
+      ]
+    },
+    {
+      "name": "Vertical Rhythm Lines",
+      "bytes": 148,
+      "when": [
+        "vertical",
+        "rhythm",
+        "lines"
+      ]
+    },
+    {
+      "name": "12. DENSITY & SPACING DISCIPLINE",
+      "bytes": 1238,
+      "when": [
+        "density",
+        "spacing",
+        "discipline"
+      ]
+    },
+    {
+      "name": "13. COLOR & MATERIAL RULES",
+      "bytes": 2247,
+      "when": [
+        "color",
+        "material",
+        "rules"
+      ]
+    },
+    {
+      "name": "Palette Discipline",
+      "bytes": 338,
+      "when": [
+        "palette",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Background-image harmony",
+      "bytes": 274,
+      "when": [
+        "background",
+        "image",
+        "harmony"
+      ]
+    },
+    {
+      "name": "Gradient Discipline",
+      "bytes": 792,
+      "when": [
+        "gradient",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Background Confidence Rule",
+      "bytes": 330,
+      "when": [
+        "background",
+        "confidence",
+        "rule"
+      ]
+    },
+    {
+      "name": "Strong guidance",
+      "bytes": 253,
+      "when": [
+        "strong",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Materiality",
+      "bytes": 227,
+      "when": [
+        "materiality"
+      ]
+    },
+    {
+      "name": "14. IMAGE / MEDIA DIRECTION",
+      "bytes": 410,
+      "when": [
+        "image",
+        "media",
+        "direction"
+      ]
+    },
+    {
+      "name": "15. DEFAULT SITE PACKS",
+      "bytes": 483,
+      "when": [
+        "default",
+        "site",
+        "packs"
+      ]
+    },
+    {
+      "name": "4-section pack",
+      "bytes": 83,
+      "when": [
+        "section",
+        "pack"
+      ]
+    },
+    {
+      "name": "8-section pack",
+      "bytes": 141,
+      "when": [
+        "section",
+        "pack"
+      ]
+    },
+    {
+      "name": "12-section pack",
+      "bytes": 230,
+      "when": [
+        "section",
+        "pack"
+      ]
+    },
+    {
+      "name": "16. MULTI-IMAGE CONSISTENCY RULE",
+      "bytes": 719,
+      "when": [
+        "multi",
+        "image",
+        "consistency",
+        "rule"
+      ]
+    },
+    {
+      "name": "17. CLARITY CHECK",
+      "bytes": 1580,
+      "when": [
+        "clarity",
+        "check"
+      ]
+    },
+    {
+      "name": "18. EXTRA CREATIVITY & IMPLEMENTATION EDGE",
+      "bytes": 2506,
+      "when": [
+        "extra",
+        "creativity",
+        "implementation",
+        "edge"
+      ]
+    },
+    {
+      "name": "Cross-section contrast",
+      "bytes": 195,
+      "when": [
+        "cross",
+        "section",
+        "contrast"
+      ]
+    },
+    {
+      "name": "CTA specificity",
+      "bytes": 174,
+      "when": [
+        "specificity"
+      ]
+    },
+    {
+      "name": "Image variety inside one comp",
+      "bytes": 247,
+      "when": [
+        "image",
+        "variety",
+        "inside",
+        "comp"
+      ]
+    },
+    {
+      "name": "Data-viz restraint",
+      "bytes": 245,
+      "when": [
+        "data",
+        "restraint"
+      ]
+    },
+    {
+      "name": "Cultural / tonal alignment",
+      "bytes": 228,
+      "when": [
+        "cultural",
+        "tonal",
+        "alignment"
+      ]
+    },
+    {
+      "name": "Mobile-implied fidelity (even for desktop mocks)",
+      "bytes": 186,
+      "when": [
+        "mobile",
+        "implied",
+        "fidelity",
+        "even",
+        "desktop",
+        "mocks"
+      ]
+    },
+    {
+      "name": "Conversion focus",
+      "bytes": 450,
+      "when": [
+        "conversion",
+        "focus"
+      ]
+    },
+    {
+      "name": "Composition variety check",
+      "bytes": 697,
+      "when": [
+        "composition",
+        "variety",
+        "check"
+      ]
+    },
+    {
+      "name": "19. RESPONSE BEHAVIOR",
+      "bytes": 1482,
+      "when": [
+        "response",
+        "behavior"
+      ]
+    },
+    {
+      "name": "20. EXAMPLE INTERPRETATIONS",
+      "bytes": 1669,
+      "when": [
+        "example",
+        "interpretations"
+      ]
+    },
+    {
+      "name": "Example 1",
+      "bytes": 461,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Example 2",
+      "bytes": 603,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Example 3",
+      "bytes": 571,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "21. FINAL GOAL",
+      "bytes": 354,
+      "when": [
+        "final",
+        "goal"
+      ]
+    }
+  ],
+  "keywords": [
+    "hard",
+    "first",
+    "bias",
+    "core",
+    "directive",
+    "awwwards",
+    "level",
+    "active",
+    "baseline",
+    "configuration",
+    "brief",
+    "mapping"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\imagegen-frontend-web\\SKILL.md"
+}

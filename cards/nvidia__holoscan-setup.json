@@ -1,0 +1,157 @@
+{
+  "id": "nvidia__holoscan-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "aba3b1ac621b1be2a6181567523a9a567eea77bd292d33fc6977c0455f24b23c",
+  "purpose": "Guides Holoscan SDK installation: inspects the host, assesses platform compatibility, recommends an install method, and delegates to the matching install skill.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guides Holoscan SDK installation: inspects the host, assesses platform compatibility, recommends an install method, and delegates to the matching install skill."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2564,
+  "core_bytes": 10350,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 357,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 378,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 750,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 6876,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Workflow rules (must follow)",
+      "bytes": 778,
+      "when": [
+        "workflow",
+        "rules",
+        "follow"
+      ]
+    },
+    {
+      "name": "Step 1: Read the Docs First",
+      "bytes": 253,
+      "when": [
+        "step",
+        "read",
+        "docs",
+        "first"
+      ]
+    },
+    {
+      "name": "Step 2: Inspect the Machine",
+      "bytes": 405,
+      "when": [
+        "step",
+        "inspect",
+        "machine"
+      ]
+    },
+    {
+      "name": "Step 3: Assess Compatibility",
+      "bytes": 540,
+      "when": [
+        "step",
+        "assess",
+        "compatibility"
+      ]
+    },
+    {
+      "name": "Step 4: Check Tools and Present Options",
+      "bytes": 2019,
+      "when": [
+        "step",
+        "check",
+        "tools",
+        "present",
+        "options"
+      ]
+    },
+    {
+      "name": "Step 5: Present Options and Recommend",
+      "bytes": 1743,
+      "when": [
+        "step",
+        "present",
+        "options",
+        "recommend"
+      ]
+    },
+    {
+      "name": "Step 6: Delegate to the Install Skill",
+      "bytes": 869,
+      "when": [
+        "step",
+        "delegate",
+        "install",
+        "skill"
+      ]
+    },
+    {
+      "name": "Step 7: Summary",
+      "bytes": 116,
+      "when": [
+        "step",
+        "summary"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 614,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 888,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/holoscan-setup/SKILL.md",
+  "curated": true
+}

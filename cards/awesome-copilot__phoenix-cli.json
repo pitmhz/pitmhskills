@@ -1,0 +1,173 @@
+{
+  "id": "awesome-copilot__phoenix-cli",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "dde98a935bea2f498567860dbb1577a3064b06a27178ee8ebbb76b48e79d26e1",
+  "purpose": "Debug LLM applications using the Phoenix CLI. Fetch traces, analyze errors, structure trace review with open coding and axial coding, inspect datasets, review experiments, query annotation configs, an",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Debug LLM applications using the Phoenix CLI. Fetch traces, analyze errors, structure trace review with open coding and axial coding, inspect datasets, review e"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4050,
+  "core_bytes": 16232,
+  "sections": [
+    {
+      "name": "Invocation",
+      "bytes": 873,
+      "when": [
+        "invocation"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 219,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1671,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Workflows",
+      "bytes": 229,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "Reference Categories",
+      "bytes": 676,
+      "when": [
+        "reference",
+        "categories"
+      ]
+    },
+    {
+      "name": "Auth",
+      "bytes": 263,
+      "when": [
+        "auth"
+      ]
+    },
+    {
+      "name": "Profiles",
+      "bytes": 1382,
+      "when": [
+        "profiles"
+      ]
+    },
+    {
+      "name": "Projects",
+      "bytes": 541,
+      "when": [
+        "projects"
+      ]
+    },
+    {
+      "name": "Traces",
+      "bytes": 2493,
+      "when": [
+        "traces"
+      ]
+    },
+    {
+      "name": "Trace JSON shape",
+      "bytes": 1108,
+      "when": [
+        "trace",
+        "json",
+        "shape"
+      ]
+    },
+    {
+      "name": "Spans",
+      "bytes": 3032,
+      "when": [
+        "spans"
+      ]
+    },
+    {
+      "name": "Span JSON shape",
+      "bytes": 841,
+      "when": [
+        "span",
+        "json",
+        "shape"
+      ]
+    },
+    {
+      "name": "Sessions",
+      "bytes": 1577,
+      "when": [
+        "sessions"
+      ]
+    },
+    {
+      "name": "Session JSON shape",
+      "bytes": 460,
+      "when": [
+        "session",
+        "json",
+        "shape"
+      ]
+    },
+    {
+      "name": "Datasets / Experiments / Prompts",
+      "bytes": 695,
+      "when": [
+        "datasets",
+        "experiments",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Annotation Configs",
+      "bytes": 228,
+      "when": [
+        "annotation",
+        "configs"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "bytes": 800,
+      "when": [
+        "graphql"
+      ]
+    },
+    {
+      "name": "Docs",
+      "bytes": 768,
+      "when": [
+        "docs"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\phoenix-cli\\SKILL.md"
+}

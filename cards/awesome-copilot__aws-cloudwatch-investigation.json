@@ -1,0 +1,211 @@
+{
+  "id": "awesome-copilot__aws-cloudwatch-investigation",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e278e755854bb81bcce39e41395aaae189f49aa6f4397d8723dd1a01518b1526",
+  "purpose": "Reusable investigation patterns for AWS CloudWatch: Logs Insights query templates, alarm-to-deployment correlation, blast-radius narrowing decision tree, and PromQL-style metric query patterns for str",
+  "domain": "workflow",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Reusable investigation patterns for AWS CloudWatch: Logs Insights query templates, alarm-to-deployment correlation, blast-radius narrowing decision tree, and Pr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2633,
+  "core_bytes": 10587,
+  "sections": [
+    {
+      "name": "Pattern 1: Logs Insights Query Templates",
+      "bytes": 2048,
+      "when": [
+        "pattern",
+        "logs",
+        "insights",
+        "query",
+        "templates"
+      ]
+    },
+    {
+      "name": "Error Spike Detection",
+      "bytes": 288,
+      "when": [
+        "error",
+        "spike",
+        "detection"
+      ]
+    },
+    {
+      "name": "P99 Latency Breakdown by Operation",
+      "bytes": 394,
+      "when": [
+        "latency",
+        "breakdown",
+        "operation"
+      ]
+    },
+    {
+      "name": "Lambda Cold Start Detection",
+      "bytes": 387,
+      "when": [
+        "lambda",
+        "cold",
+        "start",
+        "detection"
+      ]
+    },
+    {
+      "name": "Out-of-Memory (OOM) Detection",
+      "bytes": 659,
+      "when": [
+        "memory",
+        "detection"
+      ]
+    },
+    {
+      "name": "Timeout Detection",
+      "bytes": 275,
+      "when": [
+        "timeout",
+        "detection"
+      ]
+    },
+    {
+      "name": "Pattern 2: Alarm History to Deploy-Event Correlation",
+      "bytes": 1665,
+      "when": [
+        "pattern",
+        "alarm",
+        "history",
+        "deploy",
+        "event",
+        "correlation"
+      ]
+    },
+    {
+      "name": "Process",
+      "bytes": 1242,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 366,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Pattern 3: Narrow the Blast Radius Decision Tree",
+      "bytes": 1951,
+      "when": [
+        "pattern",
+        "narrow",
+        "blast",
+        "radius",
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Shared Dependency Investigation",
+      "bytes": 541,
+      "when": [
+        "shared",
+        "dependency",
+        "investigation"
+      ]
+    },
+    {
+      "name": "Pattern 4: PromQL-Style Metric Query Patterns",
+      "bytes": 2508,
+      "when": [
+        "pattern",
+        "promql",
+        "style",
+        "metric",
+        "query",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Error Rate as Percentage",
+      "bytes": 544,
+      "when": [
+        "error",
+        "rate",
+        "percentage"
+      ]
+    },
+    {
+      "name": "Latency Anomaly Detection (Compare to Baseline)",
+      "bytes": 663,
+      "when": [
+        "latency",
+        "anomaly",
+        "detection",
+        "compare",
+        "baseline"
+      ]
+    },
+    {
+      "name": "Throttling Pressure Score",
+      "bytes": 768,
+      "when": [
+        "throttling",
+        "pressure",
+        "score"
+      ]
+    },
+    {
+      "name": "Concurrent Execution Headroom",
+      "bytes": 321,
+      "when": [
+        "concurrent",
+        "execution",
+        "headroom"
+      ]
+    },
+    {
+      "name": "Pattern 5: Incident Timeline Reconstruction",
+      "bytes": 1904,
+      "when": [
+        "pattern",
+        "incident",
+        "timeline",
+        "reconstruction"
+      ]
+    },
+    {
+      "name": "Process",
+      "bytes": 1427,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 429,
+      "when": [
+        "gotchas"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aws-cloudwatch-investigation\\SKILL.md"
+}

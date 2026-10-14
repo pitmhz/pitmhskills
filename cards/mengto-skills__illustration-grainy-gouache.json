@@ -1,0 +1,131 @@
+{
+  "id": "mengto-skills__illustration-grainy-gouache",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "25c609abf4c1463969f5e22858897eccc54dc0ab268231b8cc29499be8b0b95e",
+  "purpose": "Draws original cosy animal scenes as hand-authored SVG cards (480x360) in a grainy gouache, risograph-like style. Identifying traits are flat shapes with no outlines on a hot-pink card; soft 3-4 stop ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "design"
+  ],
+  "use_when": [
+    "Draws original cosy animal scenes as hand-authored SVG cards (480x360) in a grainy gouache, risograph-like style. Identifying traits are flat shapes with no out"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5271,
+  "core_bytes": 21148,
+  "sections": [
+    {
+      "name": "The look in one sentence",
+      "bytes": 386,
+      "when": [
+        "look",
+        "sentence"
+      ]
+    },
+    {
+      "name": "Palette",
+      "bytes": 2934,
+      "when": [
+        "palette"
+      ]
+    },
+    {
+      "name": "Line and fill",
+      "bytes": 1836,
+      "when": [
+        "line",
+        "fill"
+      ]
+    },
+    {
+      "name": "Characters",
+      "bytes": 3473,
+      "when": [
+        "characters"
+      ]
+    },
+    {
+      "name": "Decor and props",
+      "bytes": 1291,
+      "when": [
+        "decor",
+        "props"
+      ]
+    },
+    {
+      "name": "Composition",
+      "bytes": 1024,
+      "when": [
+        "composition"
+      ]
+    },
+    {
+      "name": "Techniques",
+      "bytes": 2954,
+      "when": [
+        "techniques"
+      ]
+    },
+    {
+      "name": "Failure modes",
+      "bytes": 1723,
+      "when": [
+        "failure",
+        "modes"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 842,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1536,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1337,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "illustration",
+    "look",
+    "sentence",
+    "palette",
+    "line",
+    "fill",
+    "characters",
+    "decor",
+    "props",
+    "composition",
+    "techniques",
+    "failure",
+    "modes"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\illustration\\illustration-grainy-gouache\\SKILL.md"
+}

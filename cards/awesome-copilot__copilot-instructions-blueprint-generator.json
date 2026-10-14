@@ -1,0 +1,179 @@
+{
+  "id": "awesome-copilot__copilot-instructions-blueprint-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e53409119442128e2afbc2b48ad1b286fb23b884934de26dd088b3a375fcfb2b",
+  "purpose": "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with proje"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3696,
+  "core_bytes": 14783,
+  "sections": [
+    {
+      "name": "Configuration Variables",
+      "bytes": 651,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generated Prompt",
+      "bytes": 418,
+      "when": [
+        "generated",
+        "prompt"
+      ]
+    },
+    {
+      "name": "1. Core Instruction Structure",
+      "bytes": 78,
+      "when": [
+        "core",
+        "instruction",
+        "structure"
+      ]
+    },
+    {
+      "name": "Priority Guidelines",
+      "bytes": 719,
+      "when": [
+        "priority",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Technology Version Detection",
+      "bytes": 880,
+      "when": [
+        "technology",
+        "version",
+        "detection"
+      ]
+    },
+    {
+      "name": "Context Files",
+      "bytes": 390,
+      "when": [
+        "context",
+        "files"
+      ]
+    },
+    {
+      "name": "Codebase Scanning Instructions",
+      "bytes": 549,
+      "when": [
+        "codebase",
+        "scanning",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Code Quality Standards",
+      "bytes": 1981,
+      "when": [
+        "code",
+        "quality",
+        "standards"
+      ]
+    },
+    {
+      "name": "Documentation Requirements",
+      "bytes": 1035,
+      "when": [
+        "documentation",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Testing Approach",
+      "bytes": 1578,
+      "when": [
+        "testing",
+        "approach"
+      ]
+    },
+    {
+      "name": "Technology-Specific Guidelines",
+      "bytes": 2747,
+      "when": [
+        "technology",
+        "specific",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Version Control Guidelines",
+      "bytes": 683,
+      "when": [
+        "version",
+        "control",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "General Best Practices",
+      "bytes": 378,
+      "when": [
+        "general",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Project-Specific Guidance",
+      "bytes": 2130,
+      "when": [
+        "project",
+        "specific",
+        "guidance"
+      ]
+    },
+    {
+      "name": "2. Codebase Analysis Instructions",
+      "bytes": 1206,
+      "when": [
+        "codebase",
+        "analysis",
+        "instructions"
+      ]
+    },
+    {
+      "name": "3. Implementation Notes",
+      "bytes": 630,
+      "when": [
+        "implementation",
+        "notes"
+      ]
+    },
+    {
+      "name": "Expected Output",
+      "bytes": 236,
+      "when": [
+        "expected",
+        "output"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\copilot-instructions-blueprint-generator\\SKILL.md"
+}

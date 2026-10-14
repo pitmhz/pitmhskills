@@ -1,0 +1,149 @@
+{
+  "id": "awesome-copilot__fluentui-blazor",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d23fbc5dfb9a1580f930652bdfbf8c891edbaaa3bf162fb4904de9cba74f01b0",
+  "purpose": "Guide for using the Microsoft Fluent UI Blazor component library (Microsoft.FluentUI.AspNetCore.Components NuGet package) in Blazor applications. Use this when the user is building a Blazor app with F",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Guide for using the Microsoft Fluent UI Blazor component library (Microsoft.FluentUI.AspNetCore.Components NuGet package) in Blazor applications. Use this when "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1872,
+  "core_bytes": 7513,
+  "sections": [
+    {
+      "name": "Critical Rules",
+      "bytes": 6476,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "1. No manual `<script>` or `<link>` tags needed",
+      "bytes": 222,
+      "when": [
+        "manual",
+        "script",
+        "link",
+        "tags",
+        "needed"
+      ]
+    },
+    {
+      "name": "2. Providers are mandatory for service-based components",
+      "bytes": 402,
+      "when": [
+        "providers",
+        "mandatory",
+        "service",
+        "based",
+        "components"
+      ]
+    },
+    {
+      "name": "3. Service registration in Program.cs",
+      "bytes": 550,
+      "when": [
+        "service",
+        "registration",
+        "program"
+      ]
+    },
+    {
+      "name": "4. Icons require a separate NuGet package",
+      "bytes": 641,
+      "when": [
+        "icons",
+        "require",
+        "separate",
+        "nuget",
+        "package"
+      ]
+    },
+    {
+      "name": "5. List component binding model",
+      "bytes": 958,
+      "when": [
+        "list",
+        "component",
+        "binding",
+        "model"
+      ]
+    },
+    {
+      "name": "6. FluentAutocomplete specifics",
+      "bytes": 673,
+      "when": [
+        "fluentautocomplete",
+        "specifics"
+      ]
+    },
+    {
+      "name": "7. Dialog service pattern",
+      "bytes": 1455,
+      "when": [
+        "dialog",
+        "service",
+        "pattern"
+      ]
+    },
+    {
+      "name": "8. Toast notifications",
+      "bytes": 427,
+      "when": [
+        "toast",
+        "notifications"
+      ]
+    },
+    {
+      "name": "9. Design tokens and themes work only after render",
+      "bytes": 318,
+      "when": [
+        "design",
+        "tokens",
+        "themes",
+        "work",
+        "after",
+        "render"
+      ]
+    },
+    {
+      "name": "10. FluentEditForm vs EditForm",
+      "bytes": 811,
+      "when": [
+        "fluenteditform",
+        "editform"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 253,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\fluentui-blazor\\SKILL.md"
+}

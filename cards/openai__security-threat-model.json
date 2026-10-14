@@ -29,7 +29,128 @@
   "conflicts_with": [],
   "body_tokens": 1410,
   "core_bytes": 5642,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/security-threat-model/SKILL.md"
+  "sections": [
+    {
+      "name": "Quick start",
+      "bytes": 430,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3637,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1) Scope and extract the system model",
+      "bytes": 461,
+      "when": [
+        "scope",
+        "extract",
+        "system",
+        "model"
+      ]
+    },
+    {
+      "name": "2) Derive boundaries, assets, and entry points",
+      "bytes": 410,
+      "when": [
+        "derive",
+        "boundaries",
+        "assets",
+        "entry",
+        "points"
+      ]
+    },
+    {
+      "name": "3) Calibrate assets and attacker capabilities",
+      "bytes": 333,
+      "when": [
+        "calibrate",
+        "assets",
+        "attacker",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "4) Enumerate threats as abuse paths",
+      "bytes": 290,
+      "when": [
+        "enumerate",
+        "threats",
+        "abuse",
+        "paths"
+      ]
+    },
+    {
+      "name": "5) Prioritize with explicit likelihood and impact reasoning",
+      "bytes": 318,
+      "when": [
+        "prioritize",
+        "explicit",
+        "likelihood",
+        "impact",
+        "reasoning"
+      ]
+    },
+    {
+      "name": "6) Validate service context and assumptions with the user",
+      "bytes": 554,
+      "when": [
+        "validate",
+        "service",
+        "context",
+        "assumptions",
+        "user"
+      ]
+    },
+    {
+      "name": "7) Recommend mitigations and focus paths",
+      "bytes": 600,
+      "when": [
+        "recommend",
+        "mitigations",
+        "focus",
+        "paths"
+      ]
+    },
+    {
+      "name": "8) Run a quality check before finalizing",
+      "bytes": 656,
+      "when": [
+        "quality",
+        "check",
+        "before",
+        "finalizing"
+      ]
+    },
+    {
+      "name": "Risk prioritization guidance (illustrative, not exhaustive)",
+      "bytes": 494,
+      "when": [
+        "risk",
+        "prioritization",
+        "guidance",
+        "illustrative",
+        "exhaustive"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 272,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/security-threat-model/SKILL.md",
+  "curated": true
 }

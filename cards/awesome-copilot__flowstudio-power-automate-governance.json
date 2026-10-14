@@ -1,0 +1,175 @@
+{
+  "id": "awesome-copilot__flowstudio-power-automate-governance",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "847fc4c3df86b37dd649a39c8a937cdb064b0958c54a5c3871d0edf00ef7dc25",
+  "purpose": "Govern Power Automate flows and Power Apps at scale using the FlowStudio MCP cached store. Classify flows by business impact, detect orphaned resources, audit connector usage, enforce compliance stand",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Govern Power Automate flows and Power Apps at scale using the FlowStudio MCP cached store. Classify flows by business impact, detect orphaned resources, audit c"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3577,
+  "core_bytes": 14372,
+  "sections": [
+    {
+      "name": "Critical: How to Extract Flow IDs",
+      "bytes": 714,
+      "when": [
+        "critical",
+        "extract",
+        "flow"
+      ]
+    },
+    {
+      "name": "The Write Tool: `update_store_flow`",
+      "bytes": 2361,
+      "when": [
+        "write",
+        "tool",
+        "update",
+        "store",
+        "flow"
+      ]
+    },
+    {
+      "name": "Settable Fields",
+      "bytes": 1388,
+      "when": [
+        "settable",
+        "fields"
+      ]
+    },
+    {
+      "name": "Governance Workflows",
+      "bytes": 6400,
+      "when": [
+        "governance",
+        "workflows"
+      ]
+    },
+    {
+      "name": "1. Compliance Detail Review",
+      "bytes": 581,
+      "when": [
+        "compliance",
+        "detail",
+        "review"
+      ]
+    },
+    {
+      "name": "2. Orphaned Resource Detection",
+      "bytes": 659,
+      "when": [
+        "orphaned",
+        "resource",
+        "detection"
+      ]
+    },
+    {
+      "name": "3. Archive Score Calculation",
+      "bytes": 592,
+      "when": [
+        "archive",
+        "score",
+        "calculation"
+      ]
+    },
+    {
+      "name": "4. Connector Audit",
+      "bytes": 602,
+      "when": [
+        "connector",
+        "audit"
+      ]
+    },
+    {
+      "name": "5. Notification Rule Management",
+      "bytes": 762,
+      "when": [
+        "notification",
+        "rule",
+        "management"
+      ]
+    },
+    {
+      "name": "6. Classification and Tagging",
+      "bytes": 547,
+      "when": [
+        "classification",
+        "tagging"
+      ]
+    },
+    {
+      "name": "7. Maker Offboarding",
+      "bytes": 957,
+      "when": [
+        "maker",
+        "offboarding"
+      ]
+    },
+    {
+      "name": "8. Security Review",
+      "bytes": 542,
+      "when": [
+        "security",
+        "review"
+      ]
+    },
+    {
+      "name": "9. Environment Governance",
+      "bytes": 425,
+      "when": [
+        "environment",
+        "governance"
+      ]
+    },
+    {
+      "name": "10. Governance Dashboard",
+      "bytes": 708,
+      "when": [
+        "governance",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Field Reference: `get_store_flow` Fields Used in Governance",
+      "bytes": 2156,
+      "when": [
+        "field",
+        "reference",
+        "store",
+        "flow",
+        "fields",
+        "used",
+        "governance"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 379,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\flowstudio-power-automate-governance\\SKILL.md"
+}

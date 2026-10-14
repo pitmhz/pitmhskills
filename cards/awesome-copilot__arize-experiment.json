@@ -1,0 +1,245 @@
+{
+  "id": "awesome-copilot__arize-experiment",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "388c2ed4e5ca253ea11a1bea5975bf3fa763c02d2b297a7f5eaabe629e3c79cc",
+  "purpose": "Creates, runs, and analyzes Arize experiments for evaluating and comparing model performance. Covers experiment CRUD, exporting runs, comparing results, and evaluation workflows using the ax CLI. Use ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Creates, runs, and analyzes Arize experiments for evaluating and comparing model performance. Covers experiment CRUD, exporting runs, comparing results, and eva"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4646,
+  "core_bytes": 18631,
+  "sections": [
+    {
+      "name": "Concepts",
+      "bytes": 655,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1369,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "List Experiments: `ax experiments list`",
+      "bytes": 762,
+      "when": [
+        "list",
+        "experiments"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 425,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Get Experiment: `ax experiments get`",
+      "bytes": 1286,
+      "when": [
+        "experiment",
+        "experiments"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 480,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Response fields",
+      "bytes": 472,
+      "when": [
+        "response",
+        "fields"
+      ]
+    },
+    {
+      "name": "Export Experiment: `ax experiments export`",
+      "bytes": 2248,
+      "when": [
+        "export",
+        "experiment",
+        "experiments"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 624,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "REST vs Flight (`--all`)",
+      "bytes": 907,
+      "when": [
+        "rest",
+        "flight"
+      ]
+    },
+    {
+      "name": "Create Experiment: `ax experiments create`",
+      "bytes": 1591,
+      "when": [
+        "create",
+        "experiment",
+        "experiments"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 502,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Passing data via stdin",
+      "bytes": 421,
+      "when": [
+        "passing",
+        "data",
+        "stdin"
+      ]
+    },
+    {
+      "name": "Required columns in the runs file",
+      "bytes": 358,
+      "when": [
+        "required",
+        "columns",
+        "runs",
+        "file"
+      ]
+    },
+    {
+      "name": "Delete Experiment: `ax experiments delete`",
+      "bytes": 775,
+      "when": [
+        "delete",
+        "experiment",
+        "experiments"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 488,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Experiment Run Schema",
+      "bytes": 956,
+      "when": [
+        "experiment",
+        "schema"
+      ]
+    },
+    {
+      "name": "Evaluation fields",
+      "bytes": 431,
+      "when": [
+        "evaluation",
+        "fields"
+      ]
+    },
+    {
+      "name": "Workflows",
+      "bytes": 6850,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "Run an experiment against a dataset",
+      "bytes": 4186,
+      "when": [
+        "experiment",
+        "against",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Compare two experiments",
+      "bytes": 1690,
+      "when": [
+        "compare",
+        "experiments"
+      ]
+    },
+    {
+      "name": "Download experiment results for analysis",
+      "bytes": 327,
+      "when": [
+        "download",
+        "experiment",
+        "results",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Pipe export to other tools",
+      "bytes": 633,
+      "when": [
+        "pipe",
+        "export",
+        "tools"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 447,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 836,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Save Credentials for Future Use",
+      "bytes": 102,
+      "when": [
+        "save",
+        "credentials",
+        "future"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-experiment\\SKILL.md"
+}

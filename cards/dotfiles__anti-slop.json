@@ -1,0 +1,37 @@
+{
+  "id": "dotfiles__anti-slop",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "88d7c0bda5680d691b27714142b0c7d5eb157861975f5086a086d55614377989",
+  "purpose": "Edit formulaic or AI-sounding prose while preserving the author's voice. Use for an anti-slop pass, editorial review, or requests to make writing sound more human; ordinary drafting does not require t",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Edit formulaic or AI-sounding prose while preserving the author's voice. Use for an anti-slop pass, editorial review, or requests to make writing sound more hum"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 327,
+  "core_bytes": 1306,
+  "sections": [],
+  "keywords": [
+    "editing"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\anti-slop\\SKILL.md"
+}

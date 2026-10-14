@@ -1,0 +1,160 @@
+{
+  "id": "nvidia__deepstream-run-mv3dt",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7661286574123fe8ea6b4f42813ebfb1bdacc3ed252bbbc757da2833760940d5",
+  "purpose": "Run and operate the DeepStream Multi-View 3D Tracking reference app, also known as MV3DT. Use when the user asks to set up prerequisites, run shipped MV3DT samples, run Multi-View 3D Tracking on custo",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Run and operate the DeepStream Multi-View 3D Tracking reference app, also known as MV3DT. Use when the user asks to set up prerequisites, run shipped MV3DT samp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3192,
+  "core_bytes": 12765,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 670,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 352,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 373,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 541,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 6336,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 0: Resolve MV3DT App Checkout",
+      "bytes": 1966,
+      "when": [
+        "step",
+        "resolve",
+        "mv3dt",
+        "checkout"
+      ]
+    },
+    {
+      "name": "Step 1: Select The Primary Workflow",
+      "bytes": 1088,
+      "when": [
+        "step",
+        "select",
+        "primary",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 2: Follow The Run Stages",
+      "bytes": 1093,
+      "when": [
+        "step",
+        "follow",
+        "stages"
+      ]
+    },
+    {
+      "name": "Step 3: Apply Defaults Explicitly",
+      "bytes": 1455,
+      "when": [
+        "step",
+        "apply",
+        "defaults",
+        "explicitly"
+      ]
+    },
+    {
+      "name": "Step 4: Preserve Idempotency And User Data",
+      "bytes": 715,
+      "when": [
+        "step",
+        "preserve",
+        "idempotency",
+        "user",
+        "data"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 604,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Key Output",
+      "bytes": 525,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1128,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Safety Notes",
+      "bytes": 1113,
+      "when": [
+        "safety",
+        "notes"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 264,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/deepstream-run-mv3dt/SKILL.md",
+  "curated": true
+}

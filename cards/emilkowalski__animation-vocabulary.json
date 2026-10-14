@@ -1,0 +1,229 @@
+{
+  "id": "emilkowalski__animation-vocabulary",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "bd473dae686e85f6f82799aa7ef2aa11d357ddf3625de000fd8f28ea747562a4",
+  "purpose": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Name a motion effect (vague description to term) -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "name term glossary describe vague",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3341,
+  "core_bytes": 13606,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 413,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 350,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 980,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1003,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Glossary",
+      "bytes": 10349,
+      "when": [
+        "glossary"
+      ]
+    },
+    {
+      "name": "Entrances & Exits — how elements appear and disappear",
+      "bytes": 620,
+      "when": [
+        "entrances",
+        "exits",
+        "elements",
+        "appear",
+        "disappear"
+      ]
+    },
+    {
+      "name": "Sequencing & Timing — coordinating multiple elements or moments",
+      "bytes": 870,
+      "when": [
+        "sequencing",
+        "timing",
+        "coordinating",
+        "multiple",
+        "elements",
+        "moments"
+      ]
+    },
+    {
+      "name": "Movement & Transforms — changing an element's position, size, or angle",
+      "bytes": 811,
+      "when": [
+        "movement",
+        "transforms",
+        "changing",
+        "element",
+        "position",
+        "size",
+        "angle"
+      ]
+    },
+    {
+      "name": "Transitions Between States — connecting one state, view, or element to another",
+      "bytes": 945,
+      "when": [
+        "transitions",
+        "between",
+        "states",
+        "connecting",
+        "state",
+        "view",
+        "element"
+      ]
+    },
+    {
+      "name": "Scroll — motion tied to scrolling or navigating between views",
+      "bytes": 567,
+      "when": [
+        "scroll",
+        "motion",
+        "tied",
+        "scrolling",
+        "navigating",
+        "between",
+        "views"
+      ]
+    },
+    {
+      "name": "Feedback & Interaction — responding to the user's actions",
+      "bytes": 909,
+      "when": [
+        "feedback",
+        "interaction",
+        "responding",
+        "user",
+        "actions"
+      ]
+    },
+    {
+      "name": "Easing — how speed changes over an animation",
+      "bytes": 698,
+      "when": [
+        "easing",
+        "speed",
+        "changes",
+        "animation"
+      ]
+    },
+    {
+      "name": "Spring Animations — physics-based motion as an alternative to fixed-duration eas",
+      "bytes": 1062,
+      "when": [
+        "spring",
+        "animations",
+        "physics",
+        "based",
+        "motion",
+        "alternative",
+        "fixed",
+        "duration"
+      ]
+    },
+    {
+      "name": "Looping & Ambient Motion — animations that run on their own",
+      "bytes": 729,
+      "when": [
+        "looping",
+        "ambient",
+        "motion",
+        "animations"
+      ]
+    },
+    {
+      "name": "Polish & Effects — the small touches that separate good from great",
+      "bytes": 1091,
+      "when": [
+        "polish",
+        "effects",
+        "small",
+        "touches",
+        "separate",
+        "good",
+        "great"
+      ]
+    },
+    {
+      "name": "Performance — what keeps motion smooth instead of stuttering",
+      "bytes": 803,
+      "when": [
+        "performance",
+        "keeps",
+        "motion",
+        "smooth",
+        "instead",
+        "stuttering"
+      ]
+    },
+    {
+      "name": "Principles to Know — concepts that guide when and how to animate",
+      "bytes": 1119,
+      "when": [
+        "principles",
+        "know",
+        "concepts",
+        "guide",
+        "animate"
+      ]
+    }
+  ],
+  "keywords": [
+    "vocabulary",
+    "initial",
+    "response",
+    "quick",
+    "start",
+    "instructions",
+    "examples",
+    "entrances",
+    "exits",
+    "elements",
+    "appear",
+    "disappear"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\animation-vocabulary\\SKILL.md"
+}

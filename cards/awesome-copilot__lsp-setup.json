@@ -1,0 +1,70 @@
+{
+  "id": "awesome-copilot__lsp-setup",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7a49f98b82b66454ad66a0b8506a50028a16a5c91be73cb39669a18bfba3cb01",
+  "purpose": "Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by installing and configuring an LSP server for Copilot CLI. Detects the OS, installs the ri",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by installing and configuring an LSP server for Copi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 996,
+  "core_bytes": 4003,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1092,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Configuration Format",
+      "bytes": 1031,
+      "when": [
+        "configuration",
+        "format"
+      ]
+    },
+    {
+      "name": "Key rules",
+      "bytes": 508,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Behavior",
+      "bytes": 635,
+      "when": [
+        "behavior"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 341,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\lsp-setup\\SKILL.md"
+}

@@ -1,0 +1,202 @@
+{
+  "id": "nvidia__jetson-llm-benchmark",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9875b442d2183d045dd1d4e4e077ede0e7aca927932dbf8b7746eea1d2626f77",
+  "purpose": "Benchmark Jetson LLM/VLM serving performance across vLLM, llama.cpp, and Ollama with structured JSON output.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Benchmark Jetson LLM/VLM serving performance across vLLM, llama.cpp, and Ollama with structured JSON output."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3119,
+  "core_bytes": 12510,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 236,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 477,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 1027,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 867,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Expected Workflow",
+      "bytes": 867,
+      "when": [
+        "expected",
+        "workflow"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 232,
+      "when": []
+    },
+    {
+      "name": "Three paths — pick by runtime",
+      "bytes": 2725,
+      "when": [
+        "three",
+        "paths",
+        "pick",
+        "runtime"
+      ]
+    },
+    {
+      "name": "A. vLLM (preferred for parity with how things are served)",
+      "bytes": 831,
+      "when": [
+        "vllm",
+        "preferred",
+        "parity",
+        "served"
+      ]
+    },
+    {
+      "name": "B. Ollama (for models served by a running Ollama daemon)",
+      "bytes": 1173,
+      "when": [
+        "ollama",
+        "models",
+        "served",
+        "running",
+        "daemon"
+      ]
+    },
+    {
+      "name": "C. llama.cpp (for GGUF models)",
+      "bytes": 683,
+      "when": [
+        "llama",
+        "gguf",
+        "models"
+      ]
+    },
+    {
+      "name": "Output contract (all three wrappers)",
+      "bytes": 2537,
+      "when": [
+        "output",
+        "contract",
+        "three",
+        "wrappers"
+      ]
+    },
+    {
+      "name": "`bench_vllm.sh` (concurrency sweep → `runs[]`)",
+      "bytes": 380,
+      "when": [
+        "bench",
+        "vllm",
+        "concurrency",
+        "sweep",
+        "runs"
+      ]
+    },
+    {
+      "name": "`bench_llama_cpp.sh` (single-stream → `metrics`)",
+      "bytes": 264,
+      "when": [
+        "bench",
+        "llama",
+        "single",
+        "stream",
+        "metrics"
+      ]
+    },
+    {
+      "name": "`bench_ollama.sh` (single-stream → `metrics`)",
+      "bytes": 1117,
+      "when": [
+        "bench",
+        "ollama",
+        "single",
+        "stream",
+        "metrics"
+      ]
+    },
+    {
+      "name": "What to flag in results (Jetson-specific guidance)",
+      "bytes": 722,
+      "when": [
+        "flag",
+        "results",
+        "jetson",
+        "specific",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1061,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 764,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Hand off to",
+      "bytes": 216,
+      "when": [
+        "hand"
+      ]
+    },
+    {
+      "name": "Source",
+      "bytes": 197,
+      "when": [
+        "source"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-llm-benchmark/SKILL.md",
+  "curated": true
+}

@@ -5,11 +5,11 @@ import { hardFilter } from "./gate.ts";
 import { retrieve, loadAllCards } from "./retrieve.ts";
 import { collapse } from "./collapse.ts";
 import { scoreCandidates, decide, buildAskQuestion } from "./decide.ts";
-import { loadBody, scopeFence } from "./deliver.ts";
+import { loadBody, scopeFence, pairGuard } from "./deliver.ts";
 import { loadProfile } from "./profile.ts";
 import type { RepoProfile } from "./profile.ts";
 import { lockSkill, getSession } from "./session.ts";
-import type { RouteResult } from "./types.ts";
+import type { Card, RouteResult } from "./types.ts";
 
 // route(): filter -> retrieve -> collapse -> decide -> deliver. No LLM on hot path.
 // Enforces the session lock: max 1 active skill per phase; a different pick while
@@ -57,8 +57,20 @@ export function routeWith(
     db.close();
     return { outcome: "ABSTAIN", skill_id: null, confidence: d.top?.score ?? 0, margin: 0, body: "", scope_fence: "Only touch files the task names.", verify: [], why: d.top ? `top ${d.top.id} score ${d.top.score} < floor` : "no candidates", candidates: ranking.slice(0, 3), locked: false };
   }
-  // Session lock: first pick in a phase wins; a different pick while locked is
-  // returned but flagged so the harness (not the model) forces a phase switch.
+  // Session lock applies to confirmed PICKs only. ASK must not consume the
+  // lock: if the user picks the second option, the re-route must be free to
+  // lock that skill instead.
+  const topCard = byId.get(d.top.id)!;
+  if (d.outcome === "ASK" && d.second) {
+    const secondCard = byId.get(d.second.id);
+    const q = secondCard ? buildAskQuestion(topCard, secondCard) : `Confirm use of ${d.top.id}?`;
+    if (doLog) log(db, task, "ASK", d.top.id, d.top.score);
+    db.close();
+    const { body } = loadBody(topCard.card, 3000, task);
+    return { outcome: "ASK", skill_id: d.top.id, confidence: d.top.score, margin: d.top.score - (d.second?.score ?? 0), body, scope_fence: scopeFence(topCard.card), verify: topCard.card.verify ?? [], why: d.top.reason, ask_question: q, candidates: ranking.slice(0, 3), locked: false };
+  }
+  // Session lock: first confirmed pick in a phase wins; a different pick while
+  // locked is still returned but flagged so the harness (not the model) forces a phase switch.
   let locked = true;
   let lockNote = "";
   if (doLock && d.top) {
@@ -68,20 +80,19 @@ export function routeWith(
       lockNote = ` | session locked to ${holder} — call phase_done first`;
     }
   }
-  const topCard = byId.get(d.top.id)!;
-  if (d.outcome === "ASK" && d.second) {
-    const secondCard = byId.get(d.second.id);
-    const q = secondCard ? buildAskQuestion(topCard, secondCard) : `Confirm use of ${d.top.id}?`;
-    if (doLog) log(db, task, "ASK", d.top.id, d.top.score);
-    db.close();
-    const { body } = loadBody(topCard.card, 3000);
-    return { outcome: "ASK", skill_id: d.top.id, confidence: d.top.score, margin: d.top.score - (d.second?.score ?? 0), body, scope_fence: scopeFence(topCard.card), verify: topCard.card.verify ?? [], why: d.top.reason + lockNote, ask_question: q, candidates: ranking.slice(0, 3), locked };
+  const { body } = loadBody(topCard.card, 3000, task);
+  // pairs_with / ponytail_mode: at most one extra core, delivered as a
+  // distilled guard (never a second body), only when 2 skills fit the task cap.
+  let fullBody = body;
+  let paired: string | null = null;
+  const partner = pickPair(topCard.card, kept, profile, (cfg.max_skills_per_task as number) ?? 1);
+  if (partner) {
+    fullBody += pairGuard(partner);
+    paired = partner.id;
   }
-  const { body } = loadBody(topCard.card, 3000);
-  // pairs_with: at most one extra core if budget remains (v2 rule)
   if (doLog) log(db, task, "PICK", d.top.id, d.top.score);
   db.close();
-  return { outcome: "PICK", skill_id: d.top.id, confidence: d.top.score, margin: d.second ? d.top.score - d.second.score : 99, body, scope_fence: scopeFence(topCard.card), verify: topCard.card.verify ?? [], why: d.top.reason + lockNote, candidates: ranking.slice(0, 3), locked };
+  return { outcome: "PICK", skill_id: d.top.id, confidence: d.top.score, margin: d.second ? d.top.score - d.second.score : 99, body: fullBody, scope_fence: scopeFence(topCard.card), verify: topCard.card.verify ?? [], why: d.top.reason + (paired ? ` | paired ${paired}` : "") + lockNote, candidates: ranking.slice(0, 3), locked, paired };
 }
 
 function log(db: ReturnType<typeof openDb>, task: string, outcome: string, skill: string | null, conf: number): void {
@@ -89,6 +100,24 @@ function log(db: ReturnType<typeof openDb>, task: string, outcome: string, skill
     const h = createHash("sha256").update(task).digest("hex").slice(0, 16);
     db.prepare(`INSERT INTO route_logs (ts, task_hash, outcome, skill_id, confidence) VALUES (?, ?, ?, ?, ?)`).run(Date.now(), h, outcome, skill, conf);
   } catch { /* ignore */ }
+}
+
+// At most one pair, from the gate-kept pool only (blocked/tier-C never pair).
+// Order: explicit card pairs_with first; ponytail_mode full/ultra auto-pairs any
+// coding pick with the ponytail core as a guard. The ponytail card never pairs itself.
+export function pickPair(topCard: Card, kept: Card[], profile: RepoProfile | null, maxSkills: number): Card | null {
+  if (maxSkills < 2) return null;
+  let id: string | null = null;
+  const p = topCard.pairs_with;
+  if (typeof p === "string" && p) id = p;
+  else if (Array.isArray(p) && p.length) id = p[0] ?? null;
+  const pm = profile?.ponytail_mode;
+  if (!id && (pm === "full" || pm === "ultra") && !topCard.id.startsWith("ponytail__")) {
+    const coding = topCard.task_types.some((t) => t === "implement" || t === "refactor" || t === "debug");
+    if (coding) id = "ponytail__ponytail";
+  }
+  if (!id || id === topCard.id) return null;
+  return kept.find((c) => c.id === id) ?? null;
 }
 
 export function formatResult(r: RouteResult): string {
@@ -100,6 +129,7 @@ export function formatResult(r: RouteResult): string {
     `LOCKED: ${r.locked}`,
     `SCOPE: ${r.scope_fence}`,
   ];
+  if (r.paired) lines.push(`PAIRED: ${r.paired}`);
   if (r.ask_question) lines.push(`ASK: ${r.ask_question}`);
   if (r.body) lines.push(`--- body ---\n${r.body.slice(0, 4000)}`);
   return lines.join("\n");

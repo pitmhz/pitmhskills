@@ -1,0 +1,110 @@
+{
+  "id": "awesome-copilot__react18-dep-compatibility",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1578a05b72d487c3ff55256d9824f8f60dc47bb421e669d1705c977d86ab81c7",
+  "purpose": "React 18.3.1 and React 19 dependency compatibility matrix.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "React 18.3.1 and React 19 dependency compatibility matrix."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1124,
+  "core_bytes": 4519,
+  "sections": [
+    {
+      "name": "Core Upgrade Targets",
+      "bytes": 302,
+      "when": [
+        "core",
+        "upgrade",
+        "targets"
+      ]
+    },
+    {
+      "name": "Testing Libraries",
+      "bytes": 565,
+      "when": [
+        "testing",
+        "libraries"
+      ]
+    },
+    {
+      "name": "Apollo Client",
+      "bytes": 364,
+      "when": [
+        "apollo",
+        "client"
+      ]
+    },
+    {
+      "name": "Emotion",
+      "bytes": 330,
+      "when": [
+        "emotion"
+      ]
+    },
+    {
+      "name": "React Router",
+      "bytes": 385,
+      "when": [
+        "react",
+        "router"
+      ]
+    },
+    {
+      "name": "Redux",
+      "bytes": 364,
+      "when": [
+        "redux"
+      ]
+    },
+    {
+      "name": "Other Common Packages",
+      "bytes": 671,
+      "when": [
+        "common",
+        "packages"
+      ]
+    },
+    {
+      "name": "Conflict Resolution Decision Tree",
+      "bytes": 472,
+      "when": [
+        "conflict",
+        "resolution",
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "--legacy-peer-deps Rules",
+      "bytes": 401,
+      "when": [
+        "legacy",
+        "peer",
+        "deps",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react18-dep-compatibility\\SKILL.md"
+}

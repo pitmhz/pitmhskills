@@ -1,0 +1,135 @@
+{
+  "id": "awesome-copilot__content-management-systems",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "919c83458a358435b234e8d2d8e35514cdcaec0163b58886dd95fc1a736cc50c",
+  "purpose": "Workflow for building and modifying content management systems across WordPress, Shopify, Wix, Squarespace, Drupal, WooCommerce, Joomla, HubSpot CMS Hub, Webflow, Adobe Experience Manager, and similar",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Workflow for building and modifying content management systems across WordPress, Shopify, Wix, Squarespace, Drupal, WooCommerce, Joomla, HubSpot CMS Hub, Webflo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1324,
+  "core_bytes": 5296,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 545,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "First Pass",
+      "bytes": 630,
+      "when": [
+        "first",
+        "pass"
+      ]
+    },
+    {
+      "name": "CMS Rules",
+      "bytes": 663,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Common Workflows",
+      "bytes": 1888,
+      "when": [
+        "common",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Themes and Templates",
+      "bytes": 255,
+      "when": [
+        "themes",
+        "templates"
+      ]
+    },
+    {
+      "name": "Plugins, Apps, and Modules",
+      "bytes": 305,
+      "when": [
+        "plugins",
+        "apps",
+        "modules"
+      ]
+    },
+    {
+      "name": "Admin and Editor UX",
+      "bytes": 266,
+      "when": [
+        "admin",
+        "editor"
+      ]
+    },
+    {
+      "name": "Media and Uploads",
+      "bytes": 389,
+      "when": [
+        "media",
+        "uploads"
+      ]
+    },
+    {
+      "name": "Content Models and Migrations",
+      "bytes": 331,
+      "when": [
+        "content",
+        "models",
+        "migrations"
+      ]
+    },
+    {
+      "name": "Markdown, HTML, and Static Export",
+      "bytes": 321,
+      "when": [
+        "markdown",
+        "html",
+        "static",
+        "export"
+      ]
+    },
+    {
+      "name": "Identifying the Owning Seam",
+      "bytes": 586,
+      "when": [
+        "identifying",
+        "owning",
+        "seam"
+      ]
+    },
+    {
+      "name": "Platform Notes",
+      "bytes": 152,
+      "when": [
+        "platform",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\content-management-systems\\SKILL.md"
+}

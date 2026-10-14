@@ -1,0 +1,177 @@
+{
+  "id": "awesome-copilot__foundry-agent-sync",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "462c67ae7d4a389f9efb3ad9c25bb6b329277ce6001059cd3a4b32af8e377af2",
+  "purpose": "Create and synchronize prompt-based AI agents directly within Azure AI Foundry via REST API, from a local JSON manifest. Unlike scaffolding skills that only generate local code, this skill registers a",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create and synchronize prompt-based AI agents directly within Azure AI Foundry via REST API, from a local JSON manifest. Unlike scaffolding skills that only gen"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2100,
+  "core_bytes": 8422,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 630,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 609,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Manifest Format",
+      "bytes": 759,
+      "when": [
+        "manifest",
+        "format"
+      ]
+    },
+    {
+      "name": "Field Reference",
+      "bytes": 328,
+      "when": [
+        "field",
+        "reference"
+      ]
+    },
+    {
+      "name": "Sync Script",
+      "bytes": 2380,
+      "when": [
+        "sync",
+        "script"
+      ]
+    },
+    {
+      "name": "PowerShell (interactive / CI)",
+      "bytes": 1870,
+      "when": [
+        "powershell",
+        "interactive"
+      ]
+    },
+    {
+      "name": "Bash (Bicep deployment script / CI)",
+      "bytes": 494,
+      "when": [
+        "bash",
+        "bicep",
+        "deployment",
+        "script"
+      ]
+    },
+    {
+      "name": "Bicep Integration (optional)",
+      "bytes": 658,
+      "when": [
+        "bicep",
+        "integration",
+        "optional"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1327,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Locate or scaffold the manifest",
+      "bytes": 173,
+      "when": [
+        "step",
+        "locate",
+        "scaffold",
+        "manifest"
+      ]
+    },
+    {
+      "name": "Step 2 — Locate or scaffold the sync script",
+      "bytes": 335,
+      "when": [
+        "step",
+        "locate",
+        "scaffold",
+        "sync",
+        "script"
+      ]
+    },
+    {
+      "name": "Step 3 — Collect parameters",
+      "bytes": 199,
+      "when": [
+        "step",
+        "collect",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Step 4 — Run the sync",
+      "bytes": 272,
+      "when": [
+        "step",
+        "sync"
+      ]
+    },
+    {
+      "name": "Step 5 — Verify",
+      "bytes": 335,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "REST API Reference",
+      "bytes": 739,
+      "when": [
+        "rest",
+        "reference"
+      ]
+    },
+    {
+      "name": "Create/Update Payload",
+      "bytes": 297,
+      "when": [
+        "create",
+        "update",
+        "payload"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 577,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\foundry-agent-sync\\SKILL.md"
+}

@@ -1,0 +1,163 @@
+{
+  "id": "web-quality__core-web-vitals",
+  "tier": "B",
+  "origin": [
+    "addyosmani/web-quality-skills@afa8da942115f2961fdbfa80807ea0b232ff6c00"
+  ],
+  "license": "MIT",
+  "hash": "32f87ca8b7993ae924cb36d1640d9b4cc62fc48d01abafffeb0c4b944065e1f0",
+  "purpose": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience using field and lab evidence. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience using field and lab evidence. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduc"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2493,
+  "core_bytes": 10004,
+  "sections": [
+    {
+      "name": "Measure before optimizing",
+      "bytes": 841,
+      "when": [
+        "measure",
+        "before",
+        "optimizing"
+      ]
+    },
+    {
+      "name": "The three metrics",
+      "bytes": 421,
+      "when": [
+        "three",
+        "metrics"
+      ]
+    },
+    {
+      "name": "LCP: Largest Contentful Paint",
+      "bytes": 4509,
+      "when": [
+        "largest",
+        "contentful",
+        "paint"
+      ]
+    },
+    {
+      "name": "Common LCP issues",
+      "bytes": 3307,
+      "when": [
+        "common",
+        "issues"
+      ]
+    },
+    {
+      "name": "LCP optimization checklist",
+      "bytes": 545,
+      "when": [
+        "optimization",
+        "checklist"
+      ]
+    },
+    {
+      "name": "LCP element identification",
+      "bytes": 456,
+      "when": [
+        "element",
+        "identification"
+      ]
+    },
+    {
+      "name": "INP: Interaction to Next Paint",
+      "bytes": 586,
+      "when": [
+        "interaction",
+        "next",
+        "paint"
+      ]
+    },
+    {
+      "name": "CLS: Cumulative Layout Shift",
+      "bytes": 455,
+      "when": [
+        "cumulative",
+        "layout",
+        "shift"
+      ]
+    },
+    {
+      "name": "Measurement sources",
+      "bytes": 1133,
+      "when": [
+        "measurement",
+        "sources"
+      ]
+    },
+    {
+      "name": "Framework quick fixes",
+      "bytes": 954,
+      "when": [
+        "framework",
+        "quick",
+        "fixes"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "bytes": 316,
+      "when": [
+        "next"
+      ]
+    },
+    {
+      "name": "React",
+      "bytes": 318,
+      "when": [
+        "react"
+      ]
+    },
+    {
+      "name": "Vue/Nuxt",
+      "bytes": 292,
+      "when": [
+        "nuxt"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 574,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "measure",
+    "before",
+    "optimizing",
+    "three",
+    "metrics",
+    "largest",
+    "contentful",
+    "paint",
+    "common",
+    "issues",
+    "checklist",
+    "element",
+    "identification"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-quality\\skills\\core-web-vitals\\SKILL.md"
+}

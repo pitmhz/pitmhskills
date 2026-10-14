@@ -1,0 +1,216 @@
+{
+  "id": "nvidia__jetson-generate-kb",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e5cf62bc992a9a663c3a7a1541afa264c58058d4a19713d397279778e4b7bd49",
+  "purpose": "Build a per-target knowledge-base markdown next to the active profile by walking the BSP root and source tree. Use after init-image / init-source; not for editing profile fields.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build a per-target knowledge-base markdown next to the active profile by walking the BSP root and source tree. Use after init-image / init-source; not for editi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3862,
+  "core_bytes": 15583,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 1055,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 433,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 4333,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Resolve the active target",
+      "bytes": 340,
+      "when": [
+        "resolve",
+        "active",
+        "target"
+      ]
+    },
+    {
+      "name": "Validate inputs",
+      "bytes": 620,
+      "when": [
+        "validate",
+        "inputs"
+      ]
+    },
+    {
+      "name": "BSP discovery (under `bsp_image.root_path`)",
+      "bytes": 770,
+      "when": [
+        "discovery",
+        "under",
+        "image",
+        "root",
+        "path"
+      ]
+    },
+    {
+      "name": "Source tree discovery (under `source.root_path`)",
+      "bytes": 1067,
+      "when": [
+        "source",
+        "tree",
+        "discovery",
+        "under",
+        "root",
+        "path"
+      ]
+    },
+    {
+      "name": "Documents pass",
+      "bytes": 865,
+      "when": [
+        "documents",
+        "pass"
+      ]
+    },
+    {
+      "name": "Render and write the KB",
+      "bytes": 655,
+      "when": [
+        "render",
+        "write"
+      ]
+    },
+    {
+      "name": "Profile facts",
+      "bytes": 517,
+      "when": [
+        "profile",
+        "facts"
+      ]
+    },
+    {
+      "name": "BSP image layout",
+      "bytes": 1058,
+      "when": [
+        "image",
+        "layout"
+      ]
+    },
+    {
+      "name": "nvpmodel files matching the active SKU",
+      "bytes": 350,
+      "when": [
+        "nvpmodel",
+        "files",
+        "matching",
+        "active"
+      ]
+    },
+    {
+      "name": "Source tree layout",
+      "bytes": 973,
+      "when": [
+        "source",
+        "tree",
+        "layout"
+      ]
+    },
+    {
+      "name": "Devicetree files for chip family `<chip>`",
+      "bytes": 263,
+      "when": [
+        "devicetree",
+        "files",
+        "chip",
+        "family"
+      ]
+    },
+    {
+      "name": "Documents",
+      "bytes": 1569,
+      "when": [
+        "documents"
+      ]
+    },
+    {
+      "name": "How to refresh this file",
+      "bytes": 914,
+      "when": [
+        "refresh",
+        "file"
+      ]
+    },
+    {
+      "name": "Confirm",
+      "bytes": 464,
+      "when": [
+        "confirm"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1842,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 492,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 440,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 616,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 853,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-generate-kb\\SKILL.md",
+  "curated": true
+}

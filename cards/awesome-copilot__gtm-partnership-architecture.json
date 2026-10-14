@@ -1,0 +1,173 @@
+{
+  "id": "awesome-copilot__gtm-partnership-architecture",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d7dab398f7ce5c16cb5a7026f7e9465a6cb077a7b16caf024b3b120502d924b4",
+  "purpose": "Build and scale partner ecosystems that drive revenue and platform adoption. Use when building partner programs from scratch, tiering partnerships, managing co-marketing, making build-vs-partner decis",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build and scale partner ecosystems that drive revenue and platform adoption. Use when building partner programs from scratch, tiering partnerships, managing co-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3957,
+  "core_bytes": 15975,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 513,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 11511,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. Real Partnerships Require Skin in the Game",
+      "bytes": 2055,
+      "when": [
+        "real",
+        "partnerships",
+        "require",
+        "skin",
+        "game"
+      ]
+    },
+    {
+      "name": "2. Ecosystem Control = Discovery, Not Gatekeeping",
+      "bytes": 1876,
+      "when": [
+        "ecosystem",
+        "control",
+        "discovery",
+        "gatekeeping"
+      ]
+    },
+    {
+      "name": "3. Partnership Tactics > Partnership Theater",
+      "bytes": 2356,
+      "when": [
+        "partnership",
+        "tactics",
+        "theater"
+      ]
+    },
+    {
+      "name": "4. Partner Tiering: Three-Tier Model",
+      "bytes": 1259,
+      "when": [
+        "partner",
+        "tiering",
+        "three",
+        "tier",
+        "model"
+      ]
+    },
+    {
+      "name": "5. Crawl-Walk-Run Partnership Deployment",
+      "bytes": 1577,
+      "when": [
+        "crawl",
+        "walk",
+        "partnership",
+        "deployment"
+      ]
+    },
+    {
+      "name": "6. Partnership Value Exchange Clarity",
+      "bytes": 1237,
+      "when": [
+        "partnership",
+        "value",
+        "exchange",
+        "clarity"
+      ]
+    },
+    {
+      "name": "7. Co-Marketing Execution Checklist",
+      "bytes": 1131,
+      "when": [
+        "marketing",
+        "execution",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 1074,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Should We Build or Partner?",
+      "bytes": 403,
+      "when": [
+        "build",
+        "partner"
+      ]
+    },
+    {
+      "name": "Which Partner Tier?",
+      "bytes": 329,
+      "when": [
+        "partner",
+        "tier"
+      ]
+    },
+    {
+      "name": "Should We Continue This Partnership?",
+      "bytes": 323,
+      "when": [
+        "continue",
+        "partnership"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 814,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 791,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 557,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-partnership-architecture\\SKILL.md"
+}

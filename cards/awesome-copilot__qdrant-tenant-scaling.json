@@ -1,0 +1,76 @@
+{
+  "id": "awesome-copilot__qdrant-tenant-scaling",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d4d730dd3f9ba60519f5519f50022a34ea1e1d56aea9fdd30d53784785ec6954",
+  "purpose": "Guides Qdrant multi-tenant scaling. Use when someone asks 'how to scale tenants', 'one collection per tenant?', 'tenant isolation', 'dedicated shards', or reports tenant performance issues. Also use w",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant multi-tenant scaling. Use when someone asks 'how to scale tenants', 'one collection per tenant?', 'tenant isolation', 'dedicated shards', or repor"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 687,
+  "core_bytes": 2745,
+  "sections": [
+    {
+      "name": "Number of Tenants is around 10k",
+      "bytes": 405,
+      "when": [
+        "number",
+        "tenants"
+      ]
+    },
+    {
+      "name": "Number of Tenants is around 100k and more",
+      "bytes": 491,
+      "when": [
+        "number",
+        "tenants",
+        "100k"
+      ]
+    },
+    {
+      "name": "If tenants are unevenly sized",
+      "bytes": 371,
+      "when": [
+        "tenants",
+        "unevenly",
+        "sized"
+      ]
+    },
+    {
+      "name": "Need Strict Tenant Isolation",
+      "bytes": 390,
+      "when": [
+        "need",
+        "strict",
+        "tenant",
+        "isolation"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 304,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\scaling-data-volume\\tenant-scaling\\SKILL.md"
+}

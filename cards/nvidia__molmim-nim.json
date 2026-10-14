@@ -1,0 +1,87 @@
+{
+  "id": "nvidia__molmim-nim",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f27bdd7ef159bc285f8f16ae4073a83c4ff1c049727f71c0a40af9e4b3effbea",
+  "purpose": "Use this skill for MolMIM, NVIDIA's BioNeMo NIM microservice for small-molecule latent-space generation and optimization. Invoke for MolMIM, molecular embeddings, hidden states, latent decoding, sampl",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Use this skill for MolMIM, NVIDIA's BioNeMo NIM microservice for small-molecule latent-space generation and optimization. Invoke for MolMIM, molecular embedding"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1954,
+  "core_bytes": 7818,
+  "sections": [
+    {
+      "name": "Choose Mode",
+      "bytes": 557,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Local Docker",
+      "bytes": 1208,
+      "when": [
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "Hosted Generation Pattern",
+      "bytes": 1380,
+      "when": [
+        "hosted",
+        "generation",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Local Latent Workflow",
+      "bytes": 1413,
+      "when": [
+        "local",
+        "latent",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Save And Validate Output",
+      "bytes": 1477,
+      "when": [
+        "save",
+        "validate",
+        "output"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 730,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-molmim-nim\\SKILL.md",
+  "curated": true
+}

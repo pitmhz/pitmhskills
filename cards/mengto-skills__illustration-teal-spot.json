@@ -1,0 +1,130 @@
+{
+  "id": "mengto-skills__illustration-teal-spot",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "09eb7a3ef5b5055a367ad734d700aede2e3c81ded314bff183b91d6de6758f68",
+  "purpose": "Draws original spot illustrations of one hero object as SVG cards (480x360) in a teal-on-white style. Identifying traits are a single object in a fixed oblique 3/4 view showing top, front and right fa",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Draws original spot illustrations of one hero object as SVG cards (480x360) in a teal-on-white style. Identifying traits are a single object in a fixed oblique "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4591,
+  "core_bytes": 18464,
+  "sections": [
+    {
+      "name": "The look in one sentence",
+      "bytes": 261,
+      "when": [
+        "look",
+        "sentence"
+      ]
+    },
+    {
+      "name": "Palette",
+      "bytes": 1318,
+      "when": [
+        "palette"
+      ]
+    },
+    {
+      "name": "Line and fill",
+      "bytes": 2146,
+      "when": [
+        "line",
+        "fill"
+      ]
+    },
+    {
+      "name": "Characters",
+      "bytes": 1292,
+      "when": [
+        "characters"
+      ]
+    },
+    {
+      "name": "Decor and props",
+      "bytes": 1150,
+      "when": [
+        "decor",
+        "props"
+      ]
+    },
+    {
+      "name": "Composition",
+      "bytes": 1206,
+      "when": [
+        "composition"
+      ]
+    },
+    {
+      "name": "Techniques",
+      "bytes": 2967,
+      "when": [
+        "techniques"
+      ]
+    },
+    {
+      "name": "Failure modes",
+      "bytes": 2309,
+      "when": [
+        "failure",
+        "modes"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 898,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1932,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1206,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "look",
+    "sentence",
+    "palette",
+    "fill",
+    "characters",
+    "decor",
+    "props",
+    "composition",
+    "techniques",
+    "failure",
+    "modes",
+    "examples"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\illustration\\illustration-teal-spot\\SKILL.md"
+}

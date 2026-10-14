@@ -1,0 +1,114 @@
+{
+  "id": "jakubkrehel-skills__break",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "897f82cc491bb29b87d43362f9d85662a82d9b86ce1c7e680af554293c89dead",
+  "purpose": "Renders a component you choose under every scenario that can reach it on a temporary page and stress tests it.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Renders a component you choose under every scenario that can reach it on a temporary page and stress tests it."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Render a component in every scenario -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "stress scenarios throwaway temporary",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1558,
+  "core_bytes": 6230,
+  "sections": [
+    {
+      "name": "1. Scope one component",
+      "bytes": 316,
+      "when": [
+        "scope",
+        "component"
+      ]
+    },
+    {
+      "name": "2. Infer the scenarios from the component",
+      "bytes": 764,
+      "when": [
+        "infer",
+        "scenarios",
+        "component"
+      ]
+    },
+    {
+      "name": "3. Build the harness page",
+      "bytes": 928,
+      "when": [
+        "build",
+        "harness",
+        "page"
+      ]
+    },
+    {
+      "name": "4. Look once",
+      "bytes": 662,
+      "when": [
+        "look",
+        "once"
+      ]
+    },
+    {
+      "name": "5. Report what broke and stop",
+      "bytes": 736,
+      "when": [
+        "report",
+        "broke",
+        "stop"
+      ]
+    },
+    {
+      "name": "6. Leave the page up, delete it on request",
+      "bytes": 310,
+      "when": [
+        "leave",
+        "page",
+        "delete",
+        "request"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1366,
+      "when": [
+        "before",
+        "finish"
+      ]
+    }
+  ],
+  "keywords": [
+    "break",
+    "scope",
+    "infer",
+    "scenarios",
+    "build",
+    "harness",
+    "look",
+    "once",
+    "report",
+    "broke",
+    "stop",
+    "leave",
+    "delete",
+    "request"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\break\\SKILL.md"
+}

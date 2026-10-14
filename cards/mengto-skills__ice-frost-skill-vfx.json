@@ -1,0 +1,114 @@
+{
+  "id": "mengto-skills__ice-frost-skill-vfx",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b641e52191a303414121264de7d1bada7f0b0b49c0f8780117ff02aa1c03af38",
+  "purpose": "Build the effects of an ice and frost skill as one visual language in Three.js. Frost that grows like real frost, not a painted fern: a dendritic tree grown on the CPU from a seed point, stems racing ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Build the effects of an ice and frost skill as one visual language in Three.js. Frost that grows like real frost, not a painted fern: a dendritic tree grown on "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 7860,
+  "core_bytes": 31735,
+  "sections": [
+    {
+      "name": "The mechanism",
+      "bytes": 2305,
+      "when": [
+        "mechanism"
+      ]
+    },
+    {
+      "name": "Reuse the working effect",
+      "bytes": 5484,
+      "when": [
+        "reuse",
+        "working",
+        "effect"
+      ]
+    },
+    {
+      "name": "The layers, with the numbers that shipped",
+      "bytes": 11382,
+      "when": [
+        "layers",
+        "numbers",
+        "shipped"
+      ]
+    },
+    {
+      "name": "Cut a brief into beats",
+      "bytes": 1625,
+      "when": [
+        "brief",
+        "beats"
+      ]
+    },
+    {
+      "name": "Rules, each with the failure it prevents",
+      "bytes": 4653,
+      "when": [
+        "rules",
+        "each",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Cost",
+      "bytes": 960,
+      "when": [
+        "cost"
+      ]
+    },
+    {
+      "name": "Lifecycle and accessibility",
+      "bytes": 815,
+      "when": [
+        "lifecycle",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1163,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "mechanism",
+    "reuse",
+    "working",
+    "effect",
+    "layers",
+    "numbers",
+    "shipped",
+    "brief",
+    "beats",
+    "rules",
+    "each",
+    "prevents"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-combat\\ice-frost-skill-vfx\\SKILL.md"
+}

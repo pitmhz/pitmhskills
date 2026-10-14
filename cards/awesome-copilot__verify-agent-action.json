@@ -1,0 +1,207 @@
+{
+  "id": "awesome-copilot__verify-agent-action",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "13138bebda37fea1fdc235db035a3b43b12545311c20962fe28188b2b8514bb2",
+  "purpose": "Review a proposed AI-agent action or human-approval packet before execution. Use when an agent wants to run a consequential tool, command, deployment, message, purchase, credential operation, or data ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Review a proposed AI-agent action or human-approval packet before execution. Use when an agent wants to run a consequential tool, command, deployment, message, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2054,
+  "core_bytes": 8218,
+  "sections": [
+    {
+      "name": "Preserve the safety boundary",
+      "bytes": 651,
+      "when": [
+        "preserve",
+        "safety",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Collect the review packet",
+      "bytes": 765,
+      "when": [
+        "collect",
+        "review",
+        "packet"
+      ]
+    },
+    {
+      "name": "Build the exact action identity",
+      "bytes": 931,
+      "when": [
+        "build",
+        "exact",
+        "action",
+        "identity"
+      ]
+    },
+    {
+      "name": "Run the six controls",
+      "bytes": 2891,
+      "when": [
+        "controls"
+      ]
+    },
+    {
+      "name": "1. Recompute the assessment",
+      "bytes": 403,
+      "when": [
+        "recompute",
+        "assessment"
+      ]
+    },
+    {
+      "name": "2. Match the exact approved action",
+      "bytes": 329,
+      "when": [
+        "match",
+        "exact",
+        "approved",
+        "action"
+      ]
+    },
+    {
+      "name": "3. Reject replay and identity ambiguity",
+      "bytes": 426,
+      "when": [
+        "reject",
+        "replay",
+        "identity",
+        "ambiguity"
+      ]
+    },
+    {
+      "name": "4. Test reviewer independence",
+      "bytes": 564,
+      "when": [
+        "test",
+        "reviewer",
+        "independence"
+      ]
+    },
+    {
+      "name": "5. Preserve evidence and contradiction",
+      "bytes": 654,
+      "when": [
+        "preserve",
+        "evidence",
+        "contradiction"
+      ]
+    },
+    {
+      "name": "6. Verify lifecycle and monitoring",
+      "bytes": 410,
+      "when": [
+        "verify",
+        "lifecycle",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Challenge convenient conclusions",
+      "bytes": 591,
+      "when": [
+        "challenge",
+        "convenient",
+        "conclusions"
+      ]
+    },
+    {
+      "name": "Determine the review result",
+      "bytes": 617,
+      "when": [
+        "determine",
+        "review",
+        "result"
+      ]
+    },
+    {
+      "name": "Report in this format",
+      "bytes": 61,
+      "when": [
+        "report",
+        "format"
+      ]
+    },
+    {
+      "name": "Result",
+      "bytes": 194,
+      "when": [
+        "result"
+      ]
+    },
+    {
+      "name": "Action",
+      "bytes": 101,
+      "when": [
+        "action"
+      ]
+    },
+    {
+      "name": "Control matrix",
+      "bytes": 361,
+      "when": [
+        "control",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Supporting evidence",
+      "bytes": 30,
+      "when": [
+        "supporting",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Refuting evidence and defeaters",
+      "bytes": 42,
+      "when": [
+        "refuting",
+        "evidence",
+        "defeaters"
+      ]
+    },
+    {
+      "name": "Required next action",
+      "bytes": 90,
+      "when": [
+        "required",
+        "next",
+        "action"
+      ]
+    },
+    {
+      "name": "Boundaries",
+      "bytes": 157,
+      "when": [
+        "boundaries"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\verify-agent-action\\SKILL.md"
+}

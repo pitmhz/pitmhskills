@@ -1,0 +1,158 @@
+{
+  "id": "nvidia__tao-generate-video-reasoning-annotations",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "90fe7b566643173e0f34a119e93cc0b65383e11a87890f19d9cab0b2f861287e",
+  "purpose": "Multi-step video annotation pipeline that turns raw videos into Chain-of-Thought training data — multi-level captions, structured descriptions, and QA pairs (MCQ, binary, open-ended) with reasoning tr",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Multi-step video annotation pipeline that turns raw videos into Chain-of-Thought training data — multi-level captions, structured descriptions, and QA pairs (MC"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2838,
+  "core_bytes": 11424,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 262,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Pipeline architecture",
+      "bytes": 912,
+      "when": [
+        "pipeline",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Initial consultation",
+      "bytes": 3506,
+      "when": [
+        "initial",
+        "consultation"
+      ]
+    },
+    {
+      "name": "1. Videos",
+      "bytes": 178,
+      "when": [
+        "videos"
+      ]
+    },
+    {
+      "name": "2. Domain — drives prompt selection",
+      "bytes": 1421,
+      "when": [
+        "domain",
+        "drives",
+        "prompt",
+        "selection"
+      ]
+    },
+    {
+      "name": "3. Anomaly / normal / mixed",
+      "bytes": 262,
+      "when": [
+        "anomaly",
+        "normal",
+        "mixed"
+      ]
+    },
+    {
+      "name": "4. VLM / LLM endpoint — confirm access **before** running",
+      "bytes": 1052,
+      "when": [
+        "endpoint",
+        "confirm",
+        "access",
+        "before",
+        "running"
+      ]
+    },
+    {
+      "name": "5. Pilot vs full run",
+      "bytes": 408,
+      "when": [
+        "pilot",
+        "full"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 769,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Pilot workflow",
+      "bytes": 1018,
+      "when": [
+        "pilot",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Configuration summary",
+      "bytes": 868,
+      "when": [
+        "configuration",
+        "summary"
+      ]
+    },
+    {
+      "name": "Prompts",
+      "bytes": 678,
+      "when": [
+        "prompts"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 400,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 1177,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 313,
+      "when": [
+        "prerequisites"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-generate-video-reasoning-annotations\\SKILL.md",
+  "curated": true
+}

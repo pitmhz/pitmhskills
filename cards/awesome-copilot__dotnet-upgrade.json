@@ -1,0 +1,34 @@
+{
+  "id": "awesome-copilot__dotnet-upgrade",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9e3e789579cc333971b04deaa3627e4e6fadfa2ad237f60a63730c34e8554587",
+  "purpose": "Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1768,
+  "core_bytes": 7074,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dotnet-upgrade\\SKILL.md"
+}

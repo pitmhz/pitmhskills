@@ -1,0 +1,222 @@
+{
+  "id": "emilkowalski__mobile-native",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "0952ba031c849ba11dcefa4755f178457b9bca6a794e9bb6fc725aa1c1cc0dea",
+  "purpose": "Make a web app feel native on a phone — the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. Covers sticky hover states, tap highlight flashes, ",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Make a web app feel native on a phone — the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. Covers stic"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Make a web app feel native on phones -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "phone pwa touch viewport meta",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4275,
+  "core_bytes": 17149,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 778,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 994,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 1017,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "The Symptom Table",
+      "bytes": 971,
+      "when": [
+        "symptom",
+        "table"
+      ]
+    },
+    {
+      "name": "The Fixes",
+      "bytes": 9854,
+      "when": [
+        "fixes"
+      ]
+    },
+    {
+      "name": "1. Hover state stuck after tap",
+      "bytes": 905,
+      "when": [
+        "hover",
+        "state",
+        "stuck",
+        "after"
+      ]
+    },
+    {
+      "name": "2. Gray/blue flash on tap",
+      "bytes": 484,
+      "when": [
+        "gray",
+        "blue",
+        "flash"
+      ]
+    },
+    {
+      "name": "3. Layout has the wrong height",
+      "bytes": 925,
+      "when": [
+        "layout",
+        "wrong",
+        "height"
+      ]
+    },
+    {
+      "name": "4. Page zooms into the input",
+      "bytes": 939,
+      "when": [
+        "page",
+        "zooms",
+        "input"
+      ]
+    },
+    {
+      "name": "5. Tap feels laggy",
+      "bytes": 1132,
+      "when": [
+        "feels",
+        "laggy"
+      ]
+    },
+    {
+      "name": "6. Pull-to-refresh hijacks scroll",
+      "bytes": 881,
+      "when": [
+        "pull",
+        "refresh",
+        "hijacks",
+        "scroll"
+      ]
+    },
+    {
+      "name": "7. Content stops at the notch",
+      "bytes": 1036,
+      "when": [
+        "content",
+        "stops",
+        "notch"
+      ]
+    },
+    {
+      "name": "8. Long-press selects button text",
+      "bytes": 642,
+      "when": [
+        "long",
+        "press",
+        "selects",
+        "button",
+        "text"
+      ]
+    },
+    {
+      "name": "9. Carousel scrolls vertically",
+      "bytes": 1201,
+      "when": [
+        "carousel",
+        "scrolls",
+        "vertically"
+      ]
+    },
+    {
+      "name": "10. Status bar color doesn't match",
+      "bytes": 895,
+      "when": [
+        "status",
+        "color",
+        "doesn",
+        "match"
+      ]
+    },
+    {
+      "name": "11. Right in Chrome, wrong on phone",
+      "bytes": 798,
+      "when": [
+        "right",
+        "chrome",
+        "wrong",
+        "phone"
+      ]
+    },
+    {
+      "name": "Baseline",
+      "bytes": 1151,
+      "when": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Never Ship",
+      "bytes": 969,
+      "when": [
+        "ship"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 386,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 211,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "keywords": [
+    "feeling",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "symptom",
+    "table",
+    "state",
+    "stuck",
+    "after"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\mobile-native\\SKILL.md"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "awesome-copilot__structured-autonomy-plan",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5272f19e7c68639078a0baa61585f6be413853cdfa8e8a71465c5bcd5ffb8fdc",
+  "purpose": "Structured Autonomy Planning Prompt",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Structured Autonomy Planning Prompt"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 759,
+  "core_bytes": 3034,
+  "sections": [
+    {
+      "name": "Step 1: Research and Gather Context",
+      "bytes": 337,
+      "when": [
+        "step",
+        "research",
+        "gather",
+        "context"
+      ]
+    },
+    {
+      "name": "Step 2: Determine Commits",
+      "bytes": 276,
+      "when": [
+        "step",
+        "determine",
+        "commits"
+      ]
+    },
+    {
+      "name": "Step 3: Plan Generation",
+      "bytes": 592,
+      "when": [
+        "step",
+        "plan",
+        "generation"
+      ]
+    },
+    {
+      "name": "Goal",
+      "bytes": 67,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Implementation Steps",
+      "bytes": 1189,
+      "when": [
+        "implementation",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: {Step Name} [SIMPLE features have only this step]",
+      "bytes": 243,
+      "when": [
+        "step",
+        "name",
+        "simple",
+        "features"
+      ]
+    },
+    {
+      "name": "Step 2: {Step Name} [COMPLEX features continue]",
+      "bytes": 140,
+      "when": [
+        "step",
+        "name",
+        "complex",
+        "features",
+        "continue"
+      ]
+    },
+    {
+      "name": "Step 3: {Step Name}",
+      "bytes": 781,
+      "when": [
+        "step",
+        "name"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\structured-autonomy-plan\\SKILL.md"
+}

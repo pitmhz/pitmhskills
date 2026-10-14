@@ -1,0 +1,126 @@
+{
+  "id": "awesome-copilot__remember",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5048a392120b00f8ef0db0645d5031fd97b68efda98a2159882c8809aed21180",
+  "purpose": "Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `global` (default), `user`, `workspace`, or",
+  "domain": "memory",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `gl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1632,
+  "core_bytes": 6530,
+  "sections": [
+    {
+      "name": "Scopes",
+      "bytes": 487,
+      "when": [
+        "scopes"
+      ]
+    },
+    {
+      "name": "Your Mission",
+      "bytes": 816,
+      "when": [
+        "mission"
+      ]
+    },
+    {
+      "name": "Syntax",
+      "bytes": 758,
+      "when": [
+        "syntax"
+      ]
+    },
+    {
+      "name": "Memory File Structure",
+      "bytes": 716,
+      "when": [
+        "memory",
+        "file",
+        "structure"
+      ]
+    },
+    {
+      "name": "Description Frontmatter",
+      "bytes": 144,
+      "when": [
+        "description",
+        "frontmatter"
+      ]
+    },
+    {
+      "name": "ApplyTo Frontmatter",
+      "bytes": 273,
+      "when": [
+        "applyto",
+        "frontmatter"
+      ]
+    },
+    {
+      "name": "Main Headline",
+      "bytes": 72,
+      "when": [
+        "main",
+        "headline"
+      ]
+    },
+    {
+      "name": "Tag Line",
+      "bytes": 135,
+      "when": [
+        "line"
+      ]
+    },
+    {
+      "name": "Learnings",
+      "bytes": 66,
+      "when": [
+        "learnings"
+      ]
+    },
+    {
+      "name": "Process",
+      "bytes": 2529,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Quality Guidelines",
+      "bytes": 374,
+      "when": [
+        "quality",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Update Triggers",
+      "bytes": 322,
+      "when": [
+        "update",
+        "triggers"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\remember\\SKILL.md"
+}

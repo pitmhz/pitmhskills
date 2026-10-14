@@ -1,0 +1,34 @@
+{
+  "id": "awesome-copilot__pytest-coverage",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3778add8809c5aac585ab764090f46e7cfdb009ae3fc9fb308710538627970f9",
+  "purpose": "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 282,
+  "core_bytes": 1126,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\pytest-coverage\\SKILL.md"
+}

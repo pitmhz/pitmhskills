@@ -1,0 +1,117 @@
+{
+  "id": "nvidia__tao-finetune-cosmos-embed",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0fbe110a7a04db077abe79cf5970f6f57ca039eb748ecdd11612c130b8ca4840",
+  "purpose": "Cosmos-Embed1 video-text embedding for text-to-video retrieval, video-to-video search, semantic deduplication, and fine-tuning. Use when the user asks to \"fine-tune Cosmos-Embed1\", \"run cosmos-embed i",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Cosmos-Embed1 video-text embedding for text-to-video retrieval, video-to-video search, semantic deduplication, and fine-tuning. Use when the user asks to \"fine-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3528,
+  "core_bytes": 14345,
+  "sections": [
+    {
+      "name": "Train Action Policy",
+      "bytes": 586,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 3930,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Smoke Overrides",
+      "bytes": 1472,
+      "when": [
+        "smoke",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Data Format",
+      "bytes": 692,
+      "when": [
+        "data",
+        "format"
+      ]
+    },
+    {
+      "name": "Model Weights",
+      "bytes": 1613,
+      "when": [
+        "model",
+        "weights"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 2253,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "LoRA and AutoML Notes",
+      "bytes": 528,
+      "when": [
+        "lora",
+        "automl",
+        "notes"
+      ]
+    },
+    {
+      "name": "S3 Staging",
+      "bytes": 597,
+      "when": [
+        "staging"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 511,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Known Pitfalls",
+      "bytes": 1314,
+      "when": [
+        "known",
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-finetune-cosmos-embed\\SKILL.md",
+  "curated": true
+}

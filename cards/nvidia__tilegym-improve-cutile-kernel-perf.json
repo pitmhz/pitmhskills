@@ -1,0 +1,114 @@
+{
+  "id": "nvidia__tilegym-improve-cutile-kernel-perf",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "abe812c9c83ca64280520a48c3c7363e1a9b3d6b67060699a63acee5fd8cda9e",
+  "purpose": "Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR comparison, and targeted tuning. Covers tile sizes, occupancy, autotune configs, TMA, latency hints",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR comparison, and targeted tuning. Covers tile sizes, occupan"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1986,
+  "core_bytes": 7948,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 237,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 1910,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Experimentation",
+      "bytes": 2993,
+      "when": [
+        "experimentation"
+      ]
+    },
+    {
+      "name": "The goal",
+      "bytes": 259,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "What you can change",
+      "bytes": 459,
+      "when": [
+        "change"
+      ]
+    },
+    {
+      "name": "What you can NOT change",
+      "bytes": 195,
+      "when": [
+        "change"
+      ]
+    },
+    {
+      "name": "What to expect from experiment outputs",
+      "bytes": 764,
+      "when": [
+        "expect",
+        "experiment",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Track experiment progress",
+      "bytes": 902,
+      "when": [
+        "track",
+        "experiment",
+        "progress"
+      ]
+    },
+    {
+      "name": "The baseline",
+      "bytes": 196,
+      "when": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "The experiment loop",
+      "bytes": 1738,
+      "when": [
+        "experiment",
+        "loop"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- pytest"
+  ],
+  "skill_path": "skills/nvidia/skills/tilegym-improve-cutile-kernel-perf/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mengto-skills__fire-smoke-skill-vfx",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "e286aa72239fffcea6891f5cbfa40aa6e10c298993b4cc93db0c619f7820f804",
+  "purpose": "Build the effects of a fire skill as one visual language in Three.js. Flames that read as fire, not as orange fog or cones: ray-marched flame volumes whose turbulence rises with buoyancy (slow at the ",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build the effects of a fire skill as one visual language in Three.js. Flames that read as fire, not as orange fog or cones: ray-marched flame volumes whose turb"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 7588,
+  "core_bytes": 30686,
+  "sections": [
+    {
+      "name": "The mechanism",
+      "bytes": 1798,
+      "when": [
+        "mechanism"
+      ]
+    },
+    {
+      "name": "Reuse the working effect",
+      "bytes": 5076,
+      "when": [
+        "reuse",
+        "working",
+        "effect"
+      ]
+    },
+    {
+      "name": "The layers, with the numbers that shipped",
+      "bytes": 11073,
+      "when": [
+        "layers",
+        "numbers",
+        "shipped"
+      ]
+    },
+    {
+      "name": "Cut a brief into beats",
+      "bytes": 1934,
+      "when": [
+        "brief",
+        "beats"
+      ]
+    },
+    {
+      "name": "Rules, each with the failure it prevents",
+      "bytes": 4707,
+      "when": [
+        "rules",
+        "each",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Cost",
+      "bytes": 879,
+      "when": [
+        "cost"
+      ]
+    },
+    {
+      "name": "Lifecycle and accessibility",
+      "bytes": 735,
+      "when": [
+        "lifecycle",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1294,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "mechanism",
+    "reuse",
+    "working",
+    "effect",
+    "layers",
+    "numbers",
+    "shipped",
+    "brief",
+    "beats",
+    "rules",
+    "each",
+    "prevents"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-combat\\fire-smoke-skill-vfx\\SKILL.md"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "nvidia__tao-generate-referring-expressions",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "09b3d2ff0595e61c1eab212ec22a91b477de602bb1fb08831623a25b8d0d040a",
+  "purpose": "Four-step image referring-expression pipeline: turns images plus KITTI bounding-box labels into region",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Four-step image referring-expression pipeline: turns images plus KITTI bounding-box labels into region"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2622,
+  "core_bytes": 10559,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 359,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Pipeline Architecture",
+      "bytes": 1076,
+      "when": [
+        "pipeline",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 4572,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Initial setup",
+      "bytes": 3037,
+      "when": [
+        "initial",
+        "setup"
+      ]
+    },
+    {
+      "name": "Running the pipeline",
+      "bytes": 773,
+      "when": [
+        "running",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "Recommended pilot workflow",
+      "bytes": 743,
+      "when": [
+        "recommended",
+        "pilot",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 1037,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 582,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 842,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 351,
+      "when": [
+        "prerequisites"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-generate-referring-expressions/SKILL.md",
+  "curated": true
+}

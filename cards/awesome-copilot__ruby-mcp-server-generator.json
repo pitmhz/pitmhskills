@@ -1,0 +1,250 @@
+{
+  "id": "awesome-copilot__ruby-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "32a5f6c9be171bfb0fc8bd4a38d905dafe681fb6f0aa1edce3f4b8c7675e24be",
+  "purpose": "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3631,
+  "core_bytes": 14824,
+  "sections": [
+    {
+      "name": "Project Generation",
+      "bytes": 776,
+      "when": [
+        "project",
+        "generation"
+      ]
+    },
+    {
+      "name": "Gemfile Template",
+      "bytes": 199,
+      "when": [
+        "gemfile",
+        "template"
+      ]
+    },
+    {
+      "name": "Rakefile Template",
+      "bytes": 264,
+      "when": [
+        "rakefile",
+        "template"
+      ]
+    },
+    {
+      "name": "lib/my_mcp_server.rb Template",
+      "bytes": 400,
+      "when": [
+        "server",
+        "template"
+      ]
+    },
+    {
+      "name": "lib/my_mcp_server/server.rb Template",
+      "bytes": 1023,
+      "when": [
+        "server",
+        "template"
+      ]
+    },
+    {
+      "name": "lib/my_mcp_server/tools/greet_tool.rb Template",
+      "bytes": 1150,
+      "when": [
+        "server",
+        "tools",
+        "greet",
+        "tool",
+        "template"
+      ]
+    },
+    {
+      "name": "lib/my_mcp_server/tools/calculate_tool.rb Template",
+      "bytes": 1942,
+      "when": [
+        "server",
+        "tools",
+        "calculate",
+        "tool",
+        "template"
+      ]
+    },
+    {
+      "name": "lib/my_mcp_server/prompts/code_review_prompt.rb Template",
+      "bytes": 1672,
+      "when": [
+        "server",
+        "prompts",
+        "code",
+        "review",
+        "prompt",
+        "template"
+      ]
+    },
+    {
+      "name": "lib/my_mcp_server/resources/example_resource.rb Template",
+      "bytes": 827,
+      "when": [
+        "server",
+        "resources",
+        "example",
+        "resource",
+        "template"
+      ]
+    },
+    {
+      "name": "bin/mcp-server Template",
+      "bytes": 417,
+      "when": [
+        "server",
+        "template"
+      ]
+    },
+    {
+      "name": "test/test_helper.rb Template",
+      "bytes": 183,
+      "when": [
+        "test",
+        "helper",
+        "template"
+      ]
+    },
+    {
+      "name": "test/tools/greet_tool_test.rb Template",
+      "bytes": 917,
+      "when": [
+        "test",
+        "tools",
+        "greet",
+        "tool",
+        "template"
+      ]
+    },
+    {
+      "name": "test/tools/calculate_tool_test.rb Template",
+      "bytes": 1971,
+      "when": [
+        "test",
+        "tools",
+        "calculate",
+        "tool",
+        "template"
+      ]
+    },
+    {
+      "name": "README.md Template",
+      "bytes": 133,
+      "when": [
+        "readme",
+        "template"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 201,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 38,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 45,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 609,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Stdio Transport",
+      "bytes": 316,
+      "when": [
+        "stdio",
+        "transport"
+      ]
+    },
+    {
+      "name": "Rails Integration",
+      "bytes": 283,
+      "when": [
+        "rails",
+        "integration"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 157,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Integration with Claude Desktop",
+      "bytes": 249,
+      "when": [
+        "integration",
+        "claude",
+        "desktop"
+      ]
+    },
+    {
+      "name": "Project Structure",
+      "bytes": 775,
+      "when": [
+        "project",
+        "structure"
+      ]
+    },
+    {
+      "name": "License",
+      "bytes": 22,
+      "when": [
+        "license"
+      ]
+    },
+    {
+      "name": "Generation Instructions",
+      "bytes": 579,
+      "when": [
+        "generation",
+        "instructions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ruby-mcp-server-generator\\SKILL.md"
+}

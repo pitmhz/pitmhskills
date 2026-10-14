@@ -1,0 +1,279 @@
+{
+  "id": "gsap__gsap-plugins",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "a755f587a107ae5c9f4f35702f6e0d870774c6930e28a082c4e9ebb1d2c7bf06",
+  "purpose": "Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomW",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physic"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5478,
+  "core_bytes": 22012,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 513,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Licensing & Install (important)",
+      "bytes": 747,
+      "when": [
+        "licensing",
+        "install",
+        "important"
+      ]
+    },
+    {
+      "name": "Registering Plugins",
+      "bytes": 674,
+      "when": [
+        "registering",
+        "plugins"
+      ]
+    },
+    {
+      "name": "Scroll",
+      "bytes": 1264,
+      "when": [
+        "scroll"
+      ]
+    },
+    {
+      "name": "ScrollToPlugin",
+      "bytes": 756,
+      "when": [
+        "scrolltoplugin"
+      ]
+    },
+    {
+      "name": "ScrollSmoother",
+      "bytes": 495,
+      "when": [
+        "scrollsmoother"
+      ]
+    },
+    {
+      "name": "DOM / UI",
+      "bytes": 3423,
+      "when": []
+    },
+    {
+      "name": "Flip",
+      "bytes": 1059,
+      "when": [
+        "flip"
+      ]
+    },
+    {
+      "name": "Draggable",
+      "bytes": 937,
+      "when": [
+        "draggable"
+      ]
+    },
+    {
+      "name": "Inertia (InertiaPlugin)",
+      "bytes": 626,
+      "when": [
+        "inertia",
+        "inertiaplugin"
+      ]
+    },
+    {
+      "name": "Observer",
+      "bytes": 786,
+      "when": [
+        "observer"
+      ]
+    },
+    {
+      "name": "Text",
+      "bytes": 5141,
+      "when": [
+        "text"
+      ]
+    },
+    {
+      "name": "SplitText",
+      "bytes": 4825,
+      "when": [
+        "splittext"
+      ]
+    },
+    {
+      "name": "ScrambleText",
+      "bytes": 305,
+      "when": [
+        "scrambletext"
+      ]
+    },
+    {
+      "name": "SVG",
+      "bytes": 7262,
+      "when": []
+    },
+    {
+      "name": "DrawSVG (DrawSVGPlugin)",
+      "bytes": 1757,
+      "when": [
+        "drawsvg",
+        "drawsvgplugin"
+      ]
+    },
+    {
+      "name": "MorphSVG (MorphSVGPlugin)",
+      "bytes": 4403,
+      "when": [
+        "morphsvg",
+        "morphsvgplugin"
+      ]
+    },
+    {
+      "name": "MotionPath (MotionPathPlugin)",
+      "bytes": 727,
+      "when": [
+        "motionpath",
+        "motionpathplugin"
+      ]
+    },
+    {
+      "name": "MotionPathHelper",
+      "bytes": 365,
+      "when": [
+        "motionpathhelper"
+      ]
+    },
+    {
+      "name": "Easing",
+      "bytes": 653,
+      "when": [
+        "easing"
+      ]
+    },
+    {
+      "name": "CustomEase",
+      "bytes": 338,
+      "when": [
+        "customease"
+      ]
+    },
+    {
+      "name": "EasePack",
+      "bytes": 125,
+      "when": [
+        "easepack"
+      ]
+    },
+    {
+      "name": "CustomWiggle",
+      "bytes": 106,
+      "when": [
+        "customwiggle"
+      ]
+    },
+    {
+      "name": "CustomBounce",
+      "bytes": 71,
+      "when": [
+        "custombounce"
+      ]
+    },
+    {
+      "name": "Physics",
+      "bytes": 674,
+      "when": [
+        "physics"
+      ]
+    },
+    {
+      "name": "Physics2D (Physics2DPlugin)",
+      "bytes": 325,
+      "when": [
+        "physics2d",
+        "physics2dplugin"
+      ]
+    },
+    {
+      "name": "PhysicsProps (PhysicsPropsPlugin)",
+      "bytes": 335,
+      "when": [
+        "physicsprops",
+        "physicspropsplugin"
+      ]
+    },
+    {
+      "name": "Development",
+      "bytes": 299,
+      "when": [
+        "development"
+      ]
+    },
+    {
+      "name": "GSDevTools",
+      "bytes": 281,
+      "when": [
+        "gsdevtools"
+      ]
+    },
+    {
+      "name": "Other",
+      "bytes": 325,
+      "when": []
+    },
+    {
+      "name": "Pixi (PixiPlugin)",
+      "bytes": 313,
+      "when": [
+        "pixi",
+        "pixiplugin"
+      ]
+    },
+    {
+      "name": "Best practices",
+      "bytes": 374,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 230,
+      "when": []
+    },
+    {
+      "name": "Learn More",
+      "bytes": 53,
+      "when": [
+        "learn"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-plugins\\SKILL.md",
+  "curated": true
+}

@@ -30,7 +30,41 @@
   "conflicts_with": [],
   "body_tokens": 915,
   "core_bytes": 3667,
-  "sections": [],
+  "sections": [
+    {
+      "name": "What a good test is",
+      "bytes": 437,
+      "when": [
+        "good",
+        "test"
+      ]
+    },
+    {
+      "name": "Seams: where tests go",
+      "bytes": 1026,
+      "when": [
+        "seams",
+        "where",
+        "tests"
+      ]
+    },
+    {
+      "name": "Anti-patterns",
+      "bytes": 1107,
+      "when": [
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Rules of the loop",
+      "bytes": 408,
+      "when": [
+        "rules",
+        "loop"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/engineering/tdd/SKILL.md"
 }

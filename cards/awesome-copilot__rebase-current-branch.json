@@ -1,0 +1,57 @@
+{
+  "id": "awesome-copilot__rebase-current-branch",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "17e189c01c6f8d84856b456a849a5a19c639b03d87afe2e37ba24d4f85f2b010",
+  "purpose": "Rebase the currently checked out feature branch onto the latest upstream default branch. Use when asked to update a branch with main or master, rebase the current branch onto the default branch, or sy",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Rebase the currently checked out feature branch onto the latest upstream default branch. Use when asked to update a branch with main or master, rebase the curre"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 929,
+  "core_bytes": 3714,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 2318,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Quick Path",
+      "bytes": 347,
+      "when": [
+        "quick",
+        "path"
+      ]
+    },
+    {
+      "name": "Safety Rules",
+      "bytes": 400,
+      "when": [
+        "safety",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\rebase-current-branch\\SKILL.md"
+}

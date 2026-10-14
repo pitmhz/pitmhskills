@@ -1,0 +1,145 @@
+{
+  "id": "nvidia__tao-train-grounding-dino",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "993b7d950231561f1113e75dfaeefaff41137537b87d4380256b52d10a47c418",
+  "purpose": "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3944,
+  "core_bytes": 15779,
+  "sections": [
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 833,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 4142,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 1441,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 2270,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 122,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 1378,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 537,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Export / TRT Defaults",
+      "bytes": 754,
+      "when": [
+        "export",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 237,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 1816,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 3083,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 89,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-grounding-dino/SKILL.md",
+  "curated": true
+}

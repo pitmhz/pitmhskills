@@ -1,0 +1,221 @@
+{
+  "id": "awesome-copilot__microsoft-skill-creator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2b1e9f91f7088d8ac7f774f933adf336e8fb47a2e0926d8373884c5e486c74c6",
+  "purpose": "Create agent skills for Microsoft technologies using Learn MCP tools. Use when users want to create a skill that teaches agents about any Microsoft technology, library, framework, or service (Azure, .",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create agent skills for Microsoft technologies using Learn MCP tools. Use when users want to create a skill that teaches agents about any Microsoft technology, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2100,
+  "core_bytes": 8531,
+  "sections": [
+    {
+      "name": "About Skills",
+      "bytes": 859,
+      "when": [
+        "skills"
+      ]
+    },
+    {
+      "name": "Skill Structure",
+      "bytes": 338,
+      "when": [
+        "skill",
+        "structure"
+      ]
+    },
+    {
+      "name": "Key Principles",
+      "bytes": 313,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "Learn MCP Tools",
+      "bytes": 1114,
+      "when": [
+        "learn",
+        "tools"
+      ]
+    },
+    {
+      "name": "CLI Alternative",
+      "bytes": 767,
+      "when": [
+        "alternative"
+      ]
+    },
+    {
+      "name": "Creation Process",
+      "bytes": 2814,
+      "when": [
+        "creation",
+        "process"
+      ]
+    },
+    {
+      "name": "Step 1: Investigate the Topic",
+      "bytes": 937,
+      "when": [
+        "step",
+        "investigate",
+        "topic"
+      ]
+    },
+    {
+      "name": "Step 2: Clarify with User",
+      "bytes": 249,
+      "when": [
+        "step",
+        "clarify",
+        "user"
+      ]
+    },
+    {
+      "name": "Step 3: Generate the Skill",
+      "bytes": 695,
+      "when": [
+        "step",
+        "generate",
+        "skill"
+      ]
+    },
+    {
+      "name": "Step 4: Balance Local vs Dynamic Content",
+      "bytes": 725,
+      "when": [
+        "step",
+        "balance",
+        "local",
+        "dynamic",
+        "content"
+      ]
+    },
+    {
+      "name": "Step 5: Validate",
+      "bytes": 187,
+      "when": [
+        "step",
+        "validate"
+      ]
+    },
+    {
+      "name": "Common Investigation Patterns",
+      "bytes": 824,
+      "when": [
+        "common",
+        "investigation",
+        "patterns"
+      ]
+    },
+    {
+      "name": "For SDKs/Libraries",
+      "bytes": 273,
+      "when": [
+        "sdks",
+        "libraries"
+      ]
+    },
+    {
+      "name": "For Azure Services",
+      "bytes": 269,
+      "when": [
+        "azure",
+        "services"
+      ]
+    },
+    {
+      "name": "For Frameworks/Platforms",
+      "bytes": 248,
+      "when": [
+        "frameworks",
+        "platforms"
+      ]
+    },
+    {
+      "name": "Example: Creating a \"Semantic Kernel\" Skill",
+      "bytes": 935,
+      "when": [
+        "example",
+        "creating",
+        "semantic",
+        "kernel",
+        "skill"
+      ]
+    },
+    {
+      "name": "Investigation",
+      "bytes": 304,
+      "when": [
+        "investigation"
+      ]
+    },
+    {
+      "name": "Generated Skill",
+      "bytes": 263,
+      "when": [
+        "generated",
+        "skill"
+      ]
+    },
+    {
+      "name": "Generated SKILL.md",
+      "bytes": 320,
+      "when": [
+        "generated",
+        "skill"
+      ]
+    },
+    {
+      "name": "Key Concepts",
+      "bytes": 257,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 101,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Learn More",
+      "bytes": 358,
+      "when": [
+        "learn"
+      ]
+    },
+    {
+      "name": "CLI Alternative",
+      "bytes": 513,
+      "when": [
+        "alternative"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\microsoft-skill-creator\\SKILL.md"
+}

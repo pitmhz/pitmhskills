@@ -1,0 +1,190 @@
+{
+  "id": "nvidia__cuopt-multi-objective-exploration",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "71e5cbb1205a94ba7a3381bce6658524423a72bad3e5956f31578b1192a63351",
+  "purpose": "Trace, complete, and interpret the Pareto frontier across competing objectives using repeated single-objective cuOpt solves (weighted-sum and ε-constraint).",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Trace, complete, and interpret the Pareto frontier across competing objectives using repeated single-objective cuOpt solves (weighted-sum and ε-constraint)."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3911,
+  "core_bytes": 15807,
+  "sections": [
+    {
+      "name": "When this applies",
+      "bytes": 527,
+      "when": [
+        "applies"
+      ]
+    },
+    {
+      "name": "Core idea — one solve is one point on a curve",
+      "bytes": 1517,
+      "when": [
+        "core",
+        "idea",
+        "solve",
+        "point",
+        "curve"
+      ]
+    },
+    {
+      "name": "Step 1 — define the objectives",
+      "bytes": 431,
+      "when": [
+        "step",
+        "define",
+        "objectives"
+      ]
+    },
+    {
+      "name": "Step 2 — build a payoff table (anchor each objective)",
+      "bytes": 990,
+      "when": [
+        "step",
+        "build",
+        "payoff",
+        "table",
+        "anchor",
+        "each",
+        "objective"
+      ]
+    },
+    {
+      "name": "Step 3 — choose a scalarization",
+      "bytes": 3040,
+      "when": [
+        "step",
+        "choose",
+        "scalarization"
+      ]
+    },
+    {
+      "name": "Weighted sum",
+      "bytes": 749,
+      "when": [
+        "weighted"
+      ]
+    },
+    {
+      "name": "ε-constraint (preferred for a complete frontier)",
+      "bytes": 2251,
+      "when": [
+        "constraint",
+        "preferred",
+        "complete",
+        "frontier"
+      ]
+    },
+    {
+      "name": "Step 4 — sweep, collect, and filter",
+      "bytes": 2318,
+      "when": [
+        "step",
+        "sweep",
+        "collect",
+        "filter"
+      ]
+    },
+    {
+      "name": "Step 5 — complete the frontier: measure and fill what the sweep missed",
+      "bytes": 3687,
+      "when": [
+        "step",
+        "complete",
+        "frontier",
+        "measure",
+        "fill",
+        "sweep",
+        "missed"
+      ]
+    },
+    {
+      "name": "Measure the miss",
+      "bytes": 755,
+      "when": [
+        "measure",
+        "miss"
+      ]
+    },
+    {
+      "name": "Fill the largest gaps first",
+      "bytes": 1152,
+      "when": [
+        "fill",
+        "largest",
+        "gaps",
+        "first"
+      ]
+    },
+    {
+      "name": "Warm-start each solve (cheap insurance)",
+      "bytes": 294,
+      "when": [
+        "warm",
+        "start",
+        "each",
+        "solve",
+        "cheap",
+        "insurance"
+      ]
+    },
+    {
+      "name": "Degrade gracefully, never silently",
+      "bytes": 543,
+      "when": [
+        "degrade",
+        "gracefully",
+        "silently"
+      ]
+    },
+    {
+      "name": "Report with provenance",
+      "bytes": 458,
+      "when": [
+        "report",
+        "provenance"
+      ]
+    },
+    {
+      "name": "Step 6 — interpret the frontier",
+      "bytes": 1716,
+      "when": [
+        "step",
+        "interpret",
+        "frontier"
+      ]
+    },
+    {
+      "name": "Interfaces",
+      "bytes": 414,
+      "when": [
+        "interfaces"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/cuopt-multi-objective-exploration/SKILL.md",
+  "curated": true
+}

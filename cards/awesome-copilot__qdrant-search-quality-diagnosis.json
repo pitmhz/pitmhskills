@@ -1,0 +1,75 @@
+{
+  "id": "awesome-copilot__qdrant-search-quality-diagnosis",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "faaed6cd9af51548bfc3a0c77d61bb4b96903cb5c0e17b2f3b722c41d1fb350c",
+  "purpose": "Diagnoses Qdrant search quality issues. Use when someone reports 'results are bad', 'wrong results', 'not relevant results', 'missing matches', 'recall is low', 'approximate search worse than exact', ",
+  "domain": "general",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Diagnoses Qdrant search quality issues. Use when someone reports 'results are bad', 'wrong results', 'not relevant results', 'missing matches', 'recall is low',"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 928,
+  "core_bytes": 3710,
+  "sections": [
+    {
+      "name": "Don't Know What's Wrong Yet",
+      "bytes": 905,
+      "when": [
+        "know",
+        "wrong"
+      ]
+    },
+    {
+      "name": "Approximate Search Worse Than Exact",
+      "bytes": 1157,
+      "when": [
+        "approximate",
+        "search",
+        "worse",
+        "exact"
+      ]
+    },
+    {
+      "name": "Wrong Embedding Model",
+      "bytes": 278,
+      "when": [
+        "wrong",
+        "embedding",
+        "model"
+      ]
+    },
+    {
+      "name": "Unoptimized Search Pipeline",
+      "bytes": 184,
+      "when": [
+        "unoptimized",
+        "search",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 618,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-search-quality\\diagnosis\\SKILL.md"
+}

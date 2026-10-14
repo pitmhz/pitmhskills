@@ -1,0 +1,98 @@
+{
+  "id": "mengto-skills__matterjs",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "73b7c50e54e23284ffa3d7ddafd702a12fcf6dccdfd41b8b244e5558c4311b8c",
+  "purpose": "Use when implementing 2D physics interactions with Matter.js, including Engine/World setup, Render/Runner configuration, adding bodies and constraints, and scroll/interaction-friendly canvas scenes.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when implementing 2D physics interactions with Matter.js, including Engine/World setup, Render/Runner configuration, adding bodies and constraints, and scro"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Matter.js physics interactions -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "matter physics engine world",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 574,
+  "core_bytes": 2293,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 344,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Minimal setup",
+      "bytes": 605,
+      "when": [
+        "minimal",
+        "setup"
+      ]
+    },
+    {
+      "name": "Common patterns",
+      "bytes": 399,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Mouse interaction (optional)",
+      "bytes": 273,
+      "when": [
+        "mouse",
+        "interaction",
+        "optional"
+      ]
+    },
+    {
+      "name": "Cleanup checklist (SPA)",
+      "bytes": 156,
+      "when": [
+        "cleanup",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Questions to ask when specs are missing",
+      "bytes": 254,
+      "when": [
+        "questions",
+        "specs",
+        "missing"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "minimal",
+    "common",
+    "patterns",
+    "mouse",
+    "optional",
+    "cleanup",
+    "checklist",
+    "questions",
+    "specs",
+    "missing"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\matterjs\\SKILL.md"
+}

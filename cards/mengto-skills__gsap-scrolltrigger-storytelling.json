@@ -1,0 +1,106 @@
+{
+  "id": "mengto-skills__gsap-scrolltrigger-storytelling",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "9e560fdb05c67880102c35e26be6c77adcec7db0fa1de0ed07367503a79753ff",
+  "purpose": "Build cinematic sticky product storytelling with GSAP ScrollTrigger, progressive UI reveals, scroll-synced animation, smooth interpolation, and immersive section transitions.",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build cinematic sticky product storytelling with GSAP ScrollTrigger, progressive UI reveals, scroll-synced animation, smooth interpolation, and immersive sectio"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Scroll-driven storytelling sections -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "sticky product reveals",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1021,
+  "core_bytes": 4084,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 193,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 15,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 469,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Experience target",
+      "bytes": 625,
+      "when": [
+        "experience",
+        "target"
+      ]
+    },
+    {
+      "name": "Implementation guidance",
+      "bytes": 810,
+      "when": [
+        "implementation",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Motion patterns",
+      "bytes": 680,
+      "when": [
+        "motion",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Tuning knobs",
+      "bytes": 499,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 508,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "scope",
+    "experience",
+    "target",
+    "implementation",
+    "guidance",
+    "motion",
+    "patterns",
+    "tuning",
+    "knobs",
+    "avoid"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\gsap-scrolltrigger-storytelling\\SKILL.md"
+}

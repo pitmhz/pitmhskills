@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__create-github-issue-feature-from-specification",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8398e075cb4a89daccef2bb003779eeeb199b24b8e319e11571e488fa0da8132",
+  "purpose": "Create GitHub Issue for feature request from specification file using feature_request.yml template.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create GitHub Issue for feature request from specification file using feature_request.yml template."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 228,
+  "core_bytes": 912,
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 254,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 210,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Issue Content",
+      "bytes": 172,
+      "when": [
+        "issue",
+        "content"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-github-issue-feature-from-specification\\SKILL.md"
+}

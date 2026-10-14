@@ -1,0 +1,305 @@
+{
+  "id": "awesome-copilot__arize-dataset",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "29a40d67885277ff82cf623a4d260de3e02c9267bffe7098952f3e9ff8efa7c8",
+  "purpose": "Creates, manages, and queries Arize datasets and examples. Covers dataset CRUD, appending examples, exporting data, and file-based dataset creation using the ax CLI. Use when the user needs test data,",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Creates, manages, and queries Arize datasets and examples. Covers dataset CRUD, appending examples, exporting data, and file-based dataset creation using the ax"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3854,
+  "core_bytes": 15445,
+  "sections": [
+    {
+      "name": "Concepts",
+      "bytes": 566,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 993,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "List Datasets: `ax datasets list`",
+      "bytes": 655,
+      "when": [
+        "list",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 429,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Get Dataset: `ax datasets get`",
+      "bytes": 1076,
+      "when": [
+        "dataset",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 374,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Response fields",
+      "bytes": 415,
+      "when": [
+        "response",
+        "fields"
+      ]
+    },
+    {
+      "name": "Export Dataset: `ax datasets export`",
+      "bytes": 2069,
+      "when": [
+        "export",
+        "dataset",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 1500,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Create Dataset: `ax datasets create`",
+      "bytes": 2001,
+      "when": [
+        "create",
+        "dataset",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 416,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Passing data via stdin",
+      "bytes": 468,
+      "when": [
+        "passing",
+        "data",
+        "stdin"
+      ]
+    },
+    {
+      "name": "Supported file formats",
+      "bytes": 740,
+      "when": [
+        "supported",
+        "file",
+        "formats"
+      ]
+    },
+    {
+      "name": "Append Examples: `ax datasets append`",
+      "bytes": 2306,
+      "when": [
+        "append",
+        "examples",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Inline JSON (agent-friendly)",
+      "bytes": 411,
+      "when": [
+        "inline",
+        "json",
+        "agent",
+        "friendly"
+      ]
+    },
+    {
+      "name": "From a file",
+      "bytes": 168,
+      "when": [
+        "file"
+      ]
+    },
+    {
+      "name": "To a specific version",
+      "bytes": 134,
+      "when": [
+        "specific",
+        "version"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 692,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 782,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Delete Dataset: `ax datasets delete`",
+      "bytes": 628,
+      "when": [
+        "delete",
+        "dataset",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 382,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Workflows",
+      "bytes": 2406,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "Find a dataset by name",
+      "bytes": 438,
+      "when": [
+        "find",
+        "dataset",
+        "name"
+      ]
+    },
+    {
+      "name": "Create a dataset from file for evaluation",
+      "bytes": 426,
+      "when": [
+        "create",
+        "dataset",
+        "file",
+        "evaluation"
+      ]
+    },
+    {
+      "name": "Add examples to an existing dataset",
+      "bytes": 376,
+      "when": [
+        "examples",
+        "existing",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Download dataset for offline analysis",
+      "bytes": 242,
+      "when": [
+        "download",
+        "dataset",
+        "offline",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Export a specific version",
+      "bytes": 221,
+      "when": [
+        "export",
+        "specific",
+        "version"
+      ]
+    },
+    {
+      "name": "Iterate on a dataset",
+      "bytes": 332,
+      "when": [
+        "iterate",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Pipe export to other tools",
+      "bytes": 357,
+      "when": [
+        "pipe",
+        "export",
+        "tools"
+      ]
+    },
+    {
+      "name": "Dataset Example Schema",
+      "bytes": 591,
+      "when": [
+        "dataset",
+        "example",
+        "schema"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 346,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 989,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Save Credentials for Future Use",
+      "bytes": 102,
+      "when": [
+        "save",
+        "credentials",
+        "future"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-dataset\\SKILL.md"
+}

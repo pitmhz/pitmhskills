@@ -1,0 +1,175 @@
+{
+  "id": "nvidia__jetson-quick-start",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ca804ff04ff04cfef44b0baae6a49bce0eedb50d8466449d53a696799466c235",
+  "purpose": "Entry skill for Jetson / IGX BSP customization. Asks one core click-to-select setup questionnaire and passes prefilled answers to downstream setup skills.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Entry skill for Jetson / IGX BSP customization. Asks one core click-to-select setup questionnaire and passes prefilled answers to downstream setup skills."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4808,
+  "core_bytes": 19279,
+  "sections": [
+    {
+      "name": "Modes",
+      "bytes": 1141,
+      "when": [
+        "modes"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 14719,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Print Disclaimer",
+      "bytes": 732,
+      "when": [
+        "print",
+        "disclaimer"
+      ]
+    },
+    {
+      "name": "Disclaimer Acceptance Gate",
+      "bytes": 1035,
+      "when": [
+        "disclaimer",
+        "acceptance",
+        "gate"
+      ]
+    },
+    {
+      "name": "Mandatory Questionnaire Gate",
+      "bytes": 690,
+      "when": [
+        "mandatory",
+        "questionnaire",
+        "gate"
+      ]
+    },
+    {
+      "name": "Survey State",
+      "bytes": 1527,
+      "when": [
+        "survey",
+        "state"
+      ]
+    },
+    {
+      "name": "Print Platform Reference List",
+      "bytes": 616,
+      "when": [
+        "print",
+        "platform",
+        "reference",
+        "list"
+      ]
+    },
+    {
+      "name": "Ask Core Questionnaire",
+      "bytes": 5313,
+      "when": [
+        "core",
+        "questionnaire"
+      ]
+    },
+    {
+      "name": "Build Prefill Bundle",
+      "bytes": 586,
+      "when": [
+        "build",
+        "prefill",
+        "bundle"
+      ]
+    },
+    {
+      "name": "Invoke Downstream Skills",
+      "bytes": 1511,
+      "when": [
+        "invoke",
+        "downstream",
+        "skills"
+      ]
+    },
+    {
+      "name": "Suggest I/O customization next steps",
+      "bytes": 2693,
+      "when": [
+        "suggest",
+        "customization",
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 300,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 432,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 421,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 602,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 512,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 455,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-quick-start\\SKILL.md",
+  "curated": true
+}

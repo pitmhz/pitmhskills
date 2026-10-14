@@ -1,0 +1,175 @@
+{
+  "id": "awesome-copilot__gtm-board-and-investor-communication",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6db3e16149c2c08fc30e452309714e693d0a6210d1183952a6a9b7c8deb27c71",
+  "purpose": "Board meeting preparation, investor updates, and executive communication. Use when preparing board decks, writing investor updates, handling bad news with the board, structuring QBRs, or building boar",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Board meeting preparation, investor updates, and executive communication. Use when preparing board decks, writing investor updates, handling bad news with the b"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4657,
+  "core_bytes": 18769,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 496,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 13897,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. Tell the Story, Then Show the Data",
+      "bytes": 2301,
+      "when": [
+        "tell",
+        "story",
+        "show",
+        "data"
+      ]
+    },
+    {
+      "name": "2. The \"Three Things\" Narrative Model",
+      "bytes": 1285,
+      "when": [
+        "three",
+        "narrative",
+        "model"
+      ]
+    },
+    {
+      "name": "3. Progress Is Directional, Not Absolute",
+      "bytes": 1193,
+      "when": [
+        "progress",
+        "directional",
+        "absolute"
+      ]
+    },
+    {
+      "name": "4. The Four-Tier Metric Hierarchy",
+      "bytes": 2241,
+      "when": [
+        "four",
+        "tier",
+        "metric",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "5. Deliver Bad News Before the Board Asks",
+      "bytes": 2312,
+      "when": [
+        "deliver",
+        "news",
+        "before",
+        "board",
+        "asks"
+      ]
+    },
+    {
+      "name": "6. The Monthly Investor Update",
+      "bytes": 1895,
+      "when": [
+        "monthly",
+        "investor",
+        "update"
+      ]
+    },
+    {
+      "name": "7. Burn Is About Discipline; Revenue Is About Traction",
+      "bytes": 1182,
+      "when": [
+        "burn",
+        "discipline",
+        "revenue",
+        "traction"
+      ]
+    },
+    {
+      "name": "8. Cascading Strategy from Board to Organization",
+      "bytes": 1468,
+      "when": [
+        "cascading",
+        "strategy",
+        "board",
+        "organization"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 941,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Board Meeting vs Investor Update",
+      "bytes": 375,
+      "when": [
+        "board",
+        "meeting",
+        "investor",
+        "update"
+      ]
+    },
+    {
+      "name": "How to Frame a Metric",
+      "bytes": 547,
+      "when": [
+        "frame",
+        "metric"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 1082,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 810,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 791,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-board-and-investor-communication\\SKILL.md"
+}

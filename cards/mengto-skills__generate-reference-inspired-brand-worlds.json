@@ -1,0 +1,143 @@
+{
+  "id": "mengto-skills__generate-reference-inspired-brand-worlds",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "785ccaafa4802ad28cfe110cdadd9c2cd9610191943798806548ad75d2ecee0c",
+  "purpose": "Generate multiple original brand campaign worlds from a supplied visual reference while controlling how close the new work feels without copying protected signature elements. Use when a user provides ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate multiple original brand campaign worlds from a supplied visual reference while controlling how close the new work feels without copying protected signa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1993,
+  "core_bytes": 7990,
+  "sections": [
+    {
+      "name": "Start correctly",
+      "bytes": 651,
+      "when": [
+        "start",
+        "correctly"
+      ]
+    },
+    {
+      "name": "Set the similarity dial",
+      "bytes": 950,
+      "when": [
+        "similarity",
+        "dial"
+      ]
+    },
+    {
+      "name": "Extract visual DNA",
+      "bytes": 984,
+      "when": [
+        "extract",
+        "visual"
+      ]
+    },
+    {
+      "name": "Reusable visual grammar",
+      "bytes": 391,
+      "when": [
+        "reusable",
+        "visual",
+        "grammar"
+      ]
+    },
+    {
+      "name": "Protected signature elements",
+      "bytes": 524,
+      "when": [
+        "protected",
+        "signature",
+        "elements"
+      ]
+    },
+    {
+      "name": "Build a distinct-brand matrix",
+      "bytes": 754,
+      "when": [
+        "build",
+        "distinct",
+        "brand",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Write one prompt per brand",
+      "bytes": 1371,
+      "when": [
+        "write",
+        "prompt",
+        "brand"
+      ]
+    },
+    {
+      "name": "Revise without losing the concept",
+      "bytes": 861,
+      "when": [
+        "revise",
+        "losing",
+        "concept"
+      ]
+    },
+    {
+      "name": "Validate every output",
+      "bytes": 675,
+      "when": [
+        "validate",
+        "output"
+      ]
+    },
+    {
+      "name": "Save and hand off",
+      "bytes": 513,
+      "when": [
+        "save",
+        "hand"
+      ]
+    },
+    {
+      "name": "Worked examples",
+      "bytes": 400,
+      "when": [
+        "worked",
+        "examples"
+      ]
+    }
+  ],
+  "keywords": [
+    "start",
+    "correctly",
+    "similarity",
+    "dial",
+    "extract",
+    "reusable",
+    "grammar",
+    "build",
+    "matrix",
+    "write",
+    "prompt",
+    "revise",
+    "losing"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\generate-reference-inspired-brand-worlds\\SKILL.md"
+}

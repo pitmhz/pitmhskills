@@ -1,0 +1,109 @@
+{
+  "id": "nvidia__rag-perf",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "5d97cabec8154e930b2a0d94ad1a075ad4e6145b3e5e5b2a12c16c0020ef7b32",
+  "purpose": "Performance benchmarking for a deployed NVIDIA RAG Blueprint server: profiling pass + aiperf load test driven by a single YAML config. Not for accuracy / RAGAS scoring (use rag-eval) or for deploying ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Performance benchmarking for a deployed NVIDIA RAG Blueprint server: profiling pass + aiperf load test driven by a single YAML config. Not for accuracy / RAGAS "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4116,
+  "core_bytes": 16525,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 454,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 375,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 996,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2972,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1157,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1348,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2217,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2460,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Source of truth",
+      "bytes": 1363,
+      "when": [
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Agent playbook",
+      "bytes": 1473,
+      "when": [
+        "agent",
+        "playbook"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run --project scripts/rag-perf python -m pytest tests/unit/test_rag_perf/"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\rag-perf\\SKILL.md",
+  "curated": true
+}

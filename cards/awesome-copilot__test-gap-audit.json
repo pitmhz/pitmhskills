@@ -1,0 +1,110 @@
+{
+  "id": "awesome-copilot__test-gap-audit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a7747ac0b60d33ec6a44b9703ae11e8f6bf7aede251f117cc46599d182bfef21",
+  "purpose": "Run a read-only audit for missing, weak, stale, or mis-scoped test coverage. If the user does not name a scope, audit the full repository and identify important code paths, routes, features, services,",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Run a read-only audit for missing, weak, stale, or mis-scoped test coverage. If the user does not name a scope, audit the full repository and identify important"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3397,
+  "core_bytes": 13585,
+  "sections": [
+    {
+      "name": "Core Rules",
+      "bytes": 1725,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 990,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Discovery Workflow",
+      "bytes": 3919,
+      "when": [
+        "discovery",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Severity Rubric",
+      "bytes": 622,
+      "when": [
+        "severity",
+        "rubric"
+      ]
+    },
+    {
+      "name": "Evidence Standards",
+      "bytes": 2374,
+      "when": [
+        "evidence",
+        "standards"
+      ]
+    },
+    {
+      "name": "Report Format",
+      "bytes": 1688,
+      "when": [
+        "report",
+        "format"
+      ]
+    },
+    {
+      "name": "Post-Audit Test Implementation",
+      "bytes": 573,
+      "when": [
+        "post",
+        "audit",
+        "test",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 400,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Agent Portability Notes",
+      "bytes": 339,
+      "when": [
+        "agent",
+        "portability",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\test-gap-audit\\SKILL.md"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "nvidia__nemo-relay-debug-runtime-integration",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "205f9c13b086f07b78a513b9574aaccdc950f522a073ae3da764f386e22e94db",
+  "purpose": "Use this skill when NeMo Relay is installed or imported but application-side runtime behavior is missing or incorrect, including load failures, inactive scopes, missing events, and plugin or adaptive ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when NeMo Relay is installed or imported but application-side runtime behavior is missing or incorrect, including load failures, inactive scopes,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1051,
+  "core_bytes": 4201,
+  "sections": [
+    {
+      "name": "First Checks",
+      "bytes": 371,
+      "when": [
+        "first",
+        "checks"
+      ]
+    },
+    {
+      "name": "Common Failure Classes",
+      "bytes": 370,
+      "when": [
+        "common",
+        "failure",
+        "classes"
+      ]
+    },
+    {
+      "name": "Embedded Troubleshooting Matrix",
+      "bytes": 2728,
+      "when": [
+        "embedded",
+        "troubleshooting",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 162,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-relay-debug-runtime-integration/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "awesome-copilot__technology-stack-blueprint-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a510e19ed3be672c6dc30b2498fb8342f5ad71d73b52f5f80f40f92170579584",
+  "purpose": "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implement",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stac"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2461,
+  "core_bytes": 9844,
+  "sections": [
+    {
+      "name": "Configuration Variables",
+      "bytes": 745,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generated Prompt",
+      "bytes": 8456,
+      "when": [
+        "generated",
+        "prompt"
+      ]
+    },
+    {
+      "name": "1. Technology Identification Phase",
+      "bytes": 687,
+      "when": [
+        "technology",
+        "identification",
+        "phase"
+      ]
+    },
+    {
+      "name": "2. Core Technologies Analysis",
+      "bytes": 2116,
+      "when": [
+        "core",
+        "technologies",
+        "analysis"
+      ]
+    },
+    {
+      "name": "3. Implementation Patterns & Conventions",
+      "bytes": 686,
+      "when": [
+        "implementation",
+        "patterns",
+        "conventions"
+      ]
+    },
+    {
+      "name": "4. Usage Examples",
+      "bytes": 723,
+      "when": [
+        "usage",
+        "examples"
+      ]
+    },
+    {
+      "name": "5. Technology Stack Map",
+      "bytes": 878,
+      "when": [
+        "technology",
+        "stack"
+      ]
+    },
+    {
+      "name": "6. Technology-Specific Implementation Details",
+      "bytes": 1643,
+      "when": [
+        "technology",
+        "specific",
+        "implementation",
+        "details"
+      ]
+    },
+    {
+      "name": "7. Blueprint for New Code Implementation",
+      "bytes": 975,
+      "when": [
+        "blueprint",
+        "code",
+        "implementation"
+      ]
+    },
+    {
+      "name": "${INCLUDE_DIAGRAMS ? \"9\" : \"8\"}. Technology Decision Context",
+      "bytes": 510,
+      "when": [
+        "include",
+        "diagrams",
+        "technology",
+        "decision",
+        "context"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\technology-stack-blueprint-generator\\SKILL.md"
+}

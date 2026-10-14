@@ -1,0 +1,76 @@
+{
+  "id": "awesome-copilot__technical-job-search",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b24b015e51c01407c079328f5cd5878e887e002b9f975bb3509a4d099dfc6df8",
+  "purpose": "Use this skill when a software engineer asks for help with job search tasks: parsing or analyzing a job description, tailoring a CV/resume, writing a cover letter, evaluating a job offer, or drafting ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use this skill when a software engineer asks for help with job search tasks: parsing or analyzing a job description, tailoring a CV/resume, writing a cover lett"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1200,
+  "core_bytes": 4823,
+  "sections": [
+    {
+      "name": "Job Description Analysis",
+      "bytes": 817,
+      "when": [
+        "description",
+        "analysis"
+      ]
+    },
+    {
+      "name": "CV / Resume Tailoring",
+      "bytes": 804,
+      "when": [
+        "resume",
+        "tailoring"
+      ]
+    },
+    {
+      "name": "Cover Letter Writing",
+      "bytes": 783,
+      "when": [
+        "cover",
+        "letter",
+        "writing"
+      ]
+    },
+    {
+      "name": "Offer Evaluation",
+      "bytes": 1312,
+      "when": [
+        "offer",
+        "evaluation"
+      ]
+    },
+    {
+      "name": "Follow-up Emails",
+      "bytes": 403,
+      "when": [
+        "follow",
+        "emails"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\technical-job-search\\SKILL.md"
+}

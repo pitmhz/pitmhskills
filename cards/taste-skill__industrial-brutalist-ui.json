@@ -1,0 +1,183 @@
+{
+  "id": "taste-skill__industrial-brutalist-ui",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "bd9c7fd04ae149531eb6bd0d4e8dceee57aa6877fcef3d67ced90e68e755affa",
+  "purpose": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dash",
+  "domain": "frontend",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Brutalist terminal direction -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "brutalist terminal mechanical military",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2136,
+  "core_bytes": 8548,
+  "sections": [
+    {
+      "name": "1. Skill Meta",
+      "bytes": 740,
+      "when": [
+        "skill",
+        "meta"
+      ]
+    },
+    {
+      "name": "2. Visual Archetypes",
+      "bytes": 1158,
+      "when": [
+        "visual",
+        "archetypes"
+      ]
+    },
+    {
+      "name": "2.1 Swiss Industrial Print",
+      "bytes": 481,
+      "when": [
+        "swiss",
+        "industrial",
+        "print"
+      ]
+    },
+    {
+      "name": "2.2 Tactical Telemetry & CRT Terminal",
+      "bytes": 453,
+      "when": [
+        "tactical",
+        "telemetry",
+        "terminal"
+      ]
+    },
+    {
+      "name": "3. Typographic Architecture",
+      "bytes": 1869,
+      "when": [
+        "typographic",
+        "architecture"
+      ]
+    },
+    {
+      "name": "3.1 Macro-Typography (Structural Headers)",
+      "bytes": 675,
+      "when": [
+        "macro",
+        "typography",
+        "structural",
+        "headers"
+      ]
+    },
+    {
+      "name": "3.2 Micro-Typography (Data & Telemetry)",
+      "bytes": 592,
+      "when": [
+        "micro",
+        "typography",
+        "data",
+        "telemetry"
+      ]
+    },
+    {
+      "name": "3.3 Textural Contrast (Artistic Disruption)",
+      "bytes": 410,
+      "when": [
+        "textural",
+        "contrast",
+        "artistic",
+        "disruption"
+      ]
+    },
+    {
+      "name": "4. Color System",
+      "bytes": 1233,
+      "when": [
+        "color",
+        "system"
+      ]
+    },
+    {
+      "name": "If Swiss Industrial Print (Light):",
+      "bytes": 364,
+      "when": [
+        "swiss",
+        "industrial",
+        "print",
+        "light"
+      ]
+    },
+    {
+      "name": "If Tactical Telemetry (Dark):",
+      "bytes": 516,
+      "when": [
+        "tactical",
+        "telemetry",
+        "dark"
+      ]
+    },
+    {
+      "name": "5. Layout and Spatial Engineering",
+      "bytes": 905,
+      "when": [
+        "layout",
+        "spatial",
+        "engineering"
+      ]
+    },
+    {
+      "name": "6. UI Components and Symbology",
+      "bytes": 758,
+      "when": [
+        "components",
+        "symbology"
+      ]
+    },
+    {
+      "name": "7. Textural and Post-Processing Effects",
+      "bytes": 859,
+      "when": [
+        "textural",
+        "post",
+        "processing",
+        "effects"
+      ]
+    },
+    {
+      "name": "8. Web Engineering Directives",
+      "bytes": 625,
+      "when": [
+        "engineering",
+        "directives"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "industrial",
+    "brutalism",
+    "tactical",
+    "telemetry",
+    "meta",
+    "visual",
+    "archetypes",
+    "architecture",
+    "macro",
+    "typography",
+    "structural",
+    "headers"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\brutalist-skill\\SKILL.md"
+}

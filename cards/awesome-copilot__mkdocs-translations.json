@@ -1,0 +1,111 @@
+{
+  "id": "awesome-copilot__mkdocs-translations",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ff506b38ec44f8cd7f5252476a6720247ad3d3bb6298a1481fcbc4b5ccf478cf",
+  "purpose": "Generate a language translation for a mkdocs documentation stack.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Generate a language translation for a mkdocs documentation stack."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1073,
+  "core_bytes": 4301,
+  "sections": [
+    {
+      "name": "Role",
+      "bytes": 65,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Required Input",
+      "bytes": 375,
+      "when": [
+        "required",
+        "input"
+      ]
+    },
+    {
+      "name": "Objective",
+      "bytes": 213,
+      "when": [
+        "objective"
+      ]
+    },
+    {
+      "name": "File Listing and Translation Order",
+      "bytes": 918,
+      "when": [
+        "file",
+        "listing",
+        "translation",
+        "order"
+      ]
+    },
+    {
+      "name": "Folder Structure and Output",
+      "bytes": 862,
+      "when": [
+        "folder",
+        "structure",
+        "output"
+      ]
+    },
+    {
+      "name": "Include Path Updates",
+      "bytes": 257,
+      "when": [
+        "include",
+        "path",
+        "updates"
+      ]
+    },
+    {
+      "name": "MkDocs Configuration Update",
+      "bytes": 283,
+      "when": [
+        "mkdocs",
+        "configuration",
+        "update"
+      ]
+    },
+    {
+      "name": "Translation Rules",
+      "bytes": 838,
+      "when": [
+        "translation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Translating Includes (`docs/docs/includes/en`)",
+      "bytes": 350,
+      "when": [
+        "translating",
+        "includes",
+        "docs"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mkdocs-translations\\SKILL.md"
+}

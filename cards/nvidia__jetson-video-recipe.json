@@ -1,0 +1,76 @@
+{
+  "id": "nvidia__jetson-video-recipe",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0cfc578548c2456fd0b5e5517aa5096d76e310a12cc0c4ad3e321ff9991e9989",
+  "purpose": "Use when turning a Jetson encoder use case into one surface-neutral recipe with native Video Codec SDK and PyNvVideoCodec projections.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when turning a Jetson encoder use case into one surface-neutral recipe with native Video Codec SDK and PyNvVideoCodec projections."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1314,
+  "core_bytes": 5258,
+  "sections": [
+    {
+      "name": "Boundaries",
+      "bytes": 711,
+      "when": [
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2607,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Live and downstream work",
+      "bytes": 668,
+      "when": [
+        "live",
+        "downstream",
+        "work"
+      ]
+    },
+    {
+      "name": "Required outcomes",
+      "bytes": 435,
+      "when": [
+        "required",
+        "outcomes"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 211,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-video-recipe\\SKILL.md",
+  "curated": true
+}

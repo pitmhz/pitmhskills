@@ -1,0 +1,134 @@
+{
+  "id": "nvidia__jetson-set-target",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a2691433613331b126b0d3f91a439b75e32439fac33227f6e2221630e7cecd5a",
+  "purpose": "Switch the active Jetson target-platform pointer to an existing profile YAML. Use before customize/build/flash to change target; not for authoring profiles — use jetson-init-target instead.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Switch the active Jetson target-platform pointer to an existing profile YAML. Use before customize/build/flash to change target; not for authoring profiles — us"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1769,
+  "core_bytes": 7120,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 451,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 502,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 3226,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Survey the profiles directory",
+      "bytes": 792,
+      "when": [
+        "survey",
+        "profiles",
+        "directory"
+      ]
+    },
+    {
+      "name": "Show the list",
+      "bytes": 1147,
+      "when": [
+        "show",
+        "list"
+      ]
+    },
+    {
+      "name": "Prompt for selection",
+      "bytes": 319,
+      "when": [
+        "prompt",
+        "selection"
+      ]
+    },
+    {
+      "name": "Update the active pointer",
+      "bytes": 474,
+      "when": [
+        "update",
+        "active",
+        "pointer"
+      ]
+    },
+    {
+      "name": "Confirm",
+      "bytes": 478,
+      "when": [
+        "confirm"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 306,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 315,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 511,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 885,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 457,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-set-target\\SKILL.md",
+  "curated": true
+}

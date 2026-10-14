@@ -28,6 +28,10 @@
   "body_tokens": 41,
   "core_bytes": 164,
   "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/productivity/grill-me/SKILL.md"
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/productivity/grill-me/SKILL.md",
+  "curated": true
 }

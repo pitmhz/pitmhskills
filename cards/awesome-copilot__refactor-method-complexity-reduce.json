@@ -1,0 +1,80 @@
+{
+  "id": "awesome-copilot__refactor-method-complexity-reduce",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "445cc1f9afff9cb74946f0a72af936b450e8dc513423607857d59304c84892b2",
+  "purpose": "Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1108,
+  "core_bytes": 4430,
+  "sections": [
+    {
+      "name": "Objective",
+      "bytes": 185,
+      "when": [
+        "objective"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1610,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Implementation Approach",
+      "bytes": 314,
+      "when": [
+        "implementation",
+        "approach"
+      ]
+    },
+    {
+      "name": "Result",
+      "bytes": 283,
+      "when": [
+        "result"
+      ]
+    },
+    {
+      "name": "Testing and Validation",
+      "bytes": 1365,
+      "when": [
+        "testing",
+        "validation"
+      ]
+    },
+    {
+      "name": "Confirmation Checklist",
+      "bytes": 406,
+      "when": [
+        "confirmation",
+        "checklist"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\refactor-method-complexity-reduce\\SKILL.md"
+}

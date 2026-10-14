@@ -1,0 +1,109 @@
+{
+  "id": "awesome-copilot__make-repo-contribution",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8452ae255064604f38942a920ff92bd05a6a4d5bcd0b94ad58b13b07d1abd1b7",
+  "purpose": "All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensur",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR)"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1599,
+  "core_bytes": 6405,
+  "sections": [
+    {
+      "name": "Security boundaries",
+      "bytes": 800,
+      "when": [
+        "security",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 768,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Using existing guidelines",
+      "bytes": 982,
+      "when": [
+        "existing",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "No guidelines found",
+      "bytes": 429,
+      "when": [
+        "guidelines",
+        "found"
+      ]
+    },
+    {
+      "name": "Tasks",
+      "bytes": 679,
+      "when": [
+        "tasks"
+      ]
+    },
+    {
+      "name": "Issue",
+      "bytes": 884,
+      "when": [
+        "issue"
+      ]
+    },
+    {
+      "name": "Branch",
+      "bytes": 469,
+      "when": [
+        "branch"
+      ]
+    },
+    {
+      "name": "Commits",
+      "bytes": 232,
+      "when": [
+        "commits"
+      ]
+    },
+    {
+      "name": "Merging",
+      "bytes": 87,
+      "when": [
+        "merging"
+      ]
+    },
+    {
+      "name": "Pull request",
+      "bytes": 565,
+      "when": [
+        "pull",
+        "request"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\make-repo-contribution\\SKILL.md"
+}

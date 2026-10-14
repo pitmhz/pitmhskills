@@ -27,7 +27,94 @@
   "conflicts_with": [],
   "body_tokens": 2013,
   "core_bytes": 8087,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/cloudflare/skills/sandbox-migrate-to-next/SKILL.md"
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 319,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 868,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Replacement map",
+      "bytes": 994,
+      "when": [
+        "replacement"
+      ]
+    },
+    {
+      "name": "Audit",
+      "bytes": 356,
+      "when": [
+        "audit"
+      ]
+    },
+    {
+      "name": "Clarify (ask when needed)",
+      "bytes": 284,
+      "when": [
+        "clarify",
+        "needed"
+      ]
+    },
+    {
+      "name": "Upgrade",
+      "bytes": 3181,
+      "when": [
+        "upgrade"
+      ]
+    },
+    {
+      "name": "Package and image",
+      "bytes": 243,
+      "when": [
+        "package",
+        "image"
+      ]
+    },
+    {
+      "name": "Code by area",
+      "bytes": 2431,
+      "when": [
+        "code",
+        "area"
+      ]
+    },
+    {
+      "name": "Deploy cutover",
+      "bytes": 493,
+      "when": [
+        "deploy",
+        "cutover"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 471,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Red flags — stop and fix",
+      "bytes": 521,
+      "when": [
+        "flags",
+        "stop"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- npm test"
+  ],
+  "skill_path": "skills/cloudflare/skills/sandbox-migrate-to-next/SKILL.md",
+  "curated": true
 }

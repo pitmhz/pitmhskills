@@ -1,0 +1,230 @@
+{
+  "id": "mengto-skills__build-threejs-scroll-worlds",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "0af3ee649bb67ccf461261527b4aaff8842650e80169262a7b296a6168820fcb",
+  "purpose": "Build rich, scroll-controlled real-time Three.js experiences as one persistent 3D world whose camera, lighting, atmosphere, materials, objects, DOM story, and interactions evolve across authored chapt",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Build rich, scroll-controlled real-time Three.js experiences as one persistent 3D world whose camera, lighting, atmosphere, materials, objects, DOM story, and i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4731,
+  "core_bytes": 18967,
+  "sections": [
+    {
+      "name": "Route the request correctly",
+      "bytes": 1022,
+      "when": [
+        "route",
+        "request",
+        "correctly"
+      ]
+    },
+    {
+      "name": "Read the build references",
+      "bytes": 662,
+      "when": [
+        "read",
+        "build",
+        "references"
+      ]
+    },
+    {
+      "name": "Start with the output, not the template",
+      "bytes": 954,
+      "when": [
+        "start",
+        "output",
+        "template"
+      ]
+    },
+    {
+      "name": "Write the world bible before code",
+      "bytes": 670,
+      "when": [
+        "write",
+        "world",
+        "bible",
+        "before",
+        "code"
+      ]
+    },
+    {
+      "name": "Author a scene ledger",
+      "bytes": 1086,
+      "when": [
+        "author",
+        "scene",
+        "ledger"
+      ]
+    },
+    {
+      "name": "Build one persistent spatial architecture",
+      "bytes": 1556,
+      "when": [
+        "build",
+        "persistent",
+        "spatial",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Give the world real detail",
+      "bytes": 3227,
+      "when": [
+        "give",
+        "world",
+        "real",
+        "detail"
+      ]
+    },
+    {
+      "name": "Geometry",
+      "bytes": 623,
+      "when": [
+        "geometry"
+      ]
+    },
+    {
+      "name": "Materials and textures",
+      "bytes": 1656,
+      "when": [
+        "materials",
+        "textures"
+      ]
+    },
+    {
+      "name": "Lighting and atmosphere",
+      "bytes": 915,
+      "when": [
+        "lighting",
+        "atmosphere"
+      ]
+    },
+    {
+      "name": "Map native scroll to deterministic state",
+      "bytes": 906,
+      "when": [
+        "native",
+        "scroll",
+        "deterministic",
+        "state"
+      ]
+    },
+    {
+      "name": "Author the camera as cinematography",
+      "bytes": 1055,
+      "when": [
+        "author",
+        "camera",
+        "cinematography"
+      ]
+    },
+    {
+      "name": "Interpolate world state from the same conductor",
+      "bytes": 643,
+      "when": [
+        "interpolate",
+        "world",
+        "state",
+        "conductor"
+      ]
+    },
+    {
+      "name": "Add interactions without fighting scroll",
+      "bytes": 1243,
+      "when": [
+        "interactions",
+        "fighting",
+        "scroll"
+      ]
+    },
+    {
+      "name": "Keep the DOM story semantic",
+      "bytes": 664,
+      "when": [
+        "keep",
+        "story",
+        "semantic"
+      ]
+    },
+    {
+      "name": "Load progressively",
+      "bytes": 709,
+      "when": [
+        "load",
+        "progressively"
+      ]
+    },
+    {
+      "name": "Hold a measurable performance budget",
+      "bytes": 1120,
+      "when": [
+        "hold",
+        "measurable",
+        "performance",
+        "budget"
+      ]
+    },
+    {
+      "name": "Respect motion, access, and failure",
+      "bytes": 616,
+      "when": [
+        "respect",
+        "motion",
+        "access",
+        "failure"
+      ]
+    },
+    {
+      "name": "Verify the whole journey",
+      "bytes": 961,
+      "when": [
+        "verify",
+        "whole",
+        "journey"
+      ]
+    },
+    {
+      "name": "Deliver",
+      "bytes": 561,
+      "when": [
+        "deliver"
+      ]
+    }
+  ],
+  "keywords": [
+    "route",
+    "request",
+    "correctly",
+    "read",
+    "references",
+    "start",
+    "output",
+    "template",
+    "write",
+    "bible",
+    "before",
+    "code"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\build-threejs-scroll-worlds\\SKILL.md"
+}

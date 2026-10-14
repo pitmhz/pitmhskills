@@ -27,7 +27,37 @@
   "conflicts_with": [],
   "body_tokens": 825,
   "core_bytes": 3298,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Communication",
+      "bytes": 451,
+      "when": [
+        "communication"
+      ]
+    },
+    {
+      "name": "Scripts",
+      "bytes": 669,
+      "when": [
+        "scripts"
+      ]
+    },
+    {
+      "name": "Behavior and Options",
+      "bytes": 533,
+      "when": [
+        "behavior",
+        "options"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 614,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.system/skill-installer/SKILL.md"
 }

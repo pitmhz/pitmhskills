@@ -1,0 +1,43 @@
+{
+  "id": "daisyui__daisyui-config",
+  "tier": "B",
+  "origin": [
+    "saadeghi/daisyui@bf3bac3a397b543e55641ecb2d60a2ed961f09ec"
+  ],
+  "license": "MIT",
+  "hash": "47a8f65e097e2aac97f861c1d46953cd0588e3538c6dc0f91b8bb118f4020d8d",
+  "purpose": "Configuration options for daisyUI 5",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Configuration options for daisyUI 5"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Configure daisyUI -> this.",
+  "cluster": "component-library",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "configure options",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 365,
+  "core_bytes": 1457,
+  "sections": [
+    {
+      "name": "Configuration",
+      "bytes": 1373,
+      "when": [
+        "configuration"
+      ]
+    }
+  ],
+  "keywords": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\daisyui\\skills\\daisyui\\config\\SKILL.md"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "nvidia__msa-search-nim",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "abc62876322a2339cda94972f11a39dc19b3b754ba0ee5076878dd198fdd6fab",
+  "purpose": "Generate multiple sequence alignments (MSAs) for protein sequences using the ColabFold MSA-Search NIM. Use for homolog search, UniRef30/ColabFold env searches, A3M or FASTA alignments, paired MSA sear",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate multiple sequence alignments (MSAs) for protein sequences using the ColabFold MSA-Search NIM. Use for homolog search, UniRef30/ColabFold env searches, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4655,
+  "core_bytes": 18648,
+  "sections": [
+    {
+      "name": "Choose Mode And Endpoint",
+      "bytes": 1187,
+      "when": [
+        "choose",
+        "mode",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "Local Docker",
+      "bytes": 3744,
+      "when": [
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "Fallback: Let The NIM Download Its Own Databases (slower)",
+      "bytes": 789,
+      "when": [
+        "fallback",
+        "download",
+        "databases",
+        "slower"
+      ]
+    },
+    {
+      "name": "Faster Startup: Task-Specific Database Profiles",
+      "bytes": 3076,
+      "when": [
+        "faster",
+        "startup",
+        "task",
+        "specific",
+        "database",
+        "profiles"
+      ]
+    },
+    {
+      "name": "Custom Or Individual Databases",
+      "bytes": 887,
+      "when": [
+        "custom",
+        "individual",
+        "databases"
+      ]
+    },
+    {
+      "name": "Recommended: Parallel Download For Any Database Set (Fast Deployment)",
+      "bytes": 4538,
+      "when": [
+        "recommended",
+        "parallel",
+        "download",
+        "database",
+        "fast",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Standard MSA Request",
+      "bytes": 1637,
+      "when": [
+        "standard",
+        "request"
+      ]
+    },
+    {
+      "name": "Paired MSA Request",
+      "bytes": 484,
+      "when": [
+        "paired",
+        "request"
+      ]
+    },
+    {
+      "name": "Local Template Search",
+      "bytes": 526,
+      "when": [
+        "local",
+        "template",
+        "search"
+      ]
+    },
+    {
+      "name": "Save Outputs",
+      "bytes": 1192,
+      "when": [
+        "save",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Limits And Troubleshooting",
+      "bytes": 839,
+      "when": [
+        "limits",
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-msa-search-nim\\SKILL.md",
+  "curated": true
+}

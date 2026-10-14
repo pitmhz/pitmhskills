@@ -1,0 +1,239 @@
+{
+  "id": "awesome-copilot__flowstudio-power-automate-monitoring",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0a405529642846cb885ed9839982f4bd0800e114ee26844c0784d1b057cafcf2",
+  "purpose": "Pro+ subscription required. Tenant-wide Power Automate monitoring using the FlowStudio MCP cached store: failure rates, run-health trends, maker/app inventory, inactive owners, and compliance/health r",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Pro+ subscription required. Tenant-wide Power Automate monitoring using the FlowStudio MCP cached store: failure rates, run-health trends, maker/app inventory, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3282,
+  "core_bytes": 13194,
+  "sections": [
+    {
+      "name": "How Monitoring Works",
+      "bytes": 1168,
+      "when": [
+        "monitoring",
+        "works"
+      ]
+    },
+    {
+      "name": "Tools",
+      "bytes": 1118,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Store vs Live",
+      "bytes": 947,
+      "when": [
+        "store",
+        "live"
+      ]
+    },
+    {
+      "name": "Response Shapes",
+      "bytes": 5985,
+      "when": [
+        "response",
+        "shapes"
+      ]
+    },
+    {
+      "name": "`list_store_flows`",
+      "bytes": 1116,
+      "when": [
+        "list",
+        "store",
+        "flows"
+      ]
+    },
+    {
+      "name": "`get_store_flow`",
+      "bytes": 1170,
+      "when": [
+        "store",
+        "flow"
+      ]
+    },
+    {
+      "name": "`get_store_flow_summary`",
+      "bytes": 576,
+      "when": [
+        "store",
+        "flow",
+        "summary"
+      ]
+    },
+    {
+      "name": "`get_store_flow_runs`",
+      "bytes": 253,
+      "when": [
+        "store",
+        "flow",
+        "runs"
+      ]
+    },
+    {
+      "name": "Trigger URL",
+      "bytes": 149,
+      "when": [
+        "trigger"
+      ]
+    },
+    {
+      "name": "Starting / stopping a flow",
+      "bytes": 262,
+      "when": [
+        "starting",
+        "stopping",
+        "flow"
+      ]
+    },
+    {
+      "name": "`update_store_flow`",
+      "bytes": 505,
+      "when": [
+        "update",
+        "store",
+        "flow"
+      ]
+    },
+    {
+      "name": "`list_store_environments`",
+      "bytes": 424,
+      "when": [
+        "list",
+        "store",
+        "environments"
+      ]
+    },
+    {
+      "name": "`list_store_connections`",
+      "bytes": 424,
+      "when": [
+        "list",
+        "store",
+        "connections"
+      ]
+    },
+    {
+      "name": "`list_store_makers`",
+      "bytes": 345,
+      "when": [
+        "list",
+        "store",
+        "makers"
+      ]
+    },
+    {
+      "name": "`get_store_maker`",
+      "bytes": 317,
+      "when": [
+        "store",
+        "maker"
+      ]
+    },
+    {
+      "name": "`list_store_power_apps`",
+      "bytes": 424,
+      "when": [
+        "list",
+        "store",
+        "power",
+        "apps"
+      ]
+    },
+    {
+      "name": "Common Workflows",
+      "bytes": 1594,
+      "when": [
+        "common",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Find unhealthy flows",
+      "bytes": 203,
+      "when": [
+        "find",
+        "unhealthy",
+        "flows"
+      ]
+    },
+    {
+      "name": "Check a specific flow's health",
+      "bytes": 408,
+      "when": [
+        "check",
+        "specific",
+        "flow",
+        "health"
+      ]
+    },
+    {
+      "name": "Enable monitoring on a flow",
+      "bytes": 210,
+      "when": [
+        "enable",
+        "monitoring",
+        "flow"
+      ]
+    },
+    {
+      "name": "Daily health check",
+      "bytes": 286,
+      "when": [
+        "daily",
+        "health",
+        "check"
+      ]
+    },
+    {
+      "name": "Maker audit",
+      "bytes": 183,
+      "when": [
+        "maker",
+        "audit"
+      ]
+    },
+    {
+      "name": "Inventory",
+      "bytes": 283,
+      "when": [
+        "inventory"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 401,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\flowstudio-power-automate-monitoring\\SKILL.md"
+}

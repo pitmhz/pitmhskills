@@ -1,0 +1,170 @@
+{
+  "id": "awesome-copilot__cypress-flake-fixer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "bbcc3720a59fcb3b9be0658c8b705e1e3c4aacabb81dd34d72913c1720924663",
+  "purpose": "Find and fix flake-prone anti-patterns in an existing Cypress suite, and APIs removed in Cypress 12 to 16. Bundles a zero-dependency scanner for fixed cy.wait() delays, assigned command return values,",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Find and fix flake-prone anti-patterns in an existing Cypress suite, and APIs removed in Cypress 12 to 16. Bundles a zero-dependency scanner for fixed cy.wait()"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2532,
+  "core_bytes": 10127,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 564,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 200,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3047,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Scan",
+      "bytes": 618,
+      "when": [
+        "scan"
+      ]
+    },
+    {
+      "name": "2. Measure before changing anything",
+      "bytes": 405,
+      "when": [
+        "measure",
+        "before",
+        "changing",
+        "anything"
+      ]
+    },
+    {
+      "name": "3. Fix in this order",
+      "bytes": 866,
+      "when": [
+        "order"
+      ]
+    },
+    {
+      "name": "4. Replace each fixed wait with the condition it was standing in for",
+      "bytes": 913,
+      "when": [
+        "replace",
+        "each",
+        "fixed",
+        "wait",
+        "condition",
+        "standing"
+      ]
+    },
+    {
+      "name": "5. Verify",
+      "bytes": 232,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Rules for the fix itself",
+      "bytes": 668,
+      "when": [
+        "rules",
+        "itself"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2987,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Report format",
+      "bytes": 30,
+      "when": [
+        "report",
+        "format"
+      ]
+    },
+    {
+      "name": "Cypress flake audit: <scope>",
+      "bytes": 481,
+      "when": [
+        "cypress",
+        "flake",
+        "audit",
+        "scope"
+      ]
+    },
+    {
+      "name": "Not fixed",
+      "bytes": 79,
+      "when": [
+        "fixed"
+      ]
+    },
+    {
+      "name": "Application issues found",
+      "bytes": 61,
+      "when": [
+        "application",
+        "issues",
+        "found"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 72,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 877,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 440,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\cypress-flake-fixer\\SKILL.md"
+}

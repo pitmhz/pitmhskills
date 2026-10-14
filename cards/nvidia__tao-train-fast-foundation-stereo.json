@@ -1,0 +1,203 @@
+{
+  "id": "nvidia__tao-train-fast-foundation-stereo",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "6b51a266f1b5855f1a92a8376370c68a9bc3ced5f544df76ea0e8331c67315a6",
+  "purpose": "Real-time stereo depth estimation using FastFoundationStereo (FFS), the distilled bp2 commercial variant of",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Real-time stereo depth estimation using FastFoundationStereo (FFS), the distilled bp2 commercial variant of"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2990,
+  "core_bytes": 12021,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 1051,
+      "when": []
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1640,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 4699,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Prerequisites — data accessibility",
+      "bytes": 652,
+      "when": [
+        "prerequisites",
+        "data",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Step 1 — Annotation file",
+      "bytes": 506,
+      "when": [
+        "step",
+        "annotation",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 2 — Pair `model_type` and `dataset_name` based on your data",
+      "bytes": 880,
+      "when": [
+        "step",
+        "pair",
+        "model",
+        "type",
+        "dataset",
+        "name",
+        "based",
+        "data"
+      ]
+    },
+    {
+      "name": "Step 3 — Set the bp2 distilled width overrides",
+      "bytes": 483,
+      "when": [
+        "step",
+        "distilled",
+        "width",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Step 4 — Write spec yaml from spec overrides",
+      "bytes": 728,
+      "when": [
+        "step",
+        "write",
+        "spec",
+        "yaml",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Step 5 — Run",
+      "bytes": 329,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Step 6 — Verify",
+      "bytes": 466,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "7-action deploy flow",
+      "bytes": 640,
+      "when": [
+        "action",
+        "deploy",
+        "flow"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 1201,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 575,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 391,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 145,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 608,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 333,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 430,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 105,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-fast-foundation-stereo/SKILL.md",
+  "curated": true
+}

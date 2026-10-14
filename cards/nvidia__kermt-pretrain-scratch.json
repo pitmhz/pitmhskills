@@ -1,0 +1,107 @@
+{
+  "id": "nvidia__kermt-pretrain-scratch",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a679bd4ddae45275f04f16ef53620551d572bc37cb72c8457bdb3d4c4d36a1c4",
+  "purpose": "Pretrain a fresh KERMT model from scratch on a user-provided corpus. Builds a new vocabulary from the corpus, instantiates the model architecture from defaults, and launches pretrain_ddp.py inside the",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Pretrain a fresh KERMT model from scratch on a user-provided corpus. Builds a new vocabulary from the corpus, instantiates the model architecture from defaults,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2429,
+  "core_bytes": 9767,
+  "sections": [
+    {
+      "name": "Skill and runtime paths",
+      "bytes": 392,
+      "when": [
+        "skill",
+        "runtime",
+        "paths"
+      ]
+    },
+    {
+      "name": "Hardware requirements",
+      "bytes": 1589,
+      "when": [
+        "hardware",
+        "requirements"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 419,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1577,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2918,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 485,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Common errors",
+      "bytes": 390,
+      "when": [
+        "common",
+        "errors"
+      ]
+    },
+    {
+      "name": "What's in the manifest after a from-scratch run",
+      "bytes": 520,
+      "when": [
+        "manifest",
+        "after",
+        "scratch"
+      ]
+    },
+    {
+      "name": "Replayability",
+      "bytes": 224,
+      "when": [
+        "replayability"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-kermt-pretrain-scratch/SKILL.md",
+  "curated": true
+}

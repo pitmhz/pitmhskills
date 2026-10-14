@@ -1,0 +1,343 @@
+{
+  "id": "awesome-copilot__setup-my-iq",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7ce623552822b4366b4a91562c51abb0f98eed8f784de02c24beec18c8fb706b",
+  "purpose": "Create, set up, or update the personal context portfolio: structured markdown files describing\nwho you are, how you work, your teams, and your tool/ADO configuration. Runs the interview\nworkflow for f",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create, set up, or update the personal context portfolio: structured markdown files describing\nwho you are, how you work, your teams, and your tool/ADO configur"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 8521,
+  "core_bytes": 34097,
+  "sections": [
+    {
+      "name": "How This Skill Works",
+      "bytes": 4399,
+      "when": [
+        "skill",
+        "works"
+      ]
+    },
+    {
+      "name": "Discovering existing context",
+      "bytes": 2130,
+      "when": [
+        "discovering",
+        "existing",
+        "context"
+      ]
+    },
+    {
+      "name": "1. No context files referenced",
+      "bytes": 175,
+      "when": [
+        "context",
+        "files",
+        "referenced"
+      ]
+    },
+    {
+      "name": "2. Some files referenced but missing on disk",
+      "bytes": 592,
+      "when": [
+        "files",
+        "referenced",
+        "missing",
+        "disk"
+      ]
+    },
+    {
+      "name": "3. Files exist but have incomplete fields",
+      "bytes": 666,
+      "when": [
+        "files",
+        "exist",
+        "incomplete",
+        "fields"
+      ]
+    },
+    {
+      "name": "4. Files are complete, user wants to update",
+      "bytes": 548,
+      "when": [
+        "files",
+        "complete",
+        "user",
+        "wants",
+        "update"
+      ]
+    },
+    {
+      "name": "5. Files are complete, user wants a full refresh",
+      "bytes": 193,
+      "when": [
+        "files",
+        "complete",
+        "user",
+        "wants",
+        "full",
+        "refresh"
+      ]
+    },
+    {
+      "name": "First-Time Setup",
+      "bytes": 18878,
+      "when": [
+        "first",
+        "time",
+        "setup"
+      ]
+    },
+    {
+      "name": "1. Choose context directory",
+      "bytes": 484,
+      "when": [
+        "choose",
+        "context",
+        "directory"
+      ]
+    },
+    {
+      "name": "2. Begin the interview",
+      "bytes": 501,
+      "when": [
+        "begin",
+        "interview"
+      ]
+    },
+    {
+      "name": "3. Pre-fill factual fields from available data sources",
+      "bytes": 2017,
+      "when": [
+        "fill",
+        "factual",
+        "fields",
+        "available",
+        "data",
+        "sources"
+      ]
+    },
+    {
+      "name": "4. Interview for identity.md",
+      "bytes": 1048,
+      "when": [
+        "interview",
+        "identity"
+      ]
+    },
+    {
+      "name": "5. Interview for role-and-responsibilities.md",
+      "bytes": 1018,
+      "when": [
+        "interview",
+        "role",
+        "responsibilities"
+      ]
+    },
+    {
+      "name": "6. Interview for team.md",
+      "bytes": 1075,
+      "when": [
+        "interview",
+        "team"
+      ]
+    },
+    {
+      "name": "7. Interview for tools-systems-and-config.md",
+      "bytes": 1826,
+      "when": [
+        "interview",
+        "tools",
+        "systems",
+        "config"
+      ]
+    },
+    {
+      "name": "8. Interview for communication-style.md",
+      "bytes": 2387,
+      "when": [
+        "interview",
+        "communication",
+        "style"
+      ]
+    },
+    {
+      "name": "9. Interview for preferences-and-constraints.md",
+      "bytes": 1264,
+      "when": [
+        "interview",
+        "preferences",
+        "constraints"
+      ]
+    },
+    {
+      "name": "10. Wire the files into a custom instructions file",
+      "bytes": 6327,
+      "when": [
+        "wire",
+        "files",
+        "custom",
+        "instructions",
+        "file"
+      ]
+    },
+    {
+      "name": "11. Confirm and summarize",
+      "bytes": 617,
+      "when": [
+        "confirm",
+        "summarize"
+      ]
+    },
+    {
+      "name": "Context Files",
+      "bytes": 1149,
+      "when": [
+        "context",
+        "files"
+      ]
+    },
+    {
+      "name": "Interview Rules",
+      "bytes": 3438,
+      "when": [
+        "interview",
+        "rules"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 153,
+      "when": [
+        "tone"
+      ]
+    },
+    {
+      "name": "Pre-fill from available data sources before asking",
+      "bytes": 1688,
+      "when": [
+        "fill",
+        "available",
+        "data",
+        "sources",
+        "before",
+        "asking"
+      ]
+    },
+    {
+      "name": "Questions",
+      "bytes": 770,
+      "when": [
+        "questions"
+      ]
+    },
+    {
+      "name": "The Reaction Pass",
+      "bytes": 451,
+      "when": [
+        "reaction",
+        "pass"
+      ]
+    },
+    {
+      "name": "File Quality",
+      "bytes": 356,
+      "when": [
+        "file",
+        "quality"
+      ]
+    },
+    {
+      "name": "Example: Identity Interview Walkthrough",
+      "bytes": 1238,
+      "when": [
+        "example",
+        "identity",
+        "interview",
+        "walkthrough"
+      ]
+    },
+    {
+      "name": "What I Do",
+      "bytes": 267,
+      "when": []
+    },
+    {
+      "name": "What People Come to Me For",
+      "bytes": 906,
+      "when": [
+        "people",
+        "come"
+      ]
+    },
+    {
+      "name": "Example: Targeted Update",
+      "bytes": 668,
+      "when": [
+        "example",
+        "targeted",
+        "update"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 857,
+      "when": [
+        "safety"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 645,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Write failures",
+      "bytes": 275,
+      "when": [
+        "write",
+        "failures"
+      ]
+    },
+    {
+      "name": "Malformed existing files",
+      "bytes": 351,
+      "when": [
+        "malformed",
+        "existing",
+        "files"
+      ]
+    },
+    {
+      "name": "Author",
+      "bytes": 78,
+      "when": [
+        "author"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\setup-my-iq\\SKILL.md"
+}

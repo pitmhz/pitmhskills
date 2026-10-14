@@ -1,0 +1,79 @@
+{
+  "id": "mengto-skills__optimize-web-animations",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b82d25b849c479ddce1fd0b56d4ae289ef429f17f1c5933bccc799bc2fc9728f",
+  "purpose": "Profile, audit, and optimize frontend page performance with emphasis on animation work, memory-leak risks, long-session slowdowns, CSS animations, canvas/WebGL requestAnimationFrame loops, marquees, s",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Profile, audit, and optimize frontend page performance with emphasis on animation work, memory-leak risks, long-session slowdowns, CSS animations, canvas/WebGL "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2096,
+  "core_bytes": 8384,
+  "sections": [
+    {
+      "name": "Core Rule",
+      "bytes": 342,
+      "when": [
+        "core",
+        "rule"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 5995,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Good Fix Patterns",
+      "bytes": 813,
+      "when": [
+        "good",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 581,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "rule",
+    "workflow",
+    "apply",
+    "intended",
+    "hunks",
+    "temporary",
+    "index",
+    "good",
+    "patterns",
+    "avoid"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\optimize-web-animations\\SKILL.md"
+}

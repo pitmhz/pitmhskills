@@ -1,0 +1,104 @@
+{
+  "id": "awesome-copilot__ssma-console",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "68bf5e87b2f6a2c42b795989f3199c74d84c0a3f015cca59576b2e43e603107a",
+  "purpose": "Use when: SSMA console operations — create project, generate assessment report, convert schema, migrate data, Oracle to SQL Server migration, schema conversion, data migration",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when: SSMA console operations — create project, generate assessment report, convert schema, migrate data, Oracle to SQL Server migration, schema conversion,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1784,
+  "core_bytes": 7176,
+  "sections": [
+    {
+      "name": "Collect Inputs",
+      "bytes": 545,
+      "when": [
+        "collect",
+        "inputs"
+      ]
+    },
+    {
+      "name": "Generate XML Files",
+      "bytes": 4810,
+      "when": [
+        "generate",
+        "files"
+      ]
+    },
+    {
+      "name": "`ssma-variables.xml`",
+      "bytes": 1552,
+      "when": [
+        "ssma",
+        "variables"
+      ]
+    },
+    {
+      "name": "`ssma-servers.xml`",
+      "bytes": 988,
+      "when": [
+        "ssma",
+        "servers"
+      ]
+    },
+    {
+      "name": "Operation Script XML",
+      "bytes": 2177,
+      "when": [
+        "operation",
+        "script"
+      ]
+    },
+    {
+      "name": "Execute",
+      "bytes": 357,
+      "when": [
+        "execute"
+      ]
+    },
+    {
+      "name": "Report Results",
+      "bytes": 165,
+      "when": [
+        "report",
+        "results"
+      ]
+    },
+    {
+      "name": "Constraints",
+      "bytes": 214,
+      "when": [
+        "constraints"
+      ]
+    },
+    {
+      "name": "Known Pitfalls",
+      "bytes": 432,
+      "when": [
+        "known",
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ssma-console\\SKILL.md"
+}

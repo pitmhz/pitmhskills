@@ -1,0 +1,34 @@
+{
+  "id": "awesome-copilot__dataverse-python-advanced-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b46a0947c9683dffc0969bfdd80c0b0e2af662583f8909b9c98d8c6a22f458dc",
+  "purpose": "Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 291,
+  "core_bytes": 1177,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dataverse-python-advanced-patterns\\SKILL.md"
+}

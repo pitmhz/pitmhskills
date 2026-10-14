@@ -1,0 +1,83 @@
+{
+  "id": "mengto-skills__build-isometric-arpg",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "1e27ba94dcf0298a307d43619670bad5d1cea4bead001410d86f127d6775fc2c",
+  "purpose": "Build or extend a playable isometric action RPG in Three.js, React, or similar web technology. Use for game-loop architecture, camera and movement, zones, combat integration, content data, progression",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build or extend a playable isometric action RPG in Three.js, React, or similar web technology. Use for game-loop architecture, camera and movement, zones, comba"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 597,
+  "core_bytes": 2386,
+  "sections": [
+    {
+      "name": "Establish the production contract",
+      "bytes": 450,
+      "when": [
+        "establish",
+        "production",
+        "contract"
+      ]
+    },
+    {
+      "name": "Build in vertical slices",
+      "bytes": 562,
+      "when": [
+        "build",
+        "vertical",
+        "slices"
+      ]
+    },
+    {
+      "name": "Maintain runtime boundaries",
+      "bytes": 546,
+      "when": [
+        "maintain",
+        "runtime",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Validate before release",
+      "bytes": 348,
+      "when": [
+        "validate",
+        "before",
+        "release"
+      ]
+    }
+  ],
+  "keywords": [
+    "arpg",
+    "establish",
+    "contract",
+    "maintain",
+    "runtime",
+    "boundaries",
+    "validate",
+    "before",
+    "release"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\build-isometric-arpg\\SKILL.md"
+}

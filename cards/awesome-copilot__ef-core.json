@@ -1,0 +1,96 @@
+{
+  "id": "awesome-copilot__ef-core",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "bd7f6824d9b7bad10b18fec05edbbba1208bd1f2a42603d820187aff5ddc3ec8",
+  "purpose": "Get best practices for Entity Framework Core",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Get best practices for Entity Framework Core"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 670,
+  "core_bytes": 2677,
+  "sections": [
+    {
+      "name": "Data Context Design",
+      "bytes": 313,
+      "when": [
+        "data",
+        "context",
+        "design"
+      ]
+    },
+    {
+      "name": "Entity Design",
+      "bytes": 330,
+      "when": [
+        "entity",
+        "design"
+      ]
+    },
+    {
+      "name": "Performance",
+      "bytes": 368,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "Migrations",
+      "bytes": 249,
+      "when": [
+        "migrations"
+      ]
+    },
+    {
+      "name": "Querying",
+      "bytes": 298,
+      "when": [
+        "querying"
+      ]
+    },
+    {
+      "name": "Change Tracking & Saving",
+      "bytes": 279,
+      "when": [
+        "change",
+        "tracking",
+        "saving"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 255,
+      "when": [
+        "security"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 374,
+      "when": [
+        "testing"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ef-core\\SKILL.md"
+}

@@ -1,0 +1,171 @@
+{
+  "id": "awesome-copilot__gtm-enterprise-account-planning",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "92441114f77b1dd72d2edf1d55e369a00e0dce0bf8b4a749fbbc5198de4ddf78",
+  "purpose": "Strategic account planning and execution for enterprise deals. Use when planning complex sales cycles, managing multiple stakeholders, applying MEDDICC qualification, tracking deal health, or building",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Strategic account planning and execution for enterprise deals. Use when planning complex sales cycles, managing multiple stakeholders, applying MEDDICC qualific"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3912,
+  "core_bytes": 15783,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 525,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 11280,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. If Your MAP Hasn't Been Updated in 3 Weeks, That Deal Is Dead",
+      "bytes": 1775,
+      "when": [
+        "hasn",
+        "updated",
+        "weeks",
+        "deal",
+        "dead"
+      ]
+    },
+    {
+      "name": "2. The EB Discovery Problem (And Why Deals Die at Week 8)",
+      "bytes": 2375,
+      "when": [
+        "discovery",
+        "problem",
+        "deals",
+        "week"
+      ]
+    },
+    {
+      "name": "3. Personal Win Mapping (People Buy for Themselves)",
+      "bytes": 2194,
+      "when": [
+        "personal",
+        "mapping",
+        "people",
+        "themselves"
+      ]
+    },
+    {
+      "name": "4. Enterprise Account Plan Structure (Four Components)",
+      "bytes": 2423,
+      "when": [
+        "enterprise",
+        "account",
+        "plan",
+        "structure",
+        "four",
+        "components"
+      ]
+    },
+    {
+      "name": "5. LinkedIn Keyword Analysis for Account Intelligence",
+      "bytes": 1358,
+      "when": [
+        "linkedin",
+        "keyword",
+        "analysis",
+        "account",
+        "intelligence"
+      ]
+    },
+    {
+      "name": "6. The Unified Sales Process (Stage Gates)",
+      "bytes": 1135,
+      "when": [
+        "unified",
+        "sales",
+        "process",
+        "stage",
+        "gates"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 853,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Do I Need a Full Account Plan?",
+      "bytes": 259,
+      "when": [
+        "need",
+        "full",
+        "account",
+        "plan"
+      ]
+    },
+    {
+      "name": "Is This Deal Actually Moving?",
+      "bytes": 279,
+      "when": [
+        "deal",
+        "actually",
+        "moving"
+      ]
+    },
+    {
+      "name": "Should I Send the Proposal?",
+      "bytes": 296,
+      "when": [
+        "send",
+        "proposal"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 690,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1173,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 580,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-enterprise-account-planning\\SKILL.md"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "awesome-copilot__what-context-needed",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "65ed7445bf561a5e5199ac77478d2691c05019e0dc32fdddc23db9e45bd9d135",
+  "purpose": "Ask Copilot what files it needs to see before answering a question",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Ask Copilot what files it needs to see before answering a question"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 219,
+  "core_bytes": 881,
+  "sections": [
+    {
+      "name": "My Question",
+      "bytes": 30,
+      "when": [
+        "question"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 220,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 30,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Files I Need",
+      "bytes": 388,
+      "when": [
+        "files",
+        "need"
+      ]
+    },
+    {
+      "name": "Must See (required for accurate answer)",
+      "bytes": 82,
+      "when": [
+        "required",
+        "accurate",
+        "answer"
+      ]
+    },
+    {
+      "name": "Should See (helpful for complete answer)",
+      "bytes": 84,
+      "when": [
+        "helpful",
+        "complete",
+        "answer"
+      ]
+    },
+    {
+      "name": "Already Have",
+      "bytes": 73,
+      "when": [
+        "already"
+      ]
+    },
+    {
+      "name": "Uncertainties",
+      "bytes": 132,
+      "when": [
+        "uncertainties"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\what-context-needed\\SKILL.md"
+}

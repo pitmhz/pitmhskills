@@ -1,0 +1,104 @@
+{
+  "id": "awesome-copilot__mcp-security-audit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7bcc014d001f57ed4d96fcad2e75bdfa9004a33d65e9cecd598305a84427c700",
+  "purpose": "Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when:\n- Reviewing .mcp.json files for security risks\n- Checking MCP server args for hardcoded secrets or sh",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when:\n- Reviewing .mcp.json files for security risks\n- Checking MCP"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3109,
+  "core_bytes": 12517,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 512,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 622,
+      "when": []
+    },
+    {
+      "name": "Audit Check 1: Hardcoded Secrets",
+      "bytes": 1782,
+      "when": [
+        "audit",
+        "check",
+        "hardcoded",
+        "secrets"
+      ]
+    },
+    {
+      "name": "Audit Check 2: Shell Injection Patterns",
+      "bytes": 1297,
+      "when": [
+        "audit",
+        "check",
+        "shell",
+        "injection",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Audit Check 3: Mutable Package References",
+      "bytes": 4568,
+      "when": [
+        "audit",
+        "check",
+        "mutable",
+        "package",
+        "references"
+      ]
+    },
+    {
+      "name": "Audit Check 4: Full Audit Runner",
+      "bytes": 1785,
+      "when": [
+        "audit",
+        "check",
+        "full",
+        "runner"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 636,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Related Resources",
+      "bytes": 300,
+      "when": [
+        "related",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-security-audit\\SKILL.md"
+}

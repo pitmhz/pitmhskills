@@ -1,0 +1,124 @@
+{
+  "id": "nvidia__nv-segment-ct-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "13ccd89533076b6375ef1d31bfa4135559f7d2064bd7ab0d130eafec3ccdd10d",
+  "purpose": "Runs standard or fixed-channel softmax finetuning of NV-Segment-CT VISTA3D on CT NIfTI image/label datasets, with optional MONAI-native MLflow tracking and checkpoint evidence. Uses softmax for predef",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Runs standard or fixed-channel softmax finetuning of NV-Segment-CT VISTA3D on CT NIfTI image/label datasets, with optional MONAI-native MLflow tracking and chec"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4265,
+  "core_bytes": 17058,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 618,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1432,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Choosing the Workflow",
+      "bytes": 1052,
+      "when": [
+        "choosing",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 498,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 3583,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 3098,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 505,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Data Contract",
+      "bytes": 746,
+      "when": [
+        "data",
+        "contract"
+      ]
+    },
+    {
+      "name": "Results",
+      "bytes": 1256,
+      "when": [
+        "results"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1933,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1447,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 254,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-segment-ct-finetune/SKILL.md",
+  "curated": true
+}

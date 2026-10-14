@@ -1,0 +1,278 @@
+{
+  "id": "awesome-copilot__update-llms",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7377a6b500b054bf41a50b744faba999a44d64dce0201e0a0108ce06e6726fcf",
+  "purpose": "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2098,
+  "core_bytes": 8420,
+  "sections": [
+    {
+      "name": "Primary Directive",
+      "bytes": 267,
+      "when": [
+        "primary",
+        "directive"
+      ]
+    },
+    {
+      "name": "Analysis and Planning Phase",
+      "bytes": 1360,
+      "when": [
+        "analysis",
+        "planning",
+        "phase"
+      ]
+    },
+    {
+      "name": "Step 1: Review Current File and Specification",
+      "bytes": 277,
+      "when": [
+        "step",
+        "review",
+        "current",
+        "file",
+        "specification"
+      ]
+    },
+    {
+      "name": "Step 2: Repository Structure Analysis",
+      "bytes": 322,
+      "when": [
+        "step",
+        "repository",
+        "structure",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 3: Content Discovery and Change Detection",
+      "bytes": 381,
+      "when": [
+        "step",
+        "content",
+        "discovery",
+        "change",
+        "detection"
+      ]
+    },
+    {
+      "name": "Step 4: Create Update Plan",
+      "bytes": 271,
+      "when": [
+        "step",
+        "create",
+        "update",
+        "plan"
+      ]
+    },
+    {
+      "name": "Implementation Requirements",
+      "bytes": 1850,
+      "when": [
+        "implementation",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Format Compliance",
+      "bytes": 447,
+      "when": [
+        "format",
+        "compliance"
+      ]
+    },
+    {
+      "name": "Content Requirements",
+      "bytes": 719,
+      "when": [
+        "content",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Content Guidelines",
+      "bytes": 652,
+      "when": [
+        "content",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Execution Steps",
+      "bytes": 1185,
+      "when": [
+        "execution",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Current State Analysis",
+      "bytes": 313,
+      "when": [
+        "step",
+        "current",
+        "state",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 2: Content Planning",
+      "bytes": 291,
+      "when": [
+        "step",
+        "content",
+        "planning"
+      ]
+    },
+    {
+      "name": "Step 3: File Updates",
+      "bytes": 289,
+      "when": [
+        "step",
+        "file",
+        "updates"
+      ]
+    },
+    {
+      "name": "Step 4: Validation",
+      "bytes": 272,
+      "when": [
+        "step",
+        "validation"
+      ]
+    },
+    {
+      "name": "Quality Assurance",
+      "bytes": 703,
+      "when": [
+        "quality",
+        "assurance"
+      ]
+    },
+    {
+      "name": "Format Validation",
+      "bytes": 235,
+      "when": [
+        "format",
+        "validation"
+      ]
+    },
+    {
+      "name": "Content Validation",
+      "bytes": 226,
+      "when": [
+        "content",
+        "validation"
+      ]
+    },
+    {
+      "name": "Specification Compliance",
+      "bytes": 220,
+      "when": [
+        "specification",
+        "compliance"
+      ]
+    },
+    {
+      "name": "Update Strategy",
+      "bytes": 1040,
+      "when": [
+        "update",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Addition Process",
+      "bytes": 310,
+      "when": [
+        "addition",
+        "process"
+      ]
+    },
+    {
+      "name": "Removal Process",
+      "bytes": 253,
+      "when": [
+        "removal",
+        "process"
+      ]
+    },
+    {
+      "name": "Reorganization Process",
+      "bytes": 457,
+      "when": [
+        "reorganization",
+        "process"
+      ]
+    },
+    {
+      "name": "Documentation",
+      "bytes": 266,
+      "when": [
+        "documentation"
+      ]
+    },
+    {
+      "name": "Specifications",
+      "bytes": 203,
+      "when": [
+        "specifications"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 167,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 170,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Optional",
+      "bytes": 177,
+      "when": [
+        "optional"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 494,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\update-llms\\SKILL.md"
+}

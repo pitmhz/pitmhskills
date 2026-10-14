@@ -1,0 +1,85 @@
+{
+  "id": "nvidia__openfold2-nim",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dfb52b98c98c60434cd0690ad75b75d4ecd03aa26241363589aa0251791c01fb",
+  "purpose": "Use this skill for OpenFold2, NVIDIA's BioNeMo NIM microservice for monomer protein structure prediction. Invoke whenever the user mentions OpenFold2, AlphaFold2-like monomer folding, protein sequence",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill for OpenFold2, NVIDIA's BioNeMo NIM microservice for monomer protein structure prediction. Invoke whenever the user mentions OpenFold2, AlphaFold"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1846,
+  "core_bytes": 7385,
+  "sections": [
+    {
+      "name": "Choose Mode",
+      "bytes": 608,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Auth And Environment",
+      "bytes": 327,
+      "when": [
+        "auth",
+        "environment"
+      ]
+    },
+    {
+      "name": "Local Docker",
+      "bytes": 778,
+      "when": [
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "Request Pattern",
+      "bytes": 2048,
+      "when": [
+        "request",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Save And Interpret Output",
+      "bytes": 2003,
+      "when": [
+        "save",
+        "interpret",
+        "output"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 487,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-openfold2-nim\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,99 @@
+{
+  "id": "nvidia__msa-structure-prediction-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "25c1368ea6693bdff22acef949652b0b7fe5950ed3c554e6f69b4d376b1c8d98",
+  "purpose": "NOTE: your protein sequence and the retrieved MSA alignment are transmitted to external NVIDIA-hosted APIs (health.api.nvidia.com) on every call. Use local NIM containers for confidential or proprieta",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "NOTE: your protein sequence and the retrieved MSA alignment are transmitted to external NVIDIA-hosted APIs (health.api.nvidia.com) on every call. Use local NIM "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1689,
+  "core_bytes": 6767,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 486,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Before you start",
+      "bytes": 613,
+      "when": [
+        "before",
+        "start"
+      ]
+    },
+    {
+      "name": "Step 1: Search for MSA with MSA-Search",
+      "bytes": 1230,
+      "when": [
+        "step",
+        "search"
+      ]
+    },
+    {
+      "name": "Step 2: Predict structure with OpenFold3",
+      "bytes": 1693,
+      "when": [
+        "step",
+        "predict",
+        "structure",
+        "openfold3"
+      ]
+    },
+    {
+      "name": "Comparing single-sequence vs MSA-informed prediction",
+      "bytes": 583,
+      "when": [
+        "comparing",
+        "single",
+        "sequence",
+        "informed",
+        "prediction"
+      ]
+    },
+    {
+      "name": "For protein complexes",
+      "bytes": 506,
+      "when": [
+        "protein",
+        "complexes"
+      ]
+    },
+    {
+      "name": "Quick reference — skill dependencies",
+      "bytes": 254,
+      "when": [
+        "quick",
+        "reference",
+        "skill",
+        "dependencies"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-msa-structure-prediction-pipeline\\SKILL.md",
+  "curated": true
+}

@@ -29,7 +29,37 @@
   "conflicts_with": [],
   "body_tokens": 326,
   "core_bytes": 1303,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "1) Inspect comments needing attention",
+      "bytes": 144,
+      "when": [
+        "inspect",
+        "comments",
+        "needing",
+        "attention"
+      ]
+    },
+    {
+      "name": "2) Ask the user for clarification",
+      "bytes": 222,
+      "when": [
+        "user",
+        "clarification"
+      ]
+    },
+    {
+      "name": "3) If user chooses comments",
+      "bytes": 192,
+      "when": [
+        "user",
+        "chooses",
+        "comments"
+      ]
+    }
+  ],
+  "verify": [
+    "gh auth status"
+  ],
   "skill_path": "skills/openai/skills/.curated/gh-address-comments/SKILL.md"
 }

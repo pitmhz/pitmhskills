@@ -1,0 +1,295 @@
+{
+  "id": "nvidia__nemo-mbridge-multi-node-slurm",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8aff1ab52805db66e0b716002c7728224e2728b082c868773119d273e73aa478",
+  "purpose": "Convert single-node scripts to multi-node Slurm sbatch jobs and debug common multi-node failures. Covers srun-native vs uv run torch.distributed approaches, container setup, NCCL timeouts, OOM sizing ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Convert single-node scripts to multi-node Slurm sbatch jobs and debug common multi-node failures. Covers srun-native vs uv run torch.distributed approaches, con"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4030,
+  "core_bytes": 16144,
+  "sections": [
+    {
+      "name": "First Answer Checklist",
+      "bytes": 927,
+      "when": [
+        "first",
+        "answer",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Two Approaches: srun-native vs uv run torch.distributed",
+      "bytes": 768,
+      "when": [
+        "approaches",
+        "srun",
+        "native",
+        "torch",
+        "distributed"
+      ]
+    },
+    {
+      "name": "Cluster Environment",
+      "bytes": 696,
+      "when": [
+        "cluster",
+        "environment"
+      ]
+    },
+    {
+      "name": "Log Directory",
+      "bytes": 75,
+      "when": [
+        "directory"
+      ]
+    },
+    {
+      "name": "srun-native Approach (Preferred)",
+      "bytes": 1329,
+      "when": [
+        "srun",
+        "native",
+        "approach",
+        "preferred"
+      ]
+    },
+    {
+      "name": "SBATCH Headers",
+      "bytes": 356,
+      "when": [
+        "sbatch",
+        "headers"
+      ]
+    },
+    {
+      "name": "Build and Launch",
+      "bytes": 227,
+      "when": [
+        "build",
+        "launch"
+      ]
+    },
+    {
+      "name": "srun-native Key Points",
+      "bytes": 616,
+      "when": [
+        "srun",
+        "native",
+        "points"
+      ]
+    },
+    {
+      "name": "uv run torch.distributed Approach (Legacy)",
+      "bytes": 2202,
+      "when": [
+        "torch",
+        "distributed",
+        "approach",
+        "legacy"
+      ]
+    },
+    {
+      "name": "1. Add SBATCH Headers",
+      "bytes": 617,
+      "when": [
+        "sbatch",
+        "headers"
+      ]
+    },
+    {
+      "name": "2. Convert to Multi-Node",
+      "bytes": 509,
+      "when": [
+        "convert",
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "3. Wrap in TRAIN_CMD + two-phase srun",
+      "bytes": 424,
+      "when": [
+        "wrap",
+        "train",
+        "phase",
+        "srun"
+      ]
+    },
+    {
+      "name": "4. Launch (two-phase)",
+      "bytes": 160,
+      "when": [
+        "launch",
+        "phase"
+      ]
+    },
+    {
+      "name": "5. (Optional) Add Loss Extraction Footer",
+      "bytes": 301,
+      "when": [
+        "optional",
+        "loss",
+        "extraction",
+        "footer"
+      ]
+    },
+    {
+      "name": "Interactive GPU Allocation (`salloc` + `srun`)",
+      "bytes": 2489,
+      "when": [
+        "interactive",
+        "allocation",
+        "salloc",
+        "srun"
+      ]
+    },
+    {
+      "name": "Step 1: Allocate the node",
+      "bytes": 161,
+      "when": [
+        "step",
+        "allocate",
+        "node"
+      ]
+    },
+    {
+      "name": "Step 2: Launch container shell",
+      "bytes": 307,
+      "when": [
+        "step",
+        "launch",
+        "container",
+        "shell"
+      ]
+    },
+    {
+      "name": "Step 3: Set up environment inside container",
+      "bytes": 1882,
+      "when": [
+        "step",
+        "environment",
+        "inside",
+        "container"
+      ]
+    },
+    {
+      "name": "Debugging Multi-Node Failures",
+      "bytes": 5265,
+      "when": [
+        "debugging",
+        "multi",
+        "node",
+        "failures"
+      ]
+    },
+    {
+      "name": "Quick Diagnosis",
+      "bytes": 466,
+      "when": [
+        "quick",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Debugging Checklist",
+      "bytes": 600,
+      "when": [
+        "debugging",
+        "checklist"
+      ]
+    },
+    {
+      "name": "NCCL Timeout at `dist.barrier()` — \"crash on rank 0\"",
+      "bytes": 1300,
+      "when": [
+        "nccl",
+        "timeout",
+        "dist",
+        "barrier",
+        "crash",
+        "rank"
+      ]
+    },
+    {
+      "name": "OOM for MoE Models",
+      "bytes": 1098,
+      "when": [
+        "models"
+      ]
+    },
+    {
+      "name": "`ModuleNotFoundError: No module named 'megatron.core.tensor_parallel'`",
+      "bytes": 363,
+      "when": [
+        "modulenotfounderror",
+        "module",
+        "named",
+        "megatron",
+        "core",
+        "tensor",
+        "parallel"
+      ]
+    },
+    {
+      "name": "FP8 Weight Mismatch in Roundtrip",
+      "bytes": 454,
+      "when": [
+        "weight",
+        "mismatch",
+        "roundtrip"
+      ]
+    },
+    {
+      "name": "`WORLD_SIZE` Not Set with srun",
+      "bytes": 948,
+      "when": [
+        "world",
+        "size",
+        "srun"
+      ]
+    },
+    {
+      "name": "Key Gotchas",
+      "bytes": 1503,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Full Templates and Command Bodies",
+      "bytes": 175,
+      "when": [
+        "full",
+        "templates",
+        "command",
+        "bodies"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-multi-node-slurm/SKILL.md",
+  "curated": true
+}

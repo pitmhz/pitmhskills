@@ -1,0 +1,74 @@
+{
+  "id": "awesome-copilot__convert-pdf-to-md",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "adadaec52cb7bda8b03254df12eae421d58fd85b6e5c96e57f494ee42216b6a1",
+  "purpose": "Converts PDF (.pdf) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a ",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Converts PDF (.pdf) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the u"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1715,
+  "core_bytes": 6890,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 1136,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Setup (once per environment)",
+      "bytes": 532,
+      "when": [
+        "setup",
+        "once",
+        "environment"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 2025,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Deciding where output goes",
+      "bytes": 813,
+      "when": [
+        "deciding",
+        "where",
+        "output",
+        "goes"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1380,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\convert-pdf-to-md\\SKILL.md"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "nvidia__digital-health-clinical-asr-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "6b2ef2b91ac8c6b426df24a0f9d3f2188a755a28d73a13e694561b2a1a208233",
+  "purpose": "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4608,
+  "core_bytes": 18547,
+  "sections": [
+    {
+      "name": "Outbound data flows — surface before any text or audio is sent",
+      "bytes": 2066,
+      "when": [
+        "outbound",
+        "data",
+        "flows",
+        "surface",
+        "before",
+        "text",
+        "audio",
+        "sent"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 555,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use this skill",
+      "bytes": 695,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1303,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 7097,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1a. Verify `NVIDIA_API_KEY` (length-only — never echo the value)",
+      "bytes": 689,
+      "when": [
+        "verify",
+        "nvidia",
+        "length",
+        "echo",
+        "value"
+      ]
+    },
+    {
+      "name": "1b. Install Python dependencies",
+      "bytes": 438,
+      "when": [
+        "install",
+        "python",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "1c. Smoke-test the hosted NVCF stack",
+      "bytes": 4381,
+      "when": [
+        "smoke",
+        "test",
+        "hosted",
+        "nvcf",
+        "stack"
+      ]
+    },
+    {
+      "name": "1d. (Optional) Verify Merriam-Webster lookup",
+      "bytes": 1124,
+      "when": [
+        "optional",
+        "verify",
+        "merriam",
+        "webster",
+        "lookup"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 556,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Artifacts produced",
+      "bytes": 353,
+      "when": [
+        "artifacts",
+        "produced"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1815,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 709,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Next steps",
+      "bytes": 674,
+      "when": [
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 168,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/digital-health-clinical-asr-setup/SKILL.md",
+  "curated": true
+}

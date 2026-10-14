@@ -1,0 +1,162 @@
+{
+  "id": "nvidia__nemotron-policy-generator",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "32a92ef8a37b2025954a267595a3980938eb2da876f5cf13e1284d36b83079d9",
+  "purpose": "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Content-Safety. Produces a Markdown policy, J",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Conte"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4981,
+  "core_bytes": 20104,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 1294,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "What This Skill Produces",
+      "bytes": 1789,
+      "when": [
+        "skill",
+        "produces"
+      ]
+    },
+    {
+      "name": "Target models (compatible with both)",
+      "bytes": 1247,
+      "when": [
+        "target",
+        "models",
+        "compatible",
+        "both"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 11186,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1 — Read the input carefully and classify it",
+      "bytes": 3414,
+      "when": [
+        "step",
+        "read",
+        "input",
+        "carefully",
+        "classify"
+      ]
+    },
+    {
+      "name": "Step 2 — Map rough words to canonical V2 categories (auto-detect)",
+      "bytes": 1337,
+      "when": [
+        "step",
+        "rough",
+        "words",
+        "canonical",
+        "categories",
+        "auto",
+        "detect"
+      ]
+    },
+    {
+      "name": "Step 3 — Expand each rough word into a full category definition",
+      "bytes": 1878,
+      "when": [
+        "step",
+        "expand",
+        "each",
+        "rough",
+        "word",
+        "full",
+        "category",
+        "definition"
+      ]
+    },
+    {
+      "name": "Step 4 — Add the cross-cutting sections",
+      "bytes": 1432,
+      "when": [
+        "step",
+        "cross",
+        "cutting",
+        "sections"
+      ]
+    },
+    {
+      "name": "Step 5 — Generate the requested outputs",
+      "bytes": 2293,
+      "when": [
+        "step",
+        "generate",
+        "requested",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Step 6 — Save outputs and present the files",
+      "bytes": 761,
+      "when": [
+        "step",
+        "save",
+        "outputs",
+        "present",
+        "files"
+      ]
+    },
+    {
+      "name": "Operating Principles",
+      "bytes": 2000,
+      "when": [
+        "operating",
+        "principles"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 931,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 934,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemotron-policy-generator/SKILL.md",
+  "curated": true
+}

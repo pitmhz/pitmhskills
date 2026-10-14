@@ -1,0 +1,149 @@
+{
+  "id": "awesome-copilot__ui-screenshots",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b496e7967ad7d88e9c99a7c23a7544375c24ae483b82415c6440946a3ce68c9d",
+  "purpose": "Capture screenshots of web apps during development using Playwright and PIL. Supports full-page captures, interactive states, and an iterate-on-crop workflow that avoids slow re-screenshots.",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Capture screenshots of web apps during development using Playwright and PIL. Supports full-page captures, interactive states, and an iterate-on-crop workflow th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1867,
+  "core_bytes": 7485,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 292,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 92,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 2331,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Take a raw full-page screenshot",
+      "bytes": 817,
+      "when": [
+        "take",
+        "full",
+        "page",
+        "screenshot"
+      ]
+    },
+    {
+      "name": "2. View the raw image, then crop with PIL",
+      "bytes": 541,
+      "when": [
+        "view",
+        "image",
+        "crop"
+      ]
+    },
+    {
+      "name": "3. Iterate on crop, not on capture",
+      "bytes": 213,
+      "when": [
+        "iterate",
+        "crop",
+        "capture"
+      ]
+    },
+    {
+      "name": "4. Interactive states",
+      "bytes": 515,
+      "when": [
+        "interactive",
+        "states"
+      ]
+    },
+    {
+      "name": "5. Section-specific captures",
+      "bytes": 227,
+      "when": [
+        "section",
+        "specific",
+        "captures"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 873,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Non-Web App Screenshots",
+      "bytes": 3240,
+      "when": [
+        "screenshots"
+      ]
+    },
+    {
+      "name": "mss + ctypes (recommended for desktop windows)",
+      "bytes": 1745,
+      "when": [
+        "ctypes",
+        "recommended",
+        "desktop",
+        "windows"
+      ]
+    },
+    {
+      "name": "Electron apps (VS Code, etc.)",
+      "bytes": 953,
+      "when": [
+        "electron",
+        "apps",
+        "code"
+      ]
+    },
+    {
+      "name": "Decision tree",
+      "bytes": 421,
+      "when": [
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 305,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ui-screenshots\\SKILL.md"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "awesome-copilot__resx-source-generator-migration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9d2cc68ff4cfaf923a4ffdf4cd45896bc2bfba2a3a1dd16680c606efde482409",
+  "purpose": "Migrates a project that uses checked-in .designer.cs files behind .resx to using a source-generator instead",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Migrates a project that uses checked-in .designer.cs files behind .resx to using a source-generator instead"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2221,
+  "core_bytes": 8881,
+  "sections": [
+    {
+      "name": "User Input",
+      "bytes": 253,
+      "when": [
+        "user",
+        "input"
+      ]
+    },
+    {
+      "name": "Migration",
+      "bytes": 5250,
+      "when": [
+        "migration"
+      ]
+    },
+    {
+      "name": "Opt into the source generator",
+      "bytes": 863,
+      "when": [
+        "source",
+        "generator"
+      ]
+    },
+    {
+      "name": "Remove traces of .resx code-behind files",
+      "bytes": 2952,
+      "when": [
+        "remove",
+        "traces",
+        "resx",
+        "code",
+        "behind",
+        "files"
+      ]
+    },
+    {
+      "name": "Update EmbeddedResource items",
+      "bytes": 1375,
+      "when": [
+        "update",
+        "embeddedresource",
+        "items"
+      ]
+    },
+    {
+      "name": "`CustomToolNamespace` metadata special handling",
+      "bytes": 1851,
+      "when": [
+        "customtoolnamespace",
+        "metadata",
+        "special",
+        "handling"
+      ]
+    },
+    {
+      "name": "Resolving namespace/type conflicts",
+      "bytes": 353,
+      "when": [
+        "resolving",
+        "namespace",
+        "type",
+        "conflicts"
+      ]
+    },
+    {
+      "name": "Debugging tips",
+      "bytes": 228,
+      "when": [
+        "debugging",
+        "tips"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 977,
+      "when": [
+        "validation"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\resx-source-generator-migration\\SKILL.md"
+}

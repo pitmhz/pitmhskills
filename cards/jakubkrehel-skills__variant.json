@@ -1,0 +1,132 @@
+{
+  "id": "jakubkrehel-skills__variant",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "552cc8c7224f0d68cd9ae1b4778b8da9c5431c9dac2c56e1eccb73c7c647febf",
+  "purpose": "Builds multiple variants of a component you're working on and helps you iterate and pick one.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Builds multiple variants of a component you're working on and helps you iterate and pick one."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "which flip promote",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1736,
+  "core_bytes": 6942,
+  "sections": [
+    {
+      "name": "Different answers, not different tints",
+      "bytes": 814,
+      "when": [
+        "different",
+        "answers",
+        "tints"
+      ]
+    },
+    {
+      "name": "The floor every variant clears",
+      "bytes": 1074,
+      "when": [
+        "floor",
+        "variant",
+        "clears"
+      ]
+    },
+    {
+      "name": "1. Scope one piece",
+      "bytes": 282,
+      "when": [
+        "scope",
+        "piece"
+      ]
+    },
+    {
+      "name": "2. Learn the ground",
+      "bytes": 555,
+      "when": [
+        "learn",
+        "ground"
+      ]
+    },
+    {
+      "name": "3. Name the axis before writing code",
+      "bytes": 355,
+      "when": [
+        "name",
+        "axis",
+        "before",
+        "writing",
+        "code"
+      ]
+    },
+    {
+      "name": "4. Build it into the real page",
+      "bytes": 1005,
+      "when": [
+        "build",
+        "real",
+        "page"
+      ]
+    },
+    {
+      "name": "5. Present the tradeoffs and stop",
+      "bytes": 858,
+      "when": [
+        "present",
+        "tradeoffs",
+        "stop"
+      ]
+    },
+    {
+      "name": "6. Promote one, delete the rest",
+      "bytes": 488,
+      "when": [
+        "promote",
+        "delete",
+        "rest"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 934,
+      "when": [
+        "before",
+        "finish"
+      ]
+    }
+  ],
+  "keywords": [
+    "different",
+    "answers",
+    "tints",
+    "floor",
+    "variant",
+    "clears",
+    "scope",
+    "piece",
+    "learn",
+    "ground",
+    "name",
+    "axis",
+    "before",
+    "writing",
+    "code"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\variant\\SKILL.md"
+}

@@ -1,0 +1,160 @@
+{
+  "id": "awesome-copilot__pinecone-rag",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "31f32b56986b60ecbd51292bd734338bde31eb9fec088f7644bfaf183eeb1601",
+  "purpose": "Build production RAG pipelines and persistent agent memory using Pinecone as the vector database backend. ALWAYS USE THIS SKILL when the user mentions Pinecone, wants to index documents for semantic s",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build production RAG pipelines and persistent agent memory using Pinecone as the vector database backend. ALWAYS USE THIS SKILL when the user mentions Pinecone,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2405,
+  "core_bytes": 9669,
+  "sections": [
+    {
+      "name": "Before you start — ask one question",
+      "bytes": 628,
+      "when": [
+        "before",
+        "start",
+        "question"
+      ]
+    },
+    {
+      "name": "Step 1 — Choose your index configuration",
+      "bytes": 1297,
+      "when": [
+        "step",
+        "choose",
+        "index",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Step 2 — Embed and upsert documents",
+      "bytes": 1088,
+      "when": [
+        "step",
+        "embed",
+        "upsert",
+        "documents"
+      ]
+    },
+    {
+      "name": "Step 3 — Choose retrieval strategy",
+      "bytes": 1830,
+      "when": [
+        "step",
+        "choose",
+        "retrieval",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Dense (semantic) search — use for most cases",
+      "bytes": 459,
+      "when": [
+        "dense",
+        "semantic",
+        "search",
+        "cases"
+      ]
+    },
+    {
+      "name": "Hybrid search (semantic + BM25 keyword) — use when corpus has exact terminology",
+      "bytes": 866,
+      "when": [
+        "hybrid",
+        "search",
+        "semantic",
+        "bm25",
+        "keyword",
+        "corpus",
+        "exact",
+        "terminology"
+      ]
+    },
+    {
+      "name": "Metadata filtering — use to scope results before semantic ranking",
+      "bytes": 464,
+      "when": [
+        "metadata",
+        "filtering",
+        "scope",
+        "results",
+        "before",
+        "semantic",
+        "ranking"
+      ]
+    },
+    {
+      "name": "Step 4A — Full RAG pipeline (document use case)",
+      "bytes": 769,
+      "when": [
+        "step",
+        "full",
+        "pipeline",
+        "document",
+        "case"
+      ]
+    },
+    {
+      "name": "Step 4B — Agent memory (memory use case)",
+      "bytes": 1248,
+      "when": [
+        "step",
+        "agent",
+        "memory",
+        "case"
+      ]
+    },
+    {
+      "name": "Step 5 — Wire it together and test end to end",
+      "bytes": 629,
+      "when": [
+        "step",
+        "wire",
+        "together",
+        "test"
+      ]
+    },
+    {
+      "name": "Common pitfalls — fix these before they become bugs",
+      "bytes": 683,
+      "when": [
+        "common",
+        "pitfalls",
+        "before",
+        "they",
+        "become",
+        "bugs"
+      ]
+    },
+    {
+      "name": "When NOT to use this skill",
+      "bytes": 377,
+      "when": [
+        "skill"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\pinecone-rag\\SKILL.md"
+}

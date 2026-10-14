@@ -27,7 +27,29 @@
   "conflicts_with": [],
   "body_tokens": 386,
   "core_bytes": 1543,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 245,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "How to use this skill",
+      "bytes": 756,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Keywords",
+      "bytes": 124,
+      "when": [
+        "keywords"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/internal-comms/SKILL.md"
 }

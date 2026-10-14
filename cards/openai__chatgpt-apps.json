@@ -30,7 +30,213 @@
   "conflicts_with": [],
   "body_tokens": 4984,
   "core_bytes": 19946,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/chatgpt-apps/SKILL.md"
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 886,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Mandatory Docs-First Workflow",
+      "bytes": 2255,
+      "when": [
+        "mandatory",
+        "docs",
+        "first",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Prompt Guidance",
+      "bytes": 1118,
+      "when": [
+        "prompt",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Classify The App Before Choosing Code",
+      "bytes": 729,
+      "when": [
+        "classify",
+        "before",
+        "choosing",
+        "code"
+      ]
+    },
+    {
+      "name": "Default Starting-Point Order",
+      "bytes": 747,
+      "when": [
+        "default",
+        "starting",
+        "point",
+        "order"
+      ]
+    },
+    {
+      "name": "Build Workflow",
+      "bytes": 11241,
+      "when": [
+        "build",
+        "workflow"
+      ]
+    },
+    {
+      "name": "0. Classify The App Archetype",
+      "bytes": 490,
+      "when": [
+        "classify",
+        "archetype"
+      ]
+    },
+    {
+      "name": "1. Plan Tools Before Code",
+      "bytes": 1040,
+      "when": [
+        "plan",
+        "tools",
+        "before",
+        "code"
+      ]
+    },
+    {
+      "name": "2. Choose an App Architecture",
+      "bytes": 581,
+      "when": [
+        "choose",
+        "architecture"
+      ]
+    },
+    {
+      "name": "2a. Start From An Upstream Example When One Fits",
+      "bytes": 980,
+      "when": [
+        "start",
+        "upstream",
+        "example",
+        "fits"
+      ]
+    },
+    {
+      "name": "2b. Use the Starter Script When a Low-Dependency Fallback Helps",
+      "bytes": 1213,
+      "when": [
+        "starter",
+        "script",
+        "dependency",
+        "fallback",
+        "helps"
+      ]
+    },
+    {
+      "name": "3. Scaffold the MCP Server",
+      "bytes": 707,
+      "when": [
+        "scaffold",
+        "server"
+      ]
+    },
+    {
+      "name": "4. Scaffold the Widget UI",
+      "bytes": 1710,
+      "when": [
+        "scaffold",
+        "widget"
+      ]
+    },
+    {
+      "name": "5. Add Resource Metadata and Security",
+      "bytes": 455,
+      "when": [
+        "resource",
+        "metadata",
+        "security"
+      ]
+    },
+    {
+      "name": "5a. Enforce A Minimum Working Repo Contract",
+      "bytes": 829,
+      "when": [
+        "enforce",
+        "minimum",
+        "working",
+        "repo",
+        "contract"
+      ]
+    },
+    {
+      "name": "6. Validate the Local Loop",
+      "bytes": 821,
+      "when": [
+        "validate",
+        "local",
+        "loop"
+      ]
+    },
+    {
+      "name": "7. Connect and Test in ChatGPT (Developer Mode)",
+      "bytes": 866,
+      "when": [
+        "connect",
+        "test",
+        "chatgpt",
+        "developer",
+        "mode"
+      ]
+    },
+    {
+      "name": "8. Plan Production Hosting and Deployment",
+      "bytes": 643,
+      "when": [
+        "plan",
+        "production",
+        "hosting",
+        "deployment"
+      ]
+    },
+    {
+      "name": "9. Prepare Submission and Publish (Public Apps Only)",
+      "bytes": 885,
+      "when": [
+        "prepare",
+        "submission",
+        "publish",
+        "public",
+        "apps"
+      ]
+    },
+    {
+      "name": "Interactive State Guidance",
+      "bytes": 605,
+      "when": [
+        "interactive",
+        "state",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Output Expectations",
+      "bytes": 894,
+      "when": [
+        "output",
+        "expectations"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 957,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/chatgpt-apps/SKILL.md",
+  "curated": true
 }

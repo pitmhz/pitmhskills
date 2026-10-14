@@ -1,0 +1,273 @@
+{
+  "id": "awesome-copilot__legacy-circuit-mockups",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2087521d62e0f99d15db3a73389d0d8bcdf45b4913f3fcfc7ef2657eae6df4de",
+  "purpose": "Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques. Use when asked to create circuit layouts, visualize electronic component placements, draw breadboard diag",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques. Use when asked to create circuit layouts, visualize electronic co"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2304,
+  "core_bytes": 9249,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 512,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 159,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Supported Components",
+      "bytes": 1831,
+      "when": [
+        "supported",
+        "components"
+      ]
+    },
+    {
+      "name": "Microprocessors & Memory",
+      "bytes": 321,
+      "when": [
+        "microprocessors",
+        "memory"
+      ]
+    },
+    {
+      "name": "Logic & Timer ICs",
+      "bytes": 386,
+      "when": [
+        "logic",
+        "timer"
+      ]
+    },
+    {
+      "name": "Passive & Active Components",
+      "bytes": 439,
+      "when": [
+        "passive",
+        "active",
+        "components"
+      ]
+    },
+    {
+      "name": "Grid System",
+      "bytes": 201,
+      "when": [
+        "grid",
+        "system"
+      ]
+    },
+    {
+      "name": "Component Rendering Pattern",
+      "bytes": 282,
+      "when": [
+        "component",
+        "rendering",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Wire Connections",
+      "bytes": 177,
+      "when": [
+        "wire",
+        "connections"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflows",
+      "bytes": 942,
+      "when": [
+        "step",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Creating a Basic LED Circuit Mockup",
+      "bytes": 290,
+      "when": [
+        "creating",
+        "basic",
+        "circuit",
+        "mockup"
+      ]
+    },
+    {
+      "name": "Creating a 555 Timer Circuit",
+      "bytes": 289,
+      "when": [
+        "creating",
+        "timer",
+        "circuit"
+      ]
+    },
+    {
+      "name": "Creating a 6502 Microprocessor Layout",
+      "bytes": 336,
+      "when": [
+        "creating",
+        "6502",
+        "microprocessor",
+        "layout"
+      ]
+    },
+    {
+      "name": "Component Pinout Quick Reference",
+      "bytes": 1079,
+      "when": [
+        "component",
+        "pinout",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "555 Timer (8-pin DIP)",
+      "bytes": 400,
+      "when": [
+        "timer"
+      ]
+    },
+    {
+      "name": "W65C02S (40-pin DIP) - Key Pins",
+      "bytes": 301,
+      "when": [
+        "w65c02s",
+        "pins"
+      ]
+    },
+    {
+      "name": "28C256 EEPROM (28-pin DIP) - Key Pins",
+      "bytes": 341,
+      "when": [
+        "28c256",
+        "eeprom",
+        "pins"
+      ]
+    },
+    {
+      "name": "Formulas Reference",
+      "bytes": 538,
+      "when": [
+        "formulas",
+        "reference"
+      ]
+    },
+    {
+      "name": "Resistor Calculations",
+      "bytes": 134,
+      "when": [
+        "resistor",
+        "calculations"
+      ]
+    },
+    {
+      "name": "555 Timer Formulas",
+      "bytes": 275,
+      "when": [
+        "timer",
+        "formulas"
+      ]
+    },
+    {
+      "name": "Capacitor Calculations",
+      "bytes": 106,
+      "when": [
+        "capacitor",
+        "calculations"
+      ]
+    },
+    {
+      "name": "Color Coding Conventions",
+      "bytes": 448,
+      "when": [
+        "color",
+        "coding",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Wire Colors",
+      "bytes": 228,
+      "when": [
+        "wire",
+        "colors"
+      ]
+    },
+    {
+      "name": "LED Colors",
+      "bytes": 191,
+      "when": [
+        "colors"
+      ]
+    },
+    {
+      "name": "Build Examples",
+      "bytes": 742,
+      "when": [
+        "build",
+        "examples"
+      ]
+    },
+    {
+      "name": "Build 1 — Single LED",
+      "bytes": 328,
+      "when": [
+        "build",
+        "single"
+      ]
+    },
+    {
+      "name": "Build 2 — 555 Astable Blinker",
+      "bytes": 395,
+      "when": [
+        "build",
+        "astable",
+        "blinker"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 374,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1751,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\legacy-circuit-mockups\\SKILL.md"
+}

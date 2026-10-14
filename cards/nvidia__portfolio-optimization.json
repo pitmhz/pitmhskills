@@ -1,0 +1,136 @@
+{
+  "id": "nvidia__portfolio-optimization",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4411318689dde46056632650ba68d608b13783df816c9e8f45fb90a548c52317",
+  "purpose": "Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, Mean-Variance/SOCP variance caps, efficient frontiers, scenario generation, or NVIDIA cuOpt.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, Mean-Variance/SOCP variance caps, efficient frontiers"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4980,
+  "core_bytes": 19919,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 406,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 1481,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 620,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 1620,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 4282,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Canonical Workflow Skeleton",
+      "bytes": 4295,
+      "when": [
+        "canonical",
+        "workflow",
+        "skeleton"
+      ]
+    },
+    {
+      "name": "Mean-CVaR workflow",
+      "bytes": 1428,
+      "when": [
+        "mean",
+        "cvar",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Mean-Variance SOCP workflow",
+      "bytes": 2625,
+      "when": [
+        "mean",
+        "variance",
+        "socp",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Data and Defaults",
+      "bytes": 816,
+      "when": [
+        "data",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Key APIs",
+      "bytes": 2346,
+      "when": [
+        "apis"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1033,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 899,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1464,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/portfolio-optimization/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,90 @@
+{
+  "id": "mengto-skills__3d-four-seasons",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "76d93b3dd5465ab2ff6082bf2daef18fde12ad90d42187cc7d47895064cca4be",
+  "purpose": "Add coordinated spring, summer, fall, and winter states to a 3D scene, blending foliage, sunlight, sky, ground materials, snow, and particles without rebuilding the world. Use for seasonal controls, a",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Add coordinated spring, summer, fall, and winter states to a 3D scene, blending foliage, sunlight, sky, ground materials, snow, and particles without rebuilding"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1274,
+  "core_bytes": 5100,
+  "sections": [
+    {
+      "name": "Author the seasonal identity",
+      "bytes": 1000,
+      "when": [
+        "author",
+        "seasonal",
+        "identity"
+      ]
+    },
+    {
+      "name": "Share one state",
+      "bytes": 1127,
+      "when": [
+        "share",
+        "state"
+      ]
+    },
+    {
+      "name": "Change foliage and snow convincingly",
+      "bytes": 958,
+      "when": [
+        "change",
+        "foliage",
+        "snow",
+        "convincingly"
+      ]
+    },
+    {
+      "name": "Keep the transition responsive",
+      "bytes": 871,
+      "when": [
+        "keep",
+        "transition",
+        "responsive"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 628,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "seasons",
+    "author",
+    "identity",
+    "share",
+    "state",
+    "change",
+    "convincingly",
+    "keep",
+    "transition",
+    "responsive",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-four-seasons\\SKILL.md"
+}

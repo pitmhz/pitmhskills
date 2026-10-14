@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__blue-cloudy-clean-modern",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "7c464a4e39f524344e798e1005350b22eecbc302f3ef0ce6367d1a94b43acca3",
+  "purpose": "Create a clean modern design system with a luminous blue sky atmosphere, soft drifting cloud light, minimal white framing, and serene premium typography.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a clean modern design system with a luminous blue sky atmosphere, soft drifting cloud light, minimal white framing, and serene premium typography."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1056,
+  "core_bytes": 4222,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 172,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 15,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 421,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Visual target",
+      "bytes": 711,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "Implementation guidance",
+      "bytes": 1026,
+      "when": [
+        "implementation",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Recommended patterns",
+      "bytes": 622,
+      "when": [
+        "recommended",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Tuning knobs",
+      "bytes": 617,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 388,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "cloudy",
+    "skill",
+    "workflow",
+    "scope",
+    "visual",
+    "target",
+    "implementation",
+    "guidance",
+    "recommended",
+    "patterns",
+    "tuning",
+    "knobs"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\blue-cloudy-clean-modern\\SKILL.md"
+}

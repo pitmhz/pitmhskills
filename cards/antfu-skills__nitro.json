@@ -1,0 +1,64 @@
+{
+  "id": "antfu-skills__nitro",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "252a6161a8b83e2e4c7c087a47fcf70c0948e63b1f79872bbd036bd0f990ffea",
+  "purpose": "Nitro is the framework-agnostic server toolkit (powering Nuxt) for building and deploying web servers anywhere. Use when working with nitro.config, server routes/event handlers, route rules, caching, ",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Nitro is the framework-agnostic server toolkit (powering Nuxt) for building and deploying web servers anywhere. Use when working with nitro.config, server route"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 961,
+  "core_bytes": 3850,
+  "sections": [
+    {
+      "name": "Core",
+      "bytes": 829,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 717,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Advanced / Deployment",
+      "bytes": 386,
+      "when": [
+        "advanced",
+        "deployment"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "features",
+    "advanced",
+    "deployment"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\nitro\\SKILL.md"
+}

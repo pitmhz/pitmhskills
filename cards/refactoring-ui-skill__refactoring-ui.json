@@ -1,0 +1,151 @@
+{
+  "id": "refactoring-ui-skill__refactoring-ui",
+  "tier": "B",
+  "origin": [
+    "s0xDk/refactoring-ui-skill@48872143abb0a8feb6d9bf58e222afbd800210b0"
+  ],
+  "license": "MIT",
+  "hash": "128d89a4e8b8b992761217c768a61846bb692ca6fd1d99de8537334ea2419ad0",
+  "purpose": "Design and improve user interfaces using the concrete rules from Refactoring UI (Wathan & Schoger) — constrained spacing/type/color/shadow scales, visual hierarchy through weight and color rather than",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design and improve user interfaces using the concrete rules from Refactoring UI (Wathan & Schoger) — constrained spacing/type/color/shadow scales, visual hierar",
+    "Applying Refactoring UI rules: constrained spacing, type, color and shadow scales, for pages and settings screens"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Refactoring-UI rules pass -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "refactoring rules shadow constrained",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3531,
+  "core_bytes": 14259,
+  "sections": [
+    {
+      "name": "The systems — use these, do not re-derive them",
+      "bytes": 4758,
+      "when": [
+        "systems",
+        "derive",
+        "them"
+      ]
+    },
+    {
+      "name": "Spacing and sizing",
+      "bytes": 730,
+      "when": [
+        "spacing",
+        "sizing"
+      ]
+    },
+    {
+      "name": "Type scale",
+      "bytes": 543,
+      "when": [
+        "type",
+        "scale"
+      ]
+    },
+    {
+      "name": "Font weight",
+      "bytes": 247,
+      "when": [
+        "font",
+        "weight"
+      ]
+    },
+    {
+      "name": "Color",
+      "bytes": 1361,
+      "when": [
+        "color"
+      ]
+    },
+    {
+      "name": "Shadows — five elevations",
+      "bytes": 943,
+      "when": [
+        "shadows",
+        "five",
+        "elevations"
+      ]
+    },
+    {
+      "name": "Line-height and line length",
+      "bytes": 609,
+      "when": [
+        "line",
+        "height",
+        "length"
+      ]
+    },
+    {
+      "name": "Border radius",
+      "bytes": 204,
+      "when": [
+        "border",
+        "radius"
+      ]
+    },
+    {
+      "name": "The procedure",
+      "bytes": 1894,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Hierarchy — the technique that does the most work",
+      "bytes": 2633,
+      "when": [
+        "hierarchy",
+        "technique",
+        "work"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 2478,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1481,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "systems",
+    "derive",
+    "them",
+    "sizing",
+    "scale",
+    "five",
+    "elevations",
+    "line",
+    "height",
+    "length",
+    "procedure",
+    "technique",
+    "work"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\refactoring-ui-skill\\SKILL.md",
+  "curated": true
+}

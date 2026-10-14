@@ -30,7 +30,69 @@
   "conflicts_with": [],
   "body_tokens": 1683,
   "core_bytes": 6759,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/code-review/SKILL.md"
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 5443,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "1. Pin the fixed point",
+      "bytes": 567,
+      "when": [
+        "fixed",
+        "point"
+      ]
+    },
+    {
+      "name": "2. Identify the spec source",
+      "bytes": 506,
+      "when": [
+        "identify",
+        "spec",
+        "source"
+      ]
+    },
+    {
+      "name": "3. Identify the standards sources",
+      "bytes": 2575,
+      "when": [
+        "identify",
+        "standards",
+        "sources"
+      ]
+    },
+    {
+      "name": "4. Spawn both sub-agents in parallel",
+      "bytes": 1353,
+      "when": [
+        "spawn",
+        "both",
+        "agents",
+        "parallel"
+      ]
+    },
+    {
+      "name": "5. Aggregate",
+      "bytes": 428,
+      "when": [
+        "aggregate"
+      ]
+    },
+    {
+      "name": "Why two axes",
+      "bytes": 358,
+      "when": [
+        "axes"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/code-review/SKILL.md",
+  "curated": true
 }

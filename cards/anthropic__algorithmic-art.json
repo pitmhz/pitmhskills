@@ -27,7 +27,156 @@
   "conflicts_with": [],
   "body_tokens": 5035,
   "core_bytes": 20173,
-  "sections": [],
+  "sections": [
+    {
+      "name": "ALGORITHMIC PHILOSOPHY CREATION",
+      "bytes": 6513,
+      "when": [
+        "algorithmic",
+        "philosophy",
+        "creation"
+      ]
+    },
+    {
+      "name": "THE CRITICAL UNDERSTANDING",
+      "bytes": 711,
+      "when": [
+        "critical",
+        "understanding"
+      ]
+    },
+    {
+      "name": "HOW TO GENERATE AN ALGORITHMIC PHILOSOPHY",
+      "bytes": 1576,
+      "when": [
+        "generate",
+        "algorithmic",
+        "philosophy"
+      ]
+    },
+    {
+      "name": "PHILOSOPHY EXAMPLES",
+      "bytes": 2797,
+      "when": [
+        "philosophy",
+        "examples"
+      ]
+    },
+    {
+      "name": "ESSENTIAL PRINCIPLES",
+      "bytes": 1078,
+      "when": [
+        "essential",
+        "principles"
+      ]
+    },
+    {
+      "name": "DEDUCING THE CONCEPTUAL SEED",
+      "bytes": 935,
+      "when": [
+        "deducing",
+        "conceptual",
+        "seed"
+      ]
+    },
+    {
+      "name": "P5.JS IMPLEMENTATION",
+      "bytes": 4939,
+      "when": [
+        "implementation"
+      ]
+    },
+    {
+      "name": "⚠️ STEP 0: READ THE TEMPLATE FIRST ⚠️",
+      "bytes": 1232,
+      "when": [
+        "step",
+        "read",
+        "template",
+        "first"
+      ]
+    },
+    {
+      "name": "TECHNICAL REQUIREMENTS",
+      "bytes": 2291,
+      "when": [
+        "technical",
+        "requirements"
+      ]
+    },
+    {
+      "name": "CRAFTSMANSHIP REQUIREMENTS",
+      "bytes": 691,
+      "when": [
+        "craftsmanship",
+        "requirements"
+      ]
+    },
+    {
+      "name": "OUTPUT FORMAT",
+      "bytes": 496,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "INTERACTIVE ARTIFACT CREATION",
+      "bytes": 4230,
+      "when": [
+        "interactive",
+        "artifact",
+        "creation"
+      ]
+    },
+    {
+      "name": "CRITICAL: WHAT'S FIXED VS VARIABLE",
+      "bytes": 1178,
+      "when": [
+        "critical",
+        "fixed",
+        "variable"
+      ]
+    },
+    {
+      "name": "REQUIRED FEATURES",
+      "bytes": 2402,
+      "when": [
+        "required",
+        "features"
+      ]
+    },
+    {
+      "name": "USING THE ARTIFACT",
+      "bytes": 285,
+      "when": [
+        "artifact"
+      ]
+    },
+    {
+      "name": "VARIATIONS & EXPLORATION",
+      "bytes": 694,
+      "when": [
+        "variations",
+        "exploration"
+      ]
+    },
+    {
+      "name": "THE CREATIVE PROCESS",
+      "bytes": 897,
+      "when": [
+        "creative",
+        "process"
+      ]
+    },
+    {
+      "name": "RESOURCES",
+      "bytes": 1170,
+      "when": [
+        "resources"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/algorithmic-art/SKILL.md"
 }

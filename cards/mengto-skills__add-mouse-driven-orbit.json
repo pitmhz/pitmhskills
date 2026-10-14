@@ -1,0 +1,110 @@
+{
+  "id": "mengto-skills__add-mouse-driven-orbit",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "61df5ebd4f9f03195caced760043774117cc3ca040473ef7c9c63e4157d5549e",
+  "purpose": "Add restrained mouse-driven orbit and parallax depth to a Three.js hero by damping one pointer target and splitting it across camera translation, look-at, and small object rotations. Use for passive c",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Add restrained mouse-driven orbit and parallax depth to a Three.js hero by damping one pointer target and splitting it across camera translation, look-at, and s"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1515,
+  "core_bytes": 6066,
+  "sections": [
+    {
+      "name": "Record intent, not layout",
+      "bytes": 671,
+      "when": [
+        "record",
+        "intent",
+        "layout"
+      ]
+    },
+    {
+      "name": "Dampen in the frame loop",
+      "bytes": 722,
+      "when": [
+        "dampen",
+        "frame",
+        "loop"
+      ]
+    },
+    {
+      "name": "Split the motion",
+      "bytes": 1451,
+      "when": [
+        "split",
+        "motion"
+      ]
+    },
+    {
+      "name": "Preserve framing across sizes",
+      "bytes": 541,
+      "when": [
+        "preserve",
+        "framing",
+        "sizes"
+      ]
+    },
+    {
+      "name": "Respect motion and lifecycle",
+      "bytes": 591,
+      "when": [
+        "respect",
+        "motion",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "State the cost honestly",
+      "bytes": 368,
+      "when": [
+        "state",
+        "cost",
+        "honestly"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 781,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "record",
+    "intent",
+    "layout",
+    "dampen",
+    "frame",
+    "loop",
+    "split",
+    "motion",
+    "preserve",
+    "framing",
+    "sizes",
+    "respect",
+    "lifecycle"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\add-mouse-driven-orbit\\SKILL.md"
+}

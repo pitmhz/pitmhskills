@@ -1,0 +1,60 @@
+{
+  "id": "antfu-skills__vitest",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "6bf68f5fdda60ffc959808c97386b0938b26dbb0ba52fbc96e5ce9aba45c7176",
+  "purpose": "Vitest fast unit testing framework powered by Vite with Jest-compatible API. Use when writing tests, mocking, configuring coverage, or working with test filtering and fixtures.",
+  "domain": "memory",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Vitest fast unit testing framework powered by Vite with Jest-compatible API. Use when writing tests, mocking, configuring coverage, or working with test filteri"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 941,
+  "core_bytes": 3763,
+  "sections": [
+    {
+      "name": "Core",
+      "bytes": 771,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 1244,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "bytes": 601,
+      "when": [
+        "advanced"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "features",
+    "advanced"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\vitest\\SKILL.md"
+}

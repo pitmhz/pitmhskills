@@ -28,7 +28,121 @@
   "conflicts_with": [],
   "body_tokens": 2200,
   "core_bytes": 8802,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Redact",
+      "bytes": 418,
+      "when": [
+        "redact"
+      ]
+    },
+    {
+      "name": "Phase 1: Build a feedback loop",
+      "bytes": 3914,
+      "when": [
+        "phase",
+        "build",
+        "feedback",
+        "loop"
+      ]
+    },
+    {
+      "name": "Ways to construct one, in roughly this order",
+      "bytes": 1341,
+      "when": [
+        "ways",
+        "construct",
+        "roughly",
+        "order"
+      ]
+    },
+    {
+      "name": "Tighten the loop",
+      "bytes": 485,
+      "when": [
+        "tighten",
+        "loop"
+      ]
+    },
+    {
+      "name": "Non-deterministic bugs",
+      "bytes": 276,
+      "when": [
+        "deterministic",
+        "bugs"
+      ]
+    },
+    {
+      "name": "When you genuinely cannot build a loop",
+      "bytes": 379,
+      "when": [
+        "genuinely",
+        "cannot",
+        "build",
+        "loop"
+      ]
+    },
+    {
+      "name": "Completion criterion: a tight loop that goes red",
+      "bytes": 997,
+      "when": [
+        "completion",
+        "criterion",
+        "tight",
+        "loop",
+        "goes"
+      ]
+    },
+    {
+      "name": "Phase 2: Reproduce + minimise",
+      "bytes": 1111,
+      "when": [
+        "phase",
+        "reproduce",
+        "minimise"
+      ]
+    },
+    {
+      "name": "Minimise",
+      "bytes": 581,
+      "when": [
+        "minimise"
+      ]
+    },
+    {
+      "name": "Phase 3: Hypothesise",
+      "bytes": 736,
+      "when": [
+        "phase",
+        "hypothesise"
+      ]
+    },
+    {
+      "name": "Phase 4: Instrument",
+      "bytes": 709,
+      "when": [
+        "phase",
+        "instrument"
+      ]
+    },
+    {
+      "name": "Phase 5: Fix + regression test",
+      "bytes": 994,
+      "when": [
+        "phase",
+        "regression",
+        "test"
+      ]
+    },
+    {
+      "name": "Phase 6: Cleanup",
+      "bytes": 455,
+      "when": [
+        "phase",
+        "cleanup"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/engineering/diagnosing-bugs/SKILL.md"
 }

@@ -1,0 +1,132 @@
+{
+  "id": "web-animation__svg-animation",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "20ab350e6bf3af2f3febe033c27c2be7ca6c97fc00691d76a046b48f5168a64d",
+  "purpose": "This skill should be used when the user asks to \"animate an SVG\", \"make a line draw itself on\", \"do a stroke draw-on / signature animation\", \"morph one shape into another\", \"move an element along a pa",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"animate an SVG\", \"make a line draw itself on\", \"do a stroke draw-on / signature animation\", \"morph one shape in"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "SVG / stroke-draw animation -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "svg stroke draw morph",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2187,
+  "core_bytes": 8789,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 290,
+      "when": []
+    },
+    {
+      "name": "Core techniques",
+      "bytes": 3612,
+      "when": [
+        "core",
+        "techniques"
+      ]
+    },
+    {
+      "name": "Stroke draw-on (the staple)",
+      "bytes": 875,
+      "when": [
+        "stroke",
+        "draw",
+        "staple"
+      ]
+    },
+    {
+      "name": "Morphing one path into another",
+      "bytes": 1084,
+      "when": [
+        "morphing",
+        "path"
+      ]
+    },
+    {
+      "name": "Motion along a path",
+      "bytes": 894,
+      "when": [
+        "motion",
+        "path"
+      ]
+    },
+    {
+      "name": "Animated gradients and filters",
+      "bytes": 737,
+      "when": [
+        "animated",
+        "gradients",
+        "filters"
+      ]
+    },
+    {
+      "name": "Implementation choice (pick fast)",
+      "bytes": 562,
+      "when": [
+        "implementation",
+        "choice",
+        "pick",
+        "fast"
+      ]
+    },
+    {
+      "name": "Authoring and optimization",
+      "bytes": 760,
+      "when": [
+        "authoring",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2428,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 341,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "techniques",
+    "staple",
+    "implementation",
+    "choice",
+    "pick",
+    "fast",
+    "authoring",
+    "optimization",
+    "deliver",
+    "verify",
+    "standalone",
+    "html"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\svg-animation\\SKILL.md"
+}

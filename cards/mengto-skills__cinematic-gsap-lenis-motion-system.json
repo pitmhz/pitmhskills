@@ -1,0 +1,192 @@
+{
+  "id": "mengto-skills__cinematic-gsap-lenis-motion-system",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b7935fe9496355cc74304219aeed8e99b5f1a87bb787c3eee73e0cbb93f432aa",
+  "purpose": "Create premium cinematic web motion systems with GSAP, ScrollTrigger, and Lenis. Use for luxury editorial websites, creative studio portfolios, Awwwards-style interactions, smooth scroll reveals, stag",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create premium cinematic web motion systems with GSAP, ScrollTrigger, and Lenis. Use for luxury editorial websites, creative studio portfolios, Awwwards-style i",
+    "page transitions before initializing the next route."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Cinematic GSAP+Lenis motion system -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "cinematic lenis luxury editorial",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4555,
+  "core_bytes": 18217,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 389,
+      "when": []
+    },
+    {
+      "name": "Motion Taste",
+      "bytes": 497,
+      "when": [
+        "motion",
+        "taste"
+      ]
+    },
+    {
+      "name": "Base Tokens",
+      "bytes": 404,
+      "when": [
+        "base",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 917,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Markup API",
+      "bytes": 683,
+      "when": [
+        "markup"
+      ]
+    },
+    {
+      "name": "CSS Foundation",
+      "bytes": 929,
+      "when": [
+        "foundation"
+      ]
+    },
+    {
+      "name": "Staggered Text Reveals",
+      "bytes": 3676,
+      "when": [
+        "staggered",
+        "text",
+        "reveals"
+      ]
+    },
+    {
+      "name": "Scroll Reveals",
+      "bytes": 1859,
+      "when": [
+        "scroll",
+        "reveals"
+      ]
+    },
+    {
+      "name": "Clip Image Reveals",
+      "bytes": 810,
+      "when": [
+        "clip",
+        "image",
+        "reveals"
+      ]
+    },
+    {
+      "name": "Parallax Motion",
+      "bytes": 744,
+      "when": [
+        "parallax",
+        "motion"
+      ]
+    },
+    {
+      "name": "Pinned Scroll Sections",
+      "bytes": 1435,
+      "when": [
+        "pinned",
+        "scroll",
+        "sections"
+      ]
+    },
+    {
+      "name": "Premium Hover Interactions",
+      "bytes": 1418,
+      "when": [
+        "premium",
+        "hover",
+        "interactions"
+      ]
+    },
+    {
+      "name": "Custom Cursor",
+      "bytes": 1194,
+      "when": [
+        "custom",
+        "cursor"
+      ]
+    },
+    {
+      "name": "Mouse-Reactive Layers",
+      "bytes": 1178,
+      "when": [
+        "mouse",
+        "reactive",
+        "layers"
+      ]
+    },
+    {
+      "name": "Choreography Rules",
+      "bytes": 445,
+      "when": [
+        "choreography",
+        "rules"
+      ]
+    },
+    {
+      "name": "Performance Rules",
+      "bytes": 517,
+      "when": [
+        "performance",
+        "rules"
+      ]
+    },
+    {
+      "name": "Init Order",
+      "bytes": 239,
+      "when": [
+        "init",
+        "order"
+      ]
+    },
+    {
+      "name": "QA Checklist",
+      "bytes": 460,
+      "when": [
+        "checklist"
+      ]
+    }
+  ],
+  "keywords": [
+    "system",
+    "taste",
+    "base",
+    "tokens",
+    "setup",
+    "markup",
+    "foundation",
+    "clip",
+    "image",
+    "cursor",
+    "layers",
+    "choreography",
+    "rules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\cinematic-gsap-lenis-motion-system\\SKILL.md"
+}

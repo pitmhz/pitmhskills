@@ -1,0 +1,118 @@
+{
+  "id": "millionco-skills__paper-flex",
+  "tier": "B",
+  "origin": [
+    "millionco/skills@462b78424e14ba6895a717733e1d57191dd9912f"
+  ],
+  "license": "MIT",
+  "hash": "c456ce4ca9ddd4d7b3f26e6898595643d8048e20ffa8c5908a7df0cfa1a94d9d",
+  "purpose": "Use when converting Paper canvas or design nodes from absolute positioning to flex or auto-layout. Covers Paper MCP absolute-to-flex restructuring, x-paper-clone preservation, clone z-order, computed ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use when converting Paper canvas or design nodes from absolute positioning to flex or auto-layout. Covers Paper MCP absolute-to-flex restructuring, x-paper-clon"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1671,
+  "core_bytes": 6681,
+  "sections": [
+    {
+      "name": "RED/GREEN Intent",
+      "bytes": 651,
+      "when": [
+        "green",
+        "intent"
+      ]
+    },
+    {
+      "name": "Required First Pass",
+      "bytes": 757,
+      "when": [
+        "required",
+        "first",
+        "pass"
+      ]
+    },
+    {
+      "name": "Source Preservation Rules",
+      "bytes": 631,
+      "when": [
+        "source",
+        "preservation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Conversion Workflow",
+      "bytes": 1108,
+      "when": [
+        "conversion",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Paper-Specific Traps",
+      "bytes": 1154,
+      "when": [
+        "paper",
+        "specific",
+        "traps"
+      ]
+    },
+    {
+      "name": "Layered Cards",
+      "bytes": 441,
+      "when": [
+        "layered",
+        "cards"
+      ]
+    },
+    {
+      "name": "Good And Bad Patterns",
+      "bytes": 520,
+      "when": [
+        "good",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Before Marking Complete, You MUST:",
+      "bytes": 804,
+      "when": [
+        "before",
+        "marking",
+        "complete"
+      ]
+    }
+  ],
+  "keywords": [
+    "green",
+    "intent",
+    "required",
+    "first",
+    "pass",
+    "source",
+    "rules",
+    "conversion",
+    "workflow",
+    "specific",
+    "traps",
+    "good",
+    "patterns"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\millionco-skills\\skills\\paper-flex\\SKILL.md"
+}

@@ -1,0 +1,194 @@
+{
+  "id": "gsap__gsap-core",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "de938eefd9a5bc6335216a17783788cd21408923ead290cda5871b7d61db66b8",
+  "purpose": "Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion). Use when the user asks for a JavaScript",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion)."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3733,
+  "core_bytes": 15046,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 1051,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "When to Use GSAP",
+      "bytes": 1563,
+      "when": [
+        "gsap"
+      ]
+    },
+    {
+      "name": "Prefer GSAP Instead of CSS Animations When",
+      "bytes": 325,
+      "when": [
+        "prefer",
+        "gsap",
+        "instead",
+        "animations"
+      ]
+    },
+    {
+      "name": "When to recommend GSAP over other JavaScript animation libraries",
+      "bytes": 713,
+      "when": [
+        "recommend",
+        "gsap",
+        "javascript",
+        "animation",
+        "libraries"
+      ]
+    },
+    {
+      "name": "Core Tween Methods",
+      "bytes": 505,
+      "when": [
+        "core",
+        "tween",
+        "methods"
+      ]
+    },
+    {
+      "name": "Common vars",
+      "bytes": 1356,
+      "when": [
+        "common",
+        "vars"
+      ]
+    },
+    {
+      "name": "Transforms and CSS properties",
+      "bytes": 2713,
+      "when": [
+        "transforms",
+        "properties"
+      ]
+    },
+    {
+      "name": "Targets",
+      "bytes": 147,
+      "when": [
+        "targets"
+      ]
+    },
+    {
+      "name": "Stagger",
+      "bytes": 410,
+      "when": [
+        "stagger"
+      ]
+    },
+    {
+      "name": "Learn More",
+      "bytes": 73,
+      "when": [
+        "learn"
+      ]
+    },
+    {
+      "name": "Easing",
+      "bytes": 1763,
+      "when": [
+        "easing"
+      ]
+    },
+    {
+      "name": "Custom: use CustomEase (plugin)",
+      "bytes": 569,
+      "when": [
+        "custom",
+        "customease",
+        "plugin"
+      ]
+    },
+    {
+      "name": "Returning and Controlling Tweens",
+      "bytes": 378,
+      "when": [
+        "returning",
+        "controlling",
+        "tweens"
+      ]
+    },
+    {
+      "name": "Function-based values",
+      "bytes": 400,
+      "when": [
+        "function",
+        "based",
+        "values"
+      ]
+    },
+    {
+      "name": "Relative values",
+      "bytes": 387,
+      "when": [
+        "relative",
+        "values"
+      ]
+    },
+    {
+      "name": "Defaults",
+      "bytes": 153,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Accessibility and responsive (gsap.matchMedia())",
+      "bytes": 1997,
+      "when": [
+        "accessibility",
+        "responsive",
+        "gsap",
+        "matchmedia"
+      ]
+    },
+    {
+      "name": "Official GSAP best practices",
+      "bytes": 791,
+      "when": [
+        "official",
+        "gsap",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 816,
+      "when": []
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-core\\SKILL.md",
+  "curated": true
+}

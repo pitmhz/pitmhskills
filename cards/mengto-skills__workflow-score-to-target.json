@@ -1,0 +1,98 @@
+{
+  "id": "mengto-skills__workflow-score-to-target",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "d890a345b6315b0ebe678d317bb6752007f41bfa53842f12f6e4d31ce24557d5",
+  "purpose": "Score work out of 10 against a clear rubric, then improve it round by round until every item reaches the target score the user named (for example \"get it to 8 out of 10\", \"bring everything under 6 up ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Score work out of 10 against a clear rubric, then improve it round by round until every item reaches the target score the user named (for example \"get it to 8 o"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1316,
+  "core_bytes": 5279,
+  "sections": [
+    {
+      "name": "1. Pin down the target and the items",
+      "bytes": 610,
+      "when": [
+        "down",
+        "target",
+        "items"
+      ]
+    },
+    {
+      "name": "2. Anchor the rubric before scoring",
+      "bytes": 1350,
+      "when": [
+        "anchor",
+        "rubric",
+        "before",
+        "scoring"
+      ]
+    },
+    {
+      "name": "3. Score honestly from real evidence",
+      "bytes": 657,
+      "when": [
+        "score",
+        "honestly",
+        "real",
+        "evidence"
+      ]
+    },
+    {
+      "name": "4. Improve in rounds",
+      "bytes": 684,
+      "when": [
+        "improve",
+        "rounds"
+      ]
+    },
+    {
+      "name": "5. Lock it in",
+      "bytes": 393,
+      "when": [
+        "lock"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 663,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "down",
+    "items",
+    "anchor",
+    "scoring",
+    "honestly",
+    "real",
+    "evidence",
+    "rounds",
+    "lock",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\workflow\\workflow-score-to-target\\SKILL.md"
+}

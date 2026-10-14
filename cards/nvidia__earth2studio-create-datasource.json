@@ -1,0 +1,259 @@
+{
+  "id": "nvidia__earth2studio-create-datasource",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "779f00ee9036ed42152b497a681b904e28c0ff458e79c77d3dc75bb7faf3ccc9",
+  "purpose": "Create and validate Earth2Studio data source wrappers (DataSource, ForecastSource, DataFrameSource, ForecastFrameSource) from remote stores. Do NOT use for fetching data with existing sources, model i",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Create and validate Earth2Studio data source wrappers (DataSource, ForecastSource, DataFrameSource, ForecastFrameSource) from remote stores. Do NOT use for fetc"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2714,
+  "core_bytes": 10960,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 301,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 248,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workspace",
+      "bytes": 162,
+      "when": [
+        "workspace"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 8823,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 436,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Workflow Overview",
+      "bytes": 465,
+      "when": [
+        "workflow",
+        "overview"
+      ]
+    },
+    {
+      "name": "Step 0 — Obtain Remote Data Store Reference",
+      "bytes": 368,
+      "when": [
+        "step",
+        "obtain",
+        "remote",
+        "data",
+        "store",
+        "reference"
+      ]
+    },
+    {
+      "name": "Step 1 — Determine Source Type",
+      "bytes": 614,
+      "when": [
+        "step",
+        "determine",
+        "source",
+        "type"
+      ]
+    },
+    {
+      "name": "Step 2 — Examine Remote Store & Propose Dependencies",
+      "bytes": 939,
+      "when": [
+        "step",
+        "examine",
+        "remote",
+        "store",
+        "propose",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Step 3 — Add Dependencies",
+      "bytes": 277,
+      "when": [
+        "step",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Step 4 — Create Lexicon Class",
+      "bytes": 521,
+      "when": [
+        "step",
+        "create",
+        "lexicon",
+        "class"
+      ]
+    },
+    {
+      "name": "Step 5 — Update E2STUDIO_VOCAB / SCHEMA (if needed)",
+      "bytes": 291,
+      "when": [
+        "step",
+        "update",
+        "e2studio",
+        "vocab",
+        "schema",
+        "needed"
+      ]
+    },
+    {
+      "name": "Step 6 — Create Skeleton Data Source File",
+      "bytes": 489,
+      "when": [
+        "step",
+        "create",
+        "skeleton",
+        "data",
+        "source",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 7 — Implement the Data Source & Tests",
+      "bytes": 657,
+      "when": [
+        "step",
+        "implement",
+        "data",
+        "source",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 8 — Register the Source",
+      "bytes": 200,
+      "when": [
+        "step",
+        "register",
+        "source"
+      ]
+    },
+    {
+      "name": "Step 9 — Update Documentation",
+      "bytes": 281,
+      "when": [
+        "step",
+        "update",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Step 10 — Update CHANGELOG.md",
+      "bytes": 239,
+      "when": [
+        "step",
+        "update",
+        "changelog"
+      ]
+    },
+    {
+      "name": "Step 11 — Verify Style & Expand Tests",
+      "bytes": 375,
+      "when": [
+        "step",
+        "verify",
+        "style",
+        "expand",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 12 — Validate Variables & Sanity-Check",
+      "bytes": 414,
+      "when": [
+        "step",
+        "validate",
+        "variables",
+        "sanity",
+        "check"
+      ]
+    },
+    {
+      "name": "Step 13 — Branch, Commit & Open PR",
+      "bytes": 689,
+      "when": [
+        "step",
+        "branch",
+        "commit",
+        "open"
+      ]
+    },
+    {
+      "name": "Step 14 — Automated Code Review",
+      "bytes": 345,
+      "when": [
+        "step",
+        "automated",
+        "code",
+        "review"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 148,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 159,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Reminders",
+      "bytes": 480,
+      "when": [
+        "reminders"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run pytest test/data/ -x"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\earth2studio-create-datasource\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,53 @@
+{
+  "id": "mengto-skills__add-shader-cursor-trail",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "4a686273efb326b17e9169e1eb627c75f108882ef7c76e8f0707b9d31683dc15",
+  "purpose": "Add the Shaders WebGPU mouse effect used for the Tidal Commons hero: a white twinkling halftone cursor trail driven by ChromaFlow, masked through a DotGrid, finished with chromatic ripples and film gr",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Add the Shaders WebGPU mouse effect used for the Tidal Commons hero: a white twinkling halftone cursor trail driven by ChromaFlow, masked through a DotGrid, fin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 768,
+  "core_bytes": 3072,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1551,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 774,
+      "when": [
+        "validate"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "validate"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\add-shader-cursor-trail\\SKILL.md"
+}

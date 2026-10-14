@@ -1,0 +1,218 @@
+{
+  "id": "awesome-copilot__containerize-aspnet-framework",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ba98c33a7b4fdb0648cff5142e652ce78946f0699e235ab8af25fcd58df244e9",
+  "purpose": "Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5202,
+  "core_bytes": 20825,
+  "sections": [
+    {
+      "name": "Containerization Settings",
+      "bytes": 3592,
+      "when": [
+        "containerization",
+        "settings"
+      ]
+    },
+    {
+      "name": "Basic Project Information",
+      "bytes": 633,
+      "when": [
+        "basic",
+        "project",
+        "information"
+      ]
+    },
+    {
+      "name": "Container Configuration",
+      "bytes": 399,
+      "when": [
+        "container",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Build configuration",
+      "bytes": 289,
+      "when": [
+        "build",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 361,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "System Configuration",
+      "bytes": 388,
+      "when": [
+        "system",
+        "configuration"
+      ]
+    },
+    {
+      "name": "File System",
+      "bytes": 305,
+      "when": [
+        "file",
+        "system"
+      ]
+    },
+    {
+      "name": ".dockerignore Configuration",
+      "bytes": 236,
+      "when": [
+        "dockerignore",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Health Check Configuration",
+      "bytes": 195,
+      "when": [
+        "health",
+        "check",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Additional Instructions",
+      "bytes": 219,
+      "when": [
+        "additional",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 653,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Execution Process",
+      "bytes": 6031,
+      "when": [
+        "execution",
+        "process"
+      ]
+    },
+    {
+      "name": "Build and Runtime Verification",
+      "bytes": 353,
+      "when": [
+        "build",
+        "runtime",
+        "verification"
+      ]
+    },
+    {
+      "name": "Progress Tracking",
+      "bytes": 123,
+      "when": [
+        "progress",
+        "tracking"
+      ]
+    },
+    {
+      "name": "Environment Detection",
+      "bytes": 180,
+      "when": [
+        "environment",
+        "detection"
+      ]
+    },
+    {
+      "name": "Configuration Changes",
+      "bytes": 209,
+      "when": [
+        "configuration",
+        "changes"
+      ]
+    },
+    {
+      "name": "Containerization",
+      "bytes": 466,
+      "when": [
+        "containerization"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 442,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Reference Materials",
+      "bytes": 6079,
+      "when": [
+        "reference",
+        "materials"
+      ]
+    },
+    {
+      "name": "Example Dockerfile",
+      "bytes": 6055,
+      "when": [
+        "example",
+        "dockerfile"
+      ]
+    },
+    {
+      "name": "Adapting this Example",
+      "bytes": 489,
+      "when": [
+        "adapting",
+        "example"
+      ]
+    },
+    {
+      "name": "Notes on Stage Naming",
+      "bytes": 1559,
+      "when": [
+        "notes",
+        "stage",
+        "naming"
+      ]
+    },
+    {
+      "name": "LogMonitorConfig.json",
+      "bytes": 1337,
+      "when": [
+        "logmonitorconfig",
+        "json"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\containerize-aspnet-framework\\SKILL.md"
+}

@@ -1,0 +1,163 @@
+{
+  "id": "nvidia__paidf-augmentation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d67e398bccaad47cbf0c8a336d6f994ea66886fe1282bee65ed5c4f27a0f4b6a",
+  "purpose": "Use when authoring or validating PAIDF augmentation YAML configs, or running remote Cosmos Transfer (including Cosmos3 WSM controls), Cosmos Predict, image-edit, or image-to-video inference.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when authoring or validating PAIDF augmentation YAML configs, or running remote Cosmos Transfer (including Cosmos3 WSM controls), Cosmos Predict, image-edit"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5393,
+  "core_bytes": 21643,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 465,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1477,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1884,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "BYOM model: endpoints, adapters, roles",
+      "bytes": 488,
+      "when": [
+        "byom",
+        "model",
+        "endpoints",
+        "adapters",
+        "roles"
+      ]
+    },
+    {
+      "name": "Supported Models",
+      "bytes": 1669,
+      "when": [
+        "supported",
+        "models"
+      ]
+    },
+    {
+      "name": "Canonical Workflow",
+      "bytes": 6939,
+      "when": [
+        "canonical",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Config Correction Budget",
+      "bytes": 554,
+      "when": [
+        "config",
+        "correction",
+        "budget"
+      ]
+    },
+    {
+      "name": "STEP 0 — Mandatory Entry Gate",
+      "bytes": 6256,
+      "when": [
+        "step",
+        "mandatory",
+        "entry",
+        "gate"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 5094,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Step 1: Verify, Build, and Launch the Docker Container",
+      "bytes": 4190,
+      "when": [
+        "step",
+        "verify",
+        "build",
+        "launch",
+        "docker",
+        "container"
+      ]
+    },
+    {
+      "name": "Step 2: Validate, Then Run (Inside the Container)",
+      "bytes": 892,
+      "when": [
+        "step",
+        "validate",
+        "inside",
+        "container"
+      ]
+    },
+    {
+      "name": "Configuration Schema",
+      "bytes": 431,
+      "when": [
+        "configuration",
+        "schema"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 270,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1120,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 1078,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run --no-sync pytest tests/"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\paidf-augmentation\\SKILL.md",
+  "curated": true
+}

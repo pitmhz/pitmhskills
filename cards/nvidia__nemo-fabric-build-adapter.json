@@ -1,0 +1,115 @@
+{
+  "id": "nvidia__nemo-fabric-build-adapter",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "df1695f966eceaa11e81eda246a10a9b1d49d42dfcb0c2ca07cc127e82ff154e",
+  "purpose": "Build, migrate, review, and maintain third-party NVIDIA NeMo Fabric adapters against the public adapter contract. Use when creating adapter or target descriptors, mapping AgentConfig into an agent har",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Build, migrate, review, and maintain third-party NVIDIA NeMo Fabric adapters against the public adapter contract. Use when creating adapter or target descriptor"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3980,
+  "core_bytes": 15917,
+  "sections": [
+    {
+      "name": "Read the Contract",
+      "bytes": 809,
+      "when": [
+        "read",
+        "contract"
+      ]
+    },
+    {
+      "name": "Establish the Boundary",
+      "bytes": 1007,
+      "when": [
+        "establish",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Define the Descriptor First",
+      "bytes": 2129,
+      "when": [
+        "define",
+        "descriptor",
+        "first"
+      ]
+    },
+    {
+      "name": "Package Discovery Metadata",
+      "bytes": 1006,
+      "when": [
+        "package",
+        "discovery",
+        "metadata"
+      ]
+    },
+    {
+      "name": "Map AgentConfig",
+      "bytes": 1121,
+      "when": [
+        "agentconfig"
+      ]
+    },
+    {
+      "name": "Implement the Lifecycle",
+      "bytes": 6522,
+      "when": [
+        "implement",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Support Warm Session Continuation",
+      "bytes": 3312,
+      "when": [
+        "support",
+        "warm",
+        "session",
+        "continuation"
+      ]
+    },
+    {
+      "name": "Handle Custom Agents",
+      "bytes": 1284,
+      "when": [
+        "handle",
+        "custom",
+        "agents"
+      ]
+    },
+    {
+      "name": "Validate Before Handoff",
+      "bytes": 1292,
+      "when": [
+        "validate",
+        "before",
+        "handoff"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-fabric-build-adapter/SKILL.md",
+  "curated": true
+}

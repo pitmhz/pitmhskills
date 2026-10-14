@@ -1,0 +1,168 @@
+{
+  "id": "nvidia__tao-run-on-slurm",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "98d450b7dc253c545a68c43c374695cf6777b147d81cdc725b1099bf245221b2",
+  "purpose": "Remote SLURM GPU cluster execution over SSH with sbatch/srun, Pyxis/Enroot containers, and Lustre-backed",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Remote SLURM GPU cluster execution over SSH with sbatch/srun, Pyxis/Enroot containers, and Lustre-backed"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4932,
+  "core_bytes": 19800,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 268,
+      "when": []
+    },
+    {
+      "name": "Preflight + SSH",
+      "bytes": 1419,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Execution — the four verbs",
+      "bytes": 6302,
+      "when": [
+        "execution",
+        "four",
+        "verbs"
+      ]
+    },
+    {
+      "name": "submit",
+      "bytes": 2744,
+      "when": [
+        "submit"
+      ]
+    },
+    {
+      "name": "status",
+      "bytes": 1098,
+      "when": [
+        "status"
+      ]
+    },
+    {
+      "name": "logs",
+      "bytes": 137,
+      "when": [
+        "logs"
+      ]
+    },
+    {
+      "name": "cancel",
+      "bytes": 209,
+      "when": [
+        "cancel"
+      ]
+    },
+    {
+      "name": "Multi-node (nodes > 1)",
+      "bytes": 1319,
+      "when": [
+        "multi",
+        "node",
+        "nodes"
+      ]
+    },
+    {
+      "name": "Cosmos backend guardrails",
+      "bytes": 308,
+      "when": [
+        "cosmos",
+        "backend",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Storage",
+      "bytes": 785,
+      "when": [
+        "storage"
+      ]
+    },
+    {
+      "name": "Container execution",
+      "bytes": 3570,
+      "when": [
+        "container",
+        "execution"
+      ]
+    },
+    {
+      "name": "Acquire the image off the GPU allocation",
+      "bytes": 2546,
+      "when": [
+        "acquire",
+        "image",
+        "allocation"
+      ]
+    },
+    {
+      "name": "Monitoring and cancellation",
+      "bytes": 1498,
+      "when": [
+        "monitoring",
+        "cancellation"
+      ]
+    },
+    {
+      "name": "Required inputs",
+      "bytes": 1126,
+      "when": [
+        "required",
+        "inputs"
+      ]
+    },
+    {
+      "name": "Resource defaults",
+      "bytes": 842,
+      "when": [
+        "resource",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Multi-node and retries",
+      "bytes": 2167,
+      "when": [
+        "multi",
+        "node",
+        "retries"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 652,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-run-on-slurm/SKILL.md",
+  "curated": true
+}

@@ -27,10 +27,19 @@
   "conflicts_with": [],
   "body_tokens": 268,
   "core_bytes": 1072,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Rules",
+      "bytes": 806,
+      "when": [
+        "rules"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:/Users/Mattchine/skills/cavemem/SKILL.md"
+  "skill_path": "C:/Users/Mattchine/skills/cavemem/SKILL.md",
+  "curated": true
 }

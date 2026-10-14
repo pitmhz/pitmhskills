@@ -1,0 +1,175 @@
+{
+  "id": "nvidia__digital-health-clinical-asr-eval",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c4bd891f9ffc7ce99d8553fbb53b939b6cb5e58375ebe9c23f712993ce928d5a",
+  "purpose": "Stage 3 of Clinical ASR Flywheel. Score a NeMo manifest, produce the five-section KER leaderboard (by-ipa_source diagnostic). Not for ASR auth (/riva-asr).",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Stage 3 of Clinical ASR Flywheel. Score a NeMo manifest, produce the five-section KER leaderboard (by-ipa_source diagnostic). Not for ASR auth (/riva-asr)."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4691,
+  "core_bytes": 18917,
+  "sections": [
+    {
+      "name": "Audio leaves your environment — disclose this to the user before any clip is sen",
+      "bytes": 933,
+      "when": [
+        "audio",
+        "leaves",
+        "environment",
+        "disclose",
+        "user",
+        "before",
+        "clip",
+        "sent"
+      ]
+    },
+    {
+      "name": "Critical workflow rules (apply on every activation)",
+      "bytes": 2747,
+      "when": [
+        "critical",
+        "workflow",
+        "rules",
+        "apply",
+        "activation"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 299,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use this skill",
+      "bytes": 1016,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 606,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 5356,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "3a. Pick the ASR NIM",
+      "bytes": 966,
+      "when": [
+        "pick"
+      ]
+    },
+    {
+      "name": "3b. Transcribe",
+      "bytes": 1670,
+      "when": [
+        "transcribe"
+      ]
+    },
+    {
+      "name": "3c. Score four metrics",
+      "bytes": 1542,
+      "when": [
+        "score",
+        "four",
+        "metrics"
+      ]
+    },
+    {
+      "name": "3d. Breakdowns + leaderboard",
+      "bytes": 1159,
+      "when": [
+        "breakdowns",
+        "leaderboard"
+      ]
+    },
+    {
+      "name": "Decision tree (after eval)",
+      "bytes": 1374,
+      "when": [
+        "decision",
+        "tree",
+        "after",
+        "eval"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1076,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Artifacts produced",
+      "bytes": 398,
+      "when": [
+        "artifacts",
+        "produced"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1389,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 690,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Next steps",
+      "bytes": 397,
+      "when": [
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 437,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/digital-health-clinical-asr-eval/SKILL.md",
+  "curated": true
+}

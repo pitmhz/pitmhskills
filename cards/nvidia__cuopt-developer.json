@@ -1,0 +1,264 @@
+{
+  "id": "nvidia__cuopt-developer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f12489ccc6b6daffcfa313b85d6a627326cbc3961c95bde721b9af5ca89c09f3",
+  "purpose": "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3275,
+  "core_bytes": 13266,
+  "sections": [
+    {
+      "name": "Refusal Rules — Read First",
+      "bytes": 2044,
+      "when": [
+        "refusal",
+        "rules",
+        "read",
+        "first"
+      ]
+    },
+    {
+      "name": "Developer Behavior Rules",
+      "bytes": 1711,
+      "when": [
+        "developer",
+        "behavior",
+        "rules"
+      ]
+    },
+    {
+      "name": "1. Ask Before Assuming",
+      "bytes": 228,
+      "when": [
+        "before",
+        "assuming"
+      ]
+    },
+    {
+      "name": "2. Verify Understanding",
+      "bytes": 228,
+      "when": [
+        "verify",
+        "understanding"
+      ]
+    },
+    {
+      "name": "3. Follow Codebase Patterns",
+      "bytes": 185,
+      "when": [
+        "follow",
+        "codebase",
+        "patterns"
+      ]
+    },
+    {
+      "name": "4. Ask Before Running — Modified for Dev",
+      "bytes": 734,
+      "when": [
+        "before",
+        "running",
+        "modified"
+      ]
+    },
+    {
+      "name": "5. No Privileged Operations",
+      "bytes": 226,
+      "when": [
+        "privileged",
+        "operations"
+      ]
+    },
+    {
+      "name": "Before You Start: Required Questions",
+      "bytes": 833,
+      "when": [
+        "before",
+        "start",
+        "required",
+        "questions"
+      ]
+    },
+    {
+      "name": "Project Architecture",
+      "bytes": 726,
+      "when": [
+        "project",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Supported APIs",
+      "bytes": 318,
+      "when": [
+        "supported",
+        "apis"
+      ]
+    },
+    {
+      "name": "Safety Rules (Non-Negotiable)",
+      "bytes": 563,
+      "when": [
+        "safety",
+        "rules",
+        "negotiable"
+      ]
+    },
+    {
+      "name": "Minimal Diffs",
+      "bytes": 123,
+      "when": [
+        "minimal",
+        "diffs"
+      ]
+    },
+    {
+      "name": "No API Invention",
+      "bytes": 166,
+      "when": [
+        "invention"
+      ]
+    },
+    {
+      "name": "Don't Bypass CI",
+      "bytes": 97,
+      "when": [
+        "bypass"
+      ]
+    },
+    {
+      "name": "CUDA/GPU Hygiene",
+      "bytes": 141,
+      "when": [
+        "cuda",
+        "hygiene"
+      ]
+    },
+    {
+      "name": "Build & Test",
+      "bytes": 2911,
+      "when": [
+        "build",
+        "test"
+      ]
+    },
+    {
+      "name": "Pre-flight Checks (Required Before First Build or Test)",
+      "bytes": 1708,
+      "when": [
+        "flight",
+        "checks",
+        "required",
+        "before",
+        "first",
+        "build",
+        "test"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1184,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Python Bindings",
+      "bytes": 223,
+      "when": [
+        "python",
+        "bindings"
+      ]
+    },
+    {
+      "name": "Contributing — Commits, PRs, Common Tasks",
+      "bytes": 580,
+      "when": [
+        "contributing",
+        "commits",
+        "common",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Coding Conventions",
+      "bytes": 387,
+      "when": [
+        "coding",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Troubleshooting & CI",
+      "bytes": 257,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Key Files Reference",
+      "bytes": 291,
+      "when": [
+        "files",
+        "reference"
+      ]
+    },
+    {
+      "name": "Canonical Documentation",
+      "bytes": 563,
+      "when": [
+        "canonical",
+        "documentation"
+      ]
+    },
+    {
+      "name": "VRP dimension internals (routing engine)",
+      "bytes": 386,
+      "when": [
+        "dimension",
+        "internals",
+        "routing",
+        "engine"
+      ]
+    },
+    {
+      "name": "Numerical issues in non-routing solver internals",
+      "bytes": 622,
+      "when": [
+        "numerical",
+        "issues",
+        "routing",
+        "solver",
+        "internals"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- pytest",
+    "pre-commit run --all-files"
+  ],
+  "skill_path": "skills/nvidia/skills/cuopt-developer/SKILL.md",
+  "curated": true
+}

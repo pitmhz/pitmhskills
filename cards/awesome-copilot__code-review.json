@@ -1,0 +1,117 @@
+{
+  "id": "awesome-copilot__code-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e3b2eb3e11077050cd943196476316314c234e48f7c57268fd0e8a09a8dd67bb",
+  "purpose": "Review pull requests for repository fit, meaningful value, trustworthy provenance, differentiation, and maintainability in awesome-copilot.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Review pull requests for repository fit, meaningful value, trustworthy provenance, differentiation, and maintainability in awesome-copilot."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1929,
+  "core_bytes": 7727,
+  "sections": [
+    {
+      "name": "Review priorities",
+      "bytes": 615,
+      "when": [
+        "review",
+        "priorities"
+      ]
+    },
+    {
+      "name": "Repository fit",
+      "bytes": 765,
+      "when": [
+        "repository"
+      ]
+    },
+    {
+      "name": "Knowledge uplift",
+      "bytes": 1915,
+      "when": [
+        "knowledge",
+        "uplift"
+      ]
+    },
+    {
+      "name": "AI-authored submissions",
+      "bytes": 533,
+      "when": [
+        "authored",
+        "submissions"
+      ]
+    },
+    {
+      "name": "Marketing and self-promotion",
+      "bytes": 573,
+      "when": [
+        "marketing",
+        "self",
+        "promotion"
+      ]
+    },
+    {
+      "name": "Duplication and differentiation",
+      "bytes": 609,
+      "when": [
+        "duplication",
+        "differentiation"
+      ]
+    },
+    {
+      "name": "Evidence and validation",
+      "bytes": 714,
+      "when": [
+        "evidence",
+        "validation"
+      ]
+    },
+    {
+      "name": "Trusted and automated paths",
+      "bytes": 522,
+      "when": [
+        "trusted",
+        "automated",
+        "paths"
+      ]
+    },
+    {
+      "name": "Review output",
+      "bytes": 610,
+      "when": [
+        "review",
+        "output"
+      ]
+    },
+    {
+      "name": "Review-policy changes",
+      "bytes": 402,
+      "when": [
+        "review",
+        "policy",
+        "changes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\.github\\skills\\code-review\\SKILL.md"
+}

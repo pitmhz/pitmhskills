@@ -1,0 +1,87 @@
+{
+  "id": "kemiljk-skills__semantic-html-first",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "d9c9f36fba1682dff0ceb8076e9bff922c659026df98cfbc92e2fd4efb401aa6",
+  "purpose": "Choose HTML semantics and accessible behavior for controls, forms, and custom interaction primitives.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Choose HTML semantics and accessible behavior for controls, forms, and custom interaction primitives."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "HTML semantics + accessible controls -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "semantics controls forms",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 525,
+  "core_bytes": 2100,
+  "sections": [
+    {
+      "name": "Defaults",
+      "bytes": 486,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 459,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Decision guide",
+      "bytes": 311,
+      "when": [
+        "decision",
+        "guide"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 373,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Source essays",
+      "bytes": 88,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "semantic",
+    "first",
+    "defaults",
+    "prefer",
+    "reject",
+    "decision",
+    "guide",
+    "review",
+    "checklist",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\semantic-html-first\\SKILL.md"
+}

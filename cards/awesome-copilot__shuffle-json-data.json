@@ -1,0 +1,136 @@
+{
+  "id": "awesome-copilot__shuffle-json-data",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "00adbbd1ab1f7e525a2f34cfda9fe710c00925920b556751bbfe3a318f9faa3f",
+  "purpose": "Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1119,
+  "core_bytes": 4490,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 265,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Role",
+      "bytes": 569,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Objectives",
+      "bytes": 399,
+      "when": [
+        "objectives"
+      ]
+    },
+    {
+      "name": "Data Validation Checklist",
+      "bytes": 377,
+      "when": [
+        "data",
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Acceptable JSON",
+      "bytes": 291,
+      "when": [
+        "acceptable",
+        "json"
+      ]
+    },
+    {
+      "name": "Unacceptable JSON (Default State)",
+      "bytes": 620,
+      "when": [
+        "unacceptable",
+        "json",
+        "default",
+        "state"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 657,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Requirements for Shuffling Data",
+      "bytes": 257,
+      "when": [
+        "requirements",
+        "shuffling",
+        "data"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 419,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Missing File",
+      "bytes": 157,
+      "when": [
+        "missing",
+        "file"
+      ]
+    },
+    {
+      "name": "Custom Configuration",
+      "bytes": 154,
+      "when": [
+        "custom",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Default State",
+      "bytes": 258,
+      "when": [
+        "default",
+        "state"
+      ]
+    },
+    {
+      "name": "Variables",
+      "bytes": 209,
+      "when": [
+        "variables"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\shuffle-json-data\\SKILL.md"
+}

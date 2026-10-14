@@ -1,0 +1,155 @@
+{
+  "id": "nvidia__nemo-automodel-launcher-config",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "df73df82973f2f986e0e8dbcdadadafcc08f0a6ced5b91d0520ccf57c824da01",
+  "purpose": "Configure NeMo AutoModel job launches for interactive runs, Slurm clusters, and SkyPilot cloud execution.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Configure NeMo AutoModel job launches for interactive runs, Slurm clusters, and SkyPilot cloud execution."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2256,
+  "core_bytes": 9024,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1994,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Routing Boundary",
+      "bytes": 405,
+      "when": [
+        "routing",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Launch Methods",
+      "bytes": 400,
+      "when": [
+        "launch",
+        "methods"
+      ]
+    },
+    {
+      "name": "Interactive Launch",
+      "bytes": 389,
+      "when": [
+        "interactive",
+        "launch"
+      ]
+    },
+    {
+      "name": "Slurm Configuration",
+      "bytes": 1238,
+      "when": [
+        "slurm",
+        "configuration"
+      ]
+    },
+    {
+      "name": "YAML Example",
+      "bytes": 382,
+      "when": [
+        "yaml",
+        "example"
+      ]
+    },
+    {
+      "name": "Key Fields",
+      "bytes": 755,
+      "when": [
+        "fields"
+      ]
+    },
+    {
+      "name": "SkyPilot Configuration",
+      "bytes": 1452,
+      "when": [
+        "skypilot",
+        "configuration"
+      ]
+    },
+    {
+      "name": "YAML Example",
+      "bytes": 241,
+      "when": [
+        "yaml",
+        "example"
+      ]
+    },
+    {
+      "name": "Key Fields",
+      "bytes": 507,
+      "when": [
+        "fields"
+      ]
+    },
+    {
+      "name": "SkyPilot spot checklist",
+      "bytes": 611,
+      "when": [
+        "skypilot",
+        "spot",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Multi-Node Environment",
+      "bytes": 361,
+      "when": [
+        "multi",
+        "node",
+        "environment"
+      ]
+    },
+    {
+      "name": "Nsys Profiling",
+      "bytes": 810,
+      "when": [
+        "nsys",
+        "profiling"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 382,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 973,
+      "when": [
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-automodel-launcher-config/SKILL.md",
+  "curated": true
+}

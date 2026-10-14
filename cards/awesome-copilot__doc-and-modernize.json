@@ -1,0 +1,139 @@
+{
+  "id": "awesome-copilot__doc-and-modernize",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a1b5ff3752fa95d1597d33f95f265ca29171bd00c7315854b062f5117d0a89b6",
+  "purpose": "Two related workflows for a locally-cloned codebase, in one skill. Documentation mode produces a single, comprehensive, verifiable architecture document primarily by reading files on disk (local-first",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Two related workflows for a locally-cloned codebase, in one skill. Documentation mode produces a single, comprehensive, verifiable architecture document primari"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 12387,
+  "core_bytes": 49934,
+  "sections": [
+    {
+      "name": "Mode selection",
+      "bytes": 559,
+      "when": [
+        "mode",
+        "selection"
+      ]
+    },
+    {
+      "name": "Documentation mode",
+      "bytes": 9595,
+      "when": [
+        "documentation",
+        "mode"
+      ]
+    },
+    {
+      "name": "Why local-first",
+      "bytes": 927,
+      "when": [
+        "local",
+        "first"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1238,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Output structure",
+      "bytes": 5264,
+      "when": [
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "Conventions that make the document trustworthy",
+      "bytes": 1433,
+      "when": [
+        "conventions",
+        "document",
+        "trustworthy"
+      ]
+    },
+    {
+      "name": "Scope control",
+      "bytes": 353,
+      "when": [
+        "scope",
+        "control"
+      ]
+    },
+    {
+      "name": "Modernization mode",
+      "bytes": 38215,
+      "when": [
+        "modernization",
+        "mode"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1466,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 21039,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase N: [Name] (T-shirt size: M)",
+      "bytes": 9128,
+      "when": [
+        "phase",
+        "name",
+        "shirt",
+        "size"
+      ]
+    },
+    {
+      "name": "Output Structure",
+      "bytes": 1924,
+      "when": [
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "Conventions",
+      "bytes": 3101,
+      "when": [
+        "conventions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\doc-and-modernize\\SKILL.md"
+}

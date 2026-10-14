@@ -1,0 +1,104 @@
+{
+  "id": "nvidia__nv-segment-ct",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a14caa3c6cf70b0b888c1f002c347bd9cdcb9a1872610f4ad40f6590e7314ce9",
+  "purpose": "Used for running NV-Segment-CT VISTA3D on CT NIfTI volumes and recording label-map evidence.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Used for running NV-Segment-CT VISTA3D on CT NIfTI volumes and recording label-map evidence."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2131,
+  "core_bytes": 8523,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 343,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 636,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 224,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 784,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 947,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 946,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Exact Runnable Surface",
+      "bytes": 478,
+      "when": [
+        "exact",
+        "runnable",
+        "surface"
+      ]
+    },
+    {
+      "name": "Preconditions",
+      "bytes": 1055,
+      "when": [
+        "preconditions"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 2813,
+      "when": [
+        "usage"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-segment-ct/SKILL.md",
+  "curated": true
+}

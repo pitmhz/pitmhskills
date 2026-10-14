@@ -1,0 +1,180 @@
+{
+  "id": "mengto-skills__publish-project-to-github",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "5d18300f270aaf25b1ffc80ae8db88c5b9488525740bdfcd1f8db33d9e6adeda",
+  "purpose": "Package a finished local project into an intentional GitHub repository, create a strong README and visual preview, push it safely, configure a public GitHub Pages URL when the project is compatible, a",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Package a finished local project into an intentional GitHub repository, create a strong README and visual preview, push it safely, configure a public GitHub Pag"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2245,
+  "core_bytes": 9036,
+  "sections": [
+    {
+      "name": "Deliverables",
+      "bytes": 385,
+      "when": [
+        "deliverables"
+      ]
+    },
+    {
+      "name": "1. Resolve scope and authority",
+      "bytes": 779,
+      "when": [
+        "resolve",
+        "scope",
+        "authority"
+      ]
+    },
+    {
+      "name": "2. Audit before packaging",
+      "bytes": 1010,
+      "when": [
+        "audit",
+        "before",
+        "packaging"
+      ]
+    },
+    {
+      "name": "3. Choose the packaging model",
+      "bytes": 961,
+      "when": [
+        "choose",
+        "packaging",
+        "model"
+      ]
+    },
+    {
+      "name": "Clean existing repository",
+      "bytes": 173,
+      "when": [
+        "clean",
+        "existing",
+        "repository"
+      ]
+    },
+    {
+      "name": "Mixed or unrelated workspace",
+      "bytes": 281,
+      "when": [
+        "mixed",
+        "unrelated",
+        "workspace"
+      ]
+    },
+    {
+      "name": "Existing public repository",
+      "bytes": 471,
+      "when": [
+        "existing",
+        "public",
+        "repository"
+      ]
+    },
+    {
+      "name": "4. Build the repository presentation",
+      "bytes": 1043,
+      "when": [
+        "build",
+        "repository",
+        "presentation"
+      ]
+    },
+    {
+      "name": "5. Verify locally",
+      "bytes": 715,
+      "when": [
+        "verify",
+        "locally"
+      ]
+    },
+    {
+      "name": "6. Commit and create the repository",
+      "bytes": 919,
+      "when": [
+        "commit",
+        "create",
+        "repository"
+      ]
+    },
+    {
+      "name": "7. Configure the public site",
+      "bytes": 626,
+      "when": [
+        "configure",
+        "public",
+        "site"
+      ]
+    },
+    {
+      "name": "8. Verify external state",
+      "bytes": 767,
+      "when": [
+        "verify",
+        "external",
+        "state"
+      ]
+    },
+    {
+      "name": "9. Hand off exact results",
+      "bytes": 377,
+      "when": [
+        "hand",
+        "exact",
+        "results"
+      ]
+    },
+    {
+      "name": "Failure rules",
+      "bytes": 494,
+      "when": [
+        "failure",
+        "rules"
+      ]
+    },
+    {
+      "name": "Resources",
+      "bytes": 254,
+      "when": [
+        "resources"
+      ]
+    }
+  ],
+  "keywords": [
+    "deliverables",
+    "resolve",
+    "scope",
+    "authority",
+    "audit",
+    "before",
+    "packaging",
+    "choose",
+    "model",
+    "clean",
+    "existing",
+    "mixed",
+    "unrelated",
+    "workspace"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\publish-project-to-github\\SKILL.md"
+}

@@ -7,3 +7,14 @@ skills/
 *.bak
 evals/tasks/repos/
 evals/transcripts/
+# Unlicensed skill cards: local routing only, never commit (pre-commit hook enforces).
+cards/antislop__*.json
+cards/apple-design-skill__*.json
+cards/design-plugin__*.json
+cards/design-review__*.json
+cards/higagentskills__*.json
+cards/mcp-server-guide__*.json
+cards/raphaelsalaja__*.json
+cards/scandinavian-design__*.json
+cards/uiskills-staged__danny-*.json
+cards/uiskills-staged__rams.json

@@ -1,0 +1,259 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-cuda-graphs",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "92d77b7cd856e7ea5254f97497e0d108d6a209b7de63873a16fae5c8aa028547",
+  "purpose": "Validate and use CUDA graph capture in Megatron Bridge, including local full-iteration graphs and Transformer Engine scoped graphs for attention, MLP, and MoE modules.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Validate and use CUDA graph capture in Megatron Bridge, including local full-iteration graphs and Transformer Engine scoped graphs for attention, MLP, and MoE m"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3608,
+  "core_bytes": 14435,
+  "sections": [
+    {
+      "name": "What It Is",
+      "bytes": 440,
+      "when": []
+    },
+    {
+      "name": "Quick Decision",
+      "bytes": 781,
+      "when": [
+        "quick",
+        "decision"
+      ]
+    },
+    {
+      "name": "Enablement",
+      "bytes": 2795,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Local full-iteration graph",
+      "bytes": 339,
+      "when": [
+        "local",
+        "full",
+        "iteration",
+        "graph"
+      ]
+    },
+    {
+      "name": "TE scoped graph (dense model)",
+      "bytes": 282,
+      "when": [
+        "scoped",
+        "graph",
+        "dense",
+        "model"
+      ]
+    },
+    {
+      "name": "TE scoped graph (MoE model)",
+      "bytes": 281,
+      "when": [
+        "scoped",
+        "graph",
+        "model"
+      ]
+    },
+    {
+      "name": "Performance harness CLI",
+      "bytes": 741,
+      "when": [
+        "performance",
+        "harness"
+      ]
+    },
+    {
+      "name": "Required constraints",
+      "bytes": 718,
+      "when": [
+        "required",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Practical bring-up order",
+      "bytes": 417,
+      "when": [
+        "practical",
+        "bring",
+        "order"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 5121,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Bridge config and validation",
+      "bytes": 671,
+      "when": [
+        "bridge",
+        "config",
+        "validation"
+      ]
+    },
+    {
+      "name": "TE RNG tracker requirement",
+      "bytes": 355,
+      "when": [
+        "tracker",
+        "requirement"
+      ]
+    },
+    {
+      "name": "Graph creation and capture in training loop",
+      "bytes": 570,
+      "when": [
+        "graph",
+        "creation",
+        "capture",
+        "training",
+        "loop"
+      ]
+    },
+    {
+      "name": "TE graph capture after warmup",
+      "bytes": 856,
+      "when": [
+        "graph",
+        "capture",
+        "after",
+        "warmup"
+      ]
+    },
+    {
+      "name": "RNG initialization",
+      "bytes": 413,
+      "when": [
+        "initialization"
+      ]
+    },
+    {
+      "name": "Delayed wgrad + CUDA graph interaction",
+      "bytes": 525,
+      "when": [
+        "delayed",
+        "wgrad",
+        "cuda",
+        "graph",
+        "interaction"
+      ]
+    },
+    {
+      "name": "Perf harness override helper",
+      "bytes": 244,
+      "when": [
+        "perf",
+        "harness",
+        "override",
+        "helper"
+      ]
+    },
+    {
+      "name": "Graph cleanup",
+      "bytes": 203,
+      "when": [
+        "graph",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "MCore classes (in 3rdparty/Megatron-LM)",
+      "bytes": 307,
+      "when": [
+        "mcore",
+        "classes",
+        "3rdparty",
+        "megatron"
+      ]
+    },
+    {
+      "name": "Positive recipe anchors",
+      "bytes": 226,
+      "when": [
+        "positive",
+        "recipe",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Tests",
+      "bytes": 732,
+      "when": [
+        "tests"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 3875,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 745,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Unit tests",
+      "bytes": 277,
+      "when": [
+        "unit",
+        "tests"
+      ]
+    },
+    {
+      "name": "Functional smoke test (requires GPU)",
+      "bytes": 179,
+      "when": [
+        "functional",
+        "smoke",
+        "test",
+        "requires"
+      ]
+    },
+    {
+      "name": "Success criteria",
+      "bytes": 270,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run python -m pytest tests/unit_tests/training/test_config.py -k \"cuda_graph\" tests/unit_tests/training/test_comm_overlap.py -k \"cuda_graph\" tests/unit_tests/models/test_gpt_full_te_layer_autocast_spec.py -k \"cuda_graph\" -q"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-cuda-graphs/SKILL.md",
+  "curated": true
+}

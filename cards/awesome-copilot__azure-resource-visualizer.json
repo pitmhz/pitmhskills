@@ -1,0 +1,173 @@
+{
+  "id": "awesome-copilot__azure-resource-visualizer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c22324fcf556d4441320a49360fafe4707440b0c376d7f15ce97f12dd233fe04",
+  "purpose": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. Use this skill when the user asks for a diagram of their Azure",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. Use this skill when th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2428,
+  "core_bytes": 9772,
+  "sections": [
+    {
+      "name": "Core Responsibilities",
+      "bytes": 446,
+      "when": [
+        "core",
+        "responsibilities"
+      ]
+    },
+    {
+      "name": "Workflow Process",
+      "bytes": 4136,
+      "when": [
+        "workflow",
+        "process"
+      ]
+    },
+    {
+      "name": "Step 1: Resource Group Selection",
+      "bytes": 413,
+      "when": [
+        "step",
+        "resource",
+        "group",
+        "selection"
+      ]
+    },
+    {
+      "name": "Step 2: Resource Discovery & Analysis",
+      "bytes": 895,
+      "when": [
+        "step",
+        "resource",
+        "discovery",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 3: Diagram Construction",
+      "bytes": 2197,
+      "when": [
+        "step",
+        "diagram",
+        "construction"
+      ]
+    },
+    {
+      "name": "Step 4: File Creation",
+      "bytes": 610,
+      "when": [
+        "step",
+        "file",
+        "creation"
+      ]
+    },
+    {
+      "name": "Operating Guidelines",
+      "bytes": 2506,
+      "when": [
+        "operating",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Quality Standards",
+      "bytes": 415,
+      "when": [
+        "quality",
+        "standards"
+      ]
+    },
+    {
+      "name": "Tool Usage Patterns",
+      "bytes": 822,
+      "when": [
+        "tool",
+        "usage",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Constraints & Boundaries",
+      "bytes": 812,
+      "when": [
+        "constraints",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Edge Cases & Error Handling",
+      "bytes": 432,
+      "when": [
+        "edge",
+        "cases",
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Output Format Specifications",
+      "bytes": 597,
+      "when": [
+        "output",
+        "format",
+        "specifications"
+      ]
+    },
+    {
+      "name": "Mermaid Diagram Syntax",
+      "bytes": 317,
+      "when": [
+        "mermaid",
+        "diagram",
+        "syntax"
+      ]
+    },
+    {
+      "name": "Markdown Structure",
+      "bytes": 247,
+      "when": [
+        "markdown",
+        "structure"
+      ]
+    },
+    {
+      "name": "Example Interaction",
+      "bytes": 723,
+      "when": [
+        "example",
+        "interaction"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 559,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-resource-visualizer\\SKILL.md"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-hierarchical-context-parallel",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "15af5ba9d6943cd3d4d0a43e3dcbc4cfbb461011ac42389c49492e0093845861",
+  "purpose": "Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1447,
+  "core_bytes": 5786,
+  "sections": [
+    {
+      "name": "Enablement",
+      "bytes": 415,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 1700,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Implementation Map",
+      "bytes": 668,
+      "when": [
+        "implementation"
+      ]
+    },
+    {
+      "name": "Validation (MCore)",
+      "bytes": 134,
+      "when": [
+        "validation",
+        "mcore"
+      ]
+    },
+    {
+      "name": "Process group creation",
+      "bytes": 259,
+      "when": [
+        "process",
+        "group",
+        "creation"
+      ]
+    },
+    {
+      "name": "TE integration",
+      "bytes": 170,
+      "when": [
+        "integration"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 952,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 1087,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run python -m pytest tests/unit_tests/training/test_decentralized_pg.py -q"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
+  "curated": true
+}

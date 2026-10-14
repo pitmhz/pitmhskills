@@ -1,0 +1,209 @@
+{
+  "id": "nvidia__amc-run-rtsp-calibration",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "50f4a2bc528029fe83891535ec0abdc6ff9f385efe644a1a6295169c2bb5d282",
+  "purpose": "Calibrate a new dataset from live RTSP camera streams via the AutoMagicCalib REST API. Use when the user provides RTSP URLs or asks to calibrate live cameras; VIOS records clips, AMC ingests them, the",
+  "domain": "backend-data",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Calibrate a new dataset from live RTSP camera streams via the AutoMagicCalib REST API. Use when the user provides RTSP URLs or asks to calibrate live cameras; V"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4656,
+  "core_bytes": 18623,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 1082,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 527,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Data Privacy",
+      "bytes": 377,
+      "when": [
+        "data",
+        "privacy"
+      ]
+    },
+    {
+      "name": "What to Ask the User",
+      "bytes": 2793,
+      "when": [
+        "user"
+      ]
+    },
+    {
+      "name": "Required",
+      "bytes": 868,
+      "when": [
+        "required"
+      ]
+    },
+    {
+      "name": "Auto-Detected or Asked",
+      "bytes": 1568,
+      "when": [
+        "auto",
+        "detected",
+        "asked"
+      ]
+    },
+    {
+      "name": "Optional",
+      "bytes": 330,
+      "when": [
+        "optional"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 7551,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 0 - Verify AMC and VIOS",
+      "bytes": 2371,
+      "when": [
+        "step",
+        "verify",
+        "vios"
+      ]
+    },
+    {
+      "name": "Step 1 - Create Project",
+      "bytes": 124,
+      "when": [
+        "step",
+        "create",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 2 - Start RTSP Capture",
+      "bytes": 534,
+      "when": [
+        "step",
+        "start",
+        "rtsp",
+        "capture"
+      ]
+    },
+    {
+      "name": "Step 3 - Poll Capture, Then Ingest",
+      "bytes": 793,
+      "when": [
+        "step",
+        "poll",
+        "capture",
+        "ingest"
+      ]
+    },
+    {
+      "name": "Step 4 - Upload Settings, Alignment, Layout, and Optional Files",
+      "bytes": 2061,
+      "when": [
+        "step",
+        "upload",
+        "settings",
+        "alignment",
+        "layout",
+        "optional",
+        "files"
+      ]
+    },
+    {
+      "name": "Step 5 - Verify, Calibrate, Poll, and Fetch Results",
+      "bytes": 998,
+      "when": [
+        "step",
+        "verify",
+        "calibrate",
+        "poll",
+        "fetch",
+        "results"
+      ]
+    },
+    {
+      "name": "Step 6 - Optional VGGT Refinement",
+      "bytes": 453,
+      "when": [
+        "step",
+        "optional",
+        "vggt",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Complete Python Script",
+      "bytes": 2978,
+      "when": [
+        "complete",
+        "python",
+        "script"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 439,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Key Output Files",
+      "bytes": 452,
+      "when": [
+        "output",
+        "files"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1479,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 330,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/amc-run-rtsp-calibration/SKILL.md",
+  "curated": true
+}

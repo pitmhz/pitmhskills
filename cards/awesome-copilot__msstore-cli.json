@@ -1,0 +1,239 @@
+{
+  "id": "awesome-copilot__msstore-cli",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "21e91394eba73ae19bea53225da04f9a5273be5cf42df847aea0f839959daf68",
+  "purpose": "Microsoft Store Developer CLI (msstore) for publishing Windows applications to the Microsoft Store. Use when asked to configure Store credentials, list Store apps, check submission status, publish sub",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Microsoft Store Developer CLI (msstore) for publishing Windows applications to the Microsoft Store. Use when asked to configure Store credentials, list Store ap"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4074,
+  "core_bytes": 16293,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 489,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 963,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Partner Center Setup",
+      "bytes": 444,
+      "when": [
+        "partner",
+        "center",
+        "setup"
+      ]
+    },
+    {
+      "name": "Core Commands Reference",
+      "bytes": 8998,
+      "when": [
+        "core",
+        "commands",
+        "reference"
+      ]
+    },
+    {
+      "name": "info - Print Configuration",
+      "bytes": 213,
+      "when": [
+        "info",
+        "print",
+        "configuration"
+      ]
+    },
+    {
+      "name": "reconfigure - Configure Credentials",
+      "bytes": 1064,
+      "when": [
+        "reconfigure",
+        "configure",
+        "credentials"
+      ]
+    },
+    {
+      "name": "settings - CLI Settings",
+      "bytes": 420,
+      "when": [
+        "settings"
+      ]
+    },
+    {
+      "name": "apps - Application Management",
+      "bytes": 482,
+      "when": [
+        "apps",
+        "application",
+        "management"
+      ]
+    },
+    {
+      "name": "submission - Submission Management",
+      "bytes": 2186,
+      "when": [
+        "submission",
+        "management"
+      ]
+    },
+    {
+      "name": "init - Initialize Project for Store",
+      "bytes": 1209,
+      "when": [
+        "init",
+        "initialize",
+        "project",
+        "store"
+      ]
+    },
+    {
+      "name": "package - Package for Store",
+      "bytes": 746,
+      "when": [
+        "package",
+        "store"
+      ]
+    },
+    {
+      "name": "publish - Publish to Store",
+      "bytes": 933,
+      "when": [
+        "publish",
+        "store"
+      ]
+    },
+    {
+      "name": "flights - Package Flight Management",
+      "bytes": 1717,
+      "when": [
+        "flights",
+        "package",
+        "flight",
+        "management"
+      ]
+    },
+    {
+      "name": "Common Workflows",
+      "bytes": 2710,
+      "when": [
+        "common",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Workflow 1: First-Time Store Setup",
+      "bytes": 394,
+      "when": [
+        "workflow",
+        "first",
+        "time",
+        "store",
+        "setup"
+      ]
+    },
+    {
+      "name": "Workflow 2: Initialize and Publish New App",
+      "bytes": 349,
+      "when": [
+        "workflow",
+        "initialize",
+        "publish"
+      ]
+    },
+    {
+      "name": "Workflow 3: Update Existing App",
+      "bytes": 265,
+      "when": [
+        "workflow",
+        "update",
+        "existing"
+      ]
+    },
+    {
+      "name": "Workflow 4: Gradual Rollout",
+      "bytes": 316,
+      "when": [
+        "workflow",
+        "gradual",
+        "rollout"
+      ]
+    },
+    {
+      "name": "Workflow 5: Beta Testing with Flights",
+      "bytes": 453,
+      "when": [
+        "workflow",
+        "beta",
+        "testing",
+        "flights"
+      ]
+    },
+    {
+      "name": "Workflow 6: CI/CD Pipeline Integration",
+      "bytes": 912,
+      "when": [
+        "workflow",
+        "pipeline",
+        "integration"
+      ]
+    },
+    {
+      "name": "Integration with winapp CLI",
+      "bytes": 520,
+      "when": [
+        "integration",
+        "winapp"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 772,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 335,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 733,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\msstore-cli\\SKILL.md"
+}

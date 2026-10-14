@@ -1,0 +1,154 @@
+{
+  "id": "awesome-copilot__agentic-eval",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "fb198a5c9b12e746d01a43c9ff3368598fdc1134bb458766f580186f31001573",
+  "purpose": "Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when:\n- Implementing self-critique and reflection loops\n- Building evaluator-optimizer pipelines for quality-criti",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when:\n- Implementing self-critique and reflection loops\n- Building evaluat"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1466,
+  "core_bytes": 5940,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 365,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 260,
+      "when": []
+    },
+    {
+      "name": "Pattern 1: Basic Reflection",
+      "bytes": 1041,
+      "when": [
+        "pattern",
+        "basic",
+        "reflection"
+      ]
+    },
+    {
+      "name": "Pattern 2: Evaluator-Optimizer",
+      "bytes": 1141,
+      "when": [
+        "pattern",
+        "evaluator",
+        "optimizer"
+      ]
+    },
+    {
+      "name": "Pattern 3: Code-Specific Reflection",
+      "bytes": 575,
+      "when": [
+        "pattern",
+        "code",
+        "specific",
+        "reflection"
+      ]
+    },
+    {
+      "name": "Evaluation Strategies",
+      "bytes": 941,
+      "when": [
+        "evaluation",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Outcome-Based",
+      "bytes": 266,
+      "when": [
+        "outcome",
+        "based"
+      ]
+    },
+    {
+      "name": "LLM-as-Judge",
+      "bytes": 221,
+      "when": [
+        "judge"
+      ]
+    },
+    {
+      "name": "Rubric-Based",
+      "bytes": 428,
+      "when": [
+        "rubric",
+        "based"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 468,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Quick Start Checklist",
+      "bytes": 38,
+      "when": [
+        "quick",
+        "start",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Evaluation Implementation Checklist",
+      "bytes": 500,
+      "when": [
+        "evaluation",
+        "implementation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 139,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Implementation",
+      "bytes": 185,
+      "when": [
+        "implementation"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 136,
+      "when": [
+        "safety"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\agentic-eval\\SKILL.md"
+}

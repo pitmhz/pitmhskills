@@ -1,0 +1,67 @@
+{
+  "id": "awesome-copilot__qdrant-monitoring-debugging",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f27aa8d722235a0bb5ef56c87c0a5f00d38a5ec7fdf87603f4f28d77c6aab88a",
+  "purpose": "Diagnoses Qdrant production issues using metrics and observability tools. Use when someone reports 'optimizer stuck', 'indexing too slow', 'memory too high', 'OOM crash', 'queries are slow', 'latency ",
+  "domain": "memory",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Diagnoses Qdrant production issues using metrics and observability tools. Use when someone reports 'optimizer stuck', 'indexing too slow', 'memory too high', 'O"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 876,
+  "core_bytes": 3503,
+  "sections": [
+    {
+      "name": "Optimizer Stuck or Too Slow",
+      "bytes": 879,
+      "when": [
+        "optimizer",
+        "stuck",
+        "slow"
+      ]
+    },
+    {
+      "name": "Memory Seems Too High",
+      "bytes": 960,
+      "when": [
+        "memory",
+        "seems",
+        "high"
+      ]
+    },
+    {
+      "name": "Queries Are Slow",
+      "bytes": 754,
+      "when": [
+        "queries",
+        "slow"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 331,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-monitoring\\debugging\\SKILL.md"
+}

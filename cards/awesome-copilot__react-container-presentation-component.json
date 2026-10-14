@@ -1,0 +1,63 @@
+{
+  "id": "awesome-copilot__react-container-presentation-component",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a9c167eeafa799ac1647bf3bf3cb588099bcba1dfea7821fae0d86e8fc6676d7",
+  "purpose": "Create a React component using the Container/Presentation pattern in src/components by asking for the component name and type (ui or features), then scaffold files that follow this repository's TypeSc",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Create a React component using the Container/Presentation pattern in src/components by asking for the component name and type (ui or features), then scaffold fi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1034,
+  "core_bytes": 4135,
+  "sections": [
+    {
+      "name": "When To Use",
+      "bytes": 310,
+      "when": []
+    },
+    {
+      "name": "Required Questions",
+      "bytes": 477,
+      "when": [
+        "required",
+        "questions"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 1870,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 558,
+      "when": [
+        "output",
+        "contract"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react-container-presentation-component\\SKILL.md"
+}

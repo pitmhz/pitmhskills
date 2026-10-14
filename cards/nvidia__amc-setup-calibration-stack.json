@@ -1,0 +1,174 @@
+{
+  "id": "nvidia__amc-setup-calibration-stack",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4ccb8055abdd7dac6c0a0e4640a816a50577552af0aaf3a5626b08941f93b3aa",
+  "purpose": "Launch AutoMagicCalib microservice and web UI from NGC release images via Docker Compose. Use when user says deploy auto calibration, launch auto calibration, launch AMC, start MS+UI, or set up auto-m",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Launch AutoMagicCalib microservice and web UI from NGC release images via Docker Compose. Use when user says deploy auto calibration, launch auto calibration, l"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4033,
+  "core_bytes": 16159,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 490,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 12400,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 0: Verify Docker Runs Without sudo",
+      "bytes": 538,
+      "when": [
+        "step",
+        "verify",
+        "docker",
+        "runs",
+        "sudo"
+      ]
+    },
+    {
+      "name": "Step 0b: Resolve Repo Checkout",
+      "bytes": 2332,
+      "when": [
+        "step",
+        "resolve",
+        "repo",
+        "checkout"
+      ]
+    },
+    {
+      "name": "Step 0c: Install Python venv (New Systems Only)",
+      "bytes": 744,
+      "when": [
+        "step",
+        "install",
+        "python",
+        "venv",
+        "systems"
+      ]
+    },
+    {
+      "name": "Step 1: Login to NGC",
+      "bytes": 300,
+      "when": [
+        "step",
+        "login"
+      ]
+    },
+    {
+      "name": "Step 2: Download VGGT Model (If Not Already Present)",
+      "bytes": 1661,
+      "when": [
+        "step",
+        "download",
+        "vggt",
+        "model",
+        "already",
+        "present"
+      ]
+    },
+    {
+      "name": "Step 3: Configure Compose Environment Variables",
+      "bytes": 2551,
+      "when": [
+        "step",
+        "configure",
+        "compose",
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Step 4: Set Directory Permissions",
+      "bytes": 1015,
+      "when": [
+        "step",
+        "directory",
+        "permissions"
+      ]
+    },
+    {
+      "name": "Step 5: Launch Services",
+      "bytes": 1379,
+      "when": [
+        "step",
+        "launch",
+        "services"
+      ]
+    },
+    {
+      "name": "Step 6: Verify Services Are Running",
+      "bytes": 1861,
+      "when": [
+        "step",
+        "verify",
+        "services",
+        "running"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 307,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1597,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Stopping the Services",
+      "bytes": 201,
+      "when": [
+        "stopping",
+        "services"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 365,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/amc-setup-calibration-stack/SKILL.md",
+  "curated": true
+}

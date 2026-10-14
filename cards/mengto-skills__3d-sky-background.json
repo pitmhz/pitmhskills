@@ -1,0 +1,97 @@
+{
+  "id": "mengto-skills__3d-sky-background",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "fa6c1483e402c36780a895aab312575ece1a567f64c8086591f38bf25507b685",
+  "purpose": "Create a camera-correct sky background for a 3D scene with a procedural atmosphere or panorama, horizon haze, aligned sunlight, and coherent environment lighting. Use for architectural skies, outdoor ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create a camera-correct sky background for a 3D scene with a procedural atmosphere or panorama, horizon haze, aligned sunlight, and coherent environment lightin",
+    "hidden, and retain a designed still sky for reduced motion."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1266,
+  "core_bytes": 5066,
+  "sections": [
+    {
+      "name": "Choose the representation",
+      "bytes": 720,
+      "when": [
+        "choose",
+        "representation"
+      ]
+    },
+    {
+      "name": "Build a stable surrounding sky",
+      "bytes": 860,
+      "when": [
+        "build",
+        "stable",
+        "surrounding"
+      ]
+    },
+    {
+      "name": "Map a panorama deliberately",
+      "bytes": 974,
+      "when": [
+        "panorama",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "Keep color and lighting coherent",
+      "bytes": 1093,
+      "when": [
+        "keep",
+        "color",
+        "lighting",
+        "coherent"
+      ]
+    },
+    {
+      "name": "Day, dusk, and night",
+      "bytes": 328,
+      "when": [
+        "dusk",
+        "night"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 639,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "choose",
+    "representation",
+    "build",
+    "stable",
+    "surrounding",
+    "deliberately",
+    "keep",
+    "color",
+    "dusk",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-sky-background\\SKILL.md"
+}

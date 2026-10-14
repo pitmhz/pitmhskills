@@ -1,0 +1,162 @@
+{
+  "id": "awesome-copilot__harness-engineering",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "536ae3b482b68d818a97e511405c220d3cf3fb87f34bc4d30722dc996f4b064f",
+  "purpose": "Adopt repository-level harness engineering for coding agents. Use when a user wants to prevent repeated AI coding-agent mistakes by turning failures into durable instructions, drift checks, regression",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Adopt repository-level harness engineering for coding agents. Use when a user wants to prevent repeated AI coding-agent mistakes by turning failures into durabl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1971,
+  "core_bytes": 7884,
+  "sections": [
+    {
+      "name": "Core Principles",
+      "bytes": 715,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "Discovery",
+      "bytes": 789,
+      "when": [
+        "discovery"
+      ]
+    },
+    {
+      "name": "Adoption Workflow",
+      "bytes": 2583,
+      "when": [
+        "adoption",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Choose the Harness Surface",
+      "bytes": 717,
+      "when": [
+        "choose",
+        "harness",
+        "surface"
+      ]
+    },
+    {
+      "name": "2. Write Agent Instructions",
+      "bytes": 541,
+      "when": [
+        "write",
+        "agent",
+        "instructions"
+      ]
+    },
+    {
+      "name": "3. Add Enforceable Checks",
+      "bytes": 667,
+      "when": [
+        "enforceable",
+        "checks"
+      ]
+    },
+    {
+      "name": "4. Record Failure Memory",
+      "bytes": 263,
+      "when": [
+        "record",
+        "failure",
+        "memory"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 58,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Root Cause",
+      "bytes": 61,
+      "when": [
+        "root",
+        "cause"
+      ]
+    },
+    {
+      "name": "Prevention",
+      "bytes": 126,
+      "when": [
+        "prevention"
+      ]
+    },
+    {
+      "name": "Evidence",
+      "bytes": 1024,
+      "when": [
+        "evidence"
+      ]
+    },
+    {
+      "name": "5. Add Drift Checks",
+      "bytes": 510,
+      "when": [
+        "drift",
+        "checks"
+      ]
+    },
+    {
+      "name": "6. Report the Adoption",
+      "bytes": 316,
+      "when": [
+        "report",
+        "adoption"
+      ]
+    },
+    {
+      "name": "Review Workflow",
+      "bytes": 704,
+      "when": [
+        "review",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 445,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "Optional Reference",
+      "bytes": 302,
+      "when": [
+        "optional",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\harness-engineering\\SKILL.md"
+}

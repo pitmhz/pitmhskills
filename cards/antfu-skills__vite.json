@@ -1,0 +1,105 @@
+{
+  "id": "antfu-skills__vite",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "003714bcd9cf1c111d6c4cb808942569d155c0452a459ab4299d9a480d2fe965",
+  "purpose": "Vite build tool configuration, plugin API, SSR, and Vite 8 Rolldown migration. Use when working with Vite projects, vite.config.ts, Vite plugins, or building libraries/SSR apps with Vite.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Vite build tool configuration, plugin API, SSR, and Vite 8 Rolldown migration. Use when working with Vite projects, vite.config.ts, Vite plugins, or building li"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 649,
+  "core_bytes": 2596,
+  "sections": [
+    {
+      "name": "Preferences",
+      "bytes": 97,
+      "when": [
+        "preferences"
+      ]
+    },
+    {
+      "name": "Core",
+      "bytes": 481,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Build & SSR",
+      "bytes": 227,
+      "when": [
+        "build"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "bytes": 367,
+      "when": [
+        "advanced"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 751,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "CLI Commands",
+      "bytes": 189,
+      "when": [
+        "commands"
+      ]
+    },
+    {
+      "name": "Common Config",
+      "bytes": 284,
+      "when": [
+        "common",
+        "config"
+      ]
+    },
+    {
+      "name": "Official Plugins",
+      "bytes": 256,
+      "when": [
+        "official",
+        "plugins"
+      ]
+    }
+  ],
+  "keywords": [
+    "preferences",
+    "core",
+    "advanced",
+    "quick",
+    "reference",
+    "commands",
+    "common",
+    "official"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\vite\\SKILL.md"
+}

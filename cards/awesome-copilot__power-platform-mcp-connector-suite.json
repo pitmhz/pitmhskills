@@ -1,0 +1,188 @@
+{
+  "id": "awesome-copilot__power-platform-mcp-connector-suite",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0b7764050e18c8257335da89594192c462aa33e2fcd2cef8c1f066ba1fe496d3",
+  "purpose": "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1590,
+  "core_bytes": 6383,
+  "sections": [
+    {
+      "name": "MCP Capabilities in Copilot Studio",
+      "bytes": 309,
+      "when": [
+        "capabilities",
+        "copilot",
+        "studio"
+      ]
+    },
+    {
+      "name": "Connector Generation",
+      "bytes": 653,
+      "when": [
+        "connector",
+        "generation"
+      ]
+    },
+    {
+      "name": "Schema Validation & Troubleshooting",
+      "bytes": 628,
+      "when": [
+        "schema",
+        "validation",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Context Variables",
+      "bytes": 407,
+      "when": [
+        "context",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generation Modes",
+      "bytes": 836,
+      "when": [
+        "generation",
+        "modes"
+      ]
+    },
+    {
+      "name": "Mode 1: Complete New Connector",
+      "bytes": 140,
+      "when": [
+        "mode",
+        "complete",
+        "connector"
+      ]
+    },
+    {
+      "name": "Mode 2: Schema Validation",
+      "bytes": 129,
+      "when": [
+        "mode",
+        "schema",
+        "validation"
+      ]
+    },
+    {
+      "name": "Mode 3: Integration Troubleshooting",
+      "bytes": 132,
+      "when": [
+        "mode",
+        "integration",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Mode 4: Hybrid Connector",
+      "bytes": 122,
+      "when": [
+        "mode",
+        "hybrid",
+        "connector"
+      ]
+    },
+    {
+      "name": "Mode 5: Certification Preparation",
+      "bytes": 146,
+      "when": [
+        "mode",
+        "certification",
+        "preparation"
+      ]
+    },
+    {
+      "name": "Mode 6: OAuth Security Hardening",
+      "bytes": 146,
+      "when": [
+        "mode",
+        "oauth",
+        "security",
+        "hardening"
+      ]
+    },
+    {
+      "name": "Expected Output",
+      "bytes": 747,
+      "when": [
+        "expected",
+        "output"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 1921,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Technical Compliance",
+      "bytes": 500,
+      "when": [
+        "technical",
+        "compliance"
+      ]
+    },
+    {
+      "name": "CLI Validation",
+      "bytes": 387,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "OAuth and Security Requirements",
+      "bytes": 561,
+      "when": [
+        "oauth",
+        "security",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Certification Requirements",
+      "bytes": 448,
+      "when": [
+        "certification",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Example Usage",
+      "bytes": 485,
+      "when": [
+        "example",
+        "usage"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\power-platform-mcp-connector-suite\\SKILL.md"
+}

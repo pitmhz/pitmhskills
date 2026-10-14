@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__create-github-issues-feature-from-implementation-plan",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6cc82a68a65904fed67fa7da9ae797f18b245bc9e1a6a3370a8af842dd0816d0",
+  "purpose": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 237,
+  "core_bytes": 945,
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 274,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 192,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Issue Content",
+      "bytes": 172,
+      "when": [
+        "issue",
+        "content"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-github-issues-feature-from-implementation-plan\\SKILL.md"
+}

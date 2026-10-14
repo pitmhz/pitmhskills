@@ -1,0 +1,81 @@
+{
+  "id": "nvidia__jetson-video-benchmark",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "da6f01d661c348b245109c08677512db133a800cebcb2736c6dc6b1ffad5e266",
+  "purpose": "Use when measuring Jetson Video Codec SDK or PyNvVideoCodec encode/decode throughput, comparing presets or surfaces, testing codec-worker capacity with authenticated samples and user media, or produci",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when measuring Jetson Video Codec SDK or PyNvVideoCodec encode/decode throughput, comparing presets or surfaces, testing codec-worker capacity with authenti"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1662,
+  "core_bytes": 6648,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 331,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Terminal gates",
+      "bytes": 2759,
+      "when": [
+        "terminal",
+        "gates"
+      ]
+    },
+    {
+      "name": "Live preflight",
+      "bytes": 846,
+      "when": [
+        "live",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Measure",
+      "bytes": 755,
+      "when": [
+        "measure"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 417,
+      "when": [
+        "report"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 828,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-video-benchmark\\SKILL.md",
+  "curated": true
+}

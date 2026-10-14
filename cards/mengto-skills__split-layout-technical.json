@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__split-layout-technical",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "0cfe189e2a66ee71320cf7401f68ad83c659bbe55d5de8c94470f667d0a54bda",
+  "purpose": "Create a technical split-screen design system with dual panels, fine frame lines, mono metadata, quiet editorial typography, and premium inset surfaces.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a technical split-screen design system with dual panels, fine frame lines, mono metadata, quiet editorial typography, and premium inset surfaces."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1078,
+  "core_bytes": 4310,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 171,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 15,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 460,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Visual target",
+      "bytes": 730,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "Implementation guidance",
+      "bytes": 926,
+      "when": [
+        "implementation",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Recommended patterns",
+      "bytes": 684,
+      "when": [
+        "recommended",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Tuning knobs",
+      "bytes": 657,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 422,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "layout",
+    "skill",
+    "workflow",
+    "scope",
+    "visual",
+    "target",
+    "implementation",
+    "guidance",
+    "recommended",
+    "patterns",
+    "tuning",
+    "knobs"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\split-layout-technical\\SKILL.md"
+}

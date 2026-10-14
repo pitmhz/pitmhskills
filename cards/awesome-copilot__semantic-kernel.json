@@ -1,0 +1,85 @@
+{
+  "id": "awesome-copilot__semantic-kernel",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cf85400071b8b052618541a2a450e7d3299d7af08ae9db08108f1d4d5111c11e",
+  "purpose": "Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific references for .NET and Python.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific references for .NET and Python."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 756,
+  "core_bytes": 3024,
+  "sections": [
+    {
+      "name": "Determine the target language first",
+      "bytes": 801,
+      "when": [
+        "determine",
+        "target",
+        "language",
+        "first"
+      ]
+    },
+    {
+      "name": "Always consult live documentation",
+      "bytes": 307,
+      "when": [
+        "consult",
+        "live",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Shared guidance",
+      "bytes": 651,
+      "when": [
+        "shared",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 463,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 100,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Completion criteria",
+      "bytes": 244,
+      "when": [
+        "completion",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\semantic-kernel\\SKILL.md"
+}

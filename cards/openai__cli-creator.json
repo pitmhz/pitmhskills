@@ -27,7 +27,84 @@
   "conflicts_with": [],
   "body_tokens": 2666,
   "core_bytes": 10662,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/cli-creator/SKILL.md"
+  "sections": [
+    {
+      "name": "Start",
+      "bytes": 769,
+      "when": [
+        "start"
+      ]
+    },
+    {
+      "name": "Choose the Runtime",
+      "bytes": 1082,
+      "when": [
+        "choose",
+        "runtime"
+      ]
+    },
+    {
+      "name": "Command Contract",
+      "bytes": 1911,
+      "when": [
+        "command",
+        "contract"
+      ]
+    },
+    {
+      "name": "Auth and Config",
+      "bytes": 1392,
+      "when": [
+        "auth",
+        "config"
+      ]
+    },
+    {
+      "name": "Build Workflow",
+      "bytes": 2187,
+      "when": [
+        "build",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Rust Defaults",
+      "bytes": 386,
+      "when": [
+        "rust",
+        "defaults"
+      ]
+    },
+    {
+      "name": "TypeScript/Node Defaults",
+      "bytes": 600,
+      "when": [
+        "typescript",
+        "node",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Python Defaults",
+      "bytes": 783,
+      "when": [
+        "python",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Companion Skill",
+      "bytes": 912,
+      "when": [
+        "companion",
+        "skill"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/cli-creator/SKILL.md",
+  "curated": true
 }

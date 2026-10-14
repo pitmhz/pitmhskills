@@ -1,0 +1,108 @@
+{
+  "id": "nvidia__earth2studio-data-fetch",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4340890ed5282fe728a640aa3aec276e2ee00d4a5ef49e644c4ed618ce5ee966",
+  "purpose": "Fetch weather/climate data via Earth2Studio data sources for specific variables and times. Do NOT use for inference pipelines, model discovery, or installation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Fetch weather/climate data via Earth2Studio data sources for specific variables and times. Do NOT use for inference pipelines, model discovery, or installation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2227,
+  "core_bytes": 8944,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 258,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 246,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 6638,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Core principle: live docs and lexicon are the source of truth",
+      "bytes": 1022,
+      "when": [
+        "core",
+        "principle",
+        "live",
+        "docs",
+        "lexicon",
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Interaction protocol",
+      "bytes": 4850,
+      "when": [
+        "interaction",
+        "protocol"
+      ]
+    },
+    {
+      "name": "Ownership and out-of-scope",
+      "bytes": 477,
+      "when": [
+        "ownership",
+        "scope"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 372,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 519,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 461,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\earth2studio-data-fetch\\SKILL.md",
+  "curated": true
+}

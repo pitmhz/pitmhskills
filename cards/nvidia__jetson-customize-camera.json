@@ -1,0 +1,73 @@
+{
+  "id": "nvidia__jetson-customize-camera",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "6081cb5fb824e43d7b6c84a431063e8dcf6f896e0ff17891658d0d1d3cd2c09b",
+  "purpose": "Enable MIPI/GMSL camera sensors on a Jetson Thor or Orin custom carrier by rendering a kernel-DT overlay from the in-tree sensor DTSI. Do NOT use for UPHY lane allocation or ODMDATA edits.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Enable MIPI/GMSL camera sensors on a Jetson Thor or Orin custom carrier by rendering a kernel-DT overlay from the in-tree sensor DTSI. Do NOT use for UPHY lane "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2491,
+  "core_bytes": 10038,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 1985,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 1409,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 2054,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2498,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1584,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-customize-camera\\SKILL.md",
+  "curated": true
+}

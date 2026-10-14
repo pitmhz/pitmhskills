@@ -1,0 +1,66 @@
+{
+  "id": "awesome-copilot__v-development",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4d51d06ae4e31b4d2294cefe5daada419f2c39ffb704b62a82082bc8946ebf1d",
+  "purpose": "Guide GitHub Copilot through V language development: installing the toolchain, project layout with v.mod, building, testing, formatting, and writing idiomatic V including Option/Result error handling.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guide GitHub Copilot through V language development: installing the toolchain, project layout with v.mod, building, testing, formatting, and writing idiomatic V"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1392,
+  "core_bytes": 5568,
+  "sections": [
+    {
+      "name": "Toolchain",
+      "bytes": 779,
+      "when": [
+        "toolchain"
+      ]
+    },
+    {
+      "name": "Project layout",
+      "bytes": 995,
+      "when": [
+        "project",
+        "layout"
+      ]
+    },
+    {
+      "name": "Writing idiomatic V",
+      "bytes": 2436,
+      "when": [
+        "writing",
+        "idiomatic"
+      ]
+    },
+    {
+      "name": "Important behavioral rules",
+      "bytes": 626,
+      "when": [
+        "important",
+        "behavioral",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\v-development\\SKILL.md"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "kemiljk-skills__android-native-ui",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "23e2be7f18d64f85e17631224a2b6c665a08a5972b2f0fdf723376b061237cf8",
+  "purpose": "Build or review Android interfaces in Compose or Views, including Material conventions, accessibility, adaptive layout, and state.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build or review Android interfaces in Compose or Views, including Material conventions, accessibility, adaptive layout, and state."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Native Android UI -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "compose material adaptive",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1124,
+  "core_bytes": 4498,
+  "sections": [
+    {
+      "name": "Identify the UI boundary",
+      "bytes": 430,
+      "when": [
+        "identify",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Fresh platform guidance",
+      "bytes": 543,
+      "when": [
+        "fresh",
+        "platform",
+        "guidance"
+      ]
+    },
+    {
+      "name": "State, effects, and component APIs",
+      "bytes": 930,
+      "when": [
+        "state",
+        "effects",
+        "component",
+        "apis"
+      ]
+    },
+    {
+      "name": "Compose performance and motion",
+      "bytes": 681,
+      "when": [
+        "compose",
+        "performance",
+        "motion"
+      ]
+    },
+    {
+      "name": "Accessibility and adaptation",
+      "bytes": 859,
+      "when": [
+        "accessibility",
+        "adaptation"
+      ]
+    },
+    {
+      "name": "Prefer / reject",
+      "bytes": 607,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    }
+  ],
+  "keywords": [
+    "native",
+    "identify",
+    "boundary",
+    "fresh",
+    "platform",
+    "guidance",
+    "effects",
+    "component",
+    "apis",
+    "performance",
+    "motion",
+    "adaptation"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\android-native-ui\\SKILL.md"
+}

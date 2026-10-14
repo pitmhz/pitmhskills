@@ -1,0 +1,121 @@
+{
+  "id": "gsap__gsap-performance",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "2dd51f19a7fcabe1c06caee9e61554485696d05003396c528237aba970a959ce",
+  "purpose": "Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or when the user asks about animation perfor",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or w"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1046,
+  "core_bytes": 4218,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 366,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prefer Transform and Opacity",
+      "bytes": 637,
+      "when": [
+        "prefer",
+        "transform",
+        "opacity"
+      ]
+    },
+    {
+      "name": "will-change",
+      "bytes": 162,
+      "when": [
+        "change"
+      ]
+    },
+    {
+      "name": "Batch Reads and Writes",
+      "bytes": 310,
+      "when": [
+        "batch",
+        "reads",
+        "writes"
+      ]
+    },
+    {
+      "name": "Many Elements (Stagger, Lists)",
+      "bytes": 387,
+      "when": [
+        "elements",
+        "stagger",
+        "lists"
+      ]
+    },
+    {
+      "name": "Frequently updated properties (e.g. mouse followers)",
+      "bytes": 510,
+      "when": [
+        "frequently",
+        "updated",
+        "properties",
+        "mouse",
+        "followers"
+      ]
+    },
+    {
+      "name": "ScrollTrigger and Performance",
+      "bytes": 358,
+      "when": [
+        "scrolltrigger",
+        "performance"
+      ]
+    },
+    {
+      "name": "Reduce Simultaneous Work",
+      "bytes": 252,
+      "when": [
+        "reduce",
+        "simultaneous",
+        "work"
+      ]
+    },
+    {
+      "name": "Best practices",
+      "bytes": 447,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 472,
+      "when": []
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-performance\\SKILL.md",
+  "curated": true
+}

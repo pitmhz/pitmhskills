@@ -1,0 +1,145 @@
+{
+  "id": "nvidia__doca-structured-tools-contract",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "5cd13f0647a632b144092b9e86add4284da47b02818ec9e0ff8fc9b7d767bb4b",
+  "purpose": "Use this skill whenever another DOCA skill says \"prefer the structured tool per doca-structured-tools-contract\", or when the user wants a one-shot answer that consolidates info multiple manual command",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill whenever another DOCA skill says \"prefer the structured tool per doca-structured-tools-contract\", or when the user wants a one-shot answer that c"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5048,
+  "core_bytes": 20250,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 241,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 1274,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "Ground rules for any agent using this skill",
+      "bytes": 2364,
+      "when": [
+        "ground",
+        "rules",
+        "agent",
+        "skill"
+      ]
+    },
+    {
+      "name": "The agent behavior contract",
+      "bytes": 2709,
+      "when": [
+        "agent",
+        "behavior",
+        "contract"
+      ]
+    },
+    {
+      "name": "Schemas",
+      "bytes": 10221,
+      "when": [
+        "schemas"
+      ]
+    },
+    {
+      "name": "doca-env --json schema",
+      "bytes": 2789,
+      "when": [
+        "doca",
+        "json",
+        "schema"
+      ]
+    },
+    {
+      "name": "version-matrix.json schema",
+      "bytes": 1967,
+      "when": [
+        "version",
+        "matrix",
+        "json",
+        "schema"
+      ]
+    },
+    {
+      "name": "capability-snapshot schema",
+      "bytes": 935,
+      "when": [
+        "capability",
+        "snapshot",
+        "schema"
+      ]
+    },
+    {
+      "name": "validate-before-commit schema",
+      "bytes": 2136,
+      "when": [
+        "validate",
+        "before",
+        "commit",
+        "schema"
+      ]
+    },
+    {
+      "name": "collect-host-state and collect-dpu-state schemas",
+      "bytes": 1744,
+      "when": [
+        "collect",
+        "host",
+        "state",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Relationship to PR2 executables",
+      "bytes": 952,
+      "when": [
+        "relationship",
+        "executables"
+      ]
+    },
+    {
+      "name": "URL audit",
+      "bytes": 495,
+      "when": [
+        "audit"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-structured-tools-contract\\SKILL.md",
+  "curated": true
+}

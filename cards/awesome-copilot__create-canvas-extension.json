@@ -1,0 +1,67 @@
+{
+  "id": "awesome-copilot__create-canvas-extension",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8efc23571f738d4e9d9d5b6fb25d664ff438c7db2c3b3792399d04a9e66991b3",
+  "purpose": "Create or register a canvas extension in the awesome-copilot repository. Use when asked to scaffold a new canvas extension, create its plugin.json, add a reusable extension to one or more plugins, or ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Create or register a canvas extension in the awesome-copilot repository. Use when asked to scaffold a new canvas extension, create its plugin.json, add a reusab"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1304,
+  "core_bytes": 5243,
+  "sections": [
+    {
+      "name": "Required decisions",
+      "bytes": 1251,
+      "when": [
+        "required",
+        "decisions"
+      ]
+    },
+    {
+      "name": "Files to create",
+      "bytes": 1935,
+      "when": [
+        "files",
+        "create"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 975,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Existing extension migration",
+      "bytes": 443,
+      "when": [
+        "existing",
+        "extension",
+        "migration"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\.github\\skills\\create-canvas-extension\\SKILL.md"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "awesome-copilot__drawio",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b7ea3e77d64adb6ae4ab5f08c0f7dbe9b238f7033486523e8cc324f80e649256",
+  "purpose": "Generate draw.io diagrams as .drawio files and export to PNG/SVG/PDF with embedded XML",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate draw.io diagrams as .drawio files and export to PNG/SVG/PDF with embedded XML"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 805,
+  "core_bytes": 3224,
+  "sections": [
+    {
+      "name": "How to Create a Diagram",
+      "bytes": 234,
+      "when": [
+        "create",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Bundled Export Script",
+      "bytes": 1038,
+      "when": [
+        "bundled",
+        "export",
+        "script"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 445,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Skill Folder Contents",
+      "bytes": 247,
+      "when": [
+        "skill",
+        "folder",
+        "contents"
+      ]
+    },
+    {
+      "name": "Supported Export Formats",
+      "bytes": 248,
+      "when": [
+        "supported",
+        "export",
+        "formats"
+      ]
+    },
+    {
+      "name": "Draw.io XML Style Conventions",
+      "bytes": 991,
+      "when": [
+        "draw",
+        "style",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Locating the draw.io CLI",
+      "bytes": 443,
+      "when": [
+        "locating",
+        "draw"
+      ]
+    },
+    {
+      "name": "CLI Export Command",
+      "bytes": 192,
+      "when": [
+        "export",
+        "command"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\drawio\\SKILL.md"
+}

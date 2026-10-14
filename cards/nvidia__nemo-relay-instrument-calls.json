@@ -1,0 +1,76 @@
+{
+  "id": "nvidia__nemo-relay-instrument-calls",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8a69f46709b691377630be9b2069ca22e3f8031fc6a808fb7b768b2516da25bc",
+  "purpose": "Use this skill when an application owns tool or LLM/provider call sites and needs to wrap them with NeMo Relay scopes and managed execution APIs for lifecycle events, middleware, or guardrails.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when an application owns tool or LLM/provider call sites and needs to wrap them with NeMo Relay scopes and managed execution APIs for lifecycle e"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1058,
+  "core_bytes": 4232,
+  "sections": [
+    {
+      "name": "Default Guidance",
+      "bytes": 571,
+      "when": [
+        "default",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Embedded Runtime Semantics",
+      "bytes": 1924,
+      "when": [
+        "embedded",
+        "runtime",
+        "semantics"
+      ]
+    },
+    {
+      "name": "Checklist",
+      "bytes": 386,
+      "when": [
+        "checklist"
+      ]
+    },
+    {
+      "name": "Use Another Skill When",
+      "bytes": 464,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 304,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-relay-instrument-calls/SKILL.md",
+  "curated": true
+}

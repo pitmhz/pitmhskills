@@ -1,0 +1,155 @@
+{
+  "id": "mengto-skills__falling-leaves",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "256a16fa346ff54688ad3c448b3f95a443acfc966e6ae294181882a03d6b3bb8",
+  "purpose": "Build falling leaves that read as leaves, with each one tumbling on its own axis so it presents a face, thins to an edge, and opens out again, and with its sideways slip driven by that same tumble. Co",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build falling leaves that read as leaves, with each one tumbling on its own axis so it presents a face, thins to an edge, and opens out again, and with its side"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2003,
+  "core_bytes": 8033,
+  "sections": [
+    {
+      "name": "Build the tumble first",
+      "bytes": 1090,
+      "when": [
+        "build",
+        "tumble",
+        "first"
+      ]
+    },
+    {
+      "name": "Couple the slip to the tumble",
+      "bytes": 492,
+      "when": [
+        "couple",
+        "slip",
+        "tumble"
+      ]
+    },
+    {
+      "name": "Bake both faces",
+      "bytes": 366,
+      "when": [
+        "bake",
+        "both",
+        "faces"
+      ]
+    },
+    {
+      "name": "Vary every parameter per leaf",
+      "bytes": 292,
+      "when": [
+        "vary",
+        "parameter",
+        "leaf"
+      ]
+    },
+    {
+      "name": "Choose where leaves come back from",
+      "bytes": 1081,
+      "when": [
+        "choose",
+        "where",
+        "leaves",
+        "come",
+        "back"
+      ]
+    },
+    {
+      "name": "Set density by band area, not by count",
+      "bytes": 568,
+      "when": [
+        "density",
+        "band",
+        "area",
+        "count"
+      ]
+    },
+    {
+      "name": "Layer for depth",
+      "bytes": 545,
+      "when": [
+        "layer",
+        "depth"
+      ]
+    },
+    {
+      "name": "Handle colour and light",
+      "bytes": 526,
+      "when": [
+        "handle",
+        "colour",
+        "light"
+      ]
+    },
+    {
+      "name": "Budget the cost",
+      "bytes": 607,
+      "when": [
+        "budget",
+        "cost"
+      ]
+    },
+    {
+      "name": "Stop invisible work",
+      "bytes": 712,
+      "when": [
+        "stop",
+        "invisible",
+        "work"
+      ]
+    },
+    {
+      "name": "Respect the reader",
+      "bytes": 280,
+      "when": [
+        "respect",
+        "reader"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 666,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "first",
+    "couple",
+    "bake",
+    "both",
+    "faces",
+    "vary",
+    "parameter",
+    "leaf",
+    "choose",
+    "come",
+    "back",
+    "band",
+    "area"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\falling-leaves\\SKILL.md"
+}

@@ -1,0 +1,151 @@
+{
+  "id": "awesome-copilot__from-the-other-side-anitta",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "304c3e6616c8987d3280beb415d28183f24781ded7afeeb5abc5c9459db92283",
+  "purpose": "Rigorous challenge profile for Anitta: assumption checks, evidence calibration, and defensible reasoning patterns for Ember collaboration.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Rigorous challenge profile for Anitta: assumption checks, evidence calibration, and defensible reasoning patterns for Ember collaboration."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 999,
+  "core_bytes": 3995,
+  "sections": [
+    {
+      "name": "Identity",
+      "bytes": 119,
+      "when": [
+        "identity"
+      ]
+    },
+    {
+      "name": "Default Mode",
+      "bytes": 222,
+      "when": [
+        "default",
+        "mode"
+      ]
+    },
+    {
+      "name": "Query Authoring Standard",
+      "bytes": 182,
+      "when": [
+        "query",
+        "authoring",
+        "standard"
+      ]
+    },
+    {
+      "name": "What Anitta Optimizes For",
+      "bytes": 145,
+      "when": [
+        "anitta",
+        "optimizes"
+      ]
+    },
+    {
+      "name": "Three-Phase Review Lens",
+      "bytes": 123,
+      "when": [
+        "three",
+        "phase",
+        "review",
+        "lens"
+      ]
+    },
+    {
+      "name": "Session Kickoff Questions",
+      "bytes": 233,
+      "when": [
+        "session",
+        "kickoff",
+        "questions"
+      ]
+    },
+    {
+      "name": "Rigor Prompt Bank",
+      "bytes": 663,
+      "when": [
+        "rigor",
+        "prompt",
+        "bank"
+      ]
+    },
+    {
+      "name": "Tone and Calibration",
+      "bytes": 226,
+      "when": [
+        "tone",
+        "calibration"
+      ]
+    },
+    {
+      "name": "What I Learned",
+      "bytes": 276,
+      "when": [
+        "learned"
+      ]
+    },
+    {
+      "name": "Role Boundaries",
+      "bytes": 318,
+      "when": [
+        "role",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "How These Profiles Work Together",
+      "bytes": 746,
+      "when": [
+        "profiles",
+        "work",
+        "together"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 168,
+      "when": [
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Standing Commitment",
+      "bytes": 174,
+      "when": [
+        "standing",
+        "commitment"
+      ]
+    },
+    {
+      "name": "What I Would Tell Ember",
+      "bytes": 186,
+      "when": [
+        "tell",
+        "ember"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\from-the-other-side-anitta\\SKILL.md"
+}

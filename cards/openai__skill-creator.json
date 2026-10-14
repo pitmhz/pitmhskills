@@ -27,7 +27,171 @@
   "conflicts_with": [],
   "body_tokens": 4721,
   "core_bytes": 19032,
-  "sections": [],
+  "sections": [
+    {
+      "name": "About Skills",
+      "bytes": 719,
+      "when": [
+        "skills"
+      ]
+    },
+    {
+      "name": "What Skills Provide",
+      "bytes": 348,
+      "when": [
+        "skills",
+        "provide"
+      ]
+    },
+    {
+      "name": "Core Principles",
+      "bytes": 7284,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "Concise is Key",
+      "bytes": 503,
+      "when": [
+        "concise"
+      ]
+    },
+    {
+      "name": "Set Appropriate Degrees of Freedom",
+      "bytes": 765,
+      "when": [
+        "appropriate",
+        "degrees",
+        "freedom"
+      ]
+    },
+    {
+      "name": "Anatomy of a Skill",
+      "bytes": 4882,
+      "when": [
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "name": "Progressive Disclosure Design Principle",
+      "bytes": 1112,
+      "when": [
+        "progressive",
+        "disclosure",
+        "design",
+        "principle"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 67,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Advanced features",
+      "bytes": 1340,
+      "when": [
+        "advanced",
+        "features"
+      ]
+    },
+    {
+      "name": "Creating documents",
+      "bytes": 89,
+      "when": [
+        "creating",
+        "documents"
+      ]
+    },
+    {
+      "name": "Editing documents",
+      "bytes": 602,
+      "when": [
+        "editing",
+        "documents"
+      ]
+    },
+    {
+      "name": "Skill Creation Process",
+      "bytes": 8518,
+      "when": [
+        "skill",
+        "creation",
+        "process"
+      ]
+    },
+    {
+      "name": "Skill Naming",
+      "bytes": 476,
+      "when": [
+        "skill",
+        "naming"
+      ]
+    },
+    {
+      "name": "Step 1: Understanding the Skill with Concrete Examples",
+      "bytes": 1175,
+      "when": [
+        "step",
+        "understanding",
+        "skill",
+        "concrete",
+        "examples"
+      ]
+    },
+    {
+      "name": "Step 2: Planning the Reusable Skill Contents",
+      "bytes": 1420,
+      "when": [
+        "step",
+        "planning",
+        "reusable",
+        "skill",
+        "contents"
+      ]
+    },
+    {
+      "name": "Step 3: Initializing the Skill",
+      "bytes": 1857,
+      "when": [
+        "step",
+        "initializing",
+        "skill"
+      ]
+    },
+    {
+      "name": "Step 4: Edit the Skill",
+      "bytes": 2379,
+      "when": [
+        "step",
+        "edit",
+        "skill"
+      ]
+    },
+    {
+      "name": "Step 5: Validate the Skill",
+      "bytes": 365,
+      "when": [
+        "step",
+        "validate",
+        "skill"
+      ]
+    },
+    {
+      "name": "Step 6: Iterate",
+      "bytes": 378,
+      "when": [
+        "step",
+        "iterate"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.system/skill-creator/SKILL.md"
 }

@@ -1,0 +1,458 @@
+{
+  "id": "awesome-copilot__copilot-sdk",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5b432db55670223935a19215850f0e1e094db2026f1aa880f7d7b978fc48a42f",
+  "purpose": "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sessions, connecting to MCP servers, or crea",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sess"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6264,
+  "core_bytes": 25060,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 282,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 496,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 753,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Node.js/TypeScript",
+      "bytes": 141,
+      "when": [
+        "node",
+        "typescript"
+      ]
+    },
+    {
+      "name": "Python",
+      "bytes": 360,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "Go",
+      "bytes": 123,
+      "when": []
+    },
+    {
+      "name": ".NET",
+      "bytes": 112,
+      "when": []
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 2007,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 420,
+      "when": [
+        "typescript"
+      ]
+    },
+    {
+      "name": "Python",
+      "bytes": 450,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "Go",
+      "bytes": 698,
+      "when": []
+    },
+    {
+      "name": ".NET (C#)",
+      "bytes": 423,
+      "when": []
+    },
+    {
+      "name": "Streaming Responses",
+      "bytes": 2523,
+      "when": [
+        "streaming",
+        "responses"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 630,
+      "when": [
+        "typescript"
+      ]
+    },
+    {
+      "name": "Python",
+      "bytes": 849,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "Go",
+      "bytes": 493,
+      "when": []
+    },
+    {
+      "name": ".NET",
+      "bytes": 487,
+      "when": []
+    },
+    {
+      "name": "Custom Tools",
+      "bytes": 4764,
+      "when": [
+        "custom",
+        "tools"
+      ]
+    },
+    {
+      "name": "TypeScript (JSON Schema)",
+      "bytes": 1321,
+      "when": [
+        "typescript",
+        "json",
+        "schema"
+      ]
+    },
+    {
+      "name": "Python (Pydantic)",
+      "bytes": 1421,
+      "when": [
+        "python",
+        "pydantic"
+      ]
+    },
+    {
+      "name": "Go",
+      "bytes": 1004,
+      "when": []
+    },
+    {
+      "name": ".NET (Microsoft.Extensions.AI)",
+      "bytes": 788,
+      "when": [
+        "microsoft",
+        "extensions"
+      ]
+    },
+    {
+      "name": "How Tools Work",
+      "bytes": 344,
+      "when": [
+        "tools",
+        "work"
+      ]
+    },
+    {
+      "name": "Interactive CLI Assistant",
+      "bytes": 3522,
+      "when": [
+        "interactive",
+        "assistant"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 1693,
+      "when": [
+        "typescript"
+      ]
+    },
+    {
+      "name": "Python",
+      "bytes": 1758,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "MCP Server Integration",
+      "bytes": 1487,
+      "when": [
+        "server",
+        "integration"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 277,
+      "when": [
+        "typescript"
+      ]
+    },
+    {
+      "name": "Python",
+      "bytes": 307,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "Go",
+      "bytes": 337,
+      "when": []
+    },
+    {
+      "name": ".NET",
+      "bytes": 400,
+      "when": []
+    },
+    {
+      "name": "Custom Agents",
+      "bytes": 915,
+      "when": [
+        "custom",
+        "agents"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 406,
+      "when": [
+        "typescript"
+      ]
+    },
+    {
+      "name": "Python",
+      "bytes": 439,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "System Message",
+      "bytes": 617,
+      "when": [
+        "system",
+        "message"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 263,
+      "when": [
+        "typescript"
+      ]
+    },
+    {
+      "name": "Python",
+      "bytes": 289,
+      "when": [
+        "python"
+      ]
+    },
+    {
+      "name": "External CLI Server",
+      "bytes": 1569,
+      "when": [
+        "external",
+        "server"
+      ]
+    },
+    {
+      "name": "Start CLI in Server Mode",
+      "bytes": 71,
+      "when": [
+        "start",
+        "server",
+        "mode"
+      ]
+    },
+    {
+      "name": "Connect SDK to External Server",
+      "bytes": 1344,
+      "when": [
+        "connect",
+        "external",
+        "server"
+      ]
+    },
+    {
+      "name": "Event Types",
+      "bytes": 520,
+      "when": [
+        "event",
+        "types"
+      ]
+    },
+    {
+      "name": "Client Configuration",
+      "bytes": 539,
+      "when": [
+        "client",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Session Configuration",
+      "bytes": 516,
+      "when": [
+        "session",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Session Persistence",
+      "bytes": 612,
+      "when": [
+        "session",
+        "persistence"
+      ]
+    },
+    {
+      "name": "Create with Custom ID",
+      "bytes": 192,
+      "when": [
+        "create",
+        "custom"
+      ]
+    },
+    {
+      "name": "Resume Session",
+      "bytes": 208,
+      "when": [
+        "resume",
+        "session"
+      ]
+    },
+    {
+      "name": "List and Delete Sessions",
+      "bytes": 140,
+      "when": [
+        "list",
+        "delete",
+        "sessions"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 642,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Graceful Shutdown",
+      "bytes": 163,
+      "when": [
+        "graceful",
+        "shutdown"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 759,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Multi-turn Conversation",
+      "bytes": 307,
+      "when": [
+        "multi",
+        "turn",
+        "conversation"
+      ]
+    },
+    {
+      "name": "File Attachments",
+      "bytes": 209,
+      "when": [
+        "file",
+        "attachments"
+      ]
+    },
+    {
+      "name": "Abort Long Operations",
+      "bytes": 223,
+      "when": [
+        "abort",
+        "long",
+        "operations"
+      ]
+    },
+    {
+      "name": "Available Models",
+      "bytes": 177,
+      "when": [
+        "available",
+        "models"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 512,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "bytes": 260,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "Resources",
+      "bytes": 476,
+      "when": [
+        "resources"
+      ]
+    },
+    {
+      "name": "Status",
+      "bytes": 119,
+      "when": [
+        "status"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\copilot-sdk\\SKILL.md"
+}

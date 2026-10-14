@@ -1,0 +1,93 @@
+{
+  "id": "awesome-copilot__dotnet-timezone",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9514bd6f6e227171ae762460697e19ac545d88be6400171bfd085819717c093c",
+  "purpose": ".NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, UTC conversion, daylight saving time, scheduling across timezones, cross-platform Win",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    ".NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, UTC conversion, daylight saving time, schedul"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 976,
+  "core_bytes": 3901,
+  "sections": [
+    {
+      "name": "Start With The Right Path",
+      "bytes": 404,
+      "when": [
+        "start",
+        "right",
+        "path"
+      ]
+    },
+    {
+      "name": "Resolve Addresses And Locations",
+      "bytes": 1045,
+      "when": [
+        "resolve",
+        "addresses",
+        "locations"
+      ]
+    },
+    {
+      "name": "Look Up Timezone IDs",
+      "bytes": 259,
+      "when": [
+        "look",
+        "timezone"
+      ]
+    },
+    {
+      "name": "Generate Code",
+      "bytes": 571,
+      "when": [
+        "generate",
+        "code"
+      ]
+    },
+    {
+      "name": "Warn About Common Pitfalls",
+      "bytes": 441,
+      "when": [
+        "warn",
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Response Shape",
+      "bytes": 515,
+      "when": [
+        "response",
+        "shape"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 160,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dotnet-timezone\\SKILL.md"
+}

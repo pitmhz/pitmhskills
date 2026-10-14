@@ -1,0 +1,77 @@
+{
+  "id": "awesome-copilot__qdrant-deployment-options",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "31afa639420a3434cc8c48039b38820e8248e1ba47074b3f58a724e73af20516",
+  "purpose": "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which deployment option', 'self-hosted vs cloud', ",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which depl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 775,
+  "core_bytes": 3097,
+  "sections": [
+    {
+      "name": "Getting Started or Prototyping",
+      "bytes": 516,
+      "when": [
+        "getting",
+        "started",
+        "prototyping"
+      ]
+    },
+    {
+      "name": "Going to Production (Self-Hosted)",
+      "bytes": 700,
+      "when": [
+        "going",
+        "production",
+        "self",
+        "hosted"
+      ]
+    },
+    {
+      "name": "Going to Production (Zero-Ops)",
+      "bytes": 479,
+      "when": [
+        "going",
+        "production",
+        "zero"
+      ]
+    },
+    {
+      "name": "Need Lowest Possible Latency",
+      "bytes": 455,
+      "when": [
+        "need",
+        "lowest",
+        "possible",
+        "latency"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 387,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-deployment-options\\SKILL.md"
+}

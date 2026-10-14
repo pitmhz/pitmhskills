@@ -27,7 +27,268 @@
   "conflicts_with": [],
   "body_tokens": 4515,
   "core_bytes": 18061,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 206,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "When to Use This Skill",
+      "bytes": 314,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Happy Path (New Users)",
+      "bytes": 533,
+      "when": [
+        "happy",
+        "path",
+        "users"
+      ]
+    },
+    {
+      "name": "Choose Your Source Path",
+      "bytes": 580,
+      "when": [
+        "choose",
+        "source",
+        "path"
+      ]
+    },
+    {
+      "name": "Choose Your Deployment Method (Git Repo)",
+      "bytes": 1555,
+      "when": [
+        "choose",
+        "deployment",
+        "method",
+        "repo"
+      ]
+    },
+    {
+      "name": "Method Selection Heuristic",
+      "bytes": 1056,
+      "when": [
+        "method",
+        "selection",
+        "heuristic"
+      ]
+    },
+    {
+      "name": "Prerequisites Check",
+      "bytes": 4043,
+      "when": [
+        "prerequisites",
+        "check"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "bytes": 452,
+      "when": [
+        "cursor"
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "bytes": 403,
+      "when": [
+        "claude",
+        "code"
+      ]
+    },
+    {
+      "name": "Codex",
+      "bytes": 427,
+      "when": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Other Tools",
+      "bytes": 139,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Workspace Selection",
+      "bytes": 1300,
+      "when": [
+        "workspace",
+        "selection"
+      ]
+    },
+    {
+      "name": "Blueprint Workflow",
+      "bytes": 6478,
+      "when": [
+        "blueprint",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Analyze Codebase",
+      "bytes": 262,
+      "when": [
+        "step",
+        "analyze",
+        "codebase"
+      ]
+    },
+    {
+      "name": "Step 2: Generate render.yaml",
+      "bytes": 1530,
+      "when": [
+        "step",
+        "generate",
+        "render",
+        "yaml"
+      ]
+    },
+    {
+      "name": "Step 2.5: Immediate Next Steps (Always Provide)",
+      "bytes": 777,
+      "when": [
+        "step",
+        "immediate",
+        "next",
+        "steps",
+        "provide"
+      ]
+    },
+    {
+      "name": "Step 3: Validate Configuration",
+      "bytes": 629,
+      "when": [
+        "step",
+        "validate",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Step 4: Commit and Push",
+      "bytes": 747,
+      "when": [
+        "step",
+        "commit",
+        "push"
+      ]
+    },
+    {
+      "name": "Step 5: Generate Deeplink",
+      "bytes": 833,
+      "when": [
+        "step",
+        "generate",
+        "deeplink"
+      ]
+    },
+    {
+      "name": "Step 6: Guide User",
+      "bytes": 824,
+      "when": [
+        "step",
+        "guide",
+        "user"
+      ]
+    },
+    {
+      "name": "Step 7: Verify Deployment",
+      "bytes": 851,
+      "when": [
+        "step",
+        "verify",
+        "deployment"
+      ]
+    },
+    {
+      "name": "When to Use Direct Creation",
+      "bytes": 211,
+      "when": [
+        "direct",
+        "creation"
+      ]
+    },
+    {
+      "name": "Prerequisites for Direct Creation",
+      "bytes": 531,
+      "when": [
+        "prerequisites",
+        "direct",
+        "creation"
+      ]
+    },
+    {
+      "name": "Direct Creation Workflow",
+      "bytes": 1966,
+      "when": [
+        "direct",
+        "creation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Analyze Codebase",
+      "bytes": 174,
+      "when": [
+        "step",
+        "analyze",
+        "codebase"
+      ]
+    },
+    {
+      "name": "Step 2: Create Resources via MCP",
+      "bytes": 356,
+      "when": [
+        "step",
+        "create",
+        "resources"
+      ]
+    },
+    {
+      "name": "Step 3: Configure Environment Variables",
+      "bytes": 263,
+      "when": [
+        "step",
+        "configure",
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Step 4: Verify Deployment",
+      "bytes": 975,
+      "when": [
+        "step",
+        "verify",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 678,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Escalated Network Access",
+      "bytes": 656,
+      "when": [
+        "escalated",
+        "network",
+        "access"
+      ]
+    }
+  ],
+  "verify": [
+    "npm run build"
+  ],
   "skill_path": "skills/openai/skills/.curated/render-deploy/SKILL.md"
 }

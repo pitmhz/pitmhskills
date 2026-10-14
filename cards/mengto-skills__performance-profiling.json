@@ -1,0 +1,113 @@
+{
+  "id": "mengto-skills__performance-profiling",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "4ae38ca5556f65189a351366843f06025682282088bb23bfaf0c3a3f03053f0b",
+  "purpose": "Guide performance profiling for Apple platform apps with Instruments, Xcode diagnostics, and MetricKit. Use when investigating app hangs, stutters, high CPU, memory leaks, memory growth, OOM crashes, ",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guide performance profiling for Apple platform apps with Instruments, Xcode diagnostics, and MetricKit. Use when investigating app hangs, stutters, high CPU, me"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1577,
+  "core_bytes": 6306,
+  "sections": [
+    {
+      "name": "Decision Tree",
+      "bytes": 775,
+      "when": [
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 998,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 486,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Profiling Ground Rules",
+      "bytes": 460,
+      "when": [
+        "profiling",
+        "ground",
+        "rules"
+      ]
+    },
+    {
+      "name": "Xcode Diagnostics",
+      "bytes": 439,
+      "when": [
+        "xcode",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "MetricKit Hook",
+      "bytes": 1174,
+      "when": [
+        "metrickit",
+        "hook"
+      ]
+    },
+    {
+      "name": "Review Checklist",
+      "bytes": 1036,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 351,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "decision",
+    "tree",
+    "quick",
+    "reference",
+    "workflow",
+    "ground",
+    "rules",
+    "hook",
+    "review",
+    "checklist",
+    "references"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\performance-profiling\\SKILL.md"
+}

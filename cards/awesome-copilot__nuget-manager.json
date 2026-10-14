@@ -1,0 +1,117 @@
+{
+  "id": "awesome-copilot__nuget-manager",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0da298a7ede2c1267b2e9eca0ad394f9df7296689d010bbbc7cd818ed4a59567",
+  "purpose": "Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions. It enforces using `dotnet` CLI for package management and provides strict pr",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions. It enforces using `dotnet` CLI for p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 855,
+  "core_bytes": 3418,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 253,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 262,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Rules",
+      "bytes": 632,
+      "when": [
+        "core",
+        "rules"
+      ]
+    },
+    {
+      "name": "Workflows",
+      "bytes": 1464,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "Adding a Package",
+      "bytes": 174,
+      "when": [
+        "adding",
+        "package"
+      ]
+    },
+    {
+      "name": "Removing a Package",
+      "bytes": 160,
+      "when": [
+        "removing",
+        "package"
+      ]
+    },
+    {
+      "name": "Updating Package Versions",
+      "bytes": 1116,
+      "when": [
+        "updating",
+        "package",
+        "versions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 486,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "User: \"Add Serilog to the WebApi project\"",
+      "bytes": 122,
+      "when": [
+        "user",
+        "serilog",
+        "webapi",
+        "project"
+      ]
+    },
+    {
+      "name": "User: \"Update Newtonsoft.Json to 13.0.3 in the whole solution\"",
+      "bytes": 351,
+      "when": [
+        "user",
+        "update",
+        "newtonsoft",
+        "json",
+        "whole",
+        "solution"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\nuget-manager\\SKILL.md"
+}

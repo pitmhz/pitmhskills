@@ -1,0 +1,71 @@
+{
+  "id": "awesome-copilot__azure-container-registry-cli",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cf157968751712d86e0838eb580fc77546c97ff0da3720e118dbcfcc6da15b19",
+  "purpose": "Manage Azure Container Registry via the az acr CLI including registries, images, cloud builds, ACR Tasks, authentication, tokens, geo-replication, and networking. Use when working with ACR, az acr com",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Manage Azure Container Registry via the az acr CLI including registries, images, cloud builds, ACR Tasks, authentication, tokens, geo-replication, and networkin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1249,
+  "core_bytes": 5119,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 284,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 744,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Key Principles",
+      "bytes": 780,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "CLI Structure",
+      "bytes": 1483,
+      "when": [
+        "structure"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 1180,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-container-registry-cli\\SKILL.md"
+}

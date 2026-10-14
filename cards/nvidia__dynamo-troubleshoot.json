@@ -1,0 +1,140 @@
+{
+  "id": "nvidia__dynamo-troubleshoot",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "81ee753dcaa82abf58212b66b52f2e0480462d7c2f8ffd8b65f7ef7130b5eddc",
+  "purpose": "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1324,
+  "core_bytes": 5295,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 179,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 281,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1621,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Collect A Read-Only Bundle",
+      "bytes": 397,
+      "when": [
+        "collect",
+        "read",
+        "bundle"
+      ]
+    },
+    {
+      "name": "2. Classify The Failure",
+      "bytes": 364,
+      "when": [
+        "classify",
+        "failure"
+      ]
+    },
+    {
+      "name": "3. Debug Top Down",
+      "bytes": 382,
+      "when": [
+        "debug",
+        "down"
+      ]
+    },
+    {
+      "name": "4. Fix One Layer At A Time",
+      "bytes": 459,
+      "when": [
+        "layer",
+        "time"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 414,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 518,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 222,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 410,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 687,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Benchmark",
+      "bytes": 197,
+      "when": [
+        "benchmark"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 172,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/dynamo-troubleshoot/SKILL.md"
+}

@@ -1,0 +1,236 @@
+{
+  "id": "nvidia__nemo-automodel-recipe-development",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a5d7f30c5814cec21df715615d2c821901092d7da1d9a233188b6e1bb1b18531",
+  "purpose": "Create and modify NeMo AutoModel training and evaluation recipes, including YAML structure, builders, and execution flow.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Create and modify NeMo AutoModel training and evaluation recipes, including YAML structure, builders, and execution flow."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3070,
+  "core_bytes": 12278,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1938,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Routing Boundary",
+      "bytes": 475,
+      "when": [
+        "routing",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Recipe Architecture",
+      "bytes": 1583,
+      "when": [
+        "recipe",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Execution Flow",
+      "bytes": 284,
+      "when": [
+        "execution",
+        "flow"
+      ]
+    },
+    {
+      "name": "Recipe Class",
+      "bytes": 299,
+      "when": [
+        "recipe",
+        "class"
+      ]
+    },
+    {
+      "name": "Builder Pattern",
+      "bytes": 623,
+      "when": [
+        "builder",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Infrastructure Application Order",
+      "bytes": 351,
+      "when": [
+        "infrastructure",
+        "application",
+        "order"
+      ]
+    },
+    {
+      "name": "YAML Config Anatomy",
+      "bytes": 2486,
+      "when": [
+        "yaml",
+        "config",
+        "anatomy"
+      ]
+    },
+    {
+      "name": "Full-Parameter Training Precision",
+      "bytes": 536,
+      "when": [
+        "full",
+        "parameter",
+        "training",
+        "precision"
+      ]
+    },
+    {
+      "name": "The `_target_` Pattern",
+      "bytes": 394,
+      "when": [
+        "target",
+        "pattern"
+      ]
+    },
+    {
+      "name": "CLI Overrides",
+      "bytes": 211,
+      "when": [
+        "overrides"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 284,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Domain-Specific Notes",
+      "bytes": 1239,
+      "when": [
+        "domain",
+        "specific",
+        "notes"
+      ]
+    },
+    {
+      "name": "LLM",
+      "bytes": 354,
+      "when": []
+    },
+    {
+      "name": "VLM",
+      "bytes": 222,
+      "when": []
+    },
+    {
+      "name": "Diffusion",
+      "bytes": 252,
+      "when": [
+        "diffusion"
+      ]
+    },
+    {
+      "name": "Retrieval",
+      "bytes": 383,
+      "when": [
+        "retrieval"
+      ]
+    },
+    {
+      "name": "Training Loop Details",
+      "bytes": 1912,
+      "when": [
+        "training",
+        "loop",
+        "details"
+      ]
+    },
+    {
+      "name": "StepScheduler",
+      "bytes": 179,
+      "when": [
+        "stepscheduler"
+      ]
+    },
+    {
+      "name": "Gradient Clipping",
+      "bytes": 181,
+      "when": [
+        "gradient",
+        "clipping"
+      ]
+    },
+    {
+      "name": "Context Parallelism",
+      "bytes": 177,
+      "when": [
+        "context",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "MetricsSample",
+      "bytes": 346,
+      "when": [
+        "metricssample"
+      ]
+    },
+    {
+      "name": "Validation & Checkpointing",
+      "bytes": 610,
+      "when": [
+        "validation",
+        "checkpointing"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 217,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Checkpointing",
+      "bytes": 360,
+      "when": [
+        "checkpointing"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 1165,
+      "when": [
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-automodel-recipe-development/SKILL.md",
+  "curated": true
+}

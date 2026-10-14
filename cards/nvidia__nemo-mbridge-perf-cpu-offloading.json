@@ -1,0 +1,262 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-cpu-offloading",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "05b767a8e1f5e44558c29e9bbbdee38988fd905f2b3970a42504decca8dc99cf",
+  "purpose": "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptimizer.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptim"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2387,
+  "core_bytes": 9559,
+  "sections": [
+    {
+      "name": "References",
+      "bytes": 143,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "What It Is",
+      "bytes": 450,
+      "when": []
+    },
+    {
+      "name": "Quick Decision",
+      "bytes": 647,
+      "when": [
+        "quick",
+        "decision"
+      ]
+    },
+    {
+      "name": "Enablement",
+      "bytes": 768,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Optimizer CPU offloading (recommended for large models)",
+      "bytes": 389,
+      "when": [
+        "optimizer",
+        "offloading",
+        "recommended",
+        "large",
+        "models"
+      ]
+    },
+    {
+      "name": "Activation CPU offloading (small/medium models only)",
+      "bytes": 362,
+      "when": [
+        "activation",
+        "offloading",
+        "small",
+        "medium",
+        "models"
+      ]
+    },
+    {
+      "name": "Config Parameter Reference",
+      "bytes": 970,
+      "when": [
+        "config",
+        "parameter",
+        "reference"
+      ]
+    },
+    {
+      "name": "Optimizer offloading",
+      "bytes": 461,
+      "when": [
+        "optimizer",
+        "offloading"
+      ]
+    },
+    {
+      "name": "Activation offloading",
+      "bytes": 476,
+      "when": [
+        "activation",
+        "offloading"
+      ]
+    },
+    {
+      "name": "Compatibility And Constraints",
+      "bytes": 770,
+      "when": [
+        "compatibility",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Activation offloading",
+      "bytes": 274,
+      "when": [
+        "activation",
+        "offloading"
+      ]
+    },
+    {
+      "name": "Optimizer offloading",
+      "bytes": 207,
+      "when": [
+        "optimizer",
+        "offloading"
+      ]
+    },
+    {
+      "name": "Practical: large MoE models",
+      "bytes": 253,
+      "when": [
+        "practical",
+        "large",
+        "models"
+      ]
+    },
+    {
+      "name": "Minimal Runnable Command",
+      "bytes": 312,
+      "when": [
+        "minimal",
+        "runnable",
+        "command"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 481,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Unit tests",
+      "bytes": 206,
+      "when": [
+        "unit",
+        "tests"
+      ]
+    },
+    {
+      "name": "Success criteria",
+      "bytes": 256,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 2733,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "MCore activation offload constraints",
+      "bytes": 750,
+      "when": [
+        "mcore",
+        "activation",
+        "offload",
+        "constraints"
+      ]
+    },
+    {
+      "name": "MCore CUDA graph incompatibility",
+      "bytes": 251,
+      "when": [
+        "mcore",
+        "cuda",
+        "graph",
+        "incompatibility"
+      ]
+    },
+    {
+      "name": "MCore fine-grained offloading mutual exclusion",
+      "bytes": 352,
+      "when": [
+        "mcore",
+        "fine",
+        "grained",
+        "offloading",
+        "mutual",
+        "exclusion"
+      ]
+    },
+    {
+      "name": "MCore HybridDeviceOptimizer instantiation",
+      "bytes": 686,
+      "when": [
+        "mcore",
+        "hybriddeviceoptimizer",
+        "instantiation"
+      ]
+    },
+    {
+      "name": "Bridge CUDA graph guard",
+      "bytes": 223,
+      "when": [
+        "bridge",
+        "cuda",
+        "graph",
+        "guard"
+      ]
+    },
+    {
+      "name": "Bridge activation offloading in PEFT",
+      "bytes": 452,
+      "when": [
+        "bridge",
+        "activation",
+        "offloading",
+        "peft"
+      ]
+    },
+    {
+      "name": "Failure Diagnosis",
+      "bytes": 1220,
+      "when": [
+        "failure",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Known Limitations",
+      "bytes": 524,
+      "when": [
+        "known",
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run python -m pytest tests/unit_tests/models/test_gpt_full_te_layer_autocast_spec.py -k \"cpu_offload\" tests/unit_tests/peft/test_utils.py -k \"cpu_offload\" -q"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-cpu-offloading/SKILL.md",
+  "curated": true
+}

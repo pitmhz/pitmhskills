@@ -1,0 +1,99 @@
+{
+  "id": "awesome-copilot__qdrant-search-strategies",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ed5044af012df8b84eca9e7cef6888dec798e5aa5b32144cf72646e93847d469",
+  "purpose": "Guides Qdrant search strategy selection. Use when someone asks 'should I use hybrid search?', 'BM25 or sparse vectors?', 'how to rerank?', 'results are not relevant', 'I don't get needed results from ",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant search strategy selection. Use when someone asks 'should I use hybrid search?', 'BM25 or sparse vectors?', 'how to rerank?', 'results are not rele"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1741,
+  "core_bytes": 6963,
+  "sections": [
+    {
+      "name": "Missing Obvious Keyword Matches",
+      "bytes": 1310,
+      "when": [
+        "missing",
+        "obvious",
+        "keyword",
+        "matches"
+      ]
+    },
+    {
+      "name": "Right Documents Found But Wrong Order",
+      "bytes": 747,
+      "when": [
+        "right",
+        "documents",
+        "found",
+        "wrong",
+        "order"
+      ]
+    },
+    {
+      "name": "Right Documents Not Found But They Are There",
+      "bytes": 2042,
+      "when": [
+        "right",
+        "documents",
+        "found",
+        "they"
+      ]
+    },
+    {
+      "name": "Results Too Similar",
+      "bytes": 538,
+      "when": [
+        "results",
+        "similar"
+      ]
+    },
+    {
+      "name": "Know What Good Results Could Look Like But Can't Get Them",
+      "bytes": 736,
+      "when": [
+        "know",
+        "good",
+        "results",
+        "look",
+        "them"
+      ]
+    },
+    {
+      "name": "Have Business Logic Behind Relevance",
+      "bytes": 296,
+      "when": [
+        "business",
+        "logic",
+        "behind",
+        "relevance"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 356,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-search-quality\\search-strategies\\SKILL.md"
+}

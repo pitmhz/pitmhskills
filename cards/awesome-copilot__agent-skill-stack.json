@@ -1,0 +1,129 @@
+{
+  "id": "awesome-copilot__agent-skill-stack",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d75ed95177dab5ddb5ca96c87fed93842e7d3221b4b5c9f2d8ebb72d33cde5e2",
+  "purpose": "Find, evaluate, and assemble the smallest compatible set of AI Agent Skills for an end-to-end natural-language goal. Use when a user wants Skills for a multi-step workflow, asks which Skills fit a pro",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Find, evaluate, and assemble the smallest compatible set of AI Agent Skills for an end-to-end natural-language goal. Use when a user wants Skills for a multi-st"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2564,
+  "core_bytes": 10340,
+  "sections": [
+    {
+      "name": "1. Choose the user-facing depth",
+      "bytes": 824,
+      "when": [
+        "choose",
+        "user",
+        "facing",
+        "depth"
+      ]
+    },
+    {
+      "name": "2. Derive the workflow dynamically",
+      "bytes": 821,
+      "when": [
+        "derive",
+        "workflow",
+        "dynamically"
+      ]
+    },
+    {
+      "name": "3. Search the local index first",
+      "bytes": 1000,
+      "when": [
+        "search",
+        "local",
+        "index",
+        "first"
+      ]
+    },
+    {
+      "name": "4. Map capabilities, including indirect helpers",
+      "bytes": 851,
+      "when": [
+        "capabilities",
+        "including",
+        "indirect",
+        "helpers"
+      ]
+    },
+    {
+      "name": "5. Search with four lenses",
+      "bytes": 1063,
+      "when": [
+        "search",
+        "four",
+        "lenses"
+      ]
+    },
+    {
+      "name": "6. Verify and rank candidates",
+      "bytes": 1268,
+      "when": [
+        "verify",
+        "rank",
+        "candidates"
+      ]
+    },
+    {
+      "name": "7. Analyze conflicts and scope",
+      "bytes": 577,
+      "when": [
+        "analyze",
+        "conflicts",
+        "scope"
+      ]
+    },
+    {
+      "name": "8. Present recommendations in plain language",
+      "bytes": 1368,
+      "when": [
+        "present",
+        "recommendations",
+        "plain",
+        "language"
+      ]
+    },
+    {
+      "name": "9. Install only after consent",
+      "bytes": 1113,
+      "when": [
+        "install",
+        "after",
+        "consent"
+      ]
+    },
+    {
+      "name": "10. Run a recall check",
+      "bytes": 629,
+      "when": [
+        "recall",
+        "check"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\agent-skill-stack\\SKILL.md"
+}

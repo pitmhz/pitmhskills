@@ -1,0 +1,102 @@
+{
+  "id": "awesome-copilot__oo-component-documentation",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "27716aa29ebc98e0b21c2f09e6694eecf1449896cc1070e2460fe5d4285357cc",
+  "purpose": "Create or update standardized object-oriented component documentation using a shared template plus mode-specific guidance for new and existing docs.",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create or update standardized object-oriented component documentation using a shared template plus mode-specific guidance for new and existing docs."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1346,
+  "core_bytes": 5384,
+  "sections": [
+    {
+      "name": "Determine the mode first",
+      "bytes": 882,
+      "when": [
+        "determine",
+        "mode",
+        "first"
+      ]
+    },
+    {
+      "name": "Documentation standards",
+      "bytes": 419,
+      "when": [
+        "documentation",
+        "standards"
+      ]
+    },
+    {
+      "name": "Shared analysis guidance",
+      "bytes": 877,
+      "when": [
+        "shared",
+        "analysis",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Shared output requirements",
+      "bytes": 681,
+      "when": [
+        "shared",
+        "output",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Language-specific optimizations",
+      "bytes": 451,
+      "when": [
+        "language",
+        "specific",
+        "optimizations"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 705,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 622,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Completion criteria",
+      "bytes": 360,
+      "when": [
+        "completion",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\oo-component-documentation\\SKILL.md"
+}

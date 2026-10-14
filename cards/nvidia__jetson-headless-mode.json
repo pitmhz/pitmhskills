@@ -1,0 +1,127 @@
+{
+  "id": "nvidia__jetson-headless-mode",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e088424f776bfecd393d0bae328e3ef45a945ef09f28ced5684c66ef25f33f87",
+  "purpose": "Plan and apply safe Jetson headless-mode changes to reclaim GUI and daemon memory.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Plan and apply safe Jetson headless-mode changes to reclaim GUI and daemon memory."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1953,
+  "core_bytes": 7821,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 185,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 319,
+      "when": []
+    },
+    {
+      "name": "When NOT to use",
+      "bytes": 858,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 400,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 629,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 521,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Expected workflow",
+      "bytes": 914,
+      "when": [
+        "expected",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Plan / apply contract",
+      "bytes": 606,
+      "when": [
+        "plan",
+        "apply",
+        "contract"
+      ]
+    },
+    {
+      "name": "Knobs covered",
+      "bytes": 1442,
+      "when": [
+        "knobs",
+        "covered"
+      ]
+    },
+    {
+      "name": "Do NOT disable these services",
+      "bytes": 479,
+      "when": [
+        "disable",
+        "services"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 515,
+      "when": [
+        "safety"
+      ]
+    },
+    {
+      "name": "Cross-platform behavior",
+      "bytes": 380,
+      "when": [
+        "cross",
+        "platform",
+        "behavior"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-headless-mode/SKILL.md",
+  "curated": true
+}

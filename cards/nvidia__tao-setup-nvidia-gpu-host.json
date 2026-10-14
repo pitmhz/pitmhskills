@@ -1,0 +1,93 @@
+{
+  "id": "nvidia__tao-setup-nvidia-gpu-host",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "2b40ac60ba763ef78991c5266141311ce7e82fafbf8f7f634e67eb990ca9b506",
+  "purpose": "Host setup for TAO GPU backends. Checks and, after user approval, installs minimum-compatible NVIDIA driver, CUDA Toolkit, and NVIDIA Container Toolkit versions for Docker/local-Docker and Kubernetes ",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Host setup for TAO GPU backends. Checks and, after user approval, installs minimum-compatible NVIDIA driver, CUDA Toolkit, and NVIDIA Container Toolkit versions"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3447,
+  "core_bytes": 13811,
+  "sections": [
+    {
+      "name": "Quick Start",
+      "bytes": 1152,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Workflow Contract",
+      "bytes": 706,
+      "when": [
+        "workflow",
+        "contract"
+      ]
+    },
+    {
+      "name": "Model Runtime Override Contract",
+      "bytes": 813,
+      "when": [
+        "model",
+        "runtime",
+        "override",
+        "contract"
+      ]
+    },
+    {
+      "name": "What The Installer Does",
+      "bytes": 2553,
+      "when": [
+        "installer"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 1209,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Kubernetes Notes",
+      "bytes": 820,
+      "when": [
+        "kubernetes",
+        "notes"
+      ]
+    },
+    {
+      "name": "Failure Modes",
+      "bytes": 2911,
+      "when": [
+        "failure",
+        "modes"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-setup-nvidia-gpu-host\\SKILL.md",
+  "curated": true
+}

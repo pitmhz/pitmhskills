@@ -1,0 +1,119 @@
+{
+  "id": "awesome-copilot__eval-driven-dev",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "dbaac08a46bdd0ae865363b53265f2e5a4ae4e95d8ccd11f7fa38e8dc87c40ba",
+  "purpose": "Improve AI application with evaluation-driven development. Define eval criteria, instrument the application, build golden datasets, observe and evaluate application runs, analyze results, and produce ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Improve AI application with evaluation-driven development. Define eval criteria, instrument the application, build golden datasets, observe and evaluate applica"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4434,
+  "core_bytes": 17830,
+  "sections": [
+    {
+      "name": "Before you start",
+      "bytes": 1230,
+      "when": [
+        "before",
+        "start"
+      ]
+    },
+    {
+      "name": "The workflow",
+      "bytes": 13314,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Understand the app and define eval criteria",
+      "bytes": 3646,
+      "when": [
+        "step",
+        "understand",
+        "define",
+        "eval",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Step 2: Instrument, run application, and capture a reference trace",
+      "bytes": 1701,
+      "when": [
+        "step",
+        "instrument",
+        "application",
+        "capture",
+        "reference",
+        "trace"
+      ]
+    },
+    {
+      "name": "Step 3: Define evaluators",
+      "bytes": 912,
+      "when": [
+        "step",
+        "define",
+        "evaluators"
+      ]
+    },
+    {
+      "name": "Step 4: Build the dataset",
+      "bytes": 1386,
+      "when": [
+        "step",
+        "build",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Step 5: Run `pixie test` and fix mechanical issues",
+      "bytes": 1585,
+      "when": [
+        "step",
+        "pixie",
+        "test",
+        "mechanical",
+        "issues"
+      ]
+    },
+    {
+      "name": "Step 6: Analyze outcomes",
+      "bytes": 1789,
+      "when": [
+        "step",
+        "analyze",
+        "outcomes"
+      ]
+    },
+    {
+      "name": "Web Server Management",
+      "bytes": 779,
+      "when": [
+        "server",
+        "management"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\eval-driven-dev\\SKILL.md"
+}

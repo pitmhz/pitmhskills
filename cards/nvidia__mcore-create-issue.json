@@ -1,0 +1,122 @@
+{
+  "id": "nvidia__mcore-create-issue",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "626d5a9f8c3313b58a0caefee4641d4334fe8c9ef648cd1746bec5d3bf075b20",
+  "purpose": "Investigate a failing GitHub Actions run or job and create a GitHub issue for the failure.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Investigate a failing GitHub Actions run or job and create a GitHub issue for the failure."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1637,
+  "core_bytes": 6562,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 5174,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Parse the URL",
+      "bytes": 294,
+      "when": [
+        "parse"
+      ]
+    },
+    {
+      "name": "2. Identify failed jobs",
+      "bytes": 443,
+      "when": [
+        "identify",
+        "failed",
+        "jobs"
+      ]
+    },
+    {
+      "name": "3. Fetch the failure logs",
+      "bytes": 607,
+      "when": [
+        "fetch",
+        "failure",
+        "logs"
+      ]
+    },
+    {
+      "name": "4. Resolve the triggering PR and test author",
+      "bytes": 1471,
+      "when": [
+        "resolve",
+        "triggering",
+        "test",
+        "author"
+      ]
+    },
+    {
+      "name": "5. Extract the root cause",
+      "bytes": 455,
+      "when": [
+        "extract",
+        "root",
+        "cause"
+      ]
+    },
+    {
+      "name": "6. Check for duplicate issues",
+      "bytes": 428,
+      "when": [
+        "check",
+        "duplicate",
+        "issues"
+      ]
+    },
+    {
+      "name": "7. Create the issue",
+      "bytes": 1317,
+      "when": [
+        "create",
+        "issue"
+      ]
+    },
+    {
+      "name": "8. Report back to the user",
+      "bytes": 144,
+      "when": [
+        "report",
+        "back",
+        "user"
+      ]
+    },
+    {
+      "name": "Important guidelines",
+      "bytes": 733,
+      "when": [
+        "important",
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/mcore-create-issue/SKILL.md",
+  "curated": true
+}

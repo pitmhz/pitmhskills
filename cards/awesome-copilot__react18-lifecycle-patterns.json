@@ -1,0 +1,82 @@
+{
+  "id": "awesome-copilot__react18-lifecycle-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5d2a1220ef18d5344f18de537877ff2a192260142ae3e40810967d5047745470",
+  "purpose": "Provides exact before/after migration patterns for the three unsafe class component lifecycle methods - componentWillMount, componentWillReceiveProps, and componentWillUpdate - targeting React 18.3.1.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Provides exact before/after migration patterns for the three unsafe class component lifecycle methods - componentWillMount, componentWillReceiveProps, and compo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 910,
+  "core_bytes": 3653,
+  "sections": [
+    {
+      "name": "Quick Decision Guide",
+      "bytes": 1655,
+      "when": [
+        "quick",
+        "decision",
+        "guide"
+      ]
+    },
+    {
+      "name": "componentWillMount - what does it do?",
+      "bytes": 542,
+      "when": [
+        "componentwillmount"
+      ]
+    },
+    {
+      "name": "componentWillReceiveProps - what does it do?",
+      "bytes": 458,
+      "when": [
+        "componentwillreceiveprops"
+      ]
+    },
+    {
+      "name": "componentWillUpdate - what does it do?",
+      "bytes": 438,
+      "when": [
+        "componentwillupdate"
+      ]
+    },
+    {
+      "name": "The UNSAFE_ Prefix Rule",
+      "bytes": 751,
+      "when": [
+        "unsafe",
+        "prefix",
+        "rule"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 433,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react18-lifecycle-patterns\\SKILL.md"
+}

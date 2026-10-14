@@ -1,0 +1,154 @@
+{
+  "id": "awesome-copilot__data-breach-blast-radius",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d61d7e6036a67fa25afa016b61d4130448f3e74896dfafef1847f1f01fc86bbe",
+  "purpose": "Pre-breach impact analysis: inventories sensitive data (PII, PHI, PCI-DSS, credentials), traces data flows, scores exposure vectors, and produces a regulatory blast radius report with fine ranges sour",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Pre-breach impact analysis: inventories sensitive data (PII, PHI, PCI-DSS, credentials), traces data flows, scores exposure vectors, and produces a regulatory b"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3551,
+  "core_bytes": 14320,
+  "sections": [
+    {
+      "name": "When to Activate",
+      "bytes": 570,
+      "when": [
+        "activate"
+      ]
+    },
+    {
+      "name": "How This Skill Works",
+      "bytes": 863,
+      "when": [
+        "skill",
+        "works"
+      ]
+    },
+    {
+      "name": "Execution Workflow",
+      "bytes": 7735,
+      "when": [
+        "execution",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Scope & Stack Detection",
+      "bytes": 779,
+      "when": [
+        "step",
+        "scope",
+        "stack",
+        "detection"
+      ]
+    },
+    {
+      "name": "Step 2 — Sensitive Data Inventory",
+      "bytes": 1566,
+      "when": [
+        "step",
+        "sensitive",
+        "data",
+        "inventory"
+      ]
+    },
+    {
+      "name": "Step 3 — Data Flow Tracing",
+      "bytes": 1858,
+      "when": [
+        "step",
+        "data",
+        "flow",
+        "tracing"
+      ]
+    },
+    {
+      "name": "Step 4 — Blast Radius Calculation",
+      "bytes": 1386,
+      "when": [
+        "step",
+        "blast",
+        "radius",
+        "calculation"
+      ]
+    },
+    {
+      "name": "Step 5 — Regulatory Impact Estimation",
+      "bytes": 691,
+      "when": [
+        "step",
+        "regulatory",
+        "impact",
+        "estimation"
+      ]
+    },
+    {
+      "name": "Step 6 — Blast Radius Report Generation",
+      "bytes": 907,
+      "when": [
+        "step",
+        "blast",
+        "radius",
+        "report",
+        "generation"
+      ]
+    },
+    {
+      "name": "Step 7 — Hardening Roadmap",
+      "bytes": 480,
+      "when": [
+        "step",
+        "hardening",
+        "roadmap"
+      ]
+    },
+    {
+      "name": "Output Rules",
+      "bytes": 909,
+      "when": [
+        "output",
+        "rules"
+      ]
+    },
+    {
+      "name": "Severity Tiers for Blast Radius",
+      "bytes": 677,
+      "when": [
+        "severity",
+        "tiers",
+        "blast",
+        "radius"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 961,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\data-breach-blast-radius\\SKILL.md"
+}

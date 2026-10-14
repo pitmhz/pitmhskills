@@ -1,0 +1,161 @@
+{
+  "id": "awesome-copilot__salesforce-apex-quality",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1424428af68ba207d5763ac0f885b49741722a1f0e875bb880597f9ea27873a0",
+  "purpose": "Apex code quality guardrails for Salesforce development. Enforces bulk-safety rules (no SOQL/DML in loops), sharing model requirements, CRUD/FLS security, SOQL injection prevention, PNB test coverage ",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Apex code quality guardrails for Salesforce development. Enforces bulk-safety rules (no SOQL/DML in loops), sharing model requirements, CRUD/FLS security, SOQL "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1820,
+  "core_bytes": 7338,
+  "sections": [
+    {
+      "name": "Step 1 — Governor Limit Safety Check",
+      "bytes": 1031,
+      "when": [
+        "step",
+        "governor",
+        "limit",
+        "safety",
+        "check"
+      ]
+    },
+    {
+      "name": "SOQL and DML in Loops — Automatic Fail",
+      "bytes": 920,
+      "when": [
+        "soql",
+        "loops",
+        "automatic",
+        "fail"
+      ]
+    },
+    {
+      "name": "Step 2 — Sharing Model Verification",
+      "bytes": 697,
+      "when": [
+        "step",
+        "sharing",
+        "model",
+        "verification"
+      ]
+    },
+    {
+      "name": "Step 3 — CRUD / FLS Enforcement",
+      "bytes": 849,
+      "when": [
+        "step",
+        "crud",
+        "enforcement"
+      ]
+    },
+    {
+      "name": "Step 4 — SOQL Injection Prevention",
+      "bytes": 578,
+      "when": [
+        "step",
+        "soql",
+        "injection",
+        "prevention"
+      ]
+    },
+    {
+      "name": "Step 5 — Modern Apex Idioms",
+      "bytes": 512,
+      "when": [
+        "step",
+        "modern",
+        "apex",
+        "idioms"
+      ]
+    },
+    {
+      "name": "Step 6 — PNB Test Coverage Checklist",
+      "bytes": 1653,
+      "when": [
+        "step",
+        "test",
+        "coverage",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Positive Path",
+      "bytes": 165,
+      "when": [
+        "positive",
+        "path"
+      ]
+    },
+    {
+      "name": "Negative Path",
+      "bytes": 246,
+      "when": [
+        "negative",
+        "path"
+      ]
+    },
+    {
+      "name": "Bulk Path",
+      "bytes": 278,
+      "when": [
+        "bulk",
+        "path"
+      ]
+    },
+    {
+      "name": "Test Class Rules",
+      "bytes": 820,
+      "when": [
+        "test",
+        "class",
+        "rules"
+      ]
+    },
+    {
+      "name": "Step 7 — Trigger Architecture Checklist",
+      "bytes": 534,
+      "when": [
+        "step",
+        "trigger",
+        "architecture",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Quick Reference — Hardcoded Anti-Patterns Summary",
+      "bytes": 865,
+      "when": [
+        "quick",
+        "reference",
+        "hardcoded",
+        "anti",
+        "patterns",
+        "summary"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\salesforce-apex-quality\\SKILL.md"
+}

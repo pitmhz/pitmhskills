@@ -1,0 +1,107 @@
+{
+  "id": "awesome-copilot__integrate-context-matic",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1251b1a1afebe0c881241dd7b87ed7688b01696866fada8f3071e0336f39ba43",
+  "purpose": "Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to find available API SDKs, `ask` for integration guidance, `model_search` and `endpoint_search` for SDK ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to find available API SDKs, `ask` for integration guidance, `mode"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1574,
+  "core_bytes": 6311,
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 284,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 4217,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Ensure Guidelines and Skills Exist",
+      "bytes": 1583,
+      "when": [
+        "ensure",
+        "guidelines",
+        "skills",
+        "exist"
+      ]
+    },
+    {
+      "name": "2. Discover Available APIs",
+      "bytes": 1025,
+      "when": [
+        "discover",
+        "available",
+        "apis"
+      ]
+    },
+    {
+      "name": "3. Get Integration Guidance",
+      "bytes": 280,
+      "when": [
+        "integration",
+        "guidance"
+      ]
+    },
+    {
+      "name": "4. Look Up SDK Models and Endpoints (as needed)",
+      "bytes": 532,
+      "when": [
+        "look",
+        "models",
+        "endpoints",
+        "needed"
+      ]
+    },
+    {
+      "name": "5. Record Milestones",
+      "bytes": 784,
+      "when": [
+        "record",
+        "milestones"
+      ]
+    },
+    {
+      "name": "Checklist",
+      "bytes": 814,
+      "when": [
+        "checklist"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 309,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\integrate-context-matic\\SKILL.md"
+}

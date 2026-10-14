@@ -1,0 +1,169 @@
+{
+  "id": "awesome-copilot__gtm-operating-cadence",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "59deb368b2474c810c6b2607f10575d3e1ad65a0edc1159c259bf387d33f27b8",
+  "purpose": "Design meeting rhythms, metric reporting, quarterly planning, and decision-making velocity for scaling companies. Use when decisions are slow, planning is broken, the company is growing but alignment ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design meeting rhythms, metric reporting, quarterly planning, and decision-making velocity for scaling companies. Use when decisions are slow, planning is broke"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4003,
+  "core_bytes": 16147,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 460,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 12143,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. The Five-Level Meeting Architecture",
+      "bytes": 3276,
+      "when": [
+        "five",
+        "level",
+        "meeting",
+        "architecture"
+      ]
+    },
+    {
+      "name": "2. Weekly Metric Reporting (The Dashboard That Catches Problems Early)",
+      "bytes": 1891,
+      "when": [
+        "weekly",
+        "metric",
+        "reporting",
+        "dashboard",
+        "catches",
+        "problems",
+        "early"
+      ]
+    },
+    {
+      "name": "3. Quarterly Planning (The Process That Prevents Strategic Drift)",
+      "bytes": 2113,
+      "when": [
+        "quarterly",
+        "planning",
+        "process",
+        "prevents",
+        "strategic",
+        "drift"
+      ]
+    },
+    {
+      "name": "4. Decision Velocity and Authority",
+      "bytes": 1747,
+      "when": [
+        "decision",
+        "velocity",
+        "authority"
+      ]
+    },
+    {
+      "name": "5. Async-First Communication",
+      "bytes": 1106,
+      "when": [
+        "async",
+        "first",
+        "communication"
+      ]
+    },
+    {
+      "name": "6. The CEO Weekly Update",
+      "bytes": 1174,
+      "when": [
+        "weekly",
+        "update"
+      ]
+    },
+    {
+      "name": "7. Role Clarity > Titles",
+      "bytes": 816,
+      "when": [
+        "role",
+        "clarity",
+        "titles"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 641,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Which Meeting Levels Do We Need?",
+      "bytes": 282,
+      "when": [
+        "meeting",
+        "levels",
+        "need"
+      ]
+    },
+    {
+      "name": "Is This Meeting Worth Keeping?",
+      "bytes": 340,
+      "when": [
+        "meeting",
+        "worth",
+        "keeping"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 633,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 879,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 696,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-operating-cadence\\SKILL.md"
+}

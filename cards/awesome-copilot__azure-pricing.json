@@ -1,0 +1,145 @@
+{
+  "id": "awesome-copilot__azure-pricing",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "905bd90f658435e9812dca1aa613675fce948ad878e29c9f1bbe19b237edc3ee",
+  "purpose": "Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot Studio agent credit consumption. Use when the user asks about the cost of any Azure se",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot Studio agent credit consumption. Use when the "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2371,
+  "core_bytes": 9494,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 412,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "API Endpoint",
+      "bytes": 255,
+      "when": [
+        "endpoint"
+      ]
+    },
+    {
+      "name": "Step-by-step Instructions",
+      "bytes": 1084,
+      "when": [
+        "step",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Filterable Fields",
+      "bytes": 750,
+      "when": [
+        "filterable",
+        "fields"
+      ]
+    },
+    {
+      "name": "Example Filter Strings",
+      "bytes": 932,
+      "when": [
+        "example",
+        "filter",
+        "strings"
+      ]
+    },
+    {
+      "name": "Full Example Fetch URL",
+      "bytes": 281,
+      "when": [
+        "full",
+        "example",
+        "fetch"
+      ]
+    },
+    {
+      "name": "Key Response Fields",
+      "bytes": 720,
+      "when": [
+        "response",
+        "fields"
+      ]
+    },
+    {
+      "name": "Supported serviceFamily Values",
+      "bytes": 248,
+      "when": [
+        "supported",
+        "servicefamily",
+        "values"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 818,
+      "when": [
+        "tips"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 638,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "When to Use This Section",
+      "bytes": 326,
+      "when": [
+        "section"
+      ]
+    },
+    {
+      "name": "Key Facts",
+      "bytes": 294,
+      "when": [
+        "facts"
+      ]
+    },
+    {
+      "name": "Step-by-step Estimation",
+      "bytes": 1055,
+      "when": [
+        "step",
+        "estimation"
+      ]
+    },
+    {
+      "name": "Source URLs to Fetch",
+      "bytes": 803,
+      "when": [
+        "source",
+        "urls",
+        "fetch"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-pricing\\SKILL.md"
+}

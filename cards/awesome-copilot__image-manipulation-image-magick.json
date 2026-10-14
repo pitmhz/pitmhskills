@@ -1,0 +1,175 @@
+{
+  "id": "awesome-copilot__image-manipulation-image-magick",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "fba25bd07b134f456f7f6d217fd4d385f67286957387f59115a8275c391769c4",
+  "purpose": "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with images, creating thumbnails, resizing wall",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with im"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1741,
+  "core_bytes": 6963,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 287,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 267,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Capabilities",
+      "bytes": 464,
+      "when": [
+        "core",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "1. Image Information",
+      "bytes": 148,
+      "when": [
+        "image",
+        "information"
+      ]
+    },
+    {
+      "name": "2. Image Resizing",
+      "bytes": 148,
+      "when": [
+        "image",
+        "resizing"
+      ]
+    },
+    {
+      "name": "3. Batch Processing",
+      "bytes": 146,
+      "when": [
+        "batch",
+        "processing"
+      ]
+    },
+    {
+      "name": "Usage Examples",
+      "bytes": 3270,
+      "when": [
+        "usage",
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 0: Resolve `magick` executable",
+      "bytes": 833,
+      "when": [
+        "example",
+        "resolve",
+        "magick",
+        "executable"
+      ]
+    },
+    {
+      "name": "Example 1: Get Image Dimensions",
+      "bytes": 550,
+      "when": [
+        "example",
+        "image",
+        "dimensions"
+      ]
+    },
+    {
+      "name": "Example 2: Resize Images",
+      "bytes": 564,
+      "when": [
+        "example",
+        "resize",
+        "images"
+      ]
+    },
+    {
+      "name": "Example 3: Get Detailed Image Information",
+      "bytes": 300,
+      "when": [
+        "example",
+        "detailed",
+        "image",
+        "information"
+      ]
+    },
+    {
+      "name": "Example 4: Process Images Based on Dimensions",
+      "bytes": 1004,
+      "when": [
+        "example",
+        "process",
+        "images",
+        "based",
+        "dimensions"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 639,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 1187,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "PowerShell Patterns",
+      "bytes": 546,
+      "when": [
+        "powershell",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Bash Patterns",
+      "bytes": 621,
+      "when": [
+        "bash",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 221,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\image-manipulation-image-magick\\SKILL.md"
+}

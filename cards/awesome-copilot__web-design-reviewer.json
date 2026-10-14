@@ -1,0 +1,376 @@
+{
+  "id": "awesome-copilot__web-design-reviewer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a08a147cfe555dabe30f2c8f2e267f287e992f74f2b802e68989884338e23b17",
+  "purpose": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like \"review website design\", \"check the UI\", \"fix the layout\", \"fi",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like \"review website design"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2645,
+  "core_bytes": 10657,
+  "sections": [
+    {
+      "name": "Scope of Application",
+      "bytes": 241,
+      "when": [
+        "scope",
+        "application"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 426,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required",
+      "bytes": 408,
+      "when": [
+        "required"
+      ]
+    },
+    {
+      "name": "Workflow Overview",
+      "bytes": 280,
+      "when": [
+        "workflow",
+        "overview"
+      ]
+    },
+    {
+      "name": "Step 1: Information Gathering Phase",
+      "bytes": 1515,
+      "when": [
+        "step",
+        "information",
+        "gathering",
+        "phase"
+      ]
+    },
+    {
+      "name": "1.1 URL Confirmation",
+      "bytes": 152,
+      "when": [
+        "confirmation"
+      ]
+    },
+    {
+      "name": "1.2 Understanding Project Structure",
+      "bytes": 395,
+      "when": [
+        "understanding",
+        "project",
+        "structure"
+      ]
+    },
+    {
+      "name": "1.3 Automatic Project Detection",
+      "bytes": 432,
+      "when": [
+        "automatic",
+        "project",
+        "detection"
+      ]
+    },
+    {
+      "name": "1.4 Identifying Styling Method",
+      "bytes": 496,
+      "when": [
+        "identifying",
+        "styling",
+        "method"
+      ]
+    },
+    {
+      "name": "Step 2: Visual Inspection Phase",
+      "bytes": 2013,
+      "when": [
+        "step",
+        "visual",
+        "inspection",
+        "phase"
+      ]
+    },
+    {
+      "name": "2.1 Page Traversal",
+      "bytes": 188,
+      "when": [
+        "page",
+        "traversal"
+      ]
+    },
+    {
+      "name": "2.2 Inspection Items",
+      "bytes": 1495,
+      "when": [
+        "inspection",
+        "items"
+      ]
+    },
+    {
+      "name": "2.3 Viewport Testing (Responsive)",
+      "bytes": 294,
+      "when": [
+        "viewport",
+        "testing",
+        "responsive"
+      ]
+    },
+    {
+      "name": "Step 3: Issue Fixing Phase",
+      "bytes": 1326,
+      "when": [
+        "step",
+        "issue",
+        "fixing",
+        "phase"
+      ]
+    },
+    {
+      "name": "3.1 Issue Prioritization",
+      "bytes": 315,
+      "when": [
+        "issue",
+        "prioritization"
+      ]
+    },
+    {
+      "name": "3.2 Identifying Source Files",
+      "bytes": 495,
+      "when": [
+        "identifying",
+        "source",
+        "files"
+      ]
+    },
+    {
+      "name": "3.3 Applying Fixes",
+      "bytes": 485,
+      "when": [
+        "applying",
+        "fixes"
+      ]
+    },
+    {
+      "name": "Step 4: Re-verification Phase",
+      "bytes": 576,
+      "when": [
+        "step",
+        "verification",
+        "phase"
+      ]
+    },
+    {
+      "name": "4.1 Post-fix Confirmation",
+      "bytes": 153,
+      "when": [
+        "post",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "4.2 Regression Testing",
+      "bytes": 121,
+      "when": [
+        "regression",
+        "testing"
+      ]
+    },
+    {
+      "name": "4.3 Iteration Decision",
+      "bytes": 268,
+      "when": [
+        "iteration",
+        "decision"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 86,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Review Results Report",
+      "bytes": 68,
+      "when": [
+        "review",
+        "results",
+        "report"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 233,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Detected Issues",
+      "bytes": 294,
+      "when": [
+        "detected",
+        "issues"
+      ]
+    },
+    {
+      "name": "[P1] {Issue Title}",
+      "bytes": 246,
+      "when": [
+        "issue",
+        "title"
+      ]
+    },
+    {
+      "name": "[P2] {Issue Title}",
+      "bytes": 28,
+      "when": [
+        "issue",
+        "title"
+      ]
+    },
+    {
+      "name": "Unfixed Issues (if any)",
+      "bytes": 156,
+      "when": [
+        "unfixed",
+        "issues"
+      ]
+    },
+    {
+      "name": "{Issue Title}",
+      "bytes": 128,
+      "when": [
+        "issue",
+        "title"
+      ]
+    },
+    {
+      "name": "Recommendations",
+      "bytes": 70,
+      "when": [
+        "recommendations"
+      ]
+    },
+    {
+      "name": "Required Capabilities",
+      "bytes": 474,
+      "when": [
+        "required",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "Reference Implementation",
+      "bytes": 1333,
+      "when": [
+        "reference",
+        "implementation"
+      ]
+    },
+    {
+      "name": "Implementation with Playwright MCP",
+      "bytes": 814,
+      "when": [
+        "implementation",
+        "playwright"
+      ]
+    },
+    {
+      "name": "Other Compatible Browser Automation Tools",
+      "bytes": 490,
+      "when": [
+        "compatible",
+        "browser",
+        "automation",
+        "tools"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 499,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "DO (Recommended)",
+      "bytes": 249,
+      "when": [
+        "recommended"
+      ]
+    },
+    {
+      "name": "DON'T (Not Recommended)",
+      "bytes": 231,
+      "when": [
+        "recommended"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 564,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Problem: Style files not found",
+      "bytes": 191,
+      "when": [
+        "problem",
+        "style",
+        "files",
+        "found"
+      ]
+    },
+    {
+      "name": "Problem: Fixes not reflected",
+      "bytes": 173,
+      "when": [
+        "problem",
+        "fixes",
+        "reflected"
+      ]
+    },
+    {
+      "name": "Problem: Fixes affecting other areas",
+      "bytes": 180,
+      "when": [
+        "problem",
+        "fixes",
+        "affecting",
+        "areas"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\web-design-reviewer\\SKILL.md"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "awesome-copilot__issue-fields-migration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a1538bbbb18f528fe3655534984a3be110c3411b4c10786507365982d8f5d950",
+  "purpose": "Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a Priority field) and Project V2 fields. Use when users say \"migrate my labels to issue fields\", \"mi",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a Priority field) and Project V2 fields. Use when users say "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6052,
+  "core_bytes": 24309,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 502,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 405,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Available Tools",
+      "bytes": 1375,
+      "when": [
+        "available",
+        "tools"
+      ]
+    },
+    {
+      "name": "MCP Tools (read operations)",
+      "bytes": 288,
+      "when": [
+        "tools",
+        "read",
+        "operations"
+      ]
+    },
+    {
+      "name": "CLI / REST API",
+      "bytes": 1067,
+      "when": [
+        "rest"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 15549,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 0: Migration Source",
+      "bytes": 697,
+      "when": [
+        "step",
+        "migration",
+        "source"
+      ]
+    },
+    {
+      "name": "Label Migration Flow",
+      "bytes": 7308,
+      "when": [
+        "label",
+        "migration",
+        "flow"
+      ]
+    },
+    {
+      "name": "Project Field Migration Flow",
+      "bytes": 7531,
+      "when": [
+        "project",
+        "field",
+        "migration",
+        "flow"
+      ]
+    },
+    {
+      "name": "Important Notes",
+      "bytes": 2866,
+      "when": [
+        "important",
+        "notes"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 2158,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: Full Migration",
+      "bytes": 244,
+      "when": [
+        "example",
+        "full",
+        "migration"
+      ]
+    },
+    {
+      "name": "Example 2: Dry-Run Only",
+      "bytes": 243,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Example 3: Multiple Fields",
+      "bytes": 302,
+      "when": [
+        "example",
+        "multiple",
+        "fields"
+      ]
+    },
+    {
+      "name": "Example 4: Single Label to Issue Field",
+      "bytes": 344,
+      "when": [
+        "example",
+        "single",
+        "label",
+        "issue",
+        "field"
+      ]
+    },
+    {
+      "name": "Example 5: Multiple Labels to One Field (Bulk)",
+      "bytes": 449,
+      "when": [
+        "example",
+        "multiple",
+        "labels",
+        "field",
+        "bulk"
+      ]
+    },
+    {
+      "name": "Example 6: Cross-Repo Label Migration with Label Removal",
+      "bytes": 563,
+      "when": [
+        "example",
+        "cross",
+        "repo",
+        "label",
+        "migration",
+        "removal"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\issue-fields-migration\\SKILL.md"
+}

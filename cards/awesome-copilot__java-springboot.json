@@ -1,0 +1,106 @@
+{
+  "id": "awesome-copilot__java-springboot",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "574898202ce298557226c49d35036a6e9e66a1cb205ea15c44db298e6d74e3bd",
+  "purpose": "Get best practices for developing applications with Spring Boot.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Get best practices for developing applications with Spring Boot."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1034,
+  "core_bytes": 4133,
+  "sections": [
+    {
+      "name": "Project Setup & Structure",
+      "bytes": 466,
+      "when": [
+        "project",
+        "setup",
+        "structure"
+      ]
+    },
+    {
+      "name": "Dependency Injection & Components",
+      "bytes": 417,
+      "when": [
+        "dependency",
+        "injection",
+        "components"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 601,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Web Layer (Controllers)",
+      "bytes": 525,
+      "when": [
+        "layer",
+        "controllers"
+      ]
+    },
+    {
+      "name": "Service Layer",
+      "bytes": 314,
+      "when": [
+        "service",
+        "layer"
+      ]
+    },
+    {
+      "name": "Data Layer (Repositories)",
+      "bytes": 342,
+      "when": [
+        "data",
+        "layer",
+        "repositories"
+      ]
+    },
+    {
+      "name": "Logging",
+      "bytes": 324,
+      "when": [
+        "logging"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 541,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 352,
+      "when": [
+        "security"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\java-springboot\\SKILL.md"
+}

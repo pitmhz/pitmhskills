@@ -1,0 +1,218 @@
+{
+  "id": "uiskills-staged__overdrive",
+  "tier": "B",
+  "origin": [
+    "local@overdrive"
+  ],
+  "license": "Apache-2.0",
+  "hash": "87b9e087ef34d9f03de4e9a75a7966ace7f0df03beb7933bc1d083534403a859",
+  "purpose": "Start your response with:",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Start your response with:"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Push into ambitious shader territory -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "overdrive ambitious shaders striking extraordinary",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2296,
+  "core_bytes": 9268,
+  "sections": [
+    {
+      "name": "Propose Before Building",
+      "bytes": 934,
+      "when": [
+        "propose",
+        "before",
+        "building"
+      ]
+    },
+    {
+      "name": "Iterate with Browser Automation",
+      "bytes": 425,
+      "when": [
+        "iterate",
+        "browser",
+        "automation"
+      ]
+    },
+    {
+      "name": "Assess What \"Extraordinary\" Means Here",
+      "bytes": 1475,
+      "when": [
+        "assess",
+        "extraordinary",
+        "means"
+      ]
+    },
+    {
+      "name": "For visual/marketing surfaces",
+      "bytes": 233,
+      "when": [
+        "visual",
+        "marketing",
+        "surfaces"
+      ]
+    },
+    {
+      "name": "For functional UI",
+      "bytes": 325,
+      "when": [
+        "functional"
+      ]
+    },
+    {
+      "name": "For performance-critical UI",
+      "bytes": 256,
+      "when": [
+        "performance",
+        "critical"
+      ]
+    },
+    {
+      "name": "For data-heavy interfaces",
+      "bytes": 418,
+      "when": [
+        "data",
+        "heavy",
+        "interfaces"
+      ]
+    },
+    {
+      "name": "The Toolkit",
+      "bytes": 3463,
+      "when": [
+        "toolkit"
+      ]
+    },
+    {
+      "name": "Make transitions feel cinematic",
+      "bytes": 602,
+      "when": [
+        "transitions",
+        "feel",
+        "cinematic"
+      ]
+    },
+    {
+      "name": "Tie animation to scroll position",
+      "bytes": 271,
+      "when": [
+        "animation",
+        "scroll",
+        "position"
+      ]
+    },
+    {
+      "name": "Render beyond CSS",
+      "bytes": 645,
+      "when": [
+        "render",
+        "beyond"
+      ]
+    },
+    {
+      "name": "Make data feel alive",
+      "bytes": 508,
+      "when": [
+        "data",
+        "feel",
+        "alive"
+      ]
+    },
+    {
+      "name": "Animate complex properties",
+      "bytes": 387,
+      "when": [
+        "animate",
+        "complex",
+        "properties"
+      ]
+    },
+    {
+      "name": "Push performance boundaries",
+      "bytes": 427,
+      "when": [
+        "push",
+        "performance",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Interact with the device",
+      "bytes": 534,
+      "when": [
+        "interact",
+        "device"
+      ]
+    },
+    {
+      "name": "Implement with Discipline",
+      "bytes": 1453,
+      "when": [
+        "implement",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Progressive enhancement is non-negotiable",
+      "bytes": 432,
+      "when": [
+        "progressive",
+        "enhancement",
+        "negotiable"
+      ]
+    },
+    {
+      "name": "Performance rules",
+      "bytes": 293,
+      "when": [
+        "performance",
+        "rules"
+      ]
+    },
+    {
+      "name": "Polish is the difference",
+      "bytes": 696,
+      "when": [
+        "polish",
+        "difference"
+      ]
+    },
+    {
+      "name": "Verify the Result",
+      "bytes": 502,
+      "when": [
+        "verify",
+        "result"
+      ]
+    }
+  ],
+  "keywords": [
+    "propose",
+    "before",
+    "building",
+    "iterate",
+    "browser",
+    "automation",
+    "assess",
+    "extraordinary",
+    "means",
+    "visual",
+    "marketing",
+    "surfaces"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\overdrive\\SKILL.md"
+}

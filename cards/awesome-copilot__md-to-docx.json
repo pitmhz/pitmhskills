@@ -1,0 +1,81 @@
+{
+  "id": "awesome-copilot__md-to-docx",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2f47a261fac808051f10f023f258c4b34a89ee909f82f280ad14a6e9fcf22f06",
+  "purpose": "Convert Markdown files to professionally formatted Word (.docx) documents with embedded PNG images — pure JavaScript, no external tools required",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Convert Markdown files to professionally formatted Word (.docx) documents with embedded PNG images — pure JavaScript, no external tools required"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 688,
+  "core_bytes": 2771,
+  "sections": [
+    {
+      "name": "How to Convert",
+      "bytes": 338,
+      "when": [
+        "convert"
+      ]
+    },
+    {
+      "name": "Skill Folder Contents",
+      "bytes": 231,
+      "when": [
+        "skill",
+        "folder",
+        "contents"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 306,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 697,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Image Embedding",
+      "bytes": 487,
+      "when": [
+        "image",
+        "embedding"
+      ]
+    },
+    {
+      "name": "Front-Matter Format",
+      "bytes": 254,
+      "when": [
+        "front",
+        "matter",
+        "format"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\md-to-docx\\SKILL.md"
+}

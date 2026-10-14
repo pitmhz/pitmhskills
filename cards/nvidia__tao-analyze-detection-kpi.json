@@ -1,0 +1,89 @@
+{
+  "id": "nvidia__tao-analyze-detection-kpi",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f69eb17417247526f2c0e0831f1a95ebd352734220ca27b94db424c98f950122",
+  "purpose": "Run TAO Data Services KPI analysis for object detection, comparing inference annotations against ground truth to compute per-class TP/FP/FN/TN, precision, recall, accuracy, and AP at a fixed IoU. Use ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Run TAO Data Services KPI analysis for object detection, comparing inference annotations against ground truth to compute per-class TP/FP/FN/TN, precision, recal"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2708,
+  "core_bytes": 10860,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 2613,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 1336,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Generate A Spec",
+      "bytes": 1183,
+      "when": [
+        "generate",
+        "spec"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 681,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 474,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 2757,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 610,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-analyze-detection-kpi\\SKILL.md",
+  "curated": true
+}

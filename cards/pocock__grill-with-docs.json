@@ -34,6 +34,10 @@
   "body_tokens": 64,
   "core_bytes": 254,
   "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/grill-with-docs/SKILL.md"
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/grill-with-docs/SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,153 @@
+{
+  "id": "kemiljk-skills__humane-functionalism",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "e5f6f1908baef72500de7661b5bcb3720cdbf2bad8a4b9b782371084fcfdbd53",
+  "purpose": "Improve UI and UX through Danish functionalism. Use for a Danish functionalist design pass on a screen or flow, grounding hierarchy, interaction, human fit, and craft in actual use.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Improve UI and UX through Danish functionalism. Use for a Danish functionalist design pass on a screen or flow, grounding hierarchy, interaction, human fit, and"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Danish functionalist pass -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "danish functionalist",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2176,
+  "core_bytes": 8731,
+  "sections": [
+    {
+      "name": "Start from use",
+      "bytes": 856,
+      "when": [
+        "start"
+      ]
+    },
+    {
+      "name": "Design through the Danish references",
+      "bytes": 4641,
+      "when": [
+        "design",
+        "through",
+        "danish",
+        "references"
+      ]
+    },
+    {
+      "name": "Human fit — Kaare Klint",
+      "bytes": 594,
+      "when": [
+        "human",
+        "kaare",
+        "klint"
+      ]
+    },
+    {
+      "name": "A coherent whole — Arne Jacobsen",
+      "bytes": 600,
+      "when": [
+        "coherent",
+        "whole",
+        "arne",
+        "jacobsen"
+      ]
+    },
+    {
+      "name": "Perceptual comfort — Poul Henningsen",
+      "bytes": 723,
+      "when": [
+        "perceptual",
+        "comfort",
+        "poul",
+        "henningsen"
+      ]
+    },
+    {
+      "name": "Organisation from activity — Vilhelm Lauritzen",
+      "bytes": 618,
+      "when": [
+        "organisation",
+        "activity",
+        "vilhelm",
+        "lauritzen"
+      ]
+    },
+    {
+      "name": "Everyday usefulness — Børge Mogensen",
+      "bytes": 630,
+      "when": [
+        "everyday",
+        "usefulness",
+        "mogensen"
+      ]
+    },
+    {
+      "name": "Fit to context — Kay Fisker",
+      "bytes": 580,
+      "when": [
+        "context",
+        "fisker"
+      ]
+    },
+    {
+      "name": "Construction as craft — Hans J. Wegner and Poul Kjærholm",
+      "bytes": 707,
+      "when": [
+        "construction",
+        "craft",
+        "hans",
+        "wegner",
+        "poul",
+        "rholm"
+      ]
+    },
+    {
+      "name": "Resolve tensions through use",
+      "bytes": 924,
+      "when": [
+        "resolve",
+        "tensions",
+        "through"
+      ]
+    },
+    {
+      "name": "Make and verify the improvement",
+      "bytes": 1457,
+      "when": [
+        "verify",
+        "improvement"
+      ]
+    }
+  ],
+  "keywords": [
+    "humane",
+    "start",
+    "references",
+    "kaare",
+    "klint",
+    "coherent",
+    "whole",
+    "arne",
+    "jacobsen",
+    "perceptual",
+    "comfort",
+    "poul",
+    "henningsen"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\humane-functionalism\\SKILL.md"
+}

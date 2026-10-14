@@ -1,0 +1,136 @@
+{
+  "id": "nvidia__cuopt-server-api-python",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b12d547946e79f69b0be0584e240ec967a30ec6aa277915cdddccf43059ee21e",
+  "purpose": "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1562,
+  "core_bytes": 6290,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 275,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 309,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Problem types supported",
+      "bytes": 220,
+      "when": [
+        "problem",
+        "types",
+        "supported"
+      ]
+    },
+    {
+      "name": "Required questions",
+      "bytes": 294,
+      "when": [
+        "required",
+        "questions"
+      ]
+    },
+    {
+      "name": "Start server",
+      "bytes": 850,
+      "when": [
+        "start",
+        "server"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 176,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 338,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 777,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Terminology: REST vs Python API",
+      "bytes": 319,
+      "when": [
+        "terminology",
+        "rest",
+        "python"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1028,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 465,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Runnable assets",
+      "bytes": 603,
+      "when": [
+        "runnable",
+        "assets"
+      ]
+    },
+    {
+      "name": "Escalate",
+      "bytes": 80,
+      "when": [
+        "escalate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/cuopt-server-api-python/SKILL.md",
+  "curated": true
+}

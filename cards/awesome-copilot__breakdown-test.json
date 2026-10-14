@@ -1,0 +1,363 @@
+{
+  "id": "awesome-copilot__breakdown-test",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "83727ec30a986686f1bc8eaeeb42360379c11416a280c4e77d38d39e0e02555f",
+  "purpose": "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3741,
+  "core_bytes": 14962,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 379,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Quality Standards Framework",
+      "bytes": 764,
+      "when": [
+        "quality",
+        "standards",
+        "framework"
+      ]
+    },
+    {
+      "name": "ISTQB Framework Application",
+      "bytes": 388,
+      "when": [
+        "istqb",
+        "framework",
+        "application"
+      ]
+    },
+    {
+      "name": "ISO 25010 Quality Model",
+      "bytes": 344,
+      "when": [
+        "25010",
+        "quality",
+        "model"
+      ]
+    },
+    {
+      "name": "Input Requirements",
+      "bytes": 477,
+      "when": [
+        "input",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Core Feature Documents",
+      "bytes": 410,
+      "when": [
+        "core",
+        "feature",
+        "documents"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 7946,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Test Strategy Structure",
+      "bytes": 2266,
+      "when": [
+        "test",
+        "strategy",
+        "structure"
+      ]
+    },
+    {
+      "name": "Test Issues Checklist",
+      "bytes": 1842,
+      "when": [
+        "test",
+        "issues",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Task Level Breakdown",
+      "bytes": 1464,
+      "when": [
+        "task",
+        "level",
+        "breakdown"
+      ]
+    },
+    {
+      "name": "Quality Assurance Plan",
+      "bytes": 2009,
+      "when": [
+        "quality",
+        "assurance",
+        "plan"
+      ]
+    },
+    {
+      "name": "GitHub Issue Templates for Testing",
+      "bytes": 118,
+      "when": [
+        "github",
+        "issue",
+        "templates",
+        "testing"
+      ]
+    },
+    {
+      "name": "Test Strategy Issue Template",
+      "bytes": 79,
+      "when": [
+        "test",
+        "strategy",
+        "issue",
+        "template"
+      ]
+    },
+    {
+      "name": "Test Strategy Overview",
+      "bytes": 87,
+      "when": [
+        "test",
+        "strategy",
+        "overview"
+      ]
+    },
+    {
+      "name": "ISTQB Framework Application",
+      "bytes": 365,
+      "when": [
+        "istqb",
+        "framework",
+        "application"
+      ]
+    },
+    {
+      "name": "ISO 25010 Quality Characteristics",
+      "bytes": 455,
+      "when": [
+        "25010",
+        "quality",
+        "characteristics"
+      ]
+    },
+    {
+      "name": "Quality Gates",
+      "bytes": 115,
+      "when": [
+        "quality",
+        "gates"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 65,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Estimate",
+      "bytes": 170,
+      "when": [
+        "estimate"
+      ]
+    },
+    {
+      "name": "Playwright Test Implementation Issue Template",
+      "bytes": 107,
+      "when": [
+        "playwright",
+        "test",
+        "implementation",
+        "issue",
+        "template"
+      ]
+    },
+    {
+      "name": "Test Implementation Scope",
+      "bytes": 78,
+      "when": [
+        "test",
+        "implementation",
+        "scope"
+      ]
+    },
+    {
+      "name": "ISTQB Test Case Design",
+      "bytes": 150,
+      "when": [
+        "istqb",
+        "test",
+        "case",
+        "design"
+      ]
+    },
+    {
+      "name": "Test Cases to Implement",
+      "bytes": 360,
+      "when": [
+        "test",
+        "cases",
+        "implement"
+      ]
+    },
+    {
+      "name": "Playwright Implementation Tasks",
+      "bytes": 209,
+      "when": [
+        "playwright",
+        "implementation",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Acceptance Criteria",
+      "bytes": 167,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 58,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Estimate",
+      "bytes": 151,
+      "when": [
+        "estimate"
+      ]
+    },
+    {
+      "name": "Quality Assurance Issue Template",
+      "bytes": 87,
+      "when": [
+        "quality",
+        "assurance",
+        "issue",
+        "template"
+      ]
+    },
+    {
+      "name": "Quality Validation Scope",
+      "bytes": 75,
+      "when": [
+        "quality",
+        "validation",
+        "scope"
+      ]
+    },
+    {
+      "name": "ISO 25010 Quality Assessment",
+      "bytes": 629,
+      "when": [
+        "25010",
+        "quality",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Quality Gates Validation",
+      "bytes": 319,
+      "when": [
+        "quality",
+        "gates",
+        "validation"
+      ]
+    },
+    {
+      "name": "Quality Metrics",
+      "bytes": 238,
+      "when": [
+        "quality",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 60,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Estimate",
+      "bytes": 63,
+      "when": [
+        "estimate"
+      ]
+    },
+    {
+      "name": "Success Metrics",
+      "bytes": 1219,
+      "when": [
+        "success",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Test Coverage Metrics",
+      "bytes": 321,
+      "when": [
+        "test",
+        "coverage",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Quality Validation Metrics",
+      "bytes": 319,
+      "when": [
+        "quality",
+        "validation",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Process Efficiency Metrics",
+      "bytes": 559,
+      "when": [
+        "process",
+        "efficiency",
+        "metrics"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-test\\SKILL.md"
+}

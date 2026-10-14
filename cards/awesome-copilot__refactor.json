@@ -1,0 +1,289 @@
+{
+  "id": "awesome-copilot__refactor",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "58a38edd230cdcdd866939906321c8ba6f47c98a70d0cda373360196ee2ca1a7",
+  "purpose": "Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code sm",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, im"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4211,
+  "core_bytes": 16843,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 205,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 268,
+      "when": []
+    },
+    {
+      "name": "Refactoring Principles",
+      "bytes": 668,
+      "when": [
+        "refactoring",
+        "principles"
+      ]
+    },
+    {
+      "name": "The Golden Rules",
+      "bytes": 401,
+      "when": [
+        "golden",
+        "rules"
+      ]
+    },
+    {
+      "name": "When NOT to Refactor",
+      "bytes": 240,
+      "when": [
+        "refactor"
+      ]
+    },
+    {
+      "name": "Common Code Smells & Fixes",
+      "bytes": 7230,
+      "when": [
+        "common",
+        "code",
+        "smells",
+        "fixes"
+      ]
+    },
+    {
+      "name": "1. Long Method/Function",
+      "bytes": 712,
+      "when": [
+        "long",
+        "method",
+        "function"
+      ]
+    },
+    {
+      "name": "2. Duplicated Code",
+      "bytes": 863,
+      "when": [
+        "duplicated",
+        "code"
+      ]
+    },
+    {
+      "name": "3. Large Class/Module",
+      "bytes": 735,
+      "when": [
+        "large",
+        "class",
+        "module"
+      ]
+    },
+    {
+      "name": "4. Long Parameter List",
+      "bytes": 615,
+      "when": [
+        "long",
+        "parameter",
+        "list"
+      ]
+    },
+    {
+      "name": "5. Feature Envy",
+      "bytes": 678,
+      "when": [
+        "feature",
+        "envy"
+      ]
+    },
+    {
+      "name": "6. Primitive Obsession",
+      "bytes": 1052,
+      "when": [
+        "primitive",
+        "obsession"
+      ]
+    },
+    {
+      "name": "7. Magic Numbers/Strings",
+      "bytes": 570,
+      "when": [
+        "magic",
+        "numbers",
+        "strings"
+      ]
+    },
+    {
+      "name": "8. Nested Conditionals",
+      "bytes": 1135,
+      "when": [
+        "nested",
+        "conditionals"
+      ]
+    },
+    {
+      "name": "9. Dead Code",
+      "bytes": 363,
+      "when": [
+        "dead",
+        "code"
+      ]
+    },
+    {
+      "name": "10. Inappropriate Intimacy",
+      "bytes": 476,
+      "when": [
+        "inappropriate",
+        "intimacy"
+      ]
+    },
+    {
+      "name": "Extract Method Refactoring",
+      "bytes": 1572,
+      "when": [
+        "extract",
+        "method",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "Before and After",
+      "bytes": 1541,
+      "when": [
+        "before",
+        "after"
+      ]
+    },
+    {
+      "name": "Introducing Type Safety",
+      "bytes": 1209,
+      "when": [
+        "introducing",
+        "type",
+        "safety"
+      ]
+    },
+    {
+      "name": "From Untyped to Typed",
+      "bytes": 1181,
+      "when": [
+        "untyped",
+        "typed"
+      ]
+    },
+    {
+      "name": "Design Patterns for Refactoring",
+      "bytes": 2371,
+      "when": [
+        "design",
+        "patterns",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "Strategy Pattern",
+      "bytes": 957,
+      "when": [
+        "strategy",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Chain of Responsibility",
+      "bytes": 1378,
+      "when": [
+        "chain",
+        "responsibility"
+      ]
+    },
+    {
+      "name": "Refactoring Steps",
+      "bytes": 573,
+      "when": [
+        "refactoring",
+        "steps"
+      ]
+    },
+    {
+      "name": "Safe Refactoring Process",
+      "bytes": 551,
+      "when": [
+        "safe",
+        "refactoring",
+        "process"
+      ]
+    },
+    {
+      "name": "Refactoring Checklist",
+      "bytes": 639,
+      "when": [
+        "refactoring",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "bytes": 223,
+      "when": [
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "Structure",
+      "bytes": 149,
+      "when": [
+        "structure"
+      ]
+    },
+    {
+      "name": "Type Safety",
+      "bytes": 140,
+      "when": [
+        "type",
+        "safety"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 101,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Common Refactoring Operations",
+      "bytes": 1744,
+      "when": [
+        "common",
+        "refactoring",
+        "operations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\refactor\\SKILL.md"
+}

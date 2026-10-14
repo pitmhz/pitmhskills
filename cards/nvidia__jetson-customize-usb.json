@@ -1,0 +1,94 @@
+{
+  "id": "nvidia__jetson-customize-usb",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3e9011869134431d9f3a75cf187856975cfba9d8a5b97c534802a6d63ceebed6",
+  "purpose": "Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2129,
+  "core_bytes": 8580,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 658,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1023,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 1809,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 526,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure (summary)",
+      "bytes": 1187,
+      "when": [
+        "procedure",
+        "summary"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 675,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1209,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1089,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-customize-usb/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,189 @@
+{
+  "id": "nvidia__vss-deploy-detection-tracking-3d",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "235804c97f47f3191eea7daf7f21fd62635fe262f13ec040ce3bfbc2a3fffa29",
+  "purpose": "Deploy and operate the RTVI-CV-3D microservice as MV3DT (`MODE=mv3dt`): per-camera DeepStream perception plus BEV Fusion over calibrated cameras. Supports the bundled sample dataset, custom video file",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Deploy and operate the RTVI-CV-3D microservice as MV3DT (`MODE=mv3dt`): per-camera DeepStream perception plus BEV Fusion over calibrated cameras. Supports the b"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4864,
+  "core_bytes": 19560,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 290,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 302,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 771,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Routing",
+      "bytes": 5383,
+      "when": [
+        "routing"
+      ]
+    },
+    {
+      "name": "Q0 — Profile size (overlays or not)",
+      "bytes": 1471,
+      "when": [
+        "profile",
+        "size",
+        "overlays"
+      ]
+    },
+    {
+      "name": "Q1 — Data source",
+      "bytes": 687,
+      "when": [
+        "data",
+        "source"
+      ]
+    },
+    {
+      "name": "Q2 — Calibration coverage (skip for `sample`)",
+      "bytes": 928,
+      "when": [
+        "calibration",
+        "coverage",
+        "skip",
+        "sample"
+      ]
+    },
+    {
+      "name": "Q3 — Detector + dataset slug (only when Q2 triggers AMC)",
+      "bytes": 424,
+      "when": [
+        "detector",
+        "dataset",
+        "slug",
+        "triggers"
+      ]
+    },
+    {
+      "name": "Routing table",
+      "bytes": 1800,
+      "when": [
+        "routing",
+        "table"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 6892,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "1. Repo path",
+      "bytes": 154,
+      "when": [
+        "repo",
+        "path"
+      ]
+    },
+    {
+      "name": "2. NGC CLI + key",
+      "bytes": 660,
+      "when": []
+    },
+    {
+      "name": "3. `HARDWARE_PROFILE` slug",
+      "bytes": 1498,
+      "when": [
+        "hardware",
+        "profile",
+        "slug"
+      ]
+    },
+    {
+      "name": "4. App data on disk",
+      "bytes": 3573,
+      "when": [
+        "data",
+        "disk"
+      ]
+    },
+    {
+      "name": "5. Pre-flight (system)",
+      "bytes": 350,
+      "when": [
+        "flight",
+        "system"
+      ]
+    },
+    {
+      "name": "6. Browser reachability (cloud / corp-VPN hosts only)",
+      "bytes": 637,
+      "when": [
+        "browser",
+        "reachability",
+        "cloud",
+        "corp",
+        "hosts"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 3430,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "How it fits together",
+      "bytes": 767,
+      "when": [
+        "fits",
+        "together"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 996,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\vss-deploy-detection-tracking-3d\\SKILL.md",
+  "curated": true
+}

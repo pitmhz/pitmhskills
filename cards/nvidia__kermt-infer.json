@@ -1,0 +1,91 @@
+{
+  "id": "nvidia__kermt-infer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4ef00397aeae7503f3e7fe17a0f69f412b990b82f009a13ec136a4496288bcfe",
+  "purpose": "Run predictions with a finetuned KERMT checkpoint on a SMILES-only CSV. The skill validates that the input ckpt has task FFN heads (refuses pretrain ckpts with a redirect to kermt-finetune), validates",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run predictions with a finetuned KERMT checkpoint on a SMILES-only CSV. The skill validates that the input ckpt has task FFN heads (refuses pretrain ckpts with "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1544,
+  "core_bytes": 6201,
+  "sections": [
+    {
+      "name": "Skill and runtime paths",
+      "bytes": 392,
+      "when": [
+        "skill",
+        "runtime",
+        "paths"
+      ]
+    },
+    {
+      "name": "Hardware requirements",
+      "bytes": 316,
+      "when": [
+        "hardware",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 604,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2112,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 709,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Common errors",
+      "bytes": 719,
+      "when": [
+        "common",
+        "errors"
+      ]
+    },
+    {
+      "name": "Replayability",
+      "bytes": 359,
+      "when": [
+        "replayability"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-kermt-infer/SKILL.md",
+  "curated": true
+}

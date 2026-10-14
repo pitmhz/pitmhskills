@@ -1,0 +1,89 @@
+{
+  "id": "kemiljk-skills__interface-affordances",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "f482f0f01f1cb8ac422c3ef27d1622f03b9b9998c028d79db1e9a278cdafb536",
+  "purpose": "Fix unclear interaction cues, hidden actions, weak hit targets, or mismatches between a control’s appearance and behavior.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Fix unclear interaction cues, hidden actions, weak hit targets, or mismatches between a control’s appearance and behavior."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Fix unclear affordances and hit targets -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "affordances cues hit targets hidden",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 493,
+  "core_bytes": 1974,
+  "sections": [
+    {
+      "name": "Defaults",
+      "bytes": 322,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 492,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Checks by input mode",
+      "bytes": 328,
+      "when": [
+        "checks",
+        "input",
+        "mode"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 366,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Source essays",
+      "bytes": 97,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "interface",
+    "affordances",
+    "defaults",
+    "prefer",
+    "reject",
+    "checks",
+    "input",
+    "mode",
+    "review",
+    "checklist",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\interface-affordances\\SKILL.md"
+}

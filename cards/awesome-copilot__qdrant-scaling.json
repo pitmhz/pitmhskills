@@ -1,0 +1,70 @@
+{
+  "id": "awesome-copilot__qdrant-scaling",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6dee402516b353fec38f39eeb8aacf9aa96b504bdd9d3fa5977f96163c642bcf",
+  "purpose": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizonta",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 't"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 467,
+  "core_bytes": 1866,
+  "sections": [
+    {
+      "name": "Scaling Data Volume",
+      "bytes": 209,
+      "when": [
+        "scaling",
+        "data",
+        "volume"
+      ]
+    },
+    {
+      "name": "Scaling for Query Throughput",
+      "bytes": 266,
+      "when": [
+        "scaling",
+        "query",
+        "throughput"
+      ]
+    },
+    {
+      "name": "Scaling for Query Latency",
+      "bytes": 341,
+      "when": [
+        "scaling",
+        "query",
+        "latency"
+      ]
+    },
+    {
+      "name": "Scaling for Query Volume",
+      "bytes": 373,
+      "when": [
+        "scaling",
+        "query",
+        "volume"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\SKILL.md"
+}

@@ -1,0 +1,260 @@
+{
+  "id": "awesome-copilot__roundup",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a430c45fba6dac39f2325ee17d9a01e460b4c2f0fc6ff63eba76b688fd12384f",
+  "purpose": "Generate personalized status briefings on demand. Pulls from your configured data sources (GitHub, email, Teams, Slack, and more), synthesizes across them, and drafts updates in your own communication",
+  "domain": "general",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Generate personalized status briefings on demand. Pulls from your configured data sources (GitHub, email, Teams, Slack, and more), synthesizes across them, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2591,
+  "core_bytes": 10361,
+  "sections": [
+    {
+      "name": "Before You Start",
+      "bytes": 1038,
+      "when": [
+        "before",
+        "start"
+      ]
+    },
+    {
+      "name": "1. Read the Config",
+      "bytes": 338,
+      "when": [
+        "read",
+        "config"
+      ]
+    },
+    {
+      "name": "2. Determine the Audience",
+      "bytes": 389,
+      "when": [
+        "determine",
+        "audience"
+      ]
+    },
+    {
+      "name": "3. Determine the Time Window",
+      "bytes": 290,
+      "when": [
+        "determine",
+        "time",
+        "window"
+      ]
+    },
+    {
+      "name": "Gathering Information",
+      "bytes": 2922,
+      "when": [
+        "gathering",
+        "information"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "bytes": 664,
+      "when": [
+        "github"
+      ]
+    },
+    {
+      "name": "M365 / WorkIQ",
+      "bytes": 631,
+      "when": [
+        "m365",
+        "workiq"
+      ]
+    },
+    {
+      "name": "Slack",
+      "bytes": 327,
+      "when": [
+        "slack"
+      ]
+    },
+    {
+      "name": "Google Workspace",
+      "bytes": 265,
+      "when": [
+        "google",
+        "workspace"
+      ]
+    },
+    {
+      "name": "Sources You Can't Access",
+      "bytes": 766,
+      "when": [
+        "sources",
+        "access"
+      ]
+    },
+    {
+      "name": "Synthesizing the Briefing",
+      "bytes": 2572,
+      "when": [
+        "synthesizing",
+        "briefing"
+      ]
+    },
+    {
+      "name": "Match Their Format",
+      "bytes": 280,
+      "when": [
+        "match",
+        "format"
+      ]
+    },
+    {
+      "name": "Match Their Tone",
+      "bytes": 319,
+      "when": [
+        "match",
+        "tone"
+      ]
+    },
+    {
+      "name": "Match Their Content Categories",
+      "bytes": 205,
+      "when": [
+        "match",
+        "content",
+        "categories"
+      ]
+    },
+    {
+      "name": "Apply Their Filters",
+      "bytes": 423,
+      "when": [
+        "apply",
+        "filters"
+      ]
+    },
+    {
+      "name": "Respect Their Distinctive Patterns",
+      "bytes": 201,
+      "when": [
+        "respect",
+        "distinctive",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Calibrate for the Audience",
+      "bytes": 525,
+      "when": [
+        "calibrate",
+        "audience"
+      ]
+    },
+    {
+      "name": "Synthesize, Don't List",
+      "bytes": 487,
+      "when": [
+        "synthesize",
+        "list"
+      ]
+    },
+    {
+      "name": "Presenting the Draft",
+      "bytes": 953,
+      "when": [
+        "presenting",
+        "draft"
+      ]
+    },
+    {
+      "name": "When Data Is Thin",
+      "bytes": 537,
+      "when": [
+        "data",
+        "thin"
+      ]
+    },
+    {
+      "name": "When Something Goes Wrong",
+      "bytes": 1862,
+      "when": [
+        "something",
+        "goes",
+        "wrong"
+      ]
+    },
+    {
+      "name": "Config seems outdated",
+      "bytes": 319,
+      "when": [
+        "config",
+        "seems",
+        "outdated"
+      ]
+    },
+    {
+      "name": "No config file",
+      "bytes": 94,
+      "when": [
+        "config",
+        "file"
+      ]
+    },
+    {
+      "name": "User asks for an audience not in the config",
+      "bytes": 363,
+      "when": [
+        "user",
+        "asks",
+        "audience",
+        "config"
+      ]
+    },
+    {
+      "name": "User seems unsure how to use roundup",
+      "bytes": 531,
+      "when": [
+        "user",
+        "seems",
+        "unsure",
+        "roundup"
+      ]
+    },
+    {
+      "name": "User wants to iterate on the draft",
+      "bytes": 297,
+      "when": [
+        "user",
+        "wants",
+        "iterate",
+        "draft"
+      ]
+    },
+    {
+      "name": "User forgot what's configured",
+      "bytes": 228,
+      "when": [
+        "user",
+        "forgot",
+        "configured"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\roundup\\SKILL.md"
+}

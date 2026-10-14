@@ -1,0 +1,127 @@
+{
+  "id": "mengto-skills__illustration-bold-pop",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "140bbec3553aef036a5e48c2bceae07343c6bedcdc0f7648e1a8a912f1598952",
+  "purpose": "Draws hand-authored SVG spot illustrations in a bold pop-geometric style for design and coding scenes. Identifying traits: a thick navy outline on every shape, solid navy extrusions that always step d",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Draws hand-authored SVG spot illustrations in a bold pop-geometric style for design and coding scenes. Identifying traits: a thick navy outline on every shape, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5113,
+  "core_bytes": 20598,
+  "sections": [
+    {
+      "name": "The look in one sentence",
+      "bytes": 212,
+      "when": [
+        "look",
+        "sentence"
+      ]
+    },
+    {
+      "name": "Palette",
+      "bytes": 2009,
+      "when": [
+        "palette"
+      ]
+    },
+    {
+      "name": "Line and fill",
+      "bytes": 1816,
+      "when": [
+        "line",
+        "fill"
+      ]
+    },
+    {
+      "name": "Characters",
+      "bytes": 3311,
+      "when": [
+        "characters"
+      ]
+    },
+    {
+      "name": "Decor and props",
+      "bytes": 1466,
+      "when": [
+        "decor",
+        "props"
+      ]
+    },
+    {
+      "name": "Composition",
+      "bytes": 1103,
+      "when": [
+        "composition"
+      ]
+    },
+    {
+      "name": "Techniques",
+      "bytes": 2525,
+      "when": [
+        "techniques"
+      ]
+    },
+    {
+      "name": "Failure modes",
+      "bytes": 2249,
+      "when": [
+        "failure",
+        "modes"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 896,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1754,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1409,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "illustration",
+    "sentence",
+    "fill",
+    "decor",
+    "failure",
+    "modes",
+    "examples",
+    "workflow",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\illustration\\illustration-bold-pop\\SKILL.md"
+}

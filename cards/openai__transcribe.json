@@ -27,7 +27,71 @@
   "conflicts_with": [],
   "body_tokens": 729,
   "core_bytes": 2915,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 585,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Decision rules",
+      "bytes": 375,
+      "when": [
+        "decision",
+        "rules"
+      ]
+    },
+    {
+      "name": "Output conventions",
+      "bytes": 143,
+      "when": [
+        "output",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Dependencies (install if missing)",
+      "bytes": 181,
+      "when": [
+        "dependencies",
+        "install",
+        "missing"
+      ]
+    },
+    {
+      "name": "Environment",
+      "bytes": 237,
+      "when": [
+        "environment"
+      ]
+    },
+    {
+      "name": "Skill path (set once)",
+      "bytes": 265,
+      "when": [
+        "skill",
+        "path",
+        "once"
+      ]
+    },
+    {
+      "name": "CLI quick start",
+      "bytes": 585,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Reference map",
+      "bytes": 112,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/transcribe/SKILL.md"
 }

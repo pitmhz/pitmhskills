@@ -1,0 +1,111 @@
+{
+  "id": "nvidia__nv-generate-mr-brain",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4eafea64e3f1e088b3008d4315c2f3a844a584e883dbafe9aeb73bf58f6cc96d",
+  "purpose": "Used for generating synthetic T1, T2, FLAIR, SWI, or MRA brain MRI volumes with NV-Generate-CTMR MR-Brain v1. Not for production training data.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Used for generating synthetic T1, T2, FLAIR, SWI, or MRA brain MRI volumes with NV-Generate-CTMR MR-Brain v1. Not for production training data."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2627,
+  "core_bytes": 10507,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 514,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1316,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 353,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 245,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 448,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 632,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1022,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Exact Runnable Surface",
+      "bytes": 630,
+      "when": [
+        "exact",
+        "runnable",
+        "surface"
+      ]
+    },
+    {
+      "name": "Preconditions",
+      "bytes": 2647,
+      "when": [
+        "preconditions"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 2255,
+      "when": [
+        "usage"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-generate-mr-brain/SKILL.md",
+  "curated": true
+}

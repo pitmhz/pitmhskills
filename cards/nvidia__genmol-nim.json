@@ -1,0 +1,86 @@
+{
+  "id": "nvidia__genmol-nim",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b7bcab00ac3d925142a6007d690c68dd8fd46cc54d658d2792516b7454af2d32",
+  "purpose": "Generate novel drug-like molecules using the GenMol NIM microservice. Use for de novo generation, scaffold decoration, motif extension, lead optimization, SAFE notation, QED or LogP ranking, hosted NV",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Generate novel drug-like molecules using the GenMol NIM microservice. Use for de novo generation, scaffold decoration, motif extension, lead optimization, SAFE "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1392,
+  "core_bytes": 5565,
+  "sections": [
+    {
+      "name": "Choose Mode",
+      "bytes": 725,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Local Docker",
+      "bytes": 1210,
+      "when": [
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "SAFE Input",
+      "bytes": 762,
+      "when": [
+        "safe",
+        "input"
+      ]
+    },
+    {
+      "name": "Request Pattern",
+      "bytes": 1070,
+      "when": [
+        "request",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Save And Report Output",
+      "bytes": 311,
+      "when": [
+        "save",
+        "report",
+        "output"
+      ]
+    },
+    {
+      "name": "Limits And Troubleshooting",
+      "bytes": 501,
+      "when": [
+        "limits",
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-genmol-nim\\SKILL.md",
+  "curated": true
+}

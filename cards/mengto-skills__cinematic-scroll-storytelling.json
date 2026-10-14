@@ -1,0 +1,175 @@
+{
+  "id": "mengto-skills__cinematic-scroll-storytelling",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "d5388ae08facbf0a65d8f22304fa4fdbb334d270940c4157fd34f9cdf481518c",
+  "purpose": "Create cinematic scroll-driven landing pages with Lenis smooth scrolling, GSAP ScrollTrigger, scroll-linked progression, staggered text reveals, sticky card stacks, parallax backgrounds, scroll-scrubb",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create cinematic scroll-driven landing pages with Lenis smooth scrolling, GSAP ScrollTrigger, scroll-linked progression, staggered text reveals, sticky card sta"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "cinematic landing smooth scrolling",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3101,
+  "core_bytes": 12401,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 419,
+      "when": []
+    },
+    {
+      "name": "Effect Vocabulary",
+      "bytes": 854,
+      "when": [
+        "effect",
+        "vocabulary"
+      ]
+    },
+    {
+      "name": "Target Feel",
+      "bytes": 397,
+      "when": [
+        "target",
+        "feel"
+      ]
+    },
+    {
+      "name": "Core Stack",
+      "bytes": 682,
+      "when": [
+        "core",
+        "stack"
+      ]
+    },
+    {
+      "name": "Motion Tokens",
+      "bytes": 446,
+      "when": [
+        "motion",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Page Anatomy",
+      "bytes": 467,
+      "when": [
+        "page",
+        "anatomy"
+      ]
+    },
+    {
+      "name": "Markup Pattern",
+      "bytes": 773,
+      "when": [
+        "markup",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Preloader Sequence",
+      "bytes": 792,
+      "when": [
+        "preloader",
+        "sequence"
+      ]
+    },
+    {
+      "name": "Split Text Reveal",
+      "bytes": 1787,
+      "when": [
+        "split",
+        "text",
+        "reveal"
+      ]
+    },
+    {
+      "name": "Scroll-Triggered Reveals",
+      "bytes": 890,
+      "when": [
+        "scroll",
+        "triggered",
+        "reveals"
+      ]
+    },
+    {
+      "name": "Scroll-Linked Progression",
+      "bytes": 831,
+      "when": [
+        "scroll",
+        "linked",
+        "progression"
+      ]
+    },
+    {
+      "name": "Sticky Card Stack",
+      "bytes": 1036,
+      "when": [
+        "sticky",
+        "card",
+        "stack"
+      ]
+    },
+    {
+      "name": "Parallax",
+      "bytes": 1145,
+      "when": [
+        "parallax"
+      ]
+    },
+    {
+      "name": "Build Order",
+      "bytes": 370,
+      "when": [
+        "build",
+        "order"
+      ]
+    },
+    {
+      "name": "Prompt Template",
+      "bytes": 463,
+      "when": [
+        "prompt",
+        "template"
+      ]
+    },
+    {
+      "name": "QA Checklist",
+      "bytes": 545,
+      "when": [
+        "checklist"
+      ]
+    }
+  ],
+  "keywords": [
+    "effect",
+    "vocabulary",
+    "target",
+    "feel",
+    "core",
+    "stack",
+    "motion",
+    "tokens",
+    "page",
+    "anatomy",
+    "markup",
+    "pattern"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\cinematic-scroll-storytelling\\SKILL.md"
+}

@@ -27,7 +27,48 @@
   "conflicts_with": [],
   "body_tokens": 1740,
   "core_bytes": 7002,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Creating with docx-js — gotchas",
+      "bytes": 1455,
+      "when": [
+        "creating",
+        "docx",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Verify the output",
+      "bytes": 348,
+      "when": [
+        "verify",
+        "output"
+      ]
+    },
+    {
+      "name": "Editing existing documents",
+      "bytes": 2684,
+      "when": [
+        "editing",
+        "existing",
+        "documents"
+      ]
+    },
+    {
+      "name": "Comments",
+      "bytes": 958,
+      "when": [
+        "comments"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 154,
+      "when": [
+        "dependencies"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/docx/SKILL.md"
 }

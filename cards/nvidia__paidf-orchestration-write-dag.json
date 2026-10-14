@@ -1,0 +1,186 @@
+{
+  "id": "nvidia__paidf-orchestration-write-dag",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "fabefe2404ad8b6ff7713815d8a3f725946dbfb4719eed5eb9b603dd72039a0b",
+  "purpose": "Use when a user describes a custom PAIDF Orchestration pipeline — a specific ordered combination of stages such as augmentation only, auto-labeling only, detection+captioning only, or image attribute ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when a user describes a custom PAIDF Orchestration pipeline — a specific ordered combination of stages such as augmentation only, auto-labeling only, detect"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 8341,
+  "core_bytes": 33604,
+  "sections": [
+    {
+      "name": "What This Skill Does",
+      "bytes": 3043,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Making Use of Component Skills",
+      "bytes": 2995,
+      "when": [
+        "making",
+        "component",
+        "skills"
+      ]
+    },
+    {
+      "name": "Available Task Groups",
+      "bytes": 5488,
+      "when": [
+        "available",
+        "task",
+        "groups"
+      ]
+    },
+    {
+      "name": "Data flow",
+      "bytes": 771,
+      "when": [
+        "data",
+        "flow"
+      ]
+    },
+    {
+      "name": "Step 0: Confirm No Existing DAG Already Covers This",
+      "bytes": 1771,
+      "when": [
+        "step",
+        "confirm",
+        "existing",
+        "already",
+        "covers"
+      ]
+    },
+    {
+      "name": "Step 1: Gather Requirements",
+      "bytes": 1288,
+      "when": [
+        "step",
+        "gather",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Step 2: Read the Base Manifest and Component Skill References",
+      "bytes": 1049,
+      "when": [
+        "step",
+        "read",
+        "base",
+        "manifest",
+        "component",
+        "skill",
+        "references"
+      ]
+    },
+    {
+      "name": "Step 3: Write the K8s Manifest",
+      "bytes": 867,
+      "when": [
+        "step",
+        "write",
+        "manifest"
+      ]
+    },
+    {
+      "name": "Step 4: Write the DAG Python File",
+      "bytes": 3931,
+      "when": [
+        "step",
+        "write",
+        "python",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 5: Register for Deployment",
+      "bytes": 480,
+      "when": [
+        "step",
+        "register",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Step 6: Verify",
+      "bytes": 1657,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Parity Check (against an external spec, e.g. `launchable.md`)",
+      "bytes": 1103,
+      "when": [
+        "parity",
+        "check",
+        "against",
+        "external",
+        "spec",
+        "launchable"
+      ]
+    },
+    {
+      "name": "Step 7: Print Summary",
+      "bytes": 2690,
+      "when": [
+        "step",
+        "print",
+        "summary"
+      ]
+    },
+    {
+      "name": "Step 8: Readiness Check, Deploy, Trigger, and Monitor",
+      "bytes": 4667,
+      "when": [
+        "step",
+        "readiness",
+        "check",
+        "deploy",
+        "trigger",
+        "monitor"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1512,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Constraints",
+      "bytes": 1342,
+      "when": [
+        "constraints"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/paidf-orchestration-write-dag/SKILL.md",
+  "curated": true
+}

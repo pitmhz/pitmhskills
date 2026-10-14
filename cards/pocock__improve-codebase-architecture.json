@@ -29,7 +29,44 @@
   "conflicts_with": [],
   "body_tokens": 1518,
   "core_bytes": 6071,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/improve-codebase-architecture/SKILL.md"
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 4996,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "1. Explore",
+      "bytes": 1503,
+      "when": [
+        "explore"
+      ]
+    },
+    {
+      "name": "2. Present candidates as an HTML report",
+      "bytes": 2329,
+      "when": [
+        "present",
+        "candidates",
+        "html",
+        "report"
+      ]
+    },
+    {
+      "name": "3. Grilling loop",
+      "bytes": 1150,
+      "when": [
+        "grilling",
+        "loop"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/improve-codebase-architecture/SKILL.md",
+  "curated": true
 }

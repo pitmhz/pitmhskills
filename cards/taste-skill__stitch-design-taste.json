@@ -1,0 +1,253 @@
+{
+  "id": "taste-skill__stitch-design-taste",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "56e41363d61ff565dbba8c8c05c3d8e6538ccd6f49180a504737edfcdbfff409",
+  "purpose": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perp",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "design"
+  ],
+  "use_when": [
+    "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, ca"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Google Stitch design-system work -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "stitch google semantic",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2979,
+  "core_bytes": 12035,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 679,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 202,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "The Goal",
+      "bytes": 629,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Analysis & Synthesis Instructions",
+      "bytes": 6320,
+      "when": [
+        "analysis",
+        "synthesis",
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Define the Atmosphere",
+      "bytes": 547,
+      "when": [
+        "define",
+        "atmosphere"
+      ]
+    },
+    {
+      "name": "2. Map the Color Palette",
+      "bytes": 534,
+      "when": [
+        "color",
+        "palette"
+      ]
+    },
+    {
+      "name": "3. Establish Typography Rules",
+      "bytes": 889,
+      "when": [
+        "establish",
+        "typography",
+        "rules"
+      ]
+    },
+    {
+      "name": "4. Define the Hero Section",
+      "bytes": 789,
+      "when": [
+        "define",
+        "hero",
+        "section"
+      ]
+    },
+    {
+      "name": "5. Describe Component Stylings",
+      "bytes": 731,
+      "when": [
+        "describe",
+        "component",
+        "stylings"
+      ]
+    },
+    {
+      "name": "6. Define Layout Principles",
+      "bytes": 654,
+      "when": [
+        "define",
+        "layout",
+        "principles"
+      ]
+    },
+    {
+      "name": "7. Define Responsive Rules",
+      "bytes": 692,
+      "when": [
+        "define",
+        "responsive",
+        "rules"
+      ]
+    },
+    {
+      "name": "8. Encode Motion Philosophy",
+      "bytes": 545,
+      "when": [
+        "encode",
+        "motion",
+        "philosophy"
+      ]
+    },
+    {
+      "name": "9. List Anti-Patterns (AI Tells)",
+      "bytes": 899,
+      "when": [
+        "list",
+        "anti",
+        "patterns",
+        "tells"
+      ]
+    },
+    {
+      "name": "Output Format (DESIGN.md Structure)",
+      "bytes": 91,
+      "when": [
+        "output",
+        "format",
+        "design",
+        "structure"
+      ]
+    },
+    {
+      "name": "1. Visual Theme & Atmosphere",
+      "bytes": 309,
+      "when": [
+        "visual",
+        "theme",
+        "atmosphere"
+      ]
+    },
+    {
+      "name": "2. Color Palette & Roles",
+      "bytes": 507,
+      "when": [
+        "color",
+        "palette",
+        "roles"
+      ]
+    },
+    {
+      "name": "3. Typography Rules",
+      "bytes": 380,
+      "when": [
+        "typography",
+        "rules"
+      ]
+    },
+    {
+      "name": "4. Component Stylings",
+      "bytes": 583,
+      "when": [
+        "component",
+        "stylings"
+      ]
+    },
+    {
+      "name": "5. Layout Principles",
+      "bytes": 226,
+      "when": [
+        "layout",
+        "principles"
+      ]
+    },
+    {
+      "name": "6. Motion & Interaction",
+      "bytes": 252,
+      "when": [
+        "motion",
+        "interaction"
+      ]
+    },
+    {
+      "name": "7. Anti-Patterns (Banned)",
+      "bytes": 236,
+      "when": [
+        "anti",
+        "patterns",
+        "banned"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 406,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Tips for Success",
+      "bytes": 404,
+      "when": [
+        "tips",
+        "success"
+      ]
+    },
+    {
+      "name": "Common Pitfalls to Avoid",
+      "bytes": 440,
+      "when": [
+        "common",
+        "pitfalls",
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "taste",
+    "overview",
+    "prerequisites",
+    "goal",
+    "analysis",
+    "synthesis",
+    "instructions",
+    "define",
+    "atmosphere",
+    "palette",
+    "establish",
+    "rules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\stitch-skill\\SKILL.md"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "awesome-copilot__gem-devops-guidelines",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6eff334e111eb7ad23e569440c0a2d814da2cdfa0855b57f4520279a27d4c346",
+  "purpose": "Design or review infrastructure, deployment, CI/CD, Docker, Kubernetes, health checks, rollback, feature flags, production readiness, and mobile release workflows. Use for DevOps, platform, container,",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design or review infrastructure, deployment, CI/CD, Docker, Kubernetes, health checks, rollback, feature flags, production readiness, and mobile release workflo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 743,
+  "core_bytes": 2972,
+  "sections": [
+    {
+      "name": "Deployment strategy",
+      "bytes": 224,
+      "when": [
+        "deployment",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Docker",
+      "bytes": 228,
+      "when": [
+        "docker"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "bytes": 115,
+      "when": [
+        "kubernetes"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "bytes": 119,
+      "when": []
+    },
+    {
+      "name": "Health and shutdown",
+      "bytes": 215,
+      "when": [
+        "health",
+        "shutdown"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 178,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Rollback",
+      "bytes": 123,
+      "when": [
+        "rollback"
+      ]
+    },
+    {
+      "name": "Feature Flags",
+      "bytes": 190,
+      "when": [
+        "feature",
+        "flags"
+      ]
+    },
+    {
+      "name": "Checklists",
+      "bytes": 478,
+      "when": [
+        "checklists"
+      ]
+    },
+    {
+      "name": "Mobile Deployment",
+      "bytes": 604,
+      "when": [
+        "mobile",
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gem-devops-guidelines\\SKILL.md"
+}

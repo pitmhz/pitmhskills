@@ -1,0 +1,33 @@
+{
+  "id": "awesome-copilot__structured-autonomy-implement",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "67d3e02344661ba99b4a72641c786ce80bd63caa51d7b969ebd01169773884d5",
+  "purpose": "Structured Autonomy Implementation Prompt",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Structured Autonomy Implementation Prompt"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 272,
+  "core_bytes": 1086,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\structured-autonomy-implement\\SKILL.md"
+}

@@ -29,7 +29,65 @@
   "conflicts_with": [],
   "body_tokens": 2161,
   "core_bytes": 8697,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/anthropic/skills/xlsx/SKILL.md"
+  "sections": [
+    {
+      "name": "Requirements for every output",
+      "bytes": 1518,
+      "when": [
+        "requirements",
+        "output"
+      ]
+    },
+    {
+      "name": "Recalculate (mandatory whenever the file contains formulas)",
+      "bytes": 1930,
+      "when": [
+        "recalculate",
+        "mandatory",
+        "whenever",
+        "file",
+        "contains",
+        "formulas"
+      ]
+    },
+    {
+      "name": "Choosing formulas that survive verification",
+      "bytes": 1249,
+      "when": [
+        "choosing",
+        "formulas",
+        "survive",
+        "verification"
+      ]
+    },
+    {
+      "name": "openpyxl gotchas",
+      "bytes": 888,
+      "when": [
+        "openpyxl",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Financial models",
+      "bytes": 1047,
+      "when": [
+        "financial",
+        "models"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 240,
+      "when": [
+        "dependencies"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/anthropic/skills/xlsx/SKILL.md",
+  "curated": true
 }

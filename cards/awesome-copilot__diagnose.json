@@ -1,0 +1,104 @@
+{
+  "id": "awesome-copilot__diagnose",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "48e2d7e9b9123dc0b9a82e1165b2d8879a43cb5cfd0460b55edfd820d5cb11a2",
+  "purpose": "Perform a systematic diagnostic scan of an AI workflow across 5 quality dimensions — prompt quality, context efficiency, tool health, architecture fitness, and safety — producing a scored report with ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Perform a systematic diagnostic scan of an AI workflow across 5 quality dimensions — prompt quality, context efficiency, tool health, architecture fitness, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1005,
+  "core_bytes": 4442,
+  "sections": [
+    {
+      "name": "Dimension 1: Prompt Quality (1–5)",
+      "bytes": 311,
+      "when": [
+        "dimension",
+        "prompt",
+        "quality"
+      ]
+    },
+    {
+      "name": "Dimension 2: Context Efficiency (1–5)",
+      "bytes": 318,
+      "when": [
+        "dimension",
+        "context",
+        "efficiency"
+      ]
+    },
+    {
+      "name": "Dimension 3: Tool Health (1–5)",
+      "bytes": 509,
+      "when": [
+        "dimension",
+        "tool",
+        "health"
+      ]
+    },
+    {
+      "name": "Dimension 4: Architecture Fitness (1–5)",
+      "bytes": 298,
+      "when": [
+        "dimension",
+        "architecture",
+        "fitness"
+      ]
+    },
+    {
+      "name": "Dimension 5: Safety & Reliability (1–5)",
+      "bytes": 407,
+      "when": [
+        "dimension",
+        "safety",
+        "reliability"
+      ]
+    },
+    {
+      "name": "Diagnostic Report Format",
+      "bytes": 1140,
+      "when": [
+        "diagnostic",
+        "report",
+        "format"
+      ]
+    },
+    {
+      "name": "Scoring Guide",
+      "bytes": 574,
+      "when": [
+        "scoring",
+        "guide"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 429,
+      "when": [
+        "usage"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\diagnose\\SKILL.md"
+}

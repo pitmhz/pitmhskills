@@ -1,0 +1,239 @@
+{
+  "id": "awesome-copilot__repo-story-time",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1b5e89152b3c3201726c4e12d582c90c952f61a99bfc94c0e34f633391be324a",
+  "purpose": "Generate a comprehensive repository summary and narrative story from commit history",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a comprehensive repository summary and narrative story from commit history"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1669,
+  "core_bytes": 6676,
+  "sections": [
+    {
+      "name": "Role",
+      "bytes": 283,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Task",
+      "bytes": 464,
+      "when": [
+        "task"
+      ]
+    },
+    {
+      "name": "Methodology",
+      "bytes": 3179,
+      "when": [
+        "methodology"
+      ]
+    },
+    {
+      "name": "Phase 1: Repository Exploration",
+      "bytes": 797,
+      "when": [
+        "phase",
+        "repository",
+        "exploration"
+      ]
+    },
+    {
+      "name": "Phase 2: Technical Deep Dive",
+      "bytes": 377,
+      "when": [
+        "phase",
+        "technical",
+        "deep",
+        "dive"
+      ]
+    },
+    {
+      "name": "Phase 3: Commit History Analysis",
+      "bytes": 1561,
+      "when": [
+        "phase",
+        "commit",
+        "history",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Phase 4: Pattern Recognition",
+      "bytes": 428,
+      "when": [
+        "phase",
+        "pattern",
+        "recognition"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 102,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "REPOSITORY_SUMMARY.md Structure",
+      "bytes": 84,
+      "when": [
+        "repository",
+        "summary",
+        "structure"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 79,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "bytes": 69,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "Key Components",
+      "bytes": 141,
+      "when": [
+        "components"
+      ]
+    },
+    {
+      "name": "Technologies Used",
+      "bytes": 87,
+      "when": [
+        "technologies",
+        "used"
+      ]
+    },
+    {
+      "name": "Data Flow",
+      "bytes": 56,
+      "when": [
+        "data",
+        "flow"
+      ]
+    },
+    {
+      "name": "Team and Ownership",
+      "bytes": 154,
+      "when": [
+        "team",
+        "ownership"
+      ]
+    },
+    {
+      "name": "THE_STORY_OF_THIS_REPO.md Structure",
+      "bytes": 80,
+      "when": [
+        "story",
+        "repo",
+        "structure"
+      ]
+    },
+    {
+      "name": "The Chronicles: A Year in Numbers",
+      "bytes": 88,
+      "when": [
+        "chronicles",
+        "year",
+        "numbers"
+      ]
+    },
+    {
+      "name": "Cast of Characters",
+      "bytes": 88,
+      "when": [
+        "cast",
+        "characters"
+      ]
+    },
+    {
+      "name": "Seasonal Patterns",
+      "bytes": 74,
+      "when": [
+        "seasonal",
+        "patterns"
+      ]
+    },
+    {
+      "name": "The Great Themes",
+      "bytes": 70,
+      "when": [
+        "great",
+        "themes"
+      ]
+    },
+    {
+      "name": "Plot Twists and Turning Points",
+      "bytes": 91,
+      "when": [
+        "plot",
+        "twists",
+        "turning",
+        "points"
+      ]
+    },
+    {
+      "name": "The Current Chapter",
+      "bytes": 87,
+      "when": [
+        "current",
+        "chapter"
+      ]
+    },
+    {
+      "name": "Key Instructions",
+      "bytes": 458,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 571,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Critical Final Instructions",
+      "bytes": 405,
+      "when": [
+        "critical",
+        "final",
+        "instructions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\repo-story-time\\SKILL.md"
+}

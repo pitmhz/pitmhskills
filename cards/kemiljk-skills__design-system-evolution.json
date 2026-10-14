@@ -1,0 +1,96 @@
+{
+  "id": "kemiljk-skills__design-system-evolution",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "87b5f7e4a50e354311aaa04b84e08c1c49e8fa253a70d4747eaca68fdf0cbea6",
+  "purpose": "Decide how an existing design system should evolve: reuse a component, add a variant, change its API, or introduce a new pattern. Use when real design or code consumers expose a mismatch and a bounded",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Decide how an existing design system should evolve: reuse a component, add a variant, change its API, or introduce a new pattern. Use when real design or code c"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Evolve a design system (reuse/variant/migrate) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "evolve variant migrate reuse compatibility",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1293,
+  "core_bytes": 5169,
+  "sections": [
+    {
+      "name": "Establish the pressure to change",
+      "bytes": 955,
+      "when": [
+        "establish",
+        "pressure",
+        "change"
+      ]
+    },
+    {
+      "name": "Choose the smallest useful system change",
+      "bytes": 1313,
+      "when": [
+        "choose",
+        "smallest",
+        "useful",
+        "system",
+        "change"
+      ]
+    },
+    {
+      "name": "Make the compatibility decision explicit",
+      "bytes": 960,
+      "when": [
+        "compatibility",
+        "decision",
+        "explicit"
+      ]
+    },
+    {
+      "name": "Example: project cards",
+      "bytes": 401,
+      "when": [
+        "example",
+        "project",
+        "cards"
+      ]
+    },
+    {
+      "name": "Verify and deliver",
+      "bytes": 1037,
+      "when": [
+        "verify",
+        "deliver"
+      ]
+    }
+  ],
+  "keywords": [
+    "evolution",
+    "establish",
+    "pressure",
+    "choose",
+    "smallest",
+    "useful",
+    "explicit",
+    "example",
+    "project",
+    "cards",
+    "verify",
+    "deliver"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\design-system-evolution\\SKILL.md"
+}

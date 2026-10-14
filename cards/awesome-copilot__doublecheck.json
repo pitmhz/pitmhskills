@@ -1,0 +1,247 @@
+{
+  "id": "awesome-copilot__doublecheck",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ea16d7eb9d144a1f8d6287695a71be900a37efda468e899af4016361b233bdc7",
+  "purpose": "Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sources via web search, runs adversarial review for hallucination patterns, and produces ",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sources via web search, runs adversarial review f"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3973,
+  "core_bytes": 15891,
+  "sections": [
+    {
+      "name": "Activation",
+      "bytes": 4860,
+      "when": [
+        "activation"
+      ]
+    },
+    {
+      "name": "Active Mode",
+      "bytes": 4255,
+      "when": [
+        "active",
+        "mode"
+      ]
+    },
+    {
+      "name": "One-Shot Mode",
+      "bytes": 264,
+      "when": [
+        "shot",
+        "mode"
+      ]
+    },
+    {
+      "name": "Deactivation",
+      "bytes": 226,
+      "when": [
+        "deactivation"
+      ]
+    },
+    {
+      "name": "Layer 1: Self-Audit",
+      "bytes": 2365,
+      "when": [
+        "layer",
+        "self",
+        "audit"
+      ]
+    },
+    {
+      "name": "Step 1: Extract Claims",
+      "bytes": 1272,
+      "when": [
+        "step",
+        "extract",
+        "claims"
+      ]
+    },
+    {
+      "name": "Step 2: Check Internal Consistency",
+      "bytes": 432,
+      "when": [
+        "step",
+        "check",
+        "internal",
+        "consistency"
+      ]
+    },
+    {
+      "name": "Step 3: Initial Confidence Assessment",
+      "bytes": 507,
+      "when": [
+        "step",
+        "initial",
+        "confidence",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Layer 2: Source Verification",
+      "bytes": 1976,
+      "when": [
+        "layer",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "name": "Search Strategy",
+      "bytes": 852,
+      "when": [
+        "search",
+        "strategy"
+      ]
+    },
+    {
+      "name": "What Counts as a Source",
+      "bytes": 444,
+      "when": [
+        "counts",
+        "source"
+      ]
+    },
+    {
+      "name": "Handling Citations Specifically",
+      "bytes": 497,
+      "when": [
+        "handling",
+        "citations",
+        "specifically"
+      ]
+    },
+    {
+      "name": "Layer 3: Adversarial Review",
+      "bytes": 2503,
+      "when": [
+        "layer",
+        "adversarial",
+        "review"
+      ]
+    },
+    {
+      "name": "Hallucination Pattern Checklist",
+      "bytes": 1561,
+      "when": [
+        "hallucination",
+        "pattern",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Adversarial Questions",
+      "bytes": 365,
+      "when": [
+        "adversarial",
+        "questions"
+      ]
+    },
+    {
+      "name": "Red Flags to Escalate",
+      "bytes": 358,
+      "when": [
+        "flags",
+        "escalate"
+      ]
+    },
+    {
+      "name": "Producing the Verification Report",
+      "bytes": 2222,
+      "when": [
+        "producing",
+        "verification",
+        "report"
+      ]
+    },
+    {
+      "name": "Confidence Ratings",
+      "bytes": 894,
+      "when": [
+        "confidence",
+        "ratings"
+      ]
+    },
+    {
+      "name": "Report Principles",
+      "bytes": 493,
+      "when": [
+        "report",
+        "principles"
+      ]
+    },
+    {
+      "name": "Limitations Disclosure",
+      "bytes": 678,
+      "when": [
+        "limitations",
+        "disclosure"
+      ]
+    },
+    {
+      "name": "Domain-Specific Guidance",
+      "bytes": 1378,
+      "when": [
+        "domain",
+        "specific",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Legal Content",
+      "bytes": 528,
+      "when": [
+        "legal",
+        "content"
+      ]
+    },
+    {
+      "name": "Medical and Scientific Content",
+      "bytes": 288,
+      "when": [
+        "medical",
+        "scientific",
+        "content"
+      ]
+    },
+    {
+      "name": "Financial and Regulatory Content",
+      "bytes": 272,
+      "when": [
+        "financial",
+        "regulatory",
+        "content"
+      ]
+    },
+    {
+      "name": "Technical and Security Content",
+      "bytes": 261,
+      "when": [
+        "technical",
+        "security",
+        "content"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\doublecheck\\SKILL.md"
+}

@@ -1,0 +1,174 @@
+{
+  "id": "awesome-copilot__salesforce-flow-design",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "588eccf48f0ec2c826ea7aea2e75c49a57e93cbfd2395b4181c0e4672b977300",
+  "purpose": "Salesforce Flow architecture decisions, flow type selection, bulk safety validation, and fault handling standards. Use this skill when designing or reviewing Record-Triggered, Screen, Autolaunched, Sc",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Salesforce Flow architecture decisions, flow type selection, bulk safety validation, and fault handling standards. Use this skill when designing or reviewing Re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1740,
+  "core_bytes": 7055,
+  "sections": [
+    {
+      "name": "Step 1 — Confirm Flow Is the Right Tool",
+      "bytes": 670,
+      "when": [
+        "step",
+        "confirm",
+        "flow",
+        "right",
+        "tool"
+      ]
+    },
+    {
+      "name": "Step 2 — Select the Correct Flow Type",
+      "bytes": 1157,
+      "when": [
+        "step",
+        "select",
+        "correct",
+        "flow",
+        "type"
+      ]
+    },
+    {
+      "name": "Step 3 — Bulk Safety Checklist",
+      "bytes": 1137,
+      "when": [
+        "step",
+        "bulk",
+        "safety",
+        "checklist"
+      ]
+    },
+    {
+      "name": "DML in Loops — Automatic Fail",
+      "bytes": 258,
+      "when": [
+        "loops",
+        "automatic",
+        "fail"
+      ]
+    },
+    {
+      "name": "Get Records in Loops — Automatic Fail",
+      "bytes": 214,
+      "when": [
+        "records",
+        "loops",
+        "automatic",
+        "fail"
+      ]
+    },
+    {
+      "name": "Correct Bulk Pattern",
+      "bytes": 266,
+      "when": [
+        "correct",
+        "bulk",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Transform vs Loop",
+      "bytes": 256,
+      "when": [
+        "transform",
+        "loop"
+      ]
+    },
+    {
+      "name": "Step 4 — Fault Path Requirements",
+      "bytes": 827,
+      "when": [
+        "step",
+        "fault",
+        "path",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Elements That Require Fault Connectors",
+      "bytes": 290,
+      "when": [
+        "elements",
+        "require",
+        "fault",
+        "connectors"
+      ]
+    },
+    {
+      "name": "Fault Handler Pattern",
+      "bytes": 367,
+      "when": [
+        "fault",
+        "handler",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Step 5 — Automation Density Check",
+      "bytes": 592,
+      "when": [
+        "step",
+        "automation",
+        "density",
+        "check"
+      ]
+    },
+    {
+      "name": "Step 6 — Screen Flow UX Guidelines",
+      "bytes": 546,
+      "when": [
+        "step",
+        "screen",
+        "flow",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Step 7 — Deployment Safety",
+      "bytes": 593,
+      "when": [
+        "step",
+        "deployment",
+        "safety"
+      ]
+    },
+    {
+      "name": "Quick Reference — Flow Anti-Patterns Summary",
+      "bytes": 963,
+      "when": [
+        "quick",
+        "reference",
+        "flow",
+        "anti",
+        "patterns",
+        "summary"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\salesforce-flow-design\\SKILL.md"
+}

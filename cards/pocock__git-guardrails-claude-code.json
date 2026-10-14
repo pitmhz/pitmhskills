@@ -27,7 +27,61 @@
   "conflicts_with": [],
   "body_tokens": 602,
   "core_bytes": 2408,
-  "sections": [],
+  "sections": [
+    {
+      "name": "What Gets Blocked",
+      "bytes": 298,
+      "when": [
+        "gets",
+        "blocked"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 1672,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "1. Ask scope",
+      "bytes": 146,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "2. Copy the hook script",
+      "bytes": 327,
+      "when": [
+        "copy",
+        "hook",
+        "script"
+      ]
+    },
+    {
+      "name": "3. Add hook to settings",
+      "bytes": 848,
+      "when": [
+        "hook",
+        "settings"
+      ]
+    },
+    {
+      "name": "4. Ask about customization",
+      "bytes": 144,
+      "when": [
+        "customization"
+      ]
+    },
+    {
+      "name": "5. Verify",
+      "bytes": 195,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/misc/git-guardrails-claude-code/SKILL.md"
 }

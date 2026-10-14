@@ -1,0 +1,206 @@
+{
+  "id": "nvidia__nemo-mbridge-resiliency",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "957185d0c1287d7df7479ad122db4386c7383d2c3360137816b7e03e6c9015db",
+  "purpose": "Resiliency features in Megatron Bridge including fault tolerance, straggler detection, in-process restart, preemption, and re-run state machine.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Resiliency features in Megatron Bridge including fault tolerance, straggler detection, in-process restart, preemption, and re-run state machine."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2903,
+  "core_bytes": 11631,
+  "sections": [
+    {
+      "name": "Enablement",
+      "bytes": 6877,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Fault tolerance (Slurm only)",
+      "bytes": 2305,
+      "when": [
+        "fault",
+        "tolerance",
+        "slurm"
+      ]
+    },
+    {
+      "name": "NVRx straggler detection",
+      "bytes": 1183,
+      "when": [
+        "nvrx",
+        "straggler",
+        "detection"
+      ]
+    },
+    {
+      "name": "Preemption",
+      "bytes": 756,
+      "when": [
+        "preemption"
+      ]
+    },
+    {
+      "name": "Re-run state machine (experimental)",
+      "bytes": 776,
+      "when": [
+        "state",
+        "machine",
+        "experimental"
+      ]
+    },
+    {
+      "name": "In-process restart (experimental)",
+      "bytes": 1528,
+      "when": [
+        "process",
+        "restart",
+        "experimental"
+      ]
+    },
+    {
+      "name": "Async checkpoint save",
+      "bytes": 124,
+      "when": [
+        "async",
+        "checkpoint",
+        "save"
+      ]
+    },
+    {
+      "name": "Local checkpointing (NVRx)",
+      "bytes": 188,
+      "when": [
+        "local",
+        "checkpointing",
+        "nvrx"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 2033,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Fault tolerance",
+      "bytes": 464,
+      "when": [
+        "fault",
+        "tolerance"
+      ]
+    },
+    {
+      "name": "Straggler detection",
+      "bytes": 472,
+      "when": [
+        "straggler",
+        "detection"
+      ]
+    },
+    {
+      "name": "In-process restart",
+      "bytes": 394,
+      "when": [
+        "process",
+        "restart"
+      ]
+    },
+    {
+      "name": "Preemption",
+      "bytes": 223,
+      "when": [
+        "preemption"
+      ]
+    },
+    {
+      "name": "Re-run state machine",
+      "bytes": 187,
+      "when": [
+        "state",
+        "machine"
+      ]
+    },
+    {
+      "name": "Checkpointing",
+      "bytes": 274,
+      "when": [
+        "checkpointing"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 1045,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 1020,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Fault tolerance",
+      "bytes": 383,
+      "when": [
+        "fault",
+        "tolerance"
+      ]
+    },
+    {
+      "name": "Straggler detection",
+      "bytes": 310,
+      "when": [
+        "straggler",
+        "detection"
+      ]
+    },
+    {
+      "name": "Async checkpoint",
+      "bytes": 157,
+      "when": [
+        "async",
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "In-process restart",
+      "bytes": 151,
+      "when": [
+        "process",
+        "restart"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-resiliency/SKILL.md",
+  "curated": true
+}

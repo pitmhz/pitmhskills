@@ -1,0 +1,121 @@
+{
+  "id": "awesome-copilot__memory-merger",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a98f9bbd157755bfcaa8914095990d13a8d614afa18c882f3892f81e257e221c",
+  "purpose": "Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`.",
+  "domain": "memory",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 972,
+  "core_bytes": 3889,
+  "sections": [
+    {
+      "name": "Scopes",
+      "bytes": 487,
+      "when": [
+        "scopes"
+      ]
+    },
+    {
+      "name": "Syntax",
+      "bytes": 526,
+      "when": [
+        "syntax"
+      ]
+    },
+    {
+      "name": "Process",
+      "bytes": 716,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "1. Parse Input and Read Files",
+      "bytes": 601,
+      "when": [
+        "parse",
+        "input",
+        "read",
+        "files"
+      ]
+    },
+    {
+      "name": "2. Analyze and Propose",
+      "bytes": 103,
+      "when": [
+        "analyze",
+        "propose"
+      ]
+    },
+    {
+      "name": "Proposed Memories for Merger",
+      "bytes": 1314,
+      "when": [
+        "proposed",
+        "memories",
+        "merger"
+      ]
+    },
+    {
+      "name": "Memory: [Headline]",
+      "bytes": 241,
+      "when": [
+        "memory",
+        "headline"
+      ]
+    },
+    {
+      "name": "3. Define Quality Bar",
+      "bytes": 348,
+      "when": [
+        "define",
+        "quality"
+      ]
+    },
+    {
+      "name": "4. Merge and Iterate",
+      "bytes": 298,
+      "when": [
+        "merge",
+        "iterate"
+      ]
+    },
+    {
+      "name": "5. Update Files",
+      "bytes": 394,
+      "when": [
+        "update",
+        "files"
+      ]
+    },
+    {
+      "name": "Example",
+      "bytes": 358,
+      "when": [
+        "example"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\memory-merger\\SKILL.md"
+}

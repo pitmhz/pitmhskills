@@ -1,0 +1,87 @@
+{
+  "id": "mengto-skills__html-to-interaction-prompts",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "5f260c8b06f498bb591d312b37516d0557a77b26a4c2baffbcce3823dfd795c7",
+  "purpose": "Convert a supplied HTML page or generated HTML reference into a screenshot-backed article containing multiple reusable interaction prompts. Use when the user provides an HTML file, exported page, gene",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Convert a supplied HTML page or generated HTML reference into a screenshot-backed article containing multiple reusable interaction prompts. Use when the user pr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3812,
+  "core_bytes": 15247,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 276,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Daily UI Inspiration Capture Contract",
+      "bytes": 3985,
+      "when": [
+        "daily",
+        "inspiration",
+        "capture",
+        "contract"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 8138,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Prompt Style Rules",
+      "bytes": 627,
+      "when": [
+        "prompt",
+        "style",
+        "rules"
+      ]
+    },
+    {
+      "name": "Library Guidance",
+      "bytes": 1725,
+      "when": [
+        "library",
+        "guidance"
+      ]
+    }
+  ],
+  "keywords": [
+    "goal",
+    "daily",
+    "inspiration",
+    "contract",
+    "workflow",
+    "style",
+    "rules",
+    "library",
+    "guidance"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\html-to-interaction-prompts\\SKILL.md"
+}

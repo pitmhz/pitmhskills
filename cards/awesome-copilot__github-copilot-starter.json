@@ -1,0 +1,208 @@
+{
+  "id": "awesome-copilot__github-copilot-starter",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7288f9613ffd1bccd46a688a717b26f3c13e3821236bb1b29d4a6699d79bb6ba",
+  "purpose": "Set up complete GitHub Copilot configuration for a new project based on technology stack",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Set up complete GitHub Copilot configuration for a new project based on technology stack"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3860,
+  "core_bytes": 15773,
+  "sections": [
+    {
+      "name": "Project Information Required",
+      "bytes": 586,
+      "when": [
+        "project",
+        "information",
+        "required"
+      ]
+    },
+    {
+      "name": "Configuration Files to Create",
+      "bytes": 397,
+      "when": [
+        "configuration",
+        "files",
+        "create"
+      ]
+    },
+    {
+      "name": "1. `.github/copilot-instructions.md`",
+      "bytes": 274,
+      "when": [
+        "github",
+        "copilot",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Project Overview",
+      "bytes": 90,
+      "when": [
+        "project",
+        "overview"
+      ]
+    },
+    {
+      "name": "Tech Stack",
+      "bytes": 76,
+      "when": [
+        "tech",
+        "stack"
+      ]
+    },
+    {
+      "name": "Conventions",
+      "bytes": 213,
+      "when": [
+        "conventions"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2476,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "2. `.github/instructions/` Directory",
+      "bytes": 481,
+      "when": [
+        "github",
+        "instructions",
+        "directory"
+      ]
+    },
+    {
+      "name": "3. `.github/skills/` Directory",
+      "bytes": 384,
+      "when": [
+        "github",
+        "skills",
+        "directory"
+      ]
+    },
+    {
+      "name": "4. `.github/agents/` Directory",
+      "bytes": 500,
+      "when": [
+        "github",
+        "agents",
+        "directory"
+      ]
+    },
+    {
+      "name": "5. `.github/workflows/` Directory (only if user uses GitHub Actions)",
+      "bytes": 567,
+      "when": [
+        "github",
+        "workflows",
+        "directory",
+        "user",
+        "uses",
+        "actions"
+      ]
+    },
+    {
+      "name": "Content Guidelines",
+      "bytes": 4164,
+      "when": [
+        "content",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "File Structure Standards",
+      "bytes": 1262,
+      "when": [
+        "file",
+        "structure",
+        "standards"
+      ]
+    },
+    {
+      "name": "YAML Frontmatter Template",
+      "bytes": 309,
+      "when": [
+        "yaml",
+        "frontmatter",
+        "template"
+      ]
+    },
+    {
+      "name": "General Guidelines",
+      "bytes": 630,
+      "when": [
+        "general",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 1147,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Execution Steps",
+      "bytes": 1217,
+      "when": [
+        "execution",
+        "steps"
+      ]
+    },
+    {
+      "name": "Post-Setup Instructions",
+      "bytes": 355,
+      "when": [
+        "post",
+        "setup",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Quality Checklist",
+      "bytes": 655,
+      "when": [
+        "quality",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Workflow Template Structure (only if GitHub Actions is used)",
+      "bytes": 1870,
+      "when": [
+        "workflow",
+        "template",
+        "structure",
+        "github",
+        "actions",
+        "used"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\github-copilot-starter\\SKILL.md"
+}

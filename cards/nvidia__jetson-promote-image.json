@@ -1,0 +1,188 @@
+{
+  "id": "nvidia__jetson-promote-image",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "18d010d925c72ad9ed4c01f6af6e378d38d488145aefa8ba5c70652bd9750ff3",
+  "purpose": "Use to promote overlay files and built artifacts into the staged BSP image. Do NOT use to flash or build. Triggers: promote bsp image.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use to promote overlay files and built artifacts into the staged BSP image. Do NOT use to flash or build. Triggers: promote bsp image."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5086,
+  "core_bytes": 20419,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 210,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 632,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 1285,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 361,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 7057,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Resolve active target + paths",
+      "bytes": 1181,
+      "when": [
+        "resolve",
+        "active",
+        "target",
+        "paths"
+      ]
+    },
+    {
+      "name": "Validate the two channels",
+      "bytes": 496,
+      "when": [
+        "validate",
+        "channels"
+      ]
+    },
+    {
+      "name": "Verify build-source freshness",
+      "bytes": 386,
+      "when": [
+        "verify",
+        "build",
+        "source",
+        "freshness"
+      ]
+    },
+    {
+      "name": "Pre-promote collision check (overlay only)",
+      "bytes": 510,
+      "when": [
+        "promote",
+        "collision",
+        "check",
+        "overlay"
+      ]
+    },
+    {
+      "name": "Enumerate sources (both channels)",
+      "bytes": 796,
+      "when": [
+        "enumerate",
+        "sources",
+        "both",
+        "channels"
+      ]
+    },
+    {
+      "name": "Diff-aware copy into bsp_image",
+      "bytes": 934,
+      "when": [
+        "diff",
+        "aware",
+        "copy",
+        "image"
+      ]
+    },
+    {
+      "name": "Mirror kernel Image into rootfs (when kernel changed)",
+      "bytes": 959,
+      "when": [
+        "mirror",
+        "kernel",
+        "image",
+        "rootfs",
+        "changed"
+      ]
+    },
+    {
+      "name": "Refresh initramfs (when kernel or modules changed)",
+      "bytes": 917,
+      "when": [
+        "refresh",
+        "initramfs",
+        "kernel",
+        "modules",
+        "changed"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 862,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 4648,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2531,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Spec status",
+      "bytes": 2140,
+      "when": [
+        "spec",
+        "status"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1147,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-promote-image\\SKILL.md",
+  "curated": true
+}

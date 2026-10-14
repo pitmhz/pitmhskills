@@ -1,0 +1,101 @@
+{
+  "id": "nvidia__tao-run-deft-pas",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "08bd4f698e0da09d5a9afb5f31dd43b815a526d282d8447abff608fe7ad0c62f",
+  "purpose": "Run iterative improvement for NVIDIA TAO CLIP / SigLIP image-text retrieval on attribute-labelled data. Use when a request combines retrieval evaluation, weak-attribute or caption-pair mining, repeate",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run iterative improvement for NVIDIA TAO CLIP / SigLIP image-text retrieval on attribute-labelled data. Use when a request combines retrieval evaluation, weak-a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4306,
+  "core_bytes": 17221,
+  "sections": [
+    {
+      "name": "Entry Contract",
+      "bytes": 4441,
+      "when": [
+        "entry",
+        "contract"
+      ]
+    },
+    {
+      "name": "Safety Gate",
+      "bytes": 1280,
+      "when": [
+        "safety",
+        "gate"
+      ]
+    },
+    {
+      "name": "Execution Contract",
+      "bytes": 2770,
+      "when": [
+        "execution",
+        "contract"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1757,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Loop and Recovery Rules",
+      "bytes": 2523,
+      "when": [
+        "loop",
+        "recovery",
+        "rules"
+      ]
+    },
+    {
+      "name": "Metric and Stop Semantics",
+      "bytes": 724,
+      "when": [
+        "metric",
+        "stop",
+        "semantics"
+      ]
+    },
+    {
+      "name": "Completion",
+      "bytes": 649,
+      "when": [
+        "completion"
+      ]
+    },
+    {
+      "name": "Progressive References",
+      "bytes": 759,
+      "when": [
+        "progressive",
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-run-deft-pas\\SKILL.md",
+  "curated": true
+}

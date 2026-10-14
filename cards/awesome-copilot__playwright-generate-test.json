@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot__playwright-generate-test",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "79dbb1a49fc5a6502788ccba1a4bd30769a017a1cc31d9db329d1326ea3d898f",
+  "purpose": "Generate a Playwright test based on a scenario using Playwright MCP",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a Playwright test based on a scenario using Playwright MCP"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 220,
+  "core_bytes": 877,
+  "sections": [
+    {
+      "name": "Specific Instructions",
+      "bytes": 601,
+      "when": [
+        "specific",
+        "instructions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\playwright-generate-test\\SKILL.md"
+}

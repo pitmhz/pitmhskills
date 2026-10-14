@@ -1,0 +1,98 @@
+{
+  "id": "awesome-copilot__slang-shader-engineer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cab49bbddf84fbc05c6ff23d505a07757b46cd30fd64898b68e5b66ecb4f4f79",
+  "purpose": "Use when working with Slang shaders, shader modules, HLSL-compatible GPU code, graphics pipelines, compute shaders, tessellation, ray tracing, parameter blocks, generics, interfaces, capabilities, cro",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "refactor"
+  ],
+  "use_when": [
+    "Use when working with Slang shaders, shader modules, HLSL-compatible GPU code, graphics pipelines, compute shaders, tessellation, ray tracing, parameter blocks,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1804,
+  "core_bytes": 7276,
+  "sections": [
+    {
+      "name": "Core Responsibilities",
+      "bytes": 452,
+      "when": [
+        "core",
+        "responsibilities"
+      ]
+    },
+    {
+      "name": "Knowledge Areas",
+      "bytes": 1161,
+      "when": [
+        "knowledge",
+        "areas"
+      ]
+    },
+    {
+      "name": "Slang-Specific Rules (Always Apply)",
+      "bytes": 1211,
+      "when": [
+        "slang",
+        "specific",
+        "rules",
+        "apply"
+      ]
+    },
+    {
+      "name": "Working Style",
+      "bytes": 716,
+      "when": [
+        "working",
+        "style"
+      ]
+    },
+    {
+      "name": "Quick Code Template",
+      "bytes": 627,
+      "when": [
+        "quick",
+        "code",
+        "template"
+      ]
+    },
+    {
+      "name": "Validation Checklist (Before Finalizing Any Answer)",
+      "bytes": 534,
+      "when": [
+        "validation",
+        "checklist",
+        "before",
+        "finalizing",
+        "answer"
+      ]
+    },
+    {
+      "name": "When to Load Reference Files",
+      "bytes": 1137,
+      "when": [
+        "load",
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\slang-shader-engineer\\SKILL.md"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "mengto-skills__3d-sky-rays",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "7d9c90817e1ad5161a2b26586ba7909c9c758abbf71637b30d847f0dc6a546f9",
+  "purpose": "Add sun shafts and crepuscular rays to a Three.js or equivalent 3D scene, using scene occlusion, a projected sun position, controlled foreground spill, and scalable post-processing. Use for rays of li",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Add sun shafts and crepuscular rays to a Three.js or equivalent 3D scene, using scene occlusion, a projected sun position, controlled foreground spill, and scal"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1245,
+  "core_bytes": 4979,
+  "sections": [
+    {
+      "name": "Fit the existing renderer",
+      "bytes": 586,
+      "when": [
+        "existing",
+        "renderer"
+      ]
+    },
+    {
+      "name": "Build an occlusion-aware ray pass",
+      "bytes": 2258,
+      "when": [
+        "build",
+        "occlusion",
+        "aware",
+        "pass"
+      ]
+    },
+    {
+      "name": "Tune appearance before cost",
+      "bytes": 900,
+      "when": [
+        "tune",
+        "appearance",
+        "before",
+        "cost"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 469,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 285,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
+  "keywords": [
+    "existing",
+    "renderer",
+    "build",
+    "aware",
+    "pass",
+    "tune",
+    "appearance",
+    "before",
+    "cost",
+    "verify",
+    "reference"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-sky-rays\\SKILL.md"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "mengto-skills__daily-ui-inspiration-capture",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "8c6e7e886f6346699e45b8de2259c35ada14ec07e76de01153183c2dac98bf07",
+  "purpose": "Create a recurring daily UI inspiration capture. Use when the user asks to run, refresh, package, or validate dated UI inspiration bundles, especially for `articles/YYYY-MM-DD-ui-inspiration-capture/`",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create a recurring daily UI inspiration capture. Use when the user asks to run, refresh, package, or validate dated UI inspiration bundles, especially for `arti"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2066,
+  "core_bytes": 8261,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 259,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Start",
+      "bytes": 739,
+      "when": [
+        "start"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 914,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "Selection",
+      "bytes": 589,
+      "when": [
+        "selection"
+      ]
+    },
+    {
+      "name": "Capture",
+      "bytes": 1742,
+      "when": [
+        "capture"
+      ]
+    },
+    {
+      "name": "Article Shape",
+      "bytes": 1317,
+      "when": [
+        "article",
+        "shape"
+      ]
+    },
+    {
+      "name": "Manifest Shape",
+      "bytes": 622,
+      "when": [
+        "manifest",
+        "shape"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 1600,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "keywords": [
+    "overview",
+    "start",
+    "output",
+    "contract",
+    "selection",
+    "article",
+    "shape",
+    "manifest",
+    "verification"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\daily-ui-inspiration-capture\\SKILL.md"
+}

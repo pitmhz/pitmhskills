@@ -28,7 +28,104 @@
   "conflicts_with": [],
   "body_tokens": 1260,
   "core_bytes": 5039,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/linear/SKILL.md"
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 290,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 156,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required Workflow",
+      "bytes": 1783,
+      "when": [
+        "required",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 0: Set up Linear MCP (if not already configured)",
+      "bytes": 846,
+      "when": [
+        "step",
+        "linear",
+        "already",
+        "configured"
+      ]
+    },
+    {
+      "name": "Step 1",
+      "bytes": 199,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Step 2",
+      "bytes": 212,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Step 3",
+      "bytes": 279,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Step 4",
+      "bytes": 168,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Available Tools",
+      "bytes": 453,
+      "when": [
+        "available",
+        "tools"
+      ]
+    },
+    {
+      "name": "Practical Workflows",
+      "bytes": 1215,
+      "when": [
+        "practical",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Tips for Maximum Productivity",
+      "bytes": 395,
+      "when": [
+        "tips",
+        "maximum",
+        "productivity"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 510,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/linear/SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__light-mode-paper-technical",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b19668eb068149d69e5bc16e7e4675977eb55fc8015a1a02adb3576e173bc180",
+  "purpose": "Create a light-mode technical design system with warm paper surfaces, dark outer framing, subtle diagonal texture, precise bracketed geometry, and restrained accent signals.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a light-mode technical design system with warm paper surfaces, dark outer framing, subtle diagonal texture, precise bracketed geometry, and restrained ac"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1061,
+  "core_bytes": 4241,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 192,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 15,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 441,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Visual target",
+      "bytes": 733,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "Implementation guidance",
+      "bytes": 960,
+      "when": [
+        "implementation",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Recommended patterns",
+      "bytes": 641,
+      "when": [
+        "recommended",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Tuning knobs",
+      "bytes": 566,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 419,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "scope",
+    "visual",
+    "target",
+    "implementation",
+    "guidance",
+    "recommended",
+    "patterns",
+    "tuning",
+    "knobs",
+    "avoid"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\light-mode-paper-technical\\SKILL.md"
+}

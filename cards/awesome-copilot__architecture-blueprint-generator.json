@@ -1,0 +1,189 @@
+{
+  "id": "awesome-copilot__architecture-blueprint-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a6a6f7a3b7a8210a9a391f2da3f3945bf86505341fd677eb2eb62e599520f512",
+  "purpose": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, gener",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3340,
+  "core_bytes": 13358,
+  "sections": [
+    {
+      "name": "Configuration Variables",
+      "bytes": 866,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generated Prompt",
+      "bytes": 12008,
+      "when": [
+        "generated",
+        "prompt"
+      ]
+    },
+    {
+      "name": "1. Architecture Detection and Analysis",
+      "bytes": 775,
+      "when": [
+        "architecture",
+        "detection",
+        "analysis"
+      ]
+    },
+    {
+      "name": "2. Architectural Overview",
+      "bytes": 317,
+      "when": [
+        "architectural",
+        "overview"
+      ]
+    },
+    {
+      "name": "3. Architecture Visualization",
+      "bytes": 666,
+      "when": [
+        "architecture",
+        "visualization"
+      ]
+    },
+    {
+      "name": "4. Core Architectural Components",
+      "bytes": 775,
+      "when": [
+        "core",
+        "architectural",
+        "components"
+      ]
+    },
+    {
+      "name": "5. Architectural Layers and Dependencies",
+      "bytes": 335,
+      "when": [
+        "architectural",
+        "layers",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "6. Data Architecture",
+      "bytes": 332,
+      "when": [
+        "data",
+        "architecture"
+      ]
+    },
+    {
+      "name": "7. Cross-Cutting Concerns Implementation",
+      "bytes": 995,
+      "when": [
+        "cross",
+        "cutting",
+        "concerns",
+        "implementation"
+      ]
+    },
+    {
+      "name": "8. Service Communication Patterns",
+      "bytes": 313,
+      "when": [
+        "service",
+        "communication",
+        "patterns"
+      ]
+    },
+    {
+      "name": "9. Technology-Specific Architectural Patterns",
+      "bytes": 1928,
+      "when": [
+        "technology",
+        "specific",
+        "architectural",
+        "patterns"
+      ]
+    },
+    {
+      "name": "10. Implementation Patterns",
+      "bytes": 1075,
+      "when": [
+        "implementation",
+        "patterns"
+      ]
+    },
+    {
+      "name": "11. Testing Architecture",
+      "bytes": 274,
+      "when": [
+        "testing",
+        "architecture"
+      ]
+    },
+    {
+      "name": "12. Deployment Architecture",
+      "bytes": 349,
+      "when": [
+        "deployment",
+        "architecture"
+      ]
+    },
+    {
+      "name": "13. Extension and Evolution Patterns",
+      "bytes": 2401,
+      "when": [
+        "extension",
+        "evolution",
+        "patterns"
+      ]
+    },
+    {
+      "name": "${INCLUDES_DECISION_RECORDS ? \"16\" : INCLUDES_CODE_EXAMPLES ? \"15\" : \"14\"}. Arch",
+      "bytes": 328,
+      "when": [
+        "includes",
+        "decision",
+        "records",
+        "code",
+        "examples",
+        "architecture",
+        "governance"
+      ]
+    },
+    {
+      "name": "${INCLUDES_DECISION_RECORDS ? \"17\" : INCLUDES_CODE_EXAMPLES ? \"16\" : \"15\"}. Blue",
+      "bytes": 880,
+      "when": [
+        "includes",
+        "decision",
+        "records",
+        "code",
+        "examples",
+        "blueprint",
+        "development"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\architecture-blueprint-generator\\SKILL.md"
+}

@@ -35,10 +35,63 @@
   "conflicts_with": [],
   "body_tokens": 1406,
   "core_bytes": 5624,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 757,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Global Rules",
+      "bytes": 492,
+      "when": [
+        "global",
+        "rules"
+      ]
+    },
+    {
+      "name": "Video",
+      "bytes": 947,
+      "when": [
+        "video"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1811,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Integration Guides",
+      "bytes": 926,
+      "when": [
+        "integration",
+        "guides"
+      ]
+    },
+    {
+      "name": "Topic Guides",
+      "bytes": 863,
+      "when": [
+        "topic",
+        "guides"
+      ]
+    },
+    {
+      "name": "How to Use",
+      "bytes": 522,
+      "when": []
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-best-practices\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-best-practices\\SKILL.md",
+  "curated": true
 }

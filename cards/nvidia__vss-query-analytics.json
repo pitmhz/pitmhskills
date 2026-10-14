@@ -1,0 +1,177 @@
+{
+  "id": "nvidia__vss-query-analytics",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "66ff78e67008577e5828878f7702426fe0511793af4cf5042992caafc926df0d",
+  "purpose": "Use this skill when reading video-analytics metrics, incidents, alerts, and sensor data via the VA-MCP server (port 9901). Not for live VLM or incident-range narrative reports.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when reading video-analytics metrics, incidents, alerts, and sensor data via the VA-MCP server (port 9901). Not for live VLM or incident-range na"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2400,
+  "core_bytes": 9628,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 126,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 236,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 187,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 269,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 337,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1538,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Deployment prerequisite",
+      "bytes": 1307,
+      "when": [
+        "deployment",
+        "prerequisite"
+      ]
+    },
+    {
+      "name": "REQUIRED: Two-Step Pattern (copy this exactly)",
+      "bytes": 1213,
+      "when": [
+        "required",
+        "step",
+        "pattern",
+        "copy",
+        "exactly"
+      ]
+    },
+    {
+      "name": "Tool Reference",
+      "bytes": 2549,
+      "when": [
+        "tool",
+        "reference"
+      ]
+    },
+    {
+      "name": "video_analytics__get_incidents",
+      "bytes": 1067,
+      "when": [
+        "video",
+        "analytics",
+        "incidents"
+      ]
+    },
+    {
+      "name": "video_analytics__get_incident",
+      "bytes": 223,
+      "when": [
+        "video",
+        "analytics",
+        "incident"
+      ]
+    },
+    {
+      "name": "video_analytics__get_sensor_ids",
+      "bytes": 175,
+      "when": [
+        "video",
+        "analytics",
+        "sensor"
+      ]
+    },
+    {
+      "name": "video_analytics__get_places",
+      "bytes": 167,
+      "when": [
+        "video",
+        "analytics",
+        "places"
+      ]
+    },
+    {
+      "name": "video_analytics__get_fov_histogram",
+      "bytes": 307,
+      "when": [
+        "video",
+        "analytics",
+        "histogram"
+      ]
+    },
+    {
+      "name": "video_analytics__analyze",
+      "bytes": 374,
+      "when": [
+        "video",
+        "analytics",
+        "analyze"
+      ]
+    },
+    {
+      "name": "vst_sensor_list",
+      "bytes": 150,
+      "when": [
+        "sensor",
+        "list"
+      ]
+    },
+    {
+      "name": "MCP connection & retry guidance",
+      "bytes": 1402,
+      "when": [
+        "connection",
+        "retry",
+        "guidance"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-query-analytics/SKILL.md",
+  "curated": true
+}

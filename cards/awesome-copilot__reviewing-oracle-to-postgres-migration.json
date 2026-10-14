@@ -1,0 +1,69 @@
+{
+  "id": "awesome-copilot__reviewing-oracle-to-postgres-migration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "54a4c6b3a31797c3fb9bd2c3fa684bbc5e80751d37585bd20784f9b75af2dbae",
+  "purpose": "Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral differences (empty strings, refcursors, type coercion, sorting/collations, UNION ALL planner risks, m",
+  "domain": "backend-data",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral differences (empty strings, refcursors, type coercion, sortin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 798,
+  "core_bytes": 3194,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 351,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2153,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Risk assessment workflow (planning)",
+      "bytes": 989,
+      "when": [
+        "risk",
+        "assessment",
+        "workflow",
+        "planning"
+      ]
+    },
+    {
+      "name": "Validation workflow (post-migration)",
+      "bytes": 998,
+      "when": [
+        "validation",
+        "workflow",
+        "post",
+        "migration"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\reviewing-oracle-to-postgres-migration\\SKILL.md"
+}

@@ -1,0 +1,164 @@
+{
+  "id": "awesome-copilot__azure-static-web-apps",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "01540172e164a281b585de653406e8c5c4917f28dd1639dadf29f4f58371dc94",
+  "purpose": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Az",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2373,
+  "core_bytes": 9499,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 584,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "General Instructions",
+      "bytes": 1549,
+      "when": [
+        "general",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 102,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Quick Start Workflow",
+      "bytes": 378,
+      "when": [
+        "quick",
+        "start",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Configuration Files",
+      "bytes": 1044,
+      "when": [
+        "configuration",
+        "files"
+      ]
+    },
+    {
+      "name": "Command-line Reference",
+      "bytes": 2738,
+      "when": [
+        "command",
+        "line",
+        "reference"
+      ]
+    },
+    {
+      "name": "swa login",
+      "bytes": 402,
+      "when": [
+        "login"
+      ]
+    },
+    {
+      "name": "swa init",
+      "bytes": 234,
+      "when": [
+        "init"
+      ]
+    },
+    {
+      "name": "swa build",
+      "bytes": 354,
+      "when": [
+        "build"
+      ]
+    },
+    {
+      "name": "swa start",
+      "bytes": 812,
+      "when": [
+        "start"
+      ]
+    },
+    {
+      "name": "swa deploy",
+      "bytes": 734,
+      "when": [
+        "deploy"
+      ]
+    },
+    {
+      "name": "swa db",
+      "bytes": 175,
+      "when": []
+    },
+    {
+      "name": "Scenarios",
+      "bytes": 3248,
+      "when": [
+        "scenarios"
+      ]
+    },
+    {
+      "name": "Create SWA from Existing Frontend and Backend",
+      "bytes": 608,
+      "when": [
+        "create",
+        "existing",
+        "frontend",
+        "backend"
+      ]
+    },
+    {
+      "name": "Add Azure Functions Backend",
+      "bytes": 1049,
+      "when": [
+        "azure",
+        "functions",
+        "backend"
+      ]
+    },
+    {
+      "name": "Set Up GitHub Actions Deployment",
+      "bytes": 1577,
+      "when": [
+        "github",
+        "actions",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1047,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-static-web-apps\\SKILL.md"
+}

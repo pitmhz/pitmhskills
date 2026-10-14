@@ -27,7 +27,94 @@
   "conflicts_with": [],
   "body_tokens": 577,
   "core_bytes": 2308,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 267,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Brand Guidelines",
+      "bytes": 593,
+      "when": [
+        "brand",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Colors",
+      "bytes": 376,
+      "when": [
+        "colors"
+      ]
+    },
+    {
+      "name": "Typography",
+      "bytes": 194,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 592,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Smart Font Application",
+      "bytes": 237,
+      "when": [
+        "smart",
+        "font",
+        "application"
+      ]
+    },
+    {
+      "name": "Text Styling",
+      "bytes": 168,
+      "when": [
+        "text",
+        "styling"
+      ]
+    },
+    {
+      "name": "Shape and Accent Colors",
+      "bytes": 172,
+      "when": [
+        "shape",
+        "accent",
+        "colors"
+      ]
+    },
+    {
+      "name": "Technical Details",
+      "bytes": 500,
+      "when": [
+        "technical",
+        "details"
+      ]
+    },
+    {
+      "name": "Font Management",
+      "bytes": 302,
+      "when": [
+        "font",
+        "management"
+      ]
+    },
+    {
+      "name": "Color Application",
+      "bytes": 174,
+      "when": [
+        "color",
+        "application"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/brand-guidelines/SKILL.md"
 }

@@ -1,0 +1,130 @@
+{
+  "id": "uiskills-staged__quieter",
+  "tier": "B",
+  "origin": [
+    "local@quieter"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bc9baa8cfb31b6c7c6f96b346f3aabb3b44e49909d29df6a469facae01e814fc",
+  "purpose": "Quiet design is harder than bold design. Subtlety needs precision. Reduce visual intensity in designs that are too loud, aggressive, or overstimulating without losing personality or making the result ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Quiet design is harder than bold design. Subtlety needs precision. Reduce visual intensity in designs that are too loud, aggressive, or overstimulating without "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Tone down an intense design -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "quieter intense loud tone down subtlety",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1236,
+  "core_bytes": 4953,
+  "sections": [
+    {
+      "name": "Visitor mode",
+      "bytes": 369,
+      "when": [
+        "visitor",
+        "mode"
+      ]
+    },
+    {
+      "name": "Assess Current State",
+      "bytes": 992,
+      "when": [
+        "assess",
+        "current",
+        "state"
+      ]
+    },
+    {
+      "name": "Plan Refinement",
+      "bytes": 481,
+      "when": [
+        "plan",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Refine the Design",
+      "bytes": 2461,
+      "when": [
+        "refine",
+        "design"
+      ]
+    },
+    {
+      "name": "Color Refinement",
+      "bytes": 608,
+      "when": [
+        "color",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Visual Weight Reduction",
+      "bytes": 369,
+      "when": [
+        "visual",
+        "weight",
+        "reduction"
+      ]
+    },
+    {
+      "name": "Simplification",
+      "bytes": 343,
+      "when": [
+        "simplification"
+      ]
+    },
+    {
+      "name": "Motion Reduction",
+      "bytes": 449,
+      "when": [
+        "motion",
+        "reduction"
+      ]
+    },
+    {
+      "name": "Composition Refinement",
+      "bytes": 608,
+      "when": [
+        "composition",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Verify Quality",
+      "bytes": 431,
+      "when": [
+        "verify",
+        "quality"
+      ]
+    }
+  ],
+  "keywords": [
+    "visitor",
+    "mode",
+    "assess",
+    "current",
+    "state",
+    "plan",
+    "refinement",
+    "refine",
+    "color",
+    "weight",
+    "reduction",
+    "simplification"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\quieter\\SKILL.md"
+}

@@ -1,0 +1,280 @@
+{
+  "id": "awesome-copilot__flowstudio-power-automate-debug",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8c9e090767904d355de25c81c625752b456ac6f6e8c9936ed86312fdedf05d4f",
+  "purpose": "Debug failing Power Automate cloud flows using the FlowStudio MCP server. The Graph API only shows top-level status codes. This skill gives your agent action-level inputs and outputs to find the actua",
+  "domain": "workflow",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Debug failing Power Automate cloud flows using the FlowStudio MCP server. The Graph API only shows top-level status codes. This skill gives your agent action-le"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4979,
+  "core_bytes": 20015,
+  "sections": [
+    {
+      "name": "Source of Truth",
+      "bytes": 409,
+      "when": [
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Python Helper",
+      "bytes": 1014,
+      "when": [
+        "python",
+        "helper"
+      ]
+    },
+    {
+      "name": "Step 1 — Locate the Flow",
+      "bytes": 327,
+      "when": [
+        "step",
+        "locate",
+        "flow"
+      ]
+    },
+    {
+      "name": "Step 2 — Find the Failing Run",
+      "bytes": 642,
+      "when": [
+        "step",
+        "find",
+        "failing"
+      ]
+    },
+    {
+      "name": "Step 3 — Get the Top-Level Error",
+      "bytes": 1487,
+      "when": [
+        "step",
+        "level",
+        "error"
+      ]
+    },
+    {
+      "name": "Step 4 — Inspect the Failing Action's Inputs and Outputs",
+      "bytes": 4144,
+      "when": [
+        "step",
+        "inspect",
+        "failing",
+        "action",
+        "inputs",
+        "outputs"
+      ]
+    },
+    {
+      "name": "What the action outputs reveal (that error codes don't)",
+      "bytes": 580,
+      "when": [
+        "action",
+        "outputs",
+        "reveal",
+        "error",
+        "codes"
+      ]
+    },
+    {
+      "name": "Foreach iterations",
+      "bytes": 745,
+      "when": [
+        "foreach",
+        "iterations"
+      ]
+    },
+    {
+      "name": "Evidence Compose Bookends",
+      "bytes": 365,
+      "when": [
+        "evidence",
+        "compose",
+        "bookends"
+      ]
+    },
+    {
+      "name": "Example: HTTP action returning 500",
+      "bytes": 374,
+      "when": [
+        "example",
+        "http",
+        "action",
+        "returning"
+      ]
+    },
+    {
+      "name": "Example: Expression error on null",
+      "bytes": 355,
+      "when": [
+        "example",
+        "expression",
+        "error",
+        "null"
+      ]
+    },
+    {
+      "name": "Step 5 — Read the Flow Definition",
+      "bytes": 321,
+      "when": [
+        "step",
+        "read",
+        "flow",
+        "definition"
+      ]
+    },
+    {
+      "name": "Step 6 — Walk Back from the Failure",
+      "bytes": 1106,
+      "when": [
+        "step",
+        "walk",
+        "back",
+        "failure"
+      ]
+    },
+    {
+      "name": "Step 7 — Pinpoint the Root Cause",
+      "bytes": 2634,
+      "when": [
+        "step",
+        "pinpoint",
+        "root",
+        "cause"
+      ]
+    },
+    {
+      "name": "Expression Errors (e.g. `split` on null)",
+      "bytes": 691,
+      "when": [
+        "expression",
+        "errors",
+        "split",
+        "null"
+      ]
+    },
+    {
+      "name": "Wrong Field Path",
+      "bytes": 328,
+      "when": [
+        "wrong",
+        "field",
+        "path"
+      ]
+    },
+    {
+      "name": "HTTP Actions Returning Errors",
+      "bytes": 402,
+      "when": [
+        "http",
+        "actions",
+        "returning",
+        "errors"
+      ]
+    },
+    {
+      "name": "Connection / Auth Failures",
+      "bytes": 187,
+      "when": [
+        "connection",
+        "auth",
+        "failures"
+      ]
+    },
+    {
+      "name": "Outlook user-picker failures (`DynamicListValuesUndefinedOrInvalid`)",
+      "bytes": 987,
+      "when": [
+        "outlook",
+        "user",
+        "picker",
+        "failures",
+        "dynamiclistvaluesundefinedorinvalid"
+      ]
+    },
+    {
+      "name": "Step 8 — Apply the Fix",
+      "bytes": 704,
+      "when": [
+        "step",
+        "apply"
+      ]
+    },
+    {
+      "name": "Step 9 — Verify the Fix",
+      "bytes": 4125,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "When to use resubmit vs trigger",
+      "bytes": 727,
+      "when": [
+        "resubmit",
+        "trigger"
+      ]
+    },
+    {
+      "name": "Testing HTTP, Button, and PowerApps flows with custom payloads",
+      "bytes": 2397,
+      "when": [
+        "testing",
+        "http",
+        "button",
+        "powerapps",
+        "flows",
+        "custom",
+        "payloads"
+      ]
+    },
+    {
+      "name": "Quick-Reference Diagnostic Decision Tree",
+      "bytes": 1211,
+      "when": [
+        "quick",
+        "reference",
+        "diagnostic",
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 209,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 187,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\flowstudio-power-automate-debug\\SKILL.md"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "nvidia__i4h-workflow-train-rl",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "511081eb6e45e04f16bcd6e8c65ce7483f16cb5917880bbec92c0bb4b7f28d02",
+  "purpose": "Use when training, evaluating, or exporting Workflow policies with online RSL-RL or RLinf, including RL checkpoint and Workflow handoff.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when training, evaluating, or exporting Workflow policies with online RSL-RL or RLinf, including RL checkpoint and Workflow handoff."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3814,
+  "core_bytes": 15268,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 233,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 752,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1110,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve the checkout",
+      "bytes": 1572,
+      "when": [
+        "resolve",
+        "checkout"
+      ]
+    },
+    {
+      "name": "Resolve the profile and contracts",
+      "bytes": 1738,
+      "when": [
+        "resolve",
+        "profile",
+        "contracts"
+      ]
+    },
+    {
+      "name": "Author a new RL-backed Workflow",
+      "bytes": 2492,
+      "when": [
+        "author",
+        "backed",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Dry-run",
+      "bytes": 824,
+      "when": []
+    },
+    {
+      "name": "Preflight and train",
+      "bytes": 1942,
+      "when": [
+        "preflight",
+        "train"
+      ]
+    },
+    {
+      "name": "Evaluate, export, and hand off",
+      "bytes": 2104,
+      "when": [
+        "evaluate",
+        "export",
+        "hand"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 683,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 478,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 448,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 387,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-train-rl/SKILL.md",
+  "curated": true
+}

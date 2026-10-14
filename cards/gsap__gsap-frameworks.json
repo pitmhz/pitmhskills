@@ -1,0 +1,119 @@
+{
+  "id": "gsap__gsap-frameworks",
+  "tier": "B",
+  "origin": [
+    "greensock/gsap-skills@aed9cfd3277740755f6bfc1155c7aa645403b760"
+  ],
+  "license": "MIT",
+  "hash": "3d7e8c2f6bddb32ffc1763b17bba9a8a3dcbc3bd5bf6815d921d3c5a4aded85d",
+  "purpose": "Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount. Use when the user wants animation in Vue, Nuxt, Svelte, SvelteKit, or asks about",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount. Use when the user wants animation in Vue"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2708,
+  "core_bytes": 10887,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 440,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Principles (All Frameworks)",
+      "bytes": 412,
+      "when": [
+        "principles",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "Vue 3 (Composition API)",
+      "bytes": 1282,
+      "when": [
+        "composition"
+      ]
+    },
+    {
+      "name": "Vue 3 (script setup)",
+      "bytes": 676,
+      "when": [
+        "script",
+        "setup"
+      ]
+    },
+    {
+      "name": "Nuxt 4",
+      "bytes": 3777,
+      "when": [
+        "nuxt"
+      ]
+    },
+    {
+      "name": "Svelte",
+      "bytes": 1146,
+      "when": [
+        "svelte"
+      ]
+    },
+    {
+      "name": "Scoping Selectors",
+      "bytes": 550,
+      "when": [
+        "scoping",
+        "selectors"
+      ]
+    },
+    {
+      "name": "ScrollTrigger Cleanup",
+      "bytes": 576,
+      "when": [
+        "scrolltrigger",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "When to Create vs Kill",
+      "bytes": 831,
+      "when": [
+        "create",
+        "kill"
+      ]
+    },
+    {
+      "name": "Do Not",
+      "bytes": 727,
+      "when": []
+    },
+    {
+      "name": "Learn More",
+      "bytes": 94,
+      "when": [
+        "learn"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gsap\\skills\\gsap-frameworks\\SKILL.md",
+  "curated": true
+}

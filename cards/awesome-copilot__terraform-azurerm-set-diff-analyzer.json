@@ -1,0 +1,78 @@
+{
+  "id": "awesome-copilot__terraform-azurerm-set-diff-analyzer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b7efae1dd84de6f644daeac4e6f2f6a7f281b5edf68bb864fb79bb36cd3c4195",
+  "purpose": "Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes. Use when reviewing terrafor",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resou"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 547,
+  "core_bytes": 2187,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 241,
+      "when": []
+    },
+    {
+      "name": "Background",
+      "bytes": 451,
+      "when": [
+        "background"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 204,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Basic Usage",
+      "bytes": 192,
+      "when": [
+        "basic",
+        "usage"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 180,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Detailed Documentation",
+      "bytes": 242,
+      "when": [
+        "detailed",
+        "documentation"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\terraform-azurerm-set-diff-analyzer\\SKILL.md"
+}

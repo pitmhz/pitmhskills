@@ -1,0 +1,104 @@
+{
+  "id": "mengto-skills__ambient-section-particles",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "0d759572756a49a466ef1695b3f9f16d19b9ffc4f9f49864cd3f961ffe1cbdbe",
+  "purpose": "Add a restrained particle atmosphere inside one section with configurable shapes, density, gravity, wind, sway, rotation, recycling or settling, pointer disturbance, visibility pausing, responsive lim",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Add a restrained particle atmosphere inside one section with configurable shapes, density, gravity, wind, sway, rotation, recycling or settling, pointer disturb"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1041,
+  "core_bytes": 4161,
+  "sections": [
+    {
+      "name": "Choose the renderer",
+      "bytes": 480,
+      "when": [
+        "choose",
+        "renderer"
+      ]
+    },
+    {
+      "name": "Define one configuration",
+      "bytes": 401,
+      "when": [
+        "define",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Layer the section",
+      "bytes": 438,
+      "when": [
+        "layer",
+        "section"
+      ]
+    },
+    {
+      "name": "Run the simulation",
+      "bytes": 832,
+      "when": [
+        "simulation"
+      ]
+    },
+    {
+      "name": "Stop invisible work",
+      "bytes": 371,
+      "when": [
+        "stop",
+        "invisible",
+        "work"
+      ]
+    },
+    {
+      "name": "Respect the reader",
+      "bytes": 506,
+      "when": [
+        "respect",
+        "reader"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 511,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "ambient",
+    "particles",
+    "choose",
+    "renderer",
+    "define",
+    "configuration",
+    "layer",
+    "simulation",
+    "stop",
+    "invisible",
+    "work",
+    "respect",
+    "reader"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\ambient-section-particles\\SKILL.md"
+}

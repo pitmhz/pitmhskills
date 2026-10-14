@@ -1,0 +1,158 @@
+{
+  "id": "awesome-copilot__add-educational-comments",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5273774d9b6628dcec97bc0b5ed66ff36bf235e65d4d79a43917d60e91df348d",
+  "purpose": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1556,
+  "core_bytes": 6235,
+  "sections": [
+    {
+      "name": "Role",
+      "bytes": 619,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Objectives",
+      "bytes": 750,
+      "when": [
+        "objectives"
+      ]
+    },
+    {
+      "name": "Line Count Guidance",
+      "bytes": 368,
+      "when": [
+        "line",
+        "count",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Educational Commenting Rules",
+      "bytes": 1325,
+      "when": [
+        "educational",
+        "commenting",
+        "rules"
+      ]
+    },
+    {
+      "name": "Encoding and Formatting",
+      "bytes": 549,
+      "when": [
+        "encoding",
+        "formatting"
+      ]
+    },
+    {
+      "name": "Content Expectations",
+      "bytes": 435,
+      "when": [
+        "content",
+        "expectations"
+      ]
+    },
+    {
+      "name": "Safety and Compliance",
+      "bytes": 308,
+      "when": [
+        "safety",
+        "compliance"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 888,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Configuration Reference",
+      "bytes": 1366,
+      "when": [
+        "configuration",
+        "reference"
+      ]
+    },
+    {
+      "name": "Properties",
+      "bytes": 135,
+      "when": [
+        "properties"
+      ]
+    },
+    {
+      "name": "Parameters",
+      "bytes": 928,
+      "when": [
+        "parameters"
+      ]
+    },
+    {
+      "name": "Default Configuration",
+      "bytes": 275,
+      "when": [
+        "default",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 482,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Missing File",
+      "bytes": 188,
+      "when": [
+        "missing",
+        "file"
+      ]
+    },
+    {
+      "name": "Custom Configuration",
+      "bytes": 281,
+      "when": [
+        "custom",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Final Checklist",
+      "bytes": 426,
+      "when": [
+        "final",
+        "checklist"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\add-educational-comments\\SKILL.md"
+}

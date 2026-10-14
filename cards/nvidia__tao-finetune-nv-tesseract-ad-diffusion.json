@@ -1,0 +1,154 @@
+{
+  "id": "nvidia__tao-finetune-nv-tesseract-ad-diffusion",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "eb2f24901c12acbd734f671e272aee80e132b8b156685ec7032d872b5e15a092",
+  "purpose": "NV-Tesseract AD Diffusion — diffusion-based anomaly detection and fine-tuning for multivariate time series. Use when the user asks to \"fine-tune NV-Tesseract\", \"run AD diffusion inference\", \"detect an",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "NV-Tesseract AD Diffusion — diffusion-based anomaly detection and fine-tuning for multivariate time series. Use when the user asks to \"fine-tune NV-Tesseract\", "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3012,
+  "core_bytes": 12149,
+  "sections": [
+    {
+      "name": "External dependencies",
+      "bytes": 369,
+      "when": [
+        "external",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Credentials",
+      "bytes": 244,
+      "when": [
+        "credentials"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 910,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Inference",
+      "bytes": 1721,
+      "when": [
+        "inference"
+      ]
+    },
+    {
+      "name": "Inference CLI reference",
+      "bytes": 426,
+      "when": [
+        "inference",
+        "reference"
+      ]
+    },
+    {
+      "name": "Fine-tuning",
+      "bytes": 2673,
+      "when": [
+        "fine",
+        "tuning"
+      ]
+    },
+    {
+      "name": "Fine-tuning arguments",
+      "bytes": 1867,
+      "when": [
+        "fine",
+        "tuning",
+        "arguments"
+      ]
+    },
+    {
+      "name": "Running inference with a fine-tuned checkpoint",
+      "bytes": 326,
+      "when": [
+        "running",
+        "inference",
+        "fine",
+        "tuned",
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "AutoML (HPO: hyperparameter optimization)",
+      "bytes": 407,
+      "when": [
+        "automl",
+        "hyperparameter",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Data requirements",
+      "bytes": 911,
+      "when": [
+        "data",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Output structure",
+      "bytes": 717,
+      "when": [
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "Model configuration (`curriculum_medium.yaml`)",
+      "bytes": 612,
+      "when": [
+        "model",
+        "configuration",
+        "curriculum",
+        "medium",
+        "yaml"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 434,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Known pitfalls",
+      "bytes": 1244,
+      "when": [
+        "known",
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-finetune-nv-tesseract-ad-diffusion\\SKILL.md",
+  "curated": true
+}

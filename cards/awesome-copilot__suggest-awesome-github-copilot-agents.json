@@ -1,0 +1,101 @@
+{
+  "id": "awesome-copilot__suggest-awesome-github-copilot-agents",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cc8ed3c9857b116d837d9742120a8d6029ae460b91399bae4f3c0a19e690ff49",
+  "purpose": "Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this re",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicate"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1979,
+  "core_bytes": 7940,
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 2042,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Context Analysis Criteria",
+      "bytes": 436,
+      "when": [
+        "context",
+        "analysis",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 2437,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Local Agent Discovery Process",
+      "bytes": 274,
+      "when": [
+        "local",
+        "agent",
+        "discovery",
+        "process"
+      ]
+    },
+    {
+      "name": "Version Comparison Process",
+      "bytes": 668,
+      "when": [
+        "version",
+        "comparison",
+        "process"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 796,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Icons Reference",
+      "bytes": 139,
+      "when": [
+        "icons",
+        "reference"
+      ]
+    },
+    {
+      "name": "Update Handling",
+      "bytes": 374,
+      "when": [
+        "update",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\suggest-awesome-github-copilot-agents\\SKILL.md"
+}

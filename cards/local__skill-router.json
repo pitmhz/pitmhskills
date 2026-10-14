@@ -22,7 +22,25 @@
   "purpose": "Route a task to the right skill: pick which specialized skill fits the user's request.",
   "requires": {},
   "scope": "Only touch files the task names; everything else read-only.",
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to Invoke This Skill",
+      "bytes": 923,
+      "when": [
+        "invoke",
+        "skill"
+      ]
+    },
+    {
+      "name": "Fast Skill Resolution",
+      "bytes": 515,
+      "when": [
+        "fast",
+        "skill",
+        "resolution"
+      ]
+    }
+  ],
   "skill_path": "C:/Users/Mattchine/skills/skill-router/SKILL.md",
   "task_types": [
     "implement"
@@ -35,6 +53,7 @@
   ],
   "verify": [
     "bun run lint",
-    "bun run test"
-  ]
+    "rtk test -- bun run test"
+  ],
+  "curated": true
 }

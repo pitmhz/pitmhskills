@@ -1,0 +1,157 @@
+{
+  "id": "awesome-copilot__gen-specs-as-issues",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "800a30f8ef7628338de6e19d4b119c0e7af4b68dde23e38c84deed87d11bfe49",
+  "purpose": "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1467,
+  "core_bytes": 5870,
+  "sections": [
+    {
+      "name": "1. Project Understanding Phase",
+      "bytes": 653,
+      "when": [
+        "project",
+        "understanding",
+        "phase"
+      ]
+    },
+    {
+      "name": "2. Gap Analysis Phase",
+      "bytes": 587,
+      "when": [
+        "analysis",
+        "phase"
+      ]
+    },
+    {
+      "name": "3. Prioritization Phase",
+      "bytes": 641,
+      "when": [
+        "prioritization",
+        "phase"
+      ]
+    },
+    {
+      "name": "4. Specification Development Phase",
+      "bytes": 916,
+      "when": [
+        "specification",
+        "development",
+        "phase"
+      ]
+    },
+    {
+      "name": "5. GitHub Issue Creation Phase",
+      "bytes": 318,
+      "when": [
+        "github",
+        "issue",
+        "creation",
+        "phase"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 64,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 59,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Technical Requirements",
+      "bytes": 70,
+      "when": [
+        "technical",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Implementation Plan",
+      "bytes": 74,
+      "when": [
+        "implementation",
+        "plan"
+      ]
+    },
+    {
+      "name": "Acceptance Criteria",
+      "bytes": 86,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Priority",
+      "bytes": 48,
+      "when": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 123,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Implementation Size",
+      "bytes": 136,
+      "when": [
+        "implementation",
+        "size"
+      ]
+    },
+    {
+      "name": "5.5 Work Distribution Optimization",
+      "bytes": 985,
+      "when": [
+        "work",
+        "distribution",
+        "optimization"
+      ]
+    },
+    {
+      "name": "6. Final Review Phase",
+      "bytes": 674,
+      "when": [
+        "final",
+        "review",
+        "phase"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gen-specs-as-issues\\SKILL.md"
+}

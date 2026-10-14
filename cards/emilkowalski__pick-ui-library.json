@@ -1,0 +1,116 @@
+{
+  "id": "emilkowalski__pick-ui-library",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "6a3532136cf7f2a82dcfd8f7edd84787739749d8a9c1a8081534ee549d284de4",
+  "purpose": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only ru",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1212,
+  "core_bytes": 4875,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 614,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "How to use this",
+      "bytes": 786,
+      "when": []
+    },
+    {
+      "name": "The list",
+      "bytes": 2463,
+      "when": [
+        "list"
+      ]
+    },
+    {
+      "name": "UI components & primitives",
+      "bytes": 555,
+      "when": [
+        "components",
+        "primitives"
+      ]
+    },
+    {
+      "name": "Motion & visuals",
+      "bytes": 734,
+      "when": [
+        "motion",
+        "visuals"
+      ]
+    },
+    {
+      "name": "Charts",
+      "bytes": 346,
+      "when": [
+        "charts"
+      ]
+    },
+    {
+      "name": "Interaction & performance",
+      "bytes": 203,
+      "when": [
+        "interaction",
+        "performance"
+      ]
+    },
+    {
+      "name": "State & styling",
+      "bytes": 610,
+      "when": [
+        "state",
+        "styling"
+      ]
+    },
+    {
+      "name": "Common mismatches to catch",
+      "bytes": 638,
+      "when": [
+        "common",
+        "mismatches",
+        "catch"
+      ]
+    }
+  ],
+  "keywords": [
+    "picking",
+    "initial",
+    "response",
+    "components",
+    "primitives",
+    "motion",
+    "visuals",
+    "interaction",
+    "performance",
+    "common",
+    "mismatches",
+    "catch"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\pick-ui-library\\SKILL.md"
+}

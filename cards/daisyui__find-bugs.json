@@ -1,0 +1,163 @@
+{
+  "id": "daisyui__find-bugs",
+  "tier": "B",
+  "origin": [
+    "saadeghi/daisyui@bf3bac3a397b543e55641ecb2d60a2ed961f09ec"
+  ],
+  "license": "MIT",
+  "hash": "8a08bca1cabd0f0e3a502fe6092ebf0fd9ad2b9b8d8aeb0969e0f23547ef8a5c",
+  "purpose": "Investigate reported or suspected bugs in this daisyUI monorepo, including proactive bug searches in packages/daisyui and packages/docs. Use when Codex must reproduce a defect, prove product impact, i",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Investigate reported or suspected bugs in this daisyUI monorepo, including proactive bug searches in packages/daisyui and packages/docs. Use when Codex must rep"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2375,
+  "core_bytes": 9498,
+  "sections": [
+    {
+      "name": "Required agent routing",
+      "bytes": 488,
+      "when": [
+        "required",
+        "agent",
+        "routing"
+      ]
+    },
+    {
+      "name": "Non-negotiable boundary",
+      "bytes": 1215,
+      "when": [
+        "negotiable",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Load the relevant guidance",
+      "bytes": 554,
+      "when": [
+        "load",
+        "relevant",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Investigation workflow",
+      "bytes": 6307,
+      "when": [
+        "investigation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Establish a clean evidence baseline",
+      "bytes": 550,
+      "when": [
+        "establish",
+        "clean",
+        "evidence",
+        "baseline"
+      ]
+    },
+    {
+      "name": "2. Search from behavior toward ownership",
+      "bytes": 840,
+      "when": [
+        "search",
+        "behavior",
+        "toward",
+        "ownership"
+      ]
+    },
+    {
+      "name": "3. Reproduce and prove product impact",
+      "bytes": 1236,
+      "when": [
+        "reproduce",
+        "prove",
+        "product",
+        "impact"
+      ]
+    },
+    {
+      "name": "4. Establish root cause and isolation",
+      "bytes": 1153,
+      "when": [
+        "establish",
+        "root",
+        "cause",
+        "isolation"
+      ]
+    },
+    {
+      "name": "5. Develop solution options without changing code",
+      "bytes": 797,
+      "when": [
+        "develop",
+        "solution",
+        "options",
+        "changing",
+        "code"
+      ]
+    },
+    {
+      "name": "6. Apply the plan readiness gate",
+      "bytes": 588,
+      "when": [
+        "apply",
+        "plan",
+        "readiness",
+        "gate"
+      ]
+    },
+    {
+      "name": "7. Group findings and write plans",
+      "bytes": 1114,
+      "when": [
+        "group",
+        "findings",
+        "write",
+        "plans"
+      ]
+    },
+    {
+      "name": "Handoff",
+      "bytes": 223,
+      "when": [
+        "handoff"
+      ]
+    }
+  ],
+  "keywords": [
+    "finder",
+    "required",
+    "agent",
+    "routing",
+    "negotiable",
+    "load",
+    "relevant",
+    "guidance",
+    "investigation",
+    "workflow",
+    "establish",
+    "clean",
+    "evidence",
+    "baseline"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\daisyui\\.agents\\skills\\find-bugs\\SKILL.md"
+}

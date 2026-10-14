@@ -1,0 +1,185 @@
+{
+  "id": "nvidia__digital-health-clinical-asr-build",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e4a225096846d14ac1669fb31b73419aa5e70d62de0f9be017735841e351ee40",
+  "purpose": "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clinical-asr-eval).",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4971,
+  "core_bytes": 20128,
+  "sections": [
+    {
+      "name": "Data leaves your environment — disclose this to the user before any term is sent",
+      "bytes": 1301,
+      "when": [
+        "data",
+        "leaves",
+        "environment",
+        "disclose",
+        "user",
+        "before",
+        "term",
+        "sent"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 773,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use this skill",
+      "bytes": 1225,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 620,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 9309,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "2a. Specialty interview → `term_seed.csv`",
+      "bytes": 1245,
+      "when": [
+        "specialty",
+        "interview",
+        "term",
+        "seed"
+      ]
+    },
+    {
+      "name": "2b. Sentence generation via `/data-designer`",
+      "bytes": 888,
+      "when": [
+        "sentence",
+        "generation",
+        "data",
+        "designer"
+      ]
+    },
+    {
+      "name": "2c. Two-tier IPA tagging (the load-bearing quality lever)",
+      "bytes": 1823,
+      "when": [
+        "tier",
+        "tagging",
+        "load",
+        "bearing",
+        "quality",
+        "lever"
+      ]
+    },
+    {
+      "name": "2d. QA-mode synthesis (do **not** skip this gate)",
+      "bytes": 3140,
+      "when": [
+        "mode",
+        "synthesis",
+        "skip",
+        "gate"
+      ]
+    },
+    {
+      "name": "2e. Full benchmark generation",
+      "bytes": 1294,
+      "when": [
+        "full",
+        "benchmark",
+        "generation"
+      ]
+    },
+    {
+      "name": "Stage 2 completion checklist",
+      "bytes": 900,
+      "when": [
+        "stage",
+        "completion",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1445,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Artifacts produced",
+      "bytes": 327,
+      "when": [
+        "artifacts",
+        "produced"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1519,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 723,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Next steps",
+      "bytes": 329,
+      "when": [
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 211,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/digital-health-clinical-asr-build/SKILL.md",
+  "curated": true
+}

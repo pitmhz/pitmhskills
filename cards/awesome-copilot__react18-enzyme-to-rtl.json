@@ -1,0 +1,75 @@
+{
+  "id": "awesome-copilot__react18-enzyme-to-rtl",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "948b578f25740476a29074902cfd6c0886bee07cdbe99fcfe76dd58072f422a4",
+  "purpose": "Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades. Use this skill whenever Enzyme tests need to be rewritten - shallow, mount, wrapper.find(), wrapper.simulate(), ",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades. Use this skill whenever Enzyme tests need to be rewritten - shallow, mou"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 917,
+  "core_bytes": 3672,
+  "sections": [
+    {
+      "name": "The Philosophy Shift (Read This First)",
+      "bytes": 741,
+      "when": [
+        "philosophy",
+        "shift",
+        "read",
+        "first"
+      ]
+    },
+    {
+      "name": "API Map",
+      "bytes": 304,
+      "when": []
+    },
+    {
+      "name": "Core Rewrite Template",
+      "bytes": 758,
+      "when": [
+        "core",
+        "rewrite",
+        "template"
+      ]
+    },
+    {
+      "name": "RTL Query Priority (use in this order)",
+      "bytes": 523,
+      "when": [
+        "query",
+        "priority",
+        "order"
+      ]
+    },
+    {
+      "name": "Wrapping with Providers",
+      "bytes": 566,
+      "when": [
+        "wrapping",
+        "providers"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react18-enzyme-to-rtl\\SKILL.md"
+}

@@ -28,7 +28,61 @@
   "conflicts_with": [],
   "body_tokens": 1545,
   "core_bytes": 6560,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Glossary",
+      "bytes": 2012,
+      "when": [
+        "glossary"
+      ]
+    },
+    {
+      "name": "Deep vs shallow",
+      "bytes": 1181,
+      "when": [
+        "deep",
+        "shallow"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 825,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "Designing for testability",
+      "bytes": 673,
+      "when": [
+        "designing",
+        "testability"
+      ]
+    },
+    {
+      "name": "Relationships",
+      "bytes": 406,
+      "when": [
+        "relationships"
+      ]
+    },
+    {
+      "name": "Rejected framings",
+      "bytes": 417,
+      "when": [
+        "rejected",
+        "framings"
+      ]
+    },
+    {
+      "name": "Going deeper",
+      "bytes": 403,
+      "when": [
+        "going",
+        "deeper"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/engineering/codebase-design/SKILL.md"
 }

@@ -1,0 +1,63 @@
+{
+  "id": "awesome-copilot__azure-devops-cli",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d8793962e4bf0a90a75f05dec0acd9d8a10b047ed3771896e5f390c5a972c3c3",
+  "purpose": "Manage Azure DevOps resources via CLI including projects, repos, pipelines, builds, pull requests, work items, artifacts, and service endpoints. Use when working with Azure DevOps, az commands, devops",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Manage Azure DevOps resources via CLI including projects, repos, pipelines, builds, pull requests, work items, artifacts, and service endpoints. Use when workin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1024,
+  "core_bytes": 4285,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 218,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Authentication",
+      "bytes": 461,
+      "when": [
+        "authentication"
+      ]
+    },
+    {
+      "name": "CLI Structure",
+      "bytes": 1494,
+      "when": [
+        "structure"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 1657,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-devops-cli\\SKILL.md"
+}

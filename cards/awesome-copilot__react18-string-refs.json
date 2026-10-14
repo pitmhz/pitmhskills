@@ -1,0 +1,58 @@
+{
+  "id": "awesome-copilot__react18-string-refs",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c876a43c2aaaac6746c48364ebadf050787922d259ef6f021b51d36f2db9fc67",
+  "purpose": "Provides exact migration patterns for React string refs (ref=\"name\" + this.refs.name) to React.createRef() in class components. Use this skill whenever migrating string ref usage - including single el",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Provides exact migration patterns for React string refs (ref=\"name\" + this.refs.name) to React.createRef() in class components. Use this skill whenever migratin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 527,
+  "core_bytes": 2120,
+  "sections": [
+    {
+      "name": "Quick Pattern Map",
+      "bytes": 583,
+      "when": [
+        "quick",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Scan Command",
+      "bytes": 388,
+      "when": [
+        "scan",
+        "command"
+      ]
+    },
+    {
+      "name": "The Migration Rule",
+      "bytes": 349,
+      "when": [
+        "migration",
+        "rule"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react18-string-refs\\SKILL.md"
+}

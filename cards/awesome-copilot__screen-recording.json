@@ -1,0 +1,164 @@
+{
+  "id": "awesome-copilot__screen-recording",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "36745737c09d07632f6cde3aca1ef8edd4e2050130a3cd1eb4220838d85d8713",
+  "purpose": "Create annotated animated GIF demos and screen recordings for pull requests and documentation. Covers frame capture, timing, imageio-based GIF creation, and per-frame annotation workflows.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create annotated animated GIF demos and screen recordings for pull requests and documentation. Covers frame capture, timing, imageio-based GIF creation, and per"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2003,
+  "core_bytes": 8067,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 273,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 116,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 2798,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Capture frames",
+      "bytes": 824,
+      "when": [
+        "capture",
+        "frames"
+      ]
+    },
+    {
+      "name": "2. Assemble GIF with imageio",
+      "bytes": 469,
+      "when": [
+        "assemble",
+        "imageio"
+      ]
+    },
+    {
+      "name": "3. Variable frame timing",
+      "bytes": 390,
+      "when": [
+        "variable",
+        "frame",
+        "timing"
+      ]
+    },
+    {
+      "name": "4. Annotate frames",
+      "bytes": 398,
+      "when": [
+        "annotate",
+        "frames"
+      ]
+    },
+    {
+      "name": "5. Fade-in annotations",
+      "bytes": 699,
+      "when": [
+        "fade",
+        "annotations"
+      ]
+    },
+    {
+      "name": "Build as a Script",
+      "bytes": 222,
+      "when": [
+        "build",
+        "script"
+      ]
+    },
+    {
+      "name": "Testing Animations",
+      "bytes": 347,
+      "when": [
+        "testing",
+        "animations"
+      ]
+    },
+    {
+      "name": "Desktop Screen Recording (mss)",
+      "bytes": 1886,
+      "when": [
+        "desktop",
+        "screen",
+        "recording"
+      ]
+    },
+    {
+      "name": "Combining with window capture",
+      "bytes": 602,
+      "when": [
+        "combining",
+        "window",
+        "capture"
+      ]
+    },
+    {
+      "name": "Diff-Based Cluster Detection",
+      "bytes": 821,
+      "when": [
+        "diff",
+        "based",
+        "cluster",
+        "detection"
+      ]
+    },
+    {
+      "name": "Format Compatibility",
+      "bytes": 348,
+      "when": [
+        "format",
+        "compatibility"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 486,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 325,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\screen-recording\\SKILL.md"
+}

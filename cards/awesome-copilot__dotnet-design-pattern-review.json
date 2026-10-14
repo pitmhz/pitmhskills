@@ -1,0 +1,62 @@
+{
+  "id": "awesome-copilot__dotnet-design-pattern-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e94f172c8e6cb96d962fe9f67d64c1b2b9886ef078eda4d41c9fc3e9dcbfa97b",
+  "purpose": "Review the C#/.NET code for design pattern implementation and suggest improvements.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Review the C#/.NET code for design pattern implementation and suggest improvements."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 821,
+  "core_bytes": 3284,
+  "sections": [
+    {
+      "name": "Required Design Patterns",
+      "bytes": 757,
+      "when": [
+        "required",
+        "design",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Review Checklist",
+      "bytes": 1534,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Improvement Focus Areas",
+      "bytes": 631,
+      "when": [
+        "improvement",
+        "focus",
+        "areas"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dotnet-design-pattern-review\\SKILL.md"
+}

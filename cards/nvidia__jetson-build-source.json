@@ -1,0 +1,163 @@
+{
+  "id": "nvidia__jetson-build-source",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d2f0d64e6c9272e557e2b150e527d234cdaf176296443267f45ec3f9d2ff9061",
+  "purpose": "Use when you need to rebuild the BSP overlay — DT, OOT modules, or kernel — from changes under bsp_sources/. Triggers: build bsp, rebuild dtb, rebuild kernel.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when you need to rebuild the BSP overlay — DT, OOT modules, or kernel — from changes under bsp_sources/. Triggers: build bsp, rebuild dtb, rebuild kernel."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5094,
+  "core_bytes": 20489,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 327,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 599,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 2574,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 490,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 8515,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve active target + paths + upstream env",
+      "bytes": 1766,
+      "when": [
+        "resolve",
+        "active",
+        "target",
+        "paths",
+        "upstream"
+      ]
+    },
+    {
+      "name": "Resolve toolchain (read-only)",
+      "bytes": 1074,
+      "when": [
+        "resolve",
+        "toolchain",
+        "read"
+      ]
+    },
+    {
+      "name": "Detect dirty source repos",
+      "bytes": 810,
+      "when": [
+        "detect",
+        "dirty",
+        "source",
+        "repos"
+      ]
+    },
+    {
+      "name": "Pick build mode",
+      "bytes": 552,
+      "when": [
+        "pick",
+        "build",
+        "mode"
+      ]
+    },
+    {
+      "name": "Execute build",
+      "bytes": 3051,
+      "when": [
+        "execute",
+        "build"
+      ]
+    },
+    {
+      "name": "Write the build manifest",
+      "bytes": 521,
+      "when": [
+        "write",
+        "build",
+        "manifest"
+      ]
+    },
+    {
+      "name": "Update watermark + summary",
+      "bytes": 722,
+      "when": [
+        "update",
+        "watermark",
+        "summary"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 3369,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 860,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1955,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "See also",
+      "bytes": 1339,
+      "when": []
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-build-source\\SKILL.md",
+  "curated": true
+}

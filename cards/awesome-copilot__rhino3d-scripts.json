@@ -1,0 +1,171 @@
+{
+  "id": "awesome-copilot__rhino3d-scripts",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6618e636ac83c50a034a477e2ce6b2c0b2f4d8a0fc9dfd4ea0d676a8d32c4c80",
+  "purpose": "Authoring and debugging scripts for Rhinoceros 3D (Rhino 8 and later). Use when asked to write RhinoScript (VBScript / .rvb / .vbs), RhinoPython, or RhinoCommon-based scripts; automate Rhino modeling ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Authoring and debugging scripts for Rhinoceros 3D (Rhino 8 and later). Use when asked to write RhinoScript (VBScript / .rvb / .vbs), RhinoPython, or RhinoCommon"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2981,
+  "core_bytes": 11972,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 592,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Choosing a Scripting Surface",
+      "bytes": 840,
+      "when": [
+        "choosing",
+        "scripting",
+        "surface"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 335,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Patterns",
+      "bytes": 1406,
+      "when": [
+        "core",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Python: minimal scaffold",
+      "bytes": 366,
+      "when": [
+        "python",
+        "minimal",
+        "scaffold"
+      ]
+    },
+    {
+      "name": "Python: working with RhinoCommon directly",
+      "bytes": 307,
+      "when": [
+        "python",
+        "working",
+        "rhinocommon",
+        "directly"
+      ]
+    },
+    {
+      "name": "VBScript: minimal scaffold",
+      "bytes": 286,
+      "when": [
+        "vbscript",
+        "minimal",
+        "scaffold"
+      ]
+    },
+    {
+      "name": "Picking objects with a custom filter (Python, RhinoCommon)",
+      "bytes": 429,
+      "when": [
+        "picking",
+        "objects",
+        "custom",
+        "filter",
+        "python",
+        "rhinocommon"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflows",
+      "bytes": 1053,
+      "when": [
+        "step",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Bulk-modify many objects fast",
+      "bytes": 390,
+      "when": [
+        "bulk",
+        "modify",
+        "objects",
+        "fast"
+      ]
+    },
+    {
+      "name": "Distribute a script to a teammate",
+      "bytes": 444,
+      "when": [
+        "distribute",
+        "script",
+        "teammate"
+      ]
+    },
+    {
+      "name": "Run code at Rhino startup",
+      "bytes": 192,
+      "when": [
+        "code",
+        "rhino",
+        "startup"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 3654,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2308,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 903,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Upstream docs",
+      "bytes": 383,
+      "when": [
+        "upstream",
+        "docs"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\rhino3d-scripts\\SKILL.md"
+}

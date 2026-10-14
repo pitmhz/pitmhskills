@@ -1,0 +1,86 @@
+{
+  "id": "awesome-copilot__threat-model-analyst",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cdd72b75b224b20f006cb31602b0b68d0ea27c22a25c9a6458a2cf0b90a25fb3",
+  "purpose": "Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (1) Single analysis — full STRIDE-A threat model of a repository, producing architect",
+  "domain": "general",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (1) Single analysis — full STRIDE-A threat mo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1463,
+  "core_bytes": 5870,
+  "sections": [
+    {
+      "name": "Getting Started",
+      "bytes": 1847,
+      "when": [
+        "getting",
+        "started"
+      ]
+    },
+    {
+      "name": "Incremental Mode (Preferred for Follow-Up Analyses)",
+      "bytes": 1127,
+      "when": [
+        "incremental",
+        "mode",
+        "preferred",
+        "follow",
+        "analyses"
+      ]
+    },
+    {
+      "name": "Comparing Commits or Reports",
+      "bytes": 276,
+      "when": [
+        "comparing",
+        "commits",
+        "reports"
+      ]
+    },
+    {
+      "name": "Single Analysis Mode",
+      "bytes": 352,
+      "when": [
+        "single",
+        "analysis",
+        "mode"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 2044,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "When to Activate",
+      "bytes": 937,
+      "when": [
+        "activate"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\threat-model-analyst\\SKILL.md"
+}

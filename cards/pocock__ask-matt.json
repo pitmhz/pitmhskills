@@ -27,7 +27,71 @@
   "conflicts_with": [],
   "body_tokens": 3170,
   "core_bytes": 12691,
-  "sections": [],
+  "sections": [
+    {
+      "name": "The main flow: idea → ship",
+      "bytes": 4095,
+      "when": [
+        "main",
+        "flow",
+        "idea",
+        "ship"
+      ]
+    },
+    {
+      "name": "Context hygiene",
+      "bytes": 734,
+      "when": [
+        "context",
+        "hygiene"
+      ]
+    },
+    {
+      "name": "On-ramps",
+      "bytes": 2051,
+      "when": [
+        "ramps"
+      ]
+    },
+    {
+      "name": "Codebase health",
+      "bytes": 433,
+      "when": [
+        "codebase",
+        "health"
+      ]
+    },
+    {
+      "name": "Vocabulary underneath",
+      "bytes": 826,
+      "when": [
+        "vocabulary",
+        "underneath"
+      ]
+    },
+    {
+      "name": "Phase boundaries",
+      "bytes": 1107,
+      "when": [
+        "phase",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Standalone",
+      "bytes": 3413,
+      "when": [
+        "standalone"
+      ]
+    },
+    {
+      "name": "Precondition",
+      "bytes": 212,
+      "when": [
+        "precondition"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/engineering/ask-matt/SKILL.md"
 }

@@ -1,0 +1,62 @@
+{
+  "id": "awesome-copilot__qdrant-performance-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5323301ea670baa98623e53f8c363845f6edde59a2f0f88e0c6e948d61438a3f",
+  "purpose": "Different techniques to optimize the performance of Qdrant, including indexing strategies, query optimization, and hardware considerations. Use when you want to improve the speed and efficiency of you",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Different techniques to optimize the performance of Qdrant, including indexing strategies, query optimization, and hardware considerations. Use when you want to"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 461,
+  "core_bytes": 1842,
+  "sections": [
+    {
+      "name": "Search Speed Optimization",
+      "bytes": 475,
+      "when": [
+        "search",
+        "speed",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Indexing Performance Optimization",
+      "bytes": 381,
+      "when": [
+        "indexing",
+        "performance",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Memory Usage Optimization",
+      "bytes": 470,
+      "when": [
+        "memory",
+        "usage",
+        "optimization"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-performance-optimization\\SKILL.md"
+}

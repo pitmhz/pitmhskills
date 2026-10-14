@@ -1,0 +1,87 @@
+{
+  "id": "kemiljk-skills__interaction-contracts",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "c599c7d6c13912e34ee31612a4884f90f3b6065da17d489c8f75cbaa4fcfe29b",
+  "purpose": "Define or review the behaviour promised by an interaction before or during implementation: triggers, state changes, persistence, interruption, recovery, and acceptance checks. Use when a mockup or com",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Define or review the behaviour promised by an interaction before or during implementation: triggers, state changes, persistence, interruption, recovery, and acc"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Define interaction behaviour + acceptance checks -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "behaviour triggers states acceptance interruption",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1217,
+  "core_bytes": 4865,
+  "sections": [
+    {
+      "name": "Find the unresolved promise",
+      "bytes": 684,
+      "when": [
+        "find",
+        "unresolved",
+        "promise"
+      ]
+    },
+    {
+      "name": "Describe the observable contract",
+      "bytes": 1557,
+      "when": [
+        "describe",
+        "observable",
+        "contract"
+      ]
+    },
+    {
+      "name": "Example: editing a project title",
+      "bytes": 906,
+      "when": [
+        "example",
+        "editing",
+        "project",
+        "title"
+      ]
+    },
+    {
+      "name": "Carry the contract into the work",
+      "bytes": 1122,
+      "when": [
+        "carry",
+        "contract",
+        "work"
+      ]
+    }
+  ],
+  "keywords": [
+    "contracts",
+    "find",
+    "promise",
+    "describe",
+    "observable",
+    "contract",
+    "example",
+    "editing",
+    "project",
+    "title",
+    "carry",
+    "work"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\interaction-contracts\\SKILL.md"
+}

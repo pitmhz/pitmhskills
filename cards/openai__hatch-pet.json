@@ -28,7 +28,112 @@
   "conflicts_with": [],
   "body_tokens": 9458,
   "core_bytes": 37835,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 781,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Generation Delegation",
+      "bytes": 1265,
+      "when": [
+        "generation",
+        "delegation"
+      ]
+    },
+    {
+      "name": "Storage Controls",
+      "bytes": 1245,
+      "when": [
+        "storage",
+        "controls"
+      ]
+    },
+    {
+      "name": "Brand Discovery",
+      "bytes": 5122,
+      "when": [
+        "brand",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Pet-Safe Styles",
+      "bytes": 930,
+      "when": [
+        "safe",
+        "styles"
+      ]
+    },
+    {
+      "name": "Transparency And Effects",
+      "bytes": 4125,
+      "when": [
+        "transparency",
+        "effects"
+      ]
+    },
+    {
+      "name": "Visible Progress Plan",
+      "bytes": 1483,
+      "when": [
+        "visible",
+        "progress",
+        "plan"
+      ]
+    },
+    {
+      "name": "Default Workflow",
+      "bytes": 10706,
+      "when": [
+        "default",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Lightweight Visual Workers",
+      "bytes": 282,
+      "when": [
+        "lightweight",
+        "visual",
+        "workers"
+      ]
+    },
+    {
+      "name": "Subagent Delegation",
+      "bytes": 6646,
+      "when": [
+        "subagent",
+        "delegation"
+      ]
+    },
+    {
+      "name": "Repair Workflow",
+      "bytes": 981,
+      "when": [
+        "repair",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Rules",
+      "bytes": 2779,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Acceptance Criteria",
+      "bytes": 859,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/hatch-pet/SKILL.md"
 }

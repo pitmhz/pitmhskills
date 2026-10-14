@@ -1,0 +1,88 @@
+{
+  "id": "dotfiles__neo-industrial-design",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "30d26a52e6f6aa07dc609d59b866cd15f20b92cb83894b3e656f17ac597a2742",
+  "purpose": "Design or restyle web interfaces in the user's neo-industrial or editorial-brutalist style. Use when that visual direction is requested; not for generic dashboards, dark themes, or copywriting.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design or restyle web interfaces in the user's neo-industrial or editorial-brutalist style. Use when that visual direction is requested; not for generic dashboa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Neo-industrial / editorial-brutalist restyle -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "brutalist neo-industrial editorial",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 952,
+  "core_bytes": 3806,
+  "sections": [
+    {
+      "name": "Set the visual thesis",
+      "bytes": 902,
+      "when": [
+        "visual",
+        "thesis"
+      ]
+    },
+    {
+      "name": "Build from macro to micro",
+      "bytes": 804,
+      "when": [
+        "build",
+        "macro",
+        "micro"
+      ]
+    },
+    {
+      "name": "Make responsiveness compositional",
+      "bytes": 504,
+      "when": [
+        "responsiveness",
+        "compositional"
+      ]
+    },
+    {
+      "name": "Review the rendered result",
+      "bytes": 442,
+      "when": [
+        "review",
+        "rendered",
+        "result"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 228,
+      "when": [
+        "output"
+      ]
+    }
+  ],
+  "keywords": [
+    "thesis",
+    "build",
+    "macro",
+    "micro",
+    "responsiveness",
+    "compositional",
+    "review",
+    "rendered",
+    "result",
+    "output"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\neo-industrial-design\\SKILL.md"
+}

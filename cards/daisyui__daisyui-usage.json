@@ -1,0 +1,79 @@
+{
+  "id": "daisyui__daisyui-usage",
+  "tier": "B",
+  "origin": [
+    "saadeghi/daisyui@bf3bac3a397b543e55641ecb2d60a2ed961f09ec"
+  ],
+  "license": "MIT",
+  "hash": "f5cca40fac341f27193beb79833f780517ecd0723657b904724b1d281cc9036c",
+  "purpose": "Usage rules that you must use with daisyUI 5",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Usage rules that you must use with daisyUI 5"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "daisyUI usage conventions -> this.",
+  "cluster": "component-library",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "conventions rules",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 861,
+  "core_bytes": 3442,
+  "sections": [
+    {
+      "name": "daisyUI 5 usage rules",
+      "bytes": 2280,
+      "when": [
+        "daisyui",
+        "usage",
+        "rules"
+      ]
+    },
+    {
+      "name": "Change a component in CSS",
+      "bytes": 171,
+      "when": [
+        "change",
+        "component"
+      ]
+    },
+    {
+      "name": "daisyUI utilities and variables",
+      "bytes": 506,
+      "when": [
+        "daisyui",
+        "utilities",
+        "variables"
+      ]
+    },
+    {
+      "name": "Base modules",
+      "bytes": 393,
+      "when": [
+        "base",
+        "modules"
+      ]
+    }
+  ],
+  "keywords": [
+    "change",
+    "component",
+    "utilities",
+    "variables",
+    "base",
+    "modules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\daisyui\\skills\\daisyui\\usage\\SKILL.md"
+}

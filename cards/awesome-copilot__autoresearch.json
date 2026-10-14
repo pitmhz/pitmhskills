@@ -1,0 +1,193 @@
+{
+  "id": "awesome-copilot__autoresearch",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "754179e987519dac86e01f79c1e015345d9b07c09f4bc34c324d89165d10fbd5",
+  "purpose": "Autonomous iterative experimentation loop for any programming task. Guides the user through defining goals, measurable metrics, and scope constraints, then runs an autonomous loop of code changes, tes",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Autonomous iterative experimentation loop for any programming task. Guides the user through defining goals, measurable metrics, and scope constraints, then runs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2782,
+  "core_bytes": 11126,
+  "sections": [
+    {
+      "name": "Agent Behavior Rules",
+      "bytes": 858,
+      "when": [
+        "agent",
+        "behavior",
+        "rules"
+      ]
+    },
+    {
+      "name": "Phase 1: Setup (Interactive)",
+      "bytes": 3504,
+      "when": [
+        "phase",
+        "setup",
+        "interactive"
+      ]
+    },
+    {
+      "name": "1.1 Define the Goal",
+      "bytes": 357,
+      "when": [
+        "define",
+        "goal"
+      ]
+    },
+    {
+      "name": "1.2 Define the Metric",
+      "bytes": 745,
+      "when": [
+        "define",
+        "metric"
+      ]
+    },
+    {
+      "name": "1.3 Define the Scope",
+      "bytes": 267,
+      "when": [
+        "define",
+        "scope"
+      ]
+    },
+    {
+      "name": "1.4 Define Constraints",
+      "bytes": 425,
+      "when": [
+        "define",
+        "constraints"
+      ]
+    },
+    {
+      "name": "1.5 Define the Experiment Budget (Optional)",
+      "bytes": 308,
+      "when": [
+        "define",
+        "experiment",
+        "budget",
+        "optional"
+      ]
+    },
+    {
+      "name": "1.6 Simplicity Criterion",
+      "bytes": 477,
+      "when": [
+        "simplicity",
+        "criterion"
+      ]
+    },
+    {
+      "name": "1.7 Confirm Setup",
+      "bytes": 742,
+      "when": [
+        "confirm",
+        "setup"
+      ]
+    },
+    {
+      "name": "Phase 2: Branch & Baseline",
+      "bytes": 924,
+      "when": [
+        "phase",
+        "branch",
+        "baseline"
+      ]
+    },
+    {
+      "name": "Phase 3: Experiment Loop",
+      "bytes": 2891,
+      "when": [
+        "phase",
+        "experiment",
+        "loop"
+      ]
+    },
+    {
+      "name": "For each experiment:",
+      "bytes": 1749,
+      "when": [
+        "each",
+        "experiment"
+      ]
+    },
+    {
+      "name": "Experiment Strategy",
+      "bytes": 662,
+      "when": [
+        "experiment",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Handling Constraints",
+      "bytes": 316,
+      "when": [
+        "handling",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Phase 4: Reporting",
+      "bytes": 607,
+      "when": [
+        "phase",
+        "reporting"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 977,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Results TSV Format",
+      "bytes": 306,
+      "when": [
+        "results",
+        "format"
+      ]
+    },
+    {
+      "name": "Git Workflow",
+      "bytes": 310,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Key Principles",
+      "bytes": 341,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\autoresearch\\SKILL.md"
+}

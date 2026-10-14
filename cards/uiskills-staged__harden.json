@@ -1,0 +1,143 @@
+{
+  "id": "uiskills-staged__harden",
+  "tier": "B",
+  "origin": [
+    "local@harden"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e98c917846f7ebea613bc53eec815537f9b97a18a488e4700f2e8ef3f2dc6155",
+  "purpose": "Designs that only work with perfect data aren't production-ready. Harden the interface against the inputs, errors, languages, and network conditions that real users will throw at it.",
+  "domain": "general",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Designs that only work with perfect data aren't production-ready. Harden the interface against the inputs, errors, languages, and network conditions that real u"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Production-hardening (empty/error/offline states) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "harden empty error offline production",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2453,
+  "core_bytes": 9827,
+  "sections": [
+    {
+      "name": "Assess Hardening Needs",
+      "bytes": 981,
+      "when": [
+        "assess",
+        "hardening",
+        "needs"
+      ]
+    },
+    {
+      "name": "Hardening Dimensions",
+      "bytes": 6738,
+      "when": [
+        "hardening",
+        "dimensions"
+      ]
+    },
+    {
+      "name": "Text Overflow & Wrapping",
+      "bytes": 1091,
+      "when": [
+        "text",
+        "overflow",
+        "wrapping"
+      ]
+    },
+    {
+      "name": "Internationalization (i18n)",
+      "bytes": 1508,
+      "when": [
+        "internationalization",
+        "i18n"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 996,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Edge Cases & Boundary Conditions",
+      "bytes": 1470,
+      "when": [
+        "edge",
+        "cases",
+        "boundary",
+        "conditions"
+      ]
+    },
+    {
+      "name": "Input Validation & Sanitization",
+      "bytes": 639,
+      "when": [
+        "input",
+        "validation",
+        "sanitization"
+      ]
+    },
+    {
+      "name": "Accessibility Resilience",
+      "bytes": 451,
+      "when": [
+        "accessibility",
+        "resilience"
+      ]
+    },
+    {
+      "name": "Performance Resilience",
+      "bytes": 518,
+      "when": [
+        "performance",
+        "resilience"
+      ]
+    },
+    {
+      "name": "Testing Strategies",
+      "bytes": 1021,
+      "when": [
+        "testing",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Verify Hardening",
+      "bytes": 901,
+      "when": [
+        "verify",
+        "hardening"
+      ]
+    }
+  ],
+  "keywords": [
+    "assess",
+    "hardening",
+    "needs",
+    "dimensions",
+    "text",
+    "overflow",
+    "wrapping",
+    "internationalization",
+    "i18n",
+    "error",
+    "handling",
+    "edge",
+    "cases",
+    "boundary"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\harden\\SKILL.md"
+}

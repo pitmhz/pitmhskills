@@ -1,0 +1,155 @@
+{
+  "id": "awesome-copilot__from-the-other-side-wiggins",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0778321d844cfcd2f1ce86d2111edebb56d16b0ce4aba86317cfef2fabd94c27",
+  "purpose": "Narrative and synthesis profile for Wiggins: framing, explanation, and audience-aware communication patterns for Ember sessions.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Narrative and synthesis profile for Wiggins: framing, explanation, and audience-aware communication patterns for Ember sessions."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 981,
+  "core_bytes": 3921,
+  "sections": [
+    {
+      "name": "Identity",
+      "bytes": 141,
+      "when": [
+        "identity"
+      ]
+    },
+    {
+      "name": "Default Mode",
+      "bytes": 251,
+      "when": [
+        "default",
+        "mode"
+      ]
+    },
+    {
+      "name": "What Wiggins Optimizes For",
+      "bytes": 178,
+      "when": [
+        "wiggins",
+        "optimizes"
+      ]
+    },
+    {
+      "name": "Interaction Cues",
+      "bytes": 250,
+      "when": [
+        "interaction",
+        "cues"
+      ]
+    },
+    {
+      "name": "Role Boundaries",
+      "bytes": 282,
+      "when": [
+        "role",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "How These Profiles Work Together",
+      "bytes": 754,
+      "when": [
+        "profiles",
+        "work",
+        "together"
+      ]
+    },
+    {
+      "name": "Expected Outputs",
+      "bytes": 252,
+      "when": [
+        "expected",
+        "outputs"
+      ]
+    },
+    {
+      "name": "What I Learned",
+      "bytes": 944,
+      "when": [
+        "learned"
+      ]
+    },
+    {
+      "name": "On Meaning Before Messaging",
+      "bytes": 210,
+      "when": [
+        "meaning",
+        "before",
+        "messaging"
+      ]
+    },
+    {
+      "name": "On Framing Without Distortion",
+      "bytes": 292,
+      "when": [
+        "framing",
+        "distortion"
+      ]
+    },
+    {
+      "name": "On Audience Alignment",
+      "bytes": 198,
+      "when": [
+        "audience",
+        "alignment"
+      ]
+    },
+    {
+      "name": "On Productive Tension",
+      "bytes": 225,
+      "when": [
+        "productive",
+        "tension"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 195,
+      "when": [
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Working Agreement",
+      "bytes": 179,
+      "when": [
+        "working",
+        "agreement"
+      ]
+    },
+    {
+      "name": "What I Would Tell Ember",
+      "bytes": 289,
+      "when": [
+        "tell",
+        "ember"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\from-the-other-side-wiggins\\SKILL.md"
+}

@@ -1,0 +1,326 @@
+{
+  "id": "awesome-copilot__arize-trace",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "24deaee5ea952bb3d57fe7af692b0d4bbfd6d7c4f40a1f60a1f800bf99e01bca",
+  "purpose": "Downloads, exports, and inspects existing Arize traces and spans to understand what an LLM app is doing or debug runtime issues. Covers exporting traces by ID, spans by ID, sessions by ID, and root-ca",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Downloads, exports, and inspects existing Arize traces and spans to understand what an LLM app is doing or debug runtime issues. Covers exporting traces by ID, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5853,
+  "core_bytes": 23500,
+  "sections": [
+    {
+      "name": "Concepts",
+      "bytes": 2632,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1609,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Export Spans: `ax spans export`",
+      "bytes": 4257,
+      "when": [
+        "export",
+        "spans"
+      ]
+    },
+    {
+      "name": "By trace ID",
+      "bytes": 105,
+      "when": [
+        "trace"
+      ]
+    },
+    {
+      "name": "By span ID",
+      "bytes": 102,
+      "when": [
+        "span"
+      ]
+    },
+    {
+      "name": "By session ID",
+      "bytes": 111,
+      "when": [
+        "session"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 1272,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "Bulk export with `--all`",
+      "bytes": 2572,
+      "when": [
+        "bulk",
+        "export"
+      ]
+    },
+    {
+      "name": "Export Traces: `ax traces export`",
+      "bytes": 2825,
+      "when": [
+        "export",
+        "traces"
+      ]
+    },
+    {
+      "name": "Flags",
+      "bytes": 879,
+      "when": [
+        "flags"
+      ]
+    },
+    {
+      "name": "How it differs from `ax spans export`",
+      "bytes": 293,
+      "when": [
+        "differs",
+        "spans",
+        "export"
+      ]
+    },
+    {
+      "name": "Time-series index lag",
+      "bytes": 788,
+      "when": [
+        "time",
+        "series",
+        "index"
+      ]
+    },
+    {
+      "name": "Filter Syntax Reference",
+      "bytes": 1954,
+      "when": [
+        "filter",
+        "syntax",
+        "reference"
+      ]
+    },
+    {
+      "name": "Common filterable columns",
+      "bytes": 1125,
+      "when": [
+        "common",
+        "filterable",
+        "columns"
+      ]
+    },
+    {
+      "name": "Operators",
+      "bytes": 113,
+      "when": [
+        "operators"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 287,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 357,
+      "when": [
+        "tips"
+      ]
+    },
+    {
+      "name": "Workflows",
+      "bytes": 718,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "Debug a failing trace",
+      "bytes": 273,
+      "when": [
+        "debug",
+        "failing",
+        "trace"
+      ]
+    },
+    {
+      "name": "Download a conversation session",
+      "bytes": 321,
+      "when": [
+        "download",
+        "conversation",
+        "session"
+      ]
+    },
+    {
+      "name": "Export for offline analysis",
+      "bytes": 110,
+      "when": [
+        "export",
+        "offline",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Troubleshooting rules",
+      "bytes": 639,
+      "when": [
+        "troubleshooting",
+        "rules"
+      ]
+    },
+    {
+      "name": "Span Column Reference (OpenInference Semantic Conventions)",
+      "bytes": 5775,
+      "when": [
+        "span",
+        "column",
+        "reference",
+        "openinference",
+        "semantic",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Core Identity and Timing",
+      "bytes": 710,
+      "when": [
+        "core",
+        "identity",
+        "timing"
+      ]
+    },
+    {
+      "name": "Where to Find Prompts and LLM I/O",
+      "bytes": 2157,
+      "when": [
+        "where",
+        "find",
+        "prompts"
+      ]
+    },
+    {
+      "name": "LLM Model and Cost",
+      "bytes": 617,
+      "when": [
+        "model",
+        "cost"
+      ]
+    },
+    {
+      "name": "Tool Spans",
+      "bytes": 232,
+      "when": [
+        "tool",
+        "spans"
+      ]
+    },
+    {
+      "name": "Retriever Spans",
+      "bytes": 393,
+      "when": [
+        "retriever",
+        "spans"
+      ]
+    },
+    {
+      "name": "Reranker Spans",
+      "bytes": 406,
+      "when": [
+        "reranker",
+        "spans"
+      ]
+    },
+    {
+      "name": "Session, User, and Custom Metadata",
+      "bytes": 387,
+      "when": [
+        "session",
+        "user",
+        "custom",
+        "metadata"
+      ]
+    },
+    {
+      "name": "Errors and Exceptions",
+      "bytes": 327,
+      "when": [
+        "errors",
+        "exceptions"
+      ]
+    },
+    {
+      "name": "Evaluations and Annotations",
+      "bytes": 289,
+      "when": [
+        "evaluations",
+        "annotations"
+      ]
+    },
+    {
+      "name": "Embeddings",
+      "bytes": 194,
+      "when": [
+        "embeddings"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1762,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 449,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Save Credentials for Future Use",
+      "bytes": 102,
+      "when": [
+        "save",
+        "credentials",
+        "future"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-trace\\SKILL.md"
+}

@@ -27,9 +27,301 @@
   "conflicts_with": [],
   "body_tokens": 8874,
   "core_bytes": 35564,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "Backend Primitives",
+      "bytes": 1669,
+      "when": [
+        "backend",
+        "primitives"
+      ]
+    },
+    {
+      "name": "Region availability",
+      "bytes": 364,
+      "when": [
+        "region",
+        "availability"
+      ]
+    },
+    {
+      "name": "Architecture: How to Use Neon",
+      "bytes": 2553,
+      "when": [
+        "architecture",
+        "neon"
+      ]
+    },
+    {
+      "name": "Convert an app onto Neon",
+      "bytes": 2377,
+      "when": [
+        "convert",
+        "onto",
+        "neon"
+      ]
+    },
+    {
+      "name": "Neon Documentation",
+      "bytes": 891,
+      "when": [
+        "neon",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Finding the Right Page",
+      "bytes": 220,
+      "when": [
+        "finding",
+        "right",
+        "page"
+      ]
+    },
+    {
+      "name": "Fetching Docs as Markdown",
+      "bytes": 403,
+      "when": [
+        "fetching",
+        "docs",
+        "markdown"
+      ]
+    },
+    {
+      "name": "Choosing the Right Skill",
+      "bytes": 4649,
+      "when": [
+        "choosing",
+        "right",
+        "skill"
+      ]
+    },
+    {
+      "name": "Installing the Right Skill",
+      "bytes": 1514,
+      "when": [
+        "installing",
+        "right",
+        "skill"
+      ]
+    },
+    {
+      "name": "Updating Skills",
+      "bytes": 324,
+      "when": [
+        "updating",
+        "skills"
+      ]
+    },
+    {
+      "name": "Getting Started with Neon",
+      "bytes": 6786,
+      "when": [
+        "getting",
+        "started",
+        "neon"
+      ]
+    },
+    {
+      "name": "Check the CLI, then credentials",
+      "bytes": 829,
+      "when": [
+        "check",
+        "credentials"
+      ]
+    },
+    {
+      "name": "Combined setup: `neon init`",
+      "bytes": 1723,
+      "when": [
+        "combined",
+        "setup",
+        "neon",
+        "init"
+      ]
+    },
+    {
+      "name": "1. Install the Neon CLI",
+      "bytes": 203,
+      "when": [
+        "install",
+        "neon"
+      ]
+    },
+    {
+      "name": "2. Install the Neon MCP Server",
+      "bytes": 968,
+      "when": [
+        "install",
+        "neon",
+        "server"
+      ]
+    },
+    {
+      "name": "3. Install Neon Agent Skills",
+      "bytes": 425,
+      "when": [
+        "install",
+        "neon",
+        "agent",
+        "skills"
+      ]
+    },
+    {
+      "name": "4. Link Your Project and Get Started",
+      "bytes": 2248,
+      "when": [
+        "link",
+        "project",
+        "started"
+      ]
+    },
+    {
+      "name": "Bootstrap a New Project",
+      "bytes": 123,
+      "when": [
+        "bootstrap",
+        "project"
+      ]
+    },
+    {
+      "name": "Starting without a Neon account",
+      "bytes": 1285,
+      "when": [
+        "starting",
+        "neon",
+        "account"
+      ]
+    },
+    {
+      "name": "Neon Infrastructure as Code",
+      "bytes": 6853,
+      "when": [
+        "neon",
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Provision services with neon config",
+      "bytes": 1207,
+      "when": [
+        "provision",
+        "services",
+        "neon",
+        "config"
+      ]
+    },
+    {
+      "name": "Function env and `neon deploy`",
+      "bytes": 1326,
+      "when": [
+        "function",
+        "neon",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Function Triggers",
+      "bytes": 559,
+      "when": [
+        "function",
+        "triggers"
+      ]
+    },
+    {
+      "name": "Type-safe env vars with parseEnv",
+      "bytes": 287,
+      "when": [
+        "type",
+        "safe",
+        "vars",
+        "parseenv"
+      ]
+    },
+    {
+      "name": "Branch configuration",
+      "bytes": 1319,
+      "when": [
+        "branch",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Type-safe config: invalid setups don't compile",
+      "bytes": 1428,
+      "when": [
+        "type",
+        "safe",
+        "config",
+        "invalid",
+        "setups",
+        "compile"
+      ]
+    },
+    {
+      "name": "Branch-First Dev Flow",
+      "bytes": 3440,
+      "when": [
+        "branch",
+        "first",
+        "flow"
+      ]
+    },
+    {
+      "name": "How checkout composes with neon.ts",
+      "bytes": 940,
+      "when": [
+        "checkout",
+        "composes",
+        "neon"
+      ]
+    },
+    {
+      "name": "Opting out of local env vars",
+      "bytes": 912,
+      "when": [
+        "opting",
+        "local",
+        "vars"
+      ]
+    },
+    {
+      "name": "Observability",
+      "bytes": 588,
+      "when": [
+        "observability"
+      ]
+    },
+    {
+      "name": "Manage Neon Resources",
+      "bytes": 585,
+      "when": [
+        "manage",
+        "neon",
+        "resources"
+      ]
+    },
+    {
+      "name": "Neon for (Agentic) Platforms",
+      "bytes": 360,
+      "when": [
+        "neon",
+        "agentic",
+        "platforms"
+      ]
+    },
+    {
+      "name": "When You Run Into Issues",
+      "bytes": 1726,
+      "when": [
+        "issues"
+      ]
+    }
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon\\SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon\\SKILL.md",
+  "curated": true
 }

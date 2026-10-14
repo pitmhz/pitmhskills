@@ -1,0 +1,299 @@
+{
+  "id": "nvidia__amc-run-video-calibration",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bb592a827924806382f71ddbdfad46e6c77c8a332d74ab8618bc33da353ad8e1",
+  "purpose": "Calibrates pre-recorded `cam_*.mp4` datasets through the AutoMagicCalib REST API. Use for user-supplied local MP4s; route live RTSP streams to `amc-run-rtsp-calibration`.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Calibrates pre-recorded `cam_*.mp4` datasets through the AutoMagicCalib REST API. Use for user-supplied local MP4s; route live RTSP streams to `amc-run-rtsp-cal"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4819,
+  "core_bytes": 19461,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 566,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 262,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 513,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Interaction Model",
+      "bytes": 568,
+      "when": [
+        "interaction",
+        "model"
+      ]
+    },
+    {
+      "name": "Data Privacy",
+      "bytes": 203,
+      "when": [
+        "data",
+        "privacy"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 632,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "What to Ask the User",
+      "bytes": 1597,
+      "when": [
+        "user"
+      ]
+    },
+    {
+      "name": "Required",
+      "bytes": 312,
+      "when": [
+        "required"
+      ]
+    },
+    {
+      "name": "Auto-Detected (ask only if not found)",
+      "bytes": 725,
+      "when": [
+        "auto",
+        "detected",
+        "found"
+      ]
+    },
+    {
+      "name": "Optional",
+      "bytes": 533,
+      "when": [
+        "optional"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 549,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 7649,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1 — Create Project",
+      "bytes": 126,
+      "when": [
+        "step",
+        "create",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 2 — Upload Videos (required)",
+      "bytes": 358,
+      "when": [
+        "step",
+        "upload",
+        "videos",
+        "required"
+      ]
+    },
+    {
+      "name": "Step 3 — Resolve Local Files (Auto-Scan, Ask, or UI)",
+      "bytes": 981,
+      "when": [
+        "step",
+        "resolve",
+        "local",
+        "files",
+        "auto",
+        "scan"
+      ]
+    },
+    {
+      "name": "Step 4 — Upload Resolved Files",
+      "bytes": 1217,
+      "when": [
+        "step",
+        "upload",
+        "resolved",
+        "files"
+      ]
+    },
+    {
+      "name": "Step 5 — UI Fallback (only for files the user doesn't have locally)",
+      "bytes": 1032,
+      "when": [
+        "step",
+        "fallback",
+        "files",
+        "user",
+        "doesn",
+        "locally"
+      ]
+    },
+    {
+      "name": "Step 6 — Verify Project",
+      "bytes": 140,
+      "when": [
+        "step",
+        "verify",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 7 — Start Calibration",
+      "bytes": 966,
+      "when": [
+        "step",
+        "start",
+        "calibration"
+      ]
+    },
+    {
+      "name": "Step 8 — Poll for Completion",
+      "bytes": 423,
+      "when": [
+        "step",
+        "poll",
+        "completion"
+      ]
+    },
+    {
+      "name": "Step 9 — Get Results",
+      "bytes": 389,
+      "when": [
+        "step",
+        "results"
+      ]
+    },
+    {
+      "name": "Status Fields from `get_project_info`",
+      "bytes": 914,
+      "when": [
+        "status",
+        "fields",
+        "project",
+        "info"
+      ]
+    },
+    {
+      "name": "Step 10 — (Optional) VGGT Refinement",
+      "bytes": 865,
+      "when": [
+        "step",
+        "optional",
+        "vggt",
+        "refinement"
+      ]
+    },
+    {
+      "name": "Complete Python Script",
+      "bytes": 2163,
+      "when": [
+        "complete",
+        "python",
+        "script"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 688,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 341,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Key Output Files (on server)",
+      "bytes": 539,
+      "when": [
+        "output",
+        "files",
+        "server"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 437,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1200,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "For Downstream Skills — MV3DT Export",
+      "bytes": 470,
+      "when": [
+        "downstream",
+        "skills",
+        "mv3dt",
+        "export"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 528,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/amc-run-video-calibration/SKILL.md",
+  "curated": true
+}

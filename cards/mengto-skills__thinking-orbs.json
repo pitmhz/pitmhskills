@@ -1,0 +1,172 @@
+{
+  "id": "mengto-skills__thinking-orbs",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "65a6e1f070d9c25d9b73e0af6d8b8fc914f848c3e2d0f412b1b00f43a2ee32b0",
+  "purpose": "Add accessible animated AI loading and agent-status indicators with the React thinking-orbs library. Use when a chat, copilot, voice, search, generation, or tool-running interface needs a semantic wor",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Add accessible animated AI loading and agent-status indicators with the React thinking-orbs library. Use when a chat, copilot, voice, search, generation, or too"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2470,
+  "core_bytes": 9915,
+  "sections": [
+    {
+      "name": "Core Contract",
+      "bytes": 923,
+      "when": [
+        "core",
+        "contract"
+      ]
+    },
+    {
+      "name": "Install",
+      "bytes": 409,
+      "when": [
+        "install"
+      ]
+    },
+    {
+      "name": "Choose the State",
+      "bytes": 689,
+      "when": [
+        "choose",
+        "state"
+      ]
+    },
+    {
+      "name": "Choose the Size",
+      "bytes": 430,
+      "when": [
+        "choose",
+        "size"
+      ]
+    },
+    {
+      "name": "Basic Usage",
+      "bytes": 389,
+      "when": [
+        "basic",
+        "usage"
+      ]
+    },
+    {
+      "name": "Model the Product Lifecycle",
+      "bytes": 844,
+      "when": [
+        "model",
+        "product",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Announce Status Once",
+      "bytes": 651,
+      "when": [
+        "announce",
+        "status",
+        "once"
+      ]
+    },
+    {
+      "name": "Theme",
+      "bytes": 559,
+      "when": [
+        "theme"
+      ]
+    },
+    {
+      "name": "Speed and Pause",
+      "bytes": 488,
+      "when": [
+        "speed",
+        "pause"
+      ]
+    },
+    {
+      "name": "Next.js and Client Rendering",
+      "bytes": 579,
+      "when": [
+        "next",
+        "client",
+        "rendering"
+      ]
+    },
+    {
+      "name": "Built-In Runtime Behavior",
+      "bytes": 675,
+      "when": [
+        "built",
+        "runtime",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Power-User Canvas API",
+      "bytes": 1000,
+      "when": [
+        "power",
+        "user",
+        "canvas"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 798,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Common Pitfalls",
+      "bytes": 776,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Handoff",
+      "bytes": 216,
+      "when": [
+        "handoff"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "contract",
+    "install",
+    "choose",
+    "basic",
+    "usage",
+    "model",
+    "product",
+    "lifecycle",
+    "announce",
+    "once",
+    "next",
+    "client",
+    "rendering"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\thinking-orbs\\SKILL.md"
+}

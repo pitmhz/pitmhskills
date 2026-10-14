@@ -1,0 +1,191 @@
+{
+  "id": "nvidia__doca-public-knowledge-map",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "00907ec714302d29ac09eb4d6565ea064a3d2da1b5b0af9c7898dae3b973604d",
+  "purpose": "Use this skill when the user needs to locate authoritative information about NVIDIA DOCA without access to the source tree — finding the right docs.nvidia.com page for a library/service/tool, identify",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when the user needs to locate authoritative information about NVIDIA DOCA without access to the source tree — finding the right docs.nvidia.com p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3303,
+  "core_bytes": 13275,
+  "sections": [
+    {
+      "name": "When to load this skill",
+      "bytes": 875,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "First-contact discovery — the four questions to ask before any drill-down",
+      "bytes": 3769,
+      "when": [
+        "first",
+        "contact",
+        "discovery",
+        "four",
+        "questions",
+        "before",
+        "drill",
+        "down"
+      ]
+    },
+    {
+      "name": "Topic to \"where to look first\" routing table",
+      "bytes": 3174,
+      "when": [
+        "topic",
+        "where",
+        "look",
+        "first",
+        "routing",
+        "table"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not cover",
+      "bytes": 739,
+      "when": [
+        "skill",
+        "deliberately",
+        "cover"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 1601,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 137,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "Library- and module-specific guides",
+      "bytes": 125,
+      "when": [
+        "library",
+        "module",
+        "specific",
+        "guides"
+      ]
+    },
+    {
+      "name": "DOCA services",
+      "bytes": 81,
+      "when": [
+        "doca",
+        "services"
+      ]
+    },
+    {
+      "name": "DOCA tools",
+      "bytes": 75,
+      "when": [
+        "doca",
+        "tools"
+      ]
+    },
+    {
+      "name": "Externally-productized DOCA software — not in this bundle, but here is where to ",
+      "bytes": 225,
+      "when": [
+        "externally",
+        "productized",
+        "doca",
+        "software",
+        "bundle",
+        "where",
+        "route"
+      ]
+    },
+    {
+      "name": "Public source code: GitHub",
+      "bytes": 106,
+      "when": [
+        "public",
+        "source",
+        "code",
+        "github"
+      ]
+    },
+    {
+      "name": "Layout of an installed DOCA package",
+      "bytes": 125,
+      "when": [
+        "layout",
+        "installed",
+        "doca",
+        "package"
+      ]
+    },
+    {
+      "name": "Where to find the version",
+      "bytes": 105,
+      "when": [
+        "where",
+        "find",
+        "version"
+      ]
+    },
+    {
+      "name": "URL audit",
+      "bytes": 75,
+      "when": [
+        "audit"
+      ]
+    },
+    {
+      "name": "Ground rules for any agent using this skill",
+      "bytes": 141,
+      "when": [
+        "ground",
+        "rules",
+        "agent",
+        "skill"
+      ]
+    },
+    {
+      "name": "Public documentation entry points",
+      "bytes": 121,
+      "when": [
+        "public",
+        "documentation",
+        "entry",
+        "points"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-public-knowledge-map\\SKILL.md"
+}

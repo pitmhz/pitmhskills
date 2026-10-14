@@ -1,0 +1,84 @@
+{
+  "id": "awesome-copilot__daily-focus-board",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d3a224475e52de0400d2c8cd23a273777866ea073b79187addbfcd6a3863d3a3",
+  "purpose": "Spin up a personal, motivating daily focus board that renders in a browser canvas and that the user drives by talking to their AI partner. Tasks track status (to-do → in progress → done) with timestam",
+  "domain": "memory",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Spin up a personal, motivating daily focus board that renders in a browser canvas and that the user drives by talking to their AI partner. Tasks track status (t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2964,
+  "core_bytes": 11984,
+  "sections": [
+    {
+      "name": "When to use it",
+      "bytes": 227,
+      "when": []
+    },
+    {
+      "name": "How to build it (3 steps)",
+      "bytes": 4588,
+      "when": [
+        "build",
+        "steps"
+      ]
+    },
+    {
+      "name": "How to drive it (the partnership part)",
+      "bytes": 960,
+      "when": [
+        "drive",
+        "partnership",
+        "part"
+      ]
+    },
+    {
+      "name": "Executive-function-friendly behavior (how to show up)",
+      "bytes": 3361,
+      "when": [
+        "executive",
+        "function",
+        "friendly",
+        "behavior",
+        "show"
+      ]
+    },
+    {
+      "name": "Honest limits (say these if relevant)",
+      "bytes": 574,
+      "when": [
+        "honest",
+        "limits",
+        "relevant"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 858,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\daily-focus-board\\SKILL.md"
+}

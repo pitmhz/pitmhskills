@@ -1,0 +1,111 @@
+{
+  "id": "nvidia__holoscan-install-wheel",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a7a5187ad1802e7116f0ccc9380e55504df68a3271e5bb3ee3650a6e28288469",
+  "purpose": "Install Holoscan SDK Python wheel via pip into a venv. Use for Python installs; not for native C++/apt or Conda installs.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Install Holoscan SDK Python wheel via pip into a venv. Use for Python installs; not for native C++/apt or Conda installs."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1609,
+  "core_bytes": 6453,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 190,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 240,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 484,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Step 0: Consult the Official Install Instructions",
+      "bytes": 1074,
+      "when": [
+        "step",
+        "consult",
+        "official",
+        "install",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1: Create and Activate the venv",
+      "bytes": 287,
+      "when": [
+        "step",
+        "create",
+        "activate",
+        "venv"
+      ]
+    },
+    {
+      "name": "Step 2: Install",
+      "bytes": 86,
+      "when": [
+        "step",
+        "install"
+      ]
+    },
+    {
+      "name": "Step 3: Verify",
+      "bytes": 2199,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Step 4: Remind the User",
+      "bytes": 424,
+      "when": [
+        "step",
+        "remind",
+        "user"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1005,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/holoscan-install-wheel/SKILL.md",
+  "curated": true
+}

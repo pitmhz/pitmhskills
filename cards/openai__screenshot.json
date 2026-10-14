@@ -27,7 +27,109 @@
   "conflicts_with": [],
   "body_tokens": 2006,
   "core_bytes": 8021,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/screenshot/SKILL.md"
+  "sections": [
+    {
+      "name": "Tool priority",
+      "bytes": 440,
+      "when": [
+        "tool",
+        "priority"
+      ]
+    },
+    {
+      "name": "macOS permission preflight (reduce repeated prompts)",
+      "bytes": 960,
+      "when": [
+        "macos",
+        "permission",
+        "preflight",
+        "reduce",
+        "repeated",
+        "prompts"
+      ]
+    },
+    {
+      "name": "macOS and Linux (Python helper)",
+      "bytes": 3103,
+      "when": [
+        "macos",
+        "linux",
+        "python",
+        "helper"
+      ]
+    },
+    {
+      "name": "Workflow examples",
+      "bytes": 530,
+      "when": [
+        "workflow",
+        "examples"
+      ]
+    },
+    {
+      "name": "Multi-display behavior",
+      "bytes": 285,
+      "when": [
+        "multi",
+        "display",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Linux prerequisites and selection logic",
+      "bytes": 447,
+      "when": [
+        "linux",
+        "prerequisites",
+        "selection",
+        "logic"
+      ]
+    },
+    {
+      "name": "Windows (PowerShell helper)",
+      "bytes": 1175,
+      "when": [
+        "windows",
+        "powershell",
+        "helper"
+      ]
+    },
+    {
+      "name": "Direct OS commands (fallbacks)",
+      "bytes": 922,
+      "when": [
+        "direct",
+        "commands",
+        "fallbacks"
+      ]
+    },
+    {
+      "name": "macOS",
+      "bytes": 379,
+      "when": [
+        "macos"
+      ]
+    },
+    {
+      "name": "Linux",
+      "bytes": 460,
+      "when": [
+        "linux"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 848,
+      "when": [
+        "error",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/screenshot/SKILL.md",
+  "curated": true
 }

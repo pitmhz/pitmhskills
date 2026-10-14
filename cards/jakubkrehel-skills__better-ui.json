@@ -1,0 +1,267 @@
+{
+  "id": "jakubkrehel-skills__better-ui",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "ed3c13ed6b3a9ef7fc129fb2b7e5db899addf44333f42e4d80159e2d5e882a17",
+  "purpose": "Polishes the surfaces, icons and motion in your project with exact values for border radius, optical alignment, shadows, icon states and animation.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Polishes the surfaces, icons and motion in your project with exact values for border radius, optical alignment, shadows, icon states and animation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Polish pass with exact values (radius, alignment) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "polish surfaces icons radius alignment optical",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2819,
+  "core_bytes": 11273,
+  "sections": [
+    {
+      "name": "Exact values, optional polish",
+      "bytes": 992,
+      "when": [
+        "exact",
+        "values",
+        "optional",
+        "polish"
+      ]
+    },
+    {
+      "name": "Outer radius equals inner radius plus padding",
+      "bytes": 371,
+      "when": [
+        "outer",
+        "radius",
+        "equals",
+        "inner",
+        "plus",
+        "padding"
+      ]
+    },
+    {
+      "name": "Align optically where geometry looks off",
+      "bytes": 297,
+      "when": [
+        "align",
+        "optically",
+        "where",
+        "geometry",
+        "looks"
+      ]
+    },
+    {
+      "name": "Shadows for elevation, borders for structure",
+      "bytes": 582,
+      "when": [
+        "shadows",
+        "elevation",
+        "borders",
+        "structure"
+      ]
+    },
+    {
+      "name": "Outline images in pure black or white",
+      "bytes": 422,
+      "when": [
+        "outline",
+        "images",
+        "pure",
+        "black",
+        "white"
+      ]
+    },
+    {
+      "name": "Transitions, not keyframes, for interactive state",
+      "bytes": 325,
+      "when": [
+        "transitions",
+        "keyframes",
+        "interactive",
+        "state"
+      ]
+    },
+    {
+      "name": "Press scales to 0.96",
+      "bytes": 326,
+      "when": [
+        "press",
+        "scales"
+      ]
+    },
+    {
+      "name": "High-frequency interactions get no animation",
+      "bytes": 438,
+      "when": [
+        "high",
+        "frequency",
+        "interactions",
+        "animation"
+      ]
+    },
+    {
+      "name": "Gate motion behind the reduced-motion preference",
+      "bytes": 427,
+      "when": [
+        "gate",
+        "motion",
+        "behind",
+        "reduced",
+        "preference"
+      ]
+    },
+    {
+      "name": "Stagger infrequent entrances by 100ms",
+      "bytes": 385,
+      "when": [
+        "stagger",
+        "infrequent",
+        "entrances",
+        "100ms"
+      ]
+    },
+    {
+      "name": "Exits are shorter and smaller than enters",
+      "bytes": 381,
+      "when": [
+        "exits",
+        "shorter",
+        "smaller",
+        "enters"
+      ]
+    },
+    {
+      "name": "Skip state animations on first render",
+      "bytes": 303,
+      "when": [
+        "skip",
+        "state",
+        "animations",
+        "first",
+        "render"
+      ]
+    },
+    {
+      "name": "Cross-fade contextual icons with exact values",
+      "bytes": 621,
+      "when": [
+        "cross",
+        "fade",
+        "contextual",
+        "icons",
+        "exact",
+        "values"
+      ]
+    },
+    {
+      "name": "Suppress transitions on theme switch",
+      "bytes": 297,
+      "when": [
+        "suppress",
+        "transitions",
+        "theme",
+        "switch"
+      ]
+    },
+    {
+      "name": "Transition only what changes",
+      "bytes": 165,
+      "when": [
+        "transition",
+        "changes"
+      ]
+    },
+    {
+      "name": "Name the animated property in will-change",
+      "bytes": 337,
+      "when": [
+        "name",
+        "animated",
+        "property",
+        "change"
+      ]
+    },
+    {
+      "name": "Hover effects only on hover-capable pointers",
+      "bytes": 415,
+      "when": [
+        "hover",
+        "effects",
+        "capable",
+        "pointers"
+      ]
+    },
+    {
+      "name": "Contain scroll inside overlays",
+      "bytes": 187,
+      "when": [
+        "contain",
+        "scroll",
+        "inside",
+        "overlays"
+      ]
+    },
+    {
+      "name": "Match icon stroke to text weight",
+      "bytes": 244,
+      "when": [
+        "match",
+        "icon",
+        "stroke",
+        "text",
+        "weight"
+      ]
+    },
+    {
+      "name": "One SVG, recolored per state",
+      "bytes": 346,
+      "when": [
+        "recolored",
+        "state"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1671,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 1314,
+      "when": [
+        "reporting"
+      ]
+    }
+  ],
+  "keywords": [
+    "polish",
+    "optional",
+    "outer",
+    "equals",
+    "inner",
+    "plus",
+    "padding",
+    "align",
+    "optically",
+    "where",
+    "geometry",
+    "looks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\better-ui\\SKILL.md"
+}

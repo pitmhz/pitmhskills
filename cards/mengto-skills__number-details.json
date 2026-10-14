@@ -1,0 +1,60 @@
+{
+  "id": "mengto-skills__number-details",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "0ac0c4502111c41c66f21e8006a1731097fd8bd2ba3cc1fa6151b467ac2a58e9",
+  "purpose": "Add decorative 01, 02, 03 numeric detail markers.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Add decorative 01, 02, 03 numeric detail markers."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 204,
+  "core_bytes": 813,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 123,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 433,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 131,
+      "when": [
+        "guardrails"
+      ]
+    }
+  ],
+  "keywords": [
+    "number",
+    "details",
+    "skill",
+    "workflow",
+    "guardrails"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\number-details\\SKILL.md"
+}

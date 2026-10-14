@@ -1,0 +1,134 @@
+{
+  "id": "mengto-skills__reveal-hover-effect",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b6aa45da3ac37c056371a4766bbe91bb7ca90993f6d4a67486460f7a07274b10",
+  "purpose": "Build cursor-following spotlight reveals that expose a second aligned image through a soft radial mask. Use for hover-to-color, before-and-after, x-ray, material, texture, product-detail, and illustra",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build cursor-following spotlight reveals that expose a second aligned image through a soft radial mask. Use for hover-to-color, before-and-after, x-ray, materia"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2690,
+  "core_bytes": 10764,
+  "sections": [
+    {
+      "name": "Core Contract",
+      "bytes": 649,
+      "when": [
+        "core",
+        "contract"
+      ]
+    },
+    {
+      "name": "Motion Defaults",
+      "bytes": 477,
+      "when": [
+        "motion",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Markup",
+      "bytes": 831,
+      "when": [
+        "markup"
+      ]
+    },
+    {
+      "name": "CSS Mask",
+      "bytes": 1433,
+      "when": [
+        "mask"
+      ]
+    },
+    {
+      "name": "Eased Pointer Tracking",
+      "bytes": 4399,
+      "when": [
+        "eased",
+        "pointer",
+        "tracking"
+      ]
+    },
+    {
+      "name": "Optional Grid Parallax",
+      "bytes": 436,
+      "when": [
+        "optional",
+        "grid",
+        "parallax"
+      ]
+    },
+    {
+      "name": "Nested Glass or Refraction Cards",
+      "bytes": 461,
+      "when": [
+        "nested",
+        "glass",
+        "refraction",
+        "cards"
+      ]
+    },
+    {
+      "name": "Touch and Accessibility",
+      "bytes": 471,
+      "when": [
+        "touch",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Performance Rules",
+      "bytes": 470,
+      "when": [
+        "performance",
+        "rules"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 727,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "reveal",
+    "effect",
+    "core",
+    "contract",
+    "motion",
+    "defaults",
+    "markup",
+    "tracking",
+    "optional",
+    "grid",
+    "parallax",
+    "nested",
+    "glass",
+    "refraction",
+    "cards"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\reveal-hover-effect\\SKILL.md"
+}

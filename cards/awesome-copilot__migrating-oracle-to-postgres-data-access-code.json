@@ -1,0 +1,64 @@
+{
+  "id": "awesome-copilot__migrating-oracle-to-postgres-data-access-code",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c748c08f3c665b811545671463220492662cfeb4c8a30c1ddd946066e1c914c5",
+  "purpose": "Migrates .NET/C# data access code from Oracle to PostgreSQL (Npgsql). Replaces Oracle NuGet packages, rewrites OracleConnection/OracleCommand/OracleDataReader usage, fixes DbType mappings, updates sto",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Migrates .NET/C# data access code from Oracle to PostgreSQL (Npgsql). Replaces Oracle NuGet packages, rewrites OracleConnection/OracleCommand/OracleDataReader u"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2016,
+  "core_bytes": 8089,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 288,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 6015,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "EF Core projects",
+      "bytes": 619,
+      "when": [
+        "core",
+        "projects"
+      ]
+    },
+    {
+      "name": "Key Constraints",
+      "bytes": 429,
+      "when": [
+        "constraints"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\migrating-oracle-to-postgres-data-access-code\\SKILL.md"
+}

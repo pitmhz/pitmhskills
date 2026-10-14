@@ -1,0 +1,194 @@
+{
+  "id": "nvidia__deepstream-profile-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "2755993e64171330d884473b050a6a4c9a7b8efc1eabf459cfc57b833d2ebb11",
+  "purpose": "Profile a DeepStream pipeline with Nsight Systems and derive its configs from the measurement. Use when the user asks for an efficient, performant, or profiled pipeline — or to benchmark, tune, or mea",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Profile a DeepStream pipeline with Nsight Systems and derive its configs from the measurement. Use when the user asks for an efficient, performant, or profiled "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4153,
+  "core_bytes": 16733,
+  "sections": [
+    {
+      "name": "When to trigger",
+      "bytes": 628,
+      "when": [
+        "trigger"
+      ]
+    },
+    {
+      "name": "The 6-stage flow",
+      "bytes": 182,
+      "when": [
+        "stage",
+        "flow"
+      ]
+    },
+    {
+      "name": "Stage 0 — Preset-apply (at pipeline-creation time)",
+      "bytes": 2608,
+      "when": [
+        "stage",
+        "preset",
+        "apply",
+        "pipeline",
+        "creation",
+        "time"
+      ]
+    },
+    {
+      "name": "The verification flow (Stages 1–5)",
+      "bytes": 6725,
+      "when": [
+        "verification",
+        "flow",
+        "stages"
+      ]
+    },
+    {
+      "name": "Stage 1 — NVTX coverage check",
+      "bytes": 1402,
+      "when": [
+        "stage",
+        "nvtx",
+        "coverage",
+        "check"
+      ]
+    },
+    {
+      "name": "Stage 2 — HW discovery",
+      "bytes": 1470,
+      "when": [
+        "stage",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Stage 3 — Inference-only micro-benchmark",
+      "bytes": 1071,
+      "when": [
+        "stage",
+        "inference",
+        "micro",
+        "benchmark"
+      ]
+    },
+    {
+      "name": "Stage 4 — Derive configs",
+      "bytes": 1529,
+      "when": [
+        "stage",
+        "derive",
+        "configs"
+      ]
+    },
+    {
+      "name": "Stage 5 — E2E profile + report",
+      "bytes": 1112,
+      "when": [
+        "stage",
+        "profile",
+        "report"
+      ]
+    },
+    {
+      "name": "Profile summary",
+      "bytes": 1858,
+      "when": [
+        "profile",
+        "summary"
+      ]
+    },
+    {
+      "name": "Per-plugin time (from NVTX) — only for plugins emitting NVTX in this build",
+      "bytes": 757,
+      "when": [
+        "plugin",
+        "time",
+        "nvtx",
+        "plugins",
+        "emitting",
+        "build"
+      ]
+    },
+    {
+      "name": "Applied configs (sample shape; values come from R1–R6 + Stage 3 measurements)",
+      "bytes": 393,
+      "when": [
+        "applied",
+        "configs",
+        "sample",
+        "shape",
+        "values",
+        "come",
+        "stage",
+        "measurements"
+      ]
+    },
+    {
+      "name": "Uninstrumented (skipped re-tune)",
+      "bytes": 376,
+      "when": [
+        "uninstrumented",
+        "skipped",
+        "tune"
+      ]
+    },
+    {
+      "name": "Reference documents",
+      "bytes": 699,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "Non-goals (this version)",
+      "bytes": 391,
+      "when": [
+        "goals",
+        "version"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 290,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 1117,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/deepstream-profile-pipeline/SKILL.md",
+  "curated": true
+}

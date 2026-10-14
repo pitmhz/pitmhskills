@@ -1,0 +1,74 @@
+{
+  "id": "awesome-copilot__breakdown-feature-implementation",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9565e55d80889f5bd12a0e511f77c9155d431c369471202e103055f913de6118",
+  "purpose": "Prompt for creating detailed feature implementation plans, following Epoch monorepo structure.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Prompt for creating detailed feature implementation plans, following Epoch monorepo structure."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1169,
+  "core_bytes": 4837,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 400,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 4154,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "File System",
+      "bytes": 212,
+      "when": [
+        "file",
+        "system"
+      ]
+    },
+    {
+      "name": "Implementation Plan",
+      "bytes": 3765,
+      "when": [
+        "implementation",
+        "plan"
+      ]
+    },
+    {
+      "name": "Context Template",
+      "bytes": 87,
+      "when": [
+        "context",
+        "template"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-feature-implementation\\SKILL.md"
+}

@@ -1,0 +1,326 @@
+{
+  "id": "awesome-copilot__performance-review-writer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0bec62e91b3698d3fb2089fd853d3ada8e07b6cbd4c355ae85e09bfd6ea34bc6",
+  "purpose": "Draft performance reviews, self-assessments, peer reviews, and upward feedback in your own voice. Analyzes your contributions, emails, and meeting history via WorkIQ, then produces honest, impact-focu",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Draft performance reviews, self-assessments, peer reviews, and upward feedback in your own voice. Analyzes your contributions, emails, and meeting history via W"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2190,
+  "core_bytes": 8850,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 332,
+      "when": []
+    },
+    {
+      "name": "Review Types",
+      "bytes": 347,
+      "when": [
+        "review",
+        "types"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2956,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Gather Context",
+      "bytes": 523,
+      "when": [
+        "step",
+        "gather",
+        "context"
+      ]
+    },
+    {
+      "name": "Step 2 — Surface Contributions",
+      "bytes": 1047,
+      "when": [
+        "step",
+        "surface",
+        "contributions"
+      ]
+    },
+    {
+      "name": "Step 3 — Draft the Review",
+      "bytes": 849,
+      "when": [
+        "step",
+        "draft",
+        "review"
+      ]
+    },
+    {
+      "name": "Step 4 — Output",
+      "bytes": 524,
+      "when": [
+        "step",
+        "output"
+      ]
+    },
+    {
+      "name": "Output Schemas",
+      "bytes": 51,
+      "when": [
+        "output",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Self-Assessment Schema",
+      "bytes": 32,
+      "when": [
+        "self",
+        "assessment",
+        "schema"
+      ]
+    },
+    {
+      "name": "[Review Period] Self-Assessment — [Your Name]",
+      "bytes": 866,
+      "when": [
+        "review",
+        "period",
+        "self",
+        "assessment",
+        "name"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 79,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Key Achievements",
+      "bytes": 277,
+      "when": [
+        "achievements"
+      ]
+    },
+    {
+      "name": "Collaboration & Influence",
+      "bytes": 120,
+      "when": [
+        "collaboration",
+        "influence"
+      ]
+    },
+    {
+      "name": "Growth & Development",
+      "bytes": 102,
+      "when": [
+        "growth",
+        "development"
+      ]
+    },
+    {
+      "name": "Areas for Development",
+      "bytes": 111,
+      "when": [
+        "areas",
+        "development"
+      ]
+    },
+    {
+      "name": "Goals for Next Period",
+      "bytes": 97,
+      "when": [
+        "goals",
+        "next",
+        "period"
+      ]
+    },
+    {
+      "name": "Peer Review Schema",
+      "bytes": 28,
+      "when": [
+        "peer",
+        "review",
+        "schema"
+      ]
+    },
+    {
+      "name": "Peer Review — [Colleague Name], [Their Role]",
+      "bytes": 50,
+      "when": [
+        "peer",
+        "review",
+        "colleague",
+        "name",
+        "role"
+      ]
+    },
+    {
+      "name": "Submitted by: [Your Name] | Period: [Review Period]",
+      "bytes": 710,
+      "when": [
+        "submitted",
+        "name",
+        "period",
+        "review"
+      ]
+    },
+    {
+      "name": "Overall Impression",
+      "bytes": 69,
+      "when": [
+        "overall",
+        "impression"
+      ]
+    },
+    {
+      "name": "Strengths (with examples)",
+      "bytes": 174,
+      "when": [
+        "strengths",
+        "examples"
+      ]
+    },
+    {
+      "name": "Areas for Growth",
+      "bytes": 143,
+      "when": [
+        "areas",
+        "growth"
+      ]
+    },
+    {
+      "name": "Collaboration",
+      "bytes": 109,
+      "when": [
+        "collaboration"
+      ]
+    },
+    {
+      "name": "Would you work with this person again?",
+      "bytes": 127,
+      "when": [
+        "work",
+        "person",
+        "again"
+      ]
+    },
+    {
+      "name": "Upward Feedback Schema",
+      "bytes": 32,
+      "when": [
+        "upward",
+        "feedback",
+        "schema"
+      ]
+    },
+    {
+      "name": "Feedback for [Manager Name]",
+      "bytes": 31,
+      "when": [
+        "feedback",
+        "manager",
+        "name"
+      ]
+    },
+    {
+      "name": "Submitted by: [Your Name] (anonymous if applicable) | Period: [Review Period]",
+      "bytes": 640,
+      "when": [
+        "submitted",
+        "name",
+        "anonymous",
+        "applicable",
+        "period",
+        "review"
+      ]
+    },
+    {
+      "name": "What's working well",
+      "bytes": 127,
+      "when": [
+        "working"
+      ]
+    },
+    {
+      "name": "What could be better",
+      "bytes": 201,
+      "when": [
+        "better"
+      ]
+    },
+    {
+      "name": "Support for my development",
+      "bytes": 128,
+      "when": [
+        "support",
+        "development"
+      ]
+    },
+    {
+      "name": "One thing I'd ask them to do more / less / differently",
+      "bytes": 102,
+      "when": [
+        "them",
+        "less",
+        "differently"
+      ]
+    },
+    {
+      "name": "Style Rules",
+      "bytes": 620,
+      "when": [
+        "style",
+        "rules"
+      ]
+    },
+    {
+      "name": "Example Prompts",
+      "bytes": 602,
+      "when": [
+        "example",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Important Rules",
+      "bytes": 535,
+      "when": [
+        "important",
+        "rules"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 366,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\performance-review-writer\\SKILL.md"
+}

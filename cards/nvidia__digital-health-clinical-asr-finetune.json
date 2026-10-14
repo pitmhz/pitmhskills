@@ -1,0 +1,177 @@
+{
+  "id": "nvidia__digital-health-clinical-asr-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d15f3b9ff5cae765c2ed5df772cdac6c961f7b86f0da6b7c6427d37cdddd35f1",
+  "purpose": "Stage 4 of the Clinical ASR Flywheel. Use when priority KER is above 0.3 to run stock NeMo SFT on Parakeet TDT v2 and offline cycle N+1 re-eval. NOT for generic word boosting (use /finetune-asr).",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Stage 4 of the Clinical ASR Flywheel. Use when priority KER is above 0.3 to run stock NeMo SFT on Parakeet TDT v2 and offline cycle N+1 re-eval. NOT for generic"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5068,
+  "core_bytes": 20462,
+  "sections": [
+    {
+      "name": "Critical workflow rules (apply on every activation)",
+      "bytes": 1441,
+      "when": [
+        "critical",
+        "workflow",
+        "rules",
+        "apply",
+        "activation"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 426,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use this skill",
+      "bytes": 769,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 894,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 9082,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "4a. Provision a GPU host (skip if you already have one)",
+      "bytes": 2661,
+      "when": [
+        "provision",
+        "host",
+        "skip",
+        "already"
+      ]
+    },
+    {
+      "name": "4b. Term-aware train/val split",
+      "bytes": 1331,
+      "when": [
+        "term",
+        "aware",
+        "train",
+        "split"
+      ]
+    },
+    {
+      "name": "4c. Choose the base model",
+      "bytes": 824,
+      "when": [
+        "choose",
+        "base",
+        "model"
+      ]
+    },
+    {
+      "name": "4d. Stock NeMo SFT",
+      "bytes": 1767,
+      "when": [
+        "stock",
+        "nemo"
+      ]
+    },
+    {
+      "name": "4e. Offline cycle N+1 eval — close the loop",
+      "bytes": 1499,
+      "when": [
+        "offline",
+        "cycle",
+        "eval",
+        "close",
+        "loop"
+      ]
+    },
+    {
+      "name": "4f. (Optional) Deploy as a Riva NIM",
+      "bytes": 981,
+      "when": [
+        "optional",
+        "deploy",
+        "riva"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 932,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Artifacts produced",
+      "bytes": 467,
+      "when": [
+        "artifacts",
+        "produced"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1609,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1093,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Next steps",
+      "bytes": 404,
+      "when": [
+        "next",
+        "steps"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 410,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/digital-health-clinical-asr-finetune/SKILL.md",
+  "curated": true
+}

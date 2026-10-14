@@ -1,0 +1,135 @@
+{
+  "id": "mengto-skills__build-game-changelog",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "899c8131af9b7aea06a2a73196e2cefee82b1e27df1ad3fefb5b31409ba79e89",
+  "purpose": "Design, implement, backfill, audit, and release in-game changelogs with contiguous versioning, deployment provenance, menu-state navigation, accessible toggle, close, and Escape behavior, and responsi",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design, implement, backfill, audit, and release in-game changelogs with contiguous versioning, deployment provenance, menu-state navigation, accessible toggle, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2208,
+  "core_bytes": 8849,
+  "sections": [
+    {
+      "name": "Use this mental model",
+      "bytes": 469,
+      "when": [
+        "mental",
+        "model"
+      ]
+    },
+    {
+      "name": "Start from truth",
+      "bytes": 719,
+      "when": [
+        "start",
+        "truth"
+      ]
+    },
+    {
+      "name": "Define one release",
+      "bytes": 801,
+      "when": [
+        "define",
+        "release"
+      ]
+    },
+    {
+      "name": "Build or backfill the ledger",
+      "bytes": 792,
+      "when": [
+        "build",
+        "backfill",
+        "ledger"
+      ]
+    },
+    {
+      "name": "Use one data source",
+      "bytes": 1058,
+      "when": [
+        "data",
+        "source"
+      ]
+    },
+    {
+      "name": "Integrate with game navigation",
+      "bytes": 1023,
+      "when": [
+        "integrate",
+        "game",
+        "navigation"
+      ]
+    },
+    {
+      "name": "Apply durable UI mechanics",
+      "bytes": 1045,
+      "when": [
+        "apply",
+        "durable",
+        "mechanics"
+      ]
+    },
+    {
+      "name": "Release safely",
+      "bytes": 938,
+      "when": [
+        "release",
+        "safely"
+      ]
+    },
+    {
+      "name": "Validate the contract",
+      "bytes": 707,
+      "when": [
+        "validate",
+        "contract"
+      ]
+    },
+    {
+      "name": "Avoid these failures",
+      "bytes": 546,
+      "when": [
+        "avoid",
+        "failures"
+      ]
+    }
+  ],
+  "keywords": [
+    "build",
+    "mental",
+    "model",
+    "start",
+    "truth",
+    "data",
+    "source",
+    "integrate",
+    "apply",
+    "durable",
+    "safely",
+    "validate",
+    "contract"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\build-game-changelog\\SKILL.md"
+}

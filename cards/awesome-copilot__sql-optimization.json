@@ -1,0 +1,266 @@
+{
+  "id": "awesome-copilot__sql-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d87639dea8e0208e2161b78b22f6427b0fdf59e95e693b40d48b1226a0c35ccf",
+  "purpose": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle)",
+  "domain": "backend-data",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2298,
+  "core_bytes": 9255,
+  "sections": [
+    {
+      "name": "🎯 Core Optimization Areas",
+      "bytes": 1753,
+      "when": [
+        "core",
+        "optimization",
+        "areas"
+      ]
+    },
+    {
+      "name": "Query Performance Analysis",
+      "bytes": 705,
+      "when": [
+        "query",
+        "performance",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Index Strategy Optimization",
+      "bytes": 549,
+      "when": [
+        "index",
+        "strategy",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Subquery Optimization",
+      "bytes": 466,
+      "when": [
+        "subquery",
+        "optimization"
+      ]
+    },
+    {
+      "name": "📊 Performance Tuning Techniques",
+      "bytes": 1628,
+      "when": [
+        "performance",
+        "tuning",
+        "techniques"
+      ]
+    },
+    {
+      "name": "JOIN Optimization",
+      "bytes": 642,
+      "when": [
+        "join",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Pagination Optimization",
+      "bytes": 405,
+      "when": [
+        "pagination",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Aggregation Optimization",
+      "bytes": 542,
+      "when": [
+        "aggregation",
+        "optimization"
+      ]
+    },
+    {
+      "name": "🔍 Query Anti-Patterns",
+      "bytes": 1045,
+      "when": [
+        "query",
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "SELECT Performance Issues",
+      "bytes": 285,
+      "when": [
+        "select",
+        "performance",
+        "issues"
+      ]
+    },
+    {
+      "name": "WHERE Clause Optimization",
+      "bytes": 341,
+      "when": [
+        "where",
+        "clause",
+        "optimization"
+      ]
+    },
+    {
+      "name": "OR vs UNION Optimization",
+      "bytes": 390,
+      "when": [
+        "union",
+        "optimization"
+      ]
+    },
+    {
+      "name": "📈 Database-Agnostic Optimization",
+      "bytes": 928,
+      "when": [
+        "database",
+        "agnostic",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Batch Operations",
+      "bytes": 395,
+      "when": [
+        "batch",
+        "operations"
+      ]
+    },
+    {
+      "name": "Temporary Table Usage",
+      "bytes": 493,
+      "when": [
+        "temporary",
+        "table",
+        "usage"
+      ]
+    },
+    {
+      "name": "🛠️ Index Management",
+      "bytes": 535,
+      "when": [
+        "index",
+        "management"
+      ]
+    },
+    {
+      "name": "Index Design Principles",
+      "bytes": 316,
+      "when": [
+        "index",
+        "design",
+        "principles"
+      ]
+    },
+    {
+      "name": "Partial Index Strategy",
+      "bytes": 190,
+      "when": [
+        "partial",
+        "index",
+        "strategy"
+      ]
+    },
+    {
+      "name": "📊 Performance Monitoring Queries",
+      "bytes": 858,
+      "when": [
+        "performance",
+        "monitoring",
+        "queries"
+      ]
+    },
+    {
+      "name": "Query Performance Analysis",
+      "bytes": 818,
+      "when": [
+        "query",
+        "performance",
+        "analysis"
+      ]
+    },
+    {
+      "name": "🎯 Universal Optimization Checklist",
+      "bytes": 1376,
+      "when": [
+        "universal",
+        "optimization",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Query Structure",
+      "bytes": 295,
+      "when": [
+        "query",
+        "structure"
+      ]
+    },
+    {
+      "name": "Index Strategy",
+      "bytes": 299,
+      "when": [
+        "index",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Data Types and Schema",
+      "bytes": 252,
+      "when": [
+        "data",
+        "types",
+        "schema"
+      ]
+    },
+    {
+      "name": "Query Patterns",
+      "bytes": 254,
+      "when": [
+        "query",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Performance Testing",
+      "bytes": 234,
+      "when": [
+        "performance",
+        "testing"
+      ]
+    },
+    {
+      "name": "📝 Optimization Methodology",
+      "bytes": 508,
+      "when": [
+        "optimization",
+        "methodology"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\sql-optimization\\SKILL.md"
+}

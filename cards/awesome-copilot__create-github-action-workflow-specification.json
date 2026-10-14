@@ -1,0 +1,381 @@
+{
+  "id": "awesome-copilot__create-github-action-workflow-specification",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "25b57a8e4ed35e2e640dc9f6f255dc6c8f86574b98d2abc5153b5a8c9b22491c",
+  "purpose": "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance.",
+  "domain": "workflow",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1915,
+  "core_bytes": 7660,
+  "sections": [
+    {
+      "name": "AI-Optimized Requirements",
+      "bytes": 409,
+      "when": [
+        "optimized",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Specification Template",
+      "bytes": 311,
+      "when": [
+        "specification",
+        "template"
+      ]
+    },
+    {
+      "name": "Workflow Overview",
+      "bytes": 177,
+      "when": [
+        "workflow",
+        "overview"
+      ]
+    },
+    {
+      "name": "Execution Flow Diagram",
+      "bytes": 239,
+      "when": [
+        "execution",
+        "flow",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Jobs & Dependencies",
+      "bytes": 257,
+      "when": [
+        "jobs",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Requirements Matrix",
+      "bytes": 642,
+      "when": [
+        "requirements",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Functional Requirements",
+      "bytes": 251,
+      "when": [
+        "functional",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Security Requirements",
+      "bytes": 189,
+      "when": [
+        "security",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Performance Requirements",
+      "bytes": 178,
+      "when": [
+        "performance",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Input/Output Contracts",
+      "bytes": 577,
+      "when": [
+        "input",
+        "output",
+        "contracts"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 226,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 139,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Secrets & Variables",
+      "bytes": 185,
+      "when": [
+        "secrets",
+        "variables"
+      ]
+    },
+    {
+      "name": "Execution Constraints",
+      "bytes": 362,
+      "when": [
+        "execution",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Runtime Constraints",
+      "bytes": 161,
+      "when": [
+        "runtime",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Environmental Constraints",
+      "bytes": 175,
+      "when": [
+        "environmental",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Error Handling Strategy",
+      "bytes": 271,
+      "when": [
+        "error",
+        "handling",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Quality Gates",
+      "bytes": 269,
+      "when": [
+        "quality",
+        "gates"
+      ]
+    },
+    {
+      "name": "Gate Definitions",
+      "bytes": 251,
+      "when": [
+        "gate",
+        "definitions"
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "bytes": 320,
+      "when": [
+        "monitoring",
+        "observability"
+      ]
+    },
+    {
+      "name": "Key Metrics",
+      "bytes": 142,
+      "when": [
+        "metrics"
+      ]
+    },
+    {
+      "name": "Alerting",
+      "bytes": 147,
+      "when": [
+        "alerting"
+      ]
+    },
+    {
+      "name": "Integration Points",
+      "bytes": 395,
+      "when": [
+        "integration",
+        "points"
+      ]
+    },
+    {
+      "name": "External Systems",
+      "bytes": 208,
+      "when": [
+        "external",
+        "systems"
+      ]
+    },
+    {
+      "name": "Dependent Workflows",
+      "bytes": 164,
+      "when": [
+        "dependent",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Compliance & Governance",
+      "bytes": 331,
+      "when": [
+        "compliance",
+        "governance"
+      ]
+    },
+    {
+      "name": "Audit Requirements",
+      "bytes": 148,
+      "when": [
+        "audit",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Security Controls",
+      "bytes": 155,
+      "when": [
+        "security",
+        "controls"
+      ]
+    },
+    {
+      "name": "Edge Cases & Exceptions",
+      "bytes": 203,
+      "when": [
+        "edge",
+        "cases",
+        "exceptions"
+      ]
+    },
+    {
+      "name": "Scenario Matrix",
+      "bytes": 175,
+      "when": [
+        "scenario",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Validation Criteria",
+      "bytes": 219,
+      "when": [
+        "validation",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Workflow Validation",
+      "bytes": 92,
+      "when": [
+        "workflow",
+        "validation"
+      ]
+    },
+    {
+      "name": "Performance Benchmarks",
+      "bytes": 103,
+      "when": [
+        "performance",
+        "benchmarks"
+      ]
+    },
+    {
+      "name": "Change Management",
+      "bytes": 418,
+      "when": [
+        "change",
+        "management"
+      ]
+    },
+    {
+      "name": "Update Process",
+      "bytes": 246,
+      "when": [
+        "update",
+        "process"
+      ]
+    },
+    {
+      "name": "Version History",
+      "bytes": 150,
+      "when": [
+        "version",
+        "history"
+      ]
+    },
+    {
+      "name": "Related Specifications",
+      "bytes": 130,
+      "when": [
+        "related",
+        "specifications"
+      ]
+    },
+    {
+      "name": "Analysis Instructions",
+      "bytes": 533,
+      "when": [
+        "analysis",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Mermaid Diagram Guidelines",
+      "bytes": 607,
+      "when": [
+        "mermaid",
+        "diagram",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Flow Types",
+      "bytes": 171,
+      "when": [
+        "flow",
+        "types"
+      ]
+    },
+    {
+      "name": "Styling",
+      "bytes": 152,
+      "when": [
+        "styling"
+      ]
+    },
+    {
+      "name": "Complex Workflows",
+      "bytes": 253,
+      "when": [
+        "complex",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Token Optimization Strategies",
+      "bytes": 413,
+      "when": [
+        "token",
+        "optimization",
+        "strategies"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-github-action-workflow-specification\\SKILL.md"
+}

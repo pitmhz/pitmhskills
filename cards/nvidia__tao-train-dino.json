@@ -1,0 +1,125 @@
+{
+  "id": "nvidia__tao-train-dino",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8641fa10aaad6612d8a6b378e0888d8158b7bf651a1fca1fc05b5a0689443cfb",
+  "purpose": "DINO (DETR with Improved DeNoising Anchor Boxes) for 2D object detection. Transformer-based detector with",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "DINO (DETR with Improved DeNoising Anchor Boxes) for 2D object detection. Transformer-based detector with"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2835,
+  "core_bytes": 11368,
+  "sections": [
+    {
+      "name": "When To Use",
+      "bytes": 377,
+      "when": []
+    },
+    {
+      "name": "Reference Map",
+      "bytes": 714,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 809,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 3438,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 838,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Important Parameters And Defaults",
+      "bytes": 768,
+      "when": [
+        "important",
+        "parameters",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Multi-GPU And AutoML / HPO",
+      "bytes": 858,
+      "when": [
+        "multi",
+        "automl"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 404,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 611,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 69,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-dino/SKILL.md",
+  "curated": true
+}

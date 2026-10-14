@@ -1,0 +1,105 @@
+{
+  "id": "nvidia__nv-reason-ct",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "29de5bd774352d418a941e1e27e7e608f059aa045f6b91b2eaae22dcc10e788d",
+  "purpose": "Run NV-Reason-CT inference on user-provided 3D NIfTI chest or abdominal CT volumes for engineering and research workflows. Not for diagnosis, treatment, or clinical reporting.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Run NV-Reason-CT inference on user-provided 3D NIfTI chest or abdominal CT volumes for engineering and research workflows. Not for diagnosis, treatment, or clin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4600,
+  "core_bytes": 18399,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 506,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2148,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 3242,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 387,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 7378,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Verified environment baseline",
+      "bytes": 3905,
+      "when": [
+        "verified",
+        "environment",
+        "baseline"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1166,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2651,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "License",
+      "bytes": 510,
+      "when": [
+        "license"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- python -m pytest skills/nv-reason-ct/tests/test_nv_reason_ct.py"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-reason-ct/SKILL.md",
+  "curated": true
+}

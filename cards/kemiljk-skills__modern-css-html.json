@@ -1,0 +1,118 @@
+{
+  "id": "kemiljk-skills__modern-css-html",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "b45630c3d9372a406e9644c7a0f0f49cb15cb17a463af5d4d8746f20f86d5d2f",
+  "purpose": "Choose native CSS and HTML features, assess browser support, or replace legacy workarounds with progressive enhancement.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Choose native CSS and HTML features, assess browser support, or replace legacy workarounds with progressive enhancement."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Native CSS/HTML feature choice -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "browser support legacy workarounds",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 802,
+  "core_bytes": 3206,
+  "sections": [
+    {
+      "name": "Composition with other skills",
+      "bytes": 341,
+      "when": [
+        "composition",
+        "skills"
+      ]
+    },
+    {
+      "name": "Browser support policy",
+      "bytes": 569,
+      "when": [
+        "browser",
+        "support",
+        "policy"
+      ]
+    },
+    {
+      "name": "Core defaults",
+      "bytes": 1256,
+      "when": [
+        "core",
+        "defaults"
+      ]
+    },
+    {
+      "name": "HTML",
+      "bytes": 296,
+      "when": [
+        "html"
+      ]
+    },
+    {
+      "name": "Layout",
+      "bytes": 377,
+      "when": [
+        "layout"
+      ]
+    },
+    {
+      "name": "Colour and theme",
+      "bytes": 198,
+      "when": [
+        "colour",
+        "theme"
+      ]
+    },
+    {
+      "name": "Motion",
+      "bytes": 365,
+      "when": [
+        "motion"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 462,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 245,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "modern",
+    "composition",
+    "skills",
+    "policy",
+    "core",
+    "defaults",
+    "layout",
+    "colour",
+    "theme",
+    "motion",
+    "review",
+    "checklist"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\modern-css-html\\SKILL.md"
+}

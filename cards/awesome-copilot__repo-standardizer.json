@@ -1,0 +1,210 @@
+{
+  "id": "awesome-copilot__repo-standardizer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "048aeb0422593d9c3f5f1e007887b53f9d66d807372637e023899ea158943e6d",
+  "purpose": "Polish any GitHub repository's surface — labels (emoji rating tiers, P0–P3 priority, impact severity), issue forms, PR template, CI workflows, CODEOWNERS, rulesets, docs. Repo meta & config only — no ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Polish any GitHub repository's surface — labels (emoji rating tiers, P0–P3 priority, impact severity), issue forms, PR template, CI workflows, CODEOWNERS, rules"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6408,
+  "core_bytes": 25961,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 241,
+      "when": []
+    },
+    {
+      "name": "Preflight (mandatory, in order)",
+      "bytes": 4533,
+      "when": [
+        "preflight",
+        "mandatory",
+        "order"
+      ]
+    },
+    {
+      "name": "1. Authenticate — check gh login first",
+      "bytes": 1135,
+      "when": [
+        "authenticate",
+        "check",
+        "login",
+        "first"
+      ]
+    },
+    {
+      "name": "2. Detect repository type",
+      "bytes": 821,
+      "when": [
+        "detect",
+        "repository",
+        "type"
+      ]
+    },
+    {
+      "name": "3. Audit current state",
+      "bytes": 611,
+      "when": [
+        "audit",
+        "current",
+        "state"
+      ]
+    },
+    {
+      "name": "4. Detect test framework (for CI module)",
+      "bytes": 597,
+      "when": [
+        "detect",
+        "test",
+        "framework",
+        "module"
+      ]
+    },
+    {
+      "name": "5. Ask about language (before planning)",
+      "bytes": 351,
+      "when": [
+        "language",
+        "before",
+        "planning"
+      ]
+    },
+    {
+      "name": "6. Ask about automation (decides the Governance labels)",
+      "bytes": 847,
+      "when": [
+        "automation",
+        "decides",
+        "governance",
+        "labels"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 17666,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Module A — Labels (design first, then idempotent upsert)",
+      "bytes": 10181,
+      "when": [
+        "module",
+        "labels",
+        "design",
+        "first",
+        "idempotent",
+        "upsert"
+      ]
+    },
+    {
+      "name": "Module B — Issue forms + config",
+      "bytes": 956,
+      "when": [
+        "module",
+        "issue",
+        "forms",
+        "config"
+      ]
+    },
+    {
+      "name": "Module C — PR template",
+      "bytes": 336,
+      "when": [
+        "module",
+        "template"
+      ]
+    },
+    {
+      "name": "Module D — CI workflow",
+      "bytes": 695,
+      "when": [
+        "module",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Module E — Branch rules",
+      "bytes": 1820,
+      "when": [
+        "module",
+        "branch",
+        "rules"
+      ]
+    },
+    {
+      "name": "Module F — Docs",
+      "bytes": 2295,
+      "when": [
+        "module",
+        "docs"
+      ]
+    },
+    {
+      "name": "Module G — AI assistant guides (CLAUDE.md / AGENTS.md)",
+      "bytes": 944,
+      "when": [
+        "module",
+        "assistant",
+        "guides",
+        "claude",
+        "agents"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 487,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Template placeholders (replace on copy)",
+      "bytes": 1498,
+      "when": [
+        "template",
+        "placeholders",
+        "replace",
+        "copy"
+      ]
+    },
+    {
+      "name": "Rules of thumb",
+      "bytes": 441,
+      "when": [
+        "rules",
+        "thumb"
+      ]
+    },
+    {
+      "name": "Templates",
+      "bytes": 419,
+      "when": [
+        "templates"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\repo-standardizer\\SKILL.md"
+}

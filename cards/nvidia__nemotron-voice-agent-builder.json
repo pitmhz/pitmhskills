@@ -1,0 +1,59 @@
+{
+  "id": "nvidia__nemotron-voice-agent-builder",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "6f8b452ac34daf5b5196fde0112678e1bcf8a26f53e6cd3ba09b14ecfc133e92",
+  "purpose": "Create, refine, or fix NVIDIA voice agents (Cascaded or Omni) with Pipecat or LiveKit. Use when building, scaffolding, or iterating on a real-time voice-agent pipeline, including speech (ASR/TTS) cust",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create, refine, or fix NVIDIA voice agents (Cascaded or Omni) with Pipecat or LiveKit. Use when building, scaffolding, or iterating on a real-time voice-agent p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 860,
+  "core_bytes": 3458,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 714,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1487,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Rules",
+      "bytes": 361,
+      "when": [
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemotron-voice-agent-builder/SKILL.md",
+  "curated": true
+}

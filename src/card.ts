@@ -5,6 +5,7 @@ import { execSync } from "node:child_process";
 import yaml from "js-yaml";
 import { hashContent, loadSources } from "./ingest.ts";
 import { shaFile } from "./index.ts";
+import { slug, guessDomain, guessTaskTypes, mineUseWhen, extractKeywords } from "./cardtext.ts";
 import type { Card } from "./types.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -12,13 +13,17 @@ const CARDS_DIR = join(ROOT, "cards");
 
 // Build/refresh cards from raw skills. Offline template first; LLM upgrade fills
 // use_when/do_not_use_when/disambiguator better. Cached by hash.
-export function buildCards(opts: { check?: boolean; provider?: string }): { made: number; cached: number; deduped: { kept: string; dropped: string }[]; errors: string[] } {
+// Curated cards (curated:true) are NEVER overwritten: hash match -> cached,
+// hash drift -> reported as stale for human re-review (checkCards flags them).
+export function buildCards(opts: { check?: boolean; provider?: string }): { made: number; cached: number; deduped: { kept: string; dropped: string }[]; stale: string[]; errors: string[] } {
   mkdirSync(CARDS_DIR, { recursive: true });
   const sources = loadSources().filter((s) => !opts.provider || s.id === opts.provider);
   let made = 0, cached = 0;
   const deduped: { kept: string; dropped: string }[] = [];
+  const stale: string[] = [];
   const errors: string[] = [];
   const hashFirst = new Map<string, string>(); // content hash -> kept card file (first wins)
+  // Per-file cards (cached by hash, self-heal junk, fold duplicates).
   for (const s of sources) {
     const skillFiles = findSkillFiles(s.id, s.path ? join(ROOT, s.path) : join(ROOT, "skills", s.id)).sort();
     for (const f of skillFiles) {
@@ -43,7 +48,24 @@ export function buildCards(opts: { check?: boolean; provider?: string }): { made
         hashFirst.set(hash, cardPath);
         if (existsSync(cardPath)) {
           const prev = JSON.parse(readFileSync(cardPath, "utf8")) as Card;
-          if (prev.hash === hash) { cached++; continue; }
+          if (prev.hash === hash) {
+            const junk = !prev.curated && (!prev.purpose || /^[>|][+-]?$/.test(prev.purpose.trim()) || (prev.use_when ?? []).every((u) => /^[>|][+-]?$/.test(u.trim())));
+            if (!junk) { cached++; continue; }
+            // Self-heal: text fields were compiled by a parser version that lost
+            // folded YAML descriptions (purpose ">"). Rebuild text from source;
+            // preserve curated fields (tier/license/origin/verify).
+            const fresh = templateCard(id, s, f, name, description, raw, hash);
+            fresh.tier = prev.tier;
+            fresh.license = prev.license;
+            if ((prev.verify ?? []).length) fresh.verify = prev.verify;
+            if ((prev.origin ?? []).length) fresh.origin = prev.origin;
+            writeFileSync(cardPath, JSON.stringify(fresh, null, 2) + "\n");
+            made++;
+            continue;
+          }
+          // Curated cards are never overwritten by templates. Upstream drift is
+          // reported (return.stale + checkCards) for human re-review instead.
+          if (prev.curated) { stale.push(`${id} (curated text kept, upstream changed)`); continue; }
         }
         const card = templateCard(id, s, f, name, description, raw, hash);
         writeFileSync(cardPath, JSON.stringify(card, null, 2) + "\n");
@@ -53,7 +75,7 @@ export function buildCards(opts: { check?: boolean; provider?: string }): { made
       }
     }
   }
-  return { made, cached, deduped, errors };
+  return { made, cached, deduped, stale, errors };
 }
 
 function findSkillFiles(provider: string, base: string): string[] {
@@ -62,6 +84,10 @@ function findSkillFiles(provider: string, base: string): string[] {
   const walk = (d: string, depth: number) => {
     if (depth > 4 || !existsSync(d)) return;
     for (const e of readdirSync(d, { withFileTypes: true })) {
+      // Skip hidden/vendor dirs (.git, .openclaw client copies, node_modules):
+      // repos often ship the same skill once per client adapter; the canonical
+      // copy wins and duplicate ids stop churning the card.
+      if (e.name.startsWith(".")) continue;
       const p = join(d, e.name);
       if (e.isDirectory()) walk(p, depth + 1);
       else if (e.name === "SKILL.md") out.push(p);
@@ -89,23 +115,27 @@ export function parseFrontmatter(raw: string, f: string): { name: string; descri
     } catch {
       // Invalid YAML (e.g. unquoted colon+space in a plain scalar, common in
       // SKILL.md descriptions): fall back to legacy single-line capture so we
-      // never lose a description the old parser recovered.
+      // never lose a description the old parser recovered. A bare YAML block
+      // scalar marker (>, >-, |) captures as junk — drop it so the body
+      // first-line fallback engages instead.
       const nm = m[1]!.match(/^name:\s*(.+)$/m);
       const dm = m[1]!.match(/^description:\s*(.+)$/m);
       if (nm) name = nm[1]!.trim();
       if (dm) description = dm[1]!.trim();
+      if (/^[>|][+-]?$/.test(description)) description = "";
     }
   }
   if (!name) name = basename(dirname(f));
   if (!description) {
-    const first = normalized.replace(/^---[\s\S]*?---/, "").trim().split("\n").find((l) => l.trim().length > 20);
+    const first = normalized
+      .replace(/^---[\s\S]*?---/, "")
+      .trim()
+      .split("\n")
+      .map((l) => l.trim().replace(/^>\s*/, ""))
+      .find((l) => l.length > 20 && !/^[#\-*`!|]/.test(l) && !/^\d+[.)]/.test(l) && !/^>/.test(l));
     description = (first ?? `Skill ${name}`).slice(0, 200);
   }
   return { name, description };
-}
-
-function slug(s: string): string {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60) || "skill";
 }
 
 function findPinnedSha(f: string): string {
@@ -131,6 +161,8 @@ function templateCard(id: string, s: { id: string; repo: string | null }, f: str
   void shaFile;
   const body = raw.replace(/^---[\s\S]*?---/, "").trim();
   const domain = guessDomain(f + " " + desc);
+  const mined = mineUseWhen(body, desc);
+  const keywords = extractKeywords(raw, [desc, ...mined].join(" "));
   return {
     id,
     tier: "B",
@@ -140,7 +172,7 @@ function templateCard(id: string, s: { id: string; repo: string | null }, f: str
     purpose: desc.slice(0, 200),
     domain,
     task_types: guessTaskTypes(desc + " " + body.slice(0, 2000)),
-    use_when: [desc.slice(0, 160)],
+    use_when: mined,
     do_not_use_when: [`Tasks unrelated to ${domain}`],
     scope: "Only touch files the task names; everything else read-only.",
     disambiguator: "",
@@ -153,30 +185,8 @@ function templateCard(id: string, s: { id: string; repo: string | null }, f: str
     body_tokens: Math.ceil(raw.length / 4),
     core_bytes: Buffer.byteLength(raw),
     sections: [],
+    keywords,
     verify: [],
     skill_path: f,
   };
-}
-
-function guessDomain(t: string): string {
-  const l = t.toLowerCase();
-  if (/worker|cloudflare|edge|kv|d1|r2|waf/.test(l)) return "cloudflare-edge";
-  if (/supabase|postgres|rls|sql/.test(l)) return "backend-data";
-  if (/react|next|frontend|gsap|animat|ui\b|dashboard/.test(l)) return "frontend";
-  if (/cuda|nvidia|nim|tensor|gpu/.test(l)) return "gpu-compute";
-  if (/memory|cavemem|retriev|rag/.test(l)) return "memory";
-  if (/grill|review|spec|ticket|triage/.test(l)) return "workflow";
-  return "general";
-}
-
-function guessTaskTypes(t: string): string[] {
-  const l = t.toLowerCase();
-  const out = new Set<string>();
-  if (/review|audit|lint/.test(l)) out.add("review");
-  if (/refactor|optim/.test(l)) out.add("refactor");
-  if (/implement|build|create|add/.test(l)) out.add("implement");
-  if (/debug|fix|troubleshoot/.test(l)) out.add("debug");
-  if (/design/.test(l)) out.add("design");
-  if (out.size === 0) out.add("implement");
-  return [...out];
 }

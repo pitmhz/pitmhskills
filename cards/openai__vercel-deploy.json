@@ -29,7 +29,66 @@
   "conflicts_with": [],
   "body_tokens": 682,
   "core_bytes": 2730,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/vercel-deploy/SKILL.md"
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 349,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 473,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Fallback (No Auth)",
+      "bytes": 635,
+      "when": [
+        "fallback",
+        "auth"
+      ]
+    },
+    {
+      "name": "Production Deploys",
+      "bytes": 104,
+      "when": [
+        "production",
+        "deploys"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 188,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 583,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Escalated Network Access",
+      "bytes": 561,
+      "when": [
+        "escalated",
+        "network",
+        "access"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/vercel-deploy/SKILL.md",
+  "curated": true
 }

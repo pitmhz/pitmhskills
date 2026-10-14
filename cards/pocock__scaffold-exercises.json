@@ -29,7 +29,66 @@
   "conflicts_with": [],
   "body_tokens": 924,
   "core_bytes": 3695,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Directory naming",
+      "bytes": 309,
+      "when": [
+        "directory",
+        "naming"
+      ]
+    },
+    {
+      "name": "Exercise variants",
+      "bytes": 297,
+      "when": [
+        "exercise",
+        "variants"
+      ]
+    },
+    {
+      "name": "Required files",
+      "bytes": 447,
+      "when": [
+        "required",
+        "files"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 346,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Lint rules summary",
+      "bytes": 480,
+      "when": [
+        "lint",
+        "rules",
+        "summary"
+      ]
+    },
+    {
+      "name": "Moving/renaming exercises",
+      "bytes": 341,
+      "when": [
+        "moving",
+        "renaming",
+        "exercises"
+      ]
+    },
+    {
+      "name": "Example: stubbing from a plan",
+      "bytes": 1079,
+      "when": [
+        "example",
+        "stubbing",
+        "plan"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/misc/scaffold-exercises/SKILL.md"
 }

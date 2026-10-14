@@ -37,7 +37,82 @@
   "conflicts_with": [],
   "body_tokens": 3607,
   "core_bytes": 14462,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Core Principles",
+      "bytes": 7733,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "Supabase CLI",
+      "bytes": 1534,
+      "when": [
+        "supabase"
+      ]
+    },
+    {
+      "name": "Supabase MCP Server",
+      "bytes": 1519,
+      "when": [
+        "supabase",
+        "server"
+      ]
+    },
+    {
+      "name": "Supabase Documentation",
+      "bytes": 425,
+      "when": [
+        "supabase",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Making and Committing Schema Changes",
+      "bytes": 1541,
+      "when": [
+        "making",
+        "committing",
+        "schema",
+        "changes"
+      ]
+    },
+    {
+      "name": "Option A: Declarative schemas",
+      "bytes": 374,
+      "when": [
+        "option",
+        "declarative",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Option B: Imperative migrations",
+      "bytes": 1068,
+      "when": [
+        "option",
+        "imperative",
+        "migrations"
+      ]
+    },
+    {
+      "name": "Debugging",
+      "bytes": 596,
+      "when": [
+        "debugging"
+      ]
+    },
+    {
+      "name": "Reference Guides",
+      "bytes": 216,
+      "when": [
+        "reference",
+        "guides"
+      ]
+    }
+  ],
   "verify": [
     "supabase db advisors"
   ],

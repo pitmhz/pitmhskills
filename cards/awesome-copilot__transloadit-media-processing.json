@@ -1,0 +1,141 @@
+{
+  "id": "awesome-copilot__transloadit-media-processing",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ac5dc3cdaec786c94d6f876c2038d7ea35919ba134d022248c18b629cd8d516f",
+  "purpose": "Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, generate thumbnails, resize or watermark images, extract audio, concatenate clips, a",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, generate thumbnails, resize or watermark ima"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1281,
+  "core_bytes": 5122,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 597,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 902,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Option A: MCP Server (recommended for Copilot)",
+      "bytes": 640,
+      "when": [
+        "option",
+        "server",
+        "recommended",
+        "copilot"
+      ]
+    },
+    {
+      "name": "Option B: CLI",
+      "bytes": 252,
+      "when": [
+        "option"
+      ]
+    },
+    {
+      "name": "Core Workflows",
+      "bytes": 1346,
+      "when": [
+        "core",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Encode Video to HLS (Adaptive Streaming)",
+      "bytes": 189,
+      "when": [
+        "encode",
+        "video",
+        "adaptive",
+        "streaming"
+      ]
+    },
+    {
+      "name": "Generate Thumbnails from Video",
+      "bytes": 212,
+      "when": [
+        "generate",
+        "thumbnails",
+        "video"
+      ]
+    },
+    {
+      "name": "Resize and Watermark Images",
+      "bytes": 434,
+      "when": [
+        "resize",
+        "watermark",
+        "images"
+      ]
+    },
+    {
+      "name": "OCR a Document",
+      "bytes": 186,
+      "when": [
+        "document"
+      ]
+    },
+    {
+      "name": "Concatenate Audio Clips",
+      "bytes": 306,
+      "when": [
+        "concatenate",
+        "audio",
+        "clips"
+      ]
+    },
+    {
+      "name": "Multi-Step Pipelines",
+      "bytes": 484,
+      "when": [
+        "multi",
+        "step",
+        "pipelines"
+      ]
+    },
+    {
+      "name": "Key Concepts",
+      "bytes": 543,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 486,
+      "when": [
+        "tips"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\transloadit-media-processing\\SKILL.md"
+}

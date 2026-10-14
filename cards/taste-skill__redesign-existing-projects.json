@@ -1,0 +1,189 @@
+{
+  "id": "taste-skill__redesign-existing-projects",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "089b2735a58eaf4c2dd760dbe89d2ad6bb87d90e7b2ea4dd4cdd900f213c98d9",
+  "purpose": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without bre"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Upgrade an existing site to premium -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "redesign upgrade existing premium audit",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4105,
+  "core_bytes": 16448,
+  "sections": [
+    {
+      "name": "How This Works",
+      "bytes": 481,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Design Audit",
+      "bytes": 12639,
+      "when": [
+        "design",
+        "audit"
+      ]
+    },
+    {
+      "name": "Typography",
+      "bytes": 1182,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "Color and Surfaces",
+      "bytes": 2099,
+      "when": [
+        "color",
+        "surfaces"
+      ]
+    },
+    {
+      "name": "Layout",
+      "bytes": 2869,
+      "when": [
+        "layout"
+      ]
+    },
+    {
+      "name": "Interactivity and States",
+      "bytes": 1589,
+      "when": [
+        "interactivity",
+        "states"
+      ]
+    },
+    {
+      "name": "Content",
+      "bytes": 1099,
+      "when": [
+        "content"
+      ]
+    },
+    {
+      "name": "Component Patterns",
+      "bytes": 1236,
+      "when": [
+        "component",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Iconography",
+      "bytes": 607,
+      "when": [
+        "iconography"
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "bytes": 1356,
+      "when": [
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "Strategic Omissions (What AI Typically Forgets)",
+      "bytes": 583,
+      "when": [
+        "strategic",
+        "omissions",
+        "typically",
+        "forgets"
+      ]
+    },
+    {
+      "name": "Upgrade Techniques",
+      "bytes": 1948,
+      "when": [
+        "upgrade",
+        "techniques"
+      ]
+    },
+    {
+      "name": "Typography Upgrades",
+      "bytes": 357,
+      "when": [
+        "typography",
+        "upgrades"
+      ]
+    },
+    {
+      "name": "Layout Upgrades",
+      "bytes": 469,
+      "when": [
+        "layout",
+        "upgrades"
+      ]
+    },
+    {
+      "name": "Motion Upgrades",
+      "bytes": 526,
+      "when": [
+        "motion",
+        "upgrades"
+      ]
+    },
+    {
+      "name": "Surface Upgrades",
+      "bytes": 474,
+      "when": [
+        "surface",
+        "upgrades"
+      ]
+    },
+    {
+      "name": "Fix Priority",
+      "bytes": 603,
+      "when": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Rules",
+      "bytes": 471,
+      "when": [
+        "rules"
+      ]
+    }
+  ],
+  "keywords": [
+    "redesign",
+    "skill",
+    "audit",
+    "typography",
+    "color",
+    "surfaces",
+    "layout",
+    "interactivity",
+    "states",
+    "content",
+    "component",
+    "iconography"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\redesign-skill\\SKILL.md"
+}

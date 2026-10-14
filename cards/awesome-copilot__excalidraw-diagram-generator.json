@@ -1,0 +1,333 @@
+{
+  "id": "awesome-copilot__excalidraw-diagram-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3716375aca4ef46ac4b9e0c6cc349e472be9e1a75df47873d587b7eae56cebce",
+  "purpose": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 6072,
+  "core_bytes": 24385,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 1104,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 179,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflow",
+      "bytes": 4958,
+      "when": [
+        "step",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Understand the Request",
+      "bytes": 291,
+      "when": [
+        "step",
+        "understand",
+        "request"
+      ]
+    },
+    {
+      "name": "Step 2: Choose the Appropriate Diagram Type",
+      "bytes": 1204,
+      "when": [
+        "step",
+        "choose",
+        "appropriate",
+        "diagram",
+        "type"
+      ]
+    },
+    {
+      "name": "Step 3: Extract Structured Information",
+      "bytes": 2147,
+      "when": [
+        "step",
+        "extract",
+        "structured",
+        "information"
+      ]
+    },
+    {
+      "name": "Step 4: Generate the Excalidraw JSON",
+      "bytes": 743,
+      "when": [
+        "step",
+        "generate",
+        "excalidraw",
+        "json"
+      ]
+    },
+    {
+      "name": "Step 5: Format the Output",
+      "bytes": 313,
+      "when": [
+        "step",
+        "format",
+        "output"
+      ]
+    },
+    {
+      "name": "Step 6: Save and Provide Instructions",
+      "bytes": 234,
+      "when": [
+        "step",
+        "save",
+        "provide",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 1352,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Element Count Guidelines",
+      "bytes": 271,
+      "when": [
+        "element",
+        "count",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Layout Tips",
+      "bytes": 634,
+      "when": [
+        "layout",
+        "tips"
+      ]
+    },
+    {
+      "name": "Complexity Management",
+      "bytes": 428,
+      "when": [
+        "complexity",
+        "management"
+      ]
+    },
+    {
+      "name": "Example Prompts and Responses",
+      "bytes": 957,
+      "when": [
+        "example",
+        "prompts",
+        "responses"
+      ]
+    },
+    {
+      "name": "Example 1: Simple Flowchart",
+      "bytes": 290,
+      "when": [
+        "example",
+        "simple",
+        "flowchart"
+      ]
+    },
+    {
+      "name": "Example 2: Relationship Diagram",
+      "bytes": 326,
+      "when": [
+        "example",
+        "relationship",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Example 3: Mind Map",
+      "bytes": 307,
+      "when": [
+        "example",
+        "mind"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 406,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Advanced Techniques",
+      "bytes": 613,
+      "when": [
+        "advanced",
+        "techniques"
+      ]
+    },
+    {
+      "name": "Grid Layout (for Relationship Diagrams)",
+      "bytes": 230,
+      "when": [
+        "grid",
+        "layout",
+        "relationship",
+        "diagrams"
+      ]
+    },
+    {
+      "name": "Radial Layout (for Mind Maps)",
+      "bytes": 196,
+      "when": [
+        "radial",
+        "layout",
+        "mind",
+        "maps"
+      ]
+    },
+    {
+      "name": "Auto-generated IDs",
+      "bytes": 163,
+      "when": [
+        "auto",
+        "generated"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 460,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 376,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Icon Libraries (Optional Enhancement)",
+      "bytes": 11641,
+      "when": [
+        "icon",
+        "libraries",
+        "optional",
+        "enhancement"
+      ]
+    },
+    {
+      "name": "When User Requests Icons",
+      "bytes": 1232,
+      "when": [
+        "user",
+        "requests",
+        "icons"
+      ]
+    },
+    {
+      "name": "User Setup Instructions (Detailed)",
+      "bytes": 1341,
+      "when": [
+        "user",
+        "setup",
+        "instructions",
+        "detailed"
+      ]
+    },
+    {
+      "name": "AI Assistant Workflow",
+      "bytes": 5381,
+      "when": [
+        "assistant",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Example: Creating AWS Diagram with Icons",
+      "bytes": 2631,
+      "when": [
+        "example",
+        "creating",
+        "diagram",
+        "icons"
+      ]
+    },
+    {
+      "name": "Supported Icon Libraries (Examples — verify availability)",
+      "bytes": 460,
+      "when": [
+        "supported",
+        "icon",
+        "libraries",
+        "examples",
+        "verify",
+        "availability"
+      ]
+    },
+    {
+      "name": "Fallback: No Icons Available",
+      "bytes": 358,
+      "when": [
+        "fallback",
+        "icons",
+        "available"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1176,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 280,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Future Enhancements",
+      "bytes": 192,
+      "when": [
+        "future",
+        "enhancements"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\excalidraw-diagram-generator\\SKILL.md"
+}

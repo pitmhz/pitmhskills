@@ -1,0 +1,102 @@
+{
+  "id": "awesome-copilot__pester-migration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "eeb7c170eb8e547b951725e2a4202ac7bdfacca411f3e369f4c2ef7dd44d1c8c",
+  "purpose": "Pester migration skill for upgrading PowerShell Pester test suites across major versions — v3→v4, v4→v5, and v5→v6. Covers the Discovery/Run two-phase model, moving setup into BeforeAll, $PSScriptRoot",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Pester migration skill for upgrading PowerShell Pester test suites across major versions — v3→v4, v4→v5, and v5→v6. Covers the Discovery/Run two-phase model, mo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2058,
+  "core_bytes": 8319,
+  "sections": [
+    {
+      "name": "References",
+      "bytes": 933,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Step 0 — Detect where you are and where you're going",
+      "bytes": 1692,
+      "when": [
+        "step",
+        "detect",
+        "where",
+        "going"
+      ]
+    },
+    {
+      "name": "Migration workflow",
+      "bytes": 1343,
+      "when": [
+        "migration",
+        "workflow"
+      ]
+    },
+    {
+      "name": "What actually changes (scope per jump)",
+      "bytes": 570,
+      "when": [
+        "actually",
+        "changes",
+        "scope",
+        "jump"
+      ]
+    },
+    {
+      "name": "Quick cheat sheets",
+      "bytes": 1575,
+      "when": [
+        "quick",
+        "cheat",
+        "sheets"
+      ]
+    },
+    {
+      "name": "v4 → v5 (most common fixes)",
+      "bytes": 763,
+      "when": [
+        "common",
+        "fixes"
+      ]
+    },
+    {
+      "name": "v5 → v6 (most common fixes)",
+      "bytes": 789,
+      "when": [
+        "common",
+        "fixes"
+      ]
+    },
+    {
+      "name": "Safety rules",
+      "bytes": 823,
+      "when": [
+        "safety",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\pester-migration\\SKILL.md"
+}

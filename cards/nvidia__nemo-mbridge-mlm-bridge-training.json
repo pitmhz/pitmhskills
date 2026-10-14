@@ -1,0 +1,161 @@
+{
+  "id": "nvidia__nemo-mbridge-mlm-bridge-training",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "040bf6bf03ce349abc80680225afedf5bbbecf0763fe4dc196cdbdaee125336f",
+  "purpose": "Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data. Covers correlation testing, available recipes, and multi-GPU examples.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data. Covers correlation testing, available recipes, and multi-GPU examples."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1615,
+  "core_bytes": 6474,
+  "sections": [
+    {
+      "name": "First Answer Checklist",
+      "bytes": 644,
+      "when": [
+        "first",
+        "answer",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Correlation Testing",
+      "bytes": 1772,
+      "when": [
+        "correlation",
+        "testing"
+      ]
+    },
+    {
+      "name": "MLM Correlation Run (2L/256H, 1 GPU)",
+      "bytes": 606,
+      "when": [
+        "correlation",
+        "256h"
+      ]
+    },
+    {
+      "name": "Bridge Correlation Run (same config, 1 GPU)",
+      "bytes": 671,
+      "when": [
+        "bridge",
+        "correlation",
+        "config"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 196,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Multi-GPU Examples",
+      "bytes": 1284,
+      "when": [
+        "multi",
+        "examples"
+      ]
+    },
+    {
+      "name": "MLM 2-GPU with TP=2",
+      "bytes": 597,
+      "when": []
+    },
+    {
+      "name": "Bridge 2-GPU with TP=2",
+      "bytes": 662,
+      "when": [
+        "bridge"
+      ]
+    },
+    {
+      "name": "Available Recipes",
+      "bytes": 503,
+      "when": [
+        "available",
+        "recipes"
+      ]
+    },
+    {
+      "name": "Megatron-Core Submodule",
+      "bytes": 672,
+      "when": [
+        "megatron",
+        "core",
+        "submodule"
+      ]
+    },
+    {
+      "name": "Check current version",
+      "bytes": 79,
+      "when": [
+        "check",
+        "current",
+        "version"
+      ]
+    },
+    {
+      "name": "Switch to dev for testing newer MCore features",
+      "bytes": 169,
+      "when": [
+        "switch",
+        "testing",
+        "newer",
+        "mcore",
+        "features"
+      ]
+    },
+    {
+      "name": "Switch back to main",
+      "bytes": 75,
+      "when": [
+        "switch",
+        "back",
+        "main"
+      ]
+    },
+    {
+      "name": "After pulling latest main",
+      "bytes": 216,
+      "when": [
+        "after",
+        "pulling",
+        "latest",
+        "main"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 975,
+      "when": [
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-mlm-bridge-training/SKILL.md",
+  "curated": true
+}

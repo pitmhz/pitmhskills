@@ -28,7 +28,42 @@
   "conflicts_with": [],
   "body_tokens": 639,
   "core_bytes": 2554,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/in-progress/loop-me/SKILL.md"
+  "sections": [
+    {
+      "name": "The loop lens",
+      "bytes": 557,
+      "when": [
+        "loop",
+        "lens"
+      ]
+    },
+    {
+      "name": "Vocabulary",
+      "bytes": 938,
+      "when": [
+        "vocabulary"
+      ]
+    },
+    {
+      "name": "Definition of done",
+      "bytes": 187,
+      "when": [
+        "definition",
+        "done"
+      ]
+    },
+    {
+      "name": "The workspace",
+      "bytes": 359,
+      "when": [
+        "workspace"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/in-progress/loop-me/SKILL.md",
+  "curated": true
 }

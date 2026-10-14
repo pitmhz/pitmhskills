@@ -1,0 +1,168 @@
+{
+  "id": "swiss-design-skill__swiss-design",
+  "tier": "B",
+  "origin": [
+    "zeke/swiss-design-skill@285009f3dc4ba311f59bb757973274de2c9446c3"
+  ],
+  "license": "MIT",
+  "hash": "4b2bd543abd97ddb9619181515a25df1747419b03c79b5732da705f04244f4ea",
+  "purpose": "Apply a Swiss International Style design system using Tailwind CSS. Use when asked to style a webpage, clean up a UI, apply a design system, make something look great, or when the user references Swis",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Apply a Swiss International Style design system using Tailwind CSS. Use when asked to style a webpage, clean up a UI, apply a design system, make something look",
+    "Styling a page with Swiss grid discipline, typographic hierarchy and grotesk type"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Swiss grid / editorial discipline -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "swiss grid editorial international",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3312,
+  "core_bytes": 13281,
+  "sections": [
+    {
+      "name": "Six Principles",
+      "bytes": 726,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "Typography",
+      "bytes": 2660,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "Typographic details",
+      "bytes": 695,
+      "when": [
+        "typographic",
+        "details"
+      ]
+    },
+    {
+      "name": "Color System",
+      "bytes": 1978,
+      "when": [
+        "color",
+        "system"
+      ]
+    },
+    {
+      "name": "Stone palette (light mode → dark mode)",
+      "bytes": 913,
+      "when": [
+        "stone",
+        "palette",
+        "light",
+        "mode",
+        "dark"
+      ]
+    },
+    {
+      "name": "Opacity hierarchy (the core rule)",
+      "bytes": 454,
+      "when": [
+        "opacity",
+        "hierarchy",
+        "core",
+        "rule"
+      ]
+    },
+    {
+      "name": "Accent color",
+      "bytes": 592,
+      "when": [
+        "accent",
+        "color"
+      ]
+    },
+    {
+      "name": "Spacing & Grid",
+      "bytes": 816,
+      "when": [
+        "spacing",
+        "grid"
+      ]
+    },
+    {
+      "name": "Responsive Design",
+      "bytes": 2062,
+      "when": [
+        "responsive",
+        "design"
+      ]
+    },
+    {
+      "name": "Dark Mode",
+      "bytes": 926,
+      "when": [
+        "dark",
+        "mode"
+      ]
+    },
+    {
+      "name": "`color-scheme`",
+      "bytes": 633,
+      "when": [
+        "color",
+        "scheme"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2077,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Behavior, accessibility, and quality",
+      "bytes": 829,
+      "when": [
+        "behavior",
+        "accessibility",
+        "quality"
+      ]
+    },
+    {
+      "name": "When to read reference files",
+      "bytes": 455,
+      "when": [
+        "read",
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "principles",
+    "typographic",
+    "details",
+    "light",
+    "mode",
+    "dark",
+    "core",
+    "rule",
+    "accent",
+    "spacing",
+    "responsive",
+    "scheme"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\swiss-design-skill\\swiss-design\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,154 @@
+{
+  "id": "mengto-skills__article-prompts-to-skills",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "f18c854385fb272cf098fedb907af66e1b8f3359bc1a8212ae75f7161d89fff2",
+  "purpose": "Convert an article, tutorial, or prompt pack into focused reusable AgentSkills, one independent capability per skill, with portable instructions, example prompts, working demos, preview screenshots, v",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Convert an article, tutorial, or prompt pack into focused reusable AgentSkills, one independent capability per skill, with portable instructions, example prompt"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1646,
+  "core_bytes": 6587,
+  "sections": [
+    {
+      "name": "1. Inspect Before Extracting",
+      "bytes": 566,
+      "when": [
+        "inspect",
+        "before",
+        "extracting"
+      ]
+    },
+    {
+      "name": "2. Build an Extraction Ledger",
+      "bytes": 606,
+      "when": [
+        "build",
+        "extraction",
+        "ledger"
+      ]
+    },
+    {
+      "name": "3. Extract the Portable Contract",
+      "bytes": 737,
+      "when": [
+        "extract",
+        "portable",
+        "contract"
+      ]
+    },
+    {
+      "name": "4. Package Every Skill",
+      "bytes": 970,
+      "when": [
+        "package",
+        "skill"
+      ]
+    },
+    {
+      "name": "5. Write Three Useful Example Prompts",
+      "bytes": 701,
+      "when": [
+        "write",
+        "three",
+        "useful",
+        "example",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Minimal prompt",
+      "bytes": 139,
+      "when": [
+        "minimal",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Recreate the demo",
+      "bytes": 176,
+      "when": [
+        "recreate",
+        "demo"
+      ]
+    },
+    {
+      "name": "Remix prompt",
+      "bytes": 299,
+      "when": [
+        "remix",
+        "prompt"
+      ]
+    },
+    {
+      "name": "6. Build Proof, Not Decoration",
+      "bytes": 648,
+      "when": [
+        "build",
+        "proof",
+        "decoration"
+      ]
+    },
+    {
+      "name": "7. Validate the Complete Package",
+      "bytes": 734,
+      "when": [
+        "validate",
+        "complete",
+        "package"
+      ]
+    },
+    {
+      "name": "8. Commit Only the Task",
+      "bytes": 412,
+      "when": [
+        "commit",
+        "task"
+      ]
+    },
+    {
+      "name": "Failure Modes",
+      "bytes": 559,
+      "when": [
+        "failure",
+        "modes"
+      ]
+    }
+  ],
+  "keywords": [
+    "inspect",
+    "before",
+    "extracting",
+    "build",
+    "extraction",
+    "ledger",
+    "extract",
+    "contract",
+    "package",
+    "write",
+    "three",
+    "useful"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\article-prompts-to-skills\\SKILL.md"
+}

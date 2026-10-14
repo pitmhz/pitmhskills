@@ -31,7 +31,42 @@
   "conflicts_with": [],
   "body_tokens": 2842,
   "core_bytes": 11366,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Required Flow",
+      "bytes": 6719,
+      "when": [
+        "required",
+        "flow"
+      ]
+    },
+    {
+      "name": "Common Routes",
+      "bytes": 1633,
+      "when": [
+        "common",
+        "routes"
+      ]
+    },
+    {
+      "name": "Environment Rules",
+      "bytes": 1293,
+      "when": [
+        "environment",
+        "rules"
+      ]
+    },
+    {
+      "name": "Reference Rules",
+      "bytes": 958,
+      "when": [
+        "reference",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "dotnet build"
+  ],
   "skill_path": "skills/openai/skills/.curated/winui-app/SKILL.md"
 }

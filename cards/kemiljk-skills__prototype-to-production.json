@@ -1,0 +1,85 @@
+{
+  "id": "kemiljk-skills__prototype-to-production",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "a77120f24760b0d65cc4833903d98f4f393224b031731ae233222d20e6a5a22b",
+  "purpose": "Harden an existing prototype for real use, including failure states, accessibility, security boundaries, and maintainability.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Harden an existing prototype for real use, including failure states, accessibility, security boundaries, and maintainability."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Harden a prototype for production -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "harden prototype failure states security",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 535,
+  "core_bytes": 2138,
+  "sections": [
+    {
+      "name": "Defaults",
+      "bytes": 339,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Hardening map",
+      "bytes": 446,
+      "when": [
+        "hardening"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 396,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 462,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Source essays",
+      "bytes": 149,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "production",
+    "defaults",
+    "hardening",
+    "prefer",
+    "reject",
+    "review",
+    "checklist",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\prototype-to-production\\SKILL.md"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "emilkowalski__animate",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "6e7a0d28864bd9cb658913049df6944ce320a3646ac0e339ba8c7d99a9e764e5",
+  "purpose": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and durati",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Build a new animation from scratch -> this. Audit/fix existing motion -> the variant below.",
+  "cluster": "frontend-motion",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2997,
+  "core_bytes": 12067,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 655,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 712,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 641,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "The Build Sequence",
+      "bytes": 7116,
+      "when": [
+        "build",
+        "sequence"
+      ]
+    },
+    {
+      "name": "1. Should this animate at all?",
+      "bytes": 794,
+      "when": [
+        "animate"
+      ]
+    },
+    {
+      "name": "2. What is the purpose?",
+      "bytes": 799,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "3. Pick the tool — cheapest that works",
+      "bytes": 1100,
+      "when": [
+        "pick",
+        "tool",
+        "cheapest",
+        "works"
+      ]
+    },
+    {
+      "name": "4. Pick the properties",
+      "bytes": 1309,
+      "when": [
+        "pick",
+        "properties"
+      ]
+    },
+    {
+      "name": "5. Easing and duration — or a spring",
+      "bytes": 1815,
+      "when": [
+        "easing",
+        "duration",
+        "spring"
+      ]
+    },
+    {
+      "name": "6. Interruption and exit",
+      "bytes": 657,
+      "when": [
+        "interruption",
+        "exit"
+      ]
+    },
+    {
+      "name": "7. Reduced motion and pointer gating",
+      "bytes": 617,
+      "when": [
+        "reduced",
+        "motion",
+        "pointer",
+        "gating"
+      ]
+    },
+    {
+      "name": "Recipes",
+      "bytes": 363,
+      "when": [
+        "recipes"
+      ]
+    },
+    {
+      "name": "Never Ship",
+      "bytes": 1091,
+      "when": [
+        "ship"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 717,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 231,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "keywords": [
+    "building",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "sequence",
+    "pick",
+    "cheapest",
+    "works",
+    "easing",
+    "spring"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\animate\\SKILL.md"
+}

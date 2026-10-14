@@ -1,0 +1,322 @@
+{
+  "id": "awesome-copilot__codeql",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "81503394c7c0595756d18a47e0b626dfd1dc6cf4673d40e9be23349a66fa5d27",
+  "purpose": "Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows and the CodeQL CLI. This skill should be used when users need help with code scanning configuration",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows and the CodeQL CLI. This skill should be used when users ne"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3355,
+  "core_bytes": 13489,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 660,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Supported Languages",
+      "bytes": 609,
+      "when": [
+        "supported",
+        "languages"
+      ]
+    },
+    {
+      "name": "Core Workflow — GitHub Actions",
+      "bytes": 4173,
+      "when": [
+        "core",
+        "workflow",
+        "github",
+        "actions"
+      ]
+    },
+    {
+      "name": "Step 1: Choose Setup Type",
+      "bytes": 457,
+      "when": [
+        "step",
+        "choose",
+        "setup",
+        "type"
+      ]
+    },
+    {
+      "name": "Step 2: Configure Workflow Triggers",
+      "bytes": 759,
+      "when": [
+        "step",
+        "configure",
+        "workflow",
+        "triggers"
+      ]
+    },
+    {
+      "name": "Step 3: Configure Permissions",
+      "bytes": 290,
+      "when": [
+        "step",
+        "configure",
+        "permissions"
+      ]
+    },
+    {
+      "name": "Step 4: Configure Language Matrix",
+      "bytes": 746,
+      "when": [
+        "step",
+        "configure",
+        "language",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Step 5: Configure CodeQL Init and Analysis",
+      "bytes": 992,
+      "when": [
+        "step",
+        "configure",
+        "codeql",
+        "init",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 6: Monorepo Configuration",
+      "bytes": 559,
+      "when": [
+        "step",
+        "monorepo",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Step 7: Manual Build Steps (Compiled Languages)",
+      "bytes": 333,
+      "when": [
+        "step",
+        "manual",
+        "build",
+        "steps",
+        "compiled",
+        "languages"
+      ]
+    },
+    {
+      "name": "Core Workflow — CodeQL CLI",
+      "bytes": 1700,
+      "when": [
+        "core",
+        "workflow",
+        "codeql"
+      ]
+    },
+    {
+      "name": "Step 1: Install the CodeQL CLI",
+      "bytes": 468,
+      "when": [
+        "step",
+        "install",
+        "codeql"
+      ]
+    },
+    {
+      "name": "Step 2: Create a CodeQL Database",
+      "bytes": 391,
+      "when": [
+        "step",
+        "create",
+        "codeql",
+        "database"
+      ]
+    },
+    {
+      "name": "Step 3: Analyze the Database",
+      "bytes": 328,
+      "when": [
+        "step",
+        "analyze",
+        "database"
+      ]
+    },
+    {
+      "name": "Step 4: Upload Results to GitHub",
+      "bytes": 274,
+      "when": [
+        "step",
+        "upload",
+        "results",
+        "github"
+      ]
+    },
+    {
+      "name": "CLI Server Mode",
+      "bytes": 206,
+      "when": [
+        "server",
+        "mode"
+      ]
+    },
+    {
+      "name": "Alert Management",
+      "bytes": 819,
+      "when": [
+        "alert",
+        "management"
+      ]
+    },
+    {
+      "name": "Severity Levels",
+      "bytes": 225,
+      "when": [
+        "severity",
+        "levels"
+      ]
+    },
+    {
+      "name": "Copilot Autofix",
+      "bytes": 206,
+      "when": [
+        "copilot",
+        "autofix"
+      ]
+    },
+    {
+      "name": "Alert Triage in PRs",
+      "bytes": 367,
+      "when": [
+        "alert",
+        "triage"
+      ]
+    },
+    {
+      "name": "Custom Queries and Packs",
+      "bytes": 790,
+      "when": [
+        "custom",
+        "queries",
+        "packs"
+      ]
+    },
+    {
+      "name": "Using Custom Query Packs",
+      "bytes": 192,
+      "when": [
+        "custom",
+        "query",
+        "packs"
+      ]
+    },
+    {
+      "name": "Creating Custom Query Packs",
+      "bytes": 258,
+      "when": [
+        "creating",
+        "custom",
+        "query",
+        "packs"
+      ]
+    },
+    {
+      "name": "CodeQL Configuration File",
+      "bytes": 311,
+      "when": [
+        "codeql",
+        "configuration",
+        "file"
+      ]
+    },
+    {
+      "name": "Code Scanning Logs",
+      "bytes": 521,
+      "when": [
+        "code",
+        "scanning",
+        "logs"
+      ]
+    },
+    {
+      "name": "Summary Metrics",
+      "bytes": 294,
+      "when": [
+        "summary",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Debug Logging",
+      "bytes": 204,
+      "when": [
+        "debug",
+        "logging"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2072,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Common Issues",
+      "bytes": 1491,
+      "when": [
+        "common",
+        "issues"
+      ]
+    },
+    {
+      "name": "Hardware Requirements (Self-Hosted Runners)",
+      "bytes": 270,
+      "when": [
+        "hardware",
+        "requirements",
+        "self",
+        "hosted",
+        "runners"
+      ]
+    },
+    {
+      "name": "Action Versioning",
+      "bytes": 291,
+      "when": [
+        "action",
+        "versioning"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 1602,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\codeql\\SKILL.md"
+}

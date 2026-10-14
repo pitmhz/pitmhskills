@@ -1,0 +1,64 @@
+{
+  "id": "mengto-skills__design-game-encounters",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "af14c35ed59c30b0ad15196b68be6277d7d73a8407c4fec1dbeb7a201ec29d86",
+  "purpose": "Design, implement, tune, or test Three.js action-game encounters. Use for arena layout, enemy composition, spawn pacing, objectives, boss phases, reward cadence, encounter fixtures, and difficulty val",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design, implement, tune, or test Three.js action-game encounters. Use for arena layout, enemy composition, spawn pacing, objectives, boss phases, reward cadence"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 264,
+  "core_bytes": 1053,
+  "sections": [
+    {
+      "name": "Compose",
+      "bytes": 232,
+      "when": [
+        "compose"
+      ]
+    },
+    {
+      "name": "Keep it fair",
+      "bytes": 229,
+      "when": [
+        "keep",
+        "fair"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 246,
+      "when": [
+        "validate"
+      ]
+    }
+  ],
+  "keywords": [
+    "compose",
+    "keep",
+    "fair",
+    "validate"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\design-game-encounters\\SKILL.md"
+}

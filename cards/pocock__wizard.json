@@ -27,7 +27,52 @@
   "conflicts_with": [],
   "body_tokens": 1040,
   "core_bytes": 4167,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/wizard/SKILL.md"
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 2661,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "1. Scope the procedure",
+      "bytes": 872,
+      "when": [
+        "scope",
+        "procedure"
+      ]
+    },
+    {
+      "name": "2. Map each stage's journey",
+      "bytes": 491,
+      "when": [
+        "each",
+        "stage",
+        "journey"
+      ]
+    },
+    {
+      "name": "3. Author the wizard",
+      "bytes": 762,
+      "when": [
+        "author",
+        "wizard"
+      ]
+    },
+    {
+      "name": "4. Verify and hand off",
+      "bytes": 522,
+      "when": [
+        "verify",
+        "hand"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/wizard/SKILL.md",
+  "curated": true
 }

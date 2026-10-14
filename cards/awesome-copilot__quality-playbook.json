@@ -1,0 +1,1041 @@
+{
+  "id": "awesome-copilot__quality-playbook",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2b6f0e36e5427d81d94b2ac35ec6e657c57fb9434ba0d9a011b0e462b04ae729",
+  "purpose": "Run a complete quality engineering audit on any codebase. Derives behavioral requirements from the code, generates spec-traced functional tests, runs a three-pass code review with regression tests, ex",
+  "domain": "memory",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Run a complete quality engineering audit on any codebase. Derives behavioral requirements from the code, generates spec-traced functional tests, runs a three-pa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 73092,
+  "core_bytes": 294426,
+  "sections": [
+    {
+      "name": "Plan Overview — read this first, then explain it to the user",
+      "bytes": 4001,
+      "when": [
+        "plan",
+        "overview",
+        "read",
+        "first",
+        "explain",
+        "user"
+      ]
+    },
+    {
+      "name": "How to run this — v1.5.4 self-encoded invocation contract",
+      "bytes": 18418,
+      "when": [
+        "self",
+        "encoded",
+        "invocation",
+        "contract"
+      ]
+    },
+    {
+      "name": "Pick your execution mode",
+      "bytes": 1843,
+      "when": [
+        "pick",
+        "execution",
+        "mode"
+      ]
+    },
+    {
+      "name": "Mode A — skill-direct walkthrough (UI-context)",
+      "bytes": 3763,
+      "when": [
+        "mode",
+        "skill",
+        "direct",
+        "walkthrough",
+        "context"
+      ]
+    },
+    {
+      "name": "Mode B — runner-driven invocation (CLI-automation)",
+      "bytes": 3007,
+      "when": [
+        "mode",
+        "runner",
+        "driven",
+        "invocation",
+        "automation"
+      ]
+    },
+    {
+      "name": "Bootstrap mode (running QPB on itself)",
+      "bytes": 1704,
+      "when": [
+        "bootstrap",
+        "mode",
+        "running",
+        "itself"
+      ]
+    },
+    {
+      "name": "v1.5.4 mechanics (pointer-style, not duplicating the design doc)",
+      "bytes": 1947,
+      "when": [
+        "mechanics",
+        "pointer",
+        "style",
+        "duplicating",
+        "design"
+      ]
+    },
+    {
+      "name": "Guardrails (machine-checkable; treat as hard constraints)",
+      "bytes": 3078,
+      "when": [
+        "guardrails",
+        "machine",
+        "checkable",
+        "treat",
+        "hard",
+        "constraints"
+      ]
+    },
+    {
+      "name": "What this run produces — output artifact contract",
+      "bytes": 1795,
+      "when": [
+        "produces",
+        "output",
+        "artifact",
+        "contract"
+      ]
+    },
+    {
+      "name": "Locating reference files",
+      "bytes": 797,
+      "when": [
+        "locating",
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Why This Exists",
+      "bytes": 698,
+      "when": [
+        "exists"
+      ]
+    },
+    {
+      "name": "What This Skill Produces",
+      "bytes": 10701,
+      "when": [
+        "skill",
+        "produces"
+      ]
+    },
+    {
+      "name": "Complete Artifact Contract",
+      "bytes": 3851,
+      "when": [
+        "complete",
+        "artifact",
+        "contract"
+      ]
+    },
+    {
+      "name": "Sidecar JSON Canonical Examples",
+      "bytes": 1446,
+      "when": [
+        "sidecar",
+        "json",
+        "canonical",
+        "examples"
+      ]
+    },
+    {
+      "name": "Run Metadata",
+      "bytes": 1493,
+      "when": [
+        "metadata"
+      ]
+    },
+    {
+      "name": "How to Use",
+      "bytes": 9267,
+      "when": []
+    },
+    {
+      "name": "Interactive protocol — how to guide the user",
+      "bytes": 2543,
+      "when": [
+        "interactive",
+        "protocol",
+        "guide",
+        "user"
+      ]
+    },
+    {
+      "name": "Documentation warning",
+      "bytes": 995,
+      "when": [
+        "documentation",
+        "warning"
+      ]
+    },
+    {
+      "name": "Running a specific phase",
+      "bytes": 374,
+      "when": [
+        "running",
+        "specific",
+        "phase"
+      ]
+    },
+    {
+      "name": "Iteration mode — improve on a previous run",
+      "bytes": 2861,
+      "when": [
+        "iteration",
+        "mode",
+        "improve",
+        "previous"
+      ]
+    },
+    {
+      "name": "Phase-by-phase execution",
+      "bytes": 1856,
+      "when": [
+        "phase",
+        "execution"
+      ]
+    },
+    {
+      "name": "Run-state instrumentation (v1.5.6 — write events as you go)",
+      "bytes": 7558,
+      "when": [
+        "state",
+        "instrumentation",
+        "write",
+        "events"
+      ]
+    },
+    {
+      "name": "Initialization (before any phase work, including Phase 0)",
+      "bytes": 1217,
+      "when": [
+        "initialization",
+        "before",
+        "phase",
+        "work",
+        "including"
+      ]
+    },
+    {
+      "name": "Per-phase events",
+      "bytes": 1779,
+      "when": [
+        "phase",
+        "events"
+      ]
+    },
+    {
+      "name": "Cross-validation rules at phase_end",
+      "bytes": 2137,
+      "when": [
+        "cross",
+        "validation",
+        "rules",
+        "phase"
+      ]
+    },
+    {
+      "name": "Resume semantics",
+      "bytes": 1032,
+      "when": [
+        "resume",
+        "semantics"
+      ]
+    },
+    {
+      "name": "PROGRESS.md atomic rewrite",
+      "bytes": 664,
+      "when": [
+        "progress",
+        "atomic",
+        "rewrite"
+      ]
+    },
+    {
+      "name": "Phase 0: Prior Run Analysis (Automatic)",
+      "bytes": 1201,
+      "when": [
+        "phase",
+        "prior",
+        "analysis",
+        "automatic"
+      ]
+    },
+    {
+      "name": "Seed Checks (from N prior runs)",
+      "bytes": 4241,
+      "when": [
+        "seed",
+        "checks",
+        "prior",
+        "runs"
+      ]
+    },
+    {
+      "name": "Phase 0b: Sibling-Run Seed Discovery (Automatic)",
+      "bytes": 2123,
+      "when": [
+        "phase",
+        "sibling",
+        "seed",
+        "discovery",
+        "automatic"
+      ]
+    },
+    {
+      "name": "Phase 1: Explore the Codebase (Write As You Go)",
+      "bytes": 67045,
+      "when": [
+        "phase",
+        "explore",
+        "codebase",
+        "write"
+      ]
+    },
+    {
+      "name": "Step 0: Ask About Development History",
+      "bytes": 2404,
+      "when": [
+        "step",
+        "development",
+        "history"
+      ]
+    },
+    {
+      "name": "Step 1: Identify Domain, Stack, and Specifications",
+      "bytes": 2033,
+      "when": [
+        "step",
+        "identify",
+        "domain",
+        "stack",
+        "specifications"
+      ]
+    },
+    {
+      "name": "Step 1b: Evaluate Documentation Depth",
+      "bytes": 2903,
+      "when": [
+        "step",
+        "evaluate",
+        "documentation",
+        "depth"
+      ]
+    },
+    {
+      "name": "Step 2: Map the Architecture",
+      "bytes": 270,
+      "when": [
+        "step",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Step 3: Read Existing Tests",
+      "bytes": 1049,
+      "when": [
+        "step",
+        "read",
+        "existing",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 4: Read the Specifications",
+      "bytes": 529,
+      "when": [
+        "step",
+        "read",
+        "specifications"
+      ]
+    },
+    {
+      "name": "Step 4b: Read Function Signatures and Real Data",
+      "bytes": 1563,
+      "when": [
+        "step",
+        "read",
+        "function",
+        "signatures",
+        "real",
+        "data"
+      ]
+    },
+    {
+      "name": "Step 5: Find the Skeletons",
+      "bytes": 956,
+      "when": [
+        "step",
+        "find",
+        "skeletons"
+      ]
+    },
+    {
+      "name": "Step 5a: Trace State Machines",
+      "bytes": 2025,
+      "when": [
+        "step",
+        "trace",
+        "state",
+        "machines"
+      ]
+    },
+    {
+      "name": "Step 5b: Map Schema Types",
+      "bytes": 453,
+      "when": [
+        "step",
+        "schema",
+        "types"
+      ]
+    },
+    {
+      "name": "Step 6: Domain-Knowledge Risk Analysis (Code + Domain Knowledge)",
+      "bytes": 5771,
+      "when": [
+        "step",
+        "domain",
+        "knowledge",
+        "risk",
+        "analysis",
+        "code"
+      ]
+    },
+    {
+      "name": "Step 7: Derive Testable Requirements",
+      "bytes": 29578,
+      "when": [
+        "step",
+        "derive",
+        "testable",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Checkpoint: Update PROGRESS.md after Phase 1",
+      "bytes": 2973,
+      "when": [
+        "checkpoint",
+        "update",
+        "progress",
+        "after",
+        "phase"
+      ]
+    },
+    {
+      "name": "Run metadata",
+      "bytes": 192,
+      "when": [
+        "metadata"
+      ]
+    },
+    {
+      "name": "Phase completion",
+      "bytes": 588,
+      "when": [
+        "phase",
+        "completion"
+      ]
+    },
+    {
+      "name": "Artifact inventory",
+      "bytes": 719,
+      "when": [
+        "artifact",
+        "inventory"
+      ]
+    },
+    {
+      "name": "Cumulative BUG tracker",
+      "bytes": 1090,
+      "when": [
+        "cumulative",
+        "tracker"
+      ]
+    },
+    {
+      "name": "Terminal Gate Verification",
+      "bytes": 105,
+      "when": [
+        "terminal",
+        "gate",
+        "verification"
+      ]
+    },
+    {
+      "name": "Exploration summary",
+      "bytes": 633,
+      "when": [
+        "exploration",
+        "summary"
+      ]
+    },
+    {
+      "name": "Write exploration findings to disk",
+      "bytes": 351,
+      "when": [
+        "write",
+        "exploration",
+        "findings",
+        "disk"
+      ]
+    },
+    {
+      "name": "Domain and Stack",
+      "bytes": 76,
+      "when": [
+        "domain",
+        "stack"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "bytes": 82,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "Existing Tests",
+      "bytes": 70,
+      "when": [
+        "existing",
+        "tests"
+      ]
+    },
+    {
+      "name": "Specifications",
+      "bytes": 88,
+      "when": [
+        "specifications"
+      ]
+    },
+    {
+      "name": "Open Exploration Findings",
+      "bytes": 278,
+      "when": [
+        "open",
+        "exploration",
+        "findings"
+      ]
+    },
+    {
+      "name": "Quality Risks",
+      "bytes": 539,
+      "when": [
+        "quality",
+        "risks"
+      ]
+    },
+    {
+      "name": "Skeletons and Dispatch",
+      "bytes": 110,
+      "when": [
+        "skeletons",
+        "dispatch"
+      ]
+    },
+    {
+      "name": "Pattern Applicability Matrix",
+      "bytes": 554,
+      "when": [
+        "pattern",
+        "applicability",
+        "matrix"
+      ]
+    },
+    {
+      "name": "Pattern Deep Dive — [Pattern Name]",
+      "bytes": 297,
+      "when": [
+        "pattern",
+        "deep",
+        "dive",
+        "name"
+      ]
+    },
+    {
+      "name": "Pattern Deep Dive — [Pattern Name]",
+      "bytes": 115,
+      "when": [
+        "pattern",
+        "deep",
+        "dive",
+        "name"
+      ]
+    },
+    {
+      "name": "Pattern Deep Dive — [Pattern Name]",
+      "bytes": 70,
+      "when": [
+        "pattern",
+        "deep",
+        "dive",
+        "name"
+      ]
+    },
+    {
+      "name": "Candidate Bugs for Phase 2",
+      "bytes": 352,
+      "when": [
+        "candidate",
+        "bugs",
+        "phase"
+      ]
+    },
+    {
+      "name": "Derived Requirements",
+      "bytes": 82,
+      "when": [
+        "derived",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Derived Use Cases",
+      "bytes": 88,
+      "when": [
+        "derived",
+        "cases"
+      ]
+    },
+    {
+      "name": "Notes for Artifact Generation",
+      "bytes": 130,
+      "when": [
+        "notes",
+        "artifact",
+        "generation"
+      ]
+    },
+    {
+      "name": "Gate Self-Check",
+      "bytes": 6748,
+      "when": [
+        "gate",
+        "self",
+        "check"
+      ]
+    },
+    {
+      "name": "Phase 2: Generate the Quality Playbook",
+      "bytes": 85070,
+      "when": [
+        "phase",
+        "generate",
+        "quality",
+        "playbook"
+      ]
+    },
+    {
+      "name": "v1.5.3 JSON manifest discipline (read before writing any artifact)",
+      "bytes": 2671,
+      "when": [
+        "json",
+        "manifest",
+        "discipline",
+        "read",
+        "before",
+        "writing",
+        "artifact"
+      ]
+    },
+    {
+      "name": "File 1: `quality/QUALITY.md` — Quality Constitution",
+      "bytes": 2755,
+      "when": [
+        "file",
+        "quality",
+        "constitution"
+      ]
+    },
+    {
+      "name": "File 2: Functional Tests",
+      "bytes": 2082,
+      "when": [
+        "file",
+        "functional",
+        "tests"
+      ]
+    },
+    {
+      "name": "File 3: `quality/RUN_CODE_REVIEW.md`",
+      "bytes": 31719,
+      "when": [
+        "file",
+        "quality",
+        "code",
+        "review"
+      ]
+    },
+    {
+      "name": "File 4: `quality/RUN_INTEGRATION_TESTS.md`",
+      "bytes": 12593,
+      "when": [
+        "file",
+        "quality",
+        "integration",
+        "tests"
+      ]
+    },
+    {
+      "name": "File 5: `quality/RUN_SPEC_AUDIT.md` — Council of Three",
+      "bytes": 4989,
+      "when": [
+        "file",
+        "quality",
+        "spec",
+        "audit",
+        "council",
+        "three"
+      ]
+    },
+    {
+      "name": "File 6: `AGENTS.md` (orchestrator-generated; you do NOT write this in Phase 2)",
+      "bytes": 1992,
+      "when": [
+        "file",
+        "agents",
+        "orchestrator",
+        "generated",
+        "write",
+        "phase"
+      ]
+    },
+    {
+      "name": "File 7: `quality/RUN_TDD_TESTS.md` — TDD Verification Protocol",
+      "bytes": 15357,
+      "when": [
+        "file",
+        "quality",
+        "tests",
+        "verification",
+        "protocol"
+      ]
+    },
+    {
+      "name": "Checkpoint: Update PROGRESS.md after artifact generation",
+      "bytes": 2091,
+      "when": [
+        "checkpoint",
+        "update",
+        "progress",
+        "after",
+        "artifact",
+        "generation"
+      ]
+    },
+    {
+      "name": "Phase 3: Code Review and Regression Tests",
+      "bytes": 1516,
+      "when": [
+        "phase",
+        "code",
+        "review",
+        "regression",
+        "tests"
+      ]
+    },
+    {
+      "name": "Phase 4: Spec Audit and Triage",
+      "bytes": 8434,
+      "when": [
+        "phase",
+        "spec",
+        "audit",
+        "triage"
+      ]
+    },
+    {
+      "name": "Layer 2 — Semantic Citation Check (v1.5.3 Council sub-pass)",
+      "bytes": 2744,
+      "when": [
+        "layer",
+        "semantic",
+        "citation",
+        "check",
+        "council",
+        "pass"
+      ]
+    },
+    {
+      "name": "Post-spec-audit regression tests",
+      "bytes": 2830,
+      "when": [
+        "post",
+        "spec",
+        "audit",
+        "regression",
+        "tests"
+      ]
+    },
+    {
+      "name": "Phase 5: Post-Review Reconciliation and Closure Verification",
+      "bytes": 23342,
+      "when": [
+        "phase",
+        "post",
+        "review",
+        "reconciliation",
+        "closure",
+        "verification"
+      ]
+    },
+    {
+      "name": "Phase 6: Verify",
+      "bytes": 11880,
+      "when": [
+        "phase",
+        "verify"
+      ]
+    },
+    {
+      "name": "Step 6.1: Mechanical Verification Closure (mandatory first step)",
+      "bytes": 1539,
+      "when": [
+        "step",
+        "mechanical",
+        "verification",
+        "closure",
+        "mandatory",
+        "first"
+      ]
+    },
+    {
+      "name": "Step 6.2: Run quality_gate.py (script-verified checks)",
+      "bytes": 2134,
+      "when": [
+        "step",
+        "quality",
+        "gate",
+        "script",
+        "verified",
+        "checks"
+      ]
+    },
+    {
+      "name": "Step 6.3: Test execution verification",
+      "bytes": 909,
+      "when": [
+        "step",
+        "test",
+        "execution",
+        "verification"
+      ]
+    },
+    {
+      "name": "Step 6.4: Verification checklist — file-by-file checks",
+      "bytes": 2381,
+      "when": [
+        "step",
+        "verification",
+        "checklist",
+        "file",
+        "checks"
+      ]
+    },
+    {
+      "name": "Step 6.5: Metadata Consistency Check",
+      "bytes": 993,
+      "when": [
+        "step",
+        "metadata",
+        "consistency",
+        "check"
+      ]
+    },
+    {
+      "name": "Checkpoint: Finalize PROGRESS.md",
+      "bytes": 1580,
+      "when": [
+        "checkpoint",
+        "finalize",
+        "progress"
+      ]
+    },
+    {
+      "name": "Convergence Check (continuation mode only)",
+      "bytes": 855,
+      "when": [
+        "convergence",
+        "check",
+        "continuation",
+        "mode"
+      ]
+    },
+    {
+      "name": "Convergence",
+      "bytes": 5587,
+      "when": [
+        "convergence"
+      ]
+    },
+    {
+      "name": "Recheck Mode — Verify Bug Fixes",
+      "bytes": 4117,
+      "when": [
+        "recheck",
+        "mode",
+        "verify",
+        "fixes"
+      ]
+    },
+    {
+      "name": "Recheck procedure",
+      "bytes": 3370,
+      "when": [
+        "recheck",
+        "procedure"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 151,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Per-Bug Results",
+      "bytes": 285,
+      "when": [
+        "results"
+      ]
+    },
+    {
+      "name": "Still Open — Details",
+      "bytes": 1192,
+      "when": [
+        "still",
+        "open",
+        "details"
+      ]
+    },
+    {
+      "name": "Triggering recheck mode",
+      "bytes": 373,
+      "when": [
+        "triggering",
+        "recheck",
+        "mode"
+      ]
+    },
+    {
+      "name": "Phase 7: Present, Explore, Improve (Interactive)",
+      "bytes": 10339,
+      "when": [
+        "phase",
+        "present",
+        "explore",
+        "improve",
+        "interactive"
+      ]
+    },
+    {
+      "name": "Part 1: The Summary Table",
+      "bytes": 2942,
+      "when": [
+        "part",
+        "summary",
+        "table"
+      ]
+    },
+    {
+      "name": "Part 2: Drill-Down on Demand",
+      "bytes": 855,
+      "when": [
+        "part",
+        "drill",
+        "down",
+        "demand"
+      ]
+    },
+    {
+      "name": "Part 3: The Improvement Menu",
+      "bytes": 2401,
+      "when": [
+        "part",
+        "improvement",
+        "menu"
+      ]
+    },
+    {
+      "name": "Executing Each Improvement Path",
+      "bytes": 3273,
+      "when": [
+        "executing",
+        "each",
+        "improvement",
+        "path"
+      ]
+    },
+    {
+      "name": "Iteration",
+      "bytes": 227,
+      "when": [
+        "iteration"
+      ]
+    },
+    {
+      "name": "Fixture Strategy",
+      "bytes": 1152,
+      "when": [
+        "fixture",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Terminology",
+      "bytes": 738,
+      "when": [
+        "terminology"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 1498,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 1797,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\quality-playbook\\SKILL.md"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "nvidia__nemo-relay-plugin-adaptive-tuning",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0b20f10350070ca1f2857289b6ea7260f0f73832698d7759e4accffd8489833d",
+  "purpose": "Use this skill when baseline NeMo Relay instrumentation exists and the user wants to configure or evaluate adaptive plugin behavior, including telemetry, state, adaptive_hints, tool_parallelism, ACG, ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when baseline NeMo Relay instrumentation exists and the user wants to configure or evaluate adaptive plugin behavior, including telemetry, state,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1155,
+  "core_bytes": 4619,
+  "sections": [
+    {
+      "name": "Use This When",
+      "bytes": 265,
+      "when": []
+    },
+    {
+      "name": "Do Not Use This When",
+      "bytes": 175,
+      "when": []
+    },
+    {
+      "name": "Default Guidance",
+      "bytes": 540,
+      "when": [
+        "default",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Embedded Adaptive Model",
+      "bytes": 875,
+      "when": [
+        "embedded",
+        "adaptive",
+        "model"
+      ]
+    },
+    {
+      "name": "Default Path",
+      "bytes": 1190,
+      "when": [
+        "default",
+        "path"
+      ]
+    },
+    {
+      "name": "Failure Modes To Avoid",
+      "bytes": 642,
+      "when": [
+        "failure",
+        "modes",
+        "avoid"
+      ]
+    },
+    {
+      "name": "Load A Reference When",
+      "bytes": 202,
+      "when": [
+        "load",
+        "reference"
+      ]
+    },
+    {
+      "name": "Use Another Skill When",
+      "bytes": 164,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 148,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-relay-plugin-adaptive-tuning/SKILL.md",
+  "curated": true
+}

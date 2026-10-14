@@ -1,0 +1,113 @@
+{
+  "id": "mengto-skills__tailwindcss",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "a92dd36c740146a2ccac242051e23c4240ca060e47988050da6498e8354fa7c1",
+  "purpose": "Use when designing/implementing UI with Tailwind CSS (layout, typography, responsive, theming, component patterns). Includes quick recipes and conventions for clean, consistent web design.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use when designing/implementing UI with Tailwind CSS (layout, typography, responsive, theming, component patterns). Includes quick recipes and conventions for c"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Tailwind utility-first patterns -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "tailwind utility patterns",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 722,
+  "core_bytes": 2894,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 223,
+      "when": []
+    },
+    {
+      "name": "Key concepts & patterns",
+      "bytes": 651,
+      "when": [
+        "concepts",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 451,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Quick recipes",
+      "bytes": 1079,
+      "when": [
+        "quick",
+        "recipes"
+      ]
+    },
+    {
+      "name": "1) A clean CTA button",
+      "bytes": 331,
+      "when": [
+        "clean",
+        "button"
+      ]
+    },
+    {
+      "name": "2) Responsive hero layout",
+      "bytes": 544,
+      "when": [
+        "responsive",
+        "hero",
+        "layout"
+      ]
+    },
+    {
+      "name": "3) Handling dynamic classnames safely",
+      "bytes": 184,
+      "when": [
+        "handling",
+        "dynamic",
+        "classnames",
+        "safely"
+      ]
+    },
+    {
+      "name": "What to ask the user",
+      "bytes": 206,
+      "when": [
+        "user"
+      ]
+    }
+  ],
+  "keywords": [
+    "utility",
+    "first",
+    "styling",
+    "skill",
+    "concepts",
+    "common",
+    "pitfalls",
+    "button",
+    "hero",
+    "handling",
+    "dynamic",
+    "classnames",
+    "safely"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\tailwindcss\\SKILL.md"
+}

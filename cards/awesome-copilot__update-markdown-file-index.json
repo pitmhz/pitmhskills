@@ -1,0 +1,116 @@
+{
+  "id": "awesome-copilot__update-markdown-file-index",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "0871e50e9f5bcb1e11f0734f66d6fb24de9cce2d26f14548c20fa395c7d3147b",
+  "purpose": "Update a markdown file section with an index/table of files from a specified folder.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Update a markdown file section with an index/table of files from a specified folder."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 668,
+  "core_bytes": 2679,
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 562,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "File Analysis",
+      "bytes": 347,
+      "when": [
+        "file",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Table Structure Options",
+      "bytes": 124,
+      "when": [
+        "table",
+        "structure",
+        "options"
+      ]
+    },
+    {
+      "name": "Option 1: Simple List",
+      "bytes": 39,
+      "when": [
+        "option",
+        "simple",
+        "list"
+      ]
+    },
+    {
+      "name": "Files in ${folder}",
+      "bytes": 483,
+      "when": [
+        "files",
+        "folder"
+      ]
+    },
+    {
+      "name": "Option 2: Detailed Table",
+      "bytes": 243,
+      "when": [
+        "option",
+        "detailed",
+        "table"
+      ]
+    },
+    {
+      "name": "Option 3: Categorized Sections",
+      "bytes": 104,
+      "when": [
+        "option",
+        "categorized",
+        "sections"
+      ]
+    },
+    {
+      "name": "Update Strategy",
+      "bytes": 375,
+      "when": [
+        "update",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Section Identification",
+      "bytes": 253,
+      "when": [
+        "section",
+        "identification"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 271,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\update-markdown-file-index\\SKILL.md"
+}

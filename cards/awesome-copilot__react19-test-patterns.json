@@ -1,0 +1,77 @@
+{
+  "id": "awesome-copilot__react19-test-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c3eac6a63114127eacc0562b98514e80d415e194bac9d59e0d72dded7824c94d",
+  "purpose": "Provides before/after patterns for migrating test files to React 19 compatibility, including act() imports, Simulate removal, and StrictMode call count changes.",
+  "domain": "frontend",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Provides before/after patterns for migrating test files to React 19 compatibility, including act() imports, Simulate removal, and StrictMode call count changes."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 791,
+  "core_bytes": 3167,
+  "sections": [
+    {
+      "name": "Priority Order",
+      "bytes": 478,
+      "when": [
+        "priority",
+        "order"
+      ]
+    },
+    {
+      "name": "1. act() Import Fix",
+      "bytes": 455,
+      "when": [
+        "import"
+      ]
+    },
+    {
+      "name": "2. Simulate → fireEvent",
+      "bytes": 528,
+      "when": [
+        "simulate",
+        "fireevent"
+      ]
+    },
+    {
+      "name": "3. react-dom/test-utils Full API Map",
+      "bytes": 594,
+      "when": [
+        "react",
+        "test",
+        "utils",
+        "full"
+      ]
+    },
+    {
+      "name": "4. StrictMode Call Count Fixes",
+      "bytes": 801,
+      "when": [
+        "strictmode",
+        "call",
+        "count",
+        "fixes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react19-test-patterns\\SKILL.md"
+}

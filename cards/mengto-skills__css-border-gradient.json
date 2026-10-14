@@ -1,0 +1,99 @@
+{
+  "id": "mengto-skills__css-border-gradient",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "e57268e7b1a23e741da948392d2d3734cf9e7918d576f2f9b7dce1563e1cafd2",
+  "purpose": "Apply subtle gradient-border treatments for premium web surfaces. Use when cards, pricing panels, nav bars, modals, buttons, or hero surfaces need a refined edge highlight without a loud glow.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Apply subtle gradient-border treatments for premium web surfaces. Use when cards, pricing panels, nav bars, modals, buttons, or hero surfaces need a refined edg"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 757,
+  "core_bytes": 3025,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 203,
+      "when": []
+    },
+    {
+      "name": "Defaults",
+      "bytes": 278,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Simple CSS Pattern",
+      "bytes": 581,
+      "when": [
+        "simple",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Masked Pattern",
+      "bytes": 664,
+      "when": [
+        "masked",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Tailwind Shortcut",
+      "bytes": 336,
+      "when": [
+        "tailwind",
+        "shortcut"
+      ]
+    },
+    {
+      "name": "Taste Rules",
+      "bytes": 435,
+      "when": [
+        "taste",
+        "rules"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 260,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "gradients",
+    "defaults",
+    "simple",
+    "pattern",
+    "masked",
+    "tailwind",
+    "shortcut",
+    "taste",
+    "rules",
+    "quick",
+    "checks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\css-border-gradient\\SKILL.md"
+}

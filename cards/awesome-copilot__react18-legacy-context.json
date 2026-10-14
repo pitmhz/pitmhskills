@@ -1,0 +1,69 @@
+{
+  "id": "awesome-copilot__react18-legacy-context",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "688905b5520f59b3e1c3990391dd8a6bcdb75b59dd80ec6414c6fea70fd51f2f",
+  "purpose": "Provides the complete migration pattern for React legacy context API (contextTypes, childContextTypes, getChildContext) to the modern createContext API. Use this skill whenever migrating legacy contex",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Provides the complete migration pattern for React legacy context API (contextTypes, childContextTypes, getChildContext) to the modern createContext API. Use thi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 620,
+  "core_bytes": 2484,
+  "sections": [
+    {
+      "name": "This Is Always a Cross-File Migration",
+      "bytes": 372,
+      "when": [
+        "cross",
+        "file",
+        "migration"
+      ]
+    },
+    {
+      "name": "Migration Steps (Always Follow This Order)",
+      "bytes": 392,
+      "when": [
+        "migration",
+        "steps",
+        "follow",
+        "order"
+      ]
+    },
+    {
+      "name": "Scan Commands",
+      "bytes": 425,
+      "when": [
+        "scan",
+        "commands"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 398,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react18-legacy-context\\SKILL.md"
+}

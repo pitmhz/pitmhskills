@@ -27,7 +27,57 @@
   "conflicts_with": [],
   "body_tokens": 739,
   "core_bytes": 2958,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Document structure",
+      "bytes": 560,
+      "when": [
+        "document",
+        "structure"
+      ]
+    },
+    {
+      "name": "Context",
+      "bytes": 119,
+      "when": [
+        "context"
+      ]
+    },
+    {
+      "name": "How to answer",
+      "bytes": 153,
+      "when": [
+        "answer"
+      ]
+    },
+    {
+      "name": "<Theme heading>",
+      "bytes": 486,
+      "when": [
+        "theme",
+        "heading"
+      ]
+    },
+    {
+      "name": "What load is the system expected to handle at launch?",
+      "bytes": 177,
+      "when": [
+        "load",
+        "system",
+        "expected",
+        "handle",
+        "launch"
+      ]
+    },
+    {
+      "name": "Anything else?",
+      "bytes": 116,
+      "when": [
+        "anything",
+        "else"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/productivity/to-questionnaire/SKILL.md"
 }

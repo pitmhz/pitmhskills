@@ -1,0 +1,75 @@
+{
+  "id": "awesome-copilot__qdrant-scaling-data-volume",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4abc9a1509251b6126ff4aa62d75cf473462576c3aa8ae1e709cd4de2504c1b0",
+  "purpose": "Guides Qdrant data volume scaling decisions. Use when someone asks 'data doesn't fit on one node', 'too much data', 'need more storage', 'vertical or horizontal scaling', 'tenant scaling', 'time windo",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant data volume scaling decisions. Use when someone asks 'data doesn't fit on one node', 'too much data', 'need more storage', 'vertical or horizontal"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 485,
+  "core_bytes": 1941,
+  "sections": [
+    {
+      "name": "Tenant Scaling",
+      "bytes": 394,
+      "when": [
+        "tenant",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Sliding Time Window",
+      "bytes": 288,
+      "when": [
+        "sliding",
+        "time",
+        "window"
+      ]
+    },
+    {
+      "name": "Global Search",
+      "bytes": 761,
+      "when": [
+        "global",
+        "search"
+      ]
+    },
+    {
+      "name": "Vertical Scaling",
+      "bytes": 326,
+      "when": [
+        "vertical",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Horizontal Scaling",
+      "bytes": 210,
+      "when": [
+        "horizontal",
+        "scaling"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\scaling-data-volume\\SKILL.md"
+}

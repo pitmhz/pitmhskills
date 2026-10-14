@@ -1,0 +1,182 @@
+{
+  "id": "nvidia__nemo-mbridge-recipe-recommender",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "588e6b4b604e1bd4f3c577981695137eaeddbffcaa027c867c04a54fd185f33e",
+  "purpose": "Recommend and customize Megatron Bridge library and benchmark recipes for a users model, GPU count, hardware, sequence length, and pretrain/SFT/PEFT goal. Use when selecting a starting recipe, compari",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Recommend and customize Megatron Bridge library and benchmark recipes for a users model, GPU count, hardware, sequence length, and pretrain/SFT/PEFT goal. Use w"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4222,
+  "core_bytes": 17090,
+  "sections": [
+    {
+      "name": "How to Use This Skill",
+      "bytes": 378,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "First Answer Checklist",
+      "bytes": 1388,
+      "when": [
+        "first",
+        "answer",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Configuration Layers and Change Control",
+      "bytes": 2935,
+      "when": [
+        "configuration",
+        "layers",
+        "change",
+        "control"
+      ]
+    },
+    {
+      "name": "Entry Points",
+      "bytes": 2376,
+      "when": [
+        "entry",
+        "points"
+      ]
+    },
+    {
+      "name": "Library recipes (functional training)",
+      "bytes": 677,
+      "when": [
+        "library",
+        "recipes",
+        "functional",
+        "training"
+      ]
+    },
+    {
+      "name": "Benchmark recipes (throughput benchmarks)",
+      "bytes": 1680,
+      "when": [
+        "benchmark",
+        "recipes",
+        "throughput",
+        "benchmarks"
+      ]
+    },
+    {
+      "name": "Benchmark Recipe Layout",
+      "bytes": 1315,
+      "when": [
+        "benchmark",
+        "recipe",
+        "layout"
+      ]
+    },
+    {
+      "name": "Recipe Index (Library & Benchmark)",
+      "bytes": 761,
+      "when": [
+        "recipe",
+        "index",
+        "library",
+        "benchmark"
+      ]
+    },
+    {
+      "name": "Recommendation Decision Tree",
+      "bytes": 1454,
+      "when": [
+        "recommendation",
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Adjustment Advice (When Recommending)",
+      "bytes": 4161,
+      "when": [
+        "adjustment",
+        "advice",
+        "recommending"
+      ]
+    },
+    {
+      "name": "Parallelism Resizing Rules",
+      "bytes": 1264,
+      "when": [
+        "parallelism",
+        "resizing",
+        "rules"
+      ]
+    },
+    {
+      "name": "Batch Size Tuning",
+      "bytes": 283,
+      "when": [
+        "batch",
+        "size",
+        "tuning"
+      ]
+    },
+    {
+      "name": "Common Pitfalls to Warn About",
+      "bytes": 1445,
+      "when": [
+        "common",
+        "pitfalls",
+        "warn"
+      ]
+    },
+    {
+      "name": "Recipe Override Examples",
+      "bytes": 1125,
+      "when": [
+        "recipe",
+        "override",
+        "examples"
+      ]
+    },
+    {
+      "name": "Quick Reference: Which Recipe for My Situation?",
+      "bytes": 949,
+      "when": [
+        "quick",
+        "reference",
+        "recipe",
+        "situation"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 711,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-recipe-recommender/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,176 @@
+{
+  "id": "emilkowalski__find-animation-opportunities",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "59646cf5cde38dd146334ae791501d335d049a57c436c0eb8b895b68db96fb70",
+  "purpose": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user ask",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Find where motion belongs (and reject noise) -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "opportunities reject noise belongs",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2463,
+  "core_bytes": 9948,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 641,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 585,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 619,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "The Gate",
+      "bytes": 2529,
+      "when": [
+        "gate"
+      ]
+    },
+    {
+      "name": "1. Frequency — how often will a user see this?",
+      "bytes": 838,
+      "when": [
+        "frequency",
+        "user"
+      ]
+    },
+    {
+      "name": "2. Purpose — why does this animate?",
+      "bytes": 818,
+      "when": [
+        "purpose",
+        "animate"
+      ]
+    },
+    {
+      "name": "3. Speed — can it stay inside budget?",
+      "bytes": 435,
+      "when": [
+        "speed",
+        "stay",
+        "inside",
+        "budget"
+      ]
+    },
+    {
+      "name": "4. Function — does motion help or hinder here?",
+      "bytes": 316,
+      "when": [
+        "function",
+        "motion",
+        "help",
+        "hinder"
+      ]
+    },
+    {
+      "name": "Where to Hunt",
+      "bytes": 2317,
+      "when": [
+        "where",
+        "hunt"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 662,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Required Output Format",
+      "bytes": 1943,
+      "when": [
+        "required",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Part 1 — Opportunities table",
+      "bytes": 1098,
+      "when": [
+        "part",
+        "opportunities",
+        "table"
+      ]
+    },
+    {
+      "name": "Part 2 — Rejected candidates (REQUIRED)",
+      "bytes": 496,
+      "when": [
+        "part",
+        "rejected",
+        "candidates",
+        "required"
+      ]
+    },
+    {
+      "name": "Part 3 — Verdict",
+      "bytes": 320,
+      "when": [
+        "part",
+        "verdict"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 194,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "keywords": [
+    "finding",
+    "animation",
+    "opportunities",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "gate",
+    "frequency",
+    "purpose"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\find-animation-opportunities\\SKILL.md"
+}

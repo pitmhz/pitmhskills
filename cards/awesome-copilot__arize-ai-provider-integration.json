@@ -1,0 +1,198 @@
+{
+  "id": "awesome-copilot__arize-ai-provider-integration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c1fe70e2c0bd7950d48eb5910cbed9bcb6893d0af3bca3983f232dacc48adf03",
+  "purpose": "Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used by evaluators and other Arize features. Supports any LLM provider (e.g. OpenAI, Anthropic, Azure Ope",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used by evaluators and other Arize features. Supports any LLM pro"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2601,
+  "core_bytes": 10434,
+  "sections": [
+    {
+      "name": "Concepts",
+      "bytes": 755,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1164,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "List AI Integrations",
+      "bytes": 1475,
+      "when": [
+        "list",
+        "integrations"
+      ]
+    },
+    {
+      "name": "Get a Specific Integration",
+      "bytes": 310,
+      "when": [
+        "specific",
+        "integration"
+      ]
+    },
+    {
+      "name": "Create an AI Integration",
+      "bytes": 3452,
+      "when": [
+        "create",
+        "integration"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "bytes": 138,
+      "when": [
+        "openai"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "bytes": 150,
+      "when": [
+        "anthropic"
+      ]
+    },
+    {
+      "name": "Azure OpenAI",
+      "bytes": 216,
+      "when": [
+        "azure",
+        "openai"
+      ]
+    },
+    {
+      "name": "AWS Bedrock",
+      "bytes": 322,
+      "when": [
+        "bedrock"
+      ]
+    },
+    {
+      "name": "Vertex AI",
+      "bytes": 313,
+      "when": [
+        "vertex"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "bytes": 138,
+      "when": [
+        "gemini"
+      ]
+    },
+    {
+      "name": "NVIDIA NIM",
+      "bytes": 202,
+      "when": [
+        "nvidia"
+      ]
+    },
+    {
+      "name": "Custom (OpenAI-compatible endpoint)",
+      "bytes": 224,
+      "when": [
+        "custom",
+        "openai",
+        "compatible",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "Supported Providers",
+      "bytes": 534,
+      "when": [
+        "supported",
+        "providers"
+      ]
+    },
+    {
+      "name": "Optional flags for any provider",
+      "bytes": 623,
+      "when": [
+        "optional",
+        "flags",
+        "provider"
+      ]
+    },
+    {
+      "name": "After creation",
+      "bytes": 326,
+      "when": [
+        "after",
+        "creation"
+      ]
+    },
+    {
+      "name": "Update an AI Integration",
+      "bytes": 684,
+      "when": [
+        "update",
+        "integration"
+      ]
+    },
+    {
+      "name": "Delete an AI Integration",
+      "bytes": 383,
+      "when": [
+        "delete",
+        "integration"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 857,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 247,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Save Credentials for Future Use",
+      "bytes": 102,
+      "when": [
+        "save",
+        "credentials",
+        "future"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-ai-provider-integration\\SKILL.md"
+}

@@ -1,0 +1,267 @@
+{
+  "id": "awesome-copilot__write-coding-standards-from-file",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4dee1de37bdad7e02f4f9ae60b91324eb6b1f19fcd5122222e2ff88dfda99702",
+  "purpose": "Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3845,
+  "core_bytes": 15378,
+  "sections": [
+    {
+      "name": "Rules and Configuration",
+      "bytes": 2860,
+      "when": [
+        "rules",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Configuration Variables",
+      "bytes": 1052,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Configuration Variables as Prompt Parameters",
+      "bytes": 230,
+      "when": [
+        "configuration",
+        "variables",
+        "prompt",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Prompt Parameters",
+      "bytes": 1102,
+      "when": [
+        "prompt",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Variable and Parameter Configuration Conditions",
+      "bytes": 4259,
+      "when": [
+        "variable",
+        "parameter",
+        "configuration",
+        "conditions"
+      ]
+    },
+    {
+      "name": "`${fileName}.length > 1 || ${folderName} != undefined`",
+      "bytes": 113,
+      "when": [
+        "filename",
+        "length",
+        "foldername",
+        "undefined"
+      ]
+    },
+    {
+      "name": "`${addToREADME} == true`",
+      "bytes": 222,
+      "when": [
+        "addtoreadme",
+        "true"
+      ]
+    },
+    {
+      "name": "`${addToREADMEInsertions} == \"atBegin\"`",
+      "bytes": 177,
+      "when": [
+        "addtoreadmeinsertions",
+        "atbegin"
+      ]
+    },
+    {
+      "name": "`${addToREADMEInsertions} == \"middle\"`",
+      "bytes": 240,
+      "when": [
+        "addtoreadmeinsertions",
+        "middle"
+      ]
+    },
+    {
+      "name": "`${addToREADMEInsertions} == \"beforeEnd\"`",
+      "bytes": 243,
+      "when": [
+        "addtoreadmeinsertions",
+        "beforeend"
+      ]
+    },
+    {
+      "name": "`${addToREADMEInsertions} == \"bestFitUsingContext\"`",
+      "bytes": 255,
+      "when": [
+        "addtoreadmeinsertions",
+        "bestfitusingcontext"
+      ]
+    },
+    {
+      "name": "`${addStandardsTest} == true`",
+      "bytes": 173,
+      "when": [
+        "addstandardstest",
+        "true"
+      ]
+    },
+    {
+      "name": "`${createNewFile} == true`",
+      "bytes": 202,
+      "when": [
+        "createnewfile",
+        "true"
+      ]
+    },
+    {
+      "name": "`${fetchStyleURL} == true`",
+      "bytes": 314,
+      "when": [
+        "fetchstyleurl",
+        "true"
+      ]
+    },
+    {
+      "name": "`${findInconsistencies} == true`",
+      "bytes": 521,
+      "when": [
+        "findinconsistencies",
+        "true"
+      ]
+    },
+    {
+      "name": "`${fixInconsistencies} == true`",
+      "bytes": 194,
+      "when": [
+        "fixinconsistencies",
+        "true"
+      ]
+    },
+    {
+      "name": "`typeof ${newFileName} == \"string\"`",
+      "bytes": 140,
+      "when": [
+        "typeof",
+        "newfilename",
+        "string"
+      ]
+    },
+    {
+      "name": "`typeof ${newFileName} != \"string\"`",
+      "bytes": 332,
+      "when": [
+        "typeof",
+        "newfilename",
+        "string"
+      ]
+    },
+    {
+      "name": "`${outputSpecToPrompt} == true`",
+      "bytes": 203,
+      "when": [
+        "outputspectoprompt",
+        "true"
+      ]
+    },
+    {
+      "name": "`${useTemplate} == \"v\" || ${useTemplate} == \"verbose\"`",
+      "bytes": 189,
+      "when": [
+        "usetemplate",
+        "verbose"
+      ]
+    },
+    {
+      "name": "`${useTemplate} == \"m\" || ${useTemplate} == \"minimal\"`",
+      "bytes": 189,
+      "when": [
+        "usetemplate",
+        "minimal"
+      ]
+    },
+    {
+      "name": "`${useTemplate} == \"b\" || ${useTemplate} == \"best\"`",
+      "bytes": 295,
+      "when": [
+        "usetemplate",
+        "best"
+      ]
+    },
+    {
+      "name": "`${useTemplate} == \"custom\" || ${useTemplate} == \"<ANY_NAME>\"`",
+      "bytes": 205,
+      "when": [
+        "usetemplate",
+        "custom",
+        "name"
+      ]
+    },
+    {
+      "name": "**if** `${fetchStyleURL} == true`",
+      "bytes": 2616,
+      "when": [
+        "fetchstyleurl",
+        "true"
+      ]
+    },
+    {
+      "name": "Fetch Links",
+      "bytes": 2419,
+      "when": [
+        "fetch",
+        "links"
+      ]
+    },
+    {
+      "name": "Coding Standards Templates",
+      "bytes": 5019,
+      "when": [
+        "coding",
+        "standards",
+        "templates"
+      ]
+    },
+    {
+      "name": "`\"m\", \"minimal\"`",
+      "bytes": 2079,
+      "when": [
+        "minimal"
+      ]
+    },
+    {
+      "name": "`\"v\", verbose\"`",
+      "bytes": 2909,
+      "when": [
+        "verbose"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\write-coding-standards-from-file\\SKILL.md"
+}

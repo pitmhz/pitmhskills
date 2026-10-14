@@ -1,0 +1,155 @@
+{
+  "id": "mengto-skills__mesh-gradient-dark-blue-clean",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "6ec1052685d7cecc774ae94bb0878fe1e15889915554163c4034bd2e0bcbe064",
+  "purpose": "Create a futuristic, premium, clean dark-blue mesh-gradient design system across background rendering, hero shell, navigation, floating nodes, framed sections, CTAs, and motion. Use when the interface",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create a futuristic, premium, clean dark-blue mesh-gradient design system across background rendering, hero shell, navigation, floating nodes, framed sections, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2546,
+  "core_bytes": 10182,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 330,
+      "when": []
+    },
+    {
+      "name": "Direction",
+      "bytes": 491,
+      "when": [
+        "direction"
+      ]
+    },
+    {
+      "name": "System Recipe",
+      "bytes": 779,
+      "when": [
+        "system",
+        "recipe"
+      ]
+    },
+    {
+      "name": "Color Tokens",
+      "bytes": 458,
+      "when": [
+        "color",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Page Foundation",
+      "bytes": 367,
+      "when": [
+        "page",
+        "foundation"
+      ]
+    },
+    {
+      "name": "Hero Shell",
+      "bytes": 1265,
+      "when": [
+        "hero",
+        "shell"
+      ]
+    },
+    {
+      "name": "Canvas Mesh Field",
+      "bytes": 2438,
+      "when": [
+        "canvas",
+        "mesh",
+        "field"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "bytes": 702,
+      "when": [
+        "navigation"
+      ]
+    },
+    {
+      "name": "Nodes And Rails",
+      "bytes": 805,
+      "when": [
+        "nodes",
+        "rails"
+      ]
+    },
+    {
+      "name": "CTA Pair",
+      "bytes": 457,
+      "when": [
+        "pair"
+      ]
+    },
+    {
+      "name": "Motion Defaults",
+      "bytes": 370,
+      "when": [
+        "motion",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Tuning Knobs",
+      "bytes": 445,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 415,
+      "when": [
+        "avoid"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 421,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "direction",
+    "recipe",
+    "color",
+    "tokens",
+    "page",
+    "canvas",
+    "field",
+    "rails",
+    "pair",
+    "defaults",
+    "tuning",
+    "knobs"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\mesh-gradient-dark-blue-clean\\SKILL.md"
+}

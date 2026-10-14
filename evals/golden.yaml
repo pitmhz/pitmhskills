@@ -1,7 +1,9 @@
 - task: "Add RLS policies so tenants can only read their own rows"
   expect: supabase__supabase-postgres-best-practices
-- task: "Diagnose a slow Postgres query with EXPLAIN and add the missing index"
+- task: "Diagnose a slow Supabase Postgres query with EXPLAIN and add the missing index"
   expect: supabase__supabase-postgres-best-practices
+- task: "Diagnose a slow Neon Postgres query with EXPLAIN and add the missing index"
+  expect: neondatabase__neon-postgres
 - task: "Fix Supabase login losing session cookies in Next.js SSR, check getClaims and JWT"
   expect: supabase__supabase
 - task: "Configure Supabase Auth JWT expiry and Storage bucket policies via the CLI"
@@ -33,7 +35,7 @@
 - task: "Review this branch against the repo coding standards and the originating spec"
   expect: pocock__code-review
 - task: "Rank the whole repo by what to fix first"
-  expect: ponytail__ponytail
+  expect: ponytail__ponytail-audit
 - task: "find skills for PDF handling to add"
   expect: local__skill-finder
 - task: "discover agent skills for RLS/postgres"
@@ -60,3 +62,87 @@
   expect: NONE
 - task: "Write RLS policies so users only see their org data in Neon Postgres"
   expect: neondatabase__neon-postgres
+- task: "Build a high-converting SaaS pricing page with plan comparison tiers"
+  expect: mengto-skills__pricing-page
+- task: "Design a high-converting SaaS landing page with offer hierarchy and pacing"
+  expect: mengto-skills__landing-page
+- task: "Audit this page for AI-design clichés and generic generated defaults"
+  expect: mengto-skills__audit-ai-design-slop
+- task: "Run a fast deslop cleanup pass on this UI: spacing, hierarchy, typography"
+  expect: ibelick__baseline-ui
+- task: "Set up an OKLCH color system with generated palettes and gamut checks"
+  expect: oklch-skill__oklch-skill
+- task: "Set up a color system with palettes, semantic tokens and contrast checks"
+  expect: jakubkrehel-skills__better-colors
+- task: "Review my interface copy: button labels, errors and empty states"
+  expect: jakubkrehel-skills__better-writing
+- task: "Design a dense admin dashboard with panels, settings and data tables"
+  expect: interface-design__interface-design
+- task: "Survey our animation code and produce a fix roadmap without changing code"
+  expect: emilkowalski__improve-animations
+- task: "Build a spring-based drag sheet animation from scratch"
+  expect: emilkowalski__animate
+- task: "Audit this site for WCAG 2.2 accessibility compliance"
+  expect: web-quality__accessibility
+- task: "Fix color contrast and form errors on this checkout page"
+  expect: ibelick__fixing-accessibility
+- task: "Review keyboard focus and ARIA names in this checkout form"
+  expect: jakubkrehel-skills__better-accessibility
+- task: "Look up Apple HIG measurements for iOS tab bars and navigation"
+  expect: higagentskills__apple-hig
+- task: "Review this iOS screen against Apple design guidelines"
+  expect: apple-design-skill__apple-design
+- task: "Push this safe bland interface bolder without rebuilding it"
+  expect: uiskills-staged__bolder
+- task: "Harden this demo UI for production: loading, error and offline states"
+  expect: kemiljk-skills__prototype-to-production
+- task: "Harden this shipped interface against empty data, error languages and offline network"
+  expect: uiskills-staged__harden
+- task: "Write a DESIGN.md for this repo from its code and tokens"
+  expect: ibelick__create-design-md
+- task: "Install and configure daisyUI 5 in this Tailwind project"
+  expect: daisyui__daisyui-install
+- task: "Critique this screenshot with severity-ranked findings and a score"
+  expect: design-review__design-review
+- task: "Build three genuinely different hero variants behind a picker"
+  expect: emilkowalski__prototype
+- task: "Explain how this site's menu animation was built from its URL"
+  expect: jakubkrehel-skills__explain-interface
+- task: "Review this pull request for interface regressions, not logic"
+  expect: jakubkrehel-skills__interface-review
+- task: "Make these web animations hit 60fps and stop layout thrashing"
+  expect: web-animation__60fps-animation
+- task: "Add hover, press and toggle micro-interactions to these controls"
+  expect: web-animation__micro-interaction
+- task: "Refine this design with Swiss grid discipline and typographic hierarchy"
+  expect: swiss-design-skill__swiss-design
+- task: "Apply Refactoring UI rules to this settings page"
+  expect: refactoring-ui-skill__refactoring-ui
+- task: "Build this page with taste: art-directed layout that avoids AI slop"
+  expect: taste-skill__design-taste-frontend
+- task: "Design a minimalist editorial page with monochrome palette and bento grids"
+  expect: taste-skill__minimalist-ui
+- task: "Design a brutalist terminal-style interface with rigid grids"
+  expect: taste-skill__industrial-brutalist-ui
+- task: "Upgrade this existing site to premium quality, audit generic patterns first"
+  expect: taste-skill__redesign-existing-projects
+- task: "Generate website design reference images, one image per section"
+  expect: taste-skill__imagegen-frontend-web
+- task: "Add shadcn components to this project and fix the theme"
+  expect: uiskills-staged__shadcn
+- task: "Map these Figma components to code snippets with Code Connect"
+  expect: mcp-server-guide__figma-code-connect
+- task: "Generate design variants side by side in one HTML file"
+  expect: uiskills-staged__danny-explore-design
+- task: "Run a Rams review of this UI"
+  expect: uiskills-staged__rams
+- task: "Build a sound-off motion-graphics video ad as MP4"
+  expect: uiskills-staged__danny-motion-ad
+- task: "rewrite this explanation tersely with every technical fact kept"
+  expect: caveman-staged__caveman
+- task: "Answer in caveman voice: summarize this fix"
+  expect: caveman-staged__caveman
+- task: "shrink this todo list into short form"
+  expect: caveman-staged__caveman-compress
+- task: "Compress this todo list into short form to save input tokens"
+  expect: caveman-staged__caveman-compress

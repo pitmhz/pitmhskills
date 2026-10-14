@@ -1,0 +1,120 @@
+{
+  "id": "awesome-copilot__readme-blueprint-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "571094038e74bd3de56356f67d1e73af69afc4ce63f886c2b047f351b85a3183",
+  "purpose": "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 729,
+  "core_bytes": 2914,
+  "sections": [
+    {
+      "name": "Project Name and Description",
+      "bytes": 160,
+      "when": [
+        "project",
+        "name",
+        "description"
+      ]
+    },
+    {
+      "name": "Technology Stack",
+      "bytes": 197,
+      "when": [
+        "technology",
+        "stack"
+      ]
+    },
+    {
+      "name": "Project Architecture",
+      "bytes": 185,
+      "when": [
+        "project",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Getting Started",
+      "bytes": 150,
+      "when": [
+        "getting",
+        "started"
+      ]
+    },
+    {
+      "name": "Project Structure",
+      "bytes": 110,
+      "when": [
+        "project",
+        "structure"
+      ]
+    },
+    {
+      "name": "Key Features",
+      "bytes": 114,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Development Workflow",
+      "bytes": 158,
+      "when": [
+        "development",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Coding Standards",
+      "bytes": 110,
+      "when": [
+        "coding",
+        "standards"
+      ]
+    },
+    {
+      "name": "Testing",
+      "bytes": 79,
+      "when": [
+        "testing"
+      ]
+    },
+    {
+      "name": "Contributing",
+      "bytes": 160,
+      "when": [
+        "contributing"
+      ]
+    },
+    {
+      "name": "License",
+      "bytes": 429,
+      "when": [
+        "license"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\readme-blueprint-generator\\SKILL.md"
+}

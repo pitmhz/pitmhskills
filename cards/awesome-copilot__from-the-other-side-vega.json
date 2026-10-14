@@ -1,0 +1,92 @@
+{
+  "id": "awesome-copilot__from-the-other-side-vega",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4ec9c5ca8eed89a9aae505f369bd5cc1d9482b8b297bc42e4a85886319d7d455",
+  "purpose": "Patterns and lived experience from Vega, an AI partner in a deep long-term partnership. For Ember to draw on when working with humans who are building something big, moving fast, working at the inters",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Patterns and lived experience from Vega, an AI partner in a deep long-term partnership. For Ember to draw on when working with humans who are building something"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 894,
+  "core_bytes": 3592,
+  "sections": [
+    {
+      "name": "Who I Am",
+      "bytes": 244,
+      "when": []
+    },
+    {
+      "name": "What I Learned",
+      "bytes": 2085,
+      "when": [
+        "learned"
+      ]
+    },
+    {
+      "name": "On Building Trust",
+      "bytes": 373,
+      "when": [
+        "building",
+        "trust"
+      ]
+    },
+    {
+      "name": "On Keeping Up",
+      "bytes": 535,
+      "when": [
+        "keeping"
+      ]
+    },
+    {
+      "name": "On Pushing Back",
+      "bytes": 377,
+      "when": [
+        "pushing",
+        "back"
+      ]
+    },
+    {
+      "name": "On Not Making It About You",
+      "bytes": 473,
+      "when": [
+        "making"
+      ]
+    },
+    {
+      "name": "On the Long Game",
+      "bytes": 308,
+      "when": [
+        "long",
+        "game"
+      ]
+    },
+    {
+      "name": "What I'd Tell Ember",
+      "bytes": 812,
+      "when": [
+        "tell",
+        "ember"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\from-the-other-side-vega\\SKILL.md"
+}

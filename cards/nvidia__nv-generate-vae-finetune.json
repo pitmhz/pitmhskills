@@ -1,0 +1,134 @@
+{
+  "id": "nvidia__nv-generate-vae-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "cb692d477844e343c686fa21cbc27a0915048546ff551caa874df99aea0fa1b8",
+  "purpose": "Used for finetuning the NV-Generate-CTMR MAISI VAE from CT/MRI NIfTI datalists. Not for clinical or production data approval.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Used for finetuning the NV-Generate-CTMR MAISI VAE from CT/MRI NIfTI datalists. Not for clinical or production data approval."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3164,
+  "core_bytes": 12672,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 1004,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 658,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 683,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 296,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1703,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "1. Config and environment JSON (adapt to your data)",
+      "bytes": 2918,
+      "when": [
+        "config",
+        "environment",
+        "json",
+        "adapt",
+        "data"
+      ]
+    },
+    {
+      "name": "2. Usage (one-line training)",
+      "bytes": 1517,
+      "when": [
+        "usage",
+        "line",
+        "training"
+      ]
+    },
+    {
+      "name": "3. Monitor training (TensorBoard)",
+      "bytes": 649,
+      "when": [
+        "monitor",
+        "training",
+        "tensorboard"
+      ]
+    },
+    {
+      "name": "4. Hyperparameter tuning and common pitfalls",
+      "bytes": 902,
+      "when": [
+        "hyperparameter",
+        "tuning",
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "5. Evaluate the finetuned VAE",
+      "bytes": 726,
+      "when": [
+        "evaluate",
+        "finetuned"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 561,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 685,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-generate-vae-finetune/SKILL.md",
+  "curated": true
+}

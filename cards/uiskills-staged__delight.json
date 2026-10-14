@@ -1,0 +1,97 @@
+{
+  "id": "uiskills-staged__delight",
+  "tier": "B",
+  "origin": [
+    "local@delight"
+  ],
+  "license": "Apache-2.0",
+  "hash": "47b43255510829b0f3c219899477d87a9ea7b5141980d42e8e219fa14849270e",
+  "purpose": "Make the experience memorable at moments that earn it. Delight is not a layer of generic whimsy; it is product character revealed through a useful interaction, a humane response, or an unexpectedly co",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Make the experience memorable at moments that earn it. Delight is not a layer of generic whimsy; it is product character revealed through a useful interaction, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Add delightful memorable moments -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "delight memorable moments emotion brand",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 951,
+  "core_bytes": 3809,
+  "sections": [
+    {
+      "name": "Visitor mode",
+      "bytes": 318,
+      "when": [
+        "visitor",
+        "mode"
+      ]
+    },
+    {
+      "name": "Find the opportunity",
+      "bytes": 572,
+      "when": [
+        "find",
+        "opportunity"
+      ]
+    },
+    {
+      "name": "Define one delight thesis",
+      "bytes": 596,
+      "when": [
+        "define",
+        "delight",
+        "thesis"
+      ]
+    },
+    {
+      "name": "Build for the emotional moment",
+      "bytes": 882,
+      "when": [
+        "build",
+        "emotional",
+        "moment"
+      ]
+    },
+    {
+      "name": "Protect the experience",
+      "bytes": 607,
+      "when": [
+        "protect",
+        "experience"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 542,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "visitor",
+    "mode",
+    "find",
+    "opportunity",
+    "define",
+    "thesis",
+    "build",
+    "emotional",
+    "moment",
+    "protect",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\delight\\SKILL.md"
+}

@@ -27,7 +27,166 @@
   "conflicts_with": [],
   "body_tokens": 1809,
   "core_bytes": 7258,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 253,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 393,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Authentication Pattern",
+      "bytes": 474,
+      "when": [
+        "authentication",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2783,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Verify Netlify CLI Authentication",
+      "bytes": 775,
+      "when": [
+        "verify",
+        "netlify",
+        "authentication"
+      ]
+    },
+    {
+      "name": "2. Detect Site Link Status",
+      "bytes": 196,
+      "when": [
+        "detect",
+        "site",
+        "link",
+        "status"
+      ]
+    },
+    {
+      "name": "3. Link to Existing Site or Create New",
+      "bytes": 678,
+      "when": [
+        "link",
+        "existing",
+        "site",
+        "create"
+      ]
+    },
+    {
+      "name": "4. Verify Dependencies",
+      "bytes": 247,
+      "when": [
+        "verify",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "5. Deploy to Netlify",
+      "bytes": 582,
+      "when": [
+        "deploy",
+        "netlify"
+      ]
+    },
+    {
+      "name": "6. Report Results",
+      "bytes": 290,
+      "when": [
+        "report",
+        "results"
+      ]
+    },
+    {
+      "name": "Handling netlify.toml",
+      "bytes": 570,
+      "when": [
+        "handling",
+        "netlify",
+        "toml"
+      ]
+    },
+    {
+      "name": "Example Full Workflow",
+      "bytes": 512,
+      "when": [
+        "example",
+        "full",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 486,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 511,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Escalated Network Access",
+      "bytes": 489,
+      "when": [
+        "escalated",
+        "network",
+        "access"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 219,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 278,
+      "when": [
+        "tips"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 176,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Bundled References (Load As Needed)",
+      "bytes": 200,
+      "when": [
+        "bundled",
+        "references",
+        "load",
+        "needed"
+      ]
+    }
+  ],
+  "verify": [
+    "npm run build"
+  ],
   "skill_path": "skills/openai/skills/.curated/netlify-deploy/SKILL.md"
 }

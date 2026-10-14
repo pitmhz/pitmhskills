@@ -1,0 +1,254 @@
+{
+  "id": "awesome-copilot__containerize-aspnetcore",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ad4057ce6e1cca41005e1955df84e121d6b760a8d259e55ca9d051c679df37e0",
+  "purpose": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3988,
+  "core_bytes": 15970,
+  "sections": [
+    {
+      "name": "Containerization Request",
+      "bytes": 428,
+      "when": [
+        "containerization",
+        "request"
+      ]
+    },
+    {
+      "name": "Containerization Settings",
+      "bytes": 3547,
+      "when": [
+        "containerization",
+        "settings"
+      ]
+    },
+    {
+      "name": "Basic Project Information",
+      "bytes": 636,
+      "when": [
+        "basic",
+        "project",
+        "information"
+      ]
+    },
+    {
+      "name": "Container Configuration",
+      "bytes": 379,
+      "when": [
+        "container",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Build configuration",
+      "bytes": 417,
+      "when": [
+        "build",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 355,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "System Configuration",
+      "bytes": 146,
+      "when": [
+        "system",
+        "configuration"
+      ]
+    },
+    {
+      "name": "File System",
+      "bytes": 409,
+      "when": [
+        "file",
+        "system"
+      ]
+    },
+    {
+      "name": ".dockerignore Configuration",
+      "bytes": 236,
+      "when": [
+        "dockerignore",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Health Check Configuration",
+      "bytes": 195,
+      "when": [
+        "health",
+        "check",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Additional Instructions",
+      "bytes": 219,
+      "when": [
+        "additional",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 677,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Execution Process",
+      "bytes": 3299,
+      "when": [
+        "execution",
+        "process"
+      ]
+    },
+    {
+      "name": "Build and Runtime Verification",
+      "bytes": 357,
+      "when": [
+        "build",
+        "runtime",
+        "verification"
+      ]
+    },
+    {
+      "name": "Progress Tracking",
+      "bytes": 123,
+      "when": [
+        "progress",
+        "tracking"
+      ]
+    },
+    {
+      "name": "Environment Detection",
+      "bytes": 125,
+      "when": [
+        "environment",
+        "detection"
+      ]
+    },
+    {
+      "name": "Configuration Changes",
+      "bytes": 161,
+      "when": [
+        "configuration",
+        "changes"
+      ]
+    },
+    {
+      "name": "Containerization",
+      "bytes": 457,
+      "when": [
+        "containerization"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 442,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Example Dockerfile",
+      "bytes": 4086,
+      "when": [
+        "example",
+        "dockerfile"
+      ]
+    },
+    {
+      "name": "Adapting this Example",
+      "bytes": 626,
+      "when": [
+        "adapting",
+        "example"
+      ]
+    },
+    {
+      "name": "Linux Distribution Variations",
+      "bytes": 872,
+      "when": [
+        "linux",
+        "distribution",
+        "variations"
+      ]
+    },
+    {
+      "name": "Alpine Linux",
+      "bytes": 309,
+      "when": [
+        "alpine",
+        "linux"
+      ]
+    },
+    {
+      "name": "Ubuntu Chiseled",
+      "bytes": 280,
+      "when": [
+        "ubuntu",
+        "chiseled"
+      ]
+    },
+    {
+      "name": "Azure Linux (Mariner)",
+      "bytes": 249,
+      "when": [
+        "azure",
+        "linux",
+        "mariner"
+      ]
+    },
+    {
+      "name": "Notes on Stage Naming",
+      "bytes": 292,
+      "when": [
+        "notes",
+        "stage",
+        "naming"
+      ]
+    },
+    {
+      "name": "Security Best Practices",
+      "bytes": 267,
+      "when": [
+        "security",
+        "best",
+        "practices"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\containerize-aspnetcore\\SKILL.md"
+}

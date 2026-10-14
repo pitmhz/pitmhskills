@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__tiny-stepping",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c19df6b057fe600b1e1fc5b657412c9f3f80c439fd296b342ac4b9557f9a0ae0",
+  "purpose": "Incremental development workflow that makes the smallest meaningful change per step and pauses for feedback, so the direction gets validated early before continuing. Use for careful, iterative impleme",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Incremental development workflow that makes the smallest meaningful change per step and pauses for feedback, so the direction gets validated early before contin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 307,
+  "core_bytes": 1233,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 222,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 279,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 273,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\tiny-stepping\\SKILL.md"
+}

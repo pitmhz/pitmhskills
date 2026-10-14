@@ -1,0 +1,191 @@
+{
+  "id": "awesome-copilot__gtm-ai-gtm",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "eddccd76f45054b529962ca7f2db6076211db431b7185f63ee205736e8a2d914",
+  "purpose": "Go-to-market strategy for AI products. Use when positioning AI products, handling \"who is responsible when it breaks\" objections, pricing variable-cost AI, choosing between copilot/agent/teammate fram",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Go-to-market strategy for AI products. Use when positioning AI products, handling \"who is responsible when it breaks\" objections, pricing variable-cost AI, choo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5300,
+  "core_bytes": 21378,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 497,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 16499,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. The Real Enterprise AI Objection (It's Not What You Think)",
+      "bytes": 2622,
+      "when": [
+        "real",
+        "enterprise",
+        "objection",
+        "think"
+      ]
+    },
+    {
+      "name": "2. Copilot vs Agent vs Teammate (Three Different GTM Motions)",
+      "bytes": 2909,
+      "when": [
+        "copilot",
+        "agent",
+        "teammate",
+        "three",
+        "different",
+        "motions"
+      ]
+    },
+    {
+      "name": "3. The AI Pricing Problem (When Usage Varies 10x)",
+      "bytes": 2257,
+      "when": [
+        "pricing",
+        "problem",
+        "usage",
+        "varies"
+      ]
+    },
+    {
+      "name": "4. The AI Trust Ladder (From Someone Who Climbed It)",
+      "bytes": 1791,
+      "when": [
+        "trust",
+        "ladder",
+        "someone",
+        "climbed"
+      ]
+    },
+    {
+      "name": "5. The Enterprise AI Demo (Show Failure, Not Just Success)",
+      "bytes": 1816,
+      "when": [
+        "enterprise",
+        "demo",
+        "show",
+        "failure",
+        "success"
+      ]
+    },
+    {
+      "name": "6. The \"Who Owns This?\" Objection Handler",
+      "bytes": 1551,
+      "when": [
+        "owns",
+        "objection",
+        "handler"
+      ]
+    },
+    {
+      "name": "7. The AI Positioning Trap (Fighting Asymmetric Wars)",
+      "bytes": 1641,
+      "when": [
+        "positioning",
+        "trap",
+        "fighting",
+        "asymmetric",
+        "wars"
+      ]
+    },
+    {
+      "name": "8. Ceiling Moment Qualification (Finding High-Intent AI Buyers)",
+      "bytes": 1892,
+      "when": [
+        "ceiling",
+        "moment",
+        "qualification",
+        "finding",
+        "high",
+        "intent",
+        "buyers"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 923,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Which Positioning Should I Use?",
+      "bytes": 265,
+      "when": [
+        "positioning"
+      ]
+    },
+    {
+      "name": "Which Pricing Model Should I Use?",
+      "bytes": 297,
+      "when": [
+        "pricing",
+        "model"
+      ]
+    },
+    {
+      "name": "Is This Buyer Ready for AI Agents?",
+      "bytes": 342,
+      "when": [
+        "buyer",
+        "ready",
+        "agents"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 971,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 977,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 850,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-ai-gtm\\SKILL.md"
+}

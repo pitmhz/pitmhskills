@@ -27,7 +27,57 @@
   "conflicts_with": [],
   "body_tokens": 1635,
   "core_bytes": 6542,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Quick Start",
+      "bytes": 1532,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "What this skill creates",
+      "bytes": 1118,
+      "when": [
+        "skill",
+        "creates"
+      ]
+    },
+    {
+      "name": "Marketplace workflow",
+      "bytes": 2329,
+      "when": [
+        "marketplace",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Required behavior",
+      "bytes": 773,
+      "when": [
+        "required",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Reference to exact spec sample",
+      "bytes": 170,
+      "when": [
+        "reference",
+        "exact",
+        "spec",
+        "sample"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 154,
+      "when": [
+        "validation"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.system/plugin-creator/SKILL.md"
 }

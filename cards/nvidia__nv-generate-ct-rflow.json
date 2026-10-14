@@ -1,0 +1,120 @@
+{
+  "id": "nvidia__nv-generate-ct-rflow",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1f849b126a809cd95e9841eb275916bf5f640e01eda412e06598d2c17fb9eae1",
+  "purpose": "Used for generating synthetic CT volumes and masks with NV-Generate-CTMR rflow-ct. Not for production training data without review.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Used for generating synthetic CT volumes and masks with NV-Generate-CTMR rflow-ct. Not for production training data without review."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3123,
+  "core_bytes": 12503,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 514,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 877,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 1162,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 503,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 598,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1008,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Preconditions",
+      "bytes": 2109,
+      "when": [
+        "preconditions"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 5379,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Fixture catalog",
+      "bytes": 317,
+      "when": [
+        "fixture",
+        "catalog"
+      ]
+    },
+    {
+      "name": "Helper commands",
+      "bytes": 3324,
+      "when": [
+        "helper",
+        "commands"
+      ]
+    },
+    {
+      "name": "Visual sample card",
+      "bytes": 667,
+      "when": [
+        "visual",
+        "sample",
+        "card"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-generate-ct-rflow/SKILL.md",
+  "curated": true
+}

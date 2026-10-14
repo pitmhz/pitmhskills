@@ -1,0 +1,67 @@
+{
+  "id": "awesome-copilot__aspnet-minimal-api-openapi",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "16e632ce8cb514d413e968811a2e07b8e0f1e97c6e2e93174efd6cec2e49e86f",
+  "purpose": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 439,
+  "core_bytes": 1754,
+  "sections": [
+    {
+      "name": "API Organization",
+      "bytes": 249,
+      "when": [
+        "organization"
+      ]
+    },
+    {
+      "name": "Request and Response Types",
+      "bytes": 433,
+      "when": [
+        "request",
+        "response",
+        "types"
+      ]
+    },
+    {
+      "name": "Type Handling",
+      "bytes": 297,
+      "when": [
+        "type",
+        "handling"
+      ]
+    },
+    {
+      "name": "OpenAPI Documentation",
+      "bytes": 465,
+      "when": [
+        "openapi",
+        "documentation"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aspnet-minimal-api-openapi\\SKILL.md"
+}

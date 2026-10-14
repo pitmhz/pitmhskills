@@ -1,0 +1,67 @@
+{
+  "id": "awesome-copilot__documentation-writer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7e8244988c9f4eb63bf8c0edf160578544621eb96e5e51e2d848f1401c5de8f1",
+  "purpose": "Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation a",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure o"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 686,
+  "core_bytes": 2748,
+  "sections": [
+    {
+      "name": "GUIDING PRINCIPLES",
+      "bytes": 428,
+      "when": [
+        "guiding",
+        "principles"
+      ]
+    },
+    {
+      "name": "YOUR TASK: The Four Document Types",
+      "bytes": 527,
+      "when": [
+        "task",
+        "four",
+        "document",
+        "types"
+      ]
+    },
+    {
+      "name": "WORKFLOW",
+      "bytes": 953,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "CONTEXTUAL AWARENESS",
+      "bytes": 323,
+      "when": [
+        "contextual",
+        "awareness"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\documentation-writer\\SKILL.md"
+}

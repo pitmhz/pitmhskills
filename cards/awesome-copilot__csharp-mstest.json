@@ -1,0 +1,289 @@
+{
+  "id": "awesome-copilot__csharp-mstest",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "325e70e82f3edecb7312a7e504a89e87c8fb684c8f2aa55df6f29905ef1bf859",
+  "purpose": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3458,
+  "core_bytes": 13856,
+  "sections": [
+    {
+      "name": "Project Setup",
+      "bytes": 242,
+      "when": [
+        "project",
+        "setup"
+      ]
+    },
+    {
+      "name": "Test Class Structure",
+      "bytes": 646,
+      "when": [
+        "test",
+        "class",
+        "structure"
+      ]
+    },
+    {
+      "name": "Test Lifecycle",
+      "bytes": 1325,
+      "when": [
+        "test",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Execution Order",
+      "bytes": 615,
+      "when": [
+        "execution",
+        "order"
+      ]
+    },
+    {
+      "name": "Modern Assertion APIs",
+      "bytes": 4037,
+      "when": [
+        "modern",
+        "assertion",
+        "apis"
+      ]
+    },
+    {
+      "name": "Assert Class - Core Assertions",
+      "bytes": 512,
+      "when": [
+        "assert",
+        "class",
+        "core",
+        "assertions"
+      ]
+    },
+    {
+      "name": "Exception Testing (Prefer over `[ExpectedException]`)",
+      "bytes": 584,
+      "when": [
+        "exception",
+        "testing",
+        "prefer",
+        "expectedexception"
+      ]
+    },
+    {
+      "name": "Collection Assertions (Assert class)",
+      "bytes": 301,
+      "when": [
+        "collection",
+        "assertions",
+        "assert",
+        "class"
+      ]
+    },
+    {
+      "name": "String Assertions (Assert class)",
+      "bytes": 370,
+      "when": [
+        "string",
+        "assertions",
+        "assert",
+        "class"
+      ]
+    },
+    {
+      "name": "Comparison Assertions",
+      "bytes": 313,
+      "when": [
+        "comparison",
+        "assertions"
+      ]
+    },
+    {
+      "name": "Type Assertions",
+      "bytes": 310,
+      "when": [
+        "type",
+        "assertions"
+      ]
+    },
+    {
+      "name": "Assert.That (MSTest 4.0+)",
+      "bytes": 125,
+      "when": [
+        "assert",
+        "mstest"
+      ]
+    },
+    {
+      "name": "StringAssert Class",
+      "bytes": 465,
+      "when": [
+        "stringassert",
+        "class"
+      ]
+    },
+    {
+      "name": "CollectionAssert Class",
+      "bytes": 939,
+      "when": [
+        "collectionassert",
+        "class"
+      ]
+    },
+    {
+      "name": "Data-Driven Tests",
+      "bytes": 1766,
+      "when": [
+        "data",
+        "driven",
+        "tests"
+      ]
+    },
+    {
+      "name": "DataRow",
+      "bytes": 286,
+      "when": [
+        "datarow"
+      ]
+    },
+    {
+      "name": "DynamicData",
+      "bytes": 1458,
+      "when": [
+        "dynamicdata"
+      ]
+    },
+    {
+      "name": "TestContext",
+      "bytes": 2060,
+      "when": [
+        "testcontext"
+      ]
+    },
+    {
+      "name": "Accessing TestContext",
+      "bytes": 724,
+      "when": [
+        "accessing",
+        "testcontext"
+      ]
+    },
+    {
+      "name": "Cancellation Token",
+      "bytes": 267,
+      "when": [
+        "cancellation",
+        "token"
+      ]
+    },
+    {
+      "name": "Test Run Properties",
+      "bytes": 466,
+      "when": [
+        "test",
+        "properties"
+      ]
+    },
+    {
+      "name": "Output and Result Files",
+      "bytes": 338,
+      "when": [
+        "output",
+        "result",
+        "files"
+      ]
+    },
+    {
+      "name": "Advanced Features",
+      "bytes": 1775,
+      "when": [
+        "advanced",
+        "features"
+      ]
+    },
+    {
+      "name": "Retry for Flaky Tests (MSTest 3.9+)",
+      "bytes": 108,
+      "when": [
+        "retry",
+        "flaky",
+        "tests",
+        "mstest"
+      ]
+    },
+    {
+      "name": "Conditional Execution (MSTest 3.10+)",
+      "bytes": 683,
+      "when": [
+        "conditional",
+        "execution",
+        "mstest"
+      ]
+    },
+    {
+      "name": "Parallelization",
+      "bytes": 229,
+      "when": [
+        "parallelization"
+      ]
+    },
+    {
+      "name": "Work Item Traceability (MSTest 3.8+)",
+      "bytes": 733,
+      "when": [
+        "work",
+        "item",
+        "traceability",
+        "mstest"
+      ]
+    },
+    {
+      "name": "Common Mistakes to Avoid",
+      "bytes": 1212,
+      "when": [
+        "common",
+        "mistakes",
+        "avoid"
+      ]
+    },
+    {
+      "name": "Test Organization",
+      "bytes": 327,
+      "when": [
+        "test",
+        "organization"
+      ]
+    },
+    {
+      "name": "Mocking and Isolation",
+      "bytes": 163,
+      "when": [
+        "mocking",
+        "isolation"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\csharp-mstest\\SKILL.md"
+}

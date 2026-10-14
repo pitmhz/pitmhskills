@@ -1,0 +1,157 @@
+{
+  "id": "nvidia__vss-manage-video-io-storage",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bd45c38c710e2c1e092032e7de2e381f5a7f699c51420c70d38d02abeb03c39a",
+  "purpose": "Use to call the VIOS REST API (sensor list, timelines, clip extraction, snapshots, add/delete sensors and streams). Not for VLM inference or search.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use to call the VIOS REST API (sensor list, timelines, clip extraction, snapshots, add/delete sensors and streams). Not for VLM inference or search."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5054,
+  "core_bytes": 20326,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 189,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 254,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1453,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Reference contracts shipped with this skill",
+      "bytes": 3220,
+      "when": [
+        "reference",
+        "contracts",
+        "shipped",
+        "skill"
+      ]
+    },
+    {
+      "name": "Deployment prerequisite — VIOS MUST be running",
+      "bytes": 2956,
+      "when": [
+        "deployment",
+        "prerequisite",
+        "vios",
+        "running"
+      ]
+    },
+    {
+      "name": "Known limitation — leftover containers from prior deploys",
+      "bytes": 934,
+      "when": [
+        "known",
+        "limitation",
+        "leftover",
+        "containers",
+        "prior",
+        "deploys"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 2241,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Service Map",
+      "bytes": 1671,
+      "when": [
+        "service"
+      ]
+    },
+    {
+      "name": "Operations",
+      "bytes": 1130,
+      "when": [
+        "operations"
+      ]
+    },
+    {
+      "name": "Workflow: sensor name/IP -> clip or snapshot",
+      "bytes": 1247,
+      "when": [
+        "workflow",
+        "sensor",
+        "name",
+        "clip",
+        "snapshot"
+      ]
+    },
+    {
+      "name": "Responses",
+      "bytes": 1110,
+      "when": [
+        "responses"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 328,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 531,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 614,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 2060,
+      "when": [
+        "tips"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-manage-video-io-storage/SKILL.md",
+  "curated": true
+}

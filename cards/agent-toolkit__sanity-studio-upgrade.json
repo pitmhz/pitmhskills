@@ -27,10 +27,146 @@
   "conflicts_with": [],
   "body_tokens": 4895,
   "core_bytes": 19590,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Three rules that determine whether the output is trustworthy",
+      "bytes": 3149,
+      "when": [
+        "three",
+        "rules",
+        "determine",
+        "whether",
+        "output",
+        "trustworthy"
+      ]
+    },
+    {
+      "name": "The verification rules, in one place",
+      "bytes": 1699,
+      "when": [
+        "verification",
+        "rules",
+        "place"
+      ]
+    },
+    {
+      "name": "Scope: v3 and later",
+      "bytes": 822,
+      "when": [
+        "scope",
+        "later"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 7735,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Step 1: Establish ground truth, and check the version floor",
+      "bytes": 1980,
+      "when": [
+        "step",
+        "establish",
+        "ground",
+        "truth",
+        "check",
+        "version",
+        "floor"
+      ]
+    },
+    {
+      "name": "Step 2: Determine the span",
+      "bytes": 971,
+      "when": [
+        "step",
+        "determine",
+        "span"
+      ]
+    },
+    {
+      "name": "Step 3: Load only the boundaries you cross",
+      "bytes": 843,
+      "when": [
+        "step",
+        "load",
+        "boundaries",
+        "cross"
+      ]
+    },
+    {
+      "name": "Step 4: Fetch what the references do not cover",
+      "bytes": 1495,
+      "when": [
+        "step",
+        "fetch",
+        "references",
+        "cover"
+      ]
+    },
+    {
+      "name": "Step 5: Test applicability",
+      "bytes": 658,
+      "when": [
+        "step",
+        "test",
+        "applicability"
+      ]
+    },
+    {
+      "name": "Step 6: Resolve the dependency graph",
+      "bytes": 675,
+      "when": [
+        "step",
+        "resolve",
+        "dependency",
+        "graph"
+      ]
+    },
+    {
+      "name": "Step 6b: Assess plugins",
+      "bytes": 660,
+      "when": [
+        "step",
+        "assess",
+        "plugins"
+      ]
+    },
+    {
+      "name": "Step 7: Write the report",
+      "bytes": 437,
+      "when": [
+        "step",
+        "write",
+        "report"
+      ]
+    },
+    {
+      "name": "Judgment calls worth making explicitly",
+      "bytes": 3841,
+      "when": [
+        "judgment",
+        "calls",
+        "worth",
+        "making",
+        "explicitly"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 792,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-studio-upgrade\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-studio-upgrade\\SKILL.md",
+  "curated": true
 }

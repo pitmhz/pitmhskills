@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__finalize-agent-prompt",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4b9b7f83671ea1992d3b8b165d384cc9f9abfd955a76a84d5c5be1d30a284248",
+  "purpose": "Finalize prompt file using the role of an AI agent to polish the prompt for the end user.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Finalize prompt file using the role of an AI agent to polish the prompt for the end user."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 224,
+  "core_bytes": 897,
+  "sections": [
+    {
+      "name": "Current Role",
+      "bytes": 227,
+      "when": [
+        "current",
+        "role"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 225,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Goal",
+      "bytes": 278,
+      "when": [
+        "goal"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\finalize-agent-prompt\\SKILL.md"
+}

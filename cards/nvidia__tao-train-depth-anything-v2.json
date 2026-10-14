@@ -1,0 +1,211 @@
+{
+  "id": "nvidia__tao-train-depth-anything-v2",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3254df22f83243fc685b08cedc6374281cb925abaa28a1fd7ea1d737987905a5",
+  "purpose": "Monocular depth estimation using Metric Depth Anything v2 or Relative Depth Anything architectures. Predicts",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Monocular depth estimation using Metric Depth Anything v2 or Relative Depth Anything architectures. Predicts"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3966,
+  "core_bytes": 15910,
+  "sections": [
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 6644,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Prerequisites — data accessibility",
+      "bytes": 640,
+      "when": [
+        "prerequisites",
+        "data",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Step 1 — Annotation file",
+      "bytes": 2240,
+      "when": [
+        "step",
+        "annotation",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 2 — Pair `model_type` and `dataset_name` based on your data",
+      "bytes": 1441,
+      "when": [
+        "step",
+        "pair",
+        "model",
+        "type",
+        "dataset",
+        "name",
+        "based",
+        "data"
+      ]
+    },
+    {
+      "name": "Step 3 — Write spec yaml from Typical Spec Overrides",
+      "bytes": 594,
+      "when": [
+        "step",
+        "write",
+        "spec",
+        "yaml",
+        "typical",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Step 4 — Run",
+      "bytes": 1044,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Step 5 — Verify",
+      "bytes": 670,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 3024,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 906,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 570,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 145,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 244,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Finetuning Recipes",
+      "bytes": 601,
+      "when": [
+        "finetuning",
+        "recipes"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 679,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Export / TRT Defaults",
+      "bytes": 282,
+      "when": [
+        "export",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 251,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 336,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 371,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 95,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-depth-anything-v2/SKILL.md",
+  "curated": true
+}

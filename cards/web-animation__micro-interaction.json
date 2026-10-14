@@ -1,0 +1,142 @@
+{
+  "id": "web-animation__micro-interaction",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "37831413610bfaa8de5005a5cdd457c498ad596e11088c8f175ea8be5ae478fc",
+  "purpose": "This skill should be used when the user asks to \"add a hover/press effect\", \"animate a toggle or switch\", \"build an animated like button\", \"make a toast/snackbar slide in\", \"animate a drawer or modal\"",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"add a hover/press effect\", \"animate a toggle or switch\", \"build an animated like button\", \"make a toast/snackba"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Hover/press/toggle micro-interactions -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "hover press toggle toast feedback",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2191,
+  "core_bytes": 8807,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 291,
+      "when": []
+    },
+    {
+      "name": "Principles (apply to all of it)",
+      "bytes": 824,
+      "when": [
+        "principles",
+        "apply"
+      ]
+    },
+    {
+      "name": "Framer Motion (motion/react) essentials",
+      "bytes": 2139,
+      "when": [
+        "framer",
+        "motion",
+        "react",
+        "essentials"
+      ]
+    },
+    {
+      "name": "Gestures and springs",
+      "bytes": 486,
+      "when": [
+        "gestures",
+        "springs"
+      ]
+    },
+    {
+      "name": "Enter / exit with AnimatePresence",
+      "bytes": 598,
+      "when": [
+        "enter",
+        "exit",
+        "animatepresence"
+      ]
+    },
+    {
+      "name": "Layout animation (the superpower)",
+      "bytes": 912,
+      "when": [
+        "layout",
+        "animation",
+        "superpower"
+      ]
+    },
+    {
+      "name": "Pure CSS path (no JS, including discrete properties)",
+      "bytes": 1079,
+      "when": [
+        "pure",
+        "path",
+        "including",
+        "discrete",
+        "properties"
+      ]
+    },
+    {
+      "name": "State, not just decoration",
+      "bytes": 247,
+      "when": [
+        "state",
+        "decoration"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2561,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 507,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 467,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "micro",
+    "interactions",
+    "principles",
+    "apply",
+    "essentials",
+    "gestures",
+    "springs",
+    "enter",
+    "exit",
+    "animatepresence",
+    "animation",
+    "superpower"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\micro-interaction\\SKILL.md"
+}

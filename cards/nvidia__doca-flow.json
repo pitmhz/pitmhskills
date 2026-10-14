@@ -1,0 +1,145 @@
+{
+  "id": "nvidia__doca-flow",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4ec69384e880ad25b7c062185201644339f32c0cb515e223b223c0f1fae8b298",
+  "purpose": "Build and debug DOCA Flow applications on supported NVIDIA NICs/DPUs: define match/action pipes, initialize ports and representors, choose forwarding targets, validate pipes before hardware programmin",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build and debug DOCA Flow applications on supported NVIDIA NICs/DPUs: define match/action pipes, initialize ports and representors, choose forwarding targets, v"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3491,
+  "core_bytes": 14033,
+  "sections": [
+    {
+      "name": "Non-negotiable: the deliverable uses DOCA Flow, not kernel tc/iptables",
+      "bytes": 2567,
+      "when": [
+        "negotiable",
+        "deliverable",
+        "uses",
+        "doca",
+        "flow",
+        "kernel",
+        "iptables"
+      ]
+    },
+    {
+      "name": "Ground rule: verify every API name against the installed header",
+      "bytes": 921,
+      "when": [
+        "ground",
+        "rule",
+        "verify",
+        "name",
+        "against",
+        "installed",
+        "header"
+      ]
+    },
+    {
+      "name": "Port bring-up: the gate lives in TASKS.md",
+      "bytes": 710,
+      "when": [
+        "port",
+        "bring",
+        "gate",
+        "lives",
+        "tasks"
+      ]
+    },
+    {
+      "name": "When to refuse (push back before writing code)",
+      "bytes": 1925,
+      "when": [
+        "refuse",
+        "push",
+        "back",
+        "before",
+        "writing",
+        "code"
+      ]
+    },
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 1664,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "Audience",
+      "bytes": 662,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 1104,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1269,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 726,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 299,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 1137,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-flow\\SKILL.md",
+  "curated": true
+}

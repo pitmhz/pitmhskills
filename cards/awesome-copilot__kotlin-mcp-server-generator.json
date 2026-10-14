@@ -1,0 +1,244 @@
+{
+  "id": "awesome-copilot__kotlin-mcp-server-generator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4bedcbc52a3f47f831552d7e0e3599c6653e62918ae8bd0b535e2147b8ce1f1e",
+  "purpose": "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk library.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk libr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2672,
+  "core_bytes": 10848,
+  "sections": [
+    {
+      "name": "Project Requirements",
+      "bytes": 502,
+      "when": [
+        "project",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Template Structure",
+      "bytes": 685,
+      "when": [
+        "template",
+        "structure"
+      ]
+    },
+    {
+      "name": "build.gradle.kts Template",
+      "bytes": 1073,
+      "when": [
+        "build",
+        "gradle",
+        "template"
+      ]
+    },
+    {
+      "name": "settings.gradle.kts Template",
+      "bytes": 86,
+      "when": [
+        "settings",
+        "gradle",
+        "template"
+      ]
+    },
+    {
+      "name": "Main.kt Template",
+      "bytes": 600,
+      "when": [
+        "main",
+        "template"
+      ]
+    },
+    {
+      "name": "Server.kt Template",
+      "bytes": 1046,
+      "when": [
+        "server",
+        "template"
+      ]
+    },
+    {
+      "name": "Config.kt Template",
+      "bytes": 544,
+      "when": [
+        "config",
+        "template"
+      ]
+    },
+    {
+      "name": "Tool1.kt Template",
+      "bytes": 1843,
+      "when": [
+        "tool1",
+        "template"
+      ]
+    },
+    {
+      "name": "tools/ToolRegistry.kt Template",
+      "bytes": 252,
+      "when": [
+        "tools",
+        "toolregistry",
+        "template"
+      ]
+    },
+    {
+      "name": "ServerTest.kt Template",
+      "bytes": 895,
+      "when": [
+        "servertest",
+        "template"
+      ]
+    },
+    {
+      "name": "README.md Template",
+      "bytes": 113,
+      "when": [
+        "readme",
+        "template"
+      ]
+    },
+    {
+      "name": "Description",
+      "bytes": 41,
+      "when": [
+        "description"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 53,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 72,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 203,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 199,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Available Tools",
+      "bytes": 205,
+      "when": [
+        "available",
+        "tools"
+      ]
+    },
+    {
+      "name": "tool1",
+      "bytes": 185,
+      "when": [
+        "tool1"
+      ]
+    },
+    {
+      "name": "Development",
+      "bytes": 188,
+      "when": [
+        "development"
+      ]
+    },
+    {
+      "name": "Multiplatform",
+      "bytes": 144,
+      "when": [
+        "multiplatform"
+      ]
+    },
+    {
+      "name": "License",
+      "bytes": 21,
+      "when": [
+        "license"
+      ]
+    },
+    {
+      "name": "Generation Instructions",
+      "bytes": 676,
+      "when": [
+        "generation",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 470,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Transport Options",
+      "bytes": 278,
+      "when": [
+        "transport",
+        "options"
+      ]
+    },
+    {
+      "name": "Stdio Transport",
+      "bytes": 100,
+      "when": [
+        "stdio",
+        "transport"
+      ]
+    },
+    {
+      "name": "SSE Transport (Ktor)",
+      "bytes": 156,
+      "when": [
+        "transport",
+        "ktor"
+      ]
+    },
+    {
+      "name": "Multiplatform Configuration",
+      "bytes": 303,
+      "when": [
+        "multiplatform",
+        "configuration"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\kotlin-mcp-server-generator\\SKILL.md"
+}

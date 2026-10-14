@@ -1,0 +1,179 @@
+{
+  "id": "awesome-copilot__devops-rollout-plan",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4895d403e08e9ea4cf59ef06ef843745aa5dd574a1faad83d4140c1f2554b7d4",
+  "purpose": "Generate comprehensive rollout plans with preflight checks, step-by-step deployment, verification signals, rollback procedures, and communication plans for infrastructure and application changes",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate comprehensive rollout plans with preflight checks, step-by-step deployment, verification signals, rollback procedures, and communication plans for infr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 999,
+  "core_bytes": 3994,
+  "sections": [
+    {
+      "name": "Input Requirements",
+      "bytes": 727,
+      "when": [
+        "input",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Change Description",
+      "bytes": 161,
+      "when": [
+        "change",
+        "description"
+      ]
+    },
+    {
+      "name": "Environment Details",
+      "bytes": 208,
+      "when": [
+        "environment",
+        "details"
+      ]
+    },
+    {
+      "name": "Constraints & Requirements",
+      "bytes": 156,
+      "when": [
+        "constraints",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Risk Assessment",
+      "bytes": 129,
+      "when": [
+        "risk",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 2240,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "1. Executive Summary",
+      "bytes": 140,
+      "when": [
+        "executive",
+        "summary"
+      ]
+    },
+    {
+      "name": "2. Prerequisites & Approvals",
+      "bytes": 203,
+      "when": [
+        "prerequisites",
+        "approvals"
+      ]
+    },
+    {
+      "name": "3. Preflight Checks",
+      "bytes": 176,
+      "when": [
+        "preflight",
+        "checks"
+      ]
+    },
+    {
+      "name": "4. Step-by-Step Rollout Procedure",
+      "bytes": 188,
+      "when": [
+        "step",
+        "rollout",
+        "procedure"
+      ]
+    },
+    {
+      "name": "5. Verification Signals",
+      "bytes": 381,
+      "when": [
+        "verification",
+        "signals"
+      ]
+    },
+    {
+      "name": "6. Rollback Procedure",
+      "bytes": 253,
+      "when": [
+        "rollback",
+        "procedure"
+      ]
+    },
+    {
+      "name": "7. Communication Plan",
+      "bytes": 322,
+      "when": [
+        "communication",
+        "plan"
+      ]
+    },
+    {
+      "name": "8. Post-Deployment Tasks",
+      "bytes": 196,
+      "when": [
+        "post",
+        "deployment",
+        "tasks"
+      ]
+    },
+    {
+      "name": "9. Contingency Plans",
+      "bytes": 157,
+      "when": [
+        "contingency",
+        "plans"
+      ]
+    },
+    {
+      "name": "10. Contact Information",
+      "bytes": 149,
+      "when": [
+        "contact",
+        "information"
+      ]
+    },
+    {
+      "name": "Plan Customization",
+      "bytes": 354,
+      "when": [
+        "plan",
+        "customization"
+      ]
+    },
+    {
+      "name": "Remember",
+      "bytes": 281,
+      "when": [
+        "remember"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\devops-rollout-plan\\SKILL.md"
+}

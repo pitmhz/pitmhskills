@@ -29,7 +29,105 @@
   "conflicts_with": [],
   "body_tokens": 3152,
   "core_bytes": 12605,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1158,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Exports To Ask For",
+      "bytes": 620,
+      "when": [
+        "exports"
+      ]
+    },
+    {
+      "name": "Mapping Heuristics",
+      "bytes": 1292,
+      "when": [
+        "mapping",
+        "heuristics"
+      ]
+    },
+    {
+      "name": "Migration Assessment Prompts",
+      "bytes": 1450,
+      "when": [
+        "migration",
+        "assessment",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Source-Specific Traps",
+      "bytes": 5941,
+      "when": [
+        "source",
+        "specific",
+        "traps"
+      ]
+    },
+    {
+      "name": "Zscaler ZIA / SWG",
+      "bytes": 1265,
+      "when": [
+        "zscaler"
+      ]
+    },
+    {
+      "name": "Zscaler ZPA / Private Access",
+      "bytes": 3913,
+      "when": [
+        "zscaler",
+        "private",
+        "access"
+      ]
+    },
+    {
+      "name": "Palo Alto / Prisma / NGFW",
+      "bytes": 735,
+      "when": [
+        "palo",
+        "alto",
+        "prisma",
+        "ngfw"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 758,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Validation Gates",
+      "bytes": 754,
+      "when": [
+        "validation",
+        "gates"
+      ]
+    },
+    {
+      "name": "Assessment Template",
+      "bytes": 39,
+      "when": [
+        "assessment",
+        "template"
+      ]
+    },
+    {
+      "name": "Migration Assessment",
+      "bytes": 233,
+      "when": [
+        "migration",
+        "assessment"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/cloudflare-one-migrations/SKILL.md"
 }

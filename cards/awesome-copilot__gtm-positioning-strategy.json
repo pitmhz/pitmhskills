@@ -1,0 +1,166 @@
+{
+  "id": "awesome-copilot__gtm-positioning-strategy",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "332c1426936c92ffba2173b00d92fcb388991d88f25f9e0f4531aed55de7f27f",
+  "purpose": "Find and own a defensible market position. Use when messaging sounds like competitors, conversion is weak despite awareness, repositioning a product, or testing positioning claims. Includes Crawl-Walk",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Find and own a defensible market position. Use when messaging sounds like competitors, conversion is weak despite awareness, repositioning a product, or testing"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3545,
+  "core_bytes": 14272,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 495,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 9873,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. One Word Can Change Everything (The \"Autonomous\" Problem)",
+      "bytes": 2011,
+      "when": [
+        "word",
+        "change",
+        "everything",
+        "autonomous",
+        "problem"
+      ]
+    },
+    {
+      "name": "2. Test Before You Commit (Crawl-Walk-Run Positioning Rollout)",
+      "bytes": 2431,
+      "when": [
+        "test",
+        "before",
+        "commit",
+        "crawl",
+        "walk",
+        "positioning",
+        "rollout"
+      ]
+    },
+    {
+      "name": "3. Positioning Clarity Diagnosis",
+      "bytes": 1710,
+      "when": [
+        "positioning",
+        "clarity",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "4. Market Positioning Architecture (Three Layers)",
+      "bytes": 1221,
+      "when": [
+        "market",
+        "positioning",
+        "architecture",
+        "three",
+        "layers"
+      ]
+    },
+    {
+      "name": "5. Headline and Sub-headline Testing",
+      "bytes": 1260,
+      "when": [
+        "headline",
+        "testing"
+      ]
+    },
+    {
+      "name": "6. Positioning Defensibility Assessment",
+      "bytes": 1220,
+      "when": [
+        "positioning",
+        "defensibility",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 980,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Should We Reposition?",
+      "bytes": 297,
+      "when": [
+        "reposition"
+      ]
+    },
+    {
+      "name": "Which Positioning Angle Should We Test?",
+      "bytes": 327,
+      "when": [
+        "positioning",
+        "angle",
+        "test"
+      ]
+    },
+    {
+      "name": "Should We Move from Crawl to Walk Phase?",
+      "bytes": 337,
+      "when": [
+        "move",
+        "crawl",
+        "walk",
+        "phase"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 745,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 859,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 625,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-positioning-strategy\\SKILL.md"
+}

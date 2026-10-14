@@ -1,0 +1,88 @@
+{
+  "id": "antfu-skills__vitepress",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "291230f9badc4b7d68128717de904e4ba515ba53b211b828f156b8da7af5c098",
+  "purpose": "VitePress static site generator powered by Vite and Vue. Use when building documentation sites, configuring themes, or writing Markdown with Vue components.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "VitePress static site generator powered by Vite and Vue. Use when building documentation sites, configuring themes, or writing Markdown with Vue components."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 938,
+  "core_bytes": 3753,
+  "sections": [
+    {
+      "name": "Core",
+      "bytes": 517,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 625,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Code & Content",
+      "bytes": 610,
+      "when": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "name": "Theme",
+      "bytes": 434,
+      "when": [
+        "theme"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "bytes": 330,
+      "when": [
+        "advanced"
+      ]
+    },
+    {
+      "name": "Recipes",
+      "bytes": 204,
+      "when": [
+        "recipes"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "features",
+    "code",
+    "content",
+    "theme",
+    "advanced",
+    "recipes"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\vitepress\\SKILL.md"
+}

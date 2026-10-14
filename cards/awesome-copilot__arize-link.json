@@ -1,0 +1,91 @@
+{
+  "id": "awesome-copilot__arize-link",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e7ca578678df826fbcb6e5498bea3ba8bd4fc5251c0eb3446d63023adef6a073",
+  "purpose": "Generates deep links to the Arize UI for traces, spans, sessions, datasets, labeling queues, evaluators, and annotation configs. Produces clickable URLs for sharing Arize resources with team members. ",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generates deep links to the Arize UI for traces, spans, sessions, datasets, labeling queues, evaluators, and annotation configs. Produces clickable URLs for sha"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1121,
+  "core_bytes": 4517,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 253,
+      "when": []
+    },
+    {
+      "name": "Required Inputs",
+      "bytes": 819,
+      "when": [
+        "required",
+        "inputs"
+      ]
+    },
+    {
+      "name": "URL Templates",
+      "bytes": 1417,
+      "when": [
+        "templates"
+      ]
+    },
+    {
+      "name": "Time Range",
+      "bytes": 509,
+      "when": [
+        "time",
+        "range"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 264,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 508,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 100,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 97,
+      "when": [
+        "examples"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-link\\SKILL.md"
+}

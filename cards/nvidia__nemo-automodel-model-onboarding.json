@@ -1,0 +1,290 @@
+{
+  "id": "nvidia__nemo-automodel-model-onboarding",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "54885c9b5bdcaa540e7c07dc1845df8f33d0072b85a87db24425d6fb47966f42",
+  "purpose": "Guide for onboarding new model architectures into NeMo AutoModel, including architecture discovery, implementation patterns, registration, and validation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guide for onboarding new model architectures into NeMo AutoModel, including architecture discovery, implementation patterns, registration, and validation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5826,
+  "core_bytes": 23311,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 205,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 849,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1644,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Routing Boundary",
+      "bytes": 988,
+      "when": [
+        "routing",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Phase 1: Discovery",
+      "bytes": 3045,
+      "when": [
+        "phase",
+        "discovery"
+      ]
+    },
+    {
+      "name": "1.1 Fetch HuggingFace config.json",
+      "bytes": 815,
+      "when": [
+        "fetch",
+        "huggingface",
+        "config",
+        "json"
+      ]
+    },
+    {
+      "name": "1.2 Determine model type",
+      "bytes": 483,
+      "when": [
+        "determine",
+        "model",
+        "type"
+      ]
+    },
+    {
+      "name": "1.3 Check for existing similar architectures",
+      "bytes": 716,
+      "when": [
+        "check",
+        "existing",
+        "similar",
+        "architectures"
+      ]
+    },
+    {
+      "name": "1.4 Identify custom components",
+      "bytes": 534,
+      "when": [
+        "identify",
+        "custom",
+        "components"
+      ]
+    },
+    {
+      "name": "1.5 Note dimensions for test config",
+      "bytes": 405,
+      "when": [
+        "note",
+        "dimensions",
+        "test",
+        "config"
+      ]
+    },
+    {
+      "name": "Phase 2: Implementation",
+      "bytes": 8960,
+      "when": [
+        "phase",
+        "implementation"
+      ]
+    },
+    {
+      "name": "2.1 Create directory structure",
+      "bytes": 369,
+      "when": [
+        "create",
+        "directory",
+        "structure"
+      ]
+    },
+    {
+      "name": "2.2 Implementation order",
+      "bytes": 1219,
+      "when": [
+        "implementation",
+        "order"
+      ]
+    },
+    {
+      "name": "2.3 Causal LM weight tying",
+      "bytes": 1978,
+      "when": [
+        "causal",
+        "weight",
+        "tying"
+      ]
+    },
+    {
+      "name": "2.4 MoE state-dict adapter checklist",
+      "bytes": 1241,
+      "when": [
+        "state",
+        "dict",
+        "adapter",
+        "checklist"
+      ]
+    },
+    {
+      "name": "2.5 VLM onboarding checklist",
+      "bytes": 809,
+      "when": [
+        "onboarding",
+        "checklist"
+      ]
+    },
+    {
+      "name": "2.6 Checkpoint I/O performance",
+      "bytes": 1843,
+      "when": [
+        "checkpoint",
+        "performance"
+      ]
+    },
+    {
+      "name": "2.7 Register in registry",
+      "bytes": 702,
+      "when": [
+        "register",
+        "registry"
+      ]
+    },
+    {
+      "name": "2.8 Declare capabilities and precision-sensitive params",
+      "bytes": 769,
+      "when": [
+        "declare",
+        "capabilities",
+        "precision",
+        "sensitive",
+        "params"
+      ]
+    },
+    {
+      "name": "Phase 3: Onboarding Example Config",
+      "bytes": 1322,
+      "when": [
+        "phase",
+        "onboarding",
+        "example",
+        "config"
+      ]
+    },
+    {
+      "name": "3.1 Create example YAML config",
+      "bytes": 659,
+      "when": [
+        "create",
+        "example",
+        "yaml",
+        "config"
+      ]
+    },
+    {
+      "name": "3.2 Verify model loads",
+      "bytes": 235,
+      "when": [
+        "verify",
+        "model",
+        "loads"
+      ]
+    },
+    {
+      "name": "3.3 Test with tiny config first",
+      "bytes": 163,
+      "when": [
+        "test",
+        "tiny",
+        "config",
+        "first"
+      ]
+    },
+    {
+      "name": "Phase 4: Tests",
+      "bytes": 781,
+      "when": [
+        "phase",
+        "tests"
+      ]
+    },
+    {
+      "name": "Phase 5: Documentation",
+      "bytes": 323,
+      "when": [
+        "phase",
+        "documentation"
+      ]
+    },
+    {
+      "name": "5.1 Update model coverage page",
+      "bytes": 294,
+      "when": [
+        "update",
+        "model",
+        "coverage",
+        "page"
+      ]
+    },
+    {
+      "name": "Phase 6: Parity Testing",
+      "bytes": 1093,
+      "when": [
+        "phase",
+        "parity",
+        "testing"
+      ]
+    },
+    {
+      "name": "Key Files Reference",
+      "bytes": 1055,
+      "when": [
+        "files",
+        "reference"
+      ]
+    },
+    {
+      "name": "Checklist",
+      "bytes": 2460,
+      "when": [
+        "checklist"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-automodel-model-onboarding/SKILL.md",
+  "curated": true
+}

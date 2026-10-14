@@ -1,0 +1,203 @@
+{
+  "id": "taste-skill__high-end-visual-design",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "2d11cdcefc8bf319429ee17d94d69a390802e2acf7163662d1eacbcf5be3ff79",
+  "purpose": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make",
+  "domain": "frontend",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "High-end agency direction -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "high-end agency fonts shadows premium",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2661,
+  "core_bytes": 10659,
+  "sections": [
+    {
+      "name": "1. Meta Information & Core Directive",
+      "bytes": 558,
+      "when": [
+        "meta",
+        "information",
+        "core",
+        "directive"
+      ]
+    },
+    {
+      "name": "2. THE \"ABSOLUTE ZERO\" DIRECTIVE (STRICT ANTI-PATTERNS)",
+      "bytes": 871,
+      "when": [
+        "absolute",
+        "zero",
+        "directive",
+        "strict",
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "3. THE CREATIVE VARIANCE ENGINE",
+      "bytes": 2434,
+      "when": [
+        "creative",
+        "variance",
+        "engine"
+      ]
+    },
+    {
+      "name": "A. Vibe & Texture Archetypes (Pick 1)",
+      "bytes": 798,
+      "when": [
+        "vibe",
+        "texture",
+        "archetypes",
+        "pick"
+      ]
+    },
+    {
+      "name": "B. Layout Archetypes (Pick 1)",
+      "bytes": 1402,
+      "when": [
+        "layout",
+        "archetypes",
+        "pick"
+      ]
+    },
+    {
+      "name": "4. HAPTIC MICRO-AESTHETICS (COMPONENT MASTERY)",
+      "bytes": 1709,
+      "when": [
+        "haptic",
+        "micro",
+        "aesthetics",
+        "component",
+        "mastery"
+      ]
+    },
+    {
+      "name": "A. The \"Double-Bezel\" (Doppelrand / Nested Architecture)",
+      "bytes": 816,
+      "when": [
+        "double",
+        "bezel",
+        "doppelrand",
+        "nested",
+        "architecture"
+      ]
+    },
+    {
+      "name": "B. Nested CTA & \"Island\" Button Architecture",
+      "bytes": 517,
+      "when": [
+        "nested",
+        "island",
+        "button",
+        "architecture"
+      ]
+    },
+    {
+      "name": "C. Spatial Rhythm & Tension",
+      "bytes": 323,
+      "when": [
+        "spatial",
+        "rhythm",
+        "tension"
+      ]
+    },
+    {
+      "name": "5. MOTION CHOREOGRAPHY (FLUID DYNAMICS)",
+      "bytes": 1956,
+      "when": [
+        "motion",
+        "choreography",
+        "fluid",
+        "dynamics"
+      ]
+    },
+    {
+      "name": "A. The \"Fluid Island\" Nav & Hamburger Reveal",
+      "bytes": 836,
+      "when": [
+        "fluid",
+        "island",
+        "hamburger",
+        "reveal"
+      ]
+    },
+    {
+      "name": "B. Magnetic Button Hover Physics",
+      "bytes": 408,
+      "when": [
+        "magnetic",
+        "button",
+        "hover",
+        "physics"
+      ]
+    },
+    {
+      "name": "C. Scroll Interpolation (Entry Animations)",
+      "bytes": 474,
+      "when": [
+        "scroll",
+        "interpolation",
+        "entry",
+        "animations"
+      ]
+    },
+    {
+      "name": "6. PERFORMANCE GUARDRAILS",
+      "bytes": 849,
+      "when": [
+        "performance",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "7. EXECUTION PROTOCOL",
+      "bytes": 796,
+      "when": [
+        "execution",
+        "protocol"
+      ]
+    },
+    {
+      "name": "8. PRE-OUTPUT CHECKLIST",
+      "bytes": 1112,
+      "when": [
+        "output",
+        "checklist"
+      ]
+    }
+  ],
+  "keywords": [
+    "agent",
+    "skill",
+    "principal",
+    "architect",
+    "motion",
+    "choreographer",
+    "awwwards",
+    "tier",
+    "meta",
+    "information",
+    "core",
+    "directive"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\soft-skill\\SKILL.md"
+}

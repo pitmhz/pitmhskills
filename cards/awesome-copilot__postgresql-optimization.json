@@ -1,0 +1,332 @@
+{
+  "id": "awesome-copilot__postgresql-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9b511a7d706302761a7700cd6b87df9793650fa7f7f3299fe33243fc339e3c9f",
+  "purpose": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/",
+  "domain": "backend-data",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB opera"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2834,
+  "core_bytes": 11368,
+  "sections": [
+    {
+      "name": "� PostgreSQL-Specific Features",
+      "bytes": 2299,
+      "when": [
+        "postgresql",
+        "specific",
+        "features"
+      ]
+    },
+    {
+      "name": "JSONB Operations",
+      "bytes": 489,
+      "when": [
+        "jsonb",
+        "operations"
+      ]
+    },
+    {
+      "name": "Array Operations",
+      "bytes": 447,
+      "when": [
+        "array",
+        "operations"
+      ]
+    },
+    {
+      "name": "Window Functions & Analytics",
+      "bytes": 625,
+      "when": [
+        "window",
+        "functions",
+        "analytics"
+      ]
+    },
+    {
+      "name": "Full-Text Search",
+      "bytes": 701,
+      "when": [
+        "full",
+        "text",
+        "search"
+      ]
+    },
+    {
+      "name": "� PostgreSQL Performance Tuning",
+      "bytes": 1359,
+      "when": [
+        "postgresql",
+        "performance",
+        "tuning"
+      ]
+    },
+    {
+      "name": "Query Optimization",
+      "bytes": 532,
+      "when": [
+        "query",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Index Strategies",
+      "bytes": 497,
+      "when": [
+        "index",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Connection & Memory Management",
+      "bytes": 292,
+      "when": [
+        "connection",
+        "memory",
+        "management"
+      ]
+    },
+    {
+      "name": "�️ PostgreSQL Advanced Data Types",
+      "bytes": 1517,
+      "when": [
+        "postgresql",
+        "advanced",
+        "data",
+        "types"
+      ]
+    },
+    {
+      "name": "Custom Types & Domains",
+      "bytes": 592,
+      "when": [
+        "custom",
+        "types",
+        "domains"
+      ]
+    },
+    {
+      "name": "Range Types",
+      "bytes": 454,
+      "when": [
+        "range",
+        "types"
+      ]
+    },
+    {
+      "name": "Geometric Types",
+      "bytes": 429,
+      "when": [
+        "geometric",
+        "types"
+      ]
+    },
+    {
+      "name": "📊 PostgreSQL Extensions & Tools",
+      "bytes": 1659,
+      "when": [
+        "postgresql",
+        "extensions",
+        "tools"
+      ]
+    },
+    {
+      "name": "Useful Extensions",
+      "bytes": 645,
+      "when": [
+        "useful",
+        "extensions"
+      ]
+    },
+    {
+      "name": "Monitoring & Maintenance",
+      "bytes": 533,
+      "when": [
+        "monitoring",
+        "maintenance"
+      ]
+    },
+    {
+      "name": "PostgreSQL-Specific Optimization Tips",
+      "bytes": 442,
+      "when": [
+        "postgresql",
+        "specific",
+        "optimization",
+        "tips"
+      ]
+    },
+    {
+      "name": "📊 Monitoring and Maintenance",
+      "bytes": 634,
+      "when": [
+        "monitoring",
+        "maintenance"
+      ]
+    },
+    {
+      "name": "Query Performance Monitoring",
+      "bytes": 328,
+      "when": [
+        "query",
+        "performance",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Database Maintenance",
+      "bytes": 270,
+      "when": [
+        "database",
+        "maintenance"
+      ]
+    },
+    {
+      "name": "🛠️ Common Query Patterns",
+      "bytes": 913,
+      "when": [
+        "common",
+        "query",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Pagination",
+      "bytes": 229,
+      "when": [
+        "pagination"
+      ]
+    },
+    {
+      "name": "Aggregation",
+      "bytes": 372,
+      "when": [
+        "aggregation"
+      ]
+    },
+    {
+      "name": "JSON Queries",
+      "bytes": 278,
+      "when": [
+        "json",
+        "queries"
+      ]
+    },
+    {
+      "name": "📋 Optimization Checklist",
+      "bytes": 1003,
+      "when": [
+        "optimization",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Query Analysis",
+      "bytes": 242,
+      "when": [
+        "query",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Index Strategy",
+      "bytes": 263,
+      "when": [
+        "index",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Security Review",
+      "bytes": 219,
+      "when": [
+        "security",
+        "review"
+      ]
+    },
+    {
+      "name": "Performance Monitoring",
+      "bytes": 247,
+      "when": [
+        "performance",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "🎯 Optimization Output Format",
+      "bytes": 67,
+      "when": [
+        "optimization",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Query Analysis Results",
+      "bytes": 31,
+      "when": [
+        "query",
+        "analysis",
+        "results"
+      ]
+    },
+    {
+      "name": "Query Performance Analysis",
+      "bytes": 447,
+      "when": [
+        "query",
+        "performance",
+        "analysis"
+      ]
+    },
+    {
+      "name": "🚀 Advanced PostgreSQL Features",
+      "bytes": 919,
+      "when": [
+        "advanced",
+        "postgresql",
+        "features"
+      ]
+    },
+    {
+      "name": "Window Functions",
+      "bytes": 290,
+      "when": [
+        "window",
+        "functions"
+      ]
+    },
+    {
+      "name": "Common Table Expressions (CTEs)",
+      "bytes": 591,
+      "when": [
+        "common",
+        "table",
+        "expressions",
+        "ctes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\postgresql-optimization\\SKILL.md"
+}

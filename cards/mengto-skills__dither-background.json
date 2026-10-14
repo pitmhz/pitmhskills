@@ -1,0 +1,109 @@
+{
+  "id": "mengto-skills__dither-background",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "29356ea430b57c2fa33d56199393655e2bbd17595f72c82fdd1e3b5f251dce65",
+  "purpose": "Create a dark monochrome procedural background with enlarged square pixels and visible Bayer-style ordered dithering. Use when a page needs an atmospheric near-black dither field, broad organic waves ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Create a dark monochrome procedural background with enlarged square pixels and visible Bayer-style ordered dithering. Use when a page needs an atmospheric near-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1786,
+  "core_bytes": 7144,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 347,
+      "when": []
+    },
+    {
+      "name": "Visual Target",
+      "bytes": 379,
+      "when": [
+        "visual",
+        "target"
+      ]
+    },
+    {
+      "name": "HTML And CSS",
+      "bytes": 335,
+      "when": [
+        "html"
+      ]
+    },
+    {
+      "name": "Canvas Recipe",
+      "bytes": 4268,
+      "when": [
+        "canvas",
+        "recipe"
+      ]
+    },
+    {
+      "name": "Tuning Knobs",
+      "bytes": 485,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Composition Notes",
+      "bytes": 311,
+      "when": [
+        "composition",
+        "notes"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 360,
+      "when": [
+        "avoid"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 281,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "visual",
+    "target",
+    "html",
+    "canvas",
+    "recipe",
+    "tuning",
+    "knobs",
+    "composition",
+    "notes",
+    "avoid",
+    "quick",
+    "checks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\dither-background\\SKILL.md"
+}

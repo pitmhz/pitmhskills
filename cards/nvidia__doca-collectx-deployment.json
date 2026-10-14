@@ -1,0 +1,108 @@
+{
+  "id": "nvidia__doca-collectx-deployment",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "93b6c6035227e79004fd58c0efe2421b5565a3f0e0b665e9a44d59489883efbd",
+  "purpose": "Use this skill to deploy and operate a CollectX (clx) based DOCA telemetry collector on a host or BlueField — wiring providers / counters into the collector, running the collection daemon, and shaping",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill to deploy and operate a CollectX (clx) based DOCA telemetry collector on a host or BlueField — wiring providers / counters into the collector, ru"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2892,
+  "core_bytes": 11630,
+  "sections": [
+    {
+      "name": "The scope boundary (read this before anything else)",
+      "bytes": 2251,
+      "when": [
+        "scope",
+        "boundary",
+        "read",
+        "before",
+        "anything",
+        "else"
+      ]
+    },
+    {
+      "name": "Audience",
+      "bytes": 1575,
+      "when": [
+        "audience"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 1922,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1741,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 1001,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 145,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "What this skill deliberately does not ship",
+      "bytes": 147,
+      "when": [
+        "skill",
+        "deliberately",
+        "ship"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 91,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-collectx-deployment\\SKILL.md",
+  "curated": true
+}

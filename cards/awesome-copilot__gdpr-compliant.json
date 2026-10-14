@@ -1,0 +1,219 @@
+{
+  "id": "awesome-copilot__gdpr-compliant",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e1f33a817a1d0f7165f4f6652cfeb52632ba124067c3f46c37f867cde730242e",
+  "purpose": "Apply GDPR-compliant engineering practices across your codebase. Use this skill whenever you are designing APIs, writing data models, building authentication flows, implementing logging, handling user",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Apply GDPR-compliant engineering practices across your codebase. Use this skill whenever you are designing APIs, writing data models, building authentication fl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2968,
+  "core_bytes": 11923,
+  "sections": [
+    {
+      "name": "1. Core GDPR Principles (Article 5)",
+      "bytes": 744,
+      "when": [
+        "core",
+        "gdpr",
+        "principles",
+        "article"
+      ]
+    },
+    {
+      "name": "2. Privacy by Design & by Default",
+      "bytes": 764,
+      "when": [
+        "privacy",
+        "design",
+        "default"
+      ]
+    },
+    {
+      "name": "3. Data Minimization",
+      "bytes": 743,
+      "when": [
+        "data",
+        "minimization"
+      ]
+    },
+    {
+      "name": "4. Purpose Limitation",
+      "bytes": 450,
+      "when": [
+        "purpose",
+        "limitation"
+      ]
+    },
+    {
+      "name": "5. Storage Limitation & Retention",
+      "bytes": 970,
+      "when": [
+        "storage",
+        "limitation",
+        "retention"
+      ]
+    },
+    {
+      "name": "6. API Design Rules",
+      "bytes": 768,
+      "when": [
+        "design",
+        "rules"
+      ]
+    },
+    {
+      "name": "7. Logging Rules",
+      "bytes": 715,
+      "when": [
+        "logging",
+        "rules"
+      ]
+    },
+    {
+      "name": "8. Error Handling",
+      "bytes": 586,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "9. Encryption (summary — see `references/security.md` for full detail)",
+      "bytes": 474,
+      "when": [
+        "encryption",
+        "summary",
+        "references",
+        "security",
+        "full",
+        "detail"
+      ]
+    },
+    {
+      "name": "10. Password Hashing",
+      "bytes": 291,
+      "when": [
+        "password",
+        "hashing"
+      ]
+    },
+    {
+      "name": "11. Secrets Management",
+      "bytes": 519,
+      "when": [
+        "secrets",
+        "management"
+      ]
+    },
+    {
+      "name": "12. Anonymization & Pseudonymization (summary — see `references/security.md`)",
+      "bytes": 587,
+      "when": [
+        "anonymization",
+        "pseudonymization",
+        "summary",
+        "references",
+        "security"
+      ]
+    },
+    {
+      "name": "13. Testing with Fake Data",
+      "bytes": 337,
+      "when": [
+        "testing",
+        "fake",
+        "data"
+      ]
+    },
+    {
+      "name": "14. Anti-Patterns",
+      "bytes": 856,
+      "when": [
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "15. PR Review Checklist",
+      "bytes": 1844,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Data model",
+      "bytes": 225,
+      "when": [
+        "data",
+        "model"
+      ]
+    },
+    {
+      "name": "API",
+      "bytes": 234,
+      "when": []
+    },
+    {
+      "name": "Logging",
+      "bytes": 165,
+      "when": [
+        "logging"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "bytes": 264,
+      "when": [
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "Secrets & CI/CD",
+      "bytes": 176,
+      "when": [
+        "secrets"
+      ]
+    },
+    {
+      "name": "Retention & erasure",
+      "bytes": 147,
+      "when": [
+        "retention",
+        "erasure"
+      ]
+    },
+    {
+      "name": "User rights & governance",
+      "bytes": 605,
+      "when": [
+        "user",
+        "rights",
+        "governance"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gdpr-compliant\\SKILL.md"
+}

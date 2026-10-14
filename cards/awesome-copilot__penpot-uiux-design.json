@@ -1,0 +1,289 @@
+{
+  "id": "awesome-copilot__penpot-uiux-design",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d15c5f2607fc96c272738343f58d054357bf54042be36f7d68a1f473fc78bdfe",
+  "purpose": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or d"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3026,
+  "core_bytes": 12950,
+  "sections": [
+    {
+      "name": "Available MCP Tools",
+      "bytes": 398,
+      "when": [
+        "available",
+        "tools"
+      ]
+    },
+    {
+      "name": "MCP Server Setup",
+      "bytes": 1932,
+      "when": [
+        "server",
+        "setup"
+      ]
+    },
+    {
+      "name": "Before Setup: Check If Already Running",
+      "bytes": 588,
+      "when": [
+        "before",
+        "setup",
+        "check",
+        "already",
+        "running"
+      ]
+    },
+    {
+      "name": "Quick Start (Only If Not Installed)",
+      "bytes": 387,
+      "when": [
+        "quick",
+        "start",
+        "installed"
+      ]
+    },
+    {
+      "name": "VS Code Configuration",
+      "bytes": 175,
+      "when": [
+        "code",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Troubleshooting (If Server Is Installed But Not Working)",
+      "bytes": 567,
+      "when": [
+        "troubleshooting",
+        "server",
+        "installed",
+        "working"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 477,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Core Design Principles",
+      "bytes": 629,
+      "when": [
+        "core",
+        "design",
+        "principles"
+      ]
+    },
+    {
+      "name": "The Golden Rules",
+      "bytes": 331,
+      "when": [
+        "golden",
+        "rules"
+      ]
+    },
+    {
+      "name": "Visual Hierarchy (Priority Order)",
+      "bytes": 271,
+      "when": [
+        "visual",
+        "hierarchy",
+        "priority",
+        "order"
+      ]
+    },
+    {
+      "name": "Design Workflow",
+      "bytes": 595,
+      "when": [
+        "design",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Design System Handling",
+      "bytes": 1278,
+      "when": [
+        "design",
+        "system",
+        "handling"
+      ]
+    },
+    {
+      "name": "Key Penpot API Gotchas",
+      "bytes": 395,
+      "when": [
+        "penpot",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Positioning New Boards",
+      "bytes": 905,
+      "when": [
+        "positioning",
+        "boards"
+      ]
+    },
+    {
+      "name": "Default Design Tokens",
+      "bytes": 1172,
+      "when": [
+        "default",
+        "design",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Spacing Scale (8px base)",
+      "bytes": 343,
+      "when": [
+        "spacing",
+        "scale",
+        "base"
+      ]
+    },
+    {
+      "name": "Typography Scale",
+      "bytes": 393,
+      "when": [
+        "typography",
+        "scale"
+      ]
+    },
+    {
+      "name": "Color Usage",
+      "bytes": 307,
+      "when": [
+        "color",
+        "usage"
+      ]
+    },
+    {
+      "name": "Common Layouts",
+      "bytes": 1841,
+      "when": [
+        "common",
+        "layouts"
+      ]
+    },
+    {
+      "name": "Mobile Screen (375×812)",
+      "bytes": 802,
+      "when": [
+        "mobile",
+        "screen"
+      ]
+    },
+    {
+      "name": "Desktop Dashboard (1440×900)",
+      "bytes": 1020,
+      "when": [
+        "desktop",
+        "dashboard",
+        "1440"
+      ]
+    },
+    {
+      "name": "Component Checklist",
+      "bytes": 667,
+      "when": [
+        "component",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Buttons",
+      "bytes": 254,
+      "when": [
+        "buttons"
+      ]
+    },
+    {
+      "name": "Forms",
+      "bytes": 209,
+      "when": [
+        "forms"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "bytes": 180,
+      "when": [
+        "navigation"
+      ]
+    },
+    {
+      "name": "Accessibility Quick Checks",
+      "bytes": 337,
+      "when": [
+        "accessibility",
+        "quick",
+        "checks"
+      ]
+    },
+    {
+      "name": "Design Review Checklist",
+      "bytes": 368,
+      "when": [
+        "design",
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Validating Designs",
+      "bytes": 605,
+      "when": [
+        "validating",
+        "designs"
+      ]
+    },
+    {
+      "name": "Export CSS",
+      "bytes": 156,
+      "when": [
+        "export"
+      ]
+    },
+    {
+      "name": "Tips for Great Designs",
+      "bytes": 480,
+      "when": [
+        "tips",
+        "great",
+        "designs"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\penpot-uiux-design\\SKILL.md"
+}

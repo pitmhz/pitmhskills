@@ -1,0 +1,114 @@
+{
+  "id": "nvidia__nemo-fabric-integrate",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bf55ebd5616c0c12d9f2c71e2773de5fcac87d494167c8b5adb27c3e136f7a59",
+  "purpose": "Use this skill when integrating NVIDIA NeMo Fabric into a consumer application, service, evaluation harness, or platform through the typed Python SDK — translating the consumers own application, job, ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when integrating NVIDIA NeMo Fabric into a consumer application, service, evaluation harness, or platform through the typed Python SDK — translat"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5911,
+  "core_bytes": 23667,
+  "sections": [
+    {
+      "name": "Integration Boundary",
+      "bytes": 1135,
+      "when": [
+        "integration",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Install And Set Up The Environment",
+      "bytes": 2990,
+      "when": [
+        "install",
+        "environment"
+      ]
+    },
+    {
+      "name": "Build The Typed Config From Consumer Config",
+      "bytes": 3489,
+      "when": [
+        "build",
+        "typed",
+        "config",
+        "consumer"
+      ]
+    },
+    {
+      "name": "Choose A Lifecycle",
+      "bytes": 6865,
+      "when": [
+        "choose",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Validate Before Running",
+      "bytes": 1814,
+      "when": [
+        "validate",
+        "before",
+        "running"
+      ]
+    },
+    {
+      "name": "Consume Results And Handle Errors",
+      "bytes": 1927,
+      "when": [
+        "consume",
+        "results",
+        "handle",
+        "errors"
+      ]
+    },
+    {
+      "name": "Test And Validate The Integration",
+      "bytes": 1027,
+      "when": [
+        "test",
+        "validate",
+        "integration"
+      ]
+    },
+    {
+      "name": "Checklist",
+      "bytes": 1207,
+      "when": [
+        "checklist"
+      ]
+    },
+    {
+      "name": "Related Documentation",
+      "bytes": 2231,
+      "when": [
+        "related",
+        "documentation"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-fabric-integrate/SKILL.md",
+  "curated": true
+}

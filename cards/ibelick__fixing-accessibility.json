@@ -1,0 +1,176 @@
+{
+  "id": "ibelick__fixing-accessibility",
+  "tier": "B",
+  "origin": [
+    "ibelick/ui-skills@c628a5917754ec2396d9cbb47988f280ba1d5cb0"
+  ],
+  "license": "MIT",
+  "hash": "2c2a4623f333920b05e262017e92b15eeafca58f051b44d8e9e13fd4d1da37a5",
+  "purpose": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewin",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interacti"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Fix HTML/ARIA/keyboard/focus/contrast issues -> this.",
+  "cluster": "frontend-a11y",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1213,
+  "core_bytes": 4853,
+  "sections": [
+    {
+      "name": "how to use",
+      "bytes": 409,
+      "when": []
+    },
+    {
+      "name": "when to apply",
+      "bytes": 395,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "rule categories by priority",
+      "bytes": 424,
+      "when": [
+        "rule",
+        "categories",
+        "priority"
+      ]
+    },
+    {
+      "name": "quick reference",
+      "bytes": 2376,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "1. accessible names (critical)",
+      "bytes": 309,
+      "when": [
+        "accessible",
+        "names",
+        "critical"
+      ]
+    },
+    {
+      "name": "2. keyboard access (critical)",
+      "bytes": 298,
+      "when": [
+        "keyboard",
+        "access",
+        "critical"
+      ]
+    },
+    {
+      "name": "3. focus and dialogs (critical)",
+      "bytes": 215,
+      "when": [
+        "focus",
+        "dialogs",
+        "critical"
+      ]
+    },
+    {
+      "name": "4. semantics (high)",
+      "bytes": 274,
+      "when": [
+        "semantics",
+        "high"
+      ]
+    },
+    {
+      "name": "5. forms and errors (high)",
+      "bytes": 261,
+      "when": [
+        "forms",
+        "errors",
+        "high"
+      ]
+    },
+    {
+      "name": "6. announcements (medium-high)",
+      "bytes": 269,
+      "when": [
+        "announcements",
+        "medium",
+        "high"
+      ]
+    },
+    {
+      "name": "7. contrast and states (medium)",
+      "bytes": 258,
+      "when": [
+        "contrast",
+        "states",
+        "medium"
+      ]
+    },
+    {
+      "name": "8. media and motion (low-medium)",
+      "bytes": 258,
+      "when": [
+        "media",
+        "motion",
+        "medium"
+      ]
+    },
+    {
+      "name": "9. tool boundaries (critical)",
+      "bytes": 212,
+      "when": [
+        "tool",
+        "boundaries",
+        "critical"
+      ]
+    },
+    {
+      "name": "common fixes",
+      "bytes": 611,
+      "when": [
+        "common",
+        "fixes"
+      ]
+    },
+    {
+      "name": "review guidance",
+      "bytes": 310,
+      "when": [
+        "review",
+        "guidance"
+      ]
+    }
+  ],
+  "keywords": [
+    "fixing",
+    "apply",
+    "rule",
+    "categories",
+    "priority",
+    "quick",
+    "reference",
+    "accessible",
+    "names",
+    "critical",
+    "access",
+    "semantics",
+    "high"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\fixing-accessibility\\SKILL.md"
+}

@@ -1,0 +1,292 @@
+{
+  "id": "awesome-copilot__mcp-create-adaptive-cards",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e0fd8c15020fbdb4383804cccf457eda5adaa738a03020ede1712b4a5ef3f377",
+  "purpose": "Skill converted from mcp-create-adaptive-cards.prompt.md",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Skill converted from mcp-create-adaptive-cards.prompt.md"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3136,
+  "core_bytes": 12541,
+  "sections": [
+    {
+      "name": "Adaptive Card Types",
+      "bytes": 4618,
+      "when": [
+        "adaptive",
+        "card",
+        "types"
+      ]
+    },
+    {
+      "name": "Static Response Templates",
+      "bytes": 1331,
+      "when": [
+        "static",
+        "response",
+        "templates"
+      ]
+    },
+    {
+      "name": "Dynamic Response Templates",
+      "bytes": 2667,
+      "when": [
+        "dynamic",
+        "response",
+        "templates"
+      ]
+    },
+    {
+      "name": "Combined Static and Dynamic Templates",
+      "bytes": 596,
+      "when": [
+        "combined",
+        "static",
+        "dynamic",
+        "templates"
+      ]
+    },
+    {
+      "name": "Response Semantics Properties",
+      "bytes": 635,
+      "when": [
+        "response",
+        "semantics",
+        "properties"
+      ]
+    },
+    {
+      "name": "data_path",
+      "bytes": 228,
+      "when": [
+        "data",
+        "path"
+      ]
+    },
+    {
+      "name": "properties",
+      "bytes": 241,
+      "when": [
+        "properties"
+      ]
+    },
+    {
+      "name": "template_selector",
+      "bytes": 132,
+      "when": [
+        "template",
+        "selector"
+      ]
+    },
+    {
+      "name": "Adaptive Card Template Language",
+      "bytes": 564,
+      "when": [
+        "adaptive",
+        "card",
+        "template",
+        "language"
+      ]
+    },
+    {
+      "name": "Conditional Rendering",
+      "bytes": 129,
+      "when": [
+        "conditional",
+        "rendering"
+      ]
+    },
+    {
+      "name": "Number Formatting",
+      "bytes": 124,
+      "when": [
+        "number",
+        "formatting"
+      ]
+    },
+    {
+      "name": "Data Binding",
+      "bytes": 125,
+      "when": [
+        "data",
+        "binding"
+      ]
+    },
+    {
+      "name": "Conditional Display",
+      "bytes": 150,
+      "when": [
+        "conditional",
+        "display"
+      ]
+    },
+    {
+      "name": "Card Elements",
+      "bytes": 1180,
+      "when": [
+        "card",
+        "elements"
+      ]
+    },
+    {
+      "name": "TextBlock",
+      "bytes": 301,
+      "when": [
+        "textblock"
+      ]
+    },
+    {
+      "name": "FactSet",
+      "bytes": 126,
+      "when": [
+        "factset"
+      ]
+    },
+    {
+      "name": "Image",
+      "bytes": 188,
+      "when": [
+        "image"
+      ]
+    },
+    {
+      "name": "Container",
+      "bytes": 180,
+      "when": [
+        "container"
+      ]
+    },
+    {
+      "name": "ColumnSet",
+      "bytes": 241,
+      "when": [
+        "columnset"
+      ]
+    },
+    {
+      "name": "Actions",
+      "bytes": 126,
+      "when": [
+        "actions"
+      ]
+    },
+    {
+      "name": "Responsive Design Best Practices",
+      "bytes": 693,
+      "when": [
+        "responsive",
+        "design",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Single-Column Layouts",
+      "bytes": 158,
+      "when": [
+        "single",
+        "column",
+        "layouts"
+      ]
+    },
+    {
+      "name": "Flexible Widths",
+      "bytes": 190,
+      "when": [
+        "flexible",
+        "widths"
+      ]
+    },
+    {
+      "name": "Text and Images",
+      "bytes": 171,
+      "when": [
+        "text",
+        "images"
+      ]
+    },
+    {
+      "name": "Test Across Hubs",
+      "bytes": 137,
+      "when": [
+        "test",
+        "hubs"
+      ]
+    },
+    {
+      "name": "Complete Example",
+      "bytes": 2271,
+      "when": [
+        "complete",
+        "example"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 531,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Resources",
+      "bytes": 399,
+      "when": [
+        "resources"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 1041,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "List with Images",
+      "bytes": 724,
+      "when": [
+        "list",
+        "images"
+      ]
+    },
+    {
+      "name": "Status Indicators",
+      "bytes": 188,
+      "when": [
+        "status",
+        "indicators"
+      ]
+    },
+    {
+      "name": "Currency Formatting",
+      "bytes": 109,
+      "when": [
+        "currency",
+        "formatting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-create-adaptive-cards\\SKILL.md"
+}

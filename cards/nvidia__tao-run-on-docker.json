@@ -1,0 +1,222 @@
+{
+  "id": "nvidia__tao-run-on-docker",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f0e3f00321f8594354225d87fafb9ffc1c7fe7b831d7fa596cdf61b4299c4b61",
+  "purpose": "The Docker execution platform for TAO jobs — a local daemon or a remote GPU box via DOCKER_HOST=ssh://user@host. Implements the four-verb consumer contract (submit/status/logs/cancel) over the docker ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "The Docker execution platform for TAO jobs — a local daemon or a remote GPU box via DOCKER_HOST=ssh://user@host. Implements the four-verb consumer contract (sub"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5069,
+  "core_bytes": 20374,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 1517,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "NGC authentication",
+      "bytes": 270,
+      "when": [
+        "authentication"
+      ]
+    },
+    {
+      "name": "Execution — the four verbs",
+      "bytes": 2715,
+      "when": [
+        "execution",
+        "four",
+        "verbs"
+      ]
+    },
+    {
+      "name": "submit",
+      "bytes": 1555,
+      "when": [
+        "submit"
+      ]
+    },
+    {
+      "name": "status",
+      "bytes": 555,
+      "when": [
+        "status"
+      ]
+    },
+    {
+      "name": "logs",
+      "bytes": 100,
+      "when": [
+        "logs"
+      ]
+    },
+    {
+      "name": "cancel",
+      "bytes": 136,
+      "when": [
+        "cancel"
+      ]
+    },
+    {
+      "name": "Local vs remote (DOCKER_HOST)",
+      "bytes": 579,
+      "when": [
+        "local",
+        "remote",
+        "docker",
+        "host"
+      ]
+    },
+    {
+      "name": "`docker run` — canonical flags",
+      "bytes": 3541,
+      "when": [
+        "docker",
+        "canonical",
+        "flags"
+      ]
+    },
+    {
+      "name": "Container name collision",
+      "bytes": 261,
+      "when": [
+        "container",
+        "name",
+        "collision"
+      ]
+    },
+    {
+      "name": "Detached + exec pattern",
+      "bytes": 1385,
+      "when": [
+        "detached",
+        "exec",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Pull-if-missing idiom",
+      "bytes": 113,
+      "when": [
+        "pull",
+        "missing",
+        "idiom"
+      ]
+    },
+    {
+      "name": "Labels for discovery",
+      "bytes": 165,
+      "when": [
+        "labels",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Mount patterns",
+      "bytes": 1533,
+      "when": [
+        "mount",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Writable-mount ownership invariant",
+      "bytes": 1289,
+      "when": [
+        "writable",
+        "mount",
+        "ownership",
+        "invariant"
+      ]
+    },
+    {
+      "name": "Env-var conventions",
+      "bytes": 767,
+      "when": [
+        "conventions"
+      ]
+    },
+    {
+      "name": "Container inspection",
+      "bytes": 915,
+      "when": [
+        "container",
+        "inspection"
+      ]
+    },
+    {
+      "name": "Image management",
+      "bytes": 245,
+      "when": [
+        "image",
+        "management"
+      ]
+    },
+    {
+      "name": "Split-disk data-root relocation",
+      "bytes": 838,
+      "when": [
+        "split",
+        "disk",
+        "data",
+        "root",
+        "relocation"
+      ]
+    },
+    {
+      "name": "Networks (multi-container patterns)",
+      "bytes": 400,
+      "when": [
+        "networks",
+        "multi",
+        "container",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Common error modes",
+      "bytes": 2627,
+      "when": [
+        "common",
+        "error",
+        "modes"
+      ]
+    },
+    {
+      "name": "Scope boundary",
+      "bytes": 649,
+      "when": [
+        "scope",
+        "boundary"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-run-on-docker/SKILL.md",
+  "curated": true
+}

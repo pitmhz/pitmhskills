@@ -1,0 +1,155 @@
+{
+  "id": "awesome-copilot__java-add-graalvm-native-image-support",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e42d037610caf71805e809d2d38bff3f541883fe598532e3438101222561b67c",
+  "purpose": "GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build errors, applies fixes, and iterates until successful compilation using Oracle best p",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build errors, applies fixes, and iterates until su"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3228,
+  "core_bytes": 12909,
+  "sections": [
+    {
+      "name": "Your Approach",
+      "bytes": 4553,
+      "when": [
+        "approach"
+      ]
+    },
+    {
+      "name": "Step 1: Analyze the Project",
+      "bytes": 347,
+      "when": [
+        "step",
+        "analyze",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 2: Add Native Image Support",
+      "bytes": 1969,
+      "when": [
+        "step",
+        "native",
+        "image",
+        "support"
+      ]
+    },
+    {
+      "name": "Step 3: Build the Native Image",
+      "bytes": 372,
+      "when": [
+        "step",
+        "build",
+        "native",
+        "image"
+      ]
+    },
+    {
+      "name": "Step 4: Analyze Build Errors",
+      "bytes": 1141,
+      "when": [
+        "step",
+        "analyze",
+        "build",
+        "errors"
+      ]
+    },
+    {
+      "name": "Step 5: Iterate Until Success",
+      "bytes": 381,
+      "when": [
+        "step",
+        "iterate",
+        "until",
+        "success"
+      ]
+    },
+    {
+      "name": "Step 6: Verify the Native Image",
+      "bytes": 218,
+      "when": [
+        "step",
+        "verify",
+        "native",
+        "image"
+      ]
+    },
+    {
+      "name": "Framework-Specific Considerations",
+      "bytes": 5886,
+      "when": [
+        "framework",
+        "specific",
+        "considerations"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "bytes": 2620,
+      "when": [
+        "spring",
+        "boot"
+      ]
+    },
+    {
+      "name": "Quarkus",
+      "bytes": 1507,
+      "when": [
+        "quarkus"
+      ]
+    },
+    {
+      "name": "Micronaut",
+      "bytes": 1721,
+      "when": [
+        "micronaut"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 644,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Troubleshooting Tips",
+      "bytes": 511,
+      "when": [
+        "troubleshooting",
+        "tips"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 583,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\java-add-graalvm-native-image-support\\SKILL.md"
+}

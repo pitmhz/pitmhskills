@@ -1,0 +1,161 @@
+{
+  "id": "web-animation__60fps-animation",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "e80d04d07e31fd969b3d97ba22d412b5a12dc7f9789b181893c9543a1a2b5fa2",
+  "purpose": "This skill should be used when the user asks to \"fix janky CSS animation\", \"make animation 60fps\", \"stop layout thrashing\", \"animate width/height/top/left smoothly\", \"convert animation to transform\", ",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"fix janky CSS animation\", \"make animation 60fps\", \"stop layout thrashing\", \"animate width/height/top/left smoot",
+    "Making web animations hit 60fps and stopping layout thrashing"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Fix janky animation / hit 60fps -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "60fps jank thrashing compositor",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2736,
+  "core_bytes": 10984,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 332,
+      "when": []
+    },
+    {
+      "name": "Core rule: animate only transform and opacity",
+      "bytes": 1218,
+      "when": [
+        "core",
+        "rule",
+        "animate",
+        "transform",
+        "opacity"
+      ]
+    },
+    {
+      "name": "Position and size via transform",
+      "bytes": 520,
+      "when": [
+        "position",
+        "size",
+        "transform"
+      ]
+    },
+    {
+      "name": "Cheap box-shadow via pseudo-element opacity",
+      "bytes": 615,
+      "when": [
+        "cheap",
+        "shadow",
+        "pseudo",
+        "element",
+        "opacity"
+      ]
+    },
+    {
+      "name": "FLIP: animate layout changes cheaply",
+      "bytes": 1415,
+      "when": [
+        "flip",
+        "animate",
+        "layout",
+        "changes",
+        "cheaply"
+      ]
+    },
+    {
+      "name": "Animating height: auto",
+      "bytes": 1048,
+      "when": [
+        "animating",
+        "height",
+        "auto"
+      ]
+    },
+    {
+      "name": "Avoid layout thrashing (batch reads, then writes)",
+      "bytes": 923,
+      "when": [
+        "avoid",
+        "layout",
+        "thrashing",
+        "batch",
+        "reads",
+        "writes"
+      ]
+    },
+    {
+      "name": "will-change: use sparingly",
+      "bytes": 659,
+      "when": [
+        "change",
+        "sparingly"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2304,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 561,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 690,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 252,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "performant",
+    "core",
+    "rule",
+    "opacity",
+    "position",
+    "size",
+    "cheap",
+    "pseudo",
+    "element",
+    "changes",
+    "cheaply",
+    "animating"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\60fps-animation\\SKILL.md",
+  "curated": true
+}

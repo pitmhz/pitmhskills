@@ -1,0 +1,153 @@
+{
+  "id": "nvidia__tao-train-deformable-detr",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "15de22abc0bdd96df98483bf4f58ef520322ee53a9cc18878e2739d4f2e5a2b4",
+  "purpose": "Deformable DETR for 2D object detection. Uses deformable attention for efficient multi-scale feature processing,",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Deformable DETR for 2D object detection. Uses deformable attention for efficient multi-scale feature processing,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3928,
+  "core_bytes": 15711,
+  "sections": [
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 833,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 5602,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 1330,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 3634,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 101,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Checkpoint Handling",
+      "bytes": 577,
+      "when": [
+        "checkpoint",
+        "handling"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 1057,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 768,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Export / TRT Defaults",
+      "bytes": 152,
+      "when": [
+        "export",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 178,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 946,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 2559,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 91,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-deformable-detr/SKILL.md",
+  "curated": true
+}

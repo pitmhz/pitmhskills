@@ -1,0 +1,258 @@
+{
+  "id": "awesome-copilot__flowstudio-power-automate-build",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "87ee302a0ef302e7b85dd3fef7f2502bedb2b5229fdf92f40ebe31b76b3ba834",
+  "purpose": "Build, scaffold, and deploy Power Automate cloud flows using the FlowStudio MCP server. Your agent constructs flow definitions, wires connections, deploys, and tests — all via MCP without opening the ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build, scaffold, and deploy Power Automate cloud flows using the FlowStudio MCP server. Your agent constructs flow definitions, wires connections, deploys, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4973,
+  "core_bytes": 19969,
+  "sections": [
+    {
+      "name": "Source of Truth",
+      "bytes": 404,
+      "when": [
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "Python Helper",
+      "bytes": 1013,
+      "when": [
+        "python",
+        "helper"
+      ]
+    },
+    {
+      "name": "0. Load the Current Build Tools",
+      "bytes": 583,
+      "when": [
+        "load",
+        "current",
+        "build",
+        "tools"
+      ]
+    },
+    {
+      "name": "1. Safety Check: Does the Flow Already Exist?",
+      "bytes": 998,
+      "when": [
+        "safety",
+        "check",
+        "flow",
+        "already",
+        "exist"
+      ]
+    },
+    {
+      "name": "2. Obtain Connection References",
+      "bytes": 2821,
+      "when": [
+        "obtain",
+        "connection",
+        "references"
+      ]
+    },
+    {
+      "name": "2a — Find active connections",
+      "bytes": 514,
+      "when": [
+        "find",
+        "active",
+        "connections"
+      ]
+    },
+    {
+      "name": "2b — Determine which connectors the flow needs",
+      "bytes": 459,
+      "when": [
+        "determine",
+        "connectors",
+        "flow",
+        "needs"
+      ]
+    },
+    {
+      "name": "2c — If connections are missing, guide the user",
+      "bytes": 481,
+      "when": [
+        "connections",
+        "missing",
+        "guide",
+        "user"
+      ]
+    },
+    {
+      "name": "2d — Build the connectionReferences block",
+      "bytes": 909,
+      "when": [
+        "build",
+        "connectionreferences",
+        "block"
+      ]
+    },
+    {
+      "name": "3. Build the Flow Definition",
+      "bytes": 3068,
+      "when": [
+        "build",
+        "flow",
+        "definition"
+      ]
+    },
+    {
+      "name": "Discover connector operations before guessing JSON",
+      "bytes": 2049,
+      "when": [
+        "discover",
+        "connector",
+        "operations",
+        "before",
+        "guessing",
+        "json"
+      ]
+    },
+    {
+      "name": "4. Deploy (Create or Update)",
+      "bytes": 2514,
+      "when": [
+        "deploy",
+        "create",
+        "update"
+      ]
+    },
+    {
+      "name": "Create a new flow (no existing flow)",
+      "bytes": 666,
+      "when": [
+        "create",
+        "flow",
+        "existing"
+      ]
+    },
+    {
+      "name": "Update an existing flow",
+      "bytes": 894,
+      "when": [
+        "update",
+        "existing",
+        "flow"
+      ]
+    },
+    {
+      "name": "Common deployment errors",
+      "bytes": 849,
+      "when": [
+        "common",
+        "deployment",
+        "errors"
+      ]
+    },
+    {
+      "name": "5. Verify the Deployment",
+      "bytes": 491,
+      "when": [
+        "verify",
+        "deployment"
+      ]
+    },
+    {
+      "name": "6. Test the Flow",
+      "bytes": 3560,
+      "when": [
+        "test",
+        "flow"
+      ]
+    },
+    {
+      "name": "Updated flows (have prior runs) — ANY trigger type",
+      "bytes": 692,
+      "when": [
+        "updated",
+        "flows",
+        "prior",
+        "runs",
+        "trigger",
+        "type"
+      ]
+    },
+    {
+      "name": "HTTP, Button, and PowerApps flows — custom test payload",
+      "bytes": 807,
+      "when": [
+        "http",
+        "button",
+        "powerapps",
+        "flows",
+        "custom",
+        "test",
+        "payload"
+      ]
+    },
+    {
+      "name": "Brand-new non-HTTP flows",
+      "bytes": 1679,
+      "when": [
+        "brand",
+        "http",
+        "flows"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 2505,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Teams `PostMessageToConversation` — Recipient Formats",
+      "bytes": 567,
+      "when": [
+        "teams",
+        "postmessagetoconversation",
+        "recipient",
+        "formats"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 631,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 175,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\flowstudio-power-automate-build\\SKILL.md"
+}

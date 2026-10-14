@@ -1,0 +1,165 @@
+{
+  "id": "awesome-copilot__aspire",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f4cb7a6c3d437edd447a097d984ed43e519c8c53433ddf131a3061c477753542",
+  "purpose": "Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server, VS Code extension, Dev Containers, GitHub Codespaces, templates, dashboard, and deployment. Us",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server, VS Code extension, Dev Containers, GitHub Codespaces, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2335,
+  "core_bytes": 9365,
+  "sections": [
+    {
+      "name": "References",
+      "bytes": 976,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "1. Researching Aspire Documentation",
+      "bytes": 2427,
+      "when": [
+        "researching",
+        "aspire",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Aspire CLI 13.2+ (recommended — has built-in docs search)",
+      "bytes": 651,
+      "when": [
+        "aspire",
+        "recommended",
+        "built",
+        "docs",
+        "search"
+      ]
+    },
+    {
+      "name": "Aspire CLI 13.1 (integration tools only)",
+      "bytes": 399,
+      "when": [
+        "aspire",
+        "integration",
+        "tools"
+      ]
+    },
+    {
+      "name": "Fallback: Context7",
+      "bytes": 835,
+      "when": [
+        "fallback",
+        "context7"
+      ]
+    },
+    {
+      "name": "Fallback: GitHub search (when Context7 is also unavailable)",
+      "bytes": 330,
+      "when": [
+        "fallback",
+        "github",
+        "search",
+        "context7",
+        "unavailable"
+      ]
+    },
+    {
+      "name": "2. Prerequisites & Install",
+      "bytes": 545,
+      "when": [
+        "prerequisites",
+        "install"
+      ]
+    },
+    {
+      "name": "3. Project Templates",
+      "bytes": 483,
+      "when": [
+        "project",
+        "templates"
+      ]
+    },
+    {
+      "name": "4. AppHost Quick Start (Polyglot)",
+      "bytes": 951,
+      "when": [
+        "apphost",
+        "quick",
+        "start",
+        "polyglot"
+      ]
+    },
+    {
+      "name": "5. Core Concepts (Summary)",
+      "bytes": 987,
+      "when": [
+        "core",
+        "concepts",
+        "summary"
+      ]
+    },
+    {
+      "name": "6. CLI Quick Reference",
+      "bytes": 920,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "7. Common Patterns",
+      "bytes": 573,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Adding a new service",
+      "bytes": 231,
+      "when": [
+        "adding",
+        "service"
+      ]
+    },
+    {
+      "name": "Migrating from Docker Compose",
+      "bytes": 319,
+      "when": [
+        "migrating",
+        "docker",
+        "compose"
+      ]
+    },
+    {
+      "name": "8. Key URLs",
+      "bytes": 508,
+      "when": [
+        "urls"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aspire\\SKILL.md"
+}

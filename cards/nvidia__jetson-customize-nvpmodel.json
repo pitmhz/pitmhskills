@@ -1,0 +1,207 @@
+{
+  "id": "nvidia__jetson-customize-nvpmodel",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "86fd7d31a6f3bf9545492f26b030d745e1ebde2da1ee43bc32b15be5f80b3219",
+  "purpose": "Use when you need to add, remove, edit, list, or change the boot default of an nvpmodel power mode on a Jetson/Tegra (Orin, Thor) target. Triggers: edit power mode, tune frequency caps.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when you need to add, remove, edit, list, or change the boot default of an nvpmodel power mode on a Jetson/Tegra (Orin, Thor) target. Triggers: edit power m"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4529,
+  "core_bytes": 18207,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 495,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "File format (canonical, per the BSP file header)",
+      "bytes": 1637,
+      "when": [
+        "file",
+        "format",
+        "canonical",
+        "header"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 1182,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "The per-board file",
+      "bytes": 4004,
+      "when": [
+        "board",
+        "file"
+      ]
+    },
+    {
+      "name": "Resolving `<active-sku>` — which file to edit",
+      "bytes": 1390,
+      "when": [
+        "resolving",
+        "active",
+        "file",
+        "edit"
+      ]
+    },
+    {
+      "name": "Propagation set — confs to keep in sync",
+      "bytes": 1714,
+      "when": [
+        "propagation",
+        "confs",
+        "keep",
+        "sync"
+      ]
+    },
+    {
+      "name": "Overlay edit recipe (apply before any Operation)",
+      "bytes": 892,
+      "when": [
+        "overlay",
+        "edit",
+        "recipe",
+        "apply",
+        "before",
+        "operation"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 661,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 642,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Operation 1 — Add a new power mode",
+      "bytes": 1304,
+      "when": [
+        "operation",
+        "power",
+        "mode"
+      ]
+    },
+    {
+      "name": "Generate the profile via the Power Estimator",
+      "bytes": 542,
+      "when": [
+        "generate",
+        "profile",
+        "power",
+        "estimator"
+      ]
+    },
+    {
+      "name": "Append the POWER_MODEL block",
+      "bytes": 628,
+      "when": [
+        "append",
+        "power",
+        "model",
+        "block"
+      ]
+    },
+    {
+      "name": "Operation 2 — Remove a power mode",
+      "bytes": 835,
+      "when": [
+        "operation",
+        "remove",
+        "power",
+        "mode"
+      ]
+    },
+    {
+      "name": "Operation 3 — Edit an existing power mode",
+      "bytes": 853,
+      "when": [
+        "operation",
+        "edit",
+        "existing",
+        "power",
+        "mode"
+      ]
+    },
+    {
+      "name": "Operation 4 — Change the boot default",
+      "bytes": 377,
+      "when": [
+        "operation",
+        "change",
+        "boot",
+        "default"
+      ]
+    },
+    {
+      "name": "Operation 5 — List defined power modes",
+      "bytes": 547,
+      "when": [
+        "operation",
+        "list",
+        "defined",
+        "power",
+        "modes"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 1464,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1967,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Deploy",
+      "bytes": 871,
+      "when": [
+        "deploy"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-customize-nvpmodel\\SKILL.md",
+  "curated": true
+}

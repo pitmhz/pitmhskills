@@ -28,7 +28,133 @@
   "conflicts_with": [],
   "body_tokens": 5113,
   "core_bytes": 20505,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Skill Boundaries",
+      "bytes": 549,
+      "when": [
+        "skill",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 376,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Parallel Workflow with generate_figma_design (Web Apps Only)",
+      "bytes": 1255,
+      "when": [
+        "parallel",
+        "workflow",
+        "generate",
+        "figma",
+        "design",
+        "apps"
+      ]
+    },
+    {
+      "name": "Required Workflow",
+      "bytes": 13812,
+      "when": [
+        "required",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Understand the Screen",
+      "bytes": 468,
+      "when": [
+        "step",
+        "understand",
+        "screen"
+      ]
+    },
+    {
+      "name": "Step 2: Discover Design System — Components, Variables, and Styles",
+      "bytes": 6075,
+      "when": [
+        "step",
+        "discover",
+        "design",
+        "system",
+        "components",
+        "variables",
+        "styles"
+      ]
+    },
+    {
+      "name": "Step 3: Create the Page Wrapper Frame First",
+      "bytes": 976,
+      "when": [
+        "step",
+        "create",
+        "page",
+        "wrapper",
+        "frame",
+        "first"
+      ]
+    },
+    {
+      "name": "Step 4: Build Each Section Inside the Wrapper",
+      "bytes": 4165,
+      "when": [
+        "step",
+        "build",
+        "each",
+        "section",
+        "inside",
+        "wrapper"
+      ]
+    },
+    {
+      "name": "Step 5: Validate the Full Screen",
+      "bytes": 885,
+      "when": [
+        "step",
+        "validate",
+        "full",
+        "screen"
+      ]
+    },
+    {
+      "name": "Step 6: Updating an Existing Screen",
+      "bytes": 1164,
+      "when": [
+        "step",
+        "updating",
+        "existing",
+        "screen"
+      ]
+    },
+    {
+      "name": "Reference Docs",
+      "bytes": 978,
+      "when": [
+        "reference",
+        "docs"
+      ]
+    },
+    {
+      "name": "Error Recovery",
+      "bytes": 711,
+      "when": [
+        "error",
+        "recovery"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 1181,
+      "when": [
+        "best",
+        "practices"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/figma-generate-design/SKILL.md"
 }

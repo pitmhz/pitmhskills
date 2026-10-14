@@ -1,0 +1,256 @@
+{
+  "id": "jakubkrehel-skills__better-typography",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "c97e53b9cda6593aa721bec173266f0df098eb2b359777b161a4fb7529116b7a",
+  "purpose": "Sets and reviews how text renders in your product, from the type scale and spacing to font features, wrapping, truncation and punctuation.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Sets and reviews how text renders in your product, from the type scale and spacing to font features, wrapping, truncation and punctuation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Typography / type scale / fonts -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "fonts type scale readability letter-spacing",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3103,
+  "core_bytes": 12425,
+  "sections": [
+    {
+      "name": "Measured, not preferred",
+      "bytes": 438,
+      "when": [
+        "measured",
+        "preferred"
+      ]
+    },
+    {
+      "name": "Fewer fonts, sizes and weights",
+      "bytes": 553,
+      "when": [
+        "fewer",
+        "fonts",
+        "sizes",
+        "weights"
+      ]
+    },
+    {
+      "name": "Load the faces the design uses",
+      "bytes": 339,
+      "when": [
+        "load",
+        "faces",
+        "design",
+        "uses"
+      ]
+    },
+    {
+      "name": "Properties over raw tags",
+      "bytes": 637,
+      "when": [
+        "properties",
+        "tags"
+      ]
+    },
+    {
+      "name": "Use a type scale with semantic names",
+      "bytes": 454,
+      "when": [
+        "type",
+        "scale",
+        "semantic",
+        "names"
+      ]
+    },
+    {
+      "name": "Heading sizes descend with level",
+      "bytes": 414,
+      "when": [
+        "heading",
+        "sizes",
+        "descend",
+        "level"
+      ]
+    },
+    {
+      "name": "Line-height by role",
+      "bytes": 413,
+      "when": [
+        "line",
+        "height",
+        "role"
+      ]
+    },
+    {
+      "name": "Letter-spacing by size",
+      "bytes": 297,
+      "when": [
+        "letter",
+        "spacing",
+        "size"
+      ]
+    },
+    {
+      "name": "Cap the measure",
+      "bytes": 247,
+      "when": [
+        "measure"
+      ]
+    },
+    {
+      "name": "Wrap deliberately",
+      "bytes": 526,
+      "when": [
+        "wrap",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "Tabular numbers on changing values",
+      "bytes": 230,
+      "when": [
+        "tabular",
+        "numbers",
+        "changing",
+        "values"
+      ]
+    },
+    {
+      "name": "Truncate with a way back",
+      "bytes": 404,
+      "when": [
+        "truncate",
+        "back"
+      ]
+    },
+    {
+      "name": "Natural case, typographic punctuation",
+      "bytes": 410,
+      "when": [
+        "natural",
+        "case",
+        "typographic",
+        "punctuation"
+      ]
+    },
+    {
+      "name": "Underlines from the font",
+      "bytes": 524,
+      "when": [
+        "underlines",
+        "font"
+      ]
+    },
+    {
+      "name": "Inputs at 16px on mobile",
+      "bytes": 566,
+      "when": [
+        "inputs",
+        "16px",
+        "mobile"
+      ]
+    },
+    {
+      "name": "Size floors",
+      "bytes": 423,
+      "when": [
+        "size",
+        "floors"
+      ]
+    },
+    {
+      "name": "Font smoothing on the root",
+      "bytes": 196,
+      "when": [
+        "font",
+        "smoothing",
+        "root"
+      ]
+    },
+    {
+      "name": "Language and bidi behavior",
+      "bytes": 396,
+      "when": [
+        "language",
+        "bidi",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Trim text boxes in tight containers",
+      "bytes": 308,
+      "when": [
+        "trim",
+        "text",
+        "boxes",
+        "tight",
+        "containers"
+      ]
+    },
+    {
+      "name": "Decorative text in CSS, not images",
+      "bytes": 257,
+      "when": [
+        "decorative",
+        "text",
+        "images"
+      ]
+    },
+    {
+      "name": "Keep useful text selectable",
+      "bytes": 478,
+      "when": [
+        "keep",
+        "useful",
+        "text",
+        "selectable"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1892,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 1328,
+      "when": [
+        "reporting"
+      ]
+    }
+  ],
+  "keywords": [
+    "typography",
+    "measured",
+    "preferred",
+    "fewer",
+    "fonts",
+    "sizes",
+    "weights",
+    "load",
+    "faces",
+    "design",
+    "uses",
+    "properties",
+    "tags"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\better-typography\\SKILL.md"
+}

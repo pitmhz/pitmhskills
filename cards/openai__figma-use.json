@@ -29,7 +29,182 @@
   "conflicts_with": [],
   "body_tokens": 4488,
   "core_bytes": 18032,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/figma-use/SKILL.md"
+  "sections": [
+    {
+      "name": "1. Critical Rules",
+      "bytes": 3624,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "2. Page Rules (Critical)",
+      "bytes": 1300,
+      "when": [
+        "page",
+        "rules",
+        "critical"
+      ]
+    },
+    {
+      "name": "Switching pages",
+      "bytes": 604,
+      "when": [
+        "switching",
+        "pages"
+      ]
+    },
+    {
+      "name": "Across script runs",
+      "bytes": 552,
+      "when": [
+        "script",
+        "runs"
+      ]
+    },
+    {
+      "name": "3. `return` Is Your Output Channel",
+      "bytes": 729,
+      "when": [
+        "return",
+        "output",
+        "channel"
+      ]
+    },
+    {
+      "name": "4. Editor Mode",
+      "bytes": 457,
+      "when": [
+        "editor",
+        "mode"
+      ]
+    },
+    {
+      "name": "5. Incremental Workflow (How to Avoid Bugs)",
+      "bytes": 2110,
+      "when": [
+        "incremental",
+        "workflow",
+        "avoid",
+        "bugs"
+      ]
+    },
+    {
+      "name": "The pattern",
+      "bytes": 911,
+      "when": [
+        "pattern"
+      ]
+    },
+    {
+      "name": "Suggested step order for complex tasks",
+      "bytes": 441,
+      "when": [
+        "suggested",
+        "step",
+        "order",
+        "complex",
+        "tasks"
+      ]
+    },
+    {
+      "name": "What to validate at each step",
+      "bytes": 567,
+      "when": [
+        "validate",
+        "each",
+        "step"
+      ]
+    },
+    {
+      "name": "6. Error Recovery & Self-Correction",
+      "bytes": 2496,
+      "when": [
+        "error",
+        "recovery",
+        "self",
+        "correction"
+      ]
+    },
+    {
+      "name": "When `use_figma` returns an error",
+      "bytes": 439,
+      "when": [
+        "figma",
+        "returns",
+        "error"
+      ]
+    },
+    {
+      "name": "Common self-correction patterns",
+      "bytes": 1031,
+      "when": [
+        "common",
+        "self",
+        "correction",
+        "patterns"
+      ]
+    },
+    {
+      "name": "When the script succeeds but the result looks wrong",
+      "bytes": 694,
+      "when": [
+        "script",
+        "succeeds",
+        "result",
+        "looks",
+        "wrong"
+      ]
+    },
+    {
+      "name": "7. Pre-Flight Checklist",
+      "bytes": 1377,
+      "when": [
+        "flight",
+        "checklist"
+      ]
+    },
+    {
+      "name": "8. Discover Conventions Before Creating",
+      "bytes": 1366,
+      "when": [
+        "discover",
+        "conventions",
+        "before",
+        "creating"
+      ]
+    },
+    {
+      "name": "Quick inspection scripts",
+      "bytes": 912,
+      "when": [
+        "quick",
+        "inspection",
+        "scripts"
+      ]
+    },
+    {
+      "name": "9. Reference Docs",
+      "bytes": 2051,
+      "when": [
+        "reference",
+        "docs"
+      ]
+    },
+    {
+      "name": "10. Snippet examples",
+      "bytes": 333,
+      "when": [
+        "snippet",
+        "examples"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/figma-use/SKILL.md",
+  "curated": true
 }

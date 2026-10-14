@@ -1,0 +1,101 @@
+{
+  "id": "nvidia__drug-discovery-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "181d70a603da86da281f3c6ca9d954f44502eae40ded17ab036546fb32d46545",
+  "purpose": "NOTE: molecule and target inputs and your NGC_API_KEY are transmitted to external NVIDIA-hosted API endpoints on every call. Use local NIM containers for confidential or proprietary data. Run a comple",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "NOTE: molecule and target inputs and your NGC_API_KEY are transmitted to external NVIDIA-hosted API endpoints on every call. Use local NIM containers for confid"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1895,
+  "core_bytes": 7587,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 348,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Before you start",
+      "bytes": 548,
+      "when": [
+        "before",
+        "start"
+      ]
+    },
+    {
+      "name": "Step 1: Generate molecules with GenMol",
+      "bytes": 1687,
+      "when": [
+        "step",
+        "generate",
+        "molecules",
+        "genmol"
+      ]
+    },
+    {
+      "name": "Step 2: Dock molecules with DiffDock",
+      "bytes": 1596,
+      "when": [
+        "step",
+        "dock",
+        "molecules",
+        "diffdock"
+      ]
+    },
+    {
+      "name": "Step 3: Predict binding affinity with Boltz2",
+      "bytes": 1434,
+      "when": [
+        "step",
+        "predict",
+        "binding",
+        "affinity",
+        "boltz2"
+      ]
+    },
+    {
+      "name": "Interpreting results",
+      "bytes": 312,
+      "when": [
+        "interpreting",
+        "results"
+      ]
+    },
+    {
+      "name": "Quick reference — skill dependencies",
+      "bytes": 312,
+      "when": [
+        "quick",
+        "reference",
+        "skill",
+        "dependencies"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-drug-discovery-pipeline\\SKILL.md",
+  "curated": true
+}

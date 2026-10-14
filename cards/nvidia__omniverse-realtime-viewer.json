@@ -1,0 +1,99 @@
+{
+  "id": "nvidia__omniverse-realtime-viewer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d1879735852ae31f2a0b6770f29df85d7954c5694bbd95099466d8d81caec4f5",
+  "purpose": "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2781,
+  "core_bytes": 11137,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 303,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Read Order",
+      "bytes": 1462,
+      "when": [
+        "read",
+        "order"
+      ]
+    },
+    {
+      "name": "Non-Negotiables",
+      "bytes": 1358,
+      "when": [
+        "negotiables"
+      ]
+    },
+    {
+      "name": "Focused Reference Families",
+      "bytes": 3874,
+      "when": [
+        "focused",
+        "reference",
+        "families"
+      ]
+    },
+    {
+      "name": "Build Workflow",
+      "bytes": 952,
+      "when": [
+        "build",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 879,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion Checklist",
+      "bytes": 509,
+      "when": [
+        "completion",
+        "checklist"
+      ]
+    },
+    {
+      "name": "ovstage References",
+      "bytes": 540,
+      "when": [
+        "ovstage",
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/omniverse-realtime-viewer/SKILL.md",
+  "curated": true
+}

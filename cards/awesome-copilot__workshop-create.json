@@ -1,0 +1,120 @@
+{
+  "id": "awesome-copilot__workshop-create",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1d931774ba1e2866f2136c467a08548f2c5708f7fdf8c7eea9de62bc4b335ad6",
+  "purpose": "Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing local directory the operator points at, or (B) create a new private GitHub repo in the signed-in accou",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing local directory the operator points at, or (B) create a new pr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1209,
+  "core_bytes": 4843,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 213,
+      "when": []
+    },
+    {
+      "name": "Two paths",
+      "bytes": 2717,
+      "when": [
+        "paths"
+      ]
+    },
+    {
+      "name": "Path A: Use an existing directory",
+      "bytes": 1036,
+      "when": [
+        "path",
+        "existing",
+        "directory"
+      ]
+    },
+    {
+      "name": "Path B: Create a new private GitHub repo",
+      "bytes": 1254,
+      "when": [
+        "path",
+        "create",
+        "private",
+        "github",
+        "repo"
+      ]
+    },
+    {
+      "name": "Critical: Never nest repos",
+      "bytes": 413,
+      "when": [
+        "critical",
+        "nest",
+        "repos"
+      ]
+    },
+    {
+      "name": "CAIRN.md content",
+      "bytes": 156,
+      "when": [
+        "cairn",
+        "content"
+      ]
+    },
+    {
+      "name": "how a desk stands",
+      "bytes": 663,
+      "when": [
+        "desk",
+        "stands"
+      ]
+    },
+    {
+      "name": "the bench",
+      "bytes": 128,
+      "when": [
+        "bench"
+      ]
+    },
+    {
+      "name": "hands-up",
+      "bytes": 171,
+      "when": [
+        "hands"
+      ]
+    },
+    {
+      "name": "After creation",
+      "bytes": 194,
+      "when": [
+        "after",
+        "creation"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 224,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\workshop-create\\SKILL.md"
+}

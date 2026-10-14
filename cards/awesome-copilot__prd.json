@@ -1,0 +1,209 @@
+{
+  "id": "awesome-copilot__prd",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6772e6f0fcc7110d625c7f4595e4990e1910007676c36d217eda4e779041d5e5",
+  "purpose": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1077,
+  "core_bytes": 4307,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 254,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 354,
+      "when": []
+    },
+    {
+      "name": "Operational Workflow",
+      "bytes": 648,
+      "when": [
+        "operational",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1: Discovery (The Interview)",
+      "bytes": 335,
+      "when": [
+        "phase",
+        "discovery",
+        "interview"
+      ]
+    },
+    {
+      "name": "Phase 2: Analysis & Scoping",
+      "bytes": 188,
+      "when": [
+        "phase",
+        "analysis",
+        "scoping"
+      ]
+    },
+    {
+      "name": "Phase 3: Technical Drafting",
+      "bytes": 100,
+      "when": [
+        "phase",
+        "technical",
+        "drafting"
+      ]
+    },
+    {
+      "name": "PRD Quality Standards",
+      "bytes": 533,
+      "when": [
+        "quality",
+        "standards"
+      ]
+    },
+    {
+      "name": "Requirements Quality",
+      "bytes": 507,
+      "when": [
+        "requirements",
+        "quality"
+      ]
+    },
+    {
+      "name": "Strict PRD Schema",
+      "bytes": 1049,
+      "when": [
+        "strict",
+        "schema"
+      ]
+    },
+    {
+      "name": "1. Executive Summary",
+      "bytes": 181,
+      "when": [
+        "executive",
+        "summary"
+      ]
+    },
+    {
+      "name": "2. User Experience & Functionality",
+      "bytes": 274,
+      "when": [
+        "user",
+        "experience",
+        "functionality"
+      ]
+    },
+    {
+      "name": "3. AI System Requirements (If Applicable)",
+      "bytes": 176,
+      "when": [
+        "system",
+        "requirements",
+        "applicable"
+      ]
+    },
+    {
+      "name": "4. Technical Specifications",
+      "bytes": 203,
+      "when": [
+        "technical",
+        "specifications"
+      ]
+    },
+    {
+      "name": "5. Risks & Roadmap",
+      "bytes": 135,
+      "when": [
+        "risks",
+        "roadmap"
+      ]
+    },
+    {
+      "name": "Implementation Guidelines",
+      "bytes": 426,
+      "when": [
+        "implementation",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "DO (Always)",
+      "bytes": 179,
+      "when": []
+    },
+    {
+      "name": "DON'T (Avoid)",
+      "bytes": 217,
+      "when": [
+        "avoid"
+      ]
+    },
+    {
+      "name": "Example: Intelligent Search System",
+      "bytes": 762,
+      "when": [
+        "example",
+        "intelligent",
+        "search",
+        "system"
+      ]
+    },
+    {
+      "name": "1. Executive Summary",
+      "bytes": 286,
+      "when": [
+        "executive",
+        "summary"
+      ]
+    },
+    {
+      "name": "2. User Stories",
+      "bytes": 220,
+      "when": [
+        "user",
+        "stories"
+      ]
+    },
+    {
+      "name": "3. AI System Architecture",
+      "bytes": 88,
+      "when": [
+        "system",
+        "architecture"
+      ]
+    },
+    {
+      "name": "4. Evaluation",
+      "bytes": 129,
+      "when": [
+        "evaluation"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\prd\\SKILL.md"
+}

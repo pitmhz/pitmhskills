@@ -1,0 +1,177 @@
+{
+  "id": "awesome-copilot__arduino-azure-iot-edge-integration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9fd2385748f4bbc035ee0aa6ca6e20988588a203f760f0a72e1aa1314d4b8409",
+  "purpose": "Design and implement Arduino integration with Azure IoT Hub and IoT Edge, including secure provisioning, resilient telemetry, command handling, and production guardrails.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design and implement Arduino integration with Azure IoT Hub and IoT Edge, including secure provisioning, resilient telemetry, command handling, and production g"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1196,
+  "core_bytes": 4783,
+  "sections": [
+    {
+      "name": "When to use it",
+      "bytes": 261,
+      "when": []
+    },
+    {
+      "name": "Mandatory documentation review",
+      "bytes": 269,
+      "when": [
+        "mandatory",
+        "documentation",
+        "review"
+      ]
+    },
+    {
+      "name": "Official Arduino references and best practices (required)",
+      "bytes": 501,
+      "when": [
+        "official",
+        "arduino",
+        "references",
+        "best",
+        "practices",
+        "required"
+      ]
+    },
+    {
+      "name": "Objectives",
+      "bytes": 220,
+      "when": [
+        "objectives"
+      ]
+    },
+    {
+      "name": "Integration patterns",
+      "bytes": 736,
+      "when": [
+        "integration",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Pattern A: Arduino direct to IoT Hub",
+      "bytes": 285,
+      "when": [
+        "pattern",
+        "arduino",
+        "direct"
+      ]
+    },
+    {
+      "name": "Pattern B: Arduino to local gateway, then IoT Edge",
+      "bytes": 426,
+      "when": [
+        "pattern",
+        "arduino",
+        "local",
+        "gateway",
+        "edge"
+      ]
+    },
+    {
+      "name": "Design flow",
+      "bytes": 1125,
+      "when": [
+        "design",
+        "flow"
+      ]
+    },
+    {
+      "name": "1) Device contract",
+      "bytes": 217,
+      "when": [
+        "device",
+        "contract"
+      ]
+    },
+    {
+      "name": "2) Security baseline",
+      "bytes": 225,
+      "when": [
+        "security",
+        "baseline"
+      ]
+    },
+    {
+      "name": "3) Reliability and offline behavior",
+      "bytes": 240,
+      "when": [
+        "reliability",
+        "offline",
+        "behavior"
+      ]
+    },
+    {
+      "name": "4) Cloud and edge routing",
+      "bytes": 206,
+      "when": [
+        "cloud",
+        "edge",
+        "routing"
+      ]
+    },
+    {
+      "name": "5) Observability",
+      "bytes": 221,
+      "when": [
+        "observability"
+      ]
+    },
+    {
+      "name": "Reuse other skills",
+      "bytes": 496,
+      "when": [
+        "reuse",
+        "skills"
+      ]
+    },
+    {
+      "name": "Required output",
+      "bytes": 295,
+      "when": [
+        "required",
+        "output"
+      ]
+    },
+    {
+      "name": "Output template",
+      "bytes": 185,
+      "when": [
+        "output",
+        "template"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 228,
+      "when": [
+        "guidelines"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arduino-azure-iot-edge-integration\\SKILL.md"
+}

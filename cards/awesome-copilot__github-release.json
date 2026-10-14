@@ -1,0 +1,270 @@
+{
+  "id": "awesome-copilot__github-release",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7ef644b19c8f87b09be121efdb3fc946c3354bb48ce6ec841ebb56384ee4c431",
+  "purpose": "Guides IA through releasing a new version of a GitHub library end-to-end. Handles SemVer versioning and Keep a Changelog formatting automatically.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guides IA through releasing a new version of a GitHub library end-to-end. Handles SemVer versioning and Keep a Changelog formatting automatically."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3575,
+  "core_bytes": 14297,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 326,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 991,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "The 9-Step Release Workflow",
+      "bytes": 7196,
+      "when": [
+        "step",
+        "release",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 - Ensure main is up to date",
+      "bytes": 195,
+      "when": [
+        "step",
+        "ensure",
+        "main",
+        "date"
+      ]
+    },
+    {
+      "name": "Step 2 - Grab the latest version tag",
+      "bytes": 2085,
+      "when": [
+        "step",
+        "grab",
+        "latest",
+        "version"
+      ]
+    },
+    {
+      "name": "Step 3 - Analyse what changed since the last release",
+      "bytes": 3113,
+      "when": [
+        "step",
+        "analyse",
+        "changed",
+        "since",
+        "last",
+        "release"
+      ]
+    },
+    {
+      "name": "Step 4 - Determine the next SemVer version",
+      "bytes": 1128,
+      "when": [
+        "step",
+        "determine",
+        "next",
+        "semver",
+        "version"
+      ]
+    },
+    {
+      "name": "Step 5 - Create the release branch",
+      "bytes": 215,
+      "when": [
+        "step",
+        "create",
+        "release",
+        "branch"
+      ]
+    },
+    {
+      "name": "Step 6 - Update CHANGELOG.md",
+      "bytes": 266,
+      "when": [
+        "step",
+        "update",
+        "changelog"
+      ]
+    },
+    {
+      "name": "[X.Y.Z] - YYYY-MM-DD",
+      "bytes": 2029,
+      "when": [
+        "yyyy"
+      ]
+    },
+    {
+      "name": "Added",
+      "bytes": 17,
+      "when": [
+        "added"
+      ]
+    },
+    {
+      "name": "Changed",
+      "bytes": 19,
+      "when": [
+        "changed"
+      ]
+    },
+    {
+      "name": "Deprecated",
+      "bytes": 22,
+      "when": [
+        "deprecated"
+      ]
+    },
+    {
+      "name": "Removed",
+      "bytes": 19,
+      "when": [
+        "removed"
+      ]
+    },
+    {
+      "name": "Fixed",
+      "bytes": 17,
+      "when": [
+        "fixed"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 1303,
+      "when": [
+        "security"
+      ]
+    },
+    {
+      "name": "Step 7 - Commit and push",
+      "bytes": 184,
+      "when": [
+        "step",
+        "commit",
+        "push"
+      ]
+    },
+    {
+      "name": "Step 8 - Open a Pull Request",
+      "bytes": 423,
+      "when": [
+        "step",
+        "open",
+        "pull",
+        "request"
+      ]
+    },
+    {
+      "name": "Release vX.Y.Z",
+      "bytes": 456,
+      "when": [
+        "release"
+      ]
+    },
+    {
+      "name": "What's included",
+      "bytes": 63,
+      "when": [
+        "included"
+      ]
+    },
+    {
+      "name": "Checklist",
+      "bytes": 332,
+      "when": [
+        "checklist"
+      ]
+    },
+    {
+      "name": "Release vX.Y.Z",
+      "bytes": 1137,
+      "when": [
+        "release"
+      ]
+    },
+    {
+      "name": "What's included",
+      "bytes": 44,
+      "when": [
+        "included"
+      ]
+    },
+    {
+      "name": "Checklist",
+      "bytes": 593,
+      "when": [
+        "checklist"
+      ]
+    },
+    {
+      "name": "Step 9 - Hand off to the user",
+      "bytes": 439,
+      "when": [
+        "step",
+        "hand",
+        "user"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 788,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Troubleshooting in PowerShell",
+      "bytes": 427,
+      "when": [
+        "troubleshooting",
+        "powershell"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 131,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 202,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\github-release\\SKILL.md"
+}

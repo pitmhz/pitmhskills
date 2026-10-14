@@ -1,0 +1,179 @@
+{
+  "id": "nvidia__jetson-link-docs",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "f164034a91478442f0a9b698ec587bf2debfba94ae1fe0ae7bbe93ddb69d3379",
+  "purpose": "Bind pre-downloaded Jetson reference docs (developer guide, design guide, pinmux, schematics) into the active profile documents block. Use after staging docs on disk; not for downloading.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Bind pre-downloaded Jetson reference docs (developer guide, design guide, pinmux, schematics) into the active profile documents block. Use after staging docs on"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3395,
+  "core_bytes": 13655,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 654,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 322,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 8144,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Resolve the active target",
+      "bytes": 317,
+      "when": [
+        "resolve",
+        "active",
+        "target"
+      ]
+    },
+    {
+      "name": "Load the document-slot schema",
+      "bytes": 671,
+      "when": [
+        "load",
+        "document",
+        "slot",
+        "schema"
+      ]
+    },
+    {
+      "name": "Resolve `documents.root_path`",
+      "bytes": 606,
+      "when": [
+        "resolve",
+        "documents",
+        "root",
+        "path"
+      ]
+    },
+    {
+      "name": "Resolve the product token",
+      "bytes": 777,
+      "when": [
+        "resolve",
+        "product",
+        "token"
+      ]
+    },
+    {
+      "name": "Scan and auto-match",
+      "bytes": 2221,
+      "when": [
+        "scan",
+        "auto",
+        "match"
+      ]
+    },
+    {
+      "name": "Match policy per field",
+      "bytes": 1435,
+      "when": [
+        "match",
+        "policy",
+        "field"
+      ]
+    },
+    {
+      "name": "Manual prompts for unmatched fields",
+      "bytes": 753,
+      "when": [
+        "manual",
+        "prompts",
+        "unmatched",
+        "fields"
+      ]
+    },
+    {
+      "name": "Write the `documents:` block back to the profile",
+      "bytes": 861,
+      "when": [
+        "write",
+        "documents",
+        "block",
+        "back",
+        "profile"
+      ]
+    },
+    {
+      "name": "Confirm",
+      "bytes": 487,
+      "when": [
+        "confirm"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1432,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 441,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 331,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 759,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 1116,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-link-docs\\SKILL.md",
+  "curated": true
+}

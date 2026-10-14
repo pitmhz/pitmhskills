@@ -28,7 +28,59 @@
   "conflicts_with": [],
   "body_tokens": 476,
   "core_bytes": 1911,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 334,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "bytes": 378,
+      "when": [
+        "core",
+        "concepts"
+      ]
+    },
+    {
+      "name": "SEO (Search Engine Optimization)",
+      "bytes": 119,
+      "when": [
+        "search",
+        "engine",
+        "optimization"
+      ]
+    },
+    {
+      "name": "AEO (Answer Engine Optimization)",
+      "bytes": 115,
+      "when": [
+        "answer",
+        "engine",
+        "optimization"
+      ]
+    },
+    {
+      "name": "EEAT (Experience, Expertise, Authoritativeness, Trustworthiness)",
+      "bytes": 124,
+      "when": [
+        "eeat",
+        "experience",
+        "expertise",
+        "authoritativeness",
+        "trustworthiness"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 553,
+      "when": [
+        "references"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\seo-aeo-best-practices\\SKILL.md"
 }

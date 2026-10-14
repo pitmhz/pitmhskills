@@ -1,0 +1,89 @@
+{
+  "id": "awesome-copilot__update-avm-modules-in-bicep",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b8ca2755d0ae9b57ea4d90776eb6495a29f614adce765704f02cb352a72c0f18",
+  "purpose": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Update Azure Verified Modules (AVM) to latest versions in Bicep files."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 564,
+  "core_bytes": 2279,
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 861,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Tool Usage",
+      "bytes": 161,
+      "when": [
+        "tool",
+        "usage"
+      ]
+    },
+    {
+      "name": "Breaking Change Policy",
+      "bytes": 169,
+      "when": [
+        "breaking",
+        "change",
+        "policy"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 431,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Summary of Updates",
+      "bytes": 101,
+      "when": [
+        "summary",
+        "updates"
+      ]
+    },
+    {
+      "name": "Icons",
+      "bytes": 106,
+      "when": [
+        "icons"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 173,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\update-avm-modules-in-bicep\\SKILL.md"
+}

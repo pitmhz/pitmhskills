@@ -1,0 +1,143 @@
+{
+  "id": "awesome-copilot__phoenix-tracing",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "96d7934dcce5f0391215bc2ca16b1f6e41339b1d3883fc03ed18082c4f144352",
+  "purpose": "OpenInference semantic conventions and instrumentation for Phoenix AI observability. Use when implementing LLM tracing, creating custom spans, or deploying to production.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "OpenInference semantic conventions and instrumentation for Phoenix AI observability. Use when implementing LLM tracing, creating custom spans, or deploying to p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1608,
+  "core_bytes": 6439,
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 274,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Reference Categories",
+      "bytes": 863,
+      "when": [
+        "reference",
+        "categories"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 2786,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "1. Setup (START HERE)",
+      "bytes": 227,
+      "when": [
+        "setup",
+        "start"
+      ]
+    },
+    {
+      "name": "2. Instrumentation",
+      "bytes": 490,
+      "when": [
+        "instrumentation"
+      ]
+    },
+    {
+      "name": "3. Span Types (with full attribute schemas)",
+      "bytes": 722,
+      "when": [
+        "span",
+        "types",
+        "full",
+        "attribute",
+        "schemas"
+      ]
+    },
+    {
+      "name": "4. Organization",
+      "bytes": 294,
+      "when": [
+        "organization"
+      ]
+    },
+    {
+      "name": "5. Enrichment",
+      "bytes": 150,
+      "when": [
+        "enrichment"
+      ]
+    },
+    {
+      "name": "6. Production (CRITICAL)",
+      "bytes": 181,
+      "when": [
+        "production",
+        "critical"
+      ]
+    },
+    {
+      "name": "7. Feedback",
+      "bytes": 245,
+      "when": [
+        "feedback"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 457,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Common Workflows",
+      "bytes": 336,
+      "when": [
+        "common",
+        "workflows"
+      ]
+    },
+    {
+      "name": "How to Use This Skill",
+      "bytes": 873,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 649,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\phoenix-tracing\\SKILL.md"
+}

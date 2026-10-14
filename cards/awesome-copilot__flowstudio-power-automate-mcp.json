@@ -1,0 +1,139 @@
+{
+  "id": "awesome-copilot__flowstudio-power-automate-mcp",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e91667958cb53be26f6815c0686115cedcdec49d76e4956646f2d56f64cc260a",
+  "purpose": "Foundation skill for Power Automate via FlowStudio MCP — auth setup, the reusable MCP helper (Python + Node.js), tool discovery via `list_skills` / `tool_search`, and oversized-response handling. Load",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Foundation skill for Power Automate via FlowStudio MCP — auth setup, the reusable MCP helper (Python + Node.js), tool discovery via `list_skills` / `tool_search"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3429,
+  "core_bytes": 13789,
+  "sections": [
+    {
+      "name": "Which Skill to Use When",
+      "bytes": 1373,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Source of Truth",
+      "bytes": 610,
+      "when": [
+        "source",
+        "truth"
+      ]
+    },
+    {
+      "name": "How Agents Discover Tools",
+      "bytes": 2082,
+      "when": [
+        "agents",
+        "discover",
+        "tools"
+      ]
+    },
+    {
+      "name": "Recommended Language: Python or Node.js",
+      "bytes": 1183,
+      "when": [
+        "recommended",
+        "language",
+        "python",
+        "node"
+      ]
+    },
+    {
+      "name": "Core MCP Helper (Python)",
+      "bytes": 1399,
+      "when": [
+        "core",
+        "helper",
+        "python"
+      ]
+    },
+    {
+      "name": "Core MCP Helper (Node.js)",
+      "bytes": 1013,
+      "when": [
+        "core",
+        "helper",
+        "node"
+      ]
+    },
+    {
+      "name": "Verify the Connection",
+      "bytes": 545,
+      "when": [
+        "verify",
+        "connection"
+      ]
+    },
+    {
+      "name": "Handling Oversized Responses",
+      "bytes": 2702,
+      "when": [
+        "handling",
+        "oversized",
+        "responses"
+      ]
+    },
+    {
+      "name": "When the harness spills to a file",
+      "bytes": 667,
+      "when": [
+        "harness",
+        "spills",
+        "file"
+      ]
+    },
+    {
+      "name": "Rules of thumb",
+      "bytes": 1364,
+      "when": [
+        "rules",
+        "thumb"
+      ]
+    },
+    {
+      "name": "Auth & Connection Notes",
+      "bytes": 401,
+      "when": [
+        "auth",
+        "connection",
+        "notes"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 443,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\flowstudio-power-automate-mcp\\SKILL.md"
+}

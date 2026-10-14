@@ -1,0 +1,436 @@
+{
+  "id": "awesome-copilot__breakdown-plan",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ce46dc0485b0ee3e7fc4172a507df685207b17806c9fa431bbf723308b8a2125",
+  "purpose": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3763,
+  "core_bytes": 15050,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 390,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "GitHub Project Management Best Practices",
+      "bytes": 956,
+      "when": [
+        "github",
+        "project",
+        "management",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Agile Work Item Hierarchy",
+      "bytes": 476,
+      "when": [
+        "agile",
+        "work",
+        "item",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "Project Management Principles",
+      "bytes": 435,
+      "when": [
+        "project",
+        "management",
+        "principles"
+      ]
+    },
+    {
+      "name": "Input Requirements",
+      "bytes": 789,
+      "when": [
+        "input",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Core Feature Documents",
+      "bytes": 313,
+      "when": [
+        "core",
+        "feature",
+        "documents"
+      ]
+    },
+    {
+      "name": "Related Planning Prompts",
+      "bytes": 369,
+      "when": [
+        "related",
+        "planning",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 1276,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Project Plan Structure",
+      "bytes": 1027,
+      "when": [
+        "project",
+        "plan",
+        "structure"
+      ]
+    },
+    {
+      "name": "Epic Description",
+      "bytes": 46,
+      "when": [
+        "epic",
+        "description"
+      ]
+    },
+    {
+      "name": "Business Value",
+      "bytes": 164,
+      "when": [
+        "business",
+        "value"
+      ]
+    },
+    {
+      "name": "Epic Acceptance Criteria",
+      "bytes": 129,
+      "when": [
+        "epic",
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Features in this Epic",
+      "bytes": 74,
+      "when": [
+        "features",
+        "epic"
+      ]
+    },
+    {
+      "name": "Definition of Done",
+      "bytes": 193,
+      "when": [
+        "definition",
+        "done"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 55,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Milestone",
+      "bytes": 38,
+      "when": [
+        "milestone"
+      ]
+    },
+    {
+      "name": "Estimate",
+      "bytes": 135,
+      "when": [
+        "estimate"
+      ]
+    },
+    {
+      "name": "Feature Description",
+      "bytes": 52,
+      "when": [
+        "feature",
+        "description"
+      ]
+    },
+    {
+      "name": "User Stories in this Feature",
+      "bytes": 132,
+      "when": [
+        "user",
+        "stories",
+        "feature"
+      ]
+    },
+    {
+      "name": "Technical Enablers",
+      "bytes": 120,
+      "when": [
+        "technical",
+        "enablers"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 122,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Acceptance Criteria",
+      "bytes": 97,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Definition of Done",
+      "bytes": 186,
+      "when": [
+        "definition",
+        "done"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 78,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Epic",
+      "bytes": 31,
+      "when": [
+        "epic"
+      ]
+    },
+    {
+      "name": "Estimate",
+      "bytes": 123,
+      "when": [
+        "estimate"
+      ]
+    },
+    {
+      "name": "Story Statement",
+      "bytes": 84,
+      "when": [
+        "story",
+        "statement"
+      ]
+    },
+    {
+      "name": "Acceptance Criteria",
+      "bytes": 145,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Technical Tasks",
+      "bytes": 120,
+      "when": [
+        "technical",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Testing Requirements",
+      "bytes": 77,
+      "when": [
+        "testing",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 78,
+      "when": [
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Definition of Done",
+      "bytes": 215,
+      "when": [
+        "definition",
+        "done"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 95,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Feature",
+      "bytes": 37,
+      "when": [
+        "feature"
+      ]
+    },
+    {
+      "name": "Estimate",
+      "bytes": 138,
+      "when": [
+        "estimate"
+      ]
+    },
+    {
+      "name": "Enabler Description",
+      "bytes": 75,
+      "when": [
+        "enabler",
+        "description"
+      ]
+    },
+    {
+      "name": "Technical Requirements",
+      "bytes": 92,
+      "when": [
+        "technical",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Implementation Tasks",
+      "bytes": 131,
+      "when": [
+        "implementation",
+        "tasks"
+      ]
+    },
+    {
+      "name": "User Stories Enabled",
+      "bytes": 130,
+      "when": [
+        "user",
+        "stories",
+        "enabled"
+      ]
+    },
+    {
+      "name": "Acceptance Criteria",
+      "bytes": 120,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Definition of Done",
+      "bytes": 167,
+      "when": [
+        "definition",
+        "done"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 93,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Feature",
+      "bytes": 37,
+      "when": [
+        "feature"
+      ]
+    },
+    {
+      "name": "Estimate",
+      "bytes": 2221,
+      "when": [
+        "estimate"
+      ]
+    },
+    {
+      "name": "Sprint {N} Goal",
+      "bytes": 4064,
+      "when": [
+        "sprint",
+        "goal"
+      ]
+    },
+    {
+      "name": "Issue Creation Checklist",
+      "bytes": 1396,
+      "when": [
+        "issue",
+        "creation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Success Metrics",
+      "bytes": 1463,
+      "when": [
+        "success",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Project Management KPIs",
+      "bytes": 380,
+      "when": [
+        "project",
+        "management",
+        "kpis"
+      ]
+    },
+    {
+      "name": "Process Efficiency Metrics",
+      "bytes": 418,
+      "when": [
+        "process",
+        "efficiency",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Project Delivery Metrics",
+      "bytes": 645,
+      "when": [
+        "project",
+        "delivery",
+        "metrics"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-plan\\SKILL.md"
+}

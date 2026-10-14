@@ -28,7 +28,96 @@
   "conflicts_with": [],
   "body_tokens": 588,
   "core_bytes": 2349,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "What This Sets Up",
+      "bytes": 208,
+      "when": [
+        "sets"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 1592,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "1. Detect package manager",
+      "bytes": 190,
+      "when": [
+        "detect",
+        "package",
+        "manager"
+      ]
+    },
+    {
+      "name": "2. Install dependencies",
+      "bytes": 102,
+      "when": [
+        "install",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "3. Initialize Husky",
+      "bytes": 134,
+      "when": [
+        "initialize",
+        "husky"
+      ]
+    },
+    {
+      "name": "4. Create `.husky/pre-commit`",
+      "bytes": 309,
+      "when": [
+        "create",
+        "husky",
+        "commit"
+      ]
+    },
+    {
+      "name": "5. Create `.lintstagedrc`",
+      "bytes": 99,
+      "when": [
+        "create",
+        "lintstagedrc"
+      ]
+    },
+    {
+      "name": "6. Create `.prettierrc` (if missing)",
+      "bytes": 287,
+      "when": [
+        "create",
+        "prettierrc",
+        "missing"
+      ]
+    },
+    {
+      "name": "7. Verify",
+      "bytes": 234,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "8. Commit",
+      "bytes": 225,
+      "when": [
+        "commit"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 232,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "pre-commit run --all-files"
+  ],
   "skill_path": "skills/pocock/skills/misc/setup-pre-commit/SKILL.md"
 }

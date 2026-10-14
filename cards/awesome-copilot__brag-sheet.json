@@ -1,0 +1,285 @@
+{
+  "id": "awesome-copilot__brag-sheet",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b7c9b04c81fdedbbd5d9dfcd09235e3122523be52c2bc4482590dd7b2945b4a4",
+  "purpose": "Turn vague \"what did I do?\" into evidence-backed impact statements for performance reviews, self-reviews, promotion packets, and weekly updates. Uniquely mines Copilot CLI session logs to reconstruct ",
+  "domain": "memory",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Turn vague \"what did I do?\" into evidence-backed impact statements for performance reviews, self-reviews, promotion packets, and weekly updates. Uniquely mines "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2959,
+  "core_bytes": 11976,
+  "sections": [
+    {
+      "name": "Quick Start",
+      "bytes": 349,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Agent Behavior Rules",
+      "bytes": 1142,
+      "when": [
+        "agent",
+        "behavior",
+        "rules"
+      ]
+    },
+    {
+      "name": "Entry Format",
+      "bytes": 1133,
+      "when": [
+        "entry",
+        "format"
+      ]
+    },
+    {
+      "name": "Anti-Patterns",
+      "bytes": 862,
+      "when": [
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Evidence Ladder",
+      "bytes": 701,
+      "when": [
+        "evidence",
+        "ladder"
+      ]
+    },
+    {
+      "name": "Categories",
+      "bytes": 573,
+      "when": [
+        "categories"
+      ]
+    },
+    {
+      "name": "How to Help the User",
+      "bytes": 680,
+      "when": [
+        "help",
+        "user"
+      ]
+    },
+    {
+      "name": "Backfill Workflow",
+      "bytes": 1667,
+      "when": [
+        "backfill",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Scan available sources",
+      "bytes": 963,
+      "when": [
+        "step",
+        "scan",
+        "available",
+        "sources"
+      ]
+    },
+    {
+      "name": "Step 2: Group related work",
+      "bytes": 271,
+      "when": [
+        "step",
+        "group",
+        "related",
+        "work"
+      ]
+    },
+    {
+      "name": "Step 3: Draft entries",
+      "bytes": 90,
+      "when": [
+        "step",
+        "draft",
+        "entries"
+      ]
+    },
+    {
+      "name": "Step 4: Present and refine",
+      "bytes": 97,
+      "when": [
+        "step",
+        "present",
+        "refine"
+      ]
+    },
+    {
+      "name": "Step 5: Output",
+      "bytes": 69,
+      "when": [
+        "step",
+        "output"
+      ]
+    },
+    {
+      "name": "Week of 2025-04-14",
+      "bytes": 304,
+      "when": [
+        "week",
+        "2025"
+      ]
+    },
+    {
+      "name": "🚀 PRs & Features",
+      "bytes": 136,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "🏗️ Infrastructure",
+      "bytes": 145,
+      "when": [
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "Performance Review Prep",
+      "bytes": 1436,
+      "when": [
+        "performance",
+        "review",
+        "prep"
+      ]
+    },
+    {
+      "name": "Structure",
+      "bytes": 728,
+      "when": [
+        "structure"
+      ]
+    },
+    {
+      "name": "Strong vs weak entries",
+      "bytes": 314,
+      "when": [
+        "strong",
+        "weak",
+        "entries"
+      ]
+    },
+    {
+      "name": "Narrative format",
+      "bytes": 281,
+      "when": [
+        "narrative",
+        "format"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 335,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1507,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "No recent commits in the current repo",
+      "bytes": 381,
+      "when": [
+        "recent",
+        "commits",
+        "current",
+        "repo"
+      ]
+    },
+    {
+      "name": "Review period doesn't match git history",
+      "bytes": 327,
+      "when": [
+        "review",
+        "period",
+        "doesn",
+        "match",
+        "history"
+      ]
+    },
+    {
+      "name": "User can't quantify impact",
+      "bytes": 231,
+      "when": [
+        "user",
+        "quantify",
+        "impact"
+      ]
+    },
+    {
+      "name": "Copilot session directory doesn't exist",
+      "bytes": 230,
+      "when": [
+        "copilot",
+        "session",
+        "directory",
+        "doesn",
+        "exist"
+      ]
+    },
+    {
+      "name": "\"brag\" might mean something else",
+      "bytes": 166,
+      "when": [
+        "brag",
+        "mean",
+        "something",
+        "else"
+      ]
+    },
+    {
+      "name": "Pair programming or co-authored commits",
+      "bytes": 160,
+      "when": [
+        "pair",
+        "programming",
+        "authored",
+        "commits"
+      ]
+    },
+    {
+      "name": "Automatic Session Tracking (Optional)",
+      "bytes": 339,
+      "when": [
+        "automatic",
+        "session",
+        "tracking",
+        "optional"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\brag-sheet\\SKILL.md"
+}

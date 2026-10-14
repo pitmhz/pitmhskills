@@ -1,0 +1,91 @@
+{
+  "id": "awesome-copilot__csharp-nunit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f03540e3fc328ca1325293a7339e2268f2cbf0d5698a2741b79dabb1c94335ba",
+  "purpose": "Get best practices for NUnit unit testing, including data-driven tests",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Get best practices for NUnit unit testing, including data-driven tests"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 711,
+  "core_bytes": 2843,
+  "sections": [
+    {
+      "name": "Project Setup",
+      "bytes": 331,
+      "when": [
+        "project",
+        "setup"
+      ]
+    },
+    {
+      "name": "Test Structure",
+      "bytes": 434,
+      "when": [
+        "test",
+        "structure"
+      ]
+    },
+    {
+      "name": "Standard Tests",
+      "bytes": 314,
+      "when": [
+        "standard",
+        "tests"
+      ]
+    },
+    {
+      "name": "Data-Driven Tests",
+      "bytes": 417,
+      "when": [
+        "data",
+        "driven",
+        "tests"
+      ]
+    },
+    {
+      "name": "Assertions",
+      "bytes": 453,
+      "when": [
+        "assertions"
+      ]
+    },
+    {
+      "name": "Mocking and Isolation",
+      "bytes": 222,
+      "when": [
+        "mocking",
+        "isolation"
+      ]
+    },
+    {
+      "name": "Test Organization",
+      "bytes": 411,
+      "when": [
+        "test",
+        "organization"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\csharp-nunit\\SKILL.md"
+}

@@ -1,0 +1,400 @@
+{
+  "id": "awesome-copilot__dependabot",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2b5f3af7d8a5555d330d4d72ba9ad6140e85215d006dd9d7a92ee0dae76bbf82",
+  "purpose": "Comprehensive guide for configuring and managing GitHub Dependabot. Use this skill when users ask about creating or optimizing dependabot.yml files, managing Dependabot pull requests, configuring depe",
+  "domain": "workflow",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Comprehensive guide for configuring and managing GitHub Dependabot. Use this skill when users ask about creating or optimizing dependabot.yml files, managing De"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3394,
+  "core_bytes": 13605,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 532,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Configuration Workflow",
+      "bytes": 2304,
+      "when": [
+        "configuration",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Detect All Ecosystems",
+      "bytes": 1462,
+      "when": [
+        "step",
+        "detect",
+        "ecosystems"
+      ]
+    },
+    {
+      "name": "Step 2: Map Directory Locations",
+      "bytes": 466,
+      "when": [
+        "step",
+        "directory",
+        "locations"
+      ]
+    },
+    {
+      "name": "Step 3: Configure Each Ecosystem Entry",
+      "bytes": 167,
+      "when": [
+        "step",
+        "configure",
+        "each",
+        "ecosystem",
+        "entry"
+      ]
+    },
+    {
+      "name": "Step 4: Optimize with Grouping, Labels, and Scheduling",
+      "bytes": 113,
+      "when": [
+        "step",
+        "optimize",
+        "grouping",
+        "labels",
+        "scheduling"
+      ]
+    },
+    {
+      "name": "Monorepo Strategies",
+      "bytes": 974,
+      "when": [
+        "monorepo",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Glob Patterns for Workspace Coverage",
+      "bytes": 284,
+      "when": [
+        "glob",
+        "patterns",
+        "workspace",
+        "coverage"
+      ]
+    },
+    {
+      "name": "Cross-Directory Grouping",
+      "bytes": 479,
+      "when": [
+        "cross",
+        "directory",
+        "grouping"
+      ]
+    },
+    {
+      "name": "Standalone Packages Outside Workspaces",
+      "bytes": 187,
+      "when": [
+        "standalone",
+        "packages",
+        "outside",
+        "workspaces"
+      ]
+    },
+    {
+      "name": "Dependency Grouping",
+      "bytes": 851,
+      "when": [
+        "dependency",
+        "grouping"
+      ]
+    },
+    {
+      "name": "By Dependency Type",
+      "bytes": 235,
+      "when": [
+        "dependency",
+        "type"
+      ]
+    },
+    {
+      "name": "By Name Pattern",
+      "bytes": 185,
+      "when": [
+        "name",
+        "pattern"
+      ]
+    },
+    {
+      "name": "For Security Updates",
+      "bytes": 340,
+      "when": [
+        "security",
+        "updates"
+      ]
+    },
+    {
+      "name": "Multi-Ecosystem Groups",
+      "bytes": 579,
+      "when": [
+        "multi",
+        "ecosystem",
+        "groups"
+      ]
+    },
+    {
+      "name": "PR Customization",
+      "bytes": 852,
+      "when": [
+        "customization"
+      ]
+    },
+    {
+      "name": "Labels",
+      "bytes": 207,
+      "when": [
+        "labels"
+      ]
+    },
+    {
+      "name": "Commit Messages",
+      "bytes": 160,
+      "when": [
+        "commit",
+        "messages"
+      ]
+    },
+    {
+      "name": "Assignees and Milestones",
+      "bytes": 123,
+      "when": [
+        "assignees",
+        "milestones"
+      ]
+    },
+    {
+      "name": "Branch Name Separator",
+      "bytes": 99,
+      "when": [
+        "branch",
+        "name",
+        "separator"
+      ]
+    },
+    {
+      "name": "Target Branch",
+      "bytes": 242,
+      "when": [
+        "target",
+        "branch"
+      ]
+    },
+    {
+      "name": "Schedule Optimization",
+      "bytes": 713,
+      "when": [
+        "schedule",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Intervals",
+      "bytes": 259,
+      "when": [
+        "intervals"
+      ]
+    },
+    {
+      "name": "Cron Expressions",
+      "bytes": 111,
+      "when": [
+        "cron",
+        "expressions"
+      ]
+    },
+    {
+      "name": "Cooldown Periods",
+      "bytes": 317,
+      "when": [
+        "cooldown",
+        "periods"
+      ]
+    },
+    {
+      "name": "Security Updates Configuration",
+      "bytes": 687,
+      "when": [
+        "security",
+        "updates",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Enable via Repository Settings",
+      "bytes": 146,
+      "when": [
+        "enable",
+        "repository",
+        "settings"
+      ]
+    },
+    {
+      "name": "Group Security Updates in YAML",
+      "bytes": 167,
+      "when": [
+        "group",
+        "security",
+        "updates",
+        "yaml"
+      ]
+    },
+    {
+      "name": "Disable Version Updates (Security Only)",
+      "bytes": 117,
+      "when": [
+        "disable",
+        "version",
+        "updates",
+        "security"
+      ]
+    },
+    {
+      "name": "Auto-Triage Rules",
+      "bytes": 222,
+      "when": [
+        "auto",
+        "triage",
+        "rules"
+      ]
+    },
+    {
+      "name": "PR Comment Commands",
+      "bytes": 1096,
+      "when": [
+        "comment",
+        "commands"
+      ]
+    },
+    {
+      "name": "Ignore and Allow Rules",
+      "bytes": 529,
+      "when": [
+        "ignore",
+        "allow",
+        "rules"
+      ]
+    },
+    {
+      "name": "Ignore Specific Dependencies",
+      "bytes": 223,
+      "when": [
+        "ignore",
+        "specific",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Allow Only Specific Types",
+      "bytes": 193,
+      "when": [
+        "allow",
+        "specific",
+        "types"
+      ]
+    },
+    {
+      "name": "Exclude Paths",
+      "bytes": 86,
+      "when": [
+        "exclude",
+        "paths"
+      ]
+    },
+    {
+      "name": "Advanced Options",
+      "bytes": 1021,
+      "when": [
+        "advanced",
+        "options"
+      ]
+    },
+    {
+      "name": "Versioning Strategy",
+      "bytes": 427,
+      "when": [
+        "versioning",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Rebase Strategy",
+      "bytes": 170,
+      "when": [
+        "rebase",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Open PR Limit",
+      "bytes": 155,
+      "when": [
+        "open",
+        "limit"
+      ]
+    },
+    {
+      "name": "Private Registries",
+      "bytes": 248,
+      "when": [
+        "private",
+        "registries"
+      ]
+    },
+    {
+      "name": "FAQ",
+      "bytes": 732,
+      "when": []
+    },
+    {
+      "name": "Pre-Commit Dependency Scanning via AI Coding Agents",
+      "bytes": 1678,
+      "when": [
+        "commit",
+        "dependency",
+        "scanning",
+        "coding",
+        "agents"
+      ]
+    },
+    {
+      "name": "Resources",
+      "bytes": 234,
+      "when": [
+        "resources"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dependabot\\SKILL.md"
+}

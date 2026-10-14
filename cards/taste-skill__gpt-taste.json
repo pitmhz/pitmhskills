@@ -1,0 +1,129 @@
+{
+  "id": "taste-skill__gpt-taste",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "2638d6d69f886a6d03378ab84bf5325577bbbe56153cd4703e2761578297a74f",
+  "purpose": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento gri",
+  "domain": "frontend",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typograph"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "GPT/Codex-tuned strict taste with GSAP -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "gpt codex randomization variance gsap",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2115,
+  "core_bytes": 8459,
+  "sections": [
+    {
+      "name": "1. PYTHON-DRIVEN TRUE RANDOMIZATION (BREAKING THE LOOP)",
+      "bytes": 724,
+      "when": [
+        "python",
+        "driven",
+        "true",
+        "randomization",
+        "breaking",
+        "loop"
+      ]
+    },
+    {
+      "name": "2. AIDA STRUCTURE & SPACING",
+      "bytes": 735,
+      "when": [
+        "aida",
+        "structure",
+        "spacing"
+      ]
+    },
+    {
+      "name": "3. HERO ARCHITECTURE & THE 2-LINE IRON RULE",
+      "bytes": 1294,
+      "when": [
+        "hero",
+        "architecture",
+        "line",
+        "iron",
+        "rule"
+      ]
+    },
+    {
+      "name": "4. THE GAPLESS BENTO GRID",
+      "bytes": 561,
+      "when": [
+        "gapless",
+        "bento",
+        "grid"
+      ]
+    },
+    {
+      "name": "5. ADVANCED GSAP MOTION & HOVER PHYSICS",
+      "bytes": 1468,
+      "when": [
+        "advanced",
+        "gsap",
+        "motion",
+        "hover",
+        "physics"
+      ]
+    },
+    {
+      "name": "6. COMPONENT ARSENAL & CREATIVITY",
+      "bytes": 766,
+      "when": [
+        "component",
+        "arsenal",
+        "creativity"
+      ]
+    },
+    {
+      "name": "7. CONTENT, ASSETS & STRICT BANS",
+      "bytes": 835,
+      "when": [
+        "content",
+        "assets",
+        "strict",
+        "bans"
+      ]
+    },
+    {
+      "name": "8. MANDATORY PRE-FLIGHT <design_plan>",
+      "bytes": 994,
+      "when": [
+        "mandatory",
+        "flight",
+        "design",
+        "plan"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "directive",
+    "awwwards",
+    "level",
+    "design",
+    "engineering",
+    "breaking",
+    "loop",
+    "hero",
+    "architecture",
+    "iron",
+    "rule"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\gpt-tasteskill\\SKILL.md"
+}

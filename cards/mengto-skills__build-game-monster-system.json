@@ -1,0 +1,103 @@
+{
+  "id": "mengto-skills__build-game-monster-system",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "f28e9595a7637bca85c66dcaed3a10fd587415d03b11a6c5dfefed09b08d4dc2",
+  "purpose": "Build, integrate, audit, or refactor rigged monsters for Three.js and web action games. Use for monster asset contracts, procedural or imported creature rigs, semantic joints and sockets, hurtboxes an",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Build, integrate, audit, or refactor rigged monsters for Three.js and web action games. Use for monster asset contracts, procedural or imported creature rigs, s"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1135,
+  "core_bytes": 4539,
+  "sections": [
+    {
+      "name": "Establish the contract",
+      "bytes": 711,
+      "when": [
+        "establish",
+        "contract"
+      ]
+    },
+    {
+      "name": "Separate four layers",
+      "bytes": 590,
+      "when": [
+        "separate",
+        "four",
+        "layers"
+      ]
+    },
+    {
+      "name": "Build the rig",
+      "bytes": 674,
+      "when": [
+        "build"
+      ]
+    },
+    {
+      "name": "Connect behavior and combat",
+      "bytes": 471,
+      "when": [
+        "connect",
+        "behavior",
+        "combat"
+      ]
+    },
+    {
+      "name": "Compose testable movesets",
+      "bytes": 707,
+      "when": [
+        "compose",
+        "testable",
+        "movesets"
+      ]
+    },
+    {
+      "name": "Verify conformance",
+      "bytes": 851,
+      "when": [
+        "verify",
+        "conformance"
+      ]
+    }
+  ],
+  "keywords": [
+    "game",
+    "establish",
+    "contract",
+    "separate",
+    "four",
+    "layers",
+    "connect",
+    "behavior",
+    "compose",
+    "testable",
+    "movesets",
+    "verify",
+    "conformance"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\build-game-monster-system\\SKILL.md"
+}

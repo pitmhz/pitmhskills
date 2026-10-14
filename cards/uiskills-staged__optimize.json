@@ -1,0 +1,161 @@
+{
+  "id": "uiskills-staged__optimize",
+  "tier": "B",
+  "origin": [
+    "local@optimize"
+  ],
+  "license": "Apache-2.0",
+  "hash": "eda07a7a5cec929df205c31374ae635c08af7a19e37ca17719c342831a97d446",
+  "purpose": "Performance is a feature. Identify the actual bottleneck for THIS interface, fix it, then measure. Don't optimize what isn't slow.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Performance is a feature. Identify the actual bottleneck for THIS interface, fix it, then measure. Don't optimize what isn't slow."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Interface performance diagnosis -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "optimize bottleneck rendering assets measure",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1973,
+  "core_bytes": 7901,
+  "sections": [
+    {
+      "name": "Assess Performance Issues",
+      "bytes": 820,
+      "when": [
+        "assess",
+        "performance",
+        "issues"
+      ]
+    },
+    {
+      "name": "Optimization Strategy",
+      "bytes": 4699,
+      "when": [
+        "optimization",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Loading Performance",
+      "bytes": 1677,
+      "when": [
+        "loading",
+        "performance"
+      ]
+    },
+    {
+      "name": "Rendering Performance",
+      "bytes": 1210,
+      "when": [
+        "rendering",
+        "performance"
+      ]
+    },
+    {
+      "name": "Animation Performance",
+      "bytes": 772,
+      "when": [
+        "animation",
+        "performance"
+      ]
+    },
+    {
+      "name": "React/Framework Optimization",
+      "bytes": 428,
+      "when": [
+        "react",
+        "framework",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Network Optimization",
+      "bytes": 545,
+      "when": [
+        "network",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Core Web Vitals Optimization",
+      "bytes": 703,
+      "when": [
+        "core",
+        "vitals",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Largest Contentful Paint (LCP < 2.5s)",
+      "bytes": 153,
+      "when": [
+        "largest",
+        "contentful",
+        "paint"
+      ]
+    },
+    {
+      "name": "Interaction to Next Paint (INP < 200ms)",
+      "bytes": 180,
+      "when": [
+        "interaction",
+        "next",
+        "paint",
+        "200ms"
+      ]
+    },
+    {
+      "name": "Cumulative Layout Shift (CLS < 0.1)",
+      "bytes": 335,
+      "when": [
+        "cumulative",
+        "layout",
+        "shift"
+      ]
+    },
+    {
+      "name": "Performance Monitoring",
+      "bytes": 1022,
+      "when": [
+        "performance",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Verify Improvements",
+      "bytes": 523,
+      "when": [
+        "verify",
+        "improvements"
+      ]
+    }
+  ],
+  "keywords": [
+    "assess",
+    "issues",
+    "optimization",
+    "strategy",
+    "loading",
+    "rendering",
+    "animation",
+    "react",
+    "framework",
+    "network",
+    "core",
+    "vitals"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\optimize\\SKILL.md"
+}

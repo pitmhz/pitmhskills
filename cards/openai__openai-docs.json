@@ -4,10 +4,10 @@
   "origin": [
     "openai/skills@49f948faa9258a0c61caceaf225e179651397431"
   ],
-  "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
+  "license": "Apache-2.0",
   "hash": "117e696f80607076f63887f4f892418f38b6af4c56ccf2b6e50e1dd1a4871da4",
   "purpose": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest m",
-  "domain": "cloudflare-edge",
+  "domain": "general",
   "task_types": [
     "implement",
     "debug"
@@ -16,11 +16,11 @@
     "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation wi"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to cloudflare-edge"
+    "Tasks unrelated to general"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "cloudflare-edge",
+  "cluster": "general",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,
@@ -28,7 +28,125 @@
   "conflicts_with": [],
   "body_tokens": 4728,
   "core_bytes": 18914,
-  "sections": [],
+  "sections": [
+    {
+      "name": "API Key Setup",
+      "bytes": 451,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Workflow Configuration",
+      "bytes": 1849,
+      "when": [
+        "workflow",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Source Priority",
+      "bytes": 1820,
+      "when": [
+        "source",
+        "priority"
+      ]
+    },
+    {
+      "name": "OpenAI product snapshots",
+      "bytes": 885,
+      "when": [
+        "openai",
+        "product",
+        "snapshots"
+      ]
+    },
+    {
+      "name": "Codex self-knowledge",
+      "bytes": 9779,
+      "when": [
+        "codex",
+        "self",
+        "knowledge"
+      ]
+    },
+    {
+      "name": "Source Route",
+      "bytes": 6127,
+      "when": [
+        "source",
+        "route"
+      ]
+    },
+    {
+      "name": "Surface Map",
+      "bytes": 1970,
+      "when": [
+        "surface"
+      ]
+    },
+    {
+      "name": "Boundaries And Output",
+      "bytes": 1201,
+      "when": [
+        "boundaries",
+        "output"
+      ]
+    },
+    {
+      "name": "If MCP server is missing",
+      "bytes": 536,
+      "when": [
+        "server",
+        "missing"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2175,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Reference map",
+      "bytes": 940,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Quality rules",
+      "bytes": 734,
+      "when": [
+        "quality",
+        "rules"
+      ]
+    },
+    {
+      "name": "Tooling notes",
+      "bytes": 448,
+      "when": [
+        "tooling",
+        "notes"
+      ]
+    }
+  ],
+  "keywords": [
+    "setup",
+    "workflow",
+    "configuration",
+    "source",
+    "priority",
+    "product",
+    "snapshots",
+    "route",
+    "surface",
+    "boundaries",
+    "output",
+    "server",
+    "missing"
+  ],
   "verify": [],
-  "skill_path": "skills/openai/skills/.system/openai-docs/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\openai\\skills\\.system\\openai-docs\\SKILL.md"
 }

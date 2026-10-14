@@ -1,0 +1,123 @@
+{
+  "id": "mengto-skills__build-daily-inspiration-sites",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "b6ff20227cc51662f7b6ffb10351766486161985343a5fd99cda873e492ffad3",
+  "purpose": "Turn a completed daily UI inspiration capture into exactly five original landing-page builds, one per separate Codex task, using Sites. Use when the user asks to turn the daily inspiration references,",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Turn a completed daily UI inspiration capture into exactly five original landing-page builds, one per separate Codex task, using Sites. Use when the user asks t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1916,
+  "core_bytes": 7663,
+  "sections": [
+    {
+      "name": "Preserve the boundary",
+      "bytes": 887,
+      "when": [
+        "preserve",
+        "boundary"
+      ]
+    },
+    {
+      "name": "1. Locate and validate the capture",
+      "bytes": 669,
+      "when": [
+        "locate",
+        "validate",
+        "capture"
+      ]
+    },
+    {
+      "name": "2. Create the originality matrix",
+      "bytes": 810,
+      "when": [
+        "create",
+        "originality",
+        "matrix"
+      ]
+    },
+    {
+      "name": "3. Prepare one build brief per item",
+      "bytes": 1719,
+      "when": [
+        "prepare",
+        "build",
+        "brief",
+        "item"
+      ]
+    },
+    {
+      "name": "4. Create five separate Codex tasks",
+      "bytes": 1071,
+      "when": [
+        "create",
+        "five",
+        "separate",
+        "codex",
+        "tasks"
+      ]
+    },
+    {
+      "name": "5. Require a complete Sites handoff",
+      "bytes": 770,
+      "when": [
+        "require",
+        "complete",
+        "sites",
+        "handoff"
+      ]
+    },
+    {
+      "name": "6. Report the launch",
+      "bytes": 452,
+      "when": [
+        "report",
+        "launch"
+      ]
+    },
+    {
+      "name": "Completion checks",
+      "bytes": 583,
+      "when": [
+        "completion",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "build",
+    "preserve",
+    "boundary",
+    "locate",
+    "validate",
+    "create",
+    "originality",
+    "matrix",
+    "prepare",
+    "brief",
+    "tasks",
+    "require",
+    "complete",
+    "handoff"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\build-daily-inspiration-sites\\SKILL.md"
+}

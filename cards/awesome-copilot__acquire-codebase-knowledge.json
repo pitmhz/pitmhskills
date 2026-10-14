@@ -1,0 +1,130 @@
+{
+  "id": "awesome-copilot__acquire-codebase-knowledge",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a86527533d2ee4df27063af24402b9e1a345c33bba3cf423c96da7cdb3864a60",
+  "purpose": "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase. Trigger for prompts like \"map this codebase\", \"document this architecture\", \"onboard me to this rep",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase. Trigger for prompts like \"map this codebase\", \"document thi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2270,
+  "core_bytes": 9123,
+  "sections": [
+    {
+      "name": "Output Contract (Required)",
+      "bytes": 581,
+      "when": [
+        "output",
+        "contract",
+        "required"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 286,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Focus Area Mode",
+      "bytes": 3068,
+      "when": [
+        "focus",
+        "area",
+        "mode"
+      ]
+    },
+    {
+      "name": "Phase 1: Scan and Read Intent",
+      "bytes": 639,
+      "when": [
+        "phase",
+        "scan",
+        "read",
+        "intent"
+      ]
+    },
+    {
+      "name": "Phase 2: Investigate",
+      "bytes": 386,
+      "when": [
+        "phase",
+        "investigate"
+      ]
+    },
+    {
+      "name": "Phase 3: Populate Templates",
+      "bytes": 924,
+      "when": [
+        "phase",
+        "populate",
+        "templates"
+      ]
+    },
+    {
+      "name": "Phase 4: Validate, Repair, Verify",
+      "bytes": 732,
+      "when": [
+        "phase",
+        "validate",
+        "repair",
+        "verify"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1525,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Anti-Patterns",
+      "bytes": 556,
+      "when": [
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Enhanced Scan Output Sections",
+      "bytes": 688,
+      "when": [
+        "enhanced",
+        "scan",
+        "output",
+        "sections"
+      ]
+    },
+    {
+      "name": "Bundled Assets",
+      "bytes": 1219,
+      "when": [
+        "bundled",
+        "assets"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\acquire-codebase-knowledge\\SKILL.md"
+}

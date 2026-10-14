@@ -1,0 +1,179 @@
+{
+  "id": "nvidia__hsb-flash",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bc681912c9a5187a417b62c6c157c40a29079a6b936e2c15e124a51d75e74cdc",
+  "purpose": "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 all-in-one cameras (FPGA versions 2507, 2510",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 all-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4472,
+  "core_bytes": 17936,
+  "sections": [
+    {
+      "name": "Before you start — required gates (do these first, in order)",
+      "bytes": 2590,
+      "when": [
+        "before",
+        "start",
+        "required",
+        "gates",
+        "first",
+        "order"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 286,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "What this skill must do",
+      "bytes": 5946,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Supported board types",
+      "bytes": 502,
+      "when": [
+        "supported",
+        "board",
+        "types"
+      ]
+    },
+    {
+      "name": "Supported FPGA versions",
+      "bytes": 1150,
+      "when": [
+        "supported",
+        "fpga",
+        "versions"
+      ]
+    },
+    {
+      "name": "Lattice board FPGA versions",
+      "bytes": 349,
+      "when": [
+        "lattice",
+        "board",
+        "fpga",
+        "versions"
+      ]
+    },
+    {
+      "name": "VB1940 FPGA versions",
+      "bytes": 771,
+      "when": [
+        "vb1940",
+        "fpga",
+        "versions"
+      ]
+    },
+    {
+      "name": "Flashing infrastructure",
+      "bytes": 269,
+      "when": [
+        "flashing",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "Repo selection and checkout (Lattice only)",
+      "bytes": 2659,
+      "when": [
+        "repo",
+        "selection",
+        "checkout",
+        "lattice"
+      ]
+    },
+    {
+      "name": "Repo checkout logic",
+      "bytes": 1226,
+      "when": [
+        "repo",
+        "checkout",
+        "logic"
+      ]
+    },
+    {
+      "name": "What to save from detection",
+      "bytes": 780,
+      "when": [
+        "save",
+        "detection"
+      ]
+    },
+    {
+      "name": "Linux/Windows-friendly wrapper variables",
+      "bytes": 567,
+      "when": [
+        "linux",
+        "windows",
+        "friendly",
+        "wrapper",
+        "variables"
+      ]
+    },
+    {
+      "name": "Mandatory interaction pattern",
+      "bytes": 1498,
+      "when": [
+        "mandatory",
+        "interaction",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Phase details",
+      "bytes": 264,
+      "when": [
+        "phase",
+        "details"
+      ]
+    },
+    {
+      "name": "Built-in help (`--help`)",
+      "bytes": 124,
+      "when": [
+        "built",
+        "help"
+      ]
+    },
+    {
+      "name": "Invocation examples",
+      "bytes": 146,
+      "when": [
+        "invocation",
+        "examples"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/hsb-flash/SKILL.md",
+  "curated": true
+}

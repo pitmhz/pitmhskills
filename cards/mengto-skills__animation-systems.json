@@ -1,0 +1,328 @@
+{
+  "id": "mengto-skills__animation-systems",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "628bfc1d93fd17c1e3bcb16d74e1dcb48a0790980001cf2e153a6a80e6018c71",
+  "purpose": "Use when designing or implementing product-grade web motion like Stripe, Linear, Apple, and Vercel. Covers motion principles, easing/duration defaults, choreography patterns, scroll/hover interactions",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use when designing or implementing product-grade web motion like Stripe, Linear, Apple, and Vercel. Covers motion principles, easing/duration defaults, choreogr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Coherent product-wide animation system -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "coherent stripe linear",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1335,
+  "core_bytes": 5424,
+  "sections": [
+    {
+      "name": "The goals (why motion exists)",
+      "bytes": 329,
+      "when": [
+        "goals",
+        "motion",
+        "exists"
+      ]
+    },
+    {
+      "name": "The Stripe/Linear/Apple/Vercel style (shared traits)",
+      "bytes": 627,
+      "when": [
+        "stripe",
+        "linear",
+        "apple",
+        "vercel",
+        "style",
+        "shared",
+        "traits"
+      ]
+    },
+    {
+      "name": "1) Restraint",
+      "bytes": 114,
+      "when": [
+        "restraint"
+      ]
+    },
+    {
+      "name": "2) Clear choreography",
+      "bytes": 155,
+      "when": [
+        "clear",
+        "choreography"
+      ]
+    },
+    {
+      "name": "3) Physical but not cartoony",
+      "bytes": 157,
+      "when": [
+        "physical",
+        "cartoony"
+      ]
+    },
+    {
+      "name": "4) Texture + depth (subtle)",
+      "bytes": 142,
+      "when": [
+        "texture",
+        "depth",
+        "subtle"
+      ]
+    },
+    {
+      "name": "Motion primitives (build these first)",
+      "bytes": 646,
+      "when": [
+        "motion",
+        "primitives",
+        "build",
+        "first"
+      ]
+    },
+    {
+      "name": "A) Fade + rise (default entrance)",
+      "bytes": 164,
+      "when": [
+        "fade",
+        "rise",
+        "default",
+        "entrance"
+      ]
+    },
+    {
+      "name": "B) Scale + fade (micro emphasis)",
+      "bytes": 126,
+      "when": [
+        "scale",
+        "fade",
+        "micro",
+        "emphasis"
+      ]
+    },
+    {
+      "name": "C) Slide (navigation)",
+      "bytes": 118,
+      "when": [
+        "slide",
+        "navigation"
+      ]
+    },
+    {
+      "name": "D) Morph / shared element (high craft)",
+      "bytes": 147,
+      "when": [
+        "morph",
+        "shared",
+        "element",
+        "high",
+        "craft"
+      ]
+    },
+    {
+      "name": "Defaults (practical numbers)",
+      "bytes": 772,
+      "when": [
+        "defaults",
+        "practical",
+        "numbers"
+      ]
+    },
+    {
+      "name": "Durations (rule of thumb)",
+      "bytes": 281,
+      "when": [
+        "durations",
+        "rule",
+        "thumb"
+      ]
+    },
+    {
+      "name": "Easing (safe set)",
+      "bytes": 324,
+      "when": [
+        "easing",
+        "safe"
+      ]
+    },
+    {
+      "name": "Stagger",
+      "bytes": 99,
+      "when": [
+        "stagger"
+      ]
+    },
+    {
+      "name": "Choreography patterns",
+      "bytes": 525,
+      "when": [
+        "choreography",
+        "patterns"
+      ]
+    },
+    {
+      "name": "1) “Hero → supporting elements”",
+      "bytes": 126,
+      "when": [
+        "hero",
+        "supporting",
+        "elements"
+      ]
+    },
+    {
+      "name": "2) “Section reveal on scroll”",
+      "bytes": 136,
+      "when": [
+        "section",
+        "reveal",
+        "scroll"
+      ]
+    },
+    {
+      "name": "3) “Hover: lift + glow”",
+      "bytes": 113,
+      "when": [
+        "hover",
+        "lift",
+        "glow"
+      ]
+    },
+    {
+      "name": "4) “Focus ring + micro shift”",
+      "bytes": 122,
+      "when": [
+        "focus",
+        "ring",
+        "micro",
+        "shift"
+      ]
+    },
+    {
+      "name": "Performance rules (non‑negotiable)",
+      "bytes": 514,
+      "when": [
+        "performance",
+        "rules",
+        "negotiable"
+      ]
+    },
+    {
+      "name": "Animate the right properties",
+      "bytes": 188,
+      "when": [
+        "animate",
+        "right",
+        "properties"
+      ]
+    },
+    {
+      "name": "Respect the GPU",
+      "bytes": 151,
+      "when": [
+        "respect"
+      ]
+    },
+    {
+      "name": "Reduce reflows",
+      "bytes": 132,
+      "when": [
+        "reduce",
+        "reflows"
+      ]
+    },
+    {
+      "name": "Accessibility: Reduced Motion",
+      "bytes": 309,
+      "when": [
+        "accessibility",
+        "reduced",
+        "motion"
+      ]
+    },
+    {
+      "name": "Implementation guidance (library-agnostic)",
+      "bytes": 478,
+      "when": [
+        "implementation",
+        "guidance",
+        "library",
+        "agnostic"
+      ]
+    },
+    {
+      "name": "For simple sites",
+      "bytes": 147,
+      "when": [
+        "simple",
+        "sites"
+      ]
+    },
+    {
+      "name": "For product sites",
+      "bytes": 145,
+      "when": [
+        "product",
+        "sites"
+      ]
+    },
+    {
+      "name": "For hero moments",
+      "bytes": 137,
+      "when": [
+        "hero",
+        "moments"
+      ]
+    },
+    {
+      "name": "What to ask the user",
+      "bytes": 316,
+      "when": [
+        "user"
+      ]
+    },
+    {
+      "name": "Output format (when asked to “add Stripe/Linear-style animation”)",
+      "bytes": 340,
+      "when": [
+        "output",
+        "format",
+        "asked",
+        "stripe",
+        "linear",
+        "style",
+        "animation"
+      ]
+    }
+  ],
+  "keywords": [
+    "animation",
+    "systems",
+    "goals",
+    "exists",
+    "style",
+    "shared",
+    "traits",
+    "restraint",
+    "clear",
+    "physical",
+    "cartoony",
+    "texture",
+    "depth",
+    "subtle"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\animation-systems\\SKILL.md"
+}

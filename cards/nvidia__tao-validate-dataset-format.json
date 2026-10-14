@@ -1,0 +1,118 @@
+{
+  "id": "nvidia__tao-validate-dataset-format",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "64dd356e27b3c21ea09569947e023b5e6484c1cc851aaf98b2aa00695a3d85e2",
+  "purpose": "Run `tao-daft validate` to check NVIDIA TAO DAFT datasets for structure, schema, and cross-reference errors. Do",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run `tao-daft validate` to check NVIDIA TAO DAFT datasets for structure, schema, and cross-reference errors. Do"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1277,
+  "core_bytes": 5142,
+  "sections": [
+    {
+      "name": "Quick start",
+      "bytes": 338,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 184,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 309,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 598,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 226,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1607,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "CLI conventions",
+      "bytes": 936,
+      "when": [
+        "conventions"
+      ]
+    },
+    {
+      "name": "Format inference",
+      "bytes": 325,
+      "when": [
+        "format",
+        "inference"
+      ]
+    },
+    {
+      "name": "Reading errors",
+      "bytes": 327,
+      "when": [
+        "reading",
+        "errors"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 446,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 619,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-validate-dataset-format/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,110 @@
+{
+  "id": "nvidia__i4h-workflow-create",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1f84cd060a45cc4370f8bc2264384e8a2629d3cbfb67bded2aa1e433c33d8766",
+  "purpose": "Create a minimal blank Workflow scaffold with a Scene containing ground and light plus an idle run mode. Use for fast new Workflow scaffolding.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Create a minimal blank Workflow scaffold with a Scene containing ground and light plus an idle run mode. Use for fast new Workflow scaffolding."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1559,
+  "core_bytes": 6267,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 124,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2114,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Utility",
+      "bytes": 251,
+      "when": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 987,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 444,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 183,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 206,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Continue",
+      "bytes": 923,
+      "when": [
+        "continue"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 397,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 146,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "./run.sh lint --all"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-create/SKILL.md"
+}

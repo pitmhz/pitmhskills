@@ -1,0 +1,100 @@
+{
+  "id": "nvidia__kermt-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "719f2650e5505cd6d36c88bf79a23ef18cf505d43683db619076568e7ec992ec",
+  "purpose": "Finetune a pretrained KERMT encoder on a labeled CSV. Validate the checkpoint and data, prepare features, and run containerized training. Use a local checkpoint or optionally download a pinned Hugging",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Finetune a pretrained KERMT encoder on a labeled CSV. Validate the checkpoint and data, prepare features, and run containerized training. Use a local checkpoint"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4180,
+  "core_bytes": 16798,
+  "sections": [
+    {
+      "name": "Skill and runtime paths",
+      "bytes": 482,
+      "when": [
+        "skill",
+        "runtime",
+        "paths"
+      ]
+    },
+    {
+      "name": "Downloads and local outputs",
+      "bytes": 508,
+      "when": [
+        "downloads",
+        "local",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Hardware requirements",
+      "bytes": 644,
+      "when": [
+        "hardware",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 3503,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 7938,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 1205,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Common errors",
+      "bytes": 1037,
+      "when": [
+        "common",
+        "errors"
+      ]
+    },
+    {
+      "name": "Replayability",
+      "bytes": 476,
+      "when": [
+        "replayability"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-kermt-finetune/SKILL.md",
+  "curated": true
+}

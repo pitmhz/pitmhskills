@@ -27,7 +27,99 @@
   "conflicts_with": [],
   "body_tokens": 2469,
   "core_bytes": 9873,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Teaching Workspace",
+      "bytes": 1947,
+      "when": [
+        "teaching",
+        "workspace"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "bytes": 1262,
+      "when": [
+        "philosophy"
+      ]
+    },
+    {
+      "name": "Fluency vs Storage Strength",
+      "bytes": 591,
+      "when": [
+        "fluency",
+        "storage",
+        "strength"
+      ]
+    },
+    {
+      "name": "Lessons",
+      "bytes": 1199,
+      "when": [
+        "lessons"
+      ]
+    },
+    {
+      "name": "Assets",
+      "bytes": 705,
+      "when": [
+        "assets"
+      ]
+    },
+    {
+      "name": "The Mission",
+      "bytes": 722,
+      "when": [
+        "mission"
+      ]
+    },
+    {
+      "name": "Zone Of Proximal Development",
+      "bytes": 438,
+      "when": [
+        "zone",
+        "proximal",
+        "development"
+      ]
+    },
+    {
+      "name": "Knowledge",
+      "bytes": 634,
+      "when": [
+        "knowledge"
+      ]
+    },
+    {
+      "name": "Skills",
+      "bytes": 954,
+      "when": [
+        "skills"
+      ]
+    },
+    {
+      "name": "Acquiring Wisdom",
+      "bytes": 664,
+      "when": [
+        "acquiring",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Reference Documents",
+      "bytes": 772,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "`NOTES.md`",
+      "bytes": 254,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/productivity/teach/SKILL.md"
 }

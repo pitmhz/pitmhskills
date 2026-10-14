@@ -6,29 +6,59 @@
   ],
   "license": "MIT",
   "hash": "4666dfd5fbab7b8b4a6a0d8f5ccae20603fe773443e958d47aa00845d888c0c4",
-  "purpose": ">",
+  "purpose": "Debt ledger of deliberate ponytail shortcuts: greps every `shortcut:` (or legacy `ponytail:`) comment into a tracked list with its ceiling and upgrade trigger. One-shot report, changes nothing.",
   "domain": "general",
   "task_types": [
-    "implement",
-    "debug"
+    "review"
   ],
   "use_when": [
-    ">"
+    "Listing every deferred shortcut marker as a debt ledger",
+    "Asking what ponytail deferred or which shortcuts lack an upgrade trigger",
+    "Harvesting shortcut: comments into a tracked file"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to general"
+    "Writing or fixing code (use ponytail)",
+    "A general quality review or audit (use ponytail-review or ponytail-audit)"
   ],
-  "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
-  "cluster": "general",
-  "cluster_role": "primary",
-  "pick_over_primary_when": null,
+  "scope": "Greps markers and reports; changes nothing unless asked to persist the ledger.",
+  "disambiguator": "Counting deferred shortcut markers -> this. Anything else in the ponytail family -> see disambiguators there.",
+  "cluster": "code-minimalism",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "debt shortcut ledger deferred",
   "pairs_with": null,
   "requires": {},
   "conflicts_with": [],
   "body_tokens": 466,
   "core_bytes": 1863,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Scan",
+      "bytes": 590,
+      "when": [
+        "scan"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 584,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Boundaries",
+      "bytes": 201,
+      "when": [
+        "boundaries"
+      ]
+    }
+  ],
+  "keywords": [
+    "scan",
+    "output",
+    "boundaries"
+  ],
   "verify": [],
-  "skill_path": "skills/ponytail/skills/ponytail-debt/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-debt\\SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,200 @@
+{
+  "id": "nvidia__tao-validate-recipe-transfer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "fb82eb1d7c4a1569d629249eea078a6b8f7966b74e25469b2c208c62611b0291",
+  "purpose": "Port a published computer vision papers official code and training recipe onto a customers own dataset, or diagnose why such a transfer produced bad numbers. Use this whenever someone wants to reprodu",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Port a published computer vision papers official code and training recipe onto a customers own dataset, or diagnose why such a transfer produced bad numbers. Us"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4233,
+  "core_bytes": 17042,
+  "sections": [
+    {
+      "name": "The core idea",
+      "bytes": 1127,
+      "when": [
+        "core",
+        "idea"
+      ]
+    },
+    {
+      "name": "Mode selection",
+      "bytes": 799,
+      "when": [
+        "mode",
+        "selection"
+      ]
+    },
+    {
+      "name": "Phase 0 — Feasibility gate",
+      "bytes": 1534,
+      "when": [
+        "phase",
+        "feasibility",
+        "gate"
+      ]
+    },
+    {
+      "name": "Phase A — Port",
+      "bytes": 2073,
+      "when": [
+        "phase",
+        "port"
+      ]
+    },
+    {
+      "name": "Phase G — Domain gap report",
+      "bytes": 1608,
+      "when": [
+        "phase",
+        "domain",
+        "report"
+      ]
+    },
+    {
+      "name": "Phase T — Transfer the recipe",
+      "bytes": 2298,
+      "when": [
+        "phase",
+        "transfer",
+        "recipe"
+      ]
+    },
+    {
+      "name": "The trap that catches almost everyone",
+      "bytes": 757,
+      "when": [
+        "trap",
+        "catches",
+        "almost",
+        "everyone"
+      ]
+    },
+    {
+      "name": "Preprocessing is a single artifact",
+      "bytes": 727,
+      "when": [
+        "preprocessing",
+        "single",
+        "artifact"
+      ]
+    },
+    {
+      "name": "Phase R — Run",
+      "bytes": 958,
+      "when": [
+        "phase"
+      ]
+    },
+    {
+      "name": "Phase E — Evaluate and report",
+      "bytes": 2119,
+      "when": [
+        "phase",
+        "evaluate",
+        "report"
+      ]
+    },
+    {
+      "name": "Outcome",
+      "bytes": 94,
+      "when": [
+        "outcome"
+      ]
+    },
+    {
+      "name": "Phase A verification",
+      "bytes": 102,
+      "when": [
+        "phase",
+        "verification"
+      ]
+    },
+    {
+      "name": "Domain gap",
+      "bytes": 83,
+      "when": [
+        "domain"
+      ]
+    },
+    {
+      "name": "Recipe deviations",
+      "bytes": 83,
+      "when": [
+        "recipe",
+        "deviations"
+      ]
+    },
+    {
+      "name": "Results",
+      "bytes": 98,
+      "when": [
+        "results"
+      ]
+    },
+    {
+      "name": "Error analysis",
+      "bytes": 67,
+      "when": [
+        "error",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Known risks",
+      "bytes": 260,
+      "when": [
+        "known",
+        "risks"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 808,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Scripts",
+      "bytes": 618,
+      "when": [
+        "scripts"
+      ]
+    },
+    {
+      "name": "Honest framing",
+      "bytes": 624,
+      "when": [
+        "honest",
+        "framing"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-validate-recipe-transfer/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "nvidia__tao-run-deft-cr-its-mining",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9aab12f24e2b7d9d46de5681d4e7019d33365d872eb3a50ccf7bc4ad620699ea",
+  "purpose": "Run the mining-based DEFT improvement workflow for ITS Cosmos-Reason binary video questions, focused on the non-reasoning classification/evaluation path. Use when the user asks for a DEFT CR ITS minin",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run the mining-based DEFT improvement workflow for ITS Cosmos-Reason binary video questions, focused on the non-reasoning classification/evaluation path. Use wh"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4983,
+  "core_bytes": 20112,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 180,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Bundled Resources",
+      "bytes": 986,
+      "when": [
+        "bundled",
+        "resources"
+      ]
+    },
+    {
+      "name": "User Inputs (DEFT Workspace and Workflow Configuration Yaml)",
+      "bytes": 8382,
+      "when": [
+        "user",
+        "inputs",
+        "deft",
+        "workspace",
+        "workflow",
+        "configuration",
+        "yaml"
+      ]
+    },
+    {
+      "name": "Workflow Configuration",
+      "bytes": 5175,
+      "when": [
+        "workflow",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Baseline Evaluation",
+      "bytes": 655,
+      "when": [
+        "baseline",
+        "evaluation"
+      ]
+    },
+    {
+      "name": "Initialize Mining Embeddings",
+      "bytes": 3643,
+      "when": [
+        "initialize",
+        "mining",
+        "embeddings"
+      ]
+    },
+    {
+      "name": "Run Cosmos Embed Inference",
+      "bytes": 564,
+      "when": [
+        "cosmos",
+        "embed",
+        "inference"
+      ]
+    },
+    {
+      "name": "DEFT Mining Loop",
+      "bytes": 990,
+      "when": [
+        "deft",
+        "mining",
+        "loop"
+      ]
+    },
+    {
+      "name": "Completion Criteria",
+      "bytes": 2400,
+      "when": [
+        "completion",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2007,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-run-deft-cr-its-mining\\SKILL.md",
+  "curated": true
+}

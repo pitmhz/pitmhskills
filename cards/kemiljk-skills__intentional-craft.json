@@ -1,0 +1,91 @@
+{
+  "id": "kemiljk-skills__intentional-craft",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "c1d4c32c4784067e97f34f8b059b9aa8d38507d1902538390dc3f9aa619c9577",
+  "purpose": "Develop or refine design and engineering ideas through Apple's Intention film: connect a human outcome to focused scope, implementation choices, and evidence of craft. Use when this lens is requested ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Develop or refine design and engineering ideas through Apple's Intention film: connect a human outcome to focused scope, implementation choices, and evidence of"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1444,
+  "core_bytes": 5773,
+  "sections": [
+    {
+      "name": "Establish the intention",
+      "bytes": 841,
+      "when": [
+        "establish",
+        "intention"
+      ]
+    },
+    {
+      "name": "Choose what deserves attention",
+      "bytes": 843,
+      "when": [
+        "choose",
+        "deserves",
+        "attention"
+      ]
+    },
+    {
+      "name": "Carry the intention into construction",
+      "bytes": 1616,
+      "when": [
+        "carry",
+        "intention",
+        "construction"
+      ]
+    },
+    {
+      "name": "Refine with a purpose",
+      "bytes": 811,
+      "when": [
+        "refine",
+        "purpose"
+      ]
+    },
+    {
+      "name": "Deliver an accountable result",
+      "bytes": 779,
+      "when": [
+        "deliver",
+        "accountable",
+        "result"
+      ]
+    }
+  ],
+  "keywords": [
+    "intentional",
+    "establish",
+    "choose",
+    "deserves",
+    "attention",
+    "carry",
+    "construction",
+    "purpose",
+    "deliver",
+    "accountable",
+    "result"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\intentional-craft\\SKILL.md"
+}

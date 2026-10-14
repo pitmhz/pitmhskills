@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__qdrant-scaling-query-volume",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "992e499c8897fca3de1f07838d7a01317d1300d22473a09d8ca5953bb169cf29",
+  "purpose": "Guides Qdrant query volume scaling. Use when someone asks 'query returns too many results', 'scroll performance', 'large limit values', 'paginating search results', 'fetching many vectors', or 'high c",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant query volume scaling. Use when someone asks 'query returns too many results', 'scroll performance', 'large limit values', 'paginating search resul"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 351,
+  "core_bytes": 1406,
+  "sections": [
+    {
+      "name": "Core idea",
+      "bytes": 243,
+      "when": [
+        "core",
+        "idea"
+      ]
+    },
+    {
+      "name": "When it activates",
+      "bytes": 210,
+      "when": [
+        "activates"
+      ]
+    },
+    {
+      "name": "Key tradeoff",
+      "bytes": 369,
+      "when": [
+        "tradeoff"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\scaling-query-volume\\SKILL.md"
+}

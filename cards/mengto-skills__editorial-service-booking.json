@@ -1,0 +1,115 @@
+{
+  "id": "mengto-skills__editorial-service-booking",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "8c6a6359d6a8e46a34d81ff1a93b62ce163e75e9f9883d42a696deb6f52dff90",
+  "purpose": "Create or redesign appointment-based service websites for salons, barbers, spas, wellness studios, clinics, and hospitality brands. Use for warm editorial layouts, serif-led identity, documentary port",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create or redesign appointment-based service websites for salons, barbers, spas, wellness studios, clinics, and hospitality brands. Use for warm editorial layou"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1125,
+  "core_bytes": 4501,
+  "sections": [
+    {
+      "name": "Establish the Journey",
+      "bytes": 577,
+      "when": [
+        "establish",
+        "journey"
+      ]
+    },
+    {
+      "name": "Build the Visual System",
+      "bytes": 452,
+      "when": [
+        "build",
+        "visual",
+        "system"
+      ]
+    },
+    {
+      "name": "Compose the Page",
+      "bytes": 791,
+      "when": [
+        "compose",
+        "page"
+      ]
+    },
+    {
+      "name": "Implement the Treatment Selector",
+      "bytes": 535,
+      "when": [
+        "implement",
+        "treatment",
+        "selector"
+      ]
+    },
+    {
+      "name": "Implement the Booking Flow",
+      "bytes": 499,
+      "when": [
+        "implement",
+        "booking",
+        "flow"
+      ]
+    },
+    {
+      "name": "Motion Defaults",
+      "bytes": 382,
+      "when": [
+        "motion",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 420,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 305,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "establish",
+    "journey",
+    "build",
+    "visual",
+    "system",
+    "compose",
+    "page",
+    "implement",
+    "selector",
+    "flow",
+    "motion",
+    "defaults"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\editorial-service-booking\\SKILL.md"
+}

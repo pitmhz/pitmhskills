@@ -1,0 +1,214 @@
+{
+  "id": "awesome-copilot__plantuml-ascii",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8bfd83efc42a70cdb9d1e3d64ec305bd4d6f09e1753a03bbb7d3805d9bd13e53",
+  "purpose": "Generate ASCII art diagrams using PlantUML text mode. Use when user asks to create ASCII diagrams, text-based diagrams, terminal-friendly diagrams, or mentions plantuml ascii, text diagram, ascii art ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Generate ASCII art diagrams using PlantUML text mode. Use when user asks to create ASCII diagrams, text-based diagrams, terminal-friendly diagrams, or mentions "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1489,
+  "core_bytes": 6096,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 199,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "What is PlantUML ASCII Art?",
+      "bytes": 303,
+      "when": [
+        "plantuml",
+        "ascii"
+      ]
+    },
+    {
+      "name": "Installation",
+      "bytes": 300,
+      "when": [
+        "installation"
+      ]
+    },
+    {
+      "name": "Output Formats",
+      "bytes": 288,
+      "when": [
+        "output",
+        "formats"
+      ]
+    },
+    {
+      "name": "Basic Workflow",
+      "bytes": 526,
+      "when": [
+        "basic",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Create PlantUML Diagram File",
+      "bytes": 147,
+      "when": [
+        "create",
+        "plantuml",
+        "diagram",
+        "file"
+      ]
+    },
+    {
+      "name": "2. Generate ASCII Art",
+      "bytes": 268,
+      "when": [
+        "generate",
+        "ascii"
+      ]
+    },
+    {
+      "name": "3. View Output",
+      "bytes": 92,
+      "when": [
+        "view",
+        "output"
+      ]
+    },
+    {
+      "name": "Diagram Types Supported",
+      "bytes": 1685,
+      "when": [
+        "diagram",
+        "types",
+        "supported"
+      ]
+    },
+    {
+      "name": "Sequence Diagram",
+      "bytes": 234,
+      "when": [
+        "sequence",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Class Diagram",
+      "bytes": 248,
+      "when": [
+        "class",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Activity Diagram",
+      "bytes": 188,
+      "when": [
+        "activity",
+        "diagram"
+      ]
+    },
+    {
+      "name": "State Diagram",
+      "bytes": 196,
+      "when": [
+        "state",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Component Diagram",
+      "bytes": 237,
+      "when": [
+        "component",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Use Case Diagram",
+      "bytes": 252,
+      "when": [
+        "case",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Deployment Diagram",
+      "bytes": 302,
+      "when": [
+        "deployment",
+        "diagram"
+      ]
+    },
+    {
+      "name": "Command-Line Options",
+      "bytes": 345,
+      "when": [
+        "command",
+        "line",
+        "options"
+      ]
+    },
+    {
+      "name": "Ant Task Integration",
+      "bytes": 209,
+      "when": [
+        "task",
+        "integration"
+      ]
+    },
+    {
+      "name": "Tips for Better ASCII Diagrams",
+      "bytes": 380,
+      "when": [
+        "tips",
+        "better",
+        "ascii",
+        "diagrams"
+      ]
+    },
+    {
+      "name": "Example Output Comparison",
+      "bytes": 649,
+      "when": [
+        "example",
+        "output",
+        "comparison"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 257,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 436,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\plantuml-ascii\\SKILL.md"
+}

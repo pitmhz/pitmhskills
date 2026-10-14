@@ -1,0 +1,59 @@
+{
+  "id": "mengto-skills__build-mobile-threejs-games",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "a46471b1b0b4e4e9ebc554556315ae82c74f7cc51c60f162397123d52de475c4",
+  "purpose": "Build, tune, or test a Three.js game for mobile web. Use for touch movement, action controls, target selection, touch inventory, safe areas, portrait/landscape layouts, responsive HUD, battery/perform",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build, tune, or test a Three.js game for mobile web. Use for touch movement, action controls, target selection, touch inventory, safe areas, portrait/landscape "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 306,
+  "core_bytes": 1222,
+  "sections": [
+    {
+      "name": "Controls",
+      "bytes": 286,
+      "when": [
+        "controls"
+      ]
+    },
+    {
+      "name": "Responsive HUD",
+      "bytes": 251,
+      "when": [
+        "responsive"
+      ]
+    },
+    {
+      "name": "Performance and QA",
+      "bytes": 288,
+      "when": [
+        "performance"
+      ]
+    }
+  ],
+  "keywords": [
+    "games"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\build-mobile-threejs-games\\SKILL.md"
+}

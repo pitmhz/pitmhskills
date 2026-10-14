@@ -1,0 +1,92 @@
+{
+  "id": "kemiljk-skills__design-for-repetition",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "a1500ee7e08310672cd33014060ff1cc12f9833fab8f3d399b2a1be4b74ca1b8",
+  "purpose": "Improve workflows used repeatedly by examining recurring effort, waiting, setup, interruption, context retention, and expert paths. Use when an experience works once but may become tiring or inefficie",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Improve workflows used repeatedly by examining recurring effort, waiting, setup, interruption, context retention, and expert paths. Use when an experience works"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Fix a workflow that tires with repetition -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "repeated workflow fatigue efficiency",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1243,
+  "core_bytes": 4972,
+  "sections": [
+    {
+      "name": "Establish the pattern of use",
+      "bytes": 618,
+      "when": [
+        "establish",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Find the accumulating cost",
+      "bytes": 1154,
+      "when": [
+        "find",
+        "accumulating",
+        "cost"
+      ]
+    },
+    {
+      "name": "Support familiarity without requiring it",
+      "bytes": 1189,
+      "when": [
+        "support",
+        "familiarity",
+        "requiring"
+      ]
+    },
+    {
+      "name": "Try the repeated and interrupted paths",
+      "bytes": 1150,
+      "when": [
+        "repeated",
+        "interrupted",
+        "paths"
+      ]
+    },
+    {
+      "name": "Deliver",
+      "bytes": 356,
+      "when": [
+        "deliver"
+      ]
+    }
+  ],
+  "keywords": [
+    "design",
+    "repetition",
+    "establish",
+    "pattern",
+    "find",
+    "accumulating",
+    "cost",
+    "support",
+    "familiarity",
+    "requiring",
+    "repeated",
+    "interrupted"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\design-for-repetition\\SKILL.md"
+}

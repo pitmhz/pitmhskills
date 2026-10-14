@@ -4,6 +4,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { route } from "./route.ts";
+import { detectPhases } from "./plan.ts";
 import { getSession, phaseDone } from "./session.ts";
 import { runGates } from "./gates.ts";
 import { openDb } from "./db.ts";
@@ -20,6 +21,16 @@ server.tool(
   async ({ task, cwd }) => {
     const r = route(task, cwd ?? process.cwd(), "mcp");
     return { content: [{ type: "text" as const, text: JSON.stringify(r, null, 2) }] };
+  },
+);
+
+server.tool(
+  "plan",
+  "Detect multi-phase plan for a task",
+  { task: z.string(), cwd: z.string().optional() },
+  async ({ task, cwd }) => {
+    const result = detectPhases(task, cwd ?? process.cwd());
+    return { content: [{ type: "text" as const, text: JSON.stringify(result ?? { phases: [], note: "single-phase: use route" }, null, 2) }] };
   },
 );
 

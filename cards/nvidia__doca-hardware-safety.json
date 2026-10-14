@@ -1,0 +1,104 @@
+{
+  "id": "nvidia__doca-hardware-safety",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3f431635817e45858f5735f82e3f1189c0e04bbcaee7e7313b9dab19883d921f",
+  "purpose": "Use this skill whenever the agent is about to recommend or apply a change that touches DPU / NIC hardware state on a live system — mlxconfig firmware-parameter write, NIC firmware burn, BFB reflash, N",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill whenever the agent is about to recommend or apply a change that touches DPU / NIC hardware state on a live system — mlxconfig firmware-parameter "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4301,
+  "core_bytes": 17298,
+  "sections": [
+    {
+      "name": "Example questions this skill answers well",
+      "bytes": 3054,
+      "when": [
+        "example",
+        "questions",
+        "skill",
+        "answers"
+      ]
+    },
+    {
+      "name": "When to load this skill",
+      "bytes": 560,
+      "when": [
+        "load",
+        "skill"
+      ]
+    },
+    {
+      "name": "Agent activation checklist — load this skill at the START of the answer when any",
+      "bytes": 2955,
+      "when": [
+        "agent",
+        "activation",
+        "checklist",
+        "load",
+        "skill",
+        "start",
+        "answer",
+        "cell"
+      ]
+    },
+    {
+      "name": "Refuse-and-escalate is a hard rule",
+      "bytes": 2217,
+      "when": [
+        "refuse",
+        "escalate",
+        "hard",
+        "rule"
+      ]
+    },
+    {
+      "name": "What this skill provides",
+      "bytes": 1349,
+      "when": [
+        "skill",
+        "provides"
+      ]
+    },
+    {
+      "name": "Loading order",
+      "bytes": 976,
+      "when": [
+        "loading",
+        "order"
+      ]
+    },
+    {
+      "name": "Related skills",
+      "bytes": 3551,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\doca-hardware-safety\\SKILL.md",
+  "curated": true
+}

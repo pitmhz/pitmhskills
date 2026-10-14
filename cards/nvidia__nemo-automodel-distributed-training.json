@@ -1,0 +1,379 @@
+{
+  "id": "nvidia__nemo-automodel-distributed-training",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b6ad9354f90c4af9f3d03a4a6827d204c6f1b039f2ebf576d835baf6189be670",
+  "purpose": "Guide for selecting and configuring distributed training strategies in NeMo AutoModel, including FSDP2, Megatron FSDP, DDP, and parallelism settings.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guide for selecting and configuring distributed training strategies in NeMo AutoModel, including FSDP2, Megatron FSDP, DDP, and parallelism settings."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4969,
+  "core_bytes": 19873,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 280,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 528,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1030,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "TP plus PP for a large multi-node model",
+      "bytes": 427,
+      "when": [
+        "plus",
+        "large",
+        "multi",
+        "node",
+        "model"
+      ]
+    },
+    {
+      "name": "MoE expert parallelism",
+      "bytes": 369,
+      "when": [
+        "expert",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "MegatronFSDP limitations",
+      "bytes": 219,
+      "when": [
+        "megatronfsdp",
+        "limitations"
+      ]
+    },
+    {
+      "name": "Strategy Selection",
+      "bytes": 2078,
+      "when": [
+        "strategy",
+        "selection"
+      ]
+    },
+    {
+      "name": "YAML Config Structure",
+      "bytes": 930,
+      "when": [
+        "yaml",
+        "config",
+        "structure"
+      ]
+    },
+    {
+      "name": "Infrastructure Flow",
+      "bytes": 986,
+      "when": [
+        "infrastructure",
+        "flow"
+      ]
+    },
+    {
+      "name": "FSDP2 Configuration",
+      "bytes": 2469,
+      "when": [
+        "fsdp2",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Basic FSDP2 (data parallelism only)",
+      "bytes": 246,
+      "when": [
+        "basic",
+        "fsdp2",
+        "data",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "FSDP2 with Tensor Parallelism",
+      "bytes": 434,
+      "when": [
+        "fsdp2",
+        "tensor",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "FSDP2 with Pipeline Parallelism",
+      "bytes": 444,
+      "when": [
+        "fsdp2",
+        "pipeline",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "FSDP2 with HSDP (Hybrid Sharded Data Parallel)",
+      "bytes": 334,
+      "when": [
+        "fsdp2",
+        "hsdp",
+        "hybrid",
+        "sharded",
+        "data",
+        "parallel"
+      ]
+    },
+    {
+      "name": "Activation Checkpointing",
+      "bytes": 366,
+      "when": [
+        "activation",
+        "checkpointing"
+      ]
+    },
+    {
+      "name": "Gradient Sync Deferral",
+      "bytes": 196,
+      "when": [
+        "gradient",
+        "sync",
+        "deferral"
+      ]
+    },
+    {
+      "name": "Mixed Precision",
+      "bytes": 423,
+      "when": [
+        "mixed",
+        "precision"
+      ]
+    },
+    {
+      "name": "Pipeline Parallelism",
+      "bytes": 1050,
+      "when": [
+        "pipeline",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 210,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Supported schedules",
+      "bytes": 230,
+      "when": [
+        "supported",
+        "schedules"
+      ]
+    },
+    {
+      "name": "Example (8B model on 8 GPUs, PP=2 + DP=4)",
+      "bytes": 301,
+      "when": [
+        "example",
+        "model",
+        "gpus"
+      ]
+    },
+    {
+      "name": "How it works",
+      "bytes": 282,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Context Parallelism",
+      "bytes": 1230,
+      "when": [
+        "context",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "Config",
+      "bytes": 89,
+      "when": [
+        "config"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 308,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "How it works",
+      "bytes": 510,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "CP with Sequence Packing",
+      "bytes": 205,
+      "when": [
+        "sequence",
+        "packing"
+      ]
+    },
+    {
+      "name": "Sequence Packing",
+      "bytes": 450,
+      "when": [
+        "sequence",
+        "packing"
+      ]
+    },
+    {
+      "name": "Config",
+      "bytes": 351,
+      "when": [
+        "config"
+      ]
+    },
+    {
+      "name": "MoE Distributed Training",
+      "bytes": 1244,
+      "when": [
+        "distributed",
+        "training"
+      ]
+    },
+    {
+      "name": "Expert Parallelism",
+      "bytes": 447,
+      "when": [
+        "expert",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "MoE sub-config",
+      "bytes": 327,
+      "when": [
+        "config"
+      ]
+    },
+    {
+      "name": "Full MoE example (Qwen3-30B-A3B on 8 GPUs)",
+      "bytes": 217,
+      "when": [
+        "full",
+        "example",
+        "qwen3",
+        "gpus"
+      ]
+    },
+    {
+      "name": "MegatronFSDP limitations",
+      "bytes": 222,
+      "when": [
+        "megatronfsdp",
+        "limitations"
+      ]
+    },
+    {
+      "name": "Parallelism Sizing Guidelines",
+      "bytes": 1011,
+      "when": [
+        "parallelism",
+        "sizing",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Dense models",
+      "bytes": 316,
+      "when": [
+        "dense",
+        "models"
+      ]
+    },
+    {
+      "name": "MoE models",
+      "bytes": 456,
+      "when": [
+        "models"
+      ]
+    },
+    {
+      "name": "Hardware topology rules",
+      "bytes": 203,
+      "when": [
+        "hardware",
+        "topology",
+        "rules"
+      ]
+    },
+    {
+      "name": "Programmatic API (from_pretrained / from_config)",
+      "bytes": 809,
+      "when": [
+        "programmatic",
+        "pretrained",
+        "config"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 3147,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 1859,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 198,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-automodel-distributed-training/SKILL.md",
+  "curated": true
+}

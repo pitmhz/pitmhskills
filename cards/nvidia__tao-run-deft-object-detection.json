@@ -1,0 +1,138 @@
+{
+  "id": "nvidia__tao-run-deft-object-detection",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bf18c4a15b29b3b5bd0837f19068d5f03b99747cab891ece92384a11911311b2",
+  "purpose": "Run the full DEFT smart-data-augmentation loop for NVIDIA TAO Grounding DINO object detection: zero-shot baseline inference, KPI analysis, per-class gap analysis, SigLIP embedding of weak images, uniq",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Run the full DEFT smart-data-augmentation loop for NVIDIA TAO Grounding DINO object detection: zero-shot baseline inference, KPI analysis, per-class gap analysi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3338,
+  "core_bytes": 13397,
+  "sections": [
+    {
+      "name": "Execution Contract",
+      "bytes": 1681,
+      "when": [
+        "execution",
+        "contract"
+      ]
+    },
+    {
+      "name": "Context Discipline",
+      "bytes": 563,
+      "when": [
+        "context",
+        "discipline"
+      ]
+    },
+    {
+      "name": "When to Use This Skill",
+      "bytes": 914,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Scope: Grounding DINO + ODVG",
+      "bytes": 607,
+      "when": [
+        "scope",
+        "grounding",
+        "dino",
+        "odvg"
+      ]
+    },
+    {
+      "name": "Two Invocations: Prep, Then Loop",
+      "bytes": 851,
+      "when": [
+        "invocations",
+        "prep",
+        "loop"
+      ]
+    },
+    {
+      "name": "Launch Intake",
+      "bytes": 491,
+      "when": [
+        "launch",
+        "intake"
+      ]
+    },
+    {
+      "name": "Agent Behavior",
+      "bytes": 1200,
+      "when": [
+        "agent",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2014,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Using Bundled Scripts",
+      "bytes": 251,
+      "when": [
+        "bundled",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Stage Reference Modules",
+      "bytes": 2060,
+      "when": [
+        "stage",
+        "reference",
+        "modules"
+      ]
+    },
+    {
+      "name": "Data, Pre-Flight, Pipeline, and State References",
+      "bytes": 831,
+      "when": [
+        "data",
+        "flight",
+        "pipeline",
+        "state",
+        "references"
+      ]
+    },
+    {
+      "name": "Gating",
+      "bytes": 690,
+      "when": [
+        "gating"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-run-deft-object-detection\\SKILL.md",
+  "curated": true
+}

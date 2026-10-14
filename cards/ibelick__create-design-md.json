@@ -1,0 +1,127 @@
+{
+  "id": "ibelick__create-design-md",
+  "tier": "B",
+  "origin": [
+    "ibelick/ui-skills@c628a5917754ec2396d9cbb47988f280ba1d5cb0"
+  ],
+  "license": "MIT",
+  "hash": "95f8b44e24e2bc0be7097e8054179f649e56d44658f8ff1caeb8a2d3ce6033f9",
+  "purpose": "Create or update a DESIGN.md from an existing product repository or public website. Use when asked to document an interface's design language, reconstruct its visual system, extract design tokens and ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create or update a DESIGN.md from an existing product repository or public website. Use when asked to document an interface's design language, reconstruct its v",
+    "a local product repository is available. Create or update `DESIGN.md` at the root of the selected product.",
+    "the user provides a public URL without its source repository. Create a reconstructed `DESIGN.md` draft in the current workspace."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Document a product as DESIGN.md tokens -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "design.md document tokens",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4108,
+  "core_bytes": 16462,
+  "sections": [
+    {
+      "name": "Boundaries",
+      "bytes": 361,
+      "when": [
+        "boundaries"
+      ]
+    },
+    {
+      "name": "1. Choose the mode",
+      "bytes": 1509,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Repository mode",
+      "bytes": 436,
+      "when": [
+        "repository",
+        "mode"
+      ]
+    },
+    {
+      "name": "URL mode",
+      "bytes": 1048,
+      "when": [
+        "mode"
+      ]
+    },
+    {
+      "name": "Shared evidence pipeline",
+      "bytes": 1108,
+      "when": [
+        "shared",
+        "evidence",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "2. Trace the evidence",
+      "bytes": 2397,
+      "when": [
+        "trace",
+        "evidence"
+      ]
+    },
+    {
+      "name": "3. Decide what belongs",
+      "bytes": 5505,
+      "when": [
+        "decide",
+        "belongs"
+      ]
+    },
+    {
+      "name": "4. Write the document",
+      "bytes": 3020,
+      "when": [
+        "write",
+        "document"
+      ]
+    },
+    {
+      "name": "5. Validate",
+      "bytes": 1697,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "6. Report",
+      "bytes": 274,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "boundaries",
+    "choose",
+    "mode",
+    "shared",
+    "pipeline",
+    "trace",
+    "decide",
+    "belongs",
+    "write",
+    "validate",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\create-design-md\\SKILL.md"
+}

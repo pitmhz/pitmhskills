@@ -28,7 +28,88 @@
   "conflicts_with": [],
   "body_tokens": 1478,
   "core_bytes": 5917,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 4425,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "1. Gather context",
+      "bytes": 218,
+      "when": [
+        "gather",
+        "context"
+      ]
+    },
+    {
+      "name": "2. Explore the codebase (optional)",
+      "bytes": 407,
+      "when": [
+        "explore",
+        "codebase",
+        "optional"
+      ]
+    },
+    {
+      "name": "3. Draft vertical slices",
+      "bytes": 1530,
+      "when": [
+        "draft",
+        "vertical",
+        "slices"
+      ]
+    },
+    {
+      "name": "4. Quiz the user",
+      "bytes": 559,
+      "when": [
+        "quiz",
+        "user"
+      ]
+    },
+    {
+      "name": "5. Publish the tickets to the configured tracker",
+      "bytes": 1697,
+      "when": [
+        "publish",
+        "tickets",
+        "configured",
+        "tracker"
+      ]
+    },
+    {
+      "name": "Parent",
+      "bytes": 131,
+      "when": [
+        "parent"
+      ]
+    },
+    {
+      "name": "What to build",
+      "bytes": 136,
+      "when": [
+        "build"
+      ]
+    },
+    {
+      "name": "Acceptance criteria",
+      "bytes": 66,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Blocked by",
+      "bytes": 535,
+      "when": [
+        "blocked"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/engineering/to-tickets/SKILL.md"
 }

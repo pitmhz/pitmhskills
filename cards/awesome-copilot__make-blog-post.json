@@ -1,0 +1,136 @@
+{
+  "id": "awesome-copilot__make-blog-post",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "471093b0a65e68a99c52b7a8d44184c43cac3ad9d1f0c33a5dea1c421b331798",
+  "purpose": "Turn code from the current session into a blog post written in the voice of its author. Covers one function, script, class, or tool as a focused walkthrough with a generalized sample and a usage examp",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Turn code from the current session into a blog post written in the voice of its author. Covers one function, script, class, or tool as a focused walkthrough wit"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3471,
+  "core_bytes": 13884,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 398,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 244,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 7311,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Pick the subject",
+      "bytes": 848,
+      "when": [
+        "pick",
+        "subject"
+      ]
+    },
+    {
+      "name": "2. Resolve the destination",
+      "bytes": 1794,
+      "when": [
+        "resolve",
+        "destination"
+      ]
+    },
+    {
+      "name": "3. Learn the author's voice",
+      "bytes": 1578,
+      "when": [
+        "learn",
+        "author",
+        "voice"
+      ]
+    },
+    {
+      "name": "4. Check the plan",
+      "bytes": 944,
+      "when": [
+        "check",
+        "plan"
+      ]
+    },
+    {
+      "name": "5. Draft and get approval",
+      "bytes": 363,
+      "when": [
+        "draft",
+        "approval"
+      ]
+    },
+    {
+      "name": "6. Deliver",
+      "bytes": 1671,
+      "when": [
+        "deliver"
+      ]
+    },
+    {
+      "name": "Building the post",
+      "bytes": 2345,
+      "when": [
+        "building",
+        "post"
+      ]
+    },
+    {
+      "name": "Default post layout",
+      "bytes": 1057,
+      "when": [
+        "default",
+        "post",
+        "layout"
+      ]
+    },
+    {
+      "name": "Security and content rules",
+      "bytes": 2125,
+      "when": [
+        "security",
+        "content",
+        "rules"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 256,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\make-blog-post\\SKILL.md"
+}

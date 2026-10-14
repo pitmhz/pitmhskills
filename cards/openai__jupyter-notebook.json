@@ -28,7 +28,78 @@
   "conflicts_with": [],
   "body_tokens": 1066,
   "core_bytes": 4261,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 279,
+      "when": []
+    },
+    {
+      "name": "Decision tree",
+      "bytes": 299,
+      "when": [
+        "decision",
+        "tree"
+      ]
+    },
+    {
+      "name": "Skill path (set once)",
+      "bytes": 271,
+      "when": [
+        "skill",
+        "path",
+        "once"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1530,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Templates and helper script",
+      "bytes": 340,
+      "when": [
+        "templates",
+        "helper",
+        "script"
+      ]
+    },
+    {
+      "name": "Temp and output conventions",
+      "bytes": 274,
+      "when": [
+        "temp",
+        "output",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Dependencies (install only when needed)",
+      "bytes": 307,
+      "when": [
+        "dependencies",
+        "install",
+        "needed"
+      ]
+    },
+    {
+      "name": "Environment",
+      "bytes": 54,
+      "when": [
+        "environment"
+      ]
+    },
+    {
+      "name": "Reference map",
+      "bytes": 320,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/jupyter-notebook/SKILL.md"
 }

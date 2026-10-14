@@ -1,0 +1,111 @@
+{
+  "id": "awesome-copilot__microsoft-docs",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2c2e0b361eab0d0f2526cf8c3c5df63b996fcdd4c12ffccdccf08f8f8f1f1f9c",
+  "purpose": "Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET, Agent Framework, Aspire, VS Code, GitHub, and more. Uses Microsoft Learn MCP as the default, w",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET, Agent Framework, Aspire, VS Code, GitHub, and more. Us"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1418,
+  "core_bytes": 5710,
+  "sections": [
+    {
+      "name": "Default: Microsoft Learn MCP",
+      "bytes": 1602,
+      "when": [
+        "default",
+        "microsoft",
+        "learn"
+      ]
+    },
+    {
+      "name": "CLI Alternative",
+      "bytes": 809,
+      "when": [
+        "alternative"
+      ]
+    },
+    {
+      "name": "Exceptions: When to Use Other Tools",
+      "bytes": 2609,
+      "when": [
+        "exceptions",
+        "tools"
+      ]
+    },
+    {
+      "name": ".NET Aspire — Use Aspire MCP Server (preferred) or Context7",
+      "bytes": 1149,
+      "when": [
+        "aspire",
+        "server",
+        "preferred",
+        "context7"
+      ]
+    },
+    {
+      "name": "VS Code — Use Context7",
+      "bytes": 327,
+      "when": [
+        "code",
+        "context7"
+      ]
+    },
+    {
+      "name": "GitHub — Use Context7",
+      "bytes": 270,
+      "when": [
+        "github",
+        "context7"
+      ]
+    },
+    {
+      "name": "Agent Framework — Use Learn MCP + Context7",
+      "bytes": 727,
+      "when": [
+        "agent",
+        "framework",
+        "learn",
+        "context7"
+      ]
+    },
+    {
+      "name": "Context7 Setup",
+      "bytes": 254,
+      "when": [
+        "context7",
+        "setup"
+      ]
+    },
+    {
+      "name": "Writing Effective Queries",
+      "bytes": 724,
+      "when": [
+        "writing",
+        "effective",
+        "queries"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\microsoft-docs\\SKILL.md"
+}

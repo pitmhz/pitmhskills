@@ -1,0 +1,108 @@
+{
+  "id": "nvidia__holoscan-install-container",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "33615374c6a5661c9311ad6dea4cbb75938bc16e4e7e62dfc426565180070a54",
+  "purpose": "Install Holoscan SDK via the NGC Docker container. Use for container-based installs; not for native apt/pip/Conda installs.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Install Holoscan SDK via the NGC Docker container. Use for container-based installs; not for native apt/pip/Conda installs."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1900,
+  "core_bytes": 7639,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 230,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 330,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 312,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 379,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1: Pick the tag",
+      "bytes": 686,
+      "when": [
+        "step",
+        "pick"
+      ]
+    },
+    {
+      "name": "Step 2: Verify GPU passthrough, then pull",
+      "bytes": 519,
+      "when": [
+        "step",
+        "verify",
+        "passthrough",
+        "pull"
+      ]
+    },
+    {
+      "name": "Step 3: Verify with six examples",
+      "bytes": 3166,
+      "when": [
+        "step",
+        "verify",
+        "examples"
+      ]
+    },
+    {
+      "name": "Step 4: Launch command",
+      "bytes": 739,
+      "when": [
+        "step",
+        "launch",
+        "command"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 800,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/holoscan-install-container/SKILL.md",
+  "curated": true
+}

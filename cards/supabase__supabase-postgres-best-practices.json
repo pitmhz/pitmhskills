@@ -44,7 +44,36 @@
   "conflicts_with": [],
   "body_tokens": 824,
   "core_bytes": 3295,
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 318,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Rule Categories by Priority",
+      "bytes": 525,
+      "when": [
+        "rule",
+        "categories",
+        "priority"
+      ]
+    },
+    {
+      "name": "How to Use",
+      "bytes": 471,
+      "when": []
+    },
+    {
+      "name": "References",
+      "bytes": 265,
+      "when": [
+        "references"
+      ]
+    }
+  ],
   "verify": [
     "npx supabase db lint"
   ],

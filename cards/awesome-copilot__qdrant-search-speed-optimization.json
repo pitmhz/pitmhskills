@@ -1,0 +1,112 @@
+{
+  "id": "awesome-copilot__qdrant-search-speed-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ede068e053005c19718bf11853e99ab94b337db2769f74e52fe63f81fc525131",
+  "purpose": "Diagnoses and fixes slow Qdrant search. Use when someone reports 'search is slow', 'high latency', 'queries take too long', 'low QPS', 'throughput too low', 'filtered search is slow', or 'search was f",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Diagnoses and fixes slow Qdrant search. Use when someone reports 'search is slow', 'high latency', 'queries take too long', 'low QPS', 'throughput too low', 'fi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1182,
+  "core_bytes": 4730,
+  "sections": [
+    {
+      "name": "Single Query Too Slow (Latency)",
+      "bytes": 1242,
+      "when": [
+        "single",
+        "query",
+        "slow",
+        "latency"
+      ]
+    },
+    {
+      "name": "Diagnostic steps:",
+      "bytes": 356,
+      "when": [
+        "diagnostic",
+        "steps"
+      ]
+    },
+    {
+      "name": "Common fixes:",
+      "bytes": 786,
+      "when": [
+        "common",
+        "fixes"
+      ]
+    },
+    {
+      "name": "Can't Handle Enough QPS (Throughput)",
+      "bytes": 726,
+      "when": [
+        "handle",
+        "enough",
+        "throughput"
+      ]
+    },
+    {
+      "name": "Filtered Search Is Slow",
+      "bytes": 808,
+      "when": [
+        "filtered",
+        "search",
+        "slow"
+      ]
+    },
+    {
+      "name": "Optimize search performance with parallel updates",
+      "bytes": 832,
+      "when": [
+        "optimize",
+        "search",
+        "performance",
+        "parallel",
+        "updates"
+      ]
+    },
+    {
+      "name": "Diagnostic steps",
+      "bytes": 314,
+      "when": [
+        "diagnostic",
+        "steps"
+      ]
+    },
+    {
+      "name": "Recommended configuration changes",
+      "bytes": 464,
+      "when": [
+        "recommended",
+        "configuration",
+        "changes"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 340,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-performance-optimization\\search-speed-optimization\\SKILL.md"
+}

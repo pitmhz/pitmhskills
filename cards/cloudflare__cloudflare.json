@@ -27,7 +27,59 @@
   "conflicts_with": [],
   "body_tokens": 6735,
   "core_bytes": 26938,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Choose the CLI",
+      "bytes": 998,
+      "when": [
+        "choose"
+      ]
+    },
+    {
+      "name": "Help the user find the right product",
+      "bytes": 908,
+      "when": [
+        "help",
+        "user",
+        "find",
+        "right",
+        "product"
+      ]
+    },
+    {
+      "name": "What are you trying to build?",
+      "bytes": 22383,
+      "when": [
+        "trying",
+        "build"
+      ]
+    },
+    {
+      "name": "Find guidance for a task not listed here",
+      "bytes": 596,
+      "when": [
+        "find",
+        "guidance",
+        "task",
+        "listed"
+      ]
+    },
+    {
+      "name": "Caching",
+      "bytes": 622,
+      "when": [
+        "caching"
+      ]
+    },
+    {
+      "name": "Working principles",
+      "bytes": 828,
+      "when": [
+        "working",
+        "principles"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/cloudflare/SKILL.md"
 }

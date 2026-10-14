@@ -1,0 +1,77 @@
+{
+  "id": "nvidia__nemo-rl-brev-etiquette",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "841be1db116239465f2ae2f33b6b1be3ac95888afcb0c63ea1186f2981669183",
+  "purpose": "Brev instance operating guidance for NeMo-RL agents working in /home/ubuntu/RL with limited workspace disk, a larger /ephemeral volume, and optional /home/ubuntu/RL/.env secrets. Use when running nemo",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Brev instance operating guidance for NeMo-RL agents working in /home/ubuntu/RL with limited workspace disk, a larger /ephemeral volume, and optional /home/ubunt"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1337,
+  "core_bytes": 5345,
+  "sections": [
+    {
+      "name": "Storage Rules",
+      "bytes": 1050,
+      "when": [
+        "storage",
+        "rules"
+      ]
+    },
+    {
+      "name": "Environment Secrets",
+      "bytes": 733,
+      "when": [
+        "environment",
+        "secrets"
+      ]
+    },
+    {
+      "name": "Auto-Research Pattern",
+      "bytes": 1321,
+      "when": [
+        "auto",
+        "research",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Launch Checklist",
+      "bytes": 853,
+      "when": [
+        "launch",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Cleanup",
+      "bytes": 363,
+      "when": [
+        "cleanup"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-rl-brev-etiquette/SKILL.md",
+  "curated": true
+}

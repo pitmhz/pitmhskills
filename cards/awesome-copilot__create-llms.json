@@ -1,0 +1,251 @@
+{
+  "id": "awesome-copilot__create-llms",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "713aff883a2c8b2b2d2b9d450e2adedbf96b390245511c0f0aa3839367fd6ea6",
+  "purpose": "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1824,
+  "core_bytes": 7323,
+  "sections": [
+    {
+      "name": "Primary Directive",
+      "bytes": 278,
+      "when": [
+        "primary",
+        "directive"
+      ]
+    },
+    {
+      "name": "Analysis and Planning Phase",
+      "bytes": 1276,
+      "when": [
+        "analysis",
+        "planning",
+        "phase"
+      ]
+    },
+    {
+      "name": "Step 1: Review llms.txt Specification",
+      "bytes": 240,
+      "when": [
+        "step",
+        "review",
+        "llms",
+        "specification"
+      ]
+    },
+    {
+      "name": "Step 2: Repository Structure Analysis",
+      "bytes": 288,
+      "when": [
+        "step",
+        "repository",
+        "structure",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 3: Content Discovery",
+      "bytes": 330,
+      "when": [
+        "step",
+        "content",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Step 4: Create Implementation Plan",
+      "bytes": 309,
+      "when": [
+        "step",
+        "create",
+        "implementation",
+        "plan"
+      ]
+    },
+    {
+      "name": "Implementation Requirements",
+      "bytes": 1847,
+      "when": [
+        "implementation",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Format Compliance",
+      "bytes": 438,
+      "when": [
+        "format",
+        "compliance"
+      ]
+    },
+    {
+      "name": "Content Requirements",
+      "bytes": 723,
+      "when": [
+        "content",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Content Guidelines",
+      "bytes": 654,
+      "when": [
+        "content",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Execution Steps",
+      "bytes": 1055,
+      "when": [
+        "execution",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Repository Analysis",
+      "bytes": 282,
+      "when": [
+        "step",
+        "repository",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Step 2: Content Planning",
+      "bytes": 268,
+      "when": [
+        "step",
+        "content",
+        "planning"
+      ]
+    },
+    {
+      "name": "Step 3: File Creation",
+      "bytes": 234,
+      "when": [
+        "step",
+        "file",
+        "creation"
+      ]
+    },
+    {
+      "name": "Step 4: Validation",
+      "bytes": 251,
+      "when": [
+        "step",
+        "validation"
+      ]
+    },
+    {
+      "name": "Quality Assurance",
+      "bytes": 706,
+      "when": [
+        "quality",
+        "assurance"
+      ]
+    },
+    {
+      "name": "Format Validation",
+      "bytes": 236,
+      "when": [
+        "format",
+        "validation"
+      ]
+    },
+    {
+      "name": "Content Validation",
+      "bytes": 227,
+      "when": [
+        "content",
+        "validation"
+      ]
+    },
+    {
+      "name": "Specification Compliance",
+      "bytes": 221,
+      "when": [
+        "specification",
+        "compliance"
+      ]
+    },
+    {
+      "name": "Example Structure Template",
+      "bytes": 181,
+      "when": [
+        "example",
+        "structure",
+        "template"
+      ]
+    },
+    {
+      "name": "Documentation",
+      "bytes": 266,
+      "when": [
+        "documentation"
+      ]
+    },
+    {
+      "name": "Specifications",
+      "bytes": 203,
+      "when": [
+        "specifications"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 167,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 170,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Optional",
+      "bytes": 177,
+      "when": [
+        "optional"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 465,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-llms\\SKILL.md"
+}

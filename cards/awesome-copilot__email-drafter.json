@@ -1,0 +1,104 @@
+{
+  "id": "awesome-copilot__email-drafter",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c3324d26f899149e5b664a02cad9fa4b1a615d9b2ce5bb7f6dfd908c17c622e8",
+  "purpose": "Draft and review professional emails that match your personal writing style. Analyzes your sent emails for tone, greeting, structure, and sign-off patterns via WorkIQ, then generates context-aware dra",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Draft and review professional emails that match your personal writing style. Analyzes your sent emails for tone, greeting, structure, and sign-off patterns via "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1142,
+  "core_bytes": 4603,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 259,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2679,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1 — Gather Context",
+      "bytes": 490,
+      "when": [
+        "step",
+        "gather",
+        "context"
+      ]
+    },
+    {
+      "name": "Step 2 — Analyze Tone",
+      "bytes": 812,
+      "when": [
+        "step",
+        "analyze",
+        "tone"
+      ]
+    },
+    {
+      "name": "Step 3 — Draft the Email",
+      "bytes": 1075,
+      "when": [
+        "step",
+        "draft",
+        "email"
+      ]
+    },
+    {
+      "name": "Step 4 — Output",
+      "bytes": 289,
+      "when": [
+        "step",
+        "output"
+      ]
+    },
+    {
+      "name": "Important Rules",
+      "bytes": 427,
+      "when": [
+        "important",
+        "rules"
+      ]
+    },
+    {
+      "name": "Example Prompts",
+      "bytes": 336,
+      "when": [
+        "example",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 282,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\email-drafter\\SKILL.md"
+}

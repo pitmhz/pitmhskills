@@ -1,0 +1,144 @@
+{
+  "id": "nvidia__isaac-mission-control-showcase",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ea78a7d13553c7cbd6c0fac1397db0dce4a8aef98de9e1f84af3800bde755b8f",
+  "purpose": "Run and validate an end-to-end Mission Control showcase with a locally installed Isaac Sim launched in its GUI window, driven through the isaac-sim-remote Python server, with Nova Carter SIL. Use for ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Run and validate an end-to-end Mission Control showcase with a locally installed Isaac Sim launched in its GUI window, driven through the isaac-sim-remote Pytho"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4903,
+  "core_bytes": 19621,
+  "sections": [
+    {
+      "name": "Host swap safety",
+      "bytes": 668,
+      "when": [
+        "host",
+        "swap",
+        "safety"
+      ]
+    },
+    {
+      "name": "Locate bundled resources",
+      "bytes": 876,
+      "when": [
+        "locate",
+        "bundled",
+        "resources"
+      ]
+    },
+    {
+      "name": "Runtime selection",
+      "bytes": 3441,
+      "when": [
+        "runtime",
+        "selection"
+      ]
+    },
+    {
+      "name": "Default workflow",
+      "bytes": 3324,
+      "when": [
+        "default",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Composition model",
+      "bytes": 1805,
+      "when": [
+        "composition",
+        "model"
+      ]
+    },
+    {
+      "name": "Using an upstream skill",
+      "bytes": 860,
+      "when": [
+        "upstream",
+        "skill"
+      ]
+    },
+    {
+      "name": "Missing dependencies",
+      "bytes": 527,
+      "when": [
+        "missing",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Canonical default",
+      "bytes": 2112,
+      "when": [
+        "canonical",
+        "default"
+      ]
+    },
+    {
+      "name": "Robot identity",
+      "bytes": 423,
+      "when": [
+        "robot",
+        "identity"
+      ]
+    },
+    {
+      "name": "Deterministic route",
+      "bytes": 564,
+      "when": [
+        "deterministic",
+        "route"
+      ]
+    },
+    {
+      "name": "Readiness contract",
+      "bytes": 1865,
+      "when": [
+        "readiness",
+        "contract"
+      ]
+    },
+    {
+      "name": "Modes and overrides",
+      "bytes": 1503,
+      "when": [
+        "modes",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Acceptance",
+      "bytes": 436,
+      "when": [
+        "acceptance"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/isaac-mission-control-showcase/SKILL.md",
+  "curated": true
+}

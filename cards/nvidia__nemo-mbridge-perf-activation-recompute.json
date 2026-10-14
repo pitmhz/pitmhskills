@@ -1,0 +1,209 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-activation-recompute",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e7fbcaa9926940c10f870af3e53f10efbce55cee3dfa6b9223c6692c5a0516ea",
+  "purpose": "Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at the cost of extra compute. Use for activation memory OOMs or regressions involving recompute_g",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at the cost of extra compute. Use for activation memory O"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4796,
+  "core_bytes": 19182,
+  "sections": [
+    {
+      "name": "Quick Decision Guide",
+      "bytes": 1990,
+      "when": [
+        "quick",
+        "decision",
+        "guide"
+      ]
+    },
+    {
+      "name": "Enablement",
+      "bytes": 704,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Selective recompute",
+      "bytes": 308,
+      "when": [
+        "selective",
+        "recompute"
+      ]
+    },
+    {
+      "name": "Full-layer recompute",
+      "bytes": 379,
+      "when": [
+        "full",
+        "layer",
+        "recompute"
+      ]
+    },
+    {
+      "name": "Selective Module Decision Table",
+      "bytes": 2922,
+      "when": [
+        "selective",
+        "module",
+        "decision",
+        "table"
+      ]
+    },
+    {
+      "name": "Measurement Contract",
+      "bytes": 967,
+      "when": [
+        "measurement",
+        "contract"
+      ]
+    },
+    {
+      "name": "Matched H100 Evidence: Moonlight 16B",
+      "bytes": 1885,
+      "when": [
+        "matched",
+        "h100",
+        "evidence",
+        "moonlight"
+      ]
+    },
+    {
+      "name": "Matched H100 Evidence: Nemotron 3 Nano",
+      "bytes": 2653,
+      "when": [
+        "matched",
+        "h100",
+        "evidence",
+        "nemotron",
+        "nano"
+      ]
+    },
+    {
+      "name": "Cross-model conclusion",
+      "bytes": 483,
+      "when": [
+        "cross",
+        "model",
+        "conclusion"
+      ]
+    },
+    {
+      "name": "Compatibility and Validation",
+      "bytes": 2335,
+      "when": [
+        "compatibility",
+        "validation"
+      ]
+    },
+    {
+      "name": "Configuration semantics",
+      "bytes": 528,
+      "when": [
+        "configuration",
+        "semantics"
+      ]
+    },
+    {
+      "name": "Attention backend and context parallelism",
+      "bytes": 398,
+      "when": [
+        "attention",
+        "backend",
+        "context",
+        "parallelism"
+      ]
+    },
+    {
+      "name": "MoE restrictions",
+      "bytes": 501,
+      "when": [
+        "restrictions"
+      ]
+    },
+    {
+      "name": "FP8 restrictions",
+      "bytes": 292,
+      "when": [
+        "restrictions"
+      ]
+    },
+    {
+      "name": "CUDA graphs",
+      "bytes": 581,
+      "when": [
+        "cuda",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Historical Measurement: Context, Not a Module Ranking",
+      "bytes": 967,
+      "when": [
+        "historical",
+        "measurement",
+        "context",
+        "module",
+        "ranking"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 875,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Failure Diagnosis",
+      "bytes": 2024,
+      "when": [
+        "failure",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Known Limitations",
+      "bytes": 586,
+      "when": [
+        "known",
+        "limitations"
+      ]
+    },
+    {
+      "name": "Further Reading",
+      "bytes": 344,
+      "when": [
+        "further",
+        "reading"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\nemo-mbridge-perf-activation-recompute\\SKILL.md",
+  "curated": true
+}

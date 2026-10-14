@@ -1,0 +1,194 @@
+{
+  "id": "awesome-copilot__fabric-lakehouse",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "987b1c1e29a6d52c6e982a046f626ff3444ad44000a046cfdb3e3983cbb5bdc4",
+  "purpose": "Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data components, organization with schemas and ",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data co"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1525,
+  "core_bytes": 6099,
+  "sections": [
+    {
+      "name": "Core Concepts",
+      "bytes": 2898,
+      "when": [
+        "core",
+        "concepts"
+      ]
+    },
+    {
+      "name": "What is a Lakehouse?",
+      "bytes": 653,
+      "when": [
+        "lakehouse"
+      ]
+    },
+    {
+      "name": "Key Components",
+      "bytes": 393,
+      "when": [
+        "components"
+      ]
+    },
+    {
+      "name": "Tabular data in a Lakehouse",
+      "bytes": 631,
+      "when": [
+        "tabular",
+        "data",
+        "lakehouse"
+      ]
+    },
+    {
+      "name": "Schemas for tables in a Lakehouse",
+      "bytes": 553,
+      "when": [
+        "schemas",
+        "tables",
+        "lakehouse"
+      ]
+    },
+    {
+      "name": "Files in a Lakehouse",
+      "bytes": 175,
+      "when": [
+        "files",
+        "lakehouse"
+      ]
+    },
+    {
+      "name": "Fabric Materialized Views",
+      "bytes": 279,
+      "when": [
+        "fabric",
+        "materialized",
+        "views"
+      ]
+    },
+    {
+      "name": "Spark Views",
+      "bytes": 196,
+      "when": [
+        "spark",
+        "views"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 761,
+      "when": [
+        "security"
+      ]
+    },
+    {
+      "name": "Item access or control plane security",
+      "bytes": 261,
+      "when": [
+        "item",
+        "access",
+        "control",
+        "plane",
+        "security"
+      ]
+    },
+    {
+      "name": "Data access or OneLake Security",
+      "bytes": 487,
+      "when": [
+        "data",
+        "access",
+        "onelake",
+        "security"
+      ]
+    },
+    {
+      "name": "Lakehouse Shortcuts",
+      "bytes": 433,
+      "when": [
+        "lakehouse",
+        "shortcuts"
+      ]
+    },
+    {
+      "name": "Types of Shortcuts",
+      "bytes": 352,
+      "when": [
+        "types",
+        "shortcuts"
+      ]
+    },
+    {
+      "name": "Performance Optimization",
+      "bytes": 645,
+      "when": [
+        "performance",
+        "optimization"
+      ]
+    },
+    {
+      "name": "V-Order Optimization",
+      "bytes": 201,
+      "when": [
+        "order",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Table Optimization",
+      "bytes": 415,
+      "when": [
+        "table",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Lineage",
+      "bytes": 324,
+      "when": [
+        "lineage"
+      ]
+    },
+    {
+      "name": "PySpark Code Examples",
+      "bytes": 82,
+      "when": [
+        "pyspark",
+        "code",
+        "examples"
+      ]
+    },
+    {
+      "name": "Getting data into Lakehouse",
+      "bytes": 84,
+      "when": [
+        "getting",
+        "data",
+        "lakehouse"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\fabric-lakehouse\\SKILL.md"
+}

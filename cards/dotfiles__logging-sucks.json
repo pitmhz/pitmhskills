@@ -1,0 +1,66 @@
+{
+  "id": "dotfiles__logging-sucks",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "9e59a06cbddfac8bba85df65234718cb903f4e7c13ccc7fa7ca1fb596c556a1b",
+  "purpose": "Design or review structured application logging, canonical request events, correlation, redaction, and sampling. Use when changing logging instrumentation or auditing log quality, not for every debugg",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design or review structured application logging, canonical request events, correlation, redaction, and sampling. Use when changing logging instrumentation or au"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 729,
+  "core_bytes": 2913,
+  "sections": [
+    {
+      "name": "Event design",
+      "bytes": 990,
+      "when": [
+        "event",
+        "design"
+      ]
+    },
+    {
+      "name": "Privacy and cost",
+      "bytes": 796,
+      "when": [
+        "privacy",
+        "cost"
+      ]
+    },
+    {
+      "name": "Review and validation",
+      "bytes": 557,
+      "when": [
+        "review",
+        "validation"
+      ]
+    }
+  ],
+  "keywords": [
+    "event",
+    "privacy",
+    "cost",
+    "validation"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\logging-sucks\\SKILL.md"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "nvidia__nemo-relay-migrate-from-flow",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7c60ed8abd910f5fb5485bb7f3eadb3f4228212d3c2dac3b389d6eaa5d3ecc87",
+  "purpose": "Use this skill when migrating applications, examples, integrations, documentation, manifests, or repository code from NeMo Flow to NeMo Relay across Python, Rust, Node.js, Go, C FFI, CLI, configuratio",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Use this skill when migrating applications, examples, integrations, documentation, manifests, or repository code from NeMo Flow to NeMo Relay across Python, Rus"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1812,
+  "core_bytes": 7246,
+  "sections": [
+    {
+      "name": "Default Workflow",
+      "bytes": 1116,
+      "when": [
+        "default",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Mechanical Rename Map",
+      "bytes": 1353,
+      "when": [
+        "mechanical",
+        "rename"
+      ]
+    },
+    {
+      "name": "Language Cleanup",
+      "bytes": 1059,
+      "when": [
+        "language",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "Automation Helper",
+      "bytes": 2230,
+      "when": [
+        "automation",
+        "helper"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 664,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 124,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- cargo test",
+    "rtk test -- go test ./..."
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-relay-migrate-from-flow/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,162 @@
+{
+  "id": "awesome-copilot__microsoft-store-publisher",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5e59b0b34dfacd7d9c4cf3ab08f6106f2f8fcc982e1edbe2a1629fc2b81b1c39",
+  "purpose": "Prepare, validate, submit, and monitor Windows desktop apps in Microsoft Partner Center. Use for MSIX packaging, Store identity, listings, WACK, Partner Center automation, certification, and publishin",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Prepare, validate, submit, and monitor Windows desktop apps in Microsoft Partner Center. Use for MSIX packaging, Store identity, listings, WACK, Partner Center "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3805,
+  "core_bytes": 15220,
+  "sections": [
+    {
+      "name": "Required safeguards",
+      "bytes": 1378,
+      "when": [
+        "required",
+        "safeguards"
+      ]
+    },
+    {
+      "name": "Files in this skill",
+      "bytes": 1109,
+      "when": [
+        "files",
+        "skill"
+      ]
+    },
+    {
+      "name": "End-to-end workflow",
+      "bytes": 11167,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Establish scope and readiness",
+      "bytes": 957,
+      "when": [
+        "establish",
+        "scope",
+        "readiness"
+      ]
+    },
+    {
+      "name": "2. Reserve the product and capture identity",
+      "bytes": 558,
+      "when": [
+        "reserve",
+        "product",
+        "capture",
+        "identity"
+      ]
+    },
+    {
+      "name": "3. Build the Store package",
+      "bytes": 1072,
+      "when": [
+        "build",
+        "store",
+        "package"
+      ]
+    },
+    {
+      "name": "4. Inspect and test the MSIX",
+      "bytes": 807,
+      "when": [
+        "inspect",
+        "test",
+        "msix"
+      ]
+    },
+    {
+      "name": "5. Run WACK",
+      "bytes": 3245,
+      "when": [
+        "wack"
+      ]
+    },
+    {
+      "name": "6. Automate Partner Center carefully",
+      "bytes": 1274,
+      "when": [
+        "automate",
+        "partner",
+        "center",
+        "carefully"
+      ]
+    },
+    {
+      "name": "7. Complete every submission section",
+      "bytes": 880,
+      "when": [
+        "complete",
+        "submission",
+        "section"
+      ]
+    },
+    {
+      "name": "8. Final readiness review",
+      "bytes": 706,
+      "when": [
+        "final",
+        "readiness",
+        "review"
+      ]
+    },
+    {
+      "name": "9. Agreement acceptance",
+      "bytes": 538,
+      "when": [
+        "agreement",
+        "acceptance"
+      ]
+    },
+    {
+      "name": "10. Submit for certification",
+      "bytes": 481,
+      "when": [
+        "submit",
+        "certification"
+      ]
+    },
+    {
+      "name": "11. Monitor and respond",
+      "bytes": 625,
+      "when": [
+        "monitor",
+        "respond"
+      ]
+    },
+    {
+      "name": "Output standard",
+      "bytes": 737,
+      "when": [
+        "output",
+        "standard"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\microsoft-store-publisher\\SKILL.md"
+}

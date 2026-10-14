@@ -1,0 +1,150 @@
+{
+  "id": "awesome-copilot__datanalysis-credit-risk",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c54807b18fa6118cb732b6975937ddf696dca295711e34ada9a9515fc2112e9e",
+  "purpose": "Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit data that needs quality assessment,  missing value analysis, or variable selection bef",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit data that needs quality assessment,  missing v"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1546,
+  "core_bytes": 6301,
+  "sections": [
+    {
+      "name": "Quick Start",
+      "bytes": 138,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Complete Process Description",
+      "bytes": 1162,
+      "when": [
+        "complete",
+        "process",
+        "description"
+      ]
+    },
+    {
+      "name": "Core Functions",
+      "bytes": 1096,
+      "when": [
+        "core",
+        "functions"
+      ]
+    },
+    {
+      "name": "Parameter Description",
+      "bytes": 1373,
+      "when": [
+        "parameter",
+        "description"
+      ]
+    },
+    {
+      "name": "Data Loading Parameters",
+      "bytes": 226,
+      "when": [
+        "data",
+        "loading",
+        "parameters"
+      ]
+    },
+    {
+      "name": "OOS Organization Configuration",
+      "bytes": 82,
+      "when": [
+        "organization",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Abnormal Month Filtering Parameters",
+      "bytes": 182,
+      "when": [
+        "abnormal",
+        "month",
+        "filtering",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Missing Rate Parameters",
+      "bytes": 93,
+      "when": [
+        "missing",
+        "rate",
+        "parameters"
+      ]
+    },
+    {
+      "name": "IV Parameters",
+      "bytes": 228,
+      "when": [
+        "parameters"
+      ]
+    },
+    {
+      "name": "PSI Parameters",
+      "bytes": 194,
+      "when": [
+        "parameters"
+      ]
+    },
+    {
+      "name": "Null Importance Parameters",
+      "bytes": 185,
+      "when": [
+        "null",
+        "importance",
+        "parameters"
+      ]
+    },
+    {
+      "name": "High Correlation Parameters",
+      "bytes": 157,
+      "when": [
+        "high",
+        "correlation",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Output Report",
+      "bytes": 1307,
+      "when": [
+        "output",
+        "report"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 545,
+      "when": [
+        "features"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\datanalysis-credit-risk\\SKILL.md"
+}

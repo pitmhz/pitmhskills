@@ -1,0 +1,286 @@
+{
+  "id": "make-interfaces-feel-better__make-interfaces-feel-better",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/make-interfaces-feel-better@35545ea1512ad59fa463e6b1f95ca9c052981fe6"
+  ],
+  "license": "MIT",
+  "hash": "ee05e66e71bf3472df02d29e3a88a659751b36b09cd5cc5d47f42db5c5cac07f",
+  "purpose": "Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, typography, icons,",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover stat"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "feels off feel better micro-interactions",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2997,
+  "core_bytes": 12005,
+  "sections": [
+    {
+      "name": "Quick Reference",
+      "bytes": 575,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Core Principles",
+      "bytes": 4612,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "1. Concentric Border Radius",
+      "bytes": 170,
+      "when": [
+        "concentric",
+        "border",
+        "radius"
+      ]
+    },
+    {
+      "name": "2. Optical Over Geometric Alignment",
+      "bytes": 184,
+      "when": [
+        "optical",
+        "geometric",
+        "alignment"
+      ]
+    },
+    {
+      "name": "3. Shadows for Elevation, Borders for Structure",
+      "bytes": 292,
+      "when": [
+        "shadows",
+        "elevation",
+        "borders",
+        "structure"
+      ]
+    },
+    {
+      "name": "4. Interruptible Animations",
+      "bytes": 185,
+      "when": [
+        "interruptible",
+        "animations"
+      ]
+    },
+    {
+      "name": "5. Split and Stagger Enter Animations",
+      "bytes": 277,
+      "when": [
+        "split",
+        "stagger",
+        "enter",
+        "animations"
+      ]
+    },
+    {
+      "name": "6. Subtle Exit Animations",
+      "bytes": 179,
+      "when": [
+        "subtle",
+        "exit",
+        "animations"
+      ]
+    },
+    {
+      "name": "7. Contextual Icon Animations",
+      "bytes": 703,
+      "when": [
+        "contextual",
+        "icon",
+        "animations"
+      ]
+    },
+    {
+      "name": "8. Font Smoothing",
+      "bytes": 118,
+      "when": [
+        "font",
+        "smoothing"
+      ]
+    },
+    {
+      "name": "9. Tabular Numbers",
+      "bytes": 132,
+      "when": [
+        "tabular",
+        "numbers"
+      ]
+    },
+    {
+      "name": "10. Text Wrapping",
+      "bytes": 122,
+      "when": [
+        "text",
+        "wrapping"
+      ]
+    },
+    {
+      "name": "11. Image Outlines",
+      "bytes": 378,
+      "when": [
+        "image",
+        "outlines"
+      ]
+    },
+    {
+      "name": "12. Scale on Press",
+      "bytes": 256,
+      "when": [
+        "scale",
+        "press"
+      ]
+    },
+    {
+      "name": "13. Skip Animation on Page Load",
+      "bytes": 187,
+      "when": [
+        "skip",
+        "animation",
+        "page",
+        "load"
+      ]
+    },
+    {
+      "name": "14. Never Use `transition: all`",
+      "bytes": 194,
+      "when": [
+        "transition"
+      ]
+    },
+    {
+      "name": "15. Use `will-change` Sparingly",
+      "bytes": 198,
+      "when": [
+        "change",
+        "sparingly"
+      ]
+    },
+    {
+      "name": "16. Minimum Hit Area",
+      "bytes": 277,
+      "when": [
+        "minimum",
+        "area"
+      ]
+    },
+    {
+      "name": "17. Match Icon Stroke to Text Weight",
+      "bytes": 242,
+      "when": [
+        "match",
+        "icon",
+        "stroke",
+        "text",
+        "weight"
+      ]
+    },
+    {
+      "name": "18. One SVG, Recolored per State",
+      "bytes": 242,
+      "when": [
+        "recolored",
+        "state"
+      ]
+    },
+    {
+      "name": "19. Motion Restraint",
+      "bytes": 254,
+      "when": [
+        "motion",
+        "restraint"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 1287,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Review Output Format",
+      "bytes": 4146,
+      "when": [
+        "review",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Scope and Coverage",
+      "bytes": 427,
+      "when": [
+        "scope",
+        "coverage"
+      ]
+    },
+    {
+      "name": "Findings",
+      "bytes": 923,
+      "when": [
+        "findings"
+      ]
+    },
+    {
+      "name": "Example",
+      "bytes": 1324,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Considered but Rejected",
+      "bytes": 429,
+      "when": [
+        "considered",
+        "rejected"
+      ]
+    },
+    {
+      "name": "Verification and Verdict",
+      "bytes": 701,
+      "when": [
+        "verification",
+        "verdict"
+      ]
+    }
+  ],
+  "keywords": [
+    "reference",
+    "core",
+    "concentric",
+    "geometric",
+    "elevation",
+    "structure",
+    "interruptible",
+    "split",
+    "subtle",
+    "contextual",
+    "text",
+    "wrapping"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\make-interfaces-feel-better\\skills\\make-interfaces-feel-better\\SKILL.md"
+}

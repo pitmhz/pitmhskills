@@ -1,4 +1,8 @@
 import { openDb } from "./db.ts";
+import { existsSync, copyFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { loadProfile, saveProfile, profilePath } from "./profile.ts";
 
 export interface PickCount { id: string; count: number }
 export interface AskCount { skill_id: string; count: number }
@@ -39,6 +43,48 @@ export function summarizeUsage(days = 7): UsageSummary {
     return { picks: byCount(picks), asks: askList, abstainRate: total ? abstain / total : 0, total };
   } catch { return empty; }
   finally { try { db.close(); } catch { /* ignore */ } }
+}
+
+// Structured preferred-boost proposals. Boosts only; never floors or pins.
+export interface BoostSuggestion { id: string; boost: number }
+
+export function boostSuggestions(days = 7): BoostSuggestion[] {
+  return summarizeUsage(days).picks
+    .filter((p) => p.count >= 5)
+    .map((p) => ({ id: p.id, boost: 0.1 }));
+}
+
+// Copy the live profile to /tmp before any write. Null when no profile.
+export function backupProfileToTmp(cwd: string): string | null {
+  const pp = profilePath(cwd);
+  if (!existsSync(pp)) return null;
+  const tmp = join(tmpdir(), `pitmhskills-profile-${Date.now()}.json`);
+  copyFileSync(pp, tmp);
+  return tmp;
+}
+
+// Apply ONLY +0.1 preferred boosts via the existing save path. Returns
+// short change lines (capped). No-op (no write) when nothing applies.
+export function applyPreferredBoosts(cwd: string, sug: BoostSuggestion[]): string[] {
+  const p = loadProfile(cwd);
+  if (!p) return [];
+  const changed: string[] = [];
+  for (const s of sug) {
+    if (s.boost !== 0.1 || !s.id) continue;
+    const ex = p.preferred.find((e) => e.id === s.id);
+    if (ex) {
+      const b4 = ex.boost ?? 0.1;
+      // Cap: repeat --apply runs must not inflate a boost without bound.
+      // Slow creep would pass the tune gate while distorting live retrieval.
+      ex.boost = Math.min(0.3, Math.round((b4 + 0.1) * 10) / 10);
+      changed.push(`${s.id}: ${b4} -> ${ex.boost}`.slice(0, 160));
+    } else {
+      p.preferred.push({ id: s.id, boost: 0.1 });
+      changed.push(`${s.id}: +0.1 (new)`.slice(0, 160));
+    }
+  }
+  if (changed.length) saveProfile(cwd, p);
+  return changed;
 }
 
 // Prints human-readable rerank suggestions. Proposes only; never applies.

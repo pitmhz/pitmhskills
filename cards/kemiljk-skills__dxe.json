@@ -1,0 +1,239 @@
+{
+  "id": "kemiljk-skills__dxe",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "1b5d8106a3de265788ee58d68d5b830c2de09d83a8cceca529a0717b45454922",
+  "purpose": "Review a repository or UI surface for design engineering quality. Use for a DXE pass or broad interface review; fix only when requested and load specialist guidance from evidence.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Review a repository or UI surface for design engineering quality. Use for a DXE pass or broad interface review; fix only when requested and load specialist guid"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Broad DXE quality pass over a surface -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "dxe surface pass",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2772,
+  "core_bytes": 11103,
+  "sections": [
+    {
+      "name": "Modes",
+      "bytes": 972,
+      "when": [
+        "modes"
+      ]
+    },
+    {
+      "name": "Scope and sampling",
+      "bytes": 732,
+      "when": [
+        "scope",
+        "sampling"
+      ]
+    },
+    {
+      "name": "Evidence protocol",
+      "bytes": 2341,
+      "when": [
+        "evidence",
+        "protocol"
+      ]
+    },
+    {
+      "name": "Compact cross-phase pass",
+      "bytes": 1332,
+      "when": [
+        "compact",
+        "cross",
+        "phase",
+        "pass"
+      ]
+    },
+    {
+      "name": "Intent",
+      "bytes": 209,
+      "when": [
+        "intent"
+      ]
+    },
+    {
+      "name": "Platform",
+      "bytes": 284,
+      "when": [
+        "platform"
+      ]
+    },
+    {
+      "name": "Feel",
+      "bytes": 276,
+      "when": [
+        "feel"
+      ]
+    },
+    {
+      "name": "Bridge",
+      "bytes": 195,
+      "when": [
+        "bridge"
+      ]
+    },
+    {
+      "name": "Shipping",
+      "bytes": 265,
+      "when": [
+        "shipping"
+      ]
+    },
+    {
+      "name": "Progressive sibling routing",
+      "bytes": 2321,
+      "when": [
+        "progressive",
+        "sibling",
+        "routing"
+      ]
+    },
+    {
+      "name": "Severity and confidence",
+      "bytes": 619,
+      "when": [
+        "severity",
+        "confidence"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 52,
+      "when": [
+        "report"
+      ]
+    },
+    {
+      "name": "Hypothesis",
+      "bytes": 15,
+      "when": [
+        "hypothesis"
+      ]
+    },
+    {
+      "name": "Evidence collected",
+      "bytes": 23,
+      "when": [
+        "evidence",
+        "collected"
+      ]
+    },
+    {
+      "name": "Verified strengths",
+      "bytes": 86,
+      "when": [
+        "verified",
+        "strengths"
+      ]
+    },
+    {
+      "name": "Findings",
+      "bytes": 134,
+      "when": [
+        "findings"
+      ]
+    },
+    {
+      "name": "Critical",
+      "bytes": 85,
+      "when": [
+        "critical"
+      ]
+    },
+    {
+      "name": "Should fix",
+      "bytes": 16,
+      "when": []
+    },
+    {
+      "name": "Nice to have",
+      "bytes": 20,
+      "when": [
+        "nice"
+      ]
+    },
+    {
+      "name": "Cuts",
+      "bytes": 9,
+      "when": [
+        "cuts"
+      ]
+    },
+    {
+      "name": "Proposed changes",
+      "bytes": 21,
+      "when": [
+        "proposed",
+        "changes"
+      ]
+    },
+    {
+      "name": "Verification status",
+      "bytes": 24,
+      "when": [
+        "verification",
+        "status"
+      ]
+    },
+    {
+      "name": "Limits and unresolved observations",
+      "bytes": 240,
+      "when": [
+        "limits",
+        "unresolved",
+        "observations"
+      ]
+    },
+    {
+      "name": "Verification recipe",
+      "bytes": 999,
+      "when": [
+        "verification",
+        "recipe"
+      ]
+    },
+    {
+      "name": "Done when",
+      "bytes": 460,
+      "when": [
+        "done"
+      ]
+    }
+  ],
+  "keywords": [
+    "modes",
+    "scope",
+    "sampling",
+    "protocol",
+    "compact",
+    "cross",
+    "phase",
+    "intent",
+    "platform",
+    "feel",
+    "bridge",
+    "shipping"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\dxe\\SKILL.md"
+}

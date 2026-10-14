@@ -1,0 +1,69 @@
+{
+  "id": "nvidia__jetson-video-capability",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "51615a3753d166afe4a3417170eae64d88dc4da3f2a641aaac3698087398a8f9",
+  "purpose": "Use when Jetson codec, profile, chroma, bit-depth, dimension, engine-count, or operational support must be reconciled from live APIs, authenticated NVIDIA samples, and NVIDIA documentation; also appli",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when Jetson codec, profile, chroma, bit-depth, dimension, engine-count, or operational support must be reconciled from live APIs, authenticated NVIDIA sampl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1989,
+  "core_bytes": 7961,
+  "sections": [
+    {
+      "name": "Scope gates",
+      "bytes": 981,
+      "when": [
+        "scope",
+        "gates"
+      ]
+    },
+    {
+      "name": "Read-only discovery",
+      "bytes": 1628,
+      "when": [
+        "read",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Decision flow",
+      "bytes": 2744,
+      "when": [
+        "decision",
+        "flow"
+      ]
+    },
+    {
+      "name": "Evidence rules",
+      "bytes": 1831,
+      "when": [
+        "evidence",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-video-capability\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,74 @@
+{
+  "id": "human-review__human-review",
+  "tier": "B",
+  "origin": [
+    "petergyang/human-review@f9a55812f6f37e2c53da6ec26c52ef7a489485d6"
+  ],
+  "license": "MIT",
+  "hash": "be066dd3ef27d68a01b8e83f9d351cf8ced546d3a3eda69946abb975f7e63d90",
+  "purpose": "Open an HTML file, Markdown file, or localhost page in the browser so the user can edit text directly and leave comments on specific parts, then send all edits and comments back to you. Use after writ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Open an HTML file, Markdown file, or localhost page in the browser so the user can edit text directly and leave comments on specific parts, then send all edits "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2158,
+  "core_bytes": 8657,
+  "sections": [
+    {
+      "name": "The loop",
+      "bytes": 3340,
+      "when": [
+        "loop"
+      ]
+    },
+    {
+      "name": "What you get",
+      "bytes": 808,
+      "when": []
+    },
+    {
+      "name": "Rules",
+      "bytes": 3344,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Better edit labels (optional)",
+      "bytes": 365,
+      "when": [
+        "better",
+        "edit",
+        "labels",
+        "optional"
+      ]
+    }
+  ],
+  "keywords": [
+    "human",
+    "review",
+    "loop",
+    "rules",
+    "better",
+    "labels",
+    "optional"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\human-review\\src\\SKILL.md"
+}

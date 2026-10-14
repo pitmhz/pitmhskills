@@ -1,0 +1,276 @@
+{
+  "id": "awesome-copilot__code-tour",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "365f0d06c564e6bb0f950a28f92e875780d4f0fef0ff6b86e05151a17f658f09",
+  "purpose": "Use this skill to create CodeTour .tour files — persona-targeted, step-by-step walkthroughs that link to real files and line numbers. Trigger for: \"create a tour\", \"make a code tour\", \"generate a tour",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill to create CodeTour .tour files — persona-targeted, step-by-step walkthroughs that link to real files and line numbers. Trigger for: \"create a tou"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5617,
+  "core_bytes": 22654,
+  "sections": [
+    {
+      "name": "Real-world `.tour` files on GitHub",
+      "bytes": 1786,
+      "when": [
+        "real",
+        "world",
+        "tour",
+        "files",
+        "github"
+      ]
+    },
+    {
+      "name": "Step 1: Discover the repo",
+      "bytes": 3406,
+      "when": [
+        "step",
+        "discover",
+        "repo"
+      ]
+    },
+    {
+      "name": "Entry points by language/framework",
+      "bytes": 775,
+      "when": [
+        "entry",
+        "points",
+        "language",
+        "framework"
+      ]
+    },
+    {
+      "name": "Repo type variants — adjust focus accordingly",
+      "bytes": 1202,
+      "when": [
+        "repo",
+        "type",
+        "variants",
+        "adjust",
+        "focus",
+        "accordingly"
+      ]
+    },
+    {
+      "name": "Large repo strategy",
+      "bytes": 579,
+      "when": [
+        "large",
+        "repo",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Step 2: Read the intent — infer everything you can, ask only what you can't",
+      "bytes": 3133,
+      "when": [
+        "step",
+        "read",
+        "intent",
+        "infer",
+        "everything"
+      ]
+    },
+    {
+      "name": "Intent map",
+      "bytes": 2058,
+      "when": [
+        "intent"
+      ]
+    },
+    {
+      "name": "PR tour recipe",
+      "bytes": 192,
+      "when": [
+        "tour",
+        "recipe"
+      ]
+    },
+    {
+      "name": "User-provided customization — always honor these",
+      "bytes": 673,
+      "when": [
+        "user",
+        "provided",
+        "customization",
+        "honor"
+      ]
+    },
+    {
+      "name": "Step 3: Read the actual files — no exceptions",
+      "bytes": 475,
+      "when": [
+        "step",
+        "read",
+        "actual",
+        "files",
+        "exceptions"
+      ]
+    },
+    {
+      "name": "Step 4: Write the tour",
+      "bytes": 3735,
+      "when": [
+        "step",
+        "write",
+        "tour"
+      ]
+    },
+    {
+      "name": "Tour root",
+      "bytes": 1113,
+      "when": [
+        "tour",
+        "root"
+      ]
+    },
+    {
+      "name": "Step types — full reference",
+      "bytes": 396,
+      "when": [
+        "step",
+        "types",
+        "full",
+        "reference"
+      ]
+    },
+    {
+      "name": "When to use each step type",
+      "bytes": 434,
+      "when": [
+        "each",
+        "step",
+        "type"
+      ]
+    },
+    {
+      "name": "Step count calibration",
+      "bytes": 814,
+      "when": [
+        "step",
+        "count",
+        "calibration"
+      ]
+    },
+    {
+      "name": "Writing excellent descriptions — the SMIG formula",
+      "bytes": 788,
+      "when": [
+        "writing",
+        "excellent",
+        "descriptions",
+        "smig",
+        "formula"
+      ]
+    },
+    {
+      "name": "Narrative arc — every tour, every persona",
+      "bytes": 1067,
+      "when": [
+        "narrative",
+        "tour",
+        "persona"
+      ]
+    },
+    {
+      "name": "Closing steps",
+      "bytes": 161,
+      "when": [
+        "closing",
+        "steps"
+      ]
+    },
+    {
+      "name": "The 20 personas",
+      "bytes": 1407,
+      "when": [
+        "personas"
+      ]
+    },
+    {
+      "name": "Designing a tour series",
+      "bytes": 609,
+      "when": [
+        "designing",
+        "tour",
+        "series"
+      ]
+    },
+    {
+      "name": "What CodeTour cannot do",
+      "bytes": 933,
+      "when": [
+        "codetour",
+        "cannot"
+      ]
+    },
+    {
+      "name": "Anti-patterns",
+      "bytes": 524,
+      "when": [
+        "anti",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Quality checklist — verify before writing the file",
+      "bytes": 1218,
+      "when": [
+        "quality",
+        "checklist",
+        "verify",
+        "before",
+        "writing",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 5: Validate the tour",
+      "bytes": 1478,
+      "when": [
+        "step",
+        "validate",
+        "tour"
+      ]
+    },
+    {
+      "name": "Step 6: Summarize",
+      "bytes": 421,
+      "when": [
+        "step",
+        "summarize"
+      ]
+    },
+    {
+      "name": "File naming",
+      "bytes": 303,
+      "when": [
+        "file",
+        "naming"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\code-tour\\SKILL.md"
+}

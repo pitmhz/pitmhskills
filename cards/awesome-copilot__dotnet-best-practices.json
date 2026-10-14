@@ -1,0 +1,130 @@
+{
+  "id": "awesome-copilot__dotnet-best-practices",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3181f44dfc866313c96cd784a7f003b4b109836a6f02648f95b3323e73e85d62",
+  "purpose": "Ensure .NET/C# code meets best practices for the solution/project.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Ensure .NET/C# code meets best practices for the solution/project."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 808,
+  "core_bytes": 3230,
+  "sections": [
+    {
+      "name": "Documentation & Structure",
+      "bytes": 303,
+      "when": [
+        "documentation",
+        "structure"
+      ]
+    },
+    {
+      "name": "Design Patterns & Architecture",
+      "bytes": 395,
+      "when": [
+        "design",
+        "patterns",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Dependency Injection & Services",
+      "bytes": 300,
+      "when": [
+        "dependency",
+        "injection",
+        "services"
+      ]
+    },
+    {
+      "name": "Resource Management & Localization",
+      "bytes": 225,
+      "when": [
+        "resource",
+        "management",
+        "localization"
+      ]
+    },
+    {
+      "name": "Async/Await Patterns",
+      "bytes": 215,
+      "when": [
+        "async",
+        "await",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Testing Standards",
+      "bytes": 246,
+      "when": [
+        "testing",
+        "standards"
+      ]
+    },
+    {
+      "name": "Configuration & Settings",
+      "bytes": 251,
+      "when": [
+        "configuration",
+        "settings"
+      ]
+    },
+    {
+      "name": "Semantic Kernel & AI Integration",
+      "bytes": 272,
+      "when": [
+        "semantic",
+        "kernel",
+        "integration"
+      ]
+    },
+    {
+      "name": "Error Handling & Logging",
+      "bytes": 246,
+      "when": [
+        "error",
+        "handling",
+        "logging"
+      ]
+    },
+    {
+      "name": "Performance & Security",
+      "bytes": 251,
+      "when": [
+        "performance",
+        "security"
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "bytes": 253,
+      "when": [
+        "code",
+        "quality"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dotnet-best-practices\\SKILL.md"
+}

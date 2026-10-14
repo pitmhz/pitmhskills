@@ -1,0 +1,224 @@
+{
+  "id": "awesome-copilot__arize-annotation",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7c8370632bfb017a36c4c1315c60410a334f2cd3e2054165fba1bac37df40af3",
+  "purpose": "Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annotation queues (human review workflows) on Arize. Applies human annotations to project spans via the Pyt",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annotation queues (human review workflows) on Arize. Applies human "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2696,
+  "core_bytes": 10807,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 882,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Concepts",
+      "bytes": 1430,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "What is an Annotation Config?",
+      "bytes": 795,
+      "when": [
+        "annotation",
+        "config"
+      ]
+    },
+    {
+      "name": "Where labels get applied (surfaces)",
+      "bytes": 622,
+      "when": [
+        "where",
+        "labels",
+        "applied",
+        "surfaces"
+      ]
+    },
+    {
+      "name": "Basic CRUD: Annotation Configs",
+      "bytes": 1794,
+      "when": [
+        "basic",
+        "crud",
+        "annotation",
+        "configs"
+      ]
+    },
+    {
+      "name": "List",
+      "bytes": 165,
+      "when": [
+        "list"
+      ]
+    },
+    {
+      "name": "Create — Categorical",
+      "bytes": 443,
+      "when": [
+        "create",
+        "categorical"
+      ]
+    },
+    {
+      "name": "Create — Continuous",
+      "bytes": 291,
+      "when": [
+        "create",
+        "continuous"
+      ]
+    },
+    {
+      "name": "Create — Freeform",
+      "bytes": 242,
+      "when": [
+        "create",
+        "freeform"
+      ]
+    },
+    {
+      "name": "Get",
+      "bytes": 198,
+      "when": []
+    },
+    {
+      "name": "Delete",
+      "bytes": 420,
+      "when": [
+        "delete"
+      ]
+    },
+    {
+      "name": "Annotation Queues: `ax annotation-queues`",
+      "bytes": 2473,
+      "when": [
+        "annotation",
+        "queues"
+      ]
+    },
+    {
+      "name": "List / Get",
+      "bytes": 226,
+      "when": [
+        "list"
+      ]
+    },
+    {
+      "name": "Create",
+      "bytes": 442,
+      "when": [
+        "create"
+      ]
+    },
+    {
+      "name": "Update",
+      "bytes": 478,
+      "when": [
+        "update"
+      ]
+    },
+    {
+      "name": "Delete",
+      "bytes": 161,
+      "when": [
+        "delete"
+      ]
+    },
+    {
+      "name": "List Records",
+      "bytes": 168,
+      "when": [
+        "list",
+        "records"
+      ]
+    },
+    {
+      "name": "Submit an Annotation for a Record",
+      "bytes": 510,
+      "when": [
+        "submit",
+        "annotation",
+        "record"
+      ]
+    },
+    {
+      "name": "Assign a Record",
+      "bytes": 147,
+      "when": [
+        "assign",
+        "record"
+      ]
+    },
+    {
+      "name": "Delete Records",
+      "bytes": 99,
+      "when": [
+        "delete",
+        "records"
+      ]
+    },
+    {
+      "name": "Applying Annotations to Spans (Python SDK)",
+      "bytes": 1612,
+      "when": [
+        "applying",
+        "annotations",
+        "spans",
+        "python"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 860,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 373,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Save Credentials for Future Use",
+      "bytes": 102,
+      "when": [
+        "save",
+        "credentials",
+        "future"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-annotation\\SKILL.md"
+}

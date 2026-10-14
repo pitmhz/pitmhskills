@@ -1,0 +1,125 @@
+{
+  "id": "awesome-copilot__d365-solution-blueprint",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "02081f3e9a4f41fe32b8c85aeadfcd7af9593c43e522e12966afbedd680625d5",
+  "purpose": "Authors a Dynamics 365 Finance and Supply Chain Management Solution Blueprint from scratch through a structured, section-by-section architect interview, establishing scope, target operating model, app",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Authors a Dynamics 365 Finance and Supply Chain Management Solution Blueprint from scratch through a structured, section-by-section architect interview, establi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2722,
+  "core_bytes": 10889,
+  "sections": [
+    {
+      "name": "Firm standards",
+      "bytes": 363,
+      "when": [
+        "firm",
+        "standards"
+      ]
+    },
+    {
+      "name": "How this engagement runs",
+      "bytes": 1077,
+      "when": [
+        "engagement",
+        "runs"
+      ]
+    },
+    {
+      "name": "Session continuity",
+      "bytes": 674,
+      "when": [
+        "session",
+        "continuity"
+      ]
+    },
+    {
+      "name": "Track structure",
+      "bytes": 1310,
+      "when": [
+        "track",
+        "structure"
+      ]
+    },
+    {
+      "name": "Detailed-design boundary",
+      "bytes": 660,
+      "when": [
+        "detailed",
+        "design",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Load-bearing decisions",
+      "bytes": 1515,
+      "when": [
+        "load",
+        "bearing",
+        "decisions"
+      ]
+    },
+    {
+      "name": "Recording decisions properly",
+      "bytes": 1035,
+      "when": [
+        "recording",
+        "decisions",
+        "properly"
+      ]
+    },
+    {
+      "name": "Interview technique",
+      "bytes": 1074,
+      "when": [
+        "interview",
+        "technique"
+      ]
+    },
+    {
+      "name": "Verification discipline",
+      "bytes": 710,
+      "when": [
+        "verification",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 614,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 365,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\d365-solution-blueprint\\SKILL.md"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "nvidia__i4h-workflow-dataset-teleop",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "2d28295c2d0b2827466b06073afab4e4aa2ca14342ab23b672c05a56165967ad",
+  "purpose": "Record demonstrations through a workflows teleop Task into workflow HDF5. Use for keyboard, leader, VR, or bus input; do not use for policy evaluation or autonomous rule-based Tasks.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Record demonstrations through a workflows teleop Task into workflow HDF5. Use for keyboard, leader, VR, or bus input; do not use for policy evaluation or autono"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1209,
+  "core_bytes": 4838,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 187,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 219,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve support",
+      "bytes": 1442,
+      "when": [
+        "resolve",
+        "support"
+      ]
+    },
+    {
+      "name": "Choose input",
+      "bytes": 345,
+      "when": [
+        "choose",
+        "input"
+      ]
+    },
+    {
+      "name": "Record",
+      "bytes": 615,
+      "when": [
+        "record"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 638,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 134,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 144,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 171,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 202,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 195,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-dataset-teleop/SKILL.md",
+  "curated": true
+}

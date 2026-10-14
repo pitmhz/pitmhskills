@@ -1,0 +1,199 @@
+{
+  "id": "nvidia__vss-search-archive",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d3e49d6d209cfcf7f6b36917d20c562b52548555a5dac3420c5632e6dc74f975",
+  "purpose": "Use this skill to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use vss-ask-video), live captioning (use vss-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use v"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4292,
+  "core_bytes": 17224,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 156,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 358,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 239,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 269,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 337,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 912,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 463,
+      "when": []
+    },
+    {
+      "name": "Deployment prerequisite",
+      "bytes": 1128,
+      "when": [
+        "deployment",
+        "prerequisite"
+      ]
+    },
+    {
+      "name": "Ingestion prerequisite (required before any `/generate`)",
+      "bytes": 4211,
+      "when": [
+        "ingestion",
+        "prerequisite",
+        "required",
+        "before",
+        "generate"
+      ]
+    },
+    {
+      "name": "File upload — universal three-step flow",
+      "bytes": 2083,
+      "when": [
+        "file",
+        "upload",
+        "universal",
+        "three",
+        "step",
+        "flow"
+      ]
+    },
+    {
+      "name": "RTSP stream — single endpoint",
+      "bytes": 878,
+      "when": [
+        "rtsp",
+        "stream",
+        "single",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "Delete source — agent-backed cleanup",
+      "bytes": 462,
+      "when": [
+        "delete",
+        "source",
+        "agent",
+        "backed",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "How Search Works",
+      "bytes": 1045,
+      "when": [
+        "search",
+        "works"
+      ]
+    },
+    {
+      "name": "Mandatory workflow",
+      "bytes": 3362,
+      "when": [
+        "mandatory",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Input resolution",
+      "bytes": 227,
+      "when": [
+        "input",
+        "resolution"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 977,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Search via REST API",
+      "bytes": 2646,
+      "when": [
+        "search",
+        "rest"
+      ]
+    },
+    {
+      "name": "More Examples",
+      "bytes": 1069,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Advanced control knobs",
+      "bytes": 1242,
+      "when": [
+        "advanced",
+        "control",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Search via Agent UI",
+      "bytes": 320,
+      "when": [
+        "search",
+        "agent"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-search-archive/SKILL.md",
+  "curated": true
+}

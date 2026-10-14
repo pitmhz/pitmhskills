@@ -1,14 +1,20 @@
 import type { RankedCard } from "./types.ts";
+import { STOPWORDS } from "./retrieve.ts";
 
 // Score 0-100 from fused rank signal + lexical fit. Deterministic, no LLM on hot path.
+// Function words (STOPWORDS in retrieve.ts) carry no routing signal but inflate
+// cover for verbose cards, so they are excluded from the overlap count.
 export function scoreCandidates(collapsed: RankedCard[], task: string): { id: string; score: number; reason: string }[] {
   const tl = task.toLowerCase();
   const out = collapsed.map((r, i) => {
     const c = r.card;
     const hay = [c.purpose, c.use_when.join(" "), c.domain, c.task_types.join(" ")].join(" ").toLowerCase();
-    const words = new Set(tl.split(/[^a-z0-9]+/).filter((w) => w.length > 2));
+    // Token-exact cover: substring matching inflates verbose cards
+    // ("help" matching "helper") and steals margin from the true pick.
+    const hayTokens = new Set(hay.split(/[^a-z0-9]+/).filter((w) => w.length > 0));
+    const words = new Set(tl.split(/[^a-z0-9]+/).filter((w) => w.length > 2 && !STOPWORDS.has(w)));
     let overlap = 0;
-    for (const w of words) if (hay.includes(w)) overlap++;
+    for (const w of words) if (hayTokens.has(w)) overlap++;
     const cover = words.size ? overlap / words.size : 0;
     const rankDecay = Math.max(0, 1 - i * 0.12);
     const vecpart = Math.max(0, Math.min(1, r.vec * 4));

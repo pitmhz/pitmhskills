@@ -1,0 +1,79 @@
+{
+  "id": "awesome-copilot__bench-read",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "15dfc1bd02902c0bf1a4cf6c18cc15835493ad18fbc964f56283692374232542",
+  "purpose": "Read artifacts from the shared bench — the workspace where desks leave findings, verdicts, and work products for each other and the operator.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Read artifacts from the shared bench — the workspace where desks leave findings, verdicts, and work products for each other and the operator."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 747,
+  "core_bytes": 3013,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 260,
+      "when": []
+    },
+    {
+      "name": "What the bench is",
+      "bytes": 648,
+      "when": [
+        "bench"
+      ]
+    },
+    {
+      "name": "Where to look",
+      "bytes": 620,
+      "when": [
+        "where",
+        "look"
+      ]
+    },
+    {
+      "name": "How to read",
+      "bytes": 541,
+      "when": [
+        "read"
+      ]
+    },
+    {
+      "name": "Cross-desk context",
+      "bytes": 258,
+      "when": [
+        "cross",
+        "desk",
+        "context"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 385,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\bench-read\\SKILL.md"
+}

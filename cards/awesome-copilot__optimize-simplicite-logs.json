@@ -1,0 +1,149 @@
+{
+  "id": "awesome-copilot__optimize-simplicite-logs",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "536f90efa4d056fe6e2012d056722f3a8f88f57a865cced77d3a0b9e963cece1",
+  "purpose": "capability to parse Simplicité logs from a raw `.txt` file, filter fields to reduce noise, and output the result as structured JSON.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "capability to parse Simplicité logs from a raw `.txt` file, filter fields to reduce noise, and output the result as structured JSON."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 935,
+  "core_bytes": 3743,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 564,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 154,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Capabilities",
+      "bytes": 646,
+      "when": [
+        "core",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "1. Context Optimization",
+      "bytes": 247,
+      "when": [
+        "context",
+        "optimization"
+      ]
+    },
+    {
+      "name": "2. Multi-line Support",
+      "bytes": 165,
+      "when": [
+        "multi",
+        "line",
+        "support"
+      ]
+    },
+    {
+      "name": "3. Stdout Support",
+      "bytes": 212,
+      "when": [
+        "stdout",
+        "support"
+      ]
+    },
+    {
+      "name": "Output Summary",
+      "bytes": 139,
+      "when": [
+        "output",
+        "summary"
+      ]
+    },
+    {
+      "name": "Usage Examples",
+      "bytes": 623,
+      "when": [
+        "usage",
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: Python Version (Recommended)",
+      "bytes": 277,
+      "when": [
+        "example",
+        "python",
+        "version",
+        "recommended"
+      ]
+    },
+    {
+      "name": "Example 2: PowerShell Version",
+      "bytes": 327,
+      "when": [
+        "example",
+        "powershell",
+        "version"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 543,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 374,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Pattern: Fast Contextual Troubleshooting",
+      "bytes": 354,
+      "when": [
+        "pattern",
+        "fast",
+        "contextual",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 190,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\optimize-simplicite-logs\\SKILL.md"
+}

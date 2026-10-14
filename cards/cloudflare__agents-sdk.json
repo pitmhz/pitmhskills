@@ -29,7 +29,117 @@
   "conflicts_with": [],
   "body_tokens": 3054,
   "core_bytes": 12290,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Retrieval Sources",
+      "bytes": 5565,
+      "when": [
+        "retrieval",
+        "sources"
+      ]
+    },
+    {
+      "name": "Capabilities",
+      "bytes": 1438,
+      "when": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "FIRST: Verify Installation",
+      "bytes": 240,
+      "when": [
+        "first",
+        "verify",
+        "installation"
+      ]
+    },
+    {
+      "name": "Wrangler Configuration",
+      "bytes": 520,
+      "when": [
+        "wrangler",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Agent Class",
+      "bytes": 738,
+      "when": [
+        "agent",
+        "class"
+      ]
+    },
+    {
+      "name": "Routing",
+      "bytes": 358,
+      "when": [
+        "routing"
+      ]
+    },
+    {
+      "name": "Core APIs",
+      "bytes": 918,
+      "when": [
+        "core",
+        "apis"
+      ]
+    },
+    {
+      "name": "React Client",
+      "bytes": 207,
+      "when": [
+        "react",
+        "client"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 2033,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Core",
+      "bytes": 429,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Chat & Streaming",
+      "bytes": 471,
+      "when": [
+        "chat",
+        "streaming"
+      ]
+    },
+    {
+      "name": "Background Processing",
+      "bytes": 344,
+      "when": [
+        "background",
+        "processing"
+      ]
+    },
+    {
+      "name": "Integrations",
+      "bytes": 391,
+      "when": [
+        "integrations"
+      ]
+    },
+    {
+      "name": "Experimental",
+      "bytes": 381,
+      "when": [
+        "experimental"
+      ]
+    }
+  ],
+  "verify": [
+    "npx wrangler deploy --dry-run"
+  ],
   "skill_path": "skills/cloudflare/skills/agents-sdk/SKILL.md"
 }

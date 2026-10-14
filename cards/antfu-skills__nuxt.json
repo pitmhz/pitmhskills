@@ -1,0 +1,78 @@
+{
+  "id": "antfu-skills__nuxt",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "f71bb199d23cdf8a2db055e59c4c6939abab4b81cacc687a78b509ec40b3a504",
+  "purpose": "Nuxt full-stack Vue framework with SSR, auto-imports, and file-based routing. Use when working with Nuxt apps, server routes, useFetch, middleware, or hybrid rendering.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Nuxt full-stack Vue framework with SSR, auto-imports, and file-based routing. Use when working with Nuxt apps, server routes, useFetch, middleware, or hybrid re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1163,
+  "core_bytes": 4654,
+  "sections": [
+    {
+      "name": "Core",
+      "bytes": 1058,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 847,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Rendering",
+      "bytes": 232,
+      "when": [
+        "rendering"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 413,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "bytes": 470,
+      "when": [
+        "advanced"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "features",
+    "best",
+    "practices",
+    "advanced"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\nuxt\\SKILL.md"
+}

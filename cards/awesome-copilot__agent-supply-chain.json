@@ -1,0 +1,108 @@
+{
+  "id": "awesome-copilot__agent-supply-chain",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5b678338dca40c92051ff46da592e6be13ffc2f843a2238cbf1c91368fe75fa7",
+  "purpose": "Verify supply chain integrity for AI agent plugins, tools, and dependencies. Use this skill when:\n- Generating SHA-256 integrity manifests for agent plugins or tool packages\n- Verifying that installed",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Verify supply chain integrity for AI agent plugins, tools, and dependencies. Use this skill when:\n- Generating SHA-256 integrity manifests for agent plugins or "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2677,
+  "core_bytes": 10732,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 562,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 292,
+      "when": []
+    },
+    {
+      "name": "Pattern 1: Generate Integrity Manifest",
+      "bytes": 2243,
+      "when": [
+        "pattern",
+        "generate",
+        "integrity",
+        "manifest"
+      ]
+    },
+    {
+      "name": "Pattern 2: Verify Integrity",
+      "bytes": 1525,
+      "when": [
+        "pattern",
+        "verify",
+        "integrity"
+      ]
+    },
+    {
+      "name": "Pattern 3: Dependency Version Audit",
+      "bytes": 1369,
+      "when": [
+        "pattern",
+        "dependency",
+        "version",
+        "audit"
+      ]
+    },
+    {
+      "name": "Pattern 4: Promotion Gate",
+      "bytes": 1947,
+      "when": [
+        "pattern",
+        "promotion",
+        "gate"
+      ]
+    },
+    {
+      "name": "CI Integration",
+      "bytes": 920,
+      "when": [
+        "integration"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 584,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Related Resources",
+      "bytes": 450,
+      "when": [
+        "related",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\agent-supply-chain\\SKILL.md"
+}

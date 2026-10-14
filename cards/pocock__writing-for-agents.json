@@ -27,7 +27,62 @@
   "conflicts_with": [],
   "body_tokens": 2741,
   "core_bytes": 10967,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Context pointers",
+      "bytes": 1122,
+      "when": [
+        "context",
+        "pointers"
+      ]
+    },
+    {
+      "name": "The two loads",
+      "bytes": 723,
+      "when": [
+        "loads"
+      ]
+    },
+    {
+      "name": "Information hierarchy",
+      "bytes": 2454,
+      "when": [
+        "information",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "Steps and completion criteria",
+      "bytes": 1357,
+      "when": [
+        "steps",
+        "completion",
+        "criteria"
+      ]
+    },
+    {
+      "name": "When to split",
+      "bytes": 514,
+      "when": [
+        "split"
+      ]
+    },
+    {
+      "name": "Leading words",
+      "bytes": 2189,
+      "when": [
+        "leading",
+        "words"
+      ]
+    },
+    {
+      "name": "Pruning",
+      "bytes": 1999,
+      "when": [
+        "pruning"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/productivity/writing-for-agents/SKILL.md"
 }

@@ -1,0 +1,263 @@
+{
+  "id": "nvidia__earth2studio-create-diagnostic",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b14a6e03bef3dd5e683f6ea2236405afbacf5aa3d8639e6725edb778283cb546",
+  "purpose": "Create Earth2Studio diagnostic model wrappers for single-step data transformations, including simple derived diagnostics, packaged AutoModel diagnostics, and generative or diffusion diagnostics. Do NO",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create Earth2Studio diagnostic model wrappers for single-step data transformations, including simple derived diagnostics, packaged AutoModel diagnostics, and ge"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3790,
+  "core_bytes": 15160,
+  "sections": [
+    {
+      "name": "Quick Start Checklist",
+      "bytes": 1340,
+      "when": [
+        "quick",
+        "start",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 239,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 264,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 329,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Diagnostic Model Types",
+      "bytes": 454,
+      "when": [
+        "diagnostic",
+        "model",
+        "types"
+      ]
+    },
+    {
+      "name": "Workspace",
+      "bytes": 1084,
+      "when": [
+        "workspace"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 755,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 8128,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 0 - Get Reference Material",
+      "bytes": 366,
+      "when": [
+        "step",
+        "reference",
+        "material"
+      ]
+    },
+    {
+      "name": "Step 1 - Analyze Type and Propose Dependencies",
+      "bytes": 1147,
+      "when": [
+        "step",
+        "analyze",
+        "type",
+        "propose",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Step 2 - Add Dependencies",
+      "bytes": 330,
+      "when": [
+        "step",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Step 3 - Create Model File",
+      "bytes": 1375,
+      "when": [
+        "step",
+        "create",
+        "model",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 4 - Implement Coordinates",
+      "bytes": 862,
+      "when": [
+        "step",
+        "implement",
+        "coordinates"
+      ]
+    },
+    {
+      "name": "Step 5 - Implement Forward Pass",
+      "bytes": 703,
+      "when": [
+        "step",
+        "implement",
+        "forward",
+        "pass"
+      ]
+    },
+    {
+      "name": "Step 6 - Implement Model Loading",
+      "bytes": 633,
+      "when": [
+        "step",
+        "implement",
+        "model",
+        "loading"
+      ]
+    },
+    {
+      "name": "Step 7 - Write Tests",
+      "bytes": 1049,
+      "when": [
+        "step",
+        "write",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 8 - Register Model",
+      "bytes": 231,
+      "when": [
+        "step",
+        "register",
+        "model"
+      ]
+    },
+    {
+      "name": "Step 9 - Documentation",
+      "bytes": 467,
+      "when": [
+        "step",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Step 10 - Validation (if requested)",
+      "bytes": 465,
+      "when": [
+        "step",
+        "validation",
+        "requested"
+      ]
+    },
+    {
+      "name": "Step 11 - PR (if requested)",
+      "bytes": 481,
+      "when": [
+        "step",
+        "requested"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 911,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Simple Diagnostic",
+      "bytes": 269,
+      "when": [
+        "simple",
+        "diagnostic"
+      ]
+    },
+    {
+      "name": "AutoModel Diagnostic",
+      "bytes": 337,
+      "when": [
+        "automodel",
+        "diagnostic"
+      ]
+    },
+    {
+      "name": "Generative Diagnostic",
+      "bytes": 290,
+      "when": [
+        "generative",
+        "diagnostic"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 534,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Reminders",
+      "bytes": 854,
+      "when": [
+        "reminders"
+      ]
+    },
+    {
+      "name": "Self-Improvement",
+      "bytes": 440,
+      "when": [
+        "self",
+        "improvement"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run pytest test/models/dx/ -m \"not package\" -v"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\earth2studio-create-diagnostic\\SKILL.md",
+  "curated": true
+}

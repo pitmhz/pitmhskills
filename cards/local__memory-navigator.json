@@ -27,10 +27,36 @@
   "conflicts_with": [],
   "body_tokens": 643,
   "core_bytes": 2569,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Default protocol",
+      "bytes": 1201,
+      "when": [
+        "default",
+        "protocol"
+      ]
+    },
+    {
+      "name": "Record citations",
+      "bytes": 459,
+      "when": [
+        "record",
+        "citations"
+      ]
+    },
+    {
+      "name": "Advanced diagnostics",
+      "bytes": 607,
+      "when": [
+        "advanced",
+        "diagnostics"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:/Users/Mattchine/skills/memory-navigator/SKILL.md"
+  "skill_path": "C:/Users/Mattchine/skills/memory-navigator/SKILL.md",
+  "curated": true
 }

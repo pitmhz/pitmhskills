@@ -28,7 +28,59 @@
   "conflicts_with": [],
   "body_tokens": 1070,
   "core_bytes": 4339,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Summary",
+      "bytes": 49,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Evidence",
+      "bytes": 120,
+      "when": [
+        "evidence"
+      ]
+    },
+    {
+      "name": "Merge Danger",
+      "bytes": 177,
+      "when": [
+        "merge",
+        "danger"
+      ]
+    },
+    {
+      "name": "Sections",
+      "bytes": 3672,
+      "when": [
+        "sections"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 2782,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Evidence",
+      "bytes": 311,
+      "when": [
+        "evidence"
+      ]
+    },
+    {
+      "name": "Merge Danger",
+      "bytes": 469,
+      "when": [
+        "merge",
+        "danger"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/engineering/pr/SKILL.md"
 }

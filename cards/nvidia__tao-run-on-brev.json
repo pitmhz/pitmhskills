@@ -1,0 +1,83 @@
+{
+  "id": "nvidia__tao-run-on-brev",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "52772b5b2bb6354822477b5ac3e8d20c439d3a8066907df64681657f6c548693",
+  "purpose": "Run a TAO training/evaluation/inference container on an NVIDIA Brev GPU instance. Instance provisioning (create/search/stop/delete/login) is delegated to the official brev-cli agent skill or the Brev ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run a TAO training/evaluation/inference container on an NVIDIA Brev GPU instance. Instance provisioning (create/search/stop/delete/login) is delegated to the of"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2106,
+  "core_bytes": 8467,
+  "sections": [
+    {
+      "name": "Provisioning: use the official Brev skill or MCP",
+      "bytes": 1927,
+      "when": [
+        "provisioning",
+        "official",
+        "brev",
+        "skill"
+      ]
+    },
+    {
+      "name": "Storage",
+      "bytes": 344,
+      "when": [
+        "storage"
+      ]
+    },
+    {
+      "name": "Execution — the four verbs (a compound over Docker)",
+      "bytes": 4207,
+      "when": [
+        "execution",
+        "four",
+        "verbs",
+        "compound",
+        "docker"
+      ]
+    },
+    {
+      "name": "`brev exec` argument form",
+      "bytes": 2157,
+      "when": [
+        "brev",
+        "exec",
+        "argument",
+        "form"
+      ]
+    },
+    {
+      "name": "Multi-GPU and multi-node",
+      "bytes": 278,
+      "when": [
+        "multi",
+        "node"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-run-on-brev/SKILL.md",
+  "curated": true
+}

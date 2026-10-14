@@ -14,7 +14,8 @@
   "use_when": [
     "Finding candidate skills on the web with skills.sh search before adding",
     "Discovering agent skills for a topic via GitHub SKILL.md repo search",
-    "Ranking new skill candidates with license, installs, and freshness for user confirmation"
+    "Ranking new skill candidates with license, installs, and freshness for user confirmation",
+    "Discover agent skills for a topic (RLS, postgres, PDF handling) before adding them"
   ],
   "do_not_use_when": [
     "Installing or adding anything (candidates go to user/skillhub add for confirmation)",
@@ -31,7 +32,48 @@
   "conflicts_with": [],
   "body_tokens": 234,
   "core_bytes": 933,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Sources (in order)",
+      "bytes": 232,
+      "when": [
+        "sources",
+        "order"
+      ]
+    },
+    {
+      "name": "Quality bar",
+      "bytes": 107,
+      "when": [
+        "quality"
+      ]
+    },
+    {
+      "name": "Output per candidate",
+      "bytes": 152,
+      "when": [
+        "output",
+        "candidate"
+      ]
+    },
+    {
+      "name": "Hard rule",
+      "bytes": 92,
+      "when": [
+        "hard",
+        "rule"
+      ]
+    },
+    {
+      "name": "Token discipline",
+      "bytes": 113,
+      "when": [
+        "token",
+        "discipline"
+      ]
+    }
+  ],
   "verify": [],
-  "skill_path": "C:/Users/Mattchine/skills/skill-finder/SKILL.md"
+  "skill_path": "C:/Users/Mattchine/skills/skill-finder/SKILL.md",
+  "curated": true
 }

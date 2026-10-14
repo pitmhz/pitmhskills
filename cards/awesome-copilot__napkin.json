@@ -1,0 +1,131 @@
+{
+  "id": "awesome-copilot__napkin",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "45fc6f01b56002b9eba2717d7e30a07fe39d6e7d229a967e6f68e49f1bd5cd58",
+  "purpose": "Visual whiteboard collaboration for Copilot CLI. Creates an interactive whiteboard that opens in your browser — draw, sketch, add sticky notes, then share everything back with Copilot. Copilot sees yo",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Visual whiteboard collaboration for Copilot CLI. Creates an interactive whiteboard that opens in your browser — draw, sketch, add sticky notes, then share every"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1839,
+  "core_bytes": 7394,
+  "sections": [
+    {
+      "name": "Activation",
+      "bytes": 1053,
+      "when": [
+        "activation"
+      ]
+    },
+    {
+      "name": "Reading the Napkin",
+      "bytes": 3216,
+      "when": [
+        "reading",
+        "napkin"
+      ]
+    },
+    {
+      "name": "Step 1 — Read the PNG snapshot (primary)",
+      "bytes": 972,
+      "when": [
+        "step",
+        "read",
+        "snapshot",
+        "primary"
+      ]
+    },
+    {
+      "name": "Step 2 — Read the clipboard for structured JSON (supplementary)",
+      "bytes": 673,
+      "when": [
+        "step",
+        "read",
+        "clipboard",
+        "structured",
+        "json",
+        "supplementary"
+      ]
+    },
+    {
+      "name": "Step 3 — Interpret both sources together",
+      "bytes": 530,
+      "when": [
+        "step",
+        "interpret",
+        "both",
+        "sources",
+        "together"
+      ]
+    },
+    {
+      "name": "Step 4 — Respond conversationally",
+      "bytes": 671,
+      "when": [
+        "step",
+        "respond",
+        "conversationally"
+      ]
+    },
+    {
+      "name": "Step 5 — Ask what's next",
+      "bytes": 205,
+      "when": [
+        "step",
+        "next"
+      ]
+    },
+    {
+      "name": "Responding on the Napkin",
+      "bytes": 580,
+      "when": [
+        "responding",
+        "napkin"
+      ]
+    },
+    {
+      "name": "Tone and Style",
+      "bytes": 407,
+      "when": [
+        "tone",
+        "style"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 448,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Important Notes",
+      "bytes": 892,
+      "when": [
+        "important",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\napkin\\SKILL.md"
+}

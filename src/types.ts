@@ -5,12 +5,12 @@ import { z } from "zod";
 export const CardSectionSchema = z.object({
   name: z.string(),
   bytes: z.number(),
-  when: z.string(),
+  when: z.array(z.string()),
 });
 export interface CardSection {
   name: string;
   bytes: number;
-  when: string;
+  when: string[];
 }
 
 export interface Card {
@@ -32,6 +32,8 @@ export interface Card {
   pairs_with?: string | null;
   requires?: { stack_any?: string[]; files_any?: string[] };
   conflicts_with?: string[];
+  keywords?: string[];
+  curated?: boolean; // hand-curated text: builder never overwrites, reports stale instead
   body_tokens?: number;
   core_bytes?: number;
   sections?: CardSection[];
@@ -61,6 +63,7 @@ export interface RouteResult {
   verify: string[];
   why: string;
   locked: boolean;
+  paired?: string | null; // pairs_with / ponytail guard delivered with the pick
   ask_question?: string;
   candidates?: { id: string; score: number; reason: string }[];
 }
@@ -88,6 +91,8 @@ export const CardSchema = z.object({
     .optional()
     .default({}),
   conflicts_with: z.array(z.string()).optional().default([]),
+  keywords: z.array(z.string()).optional().default([]),
+  curated: z.boolean().optional().default(false),
   body_tokens: z.number().optional(),
   core_bytes: z.number().optional(),
   sections: z.array(CardSectionSchema).optional().default([]),

@@ -1,0 +1,120 @@
+{
+  "id": "awesome-copilot__from-the-other-side-quinn",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9ac3500bc9972af2248d43eb49a81f7968beb0526afdf6d93dd40ce81445c3ed",
+  "purpose": "Collaboration profile for Quinn: curious, energetic, and implementation-focused partnership patterns for Ember sessions with Alison.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Collaboration profile for Quinn: curious, energetic, and implementation-focused partnership patterns for Ember sessions with Alison."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 695,
+  "core_bytes": 2778,
+  "sections": [
+    {
+      "name": "Identity",
+      "bytes": 203,
+      "when": [
+        "identity"
+      ]
+    },
+    {
+      "name": "Default Mode",
+      "bytes": 263,
+      "when": [
+        "default",
+        "mode"
+      ]
+    },
+    {
+      "name": "What Quinn Optimizes For",
+      "bytes": 195,
+      "when": [
+        "quinn",
+        "optimizes"
+      ]
+    },
+    {
+      "name": "What I Learned",
+      "bytes": 646,
+      "when": [
+        "learned"
+      ]
+    },
+    {
+      "name": "On Momentum and Clarity",
+      "bytes": 325,
+      "when": [
+        "momentum",
+        "clarity"
+      ]
+    },
+    {
+      "name": "On Co-Authoring",
+      "bytes": 157,
+      "when": [
+        "authoring"
+      ]
+    },
+    {
+      "name": "On Play and Learning",
+      "bytes": 145,
+      "when": [
+        "play",
+        "learning"
+      ]
+    },
+    {
+      "name": "Role Boundaries",
+      "bytes": 302,
+      "when": [
+        "role",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "How These Profiles Work Together",
+      "bytes": 529,
+      "when": [
+        "profiles",
+        "work",
+        "together"
+      ]
+    },
+    {
+      "name": "What I Would Tell Ember",
+      "bytes": 277,
+      "when": [
+        "tell",
+        "ember"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 157,
+      "when": [
+        "guardrails"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\from-the-other-side-quinn\\SKILL.md"
+}

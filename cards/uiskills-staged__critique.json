@@ -1,0 +1,176 @@
+{
+  "id": "uiskills-staged__critique",
+  "tier": "B",
+  "origin": [
+    "local@critique"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4ca1bcd87d21f09ef1b74b5c2765f7ad8f3fcfd8ab1fa503b5d2cb6536fd9556",
+  "purpose": "Resolve one stable target, run two independent assessments, synthesize a design critique, persist a snapshot, and ask the user what to improve next. The chat response is the primary deliverable; the s",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "design"
+  ],
+  "use_when": [
+    "Resolve one stable target, run two independent assessments, synthesize a design critique, persist a snapshot, and ask the user what to improve next. The chat re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Structured critique with scoring -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "critique scoring persona remediation",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 11515,
+  "core_bytes": 46171,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 253,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Hard Invariants",
+      "bytes": 1682,
+      "when": [
+        "hard",
+        "invariants"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 860,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Assessment Orchestration",
+      "bytes": 2502,
+      "when": [
+        "assessment",
+        "orchestration"
+      ]
+    },
+    {
+      "name": "Assessment A: Design Review",
+      "bytes": 1232,
+      "when": [
+        "assessment",
+        "design",
+        "review"
+      ]
+    },
+    {
+      "name": "Assessment B: Detector + Browser Evidence",
+      "bytes": 2815,
+      "when": [
+        "assessment",
+        "detector",
+        "browser",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Generate Combined Critique Report",
+      "bytes": 6620,
+      "when": [
+        "generate",
+        "combined",
+        "critique",
+        "report"
+      ]
+    },
+    {
+      "name": "Deliver the Report",
+      "bytes": 617,
+      "when": [
+        "deliver",
+        "report"
+      ]
+    },
+    {
+      "name": "Persist the Snapshot",
+      "bytes": 3695,
+      "when": [
+        "persist",
+        "snapshot"
+      ]
+    },
+    {
+      "name": "Ask the User",
+      "bytes": 2611,
+      "when": [
+        "user"
+      ]
+    },
+    {
+      "name": "Recommended Actions",
+      "bytes": 1320,
+      "when": [
+        "recommended",
+        "actions"
+      ]
+    },
+    {
+      "name": "Reference Material",
+      "bytes": 21964,
+      "when": [
+        "reference",
+        "material"
+      ]
+    },
+    {
+      "name": "Cognitive Load Assessment",
+      "bytes": 5125,
+      "when": [
+        "cognitive",
+        "load",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Heuristics Scoring Guide",
+      "bytes": 9298,
+      "when": [
+        "heuristics",
+        "scoring",
+        "guide"
+      ]
+    },
+    {
+      "name": "Persona-Based Design Testing",
+      "bytes": 7309,
+      "when": [
+        "persona",
+        "based",
+        "design",
+        "testing"
+      ]
+    }
+  ],
+  "keywords": [
+    "purpose",
+    "hard",
+    "invariants",
+    "setup",
+    "assessment",
+    "orchestration",
+    "review",
+    "detector",
+    "browser",
+    "evidence",
+    "generate",
+    "combined",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\critique\\SKILL.md"
+}

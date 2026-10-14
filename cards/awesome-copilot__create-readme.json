@@ -1,0 +1,49 @@
+{
+  "id": "awesome-copilot__create-readme",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a93f9161bef324e3a1550fc79d4f01b660a3fb7eadc4455677d9ace4da2965ac",
+  "purpose": "Create a README.md file for the project",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Create a README.md file for the project"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 333,
+  "core_bytes": 1331,
+  "sections": [
+    {
+      "name": "Role",
+      "bytes": 196,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Task",
+      "bytes": 1051,
+      "when": [
+        "task"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-readme\\SKILL.md"
+}

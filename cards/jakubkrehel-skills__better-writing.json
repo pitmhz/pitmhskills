@@ -1,0 +1,184 @@
+{
+  "id": "jakubkrehel-skills__better-writing",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "e6c83e378a428a6ee9df8e7387659482cd3c949b676dad049b4c9d834ae957b7",
+  "purpose": "Writes and reviews your interface copy, from labels and errors to empty states and confirmations, so it matches your product's voice and tells people what to do next.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Writes and reviews your interface copy, from labels and errors to empty states and confirmations, so it matches your product's voice and tells people what to do"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "UX writing / microcopy -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "copy labels errors empty states voice",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2393,
+  "core_bytes": 9571,
+  "sections": [
+    {
+      "name": "Inventory the existing strings first",
+      "bytes": 683,
+      "when": [
+        "inventory",
+        "existing",
+        "strings",
+        "first"
+      ]
+    },
+    {
+      "name": "One voice, one vocabulary",
+      "bytes": 645,
+      "when": [
+        "voice",
+        "vocabulary"
+      ]
+    },
+    {
+      "name": "Address the reader directly",
+      "bytes": 438,
+      "when": [
+        "address",
+        "reader",
+        "directly"
+      ]
+    },
+    {
+      "name": "Plain words over clever ones",
+      "bytes": 403,
+      "when": [
+        "plain",
+        "words",
+        "clever",
+        "ones"
+      ]
+    },
+    {
+      "name": "Build strings whole",
+      "bytes": 437,
+      "when": [
+        "build",
+        "strings",
+        "whole"
+      ]
+    },
+    {
+      "name": "Verb-first buttons",
+      "bytes": 342,
+      "when": [
+        "verb",
+        "first",
+        "buttons"
+      ]
+    },
+    {
+      "name": "Links describe their destination",
+      "bytes": 314,
+      "when": [
+        "links",
+        "describe",
+        "destination"
+      ]
+    },
+    {
+      "name": "One capitalization policy",
+      "bytes": 255,
+      "when": [
+        "capitalization",
+        "policy"
+      ]
+    },
+    {
+      "name": "Settings describe the ON state",
+      "bytes": 366,
+      "when": [
+        "settings",
+        "describe",
+        "state"
+      ]
+    },
+    {
+      "name": "Errors say how to fix, next to where it broke",
+      "bytes": 678,
+      "when": [
+        "errors",
+        "next",
+        "where",
+        "broke"
+      ]
+    },
+    {
+      "name": "Undo beats confirmation",
+      "bytes": 927,
+      "when": [
+        "undo",
+        "beats",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Empty states point forward",
+      "bytes": 693,
+      "when": [
+        "empty",
+        "states",
+        "point",
+        "forward"
+      ]
+    },
+    {
+      "name": "Placeholders show an example",
+      "bytes": 243,
+      "when": [
+        "placeholders",
+        "show",
+        "example"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 996,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 1141,
+      "when": [
+        "reporting"
+      ]
+    }
+  ],
+  "keywords": [
+    "writing",
+    "inventory",
+    "existing",
+    "strings",
+    "first",
+    "vocabulary",
+    "address",
+    "reader",
+    "directly",
+    "plain",
+    "words",
+    "clever",
+    "ones"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\better-writing\\SKILL.md"
+}

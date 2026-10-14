@@ -1,0 +1,111 @@
+{
+  "id": "awesome-copilot__sandbox-npm-install",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "efbad94eaadd3b4284dd4fb3e2dfab71e528bcad4dfbfe4dc8c03c34a35439b3",
+  "purpose": "Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or update node_modules inside a container where the workspace is mounted via virtiofs. Nat",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or update node_modules inside a container where th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 951,
+  "core_bytes": 3812,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 380,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 177,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Background",
+      "bytes": 365,
+      "when": [
+        "background"
+      ]
+    },
+    {
+      "name": "Step-by-Step Installation",
+      "bytes": 886,
+      "when": [
+        "step",
+        "installation"
+      ]
+    },
+    {
+      "name": "Common Options",
+      "bytes": 232,
+      "when": [
+        "common",
+        "options"
+      ]
+    },
+    {
+      "name": "What the Script Does",
+      "bytes": 530,
+      "when": [
+        "script"
+      ]
+    },
+    {
+      "name": "Post-Install Verification",
+      "bytes": 236,
+      "when": [
+        "post",
+        "install",
+        "verification"
+      ]
+    },
+    {
+      "name": "Important Notes",
+      "bytes": 565,
+      "when": [
+        "important",
+        "notes"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 526,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Vite Compatibility",
+      "bytes": 261,
+      "when": [
+        "vite",
+        "compatibility"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\sandbox-npm-install\\SKILL.md"
+}

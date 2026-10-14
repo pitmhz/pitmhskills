@@ -1,0 +1,54 @@
+{
+  "id": "awesome-copilot__audit-integrity",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f2aa1a0cce91cfcaca860eee69a3140f0c012e3cc714fac38b883d550c2a2b49",
+  "purpose": "Enforce output quality, evidence verification, and quality gates across security audits. Use this skill when you perform SAST, SCA, threat modeling, or security code reviews. Use this skill to verify ",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Enforce output quality, evidence verification, and quality gates across security audits. Use this skill when you perform SAST, SCA, threat modeling, or security"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1005,
+  "core_bytes": 4028,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 386,
+      "when": []
+    },
+    {
+      "name": "Components",
+      "bytes": 1873,
+      "when": [
+        "components"
+      ]
+    },
+    {
+      "name": "Execution Flow",
+      "bytes": 1127,
+      "when": [
+        "execution",
+        "flow"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\audit-integrity\\SKILL.md"
+}

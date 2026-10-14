@@ -1,0 +1,204 @@
+{
+  "id": "nvidia__launch-nemo-rl",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "21862c7b9a39e5d7f74fd5e48f76cc9d6d477aedf26b6bdbb3c5084d8718202f",
+  "purpose": "Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayCluster modes, iterating on runs, and debuggi",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayClust"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4514,
+  "core_bytes": 18144,
+  "sections": [
+    {
+      "name": "1. One command, two modes",
+      "bytes": 2187,
+      "when": [
+        "command",
+        "modes"
+      ]
+    },
+    {
+      "name": "2. Recipe + infra pair",
+      "bytes": 936,
+      "when": [
+        "recipe",
+        "infra",
+        "pair"
+      ]
+    },
+    {
+      "name": "3. Long-lived mode flags",
+      "bytes": 1884,
+      "when": [
+        "long",
+        "lived",
+        "mode",
+        "flags"
+      ]
+    },
+    {
+      "name": "4. Ephemeral mode flags (`--rayjob`)",
+      "bytes": 876,
+      "when": [
+        "ephemeral",
+        "mode",
+        "flags",
+        "rayjob"
+      ]
+    },
+    {
+      "name": "5. Iterating on a config without touching the shared filesystem",
+      "bytes": 930,
+      "when": [
+        "iterating",
+        "config",
+        "touching",
+        "shared",
+        "filesystem"
+      ]
+    },
+    {
+      "name": "6. Per-profile concerns (hardware + scheduler + DRA)",
+      "bytes": 1663,
+      "when": [
+        "profile",
+        "concerns",
+        "hardware",
+        "scheduler"
+      ]
+    },
+    {
+      "name": "7. End-to-end workflows",
+      "bytes": 2323,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "7a. Fresh one-shot run (rayjob)",
+      "bytes": 618,
+      "when": [
+        "fresh",
+        "shot",
+        "rayjob"
+      ]
+    },
+    {
+      "name": "7b. Dev loop (long-lived)",
+      "bytes": 303,
+      "when": [
+        "loop",
+        "long",
+        "lived"
+      ]
+    },
+    {
+      "name": "7c. First-time disaggregated bring-up",
+      "bytes": 137,
+      "when": [
+        "first",
+        "time",
+        "disaggregated",
+        "bring"
+      ]
+    },
+    {
+      "name": "7d. Cluster-only lifecycle",
+      "bytes": 545,
+      "when": [
+        "cluster",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "7e. Deployments (e.g. nemo-skills sandbox)",
+      "bytes": 690,
+      "when": [
+        "deployments",
+        "nemo",
+        "skills",
+        "sandbox"
+      ]
+    },
+    {
+      "name": "8. Monitoring a run",
+      "bytes": 1235,
+      "when": [
+        "monitoring"
+      ]
+    },
+    {
+      "name": "9. Stopping things",
+      "bytes": 892,
+      "when": [
+        "stopping"
+      ]
+    },
+    {
+      "name": "10. Verifying RayJob teardown",
+      "bytes": 459,
+      "when": [
+        "verifying",
+        "rayjob",
+        "teardown"
+      ]
+    },
+    {
+      "name": "11. Common gotchas",
+      "bytes": 1559,
+      "when": [
+        "common",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "12. Checklist before calling a run \"done\"",
+      "bytes": 606,
+      "when": [
+        "checklist",
+        "before",
+        "calling",
+        "done"
+      ]
+    },
+    {
+      "name": "13. Dev pod",
+      "bytes": 1163,
+      "when": []
+    },
+    {
+      "name": "14. Where things live in the repo",
+      "bytes": 439,
+      "when": [
+        "where",
+        "live",
+        "repo"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run --extra test pytest -x -q"
+  ],
+  "skill_path": "skills/nvidia/skills/launch-nemo-rl/SKILL.md",
+  "curated": true
+}

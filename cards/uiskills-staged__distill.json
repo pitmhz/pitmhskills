@@ -1,0 +1,139 @@
+{
+  "id": "uiskills-staged__distill",
+  "tier": "B",
+  "origin": [
+    "local@distill"
+  ],
+  "license": "Apache-2.0",
+  "hash": "55777fb5cc61744beb2659729a5e913af84983ea00c81cd381b97e1a17647e17",
+  "purpose": "Strip a design to its essence. Remove anything that doesn't earn its place: redundant elements, repeated information, decorative noise, cosmetic complexity.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Strip a design to its essence. Remove anything that doesn't earn its place: redundant elements, repeated information, decorative noise, cosmetic complexity."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Strip a design to its essence -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "distill essence remove complexity redundant",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1431,
+  "core_bytes": 5730,
+  "sections": [
+    {
+      "name": "Assess Current State",
+      "bytes": 1069,
+      "when": [
+        "assess",
+        "current",
+        "state"
+      ]
+    },
+    {
+      "name": "Plan Simplification",
+      "bytes": 469,
+      "when": [
+        "plan",
+        "simplification"
+      ]
+    },
+    {
+      "name": "Simplify the Design",
+      "bytes": 3178,
+      "when": [
+        "simplify",
+        "design"
+      ]
+    },
+    {
+      "name": "Information Architecture",
+      "bytes": 503,
+      "when": [
+        "information",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Visual Simplification",
+      "bytes": 562,
+      "when": [
+        "visual",
+        "simplification"
+      ]
+    },
+    {
+      "name": "Layout Simplification",
+      "bytes": 409,
+      "when": [
+        "layout",
+        "simplification"
+      ]
+    },
+    {
+      "name": "Interaction Simplification",
+      "bytes": 414,
+      "when": [
+        "interaction",
+        "simplification"
+      ]
+    },
+    {
+      "name": "Content Simplification",
+      "bytes": 459,
+      "when": [
+        "content",
+        "simplification"
+      ]
+    },
+    {
+      "name": "Code Simplification",
+      "bytes": 744,
+      "when": [
+        "code",
+        "simplification"
+      ]
+    },
+    {
+      "name": "Verify Simplification",
+      "bytes": 404,
+      "when": [
+        "verify",
+        "simplification"
+      ]
+    },
+    {
+      "name": "Document Removed Complexity",
+      "bytes": 441,
+      "when": [
+        "document",
+        "removed",
+        "complexity"
+      ]
+    }
+  ],
+  "keywords": [
+    "assess",
+    "current",
+    "state",
+    "plan",
+    "simplification",
+    "simplify",
+    "architecture",
+    "visual",
+    "layout",
+    "interaction",
+    "content",
+    "code"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\distill\\SKILL.md"
+}

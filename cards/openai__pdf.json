@@ -30,7 +30,73 @@
   "conflicts_with": [],
   "body_tokens": 646,
   "core_bytes": 2584,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/pdf/SKILL.md"
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 184,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 477,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Temp and output conventions",
+      "bytes": 209,
+      "when": [
+        "temp",
+        "output",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Dependencies (install if missing)",
+      "bytes": 508,
+      "when": [
+        "dependencies",
+        "install",
+        "missing"
+      ]
+    },
+    {
+      "name": "Environment",
+      "bytes": 54,
+      "when": [
+        "environment"
+      ]
+    },
+    {
+      "name": "Rendering command",
+      "bytes": 75,
+      "when": [
+        "rendering",
+        "command"
+      ]
+    },
+    {
+      "name": "Quality expectations",
+      "bytes": 505,
+      "when": [
+        "quality",
+        "expectations"
+      ]
+    },
+    {
+      "name": "Final checks",
+      "bytes": 265,
+      "when": [
+        "final",
+        "checks"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/pdf/SKILL.md",
+  "curated": true
 }

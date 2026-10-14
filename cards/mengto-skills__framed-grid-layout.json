@@ -1,0 +1,124 @@
+{
+  "id": "mengto-skills__framed-grid-layout",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "3c76a1c151a33cee8ded7d2f84c48917108059d33fe96c8ebb06410de9ca261b",
+  "purpose": "Create minimal framed grid layouts with thin visible boundary lines, L-shaped corner brackets, subtle diagonal line texture, and strict section alignment. Use when asked for clean, neutral, precise, s",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create minimal framed grid layouts with thin visible boundary lines, L-shaped corner brackets, subtle diagonal line texture, and strict section alignment. Use w"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1233,
+  "core_bytes": 4929,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 261,
+      "when": []
+    },
+    {
+      "name": "Layout Rules",
+      "bytes": 629,
+      "when": [
+        "layout",
+        "rules"
+      ]
+    },
+    {
+      "name": "Base Tokens",
+      "bytes": 362,
+      "when": [
+        "base",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Parent Grid",
+      "bytes": 456,
+      "when": [
+        "parent",
+        "grid"
+      ]
+    },
+    {
+      "name": "Framed Section",
+      "bytes": 298,
+      "when": [
+        "framed",
+        "section"
+      ]
+    },
+    {
+      "name": "L-Shaped Corner Brackets",
+      "bytes": 1071,
+      "when": [
+        "shaped",
+        "corner",
+        "brackets"
+      ]
+    },
+    {
+      "name": "Section Spans",
+      "bytes": 394,
+      "when": [
+        "section",
+        "spans"
+      ]
+    },
+    {
+      "name": "Example",
+      "bytes": 374,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "Taste Rules",
+      "bytes": 414,
+      "when": [
+        "taste",
+        "rules"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 332,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "layout",
+    "rules",
+    "base",
+    "tokens",
+    "parent",
+    "spans",
+    "example",
+    "taste",
+    "quick",
+    "checks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\framed-grid-layout\\SKILL.md"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "mengto-skills__beautiful-shadows",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "bffcd48435f743e9fd59d76977d490742ca48be6e620fc94afee734ad1dce3dc",
+  "purpose": "Apply exact Tailwind arbitrary shadow utilities for polished, layered neutral elevation. Use when compact cards, controls, panels, popovers, hero media, feature callouts, or modal-like containers need",
+  "domain": "general",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Apply exact Tailwind arbitrary shadow utilities for polished, layered neutral elevation. Use when compact cards, controls, panels, popovers, hero media, feature"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 650,
+  "core_bytes": 2597,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 183,
+      "when": []
+    },
+    {
+      "name": "Shadow Utilities",
+      "bytes": 955,
+      "when": [
+        "shadow",
+        "utilities"
+      ]
+    },
+    {
+      "name": "Beautiful sm",
+      "bytes": 218,
+      "when": [
+        "beautiful"
+      ]
+    },
+    {
+      "name": "Beautiful md",
+      "bytes": 332,
+      "when": [
+        "beautiful"
+      ]
+    },
+    {
+      "name": "Beautiful lg",
+      "bytes": 347,
+      "when": [
+        "beautiful"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 303,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Usage Rules",
+      "bytes": 452,
+      "when": [
+        "usage",
+        "rules"
+      ]
+    },
+    {
+      "name": "Avoid",
+      "bytes": 354,
+      "when": [
+        "avoid"
+      ]
+    }
+  ],
+  "keywords": [
+    "beautiful",
+    "examples",
+    "usage",
+    "rules",
+    "avoid"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\beautiful-shadows\\SKILL.md"
+}

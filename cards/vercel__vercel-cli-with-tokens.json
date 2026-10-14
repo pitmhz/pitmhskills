@@ -27,7 +27,222 @@
   "conflicts_with": [],
   "body_tokens": 2697,
   "core_bytes": 10829,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Step 1: Locate the Vercel Token",
+      "bytes": 1588,
+      "when": [
+        "step",
+        "locate",
+        "vercel",
+        "token"
+      ]
+    },
+    {
+      "name": "A) `VERCEL_TOKEN` is already set in the environment",
+      "bytes": 156,
+      "when": [
+        "vercel",
+        "token",
+        "already",
+        "environment"
+      ]
+    },
+    {
+      "name": "B) Token is in a `.env` file under `VERCEL_TOKEN`",
+      "bytes": 219,
+      "when": [
+        "token",
+        "file",
+        "under",
+        "vercel"
+      ]
+    },
+    {
+      "name": "C) Token is in a `.env` file under a different name",
+      "bytes": 396,
+      "when": [
+        "token",
+        "file",
+        "under",
+        "different",
+        "name"
+      ]
+    },
+    {
+      "name": "D) No token found — ask the user",
+      "bytes": 656,
+      "when": [
+        "token",
+        "found",
+        "user"
+      ]
+    },
+    {
+      "name": "Step 2: Locate the Project and Team",
+      "bytes": 935,
+      "when": [
+        "step",
+        "locate",
+        "project",
+        "team"
+      ]
+    },
+    {
+      "name": "CLI Setup",
+      "bytes": 127,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Deploying a Project",
+      "bytes": 3431,
+      "when": [
+        "deploying",
+        "project"
+      ]
+    },
+    {
+      "name": "Quick Deploy (have project ID — no linking needed)",
+      "bytes": 509,
+      "when": [
+        "quick",
+        "deploy",
+        "project",
+        "linking",
+        "needed"
+      ]
+    },
+    {
+      "name": "Full Deploy Flow (no project ID — need to link)",
+      "bytes": 1801,
+      "when": [
+        "full",
+        "deploy",
+        "flow",
+        "project",
+        "need",
+        "link"
+      ]
+    },
+    {
+      "name": "Deploying from a Remote Repository (code not cloned locally)",
+      "bytes": 311,
+      "when": [
+        "deploying",
+        "remote",
+        "repository",
+        "code",
+        "cloned",
+        "locally"
+      ]
+    },
+    {
+      "name": "About `.vercel/` Directory",
+      "bytes": 654,
+      "when": [
+        "vercel",
+        "directory"
+      ]
+    },
+    {
+      "name": "Managing Environment Variables",
+      "bytes": 501,
+      "when": [
+        "managing",
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Inspecting Deployments",
+      "bytes": 401,
+      "when": [
+        "inspecting",
+        "deployments"
+      ]
+    },
+    {
+      "name": "Managing Domains",
+      "bytes": 351,
+      "when": [
+        "managing",
+        "domains"
+      ]
+    },
+    {
+      "name": "Stripe Projects Plan Changes",
+      "bytes": 1178,
+      "when": [
+        "stripe",
+        "projects",
+        "plan",
+        "changes"
+      ]
+    },
+    {
+      "name": "What Pro gives you",
+      "bytes": 570,
+      "when": []
+    },
+    {
+      "name": "Working Agreement",
+      "bytes": 814,
+      "when": [
+        "working",
+        "agreement"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1009,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Token not found",
+      "bytes": 154,
+      "when": [
+        "token",
+        "found"
+      ]
+    },
+    {
+      "name": "Authentication error",
+      "bytes": 222,
+      "when": [
+        "authentication",
+        "error"
+      ]
+    },
+    {
+      "name": "Wrong team",
+      "bytes": 101,
+      "when": [
+        "wrong",
+        "team"
+      ]
+    },
+    {
+      "name": "Build failure",
+      "bytes": 448,
+      "when": [
+        "build",
+        "failure"
+      ]
+    },
+    {
+      "name": "CLI not installed",
+      "bytes": 62,
+      "when": [
+        "installed"
+      ]
+    }
+  ],
+  "verify": [
+    "npx vercel whoami"
+  ],
   "skill_path": "skills/vercel/skills/vercel-cli-with-tokens/SKILL.md"
 }

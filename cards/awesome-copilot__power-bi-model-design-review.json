@@ -1,0 +1,184 @@
+{
+  "id": "awesome-copilot__power-bi-model-design-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "bf6268e3d75446533b54887db6263302fde01f516634d4bd60a1cc21928add4c",
+  "purpose": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2782,
+  "core_bytes": 11348,
+  "sections": [
+    {
+      "name": "Review Framework",
+      "bytes": 1840,
+      "when": [
+        "review",
+        "framework"
+      ]
+    },
+    {
+      "name": "**Comprehensive Model Assessment**",
+      "bytes": 1819,
+      "when": [
+        "comprehensive",
+        "model",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Detailed Review Process",
+      "bytes": 3620,
+      "when": [
+        "detailed",
+        "review",
+        "process"
+      ]
+    },
+    {
+      "name": "**Phase 1: Model Architecture Analysis**",
+      "bytes": 1243,
+      "when": [
+        "phase",
+        "model",
+        "architecture",
+        "analysis"
+      ]
+    },
+    {
+      "name": "**Phase 2: Performance and Scalability Review**",
+      "bytes": 1234,
+      "when": [
+        "phase",
+        "performance",
+        "scalability",
+        "review"
+      ]
+    },
+    {
+      "name": "**Phase 3: Maintainability and Governance Review**",
+      "bytes": 1115,
+      "when": [
+        "phase",
+        "maintainability",
+        "governance",
+        "review"
+      ]
+    },
+    {
+      "name": "Review Output Structure",
+      "bytes": 2184,
+      "when": [
+        "review",
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "**Executive Summary Template**",
+      "bytes": 776,
+      "when": [
+        "executive",
+        "summary",
+        "template"
+      ]
+    },
+    {
+      "name": "**Detailed Review Report**",
+      "bytes": 1380,
+      "when": [
+        "detailed",
+        "review",
+        "report"
+      ]
+    },
+    {
+      "name": "Review Checklist Templates",
+      "bytes": 1419,
+      "when": [
+        "review",
+        "checklist",
+        "templates"
+      ]
+    },
+    {
+      "name": "**Quick Assessment Checklist** (30-minute review)",
+      "bytes": 494,
+      "when": [
+        "quick",
+        "assessment",
+        "checklist",
+        "minute",
+        "review"
+      ]
+    },
+    {
+      "name": "**Comprehensive Review Checklist** (4-8 hour review)",
+      "bytes": 894,
+      "when": [
+        "comprehensive",
+        "review",
+        "checklist",
+        "hour"
+      ]
+    },
+    {
+      "name": "Specialized Review Types",
+      "bytes": 1793,
+      "when": [
+        "specialized",
+        "review",
+        "types"
+      ]
+    },
+    {
+      "name": "**Pre-Production Review**",
+      "bytes": 360,
+      "when": [
+        "production",
+        "review"
+      ]
+    },
+    {
+      "name": "**Performance Optimization Review**",
+      "bytes": 442,
+      "when": [
+        "performance",
+        "optimization",
+        "review"
+      ]
+    },
+    {
+      "name": "**Modernization Assessment**",
+      "bytes": 962,
+      "when": [
+        "modernization",
+        "assessment"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\power-bi-model-design-review\\SKILL.md"
+}

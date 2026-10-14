@@ -28,7 +28,23 @@
   "conflicts_with": [],
   "body_tokens": 690,
   "core_bytes": 2762,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Rebrand",
+      "bytes": 670,
+      "when": [
+        "rebrand"
+      ]
+    },
+    {
+      "name": "Choose the workflow",
+      "bytes": 1296,
+      "when": [
+        "choose",
+        "workflow"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/basin/SKILL.md"
 }

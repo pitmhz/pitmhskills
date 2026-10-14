@@ -1,0 +1,123 @@
+{
+  "id": "mengto-skills__3d-paper-material",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "ac994af36740647a2edd69450114b70feefe22dc98a3f768e255177cfc7bdab7",
+  "purpose": "Build a paper sheet in Three.js that reads as paper up close — washi, cotton rag or kraft with baked fibre and tooth relief, laid and chain lines, a torn deckle edge with frayed fibres, four-layer thi",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build a paper sheet in Three.js that reads as paper up close — washi, cotton rag or kraft with baked fibre and tooth relief, laid and chain lines, a torn deckle"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2382,
+  "core_bytes": 9533,
+  "sections": [
+    {
+      "name": "The pipeline",
+      "bytes": 1622,
+      "when": [
+        "pipeline"
+      ]
+    },
+    {
+      "name": "Constants that landed",
+      "bytes": 871,
+      "when": [
+        "constants",
+        "landed"
+      ]
+    },
+    {
+      "name": "Rules and the failure each prevents",
+      "bytes": 1709,
+      "when": [
+        "rules",
+        "failure",
+        "each",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Gotchas, symptom first",
+      "bytes": 1510,
+      "when": [
+        "gotchas",
+        "symptom",
+        "first"
+      ]
+    },
+    {
+      "name": "Playback and lifecycle",
+      "bytes": 456,
+      "when": [
+        "playback",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Cost (measured, 1440x900 headless Chrome on Metal, DPR 1)",
+      "bytes": 552,
+      "when": [
+        "cost",
+        "measured",
+        "1440x900",
+        "headless",
+        "chrome",
+        "metal"
+      ]
+    },
+    {
+      "name": "Provenance",
+      "bytes": 221,
+      "when": [
+        "provenance"
+      ]
+    },
+    {
+      "name": "Self-score against the anchored rubric (0 = flat plane, 5 = tileable noise textu",
+      "bytes": 901,
+      "when": [
+        "self",
+        "score",
+        "against",
+        "anchored",
+        "rubric",
+        "flat",
+        "plane",
+        "tileable"
+      ]
+    }
+  ],
+  "keywords": [
+    "pipeline",
+    "constants",
+    "landed",
+    "rules",
+    "failure",
+    "each",
+    "prevents",
+    "gotchas",
+    "symptom",
+    "first",
+    "playback",
+    "lifecycle"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-paper-material\\SKILL.md"
+}

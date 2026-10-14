@@ -1,0 +1,338 @@
+{
+  "id": "mengto-skills__landing-page",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "a75f6e8e2d4b2f4ffd0fe793af496de226d3897de359a84a39ddb6d971e694db",
+  "purpose": "Use when designing or rewriting a high-converting landing page (single-offer page) for SaaS/apps/services. Covers structure, layout patterns, conversion strategies, copywriting, SEO/AEO, and common pi",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use when designing or rewriting a high-converting landing page (single-offer page) for SaaS/apps/services. Covers structure, layout patterns, conversion strateg"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "High-converting SaaS landing page (offer, hierarchy, pacing) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "saas offer hierarchy pacing conversion",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1342,
+  "core_bytes": 5483,
+  "sections": [
+    {
+      "name": "Before you design/write",
+      "bytes": 828,
+      "when": [
+        "before",
+        "design",
+        "write"
+      ]
+    },
+    {
+      "name": "1) Page purpose",
+      "bytes": 204,
+      "when": [
+        "page",
+        "purpose"
+      ]
+    },
+    {
+      "name": "2) Audience + context",
+      "bytes": 241,
+      "when": [
+        "audience",
+        "context"
+      ]
+    },
+    {
+      "name": "3) Proof + assets",
+      "bytes": 174,
+      "when": [
+        "proof",
+        "assets"
+      ]
+    },
+    {
+      "name": "4) Constraints",
+      "bytes": 153,
+      "when": [
+        "constraints"
+      ]
+    },
+    {
+      "name": "Core structure (what it should include)",
+      "bytes": 708,
+      "when": [
+        "core",
+        "structure",
+        "include"
+      ]
+    },
+    {
+      "name": "Above the fold (must)",
+      "bytes": 316,
+      "when": [
+        "above",
+        "fold"
+      ]
+    },
+    {
+      "name": "Mid page (argument)",
+      "bytes": 187,
+      "when": [
+        "page",
+        "argument"
+      ]
+    },
+    {
+      "name": "Bottom (objection handling)",
+      "bytes": 159,
+      "when": [
+        "bottom",
+        "objection",
+        "handling"
+      ]
+    },
+    {
+      "name": "Layout types (pick one)",
+      "bytes": 525,
+      "when": [
+        "layout",
+        "types",
+        "pick"
+      ]
+    },
+    {
+      "name": "A) Classic hero + sections (most common)",
+      "bytes": 112,
+      "when": [
+        "classic",
+        "hero",
+        "sections",
+        "common"
+      ]
+    },
+    {
+      "name": "B) Long-form story (sales page)",
+      "bytes": 96,
+      "when": [
+        "long",
+        "form",
+        "story",
+        "sales",
+        "page"
+      ]
+    },
+    {
+      "name": "C) Minimal conversion page",
+      "bytes": 129,
+      "when": [
+        "minimal",
+        "conversion",
+        "page"
+      ]
+    },
+    {
+      "name": "D) Comparison landing page",
+      "bytes": 158,
+      "when": [
+        "comparison",
+        "landing",
+        "page"
+      ]
+    },
+    {
+      "name": "High‑conversion strategies (practical)",
+      "bytes": 804,
+      "when": [
+        "high",
+        "conversion",
+        "strategies",
+        "practical"
+      ]
+    },
+    {
+      "name": "1) Match message to source",
+      "bytes": 137,
+      "when": [
+        "match",
+        "message",
+        "source"
+      ]
+    },
+    {
+      "name": "2) Make the next step obvious",
+      "bytes": 104,
+      "when": [
+        "next",
+        "step",
+        "obvious"
+      ]
+    },
+    {
+      "name": "3) Write benefit-first",
+      "bytes": 94,
+      "when": [
+        "write",
+        "benefit",
+        "first"
+      ]
+    },
+    {
+      "name": "4) Use specificity",
+      "bytes": 130,
+      "when": [
+        "specificity"
+      ]
+    },
+    {
+      "name": "5) Reduce risk",
+      "bytes": 129,
+      "when": [
+        "reduce",
+        "risk"
+      ]
+    },
+    {
+      "name": "6) Objection handling is a section, not a footer",
+      "bytes": 163,
+      "when": [
+        "objection",
+        "handling",
+        "section",
+        "footer"
+      ]
+    },
+    {
+      "name": "Copywriting templates",
+      "bytes": 573,
+      "when": [
+        "copywriting",
+        "templates"
+      ]
+    },
+    {
+      "name": "Headline formulas",
+      "bytes": 131,
+      "when": [
+        "headline",
+        "formulas"
+      ]
+    },
+    {
+      "name": "Subheadline rules",
+      "bytes": 83,
+      "when": [
+        "subheadline",
+        "rules"
+      ]
+    },
+    {
+      "name": "CTA rules",
+      "bytes": 179,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Benefit bullets",
+      "bytes": 152,
+      "when": [
+        "benefit",
+        "bullets"
+      ]
+    },
+    {
+      "name": "Section-by-section workflow (designer-friendly)",
+      "bytes": 249,
+      "when": [
+        "section",
+        "workflow",
+        "designer",
+        "friendly"
+      ]
+    },
+    {
+      "name": "SEO + AEO checklist (when relevant)",
+      "bytes": 446,
+      "when": [
+        "checklist",
+        "relevant"
+      ]
+    },
+    {
+      "name": "When landing pages should NOT be indexed",
+      "bytes": 157,
+      "when": [
+        "landing",
+        "pages",
+        "indexed"
+      ]
+    },
+    {
+      "name": "When they SHOULD be indexed",
+      "bytes": 247,
+      "when": [
+        "they",
+        "indexed"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 241,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Output format (when generating a landing page)",
+      "bytes": 377,
+      "when": [
+        "output",
+        "format",
+        "generating",
+        "landing",
+        "page"
+      ]
+    },
+    {
+      "name": "Quick questions (if user says “make a landing page”)",
+      "bytes": 257,
+      "when": [
+        "quick",
+        "questions",
+        "user",
+        "says",
+        "landing",
+        "page"
+      ]
+    }
+  ],
+  "keywords": [
+    "design",
+    "skill",
+    "before",
+    "write",
+    "purpose",
+    "audience",
+    "context",
+    "proof",
+    "assets",
+    "constraints",
+    "core",
+    "include"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\landing-page\\SKILL.md"
+}

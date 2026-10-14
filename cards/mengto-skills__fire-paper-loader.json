@@ -1,0 +1,122 @@
+{
+  "id": "mengto-skills__fire-paper-loader",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "d12033cd7ccdf359a41bf932d86e1d40eed475619046b532bf1e75452b8c3b3a",
+  "purpose": "Build a burning-paper ring loader whose GLSL flame is drawn by a Worker on an OffscreenCanvas started from the head, so a main thread blocked by the page build cannot freeze it, with a progress count,",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build a burning-paper ring loader whose GLSL flame is drawn by a Worker on an OffscreenCanvas started from the head, so a main thread blocked by the page build "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2717,
+  "core_bytes": 10871,
+  "sections": [
+    {
+      "name": "Start from the head, not from the body",
+      "bytes": 1445,
+      "when": [
+        "start",
+        "head",
+        "body"
+      ]
+    },
+    {
+      "name": "Compile in parallel, warm the pipeline, then show",
+      "bytes": 995,
+      "when": [
+        "compile",
+        "parallel",
+        "warm",
+        "pipeline",
+        "show"
+      ]
+    },
+    {
+      "name": "The ring's pace is planned in what is seen",
+      "bytes": 1123,
+      "when": [
+        "ring",
+        "pace",
+        "planned",
+        "seen"
+      ]
+    },
+    {
+      "name": "Hand off without a stall",
+      "bytes": 1678,
+      "when": [
+        "hand",
+        "stall"
+      ]
+    },
+    {
+      "name": "The burn look: the footer is the reference",
+      "bytes": 1989,
+      "when": [
+        "burn",
+        "look",
+        "footer",
+        "reference"
+      ]
+    },
+    {
+      "name": "Cost, measured",
+      "bytes": 553,
+      "when": [
+        "cost",
+        "measured"
+      ]
+    },
+    {
+      "name": "Lifecycle and accessibility",
+      "bytes": 784,
+      "when": [
+        "lifecycle",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Boundary of what this skill gives you",
+      "bytes": 690,
+      "when": [
+        "boundary",
+        "skill"
+      ]
+    }
+  ],
+  "keywords": [
+    "body",
+    "pipeline",
+    "show",
+    "pace",
+    "planned",
+    "seen",
+    "look",
+    "footer",
+    "reference",
+    "cost",
+    "measured",
+    "lifecycle",
+    "accessibility"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\fire-paper-loader\\SKILL.md"
+}

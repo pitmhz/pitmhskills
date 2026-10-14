@@ -1,0 +1,163 @@
+{
+  "id": "nvidia__tao-run-automl-deft-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "788515618a677ee301a58c403b95d8dc9c7f72851f8d0f9655632c855adf55dd",
+  "purpose": "Run the canonical NVIDIA AOI three-phase training pipeline — Phase 1 AutoML baseline (HPO), Phase 2 DEFT loop (RCA → SDG → mining → plain-train retrain), Phase 3 AutoML refinement on the DEFT-augmente",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run the canonical NVIDIA AOI three-phase training pipeline — Phase 1 AutoML baseline (HPO), Phase 2 DEFT loop (RCA → SDG → mining → plain-train retrain), Phase "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4327,
+  "core_bytes": 17693,
+  "sections": [
+    {
+      "name": "Routing policy",
+      "bytes": 457,
+      "when": [
+        "routing",
+        "policy"
+      ]
+    },
+    {
+      "name": "When this skill does NOT apply",
+      "bytes": 318,
+      "when": [
+        "skill",
+        "apply"
+      ]
+    },
+    {
+      "name": "The mental model",
+      "bytes": 2488,
+      "when": [
+        "mental",
+        "model"
+      ]
+    },
+    {
+      "name": "Why three phases instead of two",
+      "bytes": 777,
+      "when": [
+        "three",
+        "phases",
+        "instead"
+      ]
+    },
+    {
+      "name": "Cost up-front",
+      "bytes": 796,
+      "when": [
+        "cost",
+        "front"
+      ]
+    },
+    {
+      "name": "Consolidated Pre-Flight — one gate, all three phases",
+      "bytes": 1717,
+      "when": [
+        "consolidated",
+        "flight",
+        "gate",
+        "three",
+        "phases"
+      ]
+    },
+    {
+      "name": "Phase 1 — AutoML baseline",
+      "bytes": 1933,
+      "when": [
+        "phase",
+        "automl",
+        "baseline"
+      ]
+    },
+    {
+      "name": "Handoff to Phase 2",
+      "bytes": 767,
+      "when": [
+        "handoff",
+        "phase"
+      ]
+    },
+    {
+      "name": "Phase 2 — DEFT loop (plain training, baseline pre-seeded from Phase 1)",
+      "bytes": 1603,
+      "when": [
+        "phase",
+        "deft",
+        "loop",
+        "plain",
+        "training",
+        "baseline",
+        "seeded"
+      ]
+    },
+    {
+      "name": "Phase 3 — AutoML refinement on the DEFT-augmented dataset",
+      "bytes": 1955,
+      "when": [
+        "phase",
+        "automl",
+        "refinement",
+        "deft",
+        "augmented",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Pitfalls and quality checks",
+      "bytes": 1335,
+      "when": [
+        "pitfalls",
+        "quality",
+        "checks"
+      ]
+    },
+    {
+      "name": "Quick Start (AOI worked example)",
+      "bytes": 929,
+      "when": [
+        "quick",
+        "start",
+        "worked",
+        "example"
+      ]
+    },
+    {
+      "name": "Non-AOI DEFT applications",
+      "bytes": 735,
+      "when": [
+        "deft",
+        "applications"
+      ]
+    },
+    {
+      "name": "See also",
+      "bytes": 752,
+      "when": []
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-run-automl-deft-pipeline\\SKILL.md",
+  "curated": true
+}

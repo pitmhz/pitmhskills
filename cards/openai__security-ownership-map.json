@@ -27,7 +27,94 @@
   "conflicts_with": [],
   "body_tokens": 2235,
   "core_bytes": 8942,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 305,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 156,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1191,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 883,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Sensitivity rules",
+      "bytes": 284,
+      "when": [
+        "sensitivity",
+        "rules"
+      ]
+    },
+    {
+      "name": "Output artifacts",
+      "bytes": 879,
+      "when": [
+        "output",
+        "artifacts"
+      ]
+    },
+    {
+      "name": "LLM query helper",
+      "bytes": 1191,
+      "when": [
+        "query",
+        "helper"
+      ]
+    },
+    {
+      "name": "Basic security queries",
+      "bytes": 2979,
+      "when": [
+        "basic",
+        "security",
+        "queries"
+      ]
+    },
+    {
+      "name": "Summary format (default)",
+      "bytes": 385,
+      "when": [
+        "summary",
+        "format",
+        "default"
+      ]
+    },
+    {
+      "name": "Graph persistence",
+      "bytes": 167,
+      "when": [
+        "graph",
+        "persistence"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 286,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/security-ownership-map/SKILL.md"
 }

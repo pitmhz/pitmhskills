@@ -1,0 +1,136 @@
+{
+  "id": "nvidia__nv-generate-mr-brain-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4277b4e9229f7f97159c9e91da50a50bb0c2971c99df6f1e9a064747fe12f5b8",
+  "purpose": "Used for finetuning NV-Generate-CTMR MR-Brain v1 for T1, T2, FLAIR, SWI, or MRA data from a NIfTI datalist. Not for clinical or production data approval.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Used for finetuning NV-Generate-CTMR MR-Brain v1 for T1, T2, FLAIR, SWI, or MRA data from a NIfTI datalist. Not for clinical or production data approval."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3961,
+  "core_bytes": 15874,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 984,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1108,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1029,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 370,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 2833,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "1. Config and environment JSON (adapt to your data)",
+      "bytes": 4103,
+      "when": [
+        "config",
+        "environment",
+        "json",
+        "adapt",
+        "data"
+      ]
+    },
+    {
+      "name": "2. Usage (one-line training)",
+      "bytes": 1486,
+      "when": [
+        "usage",
+        "line",
+        "training"
+      ]
+    },
+    {
+      "name": "3. Monitor training (TensorBoard)",
+      "bytes": 606,
+      "when": [
+        "monitor",
+        "training",
+        "tensorboard"
+      ]
+    },
+    {
+      "name": "4. Hyperparameter tuning and common pitfalls",
+      "bytes": 1050,
+      "when": [
+        "hyperparameter",
+        "tuning",
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "5. Evaluate the finetuned model",
+      "bytes": 606,
+      "when": [
+        "evaluate",
+        "finetuned",
+        "model"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 597,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 613,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nv-generate-mr-brain-finetune/SKILL.md",
+  "curated": true
+}

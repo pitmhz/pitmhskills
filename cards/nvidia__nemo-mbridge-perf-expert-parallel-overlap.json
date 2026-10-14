@@ -1,0 +1,233 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-expert-parallel-overlap",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "abd18eb5e29f54fcd955ab6fab435c371d88efe4ec479d2ff58a1b8781791d77",
+  "purpose": "Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_parallel_comm, delay_wgrad_compute, and flex dispatcher backends such as DeepEP and HybridEP",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_parallel_comm, delay_wgrad_compute, and flex dispatc"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3627,
+  "core_bytes": 14508,
+  "sections": [
+    {
+      "name": "References",
+      "bytes": 159,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "What It Is",
+      "bytes": 589,
+      "when": []
+    },
+    {
+      "name": "Quick Decision",
+      "bytes": 809,
+      "when": [
+        "quick",
+        "decision"
+      ]
+    },
+    {
+      "name": "Correctness-First alltoall Benchmark",
+      "bytes": 1329,
+      "when": [
+        "correctness",
+        "first",
+        "alltoall",
+        "benchmark"
+      ]
+    },
+    {
+      "name": "HybridEP Production-Shape Benchmark",
+      "bytes": 1456,
+      "when": [
+        "hybridep",
+        "production",
+        "shape",
+        "benchmark"
+      ]
+    },
+    {
+      "name": "Enablement",
+      "bytes": 1182,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "alltoall dispatcher",
+      "bytes": 515,
+      "when": [
+        "alltoall",
+        "dispatcher"
+      ]
+    },
+    {
+      "name": "flex dispatcher (DeepEP or HybridEP)",
+      "bytes": 650,
+      "when": [
+        "flex",
+        "dispatcher",
+        "deepep",
+        "hybridep"
+      ]
+    },
+    {
+      "name": "Compatibility And Constraints",
+      "bytes": 960,
+      "when": [
+        "compatibility",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Minimal Working Config",
+      "bytes": 512,
+      "when": [
+        "minimal",
+        "working",
+        "config"
+      ]
+    },
+    {
+      "name": "Minimal Runnable Command",
+      "bytes": 1036,
+      "when": [
+        "minimal",
+        "runnable",
+        "command"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 1578,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "Unit tests",
+      "bytes": 160,
+      "when": [
+        "unit",
+        "tests"
+      ]
+    },
+    {
+      "name": "Log checks",
+      "bytes": 336,
+      "when": [
+        "checks"
+      ]
+    },
+    {
+      "name": "Success criteria",
+      "bytes": 317,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Profile interpretation",
+      "bytes": 746,
+      "when": [
+        "profile",
+        "interpretation"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 1900,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Bridge overlap validation",
+      "bytes": 526,
+      "when": [
+        "bridge",
+        "overlap",
+        "validation"
+      ]
+    },
+    {
+      "name": "Delayed wgrad validation",
+      "bytes": 342,
+      "when": [
+        "delayed",
+        "wgrad",
+        "validation"
+      ]
+    },
+    {
+      "name": "Flex-dispatcher activation",
+      "bytes": 381,
+      "when": [
+        "flex",
+        "dispatcher",
+        "activation"
+      ]
+    },
+    {
+      "name": "Perf harness override",
+      "bytes": 361,
+      "when": [
+        "perf",
+        "harness",
+        "override"
+      ]
+    },
+    {
+      "name": "Tests",
+      "bytes": 271,
+      "when": [
+        "tests"
+      ]
+    },
+    {
+      "name": "Failure Diagnosis",
+      "bytes": 1722,
+      "when": [
+        "failure",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Known Limitations",
+      "bytes": 688,
+      "when": [
+        "known",
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run python -m pytest tests/unit_tests/training/test_comm_overlap.py tests/unit_tests/training/test_deepep.py -q"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-expert-parallel-overlap/SKILL.md",
+  "curated": true
+}

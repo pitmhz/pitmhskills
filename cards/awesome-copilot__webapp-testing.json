@@ -1,0 +1,182 @@
+{
+  "id": "awesome-copilot__webapp-testing",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c4629221463d79c84555721ae2a30a6c345dd4d16c38cf6dbe735126e2426044",
+  "purpose": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser l",
+  "domain": "frontend",
+  "task_types": [
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing br"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 954,
+  "core_bytes": 3814,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 349,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 169,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Capabilities",
+      "bytes": 410,
+      "when": [
+        "core",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "1. Browser Automation",
+      "bytes": 139,
+      "when": [
+        "browser",
+        "automation"
+      ]
+    },
+    {
+      "name": "2. Verification",
+      "bytes": 140,
+      "when": [
+        "verification"
+      ]
+    },
+    {
+      "name": "3. Debugging",
+      "bytes": 109,
+      "when": [
+        "debugging"
+      ]
+    },
+    {
+      "name": "Usage Examples",
+      "bytes": 631,
+      "when": [
+        "usage",
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: Basic Navigation Test",
+      "bytes": 207,
+      "when": [
+        "example",
+        "basic",
+        "navigation",
+        "test"
+      ]
+    },
+    {
+      "name": "Example 2: Form Interaction",
+      "bytes": 251,
+      "when": [
+        "example",
+        "form",
+        "interaction"
+      ]
+    },
+    {
+      "name": "Example 3: Screenshot Capture",
+      "bytes": 154,
+      "when": [
+        "example",
+        "screenshot",
+        "capture"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 603,
+      "when": [
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 543,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Pattern: Wait for Element",
+      "bytes": 115,
+      "when": [
+        "pattern",
+        "wait",
+        "element"
+      ]
+    },
+    {
+      "name": "Pattern: Check if Element Exists",
+      "bytes": 121,
+      "when": [
+        "pattern",
+        "check",
+        "element",
+        "exists"
+      ]
+    },
+    {
+      "name": "Pattern: Get Console Logs",
+      "bytes": 120,
+      "when": [
+        "pattern",
+        "console",
+        "logs"
+      ]
+    },
+    {
+      "name": "Pattern: Handle Errors",
+      "bytes": 167,
+      "when": [
+        "pattern",
+        "handle",
+        "errors"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 236,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Helper Functions",
+      "bytes": 297,
+      "when": [
+        "helper",
+        "functions"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\webapp-testing\\SKILL.md"
+}

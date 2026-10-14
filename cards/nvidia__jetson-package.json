@@ -1,0 +1,136 @@
+{
+  "id": "nvidia__jetson-package",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1de005b79b4d3d97b5101e5b038fadf9c852a255583281c03c018c84a9da40b3",
+  "purpose": "Pick Jetson-compatible containers, vLLM runtime images, and Jetson AI Lab PyPI indexes; maps Orin SM 8.7 vs Thor SM 11.0 and JetPack-specific package choices.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Pick Jetson-compatible containers, vLLM runtime images, and Jetson AI Lab PyPI indexes; maps Orin SM 8.7 vs Thor SM 11.0 and JetPack-specific package choices."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1855,
+  "core_bytes": 7445,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 282,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 519,
+      "when": []
+    },
+    {
+      "name": "Canonical sources (use these first)",
+      "bytes": 1771,
+      "when": [
+        "canonical",
+        "sources",
+        "first"
+      ]
+    },
+    {
+      "name": "GPU architecture reminder (why generic ARM fails)",
+      "bytes": 909,
+      "when": [
+        "architecture",
+        "reminder",
+        "generic",
+        "fails"
+      ]
+    },
+    {
+      "name": "GPU Python wheels on Jetson",
+      "bytes": 721,
+      "when": [
+        "python",
+        "wheels",
+        "jetson"
+      ]
+    },
+    {
+      "name": "Do not fabricate device facts",
+      "bytes": 272,
+      "when": [
+        "fabricate",
+        "device",
+        "facts"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 338,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 475,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 559,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 367,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Hand off to",
+      "bytes": 312,
+      "when": [
+        "hand"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 89,
+      "when": [
+        "safety"
+      ]
+    },
+    {
+      "name": "Sources",
+      "bytes": 153,
+      "when": [
+        "sources"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/jetson-package/SKILL.md",
+  "curated": true
+}

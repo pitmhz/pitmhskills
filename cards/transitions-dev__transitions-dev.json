@@ -1,0 +1,97 @@
+{
+  "id": "transitions-dev__transitions-dev",
+  "tier": "B",
+  "origin": [
+    "Jakubantalik/transitions-dev@038b0bdc75375c2beed51d1e824c98cdc7b86f8c"
+  ],
+  "license": "MIT",
+  "hash": "1c76817d92f8ec0e90dda504ba3d672e1552f9729fe65368ed153127be60e514",
+  "purpose": "Production-ready CSS transitions for web apps. Use when implementing notification badges, dropdowns, modals, panel reveals, page transitions, card resizes, number pop-ins, text swaps, icon swaps, succ",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Production-ready CSS transitions for web apps. Use when implementing notification badges, dropdowns, modals, panel reveals, page transitions, card resizes, numb"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Drop-in CSS transition patterns -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "transitions css snippets modals dropdowns",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2882,
+  "core_bytes": 11615,
+  "sections": [
+    {
+      "name": "Quick reference",
+      "bytes": 1743,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Decision rules",
+      "bytes": 1361,
+      "when": [
+        "decision",
+        "rules"
+      ]
+    },
+    {
+      "name": "Universal install",
+      "bytes": 3532,
+      "when": [
+        "universal",
+        "install"
+      ]
+    },
+    {
+      "name": "Output format",
+      "bytes": 1507,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Common mistakes to avoid",
+      "bytes": 1486,
+      "when": [
+        "common",
+        "mistakes",
+        "avoid"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 943,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "quick",
+    "reference",
+    "decision",
+    "rules",
+    "universal",
+    "install",
+    "output",
+    "format",
+    "common",
+    "mistakes",
+    "avoid",
+    "files"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\transitions-dev\\skills\\transitions-dev\\SKILL.md"
+}

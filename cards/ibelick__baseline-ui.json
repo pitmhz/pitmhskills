@@ -1,0 +1,106 @@
+{
+  "id": "ibelick__baseline-ui",
+  "tier": "B",
+  "origin": [
+    "ibelick/ui-skills@c628a5917754ec2396d9cbb47988f280ba1d5cb0"
+  ],
+  "license": "MIT",
+  "hash": "0986e5bdf1a004b449b710579a03ebaef909f8f67911c64f50874800ad9b5bc5",
+  "purpose": "Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Fast deslop cleanup pass (spacing, hierarchy, type) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "deslop cleanup spacing hierarchy",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 876,
+  "core_bytes": 3504,
+  "sections": [
+    {
+      "name": "How to use",
+      "bytes": 319,
+      "when": []
+    },
+    {
+      "name": "Stack",
+      "bytes": 353,
+      "when": [
+        "stack"
+      ]
+    },
+    {
+      "name": "Components",
+      "bytes": 518,
+      "when": [
+        "components"
+      ]
+    },
+    {
+      "name": "Interaction",
+      "bytes": 341,
+      "when": [
+        "interaction"
+      ]
+    },
+    {
+      "name": "Animation",
+      "bytes": 646,
+      "when": [
+        "animation"
+      ]
+    },
+    {
+      "name": "Typography",
+      "bytes": 263,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "Layout",
+      "bytes": 140,
+      "when": [
+        "layout"
+      ]
+    },
+    {
+      "name": "Performance",
+      "bytes": 215,
+      "when": [
+        "performance"
+      ]
+    },
+    {
+      "name": "Design",
+      "bytes": 418,
+      "when": [
+        "design"
+      ]
+    }
+  ],
+  "keywords": [
+    "baseline",
+    "stack",
+    "components",
+    "interaction",
+    "animation",
+    "performance",
+    "design"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\baseline-ui\\SKILL.md"
+}

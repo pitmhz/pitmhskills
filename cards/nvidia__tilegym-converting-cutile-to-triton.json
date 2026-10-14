@@ -1,0 +1,126 @@
+{
+  "id": "nvidia__tilegym-converting-cutile-to-triton",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c01d9a7ec1e985118b91c0d7563e70b125502d2577ae5b346febc1babcdf4154",
+  "purpose": "Converts cuTile GPU kernels (@ct.kernel) to Triton (@triton.jit). Handles standard in-repo conversion, debugging (cudaErrorIllegalAddress, shape mismatch, numerical mismatch), and mapping cuTile idiom",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Converts cuTile GPU kernels (@ct.kernel) to Triton (@triton.jit). Handles standard in-repo conversion, debugging (cudaErrorIllegalAddress, shape mismatch, numer"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4267,
+  "core_bytes": 17275,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 3663,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Workflow Selection",
+      "bytes": 2378,
+      "when": [
+        "workflow",
+        "selection"
+      ]
+    },
+    {
+      "name": "Pre-flight Analysis (Run BEFORE converting)",
+      "bytes": 1056,
+      "when": [
+        "flight",
+        "analysis",
+        "before",
+        "converting"
+      ]
+    },
+    {
+      "name": "Conversion Checklist",
+      "bytes": 3384,
+      "when": [
+        "conversion",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Gotchas (Most Common Translation Errors) {#gotchas-most-common-translation-error",
+      "bytes": 411,
+      "when": [
+        "gotchas",
+        "common",
+        "translation",
+        "errors"
+      ]
+    },
+    {
+      "name": "Performance Gotchas (10-50x Regression Risk) {#performance-gotchas-10-50x-regres",
+      "bytes": 910,
+      "when": [
+        "performance",
+        "gotchas",
+        "regression",
+        "risk"
+      ]
+    },
+    {
+      "name": "Optimization strategy (hub)",
+      "bytes": 653,
+      "when": [
+        "optimization",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Reference Documents {#reference-documents}",
+      "bytes": 1548,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "Worked Examples",
+      "bytes": 639,
+      "when": [
+        "worked",
+        "examples"
+      ]
+    },
+    {
+      "name": "⚠️ MANDATORY COMPLETION CHECKLIST (DO NOT SKIP)",
+      "bytes": 1426,
+      "when": [
+        "mandatory",
+        "completion",
+        "checklist",
+        "skip"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- pytest"
+  ],
+  "skill_path": "skills/nvidia/skills/tilegym-converting-cutile-to-triton/SKILL.md",
+  "curated": true
+}

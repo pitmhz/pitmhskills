@@ -1,0 +1,144 @@
+{
+  "id": "awesome-copilot__noob-mode",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8c9787dae002acfc9f8d49ffd1792df23f07aa6b8350ed942dad47a79d7a6706",
+  "purpose": "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicat",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-fr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2765,
+  "core_bytes": 11221,
+  "sections": [
+    {
+      "name": "What It Does",
+      "bytes": 941,
+      "when": []
+    },
+    {
+      "name": "Activation",
+      "bytes": 384,
+      "when": [
+        "activation"
+      ]
+    },
+    {
+      "name": "Rule 1: Translate Every Approval",
+      "bytes": 1768,
+      "when": [
+        "rule",
+        "translate",
+        "approval"
+      ]
+    },
+    {
+      "name": "Rule 2: Color-Coded Risk Indicators",
+      "bytes": 1430,
+      "when": [
+        "rule",
+        "color",
+        "coded",
+        "risk",
+        "indicators"
+      ]
+    },
+    {
+      "name": "Rule 3: Define Jargon Automatically",
+      "bytes": 989,
+      "when": [
+        "rule",
+        "define",
+        "jargon",
+        "automatically"
+      ]
+    },
+    {
+      "name": "Rule 4: Narrate Multi-Step Tasks",
+      "bytes": 504,
+      "when": [
+        "rule",
+        "narrate",
+        "multi",
+        "step",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Rule 5: Translate Command Output",
+      "bytes": 877,
+      "when": [
+        "rule",
+        "translate",
+        "command",
+        "output"
+      ]
+    },
+    {
+      "name": "Rule 6: Decision Support",
+      "bytes": 811,
+      "when": [
+        "rule",
+        "decision",
+        "support"
+      ]
+    },
+    {
+      "name": "Rule 7: \"What Just Happened?\" Summaries",
+      "bytes": 628,
+      "when": [
+        "rule",
+        "happened",
+        "summaries"
+      ]
+    },
+    {
+      "name": "Rule 8: Safe Defaults",
+      "bytes": 428,
+      "when": [
+        "rule",
+        "safe",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Rule 9: Analogies for Complex Concepts",
+      "bytes": 1323,
+      "when": [
+        "rule",
+        "analogies",
+        "complex",
+        "concepts"
+      ]
+    },
+    {
+      "name": "Rule 10: Encouraging Tone",
+      "bytes": 396,
+      "when": [
+        "rule",
+        "encouraging",
+        "tone"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\noob-mode\\SKILL.md"
+}

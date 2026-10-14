@@ -1,0 +1,94 @@
+{
+  "id": "nvidia__codonfm-finetune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b1a24022701185208e0245be67d39a697689122e4292ebcb74666cf9369408b9",
+  "purpose": "Fine-tune public CodonFM Encodon checkpoints on labeled coding-sequence or coding-variant data using LoRA, head-only, or full fine-tuning. Use when a user explicitly asks to fine-tune CodonFM or Encod",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Fine-tune public CodonFM Encodon checkpoints on labeled coding-sequence or coding-variant data using LoRA, head-only, or full fine-tuning. Use when a user expli"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2466,
+  "core_bytes": 9866,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1774,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1763,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Supported strategies",
+      "bytes": 337,
+      "when": [
+        "supported",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Sequence-level regression or classification",
+      "bytes": 2129,
+      "when": [
+        "sequence",
+        "level",
+        "regression",
+        "classification"
+      ]
+    },
+    {
+      "name": "Generic coding-variant classification",
+      "bytes": 1180,
+      "when": [
+        "generic",
+        "coding",
+        "variant",
+        "classification"
+      ]
+    },
+    {
+      "name": "Execute and outputs",
+      "bytes": 1529,
+      "when": [
+        "execute",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Boundaries",
+      "bytes": 478,
+      "when": [
+        "boundaries"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-codonfm-finetune/SKILL.md",
+  "curated": true
+}

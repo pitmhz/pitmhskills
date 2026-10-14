@@ -1,0 +1,284 @@
+{
+  "id": "web-quality__seo",
+  "tier": "B",
+  "origin": [
+    "addyosmani/web-quality-skills@afa8da942115f2961fdbfa80807ea0b232ff6c00"
+  ],
+  "license": "MIT",
+  "hash": "29598896bc085d1491f0b3f5bc78b04dc228d582a108a0179e919e3908fd3541",
+  "purpose": "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimizatio",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap opti"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3586,
+  "core_bytes": 14386,
+  "sections": [
+    {
+      "name": "Evidence-led audit workflow",
+      "bytes": 1544,
+      "when": [
+        "evidence",
+        "audit",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Technical SEO",
+      "bytes": 2668,
+      "when": [
+        "technical"
+      ]
+    },
+    {
+      "name": "Crawlability",
+      "bytes": 1112,
+      "when": [
+        "crawlability"
+      ]
+    },
+    {
+      "name": "XML sitemap",
+      "bytes": 700,
+      "when": [
+        "sitemap"
+      ]
+    },
+    {
+      "name": "URL structure",
+      "bytes": 469,
+      "when": [
+        "structure"
+      ]
+    },
+    {
+      "name": "HTTPS & security",
+      "bytes": 367,
+      "when": [
+        "https",
+        "security"
+      ]
+    },
+    {
+      "name": "On-page SEO",
+      "bytes": 3300,
+      "when": [
+        "page"
+      ]
+    },
+    {
+      "name": "Title tags",
+      "bytes": 1003,
+      "when": [
+        "title",
+        "tags"
+      ]
+    },
+    {
+      "name": "Meta descriptions",
+      "bytes": 628,
+      "when": [
+        "meta",
+        "descriptions"
+      ]
+    },
+    {
+      "name": "Heading structure",
+      "bytes": 616,
+      "when": [
+        "heading",
+        "structure"
+      ]
+    },
+    {
+      "name": "Image SEO",
+      "bytes": 495,
+      "when": [
+        "image"
+      ]
+    },
+    {
+      "name": "Internal linking",
+      "bytes": 540,
+      "when": [
+        "internal",
+        "linking"
+      ]
+    },
+    {
+      "name": "Structured data (JSON-LD)",
+      "bytes": 595,
+      "when": [
+        "structured",
+        "data",
+        "json"
+      ]
+    },
+    {
+      "name": "Agentic browsing and AI discoverability",
+      "bytes": 3110,
+      "when": [
+        "agentic",
+        "browsing",
+        "discoverability"
+      ]
+    },
+    {
+      "name": "Crawler controls are product-specific",
+      "bytes": 1557,
+      "when": [
+        "crawler",
+        "controls",
+        "product",
+        "specific"
+      ]
+    },
+    {
+      "name": "`llms.txt` is optional",
+      "bytes": 536,
+      "when": [
+        "llms",
+        "optional"
+      ]
+    },
+    {
+      "name": "Mobile SEO",
+      "bytes": 696,
+      "when": [
+        "mobile"
+      ]
+    },
+    {
+      "name": "Responsive design",
+      "bytes": 226,
+      "when": [
+        "responsive",
+        "design"
+      ]
+    },
+    {
+      "name": "Tap targets",
+      "bytes": 261,
+      "when": [
+        "targets"
+      ]
+    },
+    {
+      "name": "Font sizes",
+      "bytes": 192,
+      "when": [
+        "font",
+        "sizes"
+      ]
+    },
+    {
+      "name": "International SEO",
+      "bytes": 492,
+      "when": [
+        "international"
+      ]
+    },
+    {
+      "name": "Hreflang tags",
+      "bytes": 365,
+      "when": [
+        "hreflang",
+        "tags"
+      ]
+    },
+    {
+      "name": "Language declaration",
+      "bytes": 103,
+      "when": [
+        "language",
+        "declaration"
+      ]
+    },
+    {
+      "name": "SEO audit checklist",
+      "bytes": 846,
+      "when": [
+        "audit",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Critical",
+      "bytes": 219,
+      "when": [
+        "critical"
+      ]
+    },
+    {
+      "name": "High priority",
+      "bytes": 161,
+      "when": [
+        "high",
+        "priority"
+      ]
+    },
+    {
+      "name": "Medium priority",
+      "bytes": 234,
+      "when": [
+        "medium",
+        "priority"
+      ]
+    },
+    {
+      "name": "Ongoing",
+      "bytes": 206,
+      "when": [
+        "ongoing"
+      ]
+    },
+    {
+      "name": "Tools",
+      "bytes": 418,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 223,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "evidence",
+    "audit",
+    "workflow",
+    "technical",
+    "crawlability",
+    "robots",
+    "block",
+    "admin",
+    "private",
+    "areas",
+    "resources",
+    "needed",
+    "rendering"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-quality\\skills\\seo\\SKILL.md"
+}

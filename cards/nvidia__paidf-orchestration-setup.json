@@ -1,0 +1,109 @@
+{
+  "id": "nvidia__paidf-orchestration-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "701978285c1c74f792b2b01d8853a30de8ef84f3c2f3f1b63dcbcc276f4d28f7",
+  "purpose": "Audit, prepare, and deploy PAIDF Orchestration on a Kubernetes GPU cluster - single-GPU H100/L40S hosts, managed Kubernetes, kubeadm, and similar. Select for requests to set up, install, deploy, confi",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Audit, prepare, and deploy PAIDF Orchestration on a Kubernetes GPU cluster - single-GPU H100/L40S hosts, managed Kubernetes, kubeadm, and similar. Select for re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3834,
+  "core_bytes": 15370,
+  "sections": [
+    {
+      "name": "Safety boundary",
+      "bytes": 291,
+      "when": [
+        "safety",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Select two independent axes",
+      "bytes": 681,
+      "when": [
+        "select",
+        "independent",
+        "axes"
+      ]
+    },
+    {
+      "name": "Audit the compute cluster",
+      "bytes": 3235,
+      "when": [
+        "audit",
+        "compute",
+        "cluster"
+      ]
+    },
+    {
+      "name": "Deploy a controller on the current cluster",
+      "bytes": 1541,
+      "when": [
+        "deploy",
+        "controller",
+        "current",
+        "cluster"
+      ]
+    },
+    {
+      "name": "Prepare missing cluster prerequisites",
+      "bytes": 2198,
+      "when": [
+        "prepare",
+        "missing",
+        "cluster",
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Connect the SDG controller",
+      "bytes": 2706,
+      "when": [
+        "connect",
+        "controller"
+      ]
+    },
+    {
+      "name": "Connect to the deployed controller",
+      "bytes": 2859,
+      "when": [
+        "connect",
+        "deployed",
+        "controller"
+      ]
+    },
+    {
+      "name": "Handoff to the augmentation run",
+      "bytes": 846,
+      "when": [
+        "handoff",
+        "augmentation"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/paidf-orchestration-setup/SKILL.md",
+  "curated": true
+}

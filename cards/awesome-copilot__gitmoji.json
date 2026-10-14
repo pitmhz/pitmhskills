@@ -1,0 +1,129 @@
+{
+  "id": "awesome-copilot__gitmoji",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2ac146eec71a7ffddff6d488118084cb8b3bc0368da7cff4c444485f8177c6a1",
+  "purpose": "Generates commit messages following the gitmoji convention (https://gitmoji.dev) — picks the right emoji for the intent of the change and writes a well-formed message. Use when asked to \"write a gitmo",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Generates commit messages following the gitmoji convention (https://gitmoji.dev) — picks the right emoji for the intent of the change and writes a well-formed m"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1777,
+  "core_bytes": 7260,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 717,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Message Format",
+      "bytes": 1038,
+      "when": [
+        "message",
+        "format"
+      ]
+    },
+    {
+      "name": "Emoji Style: Unicode vs Shortcode",
+      "bytes": 538,
+      "when": [
+        "emoji",
+        "style",
+        "unicode",
+        "shortcode"
+      ]
+    },
+    {
+      "name": "How It Works",
+      "bytes": 3403,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Step 1: Understand the Change",
+      "bytes": 429,
+      "when": [
+        "step",
+        "understand",
+        "change"
+      ]
+    },
+    {
+      "name": "Step 2: Identify the Dominant Intent",
+      "bytes": 1345,
+      "when": [
+        "step",
+        "identify",
+        "dominant",
+        "intent"
+      ]
+    },
+    {
+      "name": "Step 3: Pick Exactly One Emoji",
+      "bytes": 713,
+      "when": [
+        "step",
+        "pick",
+        "exactly",
+        "emoji"
+      ]
+    },
+    {
+      "name": "Step 4: Write the Message",
+      "bytes": 364,
+      "when": [
+        "step",
+        "write",
+        "message"
+      ]
+    },
+    {
+      "name": "Step 5: Output",
+      "bytes": 535,
+      "when": [
+        "step",
+        "output"
+      ]
+    },
+    {
+      "name": "Edge Cases",
+      "bytes": 751,
+      "when": [
+        "edge",
+        "cases"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 280,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gitmoji\\SKILL.md"
+}

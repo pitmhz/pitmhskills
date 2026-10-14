@@ -1,0 +1,125 @@
+{
+  "id": "awesome-copilot__git-commit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "554d1a3c6d95f15bc1170160659ecdc9a9958b64f377f3988941b672c249b13f",
+  "purpose": "Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions \"/commit\". Supports: (",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git co"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 800,
+  "core_bytes": 3198,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 177,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Conventional Commit Format",
+      "bytes": 117,
+      "when": [
+        "conventional",
+        "commit",
+        "format"
+      ]
+    },
+    {
+      "name": "Commit Types",
+      "bytes": 642,
+      "when": [
+        "commit",
+        "types"
+      ]
+    },
+    {
+      "name": "Breaking Changes",
+      "bytes": 218,
+      "when": [
+        "breaking",
+        "changes"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1003,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Analyze Diff",
+      "bytes": 188,
+      "when": [
+        "analyze",
+        "diff"
+      ]
+    },
+    {
+      "name": "2. Stage Files (if needed)",
+      "bytes": 330,
+      "when": [
+        "stage",
+        "files",
+        "needed"
+      ]
+    },
+    {
+      "name": "3. Generate Commit Message",
+      "bytes": 245,
+      "when": [
+        "generate",
+        "commit",
+        "message"
+      ]
+    },
+    {
+      "name": "4. Execute Commit",
+      "bytes": 227,
+      "when": [
+        "execute",
+        "commit"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 218,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Git Safety Protocol",
+      "bytes": 286,
+      "when": [
+        "safety",
+        "protocol"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\git-commit\\SKILL.md"
+}

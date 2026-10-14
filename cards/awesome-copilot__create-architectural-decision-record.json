@@ -1,0 +1,147 @@
+{
+  "id": "awesome-copilot__create-architectural-decision-record",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c11af0c34fa034e36e622ad97f1194824c3cbbe675a8b17cdc0bedc91b188a72",
+  "purpose": "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 766,
+  "core_bytes": 3061,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 170,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Input Validation",
+      "bytes": 210,
+      "when": [
+        "input",
+        "validation"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 544,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Required Documentation Structure",
+      "bytes": 469,
+      "when": [
+        "required",
+        "documentation",
+        "structure"
+      ]
+    },
+    {
+      "name": "Status",
+      "bytes": 73,
+      "when": [
+        "status"
+      ]
+    },
+    {
+      "name": "Context",
+      "bytes": 131,
+      "when": [
+        "context"
+      ]
+    },
+    {
+      "name": "Decision",
+      "bytes": 68,
+      "when": [
+        "decision"
+      ]
+    },
+    {
+      "name": "Consequences",
+      "bytes": 382,
+      "when": [
+        "consequences"
+      ]
+    },
+    {
+      "name": "Positive",
+      "bytes": 196,
+      "when": [
+        "positive"
+      ]
+    },
+    {
+      "name": "Negative",
+      "bytes": 169,
+      "when": [
+        "negative"
+      ]
+    },
+    {
+      "name": "Alternatives Considered",
+      "bytes": 350,
+      "when": [
+        "alternatives",
+        "considered"
+      ]
+    },
+    {
+      "name": "[Alternative 1 Name]",
+      "bytes": 161,
+      "when": [
+        "alternative",
+        "name"
+      ]
+    },
+    {
+      "name": "[Alternative 2 Name]",
+      "bytes": 161,
+      "when": [
+        "alternative",
+        "name"
+      ]
+    },
+    {
+      "name": "Implementation Notes",
+      "bytes": 187,
+      "when": [
+        "implementation",
+        "notes"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 141,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-architectural-decision-record\\SKILL.md"
+}

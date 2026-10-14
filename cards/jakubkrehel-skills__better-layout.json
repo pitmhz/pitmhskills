@@ -1,0 +1,178 @@
+{
+  "id": "jakubkrehel-skills__better-layout",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "8a275c9be863d698d09f2e59d37513abc61c74c30683e987a654587d178fc5e5",
+  "purpose": "Helps with grouping, alignment, reading order, responsive structure and room for translated text, so a layout holds up when it is resized, translated or mirrored.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Helps with grouping, alignment, reading order, responsive structure and room for translated text, so a layout holds up when it is resized, translated or mirrore"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Layout structure / grouping / reading order -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "grouping alignment reading order disclosure",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2128,
+  "core_bytes": 8517,
+  "sections": [
+    {
+      "name": "Group with space, not lines",
+      "bytes": 376,
+      "when": [
+        "group",
+        "space",
+        "lines"
+      ]
+    },
+    {
+      "name": "Keep controls distinct from content",
+      "bytes": 341,
+      "when": [
+        "keep",
+        "controls",
+        "distinct",
+        "content"
+      ]
+    },
+    {
+      "name": "Align to shared edges",
+      "bytes": 262,
+      "when": [
+        "align",
+        "shared",
+        "edges"
+      ]
+    },
+    {
+      "name": "Logical properties for anything that mirrors",
+      "bytes": 436,
+      "when": [
+        "logical",
+        "properties",
+        "anything",
+        "mirrors"
+      ]
+    },
+    {
+      "name": "Order by importance",
+      "bytes": 372,
+      "when": [
+        "order",
+        "importance"
+      ]
+    },
+    {
+      "name": "One primary action per view",
+      "bytes": 290,
+      "when": [
+        "primary",
+        "action",
+        "view"
+      ]
+    },
+    {
+      "name": "Hint at hidden content",
+      "bytes": 506,
+      "when": [
+        "hint",
+        "hidden",
+        "content"
+      ]
+    },
+    {
+      "name": "Borderless controls need more clearance",
+      "bytes": 463,
+      "when": [
+        "borderless",
+        "controls",
+        "need",
+        "clearance"
+      ]
+    },
+    {
+      "name": "Inset buttons from the edges",
+      "bytes": 373,
+      "when": [
+        "inset",
+        "buttons",
+        "edges"
+      ]
+    },
+    {
+      "name": "Content bleeds, controls float",
+      "bytes": 511,
+      "when": [
+        "content",
+        "bleeds",
+        "controls",
+        "float"
+      ]
+    },
+    {
+      "name": "Hold structure until it breaks",
+      "bytes": 364,
+      "when": [
+        "hold",
+        "structure",
+        "until",
+        "breaks"
+      ]
+    },
+    {
+      "name": "Plan for growth and clipping",
+      "bytes": 560,
+      "when": [
+        "plan",
+        "growth",
+        "clipping"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1419,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 1276,
+      "when": [
+        "reporting"
+      ]
+    }
+  ],
+  "keywords": [
+    "group",
+    "space",
+    "lines",
+    "keep",
+    "controls",
+    "distinct",
+    "content",
+    "align",
+    "shared",
+    "edges",
+    "logical",
+    "properties",
+    "anything",
+    "mirrors"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\better-layout\\SKILL.md"
+}

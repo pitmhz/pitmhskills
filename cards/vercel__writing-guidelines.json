@@ -27,7 +27,34 @@
   "conflicts_with": [],
   "body_tokens": 318,
   "core_bytes": 1272,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/vercel/skills/writing-guidelines/SKILL.md"
+  "sections": [
+    {
+      "name": "How It Works",
+      "bytes": 249,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Guidelines Source",
+      "bytes": 285,
+      "when": [
+        "guidelines",
+        "source"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 313,
+      "when": [
+        "usage"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/vercel/skills/writing-guidelines/SKILL.md",
+  "curated": true
 }

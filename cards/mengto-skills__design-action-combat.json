@@ -1,0 +1,88 @@
+{
+  "id": "mengto-skills__design-action-combat",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "60cf29fc323099eb2a666c6962ea00df0316a0ba8d9b62754868955bb895bbc1",
+  "purpose": "Design, implement, tune, or test readable tactical action combat for web games. Use for attack timing, guard and dodge windows, hit contact, posture, lock-on, weapons, boss phases, combat feedback, an",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design, implement, tune, or test readable tactical action combat for web games. Use for attack timing, guard and dodge windows, hit contact, posture, lock-on, w"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 475,
+  "core_bytes": 1897,
+  "sections": [
+    {
+      "name": "Specify every combat verb",
+      "bytes": 290,
+      "when": [
+        "specify",
+        "combat",
+        "verb"
+      ]
+    },
+    {
+      "name": "Use authoritative outcomes",
+      "bytes": 340,
+      "when": [
+        "authoritative",
+        "outcomes"
+      ]
+    },
+    {
+      "name": "Tune for decisions",
+      "bytes": 289,
+      "when": [
+        "tune",
+        "decisions"
+      ]
+    },
+    {
+      "name": "Test combat deterministically",
+      "bytes": 320,
+      "when": [
+        "test",
+        "combat",
+        "deterministically"
+      ]
+    },
+    {
+      "name": "Verify in play",
+      "bytes": 237,
+      "when": [
+        "verify",
+        "play"
+      ]
+    }
+  ],
+  "keywords": [
+    "specify",
+    "verb",
+    "authoritative",
+    "outcomes",
+    "decisions",
+    "deterministically",
+    "verify",
+    "play"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\design-action-combat\\SKILL.md"
+}

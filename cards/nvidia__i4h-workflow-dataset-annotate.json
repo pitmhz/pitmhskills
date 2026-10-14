@@ -1,0 +1,127 @@
+{
+  "id": "nvidia__i4h-workflow-dataset-annotate",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "02a84626b1417a37147305263d364ce90a76875b93592980954e987aec838c92",
+  "purpose": "Grade or filter workflow HDF5 episodes with an OpenAI-compatible vision model. Use for visual success labels; do not use for replay, policy evaluation, or recordings without frames.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Grade or filter workflow HDF5 episodes with an OpenAI-compatible vision model. Use for visual success labels; do not use for replay, policy evaluation, or recor"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1506,
+  "core_bytes": 6028,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 148,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 245,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve input and criterion",
+      "bytes": 1696,
+      "when": [
+        "resolve",
+        "input",
+        "criterion"
+      ]
+    },
+    {
+      "name": "Resolve the endpoint",
+      "bytes": 1008,
+      "when": [
+        "resolve",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "Dry-run sampling when needed",
+      "bytes": 272,
+      "when": [
+        "sampling",
+        "needed"
+      ]
+    },
+    {
+      "name": "Grade and filter",
+      "bytes": 752,
+      "when": [
+        "grade",
+        "filter"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 555,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 165,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 147,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 112,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 182,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 204,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-dataset-annotate/SKILL.md",
+  "curated": true
+}

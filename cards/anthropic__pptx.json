@@ -28,7 +28,133 @@
   "conflicts_with": [],
   "body_tokens": 5222,
   "core_bytes": 21034,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Scripts",
+      "bytes": 1169,
+      "when": [
+        "scripts"
+      ]
+    },
+    {
+      "name": "Creating with pptxgenjs — gotchas",
+      "bytes": 4051,
+      "when": [
+        "creating",
+        "pptxgenjs",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Editing existing decks and templates",
+      "bytes": 3858,
+      "when": [
+        "editing",
+        "existing",
+        "decks",
+        "templates"
+      ]
+    },
+    {
+      "name": "Design Ideas",
+      "bytes": 6716,
+      "when": [
+        "design",
+        "ideas"
+      ]
+    },
+    {
+      "name": "Before Starting",
+      "bytes": 819,
+      "when": [
+        "before",
+        "starting"
+      ]
+    },
+    {
+      "name": "Color Palettes",
+      "bytes": 1047,
+      "when": [
+        "color",
+        "palettes"
+      ]
+    },
+    {
+      "name": "For Each Slide",
+      "bytes": 761,
+      "when": [
+        "each",
+        "slide"
+      ]
+    },
+    {
+      "name": "Typography",
+      "bytes": 1839,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "Spacing",
+      "bytes": 124,
+      "when": [
+        "spacing"
+      ]
+    },
+    {
+      "name": "Avoid (Common Mistakes)",
+      "bytes": 1968,
+      "when": [
+        "avoid",
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "QA (Required)",
+      "bytes": 2898,
+      "when": [
+        "required"
+      ]
+    },
+    {
+      "name": "Content QA",
+      "bytes": 355,
+      "when": [
+        "content"
+      ]
+    },
+    {
+      "name": "File QA (required)",
+      "bytes": 963,
+      "when": [
+        "file",
+        "required"
+      ]
+    },
+    {
+      "name": "Visual QA",
+      "bytes": 1402,
+      "when": [
+        "visual"
+      ]
+    },
+    {
+      "name": "Converting to Images",
+      "bytes": 679,
+      "when": [
+        "converting",
+        "images"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 330,
+      "when": [
+        "dependencies"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/pptx/SKILL.md"
 }

@@ -1,0 +1,125 @@
+{
+  "id": "nvidia__tao-mine-aoi-images",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "bfb9c7b6f9bcd3a7a386c0cfdf26fd341bb7289b47d5ba7c9f911153cd1e6d67",
+  "purpose": "Runs the DEFT embed-then-mine workflow for VCN AOI iterations — embeds the gap-analysis target parquet, embeds a source pool, and mines nearest-neighbour source images for downstream augmentation. Use",
+  "domain": "frontend",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Runs the DEFT embed-then-mine workflow for VCN AOI iterations — embeds the gap-analysis target parquet, embeds a source pool, and mines nearest-neighbour source"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3869,
+  "core_bytes": 15547,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 1973,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 2362,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Method",
+      "bytes": 4323,
+      "when": [
+        "method"
+      ]
+    },
+    {
+      "name": "Step 1 — Embed the target images",
+      "bytes": 716,
+      "when": [
+        "step",
+        "embed",
+        "target",
+        "images"
+      ]
+    },
+    {
+      "name": "Step 2 — Embed the source pool",
+      "bytes": 495,
+      "when": [
+        "step",
+        "embed",
+        "source",
+        "pool"
+      ]
+    },
+    {
+      "name": "Step 3 — Mine nearest neighbours",
+      "bytes": 1503,
+      "when": [
+        "step",
+        "mine",
+        "nearest",
+        "neighbours"
+      ]
+    },
+    {
+      "name": "Step 4 — History-aware selection (iterative DEFT only)",
+      "bytes": 1271,
+      "when": [
+        "step",
+        "history",
+        "aware",
+        "selection",
+        "iterative",
+        "deft"
+      ]
+    },
+    {
+      "name": "Outputs and report",
+      "bytes": 1062,
+      "when": [
+        "outputs",
+        "report"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 877,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Execution Order",
+      "bytes": 1792,
+      "when": [
+        "execution",
+        "order"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-mine-aoi-images/SKILL.md",
+  "curated": true
+}

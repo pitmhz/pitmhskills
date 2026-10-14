@@ -27,7 +27,16 @@
   "conflicts_with": [],
   "body_tokens": 287,
   "core_bytes": 1148,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Core Rules",
+      "bytes": 678,
+      "when": [
+        "core",
+        "rules"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "C:/Users/Mattchine/skills/simple-english/SKILL.md"
 }

@@ -22,7 +22,39 @@
   "purpose": "Headless stealth browsing: fetch, scrape, screenshot, and automate JS-heavy pages via Obscura CLI/MCP",
   "requires": {},
   "scope": "Browse, scrape, and automate web pages; write files only when the task asks for output.",
-  "sections": [],
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 413,
+      "when": []
+    },
+    {
+      "name": "Do not use",
+      "bytes": 119,
+      "when": []
+    },
+    {
+      "name": "Commands",
+      "bytes": 471,
+      "when": [
+        "commands"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 320,
+      "when": [
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 59,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
   "skill_path": "C:/Users/Mattchine/skills/obscura/SKILL.md",
   "task_types": [
     "implement"
@@ -31,9 +63,11 @@
   "use_when": [
     "Stealth-scraping a JS-heavy or bot-defended site",
     "Scraping many URLs in parallel",
-    "Capturing screenshots or PDFs of pages"
+    "Capturing screenshots or PDFs of pages",
+    "Capture a full-page screenshot and PDF of a bot-protected page"
   ],
   "verify": [
     "obscura fetch https://example.com --dump text"
-  ]
+  ],
+  "curated": true
 }

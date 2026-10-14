@@ -1,0 +1,147 @@
+{
+  "id": "nvidia__dynamo-router-starter",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "5278203f4d8866b95cfeacf444d0a31e49e80d9ab7f290673c9c536ee24b4d99",
+  "purpose": "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and trouble",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1472,
+  "core_bytes": 5886,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 251,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 399,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required Inputs",
+      "bytes": 379,
+      "when": [
+        "required",
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1582,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Establish A Baseline",
+      "bytes": 342,
+      "when": [
+        "establish",
+        "baseline"
+      ]
+    },
+    {
+      "name": "2. Enable KV Routing",
+      "bytes": 459,
+      "when": [
+        "enable",
+        "routing"
+      ]
+    },
+    {
+      "name": "3. Smoke Test",
+      "bytes": 299,
+      "when": [
+        "smoke",
+        "test"
+      ]
+    },
+    {
+      "name": "4. Compare Modes Carefully",
+      "bytes": 463,
+      "when": [
+        "compare",
+        "modes",
+        "carefully"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 398,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 640,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Output Contract",
+      "bytes": 271,
+      "when": [
+        "output",
+        "contract"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 386,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 634,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Benchmark",
+      "bytes": 197,
+      "when": [
+        "benchmark"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 150,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/dynamo-router-starter/SKILL.md"
+}

@@ -1,0 +1,590 @@
+{
+  "id": "awesome-copilot__cosmosdb-datamodeling",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d68d169870b9d2ccbebd277ee73c43f275e295e0c6554acacefdb11afa9b0d28",
+  "purpose": "Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best practices and common patterns, artifacts_produced: \"cosm",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best practices and co"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 11867,
+  "core_bytes": 47868,
+  "sections": [
+    {
+      "name": "Role and Objectives",
+      "bytes": 1226,
+      "when": [
+        "role",
+        "objectives"
+      ]
+    },
+    {
+      "name": "Documentation Workflow",
+      "bytes": 552,
+      "when": [
+        "documentation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Primary Working File: cosmosdb_requirements.md",
+      "bytes": 313,
+      "when": [
+        "primary",
+        "working",
+        "file",
+        "cosmosdb",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Application Overview",
+      "bytes": 650,
+      "when": [
+        "application",
+        "overview"
+      ]
+    },
+    {
+      "name": "Access Patterns Analysis",
+      "bytes": 788,
+      "when": [
+        "access",
+        "patterns",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Entity Relationships Deep Dive",
+      "bytes": 353,
+      "when": [
+        "entity",
+        "relationships",
+        "deep",
+        "dive"
+      ]
+    },
+    {
+      "name": "Enhanced Aggregate Analysis",
+      "bytes": 1781,
+      "when": [
+        "enhanced",
+        "aggregate",
+        "analysis"
+      ]
+    },
+    {
+      "name": "[Entity1 + Entity2] Container Item Analysis",
+      "bytes": 528,
+      "when": [
+        "entity1",
+        "entity2",
+        "container",
+        "item",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Identifying Relationship Check",
+      "bytes": 466,
+      "when": [
+        "identifying",
+        "relationship",
+        "check"
+      ]
+    },
+    {
+      "name": "User + Orders Container Item Analysis",
+      "bytes": 716,
+      "when": [
+        "user",
+        "orders",
+        "container",
+        "item",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Container Consolidation Analysis",
+      "bytes": 1125,
+      "when": [
+        "container",
+        "consolidation",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Consolidation Decision Framework",
+      "bytes": 391,
+      "when": [
+        "consolidation",
+        "decision",
+        "framework"
+      ]
+    },
+    {
+      "name": "Consolidation Candidates Review",
+      "bytes": 304,
+      "when": [
+        "consolidation",
+        "candidates",
+        "review"
+      ]
+    },
+    {
+      "name": "Consolidation Rules",
+      "bytes": 307,
+      "when": [
+        "consolidation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Design Considerations (Subject to Change)",
+      "bytes": 739,
+      "when": [
+        "design",
+        "considerations",
+        "subject",
+        "change"
+      ]
+    },
+    {
+      "name": "Validation Checklist",
+      "bytes": 2526,
+      "when": [
+        "validation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Multi-Document vs Separate Containers Decision Framework",
+      "bytes": 1511,
+      "when": [
+        "multi",
+        "document",
+        "separate",
+        "containers",
+        "decision",
+        "framework"
+      ]
+    },
+    {
+      "name": "Final Deliverable: cosmosdb_data_model.md",
+      "bytes": 298,
+      "when": [
+        "final",
+        "deliverable",
+        "cosmosdb",
+        "data",
+        "model"
+      ]
+    },
+    {
+      "name": "Design Philosophy & Approach",
+      "bytes": 151,
+      "when": [
+        "design",
+        "philosophy",
+        "approach"
+      ]
+    },
+    {
+      "name": "Aggregate Design Decisions",
+      "bytes": 155,
+      "when": [
+        "aggregate",
+        "design",
+        "decisions"
+      ]
+    },
+    {
+      "name": "Container Designs",
+      "bytes": 1849,
+      "when": [
+        "container",
+        "designs"
+      ]
+    },
+    {
+      "name": "[ContainerName] Container",
+      "bytes": 1095,
+      "when": [
+        "containername",
+        "container"
+      ]
+    },
+    {
+      "name": "Indexing Strategy",
+      "bytes": 653,
+      "when": [
+        "indexing",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Access Pattern Mapping",
+      "bytes": 98,
+      "when": [
+        "access",
+        "pattern",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Solved Patterns",
+      "bytes": 72,
+      "when": [
+        "solved",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Access Pattern Mapping",
+      "bytes": 291,
+      "when": [
+        "access",
+        "pattern",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Hot Partition Analysis",
+      "bytes": 269,
+      "when": [
+        "partition",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Trade-offs and Optimizations",
+      "bytes": 767,
+      "when": [
+        "trade",
+        "offs",
+        "optimizations"
+      ]
+    },
+    {
+      "name": "Global Distribution Strategy",
+      "bytes": 299,
+      "when": [
+        "global",
+        "distribution",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Validation Results 🔴",
+      "bytes": 777,
+      "when": [
+        "validation",
+        "results"
+      ]
+    },
+    {
+      "name": "Communication Guidelines",
+      "bytes": 2486,
+      "when": [
+        "communication",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Response Structure (Every Turn):",
+      "bytes": 268,
+      "when": [
+        "response",
+        "structure",
+        "turn"
+      ]
+    },
+    {
+      "name": "Technical Communication:",
+      "bytes": 1199,
+      "when": [
+        "technical",
+        "communication"
+      ]
+    },
+    {
+      "name": "Important Azure Cosmos DB NoSQL Context",
+      "bytes": 3250,
+      "when": [
+        "important",
+        "azure",
+        "cosmos",
+        "nosql",
+        "context"
+      ]
+    },
+    {
+      "name": "Understanding Aggregate-Oriented Design",
+      "bytes": 1220,
+      "when": [
+        "understanding",
+        "aggregate",
+        "oriented",
+        "design"
+      ]
+    },
+    {
+      "name": "Constants for Reference",
+      "bytes": 861,
+      "when": [
+        "constants",
+        "reference"
+      ]
+    },
+    {
+      "name": "Key Design Constraints",
+      "bytes": 1125,
+      "when": [
+        "design",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Core Design Philosophy",
+      "bytes": 11062,
+      "when": [
+        "core",
+        "design",
+        "philosophy"
+      ]
+    },
+    {
+      "name": "Strategic Co-Location",
+      "bytes": 2668,
+      "when": [
+        "strategic",
+        "location"
+      ]
+    },
+    {
+      "name": "Keep Relationships Simple and Explicit",
+      "bytes": 1296,
+      "when": [
+        "keep",
+        "relationships",
+        "simple",
+        "explicit"
+      ]
+    },
+    {
+      "name": "From Entity Containers to Aggregate-Oriented Design",
+      "bytes": 1090,
+      "when": [
+        "entity",
+        "containers",
+        "aggregate",
+        "oriented",
+        "design"
+      ]
+    },
+    {
+      "name": "Aggregate Boundaries Based on Access Patterns",
+      "bytes": 2251,
+      "when": [
+        "aggregate",
+        "boundaries",
+        "based",
+        "access",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Natural Keys Over Generic Identifiers",
+      "bytes": 403,
+      "when": [
+        "natural",
+        "keys",
+        "generic",
+        "identifiers"
+      ]
+    },
+    {
+      "name": "Optimize Indexing for Your Queries",
+      "bytes": 596,
+      "when": [
+        "optimize",
+        "indexing",
+        "queries"
+      ]
+    },
+    {
+      "name": "Design For Scale",
+      "bytes": 2543,
+      "when": [
+        "design",
+        "scale"
+      ]
+    },
+    {
+      "name": "Design Patterns",
+      "bytes": 16258,
+      "when": [
+        "design",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Massive Scale Data Binning Pattern",
+      "bytes": 1489,
+      "when": [
+        "massive",
+        "scale",
+        "data",
+        "binning",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Multi-Entity Document Containers",
+      "bytes": 1374,
+      "when": [
+        "multi",
+        "entity",
+        "document",
+        "containers"
+      ]
+    },
+    {
+      "name": "Refining Aggregate Boundaries",
+      "bytes": 1112,
+      "when": [
+        "refining",
+        "aggregate",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Short-circuit denormalization",
+      "bytes": 767,
+      "when": [
+        "short",
+        "circuit",
+        "denormalization"
+      ]
+    },
+    {
+      "name": "Identifying relationship",
+      "bytes": 1384,
+      "when": [
+        "identifying",
+        "relationship"
+      ]
+    },
+    {
+      "name": "Hierarchical Access Patterns",
+      "bytes": 1046,
+      "when": [
+        "hierarchical",
+        "access",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Access Patterns with Natural Boundaries",
+      "bytes": 419,
+      "when": [
+        "access",
+        "patterns",
+        "natural",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Temporal Access Patterns",
+      "bytes": 695,
+      "when": [
+        "temporal",
+        "access",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Optimizing Queries with Sparse Indexes",
+      "bytes": 778,
+      "when": [
+        "optimizing",
+        "queries",
+        "sparse",
+        "indexes"
+      ]
+    },
+    {
+      "name": "Access Patterns with Unique Constraints",
+      "bytes": 1655,
+      "when": [
+        "access",
+        "patterns",
+        "unique",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Hierarchical Partition Keys (HPK) for Natural Query Boundaries",
+      "bytes": 1204,
+      "when": [
+        "hierarchical",
+        "partition",
+        "keys",
+        "natural",
+        "query",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Handling High-Write Workloads with Write Sharding",
+      "bytes": 2228,
+      "when": [
+        "handling",
+        "high",
+        "write",
+        "workloads",
+        "sharding"
+      ]
+    },
+    {
+      "name": "Aggregate Boundaries and Update Patterns",
+      "bytes": 722,
+      "when": [
+        "aggregate",
+        "boundaries",
+        "update",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Modeling Transient Data with TTL",
+      "bytes": 1106,
+      "when": [
+        "modeling",
+        "transient",
+        "data"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\cosmosdb-datamodeling\\SKILL.md"
+}

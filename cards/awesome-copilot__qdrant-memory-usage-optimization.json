@@ -1,0 +1,71 @@
+{
+  "id": "awesome-copilot__qdrant-memory-usage-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d3be8c9d207f4b625b4724048e45e438f0efeb4650e7cca1da2d40e2ba37dd9d",
+  "purpose": "Diagnoses and reduces Qdrant memory usage. Use when someone reports 'memory too high', 'RAM keeps growing', 'node crashed', 'out of memory', 'memory leak', or asks 'why is memory usage so high?', 'how",
+  "domain": "memory",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Diagnoses and reduces Qdrant memory usage. Use when someone reports 'memory too high', 'RAM keeps growing', 'node crashed', 'out of memory', 'memory leak', or a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1215,
+  "core_bytes": 4859,
+  "sections": [
+    {
+      "name": "Memory usage monitoring",
+      "bytes": 265,
+      "when": [
+        "memory",
+        "usage",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "How much memory is needed for Qdrant?",
+      "bytes": 1417,
+      "when": [
+        "memory",
+        "needed",
+        "qdrant"
+      ]
+    },
+    {
+      "name": "When to put HNSW index on disk",
+      "bytes": 576,
+      "when": [
+        "hnsw",
+        "index",
+        "disk"
+      ]
+    },
+    {
+      "name": "How to minimize memory footprint",
+      "bytes": 2154,
+      "when": [
+        "minimize",
+        "memory",
+        "footprint"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-performance-optimization\\memory-usage-optimization\\SKILL.md"
+}

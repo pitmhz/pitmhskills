@@ -1,0 +1,76 @@
+{
+  "id": "awesome-copilot__agent-architecture",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "914b3d476f06017a43d2f616f034d34df40bdea7d6656d0e01db32eab57ef5ca",
+  "purpose": "Design AI agent architectures through requirements discovery, or audit and diagnose architectural flaws in existing agents. Architecture only; excludes implementation and general code review.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design AI agent architectures through requirements discovery, or audit and diagnose architectural flaws in existing agents. Architecture only; excludes implemen"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2495,
+  "core_bytes": 10048,
+  "sections": [
+    {
+      "name": "Choose a route",
+      "bytes": 2149,
+      "when": [
+        "choose",
+        "route"
+      ]
+    },
+    {
+      "name": "Shared decision rules",
+      "bytes": 2154,
+      "when": [
+        "shared",
+        "decision",
+        "rules"
+      ]
+    },
+    {
+      "name": "How to work",
+      "bytes": 4213,
+      "when": [
+        "work"
+      ]
+    },
+    {
+      "name": "Final artifacts",
+      "bytes": 608,
+      "when": [
+        "final",
+        "artifacts"
+      ]
+    },
+    {
+      "name": "Package metadata",
+      "bytes": 225,
+      "when": [
+        "package",
+        "metadata"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\agent-architecture\\SKILL.md"
+}

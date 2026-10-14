@@ -1,0 +1,121 @@
+{
+  "id": "awesome-copilot__declarative-agents",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7a0913860f4478f8db00963c70d2fbdf32118ff8802a62175a9d5c0c77adb37f",
+  "purpose": "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration",
+  "domain": "workflow",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Mi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1178,
+  "core_bytes": 4710,
+  "sections": [
+    {
+      "name": "Workflow 1: Basic Agent Creation",
+      "bytes": 659,
+      "when": [
+        "workflow",
+        "basic",
+        "agent",
+        "creation"
+      ]
+    },
+    {
+      "name": "Workflow 2: Advanced Enterprise Agent Design",
+      "bytes": 784,
+      "when": [
+        "workflow",
+        "advanced",
+        "enterprise",
+        "agent",
+        "design"
+      ]
+    },
+    {
+      "name": "Workflow 3: Validation & Optimization",
+      "bytes": 697,
+      "when": [
+        "workflow",
+        "validation",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Core Features Across All Workflows",
+      "bytes": 2051,
+      "when": [
+        "core",
+        "features",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Microsoft 365 Agents Toolkit Integration",
+      "bytes": 409,
+      "when": [
+        "microsoft",
+        "agents",
+        "toolkit",
+        "integration"
+      ]
+    },
+    {
+      "name": "TypeSpec Examples",
+      "bytes": 243,
+      "when": [
+        "typespec",
+        "examples"
+      ]
+    },
+    {
+      "name": "JSON Schema v1.5 Validation",
+      "bytes": 296,
+      "when": [
+        "json",
+        "schema",
+        "validation"
+      ]
+    },
+    {
+      "name": "Available Capabilities (Choose up to 5)",
+      "bytes": 670,
+      "when": [
+        "available",
+        "capabilities",
+        "choose"
+      ]
+    },
+    {
+      "name": "Environment Variables Support",
+      "bytes": 394,
+      "when": [
+        "environment",
+        "variables",
+        "support"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\declarative-agents\\SKILL.md"
+}

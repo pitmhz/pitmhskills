@@ -1,0 +1,173 @@
+{
+  "id": "awesome-copilot__aws-well-architected-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "bc37c276c66c3305cdbafb766cbdadc153deb69e45e5eb009e2aca904f6359b2",
+  "purpose": "Perform an AWS Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Perform an AWS Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1891,
+  "core_bytes": 7622,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 185,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow Steps",
+      "bytes": 4763,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Load Well-Architected Framework Reference",
+      "bytes": 251,
+      "when": [
+        "step",
+        "load",
+        "architected",
+        "framework",
+        "reference"
+      ]
+    },
+    {
+      "name": "Step 2: Discover IaC & Architecture",
+      "bytes": 342,
+      "when": [
+        "step",
+        "discover",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Step 3: Pillar-by-Pillar Review",
+      "bytes": 3095,
+      "when": [
+        "step",
+        "pillar",
+        "review"
+      ]
+    },
+    {
+      "name": "Step 4: Risk Classification",
+      "bytes": 300,
+      "when": [
+        "step",
+        "risk",
+        "classification"
+      ]
+    },
+    {
+      "name": "Step 5: User Confirmation",
+      "bytes": 540,
+      "when": [
+        "step",
+        "user",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Step 6: Create Individual Finding Issues",
+      "bytes": 216,
+      "when": [
+        "step",
+        "create",
+        "individual",
+        "finding",
+        "issues"
+      ]
+    },
+    {
+      "name": "🏗️ Well-Architected Finding: [Brief Title]",
+      "bytes": 1554,
+      "when": [
+        "architected",
+        "finding",
+        "brief",
+        "title"
+      ]
+    },
+    {
+      "name": "📋 Description",
+      "bytes": 76,
+      "when": [
+        "description"
+      ]
+    },
+    {
+      "name": "🔧 Remediation",
+      "bytes": 494,
+      "when": [
+        "remediation"
+      ]
+    },
+    {
+      "name": "📚 AWS Reference",
+      "bytes": 78,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "✅ Validation",
+      "bytes": 227,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Step 7: Create EPIC Tracking Issue",
+      "bytes": 539,
+      "when": [
+        "step",
+        "create",
+        "epic",
+        "tracking",
+        "issue"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 285,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 358,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\aws-well-architected-review\\SKILL.md"
+}

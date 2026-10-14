@@ -1,0 +1,179 @@
+{
+  "id": "security-audit-skill__security-audit",
+  "tier": "B",
+  "origin": [
+    "cloudflare/security-audit-skill@c1c8a8c1471069fb0e188eeaff69b8e8db6564a8"
+  ],
+  "license": "MIT",
+  "hash": "2a68ab5531dfccedac2b054e0814f2b6517daae9887b3ee40afcc5d8a7063c3a",
+  "purpose": "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability research, security audits, or pe",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulner"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5546,
+  "core_bytes": 22218,
+  "sections": [
+    {
+      "name": "Operating modes",
+      "bytes": 867,
+      "when": [
+        "operating",
+        "modes"
+      ]
+    },
+    {
+      "name": "Platform terminology",
+      "bytes": 622,
+      "when": [
+        "platform",
+        "terminology"
+      ]
+    },
+    {
+      "name": "Universal execution safety",
+      "bytes": 2091,
+      "when": [
+        "universal",
+        "execution",
+        "safety"
+      ]
+    },
+    {
+      "name": "Full audit setup",
+      "bytes": 4878,
+      "when": [
+        "full",
+        "audit",
+        "setup"
+      ]
+    },
+    {
+      "name": "Write isolation",
+      "bytes": 4053,
+      "when": [
+        "write",
+        "isolation"
+      ]
+    },
+    {
+      "name": "Full audit planning",
+      "bytes": 7551,
+      "when": [
+        "full",
+        "audit",
+        "planning"
+      ]
+    },
+    {
+      "name": "Coverage and prior runs",
+      "bytes": 2262,
+      "when": [
+        "coverage",
+        "prior",
+        "runs"
+      ]
+    },
+    {
+      "name": "Run profiles and scope",
+      "bytes": 5155,
+      "when": [
+        "profiles",
+        "scope"
+      ]
+    },
+    {
+      "name": "Core principles",
+      "bytes": 3140,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "Require a boundary and result",
+      "bytes": 368,
+      "when": [
+        "require",
+        "boundary",
+        "result"
+      ]
+    },
+    {
+      "name": "Use bounded local evidence",
+      "bytes": 580,
+      "when": [
+        "bounded",
+        "local",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Respect source visibility",
+      "bytes": 369,
+      "when": [
+        "respect",
+        "source",
+        "visibility"
+      ]
+    },
+    {
+      "name": "Separate priority from certainty",
+      "bytes": 1432,
+      "when": [
+        "separate",
+        "priority",
+        "certainty"
+      ]
+    },
+    {
+      "name": "Recommend the smallest effective source fix",
+      "bytes": 369,
+      "when": [
+        "recommend",
+        "smallest",
+        "effective",
+        "source"
+      ]
+    },
+    {
+      "name": "Full audit workflow",
+      "bytes": 1510,
+      "when": [
+        "full",
+        "audit",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Anti-patterns",
+      "bytes": 823,
+      "when": [
+        "anti",
+        "patterns"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\security-audit-skill\\skills\\security-audit\\SKILL.md",
+  "curated": true
+}

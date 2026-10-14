@@ -1,0 +1,137 @@
+{
+  "id": "awesome-copilot__azure-deployment-preflight",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "dab815a49ff9fda7d48631c40df7e2540bb3fa7ba1cce63ce219aaa0a830b6a1",
+  "purpose": "Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks. Use this skill before any deployment to Azure ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks. Use th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1870,
+  "core_bytes": 7490,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 288,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Validation Process",
+      "bytes": 4356,
+      "when": [
+        "validation",
+        "process"
+      ]
+    },
+    {
+      "name": "Step 1: Detect Project Type",
+      "bytes": 791,
+      "when": [
+        "step",
+        "detect",
+        "project",
+        "type"
+      ]
+    },
+    {
+      "name": "Step 2: Validate Bicep Syntax",
+      "bytes": 408,
+      "when": [
+        "step",
+        "validate",
+        "bicep",
+        "syntax"
+      ]
+    },
+    {
+      "name": "Step 3: Run Preflight Validation",
+      "bytes": 1907,
+      "when": [
+        "step",
+        "preflight",
+        "validation"
+      ]
+    },
+    {
+      "name": "Step 4: Capture What-If Results",
+      "bytes": 534,
+      "when": [
+        "step",
+        "capture",
+        "results"
+      ]
+    },
+    {
+      "name": "Step 5: Generate Report",
+      "bytes": 565,
+      "when": [
+        "step",
+        "generate",
+        "report"
+      ]
+    },
+    {
+      "name": "Required Information",
+      "bytes": 517,
+      "when": [
+        "required",
+        "information"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 624,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Tool Requirements",
+      "bytes": 420,
+      "when": [
+        "tool",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Example Workflow",
+      "bytes": 374,
+      "when": [
+        "example",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Reference Documentation",
+      "bytes": 203,
+      "when": [
+        "reference",
+        "documentation"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-deployment-preflight\\SKILL.md"
+}

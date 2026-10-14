@@ -1,0 +1,217 @@
+{
+  "id": "interface-design__interface-design",
+  "tier": "B",
+  "origin": [
+    "Dammyjay93/interface-design@2f9be3206855bcb2d1d0af262c8bae25cba6658d"
+  ],
+  "license": "MIT",
+  "hash": "06b09967cfdd8b5f67cdcf8ed593afd67f85370c170d0ee79f409f29b45a6856",
+  "purpose": "Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when designing, building, reviewing, auditing, or refining p",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when designing, buil"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Dashboards, admin panels, SaaS app UI -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "dashboard admin panels settings tables saas",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 7406,
+  "core_bytes": 29934,
+  "sections": [
+    {
+      "name": "Scope",
+      "bytes": 7623,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "One focal point per view",
+      "bytes": 411,
+      "when": [
+        "focal",
+        "point",
+        "view"
+      ]
+    },
+    {
+      "name": "Type scale is a ratio, and weight beats size",
+      "bytes": 1299,
+      "when": [
+        "type",
+        "scale",
+        "ratio",
+        "weight",
+        "beats",
+        "size"
+      ]
+    },
+    {
+      "name": "Density is a decision, expressed in px",
+      "bytes": 427,
+      "when": [
+        "density",
+        "decision",
+        "expressed"
+      ]
+    },
+    {
+      "name": "Spatial rhythm — breathe unevenly",
+      "bytes": 414,
+      "when": [
+        "spatial",
+        "rhythm",
+        "breathe",
+        "unevenly"
+      ]
+    },
+    {
+      "name": "Proportions speak",
+      "bytes": 318,
+      "when": [
+        "proportions",
+        "speak"
+      ]
+    },
+    {
+      "name": "Distribution and restraint (the \"expensive\" look)",
+      "bytes": 848,
+      "when": [
+        "distribution",
+        "restraint",
+        "expensive",
+        "look"
+      ]
+    },
+    {
+      "name": "Subtle Layering (the backbone)",
+      "bytes": 1882,
+      "when": [
+        "subtle",
+        "layering",
+        "backbone"
+      ]
+    },
+    {
+      "name": "Infinite Expression",
+      "bytes": 623,
+      "when": [
+        "infinite",
+        "expression"
+      ]
+    },
+    {
+      "name": "Color Lives Somewhere",
+      "bytes": 1863,
+      "when": [
+        "color",
+        "lives",
+        "somewhere"
+      ]
+    },
+    {
+      "name": "Controls: native → primitive → hand-roll",
+      "bytes": 1243,
+      "when": [
+        "controls",
+        "native",
+        "primitive",
+        "hand",
+        "roll"
+      ]
+    },
+    {
+      "name": "Styling: system → component → token → utility",
+      "bytes": 3005,
+      "when": [
+        "styling",
+        "system",
+        "component",
+        "token",
+        "utility"
+      ]
+    },
+    {
+      "name": "Static polish",
+      "bytes": 1754,
+      "when": [
+        "static",
+        "polish"
+      ]
+    },
+    {
+      "name": "Motion",
+      "bytes": 2751,
+      "when": [
+        "motion"
+      ]
+    },
+    {
+      "name": "Communication",
+      "bytes": 193,
+      "when": [
+        "communication"
+      ]
+    },
+    {
+      "name": "Execution discipline",
+      "bytes": 1475,
+      "when": [
+        "execution",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Suggest + Ask",
+      "bytes": 606,
+      "when": [
+        "suggest"
+      ]
+    },
+    {
+      "name": "Build flow",
+      "bytes": 307,
+      "when": [
+        "build",
+        "flow"
+      ]
+    },
+    {
+      "name": "The checks (before showing)",
+      "bytes": 2114,
+      "when": [
+        "checks",
+        "before",
+        "showing"
+      ]
+    }
+  ],
+  "keywords": [
+    "scope",
+    "problem",
+    "defaults",
+    "hide",
+    "intent",
+    "domain",
+    "exploration",
+    "render",
+    "composition",
+    "focal",
+    "point",
+    "view"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\interface-design\\.claude\\skills\\interface-design\\SKILL.md"
+}

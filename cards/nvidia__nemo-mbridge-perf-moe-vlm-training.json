@@ -1,0 +1,157 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-moe-vlm-training",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "adc5427c5a5797a92ddcc6df7df7fe1575fd6cef552e8803f576e7263cb65b11",
+  "purpose": "Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next, and other multimodal experiments.",
+  "domain": "frontend",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next, and othe"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1320,
+  "core_bytes": 5277,
+  "sections": [
+    {
+      "name": "FSDP vs 3D Parallel",
+      "bytes": 544,
+      "when": [
+        "fsdp",
+        "parallel"
+      ]
+    },
+    {
+      "name": "Rounded Findings From Recent VLM Runs",
+      "bytes": 1146,
+      "when": [
+        "rounded",
+        "findings",
+        "recent",
+        "runs"
+      ]
+    },
+    {
+      "name": "Qwen3-VL class models",
+      "bytes": 446,
+      "when": [
+        "qwen3",
+        "class",
+        "models"
+      ]
+    },
+    {
+      "name": "Real data vs mock data",
+      "bytes": 339,
+      "when": [
+        "real",
+        "data",
+        "mock"
+      ]
+    },
+    {
+      "name": "Smaller multimodal MoE runs",
+      "bytes": 317,
+      "when": [
+        "smaller",
+        "multimodal",
+        "runs"
+      ]
+    },
+    {
+      "name": "Decision Guide",
+      "bytes": 541,
+      "when": [
+        "decision",
+        "guide"
+      ]
+    },
+    {
+      "name": "Choose FSDP when",
+      "bytes": 275,
+      "when": [
+        "choose",
+        "fsdp"
+      ]
+    },
+    {
+      "name": "Choose 3D parallel when",
+      "bytes": 245,
+      "when": [
+        "choose",
+        "parallel"
+      ]
+    },
+    {
+      "name": "Key Tuning Knobs",
+      "bytes": 873,
+      "when": [
+        "tuning",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Representative Config Families",
+      "bytes": 476,
+      "when": [
+        "representative",
+        "config",
+        "families"
+      ]
+    },
+    {
+      "name": "FSDP-first GB200 path",
+      "bytes": 221,
+      "when": [
+        "fsdp",
+        "first",
+        "gb200",
+        "path"
+      ]
+    },
+    {
+      "name": "3D-parallel GB200 path",
+      "bytes": 218,
+      "when": [
+        "parallel",
+        "gb200",
+        "path"
+      ]
+    },
+    {
+      "name": "Compatibility",
+      "bytes": 372,
+      "when": [
+        "compatibility"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 703,
+      "when": [
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-moe-vlm-training/SKILL.md",
+  "curated": true
+}

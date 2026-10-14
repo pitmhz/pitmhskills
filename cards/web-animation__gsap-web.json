@@ -1,0 +1,164 @@
+{
+  "id": "web-animation__gsap-web",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "45d540098dc1eedc13a1977c8f318f70ab4e72da7ce1c60c3bcc5934c5bd39dd",
+  "purpose": "This skill should be used when the user asks to \"build a scroll animation\", \"add ScrollTrigger\", \"pin a section while scrolling\", \"scrub an animation to scroll\", \"create a hero timeline\", \"do a horizo",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"build a scroll animation\", \"add ScrollTrigger\", \"pin a section while scrolling\", \"scrub an animation to scroll\""
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "GSAP ScrollTrigger web motion -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "gsap scrolltrigger pin scrub",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3125,
+  "core_bytes": 12585,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 431,
+      "when": []
+    },
+    {
+      "name": "Install and register",
+      "bytes": 365,
+      "when": [
+        "install",
+        "register"
+      ]
+    },
+    {
+      "name": "Core techniques",
+      "bytes": 5956,
+      "when": [
+        "core",
+        "techniques"
+      ]
+    },
+    {
+      "name": "Timelines first",
+      "bytes": 950,
+      "when": [
+        "timelines",
+        "first"
+      ]
+    },
+    {
+      "name": "gsap.to vs set vs quickTo",
+      "bytes": 442,
+      "when": [
+        "gsap",
+        "quickto"
+      ]
+    },
+    {
+      "name": "ScrollTrigger basics",
+      "bytes": 903,
+      "when": [
+        "scrolltrigger",
+        "basics"
+      ]
+    },
+    {
+      "name": "Smooth scroll (Lenis) + ScrollTrigger",
+      "bytes": 1984,
+      "when": [
+        "smooth",
+        "scroll",
+        "lenis",
+        "scrolltrigger"
+      ]
+    },
+    {
+      "name": "SplitText (text reveal)",
+      "bytes": 642,
+      "when": [
+        "splittext",
+        "text",
+        "reveal"
+      ]
+    },
+    {
+      "name": "Flip (layout transitions)",
+      "bytes": 580,
+      "when": [
+        "flip",
+        "layout",
+        "transitions"
+      ]
+    },
+    {
+      "name": "Easing quick guide",
+      "bytes": 433,
+      "when": [
+        "easing",
+        "quick",
+        "guide"
+      ]
+    },
+    {
+      "name": "Performance and cleanup",
+      "bytes": 816,
+      "when": [
+        "performance",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2700,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 513,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 793,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "install",
+    "register",
+    "core",
+    "techniques",
+    "first",
+    "quickto",
+    "basics",
+    "reveal",
+    "transitions",
+    "easing",
+    "quick",
+    "guide"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\gsap-web\\SKILL.md"
+}

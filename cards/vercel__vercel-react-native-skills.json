@@ -29,7 +29,113 @@
   "conflicts_with": [],
   "body_tokens": 1140,
   "core_bytes": 4560,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 311,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Rule Categories by Priority",
+      "bytes": 706,
+      "when": [
+        "rule",
+        "categories",
+        "priority"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 2430,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "1. List Performance (CRITICAL)",
+      "bytes": 578,
+      "when": [
+        "list",
+        "performance",
+        "critical"
+      ]
+    },
+    {
+      "name": "2. Animation (HIGH)",
+      "bytes": 248,
+      "when": [
+        "animation",
+        "high"
+      ]
+    },
+    {
+      "name": "3. Navigation (HIGH)",
+      "bytes": 118,
+      "when": [
+        "navigation",
+        "high"
+      ]
+    },
+    {
+      "name": "4. UI Patterns (HIGH)",
+      "bytes": 522,
+      "when": [
+        "patterns",
+        "high"
+      ]
+    },
+    {
+      "name": "5. State Management (MEDIUM)",
+      "bytes": 377,
+      "when": [
+        "state",
+        "management",
+        "medium"
+      ]
+    },
+    {
+      "name": "6. Rendering (MEDIUM)",
+      "bytes": 171,
+      "when": [
+        "rendering",
+        "medium"
+      ]
+    },
+    {
+      "name": "7. Monorepo (MEDIUM)",
+      "bytes": 184,
+      "when": [
+        "monorepo",
+        "medium"
+      ]
+    },
+    {
+      "name": "8. Configuration (LOW)",
+      "bytes": 210,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "How to Use",
+      "bytes": 367,
+      "when": []
+    },
+    {
+      "name": "Full Compiled Document",
+      "bytes": 90,
+      "when": [
+        "full",
+        "compiled",
+        "document"
+      ]
+    }
+  ],
+  "verify": [
+    "npx tsc --noEmit"
+  ],
   "skill_path": "skills/vercel/skills/react-native-skills/SKILL.md"
 }

@@ -1,0 +1,275 @@
+{
+  "id": "nvidia__vss-deploy-profile",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "4e98452fb7614ced535c982e66ff8282a15d8b912f9959a8387ef893c0a3b10d",
+  "purpose": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5085,
+  "core_bytes": 20442,
+  "sections": [
+    {
+      "name": "Available Scripts",
+      "bytes": 402,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Profile Routing",
+      "bytes": 1438,
+      "when": [
+        "profile",
+        "routing"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 665,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 2692,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Pre-flight check",
+      "bytes": 1488,
+      "when": [
+        "flight",
+        "check"
+      ]
+    },
+    {
+      "name": "Model Selection",
+      "bytes": 1028,
+      "when": [
+        "model",
+        "selection"
+      ]
+    },
+    {
+      "name": "Deployment Flow",
+      "bytes": 11715,
+      "when": [
+        "deployment",
+        "flow"
+      ]
+    },
+    {
+      "name": "Step 0 — Tear down any existing deployment + clear data volumes",
+      "bytes": 250,
+      "when": [
+        "step",
+        "tear",
+        "down",
+        "existing",
+        "deployment",
+        "clear",
+        "data",
+        "volumes"
+      ]
+    },
+    {
+      "name": "Step 0a — Credentials gate (run before any env mutation)",
+      "bytes": 644,
+      "when": [
+        "step",
+        "credentials",
+        "gate",
+        "before",
+        "mutation"
+      ]
+    },
+    {
+      "name": "Step 1 — Gather context",
+      "bytes": 1695,
+      "when": [
+        "step",
+        "gather",
+        "context"
+      ]
+    },
+    {
+      "name": "Step 1b — Prepare the data directory",
+      "bytes": 292,
+      "when": [
+        "step",
+        "prepare",
+        "data",
+        "directory"
+      ]
+    },
+    {
+      "name": "Step 1c — Initialize `generated.env`",
+      "bytes": 518,
+      "when": [
+        "step",
+        "initialize",
+        "generated"
+      ]
+    },
+    {
+      "name": "Step 1d — Brev only: detect first, then set `EXTERNAL_IP` to the secure-link dom",
+      "bytes": 928,
+      "when": [
+        "step",
+        "brev",
+        "detect",
+        "first",
+        "external",
+        "secure",
+        "link",
+        "domain"
+      ]
+    },
+    {
+      "name": "Step 2 — Build env_overrides",
+      "bytes": 642,
+      "when": [
+        "step",
+        "build",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Step 3 — Apply overrides + dry-run",
+      "bytes": 890,
+      "when": [
+        "step",
+        "apply",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Step 3b — Verify resolved.yml has no unexpanded ${...} tokens",
+      "bytes": 279,
+      "when": [
+        "step",
+        "verify",
+        "resolved",
+        "unexpanded",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Step 3c — Verify access to selected NGC artifacts",
+      "bytes": 2442,
+      "when": [
+        "step",
+        "verify",
+        "access",
+        "selected",
+        "artifacts"
+      ]
+    },
+    {
+      "name": "Step 3d — Strip dangling optional `depends_on` from resolved.yml",
+      "bytes": 854,
+      "when": [
+        "step",
+        "strip",
+        "dangling",
+        "optional",
+        "depends",
+        "resolved"
+      ]
+    },
+    {
+      "name": "Step 4 — Review",
+      "bytes": 725,
+      "when": [
+        "step",
+        "review"
+      ]
+    },
+    {
+      "name": "Step 5 — Deploy",
+      "bytes": 826,
+      "when": [
+        "step",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Step 5b — Wait until the stack is actually healthy",
+      "bytes": 652,
+      "when": [
+        "step",
+        "wait",
+        "until",
+        "stack",
+        "actually",
+        "healthy"
+      ]
+    },
+    {
+      "name": "Tear Down",
+      "bytes": 311,
+      "when": [
+        "tear",
+        "down"
+      ]
+    },
+    {
+      "name": "Debugging a Deployment",
+      "bytes": 1002,
+      "when": [
+        "debugging",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Quick checks (all profiles)",
+      "bytes": 613,
+      "when": [
+        "quick",
+        "checks",
+        "profiles"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 381,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 384,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/vss-deploy-profile/SKILL.md"
+}

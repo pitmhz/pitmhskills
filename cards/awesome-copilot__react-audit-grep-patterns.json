@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot__react-audit-grep-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "786b14c055e6182ed04e606bae7c7489cf9a4dc83f866f3f2c317d032cdaf023",
+  "purpose": "Provides the complete, verified grep scan command library for auditing React codebases before a React 18.3.1 or React 19 upgrade. Use this skill whenever running a migration audit - for both the react",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Provides the complete, verified grep scan command library for auditing React codebases before a React 18.3.1 or React 19 upgrade. Use this skill whenever runnin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 461,
+  "core_bytes": 1845,
+  "sections": [
+    {
+      "name": "Usage",
+      "bytes": 362,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Base Patterns Used Across All Scans",
+      "bytes": 703,
+      "when": [
+        "base",
+        "patterns",
+        "used",
+        "scans"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react-audit-grep-patterns\\SKILL.md"
+}

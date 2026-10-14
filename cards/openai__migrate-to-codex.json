@@ -29,7 +29,39 @@
   "conflicts_with": [],
   "body_tokens": 2011,
   "core_bytes": 8053,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Autonomy",
+      "bytes": 857,
+      "when": [
+        "autonomy"
+      ]
+    },
+    {
+      "name": "Migration Order",
+      "bytes": 5100,
+      "when": [
+        "migration",
+        "order"
+      ]
+    },
+    {
+      "name": "Self-Healing Loop",
+      "bytes": 776,
+      "when": [
+        "self",
+        "healing",
+        "loop"
+      ]
+    },
+    {
+      "name": "Commands",
+      "bytes": 1143,
+      "when": [
+        "commands"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/migrate-to-codex/SKILL.md"
 }

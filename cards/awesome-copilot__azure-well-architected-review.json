@@ -1,0 +1,174 @@
+{
+  "id": "awesome-copilot__azure-well-architected-review",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "bac39e11c6f91cba8c65227986e27bd8f1c25c43680f24a737cb92cc1ac51a0a",
+  "purpose": "Perform an Azure Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Perform an Azure Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2523,
+  "core_bytes": 10158,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 190,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow Steps",
+      "bytes": 7096,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Load Well-Architected Framework Reference",
+      "bytes": 512,
+      "when": [
+        "step",
+        "load",
+        "architected",
+        "framework",
+        "reference"
+      ]
+    },
+    {
+      "name": "Step 2: Discover IaC & Architecture",
+      "bytes": 1181,
+      "when": [
+        "step",
+        "discover",
+        "architecture"
+      ]
+    },
+    {
+      "name": "Step 3: Pillar-by-Pillar Review",
+      "bytes": 4056,
+      "when": [
+        "step",
+        "pillar",
+        "review"
+      ]
+    },
+    {
+      "name": "Step 4: Risk Classification",
+      "bytes": 300,
+      "when": [
+        "step",
+        "risk",
+        "classification"
+      ]
+    },
+    {
+      "name": "Step 5: User Confirmation",
+      "bytes": 812,
+      "when": [
+        "step",
+        "user",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Step 6: Create Individual Finding Issues",
+      "bytes": 216,
+      "when": [
+        "step",
+        "create",
+        "individual",
+        "finding",
+        "issues"
+      ]
+    },
+    {
+      "name": "🏗️ Well-Architected Finding: [Brief Title]",
+      "bytes": 1687,
+      "when": [
+        "architected",
+        "finding",
+        "brief",
+        "title"
+      ]
+    },
+    {
+      "name": "📋 Description",
+      "bytes": 76,
+      "when": [
+        "description"
+      ]
+    },
+    {
+      "name": "🔧 Remediation",
+      "bytes": 554,
+      "when": [
+        "remediation"
+      ]
+    },
+    {
+      "name": "📚 Azure Reference",
+      "bytes": 92,
+      "when": [
+        "azure",
+        "reference"
+      ]
+    },
+    {
+      "name": "✅ Validation",
+      "bytes": 270,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Step 7: Create EPIC Tracking Issue",
+      "bytes": 555,
+      "when": [
+        "step",
+        "create",
+        "epic",
+        "tracking",
+        "issue"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 330,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 370,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-well-architected-review\\SKILL.md"
+}

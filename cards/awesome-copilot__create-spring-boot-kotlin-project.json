@@ -1,0 +1,89 @@
+{
+  "id": "awesome-copilot__create-spring-boot-kotlin-project",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "75722e39c0294d6fc3eb5b368ec890376707127c944426ed91ad7644621e2f83",
+  "purpose": "Create Spring Boot Kotlin Project Skeleton",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create Spring Boot Kotlin Project Skeleton"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1045,
+  "core_bytes": 4180,
+  "sections": [
+    {
+      "name": "Check Java version",
+      "bytes": 118,
+      "when": [
+        "check",
+        "java",
+        "version"
+      ]
+    },
+    {
+      "name": "Download Spring Boot project template",
+      "bytes": 551,
+      "when": [
+        "download",
+        "spring",
+        "boot",
+        "project",
+        "template"
+      ]
+    },
+    {
+      "name": "Unzip the downloaded file",
+      "bytes": 166,
+      "when": [
+        "unzip",
+        "downloaded",
+        "file"
+      ]
+    },
+    {
+      "name": "Remove the downloaded zip file",
+      "bytes": 138,
+      "when": [
+        "remove",
+        "downloaded",
+        "file"
+      ]
+    },
+    {
+      "name": "Unzip the downloaded file",
+      "bytes": 166,
+      "when": [
+        "unzip",
+        "downloaded",
+        "file"
+      ]
+    },
+    {
+      "name": "Add additional dependencies",
+      "bytes": 2425,
+      "when": [
+        "additional",
+        "dependencies"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-spring-boot-kotlin-project\\SKILL.md"
+}

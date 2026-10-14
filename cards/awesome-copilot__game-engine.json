@@ -1,0 +1,151 @@
+{
+  "id": "awesome-copilot__game-engine",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "af6d0628e806be430903743ca1795f715937e65ef81d4c3f0544fb326d23dce2",
+  "purpose": "Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when asked to create games, build game engines, implement game physics, handle collision dete",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when asked to create games, build game engines, imple"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1581,
+  "core_bytes": 6322,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 572,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 206,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "bytes": 1448,
+      "when": [
+        "core",
+        "concepts"
+      ]
+    },
+    {
+      "name": "Game Loop",
+      "bytes": 363,
+      "when": [
+        "game",
+        "loop"
+      ]
+    },
+    {
+      "name": "Rendering",
+      "bytes": 273,
+      "when": [
+        "rendering"
+      ]
+    },
+    {
+      "name": "Physics and Collision Detection",
+      "bytes": 318,
+      "when": [
+        "physics",
+        "collision",
+        "detection"
+      ]
+    },
+    {
+      "name": "Controls",
+      "bytes": 248,
+      "when": [
+        "controls"
+      ]
+    },
+    {
+      "name": "Audio",
+      "bytes": 152,
+      "when": [
+        "audio"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflows",
+      "bytes": 1040,
+      "when": [
+        "step",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Creating a Basic 2D Game",
+      "bytes": 419,
+      "when": [
+        "creating",
+        "basic",
+        "game"
+      ]
+    },
+    {
+      "name": "Building a 3D Game",
+      "bytes": 331,
+      "when": [
+        "building",
+        "game"
+      ]
+    },
+    {
+      "name": "Publishing a Game",
+      "bytes": 263,
+      "when": [
+        "publishing",
+        "game"
+      ]
+    },
+    {
+      "name": "Game Templates",
+      "bytes": 595,
+      "when": [
+        "game",
+        "templates"
+      ]
+    },
+    {
+      "name": "Reference Documentation",
+      "bytes": 836,
+      "when": [
+        "reference",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 867,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\game-engine\\SKILL.md"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "awesome-copilot__scaffolding-oracle-to-postgres-migration-test-project",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e0c48d45b172678fdd46b4fd28c4cf7e8c11cbb11f0dc22a708d01867d35bd08",
+  "purpose": "Scaffolds an xUnit integration test project targeting Oracle in .NET solutions. Creates the test project, transaction-rollback base class, and seed data manager. Use only during Phase 3, before writin",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Scaffolds an xUnit integration test project targeting Oracle in .NET solutions. Creates the test project, transaction-rollback base class, and seed data manager"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 687,
+  "core_bytes": 2762,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1566,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Key Constraints",
+      "bytes": 487,
+      "when": [
+        "constraints"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\scaffolding-oracle-to-postgres-migration-test-project\\SKILL.md"
+}

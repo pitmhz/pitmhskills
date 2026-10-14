@@ -1,0 +1,99 @@
+{
+  "id": "mengto-skills__audit-verify-explain-grade-5",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "2ab49a39f5a9196a7b691ee2bf5096c182fb9150983bfc14d9795e3dbad4723a",
+  "purpose": "Audit work, verify claims with concrete evidence, and explain the result in simple grade-5 language. Use when the user asks to review, audit, check, verify, explain a change, explain a fix, summarize ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Audit work, verify claims with concrete evidence, and explain the result in simple grade-5 language. Use when the user asks to review, audit, check, verify, exp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 946,
+  "core_bytes": 3783,
+  "sections": [
+    {
+      "name": "Core Rule",
+      "bytes": 377,
+      "when": [
+        "core",
+        "rule"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1995,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Audit",
+      "bytes": 714,
+      "when": [
+        "audit"
+      ]
+    },
+    {
+      "name": "2. Verify",
+      "bytes": 736,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "3. Explain Simply",
+      "bytes": 530,
+      "when": [
+        "explain",
+        "simply"
+      ]
+    },
+    {
+      "name": "Explanation Standards",
+      "bytes": 549,
+      "when": [
+        "explanation",
+        "standards"
+      ]
+    },
+    {
+      "name": "Output Rules",
+      "bytes": 445,
+      "when": [
+        "output",
+        "rules"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "rule",
+    "workflow",
+    "simply",
+    "explanation",
+    "standards",
+    "output",
+    "rules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\audit-verify-explain-grade-5\\SKILL.md"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "nvidia__jetson-video-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dd33fce60d8ed731e66b27e667ef8665850779b62854f104c95b9d4464930814",
+  "purpose": "Use when installing, repairing, reusing, inspecting, or verifying readiness of the native NVIDIA Video Codec SDK or PyNvVideoCodec on Jetson, including the one-frame encode/decode smoke test with offi",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when installing, repairing, reusing, inspecting, or verifying readiness of the native NVIDIA Video Codec SDK or PyNvVideoCodec on Jetson, including the one-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2452,
+  "core_bytes": 9842,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 433,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Read before acting",
+      "bytes": 480,
+      "when": [
+        "read",
+        "before",
+        "acting"
+      ]
+    },
+    {
+      "name": "Select the product",
+      "bytes": 725,
+      "when": [
+        "select",
+        "product"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1907,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "PyNvVideoCodec environment selection",
+      "bytes": 1930,
+      "when": [
+        "pynvvideocodec",
+        "environment",
+        "selection"
+      ]
+    },
+    {
+      "name": "Readiness proof",
+      "bytes": 1651,
+      "when": [
+        "readiness",
+        "proof"
+      ]
+    },
+    {
+      "name": "Compose requested sibling work",
+      "bytes": 514,
+      "when": [
+        "compose",
+        "requested",
+        "sibling",
+        "work"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 1551,
+      "when": [
+        "safety"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-video-setup\\SKILL.md",
+  "curated": true
+}

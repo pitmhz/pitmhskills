@@ -1,0 +1,108 @@
+{
+  "id": "mengto-skills__build-interactive-particle-trail",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "aaff474f9bbfeb9353033488621d7dca9e5cacc127bb6c6461e419eb5941a0b0",
+  "purpose": "Build a cursor or touch particle interaction that emits by distance along the traveled segment into a recycled GPU point pool, with optional keyboard-triggered bursts. Use for interactive particle tra",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build a cursor or touch particle interaction that emits by distance along the traveled segment into a recycled GPU point pool, with optional keyboard-triggered "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1539,
+  "core_bytes": 6160,
+  "sections": [
+    {
+      "name": "Resolve the interaction plane",
+      "bytes": 525,
+      "when": [
+        "resolve",
+        "interaction",
+        "plane"
+      ]
+    },
+    {
+      "name": "Emit by distance",
+      "bytes": 1324,
+      "when": [
+        "emit",
+        "distance"
+      ]
+    },
+    {
+      "name": "Recycle a GPU pool",
+      "bytes": 1073,
+      "when": [
+        "recycle",
+        "pool"
+      ]
+    },
+    {
+      "name": "Reuse the pool for bursts",
+      "bytes": 376,
+      "when": [
+        "reuse",
+        "pool",
+        "bursts"
+      ]
+    },
+    {
+      "name": "Respect motion and lifecycle",
+      "bytes": 655,
+      "when": [
+        "respect",
+        "motion",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "State the cost honestly",
+      "bytes": 357,
+      "when": [
+        "state",
+        "cost",
+        "honestly"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 818,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "trail",
+    "resolve",
+    "plane",
+    "emit",
+    "recycle",
+    "reuse",
+    "respect",
+    "motion",
+    "lifecycle",
+    "state",
+    "cost",
+    "honestly"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\build-interactive-particle-trail\\SKILL.md"
+}

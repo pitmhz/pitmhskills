@@ -1,0 +1,87 @@
+{
+  "id": "awesome-copilot__javascript-typescript-jest",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cb9a552dfe63cae4f310b27067ba28351b59ad17e83a9e1c5ff23c542ce6fdd8",
+  "purpose": "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 559,
+  "core_bytes": 2235,
+  "sections": [
+    {
+      "name": "Test Structure",
+      "bytes": 388,
+      "when": [
+        "test",
+        "structure"
+      ]
+    },
+    {
+      "name": "Effective Mocking",
+      "bytes": 337,
+      "when": [
+        "effective",
+        "mocking"
+      ]
+    },
+    {
+      "name": "Testing Async Code",
+      "bytes": 200,
+      "when": [
+        "testing",
+        "async",
+        "code"
+      ]
+    },
+    {
+      "name": "Snapshot Testing",
+      "bytes": 194,
+      "when": [
+        "snapshot",
+        "testing"
+      ]
+    },
+    {
+      "name": "Testing React Components",
+      "bytes": 279,
+      "when": [
+        "testing",
+        "react",
+        "components"
+      ]
+    },
+    {
+      "name": "Common Jest Matchers",
+      "bytes": 646,
+      "when": [
+        "common",
+        "jest",
+        "matchers"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\javascript-typescript-jest\\SKILL.md"
+}

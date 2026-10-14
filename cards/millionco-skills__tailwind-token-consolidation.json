@@ -1,0 +1,108 @@
+{
+  "id": "millionco-skills__tailwind-token-consolidation",
+  "tier": "B",
+  "origin": [
+    "millionco/skills@462b78424e14ba6895a717733e1d57191dd9912f"
+  ],
+  "license": "MIT",
+  "hash": "66738ebc7cf93caf3d1fbe065d6bb894dbc2899a1399e30d37b4e577f6f99d35",
+  "purpose": "Use when consolidating, deduping, or reducing the number of CSS custom properties / Tailwind v4 design tokens in a globals.css file. Triggers on requests like \"reduce tokens\", \"standardize design toke",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when consolidating, deduping, or reducing the number of CSS custom properties / Tailwind v4 design tokens in a globals.css file. Triggers on requests like \""
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Consolidate Tailwind/design tokens -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "tokens consolidate dedupe globals css",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2646,
+  "core_bytes": 10623,
+  "sections": [
+    {
+      "name": "The Two Reduction Levers (apply in this order)",
+      "bytes": 836,
+      "when": [
+        "reduction",
+        "levers",
+        "apply",
+        "order"
+      ]
+    },
+    {
+      "name": "The Eight Bugs You Will Hit (anticipate them)",
+      "bytes": 4283,
+      "when": [
+        "eight",
+        "bugs",
+        "anticipate",
+        "them"
+      ]
+    },
+    {
+      "name": "The Three-Pass Block Transformation",
+      "bytes": 1114,
+      "when": [
+        "three",
+        "pass",
+        "block",
+        "transformation"
+      ]
+    },
+    {
+      "name": "Apply-And-Verify Loop",
+      "bytes": 468,
+      "when": [
+        "apply",
+        "verify",
+        "loop"
+      ]
+    },
+    {
+      "name": "Rationalization Table",
+      "bytes": 1238,
+      "when": [
+        "rationalization",
+        "table"
+      ]
+    },
+    {
+      "name": "Before Declaring Done",
+      "bytes": 726,
+      "when": [
+        "before",
+        "declaring",
+        "done"
+      ]
+    }
+  ],
+  "keywords": [
+    "consolidation",
+    "reduction",
+    "levers",
+    "apply",
+    "order",
+    "eight",
+    "bugs",
+    "anticipate",
+    "them",
+    "three",
+    "pass",
+    "block",
+    "transformation"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\millionco-skills\\skills\\tailwind-token-consolidation\\SKILL.md"
+}

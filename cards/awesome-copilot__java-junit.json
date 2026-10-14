@@ -1,0 +1,92 @@
+{
+  "id": "awesome-copilot__java-junit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "beeae246a2b1a8debffb53b005eba0e025f70923fa26a11f3c4bfefd99388fa3",
+  "purpose": "Get best practices for JUnit 5 unit testing, including data-driven tests",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Get best practices for JUnit 5 unit testing, including data-driven tests"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 746,
+  "core_bytes": 2981,
+  "sections": [
+    {
+      "name": "Project Setup",
+      "bytes": 309,
+      "when": [
+        "project",
+        "setup"
+      ]
+    },
+    {
+      "name": "Test Structure",
+      "bytes": 542,
+      "when": [
+        "test",
+        "structure"
+      ]
+    },
+    {
+      "name": "Standard Tests",
+      "bytes": 215,
+      "when": [
+        "standard",
+        "tests"
+      ]
+    },
+    {
+      "name": "Data-Driven (Parameterized) Tests",
+      "bytes": 450,
+      "when": [
+        "data",
+        "driven",
+        "parameterized",
+        "tests"
+      ]
+    },
+    {
+      "name": "Assertions",
+      "bytes": 489,
+      "when": [
+        "assertions"
+      ]
+    },
+    {
+      "name": "Mocking and Isolation",
+      "bytes": 246,
+      "when": [
+        "mocking",
+        "isolation"
+      ]
+    },
+    {
+      "name": "Test Organization",
+      "bytes": 464,
+      "when": [
+        "test",
+        "organization"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\java-junit\\SKILL.md"
+}

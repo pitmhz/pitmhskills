@@ -36,9 +36,219 @@
   ],
   "body_tokens": 12391,
   "core_bytes": 49772,
-  "sections": [],
-  "verify": [
-    "bun run test"
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 2585,
+      "when": []
+    },
+    {
+      "name": "What It Does",
+      "bytes": 1014,
+      "when": []
+    },
+    {
+      "name": "Availability",
+      "bytes": 255,
+      "when": [
+        "availability"
+      ]
+    },
+    {
+      "name": "Architecture: Where Functions Fit",
+      "bytes": 1997,
+      "when": [
+        "architecture",
+        "where",
+        "functions"
+      ]
+    },
+    {
+      "name": "Production hardening",
+      "bytes": 415,
+      "when": [
+        "production",
+        "hardening"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 2486,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Develop Locally and Deploy",
+      "bytes": 2715,
+      "when": [
+        "develop",
+        "locally",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Native binaries and custom builds",
+      "bytes": 854,
+      "when": [
+        "native",
+        "binaries",
+        "custom",
+        "builds"
+      ]
+    },
+    {
+      "name": "Neon Infrastructure as Code (`neon.ts`)",
+      "bytes": 1414,
+      "when": [
+        "neon",
+        "infrastructure",
+        "code"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 3069,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Connecting to Postgres",
+      "bytes": 2999,
+      "when": [
+        "connecting",
+        "postgres"
+      ]
+    },
+    {
+      "name": "Timeouts and Runtime Limits",
+      "bytes": 2287,
+      "when": [
+        "timeouts",
+        "runtime",
+        "limits"
+      ]
+    },
+    {
+      "name": "Functions as an Agent Backend (Next.js and Similar Frameworks)",
+      "bytes": 5889,
+      "when": [
+        "functions",
+        "agent",
+        "backend",
+        "next",
+        "similar",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "WebSocket Servers",
+      "bytes": 13187,
+      "when": [
+        "websocket",
+        "servers"
+      ]
+    },
+    {
+      "name": "Heartbeat (keep the socket alive)",
+      "bytes": 1209,
+      "when": [
+        "heartbeat",
+        "keep",
+        "socket",
+        "alive"
+      ]
+    },
+    {
+      "name": "Keeping clients in sync across isolates (do not skip this)",
+      "bytes": 5272,
+      "when": [
+        "keeping",
+        "clients",
+        "sync",
+        "isolates",
+        "skip"
+      ]
+    },
+    {
+      "name": "Client must reconnect",
+      "bytes": 1188,
+      "when": [
+        "client",
+        "reconnect"
+      ]
+    },
+    {
+      "name": "Server-Sent Events (SSE)",
+      "bytes": 2114,
+      "when": [
+        "server",
+        "sent",
+        "events"
+      ]
+    },
+    {
+      "name": "Function Triggers",
+      "bytes": 839,
+      "when": [
+        "function",
+        "triggers"
+      ]
+    },
+    {
+      "name": "MCP Servers",
+      "bytes": 1744,
+      "when": [
+        "servers"
+      ]
+    },
+    {
+      "name": "Integrations and Observability",
+      "bytes": 1384,
+      "when": [
+        "integrations",
+        "observability"
+      ]
+    },
+    {
+      "name": "Built-in branch logs",
+      "bytes": 496,
+      "when": [
+        "built",
+        "branch",
+        "logs"
+      ]
+    },
+    {
+      "name": "Application instrumentation",
+      "bytes": 851,
+      "when": [
+        "application",
+        "instrumentation"
+      ]
+    },
+    {
+      "name": "Neon Documentation",
+      "bytes": 371,
+      "when": [
+        "neon",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Further Reading",
+      "bytes": 766,
+      "when": [
+        "further",
+        "reading"
+      ]
+    }
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-functions\\SKILL.md"
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-functions\\SKILL.md",
+  "curated": true
 }

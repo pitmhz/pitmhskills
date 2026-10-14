@@ -1,0 +1,93 @@
+{
+  "id": "nvidia__openfold3-nim",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "465010920970afd850cdb1c677b9af4c136d1946423b96d4d1068bf20fe50472",
+  "purpose": "Use this skill for OpenFold3, NVIDIA's BioNeMo NIM microservice for biomolecular structure prediction. Invoke whenever the user mentions OpenFold3 or needs protein, protein-ligand, protein-DNA/RNA, or",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill for OpenFold3, NVIDIA's BioNeMo NIM microservice for biomolecular structure prediction. Invoke whenever the user mentions OpenFold3 or needs prot"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1946,
+  "core_bytes": 7783,
+  "sections": [
+    {
+      "name": "Choose Mode",
+      "bytes": 867,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Auth And Environment",
+      "bytes": 369,
+      "when": [
+        "auth",
+        "environment"
+      ]
+    },
+    {
+      "name": "Local Docker",
+      "bytes": 1580,
+      "when": [
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "Request Pattern",
+      "bytes": 1790,
+      "when": [
+        "request",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Save And Interpret Output",
+      "bytes": 1059,
+      "when": [
+        "save",
+        "interpret",
+        "output"
+      ]
+    },
+    {
+      "name": "Common Limits",
+      "bytes": 392,
+      "when": [
+        "common",
+        "limits"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 494,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-openfold3-nim\\SKILL.md",
+  "curated": true
+}

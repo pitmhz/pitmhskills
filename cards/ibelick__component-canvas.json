@@ -1,0 +1,131 @@
+{
+  "id": "ibelick__component-canvas",
+  "tier": "B",
+  "origin": [
+    "ibelick/ui-skills@c628a5917754ec2396d9cbb47988f280ba1d5cb0"
+  ],
+  "license": "MIT",
+  "hash": "99b8f0a964ff4464e6feec03fb6c6e45871a0eacaa5f7cae5bbc0a31b0640aef",
+  "purpose": "Build a full-screen, interactive canvas to explore existing UI components and their variants with pan and zoom.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build a full-screen, interactive canvas to explore existing UI components and their variants with pan and zoom."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2256,
+  "core_bytes": 9023,
+  "sections": [
+    {
+      "name": "Ground rules",
+      "bytes": 656,
+      "when": [
+        "ground",
+        "rules"
+      ]
+    },
+    {
+      "name": "Before building",
+      "bytes": 447,
+      "when": [
+        "before",
+        "building"
+      ]
+    },
+    {
+      "name": "Build order",
+      "bytes": 574,
+      "when": [
+        "build",
+        "order"
+      ]
+    },
+    {
+      "name": "Layout",
+      "bytes": 1233,
+      "when": [
+        "layout"
+      ]
+    },
+    {
+      "name": "Variants",
+      "bytes": 1390,
+      "when": [
+        "variants"
+      ]
+    },
+    {
+      "name": "Interactions",
+      "bytes": 909,
+      "when": [
+        "interactions"
+      ]
+    },
+    {
+      "name": "Safety for previews",
+      "bytes": 414,
+      "when": [
+        "safety",
+        "previews"
+      ]
+    },
+    {
+      "name": "Camera",
+      "bytes": 1108,
+      "when": [
+        "camera"
+      ]
+    },
+    {
+      "name": "Persistence",
+      "bytes": 386,
+      "when": [
+        "persistence"
+      ]
+    },
+    {
+      "name": "Checks",
+      "bytes": 1116,
+      "when": [
+        "checks"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 468,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "component",
+    "ground",
+    "rules",
+    "before",
+    "building",
+    "order",
+    "layout",
+    "interactions",
+    "safety",
+    "previews",
+    "camera",
+    "persistence"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\component-canvas\\SKILL.md"
+}

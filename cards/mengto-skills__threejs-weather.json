@@ -1,0 +1,150 @@
+{
+  "id": "mengto-skills__threejs-weather",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "144393c0fa37e10b896f1c8882c57b8c345eff0472c11bc8d22cc6f2c14618e3",
+  "purpose": "Put weather into a Three.js scene that reads as weather — rain anchored inside the frustum, a storm that is the rain leaned on rather than a second system, lightning on its own light with thunder sche",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Put weather into a Three.js scene that reads as weather — rain anchored inside the frustum, a storm that is the rain leaned on rather than a second system, ligh"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2018,
+  "core_bytes": 8111,
+  "sections": [
+    {
+      "name": "Anchor the volume in the frustum",
+      "bytes": 704,
+      "when": [
+        "anchor",
+        "volume",
+        "frustum"
+      ]
+    },
+    {
+      "name": "Float32BufferAttribute copies your array",
+      "bytes": 494,
+      "when": [
+        "float32bufferattribute",
+        "copies",
+        "array"
+      ]
+    },
+    {
+      "name": "Density is a draw range, not a new buffer",
+      "bytes": 403,
+      "when": [
+        "density",
+        "draw",
+        "range",
+        "buffer"
+      ]
+    },
+    {
+      "name": "A storm is the rain leaned on",
+      "bytes": 453,
+      "when": [
+        "storm",
+        "rain",
+        "leaned"
+      ]
+    },
+    {
+      "name": "Lightning is its own light",
+      "bytes": 1698,
+      "when": [
+        "lightning",
+        "light"
+      ]
+    },
+    {
+      "name": "A blizzard is a slow envelope, not a state",
+      "bytes": 750,
+      "when": [
+        "blizzard",
+        "slow",
+        "envelope",
+        "state"
+      ]
+    },
+    {
+      "name": "Falling snow and settled snow are two variables",
+      "bytes": 785,
+      "when": [
+        "falling",
+        "snow",
+        "settled",
+        "variables"
+      ]
+    },
+    {
+      "name": "Re-light only when the slow values move",
+      "bytes": 356,
+      "when": [
+        "light",
+        "slow",
+        "values",
+        "move"
+      ]
+    },
+    {
+      "name": "Wet ground",
+      "bytes": 360,
+      "when": [
+        "ground"
+      ]
+    },
+    {
+      "name": "Ambience that loops with no seam",
+      "bytes": 672,
+      "when": [
+        "ambience",
+        "loops",
+        "seam"
+      ]
+    },
+    {
+      "name": "What to check before you call it done",
+      "bytes": 581,
+      "when": [
+        "check",
+        "before",
+        "call",
+        "done"
+      ]
+    }
+  ],
+  "keywords": [
+    "anchor",
+    "volume",
+    "float32bufferattribute",
+    "copies",
+    "array",
+    "density",
+    "draw",
+    "range",
+    "buffer",
+    "blizzard",
+    "slow",
+    "envelope",
+    "state"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\threejs-weather\\SKILL.md"
+}

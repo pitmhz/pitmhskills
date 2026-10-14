@@ -1,0 +1,119 @@
+{
+  "id": "awesome-copilot__winmd-api-search",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d777e47317ae46772d5fadb37ebc322bd2a3610c315d9b782748e2fb205b93f3",
+  "purpose": "Find and explore Windows desktop APIs. Use when building features that need platform capabilities — camera, file access, notifications, UI controls, AI/ML, sensors, networking, etc. Discovers the righ",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Find and explore Windows desktop APIs. Use when building features that need platform capabilities — camera, file access, notifications, UI controls, AI/ML, sens"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2177,
+  "core_bytes": 8747,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 415,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 183,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Cache Setup (Required Before First Use)",
+      "bytes": 1285,
+      "when": [
+        "cache",
+        "setup",
+        "required",
+        "before",
+        "first"
+      ]
+    },
+    {
+      "name": "What gets indexed",
+      "bytes": 561,
+      "when": [
+        "gets",
+        "indexed"
+      ]
+    },
+    {
+      "name": "How to Use",
+      "bytes": 4482,
+      "when": []
+    },
+    {
+      "name": "Discover — \"I don't know which API to use\"",
+      "bytes": 2877,
+      "when": [
+        "discover",
+        "know"
+      ]
+    },
+    {
+      "name": "Lookup — \"I know the API, show me the details\"",
+      "bytes": 876,
+      "when": [
+        "lookup",
+        "know",
+        "show",
+        "details"
+      ]
+    },
+    {
+      "name": "Other Commands",
+      "bytes": 666,
+      "when": [
+        "commands"
+      ]
+    },
+    {
+      "name": "Search Scoring",
+      "bytes": 568,
+      "when": [
+        "search",
+        "scoring"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 456,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 292,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\winmd-api-search\\SKILL.md"
+}

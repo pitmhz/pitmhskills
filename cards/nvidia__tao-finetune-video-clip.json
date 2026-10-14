@@ -1,0 +1,136 @@
+{
+  "id": "nvidia__tao-finetune-video-clip",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c39eacc7d2f9476fc0510b6a2e31fabfe1c4c179462284454e91a1cd1863a13a",
+  "purpose": "InternVideo2-CLIP L14 (TAO video_clip) for video-text retrieval, zero-shot classification, embedding extraction, LoRA fine-tuning, ONNX export, and TensorRT deployment. Use when the user asks to \"fine",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "InternVideo2-CLIP L14 (TAO video_clip) for video-text retrieval, zero-shot classification, embedding extraction, LoRA fine-tuning, ONNX export, and TensorRT dep"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3520,
+  "core_bytes": 14231,
+  "sections": [
+    {
+      "name": "Train Action Policy",
+      "bytes": 201,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Quick Start (local Docker)",
+      "bytes": 3582,
+      "when": [
+        "quick",
+        "start",
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "TensorRT Deploy",
+      "bytes": 1315,
+      "when": [
+        "tensorrt",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Quick Start (virtualenv — local dev hosts)",
+      "bytes": 971,
+      "when": [
+        "quick",
+        "start",
+        "virtualenv",
+        "local",
+        "hosts"
+      ]
+    },
+    {
+      "name": "Credentials",
+      "bytes": 741,
+      "when": [
+        "credentials"
+      ]
+    },
+    {
+      "name": "Data format (vadr1_chunks)",
+      "bytes": 617,
+      "when": [
+        "data",
+        "format",
+        "vadr1",
+        "chunks"
+      ]
+    },
+    {
+      "name": "Smoke overrides",
+      "bytes": 591,
+      "when": [
+        "smoke",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Inference",
+      "bytes": 293,
+      "when": [
+        "inference"
+      ]
+    },
+    {
+      "name": "Export",
+      "bytes": 445,
+      "when": [
+        "export"
+      ]
+    },
+    {
+      "name": "LoRA",
+      "bytes": 216,
+      "when": [
+        "lora"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 2465,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 244,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-finetune-video-clip\\SKILL.md",
+  "curated": true
+}

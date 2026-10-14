@@ -1,0 +1,73 @@
+{
+  "id": "nvidia__tao-analyze-gaps-od-map",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3cb65c3e386e62b5aa4f120f1d572045d3fd55beff71246a5acbcdc90db8808f",
+  "purpose": "Run TAO Data Services object-detection gap analysis from ground-truth and inference annotations. Use when an object detection workflow needs to identify weak images by comparing model predictions agai",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run TAO Data Services object-detection gap analysis from ground-truth and inference annotations. Use when an object detection workflow needs to identify weak im"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1791,
+  "core_bytes": 7178,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 2788,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 1105,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 495,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 767,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 781,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-analyze-gaps-od-map\\SKILL.md",
+  "curated": true
+}

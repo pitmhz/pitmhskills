@@ -1,0 +1,157 @@
+{
+  "id": "nvidia__warp-compile-time-optimizer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b6c1cbb6f361b51841eb961acba30f93bd17a5c25767f2ff9ee2f9e63f8d4cd9",
+  "purpose": "Use when compile time or startup time is the problem in code that uses Warp: a request to improve, optimize, or cut compile times; an app that is slow to start or stalls at the first wp.launch; second",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when compile time or startup time is the problem in code that uses Warp: a request to improve, optimize, or cut compile times; an app that is slow to start "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3574,
+  "core_bytes": 14299,
+  "sections": [
+    {
+      "name": "Start with a runnable command",
+      "bytes": 541,
+      "when": [
+        "start",
+        "runnable",
+        "command"
+      ]
+    },
+    {
+      "name": "Compilation model",
+      "bytes": 925,
+      "when": [
+        "compilation",
+        "model"
+      ]
+    },
+    {
+      "name": "When a module's options are fixed",
+      "bytes": 1014,
+      "when": [
+        "module",
+        "options",
+        "fixed"
+      ]
+    },
+    {
+      "name": "Preserve behavior",
+      "bytes": 580,
+      "when": [
+        "preserve",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 9098,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "1. Find the real cost, and confirm it is compilation",
+      "bytes": 1536,
+      "when": [
+        "find",
+        "real",
+        "cost",
+        "confirm",
+        "compilation"
+      ]
+    },
+    {
+      "name": "2. Ask about runtime tradeoffs when needed",
+      "bytes": 1666,
+      "when": [
+        "runtime",
+        "tradeoffs",
+        "needed"
+      ]
+    },
+    {
+      "name": "3. Diagnose from the measurement, not from reading the source",
+      "bytes": 1993,
+      "when": [
+        "diagnose",
+        "measurement",
+        "reading",
+        "source"
+      ]
+    },
+    {
+      "name": "4. Choose module boundaries deliberately",
+      "bytes": 1562,
+      "when": [
+        "choose",
+        "module",
+        "boundaries",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "5. Verify",
+      "bytes": 896,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "6. Report results",
+      "bytes": 1426,
+      "when": [
+        "report",
+        "results"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 206,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 561,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 377,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\warp-compile-time-optimizer\\SKILL.md",
+  "curated": true
+}

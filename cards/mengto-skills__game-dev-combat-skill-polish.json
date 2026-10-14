@@ -1,0 +1,95 @@
+{
+  "id": "mengto-skills__game-dev-combat-skill-polish",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "56e82a03b3af51580539807995557776cce5682ecfdd75359731047eb5824747",
+  "purpose": "Score a game's combat skills and spells out of 10 with blind judges, then raise the weakest to a bar, for timing and readability (does a skill read as itself, does the blow land when it lands) and for",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Score a game's combat skills and spells out of 10 with blind judges, then raise the weakest to a bar, for timing and readability (does a skill read as itself, d"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2396,
+  "core_bytes": 9585,
+  "sections": [
+    {
+      "name": "1. Pin down the job",
+      "bytes": 641,
+      "when": [
+        "down"
+      ]
+    },
+    {
+      "name": "2. Film the real thing",
+      "bytes": 1405,
+      "when": [
+        "film",
+        "real"
+      ]
+    },
+    {
+      "name": "3. Judge blind, two at a time",
+      "bytes": 859,
+      "when": [
+        "judge",
+        "blind",
+        "time"
+      ]
+    },
+    {
+      "name": "4. Raise it, round by round",
+      "bytes": 3468,
+      "when": [
+        "raise",
+        "round"
+      ]
+    },
+    {
+      "name": "5. Stop, lock in, ship",
+      "bytes": 791,
+      "when": [
+        "stop",
+        "lock",
+        "ship"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 356,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "down",
+    "film",
+    "real",
+    "time",
+    "round",
+    "stop",
+    "lock",
+    "ship",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-combat\\game-dev-combat-skill-polish\\SKILL.md"
+}

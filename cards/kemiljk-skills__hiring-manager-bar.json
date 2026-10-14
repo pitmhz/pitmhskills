@@ -1,0 +1,102 @@
+{
+  "id": "kemiljk-skills__hiring-manager-bar",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "9bc05a4ed598942d236d6e2b51768fcac30f84abca1d391dc57403edacc67d10",
+  "purpose": "Review a job-seeking portfolio against Karl Koch's hiring manager bar and recommend prioritized changes to site code and content. Use for portfolio readiness, hiring clarity, or a portfolio review wit",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Review a job-seeking portfolio against Karl Koch's hiring manager bar and recommend prioritized changes to site code and content. Use for portfolio readiness, h"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2078,
+  "core_bytes": 8329,
+  "sections": [
+    {
+      "name": "Scope",
+      "bytes": 547,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Read as a visitor, then inspect the implementation",
+      "bytes": 1276,
+      "when": [
+        "read",
+        "visitor",
+        "inspect",
+        "implementation"
+      ]
+    },
+    {
+      "name": "The bar",
+      "bytes": 1772,
+      "when": []
+    },
+    {
+      "name": "Evidence and priority",
+      "bytes": 1054,
+      "when": [
+        "evidence",
+        "priority"
+      ]
+    },
+    {
+      "name": "Recommend changes that can be implemented",
+      "bytes": 1166,
+      "when": [
+        "recommend",
+        "changes",
+        "implemented"
+      ]
+    },
+    {
+      "name": "Report and completion",
+      "bytes": 1414,
+      "when": [
+        "report",
+        "completion"
+      ]
+    },
+    {
+      "name": "Sources",
+      "bytes": 473,
+      "when": [
+        "sources"
+      ]
+    }
+  ],
+  "keywords": [
+    "scope",
+    "read",
+    "visitor",
+    "inspect",
+    "evidence",
+    "priority",
+    "implemented",
+    "report",
+    "completion",
+    "sources"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\hiring-manager-bar\\SKILL.md"
+}

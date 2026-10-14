@@ -1,0 +1,84 @@
+{
+  "id": "mengto-skills__3d-falling-leaves",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "962d7b2ed3c70ca2de9cba4ccd7ddf5d63ccda8370006631152ea3f23f33a7ed",
+  "purpose": "Build recognizable falling leaves in world space using instanced geometry, independent tumble, coupled sideways drift, shared wind, scene occlusion, and camera-aware recycling. Use for 3D autumn leave",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build recognizable falling leaves in world space using instanced geometry, independent tumble, coupled sideways drift, shared wind, scene occlusion, and camera-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1317,
+  "core_bytes": 5268,
+  "sections": [
+    {
+      "name": "Build one convincing leaf",
+      "bytes": 966,
+      "when": [
+        "build",
+        "convincing",
+        "leaf"
+      ]
+    },
+    {
+      "name": "Couple tumble and drift",
+      "bytes": 866,
+      "when": [
+        "couple",
+        "tumble",
+        "drift"
+      ]
+    },
+    {
+      "name": "Instance and recycle",
+      "bytes": 1357,
+      "when": [
+        "instance",
+        "recycle"
+      ]
+    },
+    {
+      "name": "Integrate with the world",
+      "bytes": 910,
+      "when": [
+        "integrate",
+        "world"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 648,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "convincing",
+    "leaf",
+    "couple",
+    "instance",
+    "recycle",
+    "integrate",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-falling-leaves\\SKILL.md"
+}

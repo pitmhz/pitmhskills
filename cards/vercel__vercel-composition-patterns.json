@@ -31,7 +31,84 @@
   "conflicts_with": [],
   "body_tokens": 743,
   "core_bytes": 2975,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "When to Apply",
+      "bytes": 279,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Rule Categories by Priority",
+      "bytes": 438,
+      "when": [
+        "rule",
+        "categories",
+        "priority"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1036,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "1. Component Architecture (HIGH)",
+      "bytes": 240,
+      "when": [
+        "component",
+        "architecture",
+        "high"
+      ]
+    },
+    {
+      "name": "2. State Management (MEDIUM)",
+      "bytes": 326,
+      "when": [
+        "state",
+        "management",
+        "medium"
+      ]
+    },
+    {
+      "name": "3. Implementation Patterns (MEDIUM)",
+      "bytes": 242,
+      "when": [
+        "implementation",
+        "patterns",
+        "medium"
+      ]
+    },
+    {
+      "name": "4. React 19 APIs (MEDIUM)",
+      "bytes": 206,
+      "when": [
+        "react",
+        "apis",
+        "medium"
+      ]
+    },
+    {
+      "name": "How to Use",
+      "bytes": 371,
+      "when": []
+    },
+    {
+      "name": "Full Compiled Document",
+      "bytes": 90,
+      "when": [
+        "full",
+        "compiled",
+        "document"
+      ]
+    }
+  ],
+  "verify": [
+    "npx tsc --noEmit"
+  ],
   "skill_path": "skills/vercel/skills/composition-patterns/SKILL.md"
 }

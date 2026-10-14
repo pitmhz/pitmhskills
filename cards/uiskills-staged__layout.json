@@ -1,0 +1,96 @@
+{
+  "id": "uiskills-staged__layout",
+  "tier": "B",
+  "origin": [
+    "local@layout"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c9dbc8868d7f3990dea8e8fa7ea5802a68b81a8fda46a33e6ac92bda136a6cef",
+  "purpose": "Layout turns product priority into reading order, grouping, rhythm, and usable space. Diagnose the structural problem before moving boxes.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Layout turns product priority into reading order, grouping, rhythm, and usable space. Diagnose the structural problem before moving boxes."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Layout diagnosis (priority into reading order) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "layout composition rhythm space",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1312,
+  "core_bytes": 5251,
+  "sections": [
+    {
+      "name": "Visitor mode",
+      "bytes": 524,
+      "when": [
+        "visitor",
+        "mode"
+      ]
+    },
+    {
+      "name": "Two isolated assessments",
+      "bytes": 1732,
+      "when": [
+        "isolated",
+        "assessments"
+      ]
+    },
+    {
+      "name": "Set the spatial thesis",
+      "bytes": 526,
+      "when": [
+        "spatial",
+        "thesis"
+      ]
+    },
+    {
+      "name": "Apply",
+      "bytes": 1108,
+      "when": [
+        "apply"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 841,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Live-mode signature params",
+      "bytes": 371,
+      "when": [
+        "live",
+        "mode",
+        "signature",
+        "params"
+      ]
+    }
+  ],
+  "keywords": [
+    "visitor",
+    "mode",
+    "isolated",
+    "assessments",
+    "spatial",
+    "thesis",
+    "apply",
+    "verify",
+    "live",
+    "signature",
+    "params"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\layout\\SKILL.md"
+}

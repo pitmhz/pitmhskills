@@ -1,0 +1,133 @@
+{
+  "id": "mengto-skills__iterate-until-verified",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "040c6f31c9db11af2671f9fcdfc2c637e311362a0bee07554ea84b6e8fac506b",
+  "purpose": "Apply a prompt-agnostic execution and verification loop to any substantial task while preserving the original request. Use when the user asks to fan out work, use subagents or independent reviewers, l",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Apply a prompt-agnostic execution and verification loop to any substantial task while preserving the original request. Use when the user asks to fan out work, u"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1904,
+  "core_bytes": 7623,
+  "sections": [
+    {
+      "name": "Choose the mode",
+      "bytes": 379,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "1. Lock the original task",
+      "bytes": 603,
+      "when": [
+        "lock",
+        "original",
+        "task"
+      ]
+    },
+    {
+      "name": "2. Convert ambition into gates",
+      "bytes": 926,
+      "when": [
+        "convert",
+        "ambition",
+        "gates"
+      ]
+    },
+    {
+      "name": "3. Decompose and assign",
+      "bytes": 708,
+      "when": [
+        "decompose",
+        "assign"
+      ]
+    },
+    {
+      "name": "4. Separate making from judging",
+      "bytes": 780,
+      "when": [
+        "separate",
+        "making",
+        "judging"
+      ]
+    },
+    {
+      "name": "5. Match proof to the work",
+      "bytes": 937,
+      "when": [
+        "match",
+        "proof",
+        "work"
+      ]
+    },
+    {
+      "name": "6. Run the loop",
+      "bytes": 566,
+      "when": [
+        "loop"
+      ]
+    },
+    {
+      "name": "7. Stop honestly",
+      "bytes": 502,
+      "when": [
+        "stop",
+        "honestly"
+      ]
+    },
+    {
+      "name": "Compose mode template",
+      "bytes": 1316,
+      "when": [
+        "compose",
+        "mode",
+        "template"
+      ]
+    },
+    {
+      "name": "Completion checks",
+      "bytes": 379,
+      "when": [
+        "completion",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "iterate",
+    "verified",
+    "choose",
+    "mode",
+    "lock",
+    "convert",
+    "ambition",
+    "decompose",
+    "assign",
+    "separate",
+    "making",
+    "judging"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\iterate-until-verified\\SKILL.md"
+}

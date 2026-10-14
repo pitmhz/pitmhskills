@@ -1,0 +1,154 @@
+{
+  "id": "nvidia__paidf-curation-and-retrieval",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3ca75182f55e6269a937d3f3954c78203959a3e63d4518d594e287320bd1b4b3",
+  "purpose": "Use when operating PAIDF Curation and Retrieval or NVIDIA Cosmos Curator pipelines (split, filter, caption, embed, dedup, shard, image annotate) or PAIDF Data Mining nearest-neighbor matching on Curat",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when operating PAIDF Curation and Retrieval or NVIDIA Cosmos Curator pipelines (split, filter, caption, embed, dedup, shard, image annotate) or PAIDF Data M"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3560,
+  "core_bytes": 14271,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 345,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 618,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 611,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1148,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 879,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Mandatory pre-flight: do NOT emit a pipeline config without context",
+      "bytes": 1251,
+      "when": [
+        "mandatory",
+        "flight",
+        "emit",
+        "pipeline",
+        "config",
+        "context"
+      ]
+    },
+    {
+      "name": "Canonical Flow",
+      "bytes": 1825,
+      "when": [
+        "canonical",
+        "flow"
+      ]
+    },
+    {
+      "name": "Execution & Troubleshooting",
+      "bytes": 786,
+      "when": [
+        "execution",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Credentials & Secrets",
+      "bytes": 326,
+      "when": [
+        "credentials",
+        "secrets"
+      ]
+    },
+    {
+      "name": "Resource Sizing & Monitoring",
+      "bytes": 456,
+      "when": [
+        "resource",
+        "sizing",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Progressive Disclosure",
+      "bytes": 1490,
+      "when": [
+        "progressive",
+        "disclosure"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 558,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 598,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 801,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 935,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run pytest tests/unit"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\paidf-curation-and-retrieval\\SKILL.md",
+  "curated": true
+}

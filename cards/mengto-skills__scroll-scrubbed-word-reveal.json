@@ -1,0 +1,100 @@
+{
+  "id": "mengto-skills__scroll-scrubbed-word-reveal",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "c3792004c19e12e8f3bc273220e00ff5031484e2134acf5add3ccaaa647a2c5e",
+  "purpose": "Reveal marked-up text word by word as scroll progress advances, while preserving semantic inline links, emphasis, responsive line wrapping, and reduced-motion readability. Use for headlines, quotes, m",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Reveal marked-up text word by word as scroll progress advances, while preserving semantic inline links, emphasis, responsive line wrapping, and reduced-motion r"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Scroll-scrubbed word reveals -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "word scrub semantic links",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1044,
+  "core_bytes": 4184,
+  "sections": [
+    {
+      "name": "Prepare the text",
+      "bytes": 753,
+      "when": [
+        "prepare",
+        "text"
+      ]
+    },
+    {
+      "name": "Map scroll to words",
+      "bytes": 606,
+      "when": [
+        "scroll",
+        "words"
+      ]
+    },
+    {
+      "name": "Set useful defaults",
+      "bytes": 439,
+      "when": [
+        "useful",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Preserve emphasis",
+      "bytes": 463,
+      "when": [
+        "preserve",
+        "emphasis"
+      ]
+    },
+    {
+      "name": "Keep it readable",
+      "bytes": 553,
+      "when": [
+        "keep",
+        "readable"
+      ]
+    },
+    {
+      "name": "Clean up",
+      "bytes": 270,
+      "when": [
+        "clean"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 539,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "scrubbed",
+    "prepare",
+    "words",
+    "useful",
+    "defaults",
+    "preserve",
+    "keep",
+    "readable",
+    "clean",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\scroll-scrubbed-word-reveal\\SKILL.md"
+}

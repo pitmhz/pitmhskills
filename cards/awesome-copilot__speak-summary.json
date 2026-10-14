@@ -1,0 +1,95 @@
+{
+  "id": "awesome-copilot__speak-summary",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ce226849c8b0a28d5aab749ef48a38ba92770301bc85de9311e0e8295c4f1beb",
+  "purpose": "Convert text, markdown, or a summary produced by another skill into a listenable MP3 using local CPU-only neural text-to-speech. Rewrites written prose for the ear before synthesising. Use when the us",
+  "domain": "general",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Convert text, markdown, or a summary produced by another skill into a listenable MP3 using local CPU-only neural text-to-speech. Rewrites written prose for the "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1591,
+  "core_bytes": 6410,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 998,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "The important step: rewrite for the ear",
+      "bytes": 1524,
+      "when": [
+        "important",
+        "step",
+        "rewrite"
+      ]
+    },
+    {
+      "name": "Synthesise",
+      "bytes": 631,
+      "when": [
+        "synthesise"
+      ]
+    },
+    {
+      "name": "Voices",
+      "bytes": 424,
+      "when": [
+        "voices"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 298,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Length guidance",
+      "bytes": 310,
+      "when": [
+        "length",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Chaining onto other skills",
+      "bytes": 648,
+      "when": [
+        "chaining",
+        "onto",
+        "skills"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 627,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\speak-summary\\SKILL.md"
+}

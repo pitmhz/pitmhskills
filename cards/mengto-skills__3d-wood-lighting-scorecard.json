@@ -1,0 +1,109 @@
+{
+  "id": "mengto-skills__3d-wood-lighting-scorecard",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "2f0e53b236b252b1eea9c4ace9159c8c526bc69f3de40499055b4f436e8b1c9f",
+  "purpose": "Light carved wood in a dark room in three.js, with procedural grain and pores, one warm key through a window, soft shadows that touch, light shafts, background rays and dust, then score the render out",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Light carved wood in a dark room in three.js, with procedural grain and pores, one warm key through a window, soft shadows that touch, light shafts, background "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2852,
+  "core_bytes": 11409,
+  "sections": [
+    {
+      "name": "Build order",
+      "bytes": 1220,
+      "when": [
+        "build",
+        "order"
+      ]
+    },
+    {
+      "name": "Rules, each with the failure it prevents",
+      "bytes": 4470,
+      "when": [
+        "rules",
+        "each",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Constants",
+      "bytes": 867,
+      "when": [
+        "constants"
+      ]
+    },
+    {
+      "name": "Cost (measured, headless Chromium on Apple Silicon, Metal)",
+      "bytes": 622,
+      "when": [
+        "cost",
+        "measured",
+        "headless",
+        "chromium",
+        "apple",
+        "silicon",
+        "metal"
+      ]
+    },
+    {
+      "name": "Scoring loop",
+      "bytes": 1415,
+      "when": [
+        "scoring",
+        "loop"
+      ]
+    },
+    {
+      "name": "Accessibility and lifecycle",
+      "bytes": 595,
+      "when": [
+        "accessibility",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 320,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "build",
+    "order",
+    "rules",
+    "failure",
+    "prevents",
+    "constants",
+    "cost",
+    "measured",
+    "chromium",
+    "apple",
+    "silicon",
+    "metal"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-wood-lighting-scorecard\\SKILL.md"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "mengto-skills__glass-dark-ui",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "27a2e3e9a9e21d98db8e5507a27b571b1c9d3b03a677083e6a78390355f55caa",
+  "purpose": "Build dark-mode glassmorphism interfaces with readable contrast, frosted surfaces, and gradient borders using a pseudo-element mask. Use when asked for glass cards, frosted dark hero sections, blur pa",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build dark-mode glassmorphism interfaces with readable contrast, frosted surfaces, and gradient borders using a pseudo-element mask. Use when asked for glass ca"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 810,
+  "core_bytes": 3237,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 543,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Base Tokens",
+      "bytes": 290,
+      "when": [
+        "base",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Glass Panel Pattern",
+      "bytes": 410,
+      "when": [
+        "glass",
+        "panel",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Border Gradient Pattern",
+      "bytes": 579,
+      "when": [
+        "border",
+        "gradient",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Tailwind Usage Pattern",
+      "bytes": 381,
+      "when": [
+        "tailwind",
+        "usage",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Dark Mode Checklist",
+      "bytes": 385,
+      "when": [
+        "dark",
+        "mode",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Common Requests This Skill Should Handle",
+      "bytes": 324,
+      "when": [
+        "common",
+        "requests",
+        "skill",
+        "handle"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "base",
+    "tokens",
+    "panel",
+    "pattern",
+    "border",
+    "tailwind",
+    "usage",
+    "checklist",
+    "common",
+    "requests",
+    "handle"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\glass-dark-ui\\SKILL.md"
+}

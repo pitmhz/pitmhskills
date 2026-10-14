@@ -1,0 +1,90 @@
+{
+  "id": "awesome-copilot__github-actions-runtime-upgrade-conventions",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b964b4609e9b7ca8bbe394d4232e4f8bff122813e09433ccda1c4356f79c98eb",
+  "purpose": "Upgrade GitHub Actions to supported runtimes by selecting safe action versions, preserving workflow behavior, and validating post-upgrade execution.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Upgrade GitHub Actions to supported runtimes by selecting safe action versions, preserving workflow behavior, and validating post-upgrade execution."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 722,
+  "core_bytes": 2887,
+  "sections": [
+    {
+      "name": "Use This Skill When",
+      "bytes": 275,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Upgrade Rules",
+      "bytes": 524,
+      "when": [
+        "upgrade",
+        "rules"
+      ]
+    },
+    {
+      "name": "Actions We Track in This Repo",
+      "bytes": 342,
+      "when": [
+        "actions",
+        "track",
+        "repo"
+      ]
+    },
+    {
+      "name": "Pinning Pattern",
+      "bytes": 343,
+      "when": [
+        "pinning",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Verification Checklist",
+      "bytes": 478,
+      "when": [
+        "verification",
+        "checklist"
+      ]
+    },
+    {
+      "name": "PR Notes",
+      "bytes": 200,
+      "when": [
+        "notes"
+      ]
+    },
+    {
+      "name": "How This Complements Dependabot",
+      "bytes": 307,
+      "when": [
+        "complements",
+        "dependabot"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\github-actions-runtime-upgrade-conventions\\SKILL.md"
+}

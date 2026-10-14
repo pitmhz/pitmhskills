@@ -1,0 +1,248 @@
+{
+  "id": "nvidia__vss-manage-alerts",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7c39e86af74a13c44c25e333edfe0a9d720576f8de2c9d161a284e2d674bd2b2",
+  "purpose": "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert anal"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4557,
+  "core_bytes": 18369,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 174,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 254,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 350,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 208,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 267,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 672,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 426,
+      "when": []
+    },
+    {
+      "name": "Deployment prerequisite",
+      "bytes": 643,
+      "when": [
+        "deployment",
+        "prerequisite"
+      ]
+    },
+    {
+      "name": "The Two Modes (Deploy-Time Choice)",
+      "bytes": 783,
+      "when": [
+        "modes",
+        "deploy",
+        "time",
+        "choice"
+      ]
+    },
+    {
+      "name": "Step 1 — Detect the Currently Deployed Mode",
+      "bytes": 1241,
+      "when": [
+        "step",
+        "detect",
+        "currently",
+        "deployed",
+        "mode"
+      ]
+    },
+    {
+      "name": "Step 2 — Route by Deployed Mode",
+      "bytes": 4657,
+      "when": [
+        "step",
+        "route",
+        "deployed",
+        "mode"
+      ]
+    },
+    {
+      "name": "Intent precedence (first match wins)",
+      "bytes": 2656,
+      "when": [
+        "intent",
+        "precedence",
+        "first",
+        "match",
+        "wins"
+      ]
+    },
+    {
+      "name": "CV-mode refusal text for D and E intents",
+      "bytes": 562,
+      "when": [
+        "mode",
+        "refusal",
+        "text",
+        "intents"
+      ]
+    },
+    {
+      "name": "Prereq for Either Mode: Sensor Must Be in VIOS",
+      "bytes": 510,
+      "when": [
+        "prereq",
+        "either",
+        "mode",
+        "sensor",
+        "vios"
+      ]
+    },
+    {
+      "name": "The Agent `/generate` Endpoint",
+      "bytes": 826,
+      "when": [
+        "agent",
+        "generate",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "Workflow A — CV Mode (`-m verification` / `MODE=2d_cv`)",
+      "bytes": 795,
+      "when": [
+        "workflow",
+        "mode",
+        "verification"
+      ]
+    },
+    {
+      "name": "Workflow B — VLM Real-time Monitoring (CV or VLM mode)",
+      "bytes": 911,
+      "when": [
+        "workflow",
+        "real",
+        "time",
+        "monitoring",
+        "mode"
+      ]
+    },
+    {
+      "name": "Workflow D — Alert Subscriptions (VLM real-time mode only)",
+      "bytes": 744,
+      "when": [
+        "workflow",
+        "alert",
+        "subscriptions",
+        "real",
+        "time",
+        "mode"
+      ]
+    },
+    {
+      "name": "Workflow E — Slack Notifications (VLM real-time mode only)",
+      "bytes": 770,
+      "when": [
+        "workflow",
+        "slack",
+        "notifications",
+        "real",
+        "time",
+        "mode"
+      ]
+    },
+    {
+      "name": "Workflow C — Query / List Alerts (works on either mode)",
+      "bytes": 2087,
+      "when": [
+        "workflow",
+        "query",
+        "list",
+        "alerts",
+        "works",
+        "either",
+        "mode"
+      ]
+    },
+    {
+      "name": "Verdict interpretation & CV verifier prompts (CV mode only)",
+      "bytes": 483,
+      "when": [
+        "verdict",
+        "interpretation",
+        "verifier",
+        "prompts",
+        "mode"
+      ]
+    },
+    {
+      "name": "Cross-Skill Links",
+      "bytes": 633,
+      "when": [
+        "cross",
+        "skill",
+        "links"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 942,
+      "when": [
+        "gotchas"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-manage-alerts/SKILL.md",
+  "curated": true
+}

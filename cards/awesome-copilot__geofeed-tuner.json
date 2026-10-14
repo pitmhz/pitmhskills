@@ -1,0 +1,163 @@
+{
+  "id": "awesome-copilot__geofeed-tuner",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "60ba0fc27995b7def1b76599878ac1ad1dc5896b09bf099a1428348cf8a72bcf",
+  "purpose": "Use this skill whenever the user mentions IP geolocation feeds, RFC 8805, geofeeds, or wants help creating, tuning, validating, or publishing a self-published IP geolocation feed in CSV format. Intend",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill whenever the user mentions IP geolocation feeds, RFC 8805, geofeeds, or wants help creating, tuning, validating, or publishing a self-published I"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 12160,
+  "core_bytes": 48706,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 737,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 47,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Directory Structure and File Management",
+      "bytes": 2054,
+      "when": [
+        "directory",
+        "structure",
+        "file",
+        "management"
+      ]
+    },
+    {
+      "name": "Read-Only Directories (Do Not Modify)",
+      "bytes": 572,
+      "when": [
+        "read",
+        "directories",
+        "modify"
+      ]
+    },
+    {
+      "name": "Working Directories (Generated Content)",
+      "bytes": 490,
+      "when": [
+        "working",
+        "directories",
+        "generated",
+        "content"
+      ]
+    },
+    {
+      "name": "File Management Rules",
+      "bytes": 823,
+      "when": [
+        "file",
+        "management",
+        "rules"
+      ]
+    },
+    {
+      "name": "Processing Pipeline: Sequential Phase Execution",
+      "bytes": 44636,
+      "when": [
+        "processing",
+        "pipeline",
+        "sequential",
+        "phase",
+        "execution"
+      ]
+    },
+    {
+      "name": "Execution Plan Rules",
+      "bytes": 250,
+      "when": [
+        "execution",
+        "plan",
+        "rules"
+      ]
+    },
+    {
+      "name": "Phase 1: Understand the Standard",
+      "bytes": 2186,
+      "when": [
+        "phase",
+        "understand",
+        "standard"
+      ]
+    },
+    {
+      "name": "Phase 2: Gather Input",
+      "bytes": 1128,
+      "when": [
+        "phase",
+        "gather",
+        "input"
+      ]
+    },
+    {
+      "name": "Phase 3: Checks & Suggestions",
+      "bytes": 18863,
+      "when": [
+        "phase",
+        "checks",
+        "suggestions"
+      ]
+    },
+    {
+      "name": "Phase 4: Tuning Data Lookup",
+      "bytes": 5562,
+      "when": [
+        "phase",
+        "tuning",
+        "data",
+        "lookup"
+      ]
+    },
+    {
+      "name": "Phase 5: Generate Tuning Report",
+      "bytes": 12582,
+      "when": [
+        "phase",
+        "generate",
+        "tuning",
+        "report"
+      ]
+    },
+    {
+      "name": "Phase 6: Final Review",
+      "bytes": 2567,
+      "when": [
+        "phase",
+        "final",
+        "review"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\geofeed-tuner\\SKILL.md"
+}

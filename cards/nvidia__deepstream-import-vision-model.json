@@ -1,0 +1,163 @@
+{
+  "id": "nvidia__deepstream-import-vision-model",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7fdc7ebd80e03cc64291ac1c9fc2701e9d12579dc31bf17569752c2a62f4639e",
+  "purpose": "Use this skill to bring a supported object-detection vision model from HuggingFace or NVIDIA NGC into an NVIDIA DeepStream pipeline with end-to-end automation: ONNX download, SafeTensors export, TRT e",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill to bring a supported object-detection vision model from HuggingFace or NVIDIA NGC into an NVIDIA DeepStream pipeline with end-to-end automation: "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3610,
+  "core_bytes": 14565,
+  "sections": [
+    {
+      "name": "Model choice — always offer two options",
+      "bytes": 1127,
+      "when": [
+        "model",
+        "choice",
+        "offer",
+        "options"
+      ]
+    },
+    {
+      "name": "1. Default model (recommended)",
+      "bytes": 197,
+      "when": [
+        "default",
+        "model",
+        "recommended"
+      ]
+    },
+    {
+      "name": "2. Custom object-detection model",
+      "bytes": 619,
+      "when": [
+        "custom",
+        "object",
+        "detection",
+        "model"
+      ]
+    },
+    {
+      "name": "Pipeline Overview",
+      "bytes": 788,
+      "when": [
+        "pipeline",
+        "overview"
+      ]
+    },
+    {
+      "name": "Runs entirely through Docker (no host packages)",
+      "bytes": 667,
+      "when": [
+        "runs",
+        "entirely",
+        "through",
+        "docker",
+        "host",
+        "packages"
+      ]
+    },
+    {
+      "name": "Pre-flight — bootstrap + verify (through the container)",
+      "bytes": 1633,
+      "when": [
+        "flight",
+        "bootstrap",
+        "verify",
+        "through",
+        "container"
+      ]
+    },
+    {
+      "name": "Mandatory Output Structure",
+      "bytes": 908,
+      "when": [
+        "mandatory",
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 1838,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1204,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Pipeline Timing",
+      "bytes": 414,
+      "when": [
+        "pipeline",
+        "timing"
+      ]
+    },
+    {
+      "name": "Report Output (MANDATORY — all 3 formats)",
+      "bytes": 538,
+      "when": [
+        "report",
+        "output",
+        "mandatory",
+        "formats"
+      ]
+    },
+    {
+      "name": "Reference Documents",
+      "bytes": 828,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "Scripts",
+      "bytes": 2300,
+      "when": [
+        "scripts"
+      ]
+    },
+    {
+      "name": "Quick Error Reference",
+      "bytes": 1107,
+      "when": [
+        "quick",
+        "error",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\deepstream-import-vision-model\\SKILL.md",
+  "curated": true
+}

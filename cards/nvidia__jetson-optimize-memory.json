@@ -1,0 +1,135 @@
+{
+  "id": "nvidia__jetson-optimize-memory",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "2dc7a0f0ca8579b74d082462939722765730e3fa6f608f78d3b81353992cfa93",
+  "purpose": "Reclaim DRAM by disabling unused subsystems across MB1 BCT, MB2 BCT, kernel reserved-memory, and SWIOTLB. Use for headless or no-camera Jetson deployments; not for CPU/GPU frequency tuning.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Reclaim DRAM by disabling unused subsystems across MB1 BCT, MB2 BCT, kernel reserved-memory, and SWIOTLB. Use for headless or no-camera Jetson deployments; not "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2088,
+  "core_bytes": 8383,
+  "sections": [
+    {
+      "name": "Scenario recipes",
+      "bytes": 984,
+      "when": [
+        "scenario",
+        "recipes"
+      ]
+    },
+    {
+      "name": "Chip-specific carveouts",
+      "bytes": 612,
+      "when": [
+        "chip",
+        "specific",
+        "carveouts"
+      ]
+    },
+    {
+      "name": "MB1 BCT carveout overrides",
+      "bytes": 445,
+      "when": [
+        "carveout",
+        "overrides"
+      ]
+    },
+    {
+      "name": "MB2 BCT cluster + AST overrides",
+      "bytes": 637,
+      "when": [
+        "cluster",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Kernel DT reserved-memory",
+      "bytes": 958,
+      "when": [
+        "kernel",
+        "reserved",
+        "memory"
+      ]
+    },
+    {
+      "name": "SWIOTLB DMA bounce pool",
+      "bytes": 290,
+      "when": [
+        "swiotlb",
+        "bounce",
+        "pool"
+      ]
+    },
+    {
+      "name": "Override verification (mandatory)",
+      "bytes": 815,
+      "when": [
+        "override",
+        "verification",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "Verification (on booted target)",
+      "bytes": 827,
+      "when": [
+        "verification",
+        "booted",
+        "target"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 312,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 318,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 421,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 694,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-optimize-memory\\SKILL.md",
+  "curated": true
+}

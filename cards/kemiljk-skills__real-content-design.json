@@ -1,0 +1,94 @@
+{
+  "id": "kemiljk-skills__real-content-design",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "8b36d31ae9ebee8a2045839b83cbda6d528b9bac4d79e72c960e02e1d0fb49b4",
+  "purpose": "Shape interface structure using representative content before layout decisions settle. Use when placeholders, uniform examples, incomplete records, or mixed content types may hide problems in hierarch",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Shape interface structure using representative content before layout decisions settle. Use when placeholders, uniform examples, incomplete records, or mixed con"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Structure UI around real content first -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "representative content placeholders structure",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1340,
+  "core_bytes": 5360,
+  "sections": [
+    {
+      "name": "Establish the content and task",
+      "bytes": 932,
+      "when": [
+        "establish",
+        "content",
+        "task"
+      ]
+    },
+    {
+      "name": "Choose representative variation",
+      "bytes": 1021,
+      "when": [
+        "choose",
+        "representative",
+        "variation"
+      ]
+    },
+    {
+      "name": "Design from the material",
+      "bytes": 1141,
+      "when": [
+        "design",
+        "material"
+      ]
+    },
+    {
+      "name": "Turn discoveries into bounded changes",
+      "bytes": 867,
+      "when": [
+        "turn",
+        "discoveries",
+        "bounded",
+        "changes"
+      ]
+    },
+    {
+      "name": "Verify and deliver",
+      "bytes": 906,
+      "when": [
+        "verify",
+        "deliver"
+      ]
+    }
+  ],
+  "keywords": [
+    "real",
+    "establish",
+    "task",
+    "choose",
+    "variation",
+    "material",
+    "turn",
+    "discoveries",
+    "bounded",
+    "changes",
+    "verify",
+    "deliver"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\real-content-design\\SKILL.md"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot__qdrant-monitoring",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "5264e89c01d4e02fb3db9ad9bebd0132c7de951a249c1ebc93d863a834529af2",
+  "purpose": "Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'what metrics to track', 'is Qdrant healthy', 'optimizer stuck', 'why is memory growing', 'requests are",
+  "domain": "memory",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'what metrics to track', 'is Qdrant healthy', 'optimizer stuck'"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 276,
+  "core_bytes": 1103,
+  "sections": [
+    {
+      "name": "Monitoring Setup",
+      "bytes": 152,
+      "when": [
+        "monitoring",
+        "setup"
+      ]
+    },
+    {
+      "name": "Debugging with Metrics",
+      "bytes": 171,
+      "when": [
+        "debugging",
+        "metrics"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-monitoring\\SKILL.md"
+}

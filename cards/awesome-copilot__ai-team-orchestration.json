@@ -1,0 +1,107 @@
+{
+  "id": "awesome-copilot__ai-team-orchestration",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "cfc07008fcab5f0638ff92441cd51367132591ca0b44cefaebd6e389cc81291c",
+  "purpose": "Bootstrap and run a lightweight multi-agent development team. Use when starting or adopting a project, planning work, coordinating implementation and optional QA, brainstorming with distinct perspecti",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Bootstrap and run a lightweight multi-agent development team. Use when starting or adopting a project, planning work, coordinating implementation and optional Q"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 992,
+  "core_bytes": 3965,
+  "sections": [
+    {
+      "name": "Default Workflow",
+      "bytes": 447,
+      "when": [
+        "default",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Start or Adopt a Project",
+      "bytes": 607,
+      "when": [
+        "start",
+        "adopt",
+        "project"
+      ]
+    },
+    {
+      "name": "Execute",
+      "bytes": 609,
+      "when": [
+        "execute"
+      ]
+    },
+    {
+      "name": "Producer",
+      "bytes": 205,
+      "when": [
+        "producer"
+      ]
+    },
+    {
+      "name": "Dev",
+      "bytes": 217,
+      "when": []
+    },
+    {
+      "name": "QA",
+      "bytes": 175,
+      "when": []
+    },
+    {
+      "name": "Brainstorms",
+      "bytes": 242,
+      "when": [
+        "brainstorms"
+      ]
+    },
+    {
+      "name": "Context Recovery",
+      "bytes": 466,
+      "when": [
+        "context",
+        "recovery"
+      ]
+    },
+    {
+      "name": "Tool and Model Inheritance",
+      "bytes": 501,
+      "when": [
+        "tool",
+        "model",
+        "inheritance"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 383,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ai-team-orchestration\\SKILL.md"
+}

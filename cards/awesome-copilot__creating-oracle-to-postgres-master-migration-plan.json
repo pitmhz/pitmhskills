@@ -1,0 +1,72 @@
+{
+  "id": "awesome-copilot__creating-oracle-to-postgres-master-migration-plan",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9823f18ce72deb57d50ce63ae0e8928ab9a9da4c10ba726974e705ca8efdc444",
+  "purpose": "Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility, and produces a persistent master migration plan. Use when starting a multi-project Oracle-to-",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility, and produces a persistent master migration plan. Use "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 862,
+  "core_bytes": 3457,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1810,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "DDL Artifacts",
+      "bytes": 291,
+      "when": [
+        "artifacts"
+      ]
+    },
+    {
+      "name": "Solution Summary",
+      "bytes": 262,
+      "when": [
+        "solution",
+        "summary"
+      ]
+    },
+    {
+      "name": "Project Inventory",
+      "bytes": 216,
+      "when": [
+        "project",
+        "inventory"
+      ]
+    },
+    {
+      "name": "Migration Order",
+      "bytes": 255,
+      "when": [
+        "migration",
+        "order"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\creating-oracle-to-postgres-master-migration-plan\\SKILL.md"
+}

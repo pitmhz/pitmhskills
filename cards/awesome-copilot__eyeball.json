@@ -1,0 +1,139 @@
+{
+  "id": "awesome-copilot__eyeball",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4f9d6460e4a68ef7cea70f2a4515a1ee66b36e698f1d3394b2980f84e501f3e3",
+  "purpose": "Document analysis with inline source screenshots. When you ask Copilot to analyze a document, Eyeball generates a Word doc where every factual claim includes a highlighted screenshot from the source m",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Document analysis with inline source screenshots. When you ask Copilot to analyze a document, Eyeball generates a Word doc where every factual claim includes a "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1637,
+  "core_bytes": 6547,
+  "sections": [
+    {
+      "name": "Activation",
+      "bytes": 323,
+      "when": [
+        "activation"
+      ]
+    },
+    {
+      "name": "Supported Sources",
+      "bytes": 144,
+      "when": [
+        "supported",
+        "sources"
+      ]
+    },
+    {
+      "name": "Tool Location",
+      "bytes": 342,
+      "when": [
+        "tool",
+        "location"
+      ]
+    },
+    {
+      "name": "First-Run Setup",
+      "bytes": 381,
+      "when": [
+        "first",
+        "setup"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3600,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Read the source text",
+      "bytes": 443,
+      "when": [
+        "step",
+        "read",
+        "source",
+        "text"
+      ]
+    },
+    {
+      "name": "Step 2: Write analysis with exact citations",
+      "bytes": 427,
+      "when": [
+        "step",
+        "write",
+        "analysis",
+        "exact",
+        "citations"
+      ]
+    },
+    {
+      "name": "Step 3: Select anchors correctly",
+      "bytes": 1213,
+      "when": [
+        "step",
+        "select",
+        "anchors",
+        "correctly"
+      ]
+    },
+    {
+      "name": "Step 4: Build the analysis document",
+      "bytes": 1266,
+      "when": [
+        "step",
+        "build",
+        "analysis",
+        "document"
+      ]
+    },
+    {
+      "name": "Step 5: Deliver the output",
+      "bytes": 190,
+      "when": [
+        "step",
+        "deliver",
+        "output"
+      ]
+    },
+    {
+      "name": "Self-Check Before Delivery",
+      "bytes": 465,
+      "when": [
+        "self",
+        "check",
+        "before",
+        "delivery"
+      ]
+    },
+    {
+      "name": "Notes",
+      "bytes": 757,
+      "when": [
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\eyeball\\SKILL.md"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "awesome-copilot__upstash-redis",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6a51da36588cdfad16b8ced54d7a3f8cb01aa3a9b07e16982dedd990bf7bcee3",
+  "purpose": "Use Redis over HTTP from serverless and edge runtimes with @upstash/redis, and add rate limiting with @upstash/ratelimit. Use when the user mentions Upstash Redis, needs Redis from a Next.js route han",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use Redis over HTTP from serverless and edge runtimes with @upstash/redis, and add rate limiting with @upstash/ratelimit. Use when the user mentions Upstash Red"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1732,
+  "core_bytes": 6936,
+  "sections": [
+    {
+      "name": "Requirements and limitations",
+      "bytes": 556,
+      "when": [
+        "requirements",
+        "limitations"
+      ]
+    },
+    {
+      "name": "Step 1 — Install and create one client per module",
+      "bytes": 476,
+      "when": [
+        "step",
+        "install",
+        "create",
+        "client",
+        "module"
+      ]
+    },
+    {
+      "name": "Step 2 — Cache-aside with TTL",
+      "bytes": 1046,
+      "when": [
+        "step",
+        "cache",
+        "aside"
+      ]
+    },
+    {
+      "name": "Step 3 — Sessions with sliding expiration",
+      "bytes": 990,
+      "when": [
+        "step",
+        "sessions",
+        "sliding",
+        "expiration"
+      ]
+    },
+    {
+      "name": "Step 4 — Rate limiting a route handler",
+      "bytes": 1749,
+      "when": [
+        "step",
+        "rate",
+        "limiting",
+        "route",
+        "handler"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 570,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "When NOT to use this skill",
+      "bytes": 250,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 205,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\upstash-redis\\SKILL.md"
+}

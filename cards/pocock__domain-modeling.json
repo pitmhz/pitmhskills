@@ -28,7 +28,78 @@
   "conflicts_with": [],
   "body_tokens": 824,
   "core_bytes": 3420,
-  "sections": [],
+  "sections": [
+    {
+      "name": "File structure",
+      "bytes": 954,
+      "when": [
+        "file",
+        "structure"
+      ]
+    },
+    {
+      "name": "During the session",
+      "bytes": 1834,
+      "when": [
+        "during",
+        "session"
+      ]
+    },
+    {
+      "name": "Challenge against the glossary",
+      "bytes": 234,
+      "when": [
+        "challenge",
+        "against",
+        "glossary"
+      ]
+    },
+    {
+      "name": "Sharpen fuzzy language",
+      "bytes": 206,
+      "when": [
+        "sharpen",
+        "fuzzy",
+        "language"
+      ]
+    },
+    {
+      "name": "Discuss concrete scenarios",
+      "bytes": 237,
+      "when": [
+        "discuss",
+        "concrete",
+        "scenarios"
+      ]
+    },
+    {
+      "name": "Cross-reference with code",
+      "bytes": 253,
+      "when": [
+        "cross",
+        "reference",
+        "code"
+      ]
+    },
+    {
+      "name": "Update GLOSSARY.md inline",
+      "bytes": 411,
+      "when": [
+        "update",
+        "glossary",
+        "inline"
+      ]
+    },
+    {
+      "name": "Offer ADRs sparingly",
+      "bytes": 468,
+      "when": [
+        "offer",
+        "adrs",
+        "sparingly"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/pocock/skills/engineering/domain-modeling/SKILL.md"
 }

@@ -1,0 +1,141 @@
+{
+  "id": "mengto-skills__threejs-landscape",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "733a63d0a59842827b0bbe3520a6de838319d484804dee4be8348c00425cd663",
+  "purpose": "Build a live Three.js landscape that stays quiet behind a subject — a noise heightfield on a polar grid so resolution follows the lens, ground coloured by slope and moisture rather than by texture, in",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build a live Three.js landscape that stays quiet behind a subject — a noise heightfield on a polar grid so resolution follows the lens, ground coloured by slope"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2151,
+  "core_bytes": 8617,
+  "sections": [
+    {
+      "name": "Ring the camera with a polar grid",
+      "bytes": 1150,
+      "when": [
+        "ring",
+        "camera",
+        "polar",
+        "grid"
+      ]
+    },
+    {
+      "name": "Warp the domain before you layer octaves",
+      "bytes": 896,
+      "when": [
+        "warp",
+        "domain",
+        "before",
+        "layer",
+        "octaves"
+      ]
+    },
+    {
+      "name": "Colour by what the ground is doing, not by a texture",
+      "bytes": 642,
+      "when": [
+        "colour",
+        "ground",
+        "doing",
+        "texture"
+      ]
+    },
+    {
+      "name": "Grass: one ribbon, shaped entirely in the vertex shader",
+      "bytes": 1793,
+      "when": [
+        "grass",
+        "ribbon",
+        "shaped",
+        "entirely",
+        "vertex",
+        "shader"
+      ]
+    },
+    {
+      "name": "Stones from the same height function",
+      "bytes": 452,
+      "when": [
+        "stones",
+        "height",
+        "function"
+      ]
+    },
+    {
+      "name": "Sky: six stops on an 8×512 canvas",
+      "bytes": 629,
+      "when": [
+        "stops",
+        "canvas"
+      ]
+    },
+    {
+      "name": "Stars: confine them to the band the camera can reach",
+      "bytes": 659,
+      "when": [
+        "stars",
+        "confine",
+        "them",
+        "band",
+        "camera",
+        "reach"
+      ]
+    },
+    {
+      "name": "Time of day is interpolation, not a switch",
+      "bytes": 914,
+      "when": [
+        "time",
+        "interpolation",
+        "switch"
+      ]
+    },
+    {
+      "name": "What to check before you call it done",
+      "bytes": 551,
+      "when": [
+        "check",
+        "before",
+        "call",
+        "done"
+      ]
+    }
+  ],
+  "keywords": [
+    "ring",
+    "camera",
+    "warp",
+    "domain",
+    "before",
+    "layer",
+    "octaves",
+    "colour",
+    "doing",
+    "ribbon",
+    "shaped",
+    "entirely",
+    "vertex",
+    "shader"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\threejs-landscape\\SKILL.md"
+}

@@ -1,0 +1,332 @@
+{
+  "id": "web-quality__best-practices",
+  "tier": "B",
+  "origin": [
+    "addyosmani/web-quality-skills@afa8da942115f2961fdbfa80807ea0b232ff6c00"
+  ],
+  "license": "MIT",
+  "hash": "32e323b87b8b7866a63d3e03466099676516e1ebf3b8ed5c88adc4acf0e91e09",
+  "purpose": "Apply modern web development best practices for security, compatibility, and code quality. Use when asked to \"apply best practices\", \"security audit\", \"modernize code\", \"code quality review\", or \"chec",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Apply modern web development best practices for security, compatibility, and code quality. Use when asked to \"apply best practices\", \"security audit\", \"moderniz"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3278,
+  "core_bytes": 13199,
+  "sections": [
+    {
+      "name": "Evidence-led audit workflow",
+      "bytes": 858,
+      "when": [
+        "evidence",
+        "audit",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Security",
+      "bytes": 841,
+      "when": [
+        "security"
+      ]
+    },
+    {
+      "name": "Browser compatibility",
+      "bytes": 2457,
+      "when": [
+        "browser",
+        "compatibility"
+      ]
+    },
+    {
+      "name": "Doctype declaration",
+      "bytes": 209,
+      "when": [
+        "doctype",
+        "declaration"
+      ]
+    },
+    {
+      "name": "Character encoding",
+      "bytes": 277,
+      "when": [
+        "character",
+        "encoding"
+      ]
+    },
+    {
+      "name": "Viewport meta tag",
+      "bytes": 286,
+      "when": [
+        "viewport",
+        "meta"
+      ]
+    },
+    {
+      "name": "Feature detection",
+      "bytes": 473,
+      "when": [
+        "feature",
+        "detection"
+      ]
+    },
+    {
+      "name": "Polyfills (when needed)",
+      "bytes": 1184,
+      "when": [
+        "polyfills",
+        "needed"
+      ]
+    },
+    {
+      "name": "Deprecated APIs",
+      "bytes": 1187,
+      "when": [
+        "deprecated",
+        "apis"
+      ]
+    },
+    {
+      "name": "Avoid these",
+      "bytes": 650,
+      "when": [
+        "avoid"
+      ]
+    },
+    {
+      "name": "Event listener passive",
+      "bytes": 515,
+      "when": [
+        "event",
+        "listener",
+        "passive"
+      ]
+    },
+    {
+      "name": "Console & errors",
+      "bytes": 1297,
+      "when": [
+        "console",
+        "errors"
+      ]
+    },
+    {
+      "name": "No console errors",
+      "bytes": 435,
+      "when": [
+        "console",
+        "errors"
+      ]
+    },
+    {
+      "name": "Error boundaries (React)",
+      "bytes": 502,
+      "when": [
+        "error",
+        "boundaries",
+        "react"
+      ]
+    },
+    {
+      "name": "Global error handler",
+      "bytes": 337,
+      "when": [
+        "global",
+        "error",
+        "handler"
+      ]
+    },
+    {
+      "name": "Source maps",
+      "bytes": 973,
+      "when": [
+        "source",
+        "maps"
+      ]
+    },
+    {
+      "name": "Production configuration",
+      "bytes": 955,
+      "when": [
+        "production",
+        "configuration"
+      ]
+    },
+    {
+      "name": "Performance best practices",
+      "bytes": 1283,
+      "when": [
+        "performance",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Avoid blocking patterns",
+      "bytes": 388,
+      "when": [
+        "avoid",
+        "blocking",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Efficient event handlers",
+      "bytes": 305,
+      "when": [
+        "efficient",
+        "event",
+        "handlers"
+      ]
+    },
+    {
+      "name": "Memory management",
+      "bytes": 557,
+      "when": [
+        "memory",
+        "management"
+      ]
+    },
+    {
+      "name": "Code quality",
+      "bytes": 1261,
+      "when": [
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "Valid HTML",
+      "bytes": 382,
+      "when": [
+        "valid",
+        "html"
+      ]
+    },
+    {
+      "name": "Semantic HTML",
+      "bytes": 429,
+      "when": [
+        "semantic",
+        "html"
+      ]
+    },
+    {
+      "name": "Image aspect ratios",
+      "bytes": 431,
+      "when": [
+        "image",
+        "aspect",
+        "ratios"
+      ]
+    },
+    {
+      "name": "Permissions & privacy",
+      "bytes": 781,
+      "when": [
+        "permissions",
+        "privacy"
+      ]
+    },
+    {
+      "name": "Request permissions properly",
+      "bytes": 422,
+      "when": [
+        "request",
+        "permissions",
+        "properly"
+      ]
+    },
+    {
+      "name": "Permissions policy",
+      "bytes": 331,
+      "when": [
+        "permissions",
+        "policy"
+      ]
+    },
+    {
+      "name": "Audit checklist",
+      "bytes": 1072,
+      "when": [
+        "audit",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Security (critical)",
+      "bytes": 521,
+      "when": [
+        "security",
+        "critical"
+      ]
+    },
+    {
+      "name": "Compatibility",
+      "bytes": 198,
+      "when": [
+        "compatibility"
+      ]
+    },
+    {
+      "name": "Code quality",
+      "bytes": 182,
+      "when": [
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "UX",
+      "bytes": 149,
+      "when": []
+    },
+    {
+      "name": "Tools",
+      "bytes": 472,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 206,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "evidence",
+    "workflow",
+    "browser",
+    "doctype",
+    "declaration",
+    "character",
+    "encoding",
+    "viewport",
+    "meta",
+    "feature",
+    "detection",
+    "polyfills",
+    "needed"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-quality\\skills\\best-practices\\SKILL.md"
+}

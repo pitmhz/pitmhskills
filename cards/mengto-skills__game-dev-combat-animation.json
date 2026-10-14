@@ -1,0 +1,89 @@
+{
+  "id": "mengto-skills__game-dev-combat-animation",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "ebfd4beac0e7e27a110ca3457df6ce9409ec0ba8c49b0c59463812df8f0c3dd4",
+  "purpose": "Build, fix and review character combat animations (melee strikes, bow shots, spell casts, skills, monster attacks, whole move sets) so they read like Diablo IV, Baldur's Gate 3 or Elden Ring and never",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Build, fix and review character combat animations (melee strikes, bow shots, spell casts, skills, monster attacks, whole move sets) so they read like Diablo IV,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2006,
+  "core_bytes": 8079,
+  "sections": [
+    {
+      "name": "The loop",
+      "bytes": 2821,
+      "when": [
+        "loop"
+      ]
+    },
+    {
+      "name": "The arm and hand rules",
+      "bytes": 1210,
+      "when": [
+        "hand",
+        "rules"
+      ]
+    },
+    {
+      "name": "Techniques that worked",
+      "bytes": 1305,
+      "when": [
+        "techniques",
+        "worked"
+      ]
+    },
+    {
+      "name": "Traps that each cost a round",
+      "bytes": 912,
+      "when": [
+        "traps",
+        "each",
+        "cost",
+        "round"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 328,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "game",
+    "animation",
+    "loop",
+    "techniques",
+    "worked",
+    "traps",
+    "each",
+    "cost",
+    "round",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-combat\\game-dev-combat-animation\\SKILL.md"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "antfu-skills__unocss",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "67fee36d3127788f6f47c1c69f3ace2f0544c03e36b0090cd912424ba90295dc",
+  "purpose": "UnoCSS instant atomic CSS engine, superset of Tailwind CSS. Use when configuring UnoCSS, writing utility rules, shortcuts, or working with presets like Wind, Icons, Attributify.",
+  "domain": "general",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "UnoCSS instant atomic CSS engine, superset of Tailwind CSS. Use when configuring UnoCSS, writing utility rules, shortcuts, or working with presets like Wind, Ic"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1107,
+  "core_bytes": 4425,
+  "sections": [
+    {
+      "name": "Core",
+      "bytes": 1119,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Presets",
+      "bytes": 1286,
+      "when": [
+        "presets"
+      ]
+    },
+    {
+      "name": "Main Presets",
+      "bytes": 465,
+      "when": [
+        "main",
+        "presets"
+      ]
+    },
+    {
+      "name": "Feature Presets",
+      "bytes": 807,
+      "when": [
+        "feature",
+        "presets"
+      ]
+    },
+    {
+      "name": "Transformers",
+      "bytes": 651,
+      "when": [
+        "transformers"
+      ]
+    },
+    {
+      "name": "Integrations",
+      "bytes": 343,
+      "when": [
+        "integrations"
+      ]
+    }
+  ],
+  "keywords": [
+    "core",
+    "main",
+    "feature",
+    "transformers",
+    "integrations"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\unocss\\SKILL.md"
+}

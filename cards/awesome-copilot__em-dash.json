@@ -1,0 +1,183 @@
+{
+  "id": "awesome-copilot__em-dash",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "66051fa6011af5ebbb954bbc4db4157ba163f166eed6e8ec51ee46acec4b3c6e",
+  "purpose": "Expert on the history, origin, and correct use of the em dash. Use when writing or reviewing code, comments, or data files to avoid em and en dashes, defaulting to never using them and replacing any f",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Expert on the history, origin, and correct use of the em dash. Use when writing or reviewing code, comments, or data files to avoid em and en dashes, defaulting"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2416,
+  "core_bytes": 9668,
+  "sections": [
+    {
+      "name": "History of the em dash",
+      "bytes": 2538,
+      "when": [
+        "history",
+        "dash"
+      ]
+    },
+    {
+      "name": "Early Beginnings (15th-18th Century)",
+      "bytes": 655,
+      "when": [
+        "early",
+        "beginnings",
+        "15th",
+        "18th",
+        "century"
+      ]
+    },
+    {
+      "name": "Literary Popularity (17th-19th Century)",
+      "bytes": 461,
+      "when": [
+        "literary",
+        "popularity",
+        "17th",
+        "19th",
+        "century"
+      ]
+    },
+    {
+      "name": "The Typewriter Era (19th-20th Century)",
+      "bytes": 372,
+      "when": [
+        "typewriter",
+        "19th",
+        "20th",
+        "century"
+      ]
+    },
+    {
+      "name": "The Digital Age (Present Day)",
+      "bytes": 1023,
+      "when": [
+        "digital",
+        "present"
+      ]
+    },
+    {
+      "name": "Analysis of em dash History",
+      "bytes": 186,
+      "when": [
+        "analysis",
+        "dash",
+        "history"
+      ]
+    },
+    {
+      "name": "When to use em or en dashes",
+      "bytes": 582,
+      "when": [
+        "dashes"
+      ]
+    },
+    {
+      "name": "In Code Files",
+      "bytes": 288,
+      "when": [
+        "code",
+        "files"
+      ]
+    },
+    {
+      "name": "In Raw Data and/or Text Files",
+      "bytes": 254,
+      "when": [
+        "data",
+        "text",
+        "files"
+      ]
+    },
+    {
+      "name": "Other Punctuation Characters",
+      "bytes": 4712,
+      "when": [
+        "punctuation",
+        "characters"
+      ]
+    },
+    {
+      "name": "End-of-Sentence Marks",
+      "bytes": 726,
+      "when": [
+        "sentence",
+        "marks"
+      ]
+    },
+    {
+      "name": "Pauses and Clause Connectors",
+      "bytes": 791,
+      "when": [
+        "pauses",
+        "clause",
+        "connectors"
+      ]
+    },
+    {
+      "name": "Words, Quotations, and Possessions",
+      "bytes": 540,
+      "when": [
+        "words",
+        "quotations",
+        "possessions"
+      ]
+    },
+    {
+      "name": "Dashes and Slashes",
+      "bytes": 912,
+      "when": [
+        "dashes",
+        "slashes"
+      ]
+    },
+    {
+      "name": "Grouping and Emphasizing",
+      "bytes": 542,
+      "when": [
+        "grouping",
+        "emphasizing"
+      ]
+    },
+    {
+      "name": "General Rule for using Other Punctuation Characters",
+      "bytes": 1070,
+      "when": [
+        "general",
+        "rule",
+        "punctuation",
+        "characters"
+      ]
+    },
+    {
+      "name": "Further Reading",
+      "bytes": 923,
+      "when": [
+        "further",
+        "reading"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\em-dash\\SKILL.md"
+}

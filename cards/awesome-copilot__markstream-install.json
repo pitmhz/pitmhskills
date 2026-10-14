@@ -1,0 +1,118 @@
+{
+  "id": "awesome-copilot__markstream-install",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2507cf60784ac7819300a34b66eaeb68764135fe75d0313ddfc58cfa98fadac3",
+  "purpose": "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, and Vue 2 applications. Use for package selection, minimal peer dependencies, CSS order, SSR bounda",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, and Vue 2 applications. Use for package selection, minimal "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1457,
+  "core_bytes": 5826,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 410,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 4141,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Inspect the host application",
+      "bytes": 543,
+      "when": [
+        "inspect",
+        "host",
+        "application"
+      ]
+    },
+    {
+      "name": "2. Install the smallest dependency set",
+      "bytes": 421,
+      "when": [
+        "install",
+        "smallest",
+        "dependency"
+      ]
+    },
+    {
+      "name": "3. Wire styles in the correct order",
+      "bytes": 676,
+      "when": [
+        "wire",
+        "styles",
+        "correct",
+        "order"
+      ]
+    },
+    {
+      "name": "4. Add the smallest working renderer",
+      "bytes": 1023,
+      "when": [
+        "smallest",
+        "working",
+        "renderer"
+      ]
+    },
+    {
+      "name": "5. Handle framework-specific boundaries",
+      "bytes": 773,
+      "when": [
+        "handle",
+        "framework",
+        "specific",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "6. Preserve safe defaults",
+      "bytes": 242,
+      "when": [
+        "preserve",
+        "safe",
+        "defaults"
+      ]
+    },
+    {
+      "name": "7. Validate",
+      "bytes": 450,
+      "when": [
+        "validate"
+      ]
+    },
+    {
+      "name": "Official References",
+      "bytes": 391,
+      "when": [
+        "official",
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\markstream-install\\SKILL.md"
+}

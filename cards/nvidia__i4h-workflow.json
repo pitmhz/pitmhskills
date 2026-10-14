@@ -1,0 +1,121 @@
+{
+  "id": "nvidia__i4h-workflow",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d466bff2efcaa90a383cad39f7e95699c7ab300c088994ac64afc0faa1bf609e",
+  "purpose": "Orient users to the i4h workflow runtime and route them to the correct stage skill. Use for architecture, support, or where-to-start questions; do not execute a known stage.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Orient users to the i4h workflow runtime and route them to the correct stage skill. Use for architecture, support, or where-to-start questions; do not execute a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1329,
+  "core_bytes": 5316,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 111,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 200,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Resolve the checkout",
+      "bytes": 1178,
+      "when": [
+        "resolve",
+        "checkout"
+      ]
+    },
+    {
+      "name": "Inspect before answering",
+      "bytes": 334,
+      "when": [
+        "inspect",
+        "before",
+        "answering"
+      ]
+    },
+    {
+      "name": "Explain the design",
+      "bytes": 1248,
+      "when": [
+        "explain",
+        "design"
+      ]
+    },
+    {
+      "name": "Route the next action",
+      "bytes": 1022,
+      "when": [
+        "route",
+        "next",
+        "action"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 136,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 87,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 103,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 164,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Completion gate",
+      "bytes": 241,
+      "when": [
+        "completion",
+        "gate"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/i4h-workflow/SKILL.md",
+  "curated": true
+}

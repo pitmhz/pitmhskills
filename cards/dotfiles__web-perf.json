@@ -1,0 +1,68 @@
+{
+  "id": "dotfiles__web-perf",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "58393523d9c493ee68df43a695c5e04fd4c9fb702a3ad9c36cea68e526fb8318",
+  "purpose": "Diagnose page-load and interaction performance using browser traces, network evidence, and source code. Use for site-speed, Lighthouse, Core Web Vitals, or layout-shift investigations; a general acces",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Diagnose page-load and interaction performance using browser traces, network evidence, and source code. Use for site-speed, Lighthouse, Core Web Vitals, or layo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 729,
+  "core_bytes": 2914,
+  "sections": [
+    {
+      "name": "Choose the evidence path",
+      "bytes": 655,
+      "when": [
+        "choose",
+        "evidence",
+        "path"
+      ]
+    },
+    {
+      "name": "Diagnose",
+      "bytes": 973,
+      "when": [
+        "diagnose"
+      ]
+    },
+    {
+      "name": "Validate and report",
+      "bytes": 745,
+      "when": [
+        "validate",
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "investigation",
+    "choose",
+    "path",
+    "validate",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\web-perf\\SKILL.md"
+}

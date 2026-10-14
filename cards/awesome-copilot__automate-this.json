@@ -1,0 +1,155 @@
+{
+  "id": "awesome-copilot__automate-this",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4f45d8a3ce3e8c0e53e0e1ab0b81ba01d10236ff64ff3c397a272af9486ac59f",
+  "purpose": "Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts frames and audio narration from video files, reconstructs the step-by-step workflow, and propo",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts frames and audio narration from video files, reconstru"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3107,
+  "core_bytes": 12463,
+  "sections": [
+    {
+      "name": "Prerequisites Check",
+      "bytes": 719,
+      "when": [
+        "prerequisites",
+        "check"
+      ]
+    },
+    {
+      "name": "Phase 1: Extract Content from the Recording",
+      "bytes": 1928,
+      "when": [
+        "phase",
+        "extract",
+        "content",
+        "recording"
+      ]
+    },
+    {
+      "name": "Frame Extraction",
+      "bytes": 762,
+      "when": [
+        "frame",
+        "extraction"
+      ]
+    },
+    {
+      "name": "Audio Extraction and Transcription",
+      "bytes": 1026,
+      "when": [
+        "audio",
+        "extraction",
+        "transcription"
+      ]
+    },
+    {
+      "name": "Phase 2: Reconstruct the Process",
+      "bytes": 1873,
+      "when": [
+        "phase",
+        "reconstruct",
+        "process"
+      ]
+    },
+    {
+      "name": "Phase 3: Environment Fingerprint",
+      "bytes": 855,
+      "when": [
+        "phase",
+        "environment",
+        "fingerprint"
+      ]
+    },
+    {
+      "name": "Phase 4: Propose Automation",
+      "bytes": 953,
+      "when": [
+        "phase",
+        "propose",
+        "automation"
+      ]
+    },
+    {
+      "name": "Tier Structure",
+      "bytes": 712,
+      "when": [
+        "tier",
+        "structure"
+      ]
+    },
+    {
+      "name": "Proposal Format",
+      "bytes": 50,
+      "when": [
+        "proposal",
+        "format"
+      ]
+    },
+    {
+      "name": "Tier [N]: [Name]",
+      "bytes": 4918,
+      "when": [
+        "tier",
+        "name"
+      ]
+    },
+    {
+      "name": "Application-Specific Automation Strategies",
+      "bytes": 2574,
+      "when": [
+        "application",
+        "specific",
+        "automation",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Making Proposals Targeted",
+      "bytes": 1722,
+      "when": [
+        "making",
+        "proposals",
+        "targeted"
+      ]
+    },
+    {
+      "name": "Phase 5: Build and Test",
+      "bytes": 390,
+      "when": [
+        "phase",
+        "build",
+        "test"
+      ]
+    },
+    {
+      "name": "Cleanup",
+      "bytes": 220,
+      "when": [
+        "cleanup"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\automate-this\\SKILL.md"
+}

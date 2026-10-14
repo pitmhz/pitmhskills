@@ -1,0 +1,69 @@
+{
+  "id": "nvidia__nvflare-convert-huggingface",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "db0ac7bb3085f52ace6684e408b34c45aeef3915a24a2e555407a43a87883fa6",
+  "purpose": "Convert existing Hugging Face Transformers Trainer or TRL SFTTrainer training code into an NVFLARE federated job using flare.patch(trainer), local validation, and job export; use when the user names H",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Convert existing Hugging Face Transformers Trainer or TRL SFTTrainer training code into an NVFLARE federated job using flare.patch(trainer), local validation, a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3547,
+  "core_bytes": 14188,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 323,
+      "when": []
+    },
+    {
+      "name": "Do Not Use When",
+      "bytes": 1468,
+      "when": []
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 658,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 5801,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 5061,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nvflare-convert-huggingface/SKILL.md",
+  "curated": true
+}

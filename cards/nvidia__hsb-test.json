@@ -1,0 +1,291 @@
+{
+  "id": "nvidia__hsb-test",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "95e69bd3e1bb7b910861e0df33a47aea881e4255697c152379caa4af96bc8ed9",
+  "purpose": "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the users setup, determines which tests can run automatically, executes them with pass/f",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the users setup, determines which tests can run "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4254,
+  "core_bytes": 17065,
+  "sections": [
+    {
+      "name": "Before you start — required gates (do these first, in order)",
+      "bytes": 1754,
+      "when": [
+        "before",
+        "start",
+        "required",
+        "gates",
+        "first",
+        "order"
+      ]
+    },
+    {
+      "name": "What this skill must do",
+      "bytes": 1319,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Linux/Windows-friendly wrapper variables",
+      "bytes": 528,
+      "when": [
+        "linux",
+        "windows",
+        "friendly",
+        "wrapper",
+        "variables"
+      ]
+    },
+    {
+      "name": "Mandatory interaction pattern",
+      "bytes": 2388,
+      "when": [
+        "mandatory",
+        "interaction",
+        "pattern"
+      ]
+    },
+    {
+      "name": "First run in a session (no prior verification)",
+      "bytes": 498,
+      "when": [
+        "first",
+        "session",
+        "prior",
+        "verification"
+      ]
+    },
+    {
+      "name": "Subsequent runs in the same session (fast path)",
+      "bytes": 869,
+      "when": [
+        "subsequent",
+        "runs",
+        "session",
+        "fast",
+        "path"
+      ]
+    },
+    {
+      "name": "When to re-run Phase 0 from the beginning",
+      "bytes": 985,
+      "when": [
+        "phase",
+        "beginning"
+      ]
+    },
+    {
+      "name": "Phase details",
+      "bytes": 128,
+      "when": [
+        "phase",
+        "details"
+      ]
+    },
+    {
+      "name": "Execution rules",
+      "bytes": 2090,
+      "when": [
+        "execution",
+        "rules"
+      ]
+    },
+    {
+      "name": "SSH heredoc pattern",
+      "bytes": 1227,
+      "when": [
+        "heredoc",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Container usage for tests",
+      "bytes": 353,
+      "when": [
+        "container",
+        "usage",
+        "tests"
+      ]
+    },
+    {
+      "name": "Cleanup after each test container",
+      "bytes": 185,
+      "when": [
+        "cleanup",
+        "after",
+        "each",
+        "test",
+        "container"
+      ]
+    },
+    {
+      "name": "Session teardown",
+      "bytes": 303,
+      "when": [
+        "session",
+        "teardown"
+      ]
+    },
+    {
+      "name": "Phase gate — user confirmation between phases",
+      "bytes": 1399,
+      "when": [
+        "phase",
+        "gate",
+        "user",
+        "confirmation",
+        "between",
+        "phases"
+      ]
+    },
+    {
+      "name": "User response handling",
+      "bytes": 687,
+      "when": [
+        "user",
+        "response",
+        "handling"
+      ]
+    },
+    {
+      "name": "Exceptions",
+      "bytes": 259,
+      "when": [
+        "exceptions"
+      ]
+    },
+    {
+      "name": "Built-in help (`--help`)",
+      "bytes": 1884,
+      "when": [
+        "built",
+        "help"
+      ]
+    },
+    {
+      "name": "Invocation examples",
+      "bytes": 261,
+      "when": [
+        "invocation",
+        "examples"
+      ]
+    },
+    {
+      "name": "Verbosity mode (`--verbose`)",
+      "bytes": 910,
+      "when": [
+        "verbosity",
+        "mode",
+        "verbose"
+      ]
+    },
+    {
+      "name": "Detecting the flag",
+      "bytes": 357,
+      "when": [
+        "detecting",
+        "flag"
+      ]
+    },
+    {
+      "name": "Verbose mode (when set)",
+      "bytes": 183,
+      "when": [
+        "verbose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Concise mode (default, no `--verbose`)",
+      "bytes": 293,
+      "when": [
+        "concise",
+        "mode",
+        "default",
+        "verbose"
+      ]
+    },
+    {
+      "name": "Auto-approve mode (`--y`)",
+      "bytes": 2146,
+      "when": [
+        "auto",
+        "approve",
+        "mode"
+      ]
+    },
+    {
+      "name": "Confirmation warning",
+      "bytes": 940,
+      "when": [
+        "confirmation",
+        "warning"
+      ]
+    },
+    {
+      "name": "Behavior when `--y` is active",
+      "bytes": 732,
+      "when": [
+        "behavior",
+        "active"
+      ]
+    },
+    {
+      "name": "Combining with other flags",
+      "bytes": 232,
+      "when": [
+        "combining",
+        "flags"
+      ]
+    },
+    {
+      "name": "Timeout handling (`--timeout`)",
+      "bytes": 794,
+      "when": [
+        "timeout",
+        "handling"
+      ]
+    },
+    {
+      "name": "Behavior",
+      "bytes": 484,
+      "when": [
+        "behavior"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 179,
+      "when": [
+        "validation"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/hsb-test/SKILL.md",
+  "curated": true
+}

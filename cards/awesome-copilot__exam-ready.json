@@ -1,0 +1,101 @@
+{
+  "id": "awesome-copilot__exam-ready",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c3551239018434cb3cf080ce505b279efeaca8211a5c2d513d7c91b1a157e2ad",
+  "purpose": "Activate this skill when a student provides study material (PDF or pasted notes) and a syllabus, and wants to prepare for an exam. Extracts key definitions, points, keywords, diagrams, exam-ready sent",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Activate this skill when a student provides study material (PDF or pasted notes) and a syllabus, and wants to prepare for an exam. Extracts key definitions, poi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 983,
+  "core_bytes": 3954,
+  "sections": [
+    {
+      "name": "What this skill does",
+      "bytes": 690,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Input format",
+      "bytes": 232,
+      "when": [
+        "input",
+        "format"
+      ]
+    },
+    {
+      "name": "Handling missing inputs",
+      "bytes": 472,
+      "when": [
+        "handling",
+        "missing",
+        "inputs"
+      ]
+    },
+    {
+      "name": "Triage mode (when student gives a time constraint)",
+      "bytes": 516,
+      "when": [
+        "triage",
+        "mode",
+        "student",
+        "time",
+        "constraint"
+      ]
+    },
+    {
+      "name": "Output format per topic",
+      "bytes": 763,
+      "when": [
+        "output",
+        "format",
+        "topic"
+      ]
+    },
+    {
+      "name": "[Topic Name]",
+      "bytes": 730,
+      "when": [
+        "topic",
+        "name"
+      ]
+    },
+    {
+      "name": "Rules",
+      "bytes": 578,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "Trigger phrases",
+      "bytes": 241,
+      "when": [
+        "trigger",
+        "phrases"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\exam-ready\\SKILL.md"
+}

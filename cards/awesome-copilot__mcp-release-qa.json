@@ -1,0 +1,174 @@
+{
+  "id": "awesome-copilot__mcp-release-qa",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "36b5a18d8dde6e3e02300d986853d7a953e6d712357191bbb571ce179d70113e",
+  "purpose": "Verify an MCP server before release by exercising a real protocol session, comparing runtime capabilities with source and documentation, testing failure paths, and recording reproducible evidence. Use",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Verify an MCP server before release by exercising a real protocol session, comparing runtime capabilities with source and documentation, testing failure paths, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1796,
+  "core_bytes": 7186,
+  "sections": [
+    {
+      "name": "Rules",
+      "bytes": 668,
+      "when": [
+        "rules"
+      ]
+    },
+    {
+      "name": "1. Establish the release surface",
+      "bytes": 569,
+      "when": [
+        "establish",
+        "release",
+        "surface"
+      ]
+    },
+    {
+      "name": "2. Start a clean server",
+      "bytes": 657,
+      "when": [
+        "start",
+        "clean",
+        "server"
+      ]
+    },
+    {
+      "name": "3. Exercise one complete session",
+      "bytes": 780,
+      "when": [
+        "exercise",
+        "complete",
+        "session"
+      ]
+    },
+    {
+      "name": "4. Prove inventory parity",
+      "bytes": 784,
+      "when": [
+        "prove",
+        "inventory",
+        "parity"
+      ]
+    },
+    {
+      "name": "5. Check published contracts",
+      "bytes": 979,
+      "when": [
+        "check",
+        "published",
+        "contracts"
+      ]
+    },
+    {
+      "name": "Tools",
+      "bytes": 440,
+      "when": [
+        "tools"
+      ]
+    },
+    {
+      "name": "Resources and templates",
+      "bytes": 224,
+      "when": [
+        "resources",
+        "templates"
+      ]
+    },
+    {
+      "name": "Prompts",
+      "bytes": 204,
+      "when": [
+        "prompts"
+      ]
+    },
+    {
+      "name": "6. Test failure paths",
+      "bytes": 757,
+      "when": [
+        "test",
+        "failure",
+        "paths"
+      ]
+    },
+    {
+      "name": "7. Smoke-test installation",
+      "bytes": 477,
+      "when": [
+        "smoke",
+        "test",
+        "installation"
+      ]
+    },
+    {
+      "name": "8. Report the evidence",
+      "bytes": 180,
+      "when": [
+        "report",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Commands and results",
+      "bytes": 74,
+      "when": [
+        "commands",
+        "results"
+      ]
+    },
+    {
+      "name": "Session transcript",
+      "bytes": 128,
+      "when": [
+        "session",
+        "transcript"
+      ]
+    },
+    {
+      "name": "Parity",
+      "bytes": 98,
+      "when": [
+        "parity"
+      ]
+    },
+    {
+      "name": "Findings",
+      "bytes": 80,
+      "when": [
+        "findings"
+      ]
+    },
+    {
+      "name": "Missing evidence",
+      "bytes": 339,
+      "when": [
+        "missing",
+        "evidence"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mcp-release-qa\\SKILL.md"
+}

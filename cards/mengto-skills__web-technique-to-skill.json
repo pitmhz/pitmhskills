@@ -1,0 +1,186 @@
+{
+  "id": "mengto-skills__web-technique-to-skill",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "63b0dc8beef3014066e384f86172254bd56cdbdbd9beea3fa179b383506efd7a",
+  "purpose": "Turn a visual or interaction technique you already built into a reusable web-design skill, by isolating the one mechanism that makes it work while reproducing its approved reference exactly around tha",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Turn a visual or interaction technique you already built into a reusable web-design skill, by isolating the one mechanism that makes it work while reproducing i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4316,
+  "core_bytes": 17312,
+  "sections": [
+    {
+      "name": "Name the mechanism in one sentence",
+      "bytes": 699,
+      "when": [
+        "name",
+        "mechanism",
+        "sentence"
+      ]
+    },
+    {
+      "name": "Name the demo and disclose the stack",
+      "bytes": 1728,
+      "when": [
+        "name",
+        "demo",
+        "disclose",
+        "stack"
+      ]
+    },
+    {
+      "name": "Split mechanism from staging",
+      "bytes": 789,
+      "when": [
+        "split",
+        "mechanism",
+        "staging"
+      ]
+    },
+    {
+      "name": "Anchor every rule to the failure it prevents",
+      "bytes": 516,
+      "when": [
+        "anchor",
+        "rule",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Carry numbers, not adjectives",
+      "bytes": 498,
+      "when": [
+        "carry",
+        "numbers",
+        "adjectives"
+      ]
+    },
+    {
+      "name": "Keep the expensive gotchas",
+      "bytes": 835,
+      "when": [
+        "keep",
+        "expensive",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Declare the boundary in the opening lines",
+      "bytes": 363,
+      "when": [
+        "declare",
+        "boundary",
+        "opening",
+        "lines"
+      ]
+    },
+    {
+      "name": "Fold in accessibility and lifecycle",
+      "bytes": 716,
+      "when": [
+        "fold",
+        "accessibility",
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "State the cost honestly",
+      "bytes": 431,
+      "when": [
+        "state",
+        "cost",
+        "honestly"
+      ]
+    },
+    {
+      "name": "Record where the design came from",
+      "bytes": 632,
+      "when": [
+        "record",
+        "where",
+        "design",
+        "came"
+      ]
+    },
+    {
+      "name": "Direct the demo",
+      "bytes": 4733,
+      "when": [
+        "direct",
+        "demo"
+      ]
+    },
+    {
+      "name": "Quality floor",
+      "bytes": 852,
+      "when": [
+        "quality",
+        "floor"
+      ]
+    },
+    {
+      "name": "Verify in a browser, then report",
+      "bytes": 1155,
+      "when": [
+        "verify",
+        "browser",
+        "report"
+      ]
+    },
+    {
+      "name": "Package and commit",
+      "bytes": 747,
+      "when": [
+        "package",
+        "commit"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1869,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "name",
+    "sentence",
+    "disclose",
+    "stack",
+    "split",
+    "anchor",
+    "rule",
+    "failure",
+    "prevents",
+    "carry",
+    "keep",
+    "declare",
+    "opening",
+    "lines"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\web-technique-to-skill\\SKILL.md"
+}

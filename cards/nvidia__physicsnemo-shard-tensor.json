@@ -1,0 +1,119 @@
+{
+  "id": "nvidia__physicsnemo-shard-tensor",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "086a29458ab205950724cd5b9869f1e322dd68e77c40669ad86846b0a3d17ca0",
+  "purpose": "Official NVIDIA-authored guidance for PhysicsNeMo ShardTensor domain parallelism — integrate domain parallelism into training/inference scripts (new or existing) with DDP or FSDP2, write and register ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Official NVIDIA-authored guidance for PhysicsNeMo ShardTensor domain parallelism — integrate domain parallelism into training/inference scripts (new or existing"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3517,
+  "core_bytes": 14120,
+  "sections": [
+    {
+      "name": "When NOT to use",
+      "bytes": 499,
+      "when": []
+    },
+    {
+      "name": "The core promise: the model does not change",
+      "bytes": 1188,
+      "when": [
+        "core",
+        "promise",
+        "model",
+        "change"
+      ]
+    },
+    {
+      "name": "Mesh and data setup (every script)",
+      "bytes": 1603,
+      "when": [
+        "mesh",
+        "data",
+        "setup",
+        "script"
+      ]
+    },
+    {
+      "name": "Choosing the data-parallel wrapper",
+      "bytes": 2931,
+      "when": [
+        "choosing",
+        "data",
+        "parallel",
+        "wrapper"
+      ]
+    },
+    {
+      "name": "torch.compile with ShardTensor",
+      "bytes": 1593,
+      "when": [
+        "torch",
+        "compile",
+        "shardtensor"
+      ]
+    },
+    {
+      "name": "Debugging pitfalls (each of these cost real time — check them first)",
+      "bytes": 2173,
+      "when": [
+        "debugging",
+        "pitfalls",
+        "each",
+        "cost",
+        "real",
+        "time",
+        "check",
+        "them"
+      ]
+    },
+    {
+      "name": "Enabling new layers / ops",
+      "bytes": 1297,
+      "when": [
+        "enabling",
+        "layers"
+      ]
+    },
+    {
+      "name": "Testing new layers",
+      "bytes": 646,
+      "when": [
+        "testing",
+        "layers"
+      ]
+    },
+    {
+      "name": "Related resources",
+      "bytes": 535,
+      "when": [
+        "related",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/physicsnemo-shard-tensor/SKILL.md",
+  "curated": true
+}

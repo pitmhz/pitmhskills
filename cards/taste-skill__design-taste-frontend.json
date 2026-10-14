@@ -1,0 +1,166 @@
+{
+  "id": "taste-skill__design-taste-frontend",
+  "tier": "B",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "fcf8ac6e5a55f3cc067e16e3d651670d59c4ab0980743051c3438f54141a031e",
+  "purpose": "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (id",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of t",
+    "Building a page with taste: art-directed layout without AI slop"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Art-directed anti-slop build (taste-skill v2) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "taste art direction study websites",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 7424,
+  "core_bytes": 29726,
+  "sections": [
+    {
+      "name": "The run",
+      "bytes": 17467,
+      "when": []
+    },
+    {
+      "name": "1. Read the brief and the project",
+      "bytes": 1880,
+      "when": [
+        "read",
+        "brief",
+        "project"
+      ]
+    },
+    {
+      "name": "2. Write the argument",
+      "bytes": 365,
+      "when": [
+        "write",
+        "argument"
+      ]
+    },
+    {
+      "name": "3. Draw the direction",
+      "bytes": 3598,
+      "when": [
+        "draw",
+        "direction"
+      ]
+    },
+    {
+      "name": "4. Find the idea",
+      "bytes": 2457,
+      "when": [
+        "find",
+        "idea"
+      ]
+    },
+    {
+      "name": "5. Write the words",
+      "bytes": 1583,
+      "when": [
+        "write",
+        "words"
+      ]
+    },
+    {
+      "name": "6. Build it, still",
+      "bytes": 4176,
+      "when": [
+        "build",
+        "still"
+      ]
+    },
+    {
+      "name": "7. Gate",
+      "bytes": 842,
+      "when": [
+        "gate"
+      ]
+    },
+    {
+      "name": "8. Look",
+      "bytes": 544,
+      "when": [
+        "look"
+      ]
+    },
+    {
+      "name": "9. Move",
+      "bytes": 1333,
+      "when": [
+        "move"
+      ]
+    },
+    {
+      "name": "10. Report",
+      "bytes": 581,
+      "when": [
+        "report"
+      ]
+    },
+    {
+      "name": "House rules",
+      "bytes": 3655,
+      "when": [
+        "house",
+        "rules"
+      ]
+    },
+    {
+      "name": "Laws of the craft",
+      "bytes": 2553,
+      "when": [
+        "laws",
+        "craft"
+      ]
+    },
+    {
+      "name": "Special cases",
+      "bytes": 1588,
+      "when": [
+        "special",
+        "cases"
+      ]
+    },
+    {
+      "name": "Files",
+      "bytes": 1565,
+      "when": [
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "read",
+    "brief",
+    "project",
+    "write",
+    "argument",
+    "draw",
+    "find",
+    "words",
+    "still",
+    "gate",
+    "move",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\taste-skill\\SKILL.md",
+  "curated": true
+}

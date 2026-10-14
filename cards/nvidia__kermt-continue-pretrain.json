@@ -1,0 +1,126 @@
+{
+  "id": "nvidia__kermt-continue-pretrain",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0a5bc4dc6428023160e3e881517d7b8254d35be8a02ff9723ddec990a03fdcf3",
+  "purpose": "Continue KERMT pretraining on a custom SMILES corpus with a grover_base, cmim, or hybrid checkpoint. Use a local checkpoint or optionally download a pinned Hugging Face model bundle using HF_TOKEN if ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Continue KERMT pretraining on a custom SMILES corpus with a grover_base, cmim, or hybrid checkpoint. Use a local checkpoint or optionally download a pinned Hugg"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4147,
+  "core_bytes": 16671,
+  "sections": [
+    {
+      "name": "Skill and runtime paths",
+      "bytes": 482,
+      "when": [
+        "skill",
+        "runtime",
+        "paths"
+      ]
+    },
+    {
+      "name": "Downloads and local outputs",
+      "bytes": 508,
+      "when": [
+        "downloads",
+        "local",
+        "outputs"
+      ]
+    },
+    {
+      "name": "Hardware requirements",
+      "bytes": 1533,
+      "when": [
+        "hardware",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 2364,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Modes",
+      "bytes": 2561,
+      "when": [
+        "modes"
+      ]
+    },
+    {
+      "name": "Default (fresh-schedule continue-pretrain)",
+      "bytes": 1037,
+      "when": [
+        "default",
+        "fresh",
+        "schedule",
+        "continue",
+        "pretrain"
+      ]
+    },
+    {
+      "name": "`--resume` (true resume)",
+      "bytes": 1390,
+      "when": [
+        "resume",
+        "true"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 5880,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 1122,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Common errors",
+      "bytes": 646,
+      "when": [
+        "common",
+        "errors"
+      ]
+    },
+    {
+      "name": "Replayability",
+      "bytes": 479,
+      "when": [
+        "replayability"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-kermt-continue-pretrain/SKILL.md",
+  "curated": true
+}

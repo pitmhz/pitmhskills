@@ -1,0 +1,136 @@
+{
+  "id": "ibelick__improve-ui",
+  "tier": "B",
+  "origin": [
+    "ibelick/ui-skills@c628a5917754ec2396d9cbb47988f280ba1d5cb0"
+  ],
+  "license": "MIT",
+  "hash": "426e0c61b61f9aa6d831ebace493d81217b19bd1a24a9d2f9025f21390c6e88a",
+  "purpose": "Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agen"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Evidence-based audit producing handoff plans (read-only) -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "evidence handoff read-only plans",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1983,
+  "core_bytes": 7946,
+  "sections": [
+    {
+      "name": "Boundaries",
+      "bytes": 500,
+      "when": [
+        "boundaries"
+      ]
+    },
+    {
+      "name": "1. Select the surface",
+      "bytes": 917,
+      "when": [
+        "select",
+        "surface"
+      ]
+    },
+    {
+      "name": "2. Reconstruct the local system",
+      "bytes": 634,
+      "when": [
+        "reconstruct",
+        "local",
+        "system"
+      ]
+    },
+    {
+      "name": "Design language",
+      "bytes": 264,
+      "when": [
+        "design",
+        "language"
+      ]
+    },
+    {
+      "name": "3. Prove findings",
+      "bytes": 2347,
+      "when": [
+        "prove",
+        "findings"
+      ]
+    },
+    {
+      "name": "4. Vet findings",
+      "bytes": 508,
+      "when": [
+        "findings"
+      ]
+    },
+    {
+      "name": "5. Report",
+      "bytes": 151,
+      "when": [
+        "report"
+      ]
+    },
+    {
+      "name": "Design language",
+      "bytes": 145,
+      "when": [
+        "design",
+        "language"
+      ]
+    },
+    {
+      "name": "Findings",
+      "bytes": 121,
+      "when": [
+        "findings"
+      ]
+    },
+    {
+      "name": "Improve first",
+      "bytes": 929,
+      "when": [
+        "improve",
+        "first"
+      ]
+    },
+    {
+      "name": "6. Specify selected changes",
+      "bytes": 747,
+      "when": [
+        "specify",
+        "selected",
+        "changes"
+      ]
+    }
+  ],
+  "keywords": [
+    "boundaries",
+    "select",
+    "reconstruct",
+    "local",
+    "language",
+    "prove",
+    "findings",
+    "report",
+    "first",
+    "specify",
+    "selected",
+    "changes"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\improve-ui\\SKILL.md"
+}

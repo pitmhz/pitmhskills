@@ -1,0 +1,178 @@
+{
+  "id": "awesome-copilot__pdftk-server",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4fd8d834d63000642697089da926f177f542a0b3a7896dc8d5978ee780939743",
+  "purpose": "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decrypt PDFs, fill PDF forms, apply watermarks",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decryp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1186,
+  "core_bytes": 4743,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 562,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 376,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Step-by-Step Workflows",
+      "bytes": 1903,
+      "when": [
+        "step",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Merge Multiple PDFs",
+      "bytes": 188,
+      "when": [
+        "merge",
+        "multiple",
+        "pdfs"
+      ]
+    },
+    {
+      "name": "Split a PDF into Individual Pages",
+      "bytes": 74,
+      "when": [
+        "split",
+        "individual",
+        "pages"
+      ]
+    },
+    {
+      "name": "Extract Specific Pages",
+      "bytes": 122,
+      "when": [
+        "extract",
+        "specific",
+        "pages"
+      ]
+    },
+    {
+      "name": "Remove Specific Pages",
+      "bytes": 107,
+      "when": [
+        "remove",
+        "specific",
+        "pages"
+      ]
+    },
+    {
+      "name": "Rotate Pages",
+      "bytes": 120,
+      "when": [
+        "rotate",
+        "pages"
+      ]
+    },
+    {
+      "name": "Encrypt a PDF",
+      "bytes": 182,
+      "when": [
+        "encrypt"
+      ]
+    },
+    {
+      "name": "Decrypt a PDF",
+      "bytes": 136,
+      "when": [
+        "decrypt"
+      ]
+    },
+    {
+      "name": "Fill a PDF Form",
+      "bytes": 171,
+      "when": [
+        "fill",
+        "form"
+      ]
+    },
+    {
+      "name": "Apply a Background Watermark",
+      "bytes": 201,
+      "when": [
+        "apply",
+        "background",
+        "watermark"
+      ]
+    },
+    {
+      "name": "Stamp an Overlay",
+      "bytes": 148,
+      "when": [
+        "stamp",
+        "overlay"
+      ]
+    },
+    {
+      "name": "Extract Metadata",
+      "bytes": 140,
+      "when": [
+        "extract",
+        "metadata"
+      ]
+    },
+    {
+      "name": "Repair a Corrupted PDF",
+      "bytes": 137,
+      "when": [
+        "repair",
+        "corrupted"
+      ]
+    },
+    {
+      "name": "Collate Scanned Pages",
+      "bytes": 150,
+      "when": [
+        "collate",
+        "scanned",
+        "pages"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 668,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 602,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\pdftk-server\\SKILL.md"
+}

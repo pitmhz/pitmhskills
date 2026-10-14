@@ -1,0 +1,89 @@
+{
+  "id": "nvidia__tao-generate-image-embeddings",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9d059ee9fb15dbb89915549c65ec0e723b39a4ded4b0033c5adc1e19af9ce3d5",
+  "purpose": "Run TAO Data Services image embedding to turn a parquet of image filepaths into an embedding parquet using CLIP, SigLIP, or a TAO checkpoint. Use when a workflow needs embeddings before nearest-neighb",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run TAO Data Services image embedding to turn a parquet of image filepaths into an embedding parquet using CLIP, SigLIP, or a TAO checkpoint. Use when a workflo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2017,
+  "core_bytes": 8080,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 1224,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Encoder Consistency",
+      "bytes": 599,
+      "when": [
+        "encoder",
+        "consistency"
+      ]
+    },
+    {
+      "name": "Quick Start",
+      "bytes": 1786,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Generate A Spec",
+      "bytes": 1258,
+      "when": [
+        "generate",
+        "spec"
+      ]
+    },
+    {
+      "name": "Preflight",
+      "bytes": 714,
+      "when": [
+        "preflight"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 341,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1026,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-generate-image-embeddings\\SKILL.md",
+  "curated": true
+}

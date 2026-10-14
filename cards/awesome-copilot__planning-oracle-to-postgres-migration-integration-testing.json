@@ -1,0 +1,55 @@
+{
+  "id": "awesome-copilot__planning-oracle-to-postgres-migration-integration-testing",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9462c7d627ab958a8c55b7b972b3e187dea779c000350453b6ad04d2260c7696",
+  "purpose": "Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. Analyzes a single project to identify repositories, DAOs, and service layers that in",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. Analyzes a single project to identify reposi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 669,
+  "core_bytes": 2685,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 1338,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 123,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Key Constraints",
+      "bytes": 471,
+      "when": [
+        "constraints"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\planning-oracle-to-postgres-migration-integration-testing\\SKILL.md"
+}

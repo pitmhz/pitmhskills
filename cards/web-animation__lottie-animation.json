@@ -1,0 +1,144 @@
+{
+  "id": "web-animation__lottie-animation",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "e112d3e000d1027f79a827d91be1cac9dec1896d5b8d0824274523f549f75425",
+  "purpose": "This skill should be used when the user asks to \"add a Lottie animation\", \"play a .lottie or .json animation\", \"integrate a Bodymovin/After Effects animation on web or mobile\", \"control Lottie playbac",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"add a Lottie animation\", \"play a .lottie or .json animation\", \"integrate a Bodymovin/After Effects animation on",
+    "not visible (`IntersectionObserver` → `play`/`pause`)."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Lottie integration -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "lottie dotlottie playback",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2284,
+  "core_bytes": 9182,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 295,
+      "when": []
+    },
+    {
+      "name": "Formats: .json vs .lottie",
+      "bytes": 451,
+      "when": [
+        "formats",
+        "json",
+        "lottie"
+      ]
+    },
+    {
+      "name": "Core workflow (web, dotLottie)",
+      "bytes": 945,
+      "when": [
+        "core",
+        "workflow",
+        "dotlottie"
+      ]
+    },
+    {
+      "name": "Playback control",
+      "bytes": 812,
+      "when": [
+        "playback",
+        "control"
+      ]
+    },
+    {
+      "name": "Scroll-driven Lottie (no GSAP needed)",
+      "bytes": 922,
+      "when": [
+        "scroll",
+        "driven",
+        "lottie",
+        "gsap",
+        "needed"
+      ]
+    },
+    {
+      "name": "Runtime theming / recoloring",
+      "bytes": 557,
+      "when": [
+        "runtime",
+        "theming",
+        "recoloring"
+      ]
+    },
+    {
+      "name": "Mobile runtimes (parity)",
+      "bytes": 483,
+      "when": [
+        "mobile",
+        "runtimes",
+        "parity"
+      ]
+    },
+    {
+      "name": "Optimization",
+      "bytes": 581,
+      "when": [
+        "optimization"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 2599,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 415,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 346,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "formats",
+    "core",
+    "workflow",
+    "gsap",
+    "needed",
+    "recoloring",
+    "runtimes",
+    "parity",
+    "optimization",
+    "deliver",
+    "verify",
+    "standalone",
+    "html"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\lottie-animation\\SKILL.md"
+}

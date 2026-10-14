@@ -1,0 +1,228 @@
+{
+  "id": "nvidia__cuopt-numerical-optimization-formulation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "39f9f7cfc994a8f1c1e64e644f6ed2aa0a2688eedfd02cf1cfad868e03f5bf86",
+  "purpose": "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4922,
+  "core_bytes": 19861,
+  "sections": [
+    {
+      "name": "What is LP / MILP / QP",
+      "bytes": 374,
+      "when": [
+        "milp"
+      ]
+    },
+    {
+      "name": "Identifying problem type",
+      "bytes": 1353,
+      "when": [
+        "identifying",
+        "problem",
+        "type"
+      ]
+    },
+    {
+      "name": "Required formulation questions",
+      "bytes": 730,
+      "when": [
+        "required",
+        "formulation",
+        "questions"
+      ]
+    },
+    {
+      "name": "Typical modeling elements",
+      "bytes": 491,
+      "when": [
+        "typical",
+        "modeling",
+        "elements"
+      ]
+    },
+    {
+      "name": "Typical QP use cases",
+      "bytes": 247,
+      "when": [
+        "typical",
+        "cases"
+      ]
+    },
+    {
+      "name": "Problem statement parsing",
+      "bytes": 8137,
+      "when": [
+        "problem",
+        "statement",
+        "parsing"
+      ]
+    },
+    {
+      "name": "🔒 MANDATORY: When in Doubt — Ask",
+      "bytes": 189,
+      "when": [
+        "mandatory",
+        "doubt"
+      ]
+    },
+    {
+      "name": "🔒 MANDATORY: Complete-Path Runs — Try All Variants",
+      "bytes": 269,
+      "when": [
+        "mandatory",
+        "complete",
+        "path",
+        "runs",
+        "variants"
+      ]
+    },
+    {
+      "name": "Three labels",
+      "bytes": 828,
+      "when": [
+        "three",
+        "labels"
+      ]
+    },
+    {
+      "name": "Implicit constraints: committed vs optional phrasing",
+      "bytes": 1437,
+      "when": [
+        "implicit",
+        "constraints",
+        "committed",
+        "optional",
+        "phrasing"
+      ]
+    },
+    {
+      "name": "Implicit objectives — do not miss",
+      "bytes": 1374,
+      "when": [
+        "implicit",
+        "objectives",
+        "miss"
+      ]
+    },
+    {
+      "name": "Parsing workflow",
+      "bytes": 1419,
+      "when": [
+        "parsing",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Parsing checklist",
+      "bytes": 889,
+      "when": [
+        "parsing",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Example",
+      "bytes": 1097,
+      "when": [
+        "example"
+      ]
+    },
+    {
+      "name": "QP rule: minimize only",
+      "bytes": 348,
+      "when": [
+        "rule",
+        "minimize"
+      ]
+    },
+    {
+      "name": "Common patterns",
+      "bytes": 7613,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Piecewise-linear objectives with integer production",
+      "bytes": 1019,
+      "when": [
+        "piecewise",
+        "linear",
+        "objectives",
+        "integer",
+        "production"
+      ]
+    },
+    {
+      "name": "Cutting stock / trim loss problems",
+      "bytes": 1122,
+      "when": [
+        "cutting",
+        "stock",
+        "trim",
+        "loss",
+        "problems"
+      ]
+    },
+    {
+      "name": "Goal programming (preemptive / lexicographic)",
+      "bytes": 1224,
+      "when": [
+        "goal",
+        "programming",
+        "preemptive",
+        "lexicographic"
+      ]
+    },
+    {
+      "name": "Multi-period inventory / purchasing models",
+      "bytes": 1697,
+      "when": [
+        "multi",
+        "period",
+        "inventory",
+        "purchasing",
+        "models"
+      ]
+    },
+    {
+      "name": "Blending with shared mixing / intermediate processing",
+      "bytes": 2397,
+      "when": [
+        "blending",
+        "shared",
+        "mixing",
+        "intermediate",
+        "processing"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/cuopt-numerical-optimization-formulation/SKILL.md",
+  "curated": true
+}

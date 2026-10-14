@@ -1,0 +1,76 @@
+{
+  "id": "nvidia__deepstream-sop",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3ab220c42f7c4342812eecf5f11a92d89fea6f4b72d19e19105f1f380313ecd0",
+  "purpose": "Use this skill when building, deploying, evaluating, debugging, or measuring latency for the DeepStream SOP Inference Microservice — a GPU-accelerated FastAPI service that detects whether operators pe",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when building, deploying, evaluating, debugging, or measuring latency for the DeepStream SOP Inference Microservice — a GPU-accelerated FastAPI s"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4793,
+  "core_bytes": 19862,
+  "sections": [
+    {
+      "name": "Models",
+      "bytes": 1066,
+      "when": [
+        "models"
+      ]
+    },
+    {
+      "name": "Architecture Overview",
+      "bytes": 4502,
+      "when": [
+        "architecture",
+        "overview"
+      ]
+    },
+    {
+      "name": "Section Index",
+      "bytes": 3535,
+      "when": [
+        "section",
+        "index"
+      ]
+    },
+    {
+      "name": "Key Files Map",
+      "bytes": 1133,
+      "when": [
+        "files"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 7630,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- python3 -m pytest"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\deepstream-sop\\SKILL.md",
+  "curated": true
+}

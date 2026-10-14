@@ -1,0 +1,195 @@
+{
+  "id": "nvidia__tao-route-visual-changenet-samples",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "3143cc4e1f0683740ee2beaa1ac3e707183632d103f5e274fd2724bdea974410",
+  "purpose": "Routes the weakest VCN samples (output of `tao-analyze-gaps-visual-changenet`) into per-augmentation-module",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Routes the weakest VCN samples (output of `tao-analyze-gaps-visual-changenet`) into per-augmentation-module"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3209,
+  "core_bytes": 12928,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 1108,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Method",
+      "bytes": 3366,
+      "when": [
+        "method"
+      ]
+    },
+    {
+      "name": "Step 1 — Load and uppercase",
+      "bytes": 321,
+      "when": [
+        "step",
+        "load",
+        "uppercase"
+      ]
+    },
+    {
+      "name": "Step 2 — Mining subset",
+      "bytes": 668,
+      "when": [
+        "step",
+        "mining",
+        "subset"
+      ]
+    },
+    {
+      "name": "Step 3 — AnomalyGen subset",
+      "bytes": 467,
+      "when": [
+        "step",
+        "anomalygen",
+        "subset"
+      ]
+    },
+    {
+      "name": "Step 4 — Per-label routing breakdown",
+      "bytes": 1179,
+      "when": [
+        "step",
+        "label",
+        "routing",
+        "breakdown"
+      ]
+    },
+    {
+      "name": "Step 5 — Sanity checks",
+      "bytes": 636,
+      "when": [
+        "step",
+        "sanity",
+        "checks"
+      ]
+    },
+    {
+      "name": "Reference Python Recipe",
+      "bytes": 2223,
+      "when": [
+        "reference",
+        "python",
+        "recipe"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 872,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Report Structure",
+      "bytes": 224,
+      "when": [
+        "report",
+        "structure"
+      ]
+    },
+    {
+      "name": "1. Verdict",
+      "bytes": 308,
+      "when": [
+        "verdict"
+      ]
+    },
+    {
+      "name": "2. Inputs",
+      "bytes": 196,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "3. Per-Label Routing Decisions",
+      "bytes": 456,
+      "when": [
+        "label",
+        "routing",
+        "decisions"
+      ]
+    },
+    {
+      "name": "4. Module-Level Summaries",
+      "bytes": 431,
+      "when": [
+        "module",
+        "level",
+        "summaries"
+      ]
+    },
+    {
+      "name": "4.1 k-NN Mining",
+      "bytes": 192,
+      "when": [
+        "mining"
+      ]
+    },
+    {
+      "name": "4.2 AnomalyGen (Cosmos SDG)",
+      "bytes": 209,
+      "when": [
+        "anomalygen",
+        "cosmos"
+      ]
+    },
+    {
+      "name": "5. Dropped Labels (routed to NEITHER module)",
+      "bytes": 459,
+      "when": [
+        "dropped",
+        "labels",
+        "routed",
+        "neither",
+        "module"
+      ]
+    },
+    {
+      "name": "6. Recommended Actions",
+      "bytes": 613,
+      "when": [
+        "recommended",
+        "actions"
+      ]
+    },
+    {
+      "name": "Execution Order",
+      "bytes": 574,
+      "when": [
+        "execution",
+        "order"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-route-visual-changenet-samples/SKILL.md",
+  "curated": true
+}

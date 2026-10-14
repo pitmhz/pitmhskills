@@ -1,0 +1,123 @@
+{
+  "id": "mengto-skills__workflow-ship-change",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "7fdd90335a6d1c44a1fedcdbbdc5d9783d765a838c78092fa1b5cf0f6995ff4c",
+  "purpose": "Ship every change the way the user requires, with the guardrails. Take screenshots of the start, the key moment and the result; give the change its own changelog version with pictures; verify with tes",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Ship every change the way the user requires, with the guardrails. Take screenshots of the start, the key moment and the result; give the change its own changelo"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2098,
+  "core_bytes": 8394,
+  "sections": [
+    {
+      "name": "Guardrails: stop and ask the user",
+      "bytes": 980,
+      "when": [
+        "guardrails",
+        "stop",
+        "user"
+      ]
+    },
+    {
+      "name": "Guardrails: never",
+      "bytes": 850,
+      "when": [
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Steps",
+      "bytes": 3916,
+      "when": [
+        "steps"
+      ]
+    },
+    {
+      "name": "0. Before you start",
+      "bytes": 321,
+      "when": [
+        "before",
+        "start"
+      ]
+    },
+    {
+      "name": "1. Screenshots",
+      "bytes": 641,
+      "when": [
+        "screenshots"
+      ]
+    },
+    {
+      "name": "2. Changelog version",
+      "bytes": 363,
+      "when": [
+        "changelog",
+        "version"
+      ]
+    },
+    {
+      "name": "3. Verify",
+      "bytes": 513,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "4. Commit",
+      "bytes": 410,
+      "when": [
+        "commit"
+      ]
+    },
+    {
+      "name": "5. Merge and push",
+      "bytes": 768,
+      "when": [
+        "merge",
+        "push"
+      ]
+    },
+    {
+      "name": "6. Publish live",
+      "bytes": 888,
+      "when": [
+        "publish",
+        "live"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 654,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "workflow",
+    "stop",
+    "steps"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\workflow\\workflow-ship-change\\SKILL.md"
+}

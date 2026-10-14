@@ -1,0 +1,130 @@
+{
+  "id": "nvidia__rtvi-cv-scaffold-vss-service",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d167dc93457e5789866932e7a78ab0cd3cbe33557b673bd1a437130177919d3a",
+  "purpose": "Scaffold a standalone RTVI CV microservice that plugs into VSS Search and Alerts profiles via Kafka mdx-raw. The shipped scaffold script is a YOLO26 reference implementation (ONNX, labels, custom pars",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Scaffold a standalone RTVI CV microservice that plugs into VSS Search and Alerts profiles via Kafka mdx-raw. The shipped scaffold script is a YOLO26 reference i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4629,
+  "core_bytes": 18742,
+  "sections": [
+    {
+      "name": "Scope boundaries",
+      "bytes": 974,
+      "when": [
+        "scope",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 742,
+      "when": []
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1680,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 429,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "VSS source location",
+      "bytes": 1903,
+      "when": [
+        "source",
+        "location"
+      ]
+    },
+    {
+      "name": "Required reads",
+      "bytes": 1234,
+      "when": [
+        "required",
+        "reads"
+      ]
+    },
+    {
+      "name": "Inputs to confirm",
+      "bytes": 890,
+      "when": [
+        "inputs",
+        "confirm"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3825,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Service shape (generated)",
+      "bytes": 1892,
+      "when": [
+        "service",
+        "shape",
+        "generated"
+      ]
+    },
+    {
+      "name": "Non-negotiable contract elements",
+      "bytes": 1200,
+      "when": [
+        "negotiable",
+        "contract",
+        "elements"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 878,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Implementation guardrails",
+      "bytes": 833,
+      "when": [
+        "implementation",
+        "guardrails"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\rtvi-cv-scaffold-vss-service\\SKILL.md",
+  "curated": true
+}

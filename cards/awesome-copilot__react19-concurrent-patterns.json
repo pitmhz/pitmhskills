@@ -1,0 +1,105 @@
+{
+  "id": "awesome-copilot__react19-concurrent-patterns",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f953aa23d213b4a7f7800f8f59529c3d1321e12f49ef7f7bf7ab7a5e0235fbc3",
+  "purpose": "Preserve React 18 concurrent patterns and adopt React 19 APIs (useTransition, useDeferredValue, Suspense, use(), useOptimistic, Actions) during migration.",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Preserve React 18 concurrent patterns and adopt React 19 APIs (useTransition, useDeferredValue, Suspense, use(), useOptimistic, Actions) during migration."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 722,
+  "core_bytes": 2890,
+  "sections": [
+    {
+      "name": "Part 1  Preserve: React 18 Concurrent Patterns That Must Survive the Migration",
+      "bytes": 1404,
+      "when": [
+        "part",
+        "preserve",
+        "react",
+        "concurrent",
+        "patterns",
+        "survive",
+        "migration"
+      ]
+    },
+    {
+      "name": "createRoot  Already Migrated by the R18 Orchestra",
+      "bytes": 388,
+      "when": [
+        "createroot",
+        "already",
+        "migrated",
+        "orchestra"
+      ]
+    },
+    {
+      "name": "useTransition  No Migration Needed",
+      "bytes": 379,
+      "when": [
+        "usetransition",
+        "migration",
+        "needed"
+      ]
+    },
+    {
+      "name": "useDeferredValue  No Migration Needed",
+      "bytes": 155,
+      "when": [
+        "usedeferredvalue",
+        "migration",
+        "needed"
+      ]
+    },
+    {
+      "name": "Suspense for Code Splitting  No Migration Needed",
+      "bytes": 307,
+      "when": [
+        "suspense",
+        "code",
+        "splitting",
+        "migration",
+        "needed"
+      ]
+    },
+    {
+      "name": "Part 2  React 19 New APIs",
+      "bytes": 451,
+      "when": [
+        "part",
+        "react",
+        "apis"
+      ]
+    },
+    {
+      "name": "Migration Safety Rules",
+      "bytes": 518,
+      "when": [
+        "migration",
+        "safety",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\react19-concurrent-patterns\\SKILL.md"
+}

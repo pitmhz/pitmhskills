@@ -1,0 +1,709 @@
+{
+  "id": "awesome-copilot__adobe-illustrator-scripting",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6a3b601bb3d7ae8a2a527aad788c7266001feadd5aca43db7e9926af1cda3518",
+  "purpose": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, color",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate docu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 8756,
+  "core_bytes": 35264,
+  "sections": [
+    {
+      "name": "Bundled Assets",
+      "bytes": 604,
+      "when": [
+        "bundled",
+        "assets"
+      ]
+    },
+    {
+      "name": "When to Use This Skill",
+      "bytes": 592,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 344,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Scripting Environment",
+      "bytes": 1510,
+      "when": [
+        "scripting",
+        "environment"
+      ]
+    },
+    {
+      "name": "Language and File Extensions",
+      "bytes": 321,
+      "when": [
+        "language",
+        "file",
+        "extensions"
+      ]
+    },
+    {
+      "name": "Executing Scripts",
+      "bytes": 838,
+      "when": [
+        "executing",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Naming Conventions (JavaScript)",
+      "bytes": 325,
+      "when": [
+        "naming",
+        "conventions",
+        "javascript"
+      ]
+    },
+    {
+      "name": "Object Model Overview",
+      "bytes": 1771,
+      "when": [
+        "object",
+        "model",
+        "overview"
+      ]
+    },
+    {
+      "name": "Top-Level Objects",
+      "bytes": 628,
+      "when": [
+        "level",
+        "objects"
+      ]
+    },
+    {
+      "name": "Measurement Units and Coordinates",
+      "bytes": 959,
+      "when": [
+        "measurement",
+        "units",
+        "coordinates"
+      ]
+    },
+    {
+      "name": "Units",
+      "bytes": 368,
+      "when": [
+        "units"
+      ]
+    },
+    {
+      "name": "Coordinate System",
+      "bytes": 317,
+      "when": [
+        "coordinate",
+        "system"
+      ]
+    },
+    {
+      "name": "Art Item Bounds",
+      "bytes": 236,
+      "when": [
+        "item",
+        "bounds"
+      ]
+    },
+    {
+      "name": "Working with Documents",
+      "bytes": 1281,
+      "when": [
+        "working",
+        "documents"
+      ]
+    },
+    {
+      "name": "Creating and Opening",
+      "bytes": 427,
+      "when": [
+        "creating",
+        "opening"
+      ]
+    },
+    {
+      "name": "Saving and Exporting",
+      "bytes": 827,
+      "when": [
+        "saving",
+        "exporting"
+      ]
+    },
+    {
+      "name": "Working with Paths and Shapes",
+      "bytes": 1804,
+      "when": [
+        "working",
+        "paths",
+        "shapes"
+      ]
+    },
+    {
+      "name": "Built-in Shape Methods",
+      "bytes": 774,
+      "when": [
+        "built",
+        "shape",
+        "methods"
+      ]
+    },
+    {
+      "name": "Freeform Paths Using Coordinate Arrays",
+      "bytes": 247,
+      "when": [
+        "freeform",
+        "paths",
+        "coordinate",
+        "arrays"
+      ]
+    },
+    {
+      "name": "Freeform Paths Using PathPoint Objects",
+      "bytes": 493,
+      "when": [
+        "freeform",
+        "paths",
+        "pathpoint",
+        "objects"
+      ]
+    },
+    {
+      "name": "Path Properties",
+      "bytes": 256,
+      "when": [
+        "path",
+        "properties"
+      ]
+    },
+    {
+      "name": "Working with Colors",
+      "bytes": 1269,
+      "when": [
+        "working",
+        "colors"
+      ]
+    },
+    {
+      "name": "Color Objects",
+      "bytes": 469,
+      "when": [
+        "color",
+        "objects"
+      ]
+    },
+    {
+      "name": "Applying Colors",
+      "bytes": 383,
+      "when": [
+        "applying",
+        "colors"
+      ]
+    },
+    {
+      "name": "Spot Colors and Swatches",
+      "bytes": 393,
+      "when": [
+        "spot",
+        "colors",
+        "swatches"
+      ]
+    },
+    {
+      "name": "Working with Text",
+      "bytes": 2043,
+      "when": [
+        "working",
+        "text"
+      ]
+    },
+    {
+      "name": "Text Frame Types",
+      "bytes": 615,
+      "when": [
+        "text",
+        "frame",
+        "types"
+      ]
+    },
+    {
+      "name": "Character and Paragraph Formatting",
+      "bytes": 679,
+      "when": [
+        "character",
+        "paragraph",
+        "formatting"
+      ]
+    },
+    {
+      "name": "Accessing Text Content",
+      "bytes": 366,
+      "when": [
+        "accessing",
+        "text",
+        "content"
+      ]
+    },
+    {
+      "name": "Threading Text Frames",
+      "bytes": 361,
+      "when": [
+        "threading",
+        "text",
+        "frames"
+      ]
+    },
+    {
+      "name": "Working with Layers",
+      "bytes": 516,
+      "when": [
+        "working",
+        "layers"
+      ]
+    },
+    {
+      "name": "Working with Selections",
+      "bytes": 505,
+      "when": [
+        "working",
+        "selections"
+      ]
+    },
+    {
+      "name": "Working with Symbols",
+      "bytes": 319,
+      "when": [
+        "working",
+        "symbols"
+      ]
+    },
+    {
+      "name": "Transformations",
+      "bytes": 463,
+      "when": [
+        "transformations"
+      ]
+    },
+    {
+      "name": "Working with Artboards",
+      "bytes": 360,
+      "when": [
+        "working",
+        "artboards"
+      ]
+    },
+    {
+      "name": "Data-Driven Graphics (Variables and Datasets)",
+      "bytes": 487,
+      "when": [
+        "data",
+        "driven",
+        "graphics",
+        "variables",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Printing",
+      "bytes": 420,
+      "when": [
+        "printing"
+      ]
+    },
+    {
+      "name": "User Interaction Levels",
+      "bytes": 389,
+      "when": [
+        "user",
+        "interaction",
+        "levels"
+      ]
+    },
+    {
+      "name": "Working with Methods (JavaScript-Specific)",
+      "bytes": 297,
+      "when": [
+        "working",
+        "methods",
+        "javascript",
+        "specific"
+      ]
+    },
+    {
+      "name": "External Invocation & Argument Passing",
+      "bytes": 4834,
+      "when": [
+        "external",
+        "invocation",
+        "argument",
+        "passing"
+      ]
+    },
+    {
+      "name": "`arguments[]` Is Unreliable Under External Launchers",
+      "bytes": 752,
+      "when": [
+        "arguments",
+        "unreliable",
+        "under",
+        "external",
+        "launchers"
+      ]
+    },
+    {
+      "name": "Sidecar File for Parameters",
+      "bytes": 905,
+      "when": [
+        "sidecar",
+        "file",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 329,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "`$.fileName` and `File($.fileName).parent`",
+      "bytes": 729,
+      "when": [
+        "filename",
+        "file",
+        "parent"
+      ]
+    },
+    {
+      "name": "Diagnostic Logging to an Absolute Path",
+      "bytes": 679,
+      "when": [
+        "diagnostic",
+        "logging",
+        "absolute",
+        "path"
+      ]
+    },
+    {
+      "name": "Wrap the Entry Point in `try { ... } catch`",
+      "bytes": 370,
+      "when": [
+        "wrap",
+        "entry",
+        "point",
+        "catch"
+      ]
+    },
+    {
+      "name": "Suppress User Interaction",
+      "bytes": 291,
+      "when": [
+        "suppress",
+        "user",
+        "interaction"
+      ]
+    },
+    {
+      "name": "Save Explicitly",
+      "bytes": 372,
+      "when": [
+        "save",
+        "explicitly"
+      ]
+    },
+    {
+      "name": "Common Patterns",
+      "bytes": 6029,
+      "when": [
+        "common",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Iterate All Page Items in a Document",
+      "bytes": 546,
+      "when": [
+        "iterate",
+        "page",
+        "items",
+        "document"
+      ]
+    },
+    {
+      "name": "Recursively Unlock Layers and Groups Before Editing",
+      "bytes": 990,
+      "when": [
+        "recursively",
+        "unlock",
+        "layers",
+        "groups",
+        "before",
+        "editing"
+      ]
+    },
+    {
+      "name": "Replacing the File Behind a Linked Image (Relink)",
+      "bytes": 1010,
+      "when": [
+        "replacing",
+        "file",
+        "behind",
+        "linked",
+        "image",
+        "relink"
+      ]
+    },
+    {
+      "name": "Placing SVG Content (Copy/Paste Pattern)",
+      "bytes": 1114,
+      "when": [
+        "placing",
+        "content",
+        "copy",
+        "paste",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Finding a Clipping Path Inside a Mask Group",
+      "bytes": 776,
+      "when": [
+        "finding",
+        "clipping",
+        "path",
+        "inside",
+        "mask",
+        "group"
+      ]
+    },
+    {
+      "name": "Cover-Fit and Contain-Fit Sizing",
+      "bytes": 988,
+      "when": [
+        "cover",
+        "contain",
+        "sizing"
+      ]
+    },
+    {
+      "name": "Batch Process Files in a Folder",
+      "bytes": 351,
+      "when": [
+        "batch",
+        "process",
+        "files",
+        "folder"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 234,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2967,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Scripting Constants Reference",
+      "bytes": 1772,
+      "when": [
+        "scripting",
+        "constants",
+        "reference"
+      ]
+    },
+    {
+      "name": "JavaScript Object Reference (Complete API Object List)",
+      "bytes": 2656,
+      "when": [
+        "javascript",
+        "object",
+        "reference",
+        "complete",
+        "list"
+      ]
+    },
+    {
+      "name": "Core Objects",
+      "bytes": 152,
+      "when": [
+        "core",
+        "objects"
+      ]
+    },
+    {
+      "name": "Path and Shape Objects",
+      "bytes": 148,
+      "when": [
+        "path",
+        "shape",
+        "objects"
+      ]
+    },
+    {
+      "name": "Text Objects",
+      "bytes": 333,
+      "when": [
+        "text",
+        "objects"
+      ]
+    },
+    {
+      "name": "Color Objects",
+      "bytes": 210,
+      "when": [
+        "color",
+        "objects"
+      ]
+    },
+    {
+      "name": "Swatch and Style Objects",
+      "bytes": 159,
+      "when": [
+        "swatch",
+        "style",
+        "objects"
+      ]
+    },
+    {
+      "name": "Symbol Objects",
+      "bytes": 70,
+      "when": [
+        "symbol",
+        "objects"
+      ]
+    },
+    {
+      "name": "Artboard Objects",
+      "bytes": 47,
+      "when": [
+        "artboard",
+        "objects"
+      ]
+    },
+    {
+      "name": "Placed and Raster Objects",
+      "bytes": 242,
+      "when": [
+        "placed",
+        "raster",
+        "objects"
+      ]
+    },
+    {
+      "name": "Data-Driven Objects",
+      "bytes": 73,
+      "when": [
+        "data",
+        "driven",
+        "objects"
+      ]
+    },
+    {
+      "name": "Matrix and Transform Objects",
+      "bytes": 44,
+      "when": [
+        "matrix",
+        "transform",
+        "objects"
+      ]
+    },
+    {
+      "name": "Tag Objects",
+      "bytes": 32,
+      "when": [
+        "objects"
+      ]
+    },
+    {
+      "name": "Tracing Objects",
+      "bytes": 56,
+      "when": [
+        "tracing",
+        "objects"
+      ]
+    },
+    {
+      "name": "Save and Export Options",
+      "bytes": 306,
+      "when": [
+        "save",
+        "export",
+        "options"
+      ]
+    },
+    {
+      "name": "Open Options",
+      "bytes": 144,
+      "when": [
+        "open",
+        "options"
+      ]
+    },
+    {
+      "name": "Print Objects",
+      "bytes": 397,
+      "when": [
+        "print",
+        "objects"
+      ]
+    },
+    {
+      "name": "Image and Rasterize Options",
+      "bytes": 99,
+      "when": [
+        "image",
+        "rasterize",
+        "options"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 347,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\adobe-illustrator-scripting\\SKILL.md"
+}

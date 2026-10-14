@@ -1,0 +1,162 @@
+{
+  "id": "nvidia__tao-train-rtdetr",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9c95fcdf04a492e38e42fa67138db04e0ddd98058a9c39c14864e820c7b5ed9f",
+  "purpose": "RT-DETR (Real-Time DEtection TRansformer) for 2D object detection. Designed for real-time inference with",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "RT-DETR (Real-Time DEtection TRansformer) for 2D object detection. Designed for real-time inference with"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4539,
+  "core_bytes": 18158,
+  "sections": [
+    {
+      "name": "Dataclass Schemas",
+      "bytes": 833,
+      "when": [
+        "dataclass",
+        "schemas"
+      ]
+    },
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Supported Actions",
+      "bytes": 499,
+      "when": [
+        "supported",
+        "actions"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 5160,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Per-Action Dataset Requirements",
+      "bytes": 1194,
+      "when": [
+        "action",
+        "dataset",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Spec Overrides",
+      "bytes": 3527,
+      "when": [
+        "typical",
+        "spec",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Eval Dataset",
+      "bytes": 88,
+      "when": [
+        "eval",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Important Parameters",
+      "bytes": 904,
+      "when": [
+        "important",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Multi-GPU / Multi-Node",
+      "bytes": 1436,
+      "when": [
+        "multi",
+        "node"
+      ]
+    },
+    {
+      "name": "Export / TRT Defaults",
+      "bytes": 152,
+      "when": [
+        "export",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Distillation",
+      "bytes": 771,
+      "when": [
+        "distillation"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 257,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 2459,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 2801,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 73,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-rtdetr/SKILL.md",
+  "curated": true
+}

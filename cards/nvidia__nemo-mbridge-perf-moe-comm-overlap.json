@@ -1,0 +1,128 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-moe-comm-overlap",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "28210793e9431b89cd3293bd95e119a4496cddd0a3644e2a8eee42c1144f812c",
+  "purpose": "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1920,
+  "core_bytes": 7677,
+  "sections": [
+    {
+      "name": "Quick Decision",
+      "bytes": 349,
+      "when": [
+        "quick",
+        "decision"
+      ]
+    },
+    {
+      "name": "Enablement",
+      "bytes": 747,
+      "when": [
+        "enablement"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 263,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Flex dispatcher activation",
+      "bytes": 175,
+      "when": [
+        "flex",
+        "dispatcher",
+        "activation"
+      ]
+    },
+    {
+      "name": "Recompute And CUDA Graph Interaction",
+      "bytes": 303,
+      "when": [
+        "recompute",
+        "cuda",
+        "graph",
+        "interaction"
+      ]
+    },
+    {
+      "name": "Measured Evidence",
+      "bytes": 2507,
+      "when": [
+        "measured",
+        "evidence"
+      ]
+    },
+    {
+      "name": "HybridEP production-shape validation",
+      "bytes": 1573,
+      "when": [
+        "hybridep",
+        "production",
+        "shape",
+        "validation"
+      ]
+    },
+    {
+      "name": "Correctness-first alltoall smoke",
+      "bytes": 910,
+      "when": [
+        "correctness",
+        "first",
+        "alltoall",
+        "smoke"
+      ]
+    },
+    {
+      "name": "Code Anchors",
+      "bytes": 353,
+      "when": [
+        "code",
+        "anchors"
+      ]
+    },
+    {
+      "name": "Pitfalls",
+      "bytes": 1135,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 1629,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-moe-comm-overlap/SKILL.md",
+  "curated": true
+}

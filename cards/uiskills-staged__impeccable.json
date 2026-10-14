@@ -1,0 +1,71 @@
+{
+  "id": "uiskills-staged__impeccable",
+  "tier": "B",
+  "origin": [
+    "local@impeccable"
+  ],
+  "license": "Apache-2.0",
+  "hash": "9004999a095807b7d9b9872563e2b9a594937b40f3f66eed2deee01707591380",
+  "purpose": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers we",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3263,
+  "core_bytes": 13070,
+  "sections": [
+    {
+      "name": "Setup",
+      "bytes": 2232,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "How to design",
+      "bytes": 1404,
+      "when": [
+        "design"
+      ]
+    },
+    {
+      "name": "Modes",
+      "bytes": 1415,
+      "when": [
+        "modes"
+      ]
+    },
+    {
+      "name": "Commands",
+      "bytes": 5757,
+      "when": [
+        "commands"
+      ]
+    }
+  ],
+  "keywords": [
+    "setup",
+    "modes",
+    "commands"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\impeccable\\SKILL.md"
+}

@@ -29,10 +29,62 @@
   "conflicts_with": [],
   "body_tokens": 1391,
   "core_bytes": 5562,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Required Workflow",
+      "bytes": 896,
+      "when": [
+        "required",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Deliverables to Produce",
+      "bytes": 726,
+      "when": [
+        "deliverables",
+        "produce"
+      ]
+    },
+    {
+      "name": "Defaults",
+      "bytes": 708,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Sanity Guardrails",
+      "bytes": 939,
+      "when": [
+        "sanity",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Stop and Ask",
+      "bytes": 466,
+      "when": [
+        "stop"
+      ]
+    },
+    {
+      "name": "Do Not Do This",
+      "bytes": 573,
+      "when": []
+    },
+    {
+      "name": "Reference Map",
+      "bytes": 593,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-migration\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-migration\\SKILL.md",
+  "curated": true
 }

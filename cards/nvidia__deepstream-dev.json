@@ -1,0 +1,104 @@
+{
+  "id": "nvidia__deepstream-dev",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "46270b2eacbe32a876d29db28c56c0e8ed4cc008268dcffc9c37ae32eb071b89",
+  "purpose": "NVIDIA DeepStream SDK development with Python pyservicemaker API. Use when building video analytics pipelines, GStreamer-based video processing, TensorRT inference integration, object detection/tracki",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "NVIDIA DeepStream SDK development with Python pyservicemaker API. Use when building video analytics pipelines, GStreamer-based video processing, TensorRT infere"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3378,
+  "core_bytes": 13539,
+  "sections": [
+    {
+      "name": "SDK and Architecture Quick Reference",
+      "bytes": 1299,
+      "when": [
+        "architecture",
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "DeepStream SDK Version Requirements",
+      "bytes": 200,
+      "when": [
+        "deepstream",
+        "version",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Typical Pipeline Flow",
+      "bytes": 843,
+      "when": [
+        "typical",
+        "pipeline",
+        "flow"
+      ]
+    },
+    {
+      "name": "Memory Model",
+      "bytes": 213,
+      "when": [
+        "memory",
+        "model"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 6961,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "Key Paths",
+      "bytes": 457,
+      "when": [
+        "paths"
+      ]
+    },
+    {
+      "name": "Reference Documents",
+      "bytes": 2313,
+      "when": [
+        "reference",
+        "documents"
+      ]
+    },
+    {
+      "name": "Quick Error Reference",
+      "bytes": 1594,
+      "when": [
+        "quick",
+        "error",
+        "reference"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/deepstream-dev/SKILL.md",
+  "curated": true
+}

@@ -28,7 +28,57 @@
   "conflicts_with": [],
   "body_tokens": 930,
   "core_bytes": 3720,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 535,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 170,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 184,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1909,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Bundled Resources",
+      "bytes": 532,
+      "when": [
+        "bundled",
+        "resources"
+      ]
+    },
+    {
+      "name": "scripts/inspect_pr_checks.py",
+      "bytes": 508,
+      "when": [
+        "scripts",
+        "inspect",
+        "checks"
+      ]
+    }
+  ],
+  "verify": [
+    "gh auth status",
+    "gh pr checks"
+  ],
   "skill_path": "skills/openai/skills/.curated/gh-fix-ci/SKILL.md"
 }

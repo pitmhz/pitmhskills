@@ -1,0 +1,69 @@
+{
+  "id": "nvidia__nvflare-diagnose-job",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "972f9e49f46c97cab453165dbad02ce7f5eb4be8ac6022d244eeb7adfd335736",
+  "purpose": "Use when the user asks why a reported NVFLARE job failure signal occurred: the job failed, stalled, timed out, lost clients, ended with EXECUTION_EXCEPTION, or produced suspicious errors. Diagnose in ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use when the user asks why a reported NVFLARE job failure signal occurred: the job failed, stalled, timed out, lost clients, ended with EXECUTION_EXCEPTION, or "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1250,
+  "core_bytes": 5002,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 245,
+      "when": []
+    },
+    {
+      "name": "Do Not Use When",
+      "bytes": 345,
+      "when": []
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1672,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 1469,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Output Shape",
+      "bytes": 548,
+      "when": [
+        "output",
+        "shape"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nvflare-diagnose-job/SKILL.md",
+  "curated": true
+}

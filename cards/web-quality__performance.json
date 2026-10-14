@@ -1,0 +1,281 @@
+{
+  "id": "web-quality__performance",
+  "tier": "B",
+  "origin": [
+    "addyosmani/web-quality-skills@afa8da942115f2961fdbfa80807ea0b232ff6c00"
+  ],
+  "license": "MIT",
+  "hash": "3abf4a1dbcb60143dcc351f85093bcf01420d274583ceeceaad8dcf6c6024de1",
+  "purpose": "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix s"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3545,
+  "core_bytes": 14210,
+  "sections": [
+    {
+      "name": "How it works",
+      "bytes": 1024,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Starting performance budget",
+      "bytes": 841,
+      "when": [
+        "starting",
+        "performance",
+        "budget"
+      ]
+    },
+    {
+      "name": "Critical rendering path",
+      "bytes": 3857,
+      "when": [
+        "critical",
+        "rendering",
+        "path"
+      ]
+    },
+    {
+      "name": "Server response",
+      "bytes": 1281,
+      "when": [
+        "server",
+        "response"
+      ]
+    },
+    {
+      "name": "Resource loading",
+      "bytes": 1573,
+      "when": [
+        "resource",
+        "loading"
+      ]
+    },
+    {
+      "name": "JavaScript optimization",
+      "bytes": 973,
+      "when": [
+        "javascript",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Image optimization",
+      "bytes": 1450,
+      "when": [
+        "image",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Format selection",
+      "bytes": 292,
+      "when": [
+        "format",
+        "selection"
+      ]
+    },
+    {
+      "name": "Responsive images",
+      "bytes": 798,
+      "when": [
+        "responsive",
+        "images"
+      ]
+    },
+    {
+      "name": "LCP image priority",
+      "bytes": 335,
+      "when": [
+        "image",
+        "priority"
+      ]
+    },
+    {
+      "name": "Font optimization",
+      "bytes": 888,
+      "when": [
+        "font",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Loading strategy",
+      "bytes": 487,
+      "when": [
+        "loading",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Preloading critical fonts",
+      "bytes": 137,
+      "when": [
+        "preloading",
+        "critical",
+        "fonts"
+      ]
+    },
+    {
+      "name": "Variable fonts",
+      "bytes": 240,
+      "when": [
+        "variable",
+        "fonts"
+      ]
+    },
+    {
+      "name": "Caching strategy",
+      "bytes": 1015,
+      "when": [
+        "caching",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Cache-Control headers",
+      "bytes": 374,
+      "when": [
+        "cache",
+        "control",
+        "headers"
+      ]
+    },
+    {
+      "name": "Service worker caching",
+      "bytes": 618,
+      "when": [
+        "service",
+        "worker",
+        "caching"
+      ]
+    },
+    {
+      "name": "Runtime performance",
+      "bytes": 2499,
+      "when": [
+        "runtime",
+        "performance"
+      ]
+    },
+    {
+      "name": "Avoid layout thrashing",
+      "bytes": 409,
+      "when": [
+        "avoid",
+        "layout",
+        "thrashing"
+      ]
+    },
+    {
+      "name": "Debounce expensive operations",
+      "bytes": 323,
+      "when": [
+        "debounce",
+        "expensive",
+        "operations"
+      ]
+    },
+    {
+      "name": "Use requestAnimationFrame",
+      "bytes": 256,
+      "when": [
+        "requestanimationframe"
+      ]
+    },
+    {
+      "name": "Virtualize long lists",
+      "bytes": 288,
+      "when": [
+        "virtualize",
+        "long",
+        "lists"
+      ]
+    },
+    {
+      "name": "Smooth navigations with View Transitions",
+      "bytes": 1197,
+      "when": [
+        "smooth",
+        "navigations",
+        "view",
+        "transitions"
+      ]
+    },
+    {
+      "name": "Third-party scripts",
+      "bytes": 1031,
+      "when": [
+        "third",
+        "party",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Load strategies",
+      "bytes": 710,
+      "when": [
+        "load",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Facade pattern",
+      "bytes": 295,
+      "when": [
+        "facade",
+        "pattern"
+      ]
+    },
+    {
+      "name": "Measurement",
+      "bytes": 932,
+      "when": [
+        "measurement"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 114,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "optimization",
+    "works",
+    "starting",
+    "budget",
+    "critical",
+    "rendering",
+    "path",
+    "server",
+    "response",
+    "resource",
+    "javascript",
+    "image"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-quality\\skills\\performance\\SKILL.md"
+}

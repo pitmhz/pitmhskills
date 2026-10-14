@@ -1,0 +1,982 @@
+{
+  "id": "taste-skill__design-taste-frontend-v2-experimental",
+  "tier": "C",
+  "origin": [
+    "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
+  ],
+  "license": "MIT",
+  "hash": "c5a562fc0eca345c081994199b1eef4a7a2a2a1cf24586e86bf5953a0dcfccbe",
+  "purpose": "Old v2 (experimental) of taste-skill, the single-file dial-driven version, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2). Use this install",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "design"
+  ],
+  "use_when": [
+    "Old v2 (experimental) of taste-skill, the single-file dial-driven version, preserved for projects depending on its exact behavior. The current default is `desig",
+    "`MOTION_INTENSITY > 5` AND the brief reads premium / playful / agency. Implement EXCLUSIVELY with Motion's `useMotionValue` / `useTransform` outside the React r"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 22684,
+  "core_bytes": 90863,
+  "sections": [
+    {
+      "name": "0. BRIEF INFERENCE (Read the Room Before Anything Else)",
+      "bytes": 2701,
+      "when": [
+        "brief",
+        "inference",
+        "read",
+        "room",
+        "before",
+        "anything",
+        "else"
+      ]
+    },
+    {
+      "name": "0.A Read these signals first",
+      "bytes": 1018,
+      "when": [
+        "read",
+        "signals",
+        "first"
+      ]
+    },
+    {
+      "name": "0.B Output a one-line \"Design Read\" before generating",
+      "bytes": 735,
+      "when": [
+        "output",
+        "line",
+        "design",
+        "read",
+        "before",
+        "generating"
+      ]
+    },
+    {
+      "name": "0.C If the brief is ambiguous, ask one question, do not guess",
+      "bytes": 375,
+      "when": [
+        "brief",
+        "ambiguous",
+        "question",
+        "guess"
+      ]
+    },
+    {
+      "name": "0.D Anti-Default Discipline",
+      "bytes": 322,
+      "when": [
+        "anti",
+        "default",
+        "discipline"
+      ]
+    },
+    {
+      "name": "1. THE THREE DIALS (Core Configuration)",
+      "bytes": 1892,
+      "when": [
+        "three",
+        "dials",
+        "core",
+        "configuration"
+      ]
+    },
+    {
+      "name": "1.A Dial Inference (design read → dial values)",
+      "bytes": 639,
+      "when": [
+        "dial",
+        "inference",
+        "design",
+        "read",
+        "values"
+      ]
+    },
+    {
+      "name": "1.B Use-Case Presets",
+      "bytes": 477,
+      "when": [
+        "case",
+        "presets"
+      ]
+    },
+    {
+      "name": "1.C How the Dials Drive Output",
+      "bytes": 246,
+      "when": [
+        "dials",
+        "drive",
+        "output"
+      ]
+    },
+    {
+      "name": "2. BRIEF → DESIGN SYSTEM MAP",
+      "bytes": 3315,
+      "when": [
+        "brief",
+        "design",
+        "system"
+      ]
+    },
+    {
+      "name": "2.A When to reach for a real design system (use official packages)",
+      "bytes": 1817,
+      "when": [
+        "reach",
+        "real",
+        "design",
+        "system",
+        "official",
+        "packages"
+      ]
+    },
+    {
+      "name": "2.B When the brief is an aesthetic, not a system",
+      "bytes": 1249,
+      "when": [
+        "brief",
+        "aesthetic",
+        "system"
+      ]
+    },
+    {
+      "name": "3. DEFAULT ARCHITECTURE & CONVENTIONS",
+      "bytes": 3206,
+      "when": [
+        "default",
+        "architecture",
+        "conventions"
+      ]
+    },
+    {
+      "name": "3.A Stack",
+      "bytes": 1023,
+      "when": [
+        "stack"
+      ]
+    },
+    {
+      "name": "3.B State",
+      "bytes": 443,
+      "when": [
+        "state"
+      ]
+    },
+    {
+      "name": "3.C Icons",
+      "bytes": 583,
+      "when": [
+        "icons"
+      ]
+    },
+    {
+      "name": "3.D Emoji Policy",
+      "bytes": 283,
+      "when": [
+        "emoji",
+        "policy"
+      ]
+    },
+    {
+      "name": "3.E Responsiveness & Layout Mechanics",
+      "bytes": 525,
+      "when": [
+        "responsiveness",
+        "layout",
+        "mechanics"
+      ]
+    },
+    {
+      "name": "3.F Dependency Verification (mandatory)",
+      "bytes": 213,
+      "when": [
+        "dependency",
+        "verification",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "4. DESIGN ENGINEERING DIRECTIVES (Bias Correction)",
+      "bytes": 25092,
+      "when": [
+        "design",
+        "engineering",
+        "directives",
+        "bias",
+        "correction"
+      ]
+    },
+    {
+      "name": "4.1 Typography",
+      "bytes": 2959,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "4.2 Color Calibration",
+      "bytes": 3086,
+      "when": [
+        "color",
+        "calibration"
+      ]
+    },
+    {
+      "name": "4.3 Layout Diversification",
+      "bytes": 390,
+      "when": [
+        "layout",
+        "diversification"
+      ]
+    },
+    {
+      "name": "4.4 Materiality, Shadows, Cards",
+      "bytes": 829,
+      "when": [
+        "materiality",
+        "shadows",
+        "cards"
+      ]
+    },
+    {
+      "name": "4.5 Interactive UI States",
+      "bytes": 2175,
+      "when": [
+        "interactive",
+        "states"
+      ]
+    },
+    {
+      "name": "4.6 Data & Form Patterns",
+      "bytes": 191,
+      "when": [
+        "data",
+        "form",
+        "patterns"
+      ]
+    },
+    {
+      "name": "4.7 Layout Discipline (Hard Rules. Failing any of these is shipping broken work)",
+      "bytes": 6154,
+      "when": [
+        "layout",
+        "discipline",
+        "hard",
+        "rules",
+        "failing",
+        "shipping",
+        "broken",
+        "work"
+      ]
+    },
+    {
+      "name": "4.8 Image & Visual Asset Strategy",
+      "bytes": 3900,
+      "when": [
+        "image",
+        "visual",
+        "asset",
+        "strategy"
+      ]
+    },
+    {
+      "name": "4.9 Content Density",
+      "bytes": 3544,
+      "when": [
+        "content",
+        "density"
+      ]
+    },
+    {
+      "name": "4.10 Quotes & Testimonials",
+      "bytes": 640,
+      "when": [
+        "quotes",
+        "testimonials"
+      ]
+    },
+    {
+      "name": "4.11 Page Theme Lock (Light / Dark Mode Consistency)",
+      "bytes": 1056,
+      "when": [
+        "page",
+        "theme",
+        "lock",
+        "light",
+        "dark",
+        "mode",
+        "consistency"
+      ]
+    },
+    {
+      "name": "5. CONTEXT-AWARE PROACTIVITY",
+      "bytes": 11007,
+      "when": [
+        "context",
+        "aware",
+        "proactivity"
+      ]
+    },
+    {
+      "name": "5.A Sticky-Stack - Canonical Skeleton",
+      "bytes": 3045,
+      "when": [
+        "sticky",
+        "stack",
+        "canonical",
+        "skeleton"
+      ]
+    },
+    {
+      "name": "5.B Horizontal-Pan - Canonical Skeleton",
+      "bytes": 2572,
+      "when": [
+        "horizontal",
+        "canonical",
+        "skeleton"
+      ]
+    },
+    {
+      "name": "5.C Scroll-Reveal Stagger - Canonical Skeleton (lighter alternative)",
+      "bytes": 1048,
+      "when": [
+        "scroll",
+        "reveal",
+        "stagger",
+        "canonical",
+        "skeleton",
+        "lighter",
+        "alternative"
+      ]
+    },
+    {
+      "name": "5.D Forbidden Animation Patterns",
+      "bytes": 1072,
+      "when": [
+        "forbidden",
+        "animation",
+        "patterns"
+      ]
+    },
+    {
+      "name": "6. PERFORMANCE & ACCESSIBILITY GUARDRAILS",
+      "bytes": 2161,
+      "when": [
+        "performance",
+        "accessibility",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "6.A Hardware Acceleration",
+      "bytes": 213,
+      "when": [
+        "hardware",
+        "acceleration"
+      ]
+    },
+    {
+      "name": "6.B Reduced Motion (mandatory)",
+      "bytes": 510,
+      "when": [
+        "reduced",
+        "motion",
+        "mandatory"
+      ]
+    },
+    {
+      "name": "6.C Dark Mode (mandatory for any consumer-facing page)",
+      "bytes": 550,
+      "when": [
+        "dark",
+        "mode",
+        "mandatory",
+        "consumer",
+        "facing",
+        "page"
+      ]
+    },
+    {
+      "name": "6.D Core Web Vitals Targets",
+      "bytes": 264,
+      "when": [
+        "core",
+        "vitals",
+        "targets"
+      ]
+    },
+    {
+      "name": "6.E DOM Cost",
+      "bytes": 352,
+      "when": [
+        "cost"
+      ]
+    },
+    {
+      "name": "6.F Z-Index Restraint",
+      "bytes": 224,
+      "when": [
+        "index",
+        "restraint"
+      ]
+    },
+    {
+      "name": "7. DIAL DEFINITIONS (Technical Reference)",
+      "bytes": 1755,
+      "when": [
+        "dial",
+        "definitions",
+        "technical",
+        "reference"
+      ]
+    },
+    {
+      "name": "DESIGN_VARIANCE (Level 1-10)",
+      "bytes": 609,
+      "when": [
+        "design",
+        "variance",
+        "level"
+      ]
+    },
+    {
+      "name": "MOTION_INTENSITY (Level 1-10)",
+      "bytes": 761,
+      "when": [
+        "motion",
+        "intensity",
+        "level"
+      ]
+    },
+    {
+      "name": "VISUAL_DENSITY (Level 1-10)",
+      "bytes": 337,
+      "when": [
+        "visual",
+        "density",
+        "level"
+      ]
+    },
+    {
+      "name": "8. DARK MODE PROTOCOL",
+      "bytes": 1472,
+      "when": [
+        "dark",
+        "mode",
+        "protocol"
+      ]
+    },
+    {
+      "name": "8.A Token Strategy (pick one, stick to it)",
+      "bytes": 500,
+      "when": [
+        "token",
+        "strategy",
+        "pick",
+        "stick"
+      ]
+    },
+    {
+      "name": "8.B Do Not Prescribe Specific Colors Here",
+      "bytes": 546,
+      "when": [
+        "prescribe",
+        "specific",
+        "colors"
+      ]
+    },
+    {
+      "name": "8.C Default Mode",
+      "bytes": 150,
+      "when": [
+        "default",
+        "mode"
+      ]
+    },
+    {
+      "name": "8.D Test in Both Modes Before Finishing",
+      "bytes": 152,
+      "when": [
+        "test",
+        "both",
+        "modes",
+        "before",
+        "finishing"
+      ]
+    },
+    {
+      "name": "9. AI TELLS (Forbidden Patterns)",
+      "bytes": 12050,
+      "when": [
+        "tells",
+        "forbidden",
+        "patterns"
+      ]
+    },
+    {
+      "name": "9.A Visual & CSS",
+      "bytes": 377,
+      "when": [
+        "visual"
+      ]
+    },
+    {
+      "name": "9.B Typography",
+      "bytes": 278,
+      "when": [
+        "typography"
+      ]
+    },
+    {
+      "name": "9.C Layout & Spacing",
+      "bytes": 319,
+      "when": [
+        "layout",
+        "spacing"
+      ]
+    },
+    {
+      "name": "9.D Content & Data (\"Jane Doe\" Effect)",
+      "bytes": 645,
+      "when": [
+        "content",
+        "data",
+        "jane",
+        "effect"
+      ]
+    },
+    {
+      "name": "9.E External Resources & Components",
+      "bytes": 792,
+      "when": [
+        "external",
+        "resources",
+        "components"
+      ]
+    },
+    {
+      "name": "9.F Production-Test Tells (banned outright)",
+      "bytes": 8164,
+      "when": [
+        "production",
+        "test",
+        "tells",
+        "banned",
+        "outright"
+      ]
+    },
+    {
+      "name": "9.G EM-DASH BAN (the single most-violated Tell)",
+      "bytes": 1367,
+      "when": [
+        "dash",
+        "single",
+        "violated",
+        "tell"
+      ]
+    },
+    {
+      "name": "10. REFERENCE VOCABULARY (Pattern Names the Agent Should Know)",
+      "bytes": 4374,
+      "when": [
+        "reference",
+        "vocabulary",
+        "pattern",
+        "names",
+        "agent",
+        "know"
+      ]
+    },
+    {
+      "name": "Hero Paradigms",
+      "bytes": 473,
+      "when": [
+        "hero",
+        "paradigms"
+      ]
+    },
+    {
+      "name": "Navigation & Menus",
+      "bytes": 480,
+      "when": [
+        "navigation",
+        "menus"
+      ]
+    },
+    {
+      "name": "Layout & Grids",
+      "bytes": 364,
+      "when": [
+        "layout",
+        "grids"
+      ]
+    },
+    {
+      "name": "Cards & Containers",
+      "bytes": 407,
+      "when": [
+        "cards",
+        "containers"
+      ]
+    },
+    {
+      "name": "Scroll Animations",
+      "bytes": 433,
+      "when": [
+        "scroll",
+        "animations"
+      ]
+    },
+    {
+      "name": "Galleries & Media",
+      "bytes": 366,
+      "when": [
+        "galleries",
+        "media"
+      ]
+    },
+    {
+      "name": "Typography & Text",
+      "bytes": 427,
+      "when": [
+        "typography",
+        "text"
+      ]
+    },
+    {
+      "name": "Micro-Interactions & Effects",
+      "bytes": 604,
+      "when": [
+        "micro",
+        "interactions",
+        "effects"
+      ]
+    },
+    {
+      "name": "Animation Library Choice",
+      "bytes": 450,
+      "when": [
+        "animation",
+        "library",
+        "choice"
+      ]
+    },
+    {
+      "name": "11. REDESIGN PROTOCOL",
+      "bytes": 3343,
+      "when": [
+        "redesign",
+        "protocol"
+      ]
+    },
+    {
+      "name": "11.A Detect the Mode (first action)",
+      "bytes": 520,
+      "when": [
+        "detect",
+        "mode",
+        "first",
+        "action"
+      ]
+    },
+    {
+      "name": "11.B Audit Before Touching",
+      "bytes": 802,
+      "when": [
+        "audit",
+        "before",
+        "touching"
+      ]
+    },
+    {
+      "name": "11.C Preservation Rules",
+      "bytes": 637,
+      "when": [
+        "preservation",
+        "rules"
+      ]
+    },
+    {
+      "name": "11.D Modernisation Levers (priority order)",
+      "bytes": 599,
+      "when": [
+        "modernisation",
+        "levers",
+        "priority",
+        "order"
+      ]
+    },
+    {
+      "name": "11.E Decision Tree: Targeted Evolution vs Full Redesign",
+      "bytes": 343,
+      "when": [
+        "decision",
+        "tree",
+        "targeted",
+        "evolution",
+        "full",
+        "redesign"
+      ]
+    },
+    {
+      "name": "11.F What Never Changes Silently",
+      "bytes": 278,
+      "when": [
+        "changes",
+        "silently"
+      ]
+    },
+    {
+      "name": "12. THE BLOCK LIBRARY (Contract - Implementations Land Here Iteratively)",
+      "bytes": 2114,
+      "when": [
+        "block",
+        "library",
+        "contract",
+        "implementations",
+        "land",
+        "iteratively"
+      ]
+    },
+    {
+      "name": "12.A File Location",
+      "bytes": 332,
+      "when": [
+        "file",
+        "location"
+      ]
+    },
+    {
+      "name": "12.B Required Frontmatter",
+      "bytes": 431,
+      "when": [
+        "required",
+        "frontmatter"
+      ]
+    },
+    {
+      "name": "12.C Required Body Sections",
+      "bytes": 621,
+      "when": [
+        "required",
+        "body",
+        "sections"
+      ]
+    },
+    {
+      "name": "12.D Block-Library Discipline",
+      "bytes": 371,
+      "when": [
+        "block",
+        "library",
+        "discipline"
+      ]
+    },
+    {
+      "name": "13. OUT OF SCOPE",
+      "bytes": 711,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "14. FINAL PRE-FLIGHT CHECK",
+      "bytes": 7487,
+      "when": [
+        "final",
+        "flight",
+        "check"
+      ]
+    },
+    {
+      "name": "Appendix A - Install Commands per Design System",
+      "bytes": 1213,
+      "when": [
+        "appendix",
+        "install",
+        "commands",
+        "design",
+        "system"
+      ]
+    },
+    {
+      "name": "Appendix B - Canonical Sources (read these before reinventing)",
+      "bytes": 3041,
+      "when": [
+        "appendix",
+        "canonical",
+        "sources",
+        "read",
+        "before",
+        "reinventing"
+      ]
+    },
+    {
+      "name": "Material Web",
+      "bytes": 167,
+      "when": [
+        "material"
+      ]
+    },
+    {
+      "name": "Fluent UI",
+      "bytes": 235,
+      "when": [
+        "fluent"
+      ]
+    },
+    {
+      "name": "Carbon",
+      "bytes": 248,
+      "when": [
+        "carbon"
+      ]
+    },
+    {
+      "name": "Shopify Polaris",
+      "bytes": 171,
+      "when": [
+        "shopify",
+        "polaris"
+      ]
+    },
+    {
+      "name": "Atlassian",
+      "bytes": 250,
+      "when": [
+        "atlassian"
+      ]
+    },
+    {
+      "name": "Primer",
+      "bytes": 107,
+      "when": [
+        "primer"
+      ]
+    },
+    {
+      "name": "GOV.UK",
+      "bytes": 174,
+      "when": []
+    },
+    {
+      "name": "USWDS",
+      "bytes": 217,
+      "when": [
+        "uswds"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "bytes": 121,
+      "when": [
+        "bootstrap"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "bytes": 105,
+      "when": [
+        "tailwind"
+      ]
+    },
+    {
+      "name": "Radix",
+      "bytes": 164,
+      "when": [
+        "radix"
+      ]
+    },
+    {
+      "name": "shadcn/ui",
+      "bytes": 128,
+      "when": [
+        "shadcn"
+      ]
+    },
+    {
+      "name": "Native CSS / W3C standards",
+      "bytes": 527,
+      "when": [
+        "native",
+        "standards"
+      ]
+    },
+    {
+      "name": "Apple Liquid Glass (Apple platforms only)",
+      "bytes": 358,
+      "when": [
+        "apple",
+        "liquid",
+        "glass",
+        "platforms"
+      ]
+    },
+    {
+      "name": "Appendix C - Apple Liquid Glass: Honest Web Approximation",
+      "bytes": 3172,
+      "when": [
+        "appendix",
+        "apple",
+        "liquid",
+        "glass",
+        "honest",
+        "approximation"
+      ]
+    },
+    {
+      "name": "What is official",
+      "bytes": 533,
+      "when": [
+        "official"
+      ]
+    },
+    {
+      "name": "What is NOT official",
+      "bytes": 396,
+      "when": [
+        "official"
+      ]
+    },
+    {
+      "name": "Safer web approximation skeleton",
+      "bytes": 2107,
+      "when": [
+        "safer",
+        "approximation",
+        "skeleton"
+      ]
+    }
+  ],
+  "keywords": [
+    "tasteskill",
+    "inference",
+    "read",
+    "room",
+    "before",
+    "anything",
+    "else",
+    "signals",
+    "output",
+    "line",
+    "generating",
+    "ambiguous",
+    "question",
+    "guess"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\taste-skill-v2-experimental\\SKILL.md",
+  "curated": true
+}

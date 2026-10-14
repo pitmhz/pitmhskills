@@ -1,0 +1,141 @@
+{
+  "id": "awesome-copilot__macos-golden-gate-design",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "677c4bc36b638bffe0702e7e307328777059f578601065165048d92e8e6bec31",
+  "purpose": "Design, implement, review, or refactor native macOS 27 Golden Gate interfaces in SwiftUI or AppKit. Use when a Mac app must match Apple's current macOS 27 UI kit and restrained Liquid Glass language: ",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Design, implement, review, or refactor native macOS 27 Golden Gate interfaces in SwiftUI or AppKit. Use when a Mac app must match Apple's current macOS 27 UI ki"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2123,
+  "core_bytes": 8505,
+  "sections": [
+    {
+      "name": "Design contract",
+      "bytes": 1363,
+      "when": [
+        "design",
+        "contract"
+      ]
+    },
+    {
+      "name": "Source precedence",
+      "bytes": 1148,
+      "when": [
+        "source",
+        "precedence"
+      ]
+    },
+    {
+      "name": "Required workflow",
+      "bytes": 3514,
+      "when": [
+        "required",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Identify the native structure",
+      "bytes": 359,
+      "when": [
+        "identify",
+        "native",
+        "structure"
+      ]
+    },
+    {
+      "name": "2. Remove false containers",
+      "bytes": 457,
+      "when": [
+        "remove",
+        "false",
+        "containers"
+      ]
+    },
+    {
+      "name": "3. Assign material layers",
+      "bytes": 469,
+      "when": [
+        "assign",
+        "material",
+        "layers"
+      ]
+    },
+    {
+      "name": "4. Inspect the exact Figma node",
+      "bytes": 971,
+      "when": [
+        "inspect",
+        "exact",
+        "figma",
+        "node"
+      ]
+    },
+    {
+      "name": "5. Build with native patterns",
+      "bytes": 645,
+      "when": [
+        "build",
+        "native",
+        "patterns"
+      ]
+    },
+    {
+      "name": "6. Verify live behavior",
+      "bytes": 591,
+      "when": [
+        "verify",
+        "live",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Golden Gate pass/fail gate",
+      "bytes": 1026,
+      "when": [
+        "golden",
+        "gate",
+        "pass",
+        "fail"
+      ]
+    },
+    {
+      "name": "Output format",
+      "bytes": 507,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 344,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\macos-golden-gate-design\\SKILL.md"
+}

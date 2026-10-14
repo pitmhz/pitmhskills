@@ -1,0 +1,194 @@
+{
+  "id": "awesome-copilot__system-commandline-cli",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "579c731ea7a7c948bea8d4ad9eef8d65a94e9f260401d7028ffdd4193372e250",
+  "purpose": "Use this skill when adding, modifying, or reviewing CLI commands in a .NET project built with System.CommandLine. Triggers include: creating a new CLI command, adding options or arguments, wiring comm",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when adding, modifying, or reviewing CLI commands in a .NET project built with System.CommandLine. Triggers include: creating a new CLI command, "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2635,
+  "core_bytes": 10638,
+  "sections": [
+    {
+      "name": "Architecture Overview",
+      "bytes": 620,
+      "when": [
+        "architecture",
+        "overview"
+      ]
+    },
+    {
+      "name": "RULE 1 — Prefer a Project-Specific Command Base Class",
+      "bytes": 1076,
+      "when": [
+        "rule",
+        "prefer",
+        "project",
+        "specific",
+        "command",
+        "base",
+        "class"
+      ]
+    },
+    {
+      "name": "RULE 2 — Options and Arguments",
+      "bytes": 764,
+      "when": [
+        "rule",
+        "options",
+        "arguments"
+      ]
+    },
+    {
+      "name": "Defining Options",
+      "bytes": 335,
+      "when": [
+        "defining",
+        "options"
+      ]
+    },
+    {
+      "name": "Defining Arguments (positional)",
+      "bytes": 249,
+      "when": [
+        "defining",
+        "arguments",
+        "positional"
+      ]
+    },
+    {
+      "name": "Reading Values in Handlers",
+      "bytes": 143,
+      "when": [
+        "reading",
+        "values",
+        "handlers"
+      ]
+    },
+    {
+      "name": "RULE 3 — Command Handler Pattern",
+      "bytes": 515,
+      "when": [
+        "rule",
+        "command",
+        "handler",
+        "pattern"
+      ]
+    },
+    {
+      "name": "RULE 4 — Command Group (Parent with Subcommands)",
+      "bytes": 571,
+      "when": [
+        "rule",
+        "command",
+        "group",
+        "parent",
+        "subcommands"
+      ]
+    },
+    {
+      "name": "RULE 5 — Registration",
+      "bytes": 300,
+      "when": [
+        "rule",
+        "registration"
+      ]
+    },
+    {
+      "name": "RULE 6 — User Confirmation for Destructive Operations",
+      "bytes": 352,
+      "when": [
+        "rule",
+        "user",
+        "confirmation",
+        "destructive",
+        "operations"
+      ]
+    },
+    {
+      "name": "RULE 7 — Command Logic",
+      "bytes": 540,
+      "when": [
+        "rule",
+        "command",
+        "logic"
+      ]
+    },
+    {
+      "name": "RULE 8 — Dependency Injection",
+      "bytes": 360,
+      "when": [
+        "rule",
+        "dependency",
+        "injection"
+      ]
+    },
+    {
+      "name": "RULE 9 — Naming Conventions",
+      "bytes": 642,
+      "when": [
+        "rule",
+        "naming",
+        "conventions"
+      ]
+    },
+    {
+      "name": "RULE 10 — Visibility",
+      "bytes": 71,
+      "when": [
+        "rule",
+        "visibility"
+      ]
+    },
+    {
+      "name": "RULE 11 — Global Options and Validation",
+      "bytes": 3197,
+      "when": [
+        "rule",
+        "global",
+        "options",
+        "validation"
+      ]
+    },
+    {
+      "name": "Using Global Options in a Command",
+      "bytes": 2578,
+      "when": [
+        "global",
+        "options",
+        "command"
+      ]
+    },
+    {
+      "name": "RULE 12 — Checklist for New Commands",
+      "bytes": 656,
+      "when": [
+        "rule",
+        "checklist",
+        "commands"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\system-commandline-cli\\SKILL.md"
+}

@@ -29,7 +29,50 @@
   "conflicts_with": [],
   "body_tokens": 1402,
   "core_bytes": 5605,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/aspnet-core/SKILL.md"
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 288,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1477,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Default Operating Assumptions",
+      "bytes": 925,
+      "when": [
+        "default",
+        "operating",
+        "assumptions"
+      ]
+    },
+    {
+      "name": "Reference Guide",
+      "bytes": 2053,
+      "when": [
+        "reference",
+        "guide"
+      ]
+    },
+    {
+      "name": "Execution Notes",
+      "bytes": 422,
+      "when": [
+        "execution",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/aspnet-core/SKILL.md",
+  "curated": true
 }

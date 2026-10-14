@@ -1,0 +1,183 @@
+{
+  "id": "flornkm-skills__webgl-components",
+  "tier": "B",
+  "origin": [
+    "flornkm/skills@cf1c0094e1826230623ecdb6e7b3c44bdfc593c3"
+  ],
+  "license": "MIT",
+  "hash": "3114cd1447a03537677a52ddb4108616d5ce8ad052db7557cdda6dcf98b24264",
+  "purpose": "Build small, always-on WebGL visuals (identity avatars, ambient orbs, glass and iridescent surfaces, animated textures) that ship inside a normal web app UI without wrecking performance, accessibility",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build small, always-on WebGL visuals (identity avatars, ambient orbs, glass and iridescent surfaces, animated textures) that ship inside a normal web app UI wit"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Decorative WebGL elements in product UI -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "decorative shader canvas orb ambient",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4747,
+  "core_bytes": 19030,
+  "sections": [
+    {
+      "name": "Architecture: one context, many instances",
+      "bytes": 1084,
+      "when": [
+        "architecture",
+        "context",
+        "instances"
+      ]
+    },
+    {
+      "name": "Frame loop discipline",
+      "bytes": 812,
+      "when": [
+        "frame",
+        "loop",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Cost lives in the fragment shader times area",
+      "bytes": 1275,
+      "when": [
+        "cost",
+        "lives",
+        "fragment",
+        "shader",
+        "times",
+        "area"
+      ]
+    },
+    {
+      "name": "Prefer real optics to painted ones",
+      "bytes": 3866,
+      "when": [
+        "prefer",
+        "real",
+        "optics",
+        "painted",
+        "ones"
+      ]
+    },
+    {
+      "name": "Transparency: what the shader can and cannot reach",
+      "bytes": 1196,
+      "when": [
+        "transparency",
+        "shader",
+        "cannot",
+        "reach"
+      ]
+    },
+    {
+      "name": "Resolution: let the shader cost decide",
+      "bytes": 656,
+      "when": [
+        "resolution",
+        "shader",
+        "cost",
+        "decide"
+      ]
+    },
+    {
+      "name": "Texture cache and GPU memory",
+      "bytes": 505,
+      "when": [
+        "texture",
+        "cache",
+        "memory"
+      ]
+    },
+    {
+      "name": "Image sources",
+      "bytes": 539,
+      "when": [
+        "image",
+        "sources"
+      ]
+    },
+    {
+      "name": "Robustness",
+      "bytes": 793,
+      "when": [
+        "robustness"
+      ]
+    },
+    {
+      "name": "The fallback is a production surface, not an edge case",
+      "bytes": 2755,
+      "when": [
+        "fallback",
+        "production",
+        "surface",
+        "edge",
+        "case"
+      ]
+    },
+    {
+      "name": "React and SSR integration",
+      "bytes": 1403,
+      "when": [
+        "react",
+        "integration"
+      ]
+    },
+    {
+      "name": "Accessibility and layout",
+      "bytes": 696,
+      "when": [
+        "accessibility",
+        "layout"
+      ]
+    },
+    {
+      "name": "Identity and determinism",
+      "bytes": 574,
+      "when": [
+        "identity",
+        "determinism"
+      ]
+    },
+    {
+      "name": "Verifying without eyeballs",
+      "bytes": 1980,
+      "when": [
+        "verifying",
+        "eyeballs"
+      ]
+    }
+  ],
+  "keywords": [
+    "components",
+    "architecture",
+    "context",
+    "instances",
+    "frame",
+    "loop",
+    "discipline",
+    "cost",
+    "lives",
+    "fragment",
+    "area",
+    "prefer",
+    "real",
+    "optics",
+    "painted",
+    "ones"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\flornkm-skills\\skills\\webgl-components\\SKILL.md"
+}

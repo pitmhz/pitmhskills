@@ -27,10 +27,29 @@
   "conflicts_with": [],
   "body_tokens": 680,
   "core_bytes": 2736,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Portable Text Specification",
+      "bytes": 1097,
+      "when": [
+        "portable",
+        "text",
+        "specification"
+      ]
+    },
+    {
+      "name": "Conversion Rules",
+      "bytes": 568,
+      "when": [
+        "conversion",
+        "rules"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\portable-text-conversion\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\portable-text-conversion\\SKILL.md",
+  "curated": true
 }

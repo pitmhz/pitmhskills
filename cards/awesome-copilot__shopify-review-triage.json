@@ -1,0 +1,224 @@
+{
+  "id": "awesome-copilot__shopify-review-triage",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c5d61f0aa670ae5aae76dd4d79396015519158cc7fa13d55f3b6ddce13b8dade",
+  "purpose": "Use this skill when someone wants public Shopify App Store reviews, low-star reviews, or merchant feedback triaged, prioritized, clustered, or turned into a product or support brief. Trigger for promp",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when someone wants public Shopify App Store reviews, low-star reviews, or merchant feedback triaged, prioritized, clustered, or turned into a pro"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4160,
+  "core_bytes": 16644,
+  "sections": [
+    {
+      "name": "What this does",
+      "bytes": 735,
+      "when": []
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 1711,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "1. Collect the rows",
+      "bytes": 1044,
+      "when": [
+        "collect",
+        "rows"
+      ]
+    },
+    {
+      "name": "2. First pass - apply the rubric",
+      "bytes": 4079,
+      "when": [
+        "first",
+        "pass",
+        "apply",
+        "rubric"
+      ]
+    },
+    {
+      "name": "P0 - Incident risk",
+      "bytes": 585,
+      "when": [
+        "incident",
+        "risk"
+      ]
+    },
+    {
+      "name": "P1 - Repeated friction",
+      "bytes": 553,
+      "when": [
+        "repeated",
+        "friction"
+      ]
+    },
+    {
+      "name": "P2 - Pricing confusion",
+      "bytes": 518,
+      "when": [
+        "pricing",
+        "confusion"
+      ]
+    },
+    {
+      "name": "P3 - Feature request",
+      "bytes": 510,
+      "when": [
+        "feature",
+        "request"
+      ]
+    },
+    {
+      "name": "Needs human read",
+      "bytes": 430,
+      "when": [
+        "needs",
+        "human",
+        "read"
+      ]
+    },
+    {
+      "name": "Tie-breaks and escalation",
+      "bytes": 877,
+      "when": [
+        "breaks",
+        "escalation"
+      ]
+    },
+    {
+      "name": "3. Human pass - verify before you promote anything",
+      "bytes": 927,
+      "when": [
+        "human",
+        "pass",
+        "verify",
+        "before",
+        "promote",
+        "anything"
+      ]
+    },
+    {
+      "name": "4. Write the brief",
+      "bytes": 606,
+      "when": [
+        "write",
+        "brief"
+      ]
+    },
+    {
+      "name": "P0 - Incident risk",
+      "bytes": 352,
+      "when": [
+        "incident",
+        "risk"
+      ]
+    },
+    {
+      "name": "P1 - Repeated friction",
+      "bytes": 249,
+      "when": [
+        "repeated",
+        "friction"
+      ]
+    },
+    {
+      "name": "P2 - Pricing confusion",
+      "bytes": 270,
+      "when": [
+        "pricing",
+        "confusion"
+      ]
+    },
+    {
+      "name": "P3 - Feature requests",
+      "bytes": 168,
+      "when": [
+        "feature",
+        "requests"
+      ]
+    },
+    {
+      "name": "Needs human read",
+      "bytes": 143,
+      "when": [
+        "needs",
+        "human",
+        "read"
+      ]
+    },
+    {
+      "name": "Competitor watch",
+      "bytes": 108,
+      "when": [
+        "competitor",
+        "watch"
+      ]
+    },
+    {
+      "name": "Decisions this week",
+      "bytes": 296,
+      "when": [
+        "decisions",
+        "week"
+      ]
+    },
+    {
+      "name": "5. Self-check before you hand it over",
+      "bytes": 854,
+      "when": [
+        "self",
+        "check",
+        "before",
+        "hand"
+      ]
+    },
+    {
+      "name": "Worked example",
+      "bytes": 1739,
+      "when": [
+        "worked",
+        "example"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1527,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Provenance",
+      "bytes": 451,
+      "when": [
+        "provenance"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\shopify-review-triage\\SKILL.md"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "awesome-copilot__agentic-workflows",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "7f2f49837005bedf6036e88a3b14101d83398d2f6de66d588d9411674e66f1f1",
+  "purpose": "Route gh-aw workflow design/create/debug/upgrade requests to the right prompts.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Route gh-aw workflow design/create/debug/upgrade requests to the right prompts."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1228,
+  "core_bytes": 4910,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\.github\\skills\\agentic-workflows\\SKILL.md"
+}

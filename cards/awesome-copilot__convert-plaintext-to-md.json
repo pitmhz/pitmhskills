@@ -1,0 +1,123 @@
+{
+  "id": "awesome-copilot__convert-plaintext-to-md",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e349f990ac578a6c68336c3d248b071bd70b0089de2d5db5cf805a440e7af587",
+  "purpose": "Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2849,
+  "core_bytes": 11400,
+  "sections": [
+    {
+      "name": "Current Role",
+      "bytes": 169,
+      "when": [
+        "current",
+        "role"
+      ]
+    },
+    {
+      "name": "Conversion Methods",
+      "bytes": 466,
+      "when": [
+        "conversion",
+        "methods"
+      ]
+    },
+    {
+      "name": "When Using a Reference File",
+      "bytes": 400,
+      "when": [
+        "reference",
+        "file"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 8696,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Parameters",
+      "bytes": 1375,
+      "when": [
+        "parameters"
+      ]
+    },
+    {
+      "name": "Options",
+      "bytes": 1521,
+      "when": [
+        "options"
+      ]
+    },
+    {
+      "name": "Predefined Instructions",
+      "bytes": 909,
+      "when": [
+        "predefined",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Usage Example",
+      "bytes": 4372,
+      "when": [
+        "usage",
+        "example"
+      ]
+    },
+    {
+      "name": "Considerations",
+      "bytes": 572,
+      "when": [
+        "considerations"
+      ]
+    },
+    {
+      "name": "Patterns",
+      "bytes": 553,
+      "when": [
+        "patterns"
+      ]
+    },
+    {
+      "name": "Goal",
+      "bytes": 840,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Reference",
+      "bytes": 463,
+      "when": [
+        "reference"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\convert-plaintext-to-md\\SKILL.md"
+}

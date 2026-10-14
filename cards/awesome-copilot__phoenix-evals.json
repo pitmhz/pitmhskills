@@ -1,0 +1,65 @@
+{
+  "id": "awesome-copilot__phoenix-evals",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "24bc7b6bcb6da8bdd66c0e5c373572e63e1864ecbb99796f046a18e94d03b83c",
+  "purpose": "Build and run evaluators for AI/LLM applications using Phoenix.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Build and run evaluators for AI/LLM applications using Phoenix."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1148,
+  "core_bytes": 4611,
+  "sections": [
+    {
+      "name": "Quick Reference",
+      "bytes": 2568,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Workflows",
+      "bytes": 821,
+      "when": [
+        "workflows"
+      ]
+    },
+    {
+      "name": "Reference Categories",
+      "bytes": 461,
+      "when": [
+        "reference",
+        "categories"
+      ]
+    },
+    {
+      "name": "Key Principles",
+      "bytes": 299,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\phoenix-evals\\SKILL.md"
+}

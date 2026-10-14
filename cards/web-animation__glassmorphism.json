@@ -1,0 +1,141 @@
+{
+  "id": "web-animation__glassmorphism",
+  "tier": "B",
+  "origin": [
+    "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
+  ],
+  "license": "MIT",
+  "hash": "0b2dd39303736f0d592825882fd08fbe16687efe41c3f924e12d0e8a01b987f0",
+  "purpose": "This skill should be used when the user asks to \"add a glassmorphism effect\", \"frosted glass UI\", \"Apple liquid glass style\", \"frosted blur card\", \"translucent glass panel animation\", \"make a frosted ",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "This skill should be used when the user asks to \"add a glassmorphism effect\", \"frosted glass UI\", \"Apple liquid glass style\", \"frosted blur card\", \"translucent "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Glassmorphism / frosted glass -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "glassmorphism frosted liquid",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2939,
+  "core_bytes": 11845,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 467,
+      "when": []
+    },
+    {
+      "name": "The four ingredients of believable glass",
+      "bytes": 1516,
+      "when": [
+        "four",
+        "ingredients",
+        "believable",
+        "glass"
+      ]
+    },
+    {
+      "name": "Specular edge highlight and anti-banding grain",
+      "bytes": 375,
+      "when": [
+        "specular",
+        "edge",
+        "highlight",
+        "anti",
+        "banding",
+        "grain"
+      ]
+    },
+    {
+      "name": "Motion: animate the glass, not the geometry",
+      "bytes": 1108,
+      "when": [
+        "motion",
+        "animate",
+        "glass",
+        "geometry"
+      ]
+    },
+    {
+      "name": "Liquid glass — SVG refraction (the 2026 look)",
+      "bytes": 1015,
+      "when": [
+        "liquid",
+        "glass",
+        "refraction",
+        "2026",
+        "look"
+      ]
+    },
+    {
+      "name": "Performance — backdrop-filter is expensive",
+      "bytes": 514,
+      "when": [
+        "performance",
+        "backdrop",
+        "filter",
+        "expensive"
+      ]
+    },
+    {
+      "name": "Accessibility — non-negotiable",
+      "bytes": 928,
+      "when": [
+        "accessibility",
+        "negotiable"
+      ]
+    },
+    {
+      "name": "Deliver & verify (standalone HTML)",
+      "bytes": 3668,
+      "when": [
+        "deliver",
+        "verify",
+        "standalone",
+        "html"
+      ]
+    },
+    {
+      "name": "Quick reference",
+      "bytes": 861,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Reference files",
+      "bytes": 428,
+      "when": [
+        "reference",
+        "files"
+      ]
+    }
+  ],
+  "keywords": [
+    "four",
+    "ingredients",
+    "believable",
+    "highlight",
+    "anti",
+    "banding",
+    "grain",
+    "geometry",
+    "2026",
+    "look",
+    "performance",
+    "expensive"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\glassmorphism\\SKILL.md"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "uiskills-staged__bolder",
+  "tier": "B",
+  "origin": [
+    "local@bolder"
+  ],
+  "license": "Apache-2.0",
+  "hash": "05cd72b3c227ac824fea66a7420d0ebd117b87c20edf8652f2588932f35d6e40",
+  "purpose": "An open direction round owns the word first: \"bolder\" said while a direction decision is on the table is the Bolder hand register steer, a fresh deal of foreign forms (see new-work.md), not this comma",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "An open direction round owns the word first: \"bolder\" said while a direction decision is on the table is the Bolder hand register steer, a fresh deal of foreign",
+    "Pushing a safe bland interface bolder without rebuilding what already shipped"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Push a bland interface bolder -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "bolder bland safe personality impact",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 873,
+  "core_bytes": 3490,
+  "sections": [
+    {
+      "name": "Scope is sovereign",
+      "bytes": 435,
+      "when": [
+        "scope",
+        "sovereign"
+      ]
+    },
+    {
+      "name": "Why it reads flat",
+      "bytes": 542,
+      "when": [
+        "reads",
+        "flat"
+      ]
+    },
+    {
+      "name": "The amplification",
+      "bytes": 802,
+      "when": [
+        "amplification"
+      ]
+    },
+    {
+      "name": "The skeleton test",
+      "bytes": 491,
+      "when": [
+        "skeleton",
+        "test"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 469,
+      "when": [
+        "before",
+        "finish"
+      ]
+    }
+  ],
+  "keywords": [
+    "scope",
+    "sovereign",
+    "reads",
+    "flat",
+    "amplification",
+    "skeleton",
+    "test",
+    "before",
+    "finish"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\bolder\\SKILL.md",
+  "curated": true
+}

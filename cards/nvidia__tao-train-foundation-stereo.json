@@ -1,0 +1,157 @@
+{
+  "id": "nvidia__tao-train-foundation-stereo",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "982391cb1b1364c578f6e03dc558c521a5c302cd19905e93cc3bc4737d14e83f",
+  "purpose": "Stereo depth estimation using FoundationStereo. Predicts disparity maps from stereo image pairs for 3D",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Stereo depth estimation using FoundationStereo. Predicts disparity maps from stereo image pairs for 3D"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3288,
+  "core_bytes": 13177,
+  "sections": [
+    {
+      "name": "Train Action Policy",
+      "bytes": 1271,
+      "when": [
+        "train",
+        "action",
+        "policy"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 7497,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Prerequisites — data accessibility",
+      "bytes": 639,
+      "when": [
+        "prerequisites",
+        "data",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Step 1 — Annotation file",
+      "bytes": 1747,
+      "when": [
+        "step",
+        "annotation",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 2 — Pair `model_type` and `dataset_name` based on your data",
+      "bytes": 1671,
+      "when": [
+        "step",
+        "pair",
+        "model",
+        "type",
+        "dataset",
+        "name",
+        "based",
+        "data"
+      ]
+    },
+    {
+      "name": "Step 3 — Write spec yaml from the spec overrides",
+      "bytes": 1622,
+      "when": [
+        "step",
+        "write",
+        "spec",
+        "yaml",
+        "overrides"
+      ]
+    },
+    {
+      "name": "Step 4 — Run",
+      "bytes": 1042,
+      "when": [
+        "step"
+      ]
+    },
+    {
+      "name": "Step 5 — Verify",
+      "bytes": 761,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Training Requirements",
+      "bytes": 1208,
+      "when": [
+        "training",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Parameters, Metrics, Multi-GPU, Export/TRT, Hardware",
+      "bytes": 510,
+      "when": [
+        "parameters",
+        "metrics",
+        "multi",
+        "export",
+        "hardware"
+      ]
+    },
+    {
+      "name": "Error Patterns and Troubleshooting",
+      "bytes": 367,
+      "when": [
+        "error",
+        "patterns",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Spec Param / Parent Model Inference",
+      "bytes": 405,
+      "when": [
+        "spec",
+        "param",
+        "parent",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "bytes": 95,
+      "when": [
+        "deployment"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-foundation-stereo/SKILL.md",
+  "curated": true
+}

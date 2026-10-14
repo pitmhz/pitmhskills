@@ -1,0 +1,299 @@
+{
+  "id": "awesome-copilot__generate-custom-instructions-from-codebase",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "b0be02c9acdbffae5a1e39509c3e24567696cba666d666cece24ded66afa885b",
+  "purpose": "Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project versions (branches, commits, or releases) to create precise instructions allowing Copil",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project versions (branches, commits, or releases) to cr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2166,
+  "core_bytes": 8670,
+  "sections": [
+    {
+      "name": "Configuration Variables",
+      "bytes": 870,
+      "when": [
+        "configuration",
+        "variables"
+      ]
+    },
+    {
+      "name": "Generated Prompt",
+      "bytes": 1683,
+      "when": [
+        "generated",
+        "prompt"
+      ]
+    },
+    {
+      "name": "Phase 1: Comparative State Analysis",
+      "bytes": 1211,
+      "when": [
+        "phase",
+        "comparative",
+        "state",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Phase 2: Migration Instructions Generation",
+      "bytes": 184,
+      "when": [
+        "phase",
+        "migration",
+        "instructions",
+        "generation"
+      ]
+    },
+    {
+      "name": "Migration Context",
+      "bytes": 176,
+      "when": [
+        "migration",
+        "context"
+      ]
+    },
+    {
+      "name": "Automatic Transformation Rules",
+      "bytes": 1329,
+      "when": [
+        "automatic",
+        "transformation",
+        "rules"
+      ]
+    },
+    {
+      "name": "1. Mandatory Transformations",
+      "bytes": 284,
+      "when": [
+        "mandatory",
+        "transformations"
+      ]
+    },
+    {
+      "name": "2. Transformations with Validation",
+      "bytes": 307,
+      "when": [
+        "transformations",
+        "validation"
+      ]
+    },
+    {
+      "name": "3. API Correspondences",
+      "bytes": 318,
+      "when": [
+        "correspondences"
+      ]
+    },
+    {
+      "name": "4. New Patterns to Adopt",
+      "bytes": 187,
+      "when": [
+        "patterns",
+        "adopt"
+      ]
+    },
+    {
+      "name": "5. Obsolete Patterns to Avoid",
+      "bytes": 198,
+      "when": [
+        "obsolete",
+        "patterns",
+        "avoid"
+      ]
+    },
+    {
+      "name": "File Type Specific Instructions",
+      "bytes": 261,
+      "when": [
+        "file",
+        "type",
+        "specific",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Validation and Security",
+      "bytes": 349,
+      "when": [
+        "validation",
+        "security"
+      ]
+    },
+    {
+      "name": "Automatic Control Points",
+      "bytes": 185,
+      "when": [
+        "automatic",
+        "control",
+        "points"
+      ]
+    },
+    {
+      "name": "Manual Escalation",
+      "bytes": 136,
+      "when": [
+        "manual",
+        "escalation"
+      ]
+    },
+    {
+      "name": "Migration Monitoring",
+      "bytes": 1848,
+      "when": [
+        "migration",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "Tracking Metrics",
+      "bytes": 182,
+      "when": [
+        "tracking",
+        "metrics"
+      ]
+    },
+    {
+      "name": "Error Reporting",
+      "bytes": 181,
+      "when": [
+        "error",
+        "reporting"
+      ]
+    },
+    {
+      "name": "Phase 3: Contextual Examples Generation",
+      "bytes": 434,
+      "when": [
+        "phase",
+        "contextual",
+        "examples",
+        "generation"
+      ]
+    },
+    {
+      "name": "Phase 4: Validation and Optimization",
+      "bytes": 433,
+      "when": [
+        "phase",
+        "validation",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Final Result",
+      "bytes": 593,
+      "when": [
+        "final",
+        "result"
+      ]
+    },
+    {
+      "name": "Typical Use Cases",
+      "bytes": 904,
+      "when": [
+        "typical",
+        "cases"
+      ]
+    },
+    {
+      "name": "Framework Version Migration",
+      "bytes": 260,
+      "when": [
+        "framework",
+        "version",
+        "migration"
+      ]
+    },
+    {
+      "name": "Technology Stack Evolution",
+      "bytes": 193,
+      "when": [
+        "technology",
+        "stack",
+        "evolution"
+      ]
+    },
+    {
+      "name": "Architecture Refactoring",
+      "bytes": 229,
+      "when": [
+        "architecture",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "Design Pattern Modernization",
+      "bytes": 200,
+      "when": [
+        "design",
+        "pattern",
+        "modernization"
+      ]
+    },
+    {
+      "name": "Unique Benefits",
+      "bytes": 815,
+      "when": [
+        "unique",
+        "benefits"
+      ]
+    },
+    {
+      "name": "🧠 **Artificial Intelligence Enhancement**",
+      "bytes": 233,
+      "when": [
+        "artificial",
+        "intelligence",
+        "enhancement"
+      ]
+    },
+    {
+      "name": "🔄 **Knowledge Capitalization**",
+      "bytes": 191,
+      "when": [
+        "knowledge",
+        "capitalization"
+      ]
+    },
+    {
+      "name": "🎯 **Context-Aware Precision**",
+      "bytes": 185,
+      "when": [
+        "context",
+        "aware",
+        "precision"
+      ]
+    },
+    {
+      "name": "⚡ **Automated Consistency**",
+      "bytes": 186,
+      "when": [
+        "automated",
+        "consistency"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\generate-custom-instructions-from-codebase\\SKILL.md"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "awesome-copilot__desk-open",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6a121626c42f18a50a4e0c232901b979ef0ffc02c552feffb3af360326f76e7d",
+  "purpose": "Create and open a new desk in the workshop. Sets up the folder structure, initial journal, and desk identity so the next session that sits down finds the trail.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Create and open a new desk in the workshop. Sets up the folder structure, initial journal, and desk identity so the next session that sits down finds the trail."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 757,
+  "core_bytes": 3042,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 184,
+      "when": []
+    },
+    {
+      "name": "What it creates",
+      "bytes": 252,
+      "when": [
+        "creates"
+      ]
+    },
+    {
+      "name": "How to use",
+      "bytes": 994,
+      "when": []
+    },
+    {
+      "name": "Session orientation",
+      "bytes": 691,
+      "when": [
+        "session",
+        "orientation"
+      ]
+    },
+    {
+      "name": "Journal format",
+      "bytes": 58,
+      "when": [
+        "journal",
+        "format"
+      ]
+    },
+    {
+      "name": "<date> — Desk opened",
+      "bytes": 180,
+      "when": [
+        "date",
+        "desk",
+        "opened"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 403,
+      "when": [
+        "principles"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\desk-open\\SKILL.md"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "awesome-copilot__java-refactoring-remove-parameter",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "40860d758c5a9ce679f4226d6d0c6bd8e6f220157bb2609fa111d2dbaee08c32",
+  "purpose": "Refactoring using Remove Parameter in Java Language",
+  "domain": "general",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Refactoring using Remove Parameter in Java Language"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 738,
+  "core_bytes": 2952,
+  "sections": [
+    {
+      "name": "Role",
+      "bytes": 174,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Code Before Refactoring 1:",
+      "bytes": 730,
+      "when": [
+        "code",
+        "before",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "Code After Refactoring 1:",
+      "bytes": 694,
+      "when": [
+        "code",
+        "after",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "Code Before Refactoring 2:",
+      "bytes": 122,
+      "when": [
+        "code",
+        "before",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "Code After Refactoring 2:",
+      "bytes": 89,
+      "when": [
+        "code",
+        "after",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "Task",
+      "bytes": 858,
+      "when": [
+        "task"
+      ]
+    },
+    {
+      "name": "Code to be Refactored:",
+      "bytes": 119,
+      "when": [
+        "code",
+        "refactored"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\java-refactoring-remove-parameter\\SKILL.md"
+}

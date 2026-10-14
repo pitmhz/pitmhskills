@@ -1,0 +1,62 @@
+{
+  "id": "mengto-skills__create-game-vfx",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "1ed9ee167cf2f9ac966784e00893f48593d42e57e285aa0a1ca8cbe4bc794e17",
+  "purpose": "Create readable, performance-safe Three.js game visual effects. Use for attacks, impacts, damage feedback, status effects, spell trails, particles, shaders, telegraphs, quality tiers, and reduced-moti",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create readable, performance-safe Three.js game visual effects. Use for attacks, impacts, damage feedback, status effects, spell trails, particles, shaders, tel"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 275,
+  "core_bytes": 1098,
+  "sections": [
+    {
+      "name": "Specify",
+      "bytes": 263,
+      "when": [
+        "specify"
+      ]
+    },
+    {
+      "name": "Implement safely",
+      "bytes": 266,
+      "when": [
+        "implement",
+        "safely"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 220,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "specify",
+    "implement",
+    "safely",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\create-game-vfx\\SKILL.md"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "awesome-copilot__az-cost-optimize",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d27f8311b57d02dedd48a0d563be0964dc458578e4de51b4730516b4e8083829",
+  "purpose": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3218,
+  "core_bytes": 12974,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 289,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Workflow Steps",
+      "bytes": 11104,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 1: Get Azure Best Practices",
+      "bytes": 567,
+      "when": [
+        "step",
+        "azure",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Step 2: Discover Azure Infrastructure",
+      "bytes": 2005,
+      "when": [
+        "step",
+        "discover",
+        "azure",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "Step 3: Collect Usage Metrics & Validate Current Costs",
+      "bytes": 1752,
+      "when": [
+        "step",
+        "collect",
+        "usage",
+        "metrics",
+        "validate",
+        "current",
+        "costs"
+      ]
+    },
+    {
+      "name": "Step 4: Generate Cost Optimization Recommendations",
+      "bytes": 1698,
+      "when": [
+        "step",
+        "generate",
+        "cost",
+        "optimization",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "Step 5: User Confirmation",
+      "bytes": 1054,
+      "when": [
+        "step",
+        "user",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Step 6: Create Individual Optimization Issues",
+      "bytes": 1903,
+      "when": [
+        "step",
+        "create",
+        "individual",
+        "optimization",
+        "issues"
+      ]
+    },
+    {
+      "name": "Step 7: Create EPIC Coordinating Issue",
+      "bytes": 2106,
+      "when": [
+        "step",
+        "create",
+        "epic",
+        "coordinating",
+        "issue"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 526,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 510,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\az-cost-optimize\\SKILL.md"
+}

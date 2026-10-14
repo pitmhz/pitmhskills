@@ -1,0 +1,141 @@
+{
+  "id": "nvidia__vss-deploy-detection-tracking-2d",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "06f251b5f129c4b263c22512b1fc9c11430ada41044fb94d0ed2b56a5afa4f09",
+  "purpose": "Use this skill when the user wants to deploy, run, debug, tear down, or call the REST API of the RTVI-CV 2D detection / tracking microservice. Trigger when the user says things like deploy rtvi-cv, st",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when the user wants to deploy, run, debug, tear down, or call the REST API of the RTVI-CV 2D detection / tracking microservice. Trigger when the "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4556,
+  "core_bytes": 19742,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 117,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 254,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 350,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 269,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 337,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1542,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Action routing — pick once per invocation",
+      "bytes": 1872,
+      "when": [
+        "action",
+        "routing",
+        "pick",
+        "once",
+        "invocation"
+      ]
+    },
+    {
+      "name": "What lives where",
+      "bytes": 900,
+      "when": [
+        "lives",
+        "where"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 1711,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "How to use this skill",
+      "bytes": 1055,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Output contract — DEPLOY flow",
+      "bytes": 6224,
+      "when": [
+        "output",
+        "contract",
+        "deploy",
+        "flow"
+      ]
+    },
+    {
+      "name": "Universal box format",
+      "bytes": 3853,
+      "when": [
+        "universal",
+        "format"
+      ]
+    },
+    {
+      "name": "Quick triggers (mnemonic)",
+      "bytes": 522,
+      "when": [
+        "quick",
+        "triggers",
+        "mnemonic"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/vss-deploy-detection-tracking-2d/SKILL.md",
+  "curated": true
+}

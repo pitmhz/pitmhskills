@@ -1,0 +1,160 @@
+{
+  "id": "nvidia__jetson-init-source",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e773329736accb80f6df97eeb07c5f6d0646570d8a4f7f972c2d16c58a49a6e1",
+  "purpose": "Set up the BSP source workspace: Linux_for_Tegra overlay tracker, bsp_sources, Crosstool-NG toolchain. Use after jetson-init-image; not for fetching inputs.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Set up the BSP source workspace: Linux_for_Tegra overlay tracker, bsp_sources, Crosstool-NG toolchain. Use after jetson-init-image; not for fetching inputs."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4355,
+  "core_bytes": 17484,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 827,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 289,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 11974,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Quick-start prefill mapping",
+      "bytes": 757,
+      "when": [
+        "quick",
+        "start",
+        "prefill",
+        "mapping"
+      ]
+    },
+    {
+      "name": "Resolve the active target + paths",
+      "bytes": 1695,
+      "when": [
+        "resolve",
+        "active",
+        "target",
+        "paths"
+      ]
+    },
+    {
+      "name": "Materialize `Linux_for_Tegra`",
+      "bytes": 848,
+      "when": [
+        "materialize",
+        "linux",
+        "tegra"
+      ]
+    },
+    {
+      "name": "Materialize the BSP-sources baseline",
+      "bytes": 4236,
+      "when": [
+        "materialize",
+        "sources",
+        "baseline"
+      ]
+    },
+    {
+      "name": "Resolve cross-compile toolchain",
+      "bytes": 3249,
+      "when": [
+        "resolve",
+        "cross",
+        "compile",
+        "toolchain"
+      ]
+    },
+    {
+      "name": "Clone extra user-defined repos",
+      "bytes": 503,
+      "when": [
+        "clone",
+        "extra",
+        "user",
+        "defined",
+        "repos"
+      ]
+    },
+    {
+      "name": "Summary",
+      "bytes": 670,
+      "when": [
+        "summary"
+      ]
+    },
+    {
+      "name": "Gotchas",
+      "bytes": 1804,
+      "when": [
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 403,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 379,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 668,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 685,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\jetson-init-source\\SKILL.md",
+  "curated": true
+}

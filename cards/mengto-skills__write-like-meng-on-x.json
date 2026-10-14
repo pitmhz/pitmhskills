@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__write-like-meng-on-x",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "a69d5f88bbfb2e0ce457cbb31438809e24e008fdf3073b1bc4becdaf4e174485",
+  "purpose": "Write, rewrite, review, or continuously refine X/Twitter posts in Meng To's current voice using his deduplicated authored-post corpus, personal and product context, shared resources, and Content repo ",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Write, rewrite, review, or continuously refine X/Twitter posts in Meng To's current voice using his deduplicated authored-post corpus, personal and product cont"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1998,
+  "core_bytes": 7989,
+  "sections": [
+    {
+      "name": "Start",
+      "bytes": 1091,
+      "when": [
+        "start"
+      ]
+    },
+    {
+      "name": "Draft",
+      "bytes": 2095,
+      "when": [
+        "draft"
+      ]
+    },
+    {
+      "name": "Prevent Repetition",
+      "bytes": 898,
+      "when": [
+        "prevent",
+        "repetition"
+      ]
+    },
+    {
+      "name": "Corpus duplication",
+      "bytes": 323,
+      "when": [
+        "corpus",
+        "duplication"
+      ]
+    },
+    {
+      "name": "Editorial duplication",
+      "bytes": 497,
+      "when": [
+        "editorial",
+        "duplication"
+      ]
+    },
+    {
+      "name": "Refresh The Voice Corpus",
+      "bytes": 1886,
+      "when": [
+        "refresh",
+        "voice",
+        "corpus"
+      ]
+    },
+    {
+      "name": "Hone The Profile",
+      "bytes": 821,
+      "when": [
+        "hone",
+        "profile"
+      ]
+    },
+    {
+      "name": "Validate And Commit",
+      "bytes": 624,
+      "when": [
+        "validate",
+        "commit"
+      ]
+    }
+  ],
+  "keywords": [
+    "start",
+    "prevent",
+    "repetition",
+    "duplication",
+    "editorial",
+    "refresh",
+    "validate",
+    "commit"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\write-like-meng-on-x\\SKILL.md"
+}

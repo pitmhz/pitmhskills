@@ -1,0 +1,397 @@
+{
+  "id": "awesome-copilot__ad-campaign-analyzer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "18e64d4c41c70e762c802b5a5453fab41372432ccfcbcd1f06a29c75913031a4",
+  "purpose": "Use this skill when the user shares ad campaign performance data and asks what to cut, scale, or test. Trigger for prompts like \"analyze my ad campaigns\", \"where am I wasting ad spend\", \"reallocate my",
+  "domain": "general",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Use this skill when the user shares ad campaign performance data and asks what to cut, scale, or test. Trigger for prompts like \"analyze my ad campaigns\", \"wher"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3456,
+  "core_bytes": 13907,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 395,
+      "when": []
+    },
+    {
+      "name": "Phase 0: Intake",
+      "bytes": 1065,
+      "when": [
+        "phase",
+        "intake"
+      ]
+    },
+    {
+      "name": "Phase 1: Data Ingestion & Normalization",
+      "bytes": 1665,
+      "when": [
+        "phase",
+        "data",
+        "ingestion",
+        "normalization"
+      ]
+    },
+    {
+      "name": "Accepted Data Formats",
+      "bytes": 695,
+      "when": [
+        "accepted",
+        "data",
+        "formats"
+      ]
+    },
+    {
+      "name": "Multi-Channel Normalization",
+      "bytes": 725,
+      "when": [
+        "multi",
+        "channel",
+        "normalization"
+      ]
+    },
+    {
+      "name": "Funnel-Adjusted CAC (If Funnel Data Available)",
+      "bytes": 201,
+      "when": [
+        "funnel",
+        "adjusted",
+        "data",
+        "available"
+      ]
+    },
+    {
+      "name": "Phase 2: Performance Diagnostics",
+      "bytes": 2154,
+      "when": [
+        "phase",
+        "performance",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "2A: Campaign-Level Health Check",
+      "bytes": 472,
+      "when": [
+        "campaign",
+        "level",
+        "health",
+        "check"
+      ]
+    },
+    {
+      "name": "2B: Budget Waste Detection",
+      "bytes": 664,
+      "when": [
+        "budget",
+        "waste",
+        "detection"
+      ]
+    },
+    {
+      "name": "2C: Winner Identification",
+      "bytes": 455,
+      "when": [
+        "winner",
+        "identification"
+      ]
+    },
+    {
+      "name": "2D: Statistical Significance Check",
+      "bytes": 526,
+      "when": [
+        "statistical",
+        "significance",
+        "check"
+      ]
+    },
+    {
+      "name": "Phase 3: Funnel Analysis",
+      "bytes": 757,
+      "when": [
+        "phase",
+        "funnel",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Click → Conversion Path",
+      "bytes": 250,
+      "when": [
+        "click",
+        "conversion",
+        "path"
+      ]
+    },
+    {
+      "name": "Funnel Drop-Off Diagnosis",
+      "bytes": 478,
+      "when": [
+        "funnel",
+        "drop",
+        "diagnosis"
+      ]
+    },
+    {
+      "name": "Phase 4: Budget Reallocation",
+      "bytes": 2631,
+      "when": [
+        "phase",
+        "budget",
+        "reallocation"
+      ]
+    },
+    {
+      "name": "4A: Channel Efficiency Ranking",
+      "bytes": 507,
+      "when": [
+        "channel",
+        "efficiency",
+        "ranking"
+      ]
+    },
+    {
+      "name": "4B: Marginal Return Analysis",
+      "bytes": 533,
+      "when": [
+        "marginal",
+        "return",
+        "analysis"
+      ]
+    },
+    {
+      "name": "4C: Funnel Stage Coverage",
+      "bytes": 444,
+      "when": [
+        "funnel",
+        "stage",
+        "coverage"
+      ]
+    },
+    {
+      "name": "4D: Budget Shift Recommendations",
+      "bytes": 536,
+      "when": [
+        "budget",
+        "shift",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "4E: Scenario Modeling",
+      "bytes": 499,
+      "when": [
+        "scenario",
+        "modeling"
+      ]
+    },
+    {
+      "name": "Phase 5: Output Format",
+      "bytes": 226,
+      "when": [
+        "phase",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Executive Summary",
+      "bytes": 156,
+      "when": [
+        "executive",
+        "summary"
+      ]
+    },
+    {
+      "name": "Performance Dashboard",
+      "bytes": 305,
+      "when": [
+        "performance",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Budget Waste Report",
+      "bytes": 324,
+      "when": [
+        "budget",
+        "waste",
+        "report"
+      ]
+    },
+    {
+      "name": "Wasted on zero-conversion items: $[X]",
+      "bytes": 106,
+      "when": [
+        "wasted",
+        "zero",
+        "conversion",
+        "items"
+      ]
+    },
+    {
+      "name": "Wasted on high-CPA items: $[X]",
+      "bytes": 73,
+      "when": [
+        "wasted",
+        "high",
+        "items"
+      ]
+    },
+    {
+      "name": "Recommended saves: $[X]/month",
+      "bytes": 66,
+      "when": [
+        "recommended",
+        "saves",
+        "month"
+      ]
+    },
+    {
+      "name": "Winners to Scale",
+      "bytes": 269,
+      "when": [
+        "winners",
+        "scale"
+      ]
+    },
+    {
+      "name": "Top Keywords/Audiences",
+      "bytes": 152,
+      "when": [
+        "keywords",
+        "audiences"
+      ]
+    },
+    {
+      "name": "Top Ads",
+      "bytes": 96,
+      "when": []
+    },
+    {
+      "name": "A/B Test Results",
+      "bytes": 172,
+      "when": [
+        "test",
+        "results"
+      ]
+    },
+    {
+      "name": "[Test Name]",
+      "bytes": 151,
+      "when": [
+        "test",
+        "name"
+      ]
+    },
+    {
+      "name": "Budget Reallocation",
+      "bytes": 599,
+      "when": [
+        "budget",
+        "reallocation"
+      ]
+    },
+    {
+      "name": "Current vs Recommended Allocation",
+      "bytes": 292,
+      "when": [
+        "current",
+        "recommended",
+        "allocation"
+      ]
+    },
+    {
+      "name": "Funnel Stage Coverage",
+      "bytes": 63,
+      "when": [
+        "funnel",
+        "stage",
+        "coverage"
+      ]
+    },
+    {
+      "name": "New Channel Recommendations",
+      "bytes": 220,
+      "when": [
+        "channel",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "Action Plan",
+      "bytes": 860,
+      "when": [
+        "action",
+        "plan"
+      ]
+    },
+    {
+      "name": "Immediate (This Week)",
+      "bytes": 276,
+      "when": [
+        "immediate",
+        "week"
+      ]
+    },
+    {
+      "name": "This Month",
+      "bytes": 284,
+      "when": [
+        "month"
+      ]
+    },
+    {
+      "name": "Next Month",
+      "bytes": 284,
+      "when": [
+        "next",
+        "month"
+      ]
+    },
+    {
+      "name": "Cost",
+      "bytes": 154,
+      "when": [
+        "cost"
+      ]
+    },
+    {
+      "name": "Tools Required",
+      "bytes": 131,
+      "when": [
+        "tools",
+        "required"
+      ]
+    },
+    {
+      "name": "Trigger Phrases",
+      "bytes": 381,
+      "when": [
+        "trigger",
+        "phrases"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\ad-campaign-analyzer\\SKILL.md"
+}

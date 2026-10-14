@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__arch-linux-triage",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4ee4e77a8b3a1d7463b4e525c491ad1ea7ef52c6f6f01f12f84f7b8504a1cd44",
+  "purpose": "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 232,
+  "core_bytes": 930,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 113,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 379,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 157,
+      "when": [
+        "output",
+        "format"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arch-linux-triage\\SKILL.md"
+}

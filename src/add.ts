@@ -68,6 +68,7 @@ function findSkills(base: string): string[] {
   const walk = (d: string, depth: number) => {
     if (depth > 4 || !existsSync(d)) return;
     for (const e of readdirSync(d, { withFileTypes: true })) {
+      if (e.name.startsWith(".")) continue;
       const p = join(d, e.name);
       if (e.isDirectory()) walk(p, depth + 1);
       else if (e.name === "SKILL.md") out.push(p);

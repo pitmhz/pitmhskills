@@ -1,0 +1,206 @@
+{
+  "id": "awesome-copilot__agent-governance",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "efc0abaa0dff7d5567a27e1a5b9126ef70410e0a213225dab1b109f3f129db68",
+  "purpose": "Patterns and techniques for adding governance, safety, and trust controls to AI agent systems. Use this skill when:\n- Building AI agents that call external tools (APIs, databases, file systems)\n- Impl",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Patterns and techniques for adding governance, safety, and trust controls to AI agent systems. Use this skill when:\n- Building AI agents that call external tool"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4626,
+  "core_bytes": 18543,
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 468,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "When to Use",
+      "bytes": 370,
+      "when": []
+    },
+    {
+      "name": "Pattern 1: Governance Policy",
+      "bytes": 3651,
+      "when": [
+        "pattern",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "name": "Policy Composition",
+      "bytes": 1459,
+      "when": [
+        "policy",
+        "composition"
+      ]
+    },
+    {
+      "name": "Policy as YAML",
+      "bytes": 596,
+      "when": [
+        "policy",
+        "yaml"
+      ]
+    },
+    {
+      "name": "Pattern 2: Semantic Intent Classification",
+      "bytes": 2095,
+      "when": [
+        "pattern",
+        "semantic",
+        "intent",
+        "classification"
+      ]
+    },
+    {
+      "name": "Pattern 3: Tool-Level Governance Decorator",
+      "bytes": 2795,
+      "when": [
+        "pattern",
+        "tool",
+        "level",
+        "governance",
+        "decorator"
+      ]
+    },
+    {
+      "name": "Pattern 4: Trust Scoring",
+      "bytes": 2363,
+      "when": [
+        "pattern",
+        "trust",
+        "scoring"
+      ]
+    },
+    {
+      "name": "Pattern 5: Audit Trail",
+      "bytes": 1734,
+      "when": [
+        "pattern",
+        "audit",
+        "trail"
+      ]
+    },
+    {
+      "name": "Pattern 6: Framework Integration",
+      "bytes": 1916,
+      "when": [
+        "pattern",
+        "framework",
+        "integration"
+      ]
+    },
+    {
+      "name": "PydanticAI",
+      "bytes": 690,
+      "when": [
+        "pydanticai"
+      ]
+    },
+    {
+      "name": "CrewAI",
+      "bytes": 585,
+      "when": [
+        "crewai"
+      ]
+    },
+    {
+      "name": "OpenAI Agents SDK",
+      "bytes": 604,
+      "when": [
+        "openai",
+        "agents"
+      ]
+    },
+    {
+      "name": "Governance Levels",
+      "bytes": 470,
+      "when": [
+        "governance",
+        "levels"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 746,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Quick Start Checklist",
+      "bytes": 38,
+      "when": [
+        "quick",
+        "start",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Agent Governance Implementation Checklist",
+      "bytes": 712,
+      "when": [
+        "agent",
+        "governance",
+        "implementation",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 182,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Implementation",
+      "bytes": 219,
+      "when": [
+        "implementation"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 265,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Related Resources",
+      "bytes": 407,
+      "when": [
+        "related",
+        "resources"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\agent-governance\\SKILL.md"
+}

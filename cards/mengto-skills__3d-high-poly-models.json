@@ -1,0 +1,91 @@
+{
+  "id": "mengto-skills__3d-high-poly-models",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "f4f1d9dd4a38f5f91aedc690c15b74c6348082142e24d32d3767b937e0c748ef",
+  "purpose": "Create or integrate highly detailed 3D models with smooth silhouettes, shaped surfaces, believable bevels, and close-up geometry, then prepare suitable runtime LODs and loading. Use when a user reques",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create or integrate highly detailed 3D models with smooth silhouettes, shaped surfaces, believable bevels, and close-up geometry, then prepare suitable runtime "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1451,
+  "core_bytes": 5801,
+  "sections": [
+    {
+      "name": "Establish what the camera needs",
+      "bytes": 1083,
+      "when": [
+        "establish",
+        "camera",
+        "needs"
+      ]
+    },
+    {
+      "name": "Model for believable close-ups",
+      "bytes": 1180,
+      "when": [
+        "model",
+        "believable",
+        "close"
+      ]
+    },
+    {
+      "name": "Prepare runtime versions",
+      "bytes": 1523,
+      "when": [
+        "prepare",
+        "runtime",
+        "versions"
+      ]
+    },
+    {
+      "name": "Avoid a startup stall",
+      "bytes": 639,
+      "when": [
+        "avoid",
+        "startup",
+        "stall"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 785,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "poly",
+    "establish",
+    "camera",
+    "needs",
+    "model",
+    "versions",
+    "avoid",
+    "startup",
+    "stall",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-high-poly-models\\SKILL.md"
+}

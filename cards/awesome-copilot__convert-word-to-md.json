@@ -1,0 +1,74 @@
+{
+  "id": "awesome-copilot__convert-word-to-md",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "dde993754e47ebccf30b540b98f9555936d44a5e40c9c70d83d296e03e60785e",
+  "purpose": "Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about ",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1592,
+  "core_bytes": 6386,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 1207,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Setup (once per environment)",
+      "bytes": 510,
+      "when": [
+        "setup",
+        "once",
+        "environment"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 1789,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Deciding where output goes",
+      "bytes": 814,
+      "when": [
+        "deciding",
+        "where",
+        "output",
+        "goes"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1065,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\convert-word-to-md\\SKILL.md"
+}

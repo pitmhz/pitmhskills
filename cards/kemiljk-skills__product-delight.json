@@ -1,0 +1,84 @@
+{
+  "id": "kemiljk-skills__product-delight",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "9be113681f7e27603c9a6b513449d0dc9729b4f15e9942cb38312d0d554d84c2",
+  "purpose": "Improve product care, anticipation, and useful feedback when the user asks for delight or polish.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Improve product care, anticipation, and useful feedback when the user asks for delight or polish."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Product delight / anticipation pass -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "delight anticipation care feedback",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 495,
+  "core_bytes": 1977,
+  "sections": [
+    {
+      "name": "Principles",
+      "bytes": 528,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "Defaults",
+      "bytes": 319,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 305,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 398,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Source essays",
+      "bytes": 112,
+      "when": [
+        "source",
+        "essays"
+      ]
+    }
+  ],
+  "keywords": [
+    "principles",
+    "defaults",
+    "prefer",
+    "reject",
+    "review",
+    "checklist",
+    "source",
+    "essays"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\product-delight\\SKILL.md"
+}

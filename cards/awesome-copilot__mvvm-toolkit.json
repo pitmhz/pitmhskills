@@ -1,0 +1,143 @@
+{
+  "id": "awesome-copilot__mvvm-toolkit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "25fc1d882a92163b96e2990272af75db0a70a329b9dd6b7cb49e1b058c8bff9d",
+  "purpose": "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor], [NotifyDataErrorInfo]), base classes (",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor]"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2696,
+  "core_bytes": 10793,
+  "sections": [
+    {
+      "name": "Package & setup",
+      "bytes": 748,
+      "when": [
+        "package",
+        "setup"
+      ]
+    },
+    {
+      "name": "Source generators cheat sheet",
+      "bytes": 1862,
+      "when": [
+        "source",
+        "generators",
+        "cheat",
+        "sheet"
+      ]
+    },
+    {
+      "name": "ViewModel patterns",
+      "bytes": 1326,
+      "when": [
+        "viewmodel",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Simple observable property",
+      "bytes": 159,
+      "when": [
+        "simple",
+        "observable",
+        "property"
+      ]
+    },
+    {
+      "name": "Hooks: `OnXxxChanging` / `OnXxxChanged`",
+      "bytes": 398,
+      "when": [
+        "hooks",
+        "onxxxchanging",
+        "onxxxchanged"
+      ]
+    },
+    {
+      "name": "Dependent properties + dependent commands",
+      "bytes": 409,
+      "when": [
+        "dependent",
+        "properties",
+        "commands"
+      ]
+    },
+    {
+      "name": "Wrapping a non-observable model",
+      "bytes": 337,
+      "when": [
+        "wrapping",
+        "observable",
+        "model"
+      ]
+    },
+    {
+      "name": "Commands",
+      "bytes": 926,
+      "when": [
+        "commands"
+      ]
+    },
+    {
+      "name": "Base class selection",
+      "bytes": 669,
+      "when": [
+        "base",
+        "class",
+        "selection"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 841,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Top pitfalls",
+      "bytes": 984,
+      "when": [
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "End-to-end mini walkthrough",
+      "bytes": 1187,
+      "when": [
+        "mini",
+        "walkthrough"
+      ]
+    },
+    {
+      "name": "References & companion skills",
+      "bytes": 1098,
+      "when": [
+        "references",
+        "companion",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mvvm-toolkit\\SKILL.md"
+}

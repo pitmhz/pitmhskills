@@ -1,0 +1,34 @@
+{
+  "id": "awesome-copilot__dataverse-python-quickstart",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f8553b9dc0effb7e367c74775f59ab0bb11696ede69323ee75703194d67d5572",
+  "purpose": "Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 163,
+  "core_bytes": 652,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\dataverse-python-quickstart\\SKILL.md"
+}

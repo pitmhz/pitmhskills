@@ -1,0 +1,135 @@
+{
+  "id": "nvidia__tao-run-deft-aoi",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "226ea6a8d359fc6134de9c0358eea970d880ee2630499ba5afaf2cd72161a7a9",
+  "purpose": "Run the full DEFT AOI improvement loop for NVIDIA TAO VisualChangeNet / ChangeNet PCB inspection models: baseline evaluate, RCA, Cosmos AnomalyGen / AMP synthetic defects, k-NN mining, retraining, and",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run the full DEFT AOI improvement loop for NVIDIA TAO VisualChangeNet / ChangeNet PCB inspection models: baseline evaluate, RCA, Cosmos AnomalyGen / AMP synthet"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5039,
+  "core_bytes": 20184,
+  "sections": [
+    {
+      "name": "Execution Contract",
+      "bytes": 3093,
+      "when": [
+        "execution",
+        "contract"
+      ]
+    },
+    {
+      "name": "Context Discipline",
+      "bytes": 1117,
+      "when": [
+        "context",
+        "discipline"
+      ]
+    },
+    {
+      "name": "When to Use This Skill",
+      "bytes": 820,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Base Model",
+      "bytes": 701,
+      "when": [
+        "base",
+        "model"
+      ]
+    },
+    {
+      "name": "Train AutoML Policy",
+      "bytes": 1498,
+      "when": [
+        "train",
+        "automl",
+        "policy"
+      ]
+    },
+    {
+      "name": "Launch Intake",
+      "bytes": 937,
+      "when": [
+        "launch",
+        "intake"
+      ]
+    },
+    {
+      "name": "Agent Behavior",
+      "bytes": 2948,
+      "when": [
+        "agent",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3455,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Using Bundled Scripts",
+      "bytes": 506,
+      "when": [
+        "bundled",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Stage Reference Modules",
+      "bytes": 1329,
+      "when": [
+        "stage",
+        "reference",
+        "modules"
+      ]
+    },
+    {
+      "name": "Data, Pre-Flight, Pipeline, and State references",
+      "bytes": 2143,
+      "when": [
+        "data",
+        "flight",
+        "pipeline",
+        "state",
+        "references"
+      ]
+    },
+    {
+      "name": "Gating",
+      "bytes": 863,
+      "when": [
+        "gating"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-run-deft-aoi\\SKILL.md",
+  "curated": true
+}

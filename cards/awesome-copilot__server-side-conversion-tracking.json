@@ -1,0 +1,117 @@
+{
+  "id": "awesome-copilot__server-side-conversion-tracking",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2b882d2e6ac0f5414d09e2cb7b173fbecd2e1213c55be6c5cf02663802423830",
+  "purpose": "Set up server-side conversion tracking so purchases are reported accurately to Facebook, TikTok, Google and Bing despite iOS restrictions, ad blockers and cookie loss. Use when conversions are under-r",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Set up server-side conversion tracking so purchases are reported accurately to Facebook, TikTok, Google and Bing despite iOS restrictions, ad blockers and cooki"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2042,
+  "core_bytes": 8170,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 438,
+      "when": []
+    },
+    {
+      "name": "The model, in the order it must be built",
+      "bytes": 4831,
+      "when": [
+        "model",
+        "order",
+        "built"
+      ]
+    },
+    {
+      "name": "Step 1-2: capture and persist",
+      "bytes": 858,
+      "when": [
+        "step",
+        "capture",
+        "persist"
+      ]
+    },
+    {
+      "name": "Step 3: carry across steps",
+      "bytes": 494,
+      "when": [
+        "step",
+        "carry",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 4: attach to the order",
+      "bytes": 302,
+      "when": [
+        "step",
+        "attach",
+        "order"
+      ]
+    },
+    {
+      "name": "Step 5: report server-to-server",
+      "bytes": 909,
+      "when": [
+        "step",
+        "report",
+        "server"
+      ]
+    },
+    {
+      "name": "Step 6: dedupe",
+      "bytes": 368,
+      "when": [
+        "step",
+        "dedupe"
+      ]
+    },
+    {
+      "name": "Step 7: verify",
+      "bytes": 991,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "What server-side tracking does not fix",
+      "bytes": 677,
+      "when": [
+        "server",
+        "side",
+        "tracking"
+      ]
+    },
+    {
+      "name": "Implementing it",
+      "bytes": 1343,
+      "when": [
+        "implementing"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\server-side-conversion-tracking\\SKILL.md"
+}

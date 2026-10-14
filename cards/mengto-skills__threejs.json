@@ -1,0 +1,115 @@
+{
+  "id": "mengto-skills__threejs",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "4168d6d78a5a348c353f603ef33c74085965febb515e0e70cf7966f35cb5cead",
+  "purpose": "Use when building or debugging interactive 3D scenes on the web with Three.js (scene/camera/renderer, lights/materials, GLTF loading, controls, performance). Helpful for designers shipping 3D UI momen",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Use when building or debugging interactive 3D scenes on the web with Three.js (scene/camera/renderer, lights/materials, GLTF loading, controls, performance). He"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Three.js scenes -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "threejs scene camera renderer",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 890,
+  "core_bytes": 3573,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 228,
+      "when": []
+    },
+    {
+      "name": "Core mental model",
+      "bytes": 362,
+      "when": [
+        "core",
+        "mental",
+        "model"
+      ]
+    },
+    {
+      "name": "Key APIs/patterns",
+      "bytes": 766,
+      "when": [
+        "apis",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 399,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Quick recipes",
+      "bytes": 1279,
+      "when": [
+        "quick",
+        "recipes"
+      ]
+    },
+    {
+      "name": "1) Minimal spinning cube",
+      "bytes": 1139,
+      "when": [
+        "minimal",
+        "spinning",
+        "cube"
+      ]
+    },
+    {
+      "name": "2) Respect reduced motion",
+      "bytes": 120,
+      "when": [
+        "respect",
+        "reduced",
+        "motion"
+      ]
+    },
+    {
+      "name": "What to ask the user",
+      "bytes": 254,
+      "when": [
+        "user"
+      ]
+    }
+  ],
+  "keywords": [
+    "webgl",
+    "skill",
+    "core",
+    "mental",
+    "model",
+    "apis",
+    "patterns",
+    "common",
+    "pitfalls",
+    "quick",
+    "recipes",
+    "minimal",
+    "spinning",
+    "cube"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\threejs\\SKILL.md"
+}

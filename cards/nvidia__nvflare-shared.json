@@ -1,0 +1,94 @@
+{
+  "id": "nvidia__nvflare-shared",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "485705e898a7fa89570e0be65a28bc1cd139ce531b8f94c567ff76f793537c7f",
+  "purpose": "Internal NVFLARE conversion references and templates. Use only when another NVFLARE skill directs you to a shared workflow, policy, or asset.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Internal NVFLARE conversion references and templates. Use only when another NVFLARE skill directs you to a shared workflow, policy, or asset."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1316,
+  "core_bytes": 5286,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 240,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 432,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 1037,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Reference Index",
+      "bytes": 1654,
+      "when": [
+        "reference",
+        "index"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 311,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 234,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 223,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 617,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/nvflare-shared/SKILL.md",
+  "curated": true
+}

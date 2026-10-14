@@ -28,7 +28,224 @@
   "conflicts_with": [],
   "body_tokens": 8101,
   "core_bytes": 32404,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/openai/skills/.curated/playwright-interactive/SKILL.md"
+  "sections": [
+    {
+      "name": "Preconditions",
+      "bytes": 834,
+      "when": [
+        "preconditions"
+      ]
+    },
+    {
+      "name": "One-time setup",
+      "bytes": 502,
+      "when": [
+        "time",
+        "setup"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 1649,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Bootstrap (Run Once)",
+      "bytes": 1679,
+      "when": [
+        "bootstrap",
+        "once"
+      ]
+    },
+    {
+      "name": "Choose Session Mode",
+      "bytes": 1421,
+      "when": [
+        "choose",
+        "session",
+        "mode"
+      ]
+    },
+    {
+      "name": "Start or Reuse Web Session",
+      "bytes": 2043,
+      "when": [
+        "start",
+        "reuse",
+        "session"
+      ]
+    },
+    {
+      "name": "Desktop Web Context",
+      "bytes": 594,
+      "when": [
+        "desktop",
+        "context"
+      ]
+    },
+    {
+      "name": "Mobile Web Context",
+      "bytes": 749,
+      "when": [
+        "mobile",
+        "context"
+      ]
+    },
+    {
+      "name": "Native-Window Web Pass",
+      "bytes": 521,
+      "when": [
+        "native",
+        "window",
+        "pass"
+      ]
+    },
+    {
+      "name": "Start or Reuse Electron Session",
+      "bytes": 1088,
+      "when": [
+        "start",
+        "reuse",
+        "electron",
+        "session"
+      ]
+    },
+    {
+      "name": "Reuse Sessions During Iteration",
+      "bytes": 1292,
+      "when": [
+        "reuse",
+        "sessions",
+        "during",
+        "iteration"
+      ]
+    },
+    {
+      "name": "Checklists",
+      "bytes": 6313,
+      "when": [
+        "checklists"
+      ]
+    },
+    {
+      "name": "Session Loop",
+      "bytes": 496,
+      "when": [
+        "session",
+        "loop"
+      ]
+    },
+    {
+      "name": "Reload Decision",
+      "bytes": 249,
+      "when": [
+        "reload",
+        "decision"
+      ]
+    },
+    {
+      "name": "Functional QA",
+      "bytes": 1057,
+      "when": [
+        "functional"
+      ]
+    },
+    {
+      "name": "Visual QA",
+      "bytes": 3009,
+      "when": [
+        "visual"
+      ]
+    },
+    {
+      "name": "Signoff",
+      "bytes": 1485,
+      "when": [
+        "signoff"
+      ]
+    },
+    {
+      "name": "Screenshot Examples",
+      "bytes": 8749,
+      "when": [
+        "screenshot",
+        "examples"
+      ]
+    },
+    {
+      "name": "Model-bound screenshots (default)",
+      "bytes": 2870,
+      "when": [
+        "model",
+        "bound",
+        "screenshots",
+        "default"
+      ]
+    },
+    {
+      "name": "Web CSS normalization",
+      "bytes": 2832,
+      "when": [
+        "normalization"
+      ]
+    },
+    {
+      "name": "Electron CSS normalization",
+      "bytes": 1759,
+      "when": [
+        "electron",
+        "normalization"
+      ]
+    },
+    {
+      "name": "Raw Screenshot Exception Examples",
+      "bytes": 857,
+      "when": [
+        "screenshot",
+        "exception",
+        "examples"
+      ]
+    },
+    {
+      "name": "Viewport Fit Checks (Required)",
+      "bytes": 3280,
+      "when": [
+        "viewport",
+        "checks",
+        "required"
+      ]
+    },
+    {
+      "name": "Dev Server",
+      "bytes": 661,
+      "when": [
+        "server"
+      ]
+    },
+    {
+      "name": "Cleanup",
+      "bytes": 1043,
+      "when": [
+        "cleanup"
+      ]
+    },
+    {
+      "name": "Common Failure Modes",
+      "bytes": 1417,
+      "when": [
+        "common",
+        "failure",
+        "modes"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/openai/skills/.curated/playwright-interactive/SKILL.md",
+  "curated": true
 }

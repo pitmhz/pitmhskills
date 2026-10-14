@@ -28,7 +28,183 @@
   "conflicts_with": [],
   "body_tokens": 3010,
   "core_bytes": 12082,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Step 1: Gather Project State",
+      "bytes": 1925,
+      "when": [
+        "step",
+        "gather",
+        "project",
+        "state"
+      ]
+    },
+    {
+      "name": "Team selection",
+      "bytes": 1409,
+      "when": [
+        "team",
+        "selection"
+      ]
+    },
+    {
+      "name": "Step 2: Choose a Deploy Method",
+      "bytes": 6897,
+      "when": [
+        "step",
+        "choose",
+        "deploy",
+        "method"
+      ]
+    },
+    {
+      "name": "Linked (`.vercel/` exists) + has git remote → Git Push",
+      "bytes": 1039,
+      "when": [
+        "linked",
+        "vercel",
+        "exists",
+        "remote",
+        "push"
+      ]
+    },
+    {
+      "name": "Linked (`.vercel/` exists) + no git remote → `vercel deploy`",
+      "bytes": 559,
+      "when": [
+        "linked",
+        "vercel",
+        "exists",
+        "remote",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Not linked + CLI is authenticated → Link first, then deploy",
+      "bytes": 1625,
+      "when": [
+        "linked",
+        "authenticated",
+        "link",
+        "first",
+        "deploy"
+      ]
+    },
+    {
+      "name": "Not linked + CLI not authenticated → Install, auth, link, deploy",
+      "bytes": 1100,
+      "when": [
+        "linked",
+        "authenticated",
+        "install",
+        "auth",
+        "link",
+        "deploy"
+      ]
+    },
+    {
+      "name": "No-Auth Fallback — claude.ai sandbox",
+      "bytes": 1102,
+      "when": [
+        "auth",
+        "fallback",
+        "claude",
+        "sandbox"
+      ]
+    },
+    {
+      "name": "No-Auth Fallback — Codex sandbox",
+      "bytes": 1435,
+      "when": [
+        "auth",
+        "fallback",
+        "codex",
+        "sandbox"
+      ]
+    },
+    {
+      "name": "Agent-Specific Notes",
+      "bytes": 761,
+      "when": [
+        "agent",
+        "specific",
+        "notes"
+      ]
+    },
+    {
+      "name": "Claude Code / terminal-based agents",
+      "bytes": 402,
+      "when": [
+        "claude",
+        "code",
+        "terminal",
+        "based",
+        "agents"
+      ]
+    },
+    {
+      "name": "Sandboxed environments (claude.ai)",
+      "bytes": 160,
+      "when": [
+        "sandboxed",
+        "environments",
+        "claude"
+      ]
+    },
+    {
+      "name": "Codex",
+      "bytes": 172,
+      "when": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 811,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1065,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Network Egress Error (claude.ai)",
+      "bytes": 313,
+      "when": [
+        "network",
+        "egress",
+        "error",
+        "claude"
+      ]
+    },
+    {
+      "name": "Escalated Network Access (Codex / sandboxed environments)",
+      "bytes": 535,
+      "when": [
+        "escalated",
+        "network",
+        "access",
+        "codex",
+        "sandboxed",
+        "environments"
+      ]
+    },
+    {
+      "name": "CLI Auth Failure",
+      "bytes": 195,
+      "when": [
+        "auth",
+        "failure"
+      ]
+    }
+  ],
+  "verify": [
+    "npx vercel build"
+  ],
   "skill_path": "skills/vercel/skills/deploy-to-vercel/SKILL.md"
 }

@@ -1,0 +1,182 @@
+{
+  "id": "mengto-skills__pointer-trail-emitter",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "32f81e8c28ad1f648d71e44270e106f8c1c51ce26b5e9ead8fa0d3d3931dc26f",
+  "purpose": "Build a cursor trail whose spacing stays constant at any hand speed, by emitting motes per unit of distance travelled rather than on a timer, so a flick draws the same continuous ribbon as a crawl ins",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build a cursor trail whose spacing stays constant at any hand speed, by emitting motes per unit of distance travelled rather than on a timer, so a flick draws t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2662,
+  "core_bytes": 10723,
+  "sections": [
+    {
+      "name": "Emit by distance, not by time",
+      "bytes": 1168,
+      "when": [
+        "emit",
+        "distance",
+        "time"
+      ]
+    },
+    {
+      "name": "Place each mote where it is owed",
+      "bytes": 367,
+      "when": [
+        "place",
+        "each",
+        "mote",
+        "where",
+        "owed"
+      ]
+    },
+    {
+      "name": "Take the ring-buffer slot before advancing it",
+      "bytes": 410,
+      "when": [
+        "take",
+        "ring",
+        "buffer",
+        "slot",
+        "before",
+        "advancing"
+      ]
+    },
+    {
+      "name": "Lag the emitter behind the pointer",
+      "bytes": 282,
+      "when": [
+        "emitter",
+        "behind",
+        "pointer"
+      ]
+    },
+    {
+      "name": "Anchor the trail to the screen, not the world",
+      "bytes": 745,
+      "when": [
+        "anchor",
+        "trail",
+        "screen",
+        "world"
+      ]
+    },
+    {
+      "name": "Scale the scatter against the plane it hangs on",
+      "bytes": 438,
+      "when": [
+        "scale",
+        "scatter",
+        "against",
+        "plane",
+        "hangs"
+      ]
+    },
+    {
+      "name": "Let them coast",
+      "bytes": 388,
+      "when": [
+        "them",
+        "coast"
+      ]
+    },
+    {
+      "name": "Drop what round motes do not need",
+      "bytes": 483,
+      "when": [
+        "drop",
+        "round",
+        "motes",
+        "need"
+      ]
+    },
+    {
+      "name": "Keep a breath when the hand is still",
+      "bytes": 480,
+      "when": [
+        "keep",
+        "breath",
+        "hand",
+        "still"
+      ]
+    },
+    {
+      "name": "Numbers",
+      "bytes": 1052,
+      "when": [
+        "numbers"
+      ]
+    },
+    {
+      "name": "Do not move it to a DOM overlay to raise its z-index",
+      "bytes": 832,
+      "when": [
+        "move",
+        "overlay",
+        "raise",
+        "index"
+      ]
+    },
+    {
+      "name": "State the cost from a profile",
+      "bytes": 519,
+      "when": [
+        "state",
+        "cost",
+        "profile"
+      ]
+    },
+    {
+      "name": "Lifecycle and reduced motion",
+      "bytes": 682,
+      "when": [
+        "lifecycle",
+        "reduced",
+        "motion"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 1116,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "emit",
+    "time",
+    "place",
+    "each",
+    "where",
+    "owed",
+    "take",
+    "slot",
+    "before",
+    "advancing",
+    "behind",
+    "anchor",
+    "world"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\pointer-trail-emitter\\SKILL.md"
+}

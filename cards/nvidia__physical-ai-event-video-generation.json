@@ -1,0 +1,90 @@
+{
+  "id": "nvidia__physical-ai-event-video-generation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "5a3f48707e4d130b6d8addd07438e49bb49431ffce8db6e08d0b946eb954ce79",
+  "purpose": "Run the PAIDF Orchestration Event Video Generation DAG on Kubernetes - image-to-video anomaly generation, auto-labeling, and anomaly dataset generation. Select for requests about event video generatio",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run the PAIDF Orchestration Event Video Generation DAG on Kubernetes - image-to-video anomaly generation, auto-labeling, and anomaly dataset generation. Select "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4584,
+  "core_bytes": 18407,
+  "sections": [
+    {
+      "name": "DAG selection",
+      "bytes": 915,
+      "when": [
+        "selection"
+      ]
+    },
+    {
+      "name": "Manual payload entry in the Airflow UI",
+      "bytes": 679,
+      "when": [
+        "manual",
+        "payload",
+        "entry",
+        "airflow"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 6266,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Bundled tools",
+      "bytes": 509,
+      "when": [
+        "bundled",
+        "tools"
+      ]
+    },
+    {
+      "name": "Procedure",
+      "bytes": 7037,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 1027,
+      "when": [
+        "guardrails"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 598,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/physical-ai-event-video-generation/SKILL.md",
+  "curated": true
+}

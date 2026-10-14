@@ -1,0 +1,189 @@
+{
+  "id": "mengto-skills__audit-ai-design-slop",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "d33dd0d3dd8609f5c1141eb36bc480910c88c2f969ef6d8a049d69d9e33bb54b",
+  "purpose": "Audit websites, apps, screenshots, mockups, and design code for harmful AI-design clichés, generic generated defaults, and established UI defects. Use when the user wants evidence-backed design feedba",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Audit websites, apps, screenshots, mockups, and design code for harmful AI-design clichés, generic generated defaults, and established UI defects. Use when the "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Audit a surface for AI-design clichés -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "audit slop clichés screenshots mockups",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1587,
+  "core_bytes": 6349,
+  "sections": [
+    {
+      "name": "Boundaries",
+      "bytes": 501,
+      "when": [
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Audit the Evidence",
+      "bytes": 739,
+      "when": [
+        "audit",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Classify Findings",
+      "bytes": 272,
+      "when": [
+        "classify",
+        "findings"
+      ]
+    },
+    {
+      "name": "What to Flag",
+      "bytes": 1992,
+      "when": [
+        "flag"
+      ]
+    },
+    {
+      "name": "Decorative stacking",
+      "bytes": 246,
+      "when": [
+        "decorative",
+        "stacking"
+      ]
+    },
+    {
+      "name": "Component and template repetition",
+      "bytes": 402,
+      "when": [
+        "component",
+        "template",
+        "repetition"
+      ]
+    },
+    {
+      "name": "Typography and copy clutter",
+      "bytes": 370,
+      "when": [
+        "typography",
+        "copy",
+        "clutter"
+      ]
+    },
+    {
+      "name": "Motion theater",
+      "bytes": 263,
+      "when": [
+        "motion",
+        "theater"
+      ]
+    },
+    {
+      "name": "Fake proof",
+      "bytes": 190,
+      "when": [
+        "fake",
+        "proof"
+      ]
+    },
+    {
+      "name": "Established UI failures",
+      "bytes": 502,
+      "when": [
+        "established",
+        "failures"
+      ]
+    },
+    {
+      "name": "Use the Removal Test",
+      "bytes": 536,
+      "when": [
+        "removal",
+        "test"
+      ]
+    },
+    {
+      "name": "Prioritize",
+      "bytes": 441,
+      "when": [
+        "prioritize"
+      ]
+    },
+    {
+      "name": "Output",
+      "bytes": 20,
+      "when": [
+        "output"
+      ]
+    },
+    {
+      "name": "Verdict",
+      "bytes": 99,
+      "when": [
+        "verdict"
+      ]
+    },
+    {
+      "name": "Checked scope",
+      "bytes": 80,
+      "when": [
+        "checked",
+        "scope"
+      ]
+    },
+    {
+      "name": "Findings",
+      "bytes": 352,
+      "when": [
+        "findings"
+      ]
+    },
+    {
+      "name": "Unknowns",
+      "bytes": 128,
+      "when": [
+        "unknowns"
+      ]
+    },
+    {
+      "name": "Feedback Rules",
+      "bytes": 648,
+      "when": [
+        "feedback",
+        "rules"
+      ]
+    }
+  ],
+  "keywords": [
+    "boundaries",
+    "classify",
+    "findings",
+    "flag",
+    "decorative",
+    "stacking",
+    "component",
+    "template",
+    "repetition",
+    "typography",
+    "copy",
+    "clutter"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\ui\\audit-ai-design-slop\\SKILL.md"
+}

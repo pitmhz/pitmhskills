@@ -1,0 +1,84 @@
+{
+  "id": "awesome-copilot__codebase-memory-mcp",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "2e7a42f87cb7a150f87c3aa9de777a1c5324298896c3760382da358d101dcaa7",
+  "purpose": "Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing callers, callees, data flow or dependencies, assessing impact, auditing dead or complex code, or han",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing callers, callees, data flow or dependencies, assessing impac"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4041,
+  "core_bytes": 16172,
+  "sections": [
+    {
+      "name": "Evidence Levels",
+      "bytes": 720,
+      "when": [
+        "evidence",
+        "levels"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 5334,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Rooted Filesystem Fallback",
+      "bytes": 914,
+      "when": [
+        "rooted",
+        "filesystem",
+        "fallback"
+      ]
+    },
+    {
+      "name": "Indexing Modes",
+      "bytes": 1656,
+      "when": [
+        "indexing",
+        "modes"
+      ]
+    },
+    {
+      "name": "Safety and Fallbacks",
+      "bytes": 987,
+      "when": [
+        "safety",
+        "fallbacks"
+      ]
+    },
+    {
+      "name": "Reference: codebase-memory-mcp 0.11.0",
+      "bytes": 5884,
+      "when": [
+        "reference",
+        "codebase",
+        "memory"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\codebase-memory-mcp\\SKILL.md"
+}

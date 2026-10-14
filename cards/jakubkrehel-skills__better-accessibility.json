@@ -1,0 +1,218 @@
+{
+  "id": "jakubkrehel-skills__better-accessibility",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "1b0fd0854a8107a3be1ba6978b65733f3c606b702f343e457071a99b53e49fa0",
+  "purpose": "Reviews and fixes keyboard and focus behavior, ARIA, accessible names, forms, screen-reader announcements, motion and zoom in your project against WCAG 2.2.",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Reviews and fixes keyboard and focus behavior, ARIA, accessible names, forms, screen-reader announcements, motion and zoom in your project against WCAG 2.2."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Keyboard/focus/ARIA/forms review -> this.",
+  "cluster": "frontend-a11y",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "keyboard focus forms screen readers",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2802,
+  "core_bytes": 11208,
+  "sections": [
+    {
+      "name": "Criteria, not conventions",
+      "bytes": 452,
+      "when": [
+        "criteria",
+        "conventions"
+      ]
+    },
+    {
+      "name": "Native elements first",
+      "bytes": 307,
+      "when": [
+        "native",
+        "elements",
+        "first"
+      ]
+    },
+    {
+      "name": "Disabled means unavailable",
+      "bytes": 320,
+      "when": [
+        "disabled",
+        "means",
+        "unavailable"
+      ]
+    },
+    {
+      "name": "Visible focus rings",
+      "bytes": 769,
+      "when": [
+        "visible",
+        "focus",
+        "rings"
+      ]
+    },
+    {
+      "name": "Full keyboard support",
+      "bytes": 630,
+      "when": [
+        "full",
+        "keyboard",
+        "support"
+      ]
+    },
+    {
+      "name": "Trap and restore focus",
+      "bytes": 496,
+      "when": [
+        "trap",
+        "restore",
+        "focus"
+      ]
+    },
+    {
+      "name": "Minimum hit area",
+      "bytes": 626,
+      "when": [
+        "minimum",
+        "area"
+      ]
+    },
+    {
+      "name": "Label and type every control",
+      "bytes": 442,
+      "when": [
+        "label",
+        "type",
+        "control"
+      ]
+    },
+    {
+      "name": "Errors that announce",
+      "bytes": 296,
+      "when": [
+        "errors",
+        "announce"
+      ]
+    },
+    {
+      "name": "Accessible names everywhere",
+      "bytes": 219,
+      "when": [
+        "accessible",
+        "names",
+        "everywhere"
+      ]
+    },
+    {
+      "name": "Don't rely on color alone",
+      "bytes": 613,
+      "when": [
+        "rely",
+        "color",
+        "alone"
+      ]
+    },
+    {
+      "name": "Honor prefers-reduced-motion",
+      "bytes": 279,
+      "when": [
+        "honor",
+        "prefers",
+        "reduced",
+        "motion"
+      ]
+    },
+    {
+      "name": "Nothing the user needs runs on a timer",
+      "bytes": 279,
+      "when": [
+        "nothing",
+        "user",
+        "needs",
+        "runs",
+        "timer"
+      ]
+    },
+    {
+      "name": "Announce dynamic content",
+      "bytes": 533,
+      "when": [
+        "announce",
+        "dynamic",
+        "content"
+      ]
+    },
+    {
+      "name": "Alt text by purpose",
+      "bytes": 221,
+      "when": [
+        "text",
+        "purpose"
+      ]
+    },
+    {
+      "name": "Structure is navigation",
+      "bytes": 300,
+      "when": [
+        "structure",
+        "navigation"
+      ]
+    },
+    {
+      "name": "Survive zoom and text resize",
+      "bytes": 396,
+      "when": [
+        "survive",
+        "zoom",
+        "text",
+        "resize"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1422,
+      "when": [
+        "before",
+        "finish"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 1513,
+      "when": [
+        "reporting"
+      ]
+    }
+  ],
+  "keywords": [
+    "accessibility",
+    "criteria",
+    "conventions",
+    "native",
+    "elements",
+    "first",
+    "disabled",
+    "means",
+    "unavailable",
+    "visible",
+    "rings",
+    "full",
+    "support"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\better-accessibility\\SKILL.md"
+}

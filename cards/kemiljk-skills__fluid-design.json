@@ -1,0 +1,106 @@
+{
+  "id": "kemiljk-skills__fluid-design",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "5786999feb4d4edc303e081949eb246eac3c6c0b51a9d601d1cf9359019de3d3",
+  "purpose": "Design or refine springs, gestures, and interruptible motion when physical continuity or direct manipulation matters.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design or refine springs, gestures, and interruptible motion when physical continuity or direct manipulation matters."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Springs/gestures with physical continuity -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "springs gestures interruptible manipulation continuity",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 880,
+  "core_bytes": 3528,
+  "sections": [
+    {
+      "name": "Composition with other skills",
+      "bytes": 390,
+      "when": [
+        "composition",
+        "skills"
+      ]
+    },
+    {
+      "name": "Defaults",
+      "bytes": 926,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Prefer / Reject",
+      "bytes": 508,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    },
+    {
+      "name": "Tuning starting points",
+      "bytes": 317,
+      "when": [
+        "tuning",
+        "starting",
+        "points"
+      ]
+    },
+    {
+      "name": "Input and accessibility",
+      "bytes": 376,
+      "when": [
+        "input",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Review checklist",
+      "bytes": 457,
+      "when": [
+        "review",
+        "checklist"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 267,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "fluid",
+    "composition",
+    "skills",
+    "defaults",
+    "prefer",
+    "reject",
+    "tuning",
+    "starting",
+    "points",
+    "input",
+    "accessibility",
+    "review",
+    "checklist"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\fluid-design\\SKILL.md"
+}

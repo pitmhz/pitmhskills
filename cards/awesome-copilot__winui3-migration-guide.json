@@ -1,0 +1,175 @@
+{
+  "id": "awesome-copilot__winui3-migration-guide",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "dcd44fcb881e370a52cb826dd2134633e297b1c905030828778fc1145b8db23b",
+  "purpose": "UWP-to-WinUI 3 migration reference. Maps legacy UWP APIs to correct Windows App SDK equivalents with before/after code snippets. Covers namespace changes, threading (CoreDispatcher to DispatcherQueue)",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "UWP-to-WinUI 3 migration reference. Maps legacy UWP APIs to correct Windows App SDK equivalents with before/after code snippets. Covers namespace changes, threa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2226,
+  "core_bytes": 8961,
+  "sections": [
+    {
+      "name": "Namespace Changes",
+      "bytes": 830,
+      "when": [
+        "namespace",
+        "changes"
+      ]
+    },
+    {
+      "name": "Top 3 Most Common Copilot Mistakes",
+      "bytes": 1614,
+      "when": [
+        "common",
+        "copilot",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "1. ContentDialog Without XamlRoot",
+      "bytes": 537,
+      "when": [
+        "contentdialog",
+        "xamlroot"
+      ]
+    },
+    {
+      "name": "2. MessageDialog Instead of ContentDialog",
+      "bytes": 571,
+      "when": [
+        "messagedialog",
+        "instead",
+        "contentdialog"
+      ]
+    },
+    {
+      "name": "3. CoreDispatcher Instead of DispatcherQueue",
+      "bytes": 467,
+      "when": [
+        "coredispatcher",
+        "instead",
+        "dispatcherqueue"
+      ]
+    },
+    {
+      "name": "Windowing Migration",
+      "bytes": 1235,
+      "when": [
+        "windowing",
+        "migration"
+      ]
+    },
+    {
+      "name": "Window Reference",
+      "bytes": 483,
+      "when": [
+        "window",
+        "reference"
+      ]
+    },
+    {
+      "name": "Window Management",
+      "bytes": 491,
+      "when": [
+        "window",
+        "management"
+      ]
+    },
+    {
+      "name": "Title Bar",
+      "bytes": 237,
+      "when": [
+        "title"
+      ]
+    },
+    {
+      "name": "Dialogs and Pickers Migration",
+      "bytes": 549,
+      "when": [
+        "dialogs",
+        "pickers",
+        "migration"
+      ]
+    },
+    {
+      "name": "File/Folder Pickers",
+      "bytes": 515,
+      "when": [
+        "file",
+        "folder",
+        "pickers"
+      ]
+    },
+    {
+      "name": "Threading Migration",
+      "bytes": 655,
+      "when": [
+        "threading",
+        "migration"
+      ]
+    },
+    {
+      "name": "Background Tasks Migration",
+      "bytes": 486,
+      "when": [
+        "background",
+        "tasks",
+        "migration"
+      ]
+    },
+    {
+      "name": "App Settings Migration",
+      "bytes": 351,
+      "when": [
+        "settings",
+        "migration"
+      ]
+    },
+    {
+      "name": "GetForCurrentView() Replacements",
+      "bytes": 630,
+      "when": [
+        "getforcurrentview",
+        "replacements"
+      ]
+    },
+    {
+      "name": "Testing Migration",
+      "bytes": 913,
+      "when": [
+        "testing",
+        "migration"
+      ]
+    },
+    {
+      "name": "Migration Checklist",
+      "bytes": 1099,
+      "when": [
+        "migration",
+        "checklist"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\winui3-migration-guide\\SKILL.md"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "nvidia__holoscan-install-debian",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "2eb6afcb28ff1003ce169bdc42c854280259deac7cdfb2c8ff48691961a5f2a1",
+  "purpose": "Install Holoscan SDK natively on Ubuntu via apt. Use for C++ installs on Ubuntu; pair with /holoscan-install-wheel for Python.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Install Holoscan SDK natively on Ubuntu via apt. Use for C++ installs on Ubuntu; pair with /holoscan-install-wheel for Python."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1586,
+  "core_bytes": 6361,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 217,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 279,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 340,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Step 0: Consult the Official Install Instructions",
+      "bytes": 856,
+      "when": [
+        "step",
+        "consult",
+        "official",
+        "install",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Step 1: Prerequisites Check",
+      "bytes": 608,
+      "when": [
+        "step",
+        "prerequisites",
+        "check"
+      ]
+    },
+    {
+      "name": "Step 2: Install",
+      "bytes": 477,
+      "when": [
+        "step",
+        "install"
+      ]
+    },
+    {
+      "name": "Step 3: Verify",
+      "bytes": 1323,
+      "when": [
+        "step",
+        "verify"
+      ]
+    },
+    {
+      "name": "Step 4: Give the User the Reusable Env Snippet",
+      "bytes": 604,
+      "when": [
+        "step",
+        "give",
+        "user",
+        "reusable",
+        "snippet"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1185,
+      "when": [
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/holoscan-install-debian/SKILL.md",
+  "curated": true
+}

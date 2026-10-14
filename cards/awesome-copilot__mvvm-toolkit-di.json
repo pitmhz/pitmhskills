@@ -1,0 +1,130 @@
+{
+  "id": "awesome-copilot__mvvm-toolkit-di",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "1cb004175f6c732d684c78df2d6ad8fe7b597a503bc6f6fa031b41613da0b8d6",
+  "purpose": "Wire CommunityToolkit.Mvvm ViewModels into Microsoft.Extensions.DependencyInjection. Covers the .NET Generic Host composition root, constructor injection, service lifetimes (Singleton / Transient / Sc",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Wire CommunityToolkit.Mvvm ViewModels into Microsoft.Extensions.DependencyInjection. Covers the .NET Generic Host composition root, constructor injection, servi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2339,
+  "core_bytes": 9367,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 531,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Recommended composition root (Generic Host)",
+      "bytes": 1780,
+      "when": [
+        "recommended",
+        "composition",
+        "root",
+        "generic",
+        "host"
+      ]
+    },
+    {
+      "name": "Without Generic Host",
+      "bytes": 317,
+      "when": [
+        "generic",
+        "host"
+      ]
+    },
+    {
+      "name": "Constructor injection",
+      "bytes": 767,
+      "when": [
+        "constructor",
+        "injection"
+      ]
+    },
+    {
+      "name": "Lifetimes",
+      "bytes": 700,
+      "when": [
+        "lifetimes"
+      ]
+    },
+    {
+      "name": "Resolving in a View",
+      "bytes": 661,
+      "when": [
+        "resolving",
+        "view"
+      ]
+    },
+    {
+      "name": "`IMessenger` registration",
+      "bytes": 583,
+      "when": [
+        "imessenger",
+        "registration"
+      ]
+    },
+    {
+      "name": "Keyed services (.NET 8+)",
+      "bytes": 427,
+      "when": [
+        "keyed",
+        "services"
+      ]
+    },
+    {
+      "name": "Testing seams",
+      "bytes": 654,
+      "when": [
+        "testing",
+        "seams"
+      ]
+    },
+    {
+      "name": "Legacy: `Ioc.Default`",
+      "bytes": 637,
+      "when": [
+        "legacy",
+        "default"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 1087,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 610,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\mvvm-toolkit-di\\SKILL.md"
+}

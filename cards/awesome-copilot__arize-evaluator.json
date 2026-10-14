@@ -1,0 +1,408 @@
+{
+  "id": "awesome-copilot__arize-evaluator",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "00dda4378a6b8ab1caad0ed099bf86a890e6fdd4b03459e2c5154136c3067715",
+  "purpose": "Handles LLM-as-judge evaluation workflows on Arize including creating/updating evaluators, running evaluations on spans or experiments, managing tasks, trigger-run operations, column mapping, and cont",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Handles LLM-as-judge evaluation workflows on Arize including creating/updating evaluators, running evaluations on spans or experiments, managing tasks, trigger-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 8053,
+  "core_bytes": 32330,
+  "sections": [
+    {
+      "name": "Prerequisites",
+      "bytes": 1720,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Concepts",
+      "bytes": 2190,
+      "when": [
+        "concepts"
+      ]
+    },
+    {
+      "name": "What is an Evaluator?",
+      "bytes": 1261,
+      "when": [
+        "evaluator"
+      ]
+    },
+    {
+      "name": "What is a Task?",
+      "bytes": 916,
+      "when": [
+        "task"
+      ]
+    },
+    {
+      "name": "Data Granularity",
+      "bytes": 2342,
+      "when": [
+        "data",
+        "granularity"
+      ]
+    },
+    {
+      "name": "How trace and session aggregation works",
+      "bytes": 515,
+      "when": [
+        "trace",
+        "session",
+        "aggregation",
+        "works"
+      ]
+    },
+    {
+      "name": "The `{conversation}` template variable",
+      "bytes": 509,
+      "when": [
+        "conversation",
+        "template",
+        "variable"
+      ]
+    },
+    {
+      "name": "Multi-evaluator tasks",
+      "bytes": 399,
+      "when": [
+        "multi",
+        "evaluator",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Basic CRUD",
+      "bytes": 6394,
+      "when": [
+        "basic",
+        "crud"
+      ]
+    },
+    {
+      "name": "AI Integrations",
+      "bytes": 675,
+      "when": [
+        "integrations"
+      ]
+    },
+    {
+      "name": "Evaluators",
+      "bytes": 2956,
+      "when": [
+        "evaluators"
+      ]
+    },
+    {
+      "name": "Tasks",
+      "bytes": 2748,
+      "when": [
+        "tasks"
+      ]
+    },
+    {
+      "name": "Workflow A: Create an evaluator for a project",
+      "bytes": 7120,
+      "when": [
+        "workflow",
+        "create",
+        "evaluator",
+        "project"
+      ]
+    },
+    {
+      "name": "Step 1: Confirm the project name",
+      "bytes": 456,
+      "when": [
+        "step",
+        "confirm",
+        "project",
+        "name"
+      ]
+    },
+    {
+      "name": "Step 2: Understand what to evaluate",
+      "bytes": 1041,
+      "when": [
+        "step",
+        "understand",
+        "evaluate"
+      ]
+    },
+    {
+      "name": "Step 3: Confirm or create an AI integration",
+      "bytes": 285,
+      "when": [
+        "step",
+        "confirm",
+        "create",
+        "integration"
+      ]
+    },
+    {
+      "name": "Step 4: Create the evaluator",
+      "bytes": 806,
+      "when": [
+        "step",
+        "create",
+        "evaluator"
+      ]
+    },
+    {
+      "name": "Step 5: Ask — backfill, continuous, or both?",
+      "bytes": 694,
+      "when": [
+        "step",
+        "backfill",
+        "continuous",
+        "both"
+      ]
+    },
+    {
+      "name": "Step 6: Determine column mappings from real span data",
+      "bytes": 1914,
+      "when": [
+        "step",
+        "determine",
+        "column",
+        "mappings",
+        "real",
+        "span",
+        "data"
+      ]
+    },
+    {
+      "name": "Step 7: Create the task",
+      "bytes": 762,
+      "when": [
+        "step",
+        "create",
+        "task"
+      ]
+    },
+    {
+      "name": "Step 8: Trigger a backfill run (if requested)",
+      "bytes": 1010,
+      "when": [
+        "step",
+        "trigger",
+        "backfill",
+        "requested"
+      ]
+    },
+    {
+      "name": "Workflow B: Create an evaluator for an experiment",
+      "bytes": 3009,
+      "when": [
+        "workflow",
+        "create",
+        "evaluator",
+        "experiment"
+      ]
+    },
+    {
+      "name": "Step 1: Find the dataset and experiment names",
+      "bytes": 294,
+      "when": [
+        "step",
+        "find",
+        "dataset",
+        "experiment",
+        "names"
+      ]
+    },
+    {
+      "name": "Step 2: Understand what to evaluate",
+      "bytes": 715,
+      "when": [
+        "step",
+        "understand",
+        "evaluate"
+      ]
+    },
+    {
+      "name": "Step 3: Confirm or create an AI integration",
+      "bytes": 78,
+      "when": [
+        "step",
+        "confirm",
+        "create",
+        "integration"
+      ]
+    },
+    {
+      "name": "Step 4: Create the evaluator",
+      "bytes": 87,
+      "when": [
+        "step",
+        "create",
+        "evaluator"
+      ]
+    },
+    {
+      "name": "Step 5: Determine column mappings from real run data",
+      "bytes": 712,
+      "when": [
+        "step",
+        "determine",
+        "column",
+        "mappings",
+        "real",
+        "data"
+      ]
+    },
+    {
+      "name": "Step 6: Create the task",
+      "bytes": 374,
+      "when": [
+        "step",
+        "create",
+        "task"
+      ]
+    },
+    {
+      "name": "Step 7: Trigger and monitor",
+      "bytes": 236,
+      "when": [
+        "step",
+        "trigger",
+        "monitor"
+      ]
+    },
+    {
+      "name": "Best Practices for Template Design",
+      "bytes": 2376,
+      "when": [
+        "best",
+        "practices",
+        "template",
+        "design"
+      ]
+    },
+    {
+      "name": "1. Use generic, portable variable names",
+      "bytes": 439,
+      "when": [
+        "generic",
+        "portable",
+        "variable",
+        "names"
+      ]
+    },
+    {
+      "name": "2. Default to binary labels",
+      "bytes": 471,
+      "when": [
+        "default",
+        "binary",
+        "labels"
+      ]
+    },
+    {
+      "name": "3. Be explicit about what the model must return",
+      "bytes": 429,
+      "when": [
+        "explicit",
+        "model",
+        "return"
+      ]
+    },
+    {
+      "name": "4. Keep temperature low",
+      "bytes": 165,
+      "when": [
+        "keep",
+        "temperature"
+      ]
+    },
+    {
+      "name": "5. Use `--include-explanations` for debugging",
+      "bytes": 190,
+      "when": [
+        "include",
+        "explanations",
+        "debugging"
+      ]
+    },
+    {
+      "name": "6. Pass the template in single quotes in bash",
+      "bytes": 323,
+      "when": [
+        "pass",
+        "template",
+        "single",
+        "quotes",
+        "bash"
+      ]
+    },
+    {
+      "name": "7. Always set `--classification-choices` to match your template labels",
+      "bytes": 320,
+      "when": [
+        "classification",
+        "choices",
+        "match",
+        "template",
+        "labels"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 5595,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Diagnosing cancelled runs",
+      "bytes": 3170,
+      "when": [
+        "diagnosing",
+        "cancelled",
+        "runs"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 457,
+      "when": [
+        "related",
+        "skills"
+      ]
+    },
+    {
+      "name": "Save Credentials for Future Use",
+      "bytes": 102,
+      "when": [
+        "save",
+        "credentials",
+        "future"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\arize-evaluator\\SKILL.md"
+}

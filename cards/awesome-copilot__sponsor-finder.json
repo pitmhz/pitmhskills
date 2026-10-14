@@ -1,0 +1,250 @@
+{
+  "id": "awesome-copilot__sponsor-finder",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "f150e859624fec421a0c93d582a154891dab14c052ce67399c8df0ff12f93aee",
+  "purpose": "Find which of a GitHub repository's dependencies are sponsorable via GitHub Sponsors. Uses deps.dev API for dependency resolution across npm, PyPI, Cargo, Go, RubyGems, Maven, and NuGet. Checks npm fu",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Find which of a GitHub repository's dependencies are sponsorable via GitHub Sponsors. Uses deps.dev API for dependency resolution across npm, PyPI, Cargo, Go, R"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2991,
+  "core_bytes": 12179,
+  "sections": [
+    {
+      "name": "Your Workflow",
+      "bytes": 743,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Detect Ecosystem and Package",
+      "bytes": 753,
+      "when": [
+        "step",
+        "detect",
+        "ecosystem",
+        "package"
+      ]
+    },
+    {
+      "name": "Step 2: Get Full Dependency Tree (deps.dev)",
+      "bytes": 1055,
+      "when": [
+        "step",
+        "full",
+        "dependency",
+        "tree",
+        "deps"
+      ]
+    },
+    {
+      "name": "URL encoding",
+      "bytes": 167,
+      "when": [
+        "encoding"
+      ]
+    },
+    {
+      "name": "For repos without a single root package",
+      "bytes": 225,
+      "when": [
+        "repos",
+        "single",
+        "root",
+        "package"
+      ]
+    },
+    {
+      "name": "Step 3: Resolve Each Dependency to a GitHub Repo (deps.dev)",
+      "bytes": 757,
+      "when": [
+        "step",
+        "resolve",
+        "each",
+        "dependency",
+        "github",
+        "repo",
+        "deps"
+      ]
+    },
+    {
+      "name": "Efficiency rules",
+      "bytes": 203,
+      "when": [
+        "efficiency",
+        "rules"
+      ]
+    },
+    {
+      "name": "Step 4: Get Project Health Data (deps.dev)",
+      "bytes": 789,
+      "when": [
+        "step",
+        "project",
+        "health",
+        "data",
+        "deps"
+      ]
+    },
+    {
+      "name": "Efficiency rules",
+      "bytes": 191,
+      "when": [
+        "efficiency",
+        "rules"
+      ]
+    },
+    {
+      "name": "Step 5: Find Funding Links",
+      "bytes": 2497,
+      "when": [
+        "step",
+        "find",
+        "funding",
+        "links"
+      ]
+    },
+    {
+      "name": "5a: npm `funding` field (npm ecosystem only)",
+      "bytes": 359,
+      "when": [
+        "funding",
+        "field",
+        "ecosystem"
+      ]
+    },
+    {
+      "name": "5b: `.github/FUNDING.yml` (repo-level, then org-level fallback)",
+      "bytes": 1354,
+      "when": [
+        "github",
+        "funding",
+        "repo",
+        "level",
+        "fallback"
+      ]
+    },
+    {
+      "name": "5c: Web search fallback",
+      "bytes": 304,
+      "when": [
+        "search",
+        "fallback"
+      ]
+    },
+    {
+      "name": "Efficiency rules",
+      "bytes": 359,
+      "when": [
+        "efficiency",
+        "rules"
+      ]
+    },
+    {
+      "name": "Step 6: Verify Every Link (CRITICAL)",
+      "bytes": 358,
+      "when": [
+        "step",
+        "verify",
+        "link",
+        "critical"
+      ]
+    },
+    {
+      "name": "Step 7: Output the Report",
+      "bytes": 504,
+      "when": [
+        "step",
+        "output",
+        "report"
+      ]
+    },
+    {
+      "name": "Output discipline",
+      "bytes": 449,
+      "when": [
+        "output",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Report template",
+      "bytes": 25,
+      "when": [
+        "report",
+        "template"
+      ]
+    },
+    {
+      "name": "💜 Sponsor Finder Report",
+      "bytes": 2144,
+      "when": [
+        "sponsor",
+        "finder",
+        "report"
+      ]
+    },
+    {
+      "name": "🎯 Ways to Give Back",
+      "bytes": 604,
+      "when": [
+        "ways",
+        "give",
+        "back"
+      ]
+    },
+    {
+      "name": "📊 Coverage",
+      "bytes": 261,
+      "when": [
+        "coverage"
+      ]
+    },
+    {
+      "name": "Report format rules",
+      "bytes": 1093,
+      "when": [
+        "report",
+        "format",
+        "rules"
+      ]
+    },
+    {
+      "name": "Error Handling",
+      "bytes": 462,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 1288,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\sponsor-finder\\SKILL.md"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "awesome-copilot__poka-yoke",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "39bd4171c088862253310b91a5046f38bf9441da8d3fa78b60a04577949839e4",
+  "purpose": "Mistake-proof code so misuse cannot be expressed, rather than warning against it. Use when designing an interface, schema, or state machine and the user wants it hard to get wrong (\"make invalid state",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Mistake-proof code so misuse cannot be expressed, rather than warning against it. Use when designing an interface, schema, or state machine and the user wants i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2793,
+  "core_bytes": 11185,
+  "sections": [
+    {
+      "name": "The line that does most of the work",
+      "bytes": 516,
+      "when": [
+        "line",
+        "work"
+      ]
+    },
+    {
+      "name": "What this changes about the output",
+      "bytes": 508,
+      "when": [
+        "changes",
+        "output"
+      ]
+    },
+    {
+      "name": "Axis 1: what happens when the mistake occurs",
+      "bytes": 808,
+      "when": [
+        "axis",
+        "happens",
+        "mistake",
+        "occurs"
+      ]
+    },
+    {
+      "name": "Axis 2: how the device notices",
+      "bytes": 687,
+      "when": [
+        "axis",
+        "device",
+        "notices"
+      ]
+    },
+    {
+      "name": "Inspect at the source",
+      "bytes": 301,
+      "when": [
+        "inspect",
+        "source"
+      ]
+    },
+    {
+      "name": "Designing something new",
+      "bytes": 1690,
+      "when": [
+        "designing",
+        "something"
+      ]
+    },
+    {
+      "name": "Auditing code that already exists",
+      "bytes": 1454,
+      "when": [
+        "auditing",
+        "code",
+        "already",
+        "exists"
+      ]
+    },
+    {
+      "name": "After an incident",
+      "bytes": 733,
+      "when": [
+        "after",
+        "incident"
+      ]
+    },
+    {
+      "name": "What good output looks like",
+      "bytes": 538,
+      "when": [
+        "good",
+        "output",
+        "looks"
+      ]
+    },
+    {
+      "name": "What to avoid",
+      "bytes": 713,
+      "when": [
+        "avoid"
+      ]
+    },
+    {
+      "name": "Evidence, and its limits",
+      "bytes": 1470,
+      "when": [
+        "evidence",
+        "limits"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\poka-yoke\\SKILL.md"
+}

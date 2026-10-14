@@ -1,0 +1,180 @@
+{
+  "id": "nvidia__tao-run-inference-service",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "921bfa46b4c73ada7eff6ee38d7224091beef4d73add3d57323a68550a3ac876",
+  "purpose": "Start, query, and stop a network-specific TAO inference microservice ({network_arch}-inference-microservice) by delegating container execution to the appropriate platform skill. Handles container imag",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Start, query, and stop a network-specific TAO inference microservice ({network_arch}-inference-microservice) by delegating container execution to the appropriat"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4690,
+  "core_bytes": 18918,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 1932,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Secrets rule (applies to every generated code block in this skill)",
+      "bytes": 945,
+      "when": [
+        "secrets",
+        "rule",
+        "applies",
+        "generated",
+        "code",
+        "block",
+        "skill"
+      ]
+    },
+    {
+      "name": "1. What to collect from the user",
+      "bytes": 1003,
+      "when": [
+        "collect",
+        "user"
+      ]
+    },
+    {
+      "name": "2. Image resolution",
+      "bytes": 1196,
+      "when": [
+        "image",
+        "resolution"
+      ]
+    },
+    {
+      "name": "3. Environment variables (no callbacks)",
+      "bytes": 876,
+      "when": [
+        "environment",
+        "variables",
+        "callbacks"
+      ]
+    },
+    {
+      "name": "4. Executing across platforms",
+      "bytes": 5942,
+      "when": [
+        "executing",
+        "platforms"
+      ]
+    },
+    {
+      "name": "4.1 Build the inner command (per arch)",
+      "bytes": 1923,
+      "when": [
+        "build",
+        "inner",
+        "command",
+        "arch"
+      ]
+    },
+    {
+      "name": "4.2 Delegate execution to the platform skill",
+      "bytes": 2253,
+      "when": [
+        "delegate",
+        "execution",
+        "platform",
+        "skill"
+      ]
+    },
+    {
+      "name": "4.3 After start: service registry and endpoint",
+      "bytes": 1508,
+      "when": [
+        "after",
+        "start",
+        "service",
+        "registry",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "5. Stopping the inference service",
+      "bytes": 976,
+      "when": [
+        "stopping",
+        "inference",
+        "service"
+      ]
+    },
+    {
+      "name": "6. Sending inference requests",
+      "bytes": 4909,
+      "when": [
+        "sending",
+        "inference",
+        "requests"
+      ]
+    },
+    {
+      "name": "6.0 Resolve which service receives this request (REQUIRED)",
+      "bytes": 2238,
+      "when": [
+        "resolve",
+        "service",
+        "receives",
+        "request",
+        "required"
+      ]
+    },
+    {
+      "name": "6.1 Sampling parameters — REQUIRED user prompt before each request",
+      "bytes": 1120,
+      "when": [
+        "sampling",
+        "parameters",
+        "required",
+        "user",
+        "prompt",
+        "before",
+        "each",
+        "request"
+      ]
+    },
+    {
+      "name": "6.2 Request format",
+      "bytes": 711,
+      "when": [
+        "request",
+        "format"
+      ]
+    },
+    {
+      "name": "6.3 Response handling",
+      "bytes": 804,
+      "when": [
+        "response",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-run-inference-service\\SKILL.md",
+  "curated": true
+}

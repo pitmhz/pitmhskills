@@ -1,0 +1,117 @@
+{
+  "id": "mengto-skills__skeuomorphic-ui",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "e1d7aa6b70622c313ac268342ea42c9e16ddd746e3c6ae0d5e8b6585f1a701fa",
+  "purpose": "Create skeuomorphic web UI surfaces with layered gradients, stacked inner and outer shadows, reflective gradient borders, micro texture, and embossed text or icon details. Use when asked for pressed, ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Create skeuomorphic web UI surfaces with layered gradients, stacked inner and outer shadows, reflective gradient borders, micro texture, and embossed text or ic"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1126,
+  "core_bytes": 4501,
+  "sections": [
+    {
+      "name": "Use When",
+      "bytes": 278,
+      "when": []
+    },
+    {
+      "name": "Surface Recipe",
+      "bytes": 536,
+      "when": [
+        "surface",
+        "recipe"
+      ]
+    },
+    {
+      "name": "Base Tokens",
+      "bytes": 378,
+      "when": [
+        "base",
+        "tokens"
+      ]
+    },
+    {
+      "name": "Raised Surface",
+      "bytes": 948,
+      "when": [
+        "raised",
+        "surface"
+      ]
+    },
+    {
+      "name": "Pressed Surface",
+      "bytes": 501,
+      "when": [
+        "pressed",
+        "surface"
+      ]
+    },
+    {
+      "name": "Embossed Text And Icons",
+      "bytes": 362,
+      "when": [
+        "embossed",
+        "text",
+        "icons"
+      ]
+    },
+    {
+      "name": "Micro Texture",
+      "bytes": 366,
+      "when": [
+        "micro",
+        "texture"
+      ]
+    },
+    {
+      "name": "Taste Rules",
+      "bytes": 455,
+      "when": [
+        "taste",
+        "rules"
+      ]
+    },
+    {
+      "name": "Quick Checks",
+      "bytes": 314,
+      "when": [
+        "quick",
+        "checks"
+      ]
+    }
+  ],
+  "keywords": [
+    "surface",
+    "recipe",
+    "base",
+    "tokens",
+    "raised",
+    "icons",
+    "taste",
+    "rules",
+    "quick",
+    "checks"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\skeuomorphic-ui\\SKILL.md"
+}

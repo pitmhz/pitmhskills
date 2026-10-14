@@ -34,7 +34,41 @@
   "conflicts_with": [],
   "body_tokens": 886,
   "core_bytes": 3544,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/ponytail/skills/ponytail/SKILL.md"
+  "sections": [
+    {
+      "name": "Before you write",
+      "bytes": 294,
+      "when": [
+        "before",
+        "write"
+      ]
+    },
+    {
+      "name": "The smallest complete change",
+      "bytes": 2089,
+      "when": [
+        "smallest",
+        "complete",
+        "change"
+      ]
+    },
+    {
+      "name": "Levels",
+      "bytes": 306,
+      "when": [
+        "levels"
+      ]
+    }
+  ],
+  "keywords": [
+    "before",
+    "write",
+    "complete"
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail\\SKILL.md",
+  "curated": true
 }

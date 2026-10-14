@@ -28,7 +28,195 @@
   "conflicts_with": [],
   "body_tokens": 2024,
   "core_bytes": 8095,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Slack Requirements",
+      "bytes": 263,
+      "when": [
+        "slack",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 548,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Drawing Graphics",
+      "bytes": 2282,
+      "when": [
+        "drawing",
+        "graphics"
+      ]
+    },
+    {
+      "name": "Working with User-Uploaded Images",
+      "bytes": 408,
+      "when": [
+        "working",
+        "user",
+        "uploaded",
+        "images"
+      ]
+    },
+    {
+      "name": "Drawing from Scratch",
+      "bytes": 690,
+      "when": [
+        "drawing",
+        "scratch"
+      ]
+    },
+    {
+      "name": "Making Graphics Look Good",
+      "bytes": 1161,
+      "when": [
+        "making",
+        "graphics",
+        "look",
+        "good"
+      ]
+    },
+    {
+      "name": "Available Utilities",
+      "bytes": 1448,
+      "when": [
+        "available",
+        "utilities"
+      ]
+    },
+    {
+      "name": "GIFBuilder (`core.gif_builder`)",
+      "bytes": 333,
+      "when": [
+        "gifbuilder",
+        "core",
+        "builder"
+      ]
+    },
+    {
+      "name": "Validators (`core.validators`)",
+      "bytes": 313,
+      "when": [
+        "validators",
+        "core"
+      ]
+    },
+    {
+      "name": "Easing Functions (`core.easing`)",
+      "bytes": 363,
+      "when": [
+        "easing",
+        "functions",
+        "core"
+      ]
+    },
+    {
+      "name": "Frame Helpers (`core.frame_composer`)",
+      "bytes": 413,
+      "when": [
+        "frame",
+        "helpers",
+        "core",
+        "composer"
+      ]
+    },
+    {
+      "name": "Animation Concepts",
+      "bytes": 1687,
+      "when": [
+        "animation",
+        "concepts"
+      ]
+    },
+    {
+      "name": "Shake/Vibrate",
+      "bytes": 196,
+      "when": [
+        "shake",
+        "vibrate"
+      ]
+    },
+    {
+      "name": "Pulse/Heartbeat",
+      "bytes": 227,
+      "when": [
+        "pulse",
+        "heartbeat"
+      ]
+    },
+    {
+      "name": "Bounce",
+      "bytes": 209,
+      "when": [
+        "bounce"
+      ]
+    },
+    {
+      "name": "Spin/Rotate",
+      "bytes": 160,
+      "when": [
+        "spin",
+        "rotate"
+      ]
+    },
+    {
+      "name": "Fade In/Out",
+      "bytes": 202,
+      "when": [
+        "fade"
+      ]
+    },
+    {
+      "name": "Slide",
+      "bytes": 234,
+      "when": [
+        "slide"
+      ]
+    },
+    {
+      "name": "Zoom",
+      "bytes": 177,
+      "when": [
+        "zoom"
+      ]
+    },
+    {
+      "name": "Explode/Particle Burst",
+      "bytes": 257,
+      "when": [
+        "explode",
+        "particle",
+        "burst"
+      ]
+    },
+    {
+      "name": "Optimization Strategies",
+      "bytes": 597,
+      "when": [
+        "optimization",
+        "strategies"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "bytes": 766,
+      "when": [
+        "philosophy"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "bytes": 67,
+      "when": [
+        "dependencies"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/anthropic/skills/slack-gif-creator/SKILL.md"
 }

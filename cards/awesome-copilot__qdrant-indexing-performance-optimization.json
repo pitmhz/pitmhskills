@@ -1,0 +1,92 @@
+{
+  "id": "awesome-copilot__qdrant-indexing-performance-optimization",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "344b4283daa2a2977525bccedaee4f96aed8a5bccaeb562c46816c3380c27c29",
+  "purpose": "Diagnoses and fixes slow Qdrant indexing and data ingestion. Use when someone reports 'uploads are slow', 'indexing takes forever', 'optimizer is stuck', 'HNSW build time too long', or 'data uploaded ",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Diagnoses and fixes slow Qdrant indexing and data ingestion. Use when someone reports 'uploads are slow', 'indexing takes forever', 'optimizer is stuck', 'HNSW "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1216,
+  "core_bytes": 4863,
+  "sections": [
+    {
+      "name": "Uploads/Ingestion Too Slow",
+      "bytes": 1367,
+      "when": [
+        "uploads",
+        "ingestion",
+        "slow"
+      ]
+    },
+    {
+      "name": "Optimizer Stuck or Taking Too Long",
+      "bytes": 521,
+      "when": [
+        "optimizer",
+        "stuck",
+        "taking",
+        "long"
+      ]
+    },
+    {
+      "name": "HNSW Build Time Too High",
+      "bytes": 662,
+      "when": [
+        "hnsw",
+        "build",
+        "time",
+        "high"
+      ]
+    },
+    {
+      "name": "HNSW index for multi-tenant collections",
+      "bytes": 451,
+      "when": [
+        "hnsw",
+        "index",
+        "multi",
+        "tenant",
+        "collections"
+      ]
+    },
+    {
+      "name": "Additional Payload Indexes Are Too Slow",
+      "bytes": 776,
+      "when": [
+        "additional",
+        "payload",
+        "indexes",
+        "slow"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 297,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-performance-optimization\\indexing-performance-optimization\\SKILL.md"
+}

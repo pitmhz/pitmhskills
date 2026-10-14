@@ -1,0 +1,150 @@
+{
+  "id": "awesome-copilot__webmcpify",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "4522e2f516a4b43a466f13113dbd15747a10acee6baae9c324df392884b1f071",
+  "purpose": "Make a web app agent-ready — propose a WebMCP tool manifest, integrate, verify in a real browser, heal; unrelated code stays untouched. Use for \"webmcpify\", \"add WebMCP\", or \"expose app actions to AI ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Make a web app agent-ready — propose a WebMCP tool manifest, integrate, verify in a real browser, heal; unrelated code stays untouched. Use for \"webmcpify\", \"ad"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4889,
+  "core_bytes": 19785,
+  "sections": [
+    {
+      "name": "Invocation modes",
+      "bytes": 756,
+      "when": [
+        "invocation",
+        "modes"
+      ]
+    },
+    {
+      "name": "Ground rules (non-negotiable, enforce in every phase)",
+      "bytes": 2035,
+      "when": [
+        "ground",
+        "rules",
+        "negotiable",
+        "enforce",
+        "phase"
+      ]
+    },
+    {
+      "name": "Fresh, authoritative guidance",
+      "bytes": 492,
+      "when": [
+        "fresh",
+        "authoritative",
+        "guidance"
+      ]
+    },
+    {
+      "name": "The state protocol — `.webmcpify/` in the target repo",
+      "bytes": 6052,
+      "when": [
+        "state",
+        "protocol",
+        "webmcpify",
+        "target",
+        "repo"
+      ]
+    },
+    {
+      "name": "Phase 0 — DETECT",
+      "bytes": 610,
+      "when": [
+        "phase",
+        "detect"
+      ]
+    },
+    {
+      "name": "Phase 1 — INVENTORY (loop; scales to any size)",
+      "bytes": 1445,
+      "when": [
+        "phase",
+        "inventory",
+        "loop",
+        "scales",
+        "size"
+      ]
+    },
+    {
+      "name": "GATE — manifest approval (the one main checkpoint)",
+      "bytes": 1299,
+      "when": [
+        "gate",
+        "manifest",
+        "approval",
+        "main",
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "Phase 2 — INTEGRATE (loop)",
+      "bytes": 1428,
+      "when": [
+        "phase",
+        "integrate",
+        "loop"
+      ]
+    },
+    {
+      "name": "Phase 3 — VERIFY (loop)",
+      "bytes": 1504,
+      "when": [
+        "phase",
+        "verify",
+        "loop"
+      ]
+    },
+    {
+      "name": "Phase 4 — HEAL (loop)",
+      "bytes": 838,
+      "when": [
+        "phase",
+        "heal",
+        "loop"
+      ]
+    },
+    {
+      "name": "Final — AUDIT + report",
+      "bytes": 1153,
+      "when": [
+        "final",
+        "audit",
+        "report"
+      ]
+    },
+    {
+      "name": "References (read on demand, not upfront)",
+      "bytes": 518,
+      "when": [
+        "references",
+        "read",
+        "demand",
+        "upfront"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\webmcpify\\SKILL.md"
+}

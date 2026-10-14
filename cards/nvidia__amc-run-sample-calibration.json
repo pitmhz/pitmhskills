@@ -1,0 +1,160 @@
+{
+  "id": "nvidia__amc-run-sample-calibration",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "cc4750398c1f0b95cff0846dc0d5bd8c23c4f0c0c13a91b9feab43ca95f95446",
+  "purpose": "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says test sample dataset, run sample calibration, verify AM",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says test sample da"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3531,
+  "core_bytes": 14212,
+  "sections": [
+    {
+      "name": "When to Use This Skill",
+      "bytes": 1159,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Overview",
+      "bytes": 448,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 433,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2035,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Detect Running Backend",
+      "bytes": 341,
+      "when": [
+        "detect",
+        "running",
+        "backend"
+      ]
+    },
+    {
+      "name": "Locate + Extract Sample Data (idempotent)",
+      "bytes": 879,
+      "when": [
+        "locate",
+        "extract",
+        "sample",
+        "data",
+        "idempotent"
+      ]
+    },
+    {
+      "name": "Run Script",
+      "bytes": 2522,
+      "when": [
+        "script"
+      ]
+    },
+    {
+      "name": "Alternative: Swagger UI Walkthrough",
+      "bytes": 2792,
+      "when": [
+        "alternative",
+        "swagger",
+        "walkthrough"
+      ]
+    },
+    {
+      "name": "Status Fields from `get_project_info`",
+      "bytes": 843,
+      "when": [
+        "status",
+        "fields",
+        "project",
+        "info"
+      ]
+    },
+    {
+      "name": "Success Criteria",
+      "bytes": 577,
+      "when": [
+        "success",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Key Output Files (on the server)",
+      "bytes": 484,
+      "when": [
+        "output",
+        "files",
+        "server"
+      ]
+    },
+    {
+      "name": "Monitoring Progress",
+      "bytes": 962,
+      "when": [
+        "monitoring",
+        "progress"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1284,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Additional Sample Dataset",
+      "bytes": 406,
+      "when": [
+        "additional",
+        "sample",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 477,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/amc-run-sample-calibration/SKILL.md",
+  "curated": true
+}

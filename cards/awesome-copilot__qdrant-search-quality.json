@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot__qdrant-search-quality",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "3af84e9019065cd90cc79210c5833153fc62acdcf55bda359ab7876809be0803",
+  "purpose": "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant matches', 'missing expected results', or ",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant m"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 336,
+  "core_bytes": 1342,
+  "sections": [
+    {
+      "name": "Diagnosis and Tuning",
+      "bytes": 168,
+      "when": [
+        "diagnosis",
+        "tuning"
+      ]
+    },
+    {
+      "name": "Search Strategies",
+      "bytes": 167,
+      "when": [
+        "search",
+        "strategies"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-search-quality\\SKILL.md"
+}

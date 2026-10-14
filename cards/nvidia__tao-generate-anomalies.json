@@ -1,0 +1,220 @@
+{
+  "id": "nvidia__tao-generate-anomalies",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "287b18a749aa6b6839afa8de70b4d60130616cb69d15366ae47c6f8b561cc439",
+  "purpose": "Full PAIDF AnomalyGen pipeline — fine-tune on a new anomaly dataset, generate synthetic anomaly images (SDG), evaluate quality (nn_score), and search per-sample (guidance, crop_ratio) parameters. Thre",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Full PAIDF AnomalyGen pipeline — fine-tune on a new anomaly dataset, generate synthetic anomaly images (SDG), evaluate quality (nn_score), and search per-sample"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4966,
+  "core_bytes": 19979,
+  "sections": [
+    {
+      "name": "Quick Start",
+      "bytes": 1058,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Running in Docker — container launch, mounts & permissions",
+      "bytes": 770,
+      "when": [
+        "running",
+        "docker",
+        "container",
+        "launch",
+        "mounts",
+        "permissions"
+      ]
+    },
+    {
+      "name": "Reference files — read before executing phases",
+      "bytes": 2057,
+      "when": [
+        "reference",
+        "files",
+        "read",
+        "before",
+        "executing",
+        "phases"
+      ]
+    },
+    {
+      "name": "Required parameters",
+      "bytes": 1034,
+      "when": [
+        "required",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Conditionally required",
+      "bytes": 441,
+      "when": [
+        "conditionally",
+        "required"
+      ]
+    },
+    {
+      "name": "Optional parameters",
+      "bytes": 1620,
+      "when": [
+        "optional",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Mode validation (fail fast before any phase)",
+      "bytes": 442,
+      "when": [
+        "mode",
+        "validation",
+        "fail",
+        "fast",
+        "before",
+        "phase"
+      ]
+    },
+    {
+      "name": "Shared variables",
+      "bytes": 1295,
+      "when": [
+        "shared",
+        "variables"
+      ]
+    },
+    {
+      "name": "Guard preflight (product mode only)",
+      "bytes": 492,
+      "when": [
+        "guard",
+        "preflight",
+        "product",
+        "mode"
+      ]
+    },
+    {
+      "name": "Phase 0 — checkpoints",
+      "bytes": 638,
+      "when": [
+        "phase",
+        "checkpoints"
+      ]
+    },
+    {
+      "name": "Phase 1 — fine-tune (skip when `MODE=inference_only`)",
+      "bytes": 742,
+      "when": [
+        "phase",
+        "fine",
+        "tune",
+        "skip",
+        "mode",
+        "inference"
+      ]
+    },
+    {
+      "name": "Phase 2 — prep-testcase (skip when `MODE=finetune_only`)",
+      "bytes": 1108,
+      "when": [
+        "phase",
+        "prep",
+        "testcase",
+        "skip",
+        "mode",
+        "finetune"
+      ]
+    },
+    {
+      "name": "Phase 3 — SDG → `original/`",
+      "bytes": 588,
+      "when": [
+        "phase",
+        "original"
+      ]
+    },
+    {
+      "name": "Phase 4 — eval `original/`",
+      "bytes": 409,
+      "when": [
+        "phase",
+        "eval",
+        "original"
+      ]
+    },
+    {
+      "name": "Phase 5 — per-sample search rounds",
+      "bytes": 705,
+      "when": [
+        "phase",
+        "sample",
+        "search",
+        "rounds"
+      ]
+    },
+    {
+      "name": "Phase 6 — assemble `searched/` (stitch only)",
+      "bytes": 662,
+      "when": [
+        "phase",
+        "assemble",
+        "searched",
+        "stitch"
+      ]
+    },
+    {
+      "name": "Phase 7 — filter + regen + eval (default `nn_threshold=0.4`)",
+      "bytes": 1083,
+      "when": [
+        "phase",
+        "filter",
+        "regen",
+        "eval",
+        "default",
+        "threshold"
+      ]
+    },
+    {
+      "name": "Output layout",
+      "bytes": 1368,
+      "when": [
+        "output",
+        "layout"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 459,
+      "when": [
+        "error",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-generate-anomalies\\SKILL.md",
+  "curated": true
+}

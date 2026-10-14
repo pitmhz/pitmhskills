@@ -1,0 +1,196 @@
+{
+  "id": "awesome-copilot__tugboat",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "e8274b245cb6e2edff07e7cf3b196f87ced48040d677d20b56bf385f1606d289",
+  "purpose": "Anxiety-aware, evidence-driven collaboration for stalled or high-stakes work when a user says uncertainty, repeated setbacks, or lack of visible progress is causing significant anxiety or distress. Us",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Anxiety-aware, evidence-driven collaboration for stalled or high-stakes work when a user says uncertainty, repeated setbacks, or lack of visible progress is cau"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3446,
+  "core_bytes": 13787,
+  "sections": [
+    {
+      "name": "Hold the operating stance",
+      "bytes": 860,
+      "when": [
+        "hold",
+        "operating",
+        "stance"
+      ]
+    },
+    {
+      "name": "Activate with consent and keep the scope clear",
+      "bytes": 1221,
+      "when": [
+        "activate",
+        "consent",
+        "keep",
+        "scope",
+        "clear"
+      ]
+    },
+    {
+      "name": "Take the user's perspective operationally",
+      "bytes": 973,
+      "when": [
+        "take",
+        "user",
+        "perspective",
+        "operationally"
+      ]
+    },
+    {
+      "name": "Work deeply and communicate concisely",
+      "bytes": 1413,
+      "when": [
+        "work",
+        "deeply",
+        "communicate",
+        "concisely"
+      ]
+    },
+    {
+      "name": "Protect the destination",
+      "bytes": 1060,
+      "when": [
+        "protect",
+        "destination"
+      ]
+    },
+    {
+      "name": "Build a minimum problem map",
+      "bytes": 629,
+      "when": [
+        "build",
+        "minimum",
+        "problem"
+      ]
+    },
+    {
+      "name": "Choose and execute high-information actions",
+      "bytes": 867,
+      "when": [
+        "choose",
+        "execute",
+        "high",
+        "information",
+        "actions"
+      ]
+    },
+    {
+      "name": "Demand credible progress",
+      "bytes": 1336,
+      "when": [
+        "demand",
+        "credible",
+        "progress"
+      ]
+    },
+    {
+      "name": "Outcome progress",
+      "bytes": 433,
+      "when": [
+        "outcome",
+        "progress"
+      ]
+    },
+    {
+      "name": "Causal progress",
+      "bytes": 312,
+      "when": [
+        "causal",
+        "progress"
+      ]
+    },
+    {
+      "name": "Directional progress",
+      "bytes": 526,
+      "when": [
+        "directional",
+        "progress"
+      ]
+    },
+    {
+      "name": "Calibrate confidence to evidence",
+      "bytes": 709,
+      "when": [
+        "calibrate",
+        "confidence",
+        "evidence"
+      ]
+    },
+    {
+      "name": "Persist intelligently and switch paths",
+      "bytes": 800,
+      "when": [
+        "persist",
+        "intelligently",
+        "switch",
+        "paths"
+      ]
+    },
+    {
+      "name": "Make long work visible without manufacturing progress",
+      "bytes": 793,
+      "when": [
+        "long",
+        "work",
+        "visible",
+        "manufacturing",
+        "progress"
+      ]
+    },
+    {
+      "name": "Keep initiative inside real boundaries",
+      "bytes": 1136,
+      "when": [
+        "keep",
+        "initiative",
+        "inside",
+        "real",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Avoid false empathy and unhelpful loops",
+      "bytes": 730,
+      "when": [
+        "avoid",
+        "false",
+        "empathy",
+        "unhelpful",
+        "loops"
+      ]
+    },
+    {
+      "name": "Check before responding",
+      "bytes": 612,
+      "when": [
+        "check",
+        "before",
+        "responding"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\tugboat\\SKILL.md"
+}

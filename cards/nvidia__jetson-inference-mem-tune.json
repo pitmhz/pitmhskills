@@ -1,0 +1,141 @@
+{
+  "id": "nvidia__jetson-inference-mem-tune",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d2570d7a4bd3123fe26a669f38c139991b7efe601e1e6359062f9d415eb57763",
+  "purpose": "Pick the serving stack and per-runtime memory flags (vLLM, SGLang, llama.cpp, TensorRT Edge-LLM) for an LLM/VLM workload on any NVIDIA Jetson.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Pick the serving stack and per-runtime memory flags (vLLM, SGLang, llama.cpp, TensorRT Edge-LLM) for an LLM/VLM workload on any NVIDIA Jetson."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2906,
+  "core_bytes": 11630,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 241,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use",
+      "bytes": 339,
+      "when": []
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 325,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Available Scripts",
+      "bytes": 531,
+      "when": [
+        "available",
+        "scripts"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 438,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Expected workflow",
+      "bytes": 860,
+      "when": [
+        "expected",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 433,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Error handling",
+      "bytes": 484,
+      "when": [
+        "error",
+        "handling"
+      ]
+    },
+    {
+      "name": "Output contract for `recommend.py`",
+      "bytes": 673,
+      "when": [
+        "output",
+        "contract",
+        "recommend"
+      ]
+    },
+    {
+      "name": "Runtimes covered",
+      "bytes": 2136,
+      "when": [
+        "runtimes",
+        "covered"
+      ]
+    },
+    {
+      "name": "Quantization recommendations",
+      "bytes": 848,
+      "when": [
+        "quantization",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "Runtime command guidance",
+      "bytes": 2911,
+      "when": [
+        "runtime",
+        "command",
+        "guidance"
+      ]
+    },
+    {
+      "name": "Procedure (the script encodes this)",
+      "bytes": 506,
+      "when": [
+        "procedure",
+        "script",
+        "encodes"
+      ]
+    },
+    {
+      "name": "Safety",
+      "bytes": 184,
+      "when": [
+        "safety"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-inference-mem-tune/SKILL.md"
+}

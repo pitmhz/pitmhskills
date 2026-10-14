@@ -1,0 +1,88 @@
+{
+  "id": "antfu-skills__vue",
+  "tier": "B",
+  "origin": [
+    "antfu/skills@feb0f3aba6566426f12230e7fc7a10d97c1293bb"
+  ],
+  "license": "MIT",
+  "hash": "deec9a7f7b589ba673829eb48336303160fa7dd7625cfebff79d77399e8ce9cc",
+  "purpose": "Vue 3 Composition API, script setup macros, reactivity system, and built-in components. Use when writing Vue SFCs, defineProps/defineEmits/defineModel, watchers, or using Transition/Teleport/Suspense/",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Vue 3 Composition API, script setup macros, reactivity system, and built-in components. Use when writing Vue SFCs, defineProps/defineEmits/defineModel, watchers"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 640,
+  "core_bytes": 2557,
+  "sections": [
+    {
+      "name": "Preferences",
+      "bytes": 288,
+      "when": [
+        "preferences"
+      ]
+    },
+    {
+      "name": "Core",
+      "bytes": 449,
+      "when": [
+        "core"
+      ]
+    },
+    {
+      "name": "Features",
+      "bytes": 255,
+      "when": [
+        "features"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 1043,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Component Template",
+      "bytes": 582,
+      "when": [
+        "component",
+        "template"
+      ]
+    },
+    {
+      "name": "Key Imports",
+      "bytes": 439,
+      "when": [
+        "imports"
+      ]
+    }
+  ],
+  "keywords": [
+    "preferences",
+    "core",
+    "features",
+    "quick",
+    "reference",
+    "component",
+    "template",
+    "imports"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\vue\\SKILL.md"
+}

@@ -29,7 +29,51 @@
   "conflicts_with": [],
   "body_tokens": 2925,
   "core_bytes": 11697,
-  "sections": [],
-  "verify": [],
+  "sections": [
+    {
+      "name": "Inspect the Project",
+      "bytes": 882,
+      "when": [
+        "inspect",
+        "project"
+      ]
+    },
+    {
+      "name": "Retrieve What the Task Needs",
+      "bytes": 4063,
+      "when": [
+        "retrieve",
+        "task",
+        "needs"
+      ]
+    },
+    {
+      "name": "Apply the Change",
+      "bytes": 2605,
+      "when": [
+        "apply",
+        "change"
+      ]
+    },
+    {
+      "name": "Work with Workers Previews",
+      "bytes": 2003,
+      "when": [
+        "work",
+        "workers",
+        "previews"
+      ]
+    },
+    {
+      "name": "Validate",
+      "bytes": 1112,
+      "when": [
+        "validate"
+      ]
+    }
+  ],
+  "verify": [
+    "npx wrangler deploy --dry-run"
+  ],
   "skill_path": "skills/cloudflare/skills/wrangler/SKILL.md"
 }

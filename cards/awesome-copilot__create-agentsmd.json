@@ -1,0 +1,222 @@
+{
+  "id": "awesome-copilot__create-agentsmd",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "97b71d3f7c5e30e9f1740fcd7a45d4bf107b7887947cfd3ab92ac99dee294855",
+  "purpose": "Prompt for generating an AGENTS.md file for a repository",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Prompt for generating an AGENTS.md file for a repository"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1964,
+  "core_bytes": 7859,
+  "sections": [
+    {
+      "name": "What is AGENTS.md?",
+      "bytes": 338,
+      "when": [
+        "agents"
+      ]
+    },
+    {
+      "name": "Key Principles",
+      "bytes": 441,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "File Structure and Content Guidelines",
+      "bytes": 1876,
+      "when": [
+        "file",
+        "structure",
+        "content",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "1. Required Setup",
+      "bytes": 180,
+      "when": [
+        "required",
+        "setup"
+      ]
+    },
+    {
+      "name": "2. Essential Sections to Include",
+      "bytes": 1036,
+      "when": [
+        "essential",
+        "sections",
+        "include"
+      ]
+    },
+    {
+      "name": "3. Optional but Recommended Sections",
+      "bytes": 618,
+      "when": [
+        "optional",
+        "recommended",
+        "sections"
+      ]
+    },
+    {
+      "name": "Example Template",
+      "bytes": 124,
+      "when": [
+        "example",
+        "template"
+      ]
+    },
+    {
+      "name": "Project Overview",
+      "bytes": 92,
+      "when": [
+        "project",
+        "overview"
+      ]
+    },
+    {
+      "name": "Setup Commands",
+      "bytes": 148,
+      "when": [
+        "setup",
+        "commands"
+      ]
+    },
+    {
+      "name": "Development Workflow",
+      "bytes": 139,
+      "when": [
+        "development",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Testing Instructions",
+      "bytes": 197,
+      "when": [
+        "testing",
+        "instructions"
+      ]
+    },
+    {
+      "name": "Code Style",
+      "bytes": 145,
+      "when": [
+        "code",
+        "style"
+      ]
+    },
+    {
+      "name": "Build and Deployment",
+      "bytes": 131,
+      "when": [
+        "build",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Pull Request Guidelines",
+      "bytes": 153,
+      "when": [
+        "pull",
+        "request",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Additional Notes",
+      "bytes": 133,
+      "when": [
+        "additional",
+        "notes"
+      ]
+    },
+    {
+      "name": "Working Example from agents.md",
+      "bytes": 123,
+      "when": [
+        "working",
+        "example",
+        "agents"
+      ]
+    },
+    {
+      "name": "Dev environment tips",
+      "bytes": 500,
+      "when": [
+        "environment",
+        "tips"
+      ]
+    },
+    {
+      "name": "Testing instructions",
+      "bytes": 629,
+      "when": [
+        "testing",
+        "instructions"
+      ]
+    },
+    {
+      "name": "PR instructions",
+      "bytes": 126,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Implementation Steps",
+      "bytes": 852,
+      "when": [
+        "implementation",
+        "steps"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 412,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Monorepo Considerations",
+      "bytes": 282,
+      "when": [
+        "monorepo",
+        "considerations"
+      ]
+    },
+    {
+      "name": "Final Notes",
+      "bytes": 570,
+      "when": [
+        "final",
+        "notes"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-agentsmd\\SKILL.md"
+}

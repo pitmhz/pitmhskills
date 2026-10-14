@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot__qdrant-clients-sdk",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "eac9386970303787ccff5ce65f77e2bc51286a07b27977a8fba1f256f4c95426",
+  "purpose": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 749,
+  "core_bytes": 3015,
+  "sections": [
+    {
+      "name": "API Reference",
+      "bytes": 465,
+      "when": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Code examples",
+      "bytes": 388,
+      "when": [
+        "code",
+        "examples"
+      ]
+    },
+    {
+      "name": "Snippet 1",
+      "bytes": 1116,
+      "when": [
+        "snippet"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-clients-sdk\\SKILL.md"
+}

@@ -27,7 +27,84 @@
   "conflicts_with": [],
   "body_tokens": 866,
   "core_bytes": 3478,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Quick start",
+      "bytes": 605,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1986,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "0) If any MCP call fails because Notion MCP is not connected, pause and set it u",
+      "bytes": 521,
+      "when": [
+        "call",
+        "fails",
+        "because",
+        "notion",
+        "connected",
+        "pause"
+      ]
+    },
+    {
+      "name": "1) Gather inputs",
+      "bytes": 326,
+      "when": [
+        "gather",
+        "inputs"
+      ]
+    },
+    {
+      "name": "2) Choose format",
+      "bytes": 335,
+      "when": [
+        "choose",
+        "format"
+      ]
+    },
+    {
+      "name": "3) Build the agenda/pre-read",
+      "bytes": 331,
+      "when": [
+        "build",
+        "agenda",
+        "read"
+      ]
+    },
+    {
+      "name": "4) Enrich with research",
+      "bytes": 202,
+      "when": [
+        "enrich",
+        "research"
+      ]
+    },
+    {
+      "name": "5) Finalize and share",
+      "bytes": 258,
+      "when": [
+        "finalize",
+        "share"
+      ]
+    },
+    {
+      "name": "References and examples",
+      "bytes": 444,
+      "when": [
+        "references",
+        "examples"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/notion-meeting-intelligence/SKILL.md"
 }

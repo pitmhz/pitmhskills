@@ -1,0 +1,81 @@
+{
+  "id": "nvidia__tao-analyze-gaps-vlm-bcq",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "77149b688062b5102468f11275a40d8c3699ae8607e8fbe297d5ecbeec4f1c48",
+  "purpose": "Extract false-positive and false-negative gaps from VLM binary-classification-question (BCQ, yes/no) predictions.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Extract false-positive and false-negative gaps from VLM binary-classification-question (BCQ, yes/no) predictions."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1344,
+  "core_bytes": 5377,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 360,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Usage",
+      "bytes": 1380,
+      "when": [
+        "usage"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 849,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 335,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Spec Fields",
+      "bytes": 591,
+      "when": [
+        "spec",
+        "fields"
+      ]
+    },
+    {
+      "name": "Error Patterns",
+      "bytes": 714,
+      "when": [
+        "error",
+        "patterns"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-analyze-gaps-vlm-bcq/SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,112 @@
+{
+  "id": "mengto-skills__vantajs",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "da2096f65758a8c16490589e153fbfbebf94305e3f7d163964f64f0ab5682fba",
+  "purpose": "Use when adding animated WebGL background effects with Vanta.js (setup, parameters, resizing, performance, integration in React/Next.js).",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when adding animated WebGL background effects with Vanta.js (setup, parameters, resizing, performance, integration in React/Next.js)."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 520,
+  "core_bytes": 2092,
+  "sections": [
+    {
+      "name": "When to use",
+      "bytes": 201,
+      "when": []
+    },
+    {
+      "name": "How it works",
+      "bytes": 200,
+      "when": [
+        "works"
+      ]
+    },
+    {
+      "name": "Key APIs/patterns",
+      "bytes": 282,
+      "when": [
+        "apis",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 436,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Quick recipes",
+      "bytes": 535,
+      "when": [
+        "quick",
+        "recipes"
+      ]
+    },
+    {
+      "name": "1) Minimal waves background",
+      "bytes": 397,
+      "when": [
+        "minimal",
+        "waves",
+        "background"
+      ]
+    },
+    {
+      "name": "2) React cleanup pattern (concept)",
+      "bytes": 118,
+      "when": [
+        "react",
+        "cleanup",
+        "pattern",
+        "concept"
+      ]
+    },
+    {
+      "name": "What to ask the user",
+      "bytes": 208,
+      "when": [
+        "user"
+      ]
+    }
+  ],
+  "keywords": [
+    "backgrounds",
+    "skill",
+    "works",
+    "apis",
+    "patterns",
+    "common",
+    "pitfalls",
+    "quick",
+    "recipes",
+    "minimal",
+    "waves",
+    "cleanup",
+    "pattern",
+    "concept"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\vantajs\\SKILL.md"
+}

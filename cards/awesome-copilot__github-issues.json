@@ -1,0 +1,210 @@
+{
+  "id": "awesome-copilot__github-issues",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "c7859f993a8c8cfbff117830be1532e82e8b8e913297a40f8e685a662eaf3183",
+  "purpose": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestone",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2298,
+  "core_bytes": 9192,
+  "sections": [
+    {
+      "name": "Available Tools",
+      "bytes": 1994,
+      "when": [
+        "available",
+        "tools"
+      ]
+    },
+    {
+      "name": "MCP Tools (read operations)",
+      "bytes": 666,
+      "when": [
+        "tools",
+        "read",
+        "operations"
+      ]
+    },
+    {
+      "name": "MCP Tools (write operations)",
+      "bytes": 391,
+      "when": [
+        "tools",
+        "write",
+        "operations"
+      ]
+    },
+    {
+      "name": "CLI / REST API (write operations)",
+      "bytes": 917,
+      "when": [
+        "rest",
+        "write",
+        "operations"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 354,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Creating Issues",
+      "bytes": 2050,
+      "when": [
+        "creating",
+        "issues"
+      ]
+    },
+    {
+      "name": "Optional Parameters",
+      "bytes": 1131,
+      "when": [
+        "optional",
+        "parameters"
+      ]
+    },
+    {
+      "name": "Title Guidelines",
+      "bytes": 314,
+      "when": [
+        "title",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "Body Structure",
+      "bytes": 329,
+      "when": [
+        "body",
+        "structure"
+      ]
+    },
+    {
+      "name": "Updating Issues",
+      "bytes": 330,
+      "when": [
+        "updating",
+        "issues"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 353,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: Bug Report",
+      "bytes": 340,
+      "when": [
+        "example",
+        "report"
+      ]
+    },
+    {
+      "name": "Steps to Reproduce",
+      "bytes": 93,
+      "when": [
+        "steps",
+        "reproduce"
+      ]
+    },
+    {
+      "name": "Expected Behavior",
+      "bytes": 84,
+      "when": [
+        "expected",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Actual Behavior",
+      "bytes": 470,
+      "when": [
+        "actual",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Example 2: Feature Request",
+      "bytes": 369,
+      "when": [
+        "example",
+        "feature",
+        "request"
+      ]
+    },
+    {
+      "name": "Motivation",
+      "bytes": 95,
+      "when": [
+        "motivation"
+      ]
+    },
+    {
+      "name": "Proposed Solution",
+      "bytes": 79,
+      "when": [
+        "proposed",
+        "solution"
+      ]
+    },
+    {
+      "name": "Acceptance Criteria",
+      "bytes": 166,
+      "when": [
+        "acceptance",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Common Labels",
+      "bytes": 471,
+      "when": [
+        "common",
+        "labels"
+      ]
+    },
+    {
+      "name": "Tips",
+      "bytes": 255,
+      "when": [
+        "tips"
+      ]
+    },
+    {
+      "name": "Extended Capabilities",
+      "bytes": 1567,
+      "when": [
+        "extended",
+        "capabilities"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\github-issues\\SKILL.md"
+}

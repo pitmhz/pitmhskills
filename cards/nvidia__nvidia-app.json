@@ -1,0 +1,189 @@
+{
+  "id": "nvidia__nvidia-app",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ccd6379d74eaa4001b9ebdf2aef93e6def84437cf4627d82d3af288bff12bbec",
+  "purpose": "NVIDIA App MCP: drivers, games, laptops, overlay. Check drivers, manage and optimize games, configure laptop features.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "NVIDIA App MCP: drivers, games, laptops, overlay. Check drivers, manage and optimize games, configure laptop features."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4311,
+  "core_bytes": 17245,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 791,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "When to use this skill",
+      "bytes": 327,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 706,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 654,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 2879,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Connecting",
+      "bytes": 323,
+      "when": [
+        "connecting"
+      ]
+    },
+    {
+      "name": "General NVIDIA App operations",
+      "bytes": 437,
+      "when": [
+        "general",
+        "nvidia",
+        "operations"
+      ]
+    },
+    {
+      "name": "Overlay operations",
+      "bytes": 1635,
+      "when": [
+        "overlay",
+        "operations"
+      ]
+    },
+    {
+      "name": "Capture and privacy",
+      "bytes": 1295,
+      "when": [
+        "capture",
+        "privacy"
+      ]
+    },
+    {
+      "name": "Decision rules",
+      "bytes": 1815,
+      "when": [
+        "decision",
+        "rules"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 575,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 631,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 2585,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Get driver status",
+      "bytes": 1371,
+      "when": [
+        "driver",
+        "status"
+      ]
+    },
+    {
+      "name": "Start recording with an explicit target state",
+      "bytes": 552,
+      "when": [
+        "start",
+        "recording",
+        "explicit",
+        "target",
+        "state"
+      ]
+    },
+    {
+      "name": "Toggle Instant Replay without a target state",
+      "bytes": 309,
+      "when": [
+        "toggle",
+        "instant",
+        "replay",
+        "target",
+        "state"
+      ]
+    },
+    {
+      "name": "Handle an unsupported screenshot qualifier",
+      "bytes": 338,
+      "when": [
+        "handle",
+        "unsupported",
+        "screenshot",
+        "qualifier"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1297,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 921,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\nvidia-app\\SKILL.md",
+  "curated": true
+}

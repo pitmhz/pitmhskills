@@ -1,0 +1,160 @@
+{
+  "id": "nvidia__tao-finetune-nv-tesseract-forecasting",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1314c24866f61a27427b30250c223aaa248120f41cdbc4c2ecef87ef52505315",
+  "purpose": "NV-Tesseract Forecasting — transformer-based multivariate time series forecasting with DARR (context-enhanced kNN retrieval), interpretability, and fine-tuning. Use when the user asks to \"forecast wit",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "NV-Tesseract Forecasting — transformer-based multivariate time series forecasting with DARR (context-enhanced kNN retrieval), interpretability, and fine-tuning."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3304,
+  "core_bytes": 13290,
+  "sections": [
+    {
+      "name": "External dependencies",
+      "bytes": 415,
+      "when": [
+        "external",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Credentials",
+      "bytes": 246,
+      "when": [
+        "credentials"
+      ]
+    },
+    {
+      "name": "Quick start",
+      "bytes": 372,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Inference",
+      "bytes": 1687,
+      "when": [
+        "inference"
+      ]
+    },
+    {
+      "name": "Checkpoints",
+      "bytes": 446,
+      "when": [
+        "checkpoints"
+      ]
+    },
+    {
+      "name": "DARR mode (context-enhanced forecasting)",
+      "bytes": 852,
+      "when": [
+        "darr",
+        "mode",
+        "context",
+        "enhanced",
+        "forecasting"
+      ]
+    },
+    {
+      "name": "Interpretability",
+      "bytes": 544,
+      "when": [
+        "interpretability"
+      ]
+    },
+    {
+      "name": "Fine-tuning",
+      "bytes": 3792,
+      "when": [
+        "fine",
+        "tuning"
+      ]
+    },
+    {
+      "name": "Fine-tuning arguments",
+      "bytes": 2393,
+      "when": [
+        "fine",
+        "tuning",
+        "arguments"
+      ]
+    },
+    {
+      "name": "Inference with fine-tuned checkpoint",
+      "bytes": 442,
+      "when": [
+        "inference",
+        "fine",
+        "tuned",
+        "checkpoint"
+      ]
+    },
+    {
+      "name": "Data requirements",
+      "bytes": 646,
+      "when": [
+        "data",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Output structure",
+      "bytes": 707,
+      "when": [
+        "output",
+        "structure"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "bytes": 387,
+      "when": [
+        "hardware"
+      ]
+    },
+    {
+      "name": "AutoML (HPO: hyperparameter optimization)",
+      "bytes": 408,
+      "when": [
+        "automl",
+        "hyperparameter",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Known pitfalls",
+      "bytes": 1535,
+      "when": [
+        "known",
+        "pitfalls"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-finetune-nv-tesseract-forecasting\\SKILL.md",
+  "curated": true
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mengto-skills__3d-cloth-material",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "1b73bc70e68d865c0c7cdffc9671ce264550f2683ab4664620c98060ea2f8869",
+  "purpose": "Build convincing woven cloth in Three.js, with a thread-level weave normal map, sheen and anisotropic highlights, folds that never stretch the texture, hems with thickness, stitches, seams, frayed edg",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build convincing woven cloth in Three.js, with a thread-level weave normal map, sheen and anisotropic highlights, folds that never stretch the texture, hems wit"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2428,
+  "core_bytes": 9868,
+  "sections": [
+    {
+      "name": "The rules, each with the failure it prevents",
+      "bytes": 4173,
+      "when": [
+        "rules",
+        "each",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Constants",
+      "bytes": 708,
+      "when": [
+        "constants"
+      ]
+    },
+    {
+      "name": "Gotchas, symptom first",
+      "bytes": 1379,
+      "when": [
+        "gotchas",
+        "symptom",
+        "first"
+      ]
+    },
+    {
+      "name": "Lifecycle",
+      "bytes": 453,
+      "when": [
+        "lifecycle"
+      ]
+    },
+    {
+      "name": "Cost (measured, headless Chrome for Testing, Apple GPU, 1440×900 at DPR 2)",
+      "bytes": 626,
+      "when": [
+        "cost",
+        "measured",
+        "headless",
+        "chrome",
+        "testing",
+        "apple",
+        "1440"
+      ]
+    },
+    {
+      "name": "Score against the rubric (0 = flat coloured plane, 5 = convincing at arm's lengt",
+      "bytes": 509,
+      "when": [
+        "score",
+        "against",
+        "rubric",
+        "flat",
+        "coloured",
+        "plane",
+        "convincing",
+        "length"
+      ]
+    }
+  ],
+  "keywords": [
+    "material",
+    "rules",
+    "each",
+    "failure",
+    "prevents",
+    "constants",
+    "gotchas",
+    "symptom",
+    "first",
+    "lifecycle",
+    "cost",
+    "measured",
+    "headless",
+    "chrome",
+    "testing",
+    "apple",
+    "1440"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-cloth-material\\SKILL.md"
+}

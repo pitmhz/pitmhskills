@@ -1,0 +1,94 @@
+{
+  "id": "nvidia__proteinmpnn-nim",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "96da7dce6215c6afd89161d0a3621fb5d4729a7f0f5bd9fcfd2e23d53c38e1a2",
+  "purpose": "Run ProteinMPNN inverse folding via NVIDIA NIM to design protein sequences for a target backbone. Sends user-provided PDB files and design parameters to NVIDIA's hosted API, authenticated with an envi",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Run ProteinMPNN inverse folding via NVIDIA NIM to design protein sequences for a target backbone. Sends user-provided PDB files and design parameters to NVIDIA'"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2036,
+  "core_bytes": 8146,
+  "sections": [
+    {
+      "name": "Choose Mode",
+      "bytes": 1054,
+      "when": [
+        "choose",
+        "mode"
+      ]
+    },
+    {
+      "name": "Data Transfer and Authorization",
+      "bytes": 1167,
+      "when": [
+        "data",
+        "transfer",
+        "authorization"
+      ]
+    },
+    {
+      "name": "Local Docker",
+      "bytes": 860,
+      "when": [
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1336,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 915,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Save And Report Output",
+      "bytes": 1201,
+      "when": [
+        "save",
+        "report",
+        "output"
+      ]
+    },
+    {
+      "name": "Limits And Troubleshooting",
+      "bytes": 379,
+      "when": [
+        "limits",
+        "troubleshooting"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-proteinmpnn-nim\\SKILL.md",
+  "curated": true
+}

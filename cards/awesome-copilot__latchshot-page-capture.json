@@ -1,0 +1,84 @@
+{
+  "id": "awesome-copilot__latchshot-page-capture",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "65d6fb69e6f74f55dfaf5e8f3aec2e320fe06cae1586d6aa04e94e653487b2ce",
+  "purpose": "Use this skill when a user needs a screenshot, website thumbnail, full-page capture, or PDF of a public HTTP(S) webpage saved as a local artifact through Latchshot, including report, QA, archive, and ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use this skill when a user needs a screenshot, website thumbnail, full-page capture, or PDF of a public HTTP(S) webpage saved as a local artifact through Latchs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow",
+    "Bot-protected page"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Screenshots/PDFs of public pages -> this. Bot-protected or stealth work -> obscura.",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1283,
+  "core_bytes": 5133,
+  "sections": [
+    {
+      "name": "Prerequisite",
+      "bytes": 565,
+      "when": [
+        "prerequisite"
+      ]
+    },
+    {
+      "name": "No-key demo",
+      "bytes": 706,
+      "when": [
+        "demo"
+      ]
+    },
+    {
+      "name": "Capture workflow",
+      "bytes": 1715,
+      "when": [
+        "capture",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Read quota",
+      "bytes": 200,
+      "when": [
+        "read",
+        "quota"
+      ]
+    },
+    {
+      "name": "Failure handling",
+      "bytes": 643,
+      "when": [
+        "failure",
+        "handling"
+      ]
+    },
+    {
+      "name": "Hard boundaries",
+      "bytes": 309,
+      "when": [
+        "hard",
+        "boundaries"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\latchshot-page-capture\\SKILL.md",
+  "curated": true
+}

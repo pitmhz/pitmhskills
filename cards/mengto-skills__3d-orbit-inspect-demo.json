@@ -1,0 +1,104 @@
+{
+  "id": "mengto-skills__3d-orbit-inspect-demo",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "18f5dd29bb2f8d8337d17e1eb2581571da56e2fae64b8ef9008c70910287f248",
+  "purpose": "Make a 3D object lean around on hover and open a full inspect view on click. Hover is a damped, bounded camera lean; click lifts the piece off its bench into the hand, where you drag to turn it, coast",
+  "domain": "memory",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Make a 3D object lean around on hover and open a full inspect view on click. Hover is a damped, bounded camera lean; click lifts the piece off its bench into th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2494,
+  "core_bytes": 9985,
+  "sections": [
+    {
+      "name": "What is and is not in the source",
+      "bytes": 1176,
+      "when": [
+        "source"
+      ]
+    },
+    {
+      "name": "Rules, each with the failure it prevents",
+      "bytes": 3729,
+      "when": [
+        "rules",
+        "each",
+        "failure",
+        "prevents"
+      ]
+    },
+    {
+      "name": "Numbers",
+      "bytes": 704,
+      "when": [
+        "numbers"
+      ]
+    },
+    {
+      "name": "Room",
+      "bytes": 403,
+      "when": [
+        "room"
+      ]
+    },
+    {
+      "name": "Reduced motion, hidden, cost",
+      "bytes": 725,
+      "when": [
+        "reduced",
+        "motion",
+        "hidden",
+        "cost"
+      ]
+    },
+    {
+      "name": "Expensive gotchas",
+      "bytes": 907,
+      "when": [
+        "expensive",
+        "gotchas"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 692,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "source",
+    "rules",
+    "failure",
+    "prevents",
+    "numbers",
+    "room",
+    "reduced",
+    "motion",
+    "hidden",
+    "cost",
+    "expensive",
+    "gotchas"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\3d\\3d-orbit-inspect-demo\\SKILL.md"
+}

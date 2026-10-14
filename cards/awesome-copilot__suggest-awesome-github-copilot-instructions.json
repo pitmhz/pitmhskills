@@ -1,0 +1,119 @@
+{
+  "id": "awesome-copilot__suggest-awesome-github-copilot-instructions",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9bdff877d0d4797d6fe4843e1f134b9935bf45adb3b0dca25514292b41d8fd74",
+  "purpose": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repos",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1904,
+  "core_bytes": 7639,
+  "sections": [
+    {
+      "name": "Process",
+      "bytes": 2251,
+      "when": [
+        "process"
+      ]
+    },
+    {
+      "name": "Context Analysis Criteria",
+      "bytes": 466,
+      "when": [
+        "context",
+        "analysis",
+        "criteria"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 1123,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Local Instructions Discovery Process",
+      "bytes": 355,
+      "when": [
+        "local",
+        "instructions",
+        "discovery",
+        "process"
+      ]
+    },
+    {
+      "name": "Version Comparison Process",
+      "bytes": 616,
+      "when": [
+        "version",
+        "comparison",
+        "process"
+      ]
+    },
+    {
+      "name": "File Structure Requirements",
+      "bytes": 440,
+      "when": [
+        "file",
+        "structure",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Front Matter Structure",
+      "bytes": 258,
+      "when": [
+        "front",
+        "matter",
+        "structure"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 960,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Icons Reference",
+      "bytes": 139,
+      "when": [
+        "icons",
+        "reference"
+      ]
+    },
+    {
+      "name": "Update Handling",
+      "bytes": 386,
+      "when": [
+        "update",
+        "handling"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\suggest-awesome-github-copilot-instructions\\SKILL.md"
+}

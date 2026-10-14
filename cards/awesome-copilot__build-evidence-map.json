@@ -1,0 +1,59 @@
+{
+  "id": "awesome-copilot__build-evidence-map",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "fb104196d94a0530eb5b86c56edfdaac0954a842f7cc71dfd4dcf87b20675fc9",
+  "purpose": "Build an auditable evidence map for a contested technical choice, research synthesis, proposal review, or consequential decision. Use when Copilot must preserve supporting, contradicting, qualifying, ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build an auditable evidence map for a contested technical choice, research synthesis, proposal review, or consequential decision. Use when Copilot must preserve"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1270,
+  "core_bytes": 5080,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 3125,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Quality gates",
+      "bytes": 656,
+      "when": [
+        "quality",
+        "gates"
+      ]
+    },
+    {
+      "name": "Deliver the result",
+      "bytes": 468,
+      "when": [
+        "deliver",
+        "result"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\build-evidence-map\\SKILL.md"
+}

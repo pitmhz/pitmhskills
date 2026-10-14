@@ -1,0 +1,169 @@
+{
+  "id": "nvidia__tao-launch-workflow",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d70b0f98ef120e9923311392dcb21b3535a4bbeeb0299cce1f008ac0ce0e39a4",
+  "purpose": "The mandatory pre-launch gate and four-verb execution contract for every TAO workflow or action. Invoke BEFORE launching anything side-effecting — AutoML, train, evaluate, inference, export, TensorRT ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "The mandatory pre-launch gate and four-verb execution contract for every TAO workflow or action. Invoke BEFORE launching anything side-effecting — AutoML, train"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4626,
+  "core_bytes": 18538,
+  "sections": [
+    {
+      "name": "Quick Start",
+      "bytes": 168,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Non-Negotiable Launch Gate",
+      "bytes": 2010,
+      "when": [
+        "negotiable",
+        "launch",
+        "gate"
+      ]
+    },
+    {
+      "name": "The Four-Verb Execution Contract",
+      "bytes": 3646,
+      "when": [
+        "four",
+        "verb",
+        "execution",
+        "contract"
+      ]
+    },
+    {
+      "name": "External platform skills",
+      "bytes": 433,
+      "when": [
+        "external",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "name": "Failure analysis & retry",
+      "bytes": 382,
+      "when": [
+        "failure",
+        "analysis",
+        "retry"
+      ]
+    },
+    {
+      "name": "Initial Questions",
+      "bytes": 2309,
+      "when": [
+        "initial",
+        "questions"
+      ]
+    },
+    {
+      "name": "Missing-Input Prompt Shape",
+      "bytes": 201,
+      "when": [
+        "missing",
+        "input",
+        "prompt",
+        "shape"
+      ]
+    },
+    {
+      "name": "Implementation Backend Resolution",
+      "bytes": 999,
+      "when": [
+        "implementation",
+        "backend",
+        "resolution"
+      ]
+    },
+    {
+      "name": "Container Image Confirmation",
+      "bytes": 1306,
+      "when": [
+        "container",
+        "image",
+        "confirmation"
+      ]
+    },
+    {
+      "name": "Credential Filtering",
+      "bytes": 1896,
+      "when": [
+        "credential",
+        "filtering"
+      ]
+    },
+    {
+      "name": "Dependency Remediation",
+      "bytes": 473,
+      "when": [
+        "dependency",
+        "remediation"
+      ]
+    },
+    {
+      "name": "Dataset Intake",
+      "bytes": 1483,
+      "when": [
+        "dataset",
+        "intake"
+      ]
+    },
+    {
+      "name": "Platform Preflight",
+      "bytes": 766,
+      "when": [
+        "platform",
+        "preflight"
+      ]
+    },
+    {
+      "name": "Runtime And Configuration Review",
+      "bytes": 1437,
+      "when": [
+        "runtime",
+        "configuration",
+        "review"
+      ]
+    },
+    {
+      "name": "Structured Training Metrics",
+      "bytes": 670,
+      "when": [
+        "structured",
+        "training",
+        "metrics"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\tao-launch-workflow\\SKILL.md",
+  "curated": true
+}

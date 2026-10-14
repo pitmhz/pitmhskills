@@ -36,10 +36,166 @@
   ],
   "body_tokens": 1879,
   "core_bytes": 7529,
-  "sections": [],
+  "sections": [
+    {
+      "name": "1. Core Principles",
+      "bytes": 2038,
+      "when": [
+        "core",
+        "principles"
+      ]
+    },
+    {
+      "name": "1.1 Desktop-Only Focus",
+      "bytes": 451,
+      "when": [
+        "desktop",
+        "focus"
+      ]
+    },
+    {
+      "name": "1.2 System-Only Typography (Zero External Font Dependencies)",
+      "bytes": 822,
+      "when": [
+        "system",
+        "typography",
+        "zero",
+        "external",
+        "font",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "1.3 Mathematical Type Scale Tokens",
+      "bytes": 740,
+      "when": [
+        "mathematical",
+        "type",
+        "scale",
+        "tokens"
+      ]
+    },
+    {
+      "name": "2. Responsive Min/Max Breakpoint Grid Column System",
+      "bytes": 1631,
+      "when": [
+        "responsive",
+        "breakpoint",
+        "grid",
+        "column",
+        "system"
+      ]
+    },
+    {
+      "name": "2.1 The Problem with Naive Viewport Grids",
+      "bytes": 437,
+      "when": [
+        "problem",
+        "naive",
+        "viewport",
+        "grids"
+      ]
+    },
+    {
+      "name": "2.2 Container Queries + CSS Grid MinMax",
+      "bytes": 588,
+      "when": [
+        "container",
+        "queries",
+        "grid",
+        "minmax"
+      ]
+    },
+    {
+      "name": "2.3 Breakpoint Behavior Matrix",
+      "bytes": 548,
+      "when": [
+        "breakpoint",
+        "behavior",
+        "matrix"
+      ]
+    },
+    {
+      "name": "3. Sidebar-Adaptive Transitions",
+      "bytes": 830,
+      "when": [
+        "sidebar",
+        "adaptive",
+        "transitions"
+      ]
+    },
+    {
+      "name": "3.1 Fluid Geometry",
+      "bytes": 391,
+      "when": [
+        "fluid",
+        "geometry"
+      ]
+    },
+    {
+      "name": "3.2 Card Internal Adaptation",
+      "bytes": 401,
+      "when": [
+        "card",
+        "internal",
+        "adaptation"
+      ]
+    },
+    {
+      "name": "4. Deep Visual Hierarchy in Right Sidebars (Inspectors)",
+      "bytes": 786,
+      "when": [
+        "deep",
+        "visual",
+        "hierarchy",
+        "right",
+        "sidebars",
+        "inspectors"
+      ]
+    },
+    {
+      "name": "5. Text Rendering & Legibility Engineering",
+      "bytes": 824,
+      "when": [
+        "text",
+        "rendering",
+        "legibility",
+        "engineering"
+      ]
+    },
+    {
+      "name": "5.1 Subpixel Antialiasing (LCD ClearType)",
+      "bytes": 396,
+      "when": [
+        "subpixel",
+        "antialiasing",
+        "cleartype"
+      ]
+    },
+    {
+      "name": "5.2 Grayscale Antialiasing (OLED & Retina)",
+      "bytes": 379,
+      "when": [
+        "grayscale",
+        "antialiasing",
+        "oled",
+        "retina"
+      ]
+    },
+    {
+      "name": "6. WCAG 2.2 AA / AAA Compliance Checklist",
+      "bytes": 750,
+      "when": [
+        "wcag",
+        "compliance",
+        "checklist"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:/Users/Mattchine/skills/desktop-dashboard-ui/SKILL.md"
+  "skill_path": "C:/Users/Mattchine/skills/desktop-dashboard-ui/SKILL.md",
+  "curated": true
 }

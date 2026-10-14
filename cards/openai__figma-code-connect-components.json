@@ -28,7 +28,292 @@
   "conflicts_with": [],
   "body_tokens": 4273,
   "core_bytes": 17112,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Overview",
+      "bytes": 303,
+      "when": [
+        "overview"
+      ]
+    },
+    {
+      "name": "Skill Boundaries",
+      "bytes": 536,
+      "when": [
+        "skill",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 700,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Required Workflow",
+      "bytes": 6391,
+      "when": [
+        "required",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Step 1: Get Code Connect Suggestions",
+      "bytes": 2167,
+      "when": [
+        "step",
+        "code",
+        "connect",
+        "suggestions"
+      ]
+    },
+    {
+      "name": "Step 2: Scan Codebase for Matching Components",
+      "bytes": 1551,
+      "when": [
+        "step",
+        "scan",
+        "codebase",
+        "matching",
+        "components"
+      ]
+    },
+    {
+      "name": "Step 3: Present Matches to User",
+      "bytes": 858,
+      "when": [
+        "step",
+        "present",
+        "matches",
+        "user"
+      ]
+    },
+    {
+      "name": "Step 4: Create Code Connect Mappings",
+      "bytes": 1736,
+      "when": [
+        "step",
+        "create",
+        "code",
+        "connect",
+        "mappings"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 4041,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Example 1: Connecting a Button Component",
+      "bytes": 1264,
+      "when": [
+        "example",
+        "connecting",
+        "button",
+        "component"
+      ]
+    },
+    {
+      "name": "Example 2: Multiple Components with Partial Selection",
+      "bytes": 1533,
+      "when": [
+        "example",
+        "multiple",
+        "components",
+        "partial",
+        "selection"
+      ]
+    },
+    {
+      "name": "Example 3: Component Needs Creation",
+      "bytes": 1229,
+      "when": [
+        "example",
+        "component",
+        "needs",
+        "creation"
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "bytes": 1048,
+      "when": [
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "name": "Proactive Component Discovery",
+      "bytes": 225,
+      "when": [
+        "proactive",
+        "component",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Accurate Structure Matching",
+      "bytes": 269,
+      "when": [
+        "accurate",
+        "structure",
+        "matching"
+      ]
+    },
+    {
+      "name": "Clear Communication",
+      "bytes": 186,
+      "when": [
+        "clear",
+        "communication"
+      ]
+    },
+    {
+      "name": "Handle Ambiguity",
+      "bytes": 172,
+      "when": [
+        "handle",
+        "ambiguity"
+      ]
+    },
+    {
+      "name": "Graceful Degradation",
+      "bytes": 175,
+      "when": [
+        "graceful",
+        "degradation"
+      ]
+    },
+    {
+      "name": "Common Issues and Solutions",
+      "bytes": 2889,
+      "when": [
+        "common",
+        "issues",
+        "solutions"
+      ]
+    },
+    {
+      "name": "Issue: \"No published components found in this selection\"",
+      "bytes": 507,
+      "when": [
+        "issue",
+        "published",
+        "components",
+        "found",
+        "selection"
+      ]
+    },
+    {
+      "name": "Issue: \"Code Connect is only available on Organization and Enterprise plans\"",
+      "bytes": 270,
+      "when": [
+        "issue",
+        "code",
+        "connect",
+        "available",
+        "organization",
+        "enterprise",
+        "plans"
+      ]
+    },
+    {
+      "name": "Issue: No matching component found in codebase",
+      "bytes": 347,
+      "when": [
+        "issue",
+        "matching",
+        "component",
+        "found",
+        "codebase"
+      ]
+    },
+    {
+      "name": "Issue: \"Published component not found\" (CODE_CONNECT_ASSET_NOT_FOUND)",
+      "bytes": 409,
+      "when": [
+        "issue",
+        "published",
+        "component",
+        "found",
+        "code",
+        "connect",
+        "asset"
+      ]
+    },
+    {
+      "name": "Issue: \"Component is already mapped to code\" (CODE_CONNECT_MAPPING_ALREADY_EXIST",
+      "bytes": 311,
+      "when": [
+        "issue",
+        "component",
+        "already",
+        "mapped",
+        "code",
+        "connect",
+        "mapping",
+        "exists"
+      ]
+    },
+    {
+      "name": "Issue: \"Insufficient permissions to create mapping\" (CODE_CONNECT_INSUFFICIENT_P",
+      "bytes": 301,
+      "when": [
+        "issue",
+        "insufficient",
+        "permissions",
+        "create",
+        "mapping",
+        "code",
+        "connect"
+      ]
+    },
+    {
+      "name": "Issue: Code Connect mapping fails with URL errors",
+      "bytes": 355,
+      "when": [
+        "issue",
+        "code",
+        "connect",
+        "mapping",
+        "fails",
+        "errors"
+      ]
+    },
+    {
+      "name": "Issue: Multiple similar components found",
+      "bytes": 355,
+      "when": [
+        "issue",
+        "multiple",
+        "similar",
+        "components",
+        "found"
+      ]
+    },
+    {
+      "name": "Understanding Code Connect",
+      "bytes": 463,
+      "when": [
+        "understanding",
+        "code",
+        "connect"
+      ]
+    },
+    {
+      "name": "Additional Resources",
+      "bytes": 284,
+      "when": [
+        "additional",
+        "resources"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/openai/skills/.curated/figma-code-connect-components/SKILL.md"
 }

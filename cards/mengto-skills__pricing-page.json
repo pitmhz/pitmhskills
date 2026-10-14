@@ -1,0 +1,328 @@
+{
+  "id": "mengto-skills__pricing-page",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "dfcf2976aa9497b88dfe253a10a8ac008ac1c175399b0823a126500a9795e77f",
+  "purpose": "Use when designing or rewriting a high-converting SaaS pricing page (structure, plan design, copywriting, SEO/AEO, FAQs, layout patterns, experiments). Includes checklists, templates, and common pitfa",
+  "domain": "general",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Use when designing or rewriting a high-converting SaaS pricing page (structure, plan design, copywriting, SEO/AEO, FAQs, layout patterns, experiments). Includes"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Pricing page with plan comparison -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "pricing plans comparison tiers",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1479,
+  "core_bytes": 6070,
+  "sections": [
+    {
+      "name": "Before you design/write",
+      "bytes": 796,
+      "when": [
+        "before",
+        "design",
+        "write"
+      ]
+    },
+    {
+      "name": "1) Offer + audience",
+      "bytes": 179,
+      "when": [
+        "offer",
+        "audience"
+      ]
+    },
+    {
+      "name": "2) Plans",
+      "bytes": 172,
+      "when": [
+        "plans"
+      ]
+    },
+    {
+      "name": "3) Objections + risk",
+      "bytes": 178,
+      "when": [
+        "objections",
+        "risk"
+      ]
+    },
+    {
+      "name": "4) Proof",
+      "bytes": 71,
+      "when": [
+        "proof"
+      ]
+    },
+    {
+      "name": "5) Traffic context",
+      "bytes": 140,
+      "when": [
+        "traffic",
+        "context"
+      ]
+    },
+    {
+      "name": "Core structure (what a pricing page should have)",
+      "bytes": 594,
+      "when": [
+        "core",
+        "structure",
+        "pricing",
+        "page"
+      ]
+    },
+    {
+      "name": "Above the fold (must)",
+      "bytes": 258,
+      "when": [
+        "above",
+        "fold"
+      ]
+    },
+    {
+      "name": "Below the fold (high leverage)",
+      "bytes": 281,
+      "when": [
+        "below",
+        "fold",
+        "high",
+        "leverage"
+      ]
+    },
+    {
+      "name": "Layout types (pick one)",
+      "bytes": 720,
+      "when": [
+        "layout",
+        "types",
+        "pick"
+      ]
+    },
+    {
+      "name": "A) Classic 3‑card",
+      "bytes": 202,
+      "when": [
+        "classic",
+        "card"
+      ]
+    },
+    {
+      "name": "B) Value metric slider",
+      "bytes": 168,
+      "when": [
+        "value",
+        "metric",
+        "slider"
+      ]
+    },
+    {
+      "name": "C) “Pick your path” (two columns)",
+      "bytes": 154,
+      "when": [
+        "pick",
+        "path",
+        "columns"
+      ]
+    },
+    {
+      "name": "D) Enterprise last mile",
+      "bytes": 166,
+      "when": [
+        "enterprise",
+        "last",
+        "mile"
+      ]
+    },
+    {
+      "name": "High‑conversion strategies (practical)",
+      "bytes": 977,
+      "when": [
+        "high",
+        "conversion",
+        "strategies",
+        "practical"
+      ]
+    },
+    {
+      "name": "1) Make the decision easy",
+      "bytes": 162,
+      "when": [
+        "decision",
+        "easy"
+      ]
+    },
+    {
+      "name": "2) Anchor value (without being shady)",
+      "bytes": 169,
+      "when": [
+        "anchor",
+        "value",
+        "being",
+        "shady"
+      ]
+    },
+    {
+      "name": "3) Reduce risk",
+      "bytes": 163,
+      "when": [
+        "reduce",
+        "risk"
+      ]
+    },
+    {
+      "name": "4) Handle objections before they bounce",
+      "bytes": 256,
+      "when": [
+        "handle",
+        "objections",
+        "before",
+        "they",
+        "bounce"
+      ]
+    },
+    {
+      "name": "5) Provide a comparison that’s readable",
+      "bytes": 180,
+      "when": [
+        "provide",
+        "comparison",
+        "readable"
+      ]
+    },
+    {
+      "name": "Copywriting (templates)",
+      "bytes": 758,
+      "when": [
+        "copywriting",
+        "templates"
+      ]
+    },
+    {
+      "name": "Headlines (choose a formula)",
+      "bytes": 181,
+      "when": [
+        "headlines",
+        "choose",
+        "formula"
+      ]
+    },
+    {
+      "name": "Plan description (2 lines)",
+      "bytes": 166,
+      "when": [
+        "plan",
+        "description",
+        "lines"
+      ]
+    },
+    {
+      "name": "CTA buttons",
+      "bytes": 237,
+      "when": [
+        "buttons"
+      ]
+    },
+    {
+      "name": "Feature bullets (write like outcomes)",
+      "bytes": 144,
+      "when": [
+        "feature",
+        "bullets",
+        "write",
+        "outcomes"
+      ]
+    },
+    {
+      "name": "Pricing table checklist (UI)",
+      "bytes": 398,
+      "when": [
+        "pricing",
+        "table",
+        "checklist"
+      ]
+    },
+    {
+      "name": "SEO + AEO (AI answers) checklist",
+      "bytes": 580,
+      "when": [
+        "answers",
+        "checklist"
+      ]
+    },
+    {
+      "name": "SEO basics",
+      "bytes": 262,
+      "when": [
+        "basics"
+      ]
+    },
+    {
+      "name": "AEO (answer engines)",
+      "bytes": 279,
+      "when": [
+        "answer",
+        "engines"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 273,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Output format (when generating a pricing page)",
+      "bytes": 297,
+      "when": [
+        "output",
+        "format",
+        "generating",
+        "pricing",
+        "page"
+      ]
+    },
+    {
+      "name": "Quick questions (if user gives you only “make a pricing page”)",
+      "bytes": 208,
+      "when": [
+        "quick",
+        "questions",
+        "user",
+        "pricing",
+        "page"
+      ]
+    }
+  ],
+  "keywords": [
+    "conversion",
+    "skill",
+    "before",
+    "write",
+    "offer",
+    "audience",
+    "plans",
+    "objections",
+    "risk",
+    "proof",
+    "traffic",
+    "context"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\pricing-page\\SKILL.md"
+}

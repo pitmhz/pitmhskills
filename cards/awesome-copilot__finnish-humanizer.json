@@ -1,0 +1,110 @@
+{
+  "id": "awesome-copilot__finnish-humanizer",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a21c9d7e4fb7a6a1dd814c9ea68dc7a85a3333596ec4426b4c9122b2fb936820",
+  "purpose": "Detect and remove AI-generated markers from Finnish text, making it sound like a native Finnish speaker wrote it. Use when asked to \"humanize\", \"naturalize\", or \"remove AI feel\" from Finnish text, or ",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Detect and remove AI-generated markers from Finnish text, making it sound like a native Finnish speaker wrote it. Use when asked to \"humanize\", \"naturalize\", or"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1734,
+  "core_bytes": 7247,
+  "sections": [
+    {
+      "name": "Esimerkki: sieluton vs. elävä",
+      "bytes": 312,
+      "when": [
+        "esimerkki",
+        "sieluton"
+      ]
+    },
+    {
+      "name": "Persoonallisuuden lisääminen",
+      "bytes": 688,
+      "when": [
+        "persoonallisuuden",
+        "minen"
+      ]
+    },
+    {
+      "name": "Prosessi",
+      "bytes": 350,
+      "when": [
+        "prosessi"
+      ]
+    },
+    {
+      "name": "Adaptiivinen workflow",
+      "bytes": 413,
+      "when": [
+        "adaptiivinen",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Esimerkkipatternit",
+      "bytes": 2372,
+      "when": [
+        "esimerkkipatternit"
+      ]
+    },
+    {
+      "name": "Suomenkieliset patternit",
+      "bytes": 1168,
+      "when": [
+        "suomenkieliset",
+        "patternit"
+      ]
+    },
+    {
+      "name": "Universaalit patternit suomeksi",
+      "bytes": 910,
+      "when": [
+        "universaalit",
+        "patternit",
+        "suomeksi"
+      ]
+    },
+    {
+      "name": "Tulostusformaatti",
+      "bytes": 342,
+      "when": [
+        "tulostusformaatti"
+      ]
+    },
+    {
+      "name": "Reunaehdot",
+      "bytes": 858,
+      "when": [
+        "reunaehdot"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 199,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\finnish-humanizer\\SKILL.md"
+}

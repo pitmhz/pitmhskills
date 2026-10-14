@@ -1,0 +1,148 @@
+{
+  "id": "awesome-copilot__gtm-technical-product-pricing",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "afb71bdbcbc0bfe8ec1ba210b0184e9b03466f3db9c3e9805fb898d76bb90460",
+  "purpose": "Pricing strategy for technical products. Use when choosing usage-based vs seat-based, designing freemium thresholds, structuring enterprise pricing conversations, deciding when to raise prices, or usi",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Pricing strategy for technical products. Use when choosing usage-based vs seat-based, designing freemium thresholds, structuring enterprise pricing conversation"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3219,
+  "core_bytes": 13108,
+  "sections": [
+    {
+      "name": "Initial Assessment",
+      "bytes": 460,
+      "when": [
+        "initial",
+        "assessment"
+      ]
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 10551,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. The Price Increase Nobody Noticed (You're Probably Underpriced)",
+      "bytes": 1809,
+      "when": [
+        "price",
+        "increase",
+        "nobody",
+        "noticed",
+        "probably",
+        "underpriced"
+      ]
+    },
+    {
+      "name": "2. The Three Pricing Models (And When Each Breaks)",
+      "bytes": 1812,
+      "when": [
+        "three",
+        "pricing",
+        "models",
+        "each",
+        "breaks"
+      ]
+    },
+    {
+      "name": "3. Freemium Threshold Design (Where Free Ends and Paid Begins)",
+      "bytes": 2061,
+      "when": [
+        "freemium",
+        "threshold",
+        "design",
+        "where",
+        "free",
+        "ends",
+        "paid",
+        "begins"
+      ]
+    },
+    {
+      "name": "4. Enterprise Pricing (The Conversation, Not the Number)",
+      "bytes": 2179,
+      "when": [
+        "enterprise",
+        "pricing",
+        "conversation",
+        "number"
+      ]
+    },
+    {
+      "name": "5. Pricing as Positioning Signal",
+      "bytes": 1452,
+      "when": [
+        "pricing",
+        "positioning",
+        "signal"
+      ]
+    },
+    {
+      "name": "6. When and How to Raise Prices",
+      "bytes": 1218,
+      "when": [
+        "raise",
+        "prices"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 928,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Which Pricing Model?",
+      "bytes": 435,
+      "when": [
+        "pricing",
+        "model"
+      ]
+    },
+    {
+      "name": "Should We Raise Prices?",
+      "bytes": 474,
+      "when": [
+        "raise",
+        "prices"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 705,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-technical-product-pricing\\SKILL.md"
+}

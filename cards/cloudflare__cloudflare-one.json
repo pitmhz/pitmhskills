@@ -29,7 +29,172 @@
   "conflicts_with": [],
   "body_tokens": 5976,
   "core_bytes": 23902,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 890,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Assessment Prompts",
+      "bytes": 5809,
+      "when": [
+        "assessment",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Architecture and Current State",
+      "bytes": 772,
+      "when": [
+        "architecture",
+        "current",
+        "state"
+      ]
+    },
+    {
+      "name": "Access and SaaS Federation",
+      "bytes": 919,
+      "when": [
+        "access",
+        "saas",
+        "federation"
+      ]
+    },
+    {
+      "name": "Tunnel and Private Networking",
+      "bytes": 1447,
+      "when": [
+        "tunnel",
+        "private",
+        "networking"
+      ]
+    },
+    {
+      "name": "Gateway, TLS, and DLP",
+      "bytes": 1319,
+      "when": [
+        "gateway"
+      ]
+    },
+    {
+      "name": "CASB, Device Posture, and Risk",
+      "bytes": 781,
+      "when": [
+        "casb",
+        "device",
+        "posture",
+        "risk"
+      ]
+    },
+    {
+      "name": "Cloudflare WAN / Site Connectivity",
+      "bytes": 439,
+      "when": [
+        "cloudflare",
+        "site",
+        "connectivity"
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "bytes": 14907,
+      "when": [
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Identity and Access",
+      "bytes": 969,
+      "when": [
+        "identity",
+        "access"
+      ]
+    },
+    {
+      "name": "Device Client Deployment",
+      "bytes": 3473,
+      "when": [
+        "device",
+        "client",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Private Networking",
+      "bytes": 1180,
+      "when": [
+        "private",
+        "networking"
+      ]
+    },
+    {
+      "name": "Gateway, TLS, and DLP",
+      "bytes": 1228,
+      "when": [
+        "gateway"
+      ]
+    },
+    {
+      "name": "CASB, Risk, and Operations",
+      "bytes": 1227,
+      "when": [
+        "casb",
+        "risk",
+        "operations"
+      ]
+    },
+    {
+      "name": "Infrastructure Access",
+      "bytes": 2199,
+      "when": [
+        "infrastructure",
+        "access"
+      ]
+    },
+    {
+      "name": "Logs, Analytics, and DEX",
+      "bytes": 1874,
+      "when": [
+        "logs",
+        "analytics"
+      ]
+    },
+    {
+      "name": "Cloudflare WAN / Site Connectivity",
+      "bytes": 411,
+      "when": [
+        "cloudflare",
+        "site",
+        "connectivity"
+      ]
+    },
+    {
+      "name": "Output Defaults",
+      "bytes": 350,
+      "when": [
+        "output",
+        "defaults"
+      ]
+    },
+    {
+      "name": "Validation Prompts",
+      "bytes": 1146,
+      "when": [
+        "validation",
+        "prompts"
+      ]
+    },
+    {
+      "name": "API Safety",
+      "bytes": 306,
+      "when": [
+        "safety"
+      ]
+    }
+  ],
   "verify": [],
   "skill_path": "skills/cloudflare/skills/cloudflare-one/SKILL.md"
 }

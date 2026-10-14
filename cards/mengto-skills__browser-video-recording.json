@@ -1,0 +1,107 @@
+{
+  "id": "mengto-skills__browser-video-recording",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "2f34bfd364cede2342f67fad901aa171ba865ddbdff99ac8bb8e7548d7d2881d",
+  "purpose": "Create polished 60 fps 4:3 4K browser screen-recording style videos from Codex in-app browser captures, with browser-only crop, natural macOS cursor styling, deliberate click choreography, zoom-follow",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create polished 60 fps 4:3 4K browser screen-recording style videos from Codex in-app browser captures, with browser-only crop, natural macOS cursor styling, de"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1570,
+  "core_bytes": 6277,
+  "sections": [
+    {
+      "name": "Dependency Model",
+      "bytes": 896,
+      "when": [
+        "dependency",
+        "model"
+      ]
+    },
+    {
+      "name": "Self-Contained Execution",
+      "bytes": 756,
+      "when": [
+        "self",
+        "contained",
+        "execution"
+      ]
+    },
+    {
+      "name": "Optional Native Recorder Support",
+      "bytes": 518,
+      "when": [
+        "optional",
+        "native",
+        "recorder",
+        "support"
+      ]
+    },
+    {
+      "name": "Capture Workflow",
+      "bytes": 854,
+      "when": [
+        "capture",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Motion Rules",
+      "bytes": 810,
+      "when": [
+        "motion",
+        "rules"
+      ]
+    },
+    {
+      "name": "Render Script",
+      "bytes": 1121,
+      "when": [
+        "render",
+        "script"
+      ]
+    },
+    {
+      "name": "Verification",
+      "bytes": 705,
+      "when": [
+        "verification"
+      ]
+    }
+  ],
+  "keywords": [
+    "dependency",
+    "model",
+    "self",
+    "contained",
+    "execution",
+    "recorder",
+    "support",
+    "capture",
+    "workflow",
+    "motion",
+    "rules",
+    "render",
+    "script"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\codex\\browser-video-recording\\SKILL.md"
+}

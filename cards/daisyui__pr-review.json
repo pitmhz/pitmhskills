@@ -1,0 +1,73 @@
+{
+  "id": "daisyui__pr-review",
+  "tier": "B",
+  "origin": [
+    "saadeghi/daisyui@bf3bac3a397b543e55641ecb2d60a2ed961f09ec"
+  ],
+  "license": "MIT",
+  "hash": "dd5a4e9ce69da2268925242a75dbcfdb9fd4bb2d69d965e74a1cba8c3e4e10a2",
+  "purpose": "Review one or all open pull requests in saadeghi/daisyui with read-only GitHub data and isolated base-versus-PR checks. Use when Codex must verify a PR, find concrete regressions, decide whether it is",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Review one or all open pull requests in saadeghi/daisyui with read-only GitHub data and isolated base-versus-PR checks. Use when Codex must verify a PR, find co"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 780,
+  "core_bytes": 3120,
+  "sections": [
+    {
+      "name": "Required agent routing",
+      "bytes": 404,
+      "when": [
+        "required",
+        "agent",
+        "routing"
+      ]
+    },
+    {
+      "name": "Boundaries",
+      "bytes": 607,
+      "when": [
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1249,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Report",
+      "bytes": 432,
+      "when": [
+        "report"
+      ]
+    }
+  ],
+  "keywords": [
+    "reviewer",
+    "required",
+    "agent",
+    "routing",
+    "boundaries",
+    "workflow"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\daisyui\\.agents\\skills\\pr-review\\SKILL.md"
+}

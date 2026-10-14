@@ -1,0 +1,107 @@
+{
+  "id": "nvidia__tao-data-io",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d22824aa16cfcb5ad0d6e8b4272f9c5939a118c7f0d11d2d2255261dab07e4a1",
+  "purpose": "The data-mover for TAO jobs — decides the storage tier (A pre-positioned mount with zero fetch / B volume-from-S3 / C ephemeral in-compute fetch), stages inputs (bulk + annotation-selective + archive ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "The data-mover for TAO jobs — decides the storage tier (A pre-positioned mount with zero fetch / B volume-from-S3 / C ephemeral in-compute fetch), stages inputs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1529,
+  "core_bytes": 6147,
+  "sections": [
+    {
+      "name": "Credentials (env vars; values never written to disk by this skill)",
+      "bytes": 1015,
+      "when": [
+        "credentials",
+        "vars",
+        "values",
+        "written",
+        "disk",
+        "skill"
+      ]
+    },
+    {
+      "name": "Storage strategy (agent decides; the gate verifies)",
+      "bytes": 618,
+      "when": [
+        "storage",
+        "strategy",
+        "agent",
+        "decides",
+        "gate",
+        "verifies"
+      ]
+    },
+    {
+      "name": "Verify-before-launch gate (the one invariant)",
+      "bytes": 516,
+      "when": [
+        "verify",
+        "before",
+        "launch",
+        "gate",
+        "invariant"
+      ]
+    },
+    {
+      "name": "Input staging",
+      "bytes": 567,
+      "when": [
+        "input",
+        "staging"
+      ]
+    },
+    {
+      "name": "Output routing (3-way) + upload",
+      "bytes": 448,
+      "when": [
+        "output",
+        "routing",
+        "upload"
+      ]
+    },
+    {
+      "name": "Quick Start — annotation-selective staging",
+      "bytes": 582,
+      "when": [
+        "quick",
+        "start",
+        "annotation",
+        "selective",
+        "staging"
+      ]
+    },
+    {
+      "name": "Helpers",
+      "bytes": 180,
+      "when": [
+        "helpers"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- python -m pytest references/tests/"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-data-io/SKILL.md",
+  "curated": true
+}

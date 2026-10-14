@@ -1,0 +1,79 @@
+{
+  "id": "nvidia__tao-analyze-changenet-rca",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e3319c4eb1fde7a0e18ba55ef0fa5e2f095ec9efa4f26c8e557c9fc2de7a362a",
+  "purpose": "Performs deep Root Cause Analysis (RCA) on NVIDIA TAO Visual ChangeNet classification experiments with",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Performs deep Root Cause Analysis (RCA) on NVIDIA TAO Visual ChangeNet classification experiments with"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1638,
+  "core_bytes": 6615,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 430,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Visual Inspection Primer",
+      "bytes": 1042,
+      "when": [
+        "visual",
+        "inspection",
+        "primer"
+      ]
+    },
+    {
+      "name": "Investigation Flow",
+      "bytes": 1590,
+      "when": [
+        "investigation",
+        "flow"
+      ]
+    },
+    {
+      "name": "Execution: Parallelize With Subagents",
+      "bytes": 1104,
+      "when": [
+        "execution",
+        "parallelize",
+        "subagents"
+      ]
+    },
+    {
+      "name": "Report Structure and Output",
+      "bytes": 919,
+      "when": [
+        "report",
+        "structure",
+        "output"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-analyze-changenet-rca/SKILL.md",
+  "curated": true
+}

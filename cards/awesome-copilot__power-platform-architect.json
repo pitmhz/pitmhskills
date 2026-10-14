@@ -1,0 +1,133 @@
+{
+  "id": "awesome-copilot__power-platform-architect",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "6297fd58c421beed40cd39d7acf771f964460178311cf12f3ac106e8ec94e111",
+  "purpose": "Use this skill when the user needs to transform business requirements, use case descriptions, or meeting transcripts into a technical Power Platform solution architecture, including component selectio",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use this skill when the user needs to transform business requirements, use case descriptions, or meeting transcripts into a technical Power Platform solution ar"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3609,
+  "core_bytes": 14436,
+  "sections": [
+    {
+      "name": "Context",
+      "bytes": 326,
+      "when": [
+        "context"
+      ]
+    },
+    {
+      "name": "Example Trigger Phrases",
+      "bytes": 7413,
+      "when": [
+        "example",
+        "trigger",
+        "phrases"
+      ]
+    },
+    {
+      "name": "Power Platform Component Catalog",
+      "bytes": 6443,
+      "when": [
+        "power",
+        "platform",
+        "component",
+        "catalog"
+      ]
+    },
+    {
+      "name": "\"Cheat Sheet\" Decision Logic for Architecting",
+      "bytes": 667,
+      "when": [
+        "cheat",
+        "sheet",
+        "decision",
+        "logic",
+        "architecting"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 6079,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "PHASE 1: Requirements Analysis",
+      "bytes": 416,
+      "when": [
+        "phase",
+        "requirements",
+        "analysis"
+      ]
+    },
+    {
+      "name": "PHASE 2: Requirements Follow Up",
+      "bytes": 1032,
+      "when": [
+        "phase",
+        "requirements",
+        "follow"
+      ]
+    },
+    {
+      "name": "PHASE 3: Component Recommendation",
+      "bytes": 900,
+      "when": [
+        "phase",
+        "component",
+        "recommendation"
+      ]
+    },
+    {
+      "name": "PHASE 4: Architecture Recommendation",
+      "bytes": 995,
+      "when": [
+        "phase",
+        "architecture",
+        "recommendation"
+      ]
+    },
+    {
+      "name": "PHASE 5: Architecture Visualization (OPTIONAL)",
+      "bytes": 2595,
+      "when": [
+        "phase",
+        "architecture",
+        "visualization",
+        "optional"
+      ]
+    },
+    {
+      "name": "Other Things to Note",
+      "bytes": 258,
+      "when": [
+        "note"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\power-platform-architect\\SKILL.md"
+}

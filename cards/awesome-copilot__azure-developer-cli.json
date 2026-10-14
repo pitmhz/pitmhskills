@@ -1,0 +1,128 @@
+{
+  "id": "awesome-copilot__azure-developer-cli",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "a8fd747555cc310c8f33a2a77095a50bd6b1b1ef354594ca91c172e19ecaf93e",
+  "purpose": "Design, create, review, migrate, or troubleshoot Azure Developer CLI (azd) projects using current Microsoft guidance. Use for azd, azure.yaml, AZD templates, Bicep or Terraform under infra, AZD enviro",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Design, create, review, migrate, or troubleshoot Azure Developer CLI (azd) projects using current Microsoft guidance. Use for azd, azure.yaml, AZD templates, Bi"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1917,
+  "core_bytes": 7667,
+  "sections": [
+    {
+      "name": "Start with repository discovery",
+      "bytes": 1067,
+      "when": [
+        "start",
+        "repository",
+        "discovery"
+      ]
+    },
+    {
+      "name": "Apply safety guardrails",
+      "bytes": 1056,
+      "when": [
+        "apply",
+        "safety",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "Use these defaults",
+      "bytes": 937,
+      "when": [
+        "defaults"
+      ]
+    },
+    {
+      "name": "Implementation workflow",
+      "bytes": 2623,
+      "when": [
+        "implementation",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Model the application",
+      "bytes": 441,
+      "when": [
+        "model",
+        "application"
+      ]
+    },
+    {
+      "name": "2. Model infrastructure",
+      "bytes": 612,
+      "when": [
+        "model",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "3. Model environments",
+      "bytes": 497,
+      "when": [
+        "model",
+        "environments"
+      ]
+    },
+    {
+      "name": "4. Add hooks only for lifecycle gaps",
+      "bytes": 530,
+      "when": [
+        "hooks",
+        "lifecycle",
+        "gaps"
+      ]
+    },
+    {
+      "name": "5. Build CI/CD deliberately",
+      "bytes": 515,
+      "when": [
+        "build",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "Validate before finishing",
+      "bytes": 1061,
+      "when": [
+        "validate",
+        "before",
+        "finishing"
+      ]
+    },
+    {
+      "name": "Report the result",
+      "bytes": 340,
+      "when": [
+        "report",
+        "result"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\azure-developer-cli\\SKILL.md"
+}

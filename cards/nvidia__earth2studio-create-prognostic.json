@@ -1,0 +1,250 @@
+{
+  "id": "nvidia__earth2studio-create-prognostic",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "7fa56e7e9b928d94102f6b853448df2399242f33bd7c1a9adb8f502f563b0dbf",
+  "purpose": "Create Earth2Studio prognostic (time-stepping forecast) model wrappers. Do NOT use for diagnostic models, data sources, or installation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Create Earth2Studio prognostic (time-stepping forecast) model wrappers. Do NOT use for diagnostic models, data sources, or installation."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2628,
+  "core_bytes": 10553,
+  "sections": [
+    {
+      "name": "Quick Start Checklist",
+      "bytes": 816,
+      "when": [
+        "quick",
+        "start",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 257,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Workspace",
+      "bytes": 807,
+      "when": [
+        "workspace"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 487,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "Workflow Steps",
+      "bytes": 5851,
+      "when": [
+        "workflow",
+        "steps"
+      ]
+    },
+    {
+      "name": "Step 0 — Get Reference Script",
+      "bytes": 148,
+      "when": [
+        "step",
+        "reference",
+        "script"
+      ]
+    },
+    {
+      "name": "Step 1 — Analyze & Propose Dependencies",
+      "bytes": 488,
+      "when": [
+        "step",
+        "analyze",
+        "propose",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Step 2 — Add Dependencies",
+      "bytes": 151,
+      "when": [
+        "step",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Step 3 — Create Model File",
+      "bytes": 1140,
+      "when": [
+        "step",
+        "create",
+        "model",
+        "file"
+      ]
+    },
+    {
+      "name": "Step 4 — Implement Coordinates",
+      "bytes": 837,
+      "when": [
+        "step",
+        "implement",
+        "coordinates"
+      ]
+    },
+    {
+      "name": "Step 5 — Implement Forward Pass",
+      "bytes": 317,
+      "when": [
+        "step",
+        "implement",
+        "forward",
+        "pass"
+      ]
+    },
+    {
+      "name": "Step 6 — Implement Model Loading",
+      "bytes": 251,
+      "when": [
+        "step",
+        "implement",
+        "model",
+        "loading"
+      ]
+    },
+    {
+      "name": "Step 7 — Write Tests",
+      "bytes": 866,
+      "when": [
+        "step",
+        "write",
+        "tests"
+      ]
+    },
+    {
+      "name": "Step 8 — Register Model (if requested)",
+      "bytes": 145,
+      "when": [
+        "step",
+        "register",
+        "model",
+        "requested"
+      ]
+    },
+    {
+      "name": "Step 9 — Documentation",
+      "bytes": 620,
+      "when": [
+        "step",
+        "documentation"
+      ]
+    },
+    {
+      "name": "Step 10 - Validation (if requested)",
+      "bytes": 347,
+      "when": [
+        "step",
+        "validation",
+        "requested"
+      ]
+    },
+    {
+      "name": "Step 11 - PR (if requested)",
+      "bytes": 520,
+      "when": [
+        "step",
+        "requested"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 557,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Simple Identity Model",
+      "bytes": 289,
+      "when": [
+        "simple",
+        "identity",
+        "model"
+      ]
+    },
+    {
+      "name": "External Model (Pangu)",
+      "bytes": 253,
+      "when": [
+        "external",
+        "model",
+        "pangu"
+      ]
+    },
+    {
+      "name": "Key Patterns",
+      "bytes": 1004,
+      "when": [
+        "patterns"
+      ]
+    },
+    {
+      "name": "Coordinate Template",
+      "bytes": 673,
+      "when": [
+        "coordinate",
+        "template"
+      ]
+    },
+    {
+      "name": "Iterator Template",
+      "bytes": 312,
+      "when": [
+        "iterator",
+        "template"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 364,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Reminders",
+      "bytes": 457,
+      "when": [
+        "reminders"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- uv run pytest test/models/px/ -m \"not package\" -v"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\earth2studio-create-prognostic\\SKILL.md",
+  "curated": true
+}

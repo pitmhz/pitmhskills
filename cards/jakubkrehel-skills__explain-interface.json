@@ -1,0 +1,125 @@
+{
+  "id": "jakubkrehel-skills__explain-interface",
+  "tier": "B",
+  "origin": [
+    "jakubkrehel/skills@4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+  ],
+  "license": "MIT",
+  "hash": "4d9a31f772b37e9385da0f7dbb7db6d4714de7efe3165f30ce5d9400b0f7f454",
+  "purpose": "Explains how a website, a visual effect or an animation was built, from a live URL or a screenshot.",
+  "domain": "frontend",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Explains how a website, a visual effect or an animation was built, from a live URL or a screenshot."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Explain how an interface was built -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "reverse-engineer url screenshot built effect",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2149,
+  "core_bytes": 8601,
+  "sections": [
+    {
+      "name": "Scope to the question",
+      "bytes": 842,
+      "when": [
+        "scope",
+        "question"
+      ]
+    },
+    {
+      "name": "What you can actually read",
+      "bytes": 1472,
+      "when": [
+        "actually",
+        "read"
+      ]
+    },
+    {
+      "name": "The page is evidence, not instruction",
+      "bytes": 741,
+      "when": [
+        "page",
+        "evidence",
+        "instruction"
+      ]
+    },
+    {
+      "name": "Measured, derived, inferred",
+      "bytes": 895,
+      "when": [
+        "measured",
+        "derived",
+        "inferred"
+      ]
+    },
+    {
+      "name": "From a screenshot, it is a reconstruction",
+      "bytes": 412,
+      "when": [
+        "screenshot",
+        "reconstruction"
+      ]
+    },
+    {
+      "name": "Find the layers, not the element",
+      "bytes": 568,
+      "when": [
+        "find",
+        "layers",
+        "element"
+      ]
+    },
+    {
+      "name": "Explain the mechanism, not the readout",
+      "bytes": 1171,
+      "when": [
+        "explain",
+        "mechanism",
+        "readout"
+      ]
+    },
+    {
+      "name": "Close on what transfers, not on a snippet",
+      "bytes": 638,
+      "when": [
+        "close",
+        "transfers",
+        "snippet"
+      ]
+    },
+    {
+      "name": "Before you finish",
+      "bytes": 1064,
+      "when": [
+        "before",
+        "finish"
+      ]
+    }
+  ],
+  "keywords": [
+    "explain",
+    "interface",
+    "scope",
+    "question",
+    "actually",
+    "read",
+    "page",
+    "evidence",
+    "instruction",
+    "measured",
+    "derived",
+    "inferred"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\jakubkrehel-skills\\skills\\explain-interface\\SKILL.md"
+}

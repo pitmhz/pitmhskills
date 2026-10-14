@@ -1,0 +1,208 @@
+{
+  "id": "uiskills-staged__shadcn",
+  "tier": "B",
+  "origin": [
+    "local@shadcn"
+  ],
+  "license": "MIT",
+  "hash": "c69a39917139bad8cd30823b01af479244f76acaa0419facebabf31da9f517be",
+  "purpose": "Manages shadcn components and projects ÔÇö adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context, component docs, and usage examples. App",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Manages shadcn components and projects ÔÇö adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context,",
+    "Add shadcn components to a project, fix the theme, and manage the registry"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5401,
+  "core_bytes": 21751,
+  "sections": [
+    {
+      "name": "Current Project Context",
+      "bytes": 250,
+      "when": [
+        "current",
+        "project",
+        "context"
+      ]
+    },
+    {
+      "name": "Principles",
+      "bytes": 491,
+      "when": [
+        "principles"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 4646,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "Styling & Tailwind ÔåÆ [styling.md](./rules/styling.md)",
+      "bytes": 736,
+      "when": [
+        "styling",
+        "tailwind",
+        "rules"
+      ]
+    },
+    {
+      "name": "Forms & Inputs ÔåÆ [forms.md](./rules/forms.md)",
+      "bytes": 753,
+      "when": [
+        "forms",
+        "inputs",
+        "rules"
+      ]
+    },
+    {
+      "name": "Component Structure ÔåÆ [composition.md](./rules/composition.md)",
+      "bytes": 991,
+      "when": [
+        "component",
+        "structure",
+        "composition",
+        "rules"
+      ]
+    },
+    {
+      "name": "Use Components, Not Custom Markup ÔåÆ [composition.md](./rules/composition.md)",
+      "bytes": 710,
+      "when": [
+        "components",
+        "custom",
+        "markup",
+        "composition",
+        "rules"
+      ]
+    },
+    {
+      "name": "Icons ÔåÆ [icons.md](./rules/icons.md)",
+      "bytes": 367,
+      "when": [
+        "icons",
+        "rules"
+      ]
+    },
+    {
+      "name": "Chat & Messaging ÔåÆ [chat.md](./rules/chat.md)",
+      "bytes": 555,
+      "when": [
+        "chat",
+        "messaging",
+        "rules"
+      ]
+    },
+    {
+      "name": "CLI",
+      "bytes": 417,
+      "when": []
+    },
+    {
+      "name": "Key Patterns",
+      "bytes": 1146,
+      "when": [
+        "patterns"
+      ]
+    },
+    {
+      "name": "Component Selection",
+      "bytes": 2178,
+      "when": [
+        "component",
+        "selection"
+      ]
+    },
+    {
+      "name": "Key Fields",
+      "bytes": 1529,
+      "when": [
+        "fields"
+      ]
+    },
+    {
+      "name": "Component Docs, Examples, and Usage",
+      "bytes": 484,
+      "when": [
+        "component",
+        "docs",
+        "examples",
+        "usage"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 3999,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Design Systems from DESIGN.md",
+      "bytes": 1046,
+      "when": [
+        "design",
+        "systems"
+      ]
+    },
+    {
+      "name": "Updating Components",
+      "bytes": 834,
+      "when": [
+        "updating",
+        "components"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 2564,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Detailed References",
+      "bytes": 1473,
+      "when": [
+        "detailed",
+        "references"
+      ]
+    }
+  ],
+  "keywords": [
+    "current",
+    "principles",
+    "critical",
+    "rules",
+    "tailwind",
+    "forms",
+    "inputs",
+    "structure",
+    "composition",
+    "custom",
+    "markup",
+    "icons"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\shadcn\\SKILL.md",
+  "curated": true
+}

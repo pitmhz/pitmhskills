@@ -1,0 +1,156 @@
+{
+  "id": "awesome-copilot__gtm-developer-ecosystem",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "52dfe739ae185d89c19639876e0cb884d5fd2851ea986b7b1ca4fa44b362907b",
+  "purpose": "Build and scale developer-led adoption through ecosystem programs. Use when deciding open vs curated ecosystems, building developer programs, scaling platform adoption, or designing student program pi",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build and scale developer-led adoption through ecosystem programs. Use when deciding open vs curated ecosystems, building developer programs, scaling platform a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2310,
+  "core_bytes": 9307,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 396,
+      "when": []
+    },
+    {
+      "name": "Core Frameworks",
+      "bytes": 5491,
+      "when": [
+        "core",
+        "frameworks"
+      ]
+    },
+    {
+      "name": "1. Open vs Curated Ecosystem (The Marketplace Decision)",
+      "bytes": 1497,
+      "when": [
+        "open",
+        "curated",
+        "ecosystem",
+        "marketplace",
+        "decision"
+      ]
+    },
+    {
+      "name": "2. The Three-Year Student Program Arc",
+      "bytes": 1006,
+      "when": [
+        "three",
+        "year",
+        "student",
+        "program"
+      ]
+    },
+    {
+      "name": "3. Developer Journey (Awareness → Integration → Advocacy)",
+      "bytes": 896,
+      "when": [
+        "developer",
+        "journey",
+        "awareness",
+        "integration",
+        "advocacy"
+      ]
+    },
+    {
+      "name": "4. Documentation Hierarchy",
+      "bytes": 703,
+      "when": [
+        "documentation",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "5. Community vs Support (When to Use Which)",
+      "bytes": 870,
+      "when": [
+        "community",
+        "support"
+      ]
+    },
+    {
+      "name": "6. Partner Tiering for Developer Ecosystems",
+      "bytes": 499,
+      "when": [
+        "partner",
+        "tiering",
+        "developer",
+        "ecosystems"
+      ]
+    },
+    {
+      "name": "Decision Trees",
+      "bytes": 606,
+      "when": [
+        "decision",
+        "trees"
+      ]
+    },
+    {
+      "name": "Open or Curated Ecosystem?",
+      "bytes": 308,
+      "when": [
+        "open",
+        "curated",
+        "ecosystem"
+      ]
+    },
+    {
+      "name": "Community or Support?",
+      "bytes": 279,
+      "when": [
+        "community",
+        "support"
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "bytes": 681,
+      "when": [
+        "common",
+        "mistakes"
+      ]
+    },
+    {
+      "name": "Quick Reference",
+      "bytes": 974,
+      "when": [
+        "quick",
+        "reference"
+      ]
+    },
+    {
+      "name": "Related Skills",
+      "bytes": 576,
+      "when": [
+        "related",
+        "skills"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gtm-developer-ecosystem\\SKILL.md"
+}

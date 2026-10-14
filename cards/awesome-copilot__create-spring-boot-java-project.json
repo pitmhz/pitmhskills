@@ -1,0 +1,146 @@
+{
+  "id": "awesome-copilot__create-spring-boot-java-project",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "353f26c4ff608b0e9a00e6f0d75916cae2fb5680358285e06f6c1862c4b459e4",
+  "purpose": "Create Spring Boot Java Project Skeleton",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create Spring Boot Java Project Skeleton"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1138,
+  "core_bytes": 4550,
+  "sections": [
+    {
+      "name": "Check Java version",
+      "bytes": 118,
+      "when": [
+        "check",
+        "java",
+        "version"
+      ]
+    },
+    {
+      "name": "Download Spring Boot project template",
+      "bytes": 501,
+      "when": [
+        "download",
+        "spring",
+        "boot",
+        "project",
+        "template"
+      ]
+    },
+    {
+      "name": "Unzip the downloaded file",
+      "bytes": 164,
+      "when": [
+        "unzip",
+        "downloaded",
+        "file"
+      ]
+    },
+    {
+      "name": "Remove the downloaded zip file",
+      "bytes": 138,
+      "when": [
+        "remove",
+        "downloaded",
+        "file"
+      ]
+    },
+    {
+      "name": "Change directory to the project root",
+      "bytes": 166,
+      "when": [
+        "change",
+        "directory",
+        "project",
+        "root"
+      ]
+    },
+    {
+      "name": "Add additional dependencies",
+      "bytes": 458,
+      "when": [
+        "additional",
+        "dependencies"
+      ]
+    },
+    {
+      "name": "Add SpringDoc, Redis, JPA and MongoDB configurations",
+      "bytes": 1244,
+      "when": [
+        "springdoc",
+        "redis",
+        "mongodb",
+        "configurations"
+      ]
+    },
+    {
+      "name": "Add `docker-compose.yaml` with Redis, PostgreSQL and MongoDB services",
+      "bytes": 679,
+      "when": [
+        "docker",
+        "compose",
+        "yaml",
+        "redis",
+        "postgresql",
+        "mongodb",
+        "services"
+      ]
+    },
+    {
+      "name": "Add `.gitignore` file",
+      "bytes": 116,
+      "when": [
+        "gitignore",
+        "file"
+      ]
+    },
+    {
+      "name": "Run Maven test command",
+      "bytes": 126,
+      "when": [
+        "maven",
+        "test",
+        "command"
+      ]
+    },
+    {
+      "name": "Run Maven run command (Optional)",
+      "bytes": 200,
+      "when": [
+        "maven",
+        "command",
+        "optional"
+      ]
+    },
+    {
+      "name": "Let's do this step by step",
+      "bytes": 30,
+      "when": [
+        "step"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\create-spring-boot-java-project\\SKILL.md"
+}

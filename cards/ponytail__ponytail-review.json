@@ -6,29 +6,75 @@
   ],
   "license": "MIT",
   "hash": "affa0eedca467b58699fafbea28f6f85352aa3e7f23785964bf42f029a291504",
-  "purpose": ">",
+  "purpose": "Quality review of a change or diff: bugs, security, load, missing tests, speed, and unnecessary code. Reads connected code, not only the diff. Ranked findings with fixes: what goes wrong, how to fix, what happens if skipped.",
   "domain": "workflow",
   "task_types": [
     "review",
     "debug"
   ],
   "use_when": [
-    ">"
+    "Reviewing a diff, PR, branch, or last commit for correctness and necessity (not standards conformance)",
+    "Checking whether a change is over-engineered or carries untested risky logic",
+    "A ranked findings report on a change, with the smallest fix for each"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to workflow"
+    "Conformance review against repo standards or the originating spec (use code-review)",
+    "Making changes rather than reporting on them (use ponytail)",
+    "Auditing a whole repo rather than one change (use ponytail-audit)"
   ],
-  "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
-  "cluster": "workflow",
-  "cluster_role": "primary",
-  "pick_over_primary_when": null,
+  "scope": "Read the diff and connected code; changes nothing; report only.",
+  "disambiguator": "Quality review of a diff/PR (bugs, load, necessity) -> this. Standards/spec conformance -> code-review. Whole-repo audit -> ponytail-audit.",
+  "cluster": "code-minimalism",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "over-engineered diff review",
   "pairs_with": null,
   "requires": {},
   "conflicts_with": [],
   "body_tokens": 1311,
   "core_bytes": 5244,
-  "sections": [],
+  "sections": [
+    {
+      "name": "1. Understand first",
+      "bytes": 723,
+      "when": [
+        "understand",
+        "first"
+      ]
+    },
+    {
+      "name": "2. Look for",
+      "bytes": 1582,
+      "when": [
+        "look"
+      ]
+    },
+    {
+      "name": "3. Check before you report",
+      "bytes": 629,
+      "when": [
+        "check",
+        "before",
+        "report"
+      ]
+    },
+    {
+      "name": "4. Output",
+      "bytes": 1585,
+      "when": [
+        "output"
+      ]
+    }
+  ],
+  "keywords": [
+    "understand",
+    "first",
+    "look",
+    "check",
+    "before",
+    "report",
+    "output"
+  ],
   "verify": [],
-  "skill_path": "skills/ponytail/skills/ponytail-review/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-review\\SKILL.md",
+  "curated": true
 }

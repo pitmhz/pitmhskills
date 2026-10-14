@@ -1,0 +1,114 @@
+{
+  "id": "nvidia__omniverse-usd-performance-tuning",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "db47215bb97cc7c66ec16509ffa1b558cdfd291644a980c77b0ac6ba6c42163d",
+  "purpose": "Top-level workflow skill for USD performance diagnosis and optimization. Handles slow loading, high memory, low FPS, and broad scene-optimization requests; delegates auth/runtime setup to Phase 0 owne",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Top-level workflow skill for USD performance diagnosis and optimization. Handles slow loading, high memory, low FPS, and broad scene-optimization requests; dele"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3654,
+  "core_bytes": 14639,
+  "sections": [
+    {
+      "name": "Scope",
+      "bytes": 521,
+      "when": [
+        "scope"
+      ]
+    },
+    {
+      "name": "Mandatory session-start gate",
+      "bytes": 1131,
+      "when": [
+        "mandatory",
+        "session",
+        "start",
+        "gate"
+      ]
+    },
+    {
+      "name": "Entry-skill and decision rules",
+      "bytes": 2712,
+      "when": [
+        "entry",
+        "skill",
+        "decision",
+        "rules"
+      ]
+    },
+    {
+      "name": "Canonical plan contract",
+      "bytes": 2148,
+      "when": [
+        "canonical",
+        "plan",
+        "contract"
+      ]
+    },
+    {
+      "name": "Execution discipline",
+      "bytes": 1518,
+      "when": [
+        "execution",
+        "discipline"
+      ]
+    },
+    {
+      "name": "Routing map",
+      "bytes": 1005,
+      "when": [
+        "routing"
+      ]
+    },
+    {
+      "name": "Mutation and operation rules",
+      "bytes": 1821,
+      "when": [
+        "mutation",
+        "operation",
+        "rules"
+      ]
+    },
+    {
+      "name": "Deliverables and final response",
+      "bytes": 1412,
+      "when": [
+        "deliverables",
+        "final",
+        "response"
+      ]
+    },
+    {
+      "name": "Limitations and references",
+      "bytes": 1608,
+      "when": [
+        "limitations",
+        "references"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/omniverse-usd-performance-tuning/SKILL.md",
+  "curated": true
+}

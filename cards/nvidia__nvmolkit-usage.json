@@ -1,0 +1,235 @@
+{
+  "id": "nvidia__nvmolkit-usage",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "8877d32b206bf33c28ff2f07ccc5c86b7aece06a0beaa5c91988dca023591cf9",
+  "purpose": "Use when writing or debugging nvMolKit Python code for GPU-accelerated RDKit fingerprints, similarity, conformers, clustering, and molecular searches.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use when writing or debugging nvMolKit Python code for GPU-accelerated RDKit fingerprints, similarity, conformers, clustering, and molecular searches."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4908,
+  "core_bytes": 19640,
+  "sections": [
+    {
+      "name": "Purpose",
+      "bytes": 443,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Where nvMolKit does well",
+      "bytes": 442,
+      "when": [
+        "where",
+        "nvmolkit"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 1042,
+      "when": [
+        "requirements"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 650,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 480,
+      "when": [
+        "limitations"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 1103,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Verify the install before writing real code",
+      "bytes": 846,
+      "when": [
+        "verify",
+        "install",
+        "before",
+        "writing",
+        "real",
+        "code"
+      ]
+    },
+    {
+      "name": "Entry points",
+      "bytes": 2365,
+      "when": [
+        "entry",
+        "points"
+      ]
+    },
+    {
+      "name": "Result types and execution model",
+      "bytes": 4081,
+      "when": [
+        "result",
+        "types",
+        "execution",
+        "model"
+      ]
+    },
+    {
+      "name": "`AsyncGpuResult`",
+      "bytes": 1860,
+      "when": [
+        "asyncgpuresult"
+      ]
+    },
+    {
+      "name": "`Device3DResult`",
+      "bytes": 1290,
+      "when": [
+        "device3dresult"
+      ]
+    },
+    {
+      "name": "`MCSBatchResult`",
+      "bytes": 802,
+      "when": [
+        "mcsbatchresult"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 243,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 7383,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Morgan fingerprints + bulk Tanimoto similarity",
+      "bytes": 936,
+      "when": [
+        "morgan",
+        "fingerprints",
+        "bulk",
+        "tanimoto",
+        "similarity"
+      ]
+    },
+    {
+      "name": "ETKDG conformer embedding",
+      "bytes": 575,
+      "when": [
+        "etkdg",
+        "conformer",
+        "embedding"
+      ]
+    },
+    {
+      "name": "MMFF94 minimization of a batch of conformers",
+      "bytes": 1492,
+      "when": [
+        "mmff94",
+        "minimization",
+        "batch",
+        "conformers"
+      ]
+    },
+    {
+      "name": "Conformer RMSD and Butina clustering",
+      "bytes": 1955,
+      "when": [
+        "conformer",
+        "rmsd",
+        "butina",
+        "clustering"
+      ]
+    },
+    {
+      "name": "Atom-Atom Path similarity and directed sphere exclusion clustering",
+      "bytes": 944,
+      "when": [
+        "atom",
+        "path",
+        "similarity",
+        "directed",
+        "sphere",
+        "exclusion",
+        "clustering"
+      ]
+    },
+    {
+      "name": "Maximum common substructure search",
+      "bytes": 1181,
+      "when": [
+        "maximum",
+        "common",
+        "substructure",
+        "search"
+      ]
+    },
+    {
+      "name": "Custom forcefield options + constraints (`BatchedForcefield`)",
+      "bytes": 285,
+      "when": [
+        "custom",
+        "forcefield",
+        "options",
+        "constraints",
+        "batchedforcefield"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 670,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Going deeper",
+      "bytes": 353,
+      "when": [
+        "going",
+        "deeper"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\bionemo-nvmolkit-usage\\SKILL.md",
+  "curated": true
+}

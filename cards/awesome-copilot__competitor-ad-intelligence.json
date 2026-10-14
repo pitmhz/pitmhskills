@@ -1,0 +1,396 @@
+{
+  "id": "awesome-copilot__competitor-ad-intelligence",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "d5720ec13f5eba3fc102b3218c8844537e95f63940b6d9b0674f7207895e47db",
+  "purpose": "Use this skill when the user asks to analyze, tear down, or reverse-engineer a competitor's paid ads. Trigger for prompts like \"what ads is [competitor] running\", \"tear down their ad strategy\", \"compe",
+  "domain": "general",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Use this skill when the user asks to analyze, tear down, or reverse-engineer a competitor's paid ads. Trigger for prompts like \"what ads is [competitor] running"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3239,
+  "core_bytes": 13046,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 412,
+      "when": []
+    },
+    {
+      "name": "Phase 0: Intake",
+      "bytes": 541,
+      "when": [
+        "phase",
+        "intake"
+      ]
+    },
+    {
+      "name": "Phase 1: Scrape Meta Ads",
+      "bytes": 1116,
+      "when": [
+        "phase",
+        "scrape",
+        "meta"
+      ]
+    },
+    {
+      "name": "Phase 2: Scrape Google Ads",
+      "bytes": 769,
+      "when": [
+        "phase",
+        "scrape",
+        "google"
+      ]
+    },
+    {
+      "name": "Phase 3: Analyze Creative Patterns",
+      "bytes": 1420,
+      "when": [
+        "phase",
+        "analyze",
+        "creative",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Hook Pattern Clustering",
+      "bytes": 845,
+      "when": [
+        "hook",
+        "pattern",
+        "clustering"
+      ]
+    },
+    {
+      "name": "Format Distribution",
+      "bytes": 215,
+      "when": [
+        "format",
+        "distribution"
+      ]
+    },
+    {
+      "name": "CTA Taxonomy",
+      "bytes": 265,
+      "when": [
+        "taxonomy"
+      ]
+    },
+    {
+      "name": "Phase 4: Landing Page & Funnel Analysis",
+      "bytes": 2290,
+      "when": [
+        "phase",
+        "landing",
+        "page",
+        "funnel",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Campaign Clustering",
+      "bytes": 278,
+      "when": [
+        "campaign",
+        "clustering"
+      ]
+    },
+    {
+      "name": "Per-Campaign Funnel Analysis",
+      "bytes": 717,
+      "when": [
+        "campaign",
+        "funnel",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Budget Allocation Inference",
+      "bytes": 527,
+      "when": [
+        "budget",
+        "allocation",
+        "inference"
+      ]
+    },
+    {
+      "name": "Phase 5: Strategic Analysis",
+      "bytes": 1475,
+      "when": [
+        "phase",
+        "strategic",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Creative Gap Analysis",
+      "bytes": 503,
+      "when": [
+        "creative",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Vulnerability Analysis",
+      "bytes": 682,
+      "when": [
+        "vulnerability",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Historical Comparison (Deep Mode)",
+      "bytes": 258,
+      "when": [
+        "historical",
+        "comparison",
+        "deep",
+        "mode"
+      ]
+    },
+    {
+      "name": "Phase 6: Output",
+      "bytes": 80,
+      "when": [
+        "phase",
+        "output"
+      ]
+    },
+    {
+      "name": "Coverage",
+      "bytes": 174,
+      "when": [
+        "coverage"
+      ]
+    },
+    {
+      "name": "Executive Summary",
+      "bytes": 146,
+      "when": [
+        "executive",
+        "summary"
+      ]
+    },
+    {
+      "name": "Meta Ad Analysis",
+      "bytes": 390,
+      "when": [
+        "meta",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Hook Distribution",
+      "bytes": 176,
+      "when": [
+        "hook",
+        "distribution"
+      ]
+    },
+    {
+      "name": "Top Performing Ads (Longest Running)",
+      "bytes": 193,
+      "when": [
+        "performing",
+        "longest",
+        "running"
+      ]
+    },
+    {
+      "name": "Google Ad Analysis",
+      "bytes": 127,
+      "when": [
+        "google",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Headline Patterns",
+      "bytes": 63,
+      "when": [
+        "headline",
+        "patterns"
+      ]
+    },
+    {
+      "name": "Most Common CTAs",
+      "bytes": 41,
+      "when": [
+        "common",
+        "ctas"
+      ]
+    },
+    {
+      "name": "Campaign Breakdown",
+      "bytes": 726,
+      "when": [
+        "campaign",
+        "breakdown"
+      ]
+    },
+    {
+      "name": "Campaign 1: [Inferred Campaign Name]",
+      "bytes": 677,
+      "when": [
+        "campaign",
+        "inferred",
+        "name"
+      ]
+    },
+    {
+      "name": "Campaign 2: ...",
+      "bytes": 26,
+      "when": [
+        "campaign"
+      ]
+    },
+    {
+      "name": "Funnel Map",
+      "bytes": 219,
+      "when": [
+        "funnel"
+      ]
+    },
+    {
+      "name": "Budget Allocation Estimate",
+      "bytes": 137,
+      "when": [
+        "budget",
+        "allocation",
+        "estimate"
+      ]
+    },
+    {
+      "name": "Creative Gap Analysis",
+      "bytes": 311,
+      "when": [
+        "creative",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Angles Nobody Is Running",
+      "bytes": 103,
+      "when": [
+        "angles",
+        "nobody",
+        "running"
+      ]
+    },
+    {
+      "name": "Overcrowded Angles (Avoid or Differentiate)",
+      "bytes": 95,
+      "when": [
+        "overcrowded",
+        "angles",
+        "avoid",
+        "differentiate"
+      ]
+    },
+    {
+      "name": "Format White Space",
+      "bytes": 87,
+      "when": [
+        "format",
+        "white",
+        "space"
+      ]
+    },
+    {
+      "name": "Vulnerability Report",
+      "bytes": 170,
+      "when": [
+        "vulnerability",
+        "report"
+      ]
+    },
+    {
+      "name": "1. [Vulnerability]",
+      "bytes": 128,
+      "when": [
+        "vulnerability"
+      ]
+    },
+    {
+      "name": "2. ...",
+      "bytes": 17,
+      "when": []
+    },
+    {
+      "name": "Recommended Counter-Plays",
+      "bytes": 359,
+      "when": [
+        "recommended",
+        "counter",
+        "plays"
+      ]
+    },
+    {
+      "name": "Counter-Play 1: [Name]",
+      "bytes": 300,
+      "when": [
+        "counter",
+        "play",
+        "name"
+      ]
+    },
+    {
+      "name": "Counter-Play 2: ...",
+      "bytes": 29,
+      "when": [
+        "counter",
+        "play"
+      ]
+    },
+    {
+      "name": "Cost",
+      "bytes": 232,
+      "when": [
+        "cost"
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "bytes": 116,
+      "when": [
+        "environment",
+        "variables"
+      ]
+    },
+    {
+      "name": "Tools Used",
+      "bytes": 168,
+      "when": [
+        "tools",
+        "used"
+      ]
+    },
+    {
+      "name": "Trigger Phrases",
+      "bytes": 384,
+      "when": [
+        "trigger",
+        "phrases"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\competitor-ad-intelligence\\SKILL.md"
+}

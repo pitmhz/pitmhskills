@@ -1,0 +1,129 @@
+{
+  "id": "emilkowalski__review-animations",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "5b2a8f5986d19514abef830d178ead49f21d254fee137b45aa0ca7cad4f80efd",
+  "purpose": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Review animation quality/timing -> this.",
+  "cluster": "frontend-motion",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "review timing consistency craft",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2115,
+  "core_bytes": 8527,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 569,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 852,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "The Ten Non-Negotiable Standards",
+      "bytes": 2421,
+      "when": [
+        "negotiable",
+        "standards"
+      ]
+    },
+    {
+      "name": "Aggressive Escalation Triggers",
+      "bytes": 1012,
+      "when": [
+        "aggressive",
+        "escalation",
+        "triggers"
+      ]
+    },
+    {
+      "name": "Remedial Preference Hierarchy",
+      "bytes": 1029,
+      "when": [
+        "remedial",
+        "preference",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "Required Output Format",
+      "bytes": 2067,
+      "when": [
+        "required",
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "Part 1 — Findings table (REQUIRED)",
+      "bytes": 730,
+      "when": [
+        "part",
+        "findings",
+        "table",
+        "required"
+      ]
+    },
+    {
+      "name": "Part 2 — Verdict (REQUIRED)",
+      "bytes": 1279,
+      "when": [
+        "part",
+        "verdict",
+        "required"
+      ]
+    },
+    {
+      "name": "Guidelines",
+      "bytes": 308,
+      "when": [
+        "guidelines"
+      ]
+    }
+  ],
+  "keywords": [
+    "reviewing",
+    "animations",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "negotiable",
+    "standards",
+    "aggressive",
+    "escalation",
+    "triggers",
+    "remedial",
+    "preference",
+    "hierarchy"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\review-animations\\SKILL.md"
+}

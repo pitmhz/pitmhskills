@@ -1,0 +1,149 @@
+{
+  "id": "awesome-copilot__daily-prep",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "ea2800856b936cb83aed9b43f9c5e431ac2de436f8f00df546db4253ab4076f3",
+  "purpose": "Prepare for tomorrow's meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds l",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Prepare for tomorrow's meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detec"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2129,
+  "core_bytes": 8626,
+  "sections": [
+    {
+      "name": "When to Use",
+      "bytes": 166,
+      "when": []
+    },
+    {
+      "name": "Procedure",
+      "bytes": 7542,
+      "when": [
+        "procedure"
+      ]
+    },
+    {
+      "name": "1. Determine Target Date",
+      "bytes": 262,
+      "when": [
+        "determine",
+        "target",
+        "date"
+      ]
+    },
+    {
+      "name": "2. Pull Calendar via WorkIQ",
+      "bytes": 493,
+      "when": [
+        "pull",
+        "calendar",
+        "workiq"
+      ]
+    },
+    {
+      "name": "3. Classify Each Meeting",
+      "bytes": 1407,
+      "when": [
+        "classify",
+        "each",
+        "meeting"
+      ]
+    },
+    {
+      "name": "4. Ideal Day Structure",
+      "bytes": 1127,
+      "when": [
+        "ideal",
+        "structure"
+      ]
+    },
+    {
+      "name": "5. Detect Conflicts & Day Fit Issues",
+      "bytes": 902,
+      "when": [
+        "detect",
+        "conflicts",
+        "issues"
+      ]
+    },
+    {
+      "name": "6. Gather Context from Workspace",
+      "bytes": 346,
+      "when": [
+        "gather",
+        "context",
+        "workspace"
+      ]
+    },
+    {
+      "name": "7. Generate Prep per Meeting",
+      "bytes": 313,
+      "when": [
+        "generate",
+        "prep",
+        "meeting"
+      ]
+    },
+    {
+      "name": "8. Find Learning & Focus Slots",
+      "bytes": 812,
+      "when": [
+        "find",
+        "learning",
+        "focus",
+        "slots"
+      ]
+    },
+    {
+      "name": "9. Productivity Recommendations",
+      "bytes": 1543,
+      "when": [
+        "productivity",
+        "recommendations"
+      ]
+    },
+    {
+      "name": "10. Write the File",
+      "bytes": 323,
+      "when": [
+        "write",
+        "file"
+      ]
+    },
+    {
+      "name": "Example Prompts",
+      "bytes": 168,
+      "when": [
+        "example",
+        "prompts"
+      ]
+    },
+    {
+      "name": "Requirements",
+      "bytes": 246,
+      "when": [
+        "requirements"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\daily-prep\\SKILL.md"
+}

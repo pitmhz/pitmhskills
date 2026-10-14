@@ -1,0 +1,82 @@
+{
+  "id": "awesome-copilot__conventional-commit",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "250235f71b8c501a7744ded911281292324bcd1a2d014e34b25041e2d2c8bf73",
+  "purpose": "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits sp",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 662,
+  "core_bytes": 2648,
+  "sections": [
+    {
+      "name": "Instructions",
+      "bytes": 323,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 550,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Commit Message Structure",
+      "bytes": 374,
+      "when": [
+        "commit",
+        "message",
+        "structure"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 441,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 452,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Final Step",
+      "bytes": 195,
+      "when": [
+        "final",
+        "step"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\conventional-commit\\SKILL.md"
+}

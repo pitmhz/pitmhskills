@@ -1,0 +1,124 @@
+{
+  "id": "mengto-skills__aura-asset-images",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "190b483fa56ff551198547bedeea885507d0f7dffa4ba6d973dc2a00372129d3",
+  "purpose": "Use when you need high-quality stock-style images from Aura Assets (aura.build/assets) similar to Unsplash for design mockups and marketing: backgrounds, abstract wallpapers, architecture, portraits, ",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Use when you need high-quality stock-style images from Aura Assets (aura.build/assets) similar to Unsplash for design mockups and marketing: backgrounds, abstra"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1582,
+  "core_bytes": 6343,
+  "sections": [
+    {
+      "name": "How to search (fast)",
+      "bytes": 254,
+      "when": [
+        "search",
+        "fast"
+      ]
+    },
+    {
+      "name": "URL formats (what to return)",
+      "bytes": 471,
+      "when": [
+        "formats",
+        "return"
+      ]
+    },
+    {
+      "name": "Higher-res (recommended)",
+      "bytes": 290,
+      "when": [
+        "higher",
+        "recommended"
+      ]
+    },
+    {
+      "name": "Ratios (what to crop to)",
+      "bytes": 360,
+      "when": [
+        "ratios",
+        "crop"
+      ]
+    },
+    {
+      "name": "Curated picks (5 each)",
+      "bytes": 4594,
+      "when": [
+        "curated",
+        "picks",
+        "each"
+      ]
+    },
+    {
+      "name": "1) Backgrounds (5)",
+      "bytes": 756,
+      "when": [
+        "backgrounds"
+      ]
+    },
+    {
+      "name": "2) Abstract (5)",
+      "bytes": 1006,
+      "when": [
+        "abstract"
+      ]
+    },
+    {
+      "name": "3) Architecture (5)",
+      "bytes": 1018,
+      "when": [
+        "architecture"
+      ]
+    },
+    {
+      "name": "4) Portraits (5)",
+      "bytes": 744,
+      "when": [
+        "portraits"
+      ]
+    },
+    {
+      "name": "5) Headshots (5)",
+      "bytes": 1041,
+      "when": [
+        "headshots"
+      ]
+    }
+  ],
+  "keywords": [
+    "asset",
+    "search",
+    "fast",
+    "formats",
+    "return",
+    "higher",
+    "recommended",
+    "crop",
+    "curated",
+    "picks",
+    "each"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\media\\aura-asset-images\\SKILL.md"
+}

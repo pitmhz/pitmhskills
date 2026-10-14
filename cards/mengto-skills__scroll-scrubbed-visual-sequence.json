@@ -1,0 +1,106 @@
+{
+  "id": "mengto-skills__scroll-scrubbed-visual-sequence",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "7417a9ef323f296c508efdc958bca45e2fea90d2a155b79b29e8b3a07c1629c5",
+  "purpose": "Build reversible scroll-controlled visual transformations with a pinned or sticky stage, normalized progress, and video, image-sequence, canvas, SVG, or DOM renderers. Use for hero transformations, pr",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build reversible scroll-controlled visual transformations with a pinned or sticky stage, normalized progress, and video, image-sequence, canvas, SVG, or DOM ren"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1183,
+  "core_bytes": 4732,
+  "sections": [
+    {
+      "name": "Define the sequence",
+      "bytes": 567,
+      "when": [
+        "define",
+        "sequence"
+      ]
+    },
+    {
+      "name": "Choose the renderer",
+      "bytes": 848,
+      "when": [
+        "choose",
+        "renderer"
+      ]
+    },
+    {
+      "name": "Build the scroll stage",
+      "bytes": 1025,
+      "when": [
+        "build",
+        "scroll",
+        "stage"
+      ]
+    },
+    {
+      "name": "Handle media safely",
+      "bytes": 537,
+      "when": [
+        "handle",
+        "media",
+        "safely"
+      ]
+    },
+    {
+      "name": "Preserve access and control",
+      "bytes": 425,
+      "when": [
+        "preserve",
+        "access",
+        "control"
+      ]
+    },
+    {
+      "name": "Tune deliberately",
+      "bytes": 251,
+      "when": [
+        "tune",
+        "deliberately"
+      ]
+    },
+    {
+      "name": "Verify",
+      "bytes": 484,
+      "when": [
+        "verify"
+      ]
+    }
+  ],
+  "keywords": [
+    "scrubbed",
+    "define",
+    "choose",
+    "renderer",
+    "handle",
+    "media",
+    "safely",
+    "preserve",
+    "access",
+    "control",
+    "tune",
+    "deliberately"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\scroll-scrubbed-visual-sequence\\SKILL.md"
+}

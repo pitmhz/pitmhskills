@@ -1,0 +1,75 @@
+{
+  "id": "awesome-copilot__qdrant-vertical-scaling",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "8f2cfdbcfa9987714633fe8d665c959d5875eafc63aa5ed64be044cf083e2ac6",
+  "purpose": "Guides Qdrant vertical scaling decisions. Use when someone asks 'how to scale up a node', 'need more RAM', 'upgrade node size', 'vertical scaling', 'resize cluster', 'scale up vs scale out', or when m",
+  "domain": "memory",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Guides Qdrant vertical scaling decisions. Use when someone asks 'how to scale up a node', 'need more RAM', 'upgrade node size', 'vertical scaling', 'resize clus"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1095,
+  "core_bytes": 4377,
+  "sections": [
+    {
+      "name": "When to Scale Vertically",
+      "bytes": 573,
+      "when": [
+        "scale",
+        "vertically"
+      ]
+    },
+    {
+      "name": "How to Scale Vertically in Qdrant Cloud",
+      "bytes": 755,
+      "when": [
+        "scale",
+        "vertically",
+        "qdrant",
+        "cloud"
+      ]
+    },
+    {
+      "name": "RAM Sizing Guidelines",
+      "bytes": 867,
+      "when": [
+        "sizing",
+        "guidelines"
+      ]
+    },
+    {
+      "name": "When Vertical Scaling Is No Longer Enough",
+      "bytes": 794,
+      "when": [
+        "vertical",
+        "scaling",
+        "longer",
+        "enough"
+      ]
+    },
+    {
+      "name": "What NOT to Do",
+      "bytes": 516,
+      "when": []
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\qdrant-scaling\\scaling-data-volume\\vertical-scaling\\SKILL.md"
+}

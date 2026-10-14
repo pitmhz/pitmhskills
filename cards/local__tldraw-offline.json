@@ -28,10 +28,181 @@
   "conflicts_with": [],
   "body_tokens": 7876,
   "core_bytes": 31654,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Server",
+      "bytes": 2918,
+      "when": [
+        "server"
+      ]
+    },
+    {
+      "name": "Helper: `tq`",
+      "bytes": 1251,
+      "when": [
+        "helper"
+      ]
+    },
+    {
+      "name": "Core endpoints",
+      "bytes": 1934,
+      "when": [
+        "core",
+        "endpoints"
+      ]
+    },
+    {
+      "name": "Use this first",
+      "bytes": 2765,
+      "when": [
+        "first"
+      ]
+    },
+    {
+      "name": "Scripts on a shared board",
+      "bytes": 1231,
+      "when": [
+        "scripts",
+        "shared",
+        "board"
+      ]
+    },
+    {
+      "name": "Creating documents",
+      "bytes": 966,
+      "when": [
+        "creating",
+        "documents"
+      ]
+    },
+    {
+      "name": "Reference recipes",
+      "bytes": 1295,
+      "when": [
+        "reference",
+        "recipes"
+      ]
+    },
+    {
+      "name": "Durable UI Behavior",
+      "bytes": 2207,
+      "when": [
+        "durable",
+        "behavior"
+      ]
+    },
+    {
+      "name": "Shape format",
+      "bytes": 4636,
+      "when": [
+        "shape",
+        "format"
+      ]
+    },
+    {
+      "name": "Freehand draw shapes",
+      "bytes": 1240,
+      "when": [
+        "freehand",
+        "draw",
+        "shapes"
+      ]
+    },
+    {
+      "name": "Screenshots",
+      "bytes": 754,
+      "when": [
+        "screenshots"
+      ]
+    },
+    {
+      "name": "Diagram connections",
+      "bytes": 1315,
+      "when": [
+        "diagram",
+        "connections"
+      ]
+    },
+    {
+      "name": "Comments",
+      "bytes": 1610,
+      "when": [
+        "comments"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 1700,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Recovering from a closed or unresponsive target document",
+      "bytes": 1484,
+      "when": [
+        "recovering",
+        "closed",
+        "unresponsive",
+        "target",
+        "document"
+      ]
+    },
+    {
+      "name": "Durable script pattern: editable furniture, anchored internals",
+      "bytes": 1811,
+      "when": [
+        "durable",
+        "script",
+        "pattern",
+        "editable",
+        "furniture",
+        "anchored",
+        "internals"
+      ]
+    },
+    {
+      "name": "Editor customization: custom shapes, tools, and overlays (`config.js`)",
+      "bytes": 1796,
+      "when": [
+        "editor",
+        "customization",
+        "custom",
+        "shapes",
+        "tools",
+        "overlays",
+        "config"
+      ]
+    },
+    {
+      "name": "Fast path for static edits",
+      "bytes": 1636,
+      "when": [
+        "fast",
+        "path",
+        "static",
+        "edits"
+      ]
+    },
+    {
+      "name": "Reporting",
+      "bytes": 242,
+      "when": [
+        "reporting"
+      ]
+    },
+    {
+      "name": "Filing a bug about the app",
+      "bytes": 762,
+      "when": [
+        "filing"
+      ]
+    }
+  ],
   "verify": [
     "bun run lint",
-    "bun run test"
+    "rtk test -- bun run test"
   ],
-  "skill_path": "C:/Users/Mattchine/skills/tldraw-offline/SKILL.md"
+  "skill_path": "C:/Users/Mattchine/skills/tldraw-offline/SKILL.md",
+  "curated": true
 }

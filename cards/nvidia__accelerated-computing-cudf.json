@@ -1,0 +1,151 @@
+{
+  "id": "nvidia__accelerated-computing-cudf",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d543dc60d86d9a55bafd8e52120fd64b20e432cddb6d1ece23aebca4f8071993",
+  "purpose": "Official NVIDIA-authored guidance for NVIDIA cuDF GPU DataFrames, pandas acceleration, dask-cuDF, ETL, joins, groupby, CSV/Parquet I/O, nullable semantics, and multi-GPU DataFrame workloads.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Official NVIDIA-authored guidance for NVIDIA cuDF GPU DataFrames, pandas acceleration, dask-cuDF, ETL, joins, groupby, CSV/Parquet I/O, nullable semantics, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2619,
+  "core_bytes": 10490,
+  "sections": [
+    {
+      "name": "Compatibility",
+      "bytes": 852,
+      "when": [
+        "compatibility"
+      ]
+    },
+    {
+      "name": "Naming",
+      "bytes": 165,
+      "when": [
+        "naming"
+      ]
+    },
+    {
+      "name": "Role",
+      "bytes": 511,
+      "when": [
+        "role"
+      ]
+    },
+    {
+      "name": "Critical Rules",
+      "bytes": 1287,
+      "when": [
+        "critical",
+        "rules"
+      ]
+    },
+    {
+      "name": "Three Paths to GPU DataFrames",
+      "bytes": 3339,
+      "when": [
+        "three",
+        "paths",
+        "dataframes"
+      ]
+    },
+    {
+      "name": "Path 1: cudf.pandas Accelerator (Compatibility / Minimal Change)",
+      "bytes": 877,
+      "when": [
+        "path",
+        "cudf",
+        "pandas",
+        "accelerator",
+        "compatibility",
+        "minimal",
+        "change"
+      ]
+    },
+    {
+      "name": "Path 2: Explicit cuDF API",
+      "bytes": 1877,
+      "when": [
+        "path",
+        "explicit",
+        "cudf"
+      ]
+    },
+    {
+      "name": "Path 3: dask-cuDF (Multi-GPU / Large Data)",
+      "bytes": 549,
+      "when": [
+        "path",
+        "dask",
+        "cudf",
+        "multi",
+        "large",
+        "data"
+      ]
+    },
+    {
+      "name": "Memory Management",
+      "bytes": 784,
+      "when": [
+        "memory",
+        "management"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 1514,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Nullable and Fill Semantics",
+      "bytes": 923,
+      "when": [
+        "nullable",
+        "fill",
+        "semantics"
+      ]
+    },
+    {
+      "name": "Reference Files",
+      "bytes": 305,
+      "when": [
+        "reference",
+        "files"
+      ]
+    },
+    {
+      "name": "External Documentation",
+      "bytes": 372,
+      "when": [
+        "external",
+        "documentation"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/accelerated-computing-cudf/SKILL.md",
+  "curated": true
+}

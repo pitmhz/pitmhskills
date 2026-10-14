@@ -1,0 +1,92 @@
+{
+  "id": "nvidia__kermt-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "e7b0d9484e528d27911bfe7045b917d977be6b1bac36ffcc2cffc3c0df4144c0",
+  "purpose": "Bootstrap the KERMT agent environment — verify host docker + nvidia-container-toolkit, build the kermt:latest image from the repos Dockerfile if it doesnt yet exist, and run a GPU smoke test inside th",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Bootstrap the KERMT agent environment — verify host docker + nvidia-container-toolkit, build the kermt:latest image from the repos Dockerfile if it doesnt yet e"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1704,
+  "core_bytes": 6847,
+  "sections": [
+    {
+      "name": "Skill and runtime paths",
+      "bytes": 357,
+      "when": [
+        "skill",
+        "runtime",
+        "paths"
+      ]
+    },
+    {
+      "name": "Hardware requirements",
+      "bytes": 1048,
+      "when": [
+        "hardware",
+        "requirements"
+      ]
+    },
+    {
+      "name": "When to invoke",
+      "bytes": 354,
+      "when": [
+        "invoke"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 490,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 2504,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Hard rules",
+      "bytes": 795,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Forced rebuild",
+      "bytes": 326,
+      "when": [
+        "forced",
+        "rebuild"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/bionemo-kermt-setup/SKILL.md",
+  "curated": true
+}

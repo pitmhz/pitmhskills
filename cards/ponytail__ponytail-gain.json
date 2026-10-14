@@ -6,29 +6,60 @@
   ],
   "license": "MIT",
   "hash": "ce19da91423c46c89205c5089aeb8bf40de3e6432c87f213a4bf180fb9919686",
-  "purpose": ">",
+  "purpose": "Show ponytail's measured savings scoreboard (code, tokens, cost, speed) from the published agentic benchmark. One-shot display, changes nothing.",
   "domain": "general",
   "task_types": [
-    "review",
-    "debug"
+    "review"
   ],
   "use_when": [
-    ">"
+    "Showing ponytail's benchmark savings scoreboard",
+    "Answering what ponytail saves or its measured impact"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to general"
+    "Writing, reviewing, or auditing code (use ponytail / ponytail-review / ponytail-audit)",
+    "Per-repo savings claims — the benchmark figures are not repo-specific"
   ],
-  "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
-  "cluster": "general",
-  "cluster_role": "primary",
-  "pick_over_primary_when": null,
+  "scope": "Displays the scoreboard; edits nothing; persists nothing.",
+  "disambiguator": "Benchmark savings display -> this. Working with code -> ponytail family disambiguators.",
+  "cluster": "code-minimalism",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "gain benchmark savings",
   "pairs_with": null,
   "requires": {},
   "conflicts_with": [],
   "body_tokens": 521,
   "core_bytes": 2259,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Scoreboard",
+      "bytes": 887,
+      "when": [
+        "scoreboard"
+      ]
+    },
+    {
+      "name": "Honesty boundary",
+      "bytes": 380,
+      "when": [
+        "honesty",
+        "boundary"
+      ]
+    },
+    {
+      "name": "Boundaries",
+      "bytes": 111,
+      "when": [
+        "boundaries"
+      ]
+    }
+  ],
+  "keywords": [
+    "scoreboard",
+    "honesty",
+    "boundary",
+    "boundaries"
+  ],
   "verify": [],
-  "skill_path": "skills/ponytail/skills/ponytail-gain/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-gain\\SKILL.md",
+  "curated": true
 }

@@ -27,7 +27,59 @@
   "conflicts_with": [],
   "body_tokens": 1418,
   "core_bytes": 5669,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/cloudflare/skills/workers-best-practices/SKILL.md"
+  "sections": [
+    {
+      "name": "References",
+      "bytes": 938,
+      "when": [
+        "references"
+      ]
+    },
+    {
+      "name": "Keep Compatibility Dates Current",
+      "bytes": 340,
+      "when": [
+        "keep",
+        "compatibility",
+        "dates",
+        "current"
+      ]
+    },
+    {
+      "name": "Enable Observability",
+      "bytes": 607,
+      "when": [
+        "enable",
+        "observability"
+      ]
+    },
+    {
+      "name": "Anti-Patterns to Flag",
+      "bytes": 2532,
+      "when": [
+        "anti",
+        "patterns",
+        "flag"
+      ]
+    },
+    {
+      "name": "Validation",
+      "bytes": 276,
+      "when": [
+        "validation"
+      ]
+    },
+    {
+      "name": "Scope",
+      "bytes": 399,
+      "when": [
+        "scope"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- npx vitest run"
+  ],
+  "skill_path": "skills/cloudflare/skills/workers-best-practices/SKILL.md",
+  "curated": true
 }

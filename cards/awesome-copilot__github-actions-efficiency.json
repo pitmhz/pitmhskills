@@ -1,0 +1,105 @@
+{
+  "id": "awesome-copilot__github-actions-efficiency",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "9c41e860468e5c88d83ab6eec70c585b0f122facec2632ea65497b3389139e43",
+  "purpose": "Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1137,
+  "core_bytes": 4575,
+  "sections": [
+    {
+      "name": "Use This Skill When",
+      "bytes": 430,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Load Only What You Need",
+      "bytes": 409,
+      "when": [
+        "load",
+        "need"
+      ]
+    },
+    {
+      "name": "Core Workflow",
+      "bytes": 2203,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "1. Measure first",
+      "bytes": 444,
+      "when": [
+        "measure",
+        "first"
+      ]
+    },
+    {
+      "name": "2. Apply guardrails",
+      "bytes": 815,
+      "when": [
+        "apply",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "3. Select the top 3 fixes",
+      "bytes": 620,
+      "when": [
+        "select",
+        "fixes"
+      ]
+    },
+    {
+      "name": "4. Verify",
+      "bytes": 306,
+      "when": [
+        "verify"
+      ]
+    },
+    {
+      "name": "Required Output",
+      "bytes": 378,
+      "when": [
+        "required",
+        "output"
+      ]
+    },
+    {
+      "name": "References",
+      "bytes": 295,
+      "when": [
+        "references"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\github-actions-efficiency\\SKILL.md"
+}

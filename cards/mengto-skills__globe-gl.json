@@ -1,0 +1,98 @@
+{
+  "id": "mengto-skills__globe-gl",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "ddcc800b5130be8e2818e11f6e28abe6c366c5f73588d614b7aef98e04c0ea23",
+  "purpose": "Use when implementing globe.gl (Globe.GL) for 3D globe data visualization with WebGL/ThreeJS, including setup, data layers (points, arcs, polygons, labels), and integration patterns in plain HTML or R",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when implementing globe.gl (Globe.GL) for 3D globe data visualization with WebGL/ThreeJS, including setup, data layers (points, arcs, polygons, labels), and"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 423,
+  "core_bytes": 1691,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 299,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Quick start (ESM)",
+      "bytes": 229,
+      "when": [
+        "quick",
+        "start"
+      ]
+    },
+    {
+      "name": "Quick start (script tag)",
+      "bytes": 244,
+      "when": [
+        "quick",
+        "start",
+        "script"
+      ]
+    },
+    {
+      "name": "Common layers to mention",
+      "bytes": 154,
+      "when": [
+        "common",
+        "layers",
+        "mention"
+      ]
+    },
+    {
+      "name": "Practical tips",
+      "bytes": 206,
+      "when": [
+        "practical",
+        "tips"
+      ]
+    },
+    {
+      "name": "Questions to ask when specs are missing",
+      "bytes": 291,
+      "when": [
+        "questions",
+        "specs",
+        "missing"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "quick",
+    "start",
+    "script",
+    "common",
+    "mention",
+    "practical",
+    "tips",
+    "questions",
+    "specs",
+    "missing"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\globe-gl\\SKILL.md"
+}

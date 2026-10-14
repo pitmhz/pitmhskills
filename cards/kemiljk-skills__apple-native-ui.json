@@ -1,0 +1,112 @@
+{
+  "id": "kemiljk-skills__apple-native-ui",
+  "tier": "B",
+  "origin": [
+    "kemiljk/skills@9504260005cd17e97d82a8da604b1f46d7278f0f"
+  ],
+  "license": "MIT",
+  "hash": "e5a317f0da07cafe8009775a6a140b1f7d5aee210dbdeca6489a9d003177cb7e",
+  "purpose": "Build or review native Apple interfaces, including platform controls, accessibility, state, navigation, and macOS window behavior.",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Build or review native Apple interfaces, including platform controls, accessibility, state, navigation, and macOS window behavior."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Native Apple (iOS/macOS) UI -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "swiftui controls navigation window",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1313,
+  "core_bytes": 5254,
+  "sections": [
+    {
+      "name": "Start with the target",
+      "bytes": 597,
+      "when": [
+        "start",
+        "target"
+      ]
+    },
+    {
+      "name": "Fresh platform guidance",
+      "bytes": 548,
+      "when": [
+        "fresh",
+        "platform",
+        "guidance"
+      ]
+    },
+    {
+      "name": "macOS workflow",
+      "bytes": 583,
+      "when": [
+        "macos",
+        "workflow"
+      ]
+    },
+    {
+      "name": "State and identity",
+      "bytes": 853,
+      "when": [
+        "state",
+        "identity"
+      ]
+    },
+    {
+      "name": "Platform contracts",
+      "bytes": 806,
+      "when": [
+        "platform",
+        "contracts"
+      ]
+    },
+    {
+      "name": "Accessibility",
+      "bytes": 683,
+      "when": [
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Review output",
+      "bytes": 235,
+      "when": [
+        "review",
+        "output"
+      ]
+    },
+    {
+      "name": "Prefer / reject",
+      "bytes": 558,
+      "when": [
+        "prefer",
+        "reject"
+      ]
+    }
+  ],
+  "keywords": [
+    "start",
+    "target",
+    "fresh",
+    "guidance",
+    "workflow",
+    "identity",
+    "contracts",
+    "output",
+    "prefer",
+    "reject"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kemiljk-skills\\skills\\apple-native-ui\\SKILL.md"
+}

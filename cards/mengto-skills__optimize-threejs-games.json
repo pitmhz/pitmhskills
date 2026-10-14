@@ -1,0 +1,86 @@
+{
+  "id": "mengto-skills__optimize-threejs-games",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "674e9e2825e0d8654e2e8c4b87870119159457687301e97151895a1de3867d93",
+  "purpose": "Profile, diagnose, and improve Three.js or WebGL game performance without regressing gameplay. Use for frame-time drops, CPU/GPU pressure, draw calls, texture and geometry budgets, animation loops, ad",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Profile, diagnose, and improve Three.js or WebGL game performance without regressing gameplay. Use for frame-time drops, CPU/GPU pressure, draw calls, texture a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 427,
+  "core_bytes": 1708,
+  "sections": [
+    {
+      "name": "Establish a repeatable scene",
+      "bytes": 267,
+      "when": [
+        "establish",
+        "repeatable",
+        "scene"
+      ]
+    },
+    {
+      "name": "Diagnose the limiting side",
+      "bytes": 346,
+      "when": [
+        "diagnose",
+        "limiting",
+        "side"
+      ]
+    },
+    {
+      "name": "Apply low-risk fixes first",
+      "bytes": 354,
+      "when": [
+        "apply",
+        "risk",
+        "fixes",
+        "first"
+      ]
+    },
+    {
+      "name": "Guard the result",
+      "bytes": 282,
+      "when": [
+        "guard",
+        "result"
+      ]
+    }
+  ],
+  "keywords": [
+    "optimize",
+    "games",
+    "establish",
+    "repeatable",
+    "scene",
+    "limiting",
+    "side",
+    "apply",
+    "risk",
+    "fixes",
+    "first",
+    "guard",
+    "result"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\game-development\\optimize-threejs-games\\SKILL.md"
+}

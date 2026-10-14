@@ -1,0 +1,66 @@
+{
+  "id": "dotfiles__motronic",
+  "tier": "B",
+  "origin": [
+    "elithrar/dotfiles@9a692ad2d352156dc9de570c9f6dcec0ebfaad7e"
+  ],
+  "license": "MIT",
+  "hash": "8563b6fefb13e2dbcb010016a14b89c74efc5ff6d6d450491b394450eef9e400",
+  "purpose": "Diagnose Porsche Carrera 3.2 Bosch Motronic faults and interpret DME ROMs or calibration changes. Use for 1984-1989 3.2 DME systems, including swaps into earlier cars; not generic 911, CIS, or other E",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Diagnose Porsche Carrera 3.2 Bosch Motronic faults and interpret DME ROMs or calibration changes. Use for 1984-1989 3.2 DME systems, including swaps into earlie"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 762,
+  "core_bytes": 3046,
+  "sections": [
+    {
+      "name": "Read the relevant reference",
+      "bytes": 925,
+      "when": [
+        "read",
+        "relevant",
+        "reference"
+      ]
+    },
+    {
+      "name": "Diagnostic constraints",
+      "bytes": 1199,
+      "when": [
+        "diagnostic",
+        "constraints"
+      ]
+    },
+    {
+      "name": "Response",
+      "bytes": 324,
+      "when": [
+        "response"
+      ]
+    }
+  ],
+  "keywords": [
+    "read",
+    "relevant",
+    "reference",
+    "diagnostic",
+    "constraints",
+    "response"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\dotfiles\\.agents\\skills\\motronic\\SKILL.md"
+}

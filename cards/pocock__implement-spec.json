@@ -27,7 +27,19 @@
   "conflicts_with": [],
   "body_tokens": 705,
   "core_bytes": 2820,
-  "sections": [],
-  "verify": [],
-  "skill_path": "skills/pocock/skills/engineering/implement-spec/SKILL.md"
+  "sections": [
+    {
+      "name": "Steps",
+      "bytes": 1778,
+      "when": [
+        "steps"
+      ]
+    }
+  ],
+  "verify": [
+    "bun run lint",
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/pocock/skills/engineering/implement-spec/SKILL.md",
+  "curated": true
 }

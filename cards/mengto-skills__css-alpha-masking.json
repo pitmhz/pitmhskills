@@ -1,0 +1,109 @@
+{
+  "id": "mengto-skills__css-alpha-masking",
+  "tier": "B",
+  "origin": [
+    "MengTo/Skills@83a47fee32f0b6349bff1fede99257a5ef03dc93"
+  ],
+  "license": "MIT",
+  "hash": "1c43abb3fbec206ba1687af4c7f281dec805547b5afe085dba287044b11b6b09",
+  "purpose": "Apply CSS alpha masking with linear-gradient for horizontal or vertical edge fades (mask-image and -webkit-mask-image). Use when asked for alpha masks, fade edges, or CSS mask gradients.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Apply CSS alpha masking with linear-gradient for horizontal or vertical edge fades (mask-image and -webkit-mask-image). Use when asked for alpha masks, fade edg"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 456,
+  "core_bytes": 1824,
+  "sections": [
+    {
+      "name": "Workflow",
+      "bytes": 217,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Usage checklist",
+      "bytes": 236,
+      "when": [
+        "usage",
+        "checklist"
+      ]
+    },
+    {
+      "name": "Horizontal (left/right) fade",
+      "bytes": 274,
+      "when": [
+        "horizontal",
+        "left",
+        "right",
+        "fade"
+      ]
+    },
+    {
+      "name": "Vertical (top/bottom) fade",
+      "bytes": 274,
+      "when": [
+        "vertical",
+        "bottom",
+        "fade"
+      ]
+    },
+    {
+      "name": "Customization knobs",
+      "bytes": 204,
+      "when": [
+        "customization",
+        "knobs"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 175,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Questions to ask when specs are missing",
+      "bytes": 177,
+      "when": [
+        "questions",
+        "specs",
+        "missing"
+      ]
+    }
+  ],
+  "keywords": [
+    "skill",
+    "workflow",
+    "usage",
+    "checklist",
+    "left",
+    "right",
+    "bottom",
+    "customization",
+    "knobs",
+    "common",
+    "pitfalls",
+    "questions",
+    "specs",
+    "missing"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\css-alpha-masking\\SKILL.md"
+}

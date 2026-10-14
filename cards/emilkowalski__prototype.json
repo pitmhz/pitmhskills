@@ -1,0 +1,150 @@
+{
+  "id": "emilkowalski__prototype",
+  "tier": "B",
+  "origin": [
+    "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
+  ],
+  "license": "MIT",
+  "hash": "c7e70974979da914e45040a3ce31865fb94e7faef09c2cf188d19881a46eda42",
+  "purpose": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitl",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one th"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Build genuinely different variants behind a picker -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "prototype variants picker evaluate",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1968,
+  "core_bytes": 7928,
+  "sections": [
+    {
+      "name": "Initial Response",
+      "bytes": 788,
+      "when": [
+        "initial",
+        "response"
+      ]
+    },
+    {
+      "name": "Operating Posture",
+      "bytes": 774,
+      "when": [
+        "operating",
+        "posture"
+      ]
+    },
+    {
+      "name": "Hard Rules",
+      "bytes": 1033,
+      "when": [
+        "hard",
+        "rules"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "bytes": 4035,
+      "when": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "Phase 1 — Scope",
+      "bytes": 313,
+      "when": [
+        "phase",
+        "scope"
+      ]
+    },
+    {
+      "name": "Phase 2 — Recon",
+      "bytes": 781,
+      "when": [
+        "phase",
+        "recon"
+      ]
+    },
+    {
+      "name": "Phase 3 — Choose directions",
+      "bytes": 657,
+      "when": [
+        "phase",
+        "choose",
+        "directions"
+      ]
+    },
+    {
+      "name": "Phase 4 — Build the picker harness",
+      "bytes": 1005,
+      "when": [
+        "phase",
+        "build",
+        "picker",
+        "harness"
+      ]
+    },
+    {
+      "name": "Phase 5 — Verify and hand off",
+      "bytes": 893,
+      "when": [
+        "phase",
+        "verify",
+        "hand"
+      ]
+    },
+    {
+      "name": "Phase 6 — Promote on selection",
+      "bytes": 371,
+      "when": [
+        "phase",
+        "promote",
+        "selection"
+      ]
+    },
+    {
+      "name": "Invocation Variants",
+      "bytes": 546,
+      "when": [
+        "invocation",
+        "variants"
+      ]
+    },
+    {
+      "name": "Tone",
+      "bytes": 408,
+      "when": [
+        "tone"
+      ]
+    }
+  ],
+  "keywords": [
+    "prototyping",
+    "variants",
+    "initial",
+    "response",
+    "operating",
+    "posture",
+    "hard",
+    "rules",
+    "workflow",
+    "phase",
+    "scope",
+    "recon"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\prototype\\SKILL.md"
+}

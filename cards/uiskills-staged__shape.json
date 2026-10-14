@@ -1,0 +1,112 @@
+{
+  "id": "uiskills-staged__shape",
+  "tier": "B",
+  "origin": [
+    "local@shape"
+  ],
+  "license": "Apache-2.0",
+  "hash": "51960b514f8437baf12484dd5be824e0c2d0ee8802e29e7f511e431493a6c417",
+  "purpose": "Discover what should be made and how it should work, then return a confirmed design brief without code.",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Discover what should be made and how it should work, then return a confirmed design brief without code."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Structured design interview producing a brief -> this.",
+  "cluster": "frontend-design",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "shape brief interview coding",
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 902,
+  "core_bytes": 3606,
+  "sections": [
+    {
+      "name": "Phase 1: Discovery interview",
+      "bytes": 1801,
+      "when": [
+        "phase",
+        "discovery",
+        "interview"
+      ]
+    },
+    {
+      "name": "Cadence",
+      "bytes": 484,
+      "when": [
+        "cadence"
+      ]
+    },
+    {
+      "name": "Round 1: purpose, people, and outcome",
+      "bytes": 435,
+      "when": [
+        "round",
+        "purpose",
+        "people",
+        "outcome"
+      ]
+    },
+    {
+      "name": "Round 2: material, behavior, and boundaries",
+      "bytes": 794,
+      "when": [
+        "round",
+        "material",
+        "behavior",
+        "boundaries"
+      ]
+    },
+    {
+      "name": "Phase 2: Resolve the design direction",
+      "bytes": 395,
+      "when": [
+        "phase",
+        "resolve",
+        "design",
+        "direction"
+      ]
+    },
+    {
+      "name": "Phase 3: Write the brief",
+      "bytes": 1029,
+      "when": [
+        "phase",
+        "write",
+        "brief"
+      ]
+    },
+    {
+      "name": "Confirm and stop",
+      "bytes": 263,
+      "when": [
+        "confirm",
+        "stop"
+      ]
+    }
+  ],
+  "keywords": [
+    "shape",
+    "phase",
+    "discovery",
+    "interview",
+    "cadence",
+    "round",
+    "purpose",
+    "people",
+    "outcome",
+    "material",
+    "behavior",
+    "boundaries"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\shape\\SKILL.md"
+}

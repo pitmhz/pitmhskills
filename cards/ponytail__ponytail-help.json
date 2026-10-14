@@ -6,30 +6,80 @@
   ],
   "license": "MIT",
   "hash": "d677ee12119d1d7531a93162a97a585e2a33d9ca4b5b70d2f62a2fad4cee2f29",
-  "purpose": ">",
+  "purpose": "Quick reference for ponytail levels (lite/full/ultra), skills, commands, and how to deactivate. One-shot display.",
   "domain": "general",
   "task_types": [
-    "review",
-    "implement",
-    "debug"
+    "review"
   ],
   "use_when": [
-    ">"
+    "Explaining ponytail usage, levels, and commands",
+    "Asking how to configure or deactivate ponytail"
   ],
   "do_not_use_when": [
-    "Tasks unrelated to general"
+    "Any actual coding, review, or audit task (use the working ponytail skills)"
   ],
-  "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
-  "cluster": "general",
-  "cluster_role": "primary",
-  "pick_over_primary_when": null,
+  "scope": "Displays the reference card; changes nothing.",
+  "disambiguator": "Ponytail usage help/config -> this. Everything else ponytail -> the working skills.",
+  "cluster": "code-minimalism",
+  "cluster_role": "variant",
+  "pick_over_primary_when": "ponytail help usage commands levels",
   "pairs_with": null,
   "requires": {},
   "conflicts_with": [],
   "body_tokens": 743,
   "core_bytes": 2971,
-  "sections": [],
+  "sections": [
+    {
+      "name": "Levels",
+      "bytes": 480,
+      "when": [
+        "levels"
+      ]
+    },
+    {
+      "name": "Skills",
+      "bytes": 986,
+      "when": [
+        "skills"
+      ]
+    },
+    {
+      "name": "Deactivate",
+      "bytes": 120,
+      "when": [
+        "deactivate"
+      ]
+    },
+    {
+      "name": "Configure Default Mode",
+      "bytes": 486,
+      "when": [
+        "configure",
+        "default",
+        "mode"
+      ]
+    },
+    {
+      "name": "Update",
+      "bytes": 491,
+      "when": [
+        "update"
+      ]
+    },
+    {
+      "name": "More",
+      "bytes": 77,
+      "when": []
+    }
+  ],
+  "keywords": [
+    "deactivate",
+    "configure",
+    "default",
+    "mode",
+    "update"
+  ],
   "verify": [],
-  "skill_path": "skills/ponytail/skills/ponytail-help/SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-help\\SKILL.md",
+  "curated": true
 }

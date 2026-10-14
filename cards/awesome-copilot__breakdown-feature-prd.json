@@ -1,0 +1,65 @@
+{
+  "id": "awesome-copilot__breakdown-feature-prd",
+  "tier": "B",
+  "origin": [
+    "github/awesome-copilot@f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8"
+  ],
+  "license": "MIT",
+  "hash": "68cfda19baafdea722b58adfa63b67f8cc00d704f64dee40fa6b975b6fadc151",
+  "purpose": "Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 620,
+  "core_bytes": 2479,
+  "sections": [
+    {
+      "name": "Goal",
+      "bytes": 577,
+      "when": [
+        "goal"
+      ]
+    },
+    {
+      "name": "Output Format",
+      "bytes": 1509,
+      "when": [
+        "output",
+        "format"
+      ]
+    },
+    {
+      "name": "PRD Structure",
+      "bytes": 1364,
+      "when": [
+        "structure"
+      ]
+    },
+    {
+      "name": "Context Template",
+      "bytes": 225,
+      "when": [
+        "context",
+        "template"
+      ]
+    }
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-feature-prd\\SKILL.md"
+}

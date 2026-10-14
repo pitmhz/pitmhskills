@@ -1,0 +1,109 @@
+{
+  "id": "nvidia__g-assist-mcp-skill",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dbeef13f2a447d8cc232f79a6184a57c87308233da093bcf1cdb93ed3afa2c82",
+  "purpose": "Use this skill to check or change this machine's NVIDIA display and GPU settings, such as resolution, refresh rate, V-Sync, G-SYNC, brightness, color, and GPU performance.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill to check or change this machine's NVIDIA display and GPU settings, such as resolution, refresh rate, V-Sync, G-SYNC, brightness, color, and GPU p"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4062,
+  "core_bytes": 16249,
+  "sections": [
+    {
+      "name": "When to use this skill",
+      "bytes": 898,
+      "when": [
+        "skill"
+      ]
+    },
+    {
+      "name": "Purpose",
+      "bytes": 191,
+      "when": [
+        "purpose"
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "bytes": 268,
+      "when": [
+        "prerequisites"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 818,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Instructions",
+      "bytes": 3432,
+      "when": [
+        "instructions"
+      ]
+    },
+    {
+      "name": "Matching a request to a tool",
+      "bytes": 5309,
+      "when": [
+        "matching",
+        "request",
+        "tool"
+      ]
+    },
+    {
+      "name": "Inputs",
+      "bytes": 543,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Examples",
+      "bytes": 1431,
+      "when": [
+        "examples"
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "bytes": 2149,
+      "when": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Limitations",
+      "bytes": 475,
+      "when": [
+        "limitations"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\nvidia\\skills\\g-assist-mcp-skill\\SKILL.md",
+  "curated": true
+}

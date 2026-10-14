@@ -1,0 +1,99 @@
+{
+  "id": "nvidia__tao-train-dinov3",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d31b2941b43702c4e17d7071801ecc259215437dbd06a085802ccb1be7cd8114",
+  "purpose": "DINOv3 continual self-supervised pre-training. Domain-adapts public DINOv3 ViT backbones",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "DINOv3 continual self-supervised pre-training. Domain-adapts public DINOv3 ViT backbones"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2254,
+  "core_bytes": 9017,
+  "sections": [
+    {
+      "name": "Quick Start (docker run)",
+      "bytes": 1400,
+      "when": [
+        "quick",
+        "start",
+        "docker"
+      ]
+    },
+    {
+      "name": "Configuration",
+      "bytes": 958,
+      "when": [
+        "configuration"
+      ]
+    },
+    {
+      "name": "Core workflow",
+      "bytes": 551,
+      "when": [
+        "core",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Essential fields",
+      "bytes": 1404,
+      "when": [
+        "essential",
+        "fields"
+      ]
+    },
+    {
+      "name": "Checkpoints",
+      "bytes": 1031,
+      "when": [
+        "checkpoints"
+      ]
+    },
+    {
+      "name": "Key options",
+      "bytes": 1342,
+      "when": [
+        "options"
+      ]
+    },
+    {
+      "name": "Distributed training",
+      "bytes": 239,
+      "when": [
+        "distributed",
+        "training"
+      ]
+    },
+    {
+      "name": "Common issues",
+      "bytes": 1075,
+      "when": [
+        "common",
+        "issues"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-train-dinov3/SKILL.md",
+  "curated": true
+}

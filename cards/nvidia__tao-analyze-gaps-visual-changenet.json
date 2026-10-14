@@ -1,0 +1,120 @@
+{
+  "id": "nvidia__tao-analyze-gaps-visual-changenet",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "Apache-2.0",
+  "hash": "c830e48b6b7ec2601a244378efd7dc9506344d770e63f87dcaa26458cf46da4e",
+  "purpose": "Performs gap analysis on NVIDIA TAO VCN Classify (Visual Component Net) experiments by invoking the pinned TAO data-services container directly via `docker run … gap_analysis vcn_aoi …` — picks the op",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Performs gap analysis on NVIDIA TAO VCN Classify (Visual Component Net) experiments by invoking the pinned TAO data-services container directly via `docker run "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4407,
+  "core_bytes": 17739,
+  "sections": [
+    {
+      "name": "Inputs",
+      "bytes": 1135,
+      "when": [
+        "inputs"
+      ]
+    },
+    {
+      "name": "Setup",
+      "bytes": 1681,
+      "when": [
+        "setup"
+      ]
+    },
+    {
+      "name": "Method",
+      "bytes": 4546,
+      "when": [
+        "method"
+      ]
+    },
+    {
+      "name": "Step 1–4 — Run the container",
+      "bytes": 3380,
+      "when": [
+        "step",
+        "container"
+      ]
+    },
+    {
+      "name": "Step 5 — Visual spot check (small, fixed)",
+      "bytes": 872,
+      "when": [
+        "step",
+        "visual",
+        "spot",
+        "check",
+        "small",
+        "fixed"
+      ]
+    },
+    {
+      "name": "Reference invocation",
+      "bytes": 2930,
+      "when": [
+        "reference",
+        "invocation"
+      ]
+    },
+    {
+      "name": "Outputs",
+      "bytes": 1299,
+      "when": [
+        "outputs"
+      ]
+    },
+    {
+      "name": "Common pitfalls",
+      "bytes": 1034,
+      "when": [
+        "common",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Report Structure",
+      "bytes": 633,
+      "when": [
+        "report",
+        "structure"
+      ]
+    },
+    {
+      "name": "Execution Order",
+      "bytes": 1329,
+      "when": [
+        "execution",
+        "order"
+      ]
+    }
+  ],
+  "verify": [
+    "rtk test -- bun run test"
+  ],
+  "skill_path": "skills/nvidia/skills/tao-analyze-gaps-visual-changenet/SKILL.md",
+  "curated": true
+}
