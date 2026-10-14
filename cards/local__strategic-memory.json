@@ -30,6 +30,8 @@
   "body_tokens": 829,
   "core_bytes": 3315,
   "sections": [],
-  "verify": [],
+  "verify": [
+    "bun run test"
+  ],
   "skill_path": "C:/Users/Mattchine/skills/strategic-memory/SKILL.md"
 }

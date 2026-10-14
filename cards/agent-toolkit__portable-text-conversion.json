@@ -1,0 +1,36 @@
+{
+  "id": "agent-toolkit__portable-text-conversion",
+  "tier": "B",
+  "origin": [
+    "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
+  ],
+  "license": "MIT",
+  "hash": "e5db393abb68d673534a339e3e327e4ff94d5daba28ca9d8227eb955193387c4",
+  "purpose": "Convert HTML and Markdown content into Portable Text blocks for Sanity. Use when migrating content from legacy CMSs, importing HTML or Markdown into Sanity, building content pipelines that ingest exte",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Convert HTML and Markdown content into Portable Text blocks for Sanity. Use when migrating content from legacy CMSs, importing HTML or Markdown into Sanity, bui"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 680,
+  "core_bytes": 2736,
+  "sections": [],
+  "verify": [
+    "bun run lint",
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\portable-text-conversion\\SKILL.md"
+}

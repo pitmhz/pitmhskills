@@ -52,3 +52,28 @@ sources:
     ref: 2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5
     glob: "**/SKILL.md"
     license_allow: ["MIT", "Apache-2.0"]
+  - id: agent-toolkit
+    repo: sanity-io/agent-toolkit
+    ref: feb9d38412426b0dfca7e6f21aeecdad8507c170
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: neondatabase
+    repo: neondatabase/agent-skills
+    ref: c843abc48e3c2268db31f5229cb93376de92ce3e
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: gsap
+    repo: greensock/gsap-skills
+    ref: aed9cfd3277740755f6bfc1155c7aa645403b760
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: awesome-copilot
+    repo: github/awesome-copilot
+    ref: f25421d3f1b8b3bb217f78a7c0567cf7ec117cd8
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: security-audit-skill
+    repo: cloudflare/security-audit-skill
+    ref: c1c8a8c1471069fb0e188eeaff69b8e8db6564a8
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]

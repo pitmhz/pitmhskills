@@ -1,0 +1,34 @@
+{
+  "id": "agent-toolkit__seo-aeo-best-practices",
+  "tier": "B",
+  "origin": [
+    "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
+  ],
+  "license": "MIT",
+  "hash": "f4793f3ad7c6076d6dac1f4d6bdeb0281c9d7f8a6e23ad4a3346f6ce6c184568",
+  "purpose": "SEO and AEO best practices for metadata, Open Graph, sitemaps, robots.txt, hreflang, JSON-LD structured data, EEAT, and content optimized for search engines and AI answer surfaces. Use this skill when",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "SEO and AEO best practices for metadata, Open Graph, sitemaps, robots.txt, hreflang, JSON-LD structured data, EEAT, and content optimized for search engines and"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 476,
+  "core_bytes": 1911,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\seo-aeo-best-practices\\SKILL.md"
+}

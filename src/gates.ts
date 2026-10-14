@@ -12,7 +12,8 @@ export function runGates(commands: string[], cwd: string, timeoutMs = 120000): {
       out += `$ ${cmd}\n${String(r).slice(0, 3000)}\n`;
     } catch (e) {
       const err = e as { stdout?: string; stderr?: string; message?: string };
-      out += `$ ${cmd} FAILED\n${String(err.stdout ?? err.stderr ?? err.message ?? e).slice(0, 3000)}\n`;
+      const std = [err.stdout, err.stderr].map((s) => String(s ?? "")).filter(Boolean).join("\n");
+      out += `$ ${cmd} FAILED\n${(std || String(err.message ?? e)).slice(0, 3000)}\n`;
       return { pass: false, output: out };
     }
   }

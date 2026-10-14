@@ -1,0 +1,36 @@
+{
+  "id": "agent-toolkit__sanity-studio-upgrade",
+  "tier": "B",
+  "origin": [
+    "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
+  ],
+  "license": "MIT",
+  "hash": "ed557c98a179259a72614a2bf80b9df38512863e82d86c628fd7b66063a4cb53",
+  "purpose": "Produces a tailored Sanity Studio upgrade plan by inspecting the repository's installed versions, config, and source, then reporting only the breaking changes that actually apply. Covers Studio v3 and",
+  "domain": "workflow",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Produces a tailored Sanity Studio upgrade plan by inspecting the repository's installed versions, config, and source, then reporting only the breaking changes t"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4895,
+  "core_bytes": 19590,
+  "sections": [],
+  "verify": [
+    "bun run lint",
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-studio-upgrade\\SKILL.md"
+}

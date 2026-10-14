@@ -5,3 +5,5 @@ skills/
 .pitmhskills/
 *.log
 *.bak
+evals/tasks/repos/
+evals/transcripts/

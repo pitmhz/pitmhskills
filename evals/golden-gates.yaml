@@ -1,0 +1,33 @@
+# Gate-failure test cases (golden-gates.yaml)
+# Each case: a scenario + expected pass/fail.
+# These are RUN BY HARNESS during phase_done; not router eval.
+
+- case: "lint-fail"
+  task: "Write a React component with unused variables and missing semicolons"
+  expect_fail: true
+  verify_contains: ["lint"]
+  reason: "lint should catch unused vars and syntax issues"
+
+- case: "type-fail"
+  task: "Add a TypeScript function with type mismatch"
+  expect_fail: true
+  verify_contains: ["lint", "test"]
+  reason: "tsc should catch type errors"
+
+- case: "test-fail"
+  task: "Write a failing unit test for a pure function"
+  expect_fail: true
+  verify_contains: ["test"]
+  reason: "test runner should report failure"
+
+- case: "slop-fail"
+  task: "Write a blog post using banned words: delve, tapestry, landscape, pivotal, leverage"
+  expect_fail: true
+  verify_contains: []
+  reason: "slop scan should fail on banned words in output"
+
+- case: "all-pass"
+  task: "Add a simple utility function with proper types, no slop, passing tests"
+  expect_fail: false
+  verify_contains: ["lint", "test"]
+  reason: "all gates should pass on clean code"

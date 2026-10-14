@@ -1,0 +1,44 @@
+{
+  "id": "neondatabase__neon-functions",
+  "tier": "A",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "97dd1bdc8a57a23181fb70b903280dc1db40f04f9f4669c6be0bba136b8e1ff4",
+  "purpose": "Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data. Use when a user wants to host an API, ",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create and deploy Neon serverless functions (JavaScript/TypeScript)",
+    "Webhook handlers, event processing, scheduled jobs on Neon",
+    "Edge-adjacent compute directly in Neon without external Functions"
+  ],
+  "do_not_use_when": [
+    "General Postgres -> neondatabase__neon-postgres",
+    "Neon branching -> neondatabase__neon-postgres-branches",
+    "Neon AI Gateway -> neondatabase__neon-ai-gateway",
+    "Supabase Edge Functions -> supabase__supabase",
+    "Neon Auth -> neondatabase__neon-auth"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Neon serverless functions (webhooks, jobs, edge compute) -> this. General Postgres -> neon-postgres. Branching -> neon-postgres-branches. AI Gateway -> neon-ai-gateway. Supabase Edge Functions -> supabase.",
+  "cluster": "postgres-neon",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "supabase__supabase",
+    "supabase__supabase-postgres-best-practices"
+  ],
+  "body_tokens": 12391,
+  "core_bytes": 49772,
+  "sections": [],
+  "verify": [
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-functions\\SKILL.md"
+}

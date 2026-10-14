@@ -1,0 +1,46 @@
+{
+  "id": "neondatabase__neon-ai-gateway",
+  "tier": "A",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "aaf032ad9a4acbafb891d214e9c7a24f3c7235f7baaf735f1d618d07a2443168",
+  "purpose": "One API and one credential for frontier and open-source LLMs and embedding models, built into your Neon branch and powered by Databricks. Use when a user wants to call an LLM, generate embeddings, add",
+  "domain": "backend-data",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Set up Neon AI Gateway for pgvector similarity search",
+    "Configure vector indexes, similarity search, RAG workloads on Neon",
+    "Use Neon AI Gateway for RAG and semantic search applications"
+  ],
+  "do_not_use_when": [
+    "General Postgres tasks -> neondatabase__neon-postgres",
+    "Neon branching -> neondatabase__neon-postgres-branches",
+    "Egress optimization -> neondatabase__neon-postgres-egress-optimizer",
+    "Supabase pgvector -> supabase__supabase-postgres-best-practices",
+    "Neon serverless functions -> neondatabase__neon-functions",
+    "Neon Auth -> neondatabase__neon-auth"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Neon AI Gateway for pgvector/RAG -> this. General Postgres -> neon-postgres. Branching -> neon-postgres-branches. Egress -> neon-postgres-egress-optimizer. Supabase pgvector -> supabase-postgres-best-practices.",
+  "cluster": "postgres-neon",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "supabase__supabase",
+    "supabase__supabase-postgres-best-practices"
+  ],
+  "body_tokens": 5603,
+  "core_bytes": 22503,
+  "sections": [],
+  "verify": [
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-ai-gateway\\SKILL.md"
+}

@@ -28,6 +28,9 @@
   "body_tokens": 643,
   "core_bytes": 2569,
   "sections": [],
-  "verify": [],
+  "verify": [
+    "bun run lint",
+    "bun run test"
+  ],
   "skill_path": "C:/Users/Mattchine/skills/memory-navigator/SKILL.md"
 }

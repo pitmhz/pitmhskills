@@ -1,0 +1,40 @@
+{
+  "id": "agent-toolkit__sanity-best-practices",
+  "tier": "B",
+  "origin": [
+    "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
+  ],
+  "license": "MIT",
+  "hash": "d2024b1046a60cc249868eb0c78394b906b0c89a35c9f58997a769c638fffd75",
+  "purpose": "Sanity development best practices for schema design, GROQ queries, TypeGen, Visual Editing, images, Portable Text, Studio structure, localization, migrations, Sanity Functions, webhooks, Blueprints, a",
+  "domain": "frontend",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Sanity development best practices for schema design, GROQ queries, TypeGen, Visual Editing, images, Portable Text, Studio structure, localization, migrations, S"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1406,
+  "core_bytes": 5624,
+  "sections": [],
+  "verify": [
+    "bun run lint",
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-best-practices\\SKILL.md"
+}

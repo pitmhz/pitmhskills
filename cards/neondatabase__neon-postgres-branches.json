@@ -1,0 +1,44 @@
+{
+  "id": "neondatabase__neon-postgres-branches",
+  "tier": "A",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ad72028e8e8182072090b1f9d81d9fc4eabc213057586726337d56e9723fa4de",
+  "purpose": "Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch work",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Create Neon Postgres branches for preview deployments and CI/CD",
+    "Manage branch lifecycle: create, reset, delete, promote to parent",
+    "Integrate Neon branching with GitHub Actions or other CI/CD"
+  ],
+  "do_not_use_when": [
+    "General Postgres queries/optimization -> neondatabase__neon-postgres",
+    "Supabase platform features -> supabase__supabase",
+    "Neon AI Gateway vector search -> neondatabase__neon-ai-gateway",
+    "Neon serverless functions -> neondatabase__neon-functions",
+    "Neon Auth JWT claims -> neondatabase__neon-auth"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Neon branching for preview/CI -> this. General Postgres -> neon-postgres. Vector search -> neon-ai-gateway. Serverless functions -> neon-functions. Auth -> neon-auth.",
+  "cluster": "postgres-neon",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "supabase__supabase",
+    "supabase__supabase-postgres-best-practices"
+  ],
+  "body_tokens": 3485,
+  "core_bytes": 13955,
+  "sections": [],
+  "verify": [
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-branches\\SKILL.md"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "agent-toolkit__sanity-singletons",
+  "tier": "B",
+  "origin": [
+    "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
+  ],
+  "license": "MIT",
+  "hash": "a59de8076fe89c146b292a46b2bda76dede7cb2b23a35cd8162de3535067ff0e",
+  "purpose": "Configure singleton documents in a Sanity Studio using the document.singletons registry. Use when a developer wants a fixed-id document (settings, navigation, footer) edited in place, hidden from the ",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Configure singleton documents in a Sanity Studio using the document.singletons registry. Use when a developer wants a fixed-id document (settings, navigation, f"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4821,
+  "core_bytes": 19341,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-singletons\\SKILL.md"
+}

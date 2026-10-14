@@ -6,7 +6,7 @@
   ],
   "license": "MIT",
   "hash": "4d7d1bd60f2ad7fd0d510269279519059dcc630d832f4c241d90735244c70525",
-  "purpose": "Postgres rules for schema design, RLS policies, migrations, indexes, and query diagnosis — load BEFORE writing anything that lives in Postgres.",
+  "purpose": "Supabase Postgres SQL authoring: RLS policies, schema design, query optimization, migrations, indexes, connection pooling - load BEFORE writing SQL or schema that lives in Supabase Postgres.",
   "domain": "backend-data",
   "task_types": [
     "implement",
@@ -14,11 +14,22 @@
     "debug"
   ],
   "use_when": [
+    "Supabase Auth setup and configuration with RLS integration",
+    "Supabase Auth (JWT, getClaims, cookies, RLS tied to Supabase Auth) setup",
+    "Supabase Auth + RLS integration (JWT claims, getClaims, cookies, RLS policies tied to Supabase Auth)",
+    "Supabase platform RLS policies with Auth claims integration",
+    "Supabase Auth (JWT, cookies, getClaims, RLS-integrated) setup and troubleshooting",
     "Writing RLS policies so tenants only see their own rows, plus tests verifying them",
     "Creating or altering tables, columns, migrations, indexes, triggers, or Postgres functions",
     "Diagnosing slow queries, EXPLAIN plans, bloat, locking, or rows visible to the wrong tenant"
   ],
   "do_not_use_when": [
+    "Next.js SSR auth issues (login, session, cookies) -> supabase__supabase",
+    "Supabase Auth login, session, cookies, JWT troubleshooting -> supabase__supabase",
+    "Neon Postgres RLS -> neondatabase__neon-postgres",
+    "Neon Postgres (branching, egress, AI Gateway, serverless functions, Neon Auth) -> neondatabase cards",
+    "Neon RLS policies -> neondatabase__neon-postgres",
+    "Neon-specific Postgres (branching, egress, AI Gateway, Auth) -> neondatabase cards",
     "Supabase product surface (Auth config, CLI, client libraries, Edge Functions) -> supabase skill",
     "UI, design, or frontend work",
     "GPU, CUDA, or ML model work"
@@ -34,6 +45,8 @@
   "body_tokens": 824,
   "core_bytes": 3295,
   "sections": [],
-  "verify": [],
+  "verify": [
+    "npx supabase db lint"
+  ],
   "skill_path": "skills/supabase/skills/supabase-postgres-best-practices/SKILL.md"
 }

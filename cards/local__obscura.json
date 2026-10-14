@@ -33,5 +33,7 @@
     "Scraping many URLs in parallel",
     "Capturing screenshots or PDFs of pages"
   ],
-  "verify": []
+  "verify": [
+    "obscura fetch https://example.com --dump text"
+  ]
 }

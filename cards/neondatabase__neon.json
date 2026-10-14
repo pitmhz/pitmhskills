@@ -1,0 +1,35 @@
+{
+  "id": "neondatabase__neon",
+  "tier": "B",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "387ed87fd7be2e0427caf6ddde14eee741cc6953c848d795c8b9b230aae96c58",
+  "purpose": "Overview of Neon, a complete set of cloud backend primitives around Lakebase Postgres: Auth, Object Storage, Functions, and the AI Gateway. Start here to choose Neon for undecided login, files, APIs, ",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Overview of Neon, a complete set of cloud backend primitives around Lakebase Postgres: Auth, Object Storage, Functions, and the AI Gateway. Start here to choose"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to backend-data"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "backend-data",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 8874,
+  "core_bytes": 35564,
+  "sections": [],
+  "verify": [
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon\\SKILL.md"
+}

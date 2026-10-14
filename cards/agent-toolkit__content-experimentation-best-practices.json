@@ -1,0 +1,38 @@
+{
+  "id": "agent-toolkit__content-experimentation-best-practices",
+  "tier": "B",
+  "origin": [
+    "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
+  ],
+  "license": "MIT",
+  "hash": "8833ce681b0082bc2fd862e87e456b8eb5e908438233f1cc10b674e64876b94f",
+  "purpose": "Content experimentation and A/B testing guidance covering experiment design, hypotheses, metrics, sample size, statistical foundations, CMS-managed variants, and common analysis pitfalls. Use this ski",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Content experimentation and A/B testing guidance covering experiment design, hypotheses, metrics, sample size, statistical foundations, CMS-managed variants, an"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 479,
+  "core_bytes": 1922,
+  "sections": [],
+  "verify": [
+    "bun run lint",
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\content-experimentation-best-practices\\SKILL.md"
+}

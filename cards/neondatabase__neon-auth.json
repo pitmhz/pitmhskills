@@ -1,0 +1,44 @@
+{
+  "id": "neondatabase__neon-auth",
+  "tier": "A",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "239d6ed36f06f0566b9dd876c12d86f056b71004b4aae0652752369408dfa01f",
+  "purpose": "Add authentication to a new app. Use for \"add auth\", \"add login\", Neon Auth (Managed Better Auth), identity routing, sign-up, sign-in, password reset, email OTP, magic links, organizations, phone OTP,",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Configure Neon Auth with JWT claims for multi-tenant access control",
+    "Set up row-level security via Neon Auth JWT claims",
+    "Map custom JWT claims to Neon RLS policies"
+  ],
+  "do_not_use_when": [
+    "General Postgres RLS/SQL -> neondatabase__neon-postgres",
+    "Supabase Auth/RPC -> supabase__supabase",
+    "Supabase RLS policies -> supabase__supabase-postgres-best-practices",
+    "Neon AI Gateway -> neondatabase__neon-ai-gateway",
+    "Neon serverless functions -> neondatabase__neon-functions"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Neon Auth JWT claims + RLS -> this. Supabase Auth -> supabase__supabase. Supabase RLS -> supabase-postgres-best-practices. General Postgres -> neon-postgres.",
+  "cluster": "postgres-neon",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "supabase__supabase",
+    "supabase__supabase-postgres-best-practices"
+  ],
+  "body_tokens": 3138,
+  "core_bytes": 12559,
+  "sections": [],
+  "verify": [
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-auth\\SKILL.md"
+}

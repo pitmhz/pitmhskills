@@ -1,0 +1,37 @@
+{
+  "id": "agent-toolkit__portable-text-serialization",
+  "tier": "B",
+  "origin": [
+    "sanity-io/agent-toolkit@feb9d38412426b0dfca7e6f21aeecdad8507c170"
+  ],
+  "license": "MIT",
+  "hash": "a8ecfdfde2f51f610d3afddc4e38878a7f7bfd5fee69c7033ebd490d9cbbb570",
+  "purpose": "Render and serialize Portable Text to React, Svelte, Vue, Astro, HTML, Markdown, and plain text. Use when implementing Portable Text rendering in any frontend framework, building custom serializers fo",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Render and serialize Portable Text to React, Svelte, Vue, Astro, HTML, Markdown, and plain text. Use when implementing Portable Text rendering in any frontend f"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1106,
+  "core_bytes": 4513,
+  "sections": [],
+  "verify": [
+    "bun run lint",
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\portable-text-serialization\\SKILL.md"
+}

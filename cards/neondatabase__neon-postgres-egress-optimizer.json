@@ -1,0 +1,51 @@
+{
+  "id": "neondatabase__neon-postgres-egress-optimizer",
+  "tier": "A",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0daa79912cdeb0d7006e743bae21a5c6fabbb5ae2bdbb98fc3f0f3bc0001cb3c",
+  "purpose": "Diagnose and fix excessive Postgres egress (network data transfer) in a codebase. Use when a user mentions high database bills, unexpected data transfer costs, network transfer charges, egress spikes,",
+  "domain": "backend-data",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Reduce Neon Postgres egress/data transfer costs",
+    "Optimize read-heavy analytics workloads to minimize data transfer",
+    "Configure read replicas, connection pooling, query patterns for cost reduction"
+  ],
+  "do_not_use_when": [
+    "inference",
+    "kernel",
+    "gpu",
+    "cuda",
+    "General Postgres optimization -> neondatabase__neon-postgres",
+    "Neon branching -> neondatabase__neon-postgres-branches",
+    "Supabase platform -> supabase__supabase",
+    "Vector search/AI Gateway -> neondatabase__neon-ai-gateway",
+    "Neon Auth -> neondatabase__neon-auth"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Egress cost optimization for read-heavy workloads -> this. General Postgres -> neon-postgres. Branching -> neon-postgres-branches.",
+  "cluster": "postgres-neon",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "supabase__supabase",
+    "supabase__supabase-postgres-best-practices"
+  ],
+  "body_tokens": 2620,
+  "core_bytes": 10493,
+  "sections": [],
+  "verify": [
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-egress-optimizer\\SKILL.md"
+}

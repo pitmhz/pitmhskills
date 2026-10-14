@@ -6,18 +6,23 @@
   ],
   "license": "MIT",
   "hash": "44f4cfefb57751abf9288fb2920de621c748964de1301db627dea725e187bccf",
-  "purpose": "Supabase product surface: Auth, CLI, client libraries, Edge Functions, Realtime, Storage, and Supabase debugging.",
+  "purpose": "Supabase Auth (login, JWT, cookies, getClaims) plus CLI, client libraries, Edge Functions, Realtime, Storage, and Supabase project debugging.",
   "domain": "backend-data",
   "task_types": [
     "implement",
     "debug"
   ],
   "use_when": [
+    "Set up Supabase Auth: login, session cookies, JWT claims, getClaims",
+    "Supabase Auth with Row Level Security for multi-tenant data",
+    "Supabase Auth troubleshooting: login failures, session loss, cookie issues, JWT claims",
+    "Fix Supabase login, session cookies, JWT, getClaims in Next.js SSR or any framework",
     "Working with Supabase Auth (login, JWT, cookies, RLS surprises from auth claims)",
     "Using Supabase CLI, MCP server, client libraries, Edge Functions, Realtime, or Storage",
     "Debugging Supabase project errors: permission denied, schema cache, timeouts, logs"
   ],
   "do_not_use_when": [
+    "Supabase Postgres schema, queries, indexes, RLS policy SQL -> supabase__supabase-postgres-best-practices",
     "Plain Postgres SQL rules, schema authoring, or RLS policy writing -> supabase-postgres-best-practices",
     "UI, design, or frontend work",
     "GPU, CUDA, or ML model work"
@@ -33,6 +38,8 @@
   "body_tokens": 3607,
   "core_bytes": 14462,
   "sections": [],
-  "verify": [],
+  "verify": [
+    "supabase db advisors"
+  ],
   "skill_path": "skills/supabase/skills/supabase/SKILL.md"
 }

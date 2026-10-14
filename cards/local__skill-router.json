@@ -33,5 +33,8 @@
     "Pick which skill fits the request",
     "Resolve a task to its specialized capability"
   ],
-  "verify": []
+  "verify": [
+    "bun run lint",
+    "bun run test"
+  ]
 }

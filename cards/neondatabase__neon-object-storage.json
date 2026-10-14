@@ -1,0 +1,34 @@
+{
+  "id": "neondatabase__neon-object-storage",
+  "tier": "B",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "dea7577475c9f87ca3810f65bd7b0b9f5e04382b918109614bea562a28cf1ebc",
+  "purpose": "S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch. Use when a user wants object storage, a bucket, blob/file storage, or som",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch. Use when a user wants object stor"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3603,
+  "core_bytes": 14480,
+  "sections": [],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-object-storage\\SKILL.md"
+}

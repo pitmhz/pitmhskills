@@ -1,0 +1,52 @@
+{
+  "id": "neondatabase__neon-postgres",
+  "tier": "A",
+  "origin": [
+    "neondatabase/agent-skills@c843abc48e3c2268db31f5229cb93376de92ce3e"
+  ],
+  "license": "Apache-2.0",
+  "hash": "07853a152c838e0f4261057826a1d61aca674f167cd4178d19f6ef563c1eb509",
+  "purpose": "Neon Postgres best practices: schema design, query optimization, RLS policies, migrations, indexing, connection pooling, branching, autoscaling, scale-to-zero, instant restore, read replicas, egress optimization — load BEFORE writing anything that lives in Neon Postgres.",
+  "domain": "backend-data",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Neon Postgres RLS policies for multi-tenant isolation (Neon-native, not Supabase)",
+    "Configure Row Level Security policies in Neon Postgres for org-level data isolation",
+    "Write RLS policies for multi-tenant isolation in Neon Postgres",
+    "Core Neon Postgres: schema design, query optimization, indexing, connection pooling",
+    "General Postgres tasks on Neon: migrations, performance tuning, EXPLAIN analysis",
+    "Day-to-day Neon Postgres operations without specialized features"
+  ],
+  "do_not_use_when": [
+    "Supabase platform Auth -> supabase__supabase",
+    "Supabase Auth (JWT, getClaims, cookies) -> supabase__supabase-postgres-best-practices",
+    "Supabase platform (Auth, Realtime, Storage, CLI) -> supabase__supabase or supabase__supabase-postgres-best-practices",
+    "Supabase RLS policies (Auth-integrated) -> supabase__supabase-postgres-best-practices",
+    "Supabase platform (Auth, Storage, Realtime, CLI) -> supabase__supabase",
+    "Neon branching for preview deployments -> neondatabase__neon-postgres-branches",
+    "Neon AI Gateway for vector search -> neondatabase__neon-ai-gateway",
+    "Neon serverless functions -> neondatabase__neon-functions",
+    "Neon Auth with JWT claims -> neondatabase__neon-auth",
+    "Egress cost optimization -> neondatabase__neon-postgres-egress-optimizer"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "General Neon Postgres operations -> this. Branching -> neon-postgres-branches. Vector/AI Gateway -> neon-ai-gateway. Serverless functions -> neon-functions. Auth -> neon-auth. Egress optimization -> neon-postgres-egress-optimizer.",
+  "cluster": "postgres-neon",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [
+    "supabase__supabase",
+    "supabase__supabase-postgres-best-practices"
+  ],
+  "body_tokens": 4230,
+  "core_bytes": 16933,
+  "sections": [],
+  "verify": [
+    "bun run test"
+  ],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres\\SKILL.md"
+}

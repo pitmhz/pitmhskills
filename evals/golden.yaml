@@ -40,3 +40,23 @@
   expect: local__skill-finder
 - task: "pick which registered skill fits this task"
   expect: local__skill-router
+- task: "Create a Neon Postgres branch for preview deployments via GitHub Actions"
+  expect: neondatabase__neon-postgres-branches
+- task: "Optimize Neon Postgres egress costs for a read-heavy analytics workload"
+  expect: neondatabase__neon-postgres-egress-optimizer
+- task: "Set up Neon AI Gateway for vector similarity search with pgvector"
+  expect: neondatabase__neon-ai-gateway
+- task: "Configure Neon serverless functions for webhook processing"
+  expect: neondatabase__neon-functions
+- task: "Set up Neon Auth with JWT claims mapping for multi-tenant access"
+  expect: neondatabase__neon-auth
+- task: "Set up Supabase Auth with Row Level Security for multi-tenant data"
+  expect: supabase__supabase
+- task: "Optimize a CUDA kernel memory transfer for inference throughput"
+  expect: NONE
+- task: "Write a CUDA-Q quantum circuit kernel for a chemistry simulation"
+  expect: nvidia__cudaq-guide
+- task: "Profile a CUDA kernel with Nsight to find shared-memory bank conflicts"
+  expect: NONE
+- task: "Write RLS policies so users only see their org data in Neon Postgres"
+  expect: neondatabase__neon-postgres
