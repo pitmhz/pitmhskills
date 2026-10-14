@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__jetson-customize-clocks",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "aaf64a450ec75065eb153198eb6a84830244c0f371291276cf2a387c20aceac0",
+  "purpose": "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tuning or nvpmodel edits.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4830,
+  "core_bytes": 19416,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-customize-clocks/SKILL.md"
+}

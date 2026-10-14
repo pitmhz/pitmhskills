@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__jetson-customize-camera",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "6081cb5fb824e43d7b6c84a431063e8dcf6f896e0ff17891658d0d1d3cd2c09b",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2491,
+  "core_bytes": 10038,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-customize-camera/SKILL.md"
+}

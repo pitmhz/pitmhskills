@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__jetson-print-device-info",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "ec358299820aac7a12d9a6ffae6691aeded2e5a5b23bc9a19376deec4cb1cc37",
+  "purpose": "Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an example skill.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an examp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1332,
+  "core_bytes": 5342,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-print-device-info/SKILL.md"
+}

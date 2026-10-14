@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__vss-summarize-video",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "da604da93646987f2af86606a874d6fc95cd134a6952356b5db9dbb7d109c6f1",
+  "purpose": "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4789,
+  "core_bytes": 19252,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/vss-summarize-video/SKILL.md"
+}

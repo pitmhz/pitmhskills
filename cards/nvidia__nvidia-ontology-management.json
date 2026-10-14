@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nvidia-ontology-management",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "a7f80c131e258ab15ad79134a1df4af87e52d379854fc12778f1074792eecc20",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1608,
+  "core_bytes": 6456,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nvidia-ontology-management/SKILL.md"
+}

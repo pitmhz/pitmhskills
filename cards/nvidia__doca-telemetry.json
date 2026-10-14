@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__doca-telemetry",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "9acfdd4ad763b80d818a2c2bb03c280c578ac34d6550b69d542e84ee40dd6f3d",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2829,
+  "core_bytes": 11353,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/doca-telemetry/SKILL.md"
+}

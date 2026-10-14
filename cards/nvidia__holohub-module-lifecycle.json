@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__holohub-module-lifecycle",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "5d0f2caa6bb10ea4e5da91b4fcf85d3907d1170015a96bc07dcdffe25f870764",
+  "purpose": "Use for reusable Holoscan Module work with ./holohub: scaffold, tests, editable install, DEB/WHEEL packaging, and clean-consumer proof.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Use for reusable Holoscan Module work with ./holohub: scaffold, tests, editable install, DEB/WHEEL packaging, and clean-consumer proof."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1758,
+  "core_bytes": 7031,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/holohub-module-lifecycle/SKILL.md"
+}

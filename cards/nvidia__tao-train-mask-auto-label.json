@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-mask-auto-label",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "a46e65dd0c4c16cd4ab0c5096ef82c4ab3b35bb8328d618eb2ccef31f2556037",
+  "purpose": "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2894,
+  "core_bytes": 11580,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-mask-auto-label/SKILL.md"
+}

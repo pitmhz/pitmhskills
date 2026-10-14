@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__vss-deploy-dense-captioning",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "32af66050dadb3adcdaebf5cdf32fbb48b4d8581e9ec5a1bc4afb95f90625b81",
+  "purpose": "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS profile deploy or video-search ingestion.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS prof"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3389,
+  "core_bytes": 13556,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/vss-deploy-dense-captioning/SKILL.md"
+}

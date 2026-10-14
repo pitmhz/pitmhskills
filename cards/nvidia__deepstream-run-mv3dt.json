@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__deepstream-run-mv3dt",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "7661286574123fe8ea6b4f42813ebfb1bdacc3ed252bbbc757da2833760940d5",
+  "purpose": "Run and operate the DeepStream Multi-View 3D Tracking reference app, also known as MV3DT. Use when the user asks to set up prerequisites, run shipped MV3DT samples, run Multi-View 3D Tracking on custo",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Run and operate the DeepStream Multi-View 3D Tracking reference app, also known as MV3DT. Use when the user asks to set up prerequisites, run shipped MV3DT samp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3192,
+  "core_bytes": 12765,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/deepstream-run-mv3dt/SKILL.md"
+}

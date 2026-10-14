@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__doca-pcc-ztr-rttcc-algo",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "90d5bf5349328bdb802e38fcc8b4bd491582cf4cc8dd563ca25863118775278a",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4856,
+  "core_bytes": 19496,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/doca-pcc-ztr-rttcc-algo/SKILL.md"
+}

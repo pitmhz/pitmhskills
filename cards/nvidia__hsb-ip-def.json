@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__hsb-ip-def",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "f80958bb199d1a5580008c55f415390fb9a62f6dfc4cf7005c31be179e13f585",
+  "purpose": "Generate, validate, compare, or explain HSB HOLOLINK_def.svh macros. Do not use for FPGA_top.sv wrappers or packetizer-only derivation. Generation runs bundled Python scripts locally through shell com",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Generate, validate, compare, or explain HSB HOLOLINK_def.svh macros. Do not use for FPGA_top.sv wrappers or packetizer-only derivation. Generation runs bundled "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2934,
+  "core_bytes": 11735,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/hsb-ip-def/SKILL.md"
+}

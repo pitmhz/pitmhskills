@@ -2,6 +2,7 @@ import { existsSync, readFileSync, writeFileSync, readdirSync, mkdirSync } from 
 import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
+import yaml from "js-yaml";
 import { hashContent, loadSources } from "./ingest.ts";
 import { shaFile } from "./index.ts";
 import type { Card } from "./types.ts";
@@ -70,18 +71,34 @@ function findSkillFiles(provider: string, base: string): string[] {
   return out;
 }
 
-function parseFrontmatter(raw: string, f: string): { name: string; description: string } {
-  const m = raw.match(/^---\s*\n([\s\S]*?)\n---/);
+export function parseFrontmatter(raw: string, f: string): { name: string; description: string } {
+  const normalized = raw.replace(/\r\n/g, "\n");
+  const m = normalized.match(/^---\s*\n([\s\S]*?)\n---/);
   let name = "", description = "";
   if (m) {
-    const nm = m[1]!.match(/^name:\s*(.+)$/m);
-    const dm = m[1]!.match(/^description:\s*(.+)$/m);
-    if (nm) name = nm[1]!.trim().replace(/["']/g, "");
-    if (dm) description = dm[1]!.trim().replace(/["']/g, "");
+    try {
+      const data = yaml.load(m[1]!) as Record<string, unknown> | null;
+      if (data && typeof data === "object") {
+        const n = data["name"];
+        const d = data["description"];
+        if (typeof n === "string") name = n.trim();
+        else if (n != null) name = String(n).trim();
+        if (typeof d === "string") description = d.trim();
+        else if (d != null) description = String(d).trim();
+      }
+    } catch {
+      // Invalid YAML (e.g. unquoted colon+space in a plain scalar, common in
+      // SKILL.md descriptions): fall back to legacy single-line capture so we
+      // never lose a description the old parser recovered.
+      const nm = m[1]!.match(/^name:\s*(.+)$/m);
+      const dm = m[1]!.match(/^description:\s*(.+)$/m);
+      if (nm) name = nm[1]!.trim();
+      if (dm) description = dm[1]!.trim();
+    }
   }
   if (!name) name = basename(dirname(f));
   if (!description) {
-    const first = raw.replace(/^---[\s\S]*?---/, "").trim().split("\n").find((l) => l.trim().length > 20);
+    const first = normalized.replace(/^---[\s\S]*?---/, "").trim().split("\n").find((l) => l.trim().length > 20);
     description = (first ?? `Skill ${name}`).slice(0, 200);
   }
   return { name, description };

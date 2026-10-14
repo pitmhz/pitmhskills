@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__rtvi-cv-scaffold-vss-service",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "d167dc93457e5789866932e7a78ab0cd3cbe33557b673bd1a437130177919d3a",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4629,
+  "core_bytes": 18742,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/rtvi-cv-scaffold-vss-service/SKILL.md"
+}

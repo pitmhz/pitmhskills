@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__amc-setup-calibration-stack",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "4ccb8055abdd7dac6c0a0e4640a816a50577552af0aaf3a5626b08941f93b3aa",
+  "purpose": "Launch AutoMagicCalib microservice and web UI from NGC release images via Docker Compose. Use when user says deploy auto calibration, launch auto calibration, launch AMC, start MS+UI, or set up auto-m",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Launch AutoMagicCalib microservice and web UI from NGC release images via Docker Compose. Use when user says deploy auto calibration, launch auto calibration, l"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4033,
+  "core_bytes": 16159,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/amc-setup-calibration-stack/SKILL.md"
+}

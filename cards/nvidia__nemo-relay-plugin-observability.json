@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nemo-relay-plugin-observability",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "d7ffe66bb0bc2fd9a60515dc66665345006670ec82a5e6acb59b77139b26f5cc",
+  "purpose": "Use this skill when choosing or configuring NeMo Relay 0.6 or 0.7 observability through the built-in plugin, subscribers, or exporters, including raw ATOF events, ATIF trajectories, OpenTelemetry, Ope",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when choosing or configuring NeMo Relay 0.6 or 0.7 observability through the built-in plugin, subscribers, or exporters, including raw ATOF event"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1731,
+  "core_bytes": 6923,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-relay-plugin-observability/SKILL.md"
+}

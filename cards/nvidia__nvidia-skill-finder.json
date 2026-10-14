@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__nvidia-skill-finder",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "12e25cee934df5b0405569a624fd1495006629677cca58827a4e018289d14b3d",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2129,
+  "core_bytes": 8517,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md"
+}

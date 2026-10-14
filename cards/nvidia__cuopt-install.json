@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__cuopt-install",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "990bec651929aa28006a682bda80f4da1395c4a201832d967844cae84eab5bcf",
+  "purpose": "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1084,
+  "core_bytes": 4362,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/cuopt-install/SKILL.md"
+}

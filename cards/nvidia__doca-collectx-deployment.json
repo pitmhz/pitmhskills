@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__doca-collectx-deployment",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "93b6c6035227e79004fd58c0efe2421b5565a3f0e0b665e9a44d59489883efbd",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2892,
+  "core_bytes": 11630,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/doca-collectx-deployment/SKILL.md"
+}

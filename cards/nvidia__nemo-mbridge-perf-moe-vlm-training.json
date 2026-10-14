@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-moe-vlm-training",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "adc5427c5a5797a92ddcc6df7df7fe1575fd6cef552e8803f576e7263cb65b11",
+  "purpose": "Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next, and other multimodal experiments.",
+  "domain": "frontend",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next, and othe"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1320,
+  "core_bytes": 5277,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-moe-vlm-training/SKILL.md"
+}

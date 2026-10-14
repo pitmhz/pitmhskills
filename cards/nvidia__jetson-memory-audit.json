@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__jetson-memory-audit",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "74855ac318b9e164e31374815e7eeb821b8d2a9ad29cd3530acb78ac56be1117",
+  "purpose": "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2311,
+  "core_bytes": 9254,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-memory-audit/SKILL.md"
+}

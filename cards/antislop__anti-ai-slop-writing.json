@@ -1,0 +1,33 @@
+{
+  "id": "antislop__anti-ai-slop-writing",
+  "tier": "B",
+  "origin": [
+    "jalaalrd/anti-ai-slop-writing@63255f9bbb75a265dc5786a04535cd033f487756"
+  ],
+  "license": "UNKNOWN",
+  "hash": "94f6224ad76c87da96884c46cc086a35add8e86851a7aaddab732929d0c05321",
+  "purpose": "Produces human-sounding text that avoids detectable AI writing patterns. Activates on any writing task — tweets, emails, articles, bios, captions, reports, copy, messages, LinkedIn posts, cover letter",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Produces human-sounding text that avoids detectable AI writing patterns. Activates on any writing task — tweets, emails, articles, bios, captions, reports, copy"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1882,
+  "core_bytes": 7587,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/antislop/skills/anti-ai-slop-writing/SKILL.md"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__i4h-workflow-dataset-teleop",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "2d28295c2d0b2827466b06073afab4e4aa2ca14342ab23b672c05a56165967ad",
+  "purpose": "Record demonstrations through a workflows teleop Task into workflow HDF5. Use for keyboard, leader, VR, or bus input; do not use for policy evaluation or autonomous rule-based Tasks.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Record demonstrations through a workflows teleop Task into workflow HDF5. Use for keyboard, leader, VR, or bus input; do not use for policy evaluation or autono"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1209,
+  "core_bytes": 4838,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-dataset-teleop/SKILL.md"
+}

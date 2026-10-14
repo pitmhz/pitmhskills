@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-generate-video-reasoning-annotations",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "90fe7b566643173e0f34a119e93cc0b65383e11a87890f19d9cab0b2f861287e",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2838,
+  "core_bytes": 11424,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-generate-video-reasoning-annotations/SKILL.md"
+}

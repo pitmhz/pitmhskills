@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__jetson-flash-image",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "f64832ef6008dadc2cffec116e0559d885c4273612edaced351cd7673aec3203",
+  "purpose": "Use to flash a promoted BSP image to a Jetson DUT in RCM mode via flash.sh or l4t_initrd_flash.sh. Do NOT use for BSP customization, image promotion, or carrier derivation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Use to flash a promoted BSP image to a Jetson DUT in RCM mode via flash.sh or l4t_initrd_flash.sh. Do NOT use for BSP customization, image promotion, or carrier"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4998,
+  "core_bytes": 20081,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-flash-image/SKILL.md"
+}

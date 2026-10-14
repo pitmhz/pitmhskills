@@ -1,0 +1,95 @@
+# Parser edge goldens for Stage 1-D2 (js-yaml frontmatter).
+# Each case feeds `frontmatter` through parseFrontmatter (src/card.ts).
+# Covers: folded scalars (>/|), quoted strings, inline lists, missing frontmatter, CRLF, anchors.
+- id: folded-gt
+  frontmatter: |
+    ---
+    name: folded-test
+    description: >
+      Stop and check this skill before finishing
+      any reply to a question about how to use Claude
+      or a Claude product for learning teams.
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: folded-test
+  expect_contains: "Stop and check this skill before finishing any reply"
+  expect_not: ">"
+- id: literal-pipe
+  frontmatter: |
+    ---
+    name: literal-test
+    description: |-
+      Reference for the Claude API with line one.
+      Second line about streaming and tool use.
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: literal-test
+  expect_contains: "Second line about streaming"
+  expect_not: "|-"
+- id: quoted-double
+  frontmatter: |
+    ---
+    name: "quoted-name"
+    description: "Use this skill whenever the user mentions 'Word doc' or triggers: deploy, test, and verify."
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: quoted-name
+  expect_contains: "Use this skill whenever"
+- id: quoted-single-colon
+  frontmatter: |
+    ---
+    name: 'colon-test'
+    description: 'Trigger when the user says: deploy, test, or verify this thing now.'
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: colon-test
+  expect_contains: "Trigger when the user says:"
+- id: inline-list-extra
+  frontmatter: |
+    ---
+    name: inline-test
+    description: Skill with extra inline list keys that must not break parsing.
+    tags: [alpha, beta]
+    license_allow: ["MIT", "Apache-2.0"]
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: inline-test
+  expect_contains: "extra inline list keys"
+- id: missing-frontmatter
+  frontmatter: |
+    This skill has no frontmatter block at all in the file.
+    The fallback parser should pick this long body line as the description text.
+  expect_name: missing-frontmatter
+  expect_contains: "no frontmatter block at all"
+- id: crlf-folded
+  frontmatter: |
+    ---
+    name: crlf-test
+    description: >
+      Stop and check this skill before finishing
+      any reply carried over CRLF line endings here.
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: crlf-test
+  expect_contains: "Stop and check this skill before finishing any reply"
+  expect_not: ">"
+  crlf: true
+- id: anchor-alias
+  frontmatter: |
+    ---
+    name: anchor-test
+    anchor_text: &d anchored description reused below
+    description: *d
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: anchor-test
+  expect_contains: "anchored description reused below"
+- id: colon-unquoted-fallback
+  frontmatter: |
+    ---
+    name: colon-fallback-test
+    description: Production system for dashboards: min-max grid columns and sidebar layout.
+    ---
+    Body here with enough length to avoid fallback parsing entirely.
+  expect_name: colon-fallback-test
+  expect_contains: "Production system for dashboards:"

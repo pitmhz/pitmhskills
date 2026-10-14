@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__i4h-workflow-scene-edit",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "4b0b13a74fb5725c5d74ba4fd2650f81b3f0d647a5e2dfc01f36856a08ca9a68",
+  "purpose": "Edit an existing workflow Scene or task contract. Use for assets, layout, cameras, randomization, task text, or success rules; do not use to create a new workflow.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Edit an existing workflow Scene or task contract. Use for assets, layout, cameras, randomization, task text, or success rules; do not use to create a new workfl"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4868,
+  "core_bytes": 19513,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-scene-edit/SKILL.md"
+}

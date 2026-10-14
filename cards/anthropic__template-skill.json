@@ -1,0 +1,33 @@
+{
+  "id": "anthropic__template-skill",
+  "tier": "B",
+  "origin": [
+    "anthropics/skills@dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+  ],
+  "license": "UNKNOWN",
+  "hash": "bc3548bb6225e301467d27136b4f8cbd64eede42d3408d9df1bd1ccc8b21f7af",
+  "purpose": "Replace with description of the skill and when Claude should use it.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Replace with description of the skill and when Claude should use it."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 37,
+  "core_bytes": 146,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/anthropic/template/SKILL.md"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__tilegym-cutile-python",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "ca15271e527776adc11c56d3452125383cfd720174e0d809fa7d89cf7266e3fe",
+  "purpose": "Expert cuTile programming assistant. Write high-performance GPU kernels using cuTiles tile-based programming model with proper validation and optimization. Supports deep agent orchestration for comple",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Expert cuTile programming assistant. Write high-performance GPU kernels using cuTiles tile-based programming model with proper validation and optimization. Supp"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5083,
+  "core_bytes": 20743,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tilegym-cutile-python/SKILL.md"
+}

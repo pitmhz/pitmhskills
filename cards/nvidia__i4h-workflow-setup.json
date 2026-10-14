@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__i4h-workflow-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "9d7893816ce40e9b084c714877251cc96ced646272c056b9fe3418d31064704b",
+  "purpose": "Preflight and set up the root-level workflow runtime. Use for installation, missing component environments, or third-party failures; do not use for rollout validation.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Preflight and set up the root-level workflow runtime. Use for installation, missing component environments, or third-party failures; do not use for rollout vali"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1035,
+  "core_bytes": 4140,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-setup/SKILL.md"
+}

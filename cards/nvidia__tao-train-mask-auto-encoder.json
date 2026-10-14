@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__tao-train-mask-auto-encoder",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "025b4fe1210a684556a425ec4bf9a82bb4d622426bc600255a310ac3361d32c3",
+  "purpose": "Masked Auto-Encoder (MAE) for self-supervised pretraining and fine-tuning. Masks random patches and reconstructs",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Masked Auto-Encoder (MAE) for self-supervised pretraining and fine-tuning. Masks random patches and reconstructs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2923,
+  "core_bytes": 11693,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-mask-auto-encoder/SKILL.md"
+}

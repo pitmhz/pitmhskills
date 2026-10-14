@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__vss-deploy-video-embedding",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "8ab25f88c7ea078a046fd40c75925755ad1b3e78037efa59ba444df5ddc90987",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3730,
+  "core_bytes": 14943,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/vss-deploy-video-embedding/SKILL.md"
+}

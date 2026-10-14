@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nemo-relay-instrument-context-isolation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "63dd521f9175a8cec6e222ecaa4bc772ae9847fa2b390d4e1d9590c14fa1e3e3",
+  "purpose": "Use this skill when concurrent requests, async tasks, threads, workers, goroutines, or agents need independent NeMo Relay scope stacks and correct ancestry propagation.",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Use this skill when concurrent requests, async tasks, threads, workers, goroutines, or agents need independent NeMo Relay scope stacks and correct ancestry prop"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 683,
+  "core_bytes": 2730,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-relay-instrument-context-isolation/SKILL.md"
+}

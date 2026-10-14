@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-data-io",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "d22824aa16cfcb5ad0d6e8b4272f9c5939a118c7f0d11d2d2255261dab07e4a1",
+  "purpose": "The data-mover for TAO jobs — decides the storage tier (A pre-positioned mount with zero fetch / B volume-from-S3 / C ephemeral in-compute fetch), stages inputs (bulk + annotation-selective + archive ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "The data-mover for TAO jobs — decides the storage tier (A pre-positioned mount with zero fetch / B volume-from-S3 / C ephemeral in-compute fetch), stages inputs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1529,
+  "core_bytes": 6147,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-data-io/SKILL.md"
+}

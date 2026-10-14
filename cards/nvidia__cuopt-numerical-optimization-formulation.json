@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__cuopt-numerical-optimization-formulation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "39f9f7cfc994a8f1c1e64e644f6ed2aa0a2688eedfd02cf1cfad868e03f5bf86",
+  "purpose": "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4922,
+  "core_bytes": 19861,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/cuopt-numerical-optimization-formulation/SKILL.md"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__warp-debug-gradients",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "93dbe19aaba9e2de9daacea4eeb5ff7e292c27c40b435c71824e5b4b6eeb7c08",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4836,
+  "core_bytes": 19460,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/warp-debug-gradients/SKILL.md"
+}

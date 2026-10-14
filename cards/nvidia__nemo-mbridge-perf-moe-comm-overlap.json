@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-moe-comm-overlap",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "28210793e9431b89cd3293bd95e119a4496cddd0a3644e2a8eee42c1144f812c",
+  "purpose": "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1920,
+  "core_bytes": 7677,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-moe-comm-overlap/SKILL.md"
+}

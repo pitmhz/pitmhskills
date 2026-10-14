@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-sequence-packing",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "e471abc4242feabaab78a2343f765cefa08d190e4bb9244a0714521d4f5cdb83",
+  "purpose": "Validate and use packed sequences and long-context training in Megatron-Bridge, including offline LLM packing, collate-time VLM packing, Energon online packing, and CP constraints.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Validate and use packed sequences and long-context training in Megatron-Bridge, including offline LLM packing, collate-time VLM packing, Energon online packing,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3405,
+  "core_bytes": 13618,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-sequence-packing/SKILL.md"
+}

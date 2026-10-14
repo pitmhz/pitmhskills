@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tilegym-monkey-patch-kernels-to-transformers",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "095e646c1e494946ee1ee5d7e134fdff659c7e5f82de0e3959a071e7acb9df39",
+  "purpose": "Integrate TileGym kernels into Hugging Face `transformers` models by replacing the librarys submodule(s) and certain class(es) implementations, and patching certain class(es) init/forward/load weight ",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Integrate TileGym kernels into Hugging Face `transformers` models by replacing the librarys submodule(s) and certain class(es) implementations, and patching cer"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 751,
+  "core_bytes": 3004,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tilegym-monkey-patch-kernels-to-transformers/SKILL.md"
+}

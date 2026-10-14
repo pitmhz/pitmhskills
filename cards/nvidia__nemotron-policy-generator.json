@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__nemotron-policy-generator",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "32a92ef8a37b2025954a267595a3980938eb2da876f5cf13e1284d36b83079d9",
+  "purpose": "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Content-Safety. Produces a Markdown policy, J",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Conte"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4981,
+  "core_bytes": 20104,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemotron-policy-generator/SKILL.md"
+}

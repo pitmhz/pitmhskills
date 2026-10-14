@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__accelerated-computing-cudf",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "d543dc60d86d9a55bafd8e52120fd64b20e432cddb6d1ece23aebca4f8071993",
+  "purpose": "Official NVIDIA-authored guidance for NVIDIA cuDF GPU DataFrames, pandas acceleration, dask-cuDF, ETL, joins, groupby, CSV/Parquet I/O, nullable semantics, and multi-GPU DataFrame workloads.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Official NVIDIA-authored guidance for NVIDIA cuDF GPU DataFrames, pandas acceleration, dask-cuDF, ETL, joins, groupby, CSV/Parquet I/O, nullable semantics, and "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2619,
+  "core_bytes": 10490,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/accelerated-computing-cudf/SKILL.md"
+}

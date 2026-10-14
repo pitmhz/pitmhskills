@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-run-deft-pas",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "08bd4f698e0da09d5a9afb5f31dd43b815a526d282d8447abff608fe7ad0c62f",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4306,
+  "core_bytes": 17221,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-run-deft-pas/SKILL.md"
+}

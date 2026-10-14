@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__holoscan-install-container",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "33615374c6a5661c9311ad6dea4cbb75938bc16e4e7e62dfc426565180070a54",
+  "purpose": "Install Holoscan SDK via the NGC Docker container. Use for container-based installs; not for native apt/pip/Conda installs.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Install Holoscan SDK via the NGC Docker container. Use for container-based installs; not for native apt/pip/Conda installs."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1900,
+  "core_bytes": 7639,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/holoscan-install-container/SKILL.md"
+}

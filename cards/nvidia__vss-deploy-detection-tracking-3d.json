@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__vss-deploy-detection-tracking-3d",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "235804c97f47f3191eea7daf7f21fd62635fe262f13ec040ce3bfbc2a3fffa29",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4864,
+  "core_bytes": 19560,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/vss-deploy-detection-tracking-3d/SKILL.md"
+}

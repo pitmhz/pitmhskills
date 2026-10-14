@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__cuopt-server-api-python",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "b12d547946e79f69b0be0584e240ec967a30ec6aa277915cdddccf43059ee21e",
+  "purpose": "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1562,
+  "core_bytes": 6290,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/cuopt-server-api-python/SKILL.md"
+}

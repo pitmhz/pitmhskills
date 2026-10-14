@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__digital-health-clinical-asr-build",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "e4a225096846d14ac1669fb31b73419aa5e70d62de0f9be017735841e351ee40",
+  "purpose": "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clinical-asr-eval).",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4971,
+  "core_bytes": 20128,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/digital-health-clinical-asr-build/SKILL.md"
+}

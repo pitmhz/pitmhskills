@@ -3,34 +3,35 @@ import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
 import { createHash } from "node:crypto";
+import yaml from "js-yaml";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 interface Source { id: string; repo: string | null; ref: string; glob: string; path?: string; license_allow: string[] }
 
-// Minimal YAML parse for sources.yaml (id/repo/ref/glob/path only). No dep.
+// sources.yaml loader on js-yaml. Supports comments, quoted strings,
+// block/inline lists, and null repo for local sources.
 export function loadSources(): Source[] {
   const raw = readFileSync(join(ROOT, "sources.yaml"), "utf8");
-  const lines = raw.split("\n");
-  const out: Source[] = [];
-  let cur: Record<string, string> = {};
-  for (const ln of lines) {
-    const m = ln.match(/^\s{2}-\s+id:\s+(\S+)/);
-    if (m) { if (cur["id"]) out.push(toSource(cur)); cur = { id: m[1]! }; continue; }
-    const kv = ln.match(/^\s{4}(\w+):\s+(.*)$/);
-    if (kv && cur["id"]) cur[kv[1]!] = stripComment(kv[2]!.trim());
-  }
-  if (cur["id"]) out.push(toSource(cur));
-  return out;
+  const data = yaml.load(raw) as { sources?: Record<string, unknown>[] } | null;
+  if (!data || !Array.isArray(data.sources)) return [];
+  return data.sources.map(toSource);
 }
 
-function stripComment(v: string): string {
-  const i = v.indexOf(" #");
-  return (i >= 0 ? v.slice(0, i) : v).trim();
-}
-
-function toSource(c: Record<string, string>): Source {
-  return { id: c["id"]!, repo: c["repo"] === "null" ? null : c["repo"]!, ref: c["ref"] ?? "HEAD", glob: (c["glob"] ?? "**/SKILL.md").replace(/"/g, ""), path: c["path"], license_allow: [] };
+function toSource(c: Record<string, unknown>): Source {
+  const id = String(c["id"]);
+  const repoRaw = c["repo"];
+  const repo = repoRaw === null || repoRaw === undefined || repoRaw === "null" ? null : String(repoRaw);
+  const globRaw = c["glob"] ?? "**/SKILL.md";
+  const lic = c["license_allow"];
+  return {
+    id,
+    repo,
+    ref: c["ref"] != null ? String(c["ref"]) : "HEAD",
+    glob: String(globRaw),
+    path: c["path"] != null ? String(c["path"]) : undefined,
+    license_allow: Array.isArray(lic) ? lic.map(String) : [],
+  };
 }
 
 function skillsDir(): string { return join(ROOT, "skills"); }

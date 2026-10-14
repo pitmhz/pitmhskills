@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__i4h-workflow-dataset-mimic",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "e0ad2f83146f5ec3e60a1f39219e69e3a5012e830714ed4cdd7ba786fd7adc8a",
+  "purpose": "Expand workflow HDF5 demonstrations with action jitter, optionally scoped to node segments. Use for synthetic variants; do not use to collect data, alter state directly, or generate new images.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Expand workflow HDF5 demonstrations with action jitter, optionally scoped to node segments. Use for synthetic variants; do not use to collect data, alter state "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1007,
+  "core_bytes": 4027,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-dataset-mimic/SKILL.md"
+}

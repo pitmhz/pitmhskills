@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__hsb-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "5c65364dd5263a2ae3ff33e376590f653632450445261da618f230b4477f95be",
+  "purpose": "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container, run it, and verify HSB connectivity by",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4987,
+  "core_bytes": 20009,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/hsb-setup/SKILL.md"
+}

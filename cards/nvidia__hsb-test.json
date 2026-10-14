@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__hsb-test",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "95e69bd3e1bb7b910861e0df33a47aea881e4255697c152379caa4af96bc8ed9",
+  "purpose": "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the users setup, determines which tests can run automatically, executes them with pass/f",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the users setup, determines which tests can run "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4254,
+  "core_bytes": 17065,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/hsb-test/SKILL.md"
+}

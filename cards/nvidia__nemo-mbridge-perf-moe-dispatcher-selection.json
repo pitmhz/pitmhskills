@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-moe-dispatcher-selection",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "c2f9b22470917fd5eb30c1d67b2f551549fd6a11487cb993aa188debf089c1a6",
+  "purpose": "Choose the right MoE token dispatcher (`alltoall`, DeepEP, or HybridEP) for the hardware, EP degree, and optimization stage. Summarizes patterns from DSV3, Qwen3, Qwen3-Next, and VLM bring-up work.",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "debug"
+  ],
+  "use_when": [
+    "Choose the right MoE token dispatcher (`alltoall`, DeepEP, or HybridEP) for the hardware, EP degree, and optimization stage. Summarizes patterns from DSV3, Qwen"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2037,
+  "core_bytes": 8147,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md"
+}

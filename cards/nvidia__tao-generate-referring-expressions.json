@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-generate-referring-expressions",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "09b3d2ff0595e61c1eab212ec22a91b477de602bb1fb08831623a25b8d0d040a",
+  "purpose": "Four-step image referring-expression pipeline: turns images plus KITTI bounding-box labels into region",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Four-step image referring-expression pipeline: turns images plus KITTI bounding-box labels into region"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2622,
+  "core_bytes": 10559,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-generate-referring-expressions/SKILL.md"
+}

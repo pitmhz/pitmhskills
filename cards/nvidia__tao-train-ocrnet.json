@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-ocrnet",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "bc55d3decee4e0206cecc17900a6465a6c02c9bb0e1a4e0d2141929010b736ca",
+  "purpose": "OCRNet for scene text recognition. Recognizes text content from cropped text-region images and supports CTC",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "OCRNet for scene text recognition. Recognizes text content from cropped text-region images and supports CTC"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4462,
+  "core_bytes": 17848,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-ocrnet/SKILL.md"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__amc-run-sample-calibration",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "cc4750398c1f0b95cff0846dc0d5bd8c23c4f0c0c13a91b9feab43ca95f95446",
+  "purpose": "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says test sample dataset, run sample calibration, verify AM",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says test sample da"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3531,
+  "core_bytes": 14212,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/amc-run-sample-calibration/SKILL.md"
+}

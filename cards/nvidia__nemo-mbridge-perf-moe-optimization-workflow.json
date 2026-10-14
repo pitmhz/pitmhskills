@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-moe-optimization-workflow",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "6d9f067619eb9e4f37ca9ff2a13aa0d96c3959ead23ce2aeb0d54f64d99a441e",
+  "purpose": "Evidence-gated workflow for MoE performance optimization in Megatron Bridge. Covers measurement contracts, the Three Walls framework, parallel folding, profiling, matched A/B tuning, and final validat",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Evidence-gated workflow for MoE performance optimization in Megatron Bridge. Covers measurement contracts, the Three Walls framework, parallel folding, profilin"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3332,
+  "core_bytes": 13339,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-moe-optimization-workflow/SKILL.md"
+}

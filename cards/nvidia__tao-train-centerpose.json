@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-centerpose",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "e49a5be88cf855640924a4e292a3989e000eca6d81876faf0d5e0c247649d64c",
+  "purpose": "CenterPose for keypoint / pose estimation. Detects object centers and regresses keypoint locations for 6-DoF",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "CenterPose for keypoint / pose estimation. Detects object centers and regresses keypoint locations for 6-DoF"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2910,
+  "core_bytes": 11641,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-centerpose/SKILL.md"
+}

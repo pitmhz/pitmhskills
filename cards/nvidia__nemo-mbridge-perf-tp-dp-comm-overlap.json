@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-tp-dp-comm-overlap",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "fcfbe68677688d6ea7e44836d2b932ec16a37f66aedbf32c7d90e7eb8336bc9d",
+  "purpose": "Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 954,
+  "core_bytes": 3813,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md"
+}

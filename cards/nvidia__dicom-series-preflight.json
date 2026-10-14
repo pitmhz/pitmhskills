@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__dicom-series-preflight",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "626af707f2c8521330d9fc6df7a759c807f18ae1c729b317f37458f093e045fe",
+  "purpose": "Used for header-only preflight of one DICOM series folder before conversion or inference. Not for de-identification or clinical clearance.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Used for header-only preflight of one DICOM series folder before conversion or inference. Not for de-identification or clinical clearance."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 883,
+  "core_bytes": 3530,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/dicom-series-preflight/SKILL.md"
+}

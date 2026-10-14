@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__omniverse-usd-performance-tuning",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "db47215bb97cc7c66ec16509ffa1b558cdfd291644a980c77b0ac6ba6c42163d",
+  "purpose": "Top-level workflow skill for USD performance diagnosis and optimization. Handles slow loading, high memory, low FPS, and broad scene-optimization requests; delegates auth/runtime setup to Phase 0 owne",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Top-level workflow skill for USD performance diagnosis and optimization. Handles slow loading, high memory, low FPS, and broad scene-optimization requests; dele"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3654,
+  "core_bytes": 14639,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/omniverse-usd-performance-tuning/SKILL.md"
+}

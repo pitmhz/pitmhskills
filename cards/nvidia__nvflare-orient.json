@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nvflare-orient",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "2d1dd27008177630f1f52f405c471d5104872f8ccc5a9ef02d0cd23c1e93c450",
+  "purpose": "Route open-ended NVFLARE advice and only conversion requests whose preliminary source inspection reports unresolved or conflicting ownership; never load this skill merely to inspect a concrete convers",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor"
+  ],
+  "use_when": [
+    "Route open-ended NVFLARE advice and only conversion requests whose preliminary source inspection reports unresolved or conflicting ownership; never load this sk"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 763,
+  "core_bytes": 3051,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nvflare-orient/SKILL.md"
+}

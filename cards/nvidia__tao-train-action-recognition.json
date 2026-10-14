@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-action-recognition",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "f5f6aad3b2616f1cf5a2b318d8dd765ef8b97069cc2629cd1f3ec327ca671521",
+  "purpose": "Action recognition from video sequences. Supports RGB, optical flow, and joint (multi-stream) input types for",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Action recognition from video sequences. Supports RGB, optical flow, and joint (multi-stream) input types for"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3028,
+  "core_bytes": 12116,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-action-recognition/SKILL.md"
+}

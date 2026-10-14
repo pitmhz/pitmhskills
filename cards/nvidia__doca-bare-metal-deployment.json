@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__doca-bare-metal-deployment",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "4ac2a7b67e9181873bfa4fae5f3effadb0b0c1dc95a7438112976e36886e3ca3",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2948,
+  "core_bytes": 11836,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/doca-bare-metal-deployment/SKILL.md"
+}

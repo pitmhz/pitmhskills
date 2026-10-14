@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__nemo-fabric-build-adapter",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "df1695f966eceaa11e81eda246a10a9b1d49d42dfcb0c2ca07cc127e82ff154e",
+  "purpose": "Build, migrate, review, and maintain third-party NVIDIA NeMo Fabric adapters against the public adapter contract. Use when creating adapter or target descriptors, mapping AgentConfig into an agent har",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Build, migrate, review, and maintain third-party NVIDIA NeMo Fabric adapters against the public adapter contract. Use when creating adapter or target descriptor"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3980,
+  "core_bytes": 15917,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-fabric-build-adapter/SKILL.md"
+}

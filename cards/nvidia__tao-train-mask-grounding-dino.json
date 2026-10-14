@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-mask-grounding-dino",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "486ce031d8f70ca387d951c8344fb48955435ee69757ea1d9c26728e1a2426cd",
+  "purpose": "Mask Grounding DINO for grounded instance segmentation. Extends Grounding DINO with a mask-prediction head for",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Mask Grounding DINO for grounded instance segmentation. Extends Grounding DINO with a mask-prediction head for"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3549,
+  "core_bytes": 14197,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-mask-grounding-dino/SKILL.md"
+}

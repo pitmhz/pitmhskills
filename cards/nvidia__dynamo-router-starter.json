@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__dynamo-router-starter",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "5278203f4d8866b95cfeacf444d0a31e49e80d9ab7f290673c9c536ee24b4d99",
+  "purpose": "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and trouble",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1472,
+  "core_bytes": 5886,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/dynamo-router-starter/SKILL.md"
+}

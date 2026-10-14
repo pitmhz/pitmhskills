@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__hsb-flash",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "bc681912c9a5187a417b62c6c157c40a29079a6b936e2c15e124a51d75e74cdc",
+  "purpose": "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 all-in-one cameras (FPGA versions 2507, 2510",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 all-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4472,
+  "core_bytes": 17936,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/hsb-flash/SKILL.md"
+}

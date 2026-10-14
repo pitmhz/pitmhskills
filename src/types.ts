@@ -1,4 +1,12 @@
 // Card schema - single source of truth, one file per skill in cards/
+// Zod schemas double as docs; validateCard/validateProfile derive from them.
+import { z } from "zod";
+
+export const CardSectionSchema = z.object({
+  name: z.string(),
+  bytes: z.number(),
+  when: z.string(),
+});
 export interface CardSection {
   name: string;
   bytes: number;
@@ -57,16 +65,66 @@ export interface RouteResult {
   candidates?: { id: string; score: number; reason: string }[];
 }
 
+export const CardSchema = z.object({
+  id: z.string().min(1),
+  tier: z.enum(["A", "B", "C"]),
+  origin: z.array(z.string()).optional().default([]),
+  license: z.string().optional().default("UNKNOWN"),
+  hash: z.string().optional().default(""),
+  purpose: z.string().min(1),
+  domain: z.string().min(1),
+  task_types: z.array(z.string()).min(1),
+  use_when: z.array(z.string()).min(1),
+  do_not_use_when: z.array(z.string()).min(1),
+  scope: z.string().min(1),
+  disambiguator: z.string().optional().default(""),
+  cluster: z.string().optional().default(""),
+  cluster_role: z.enum(["primary", "variant"]).optional().default("primary"),
+  pick_over_primary_when: z.string().nullable().optional().default(null),
+  pairs_with: z.union([z.string(), z.array(z.string()), z.null()]).optional().default(null),
+  requires: z
+    .object({ stack_any: z.array(z.string()).optional(), files_any: z.array(z.string()).optional() })
+    .passthrough()
+    .optional()
+    .default({}),
+  conflicts_with: z.array(z.string()).optional().default([]),
+  body_tokens: z.number().optional(),
+  core_bytes: z.number().optional(),
+  sections: z.array(CardSectionSchema).optional().default([]),
+  verify: z.array(z.string()).optional().default([]),
+  skill_path: z.string().optional().default(""),
+}).superRefine((c, ctx) => {
+  if (c.tier === "A" && (c.use_when.length === 0 || c.do_not_use_when.length === 0)) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, message: "tier A needs use_when+do_not_use_when", path: ["use_when"] });
+  }
+  if (c.cluster_role === "variant" && !c.pick_over_primary_when) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, message: "variant needs pick_over_primary_when", path: ["pick_over_primary_when"] });
+  }
+  if (Array.isArray(c.pairs_with) && c.pairs_with.length > 1) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, message: "pairs_with max 1", path: ["pairs_with"] });
+  }
+});
+
+export type CardSchemaType = z.infer<typeof CardSchema>;
+
 export function validateCard(c: unknown): string[] {
-  const errs: string[] = [];
-  const o = c as Record<string, unknown>;
-  for (const f of ["id", "tier", "purpose", "domain", "task_types", "use_when", "do_not_use_when", "scope"]) {
-    if (o[f] === undefined || o[f] === null || (Array.isArray(o[f]) && o[f].length === 0) || o[f] === "") {
-      errs.push(`missing ${f}`);
+  const r = CardSchema.safeParse(c);
+  if (r.success) return [];
+  const out: string[] = [];
+  const required = new Set(["id", "tier", "purpose", "domain", "task_types", "use_when", "do_not_use_when", "scope"]);
+  for (const issue of r.error.issues) {
+    // Preserve legacy wording so `cards --check` output stays stable.
+    if (typeof issue.message === "string" && (/needs |max 1/.test(issue.message))) {
+      out.push(issue.message);
+      continue;
+    }
+    const top = String(issue.path[0] ?? "");
+    if (required.has(top)) {
+      const tag = `missing ${top}`;
+      if (!out.includes(tag)) out.push(tag);
+    } else {
+      out.push(`${top || "value"}: ${issue.message}`);
     }
   }
-  if (o["tier"] === "A" && (!o["use_when"] || !o["do_not_use_when"])) errs.push("tier A needs use_when+do_not_use_when");
-  if (o["cluster_role"] === "variant" && !o["pick_over_primary_when"]) errs.push("variant needs pick_over_primary_when");
-  if (Array.isArray(o["pairs_with"]) && (o["pairs_with"] as unknown[]).length > 1) errs.push("pairs_with max 1");
-  return errs;
+  return out;
 }

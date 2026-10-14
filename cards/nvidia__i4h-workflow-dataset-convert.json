@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__i4h-workflow-dataset-convert",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "c1591533bee55ee52a382051ca279d39eb02bd35e0fc488880fc33d78ef5bc6a",
+  "purpose": "Convert workflow HDF5 recordings to LeRobot datasets for training or browser inspection. Use for conversion; do not use for replay, augmentation, or raw-data repair.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Convert workflow HDF5 recordings to LeRobot datasets for training or browser inspection. Use for conversion; do not use for replay, augmentation, or raw-data re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1356,
+  "core_bytes": 5426,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/i4h-workflow-dataset-convert/SKILL.md"
+}

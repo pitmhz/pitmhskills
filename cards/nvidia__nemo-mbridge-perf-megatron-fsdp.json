@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-megatron-fsdp",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "2336138873c44a30f71c9b3cf5f22c8843b29f94a56d5173e6b9dc01670a13e9",
+  "purpose": "Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1004,
+  "core_bytes": 4016,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-megatron-fsdp/SKILL.md"
+}

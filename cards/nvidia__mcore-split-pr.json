@@ -1,0 +1,35 @@
+{
+  "id": "nvidia__mcore-split-pr",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "54ccb0324f62dac85e2fae5d20a759457774697d34f8574f5f1b9fdd1642b105",
+  "purpose": "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1141,
+  "core_bytes": 4566,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/mcore-split-pr/SKILL.md"
+}

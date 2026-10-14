@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__tao-validate-recipe-transfer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "fb82eb1d7c4a1569d629249eea078a6b8f7966b74e25469b2c208c62611b0291",
+  "purpose": "Port a published computer vision papers official code and training recipe onto a customers own dataset, or diagnose why such a transfer produced bad numbers. Use this whenever someone wants to reprodu",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Port a published computer vision papers official code and training recipe onto a customers own dataset, or diagnose why such a transfer produced bad numbers. Us"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4233,
+  "core_bytes": 17042,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-validate-recipe-transfer/SKILL.md"
+}

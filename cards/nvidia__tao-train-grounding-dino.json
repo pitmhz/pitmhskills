@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-grounding-dino",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "993b7d950231561f1113e75dfaeefaff41137537b87d4380256b52d10a47c418",
+  "purpose": "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3944,
+  "core_bytes": 15779,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-grounding-dino/SKILL.md"
+}

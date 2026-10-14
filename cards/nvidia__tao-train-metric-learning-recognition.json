@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-metric-learning-recognition",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "239583be3ffeeb095fa75930fdd0dca0543ee28d35f4ac889d213611d032b43c",
+  "purpose": "Metric-learning recognition (ml-recog) for fine-grained visual recognition. Learns embeddings for",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Metric-learning recognition (ml-recog) for fine-grained visual recognition. Learns embeddings for"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2932,
+  "core_bytes": 11729,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-metric-learning-recognition/SKILL.md"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "nvidia__nemo-rl-auto-research",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "e9d723a712c9543d3b17cf1aa0ea9cc50835205805b1bb11aabb4114a8432dba",
+  "purpose": "Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecycle: understanding recipes and environments, wiring",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecycle: unders"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2319,
+  "core_bytes": 9276,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-rl-auto-research/SKILL.md"
+}

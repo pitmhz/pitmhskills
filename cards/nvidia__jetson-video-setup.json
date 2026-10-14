@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__jetson-video-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "dd33fce60d8ed731e66b27e667ef8665850779b62854f104c95b9d4464930814",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2452,
+  "core_bytes": 9842,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-video-setup/SKILL.md"
+}

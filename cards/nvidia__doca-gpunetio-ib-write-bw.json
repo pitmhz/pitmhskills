@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__doca-gpunetio-ib-write-bw",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "937caf645214d7adc85a622f8919ce358deec4751abba7f4ed2be7e41ba398f2",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4306,
+  "core_bytes": 17289,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/doca-gpunetio-ib-write-bw/SKILL.md"
+}

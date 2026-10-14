@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__paidf-orchestration-setup",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "701978285c1c74f792b2b01d8853a30de8ef84f3c2f3f1b63dcbcc276f4d28f7",
+  "purpose": "Audit, prepare, and deploy PAIDF Orchestration on a Kubernetes GPU cluster - single-GPU H100/L40S hosts, managed Kubernetes, kubeadm, and similar. Select for requests to set up, install, deploy, confi",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Audit, prepare, and deploy PAIDF Orchestration on a Kubernetes GPU cluster - single-GPU H100/L40S hosts, managed Kubernetes, kubeadm, and similar. Select for re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3834,
+  "core_bytes": 15370,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/paidf-orchestration-setup/SKILL.md"
+}

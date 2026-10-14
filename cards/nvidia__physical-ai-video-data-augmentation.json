@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__physical-ai-video-data-augmentation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "57adde2af333d49b0cf91c7bbf0cc14bbad53fa00475c675762a88c538da5cc0",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4860,
+  "core_bytes": 19439,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/physical-ai-video-data-augmentation/SKILL.md"
+}

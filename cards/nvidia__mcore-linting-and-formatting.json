@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__mcore-linting-and-formatting",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "eafd71eb559f7d16cc5bee0e5d7c3d4628474368ab548fae012e06ed080f0567",
+  "purpose": "Linting and formatting for Megatron-LM. Covers running autoformat.sh, tools (ruff, black, isort, pylint, mypy), and code style rules.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Linting and formatting for Megatron-LM. Covers running autoformat.sh, tools (ruff, black, isort, pylint, mypy), and code style rules."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 421,
+  "core_bytes": 1688,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/mcore-linting-and-formatting/SKILL.md"
+}

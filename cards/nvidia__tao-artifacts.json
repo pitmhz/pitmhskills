@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-artifacts",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "a2f32e589ece1e6a1a78a294558e7ab88bbf7c9e9cf2ab6ae2f3bdfae674d37f",
+  "purpose": "The contract home for TAOs SDK-free execution pipeline — authoritative JSON Schemas for the four typed artifacts (spec-bundle, job-record, results_dir layout, best_rec) plus the fixed job-status vocab",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "The contract home for TAOs SDK-free execution pipeline — authoritative JSON Schemas for the four typed artifacts (spec-bundle, job-record, results_dir layout, b"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1375,
+  "core_bytes": 5530,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-artifacts/SKILL.md"
+}

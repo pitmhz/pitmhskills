@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__nvflare-fed-stats",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "1f49ce1df2c885f7ed475364804e50bd251db23cd07e812f806b91c4ee6e9eba",
+  "purpose": "Compute federated statistics over tabular data (count, sum, mean, stddev, var, histogram, quantile, noise-protected min/max) and image data (count, failure_count, pixel-intensity histogram) across NVF",
+  "domain": "gpu-compute",
+  "task_types": [
+    "design"
+  ],
+  "use_when": [
+    "Compute federated statistics over tabular data (count, sum, mean, stddev, var, histogram, quantile, noise-protected min/max) and image data (count, failure_coun"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3091,
+  "core_bytes": 12412,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nvflare-fed-stats/SKILL.md"
+}

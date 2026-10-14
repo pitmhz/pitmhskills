@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__tao-port-huggingface-model",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "7112666980edc3424dde5a19cf84e61d928b4e72e988651e824468de455e6ad8",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4552,
+  "core_bytes": 18376,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-port-huggingface-model/SKILL.md"
+}

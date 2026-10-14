@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__doca-dms",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "72acd63045e615adfb8468b81a3c09744f4ec1b725becbbcc7c34602e3717a93",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2888,
+  "core_bytes": 11601,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/doca-dms/SKILL.md"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__isaac-mission-control-showcase",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "ea78a7d13553c7cbd6c0fac1397db0dce4a8aef98de9e1f84af3800bde755b8f",
+  "purpose": "Run and validate an end-to-end Mission Control showcase with a locally installed Isaac Sim launched in its GUI window, driven through the isaac-sim-remote Python server, with Nova Carter SIL. Use for ",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Run and validate an end-to-end Mission Control showcase with a locally installed Isaac Sim launched in its GUI window, driven through the isaac-sim-remote Pytho"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4903,
+  "core_bytes": 19621,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/isaac-mission-control-showcase/SKILL.md"
+}

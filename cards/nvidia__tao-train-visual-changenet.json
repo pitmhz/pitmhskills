@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-visual-changenet",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "e798df80fc4390fdd9b71728f9d9c57ce22a2fbdbafa2baee4cd4915d1467f10",
+  "purpose": "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training,",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4778,
+  "core_bytes": 19130,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-visual-changenet/SKILL.md"
+}

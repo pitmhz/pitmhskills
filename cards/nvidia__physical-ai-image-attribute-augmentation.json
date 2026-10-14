@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__physical-ai-image-attribute-augmentation",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "3c380981576df99761a1fa2b327edb851f7cb0f130b958936fef5b6cb3ae62c2",
+  "purpose": "Run the PAIDF Orchestration Image Attribute Augmentation DAG on Kubernetes - person-crop clothing augmentation, attribute search, and augmented dataset generation. Select for requests about image attr",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run the PAIDF Orchestration Image Attribute Augmentation DAG on Kubernetes - person-crop clothing augmentation, attribute search, and augmented dataset generati"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4297,
+  "core_bytes": 17248,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/physical-ai-image-attribute-augmentation/SKILL.md"
+}

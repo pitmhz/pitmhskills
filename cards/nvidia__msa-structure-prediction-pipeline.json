@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__msa-structure-prediction-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "25c1368ea6693bdff22acef949652b0b7fe5950ed3c554e6f69b4d376b1c8d98",
+  "purpose": ">",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    ">"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1689,
+  "core_bytes": 6767,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/bionemo-msa-structure-prediction-pipeline/SKILL.md"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__jetson-init-source",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "e773329736accb80f6df97eeb07c5f6d0646570d8a4f7f972c2d16c58a49a6e1",
+  "purpose": ">-",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    ">-"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4355,
+  "core_bytes": 17484,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/jetson-init-source/SKILL.md"
+}

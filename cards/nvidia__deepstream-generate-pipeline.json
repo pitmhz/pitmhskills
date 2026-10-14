@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__deepstream-generate-pipeline",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "9c7eaf4defe5f76a005172a45e2c13c1be6777cb07e75a92094775fdce751234",
+  "purpose": "Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — including natural phrases like pipeline to inf",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — includ"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4238,
+  "core_bytes": 17070,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/deepstream-generate-pipeline/SKILL.md"
+}

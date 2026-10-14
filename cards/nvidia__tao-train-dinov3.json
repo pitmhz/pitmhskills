@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-dinov3",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "d31b2941b43702c4e17d7071801ecc259215437dbd06a085802ccb1be7cd8114",
+  "purpose": "DINOv3 continual self-supervised pre-training. Domain-adapts public DINOv3 ViT backbones",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "DINOv3 continual self-supervised pre-training. Domain-adapts public DINOv3 ViT backbones"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2254,
+  "core_bytes": 9017,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-dinov3/SKILL.md"
+}

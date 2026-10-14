@@ -23,6 +23,19 @@ function flag(name: string): string | undefined {
 }
 const has = (n: string) => args.includes(n);
 
+// Positional task words with any --flag (and its value) removed, anywhere in argv.
+function positionalTask(argv: string[]): string {
+  const skip = new Set(["--cwd", "--session", "--task", "--provider", "--bump"]);
+  const parts: string[] = [];
+  for (let i = 1; i < argv.length; i++) {
+    const a = argv[i]!;
+    if (skip.has(a)) { i++; continue; }
+    if (a.startsWith("--")) continue;
+    parts.push(a);
+  }
+  return parts.join(" ").trim();
+}
+
 if (cmd === "ingest") {
   const r = ingest({ bump: flag("--bump"), provider: flag("--provider") });
   console.log(`ingested sources=${r.fetched} skipped=${r.skipped.length}`);
@@ -43,7 +56,7 @@ if (cmd === "ingest") {
   console.log(`indexed cards=${r.cards} errors=${r.errors.length}`);
   for (const e of r.errors) console.log(`err: ${e}`);
 } else if (cmd === "route") {
-  const task = flag("--task") ?? args.slice(1).join(" ").replace(/^--\S+(\s+\S+)?/g, "").trim();
+  const task = flag("--task") ?? positionalTask(args);
   if (!task) { console.error('usage: bun src/cli.ts route "task" [--cwd path] [--session id]'); process.exit(2); }
   const r = route(task, flag("--cwd") ?? cwd, flag("--session") ?? "default");
   console.log(formatResult(r));
@@ -53,17 +66,7 @@ if (cmd === "ingest") {
   const explicit = flag("--task");
   let task = "";
   if (explicit) task = explicit;
-  else {
-    const skip = new Set(["--cwd", "--session", "--task"]);
-    const parts: string[] = [];
-    for (let i = 1; i < args.length; i++) {
-      const a = args[i]!;
-      if (skip.has(a)) { i++; continue; }
-      if (a.startsWith("--")) continue;
-      parts.push(a);
-    }
-    task = parts.join(" ").trim();
-  }
+  else task = positionalTask(args);
   if (!task) { console.error('usage: bun src/cli.ts run "<task>" [--cwd path] [--session id]'); process.exit(2); }
   const plan = detectPhases(task, cwdFlag);
   if (!plan) {

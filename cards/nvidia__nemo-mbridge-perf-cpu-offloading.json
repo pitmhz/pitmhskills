@@ -1,0 +1,34 @@
+{
+  "id": "nvidia__nemo-mbridge-perf-cpu-offloading",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "05b767a8e1f5e44558c29e9bbbdee38988fd905f2b3970a42504decca8dc99cf",
+  "purpose": "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptimizer.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptim"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2387,
+  "core_bytes": 9559,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/nemo-mbridge-perf-cpu-offloading/SKILL.md"
+}

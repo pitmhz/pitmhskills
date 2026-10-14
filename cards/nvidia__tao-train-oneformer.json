@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-train-oneformer",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "92ce4be9319f6fcf3bee3b2575a4058429db15d2b07316c49beaa6fc8dfa6a0d",
+  "purpose": "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a",
+  "domain": "gpu-compute",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 5066,
+  "core_bytes": 20269,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-train-oneformer/SKILL.md"
+}

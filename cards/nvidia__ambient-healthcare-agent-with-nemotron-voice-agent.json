@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__ambient-healthcare-agent-with-nemotron-voice-agent",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "ead4d131634081d06b843dba803e1503d291fc5a03363c189c6c71a2a6e31d71",
+  "purpose": "Customize NVIDIA Nemotron Voice Agents Generic Pipecat example for healthcare appointment, five-field patient intake, or custom tool-calling workflows without a separate backend.",
+  "domain": "gpu-compute",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Customize NVIDIA Nemotron Voice Agents Generic Pipecat example for healthcare appointment, five-field patient intake, or custom tool-calling workflows without a"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3657,
+  "core_bytes": 14652,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/ambient-healthcare-agent-with-nemotron-voice-agent/SKILL.md"
+}

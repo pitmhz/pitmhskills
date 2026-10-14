@@ -1,0 +1,33 @@
+{
+  "id": "nvidia__tao-run-on-virtualenv",
+  "tier": "B",
+  "origin": [
+    "NVIDIA/skills@e0e9a6d9b1a1308af40f5b804d21e4acf180f022"
+  ],
+  "license": "UNKNOWN",
+  "hash": "c5682c24934feb84b081b9b82181b536ade2c8aa3c50bd1e0714503c8acb165b",
+  "purpose": "Run a Python training/eval script directly in an existing local virtualenv — no docker, no container. Implements the four-verb consumer contract (submit/status/logs/cancel) over a vendored process-lif",
+  "domain": "gpu-compute",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run a Python training/eval script directly in an existing local virtualenv — no docker, no container. Implements the four-verb consumer contract (submit/status/"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to gpu-compute"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "gpu-compute",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1564,
+  "core_bytes": 6288,
+  "sections": [],
+  "verify": [],
+  "skill_path": "skills/nvidia/skills/tao-run-on-virtualenv/SKILL.md"
+}
