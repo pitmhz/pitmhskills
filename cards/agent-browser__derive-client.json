@@ -1,0 +1,48 @@
+{
+  "id": "agent-browser__derive-client",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "ad60409f92893cd44bc29dadc60319455ab67961daf3750f3a2186dea147a057",
+  "purpose": "Reverse-engineer a website's internal API by recording browser traffic into a HAR file, then generate a standalone client or CLI that calls the endpoints directly, with no browser needed after the fir",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Reverse-engineer a website's internal API by recording browser traffic into a HAR file, then generate a standalone client or CLI that calls the endpoints direct"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1364,
+  "core_bytes": 5465,
+  "sections": [],
+  "keywords": [
+    "recorded",
+    "session",
+    "workflow",
+    "drive",
+    "search",
+    "open",
+    "detail",
+    "page",
+    "paginate",
+    "identify",
+    "json",
+    "method",
+    "status"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\derive-client\\SKILL.md"
+}

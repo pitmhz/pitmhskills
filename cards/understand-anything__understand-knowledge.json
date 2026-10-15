@@ -1,0 +1,46 @@
+{
+  "id": "understand-anything__understand-knowledge",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "bf3fdd448fceace2cf9948228d6db3b9d899a2e7468795f1d5e00f2270ac8d85",
+  "purpose": "Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic clustering.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic cluster"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1577,
+  "core_bytes": 6328,
+  "sections": [],
+  "keywords": [
+    "understand",
+    "detects",
+    "instructions",
+    "phase",
+    "detect",
+    "scan",
+    "already",
+    "done",
+    "merge",
+    "save",
+    "notes"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand-knowledge\\SKILL.md"
+}

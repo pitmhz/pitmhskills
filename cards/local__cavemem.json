@@ -18,7 +18,7 @@
     "Tasks unrelated to memory"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Store or recall user facts across sessions via Cavemem -> this. Look up PITMRY project records (decisions, history) -> memory-navigator. Write lessons into instruction files -> remember.",
   "cluster": "memory",
   "cluster_role": "primary",
   "pick_over_primary_when": null,

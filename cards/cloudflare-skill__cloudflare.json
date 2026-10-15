@@ -1,0 +1,52 @@
+{
+  "id": "cloudflare-skill__cloudflare",
+  "tier": "B",
+  "origin": [
+    "dmmulroy/cloudflare-skill@97a85fdde7fe9695fbcba0c6bfde18dcdb5993d7"
+  ],
+  "license": "MIT",
+  "hash": "a6bffe0c73a74170383f721bcd85ee97f1db7df49d19ba87d4d63ac9b4264094",
+  "purpose": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-a",
+  "domain": "cloudflare-edge",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), se",
+    "Create a Cloudflare Vectorize index and query it from a Worker",
+    "Manage D1 databases, KV, R2, Workers AI models and Vectorize indexes"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "Cloudflare platform work incl. Vectorize/D1/Workers AI -> this. Wrangler CLI mechanics alone -> wrangler.",
+  "cluster": "cloudflare-edge",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1699,
+  "core_bytes": 7043,
+  "sections": [],
+  "keywords": [
+    "authentication",
+    "required",
+    "before",
+    "deploy",
+    "quick",
+    "decision",
+    "trees",
+    "need",
+    "store",
+    "data",
+    "connectivity",
+    "media",
+    "content"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\cloudflare-skill\\skills\\cloudflare\\SKILL.md",
+  "curated": true
+}

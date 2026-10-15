@@ -1,0 +1,51 @@
+{
+  "id": "addyosmani__observability-and-instrumentation",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87",
+  "purpose": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that r"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3473,
+  "core_bytes": 13948,
+  "sections": [],
+  "keywords": [
+    "observability",
+    "instrumentation",
+    "overview",
+    "process",
+    "define",
+    "working",
+    "before",
+    "instrumenting",
+    "pick",
+    "right",
+    "signal",
+    "each",
+    "question"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\observability-and-instrumentation\\SKILL.md"
+}

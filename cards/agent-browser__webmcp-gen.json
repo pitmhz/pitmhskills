@@ -1,0 +1,42 @@
+{
+  "id": "agent-browser__webmcp-gen",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "65ea1414cb82d504fbec516d9e6dab41c3a33344cb3353478a3996aa8cc08ba5",
+  "purpose": "Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create webmcp.init.js, define deterministic checks, or c",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create webmcp.in",
+    "an external agent is available."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 765,
+  "core_bytes": 3059,
+  "sections": [],
+  "keywords": [
+    "generate",
+    "output",
+    "workflow",
+    "safety",
+    "completion"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\webmcp-gen\\SKILL.md"
+}

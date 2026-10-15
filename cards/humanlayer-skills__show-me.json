@@ -1,0 +1,37 @@
+{
+  "id": "humanlayer-skills__show-me",
+  "tier": "B",
+  "origin": [
+    "humanlayer/skills@653b6411c1f70c275a18e37673b042ff99f67ceb"
+  ],
+  "license": "MIT",
+  "hash": "93d689359c6c925498032af6c6438ca52773d745f206c3b5079d5423c97f447a",
+  "purpose": "Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts.",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 848,
+  "core_bytes": 3456,
+  "sections": [],
+  "keywords": [
+    "guidance"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\humanlayer-skills\\plugins\\show-me\\skills\\show-me\\SKILL.md"
+}

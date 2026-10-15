@@ -1,0 +1,49 @@
+{
+  "id": "addyosmani__frontend-ui-engineering",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "29a3e53d57c0a128831a20730ae874a8c4fda40c001fcdc15f8e9ad4b5f72f1b",
+  "purpose": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requiremen",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layout"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2923,
+  "core_bytes": 11721,
+  "sections": [],
+  "keywords": [
+    "frontend",
+    "engineering",
+    "overview",
+    "component",
+    "architecture",
+    "file",
+    "structure",
+    "patterns",
+    "management",
+    "design",
+    "system",
+    "adherence"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\frontend-ui-engineering\\SKILL.md"
+}

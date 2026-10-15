@@ -1,0 +1,48 @@
+{
+  "id": "humanlayer-skills__build-iterated-agentic-loop",
+  "tier": "B",
+  "origin": [
+    "humanlayer/skills@653b6411c1f70c275a18e37673b042ff99f67ceb"
+  ],
+  "license": "MIT",
+  "hash": "e78a575c3bb7b4d82efaad8900a468ea295451301874bf7d54534e85c5dabbaa",
+  "purpose": "build a repo-local skill and install a matching iterated coding-agent GitHub Actions workflow, prompt, memory file, and reference templates",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "build a repo-local skill and install a matching iterated coding-agent GitHub Actions workflow, prompt, memory file, and reference templates"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3442,
+  "core_bytes": 13766,
+  "sections": [],
+  "keywords": [
+    "agentic",
+    "loop",
+    "outputs",
+    "explore",
+    "target",
+    "setup",
+    "questions",
+    "define",
+    "write",
+    "create",
+    "validate",
+    "verify"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\humanlayer-skills\\plugins\\build-iterated-agentic-loop\\skills\\build-iterated-agentic-loop\\SKILL.md"
+}

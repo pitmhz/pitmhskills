@@ -19,7 +19,7 @@
     "Tasks unrelated to general"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Test strategy and QA plans from feature artifacts -> this. Epic-Feature-Story project planning -> breakdown-plan. Breaking a spec into ordered build tasks -> planning-and-task-breakdown.",
   "cluster": "general",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -359,5 +359,6 @@
     }
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-test\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\breakdown-test\\SKILL.md",
+  "curated": true
 }

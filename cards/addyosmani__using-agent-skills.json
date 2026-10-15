@@ -1,0 +1,52 @@
+{
+  "id": "addyosmani__using-agent-skills",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "30787ef2c77bf1a4729fffed0f6523ba6fcbe81bdc436b36371b78c21394d3c3",
+  "purpose": "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all ot",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This i"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2446,
+  "core_bytes": 10446,
+  "sections": [],
+  "keywords": [
+    "overview",
+    "discovery",
+    "core",
+    "operating",
+    "behaviors",
+    "surface",
+    "assumptions",
+    "manage",
+    "confusion",
+    "actively",
+    "push",
+    "back",
+    "warranted"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\using-agent-skills\\SKILL.md"
+}

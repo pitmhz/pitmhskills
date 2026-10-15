@@ -22,12 +22,17 @@ bun src/cli.ts ingest        # fetch pinned skill sources into skills/ (gitignor
 bun src/cli.ts cards         # compile routing cards
 bun src/cli.ts index         # build pitmhskills.db (gitignored, rebuildable)
 bun src/cli.ts route "your task"
-bun src/cli.ts eval          # routing accuracy gates
+bun src/cli.ts eval          # routing accuracy gates (tune + heldout + parsers)
+bun test tests/*.test.ts     # unit suite (scoped: bare `bun test` fans out into vendor skills/*/tests)
 ```
 
 Useful next steps: `bun src/cli.ts init` (repo profile + mandatory skills),
 `bun src/cli.ts add owner/repo` (register a new source), `bun src/cli.ts run "<task>"`
-(harness-built phased prompt), `bun src/serve.ts` (MCP server: route/get_ref/phase_done).
+(harness-built phased prompt), `bun src/cli.ts cover` (Tier-A self-route coverage),
+`bun src/cli.ts doctor` (install-health audit, read-only), `bun src/cli.ts diagnose "<task>"`
+(routing trace: gate drops → retrieval ranks → collapse winners → scores),
+`bun src/cli.ts learn [--apply]` (usage-driven rerank proposals, eval-gated),
+`bun src/serve.ts` (MCP server: route/get_ref/phase_done/plan).
 
 ## How routing works
 
@@ -73,6 +78,53 @@ class 6x–2500x, `--ultra-compact` inert, never stack compressors):
 Edited verify cards are marked `curated: true` so template rebuilds keep the
 convention (builder never overwrites curated cards; upstream drift is reported
 stale for human re-review instead).
+Fresh template cards ship schema-conformant on first build: `cluster` defaults
+to `domain` (`cluster_role: primary`), `sections[]` backfilled from `##`/`###`
+headings, `license: UNKNOWN` until the stamp step resolves it, `curated: false`,
+and empty-but-present `disambiguator`/`pick_over_primary_when`/`pairs_with`/
+`conflicts_with`/`keywords` defaults (`add` prints per-card empties after build).
+
+### Tier-A ladder (B→A promotion gate; candidates only, never mass-promoted)
+
+1. Schema fields: Tier A needs non-empty `use_when` + `do_not_use_when`
+   (enforced by `CardSchema` in `src/types.ts`; check `bun src/cli.ts cards --check`).
+2. Golden coverage: the card must self-route from its own `use_when[0]`
+   (enforced by `bun src/cli.ts cover`).
+3. Usage signals: frequent PICKs, low ASKs, disambiguator present when
+   ASK-heavy (ranked read-only by `promoteCandidates` in `src/learn.ts`,
+   surfaced through the `learn` flow; UNKNOWN license blocks).
+4. Approval: human + eval-gated — `learn --apply` refuses on any tune drop.
+
+### Card schema (what each field group does)
+
+Cards are compiled metadata, not skill text — agents decide on cards (~1–2KB),
+bodies load only after the pick (≤3KB). Field groups:
+
+- **Identity/provenance:** `id` (`<source>__<name>`), `tier` (A/B/C), `origin`
+  (repo@sha), `license`, `hash` (source sha256), `skill_path`, `curated`
+  (hand-touched text the builder never overwrites; drift reported stale).
+- **Routing text (indexed):** `purpose`, `use_when` (+ mined vendor triggers),
+  `do_not_use_when` (gate), `domain`, `task_types`, `keywords` (heading terms).
+- **Differentiation:** `cluster`/`cluster_role`/`pick_over_primary_when`
+  (one candidate per cluster; predicate-hit variant wins), `disambiguator`
+  (ASK questions), `requires` (stack/files), `conflicts_with` (rival edges —
+  derived by `rivals.ts`, proposed not hand-written), `pairs_with` (combo
+  guard delivered alongside the pick — mined from `route_logs` by `combos.ts`).
+- **Delivery:** `scope` (fence), `verify[]` (phase gates), `sections[]`
+  (per-`##`-section name/bytes/trigger words → `SECTIONS:`/`MORE:` map header
+  inside the byte cap), `body_tokens`/`core_bytes` (budget inputs).
+
+Derived edges (rivals, combos, teaches-graph) are computed at index/route time,
+proposed through eval-gated flows, and never enter agent context.
+
+### Tests
+
+`tests/*.test.ts` (bun:test, 83 tests): collapse/decide/gate/cardtext/retrieve/
+mandate/rivals/combos/diagnose, including the recorded traps (help/helper,
+typo/typography, edge-cases prose). Run scoped — `bun test tests/*.test.ts` —
+because bare `bun test` also collects pre-existing vendor `skills/*/tests`
+trees (unrelated upstream failures, out of scope). Commit-worthy: tests cover
+first-party harness code only, no secrets, no fixtures outside the repo.
 
 ## Repo layout
 
@@ -81,8 +133,9 @@ AGENTS.md            # the only file agents preload (~60 tokens)
 sources.yaml         # pinned skill upstreams (repo@sha, never branches)
 cards/               # routing cards: the committed source of truth
 skills/              # raw checkouts (gitignored, rebuilt by ingest)
-evals/               # golden sets (tune + held-out) + slop patterns
-src/                 # 27 modules, each <=200 lines, zero deps
+evals/               # golden sets (tune + held-out) + slop patterns + benchmark notes
+src/                 # 32 modules, each <=200 lines, zero deps
+tests/               # unit suite (first-party harness only; run scoped)
 hooks/               # prompt-hook scripts for agent clients
 ```
 

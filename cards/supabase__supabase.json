@@ -116,5 +116,6 @@
   "verify": [
     "supabase db advisors"
   ],
-  "skill_path": "skills/supabase/skills/supabase/SKILL.md"
+  "skill_path": "skills/supabase/skills/supabase/SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,47 @@
+{
+  "id": "kitlangton__effect",
+  "tier": "B",
+  "origin": [
+    "kitlangton/skills@71195e36024ebd2e66c5beac946e81eafd5abc43"
+  ],
+  "license": "MIT",
+  "hash": "148b5fa4a94ca89ceb9724562aecba95bd6c342d4270433e65f5b5aac5139d4f",
+  "purpose": "Opinionated guide for building production TypeScript applications with Effect v4. Use when implementing Effect workflows, services, layers, schemas, configuration, schedules, caches, streams, HTTP cli",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Opinionated guide for building production TypeScript applications with Effect v4. Use when implementing Effect workflows, services, layers, schemas, configurati"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1886,
+  "core_bytes": 7544,
+  "sections": [],
+  "keywords": [
+    "source",
+    "rule",
+    "branch",
+    "chooser",
+    "core",
+    "defaults",
+    "quick",
+    "selection",
+    "boundary",
+    "rules",
+    "nots"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\kitlangton\\skills\\effect\\SKILL.md"
+}

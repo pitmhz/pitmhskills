@@ -1,0 +1,43 @@
+{
+  "id": "understand-anything__understand-explain",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "e8c10dcae7e9ba7eca136b4b27290f0362d5d0e0388209ff7dc33c50390544b9",
+  "purpose": "Use when you need a deep-dive explanation of a specific file, function, or module in the codebase",
+  "domain": "workflow",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use when you need a deep-dive explanation of a specific file, function, or module in the codebase"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1269,
+  "core_bytes": 5113,
+  "sections": [],
+  "keywords": [
+    "understand",
+    "explain",
+    "graph",
+    "structure",
+    "reference",
+    "read",
+    "efficiently",
+    "instructions"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand-explain\\SKILL.md"
+}

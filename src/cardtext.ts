@@ -10,8 +10,9 @@ export function slug(s: string): string {
 
 export function guessDomain(t: string): string {
   const l = t.toLowerCase();
-  // Short tokens need word boundaries: "edge cases" prose must not match edge-compute.
-  if (/\bworker\b|\bcloudflare\b|\bedge\b|\bkv\b|\bd1\b|\br2\b|\bwaf\b/.test(l)) return "cloudflare-edge";
+  // Short tokens need word boundaries; generic prose ("edge cases") must not
+  // match edge-compute — require an infra marker (worker/cloudflare/kv/d1/r2/waf).
+  if (/\bworker\b|\bcloudflare\b|\bkv\b|\bd1\b|\br2\b|\bwaf\b/.test(l)) return "cloudflare-edge";
   if (/supabase|postgres|rls|sql/.test(l)) return "backend-data";
   if (/react|next|frontend|gsap|animat|ui\b|dashboard/.test(l)) return "frontend";
   if (/cuda|nvidia|nim|tensor|gpu/.test(l)) return "gpu-compute";

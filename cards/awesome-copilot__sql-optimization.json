@@ -19,7 +19,7 @@
     "Tasks unrelated to backend-data"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Tune slow queries and indexes on any SQL database -> this. Supabase Postgres RLS and schema SQL -> supabase-postgres-best-practices. Neon Postgres operations -> neon-postgres.",
   "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -262,5 +262,6 @@
     }
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\sql-optimization\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\sql-optimization\\SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,47 @@
+{
+  "id": "humanlayer-skills__narrow-react-prop-types",
+  "tier": "B",
+  "origin": [
+    "humanlayer/skills@653b6411c1f70c275a18e37673b042ff99f67ceb"
+  ],
+  "license": "MIT",
+  "hash": "97e590edf3317b8924f53fa525c97e4722c7beaa5d1872af8827cf2d48f68247",
+  "purpose": "narrow React component prop types to match live code paths",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "narrow React component prop types to match live code paths"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1986,
+  "core_bytes": 7944,
+  "sections": [],
+  "keywords": [
+    "core",
+    "requirements",
+    "workflow",
+    "identify",
+    "suspect",
+    "find",
+    "usage",
+    "derive",
+    "real",
+    "tighten",
+    "public",
+    "type"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\humanlayer-skills\\plugins\\narrow-react-prop-types\\skills\\narrow-react-prop-types\\SKILL.md"
+}

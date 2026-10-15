@@ -1,0 +1,48 @@
+{
+  "id": "understand-anything__understand",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "e7c8e1dd1d6470a074d4121efc7e50ea44cc786b03c549298953c79eda86abdb",
+  "purpose": "Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 14930,
+  "core_bytes": 59872,
+  "sections": [],
+  "keywords": [
+    "understand",
+    "options",
+    "progress",
+    "reporting",
+    "phase",
+    "flight",
+    "ignore",
+    "configuration",
+    "full",
+    "analysis",
+    "scan",
+    "batch"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand\\SKILL.md"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "playwright-cli__dev",
+  "tier": "B",
+  "origin": [
+    "microsoft/playwright-cli@b85c7a736bb473bf55b584e54a09ffa698d6d871"
+  ],
+  "license": "Apache-2.0",
+  "hash": "a5ee3e9f82b269e53d2bcd973e8fc6a83c57b61cf5a024d41f8502e747d02544",
+  "purpose": "Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, releasing, or other repo maintenance tasks.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, releasing, or other repo maintenance tasks."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 80,
+  "core_bytes": 319,
+  "sections": [],
+  "keywords": [
+    "skills"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\playwright-cli\\.claude\\skills\\dev\\SKILL.md"
+}

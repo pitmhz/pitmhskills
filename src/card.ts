@@ -5,7 +5,7 @@ import { execSync } from "node:child_process";
 import yaml from "js-yaml";
 import { hashContent, loadSources } from "./ingest.ts";
 import { shaFile } from "./index.ts";
-import { slug, guessDomain, guessTaskTypes, mineUseWhen, extractKeywords } from "./cardtext.ts";
+import { slug, guessDomain, guessTaskTypes, mineUseWhen, extractKeywords, extractSections } from "./cardtext.ts";
 import type { Card } from "./types.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -87,7 +87,9 @@ function findSkillFiles(provider: string, base: string): string[] {
       // Skip hidden/vendor dirs (.git, .openclaw client copies, node_modules):
       // repos often ship the same skill once per client adapter; the canonical
       // copy wins and duplicate ids stop churning the card.
-      if (e.name.startsWith(".")) continue;
+      // Exception: .claude/skills is a canonical skill home (e.g.
+      // microsoft/playwright-cli .claude/skills/dev), not a client copy.
+      if (e.name.startsWith(".") && e.name !== ".claude") continue;
       const p = join(d, e.name);
       if (e.isDirectory()) walk(p, depth + 1);
       else if (e.name === "SKILL.md") out.push(p);
@@ -157,7 +159,7 @@ function originFor(s: { id: string; repo: string | null }, f: string, name: stri
   if (!s.repo) return `local@${name}`;
   return `${s.repo}@${findPinnedSha(f) || "unpinned"}`;
 }
-function templateCard(id: string, s: { id: string; repo: string | null }, f: string, name: string, desc: string, raw: string, hash: string): Card {
+export function templateCard(id: string, s: { id: string; repo: string | null }, f: string, name: string, desc: string, raw: string, hash: string): Card {
   void shaFile;
   const body = raw.replace(/^---[\s\S]*?---/, "").trim();
   const domain = guessDomain(f + " " + desc);
@@ -184,9 +186,10 @@ function templateCard(id: string, s: { id: string; repo: string | null }, f: str
     conflicts_with: [],
     body_tokens: Math.ceil(raw.length / 4),
     core_bytes: Buffer.byteLength(raw),
-    sections: [],
+    sections: extractSections(raw),
     keywords,
     verify: [],
     skill_path: f,
+    curated: false,
   };
 }

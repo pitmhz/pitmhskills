@@ -1,0 +1,52 @@
+{
+  "id": "addyosmani__source-driven-development",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "c59faf851377f0eeda45306398d16eb96d77ab1c2fd3e1a7fb58e9a0af33c1e9",
+  "purpose": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited ",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or wh"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2491,
+  "core_bytes": 10038,
+  "sections": [],
+  "keywords": [
+    "driven",
+    "development",
+    "overview",
+    "process",
+    "step",
+    "detect",
+    "stack",
+    "versions",
+    "fetch",
+    "retrieval",
+    "safety",
+    "treat",
+    "fetched",
+    "content",
+    "data"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\source-driven-development\\SKILL.md"
+}

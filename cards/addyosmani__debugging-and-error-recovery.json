@@ -1,0 +1,48 @@
+{
+  "id": "addyosmani__debugging-and-error-recovery",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "21f3960f5d7ae2cc95c40896545004dbbcbbd752ea65fc2d53962554d4174220",
+  "purpose": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when y",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you en"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2637,
+  "core_bytes": 10913,
+  "sections": [],
+  "keywords": [
+    "recovery",
+    "overview",
+    "stop",
+    "line",
+    "rule",
+    "triage",
+    "checklist",
+    "step",
+    "reproduce",
+    "specific",
+    "failing",
+    "test"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\debugging-and-error-recovery\\SKILL.md"
+}

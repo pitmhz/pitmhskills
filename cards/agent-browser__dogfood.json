@@ -1,0 +1,50 @@
+{
+  "id": "agent-browser__dogfood",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "fffc1931ec3a10bdd50362284d7c8cf352ca800a6f6f8bc5db1e6449d0597465",
+  "purpose": "Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to \"dogfood\", \"QA\", \"exploratory test\", \"find issues\", \"bug hunt\", \"test this app/site/pla",
+  "domain": "workflow",
+  "task_types": [
+    "review"
+  ],
+  "use_when": [
+    "Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to \"dogfood\", \"QA\", \"exploratory test\", \"find issu"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2767,
+  "core_bytes": 11069,
+  "sections": [],
+  "keywords": [
+    "setup",
+    "workflow",
+    "initialize",
+    "authenticate",
+    "identify",
+    "login",
+    "form",
+    "refs",
+    "fill",
+    "credentials",
+    "replace",
+    "target",
+    "post",
+    "text",
+    "condition"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\dogfood\\SKILL.md"
+}

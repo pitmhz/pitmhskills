@@ -1,0 +1,51 @@
+{
+  "id": "agent-browser__protected-vercel-deployments",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "375ba881ccf7408e98e6cbdc2300ac3adee524050311f16ce6d23617baef9ce2",
+  "purpose": "Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection with agent-browser. Use when a preview or production URL redirects to a Vercel login page, returns ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection with agent-browser. Use when a preview or production URL re"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1734,
+  "core_bytes": 6941,
+  "sections": [],
+  "keywords": [
+    "project",
+    "environments",
+    "callers",
+    "human",
+    "intervention",
+    "boundaries",
+    "correct",
+    "header",
+    "diagnose",
+    "failures",
+    "fallback",
+    "avoid",
+    "dead",
+    "ends"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\protected-vercel-deployments\\SKILL.md"
+}

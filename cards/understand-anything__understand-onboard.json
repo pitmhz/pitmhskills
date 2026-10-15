@@ -1,0 +1,43 @@
+{
+  "id": "understand-anything__understand-onboard",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "65c50b19f5340a8ec817dab86e0f83e8aee353a9f3acb7ca9421cbfab143498a",
+  "purpose": "Use when you need to generate an onboarding guide for new team members joining a project",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use when you need to generate an onboarding guide for new team members joining a project"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1265,
+  "core_bytes": 5084,
+  "sections": [],
+  "keywords": [
+    "understand",
+    "onboard",
+    "graph",
+    "structure",
+    "reference",
+    "read",
+    "efficiently",
+    "instructions"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand-onboard\\SKILL.md"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "addyosmani__test-driven-development",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "a3aa6ba95638497025577469eda10ed17918698209615aeafbc26f131bf2469d",
+  "purpose": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug repor",
+  "domain": "general",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4112,
+  "core_bytes": 16676,
+  "sections": [],
+  "keywords": [
+    "test",
+    "driven",
+    "overview",
+    "discover",
+    "stack",
+    "first",
+    "cycle",
+    "step",
+    "write",
+    "failing",
+    "pass",
+    "clean"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\test-driven-development\\SKILL.md"
+}

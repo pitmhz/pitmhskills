@@ -1,0 +1,48 @@
+{
+  "id": "understand-anything__understand-domain",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "bb4c9b652616cbf03913333783837dd87d158700efd5bad80144120d6555f8ce",
+  "purpose": "Extract business domain knowledge from a codebase and generate an interactive domain flow graph. Works standalone (lightweight scan) or derives from an existing /understand knowledge graph.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Extract business domain knowledge from a codebase and generate an interactive domain flow graph. Works standalone (lightweight scan) or derives from an existing"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2482,
+  "core_bytes": 9941,
+  "sections": [],
+  "keywords": [
+    "instructions",
+    "phase",
+    "resolve",
+    "project",
+    "root",
+    "detect",
+    "path",
+    "derive",
+    "analysis",
+    "validate",
+    "save",
+    "launch",
+    "dashboard"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand-domain\\SKILL.md"
+}

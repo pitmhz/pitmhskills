@@ -1,0 +1,50 @@
+{
+  "id": "humanlayer-skills__design-control-loop",
+  "tier": "B",
+  "origin": [
+    "humanlayer/skills@653b6411c1f70c275a18e37673b042ff99f67ceb"
+  ],
+  "license": "MIT",
+  "hash": "1a9d3ba34f98cfe190ab48b53e310ba51bc9bf9d7db4adbf4418c2b600e92f9b",
+  "purpose": "interview the user to design an agentic control loop (sensor, controller, actuator under disturbances) tailored to their codebase, then build it as locally-runnable components plus a scheduled coding-",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "interview the user to design an agentic control loop (sensor, controller, actuator under disturbances) tailored to their codebase, then build it as locally-runn"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3894,
+  "core_bytes": 15667,
+  "sections": [],
+  "keywords": [
+    "mental",
+    "model",
+    "skill",
+    "outputs",
+    "phase",
+    "understand",
+    "system",
+    "each",
+    "component",
+    "wire",
+    "human",
+    "flow"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\humanlayer-skills\\plugins\\design-control-loop\\skills\\design-control-loop\\SKILL.md"
+}

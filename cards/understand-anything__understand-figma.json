@@ -1,0 +1,47 @@
+{
+  "id": "understand-anything__understand-figma",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "4cad5f9f74d6df58d185c276b7646a1ac841168fe44e1b19771f1fa23c93ef65",
+  "purpose": "Analyze a Figma file via the Figma REST API and generate an interactive design knowledge graph (pages, screens, components, component sets, instances, design tokens) with a kind:\"design\" dashboard.",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Analyze a Figma file via the Figma REST API and generate an interactive design knowledge graph (pages, screens, components, component sets, instances, design to"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1046,
+  "core_bytes": 4206,
+  "sections": [],
+  "keywords": [
+    "understand",
+    "prerequisites",
+    "phase",
+    "flight",
+    "fetch",
+    "parse",
+    "deterministic",
+    "enrichment",
+    "merge",
+    "save",
+    "launch"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand-figma\\SKILL.md"
+}

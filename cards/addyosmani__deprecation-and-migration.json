@@ -1,0 +1,49 @@
+{
+  "id": "addyosmani__deprecation-and-migration",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "6a624f942e09c69863a4219b9bd5d56975026b67b0c70bc83385ffd2120b6142",
+  "purpose": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, su",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migra"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3134,
+  "core_bytes": 12642,
+  "sections": [],
+  "keywords": [
+    "overview",
+    "core",
+    "principles",
+    "liability",
+    "hyrum",
+    "makes",
+    "removal",
+    "hard",
+    "planning",
+    "starts",
+    "design",
+    "time"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\deprecation-and-migration\\SKILL.md"
+}

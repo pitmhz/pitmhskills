@@ -1,0 +1,48 @@
+{
+  "id": "addyosmani__browser-testing-with-devtools",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "4e3aacd6a380cd25bc6c2d67fdd1c926a9b22535b8a62109ecd33cefd909e3d9",
+  "purpose": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, ",
+  "domain": "workflow",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture co"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3484,
+  "core_bytes": 14539,
+  "sections": [],
+  "keywords": [
+    "testing",
+    "overview",
+    "setting",
+    "installation",
+    "available",
+    "tools",
+    "security",
+    "boundaries",
+    "isolation",
+    "treat",
+    "content",
+    "untrusted"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\browser-testing-with-devtools\\SKILL.md"
+}

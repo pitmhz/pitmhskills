@@ -120,6 +120,19 @@ export function runAdd(spec: string, cwd: string, opts: { skill?: string } = {})
   const bc = buildCards({ provider: id });
   console.log(`cards made=${bc.made} cached=${bc.cached} errors=${bc.errors.length}`);
   for (const e of bc.errors) console.log(`err: ${e}`);
+  for (const f of readdirSync(join(ROOT, "cards")).filter((x) => x.startsWith(`${id}__`) && x.endsWith(".json")).sort()) {
+    try {
+      const c = JSON.parse(readFileSync(join(ROOT, "cards", f), "utf8"));
+      const empty = [
+        !c.disambiguator ? "disambiguator" : null,
+        c.pairs_with == null ? "pairs_with" : null,
+        !(c.conflicts_with ?? []).length ? "conflicts_with" : null,
+        !(c.keywords ?? []).length ? "keywords" : null,
+        !(c.sections ?? []).length ? "sections" : null,
+      ].filter(Boolean);
+      console.log(`schema ${c.id}: empty=[${empty.join(",") || "none"}] cluster=${c.cluster === c.domain ? "default" : c.cluster} curated=${c.curated ?? false} use_when=${(c.use_when ?? []).length}`);
+    } catch { /* unreadable card: buildCards already reported it */ }
+  }
   const base = parsed.repo ? join(ROOT, "skills", id) : join(ROOT, relPath(parsed.localPath!));
   const skills = findSkills(base).map(skillName);
   console.log(`found ${skills.length} skill(s) for ${id}`);

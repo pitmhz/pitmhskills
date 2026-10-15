@@ -1,0 +1,51 @@
+{
+  "id": "addyosmani__shipping-and-launch",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "726f3e546369db289160b8d42195590f00b6432887e17bf19070dcc9a347fe39",
+  "purpose": "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-laun"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2828,
+  "core_bytes": 11515,
+  "sections": [],
+  "keywords": [
+    "overview",
+    "code",
+    "quality",
+    "security",
+    "performance",
+    "accessibility",
+    "infrastructure",
+    "documentation",
+    "feature",
+    "flag",
+    "sequence",
+    "decision",
+    "thresholds"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\shipping-and-launch\\SKILL.md"
+}

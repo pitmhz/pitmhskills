@@ -18,7 +18,7 @@
     "Tasks unrelated to cloudflare-edge"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Write, review, or configure Workers code -> this. Profile CPU and memory of deployed Workers -> workers-profiling. Deploy or host a project on Cloudflare -> cloudflare-deploy.",
   "cluster": "cloudflare-edge",
   "cluster_role": "primary",
   "pick_over_primary_when": null,

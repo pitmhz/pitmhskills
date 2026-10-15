@@ -1,0 +1,47 @@
+{
+  "id": "linear__linear-setup",
+  "tier": "B",
+  "origin": [
+    "tjcages/linear@09f07637b5e7b122b312dba0480386974173922b"
+  ],
+  "license": "MIT",
+  "hash": "2c771b871cfc4dac58d43b27096eac0b84798a8cd847393514a9194203be363d",
+  "purpose": "Bootstrap or extend Linear project tracking the right way — methodology, not API CRUD. Use when the user asks to set up Linear tracking, track this project in Linear, add this repo to Linear, backfill",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Bootstrap or extend Linear project tracking the right way — methodology, not API CRUD. Use when the user asks to set up Linear tracking, track this project in L"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 681,
+  "core_bytes": 2785,
+  "sections": [],
+  "keywords": [
+    "setup",
+    "step",
+    "auth",
+    "operating",
+    "order",
+    "already",
+    "tracked",
+    "type",
+    "structure",
+    "writing",
+    "tickets",
+    "wire"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\linear\\skills\\linear-setup\\SKILL.md"
+}

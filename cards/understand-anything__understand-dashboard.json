@@ -1,0 +1,38 @@
+{
+  "id": "understand-anything__understand-dashboard",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "7c0b3a9db4e4f0d254b33a41096bf3a3338c6f32d0cc39b6552f6b7b63d06a8e",
+  "purpose": "Launch the interactive web dashboard to visualize a codebase's knowledge graph",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Launch the interactive web dashboard to visualize a codebase's knowledge graph"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1917,
+  "core_bytes": 7675,
+  "sections": [],
+  "keywords": [
+    "understand",
+    "instructions",
+    "notes"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand-dashboard\\SKILL.md"
+}

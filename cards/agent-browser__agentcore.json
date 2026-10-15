@@ -1,0 +1,48 @@
+{
+  "id": "agent-browser__agentcore",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b693c3ff7d59ae76fd81d0fb826917e2e62fc3135e8bdcf5b3284441ca6cd96c",
+  "purpose": "Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wants to use AgentCore, run browser automation on AWS, use a cloud browser with AWS credentials, or needs a managed browser",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wants to use AgentCore, run browser automation on AWS, use a cloud browser with AWS"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1031,
+  "core_bytes": 4121,
+  "sections": [],
+  "keywords": [
+    "setup",
+    "core",
+    "workflow",
+    "open",
+    "page",
+    "everything",
+    "else",
+    "local",
+    "chrome",
+    "environment",
+    "variables",
+    "persistent",
+    "profiles"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\agentcore\\SKILL.md"
+}

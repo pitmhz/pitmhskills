@@ -1,0 +1,48 @@
+{
+  "id": "agent-browser__electron",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "b34b4ee382ba759bdf5643460a2ea84d3f005040ce7c7f915b9e88102bbce0a2",
+  "purpose": "Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the user needs to interact with an Electron app, autom",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the user needs"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1741,
+  "core_bytes": 6963,
+  "sections": [],
+  "keywords": [
+    "core",
+    "workflow",
+    "launch",
+    "remote",
+    "debugging",
+    "standard",
+    "launching",
+    "macos",
+    "linux",
+    "windows",
+    "connecting",
+    "specific",
+    "port"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\electron\\SKILL.md"
+}

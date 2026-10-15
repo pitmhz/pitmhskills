@@ -1,0 +1,41 @@
+{
+  "id": "agent-browser__agent-browser",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "19c4b9f790f8a36cb2c485cb91ad36d6506b60e3cc32df299554ac9c8694247f",
+  "purpose": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web a",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "debug"
+  ],
+  "use_when": [
+    "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking scr"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 877,
+  "core_bytes": 3509,
+  "sections": [],
+  "keywords": [
+    "start",
+    "specialized",
+    "skills",
+    "observability",
+    "dashboard"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skills\\agent-browser\\SKILL.md"
+}

@@ -139,6 +139,22 @@ function sectionLines(focus: Card | null, task: string): string[] {
   return out;
 }
 
+// TEACHES block: topic→skills lookup ("who teaches X?"). Pure derivation from
+// already-loaded cards: task tokens ∩ (sections[].when + use_when + keywords).
+// Tokens taught by >10 skills are generic noise and dropped. Skills per topic
+// ranked by distinct task-token coverage desc, id asc tiebreak. Deterministic.
+const TSTOP = new Set("about,after,again,also,build,code,could,create,data,file,for,from,help,into,line,list,make,more,most,need,other,page,project,should,show,simple,some,such,task,text,thing,using,want,with,work,write,your".split(","));
+function teachesLines(pool: Card[], task: string): string[] {
+  const head = "TEACHES:";
+  const tt = [...toks(task)].filter((t) => !TSTOP.has(t)).sort();
+  const tm = pool.map((c) => ({ id: c.id, s: new Set(`${(c.sections ?? []).flatMap((s) => s.when ?? []).join(" ")} ${(c.use_when ?? []).join(" ")} ${(c.keywords ?? []).join(" ")}`.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length > 2)) }));
+  const cov = new Map(tm.map((e) => [e.id, tt.filter((t) => e.s.has(t)).length]));
+  const rows = tt.map((t) => ({ t, who: tm.filter((e) => e.s.has(t)).sort((a, b) => cov.get(b.id)! - cov.get(a.id)! || (a.id < b.id ? -1 : 1)).slice(0, 3).map((e) => e.id) })).filter((r) => r.who.length > 0 && r.who.length <= 10);
+  rows.sort((a, b) => cov.get(b.who[0])! - cov.get(a.who[0])! || (a.t < b.t ? -1 : 1));
+  if (!rows.length) return [head, "  (no distinctive topics)"];
+  return [head, ...rows.slice(0, 8).map((r) => `  ${cut(r.t)} -> ${r.who.map(cut).join(", ")}`)];
+}
+
 export function runDiagnose(task: string, cwd: string): string {
   const cfg = loadConfig();
   const db = openDb();
@@ -161,7 +177,7 @@ export function runDiagnose(task: string, cwd: string): string {
     const topReason = d.top ? (ranking.find((r) => r.id === d.top!.id)?.reason ?? "") : "no candidates";
     const topCard = d.top ? (byId.get(d.top.id) ?? null) : null;
     const focus = topCard ?? collapsed[0]?.card ?? null;
-    const lines = [`TASK: ${cut(task)}`, ...gateLines(dropped, byId, task), ...retrievalLines(snap), ...collapseLines(ranked, collapsed, task), ...decisionLines(ranking, d, topReason), ...sectionLines(focus, task)];
+    const lines = [`TASK: ${cut(task)}`, ...gateLines(dropped, byId, task), ...retrievalLines(snap), ...collapseLines(ranked, collapsed, task), ...decisionLines(ranking, d, topReason), ...sectionLines(focus, task), ...teachesLines(pool, task)];
     return lines.join("\n");
   } finally {
     try { db.close(); } catch { /* ignore */ }

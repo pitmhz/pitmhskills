@@ -1,0 +1,38 @@
+{
+  "id": "linear__linear-finish-install",
+  "tier": "B",
+  "origin": [
+    "tjcages/linear@09f07637b5e7b122b312dba0480386974173922b"
+  ],
+  "license": "MIT",
+  "hash": "346798f4eb44059a290b847c29b666f2c327a9441cf396970a074755a6dbe594",
+  "purpose": "Finish Linear tracking pack install after skills are present: write always-on rules (Linear = default source of truth every session) and verify Linear MCP auth. Optionally offer Cursor Monitor Automat",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Finish Linear tracking pack install after skills are present: write always-on rules (Linear = default source of truth every session) and verify Linear MCP auth."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 613,
+  "core_bytes": 2472,
+  "sections": [],
+  "keywords": [
+    "required",
+    "optional",
+    "report"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\linear\\skills\\linear-finish-install\\SKILL.md"
+}

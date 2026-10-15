@@ -1,0 +1,48 @@
+{
+  "id": "humanlayer-skills__improve-claude-md",
+  "tier": "B",
+  "origin": [
+    "humanlayer/skills@653b6411c1f70c275a18e37673b042ff99f67ceb"
+  ],
+  "license": "MIT",
+  "hash": "21478b64dab9dc3211c8b8c162ae84bc772e0c4cc7379a22a6cd460e5b124933",
+  "purpose": "improve a CLAUDE.md file using <important if> blocks to improve instruction adherence",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "improve a CLAUDE.md file using <important if> blocks to improve instruction adherence"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2416,
+  "core_bytes": 9708,
+  "sections": [],
+  "keywords": [
+    "core",
+    "problem",
+    "solution",
+    "condition",
+    "principles",
+    "foundational",
+    "context",
+    "stays",
+    "bare",
+    "domain",
+    "guidance",
+    "gets",
+    "wrapped"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\humanlayer-skills\\plugins\\improve-claude-md\\skills\\improve-claude-md\\SKILL.md"
+}

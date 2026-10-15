@@ -1,0 +1,48 @@
+{
+  "id": "addyosmani__api-and-interface-design",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "e83d34f52ff12dd8a7c5134cd7e8140ea4541ec65e204f8a1e4cd366e30c4192",
+  "purpose": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or es",
+  "domain": "frontend",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defini"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3702,
+  "core_bytes": 14886,
+  "sections": [],
+  "keywords": [
+    "overview",
+    "core",
+    "principles",
+    "hyrum",
+    "version",
+    "rule",
+    "contract",
+    "first",
+    "consistent",
+    "error",
+    "semantics",
+    "validate"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\api-and-interface-design\\SKILL.md"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "agent-browser__slack",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "21e412b30738bd733bedc9a848cc8d4ffc5b2e296a2f2a2fc570f6bd5b0d3c99",
+  "purpose": "Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find information, search conversations, or autom",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find inf"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2179,
+  "core_bytes": 8713,
+  "sections": [],
+  "keywords": [
+    "quick",
+    "start",
+    "connect",
+    "existing",
+    "session",
+    "port",
+    "9222",
+    "typical",
+    "already",
+    "open",
+    "running",
+    "core",
+    "workflow"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\slack\\SKILL.md"
+}

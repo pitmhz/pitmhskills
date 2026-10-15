@@ -1,0 +1,52 @@
+{
+  "id": "addyosmani__doubt-driven-development",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "6fa1fcd8420c28daf7e53c5b08b0f20b907911efd2a6d9bce0b9740da20a4008",
+  "purpose": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden f",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "debug",
+    "design"
+  ],
+  "use_when": [
+    "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding,"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4140,
+  "core_bytes": 16647,
+  "sections": [],
+  "keywords": [
+    "doubt",
+    "driven",
+    "development",
+    "overview",
+    "loading",
+    "constraints",
+    "process",
+    "step",
+    "claim",
+    "surface",
+    "extract",
+    "smallest",
+    "reviewable",
+    "unit"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\doubt-driven-development\\SKILL.md"
+}

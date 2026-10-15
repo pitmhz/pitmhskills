@@ -1,0 +1,50 @@
+{
+  "id": "addyosmani__code-simplification",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "f0c5ed754057eb0c1e027e2587f59de816651feb5e837242296c43ea21cf621d",
+  "purpose": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code ",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend tha"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3375,
+  "core_bytes": 13545,
+  "sections": [],
+  "keywords": [
+    "simplification",
+    "overview",
+    "five",
+    "principles",
+    "preserve",
+    "exactly",
+    "follow",
+    "project",
+    "conventions",
+    "prefer",
+    "cleverness",
+    "balance"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\code-simplification\\SKILL.md"
+}

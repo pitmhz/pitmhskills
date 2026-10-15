@@ -1,0 +1,49 @@
+{
+  "id": "playwright-cli__playwright-cli",
+  "tier": "B",
+  "origin": [
+    "microsoft/playwright-cli@b85c7a736bb473bf55b584e54a09ffa698d6d871"
+  ],
+  "license": "Apache-2.0",
+  "hash": "d35ea2029ba6ecae932e3de46444472861f5095ec9093207f494834e741e104d",
+  "purpose": "Automate browser interactions, test web pages and work with Playwright tests.",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Automate browser interactions, test web pages and work with Playwright tests.",
+    "snapshot is a part of the workflow result"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3978,
+  "core_bytes": 15917,
+  "sections": [],
+  "keywords": [
+    "automation",
+    "quick",
+    "start",
+    "open",
+    "navigate",
+    "page",
+    "interact",
+    "refs",
+    "take",
+    "screenshot",
+    "rarely",
+    "used",
+    "common"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\playwright-cli\\skills\\playwright-cli\\SKILL.md"
+}

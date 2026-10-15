@@ -146,3 +146,11 @@
   expect: caveman-staged__caveman-compress
 - task: "Compress this todo list into short form to save input tokens"
   expect: caveman-staged__caveman-compress
+- task: "Create a Cloudflare Vectorize index and query it from a Worker"
+  expect: cloudflare-skill__cloudflare
+- task: "Pick an OpenRouter model for a reasoning-heavy coding task balancing cost and quality"
+  expect: openrouter-staged__openrouter-models
+- task: "List this OpenRouter API key's generation activity and costs"
+  expect: openrouter-staged__openrouter-generations
+- task: "Call Nemotron through OpenRouter with an OpenAI-compatible client"
+  expect: openrouter-staged__openrouter-typescript-sdk

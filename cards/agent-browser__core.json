@@ -1,0 +1,49 @@
+{
+  "id": "agent-browser__core",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "1c24b7b2c411c0ccbe53ee572257c8cb8c5db0fc403959bb7a78ed42471ad6cf",
+  "purpose": "Core agent-browser usage guide. Read this before running any agent-browser commands. Covers the snapshot-and-ref workflow, navigating pages, interacting with elements (click, fill, type, select), extr",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Core agent-browser usage guide. Read this before running any agent-browser commands. Covers the snapshot-and-ref workflow, navigating pages, interacting with el"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 9641,
+  "core_bytes": 38600,
+  "sections": [],
+  "keywords": [
+    "loop",
+    "session",
+    "quickstart",
+    "install",
+    "once",
+    "linux",
+    "hosts",
+    "required",
+    "libraries",
+    "page",
+    "search",
+    "result",
+    "capture"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\core\\SKILL.md"
+}

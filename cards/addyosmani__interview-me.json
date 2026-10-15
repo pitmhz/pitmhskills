@@ -1,0 +1,50 @@
+{
+  "id": "addyosmani__interview-me",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "ace4b675999bb504593d572e0f73f3d7e803ad6fddf318445598c82c11939db2",
+  "purpose": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an",
+  "domain": "workflow",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 3759,
+  "core_bytes": 15080,
+  "sections": [],
+  "keywords": [
+    "overview",
+    "loading",
+    "constraints",
+    "process",
+    "step",
+    "hypothesize",
+    "number",
+    "each",
+    "guess",
+    "attached",
+    "listen",
+    "restate",
+    "words"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\interview-me\\SKILL.md"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "linear__linear-monitor",
+  "tier": "B",
+  "origin": [
+    "tjcages/linear@09f07637b5e7b122b312dba0480386974173922b"
+  ],
+  "license": "MIT",
+  "hash": "3a93e043c9ef7ad9ab674ac98c64b89eab4f4d44f0d1ae0899a16156a8ea4cf8",
+  "purpose": "Health-check Linear projects for slipping dates, stale In Progress, and orphan issues. Use when the user asks for a Linear health check, atRisk scan, monitoring, /linear-monitor, or when a Cursor Auto",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Health-check Linear projects for slipping dates, stale In Progress, and orphan issues. Use when the user asks for a Linear health check, atRisk scan, monitoring"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 407,
+  "core_bytes": 1654,
+  "sections": [],
+  "keywords": [
+    "step",
+    "auth",
+    "scope",
+    "checks",
+    "writes",
+    "output",
+    "shape"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\linear\\skills\\linear-monitor\\SKILL.md"
+}

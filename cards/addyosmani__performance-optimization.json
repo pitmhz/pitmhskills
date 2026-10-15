@@ -1,0 +1,51 @@
+{
+  "id": "addyosmani__performance-optimization",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "bd36a30e55a5f84329a6977eba5e1ab7654146e71eaba88e34337d4ee020460f",
+  "purpose": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load time",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regres"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4130,
+  "core_bytes": 16698,
+  "sections": [],
+  "keywords": [
+    "optimization",
+    "overview",
+    "targets",
+    "workflow",
+    "step",
+    "measure",
+    "where",
+    "start",
+    "measuring",
+    "identify",
+    "bottleneck",
+    "verify",
+    "keep",
+    "revert"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\performance-optimization\\SKILL.md"
+}

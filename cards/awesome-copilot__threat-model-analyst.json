@@ -18,7 +18,7 @@
     "Tasks unrelated to general"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Full STRIDE-A threat model or incremental update of a prior report -> this. Concise repo-grounded threat-model writeup -> security-threat-model. Vulnerability-focused code review -> security-audit.",
   "cluster": "general",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -82,5 +82,6 @@
     }
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\threat-model-analyst\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\threat-model-analyst\\SKILL.md",
+  "curated": true
 }

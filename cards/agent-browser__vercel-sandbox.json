@@ -1,0 +1,47 @@
+{
+  "id": "agent-browser__vercel-sandbox",
+  "tier": "B",
+  "origin": [
+    "vercel-labs/agent-browser@dac13bb87468fe9d74a040d862720f6cc17a9565"
+  ],
+  "license": "Apache-2.0",
+  "hash": "0b6aff6ddad514813afe5ec798bbf2464767d4a996ab7dece266860267c4b56a",
+  "purpose": "Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a Vercel app (Next.js, SvelteKit, Nuxt, Rem",
+  "domain": "frontend",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a V"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2027,
+  "core_bytes": 8106,
+  "sections": [],
+  "keywords": [
+    "dependencies",
+    "core",
+    "pattern",
+    "screenshot",
+    "accessibility",
+    "snapshot",
+    "multi",
+    "step",
+    "workflows",
+    "snapshots",
+    "fast",
+    "startup"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\vercel-sandbox\\SKILL.md"
+}

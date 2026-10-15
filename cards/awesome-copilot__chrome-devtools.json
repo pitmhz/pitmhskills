@@ -18,7 +18,7 @@
     "Tasks unrelated to general"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Drive and inspect live Chrome via DevTools MCP (console, network, perf traces) -> this. Stealth scraping or multi-URL fetch -> obscura. Terminal-driven browser automation -> playwright.",
   "cluster": "general",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -128,5 +128,6 @@
     }
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\chrome-devtools\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\chrome-devtools\\SKILL.md",
+  "curated": true
 }

@@ -1,0 +1,51 @@
+{
+  "id": "addyosmani__idea-refine",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "21ef828e3a2144245b67f840cc3805f761e98c9acce9a96670b7cd7441353463",
+  "purpose": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a",
+  "domain": "general",
+  "task_types": [
+    "implement"
+  ],
+  "use_when": [
+    "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress",
+    "an idea is still vague and needs shaping before it can become a plan",
+    "you need to stress-test assumptions before committing to a direction",
+    "you want to expand options before converging on one"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2306,
+  "core_bytes": 9253,
+  "sections": [],
+  "keywords": [
+    "overview",
+    "works",
+    "usage",
+    "optional",
+    "initialize",
+    "directory",
+    "output",
+    "detailed",
+    "instructions",
+    "philosophy",
+    "process",
+    "phase",
+    "understand"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\idea-refine\\SKILL.md"
+}

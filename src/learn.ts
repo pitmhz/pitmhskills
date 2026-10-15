@@ -1,4 +1,7 @@
 import { openDb } from "./db.ts";
+import { loadAllCards } from "./retrieve.ts";
+import { routeWith } from "./route.ts";
+import type { Card } from "./types.ts";
 import { existsSync, copyFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -111,4 +114,67 @@ export function proposeRerank(): string[] {
 if (import.meta.main) {
   console.log(JSON.stringify(summarizeUsage(), null, 2));
   proposeRerank();
+}
+
+// Phase 1-Agent A: rival/conflict derivation lives in rivals.ts (keeps this
+// file under 200 lines). Re-exported here so the learn flow owns the surface.
+export { proposeRivalries, applyRivalries } from "./rivals.ts";
+export type { RivalPair, RivalApplyResult } from "./rivals.ts";
+
+// Tier-A promotion gate: candidates and rules only — promotes NOTHING.
+// Weights: PICK +2 each (capped at +10 for 5+ PICKs); self-route +5;
+// disambiguator present +2; each ASK -3. BLOCKED (sorted last, not
+// promotable): license UNKNOWN/empty, or ASK-heavy (>= minAsks) with no
+// disambiguator. Deterministic sort: non-blocked first, score desc, id asc.
+export interface PromotionCandidate { id: string; score: number; reasons: string[] }
+export interface PromotionSignals { picks: number; asks: number; selfRoutes: boolean; licensed: boolean; disambiguator: boolean }
+
+// Pure scorer: takes injected counts so dry tests never touch the DB.
+export function scorePromotion(id: string, s: PromotionSignals, minAsks = 3): PromotionCandidate {
+  const reasons: string[] = [];
+  if (!s.licensed) reasons.push("BLOCKED: license UNKNOWN");
+  if (s.asks >= minAsks && !s.disambiguator) reasons.push(`BLOCKED: ASKed ${s.asks}x with no disambiguator`);
+  if (s.picks > 0) reasons.push(`PICKed ${s.picks}x`);
+  reasons.push(s.selfRoutes ? "self-routes from use_when[0]" : "does not self-route");
+  if (s.disambiguator) reasons.push("disambiguator present");
+  if (s.asks > 0) reasons.push(`ASKed ${s.asks}x`);
+  const score = Math.min(s.picks, 5) * 2 + (s.selfRoutes ? 5 : 0) + (s.disambiguator ? 2 : 0) - s.asks * 3;
+  return { id, score, reasons: reasons.map((r) => r.slice(0, 160)) };
+}
+
+// Read-only over route_logs + cards. Self-route probes use routeWith with
+// lock:false/log:false (no session or log writes). Capped at 20.
+export function promoteCandidates(o: { minPicks?: number; minAsks?: number } = {}): PromotionCandidate[] {
+  const minPicks = o.minPicks ?? 5;
+  const minAsks = o.minAsks ?? 3;
+  const usage = summarizeUsage();
+  const picks = new Map(usage.picks.map((p) => [p.id, p.count]));
+  const asks = new Map(usage.asks.map((a) => [a.skill_id, a.count]));
+  let cards: Card[] = [];
+  try {
+    const db = openDb();
+    try { cards = loadAllCards(db); } finally { db.close(); }
+  } catch { return []; }
+  const cwd = process.cwd();
+  const ranked: (PromotionCandidate & { blocked: boolean })[] = [];
+  for (const c of cards) {
+    if (c.tier !== "B" || c.use_when.length === 0) continue;
+    const n = picks.get(c.id) ?? 0;
+    if (n < minPicks) continue;
+    let self = false;
+    try {
+      const r = routeWith(c.use_when[0]!, cwd, { sessionId: "cover", lock: false, log: false });
+      self = r.skill_id === c.id;
+    } catch { self = false; }
+    const s = scorePromotion(c.id, {
+      picks: n,
+      asks: asks.get(c.id) ?? 0,
+      selfRoutes: self,
+      licensed: !!c.license && c.license !== "UNKNOWN",
+      disambiguator: !!(c.disambiguator ?? "").trim(),
+    }, minAsks);
+    ranked.push({ ...s, blocked: s.reasons.some((r) => r.startsWith("BLOCKED")) });
+  }
+  ranked.sort((a, b) => Number(a.blocked) - Number(b.blocked) || b.score - a.score || (a.id < b.id ? -1 : 1));
+  return ranked.slice(0, 20).map(({ id, score, reasons }) => ({ id, score, reasons }));
 }

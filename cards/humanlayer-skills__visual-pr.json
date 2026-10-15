@@ -1,0 +1,40 @@
+{
+  "id": "humanlayer-skills__visual-pr",
+  "tier": "B",
+  "origin": [
+    "humanlayer/skills@653b6411c1f70c275a18e37673b042ff99f67ceb"
+  ],
+  "license": "MIT",
+  "hash": "70c9ec2e97dfa16285cbcacd80b12096443ef41aaebd9848592f0b659edb9109",
+  "purpose": "Only use when the user explicitly invokes this skill by name.",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Only use when the user explicitly invokes this skill by name."
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 858,
+  "core_bytes": 3430,
+  "sections": [],
+  "keywords": [
+    "describe",
+    "pull",
+    "request",
+    "workflow"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\humanlayer-skills\\plugins\\visual-pr\\skills\\visual-pr\\SKILL.md"
+}

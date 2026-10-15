@@ -1,0 +1,43 @@
+{
+  "id": "linear__linear-sync",
+  "tier": "B",
+  "origin": [
+    "tjcages/linear@09f07637b5e7b122b312dba0480386974173922b"
+  ],
+  "license": "MIT",
+  "hash": "b5d0a2a24198789145b4e90dcaab2e7cc7b7ac59705e048b31bfa16f8eca4772",
+  "purpose": "Sync, audit, or rescue an existing Linear project against repo reality. Use when the user asks to sync Linear, reconcile tracking, audit this project, fix a messy board, revive a parked project, or sc",
+  "domain": "general",
+  "task_types": [
+    "review",
+    "implement",
+    "debug"
+  ],
+  "use_when": [
+    "Sync, audit, or rescue an existing Linear project against repo reality. Use when the user asks to sync Linear, reconcile tracking, audit this project, fix a mes"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 431,
+  "core_bytes": 1768,
+  "sections": [],
+  "keywords": [
+    "step",
+    "auth",
+    "operating",
+    "order",
+    "hard",
+    "rules"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\linear\\skills\\linear-sync\\SKILL.md"
+}

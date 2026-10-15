@@ -77,5 +77,6 @@
   "verify": [
     "npx supabase db lint"
   ],
-  "skill_path": "skills/supabase/skills/supabase-postgres-best-practices/SKILL.md"
+  "skill_path": "skills/supabase/skills/supabase-postgres-best-practices/SKILL.md",
+  "curated": true
 }

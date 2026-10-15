@@ -1,0 +1,49 @@
+{
+  "id": "gh-stack__gh-stack",
+  "tier": "B",
+  "origin": [
+    "github/gh-stack@29a36d314be664583705f18e41cebdf2b61ad514"
+  ],
+  "license": "MIT",
+  "hash": "0b69bc3740ac2df47665e2ab2aa2d550d128889677eca0932250b9dc045a7415",
+  "purpose": "Manages stacked PRs and splits multi-part work into reviewable branches with gh-stack. Use for stack creation, viewing, edits, push, submit, sync, rebase, merge, or checkout; when asked to split or is",
+  "domain": "workflow",
+  "task_types": [
+    "review",
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Manages stacked PRs and splits multi-part work into reviewable branches with gh-stack. Use for stack creation, viewing, edits, push, submit, sync, rebase, merge"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to workflow"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "workflow",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2347,
+  "core_bytes": 9406,
+  "sections": [],
+  "keywords": [
+    "setup",
+    "interactive",
+    "placement",
+    "core",
+    "loop",
+    "staying",
+    "merging",
+    "reading",
+    "state",
+    "exit",
+    "codes",
+    "constraints"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\gh-stack\\skills\\gh-stack\\SKILL.md"
+}

@@ -20,7 +20,7 @@
     "Tasks unrelated to gpu-compute"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Warp compile or cold-start time (slow first wp.launch, recompiles) -> this. Judge whether a hot path fits Warp -> warp-eval. Fix wrong Warp gradients -> warp-debug-gradients.",
   "cluster": "gpu-compute",
   "cluster_role": "primary",
   "pick_over_primary_when": null,

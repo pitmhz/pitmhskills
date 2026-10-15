@@ -1,0 +1,48 @@
+{
+  "id": "addyosmani__security-and-hardening",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "2e3fc60eed5aba97fe416f3f3c9317fdb014a682925ec70a733c3ff99e4b9858",
+  "purpose": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login",
+  "domain": "memory",
+  "task_types": [
+    "review",
+    "implement"
+  ],
+  "use_when": [
+    "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or externa"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to memory"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "memory",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 4383,
+  "core_bytes": 17559,
+  "sections": [],
+  "keywords": [
+    "security",
+    "hardening",
+    "overview",
+    "process",
+    "threat",
+    "model",
+    "first",
+    "three",
+    "tier",
+    "boundary",
+    "system",
+    "exceptions"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\security-and-hardening\\SKILL.md"
+}

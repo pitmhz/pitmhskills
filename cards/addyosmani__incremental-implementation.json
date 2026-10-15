@@ -1,0 +1,48 @@
+{
+  "id": "addyosmani__incremental-implementation",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "df66536610071727feae1ca95f3c391c248ad828041750ccd3699cce763aa00b",
+  "purpose": "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a",
+  "domain": "frontend",
+  "task_types": [
+    "refactor",
+    "implement"
+  ],
+  "use_when": [
+    "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the n"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to frontend"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "frontend",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2333,
+  "core_bytes": 9629,
+  "sections": [],
+  "keywords": [
+    "incremental",
+    "implementation",
+    "overview",
+    "increment",
+    "cycle",
+    "slicing",
+    "strategies",
+    "vertical",
+    "preferred",
+    "contract",
+    "first",
+    "risk"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\incremental-implementation\\SKILL.md"
+}

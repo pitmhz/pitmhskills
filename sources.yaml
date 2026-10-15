@@ -235,3 +235,54 @@ sources:
     ref: 2b85b7d27bd6ee124667fcfe88856f6b1f81671a
     glob: "**/SKILL.md"
     license_allow: ["MIT", "Apache-2.0"]
+  - id: cloudflare-skill
+    repo: dmmulroy/cloudflare-skill
+    ref: 97a85fdde7fe9695fbcba0c6bfde18dcdb5993d7
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: openrouter-staged
+    repo: null
+    ref: local
+    path: skills/openrouter-staged
+    glob: "*/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: gh-stack
+    repo: github/gh-stack
+    ref: 29a36d314be664583705f18e41cebdf2b61ad514
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: kitlangton
+    repo: kitlangton/skills
+    ref: 71195e36024ebd2e66c5beac946e81eafd5abc43
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: addyosmani
+    repo: addyosmani/agent-skills
+    ref: aeac41d4d005999432bb7312f7ff06383a91d59d
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: humanlayer-skills
+    repo: humanlayer/skills
+    ref: 653b6411c1f70c275a18e37673b042ff99f67ceb
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: linear
+    repo: tjcages/linear
+    ref: 09f07637b5e7b122b312dba0480386974173922b
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: understand-anything
+    repo: Egonex-AI/Understand-Anything
+    ref: f2d0164f72fe678805c34245a6df36acededfebd
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: agent-browser
+    repo: vercel-labs/agent-browser
+    ref: dac13bb87468fe9d74a040d862720f6cc17a9565
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: playwright-cli
+    repo: microsoft/playwright-cli
+    ref: b85c7a736bb473bf55b584e54a09ffa698d6d871
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]

@@ -1,0 +1,41 @@
+{
+  "id": "understand-anything__understand-chat",
+  "tier": "B",
+  "origin": [
+    "Egonex-AI/Understand-Anything@f2d0164f72fe678805c34245a6df36acededfebd"
+  ],
+  "license": "MIT",
+  "hash": "bd982a64ee1691733dd4684fb1f6dfc833e28ada6c73a8c1db4611113fbc0a23",
+  "purpose": "Use when you need to ask questions about a codebase or understand code using a knowledge graph",
+  "domain": "general",
+  "task_types": [
+    "debug"
+  ],
+  "use_when": [
+    "Use when you need to ask questions about a codebase or understand code using a knowledge graph"
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 1204,
+  "core_bytes": 4842,
+  "sections": [],
+  "keywords": [
+    "chat",
+    "structure",
+    "reference",
+    "read",
+    "efficiently",
+    "instructions"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\understand-anything\\understand-anything-plugin\\skills\\understand-chat\\SKILL.md"
+}

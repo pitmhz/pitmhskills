@@ -18,7 +18,7 @@
     "Tasks unrelated to cloudflare-edge"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Author or update a skill -> this. Install an existing skill -> skill-installer. Microsoft-stack skills via Learn MCP -> microsoft-skill-creator.",
   "cluster": "cloudflare-edge",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -193,5 +193,6 @@
     }
   ],
   "verify": [],
-  "skill_path": "skills/openai/skills/.system/skill-creator/SKILL.md"
+  "skill_path": "skills/openai/skills/.system/skill-creator/SKILL.md",
+  "curated": true
 }

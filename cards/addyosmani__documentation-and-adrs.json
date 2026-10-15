@@ -1,0 +1,48 @@
+{
+  "id": "addyosmani__documentation-and-adrs",
+  "tier": "B",
+  "origin": [
+    "addyosmani/agent-skills@aeac41d4d005999432bb7312f7ff06383a91d59d"
+  ],
+  "license": "MIT",
+  "hash": "b60d503925bbaacee7fd63935db70b9ced5b2514ff5a56a672130e01b9690bc5",
+  "purpose": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you nee",
+  "domain": "general",
+  "task_types": [
+    "implement",
+    "design"
+  ],
+  "use_when": [
+    "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public "
+  ],
+  "do_not_use_when": [
+    "Tasks unrelated to general"
+  ],
+  "scope": "Only touch files the task names; everything else read-only.",
+  "disambiguator": "",
+  "cluster": "general",
+  "cluster_role": "primary",
+  "pick_over_primary_when": null,
+  "pairs_with": null,
+  "requires": {},
+  "conflicts_with": [],
+  "body_tokens": 2719,
+  "core_bytes": 10910,
+  "sections": [],
+  "keywords": [
+    "adrs",
+    "overview",
+    "write",
+    "match",
+    "existing",
+    "convention",
+    "first",
+    "template",
+    "postgresql",
+    "primary",
+    "database",
+    "status"
+  ],
+  "verify": [],
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\documentation-and-adrs\\SKILL.md"
+}
