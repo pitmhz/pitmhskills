@@ -1,14 +1,16 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Snowflake, Trash2 } from "lucide-react";
-import { useApi, type Page as P, type Row } from "../../lib/api.ts";
+import { toast } from "sonner";
+import { api, useApi, type Page as P, type Row } from "../../lib/api.ts";
 import { useApp } from "../../lib/ctx.tsx";
 import { setParam, type Loc } from "../../lib/route.ts";
 import { useKeys } from "../../lib/keys.ts";
 import { num } from "../../lib/format.ts";
 import { Page } from "../../shell.tsx";
-import { Button, Empty, ErrorNote, Input, Select, Spinner, Tip } from "../../ui/controls.tsx";
+import { Button, Empty, ErrorNote, Input, Select, Spinner } from "../../ui/controls.tsx";
 import { StateCell, TierChip } from "../../ui/chips.tsx";
 import { Inspector } from "../inspector/Inspector.tsx";
+import { DiffDialog } from "../../ui/diff-dialog.tsx";
 
 const COLS: { key: keyof Row; label: string; num?: boolean }[] = [
   { key: "id", label: "id" }, { key: "tier", label: "tier" }, { key: "domain", label: "domain" },
@@ -16,14 +18,17 @@ const COLS: { key: keyof Row; label: string; num?: boolean }[] = [
 ];
 
 export function LibraryScreen({ loc }: { loc: Loc }) {
-  const { slice } = useApp();
+  const { slice, reloadAudit } = useApp();
   const p = loc.params;
   const qs = new URLSearchParams({ slice, size: "100" });
   for (const k of ["q", "tier", "provenance", "stale", "sort", "dir", "page", "cluster"]) if (p.get(k)) qs.set(k, p.get(k)!);
-  const { data, error, loading } = useApi<P>(`/api/skills?${qs}`);
+  const { data, error, loading, reload } = useApi<P>(`/api/skills?${qs}`);
   const [cursor, setCursor] = useState(0);
   const [sel, setSel] = useState<Set<string>>(new Set());
+  const [bulkPlan, setBulkPlan] = useState<any>(null);
+  const [bulkApplying, setBulkApplying] = useState(false);
   const search = useRef<HTMLInputElement>(null);
+
   const rows = data?.rows ?? [];
   const open = p.get("open");
   const set = (patch: Record<string, string | number | undefined>) => setParam(loc, { page: undefined, ...patch });
@@ -40,7 +45,37 @@ export function LibraryScreen({ loc }: { loc: Loc }) {
   }, !open);
 
   const sortBy = (key: string) => setParam(loc, { sort: key, dir: p.get("sort") === key && p.get("dir") !== "desc" ? "desc" : undefined });
-  const writeReason = "Freeze and delete arrive with the write protocol in slice S4.";
+
+  const planBulk = async (action: "freeze" | "delete") => {
+    if (!sel.size) return;
+    try {
+      const plan = await api.post<any>("/api/skills/bulk/plan", { ids: Array.from(sel), action });
+      setBulkPlan(plan);
+    } catch (err: any) {
+      toast.error(`Bulk plan failed: ${err.body?.error || err.message}`);
+    }
+  };
+
+  const applyBulk = async () => {
+    if (!bulkPlan) return;
+    setBulkApplying(true);
+    try {
+      const res = await api.post<any>("/api/skills/bulk/apply", { plan_id: bulkPlan.plan_id });
+      if (res.ok) {
+        toast.success(`Applied bulk changes to ${sel.size} skills`);
+        setBulkPlan(null);
+        setSel(new Set());
+        reload();
+        reloadAudit();
+      } else {
+        toast.error(`Bulk validation failed & reverted: ${res.error}`);
+      }
+    } catch (err: any) {
+      toast.error(`Apply failed: ${err.body?.error || err.message}`);
+    } finally {
+      setBulkApplying(false);
+    }
+  };
 
   return (
     <Page title="Library" meta={data ? `${num(data.total)} skills in ${slice === "All" ? "all slices" : slice}` : undefined}>
@@ -58,8 +93,8 @@ export function LibraryScreen({ loc }: { loc: Loc }) {
           Stale or invalid
         </label>
         <span className="ml-auto text-[12px] text-ink-2">Selected <span className="mono">{sel.size}</span></span>
-        <Tip label={writeReason}><span><Button disabled><Snowflake aria-hidden /> Freeze {sel.size || ""}</Button></span></Tip>
-        <Tip label={writeReason}><span><Button variant="danger" disabled><Trash2 aria-hidden /> Delete…</Button></span></Tip>
+        <Button disabled={!sel.size} onClick={() => planBulk("freeze")}><Snowflake aria-hidden /> Freeze {sel.size || ""}</Button>
+        <Button variant="danger" disabled={!sel.size} onClick={() => planBulk("delete")}><Trash2 aria-hidden /> Delete {sel.size || ""}</Button>
       </div>
 
       {error && <ErrorNote what="Could not load skills" why={error.body.why ?? error.message} next="Check that the server is running, then reload." />}
@@ -107,6 +142,17 @@ export function LibraryScreen({ loc }: { loc: Loc }) {
       <p className="text-[12px] text-ink-2">Keys: <kbd className="mono">/</kbd> search · <kbd className="mono">j</kbd>/<kbd className="mono">k</kbd> move · <kbd className="mono">Enter</kbd> open · <kbd className="mono">x</kbd> select · <kbd className="mono">Esc</kbd> close</p>
 
       <Inspector id={open} onClose={() => setParam(loc, { open: undefined })} />
+
+      <DiffDialog
+        open={!!bulkPlan}
+        onClose={() => setBulkPlan(null)}
+        onConfirm={applyBulk}
+        title="Review Bulk Plan"
+        diffs={bulkPlan?.diffs || []}
+        willRun={bulkPlan?.will_run}
+        warnings={bulkPlan?.warnings}
+        loading={bulkApplying}
+      />
     </Page>
   );
 }

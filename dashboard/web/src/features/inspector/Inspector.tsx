@@ -1,45 +1,92 @@
 import { useState } from "react";
-import { api, useApi, type Row, type RouteResult } from "../../lib/api.ts";
-import { bytes, num } from "../../lib/format.ts";
+import { toast } from "sonner";
+import { api, useApi, type Row } from "../../lib/api.ts";
+import { useApp } from "../../lib/ctx.tsx";
 import { Sheet, Tabs } from "../../ui/overlay.tsx";
-import { Button, ErrorNote, Input, Spinner } from "../../ui/controls.tsx";
-import { DecisionBadge, StateCell, TierChip } from "../../ui/chips.tsx";
+import { Button, ErrorNote, Input, Select, Spinner } from "../../ui/controls.tsx";
+import { StateCell, TierChip } from "../../ui/chips.tsx";
+import { DiffDialog } from "../../ui/diff-dialog.tsx";
+import { BodyTab, RoutingTab, HistoryTab } from "./InspectorTabs.tsx";
 
 type Detail = {
-  card: Record<string, unknown> & { id: string; purpose?: string; use_when?: string[]; disambiguator?: string };
+  card: Record<string, unknown> & { id: string; purpose?: string; use_when?: string[]; disambiguator?: string; tier?: string };
   row: Row; errors: string[]; sections: { name: string; bytes: number }[];
   body: { text: string; bytes: number; truncated: boolean };
 };
 
-const LABELS: Record<string, string> = {
-  use_when: "Situations where this is the best choice",
-  do_not_use_when: "Situations where another skill or none is better",
-  pick_over_primary_when: "Pick this variant over the primary when",
-};
-const HIDDEN = new Set(["purpose", "sections", "hash", "id"]);
-
 export function Inspector({ id, onClose }: { id: string | null; onClose: () => void }) {
   const [tab, setTab] = useState("card");
-  const { data, error } = useApi<Detail>(id ? `/api/skills/${encodeURIComponent(id)}` : null);
+  const { reloadAudit } = useApp();
+  const { data, error, reload } = useApi<Detail>(id ? `/api/skills/${encodeURIComponent(id)}` : null);
+  const [activePlan, setActivePlan] = useState<any>(null);
+  const [applying, setApplying] = useState(false);
+
   const d = data && data.card.id === id ? data : null;
+
+  const planAction = async (action: "freeze" | "delete" | "edit", fields?: Record<string, unknown>) => {
+    if (!id) return;
+    try {
+      const plan = await api.post<any>(`/api/skills/${encodeURIComponent(id)}/plan`, { action, fields });
+      setActivePlan(plan);
+    } catch (err: any) {
+      toast.error(`Plan failed: ${err.body?.error || err.message}`);
+    }
+  };
+
+  const applyActivePlan = async () => {
+    if (!activePlan || !id) return;
+    setApplying(true);
+    try {
+      const res = await api.post<any>(`/api/skills/${encodeURIComponent(id)}/apply`, { plan_id: activePlan.plan_id });
+      if (res.ok) {
+        toast.success("Applied successfully");
+        setActivePlan(null);
+        reload();
+        reloadAudit();
+      } else {
+        toast.error(`Validation failed & reverted: ${res.error}`);
+      }
+    } catch (err: any) {
+      toast.error(`Apply failed: ${err.body?.error || err.message}`);
+    } finally {
+      setApplying(false);
+    }
+  };
+
   return (
-    <Sheet open={!!id} onClose={onClose} title={id ?? ""}>
-      {error && <div className="p-4"><ErrorNote what="Could not load this skill" why={error.body.error} next={error.body.next} /></div>}
-      {!d && !error && <div className="p-4"><Spinner label="Loading card" /></div>}
-      {d && (
-        <Tabs value={tab} onChange={setTab} tabs={[
-          { id: "card", label: "Card", body: <CardTab d={d} /> },
-          { id: "body", label: "Body", body: <BodyTab d={d} /> },
-          { id: "routing", label: "Routing", body: <RoutingTab d={d} /> },
-          { id: "history", label: "History", body: <p className="text-[13px] text-ink-2">The changelog arrives with the write core in slice S3. No dashboard writes have touched this skill.</p> },
-        ]} />
-      )}
-    </Sheet>
+    <>
+      <Sheet open={!!id} onClose={onClose} title={id ?? ""}>
+        {error && <div className="p-4"><ErrorNote what="Could not load this skill" why={error.body.error} next={error.body.next} /></div>}
+        {!d && !error && <div className="p-4"><Spinner label="Loading card" /></div>}
+        {d && (
+          <Tabs value={tab} onChange={setTab} tabs={[
+            { id: "card", label: "Card", body: <CardTab d={d} onPlan={planAction} /> },
+            { id: "body", label: "Body", body: <BodyTab d={d} /> },
+            { id: "routing", label: "Routing", body: <RoutingTab d={d} /> },
+            { id: "history", label: "History", body: <HistoryTab id={id!} /> },
+          ]} />
+        )}
+      </Sheet>
+
+      <DiffDialog
+        open={!!activePlan}
+        onClose={() => setActivePlan(null)}
+        onConfirm={applyActivePlan}
+        title="Review Mutation Plan"
+        diffs={activePlan?.diffs || []}
+        willRun={activePlan?.will_run}
+        warnings={activePlan?.warnings}
+        loading={applying}
+      />
+    </>
   );
 }
 
-function CardTab({ d }: { d: Detail }) {
-  const c = d.card;
+function CardTab({ d, onPlan }: { d: Detail; onPlan: (action: "freeze" | "delete" | "edit", fields?: Record<string, unknown>) => void }) {
+  const [editing, setEditing] = useState(false);
+  const [fields, setFields] = useState<Record<string, any>>({ ...d.card });
+  const isFrozen = d.row.tier === "C";
+
   return (
     <div className="flex flex-col gap-4 text-[13px]">
       <div className="rounded-[8px] border border-line bg-surface-2 p-3">
@@ -48,23 +95,56 @@ function CardTab({ d }: { d: Detail }) {
           <StateCell state={d.row.state} />
           <span className="ml-auto text-[12px] text-ink-2">{d.row.domain} · {d.row.cluster} ({d.row.role})</span>
         </div>
-        <p>{String(c.purpose ?? "")}</p>
+        <p>{String(d.card.purpose ?? "")}</p>
       </div>
-      {d.errors.length > 0 && <ErrorNote what="Validator reports problems" why={d.errors.join("; ")} next="Edit the card or re-review the skill body (editing arrives in S4)." />}
-      {c.disambiguator ? <p className="border-l-2 border-accent pl-3 text-ink-2">{String(c.disambiguator)}</p> : null}
-      <dl className="flex flex-col gap-3">
-        {Object.entries(c).filter(([k]) => !HIDDEN.has(k)).map(([k, v]) => (
-          <div key={k}>
-            <dt className="text-[12px] text-ink-2">{LABELS[k] ?? k}</dt>
-            <dd className={typeof v === "number" ? "mono" : ""}>{render(v)}</dd>
+
+      <div className="flex gap-2">
+        <Button variant={isFrozen ? "primary" : "secondary"} onClick={() => onPlan("freeze")}>
+          {isFrozen ? "Unfreeze (Tier B)" : "Freeze (Tier C)"}
+        </Button>
+        <Button variant="secondary" onClick={() => setEditing(!editing)}>
+          {editing ? "Cancel Edit" : "Edit Fields"}
+        </Button>
+        <Button variant="danger" className="ml-auto" onClick={() => onPlan("delete")}>Delete</Button>
+      </div>
+
+      {editing ? (
+        <form onSubmit={(e) => { e.preventDefault(); onPlan("edit", fields); }} className="flex flex-col gap-3">
+          <div>
+            <label className="text-[12px] text-ink-2">Tier</label>
+            <Select value={fields.tier || "B"} onChange={(e) => setFields({ ...fields, tier: e.target.value })}>
+              <option value="A">Tier A</option><option value="B">Tier B</option><option value="C">Tier C</option>
+            </Select>
           </div>
-        ))}
-      </dl>
+          <div>
+            <label className="text-[12px] text-ink-2">Purpose</label>
+            <Input className="w-full" value={fields.purpose || ""} onChange={(e) => setFields({ ...fields, purpose: e.target.value })} />
+          </div>
+          <div>
+            <label className="text-[12px] text-ink-2">Disambiguator</label>
+            <Input className="w-full" value={fields.disambiguator || ""} onChange={(e) => setFields({ ...fields, disambiguator: e.target.value })} />
+          </div>
+          <Button variant="primary" type="submit" className="mt-2">Plan Changes</Button>
+        </form>
+      ) : (
+        <>
+          {d.errors.length > 0 && <ErrorNote what="Validator reports problems" why={d.errors.join("; ")} next="Edit the card to resolve errors." />}
+          {d.card.disambiguator ? <p className="border-l-2 border-accent pl-3 text-ink-2">{String(d.card.disambiguator)}</p> : null}
+          <dl className="flex flex-col gap-3">
+            {Object.entries(d.card).filter(([k]) => !["purpose", "sections", "hash", "id"].includes(k)).map(([k, v]) => (
+              <div key={k}>
+                <dt className="text-[12px] text-ink-2">{k}</dt>
+                <dd className={typeof v === "number" ? "mono" : ""}>{renderVal(v)}</dd>
+              </div>
+            ))}
+          </dl>
+        </>
+      )}
     </div>
   );
 }
 
-function render(v: unknown) {
+function renderVal(v: unknown) {
   if (v === null || v === undefined || v === "") return <span className="text-ink-2">—</span>;
   if (Array.isArray(v)) {
     if (v.length === 0) return <span className="text-ink-2">none</span>;
@@ -73,62 +153,4 @@ function render(v: unknown) {
   if (typeof v === "object") return <pre className="mono whitespace-pre-wrap text-[12px]">{JSON.stringify(v, null, 2)}</pre>;
   if (typeof v === "boolean") return v ? "yes" : "no";
   return String(v);
-}
-
-function BodyTab({ d }: { d: Detail }) {
-  return (
-    <div className="flex flex-col gap-3">
-      <p className="text-[12px] text-ink-2">
-        SKILL.md <span className="mono">{bytes(d.body.bytes)}</span>{d.body.truncated && " · preview of the first 4 KB"} · read-only
-      </p>
-      {d.sections.length > 0 && (
-        <ol className="flex flex-col gap-1 rounded-[8px] border border-line p-3 text-[12px]">
-          {d.sections.map((s) => (
-            <li key={s.name} className="flex justify-between gap-2"><span className="truncate">{s.name}</span><span className="mono text-ink-2">{num(s.bytes)} B</span></li>
-          ))}
-        </ol>
-      )}
-      <pre className="mono whitespace-pre-wrap rounded-[8px] border border-line bg-surface-2 p-3 text-[12px] leading-5">{d.body.text || "Body file not found at skill_path."}</pre>
-    </div>
-  );
-}
-
-/** Test this skill: does the router pick it for these queries? */
-function RoutingTab({ d }: { d: Detail }) {
-  const seed = (d.card.use_when ?? []).slice(0, 5).map((s) => s.slice(0, 160));
-  const [qs, setQs] = useState<string[]>([...seed, ...Array(5 - seed.length).fill("")]);
-  const [res, setRes] = useState<Record<number, RouteResult | "err" | "run">>({});
-  const runAll = async () => {
-    for (const [i, q] of qs.entries()) {
-      if (!q.trim()) continue;
-      setRes((r) => ({ ...r, [i]: "run" }));
-      const out = await api.post<RouteResult>("/api/route", { task: q }).catch(() => "err" as const);
-      setRes((r) => ({ ...r, [i]: out }));
-    }
-  };
-  return (
-    <div className="flex flex-col gap-3">
-      <p className="text-[12px] text-ink-2">Seeded from use_when. Edit any query, then run. Each run calls the router once.</p>
-      {qs.map((q, i) => {
-        const r = res[i];
-        const picked = typeof r === "object" && r.picks[0]?.id === d.card.id && r.outcome !== "ABSTAIN";
-        return (
-          <div key={i} className="flex flex-col gap-1">
-            <Input aria-label={`Query ${i + 1}`} value={q} onChange={(e) => setQs((a) => a.map((x, n) => (n === i ? e.target.value : x)))} />
-            <div className="flex h-6 items-center gap-2 text-[12px]">
-              {r === "run" && <Spinner label="routing" />}
-              {r === "err" && <span className="text-bad">router error</span>}
-              {typeof r === "object" && (
-                <>
-                  <DecisionBadge outcome={r.outcome} />
-                  <span className={picked ? "text-ok" : "text-ink-2"}>{picked ? "● picked this skill" : `○ top: ${r.picks[0]?.id ?? "none"}`}</span>
-                </>
-              )}
-            </div>
-          </div>
-        );
-      })}
-      <Button variant="primary" className="self-start" onClick={runAll}>Run {qs.filter((q) => q.trim()).length} queries</Button>
-    </div>
-  );
 }

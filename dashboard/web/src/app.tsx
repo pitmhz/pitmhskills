@@ -8,15 +8,13 @@ import { Palette } from "./features/palette.tsx";
 import { Overview } from "./features/overview/Overview.tsx";
 import { LibraryScreen } from "./features/library/Library.tsx";
 import { Playground } from "./features/playground/Playground.tsx";
+import { MandateScreen } from "./features/agents/Mandate.tsx";
+import { TrashScreen, ChangesScreen } from "./features/trash/Trash.tsx";
 
-// Screens not built yet name the slice that builds them instead of faking behavior.
 const PENDING: Record<string, { title: string; slice: string }> = {
   triage: { title: "Triage", slice: "S6 ingest + triage" },
   clusters: { title: "Clusters", slice: "S7 clusters + eval" },
   eval: { title: "Eval", slice: "S7 clusters + eval" },
-  mandate: { title: "Mandate", slice: "S5 mandate editor" },
-  trash: { title: "Trash", slice: "S3 write core" },
-  changes: { title: "Changes", slice: "S3 write core" },
 };
 
 export function App() {
@@ -24,16 +22,20 @@ export function App() {
   const [palette, setPalette] = useState(false);
   useKeys({ "mod+k": () => setPalette(true) });
   const pending = PENDING[loc.screen];
+
   return (
     <AppProvider>
       <Shell loc={loc} onSearch={() => setPalette(true)}>
         {loc.screen === "overview" && <Overview />}
         {loc.screen === "library" && <LibraryScreen loc={loc} />}
         {loc.screen === "playground" && <Playground loc={loc} />}
+        {loc.screen === "mandate" && <MandateScreen />}
+        {loc.screen === "trash" && <TrashScreen />}
+        {loc.screen === "changes" && <ChangesScreen />}
         {pending && (
           <Page title={pending.title}>
             <Empty action={<a className="text-[13px] text-accent underline" href="#/library">Open Library</a>}>
-              This screen is built in slice {pending.slice}. Library and Playground work now.
+              This screen is built in slice {pending.slice}. Library, Playground, Mandate, Trash, and Changes are live.
             </Empty>
           </Page>
         )}
