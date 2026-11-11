@@ -12,6 +12,7 @@ import { TrashScreen, ChangesScreen } from "./features/trash/Trash.tsx";
 import { IngestWizard } from "./features/ingest/Ingest.tsx";
 import { TriageQueue } from "./features/triage/Triage.tsx";
 import { ClustersScreen, EvalScreen } from "./features/clusters/Clusters.tsx";
+import { ConfigScreen } from "./features/config/Config.tsx";
 
 export function App() {
   const loc = useLoc();
@@ -31,6 +32,7 @@ export function App() {
         {loc.screen === "triage" && <TriageQueue />}
         {loc.screen === "clusters" && <ClustersScreen />}
         {loc.screen === "eval" && <EvalScreen />}
+        {loc.screen === "config" && <ConfigScreen />}
       </Shell>
       <Palette open={palette} onClose={() => setPalette(false)} />
     </AppProvider>

@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Activity, Boxes, FileText, FlaskConical, History, LayoutGrid, Library, ListChecks, Search, Trash2 } from "lucide-react";
+import { Activity, Boxes, FileText, FlaskConical, History, LayoutGrid, Library, ListChecks, Search, Settings, Trash2 } from "lucide-react";
 import { useApp } from "./lib/ctx.tsx";
 import { href, type Loc } from "./lib/route.ts";
 import { cn, num } from "./lib/format.ts";
@@ -13,6 +13,7 @@ const NAV = [
   { id: "clusters", label: "Clusters", icon: Boxes },
   { id: "eval", label: "Eval", icon: FlaskConical },
   { id: "mandate", label: "Mandate", icon: FileText },
+  { id: "config", label: "Config", icon: Settings },
   { id: "trash", label: "Trash", icon: Trash2 },
   { id: "changes", label: "Changes", icon: History },
 ];
@@ -82,15 +83,14 @@ export function Shell({ loc, onSearch, children }: { loc: Loc; onSearch: () => v
   );
 }
 
-/** Pipeline bar: one count per stage with the gate it watches. */
 function Pipeline() {
   const { audit } = useApp();
   const stages: { label: string; to: string; count: string; warn?: string }[] = [
     { label: "Ingest", to: href("library", { tier: "C" }), count: `${num(audit?.frozen)} staged` },
-    { label: "Triage", to: href("library", { provenance: "no" }), count: `${num(audit?.no_provenance)} no provenance`, warn: audit?.no_provenance ? "Skills without a known license wait for review." : undefined },
+    { label: "Triage", to: href("library", { provenance: "no" }), count: `${num(audit?.no_provenance)} no provenance`, warn: audit?.no_provenance ? "Unprovenanced skills pending." : undefined },
     { label: "Cluster", to: href("clusters"), count: "groups" },
     { label: "Verify", to: href("eval"), count: audit?.bench ? `top-1 ${(audit.bench.top1 * 100).toFixed(1)}%` : "no run" },
-    { label: "Publish", to: href("mandate"), count: audit ? `${num(audit.always_on.max)} B mandate` : "—", warn: audit && audit.always_on.max > audit.budget.always_on_cap ? "Mandate is over the 1 KB cap." : undefined },
+    { label: "Publish", to: href("mandate"), count: audit ? `${num(audit.always_on.max)} B mandate` : "—", warn: audit && audit.always_on.max > audit.budget.always_on_cap ? "Over cap" : undefined },
   ];
   return (
     <ol aria-label="Pipeline" className="flex h-9 shrink-0 items-center gap-1 border-b border-line bg-bg px-6 text-[12px]">
@@ -100,7 +100,7 @@ function Pipeline() {
           <a href={s.to} className="flex items-center gap-1.5 rounded-[4px] px-1.5 py-0.5 hover:bg-surface-2">
             <span className="font-medium">{s.label}</span>
             <span className="mono text-ink-2">{s.count}</span>
-            {s.warn && <Tip label={s.warn}><span className="text-warn" aria-label={s.warn}>▲</span></Tip>}
+            {s.warn && <Tip label={s.warn}><span className="text-warn">▲</span></Tip>}
           </a>
         </li>
       ))}
