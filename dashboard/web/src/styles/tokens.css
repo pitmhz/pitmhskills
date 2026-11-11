@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+
+/* PRD 6.1: quiet instrument panel. One accent, hairline borders, no decorative shadows. */
+:root {
+  --bg: #f7f6f3;
+  --surface: #ffffff;
+  --surface-2: #efede8;
+  --line: #e1ded7;
+  --ink: #1a1a18;
+  --ink-2: #5e5c55;
+  --accent: #b4410f;
+  --ok: #2f6b3f;
+  --warn: #8a6100;
+  --bad: #a12a2a;
+  --overlay-shadow: 0 8px 28px rgb(26 26 24 / 0.14);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --surface: #191919;
+    --surface-2: #222222;
+    --line: #2c2c2c;
+    --ink: #eceae4;
+    --ink-2: #a19e95;
+    --accent: #e0662e;
+    --ok: #6fb482;
+    --warn: #d9a441;
+    --bad: #e27d7d;
+    --overlay-shadow: 0 8px 28px rgb(0 0 0 / 0.5);
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-accent: var(--accent);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --font-sans: "Geist Variable", "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", "IBM Plex Mono", ui-monospace, monospace;
+  --radius-ctl: 6px;
+  --radius-panel: 8px;
+  --shadow-overlay: var(--overlay-shadow);
+}
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+}
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.num { font-variant-numeric: tabular-nums; text-align: right; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+::selection { background: color-mix(in srgb, var(--accent) 25%, transparent); }
+
+/* Motion is limited to overlays and row highlight (PRD 6.2). */
+.anim-drawer { animation: drawer-in 140ms ease-out; }
+.anim-fade { animation: fade-in 140ms ease-out; }
+@keyframes drawer-in { from { transform: translateX(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* Dense table (PRD 6.3): sticky header, no zebra, 36 px rows, selected row gets a 2 px accent bar. */
+.dtable { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; }
+.dtable th {
+  position: sticky; top: 0; z-index: 1; background: var(--surface-2); color: var(--ink-2);
+  font-weight: 500; font-size: 12px; text-align: left; height: 32px; padding: 0 12px; border-bottom: 1px solid var(--line);
+}
+.dtable td { height: 36px; padding: 0 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.dtable tbody tr { cursor: pointer; transition: background-color 120ms ease-out; }
+.dtable tbody tr:hover { background: var(--surface-2); }
+.dtable tbody tr[data-active="true"] td:first-child { box-shadow: inset 2px 0 0 var(--accent); }
+.dtable tbody tr[data-active="true"] { background: var(--surface-2); }

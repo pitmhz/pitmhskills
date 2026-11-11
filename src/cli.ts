@@ -6,7 +6,7 @@ import { detectPhases } from "./plan.ts";
 import { executorPrompt } from "./gates.ts";
 import { openDb, initDb } from "./db.ts";
 import { loadAllCards } from "./retrieve.ts";
-import { loadBody, scopeFence } from "./deliver.ts";
+import { loadBody, scopeFence, DELIVER_CAP } from "./deliver.ts";
 import { runEval, runCoverage } from "./eval.ts";
 import { calibrate } from "./calibrate.ts";
 import { runInit } from "./init.ts";
@@ -15,6 +15,8 @@ import { profilePath, loadProfile } from "./profile.ts";
 import { proposeRerank, boostSuggestions, backupProfileToTmp, applyPreferredBoosts } from "./learn.ts";
 import { runDoctor } from "./doctor.ts";
 import { runDiagnose } from "./diagnose.ts";
+import { aggregate, formatAnalytics } from "./analytics.ts";
+import { runCouncilCommand } from "./cli-council.ts";
 import { existsSync, readFileSync, writeFileSync, unlinkSync } from "node:fs";
 
 const args = process.argv.slice(2);
@@ -65,7 +67,7 @@ if (cmd === "ingest") {
   const task = flag("--task") ?? positionalTask(args);
   if (!task) { console.error('usage: bun src/cli.ts route "task" [--cwd path] [--session id]'); process.exit(2); }
   const r = route(task, flag("--cwd") ?? cwd, flag("--session") ?? "default");
-  console.log(formatResult(r));
+  console.log(has("--json") ? JSON.stringify(r) : formatResult(r));
 } else if (cmd === "run") {
   const cwdFlag = flag("--cwd") ?? cwd;
   const sessionFlag = flag("--session") ?? "default";
@@ -95,14 +97,16 @@ if (cmd === "ingest") {
     for (const p of plan.phases) {
       const card = byId.get(p.skill_id);
       if (!card) { console.log(`Phase ${p.n} of ${n}: ${p.skill_id} -> proceed bare (card missing, never phantom)`); continue; }
-      const { body } = loadBody(card, 3000, task);
+      const { body } = loadBody(card, DELIVER_CAP, task);
       const scope = scopeFence(card);
       const verify = card.verify ?? [];
       console.log(executorPrompt(task, `${p.n} of ${n}`, body, scope, verify));
       console.log(`DONE WHEN: ${verify.length ? verify.join(" && ") : "task complete"}`);
     }
   }
-} else if (cmd === "eval") {
+} else if (cmd === "council" || cmd === "note" || cmd === "compose") {
+  const rc = runCouncilCommand(cmd, args, cwd, flag, () => positionalTask(args));
+  if (rc >= 0) process.exit(rc);} else if (cmd === "eval") {
   const r = runEval(cwd);
   console.log(`top1=${(r.top1 * 100).toFixed(1)}% wrong=${(r.wrong * 100).toFixed(1)}% none_prec=${(r.nonePrec * 100).toFixed(1)}% n=${r.total}`);
   for (const f of r.fails.slice(0, 20)) console.log(`FAIL: ${f}`);
@@ -175,11 +179,17 @@ if (cmd === "ingest") {
     for (const g of r.golden) console.log(g);
   } catch (e) { console.error((e as Error).message); process.exit(1); }
 } else if (cmd === "doctor") {
-  runDoctor();
+  const rc = runDoctor();
+  if (rc !== 0) process.exit(rc);
 } else if (cmd === "diagnose") {
   const task = flag("--task") ?? positionalTask(args);
   if (!task) { console.error('usage: bun src/cli.ts diagnose "<task>" [--cwd path] [--task text]'); process.exit(2); }
   console.log(runDiagnose(task, flag("--cwd") ?? cwd));
+} else if (cmd === "analytics") {
+  const days = Math.max(1, Number(flag("--days") ?? 14) || 14);
+  const a = aggregate(days);
+  if (has("--json")) console.log(JSON.stringify(a, null, 2));
+  else console.log(formatAnalytics(a));
 } else {
-  console.log("pitmhskills ingest|cards [--check]|index|route \"<task>\"|run \"<task>\"|eval|cover [--write]|calibrate|learn [--apply]|init [--refresh]|add <spec>|doctor|diagnose \"<task>\"");
+  console.log("pitmhskills ingest|cards [--check]|index|route \"<task>\"|council \"<task>\"|note <id> <skill> <verdict> \"<why>\"|compose <id>|run \"<task>\"|eval|cover [--write]|calibrate|learn [--apply]|init [--refresh]|add <spec>|doctor|diagnose \"<task>\"|analytics [--days N] [--json]");
 }
