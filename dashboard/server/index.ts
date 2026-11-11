@@ -12,6 +12,8 @@ import { route } from "./routes/route.ts";
 import { evals } from "./routes/evals.ts";
 import { trashRoute, changesRoute } from "./routes/trash.ts";
 import { mandateRoute, configRoute } from "./routes/mandate.ts";
+import { ingestRoute } from "./routes/ingest.ts";
+import { clustersRoute, evalRoute } from "./routes/clusters.ts";
 
 const PORT = Number(process.env.PORT ?? 4317);
 const HOST = "127.0.0.1";
@@ -22,7 +24,6 @@ writeFileSync(join(STATE, "token"), TOKEN, { mode: 0o600 });
 const allowed = new Set([`127.0.0.1:${PORT}`, `localhost:${PORT}`]);
 const app = new Hono();
 
-// Same-origin only: reject foreign Host/Origin, require the write token on every non-GET.
 app.use("*", async (c, next) => {
   const host = c.req.header("host") ?? "";
   const origin = c.req.header("origin");
@@ -46,6 +47,9 @@ app.route("/api/trash", trashRoute);
 app.route("/api/changes", changesRoute);
 app.route("/api/mandate", mandateRoute);
 app.route("/api/config", configRoute);
+app.route("/api/ingest", ingestRoute);
+app.route("/api/clusters", clustersRoute);
+app.route("/api/eval-run", evalRoute);
 app.all("/api/*", (c) => c.json({ error: "unknown endpoint" }, 404));
 
 const TYPES: Record<string, string> = {
