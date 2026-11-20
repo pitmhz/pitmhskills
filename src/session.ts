@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const STATE = join(ROOT, ".state");
 
-interface Session { active_skill: string | null; phase: number; phases: number; retries: number }
+export interface Session { active_skill: string | null; phase: number; phases: number; retries: number }
 
 // Skill lock: max 1 active skill body per phase. Second skill needs phase switch.
 export function getSession(id: string): Session {
@@ -29,6 +29,11 @@ export function phaseDone(id: string): void {
   s.phase += 1;
   s.retries = 0;
   writeFileSync(join(STATE, `${id}.json`), JSON.stringify(s, null, 2));
+}
+
+// Current phase counter. Read only: it never writes the session file.
+export function getSessionPhase(id: string): number {
+  return getSession(id).phase;
 }
 
 export function recordRetry(id: string): number {

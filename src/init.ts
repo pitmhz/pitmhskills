@@ -2,8 +2,9 @@ import type { Database } from "bun:sqlite";
 import { openDb, initDb, loadConfig } from "./db.ts";
 import { detectSignals } from "./signals.ts";
 import { hardFilter } from "./gate.ts";
-import { retrieve, loadAllCards } from "./retrieve.ts";
-import { collapse } from "./collapse.ts";
+import { retrieveWith, loadAllCards } from "./retrieve.ts";
+import { shortlist } from "./collapse.ts";
+import { getLexicon } from "./lexicon-stats.ts";
 import { scoreCandidates } from "./decide.ts";
 import { loadProfile, saveProfile, blankProfile, computeSignalsHash } from "./profile.ts";
 import type { RepoProfile, MandatoryPin } from "./profile.ts";
@@ -34,9 +35,10 @@ function rankProbe(
   const cfg = loadConfig();
   const { kept } = hardFilter(cards, probe, sig);
   const pool = kept.filter((c) => c.tier === "A" || c.tier === "B");
-  const ranked = retrieve(db, probe, pool, cfg.top_k_retrieve as number);
-  const collapsed = collapse(ranked, probe);
-  return { ranking: scoreCandidates(collapsed, probe), byId: new Map(collapsed.map((r) => [r.card.id, r.card])) };
+  const lex = getLexicon(cards.filter((c) => c.tier === "A" || c.tier === "B"));
+  const ranked = retrieveWith(db, probe, pool, { topK: (cfg.score_pool as number) ?? 40, lex });
+  const collapsed = shortlist(ranked, { maxPerCluster: (cfg.max_per_cluster as number) ?? 3, task: probe, lex }).kept;
+  return { ranking: scoreCandidates(collapsed, probe, lex), byId: new Map(collapsed.map((r) => [r.card.id, r.card])) };
 }
 
 // Repo-wide probes: a skill scoring >= floor on a probe whose domain is

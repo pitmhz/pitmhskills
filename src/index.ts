@@ -17,7 +17,7 @@ export function buildIndex(): { cards: number; errors: string[] } {
   let n = 0;
   db.exec("DELETE FROM cards; DELETE FROM cards_fts; DELETE FROM vecs;");
   const files = existsSync(CARDS_DIR) ? readdirSync(CARDS_DIR).filter((f) => f.endsWith(".json")) : [];
-  const ins = db.prepare(`INSERT OR REPLACE INTO cards (id, provider, tier, origin, license, hash, purpose, domain, task_types, use_when_text, do_not_use_when_text, scope, disambiguator, cluster, cluster_role, pick_over_primary_when, pairs_with, requires_text, conflicts_text, core_bytes, sections_text, verify_text, skill_path, body_cache) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
+  const ins = db.prepare(`INSERT OR REPLACE INTO cards (id, provider, tier, origin, license, hash, purpose, domain, task_types, use_when_text, do_not_use_when_text, scope, disambiguator, cluster, cluster_role, pick_over_primary_when, pairs_with, requires_text, conflicts_text, core_bytes, sections_text, verify_text, skill_path, body_cache, goal_text, when_to_use_text, when_not_to_use_text, provides_text, example_text, counter_example_text) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
   const insFts = db.prepare(`INSERT INTO cards_fts (id, purpose, use_when_text, domain, task_types) VALUES (?, ?, ?, ?, ?)`);
   const insVec = db.prepare(`INSERT OR REPLACE INTO vecs (id, embedding, dim) VALUES (?, ?, ?)`);
   for (const f of files) {
@@ -35,7 +35,7 @@ export function buildIndex(): { cards: number; errors: string[] } {
       // keywords never surface in delivered bodies or ASK questions.
       const useW = JSON.stringify([...c.use_when, ...kw]);
       const indexText = [...c.use_when, ...kw].join(" ");
-      ins.run(c.id, provider, c.tier, JSON.stringify(c.origin ?? []), c.license ?? "UNKNOWN", c.hash ?? "", c.purpose, c.domain, JSON.stringify(c.task_types), useW, JSON.stringify(c.do_not_use_when), c.scope, c.disambiguator ?? "", c.cluster ?? "", c.cluster_role ?? "primary", c.pick_over_primary_when ?? null, c.pairs_with ?? null, JSON.stringify(c.requires ?? {}), JSON.stringify(c.conflicts_with ?? []), c.core_bytes ?? 0, JSON.stringify(c.sections ?? []), JSON.stringify(c.verify ?? []), c.skill_path ?? "", "");
+      ins.run(c.id, provider, c.tier, JSON.stringify(c.origin ?? []), c.license ?? "UNKNOWN", c.hash ?? "", c.purpose, c.domain, JSON.stringify(c.task_types), useW, JSON.stringify(c.do_not_use_when), c.scope, c.disambiguator ?? "", c.cluster ?? "", c.cluster_role ?? "primary", c.pick_over_primary_when ?? null, c.pairs_with ?? null, JSON.stringify(c.requires ?? {}), JSON.stringify(c.conflicts_with ?? []), c.core_bytes ?? 0, JSON.stringify(c.sections ?? []), JSON.stringify(c.verify ?? []), c.skill_path ?? "", "", c.goal ?? "", JSON.stringify(c.when_to_use ?? []), JSON.stringify(c.when_not_to_use ?? []), JSON.stringify(c.provides ?? []), c.example ?? "", c.counter_example ?? "");
       insFts.run(c.id, c.purpose, indexText, c.domain, c.task_types.join(" "));
       const text = [c.purpose, c.domain, c.task_types.join(" "), indexText].join("\n");
       insVec.run(c.id, JSON.stringify(embed(text)), 512);

@@ -13,12 +13,48 @@ export function guessDomain(t: string): string {
   // Short tokens need word boundaries; generic prose ("edge cases") must not
   // match edge-compute — require an infra marker (worker/cloudflare/kv/d1/r2/waf).
   if (/\bworker\b|\bcloudflare\b|\bkv\b|\bd1\b|\br2\b|\bwaf\b/.test(l)) return "cloudflare-edge";
-  if (/supabase|postgres|rls|sql/.test(l)) return "backend-data";
-  if (/react|next|frontend|gsap|animat|ui\b|dashboard/.test(l)) return "frontend";
+  if (/supabase|postgres|rls|\bsql\b|\bneon\b|\bredis\b|\bmongo|\bdatabase\b|\bkubernetes\b|\bdocker\b|\bazure\b|\baws\b|\bterraform\b|\bprisma\b|\bgraphql\b|\bwebhook\b|\bvector\b|\bembedding\b/.test(l)) return "backend-data";
+  // Instructional/teaching signals beat generic "design" wording: these are
+  // classroom/training-process skills, not UI skills.
+  if (/\bstudents?\b|\bclass(es)?\b|\blearners?\b|\bclassroom\b|\bcurriculum\b|\brubric\b|\bpedagog|\bteaching\b|\blesson\b|\bteacher\b|\bformative\b|\blearning objectives\b|\blearning target\b/.test(l)) return "workflow";
+  if (/react|next|frontend|gsap|animat|ui\b|dashboard|\bdesign\b|\btypography\b|\bpalette\b|\blayout\b|\bcomponent\b|\bux\b|\baccessibilit|\bwcag\b|\ba11y\b/.test(l)) return "frontend";
   if (/cuda|nvidia|nim|tensor|gpu/.test(l)) return "gpu-compute";
-  if (/memory|cavemem|retriev|rag/.test(l)) return "memory";
-  if (/grill|review|spec|ticket|triage/.test(l)) return "workflow";
+  if (/memory|cavemem|retriev|rag|\bvector\b|\bembedding\b/.test(l)) return "memory";
+  if (/grill|review|spec|ticket|triage|\bworkflow\b|\bplanning\b|\bkanban\b|\bstandup\b/.test(l)) return "workflow";
   return "general";
+}
+
+// Provider id -> domain tie-break for sources whose skills belong to one
+// product area. Providers not listed defer to the curated domain or the
+// regex guess, so a mixed monorepo never dumps into one domain by default.
+export const PROVIDER_DOMAINS: Record<string, string> = {
+  nvidia: "gpu-compute",
+  "threejs-complete-set-of-skill": "gpu-compute",
+  "cloudai-x-threejs": "gpu-compute",
+  "awesome-gamedev": "gpu-compute",
+  neondatabase: "backend-data",
+  supabase: "backend-data",
+  cloudflare: "cloudflare-edge",
+  "cloudflare-skill": "cloudflare-edge",
+  "security-audit-skill": "cloudflare-edge",
+  "accessibility-agents": "workflow",
+  "inclusive-design": "workflow",
+  linear: "workflow",
+  antislop: "workflow",
+  "caveman-staged": "memory",
+  pitmry: "memory",
+};
+
+// Domain resolution for a card: curated cards keep their existing domain,
+// mapped providers supply the domain, otherwise a known non-general domain
+// stands and only "general" falls through to the text regex.
+export function resolveDomain(card: { id?: string; curated?: boolean; domain?: string }, rawPath?: string): string {
+  if (card.curated) return card.domain ?? "general";
+  const provider = (card.id ?? "").split("__")[0] ?? "";
+  const mapped = PROVIDER_DOMAINS[provider];
+  if (mapped) return mapped;
+  if (card.domain && card.domain !== "general") return card.domain;
+  return guessDomain(rawPath ?? "");
 }
 
 export function guessTaskTypes(t: string): string[] {

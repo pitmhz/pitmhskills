@@ -52,7 +52,13 @@ export function initDb(db: Database): void {
       sections_text TEXT NOT NULL DEFAULT '[]',
       verify_text TEXT NOT NULL DEFAULT '[]',
       skill_path TEXT DEFAULT '',
-      body_cache TEXT DEFAULT ''
+      body_cache TEXT DEFAULT '',
+      goal_text TEXT NOT NULL DEFAULT '',
+      when_to_use_text TEXT NOT NULL DEFAULT '[]',
+      when_not_to_use_text TEXT NOT NULL DEFAULT '[]',
+      provides_text TEXT NOT NULL DEFAULT '[]',
+      example_text TEXT NOT NULL DEFAULT '',
+      counter_example_text TEXT NOT NULL DEFAULT ''
     );
     CREATE VIRTUAL TABLE IF NOT EXISTS cards_fts USING fts5(
       id, purpose, use_when_text, domain, task_types, tokenize='porter'
@@ -68,7 +74,31 @@ export function initDb(db: Database): void {
     CREATE TABLE IF NOT EXISTS eval_runs (
       ts INTEGER, top1 REAL, wrong_rate REAL, abst_prec REAL, notes TEXT
     );
+    CREATE TABLE IF NOT EXISTS skill_offers (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      ts INTEGER, task_hash TEXT, outcome TEXT, skill_id TEXT, confidence REAL,
+      margin REAL, candidates TEXT, body_bytes INTEGER, latency_ms REAL,
+      session_id TEXT, source TEXT
+    );
+    CREATE TABLE IF NOT EXISTS skill_usage (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      ts INTEGER, session_id TEXT, skill_id TEXT, phase INTEGER,
+      gates_pass INTEGER, slop_pass INTEGER, source TEXT
+    );
   `);
+  // CREATE TABLE never adds a column to an existing table; migrate by hand
+  // (same pattern as council-store.ts) so old DBs keep opening.
+  try {
+    const cols = db.query<{ name: string }, []>(`PRAGMA table_info(cards)`).all();
+    const has = new Set(cols.map((c) => c.name));
+    const add = (name: string, def: string) => { if (!has.has(name)) db.exec(`ALTER TABLE cards ADD COLUMN ${name} ${def}`); };
+    add("goal_text", "TEXT NOT NULL DEFAULT ''");
+    add("when_to_use_text", "TEXT NOT NULL DEFAULT '[]'");
+    add("when_not_to_use_text", "TEXT NOT NULL DEFAULT '[]'");
+    add("provides_text", "TEXT NOT NULL DEFAULT '[]'");
+    add("example_text", "TEXT NOT NULL DEFAULT ''");
+    add("counter_example_text", "TEXT NOT NULL DEFAULT ''");
+  } catch { /* leave the table as it is */ }
 }
 
 export function cardFromRow(r: Record<string, unknown>): Card {
@@ -96,6 +126,12 @@ export function cardFromRow(r: Record<string, unknown>): Card {
     sections: JSON.parse(j(r["sections_text"], "[]")),
     verify: JSON.parse(j(r["verify_text"], "[]")),
     skill_path: String(r["skill_path"] ?? ""),
+    goal: String(r["goal_text"] ?? ""),
+    when_to_use: JSON.parse(j(r["when_to_use_text"], "[]")),
+    when_not_to_use: JSON.parse(j(r["when_not_to_use_text"], "[]")),
+    provides: JSON.parse(j(r["provides_text"], "[]")),
+    example: String(r["example_text"] ?? ""),
+    counter_example: String(r["counter_example_text"] ?? ""),
   };
 }
 

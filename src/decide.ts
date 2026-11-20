@@ -1,27 +1,28 @@
 import type { RankedCard } from "./types.ts";
-import { STOPWORDS } from "./retrieve.ts";
+import type { Lexicon } from "./lexicon-stats.ts";
+import { scoreSignals, applyWeights, DEFAULT_WEIGHTS, type Weights, type ScoredCandidate } from "./scoring.ts";
 
-// Score 0-100 from fused rank signal + lexical fit. Deterministic, no LLM on hot path.
-// Function words (STOPWORDS in retrieve.ts) carry no routing signal but inflate
-// cover for verbose cards, so they are excluded from the overlap count.
-export function scoreCandidates(collapsed: RankedCard[], task: string): { id: string; score: number; reason: string }[] {
-  const tl = task.toLowerCase();
-  const out = collapsed.map((r, i) => {
-    const c = r.card;
-    const hay = [c.purpose, c.use_when.join(" "), c.domain, c.task_types.join(" ")].join(" ").toLowerCase();
-    // Token-exact cover: substring matching inflates verbose cards
-    // ("help" matching "helper") and steals margin from the true pick.
-    const hayTokens = new Set(hay.split(/[^a-z0-9]+/).filter((w) => w.length > 0));
-    const words = new Set(tl.split(/[^a-z0-9]+/).filter((w) => w.length > 2 && !STOPWORDS.has(w)));
-    let overlap = 0;
-    for (const w of words) if (hayTokens.has(w)) overlap++;
-    const cover = words.size ? overlap / words.size : 0;
-    const rankDecay = Math.max(0, 1 - i * 0.12);
-    const vecpart = Math.max(0, Math.min(1, r.vec * 4));
-    const score = Math.round(100 * (0.25 * rankDecay + 0.55 * cover + 0.2 * vecpart));
-    return { id: c.id, score, reason: `matches "${c.purpose.slice(0, 80)}"` };
-  });
-  return out.sort((a, b) => b.score - a.score);
+// The decision: score the candidates, then turn the ranking into an
+// outcome. Scoring itself lives in src/scoring.ts.
+//
+// The old scorer was: cover = |task words n card words| / |ALL task words|,
+// mixed with a rank decay. Two things broke it:
+//
+// 1. It divided by every task word, so a long prompt needed the card to
+//    contain a big fraction of ALL its words. Verbose prompts diluted
+//    themselves under the floor and the router said ABSTAIN even when the
+//    right skill was an obvious match.
+// 2. It had no notion of word rarity. A card matching only "build", "form"
+//    and "step" scored the same as a card matching "wizard".
+
+export function scoreCandidates(
+  collapsed: RankedCard[],
+  task: string,
+  lex?: Lexicon,
+  weights: Weights = DEFAULT_WEIGHTS,
+  terms?: number
+): ScoredCandidate[] {
+  return applyWeights(scoreSignals(collapsed, task, lex, weights.rare_df, weights.position_decay, terms), weights, lex?.maxIdf ?? 12);
 }
 
 export function decide(
@@ -29,20 +30,43 @@ export function decide(
   collapsed: RankedCard[],
   floor: number,
   margin: number,
-  pickFloor: number
+  pickFloor: number,
+  askMinMargin = 3
 ): { outcome: "PICK" | "ASK" | "ABSTAIN"; top: (typeof ranking)[number] | null; second: (typeof ranking)[number] | null } {
   if (ranking.length === 0) return { outcome: "ABSTAIN", top: null, second: null };
   const top = ranking[0]!;
   const second = ranking[1] ?? null;
   if (top.score < floor) return { outcome: "ABSTAIN", top, second };
   const m = second ? top.score - second.score : 99;
-  if (top.score >= pickFloor && m >= margin) return { outcome: "PICK", top, second };
-  if (top.score >= floor && m >= margin) return { outcome: "PICK", top, second };
-  if (top.score >= floor && second && m < margin) {
-    void collapsed;
-    return { outcome: "ASK", top, second };
-  }
-  return { outcome: "ABSTAIN", top, second };
+  // One margin, one meaning: the leader must beat the runner up by margin to
+  // commit. The old rule had a second absolute gate, pick_floor, which was
+  // fitted on ten word prompts. A long request that matches perfectly scores
+  // 50 to 77, so pick_floor turned correct leaders into questions. Measured
+  // over the golden sets: 151 correct commits with no margin floor rule, 134
+  // with a margin of 15, and only 1 wrong commit at margin 15 against 5 at
+  // margin 10. The margin is the signal that separates a clear leader from a
+  // coin toss, and it does not depend on how long the request is.
+  if (m >= margin) return { outcome: "PICK", top, second };
+  // A lone candidate has a margin of 99 by convention: there is no runner up
+  // to be ahead of. When the caller demands more than 99, no candidate can
+  // satisfy it, so the answer is ABSTAIN and never ASK: a question needs two
+  // options, and with one candidate there is nothing to choose between.
+  if (!second) return { outcome: "ABSTAIN", top, second };
+  // Two cards that are nearly tied are noise, not a contest. Asking the user
+  // to choose between them wastes a turn, and on a task where no skill
+  // applies it turns a clean abstain into a wrong suggestion. Below
+  // ask_min_margin the leader is not a leader, so the answer is ABSTAIN.
+  // The candidates still travel with the result, so a harness can open a
+  // council when one is genuinely near the floor.
+  if (m < askMinMargin) return { outcome: "ABSTAIN", top, second };
+  // Contested: two cards are close, so a reader or a council decides, not a
+  // guess. pickFloor now marks a strong contest in the reason, so an agent
+  // sees that the leader was high scoring even though it lost the margin.
+  void collapsed;
+  const noted = top.score >= pickFloor
+    ? { ...top, reason: `${top.reason} (strong contest, leader ${top.score})` }
+    : top;
+  return { outcome: "ASK", top: noted, second };
 }
 
 export function buildAskQuestion(top: RankedCard, second: RankedCard): string {

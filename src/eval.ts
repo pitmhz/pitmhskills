@@ -3,10 +3,12 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 import { routeWith } from "./route.ts";
-import { parseFrontmatter } from "./card.ts";
 import { openDb, initDb } from "./db.ts";
 import { loadAllCards } from "./retrieve.ts";
+import { runParserGoldens } from "./eval-parsers.ts";
 import type { Card } from "./types.ts";
+export { loadParserGoldens, runParserGoldens } from "./eval-parsers.ts";
+export type { ParserGolden } from "./eval-parsers.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -14,8 +16,7 @@ interface Golden { task: string; stack?: string[]; expect: string }
 interface Scored { top1: number; wrong: number; nonePrec: number; total: number; fails: string[] }
 
 // Eval: top-1 / wrong-skill / NONE precision.
-// Tune set = golden.yaml + golden-frontend.yaml (absent file = skip).
-// Held-out set = golden-heldout.yaml: never calibrated on, reported only.
+// Tune = golden.yaml + golden-frontend.yaml (absent=skip); heldout never calibrated, reported only.
 export function loadGolden(): Golden[] {
   return loadYaml(join(ROOT, "evals", "golden.yaml"));
 }
@@ -26,6 +27,21 @@ export function loadHeldout(): Golden[] {
 
 export function loadFrontend(): Golden[] {
   return loadYaml(join(ROOT, "evals", "golden-frontend.yaml"));
+}
+
+/** Long, multi-clause prompts. The class the old scorer failed. */
+export function loadVerbose(): Golden[] {
+  return loadYaml(join(ROOT, "evals", "golden-verbose.yaml"));
+}
+
+/** Paraphrase set: same intent, different words. Report only, not in tune. */
+export function loadParaphrase(): Golden[] {
+  return loadYaml(join(ROOT, "evals", "golden-paraphrase.yaml"));
+}
+
+/** Adversarial NONE set: skill name mentioned but not wanted. Report only. */
+export function loadAdversarial(): Golden[] {
+  return loadYaml(join(ROOT, "evals", "golden-adversarial.yaml"));
 }
 
 export function loadTune(): Golden[] {
@@ -49,71 +65,6 @@ function toGolden(c: Record<string, unknown>): Golden {
   return stack ? { task, stack, expect } : { task, expect };
 }
 
-export interface ParserGolden {
-  id: string;
-  frontmatter: string;
-  expect_name?: string;
-  expect_contains?: string;
-  expect_exact?: string;
-  expect_not?: string;
-  crlf?: boolean;
-}
-
-export function loadParserGoldens(): ParserGolden[] {
-  const p = join(ROOT, "evals", "golden-parsers.yaml");
-  if (!existsSync(p)) return [];
-  const raw = readFileSync(p, "utf8");
-  const data = yaml.load(raw) as Record<string, unknown>[] | null;
-  if (!Array.isArray(data)) return [];
-  return data
-    .filter((d) => d && typeof d === "object" && typeof (d as Record<string, unknown>)["frontmatter"] === "string")
-    .map((d) => {
-      const r = d as Record<string, unknown>;
-      return {
-        id: String(r["id"] ?? "parser-case"),
-        frontmatter: String(r["frontmatter"]),
-        expect_name: r["expect_name"] != null ? String(r["expect_name"]) : undefined,
-        expect_contains: r["expect_contains"] != null ? String(r["expect_contains"]) : undefined,
-        expect_exact: r["expect_exact"] != null ? String(r["expect_exact"]) : undefined,
-        expect_not: r["expect_not"] != null ? String(r["expect_not"]) : undefined,
-        crlf: r["crlf"] === true,
-      };
-    });
-}
-
-export function runParserGoldens(): { pass: number; total: number; fails: string[] } {
-  const cases = loadParserGoldens();
-  const fails: string[] = [];
-  let pass = 0;
-  for (const g of cases) {
-    const input = g.crlf ? g.frontmatter.replace(/\n/g, "\r\n") : g.frontmatter;
-    const fakePath = `fake/${g.id}/SKILL.md`;
-    let got: { name: string; description: string };
-    try {
-      got = parseFrontmatter(input, fakePath);
-    } catch (e) {
-      fails.push(`${g.id}: threw ${(e as Error).message}`);
-      continue;
-    }
-    const problems: string[] = [];
-    if (g.expect_name !== undefined && got.name !== g.expect_name) {
-      problems.push(`name ${JSON.stringify(got.name)} !== ${JSON.stringify(g.expect_name)}`);
-    }
-    if (g.expect_exact !== undefined && got.description !== g.expect_exact) {
-      problems.push(`description ${JSON.stringify(got.description.slice(0, 120))} !== exact ${JSON.stringify(g.expect_exact.slice(0, 120))}`);
-    }
-    if (g.expect_contains !== undefined && !got.description.includes(g.expect_contains)) {
-      problems.push(`description missing ${JSON.stringify(g.expect_contains)} (got ${JSON.stringify(got.description.slice(0, 120))})`);
-    }
-    if (g.expect_not !== undefined && (got.description === g.expect_not || got.description.includes(g.expect_not) && g.expect_not.length <= 2)) {
-      problems.push(`description still corrupted ${JSON.stringify(got.description.slice(0, 40))}`);
-    }
-    if (problems.length) fails.push(`${g.id}: ${problems.join("; ")}`);
-    else pass++;
-  }
-  return { pass, total: cases.length, fails };
-}
-
 function scoreSet(cases: Golden[], cwd: string): Scored {
   if (cases.length === 0) return { top1: 0, wrong: 0, nonePrec: 1, total: 0, fails: ["no golden cases"] };
   let hit = 0, wrong = 0, noneOk = 0, noneTotal = 0;
@@ -132,11 +83,9 @@ function scoreSet(cases: Golden[], cwd: string): Scored {
   return { top1: hit / cases.length, wrong: wrong / cases.length, nonePrec: noneTotal ? noneOk / noneTotal : 1, total: cases.length, fails };
 }
 
-// Self-route coverage: every Tier-A card must route itself from its own
-// use_when[0] phrasing. Catches retrieval regressions and thin cards across the
-// whole library, not just the small curated tune set. Info-only — the gate
-// stays on the curated tune set. --write drafts evals/coverage/golden-<src>.yaml
-// files for hand review (auto-drafted, never auto-trusted).
+// Self-route coverage: every Tier-A card must route itself from use_when[0].
+// Catches retrieval regressions across the library, not just the tune set.
+// Info-only; gate stays on tune. --write drafts evals/coverage/*.yaml for hand review.
 export function runCoverage(
   cwd: string,
   write = false
@@ -178,14 +127,37 @@ export function runCoverage(
   return { top1: pool.length ? hit / pool.length : 0, total: pool.length, perSource: Object.fromEntries(perSource), fails };
 }
 
-export function runEval(cwd: string): Scored & { heldout: Scored; parsers: { pass: number; total: number; fails: string[] } } {
+export function runEval(cwd: string): Scored & {
+  heldout: Scored;
+  verbose: Scored;
+  paraphrase: Scored;
+  adversarial: Scored;
+  coverage: { top1: number; total: number; perSource: Record<string, { hit: number; total: number }>; fails: string[] };
+  parsers: { pass: number; total: number; fails: string[] };
+  pass: boolean;
+} {
   const tune = scoreSet(loadTune(), cwd);
   const heldout = scoreSet(loadHeldout(), cwd);
+  const verbose = scoreSet(loadVerbose(), cwd);
+  const paraphrase = scoreSet(loadParaphrase(), cwd);
+  const adversarial = scoreSet(loadAdversarial(), cwd);
+  const coverage = runCoverage(cwd);
   const parsers = runParserGoldens();
-  // Gate stays on tune; heldout is information only. Parsers are tune-set members.
+  // Gate is tune top1 plus Tier-A coverage. All other sets are report only.
+  // Tune set stays golden.yaml plus golden-frontend.yaml so gates stay comparable.
+  const pass = tune.top1 >= 0.8 && coverage.total > 0 && coverage.top1 >= 0.9;
   console.log(`tune top1=${(tune.top1 * 100).toFixed(1)}% n=${tune.total}`);
   console.log(`heldout top1=${(heldout.top1 * 100).toFixed(1)}% n=${heldout.total}`);
+  console.log(`verbose top1=${(verbose.top1 * 100).toFixed(1)}% n=${verbose.total}`);
+  console.log(`paraphrase top1=${(paraphrase.top1 * 100).toFixed(1)}% n=${paraphrase.total} wrong=${(paraphrase.wrong * 100).toFixed(1)}% none_prec=${(paraphrase.nonePrec * 100).toFixed(1)}%`);
+  console.log(`adversarial top1=${(adversarial.top1 * 100).toFixed(1)}% n=${adversarial.total} wrong=${(adversarial.wrong * 100).toFixed(1)}% none_prec=${(adversarial.nonePrec * 100).toFixed(1)}%`);
+  console.log(`coverage top1=${(coverage.top1 * 100).toFixed(1)}% n=${coverage.total}`);
   console.log(`parsers pass=${parsers.pass}/${parsers.total}`);
   for (const f of parsers.fails.slice(0, 20)) console.log(`PARSER FAIL: ${f}`);
-  return { ...tune, heldout, parsers };
+  for (const f of heldout.fails.slice(0, 20)) console.log(`HELDOUT FAIL: ${f}`);
+  for (const f of verbose.fails.slice(0, 20)) console.log(`VERBOSE FAIL: ${f}`);
+  for (const f of paraphrase.fails.slice(0, 20)) console.log(`PARAPHRASE FAIL: ${f}`);
+  for (const f of adversarial.fails.slice(0, 20)) console.log(`ADVERSARIAL FAIL: ${f}`);
+  for (const f of coverage.fails.slice(0, 20)) console.log(`COVERAGE FAIL: ${f}`);
+  return { ...tune, heldout, verbose, paraphrase, adversarial, coverage, parsers, pass };
 }

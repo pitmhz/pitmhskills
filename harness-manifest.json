@@ -1,0 +1,46 @@
+{
+  "$comment": "Harness read manifest: data only, not code. A harness reads this file and blocks agent file-read tools (read, glob, grep on files) for denied paths. This manifest does NOT govern MCP tools. get_ref is the only sanctioned body fetch, stays allowed, and must not be blocked by this manifest.",
+  "version": 1,
+  "default": "allow",
+  "note": "Manifest is for agent read tools, not for MCP tools. Do not block get_ref.",
+  "allow": [
+    "cards/*.json",
+    "docs/*.md",
+    "docs/**/*.md"
+  ],
+  "deny": [
+    "skills/**/SKILL.md",
+    "**/SKILL.md",
+    "sources/**/SKILL.md",
+    "SKILL.md"
+  ],
+  "deny_rules": [
+    {
+      "pattern": "**/SKILL.md",
+      "reason": "Raw skill bodies must not be read directly. Use get_ref to fetch a routed skill body or section."
+    },
+    {
+      "pattern": "skills/**/SKILL.md",
+      "reason": "Same as above: no direct read of skills/**/SKILL.md. Use get_ref."
+    }
+  ],
+  "allow_rules": [
+    {
+      "pattern": "cards/*.json",
+      "reason": "Card metadata is safe to read. Cards hold routing facts, not raw bodies."
+    },
+    {
+      "pattern": "docs/*.md",
+      "reason": "Docs are safe to read."
+    },
+    {
+      "pattern": "docs/**/*.md",
+      "reason": "Docs under subfolders are safe to read."
+    }
+  ],
+  "sanctioned_fetch": {
+    "tool": "get_ref",
+    "allowed": true,
+    "reason": "get_ref is the only sanctioned body fetch. It is an MCP tool, not an agent read tool, so this manifest never blocks it."
+  }
+}

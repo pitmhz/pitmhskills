@@ -2,9 +2,13 @@ import { openDb, initDb, loadConfig } from "./db.ts";
 import { existsSync, readFileSync } from "node:fs";
 import { detectSignals } from "./signals.ts";
 import { hardFilter } from "./gate.ts";
-import { retrieve, loadAllCards } from "./retrieve.ts";
-import { collapse } from "./collapse.ts";
+import { retrieveWith, loadAllCards } from "./retrieve.ts";
+import { getLexicon } from "./lexicon-stats.ts";
+import { componentLines } from "./diagnose-components.ts";
+import { shortlist } from "./collapse.ts";
 import { scoreCandidates, decide } from "./decide.ts";
+import { DEFAULT_WEIGHTS } from "./weights.ts";
+import type { ScoredCandidate, type Weights } from "./scoring.ts";
 import { loadProfile } from "./profile.ts";
 import type { Card, RankedCard } from "./types.ts";
 
@@ -169,15 +173,19 @@ export function runDiagnose(task: string, cwd: string): string {
     const byId = new Map(all.map((c) => [c.id, c]));
     const { kept, dropped } = hardFilter(all, task, sig, profile);
     const pool = kept.filter((c) => c.tier === "A" || c.tier === "B");
-    const ranked = retrieve(db, task, pool, cfg.top_k_retrieve as number, boosts);
+    const lex = getLexicon(all.filter((c) => c.tier === "A" || c.tier === "B"));
+    const depth = (cfg.score_pool as number) ?? 40;
+    const ranked = retrieveWith(db, task, pool, { topK: depth, boosts, lex, queryTerms: (cfg.query_terms as number) ?? 12 });
     const snap = ranked.map((r) => ({ ...r }));
-    const collapsed = collapse(ranked, task);
-    const ranking = scoreCandidates(collapsed, task);
+    const weights = { ...DEFAULT_WEIGHTS, ...((cfg.weights as unknown as Partial<Weights>) ?? {}) };
+    const sl = shortlist(ranked, { maxPerCluster: (cfg.max_per_cluster as number) ?? 3, maxTotal: depth, task, lex });
+    const collapsed = sl.kept;
+    const ranking = scoreCandidates(collapsed, task, lex, weights);
     const d = decide(ranking, collapsed, cfg.floor as number, cfg.margin as number, cfg.pick_floor as number);
     const topReason = d.top ? (ranking.find((r) => r.id === d.top!.id)?.reason ?? "") : "no candidates";
     const topCard = d.top ? (byId.get(d.top.id) ?? null) : null;
     const focus = topCard ?? collapsed[0]?.card ?? null;
-    const lines = [`TASK: ${cut(task)}`, ...gateLines(dropped, byId, task), ...retrievalLines(snap), ...collapseLines(ranked, collapsed, task), ...decisionLines(ranking, d, topReason), ...sectionLines(focus, task), ...teachesLines(pool, task)];
+    const lines = [`TASK: ${cut(task)}`, ...gateLines(dropped, byId, task), ...retrievalLines(snap), ...collapseLines(ranked, collapsed, task), ...decisionLines(ranking, d, topReason), ...componentLines(ranking, collapsed), ...sectionLines(focus, task), ...teachesLines(pool, task)];
     return lines.join("\n");
   } finally {
     try { db.close(); } catch { /* ignore */ }

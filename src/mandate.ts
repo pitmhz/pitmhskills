@@ -20,6 +20,7 @@ function truncBytes(s: string, max: number, suffix: string): string {
 export function buildMandate(p: RepoProfile): string {
   const lines = [
     "Call `route` with every task; use only the returned skill; if ABSTAIN proceed bare; if ASK ask the user.",
+    "Contested tasks: call `council`, spawn one subagent per brief, each writes a verdict with `note`, then `compose` gives one skill and one brief.",
   ];
   if (p.mandatory.length === 0) {
     lines.push("MANDATORY: none");

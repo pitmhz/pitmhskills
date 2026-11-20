@@ -39,6 +39,12 @@ export interface Card {
   sections?: CardSection[];
   verify?: string[];
   skill_path?: string; // local path to raw SKILL.md
+  goal?: string; // v2: one-line outcome the skill delivers (max 200 chars)
+  when_to_use?: string[]; // v2 alias-safe supplement to use_when (cap 5)
+  when_not_to_use?: string[]; // v2 supplement to do_not_use_when
+  provides?: string[]; // v2: top heading n-grams / section names (cap 3)
+  example?: string; // v2: concise usage example
+  counter_example?: string; // v2: concise anti-example
 }
 
 export interface Signals {
@@ -66,6 +72,14 @@ export interface RouteResult {
   paired?: string | null; // pairs_with / ponytail guard delivered with the pick
   ask_question?: string;
   candidates?: { id: string; score: number; reason: string }[];
+  /** set when a council would resolve this better than a guess */
+  council_hint?: string;
+  /** true when the caller must delegate (council or user pick) before work */
+  must_delegate?: boolean;
+  /** true only when proceeding bare (no skill) is allowed */
+  proceed_bare_allowed?: boolean;
+  /** what must happen next when must_delegate is true; empty when not blocked */
+  block_reason?: string;
 }
 
 export const CardSchema = z.object({
@@ -98,9 +112,18 @@ export const CardSchema = z.object({
   sections: z.array(CardSectionSchema).optional().default([]),
   verify: z.array(z.string()).optional().default([]),
   skill_path: z.string().optional().default(""),
+  goal: z.string().optional().default(""),
+  when_to_use: z.array(z.string()).optional().default([]),
+  when_not_to_use: z.array(z.string()).optional().default([]),
+  provides: z.array(z.string()).optional().default([]),
+  example: z.string().optional().default(""),
+  counter_example: z.string().optional().default(""),
 }).superRefine((c, ctx) => {
-  if (c.tier === "A" && (c.use_when.length === 0 || c.do_not_use_when.length === 0)) {
+  if (c.tier === "A" && (c.use_when.length < 2 || c.do_not_use_when.length < 1)) {
     ctx.addIssue({ code: z.ZodIssueCode.custom, message: "tier A needs use_when+do_not_use_when", path: ["use_when"] });
+  }
+  if (c.tier === "A" && (!c.goal || !String(c.goal).trim() || !c.disambiguator || !String(c.disambiguator).trim() || !c.example || !String(c.example).trim() || !c.counter_example || !String(c.counter_example).trim())) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, message: "tier A needs goal+disambiguator+example+counter_example", path: ["goal"] });
   }
   if (c.cluster_role === "variant" && !c.pick_over_primary_when) {
     ctx.addIssue({ code: z.ZodIssueCode.custom, message: "variant needs pick_over_primary_when", path: ["pick_over_primary_when"] });
@@ -132,4 +155,17 @@ export function validateCard(c: unknown): string[] {
     }
   }
   return out;
+}
+
+/** Goal coverage warnings (non-fatal). Tier B without a goal is not a failure
+ * in this phase; the warning list is for stats and review. Returns one line per
+ * card that lacks a goal, so callers can count safely. */
+export function checkGoalCoverage(card: unknown): string[] {
+  if (card && typeof card === "object") {
+    const c = card as { tier?: string; id?: string; goal?: string };
+    if (c.tier === "B" && !(c.goal && String(c.goal).trim())) {
+      return [`${String(c.id ?? "?")}: missing goal (Tier B warning)`];
+    }
+  }
+  return [];
 }
