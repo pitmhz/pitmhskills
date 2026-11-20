@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "c22324fcf556d4441320a49360fafe4707440b0c376d7f15ce97f12dd233fe04",
   "purpose": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. Use this skill when the user asks for a diagram of their Azure",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

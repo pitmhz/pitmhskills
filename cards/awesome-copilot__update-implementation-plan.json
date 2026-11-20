@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "08f62222ba518b54dd0f369c539f6f75dabb32893768e0cb2ff49ecb1e8cb7a9",
   "purpose": "Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "refactor",
     "implement",
@@ -22,7 +22,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

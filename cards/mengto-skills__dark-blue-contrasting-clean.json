@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "bf32a725e5c7f0a981ba947d25a73016aa3a4278066a3c44069f7fea72b3c31a",
   "purpose": "Create a dark-blue clean design system with strong contrast, cobalt gradient feature blocks, crisp framed structure, and restrained premium glow.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

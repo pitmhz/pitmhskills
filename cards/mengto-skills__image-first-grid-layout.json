@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "76693ea0c584d8b3901f153fa59b66f63297367488fff87d0d4f28d283ebb3f1",
   "purpose": "Create an image-led grid design system with full-bleed photography, structural guide lines, anchored content blocks, and restrained technical overlays.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "63dd521f9175a8cec6e222ecaa4bc772ae9847fa2b390d4e1d9590c14fa1e3e3",
   "purpose": "Use this skill when concurrent requests, async tasks, threads, workers, goroutines, or agents need independent NeMo Relay scope stacks and correct ancestry propagation.",
-  "domain": "cloudflare-edge",
+  "domain": "gpu-compute",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "cloudflare-edge",
+  "cluster": "gpu-compute",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

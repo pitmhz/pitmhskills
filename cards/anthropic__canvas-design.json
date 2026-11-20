@@ -115,5 +115,23 @@
     }
   ],
   "verify": [],
-  "skill_path": "skills/anthropic/skills/canvas-design/SKILL.md"
+  "skill_path": "skills/anthropic/skills/canvas-design/SKILL.md",
+  "goal": "Create a static single-page poster or art object as PNG or PDF that expresses a design philosophy with minimal text and strong spatial composition.",
+  "when_to_use": [
+    "Creating a static poster, artwork, or single-page design as PNG or PDF from a design-philosophy movement",
+    "Expressing an aesthetic movement visually on a canvas with minimal text as visual accent",
+    "Producing a museum-quality art object with spatial composition, color zones, and refined typography"
+  ],
+  "when_not_to_use": [
+    "Designing a new landing page or app UI with visual identity and layout (use anthropic__frontend-design)",
+    "Building an interactive claude.ai HTML artifact with React and bundling scripts (use anthropic__web-artifacts-builder)",
+    "Generating code-driven generative art with p5.js seeded randomness (use anthropic__algorithmic-art)"
+  ],
+  "provides": [
+    "DESIGN PHILOSOPHY CREATION",
+    "THE CRITICAL UNDERSTANDING",
+    "HOW TO GENERATE A VISUAL PHILOSOPHY"
+  ],
+  "example": "Example: Creating a static poster, artwork, or single-page design as PNG or PDF from a design-philosophy move",
+  "counter_example": "Not example: Designing a new landing page or app UI with visual identity and layout (use anthropic__frontend-design)"
 }

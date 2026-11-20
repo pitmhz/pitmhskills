@@ -140,5 +140,20 @@
     "html"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\lottie-animation\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\lottie-animation\\SKILL.md",
+  "goal": "This skill should be used when the user asks to \"add a Lottie animation\", \"play a .lottie or .json animation\", \"integrate a Bodymovin/After Effects animation on web or mobile\", \"control Lottie playbac",
+  "when_to_use": [
+    "This skill should be used when the user asks to \"add a Lottie animation\", \"play a .lottie or .json animation\", \"integrate a Bodymovin/After Effects animation on",
+    "not visible (`IntersectionObserver` → `play`/`pause`)."
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "When to use",
+    "Formats: .json vs .lottie",
+    "Core workflow (web, dotLottie)"
+  ],
+  "example": "Example: This skill should be used when the user asks to \"add a Lottie animation\", \"play a .lottie or .json a",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

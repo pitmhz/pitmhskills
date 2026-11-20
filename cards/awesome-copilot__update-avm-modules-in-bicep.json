@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "b8ca2755d0ae9b57ea4d90776eb6495a29f614adce765704f02cb352a72c0f18",
   "purpose": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "review",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

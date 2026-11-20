@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "c29c5949c57fa4bb6ae8119d47e80bf78f80399dfc3b1fc9e5754eaecff3c34f",
   "purpose": "Use Iconify Solar Duotone Bold icon style.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "0151c2ebaed4d6fde6c747cfd14c324b54013ec59ef4f43872e043976d880b2b",
   "purpose": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "refactor",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

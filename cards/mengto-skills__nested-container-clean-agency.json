@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "9ff7c08cd199bf199f9b855ebfff072847d299e8fee70c0d21d2ed81dc0ea796",
   "purpose": "Create a clean agency design system built from nested containers, with an outer editorial shell, inset dark feature blocks, rounded premium cards, and restrained accent color.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

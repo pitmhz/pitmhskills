@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "7568717970a1f11a151484fbd30a6130241f73ac5ed52e8c03e1a9baed11bdaa",
   "purpose": "Create a framed dark technical design system with border-gradient shells, asymmetrical grid panels, mono utility labeling, and restrained monochrome atmosphere.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

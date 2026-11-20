@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "471093b0a65e68a99c52b7a8d44184c43cac3ad9d1f0c33a5dea1c421b331798",
   "purpose": "Turn code from the current session into a blog post written in the voice of its author. Covers one function, script, class, or tool as a focused walkthrough with a generalized sample and a usage examp",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

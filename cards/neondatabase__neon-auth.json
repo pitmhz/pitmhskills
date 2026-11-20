@@ -106,5 +106,25 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-auth\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Add Neon Auth to an app: sign-up, sign-in, password reset, magic links, and JWT claims for RLS.",
+  "when_to_use": [
+    "Configure Neon Auth with JWT claims for multi-tenant access control",
+    "Set up row-level security via Neon Auth JWT claims",
+    "Map custom JWT claims to Neon RLS policies"
+  ],
+  "when_not_to_use": [
+    "General Postgres RLS/SQL -> neondatabase__neon-postgres",
+    "Supabase Auth/RPC -> supabase__supabase",
+    "Supabase RLS policies -> supabase__supabase-postgres-best-practices",
+    "Neon AI Gateway -> neondatabase__neon-ai-gateway",
+    "Neon serverless functions -> neondatabase__neon-functions"
+  ],
+  "provides": [
+    "When to Use",
+    "What It Does",
+    "Availability"
+  ],
+  "example": "Example: Configure Neon Auth with JWT claims for multi-tenant access control",
+  "counter_example": "Not example: General Postgres RLS/SQL -> neondatabase__neon-postgres"
 }

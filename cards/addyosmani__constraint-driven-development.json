@@ -21,7 +21,7 @@
     "Tasks unrelated to gpu-compute"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. -> this.",
   "cluster": "gpu-compute",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -46,5 +46,20 @@
     "each"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\constraint-driven-development\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\constraint-driven-development\\SKILL.md",
+  "goal": "This skill produces something different: a written record of **this project's** bar, with numbers, that outlives the conversation and can be checked mechanically.",
+  "when_to_use": [
+    "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane de",
+    "the config outgrows a shell script. The floor-guard reference in [references/floor-guard.md](references/floor-guard.md) is the starting point for the guard-chec"
+  ],
+  "when_not_to_use": [
+    "3. **A checker got silenced.** New `@ts-ignore` or `eslint-disable`. Four suppressions deserve special attention because they switch off a check you're relying "
+  ],
+  "provides": [
+    "Overview",
+    "When to Use",
+    "Loading Constraints"
+  ],
+  "example": "Example: Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Inte",
+  "counter_example": "Not example: 3. **A checker got silenced.** New `@ts-ignore` or `eslint-disable`. Four suppressions deserve special attention because"
 }

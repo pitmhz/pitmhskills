@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "73b7c50e54e23284ffa3d7ddafd702a12fcf6dccdfd41b8b244e5558c4311b8c",
   "purpose": "Use when implementing 2D physics interactions with Matter.js, including Engine/World setup, Render/Runner configuration, adding bodies and constraints, and scroll/interaction-friendly canvas scenes.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug"

@@ -1,6 +1,6 @@
 {
   "id": "emilkowalski__improve-animations",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "emilkowalski/skills@2d228630ba1446365f614a108cb8252f1feda202"
   ],
@@ -131,5 +131,20 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\emilkowalski\\skills\\improve-animations\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Do not provide any other information until the user asks a question.",
+  "when_to_use": [
+    "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other age",
+    "Surveying animation and motion code to produce a prioritized fix roadmap without changing code"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "Initial Response",
+    "Operating Posture",
+    "Hard Rules"
+  ],
+  "example": "Example: Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "15d281900b1fa0d7d29b086257c54b5852e0ba652b62fe877c6342fa1a8554af",
   "purpose": "Instrument a webapp to send useful telemetry data to Azure App Insights",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

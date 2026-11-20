@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "81ee753dcaa82abf58212b66b52f2e0480462d7c2f8ffd8b65f7ef7130b5eddc",
   "purpose": "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this",
-  "domain": "cloudflare-edge",
+  "domain": "gpu-compute",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "cloudflare-edge",
+  "cluster": "gpu-compute",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

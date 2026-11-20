@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "bd2f0cc520619243c54570e672f04f6a54540ec6cf09efb1f23defb500b41d3a",
   "purpose": "Turn any ordered process into a data-driven vertical or horizontal scroll story with a base line, progress fill, active step states, responsive collapse, semantic fallback, and reduced-motion behavior",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

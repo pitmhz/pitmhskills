@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "bc9baa8cfb31b6c7c6f96b346f3aabb3b44e49909d29df6a469facae01e814fc",
   "purpose": "Quiet design is harder than bold design. Subtlety needs precision. Reduce visual intensity in designs that are too loud, aggressive, or overstimulating without losing personality or making the result ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"

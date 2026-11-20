@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "851e6883dbfa4786d56c343f0216f98a5fb692d6083e51e5402569f7bc9961f6",
   "purpose": "Apply seamless infinite marquee loops using duplicated items.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "design"
   ],

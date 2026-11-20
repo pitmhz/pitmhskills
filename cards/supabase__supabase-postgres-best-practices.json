@@ -78,5 +78,27 @@
     "npx supabase db lint"
   ],
   "skill_path": "skills/supabase/skills/supabase-postgres-best-practices/SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Write RLS policies, schema, queries, migrations, and indexes for Supabase Postgres before you run SQL.",
+  "when_to_use": [
+    "Supabase Auth setup and configuration with RLS integration",
+    "Supabase Auth (JWT, getClaims, cookies, RLS tied to Supabase Auth) setup",
+    "Supabase Auth + RLS integration (JWT claims, getClaims, cookies, RLS policies tied to Supabase Auth)",
+    "Supabase platform RLS policies with Auth claims integration",
+    "Supabase Auth (JWT, cookies, getClaims, RLS-integrated) setup and troubleshooting"
+  ],
+  "when_not_to_use": [
+    "Next.js SSR auth issues (login, session, cookies) -> supabase__supabase",
+    "Supabase Auth login, session, cookies, JWT troubleshooting -> supabase__supabase",
+    "Neon Postgres RLS -> neondatabase__neon-postgres",
+    "Neon Postgres (branching, egress, AI Gateway, serverless functions, Neon Auth) -> neondatabase cards",
+    "Neon RLS policies -> neondatabase__neon-postgres"
+  ],
+  "provides": [
+    "When to Apply",
+    "Rule Categories by Priority",
+    "How to Use"
+  ],
+  "example": "Example: Supabase Auth setup and configuration with RLS integration",
+  "counter_example": "Not example: Next.js SSR auth issues (login, session, cookies) -> supabase__supabase"
 }

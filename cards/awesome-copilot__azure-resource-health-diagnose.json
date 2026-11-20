@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "b23ce684d839475f5ae397ce6d1973106f481d4a73d40bc1bebb45012a6ff436",
   "purpose": "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "1c24b7b2c411c0ccbe53ee572257c8cb8c5db0fc403959bb7a78ed42471ad6cf",
   "purpose": "Core agent-browser usage guide. Read this before running any agent-browser commands. Covers the snapshot-and-ref workflow, navigating pages, interacting with elements (click, fill, type, select), extr",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -1,6 +1,6 @@
 {
   "id": "uiskills-staged__bolder",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "local@bolder"
   ],
@@ -82,5 +82,20 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\bolder\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "An open direction round owns the word first: \"bolder\" said while a direction decision is on the table is the Bolder hand register steer, a fresh deal of foreign forms (see new-work.md), not this comma",
+  "when_to_use": [
+    "An open direction round owns the word first: \"bolder\" said while a direction decision is on the table is the Bolder hand register steer, a fresh deal of foreign",
+    "Pushing a safe bland interface bolder without rebuilding what already shipped"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to general"
+  ],
+  "provides": [
+    "Scope is sovereign",
+    "Why it reads flat",
+    "The amplification"
+  ],
+  "example": "Example: An open direction round owns the word first: \"bolder\" said while a direction decision is on the tabl",
+  "counter_example": "Not example: Tasks unrelated to general"
 }

@@ -20,7 +20,7 @@
     "Tasks unrelated to frontend"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Apply diagonal-cut corners and chamfered edges to buttons, cards, panels, and container shells. -> this.",
   "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -131,5 +131,20 @@
     "secondary"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\corner-diagonals\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\corner-diagonals\\SKILL.md",
+  "goal": "Apply diagonal-cut corners and chamfered edges to buttons, cards, panels, and container shells. Use when a design needs precise geometric framing, sci-fi UI surfaces, clipped-corner controls, or engin",
+  "when_to_use": [
+    "Apply diagonal-cut corners and chamfered edges to buttons, cards, panels, and container shells. Use when a design needs precise geometric framing, sci-fi UI sur",
+    "surfaces need diagonal-cut corners or chamfered edges."
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "Scope",
+    "Visual Target",
+    "Cut Tokens"
+  ],
+  "example": "Example: Apply diagonal-cut corners and chamfered edges to buttons, cards, panels, and container shells. Use ",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

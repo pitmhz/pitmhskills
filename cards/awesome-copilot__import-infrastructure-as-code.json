@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "66f2e1461aa2ec1459ed1ce16d28213b0f27375021b7f7f69d2f2e5c049f5b7d",
   "purpose": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrastructure, generate Infrastructure as Code",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

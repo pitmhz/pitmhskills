@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "eeb05e3e2288af37b2612c421f6e88d797de66b79c14d40ff0416882e77990d1",
   "purpose": "Design and plan end-to-end Azure IoT and Smart City solutions: requirements, architecture, security, operations, cost, and a phased delivery plan with concrete implementation artifacts.",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "review",
     "implement",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

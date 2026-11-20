@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "a75f6e8e2d4b2f4ffd0fe793af496de226d3897de359a84a39ddb6d971e694db",
   "purpose": "Use when designing or rewriting a high-converting landing page (single-offer page) for SaaS/apps/services. Covers structure, layout patterns, conversion strategies, copywriting, SEO/AEO, and common pi",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"

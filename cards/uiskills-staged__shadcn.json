@@ -1,6 +1,6 @@
 {
   "id": "uiskills-staged__shadcn",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "local@shadcn"
   ],
@@ -21,7 +21,7 @@
     "Tasks unrelated to frontend"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Manages shadcn components and projects ÔÇö adding, searching, fixing, debugging, styling, and composing UI, including... -> this.",
   "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -204,5 +204,21 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\uiskills-staged\\shadcn\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Always edit this file, never create a new one.",
+  "when_to_use": [
+    "Manages shadcn components and projects ÔÇö adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context,",
+    "Add shadcn components to a project, fix the theme, and manage the registry"
+  ],
+  "when_not_to_use": [
+    "Use `Separator`** instead of `<hr>` or `<div className=\"border-t\">`.",
+    "Use `Badge`** instead of custom styled spans."
+  ],
+  "provides": [
+    "Current Project Context",
+    "Principles",
+    "Critical Rules"
+  ],
+  "example": "Example: Manages shadcn components and projects ÔÇö adding, searching, fixing, debugging, styling, and compos",
+  "counter_example": "Not example: Use `Separator`** instead of `<hr>` or `<div className=\"border-t\">`."
 }

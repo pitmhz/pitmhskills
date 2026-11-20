@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "60cf29fc323099eb2a666c6962ea00df0316a0ba8d9b62754868955bb895bbc1",
   "purpose": "Design, implement, tune, or test readable tactical action combat for web games. Use for attack timing, guard and dodge windows, hit contact, posture, lock-on, weapons, boss phases, combat feedback, an",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

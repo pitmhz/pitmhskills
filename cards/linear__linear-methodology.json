@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "0d432edea364493457a9f5a324d958bcf1d277073b540307c28e754603e775d5",
   "purpose": "Proven methodology for building and tracking features, projects, and issues in Linear. Use when the user wants to set up Linear tracking, sync or audit a board, run a Linear health check, finish insta",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "review",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

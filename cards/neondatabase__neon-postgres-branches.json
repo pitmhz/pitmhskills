@@ -250,5 +250,25 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-branches\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Create and manage Neon Postgres branches for preview deploys, migration tests, and isolated dev environments.",
+  "when_to_use": [
+    "Create Neon Postgres branches for preview deployments and CI/CD",
+    "Manage branch lifecycle: create, reset, delete, promote to parent",
+    "Integrate Neon branching with GitHub Actions or other CI/CD"
+  ],
+  "when_not_to_use": [
+    "General Postgres queries/optimization -> neondatabase__neon-postgres",
+    "Supabase platform features -> supabase__supabase",
+    "Neon AI Gateway vector search -> neondatabase__neon-ai-gateway",
+    "Neon serverless functions -> neondatabase__neon-functions",
+    "Neon Auth JWT claims -> neondatabase__neon-auth"
+  ],
+  "provides": [
+    "Branch Type Decision",
+    "Tool Selection: CLI or MCP",
+    "Selection order"
+  ],
+  "example": "Example: Create Neon Postgres branches for preview deployments and CI/CD",
+  "counter_example": "Not example: General Postgres queries/optimization -> neondatabase__neon-postgres"
 }

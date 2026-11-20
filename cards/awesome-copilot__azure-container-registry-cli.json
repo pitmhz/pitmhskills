@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "cf157968751712d86e0838eb580fc77546c97ff0da3720e118dbcfcc6da15b19",
   "purpose": "Manage Azure Container Registry via the az acr CLI including registries, images, cloud builds, ACR Tasks, authentication, tokens, geo-replication, and networking. Use when working with ACR, az acr com",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

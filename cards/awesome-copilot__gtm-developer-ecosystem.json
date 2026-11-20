@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "52dfe739ae185d89c19639876e0cb884d5fd2851ea986b7b1ca4fa44b362907b",
   "purpose": "Build and scale developer-led adoption through ecosystem programs. Use when deciding open vs curated ecosystems, building developer programs, scaling platform adoption, or designing student program pi",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "review",
     "implement",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

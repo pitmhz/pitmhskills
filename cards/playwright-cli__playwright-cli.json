@@ -19,7 +19,7 @@
     "Tasks unrelated to general"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Automate browser interactions, test web pages and work with Playwright tests. -> this.",
   "cluster": "general",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -45,5 +45,20 @@
     "common"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\playwright-cli\\skills\\playwright-cli\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\playwright-cli\\skills\\playwright-cli\\SKILL.md",
+  "goal": "Commands that don't produce output return nothing.",
+  "when_to_use": [
+    "Automate browser interactions, test web pages and work with Playwright tests.",
+    "snapshot is a part of the workflow result"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to general"
+  ],
+  "provides": [
+    "Quick start",
+    "Commands",
+    "Raw output"
+  ],
+  "example": "Example: Automate browser interactions, test web pages and work with Playwright tests.",
+  "counter_example": "Not example: Tasks unrelated to general"
 }

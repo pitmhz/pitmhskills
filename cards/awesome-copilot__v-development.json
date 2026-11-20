@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "4d51d06ae4e31b4d2294cefe5daada419f2c39ffb704b62a82082bc8946ebf1d",
   "purpose": "Guide GitHub Copilot through V language development: installing the toolchain, project layout with v.mod, building, testing, formatting, and writing idiomatic V including Option/Result error handling.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "991827c7bd9e70c8c0f563f5e183b1f9fcad834c0ec0dc9dcc4f15ed74c8c706",
   "purpose": "Renders every state of a component you choose on a throwaway page, with mock data and a switcher, so you can work on each state.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",

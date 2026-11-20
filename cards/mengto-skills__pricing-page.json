@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "dfcf2976aa9497b88dfe253a10a8ac008ac1c175399b0823a126500a9795e77f",
   "purpose": "Use when designing or rewriting a high-converting SaaS pricing page (structure, plan design, copywriting, SEO/AEO, FAQs, layout patterns, experiments). Includes checklists, templates, and common pitfa",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "design"
   ],

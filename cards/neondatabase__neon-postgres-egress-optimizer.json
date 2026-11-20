@@ -178,5 +178,25 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres-egress-optimizer\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Diagnose and fix excessive Postgres egress and data transfer costs for read-heavy workloads.",
+  "when_to_use": [
+    "Reduce Neon Postgres egress/data transfer costs",
+    "Optimize read-heavy analytics workloads to minimize data transfer",
+    "Configure read replicas, connection pooling, query patterns for cost reduction"
+  ],
+  "when_not_to_use": [
+    "inference",
+    "kernel",
+    "gpu",
+    "cuda",
+    "General Postgres optimization -> neondatabase__neon-postgres"
+  ],
+  "provides": [
+    "Step 1: Diagnose",
+    "Check if pg_stat_statements is available",
+    "Handle empty stats"
+  ],
+  "example": "Example: Reduce Neon Postgres egress/data transfer costs",
+  "counter_example": "Not example: inference"
 }

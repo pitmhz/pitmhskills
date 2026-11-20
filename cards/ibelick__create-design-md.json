@@ -123,5 +123,21 @@
     "report"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\create-design-md\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ibelick\\skills\\create-design-md\\SKILL.md",
+  "goal": "Create or update `DESIGN.md` at the root of the selected product.",
+  "when_to_use": [
+    "Create or update a DESIGN.md from an existing product repository or public website. Use when asked to document an interface's design language, reconstruct its v",
+    "a local product repository is available. Create or update `DESIGN.md` at the root of the selected product.",
+    "the user provides a public URL without its source repository. Create a reconstructed `DESIGN.md` draft in the current workspace."
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "Boundaries",
+    "1. Choose the mode",
+    "Shared evidence pipeline"
+  ],
+  "example": "Example: Create or update a DESIGN.md from an existing product repository or public website. Use when asked t",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

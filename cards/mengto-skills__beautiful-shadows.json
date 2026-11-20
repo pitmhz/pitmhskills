@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "bffcd48435f743e9fd59d76977d490742ca48be6e620fc94afee734ad1dce3dc",
   "purpose": "Apply exact Tailwind arbitrary shadow utilities for polished, layered neutral elevation. Use when compact cards, controls, panels, popovers, hero media, feature callouts, or modal-like containers need",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "design"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

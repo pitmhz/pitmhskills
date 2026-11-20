@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "5b432db55670223935a19215850f0e1e094db2026f1aa880f7d7b978fc48a42f",
   "purpose": "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sessions, connecting to MCP servers, or crea",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

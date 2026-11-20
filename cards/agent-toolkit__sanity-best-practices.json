@@ -93,5 +93,23 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-toolkit\\skills\\sanity-best-practices\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Build and tune Sanity CMS content models and GROQ queries with correct schema, images, Portable Text, Studio config, and migrations.",
+  "when_to_use": [
+    "Design Sanity content schemas and GROQ queries with performance tuning",
+    "Sanity content modeling, page builders, Portable Text, Studio configuration",
+    "Sanity migrations, localization, TypeGen, Visual Editing setup"
+  ],
+  "when_not_to_use": [
+    "Postgres/database work -> supabase or neondatabase cards",
+    "UI/frontend design -> anthropic__frontend-design",
+    "Neon or Supabase platform tasks -> their own skills"
+  ],
+  "provides": [
+    "When to Apply",
+    "Global Rules",
+    "Video"
+  ],
+  "example": "Example: Design Sanity content schemas and GROQ queries with performance tuning",
+  "counter_example": "Not example: Postgres/database work -> supabase or neondatabase cards"
 }

@@ -75,5 +75,24 @@
   ],
   "verify": [],
   "skill_path": "C:/Users/Mattchine/skills/skill-finder/SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Find and rank candidate skills on the web before adding, with license, installs, and freshness for review.",
+  "when_to_use": [
+    "Finding candidate skills on the web with skills.sh search before adding",
+    "Discovering agent skills for a topic via GitHub SKILL.md repo search",
+    "Ranking new skill candidates with license, installs, and freshness for user confirmation",
+    "Discover agent skills for a topic (RLS, postgres, PDF handling) before adding them"
+  ],
+  "when_not_to_use": [
+    "Installing or adding anything (candidates go to user/skillhub add for confirmation)",
+    "Answering the underlying task itself (use that domain skill, not the finder)",
+    "Static single-page fetch (use webfetch)"
+  ],
+  "provides": [
+    "Sources (in order)",
+    "Quality bar",
+    "Output per candidate"
+  ],
+  "example": "Example: Finding candidate skills on the web with skills.sh search before adding",
+  "counter_example": "Not example: Installing or adding anything (candidates go to user/skillhub add for confirmation)"
 }

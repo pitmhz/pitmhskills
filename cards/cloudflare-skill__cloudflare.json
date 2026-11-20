@@ -1,6 +1,6 @@
 {
   "id": "cloudflare-skill__cloudflare",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "dmmulroy/cloudflare-skill@97a85fdde7fe9695fbcba0c6bfde18dcdb5993d7"
   ],
@@ -48,5 +48,21 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\cloudflare-skill\\skills\\cloudflare\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-a",
+  "when_to_use": [
+    "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), se",
+    "Create a Cloudflare Vectorize index and query it from a Worker",
+    "Manage D1 databases, KV, R2, Workers AI models and Vectorize indexes"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "provides": [
+    "Authentication (Required Before Deploy)",
+    "Quick Decision Trees",
+    "Product Index"
+  ],
+  "example": "Example: Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers A",
+  "counter_example": "Not example: Tasks unrelated to cloudflare-edge"
 }

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "59deb368b2474c810c6b2607f10575d3e1ad65a0edc1159c259bf387d33f27b8",
   "purpose": "Design meeting rhythms, metric reporting, quarterly planning, and decision-making velocity for scaling companies. Use when decisions are slow, planning is broken, the company is growing but alignment ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

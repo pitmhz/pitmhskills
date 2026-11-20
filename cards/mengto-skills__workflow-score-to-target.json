@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "d890a345b6315b0ebe678d317bb6752007f41bfa53842f12f6e4d31ce24557d5",
   "purpose": "Score work out of 10 against a clear rubric, then improve it round by round until every item reaches the target score the user named (for example \"get it to 8 out of 10\", \"bring everything under 6 up ",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

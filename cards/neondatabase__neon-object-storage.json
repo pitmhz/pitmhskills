@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "dea7577475c9f87ca3810f65bd7b0b9f5e04382b918109614bea562a28cf1ebc",
   "purpose": "S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch. Use when a user wants object storage, a bucket, blob/file storage, or som",
-  "domain": "cloudflare-edge",
+  "domain": "backend-data",
   "task_types": [
     "review",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "cloudflare-edge",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

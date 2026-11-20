@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "a1500ee7e08310672cd33014060ff1cc12f9833fab8f3d399b2a1be4b74ca1b8",
   "purpose": "Improve workflows used repeatedly by examining recurring effort, waiting, setup, interruption, context retention, and expert paths. Use when an experience works once but may become tiring or inefficie",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "ff71a71d19cc26371b985712e47aa4c8ce5d4d4cbfb90e33961932f117218065",
   "purpose": "Translate design intent into production components or improve collaboration between design and engineering.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "refactor",

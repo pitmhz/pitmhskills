@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "11caba1048cbdbfca6f7ce13a0e0580d6e9d943f7b775ee24978ece1d3334066",
   "purpose": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "refactor",
     "implement",
@@ -22,7 +22,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

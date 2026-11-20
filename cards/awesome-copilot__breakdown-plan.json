@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "ce46dc0485b0ee3e7fc4172a507df685207b17806c9fa431bbf723308b8a2125",
   "purpose": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

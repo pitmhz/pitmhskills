@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "089b2735a58eaf4c2dd760dbe89d2ad6bb87d90e7b2ea4dd4cdd900f213c98d9",
   "purpose": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "debug",

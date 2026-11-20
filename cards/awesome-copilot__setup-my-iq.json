@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "7ce623552822b4366b4a91562c51abb0f98eed8f784de02c24beec18c8fb706b",
   "purpose": "Create, set up, or update the personal context portfolio: structured markdown files describing\nwho you are, how you work, your teams, and your tool/ADO configuration. Runs the interview\nworkflow for f",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

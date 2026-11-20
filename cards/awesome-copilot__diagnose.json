@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "48e2d7e9b9123dc0b9a82e1165b2d8879a43cb5cfd0460b55edfd820d5cb11a2",
   "purpose": "Perform a systematic diagnostic scan of an AI workflow across 5 quality dimensions — prompt quality, context efficiency, tool health, architecture fitness, and safety — producing a scored report with ",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "review",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "a77120f24760b0d65cc4833903d98f4f393224b031731ae233222d20e6a5a22b",
   "purpose": "Harden an existing prototype for real use, including failure states, accessibility, security boundaries, and maintainability.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "debug",

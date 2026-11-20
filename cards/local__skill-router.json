@@ -11,7 +11,7 @@
     "Tasks with no skill-selection step"
   ],
   "domain": "workflow",
-  "hash": "2d98f03da52283cd38e1177941e1f2c0e57648dfe00af7d9cf4d33c6560d82af",
+  "hash": "be102e79d9e4bc50879480478022593e486d9e1bb7b75d62ac5c58e4eb10c50d",
   "id": "local__skill-router",
   "license": "MIT",
   "origin": [
@@ -55,5 +55,22 @@
     "bun run lint",
     "rtk test -- bun run test"
   ],
-  "curated": true
+  "curated": true,
+  "goal": "Route a task to the right skill: pick which specialized skill fits the request, or run a council when candidates are close.",
+  "when_to_use": [
+    "Route this task to the right skill",
+    "Pick which skill fits the request",
+    "Resolve a task to its specialized capability"
+  ],
+  "when_not_to_use": [
+    "Writing code, designing UI, or editing docs directly",
+    "Remembering user facts across sessions",
+    "Tasks with no skill-selection step"
+  ],
+  "provides": [
+    "When to Invoke This Skill",
+    "Fast Skill Resolution"
+  ],
+  "example": "Example: Route this task to the right skill",
+  "counter_example": "Not example: Writing code, designing UI, or editing docs directly"
 }

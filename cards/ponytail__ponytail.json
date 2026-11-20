@@ -70,5 +70,24 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Write the smallest change that fully solves the task, preserving validation, errors, security, and a11y.",
+  "when_to_use": [
+    "Writing, fixing, or refactoring code with the smallest sufficient change (reuse over build)",
+    "Cutting an over-engineered diff down to the minimum that works, keeping tests for logic",
+    "Reviewing a change for necessity: what can be deleted, what already exists, what the platform gives free"
+  ],
+  "when_not_to_use": [
+    "Sharpening the plan before building (use grill-with-docs; ladder runs after scope is set)",
+    "Conformance review against repo standards or spec (use code-review; ponytail judges necessity, not compliance)",
+    "typo",
+    "UI visual design, database rules, or GPU work"
+  ],
+  "provides": [
+    "Before you write",
+    "The smallest complete change",
+    "Levels"
+  ],
+  "example": "Example: Writing, fixing, or refactoring code with the smallest sufficient change (reuse over build)",
+  "counter_example": "Not example: Sharpening the plan before building (use grill-with-docs; ladder runs after scope is set)"
 }

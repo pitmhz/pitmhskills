@@ -69,5 +69,24 @@
   "verify": [
     "obscura fetch https://example.com --dump text"
   ],
-  "curated": true
+  "curated": true,
+  "goal": "Fetch, scrape, screenshot, and automate JS-heavy or bot-defended pages via the Obscura CLI or MCP.",
+  "when_to_use": [
+    "Stealth-scraping a JS-heavy or bot-defended site",
+    "Scraping many URLs in parallel",
+    "Capturing screenshots or PDFs of pages",
+    "Capture a full-page screenshot and PDF of a bot-protected page"
+  ],
+  "when_not_to_use": [
+    "Fetching a single static page (use webfetch)",
+    "Finding or installing new skills (use skill-finder)",
+    "Non-web tasks"
+  ],
+  "provides": [
+    "When to use",
+    "Do not use",
+    "Commands"
+  ],
+  "example": "Example: Stealth-scraping a JS-heavy or bot-defended site",
+  "counter_example": "Not example: Fetching a single static page (use webfetch)"
 }

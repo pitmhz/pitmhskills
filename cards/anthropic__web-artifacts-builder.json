@@ -117,5 +117,23 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "skills/anthropic/skills/web-artifacts-builder/SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Build and bundle a multi-component claude.ai HTML artifact (React 18, Vite, Tailwind, shadcn/ui) into a single self-contained HTML file.",
+  "when_to_use": [
+    "Scaffolding a new claude.ai artifact project with init-artifact.sh for React, Tailwind, and shadcn/ui components",
+    "Developing a multi-component artifact requiring state management, routing, or shadcn/ui primitives",
+    "Bundling a Vite React artifact into a single self-contained bundle.html with bundle-artifact.sh"
+  ],
+  "when_not_to_use": [
+    "Designing visual identity, typography, or palette direction for a new UI (use anthropic__frontend-design)",
+    "Optimizing React render or bundle performance of existing code (use vercel__vercel-react-best-practices)",
+    "Creating a static PNG or PDF poster from a design philosophy (use anthropic__canvas-design)"
+  ],
+  "provides": [
+    "Design & Style Guidelines",
+    "Quick Start",
+    "Step 1: Initialize Project"
+  ],
+  "example": "Example: Scaffolding a new claude.ai artifact project with init-artifact.sh for React, Tailwind, and shadcn/u",
+  "counter_example": "Not example: Designing visual identity, typography, or palette direction for a new UI (use anthropic__frontend-design)"
 }

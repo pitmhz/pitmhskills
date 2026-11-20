@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "007858e4d24230ca95615fbfdb7e7c324e1682da54d4e43f169876679d2d099d",
   "purpose": "Always-on Linear session discipline and one-time soft nudge for untracked repos. Use whenever non-trivial work is happening in a repo that already has a Linear tracking protocol in CLAUDE.md, AGENTS.m",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "review",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

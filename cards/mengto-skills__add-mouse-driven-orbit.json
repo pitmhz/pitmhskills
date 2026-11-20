@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "61df5ebd4f9f03195caced760043774117cc3ca040473ef7c9c63e4157d5549e",
   "purpose": "Add restrained mouse-driven orbit and parallax depth to a Three.js hero by damping one pointer target and splitting it across camera translation, look-at, and small object rotations. Use for passive c",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

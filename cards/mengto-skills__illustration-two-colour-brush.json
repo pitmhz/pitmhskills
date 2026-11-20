@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "4a8091359aae8aadccb6d581ce0ecafe273348a09acb40a803dc1515dd15cb80",
   "purpose": "Draws original design and coding scenes as hand-authored SVG cards (480x360) in a two-colour brush-marker style. Identifying traits: thick wobbly black marker lines with blobby ends, built as filled r",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

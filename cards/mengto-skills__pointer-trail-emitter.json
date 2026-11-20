@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "32f81e8c28ad1f648d71e44270e106f8c1c51ce26b5e9ead8fa0d3d3931dc26f",
   "purpose": "Build a cursor trail whose spacing stays constant at any hand speed, by emitting motes per unit of distance travelled rather than on a timer, so a flick draws the same continuous ribbon as a crawl ins",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

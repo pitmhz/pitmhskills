@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "19f13822dd8674ac0a24787ac15472c9137d0db5b03750ba43ee9dcdac8ddd03",
   "purpose": "Look up Microsoft API references, find working code samples, and verify SDK code is correct. Use when working with Azure SDKs, .NET libraries, or Microsoft APIs—to find the right method, check paramet",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

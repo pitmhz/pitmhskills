@@ -1,6 +1,6 @@
 {
   "id": "ponytail__ponytail-debt",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
   ],
@@ -60,5 +60,23 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-debt\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Debt ledger of deliberate ponytail shortcuts: greps every `shortcut:` (or legacy `ponytail:`) comment into a tracked list with its ceiling and upgrade trigger. One-shot report, changes nothing.",
+  "when_to_use": [
+    "Listing every deferred shortcut marker as a debt ledger",
+    "Asking what ponytail deferred or which shortcuts lack an upgrade trigger",
+    "Harvesting shortcut: comments into a tracked file",
+    "Debt ledger of deliberate ponytail shortcuts: greps every `shortcut:` (or legacy `ponytail:`) comment into a tracked list with its ceiling and upgrade trigger. "
+  ],
+  "when_not_to_use": [
+    "Writing or fixing code (use ponytail)",
+    "A general quality review or audit (use ponytail-review or ponytail-audit)"
+  ],
+  "provides": [
+    "Scan",
+    "Output",
+    "Boundaries"
+  ],
+  "example": "Example: Listing every deferred shortcut marker as a debt ledger",
+  "counter_example": "Not example: Writing or fixing code (use ponytail)"
 }

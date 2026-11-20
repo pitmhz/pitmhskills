@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "51960b514f8437baf12484dd5be824e0c2d0ee8802e29e7f511e431493a6c417",
   "purpose": "Discover what should be made and how it should work, then return a confirmed design brief without code.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"

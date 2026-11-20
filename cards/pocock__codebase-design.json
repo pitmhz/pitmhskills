@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
   "purpose": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a modules interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-na",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

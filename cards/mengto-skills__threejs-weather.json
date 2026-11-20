@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "144393c0fa37e10b896f1c8882c57b8c345eff0472c11bc8d22cc6f2c14618e3",
   "purpose": "Put weather into a Three.js scene that reads as weather — rain anchored inside the frustum, a storm that is the rain leaned on rather than a second system, lightning on its own light with thunder sche",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

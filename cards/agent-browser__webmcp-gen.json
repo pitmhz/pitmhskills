@@ -20,7 +20,7 @@
     "Tasks unrelated to general"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Build and validate experimental WebMCP tools for an existing web page. -> this.",
   "cluster": "general",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -38,5 +38,20 @@
     "completion"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\webmcp-gen\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\agent-browser\\skill-data\\webmcp-gen\\SKILL.md",
+  "goal": "Create `webmcp.init.js` and `eval.json`.",
+  "when_to_use": [
+    "Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create webmcp.in",
+    "an external agent is available."
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to general"
+  ],
+  "provides": [
+    "Output",
+    "Workflow",
+    "Safety"
+  ],
+  "example": "Example: Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to ex",
+  "counter_example": "Not example: Tasks unrelated to general"
 }

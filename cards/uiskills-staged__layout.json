@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "c9dbc8868d7f3990dea8e8fa7ea5802a68b81a8fda46a33e6ac92bda136a6cef",
   "purpose": "Layout turns product priority into reading order, grouping, rhythm, and usable space. Diagnose the structural problem before moving boxes.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug"

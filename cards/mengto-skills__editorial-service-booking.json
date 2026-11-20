@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "8c6a6359d6a8e46a34d81ff1a93b62ce163e75e9f9883d42a696deb6f52dff90",
   "purpose": "Create or redesign appointment-based service websites for salons, barbers, spas, wellness studios, clinics, and hospitality brands. Use for warm editorial layouts, serif-led identity, documentary port",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

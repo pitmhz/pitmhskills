@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "63b0dc8beef3014066e384f86172254bd56cdbdbd9beea3fa179b383506efd7a",
   "purpose": "Turn a visual or interaction technique you already built into a reusable web-design skill, by isolating the one mechanism that makes it work while reproducing its approved reference exactly around tha",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

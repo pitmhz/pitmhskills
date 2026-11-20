@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "b29df1a3ebf45804ea4c81e17a16c8dee19117d5e8821d460e6c18613d39da21",
   "purpose": "Create a dark premium design system that combines near-black surfaces, subtle ordered-dither texture, and a thin accent-colored laser atmosphere.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

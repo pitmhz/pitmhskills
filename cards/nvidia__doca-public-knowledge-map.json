@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "00907ec714302d29ac09eb4d6565ea064a3d2da1b5b0af9c7898dae3b973604d",
   "purpose": "Use this skill when the user needs to locate authoritative information about NVIDIA DOCA without access to the source tree — finding the right docs.nvidia.com page for a library/service/tool, identify",
-  "domain": "cloudflare-edge",
+  "domain": "gpu-compute",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "cloudflare-edge",
+  "cluster": "gpu-compute",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

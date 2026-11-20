@@ -1,6 +1,6 @@
 {
   "id": "swiss-design-skill__swiss-design",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "zeke/swiss-design-skill@285009f3dc4ba311f59bb757973274de2c9446c3"
   ],
@@ -164,5 +164,21 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\swiss-design-skill\\swiss-design\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Never build desktop-first and try to retrofit mobile.",
+  "when_to_use": [
+    "Apply a Swiss International Style design system using Tailwind CSS. Use when asked to style a webpage, clean up a UI, apply a design system, make something look",
+    "Styling a page with Swiss grid discipline, typographic hierarchy and grotesk type"
+  ],
+  "when_not_to_use": [
+    "One accent per project.** Do not introduce a second accent color. Use opacity variations instead.",
+    "Never `outline-none` without a focus replacement.** Interactive elements need a visible focus indicator. Use `focus-visible:ring-2 focus-visible:ring-stone-900 "
+  ],
+  "provides": [
+    "Six Principles",
+    "Typography",
+    "Color System"
+  ],
+  "example": "Example: Apply a Swiss International Style design system using Tailwind CSS. Use when asked to style a webpag",
+  "counter_example": "Not example: One accent per project.** Do not introduce a second accent color. Use opacity variations instead."
 }

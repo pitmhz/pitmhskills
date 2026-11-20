@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "e9d723a712c9543d3b17cf1aa0ea9cc50835205805b1bb11aabb4114a8432dba",
   "purpose": "Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecycle: understanding recipes and environments, wiring",
-  "domain": "cloudflare-edge",
+  "domain": "gpu-compute",
   "task_types": [
     "review",
     "refactor",
@@ -22,7 +22,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "cloudflare-edge",
+  "cluster": "gpu-compute",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

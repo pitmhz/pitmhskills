@@ -157,5 +157,23 @@
   "verify": [
     "npx tsc --noEmit"
   ],
-  "skill_path": "skills/vercel/skills/react-best-practices/SKILL.md"
+  "skill_path": "skills/vercel/skills/react-best-practices/SKILL.md",
+  "goal": "Fix render and bundle performance in existing React and Next.js code: waterfalls, serialization, caching.",
+  "when_to_use": [
+    "Refactoring React or Next.js code to eliminate waterfalls with Promise.all, Suspense boundaries, and parallel data fetching",
+    "Optimizing bundle size by removing barrel imports and adding next/dynamic imports for heavy components",
+    "Reviewing React Server Components for serialization bloat, re-render memoization, and request caching issues"
+  ],
+  "when_not_to_use": [
+    "Designing a new landing page or app UI visual identity with typography and palette (use anthropic__frontend-design)",
+    "Building a high-density desktop dashboard with container queries and sidebar-adaptive layout (use local__desktop-dashboard-ui)",
+    "Scaffolding or bundling a multi-component claude.ai HTML artifact with React and shadcn (use anthropic__web-artifacts-builder)"
+  ],
+  "provides": [
+    "When to Apply",
+    "Rule Categories by Priority",
+    "Quick Reference"
+  ],
+  "example": "Example: Refactoring React or Next.js code to eliminate waterfalls with Promise.all, Suspense boundaries, and",
+  "counter_example": "Not example: Designing a new landing page or app UI visual identity with typography and palette (use anthropic__frontend-design)"
 }

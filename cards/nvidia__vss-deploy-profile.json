@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "4e98452fb7614ced535c982e66ff8282a15d8b912f9959a8387ef893c0a3b10d",
   "purpose": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
-  "domain": "cloudflare-edge",
+  "domain": "gpu-compute",
   "task_types": [
     "review",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "cloudflare-edge",
+  "cluster": "gpu-compute",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

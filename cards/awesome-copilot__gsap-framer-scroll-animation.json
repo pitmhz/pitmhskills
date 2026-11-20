@@ -170,5 +170,23 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\awesome-copilot\\skills\\gsap-framer-scroll-animation\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Build scroll animations, parallax, reveals, and pinned sections with GSAP ScrollTrigger or Framer Motion.",
+  "when_to_use": [
+    "GSAP ScrollTrigger: pin-and-scrub, parallax, scroll-linked reveal animations",
+    "Framer Motion / Motion v12: enter-exit, layout animations, whileInView in React",
+    "Choose between GSAP and Framer Motion for scroll or interaction animation"
+  ],
+  "when_not_to_use": [
+    "Static UI design with no motion -> anthropic__frontend-design",
+    "CSS-only keyframe animations -> gsap__gsap-core",
+    "Backend/database work -> supabase or neondatabase cards"
+  ],
+  "provides": [
+    "Quick Library Selector",
+    "Setup (Always Do First)",
+    "GSAP"
+  ],
+  "example": "Example: GSAP ScrollTrigger: pin-and-scrub, parallax, scroll-linked reveal animations",
+  "counter_example": "Not example: Static UI design with no motion -> anthropic__frontend-design"
 }

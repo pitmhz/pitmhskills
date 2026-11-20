@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "92441114f77b1dd72d2edf1d55e369a00e0dce0bf8b4a749fbbc5198de4ddf78",
   "purpose": "Strategic account planning and execution for enterprise deals. Use when planning complex sales cycles, managing multiple stakeholders, applying MEDDICC qualification, tracking deal health, or building",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

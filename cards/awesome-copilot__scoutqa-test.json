@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "6c09a43984b05b6a108e79c2defb51d8f7fee7e230610a5e220f63dde8bcdee1",
   "purpose": "This skill should be used when the user asks to \"test this website\", \"run exploratory testing\", \"check for accessibility issues\", \"verify the login flow works\", \"find bugs on this page\", or requests a",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

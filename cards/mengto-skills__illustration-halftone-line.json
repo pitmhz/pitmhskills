@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "9ba7488533ec524636726cbf77fb4cc0d20efe82d99e0e0a3e4125bb308ae7df",
   "purpose": "Draws hand-authored SVG spot illustrations in a halftone line style for design and coding scenes. Identifying traits are a confident black line with a slight hand wobble and contours left open, grey t",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

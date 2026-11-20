@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "3a93e043c9ef7ad9ab674ac98c64b89eab4f4d44f0d1ae0899a16156a8ea4cf8",
   "purpose": "Health-check Linear projects for slipping dates, stale In Progress, and orphan issues. Use when the user asks for a Linear health check, atRisk scan, monitoring, /linear-monitor, or when a Cursor Auto",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

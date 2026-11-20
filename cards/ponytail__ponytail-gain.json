@@ -1,6 +1,6 @@
 {
   "id": "ponytail__ponytail-gain",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
   ],
@@ -61,5 +61,22 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-gain\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Show ponytail's measured savings scoreboard (code, tokens, cost, speed) from the published agentic benchmark. One-shot display, changes nothing.",
+  "when_to_use": [
+    "Showing ponytail's benchmark savings scoreboard",
+    "Answering what ponytail saves or its measured impact",
+    "Show ponytail's measured savings scoreboard (code, tokens, cost, speed) from the published agentic benchmark. One-shot display, changes nothing."
+  ],
+  "when_not_to_use": [
+    "Writing, reviewing, or auditing code (use ponytail / ponytail-review / ponytail-audit)",
+    "Per-repo savings claims — the benchmark figures are not repo-specific"
+  ],
+  "provides": [
+    "Scoreboard",
+    "Honesty boundary",
+    "Boundaries"
+  ],
+  "example": "Example: Showing ponytail's benchmark savings scoreboard",
+  "counter_example": "Not example: Writing, reviewing, or auditing code (use ponytail / ponytail-review / ponytail-audit)"
 }

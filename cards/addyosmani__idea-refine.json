@@ -21,7 +21,7 @@
     "Tasks unrelated to general"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. -> this.",
   "cluster": "general",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -47,5 +47,22 @@
     "understand"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\idea-refine\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\addyosmani\\skills\\idea-refine\\SKILL.md",
+  "goal": "Your job is to help refine raw ideas into sharp, actionable concepts worth building.",
+  "when_to_use": [
+    "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress",
+    "an idea is still vague and needs shaping before it can become a plan",
+    "you need to stress-test assumptions before committing to a direction",
+    "you want to expand options before converging on one"
+  ],
+  "when_not_to_use": [
+    "Not for: a user who is unsure what they want at all (use `interview-me`), or a direction already chosen that needs a spec (use `spec-driven-development`)"
+  ],
+  "provides": [
+    "Overview",
+    "When to Use",
+    "How It Works"
+  ],
+  "example": "Example: Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinki",
+  "counter_example": "Not example: Not for: a user who is unsure what they want at all (use `interview-me`), or a direction already chosen that needs a spe"
 }

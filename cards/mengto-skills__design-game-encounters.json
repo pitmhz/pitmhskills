@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "af14c35ed59c30b0ad15196b68be6277d7d73a8407c4fec1dbeb7a201ec29d86",
   "purpose": "Design, implement, tune, or test Three.js action-game encounters. Use for arena layout, enemy composition, spawn pacing, objectives, boss phases, reward cadence, encounter fixtures, and difficulty val",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

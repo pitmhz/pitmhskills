@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "1b5e03889d0db1a882e3790445976ce20945d5b9aad12212f44a1d1e77791977",
   "purpose": "Clarify uncertain product decisions in a short written brief before substantial design or implementation work.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"

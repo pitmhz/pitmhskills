@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "c3551239018434cb3cf080ce505b279efeaca8211a5c2d513d7c91b1a157e2ad",
   "purpose": "Activate this skill when a student provides study material (PDF or pasted notes) and a syllabus, and wants to prepare for an exam. Extracts key definitions, points, keywords, diagrams, exam-ready sent",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

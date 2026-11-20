@@ -169,5 +169,25 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-ai-gateway\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Send LLM and embedding calls through the Neon AI Gateway and wire them into the AI SDK with one credential.",
+  "when_to_use": [
+    "Set up Neon AI Gateway for pgvector similarity search",
+    "Configure vector indexes, similarity search, RAG workloads on Neon",
+    "Use Neon AI Gateway for RAG and semantic search applications"
+  ],
+  "when_not_to_use": [
+    "General Postgres tasks -> neondatabase__neon-postgres",
+    "Neon branching -> neondatabase__neon-postgres-branches",
+    "Egress optimization -> neondatabase__neon-postgres-egress-optimizer",
+    "Supabase pgvector -> supabase__supabase-postgres-best-practices",
+    "Neon serverless functions -> neondatabase__neon-functions"
+  ],
+  "provides": [
+    "When to Use",
+    "What It Does",
+    "Availability"
+  ],
+  "example": "Example: Set up Neon AI Gateway for pgvector similarity search",
+  "counter_example": "Not example: General Postgres tasks -> neondatabase__neon-postgres"
 }

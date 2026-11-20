@@ -250,5 +250,25 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-functions\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Create and deploy serverless Node.js HTTP functions next to your Neon data with automatic DATABASE_URL.",
+  "when_to_use": [
+    "Create and deploy Neon serverless functions (JavaScript/TypeScript)",
+    "Webhook handlers, event processing, scheduled jobs on Neon",
+    "Edge-adjacent compute directly in Neon without external Functions"
+  ],
+  "when_not_to_use": [
+    "General Postgres -> neondatabase__neon-postgres",
+    "Neon branching -> neondatabase__neon-postgres-branches",
+    "Neon AI Gateway -> neondatabase__neon-ai-gateway",
+    "Supabase Edge Functions -> supabase__supabase",
+    "Neon Auth -> neondatabase__neon-auth"
+  ],
+  "provides": [
+    "When to Use",
+    "What It Does",
+    "Availability"
+  ],
+  "example": "Example: Create and deploy Neon serverless functions (JavaScript/TypeScript)",
+  "counter_example": "Not example: General Postgres -> neondatabase__neon-postgres"
 }

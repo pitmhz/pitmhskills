@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "e8302572e9f47fd811b025fe7cc2a7d51a2330f665ec62226412183e0a508a21",
   "purpose": "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code. Requires the Joyride extension.",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

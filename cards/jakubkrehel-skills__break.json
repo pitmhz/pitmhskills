@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "897f82cc491bb29b87d43362f9d85662a82d9b86ce1c7e680af554293c89dead",
   "purpose": "Renders a component you choose under every scenario that can reach it on a temporary page and stress tests it.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",

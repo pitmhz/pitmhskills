@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "0ac0c4502111c41c66f21e8006a1731097fd8bd2ba3cc1fa6151b467ac2a58e9",
   "purpose": "Add decorative 01, 02, 03 numeric detail markers.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -197,5 +197,23 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:/Users/Mattchine/skills/desktop-dashboard-ui/SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Build a high-density desktop dashboard with adaptive min-max grids, sidebar layouts, system-font type, and WCAG-compliant focus and contrast.",
+  "when_to_use": [
+    "Building a high-density desktop dashboard feed with container queries and minmax grid columns that adapt to sidebar and inspector width",
+    "Implementing sidebar-adaptive layouts with collapsible navigation and right inspector drawers for observability dashboards",
+    "Applying system-font stacks, tabular numerals, subpixel rendering, and WCAG focus and contrast rules to dashboard UI"
+  ],
+  "when_not_to_use": [
+    "Designing a new marketing landing page or app visual identity (use anthropic__frontend-design)",
+    "Reviewing UI code for Web Interface Guidelines accessibility compliance (use vercel__web-design-guidelines)",
+    "Tuning React bundle or render performance of existing code (use vercel__vercel-react-best-practices)"
+  ],
+  "provides": [
+    "1. Core Principles",
+    "1.1 Desktop-Only Focus",
+    "1.2 System-Only Typography (Zero External Font Dependencies)"
+  ],
+  "example": "Example: Building a high-density desktop dashboard feed with container queries and minmax grid columns that a",
+  "counter_example": "Not example: Designing a new marketing landing page or app visual identity (use anthropic__frontend-design)"
 }

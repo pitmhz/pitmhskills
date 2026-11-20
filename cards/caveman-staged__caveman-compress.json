@@ -1,6 +1,6 @@
 {
   "id": "caveman-staged__caveman-compress",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "local@caveman-compress"
   ],
@@ -20,7 +20,7 @@
     "Tasks unrelated to memory"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Compress a memory file such as CLAUDE.md or a todo list into caveman format to save input tokens, keeping a readable... -> this.",
   "cluster": "memory",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -45,5 +45,21 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\caveman-staged\\caveman-compress\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "This is important because it helps catch bugs early and prevents broken builds from being deployed to production.",
+  "when_to_use": [
+    "Compress a memory file such as CLAUDE.md or a todo list into caveman format to save input tokens, keeping a readable backup. Sends the file's text to the config",
+    "Compress a memory file or todo list into short form to save input tokens",
+    "Shrink an instruction file keeping every heading, path and code block intact"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to memory"
+  ],
+  "provides": [
+    "Purpose",
+    "Trigger",
+    "Process"
+  ],
+  "example": "Example: Compress a memory file such as CLAUDE.md or a todo list into caveman format to save input tokens, ke",
+  "counter_example": "Not example: Tasks unrelated to memory"
 }

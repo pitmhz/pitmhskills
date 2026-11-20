@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "8a275c9be863d698d09f2e59d37513abc61c74c30683e987a654587d178fc5e5",
   "purpose": "Helps with grouping, alignment, reading order, responsive structure and room for translated text, so a layout holds up when it is resized, translated or mirrored.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug"

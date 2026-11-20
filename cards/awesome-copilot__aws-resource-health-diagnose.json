@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "80bb83b79e74c7f4b97994f89e4feb821bb68868e4809dcffbdbc9d2dc3f00cc",
   "purpose": "Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems.",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

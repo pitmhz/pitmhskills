@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "55777fb5cc61744beb2659729a5e913af84983ea00c81cd381b97e1a17647e17",
   "purpose": "Strip a design to its essence. Remove anything that doesn't earn its place: redundant elements, repeated information, decorative noise, cosmetic complexity.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"

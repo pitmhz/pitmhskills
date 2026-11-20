@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "10d1a44a0eb3669b7ec277caa663724bdfc7333099edb778980c571dbf483f5a",
   "purpose": "OKLCH color space for web projects. Convert hex/rgb/hsl to oklch, generate palettes, check contrast, handle gamut boundaries, and theme with Tailwind v4. Triggers on oklch, color conversion, palette g",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "debug",
     "design"

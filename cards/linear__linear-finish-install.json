@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "346798f4eb44059a290b847c29b666f2c327a9441cf396970a074755a6dbe594",
   "purpose": "Finish Linear tracking pack install after skills are present: write always-on rules (Linear = default source of truth every session) and verify Linear MCP auth. Optionally offer Cursor Monitor Automat",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

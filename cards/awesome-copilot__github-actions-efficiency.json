@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "9c41e860468e5c88d83ab6eec70c585b0f122facec2632ea65497b3389139e43",
   "purpose": "Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "review",
     "refactor",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

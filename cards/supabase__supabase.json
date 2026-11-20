@@ -117,5 +117,26 @@
     "supabase db advisors"
   ],
   "skill_path": "skills/supabase/skills/supabase/SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Set up Supabase Auth, CLI, client libs, Edge Functions, Realtime, and Storage for a Supabase project.",
+  "when_to_use": [
+    "Set up Supabase Auth: login, session cookies, JWT claims, getClaims",
+    "Supabase Auth with Row Level Security for multi-tenant data",
+    "Supabase Auth troubleshooting: login failures, session loss, cookie issues, JWT claims",
+    "Fix Supabase login, session cookies, JWT, getClaims in Next.js SSR or any framework",
+    "Working with Supabase Auth (login, JWT, cookies, RLS surprises from auth claims)"
+  ],
+  "when_not_to_use": [
+    "Supabase Postgres schema, queries, indexes, RLS policy SQL -> supabase__supabase-postgres-best-practices",
+    "Plain Postgres SQL rules, schema authoring, or RLS policy writing -> supabase-postgres-best-practices",
+    "UI, design, or frontend work",
+    "GPU, CUDA, or ML model work"
+  ],
+  "provides": [
+    "Core Principles",
+    "Supabase CLI",
+    "Supabase MCP Server"
+  ],
+  "example": "Example: Set up Supabase Auth: login, session cookies, JWT claims, getClaims",
+  "counter_example": "Not example: Supabase Postgres schema, queries, indexes, RLS policy SQL -> supabase__supabase-postgres-best-practices"
 }

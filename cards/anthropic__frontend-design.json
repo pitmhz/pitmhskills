@@ -89,5 +89,23 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "skills/anthropic/skills/frontend-design/SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Build a new landing page, site, or app UI with a distinctive visual identity, type, palette, and layout that fits the brief.",
+  "when_to_use": [
+    "Designing a new landing page, website, or app UI with distinctive visual identity",
+    "Reshaping existing UI: aesthetic direction, typography, palette, layout choices",
+    "Reviewing UI that looks templated or generic and needs opinionated design direction"
+  ],
+  "when_not_to_use": [
+    "Interviewing or sharpening a plan before building (use grill-with-docs)",
+    "Optimizing React render or bundle performance of existing code (use react-best-practices)",
+    "Backend, database, auth, or GPU work"
+  ],
+  "provides": [
+    "Ground your designs in the subject matter",
+    "Design principles",
+    "Process: plan, review against the brief, build, critique"
+  ],
+  "example": "Example: Designing a new landing page, website, or app UI with distinctive visual identity",
+  "counter_example": "Not example: Interviewing or sharpening a plan before building (use grill-with-docs)"
 }

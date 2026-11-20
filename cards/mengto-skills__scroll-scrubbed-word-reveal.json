@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "c3792004c19e12e8f3bc273220e00ff5031484e2134acf5add3ccaaa647a2c5e",
   "purpose": "Reveal marked-up text word by word as scroll progress advances, while preserving semantic inline links, emphasis, responsive line wrapping, and reduced-motion readability. Use for headlines, quotes, m",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "debug"
   ],

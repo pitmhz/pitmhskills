@@ -7,7 +7,7 @@
   "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
   "hash": "e71cd464d98745e8d51a6cc3b59630a34dbd2553e9db9cdf8dc59247abc754f4",
   "purpose": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

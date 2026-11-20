@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "1fb7f4a753fbec72caa9c0d05bcc0ebeac84d21aed29dda2364f8060fd419ef9",
   "purpose": "Use Iconify Simple Icons logos (64x64) instead of text logos.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "c7afb9c4ea22f8d78b6964872551cabda12c7f3755fcae1309c13ae33220da95",
   "purpose": "Create a fixed full-screen WebGL laser background effect with a thin white-hot vertical core, restrained brand-colored halo, and soft smoky fog around the beam. Use only for laser background effects, ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

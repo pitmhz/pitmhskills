@@ -22,7 +22,7 @@
     "Tasks unrelated to frontend"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Create a reviewable GitHub pull request from the current branch with a Conventional Commits title, a concise evidence... -> this.",
   "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -81,5 +81,20 @@
     "rules"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\antfu-create-pr\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\antfu-skills\\skills\\antfu-create-pr\\SKILL.md",
+  "goal": "Create the PR with `gh pr create --title ...",
+  "when_to_use": [
+    "Create a reviewable GitHub pull request from the current branch with a Conventional Commits title, a concise evidence-based body, and before/after screenshots f",
+    "there are real failure modes, migrations, or external effects."
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "Workflow",
+    "Title",
+    "Commits"
+  ],
+  "example": "Example: Create a reviewable GitHub pull request from the current branch with a Conventional Commits title, a",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

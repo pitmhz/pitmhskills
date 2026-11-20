@@ -39,5 +39,21 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "skills/pocock/skills/engineering/grill-with-docs/SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Interview a plan to sharpen scope and produce ADRs and a glossary before any code is written.",
+  "when_to_use": [
+    "Grilling a plan or spec with interview questions before implementing",
+    "Sharpening a design approach through docs-grounded Q&A, producing ADRs",
+    "Aligning with the agent on requirements before code is written"
+  ],
+  "when_not_to_use": [
+    "Doing visual or UI design implementation (use frontend-design)",
+    "Writing code directly without an interview step",
+    "Backend, database, or GPU work"
+  ],
+  "provides": [
+    "grill with docs"
+  ],
+  "example": "Example: Grilling a plan or spec with interview questions before implementing",
+  "counter_example": "Not example: Doing visual or UI design implementation (use frontend-design)"
 }

@@ -1,6 +1,6 @@
 {
   "id": "taste-skill__design-taste-frontend",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "Leonxlnx/taste-skill@f624f37a8c650b9cc550253104925efe4c8de246"
   ],
@@ -162,5 +162,20 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\taste-skill\\skills\\taste-skill\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "It is the art direction for this build: - **Adopt it.** Do not blend it with the layout you would have made anyway.",
+  "when_to_use": [
+    "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of t",
+    "Building a page with taste: art-directed layout without AI slop"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "The run",
+    "House rules",
+    "Laws of the craft"
+  ],
+  "example": "Example: tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 2",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

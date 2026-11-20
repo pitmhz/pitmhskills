@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "87b5f7e4a50e354311aaa04b84e08c1c49e8fa253a70d4747eaca68fdf0cbea6",
   "purpose": "Decide how an existing design system should evolve: reuse a component, add a variant, change its API, or introduce a new pattern. Use when real design or code consumers expose a mismatch and a bounded",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug",

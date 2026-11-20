@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "552cc8c7224f0d68cd9ae1b4778b8da9c5431c9dac2c56e1eccb73c7c647febf",
   "purpose": "Builds multiple variants of a component you're working on and helps you iterate and pick one.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement"

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "ffc9ecadc84bdeaf29c4e5616d497254339e5bad77f05e6c370da569ce9c98c3",
   "purpose": "Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enables users to configure environment prerequisites, create new CDK projects, manage d",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "review",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

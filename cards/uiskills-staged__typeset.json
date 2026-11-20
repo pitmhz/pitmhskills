@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "2e257f1699a437baa4ef516129b2ec9ac08244cff315b5684743be48a287dd96",
   "purpose": "Typography carries information, hierarchy, and voice. Improve it inside the established visual world; do not replace the identity unless the user asked to.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug",

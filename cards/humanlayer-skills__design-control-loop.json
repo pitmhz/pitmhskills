@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "1a9d3ba34f98cfe190ab48b53e310ba51bc9bf9d7db4adbf4418c2b600e92f9b",
   "purpose": "interview the user to design an agentic control loop (sensor, controller, actuator under disturbances) tailored to their codebase, then build it as locally-runnable components plus a scheduled coding-",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",
@@ -22,7 +22,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

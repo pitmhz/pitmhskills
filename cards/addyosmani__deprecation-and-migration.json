@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "6a624f942e09c69863a4219b9bd5d56975026b67b0c70bc83385ffd2120b6142",
   "purpose": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, su",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement",
     "debug",
@@ -21,7 +21,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

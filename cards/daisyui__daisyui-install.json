@@ -1,6 +1,6 @@
 {
   "id": "daisyui__daisyui-install",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "saadeghi/daisyui@bf3bac3a397b543e55641ecb2d60a2ed961f09ec"
   ],
@@ -62,5 +62,19 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\daisyui\\skills\\daisyui\\install\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Installation instructions for daisyUI 5",
+  "when_to_use": [
+    "Installation instructions for daisyUI 5",
+    "Installing and configuring daisyUI 5 in a Tailwind CSS v4 project via npm, CDN, or CSS import"
+  ],
+  "when_not_to_use": [
+    "2. The `tailwind.config.js` file is deprecated in Tailwind CSS v4. Do not use `tailwind.config.js`. If Tailwind CSS v4 is a Node.js dependency, add only `@impor",
+    "4. Install daisyUI as a dependency when possible. If you have a specific reason to use a CDN instead, use the Tailwind CSS and daisyUI CDN files:"
+  ],
+  "provides": [
+    "Install daisyUI 5"
+  ],
+  "example": "Example: Installation instructions for daisyUI 5",
+  "counter_example": "Not example: 2. The `tailwind.config.js` file is deprecated in Tailwind CSS v4. Do not use `tailwind.config.js`. If Tailwind CSS v4 i"
 }

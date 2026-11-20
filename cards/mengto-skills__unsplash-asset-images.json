@@ -20,7 +20,7 @@
     "Tasks unrelated to backend-data"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Use when you need to pick high-quality Unsplash images for product/design assets (avatars, headshots, portraits, larg... -> this.",
   "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -136,5 +136,20 @@
     "each"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\media\\unsplash-asset-images\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\media\\unsplash-asset-images\\SKILL.md",
+  "goal": "https://unsplash.com/photos/mountains-and-a-blue-sky-create-a-picturesque-landscape-fgCR4Yj3CLs 5.",
+  "when_to_use": [
+    "Use when you need to pick high-quality Unsplash images for product/design assets (avatars, headshots, portraits, large website backgrounds, and abstract wallpap",
+    "you need “brand-safe”, non-specific visuals."
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to backend-data"
+  ],
+  "provides": [
+    "Output rule",
+    "License / safety (keep it simple)",
+    "How to deliver the right size + ratio"
+  ],
+  "example": "Example: Use when you need to pick high-quality Unsplash images for product/design assets (avatars, headshots",
+  "counter_example": "Not example: Tasks unrelated to backend-data"
 }

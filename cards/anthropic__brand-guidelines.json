@@ -7,7 +7,7 @@
   "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
   "hash": "a0aa0a21ebf9e8511a045cc234bc839adc2b6706db727add14e9855f242e11a7",
   "purpose": "Applies Anthropics official brand colors and typography to any sort of artifact that may benefit from having Anthropics look-and-feel. Use it when brand colors or style guidelines, visual formatting, ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "design"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

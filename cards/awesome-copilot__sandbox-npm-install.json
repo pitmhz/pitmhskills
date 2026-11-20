@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "efbad94eaadd3b4284dd4fb3e2dfab71e528bcad4dfbfe4dc8c03c34a35439b3",
   "purpose": "Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or update node_modules inside a container where the workspace is mounted via virtiofs. Nat",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

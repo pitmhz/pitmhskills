@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "5f96552e41db945f7672deee9b9aa307eb5b72d950f29a52b87b07114ad95b11",
   "purpose": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "implement",

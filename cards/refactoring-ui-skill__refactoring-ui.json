@@ -1,6 +1,6 @@
 {
   "id": "refactoring-ui-skill__refactoring-ui",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "s0xDk/refactoring-ui-skill@48872143abb0a8feb6d9bf58e222afbd800210b0"
   ],
@@ -147,5 +147,20 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\refactoring-ui-skill\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "A linear \"multiples of 4\" scale fails: it does not help you decide between 120px and 124px.",
+  "when_to_use": [
+    "Design and improve user interfaces using the concrete rules from Refactoring UI (Wathan & Schoger) — constrained spacing/type/color/shadow scales, visual hierar",
+    "Applying Refactoring UI rules: constrained spacing, type, color and shadow scales, for pages and settings screens"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "The systems — use these, do not re-derive them",
+    "The procedure",
+    "Hierarchy — the technique that does the most work"
+  ],
+  "example": "Example: Design and improve user interfaces using the concrete rules from Refactoring UI (Wathan & Schoger) —",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

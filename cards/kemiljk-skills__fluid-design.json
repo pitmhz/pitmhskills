@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "5786999feb4d4edc303e081949eb246eac3c6c0b51a9d601d1cf9359019de3d3",
   "purpose": "Design or refine springs, gestures, and interruptible motion when physical continuity or direct manipulation matters.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug",

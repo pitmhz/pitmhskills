@@ -1,6 +1,6 @@
 {
   "id": "web-animation__60fps-animation",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "iart-ai/web-animation-skills@b6dba3eb759726845a44163ff0bad70dd9e7fbb6"
   ],
@@ -157,5 +157,20 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\web-animation\\skills\\60fps-animation\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Use `interpolate-size: allow-keywords` / `calc-size(auto, size)` where the target browsers support it; keep the grid technique as the cross-browser default.",
+  "when_to_use": [
+    "This skill should be used when the user asks to \"fix janky CSS animation\", \"make animation 60fps\", \"stop layout thrashing\", \"animate width/height/top/left smoot",
+    "Making web animations hit 60fps and stopping layout thrashing"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to frontend"
+  ],
+  "provides": [
+    "When to use",
+    "Core rule: animate only transform and opacity",
+    "Cheap box-shadow via pseudo-element opacity"
+  ],
+  "example": "Example: This skill should be used when the user asks to \"fix janky CSS animation\", \"make animation 60fps\", \"",
+  "counter_example": "Not example: Tasks unrelated to frontend"
 }

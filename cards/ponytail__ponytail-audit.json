@@ -1,6 +1,6 @@
 {
   "id": "ponytail__ponytail-audit",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "DietrichGebert/ponytail@2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
   ],
@@ -72,5 +72,24 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\ponytail\\skills\\ponytail-audit\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Whole-repo quality audit: bugs, security holes, what breaks under real load, risky code without tests, slow paths, and what to delete, merge or split. Ranked findings, each with the smallest fix. One-",
+  "when_to_use": [
+    "Auditing a whole repo or package for bugs, bloat, and risk, ranked by what to fix first",
+    "Asking what can be deleted, merged, or split across the codebase",
+    "Inheriting a codebase and needing the senior-dev once-over",
+    "Whole-repo quality audit: bugs, security holes, what breaks under real load, risky code without tests, slow paths, and what to delete, merge or split. Ranked fi"
+  ],
+  "when_not_to_use": [
+    "Reviewing one change or diff rather than the whole repo (use ponytail-review)",
+    "Standards or spec conformance checks (use code-review)",
+    "Writing or editing code (use ponytail)"
+  ],
+  "provides": [
+    "1. Map first",
+    "2. Look for",
+    "3. Check before you report"
+  ],
+  "example": "Example: Auditing a whole repo or package for bugs, bloat, and risk, ranked by what to fix first",
+  "counter_example": "Not example: Reviewing one change or diff rather than the whole repo (use ponytail-review)"
 }

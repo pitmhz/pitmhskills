@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "2a495c795baee0b49bc2b72633e61222eaa116013ac555ec379fe0d10c4ac294",
   "purpose": "Draws flat vector illustrations as SVG cards (480x360): slim, long-limbed people acting out one design or coding moment with one hero prop. Identified by no outlines on big shapes, thin white fold str",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

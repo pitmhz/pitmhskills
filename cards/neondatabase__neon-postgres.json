@@ -241,5 +241,27 @@
     "rtk test -- bun run test"
   ],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\neondatabase\\plugins\\neon-postgres\\skills\\neon-postgres\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "Build schema, queries, RLS policies, indexes, and connection pooling for Neon Postgres with correct Neon-native habits.",
+  "when_to_use": [
+    "Neon Postgres RLS policies for multi-tenant isolation (Neon-native, not Supabase)",
+    "Configure Row Level Security policies in Neon Postgres for org-level data isolation",
+    "Write RLS policies for multi-tenant isolation in Neon Postgres",
+    "Core Neon Postgres: schema design, query optimization, indexing, connection pooling",
+    "General Postgres tasks on Neon: migrations, performance tuning, EXPLAIN analysis"
+  ],
+  "when_not_to_use": [
+    "Supabase platform Auth -> supabase__supabase",
+    "Supabase Auth (JWT, getClaims, cookies) -> supabase__supabase-postgres-best-practices",
+    "Supabase platform (Auth, Realtime, Storage, CLI) -> supabase__supabase or supabase__supabase-postgres-best-practices",
+    "Supabase RLS policies (Auth-integrated) -> supabase__supabase-postgres-best-practices",
+    "Supabase platform (Auth, Storage, Realtime, CLI) -> supabase__supabase"
+  ],
+  "provides": [
+    "Setup Flow",
+    "1. Select the organization and project",
+    "2. Get the connection string"
+  ],
+  "example": "Example: Neon Postgres RLS policies for multi-tenant isolation (Neon-native, not Supabase)",
+  "counter_example": "Not example: Supabase platform Auth -> supabase__supabase"
 }

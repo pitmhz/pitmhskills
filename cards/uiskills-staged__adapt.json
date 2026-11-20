@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "hash": "b99fd1fca1be50491cb002c3db47ce643b028385ff5dcc7d65952c5e8521d94a",
   "purpose": "Adapt an existing design to a different context: another screen size, device, platform, or use case. The trap is treating adaptation as scaling. The job is rethinking the experience for the new contex",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "debug",

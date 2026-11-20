@@ -188,5 +188,20 @@
     "rules"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\cinematic-gsap-lenis-motion-system\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\cinematic-gsap-lenis-motion-system\\SKILL.md",
+  "goal": "Create premium cinematic web motion systems with GSAP, ScrollTrigger, and Lenis. Use for luxury editorial websites, creative studio portfolios, Awwwards-style interactions, smooth scroll reveals, stag",
+  "when_to_use": [
+    "Create premium cinematic web motion systems with GSAP, ScrollTrigger, and Lenis. Use for luxury editorial websites, creative studio portfolios, Awwwards-style i",
+    "page transitions before initializing the next route."
+  ],
+  "when_not_to_use": [
+    "Use speed differences instead of dramatic movement. Backgrounds move slower than content. Foreground accents move slightly faster."
+  ],
+  "provides": [
+    "Use When",
+    "Motion Taste",
+    "Base Tokens"
+  ],
+  "example": "Example: Create premium cinematic web motion systems with GSAP, ScrollTrigger, and Lenis. Use for luxury edit",
+  "counter_example": "Avoid:"
 }

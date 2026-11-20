@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "98b7cd96b68368cb112169256f60acface9529edc7e8a8b62941df351a77442c",
   "purpose": "Draws original hand-written SVG spot illustrations in the One-line style, joyful action figures doing design and coding work. One continuous uniform black line (2.3 px at 480 wide) loops and doubles b",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

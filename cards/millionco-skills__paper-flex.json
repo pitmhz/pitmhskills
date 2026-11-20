@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "c456ce4ca9ddd4d7b3f26e6898595643d8048e20ffa8c5908a7df0cfa1a94d9d",
   "purpose": "Use when converting Paper canvas or design nodes from absolute positioning to flex or auto-layout. Covers Paper MCP absolute-to-flex restructuring, x-paper-clone preservation, clone z-order, computed ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

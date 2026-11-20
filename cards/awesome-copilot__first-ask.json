@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "cb38b8e48917ba6e0480f4c2e6993fca24491603046f653ef244d3e8a915f1e1",
   "purpose": "Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carrying out the task; Requires the Joyride extension.",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

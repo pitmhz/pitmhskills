@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "b5186baa73212e1df8f078baca735f24ad65aaee1dd39d3f57e0340c9df2a503",
   "purpose": "Create a corner-anchored laser composition with thin beams, a bright emitter node, bloom, and atmospheric glow or fog.",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "d27f8311b57d02dedd48a0d563be0964dc458578e4de51b4730516b4e8083829",
   "purpose": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "refactor",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

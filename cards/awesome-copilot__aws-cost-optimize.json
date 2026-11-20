@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "e289482d227558774a220b79cf00c03340d1d35b3ffc2a4703659dd67a719e4d",
   "purpose": "Analyze AWS resources used in the app (IaC files and/or resources in a target account/region) and optimize costs - creating GitHub issues for identified optimizations.",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "refactor",
     "implement"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

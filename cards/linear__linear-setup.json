@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "2c771b871cfc4dac58d43b27096eac0b84798a8cd847393514a9194203be363d",
   "purpose": "Bootstrap or extend Linear project tracking the right way — methodology, not API CRUD. Use when the user asks to set up Linear tracking, track this project in Linear, add this repo to Linear, backfill",
-  "domain": "general",
+  "domain": "workflow",
   "task_types": [
     "implement"
   ],
@@ -19,7 +19,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "workflow",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

@@ -7,7 +7,7 @@
   "license": "Apache-2.0 (see LICENSE.txt in skill dir)",
   "hash": "365803356b14e83b1062157d471a28b69672874997fc2bf8fe12a918f042d58a",
   "purpose": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document ",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

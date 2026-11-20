@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "140bbec3553aef036a5e48c2bceae07343c6bedcdc0f7648e1a8a912f1598952",
   "purpose": "Draws hand-authored SVG spot illustrations in a bold pop-geometric style for design and coding scenes. Identifying traits: a thick navy outline on every shape, solid navy extrusions that always step d",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "implement",
     "design"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

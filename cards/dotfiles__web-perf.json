@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "58393523d9c493ee68df43a695c5e04fd4c9fb702a3ad9c36cea68e526fb8318",
   "purpose": "Diagnose page-load and interaction performance using browser traces, network evidence, and source code. Use for site-speed, Lighthouse, Core Web Vitals, or layout-shift investigations; a general acces",
-  "domain": "general",
+  "domain": "frontend",
   "task_types": [
     "review",
     "refactor",
@@ -22,7 +22,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "frontend",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

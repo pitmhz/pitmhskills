@@ -7,7 +7,7 @@
   "license": "MIT",
   "hash": "462c67ae7d4a389f9efb3ad9c25bb6b329277ce6001059cd3a4b32af8e377af2",
   "purpose": "Create and synchronize prompt-based AI agents directly within Azure AI Foundry via REST API, from a local JSON manifest. Unlike scaffolding skills that only generate local code, this skill registers a",
-  "domain": "general",
+  "domain": "backend-data",
   "task_types": [
     "implement",
     "debug"
@@ -20,7 +20,7 @@
   ],
   "scope": "Only touch files the task names; everything else read-only.",
   "disambiguator": "",
-  "cluster": "general",
+  "cluster": "backend-data",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
   "pairs_with": null,

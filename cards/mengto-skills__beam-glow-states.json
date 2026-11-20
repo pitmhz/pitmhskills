@@ -19,7 +19,7 @@
     "Tasks unrelated to cloudflare-edge"
   ],
   "scope": "Only touch files the task names; everything else read-only.",
-  "disambiguator": "",
+  "disambiguator": "Create React loading, processing, selected, current, focus, and pressed states with the border-beam package's animate... -> this.",
   "cluster": "cloudflare-edge",
   "cluster_role": "primary",
   "pick_over_primary_when": null,
@@ -138,5 +138,20 @@
     "respect"
   ],
   "verify": [],
-  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\beam-glow-states\\SKILL.md"
+  "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\mengto-skills\\agent-skills\\web-design\\beam-glow-states\\SKILL.md",
+  "goal": "A small child inside a stretched wrapper produces a beam around empty space.",
+  "when_to_use": [
+    "Create React loading, processing, selected, current, focus, and pressed states with the border-beam package's animated edge glow. Use when a card, button, input",
+    "the component is offscreen."
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to cloudflare-edge"
+  ],
+  "provides": [
+    "Install and import",
+    "Choose the effect",
+    "Start with one mounted wrapper"
+  ],
+  "example": "Example: Create React loading, processing, selected, current, focus, and pressed states with the border-beam ",
+  "counter_example": "Not example: Tasks unrelated to cloudflare-edge"
 }

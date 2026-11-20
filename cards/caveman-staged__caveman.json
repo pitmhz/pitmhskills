@@ -1,6 +1,6 @@
 {
   "id": "caveman-staged__caveman",
-  "tier": "B",
+  "tier": "A",
   "origin": [
     "local@caveman"
   ],
@@ -48,5 +48,21 @@
   ],
   "verify": [],
   "skill_path": "C:\\Users\\Mattchine\\pitmhskills\\skills\\caveman-staged\\caveman\\SKILL.md",
-  "curated": true
+  "curated": true,
+  "goal": "\"Sure, I'd be happy to help\" is ten tokens.",
+  "when_to_use": [
+    "Terse caveman voice: answer first, fluff gone, every technical fact kept. Use for /caveman, \"caveman mode\", \"talk like caveman\", \"be brief\", \"less tokens\". Stay",
+    "Answering in caveman voice: answer first, no fluff, every technical fact kept",
+    "Replying tersely and briefly to save output tokens"
+  ],
+  "when_not_to_use": [
+    "Tasks unrelated to general"
+  ],
+  "provides": [
+    "Persistence",
+    "Rules",
+    "When to break the rules"
+  ],
+  "example": "Example: Terse caveman voice: answer first, fluff gone, every technical fact kept. Use for /caveman, \"caveman",
+  "counter_example": "Not example: Tasks unrelated to general"
 }
