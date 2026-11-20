@@ -1,0 +1,53 @@
+# Paraphrase set: same intent, different words from tune. Short natural forms.
+# Three known verbose failures use shorter paraphrases, not exact verbose copies,
+# because the long forms score below the floor or lose to a close rival.
+- task: "Use persistent memory to remember our architecture decisions across sessions"
+  expect: local__cavemem
+- task: "Stealth scrape this JavaScript-heavy pricing page and pull the text"
+  expect: local__obscura
+- task: "Generate an interactive wizard that walks a human through onboarding steps"
+  expect: pocock__wizard
+- task: "Our Neon query is slow, can you show EXPLAIN and add the missing index"
+  expect: neondatabase__neon-postgres
+- task: "Interview me with tough questions on my migration plan before I code it"
+  expect: pocock__grill-with-docs
+- task: "Build a dense desktop dashboard layout that adapts to sidebar width with WCAG text"
+  expect: local__desktop-dashboard-ui
+- task: "Which registered skill fits this task?"
+  expect: local__skill-router
+- task: "Discover skills for PDFs to install"
+  expect: local__skill-finder
+- task: "Store my user preferences so I keep them across sessions"
+  expect: local__cavemem
+- task: "Ponytail this helper: cut it down to the minimum that works"
+  expect: ponytail__ponytail
+- task: "Spin up a Neon branch for preview deploys"
+  expect: neondatabase__neon-postgres-branches
+- task: "Cut Neon egress costs for our read-heavy analytics"
+  expect: neondatabase__neon-postgres-egress-optimizer
+- task: "Set up Neon AI Gateway with pgvector for similarity search"
+  expect: neondatabase__neon-ai-gateway
+- task: "Write a CUDA-Q circuit for chemistry simulation using the guide"
+  expect: nvidia__cudaq-guide
+- task: "Build a SaaS pricing page with tier comparison"
+  expect: mengto-skills__pricing-page
+- task: "Design a SaaS landing page with clear offer and pacing"
+  expect: mengto-skills__landing-page
+- task: "Design a distinctive landing page with a clear visual identity"
+  expect: anthropic__frontend-design
+- task: "Make a static poster PNG from a design movement with minimal text"
+  expect: anthropic__canvas-design
+- task: "Generate a Playwright test for checkout"
+  expect: awesome-copilot__playwright-generate-test
+- task: "Make a git commit message for these changes"
+  expect: awesome-copilot__git-commit
+- task: "Add row level security so tenants only see their own rows in Supabase Postgres"
+  expect: supabase__supabase-postgres-best-practices
+- task: "Check this branch against our coding standards and the spec"
+  expect: pocock__code-review
+- task: "Add hover and press micro interactions to controls"
+  expect: web-animation__micro-interaction
+- task: "Fix a typo in this file"
+  expect: NONE
+- task: "Adjust fuel pressure on this diesel pump"
+  expect: NONE

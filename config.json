@@ -1,10 +1,28 @@
 {
-  "floor": 60,
-  "margin": 10,
-  "pick_floor": 80,
-  "top_k_retrieve": 12,
-  "max_bytes": 20480,
-  "avg_bytes_target": 12288,
-  "max_skills_per_task": 2,
-  "db_path": "pitmhskills.db"
+    "floor":  45,
+    "margin":  15,
+    "pick_floor":  80,
+    "near_floor":  27,
+    "ask_min_margin":  0,
+    "match_trim":  "known",
+    "top_k_retrieve":  12,
+    "score_pool":  40,
+    "query_terms":  12,
+    "max_per_cluster":  8,
+    "weights":  {
+                    "bm25":  0.45,
+                    "cover":  0.4,
+                    "vec":  0.05,
+                    "unknown":  1,
+                    "variant_unclaimed":  0,
+                    "rare_match":  0,
+                    "rare_df":  2,
+                    "position_decay":  0.6
+                },
+    "council_size":  4,
+    "max_bytes":  20480,
+    "avg_bytes_target":  12288,
+    "max_skills_per_task":  2,
+    "db_path":  "pitmhskills.db",
+    "fitted_at":  "2026-11-10"
 }

@@ -1,0 +1,71 @@
+id,severity,status,area,confidence,phase,found_by,title,files,measurement
+AUD-BEN-002,P0,open,scoring,measured,3,bench,"pick_floor of 80 is unreachable for long prompts, so a correct first candidate becomes ASK",src/decide.ts;config.json,"correct first candidate that became ASK=19 cases, plus 16 more that fell under the floor"
+AUD-BEN-003,P0,open,retrieval,measured,3,bench,Retrieval drops the correct card on long text before the scorer can see it,src/retrieve.ts;src/scoring.ts;src/lexicon.ts,"expected card in the top three=70.3 percent at 60 to 79 words, 33.3 percent at 120 words and above"
+AUD-DLV-001,P0,open,delivery,confirmed,3,probe,Section packer scores only the first 400 bytes of a section,src/deliver.ts,more relevant section dropped than delivered=10 of 11 clipped cases
+AUD-DLV-002,P0,open,delivery,confirmed,3,probe,Oversized top section is skipped instead of truncated,src/deliver.ts,cases where the top scoring section was absent from the body=9 of 12 cards
+AUD-DLV-003,P0,open,delivery,measured,3,probe,Delivered body is never usable without a second fetch,src/deliver.ts;src/deliver-cap.ts,usable as is=0 of 15
+AUD-DLV-004,P0,open,delivery,measured,3,probe,Confidence does not predict body quality,src/deliver.ts;src/route.ts,high confidence but unusable body=5 of 5
+AUD-INT-002,P0,open,cards,confirmed,3,integration,Seven card fields are written and never read,src/db.ts;src/index.ts;src/lexicon.ts;src/deliver.ts;src/scoring.ts;src/gate.ts,"card fields with no reader=7 fields, 2 of them lost at the database boundary"
+AUD-RET-001,P0,open,retrieval,confirmed,2,review,The Card v2 fields never reach the retriever,src/db.ts;src/index.ts;src/scoring.ts,terms added to the library and never indexed=about 26000 keyword terms across 2176 cards
+AUD-RET-002,P0,open,retrieval,measured,2,review,Generic word mass pushes the right card out of the shortlist,src/lexicon-stats.ts;src/scoring.ts,"tier A self route after padding=70 of 70 short, 49 of 70 padded, 13 failures with the right card at rank one and 8 with it missing from the top three"
+AUD-RTE-002,P0,open,retrieval,measured,3,corpora,Expected card is often not retrieved at all on long text,src/retrieve.ts;src/scoring.ts,abstain rate on long corpora=30 of 40 per corpus
+AUD-SCR-004,P0,open,scoring,measured,3,review,"The cover denominator is length dependent, so the right card scores below the floor on long prompts",src/scoring.ts;src/scoring-types.ts;src/weights.ts,"cover and intent cover for candidate 1, right card against wrong card=cover: 0.904 against 0.000 on tune, 0.215 against 0.113 on long-d. intent cover: 0.875 against 0.000 on tune, 0.273 against 0.091 on long-d"
+AUD-BEN-001,P0,fixed,bench,measured,3,bench,Router picks the right skill on 1 of 80 realistic long prompts,src/decide.ts;config.json,"committed correct on the long corpora=1 of 70 before, 18 of 70 after, with a measured ceiling of 20"
+AUD-RET-003,P0,fixed,retrieval,measured,2,review,The query trim prefers the noise because rare and unknown words outrank the intent,src/retrieve.ts;src/route.ts;config.json,"long corpus commits under each trim rule=known 22 commits, rare 19 commits, both with 1 wrong"
+AUD-RTE-001,P0,fixed,router,confirmed,3,probe,Every ABSTAIN with any candidate row forces a council,src/route.ts;src/route-abstain.ts;config.json,"false blocks on out of scope tasks=0 of 10 in the bench, down from a forced council on every one"
+AUD-SEC-001,P0,fixed,enforcement,confirmed,1,audit,get_ref allowed path escapes,src/serve.ts;src/serve-ref.ts,
+AUD-ANA-001,P1,open,analytics,measured,3,probe,Acceptance rate is polluted by harness sessions,src/analytics-agg.ts,window acceptance versus live slice acceptance=1.9 percent versus 100 percent
+AUD-ANA-002,P1,open,analytics,confirmed,3,analytics,Harness runs write offer rows into the live analytics table,src/analytics.ts;src/analytics-agg.ts;src/route.ts,"offer rows written by one eval run=438 skill_offers rows plus 173 route_logs rows, because the offer writer ignores the log flag"
+AUD-BEN-004,P1,open,scoring,measured,3,bench,The abstain floor of 45 is wrong for long prompts,src/decide.ts;config.json,"correct first candidate below the floor=16 cases, scores 27 to 44"
+AUD-BEN-008,P1,open,bench,measured,0,review,One of seven long corpus cases carries a wrong or arbitrary label,evals/golden-long-digital-product.yaml;evals/golden-long-cybersec.yaml;src/bench.ts,"cases whose expected card has lower lexical overlap than the router's choice=11 of 70, 15.7 percent"
+AUD-BEN-009,P1,open,bench,measured,1,review,The safety property was never actually tested,src/bench.ts,picks made=1 of 80 cases
+AUD-CRD-002,P1,open,cards,confirmed,3,audit,do_not_use_when was a generic template string for nearly every card,src/cardtext.ts;src/card.ts,
+AUD-EVL-003,P1,open,eval,confirmed,1,review,"The eval top1 metric measures surfacing, not commitment",src/eval.ts;src/bench.ts,"tune top1 before the threshold work, and committed picks over the same cases=97.8 percent top1 against 1 committed pick in 80"
+AUD-EVL-004,P1,open,eval,confirmed,1,review,The eval metric treats a routed ASK as a hit and a NONE ASK as a miss,src/eval.ts,"eval strata after an ask_min_margin of 3=tune 96.7, heldout 94.4, verbose 92.9, paraphrase 96.0 against a baseline of 97.8, 97.2, 92.9 and 100"
+AUD-INT-001,P1,open,enforcement,confirmed,3,integration,"The whole module graph is wired, but the enforcement module is not",src/harness.ts;src/serve.ts;AGENTS.md,"reachable modules=51 of 64, with harness.ts the only fully dead module"
+AUD-INT-003,P1,open,council,confirmed,3,integration,A critic verdict overwrites the specialist verdict for the same skill,src/council-store.ts;src/council.ts;src/council-compose.ts,notes keyed by skill id only=1 key for 2 roles
+AUD-RTE-003,P1,open,scoring,measured,3,corpora,Right card is top ranked but scores under the floor,src/decide.ts;config.json,expected card rank when not picked=rank 1 in the false abstain cases
+AUD-RTE-004,P1,open,analytics,confirmed,3,probe,"ASK outcome never takes the session lock, so no usage row is written",src/serve.ts;src/session.ts,usage rows from an ASK only probe run=0 of 5 ASK outcomes
+AUD-BEN-010,P1,fixed,bench,measured,1,review,The threshold work has a measured ceiling of twenty of seventy,src/decide.ts;config.json,"correct and wrong commits by margin=margin 10 gives 19 and 4, margin 15 gives 18 and 1, margin 18 gives 15 and 1"
+AUD-CNC-001,P1,fixed,council,confirmed,7,audit,Council spawn count exceeded the parallel limit,src/council.ts;src/council-types.ts,
+AUD-CNC-002,P1,fixed,council,confirmed,7,audit,Compose re-scored the shortlist instead of using the opened state,src/council.ts;src/council-compose.ts;src/council-store.ts,
+AUD-CNC-003,P1,fixed,council,confirmed,7,audit,Expiring deliberations were never cleaned,src/council-store.ts;src/route.ts;src/council-compose.ts;src/serve.ts,
+AUD-CRD-001,P1,fixed,cards,confirmed,3,audit,Card purpose was a 200 character description slice,src/types.ts;src/card.ts;src/db.ts;src/index.ts,
+AUD-CRD-005,P1,fixed,cards,measured,4,audit,Tier meant nothing because 91 percent of cards were tier B,cards/,"tier A count=20 before, 70 after"
+AUD-ENF-001,P1,fixed,enforcement,confirmed,8,audit,The no direct scan rule was advisory only,harness-manifest.json;src/harness.ts;src/route.ts;src/types.ts,
+AUD-EVL-001,P1,fixed,eval,measured,2,audit,Eval set was fitted to short prompts,src/eval.ts;evals/golden-paraphrase.yaml;evals/golden-adversarial.yaml;evals/golden-verbose.yaml,"verbose top1=71.4 percent before, 92.9 percent after"
+AUD-RET-006,P1,accepted,retrieval,measured,2,review,The two trim rules trade long-prompt coverage against one verbose case,config.json;src/retrieve.ts;src/route.ts,"long corpus hits and commits under each trim rule=known 33 hits and 22 commits, rare 30 hits and 19 commits, both with 1 wrong commit"
+AUD-SCR-001,P1,fixed,scoring,measured,5,audit,Unknown query words counted against a card at full strength,src/scoring.ts;src/retrieve.ts;src/lexicon.ts,"verbose top1=71.4 percent before, 92.9 percent after"
+AUD-CRD-003,P2,open,cards,confirmed,3,audit,requires was empty for every templated card,src/cardtext.ts;src/card.ts,
+AUD-DLV-005,P2,open,delivery,confirmed,3,probe,MORE line names at most five dropped sections,src/deliver.ts,
+AUD-DLV-006,P2,open,cards,confirmed,3,probe,Card metadata disagrees with the file on disk,src/deliver.ts;src/card.ts,cards with core_bytes off by more than 200 bytes=2
+AUD-EVL-002,P2,open,eval,measured,3,audit,None precision on the tune set was 66.7 percent,src/scoring.ts;src/collapse.ts,tune none precision=66.7 percent
+AUD-INT-004,P2,open,router,confirmed,3,integration,The weights option on routeWith has no effect,src/route.ts,
+AUD-INT-005,P2,open,router,confirmed,3,integration,The locked flag reports true when locking is off,src/route.ts,
+AUD-INT-006,P2,open,council,confirmed,3,integration,Compose does not lock the skill it chose,src/council-compose.ts;src/session.ts,
+AUD-INT-007,P2,open,scoring,confirmed,3,integration,The scoring arm ignores the configured query term count,src/scoring.ts;src/decide.ts;src/route.ts,
+AUD-INT-008,P2,open,router,confirmed,3,integration,The card cache stays stale after an in place card edit,src/retrieve-cache.ts,
+AUD-INT-009,P2,open,delivery,confirmed,3,integration,Relative skill paths resolve against the server working directory,src/deliver.ts;src/serve-ref.ts;src/card.ts,cards with a relative skill path=about 380 of 2176
+AUD-INT-010,P2,open,enforcement,confirmed,3,integration,"The phase gate runs in the server working directory, not the task repository",src/serve.ts;src/session.ts,
+AUD-INT-012,P2,open,process,confirmed,3,integration,Four config keys are never read and three are hardcoded elsewhere,config.json;src/db.ts;src/route.ts;src/retrieve.ts;src/scoring.ts;src/collapse.ts;src/council-compose.ts,
+AUD-INT-013,P2,open,process,measured,3,integration,The test runner collects the vendored skill packages,package.json;README.md;AGENTS.md,failures reported by the unscoped run against the scoped run=331 failures against 2
+AUD-OPT-001,P2,open,router,confirmed,1,audit,Card and vector caches were keyed on row count only,src/retrieve-cache.ts,
+AUD-SCR-003,P2,open,scoring,measured,2,review,The generic word list almost never fires because the corpus is too large for the cut,src/lexicon.ts;src/lexicon-stats.ts,"terms inside the generic cut=12 of 7036, with a cut at document frequency 391"
+AUD-BEN-005,P2,fixed,router,measured,3,bench,The router never commits to a wrong card on the long corpora,src/bench.ts,wrong commits and false picks after the threshold work=1 of 70 wrong commits and 0 of 10 false picks
+AUD-CNC-004,P2,fixed,delivery,confirmed,6,audit,Council and router delivered different body sizes for the same skill,src/deliver.ts;src/route.ts;src/council.ts;src/council-compose.ts,
+AUD-CRD-004,P2,fixed,cards,measured,4,audit,One domain held 39 percent of the routable library,cards/;src/cardtext.ts,"largest domain share of tier A plus B=39 percent before, 24.7 percent after"
+AUD-DEC-001,P2,fixed,router,confirmed,1,audit,pick_floor was dead code,src/decide.ts,
+AUD-DLV-007,P2,reported,cards,reported,3,probe,Some cards carry install instructions instead of a method,src/card.ts;cards/,"cards with install-first source=claimed 150 of 2176, not reproduced"
+AUD-ENF-002,P2,fixed,enforcement,confirmed,8,audit,The phase gate ran a vacuous slop scan,src/serve.ts,
+AUD-OPT-002,P2,fixed,council,confirmed,7,audit,Council notes were written without a transaction,src/council.ts;src/council-store.ts,
+AUD-OPT-003,P2,fixed,process,confirmed,9,audit,Source files grew past the two hundred line limit,src/eval-parsers.ts;src/retrieve-cache.ts;src/lexicon-synonyms.ts;src/serve-ref.ts,
+AUD-RET-004,P2,accepted,retrieval,measured,2,review,A deeper retrieval pool buys correct commits until it starts buying wrong ones,config.json,"hits and picks at pool 40, 60 and 80=201 hits and 138 picks at every setting"
+AUD-RTE-005,P2,fixed,enforcement,confirmed,3,audit,"Session lock is advisory, not enforced",src/route.ts,
+AUD-RTE-006,P2,fixed,council,reported,3,audit,ASK outcome carries no council hint,src/route.ts,
+AUD-TST-001,P2,accepted,eval,measured,5,audit,Two decide tests expect PICK but the router now asks,tests/decide.test.ts,
+AUD-BEN-007,P3,open,process,measured,3,bench,The corpora notes file holds stale router numbers,evals/long-corpora-notes.md,
+AUD-INT-011,P3,open,router,confirmed,3,integration,Phase detection routes with the default session and takes the lock,src/plan.ts;src/route.ts,
+AUD-TST-002,P3,open,cards,measured,0,audit,One card is stale against its upstream file,cards/local__tldraw-offline.json,
+AUD-BEN-006,P3,accepted,router,measured,3,bench,The router is deterministic and order independent,src/bench.ts,determinism mismatches=0 of 80 in both directions
+AUD-RET-007,P3,fixed,retrieval,measured,2,review,The retrieval pool size no longer changes any outcome,config.json,"hits, picks and wrong commits at three pool settings=201, 138 and 1 at every setting, with p50 latency 248, 309 and 285 ms"
+AUD-SCR-002,P3,accepted,scoring,confirmed,5,audit,Three signals ship disabled,src/weights.ts,

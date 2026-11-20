@@ -1,0 +1,160 @@
+# Long, detailed cybersecurity prompts.
+#
+# Realistic security engineering work: dependency pinning, secret handling, OAuth
+# scopes, row level security, threat models, incident reviews and compliance.
+# 40 cases: 34 routed, 6 NONE. 6 of the routed cases are near-miss cases where a
+# second skill looks plausible but one card is clearly right.
+#
+# `expect_any` is optional. It lists the cards that also answer the task when the
+# library holds real rivals. The bench counts a pick of one of them as a hit and
+# reports it apart (hitByAlternate). Label version: labels-v2.
+# See docs/audit/labels-review.md for the review that set it.
+- task: 'Do a full threat model of our webhook intake service. It receives events from about forty partner systems, authenticates them with shared secrets and shared HMAC keys, and writes them into a Postgres table that another service then reads. I want the complete analysis with the architecture diagram, the trust boundaries, every asset worth attacking and the abuse cases for each one. Go through all six categories so nothing is skipped: spoofing, tampering, repudiation, information disclosure, denial of service and elevation of privilege. Include the mitigations you would ship and rank them so we know what to do first, and say which assumptions about the partners we are trusting without any evidence.'
+  expect: awesome-copilot__threat-model-analyst
+  category: threat-model
+  stack: [node, postgres]
+- task: 'Threat model our new document sharing feature before we ship it. Users can upload a file, share a link with an expiry, and the viewer renders the file in the browser. Keep it concise and grounded in the actual repository code: list the assets, the attacker capabilities, the trust boundaries, the realistic abuse paths and the mitigations, and write it up as a short document the team will actually read.'
+  expect: openai__security-threat-model
+  category: threat-model
+  stack: [next, typescript]
+- task: 'Our security team uses the Microsoft Threat Modeling Tool and wants the model for our customer identity service delivered as a file they can open. I need a valid file the tool accepts, with the right processes, data stores, external entities and trust boundaries around the login, the session service and the email verification flow. Tell me how to open it.'
+  expect: awesome-copilot__tm7-threat-model
+  category: threat-model
+- task: 'We ship internal plugins that other teams install, and one of them was edited by somebody without commit access last month. I need the supply chain integrity of our plugins and dependencies verified: an integrity manifest with hashes and a software bill of materials, a check that runs before a plugin is loaded, and a documented way to tell whether a dependency was tampered with. Include how to handle the case where the published tarball differs from the source we built, what we do about the plugin that was already edited, and how the manifest is signed so a reviewer can confirm it came from us and not from an attacker with a stolen publishing key. The plugins run with access to our internal network, so the check has to happen before load, not after.'
+  expect: awesome-copilot__agent-supply-chain
+  category: dependency
+  stack: [npm]
+- task: 'Our dependencies are drifting and the security alerts arrive too late. Set up Dependabot for this repository properly: the update schedule for each ecosystem we use, how many updates can be grouped together, where the alerts should go, and the labels that separate a routine bump from something that needs a person. Also tell me how to stop it opening noisy pull requests for the packages we have decided to hold back.'
+  expect: awesome-copilot__dependabot
+  category: dependency
+  stack: [github-actions, npm]
+- task: 'Installing packages in our build container has started failing and I do not want to debug it on the machine that runs it. Install and update the node packages inside a Docker sandbox instead, so the install scripts run in an environment we throw away afterwards. Show me the sandbox setup, the commands to install a package and to rebuild the whole tree, and how to capture the error output when an install fails.'
+  expect: awesome-copilot__sandbox-npm-install
+  category: dependency
+  stack: [docker, npm]
+- task: 'Our continuous integration caches the npm token and the build agents reuse it across jobs, and I am worried a credential is sitting in the history. Set up secret scanning and push protection for this repository, add custom patterns for the internal token formats we use, and explain how to handle an alert once it fires. I need to know which existing commits are affected and how to purge them, not only how to block new ones.'
+  expect: awesome-copilot__secret-scanning
+  category: secrets
+  stack: [github-actions, git]
+- task: 'We want our evaluation tool to read provider keys from our own key vault instead of every person pasting a key into the dashboard, and then share those integrations across the teams that run evaluations. Set that up: the provider integrations, where the credentials live, and how the different teams get access without ever seeing the raw key. Keep the existing integrations working and tell me what breaks when a key is rotated.'
+  expect: awesome-copilot__arize-ai-provider-integration
+  category: secrets
+  stack: [python]
+- task: 'Our session handling is wrong in two ways: the access token never seems to expire in the client, and the storage bucket that holds invoices can be read by anybody who has the link. I need the auth side fixed properly: the token expiry, the OAuth scopes we grant on connect, how the session is read on the server with getClaims, the cookie settings, and a storage policy that only lets the owner of an invoice read it. Show me the policies and the configuration.'
+  expect: supabase__supabase
+  category: auth
+  stack: [supabase, next]
+- task: 'I am adding login to a brand new application and want it done once, properly, with sign up, sign in and password reset, and the right routing so each user only ever sees their own data. Set up the managed auth for this project, map the identity claims and explain how the session is checked on the server side. Include what has to be switched on in the dashboard before the code works at all.'
+  expect: neondatabase__neon-auth
+  category: auth
+  stack: [next, neon]
+- task: 'Our sign in endpoint has had a security review request from the compliance team. Please review the authentication and session handling code in this repository against current best practices for the framework we use, and tell me what to change: password storage and the reset flow, token lifetime and refresh, how we compare values, and where we log something that should never be logged. Give me the findings with the file and line, ordered by severity.'
+  expect: openai__security-best-practices
+  category: auth
+  stack: [typescript]
+- task: 'Yesterday our checkout was down for forty minutes after a bad deploy and we lost about nine hundred orders. The team wants a written postmortem that is blameless and actually useful. Write it: the timeline of what happened, the impact in numbers, the contributing factors, what went well, and the concrete action items with owners and dates. Include the part where we say plainly what we do not know yet instead of guessing.'
+  expect: awesome-copilot__incident-postmortem
+  category: incident
+- task: 'Before we deal with the report from the contractor we want to know what a leak would cost us. Do a pre breach analysis of the data we hold: which tables contain personal and payment data, where that data flows through our services and onward to which third parties, what the exposure vectors look like, and how far it would spread if one of our secrets leaked. Produce a report we can hand to the legal team.'
+  expect: awesome-copilot__data-breach-blast-radius
+  category: incident
+  stack: [postgres]
+- task: 'Our agent reads support tickets and can call internal tools on its own. We need it checked against the OWASP agentic security top ten before we let it near production data. Review the codebase for the agent risks: goal manipulation, tool misuse, memory poisoning, identity handling and the unsafe delegation patterns. Give me the findings with the code locations and a remediation plan for each one.'
+  expect: awesome-copilot__agent-owasp-compliance
+  category: compliance
+  stack: [typescript]
+- task: 'The default readiness score we produce for this repository flags a lot of checks that do not apply to us and hides the two that matter. Write a policy that disables the irrelevant checks and raises the impact level on the security ones we care about. Show me the policy file and how to run the assessment with it against this repository.'
+  expect: awesome-copilot__acreadiness-policy
+  category: compliance
+- task: 'We have a file upload endpoint that takes a document, reads its metadata and stores it, and it is the least reviewed code in the repository. Audit that handler for the usual problems and fix them: validating the input before it reaches the disk, safe handling of the stored path so a name cannot escape the folder, limits on size and type, and what happens to the file if the request fails halfway through. Also check the download side, because a stored path that is safe on write is still an open door on read, and the metadata fetch takes a URL from the request, so somebody could point us at an internal address. Tell me what you changed and what is still risky.'
+  expect: addyosmani__security-and-hardening
+  category: hardening
+  stack: [node, typescript]
+- task: 'Our workflows run on pull requests that come from forks, and they have the repository token available with write permission, which is far more than they need. Review every workflow file in the workflows directory and reason about the actions threat model rather than pattern matching. Tell me what to change: the permissions per job, pinning actions to a commit, removing the pull request target that checks out untrusted code, and how to keep the secrets out of reach.'
+  expect: awesome-copilot__github-actions-hardening
+  category: hardening
+  stack: [github-actions]
+- task: 'Our booking form works perfectly with the data we expect and falls apart with anything else. The select has no empty state, the error copy comes back as a raw message from the server, the date picker breaks when the locale has no month names, and on a slow connection the submit button can be pressed three times. Harden the interface against all of that without changing the happy path, and keep the visual design exactly as it is today.'
+  expect: uiskills-staged__harden
+  category: hardening
+  stack: [react]
+- task: 'This prototype was built in a weekend and now real customers are using it, so it needs to behave like a product. Harden it for real use: the failure states, the accessibility gaps, the security boundaries around the admin actions, and the parts that will break when the data set gets bigger than the sample set. Keep the current look and feel and do not rebuild the data layer underneath it.'
+  expect: kemiljk-skills__prototype-to-production
+  category: hardening
+  stack: [react, next]
+- task: 'Our sign in endpoint and the password reset endpoint are both being called thousands of times a minute by a bot, which is why the mail queue is full. Add rate limiting to the serverless functions using Redis over HTTP so it works at the edge. I need the limits per route, the right keys so one attacker cannot lock out a real user, and the response that tells the client to back off.'
+  expect: awesome-copilot__upstash-redis
+  category: hardening
+  stack: [redis, serverless]
+- task: 'Review this codebase for security the way a researcher would, not with a regex over the source. Trace how data enters the system, follow it through the components, and look for the places where trust is passed on without a check. I want findings with severity, the file and line, an explanation of how each issue is reachable by an outside caller, and a concrete fix for every one of them. Start with the request handlers and the background jobs that call them, because those are the parts that were written quickly. Show the reasoning for each finding so I can judge it, and mark anything that depends on how the system is deployed rather than on the code alone.'
+  expect: awesome-copilot__security-review
+  category: review
+  stack: [typescript]
+- task: 'Do a security review of the service we are about to ship, including the API, the background worker and the small daemon that reads the queue. Look for vulnerabilities in the way we validate input, handle authentication, store data and log it. Check the response headers too, since our content security policy and transport security settings have never been reviewed. Give me the findings with severity and the evidence behind them, and mark clearly which ones are a real risk versus a theoretical one.'
+  expect: security-audit-skill__security-audit
+  category: review
+  stack: [node]
+- task: 'Review the SQL in this repository with a security eye. We build several queries by joining user input into the string, and I want every query checked for injection, plus a look at the schema and the indexes underneath them. Give me the findings ordered by severity with the exact statement that is vulnerable, and what the safe rewrite should look like.'
+  expect: awesome-copilot__sql-code-review
+  category: review
+  stack: [postgres]
+- task: 'Our security alerts are spread across Dependabot, code scanning and secret scanning, and nobody triages them, so the same alert sits open for weeks. Set up a single dashboard where we can triage them: which sources feed it, how severity maps to what we act on first, and what a handled alert looks like. I need a weekly view that we can put in front of the engineering manager without any manual work.'
+  expect: accessibility-agents__security-dashboard
+  category: monitoring
+  stack: [github]
+- task: 'We need to be able to prove who did what on the admin side, and right now we only have a log file that nobody reads. Instrument the service so production behaviour is visible: a canonical event for each admin action, structured fields including the actor and the target, correlation across the request, and redaction so that a password or a token never reaches the log. Also tell me which alerts we should raise on top of that.'
+  expect: addyosmani__observability-and-instrumentation
+  category: monitoring
+  stack: [node, opentelemetry]
+- task: 'I want to know who actually owns the sensitive parts of this repository and where the bus factor is thin. Analyse the git history and build a map from people to the files they touch, mark the files that hold credentials or customer data, and calculate the risk where one person is the only person who understands a critical area. Export the result so I can bring it to a planning meeting.'
+  expect: openai__security-ownership-map
+  category: monitoring
+  stack: [git]
+- task: 'We want static analysis in our pipeline that finds injection and unsafe deserialization before a human reviews the change, not after it ships. Set up code scanning in our workflow, pick the right queries for the languages we use, and make the results land somewhere the team will actually see. Show me the workflow file and what happens when the scan fails.'
+  expect: awesome-copilot__codeql
+  category: testing
+  stack: [github-actions]
+- task: 'Before we let the agent write code in this repository on its own, we want a scored picture of how ready the repository is. Run the readiness assessment on the current code and produce the report: which checks fail, how severe each one is, and what we should fix before we widen what the agent is allowed to do. Give me the output file and the short version I can send to the team.'
+  expect: awesome-copilot__acreadiness-assess
+  category: testing
+- task: 'One tenant can read another tenant invoices and I need this fixed today. Review the row level security policies on the tables that hold tenant data, check that each policy covers select, insert, update and delete, and that they use the right claims from the token. Show me the corrected policies with the migration to apply them, and tell me which queries in the application bypass the policies entirely. The bug started after somebody switched one of the routes to the admin role, so check the role handling as well, and say whether the service role key is being used anywhere it should not be.'
+  expect: supabase__supabase-postgres-best-practices
+  category: access-control
+  stack: [supabase, postgres]
+- task: 'We gave a service principal far too much access to our storage and queue accounts and now nobody knows what it actually needs. Work out which role to assign to that identity for the permissions it really requires, and show me the role choices with what each one grants. I need the narrowest option that still lets the job run, plus the reasoning so the security team will accept it.'
+  expect: awesome-copilot__azure-role-selector
+  category: access-control
+  stack: [azure]
+- task: 'Our team connects to tool servers that expose file, shell and database access, and we have no idea what permissions those servers ask for. Audit the configuration files in this repository for security problems: over broad tool permissions, missing authentication, servers that run arbitrary commands and any secret committed in the configuration. Give me the findings per server with the exact change to make.'
+  expect: awesome-copilot__mcp-security-audit
+  category: access-control
+  stack: [mcp]
+- task: 'A customer has asked us to delete all of their personal data, and with the current code that is a manual job across four tables and two exports. Apply data protection practices to the codebase: what the data model needs so a single request can find everything, how deletion should work for the rows plus the backups and the analytics exports, what consent has to be recorded and when, and where personal data is currently leaking into logs and error reports. Also cover the export path, because a customer can ask for a copy of their data as well as for it to be removed, and the two requests must not contradict each other.'
+  expect: awesome-copilot__gdpr-compliant
+  category: data-protection
+  stack: [node, postgres]
+- task: 'Our application logs contain card numbers, home addresses and one raw password because somebody logged the request body. I want the logging designed properly: a canonical event per request, the fields that belong in each event, correlation across services, redaction of the sensitive values at the source rather than later, and a sampling rule so we do not drown in volume. Show me the structure and where the redaction happens.'
+  expect: dotfiles__logging-sucks
+  category: data-protection
+  stack: [node]
+- task: 'The agent wants to export a table of customer records to an external analytics service and then run a script that posts the file to a third party endpoint. Before that runs, check the action against what it is allowed to do: whether the data may leave the platform, whether the destination is approved, and whether the request needs a person to approve it. Give me the decision and what to change in the request.'
+  expect: awesome-copilot__verify-agent-action
+  category: data-protection
+- task: 'My password manager needs a better icon set, give me a clean line icon for every category and export the whole set in one file.'
+  expect: NONE
+  category: auth
+- task: 'Write a poem about a firewall standing between two cities, keep it in free verse and under twenty lines.'
+  expect: NONE
+  category: threat-model
+- task: 'The night guard at our office needs a new shift roster, make a printable weekly table with two rest days in it.'
+  expect: NONE
+  category: access-control
+- task: 'The escape room puzzle for my nephew birthday party needs a Caesar cipher decoded, the hint says shift three to the left.'
+  expect: NONE
+  category: secrets
+- task: 'My bike keeps getting stolen from the rack outside the office, what kind of lock and cable actually stops that happening again.'
+  expect: NONE
+  category: hardening
+- task: 'The security camera on my porch drops its connection every night at two, is this worth calling the installer about.'
+  expect: NONE
+  category: monitoring

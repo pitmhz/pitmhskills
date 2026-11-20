@@ -286,3 +286,104 @@ sources:
     ref: b85c7a736bb473bf55b584e54a09ffa698d6d871
     glob: "**/SKILL.md"
     license_allow: ["MIT", "Apache-2.0"]
+  - id: pitmry
+    repo: null
+    ref: local
+    path: ../pitmry/skills/pitmry-bootstrap
+    glob: "SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: webgl-animation
+    repo: iart-ai/webgl-animation-skills
+    ref: 50697d659fbf70152f48f9f8aadf1efe78bbdde1
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: motion-design-skill
+    repo: LottieFiles/motion-design-skill
+    ref: f9a8a041b85185ee4881b3471d3415e939aac772
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: framer-motion
+    repo: C-Jeril/framer-motion-skills
+    ref: 837d7268fc4a3cf5b1f8904616ec97c7485e3eda
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: design
+    repo: podo/design-agent-skills
+    ref: c3fac4cb09ba2ac92ebf0b35572b9e85e06db4f8
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: threejs
+    repo: cesartevisual/threejs-skills
+    ref: 84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: cloudai-x-threejs
+    repo: CloudAI-X/threejs-skills
+    ref: 0e181866f095b5f06d005133876e926515390d95
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: threejs-complete-set-of-skill
+    repo: linegel/threejs-complete-set-of-skill
+    ref: e3c9563a070b214aa73b84d1ea6026c9ec4db6cb
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0", "ISC"]
+  - id: skills
+    repo: wondelai/skills
+    ref: c172996495bed0fcd26896a9416b2093fd7073f0
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: laws-of-ux
+    repo: keysjoao/laws-of-ux-skills
+    ref: 66f5e5602c8444b123e8b0d287ef9947ef295edc
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: uxuiprinciples
+    repo: uxuiprinciples/agent-skills
+    ref: bc3f52deb45e3f8638d9ad0e82149182a6c0e410
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: cuellarfr-design
+    repo: cuellarfr/design-skills
+    ref: 7e25e66e87f64f9d3dea22198f9e29937e7c48f5
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: inclusive-design
+    repo: Owl-Listener/inclusive-design-skills
+    ref: 6e0740f04b2130af60bc57abe3401b91e460e70d
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: ui-ux-laws
+    repo: AmirGhl/ui-ux-laws
+    ref: f11b3a20d2556790f7acecf2e1ebd3b8215cc197
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: plain-language-skill
+    repo: nikdumroese/plain-language-skill
+    ref: 6d6a69d91ff95b07073f65393e56e2a734b670b7
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: claude-wcag-skill
+    repo: 84emllc/claude-wcag-skill
+    ref: 792755fef05b863fc27c71cf808e6b64e599ac8f
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: 84emllc-claude-wcag-skill
+    repo: 84emllc/claude-wcag-skill
+    ref: 792755fef05b863fc27c71cf808e6b64e599ac8f
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: accessibility-agents
+    repo: Community-Access/accessibility-agents
+    ref: decf6bac7f086c19afb242797b4974671ceff597
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: education
+    repo: GarethManning/education-agent-skills
+    ref: 6bbbce418f82e11044009c9f3b7373a354de5bd0
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]
+  - id: awesome-gamedev
+    repo: gamedev-skills/awesome-gamedev-agent-skills
+    ref: 0a70cfc64672d512c5b5b6006b5dcb5cf90dbdbd
+    glob: "**/SKILL.md"
+    license_allow: ["MIT", "Apache-2.0"]

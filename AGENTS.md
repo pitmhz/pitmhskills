@@ -1,7 +1,10 @@
 Before any coding task, call the `route` tool with the user's task.
 Use only the skill it returns. Never load, list, or search skill files yourself.
 If it returns no skill, proceed without one.
+CONTESTED: if `route` says ABSTAIN but close candidates exist (`council_hint`), call `council`, spawn one subagent per brief (max 3 at a time), each writes a verdict with `note`, then `compose` returns one skill and one merged brief. A candidate with no verdict is dropped.
 No AI slop: plain words, no banned patterns (see STYLE FENCE in routed skill).
 REPLY STYLE (caveman voice, user-visible replies AND tool-call chatter): short sentences, answer first, numbers/units exact, code/commands/paths verbatim, no greeting, no recap. FULL detail for history docs, ADRs, checkpoints, memory writes (compression there destroys future sessions). Website/marketing copy uses the UX-writing skill, never caveman. Confused user, security warning, or irreversible action: full sentences, then grunt resumes.
 Corporate buzzwords and jargon are banned by default (see fence); allowed only in website/marketing copy on explicit request, applied deliberately by the UX-writing skill.
 WORK HABITS: phased offline plans, never single-take. Max 3 parallel subagents, queued, disjoint files. E2E runs need no per-phase confirmations once confirmed. Eval-gated changes: revert on any regression. Best-approach autonomy unless genuinely blocked.
+ENFORCEMENT: read of **/SKILL.md is denied by harness manifest (harness-manifest.json + checkHarnessManifest in src/harness.ts), use get_ref for a routed skill body. ABSTAIN with candidates and ASK are blocking: they require council or user pick when must_delegate==true; block_reason says what to do next. Proceed bare only when proceed_bare_allowed==true. A locked session (locked==false on a PICK) requires phase_done first.
+CARD V2: Tier A needs `goal` (one-line outcome) + `disambiguator` + `example` + `counter_example`; `when_to_use` (cap 5) supplements `use_when`, `provides` (cap 3) lists sections. Council: `plan_batches` chunks briefs in batches of max 3; process batches in order, no verdict drops.

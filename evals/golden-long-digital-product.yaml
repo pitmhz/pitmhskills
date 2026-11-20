@@ -1,0 +1,156 @@
+# Long, detailed digital-product prompts.
+#
+# Every task is a realistic request a product team would send. Each case carries
+# the fields the loader in src/eval.ts reads (task, expect, stack) plus a
+# `category` label used for slicing the corpus in reports.
+#
+# `expect_any` is optional. It lists the cards that also answer the task when the
+# library holds real rivals. The bench counts a pick of one of them as a hit and
+# reports it apart (hitByAlternate). Label version: labels-v2.
+# See docs/audit/labels-review.md for the review that set it.
+#
+# 40 cases: 36 routed, 4 NONE. 6 of the routed cases are near-miss cases where
+# a second skill looks plausible but one card is clearly right.
+- task: 'We need a new landing page for the developer tool that turns Postgres schema changes into reviewable migration files, and the current homepage is three generic paragraphs with a signup button that nobody clicks. Build a single offer page for this one product, aimed at backend engineers who already use Postgres and do not want another tool to learn. I want a clear hierarchy above the fold that says what the tool does in one sentence, a mid page section that argues the case for it, and a bottom section that handles the objections we always hear. Keep the copy concrete, name the actual problem, and skip the invented customer logos. One page only, no top navigation, and the call to action must say what happens after the click.'
+  expect: mengto-skills__landing-page
+  category: landing
+  stack: [next, react, tailwind]
+- task: 'We are launching a booking tool for independent barbershops and I want a landing page that explains it in under a minute. Work through the intake questions you need answered, then pick the page structure, write the conversion copy and give me something a developer can build. The audience is the shop owner, not the hairdresser, and the page has to work on a phone in a chair with poor reception. Include the search and social notes you think matter, but do not invent customer testimonials we do not have.'
+  expect: ai-design__landing-page-design
+  category: landing
+  stack: [react, tailwind]
+- task: 'I want a compact landing page for an open source command line tool that lints Dockerfiles, the kind of page you would normally put in a readme but polished enough to share on social. It has to look distinctive instead of reusing the same hero, three card grid and purple gradient that every generated page ships with. Two feature sections, one short code sample and a clear install command is enough. No pricing block, no testimonials, no email capture form and no dark mode toggle.'
+  expect: compact-landing-skill__compact-landing
+  category: landing
+  stack: [react, tailwind]
+- task: 'Our free trial page has good traffic and terrible signup numbers, and I want to know exactly where people give up. Walk through the page the way a first time visitor would and tell me what is blocking the signup, then give me a fix list ordered by how much revenue each fix is worth. Please look at the offer, the plan comparison, the form and the trust signals, but do not turn this into a general design review and do not rewrite the copy yet.'
+  expect: awesome-copilot__landing-page-conversion-audit
+  category: landing
+  stack: [next, react]
+- task: 'We signed three enterprise customers last quarter and every one of them stalled during the first month without ever inviting their own team. I need a four phase onboarding plan that runs from signed contract to the customer getting real weekly value, with a clear owner for each phase and an explicit point where we catch accounts that are drifting. Tell me what should be automated, what a human should do in the first call, and how we measure whether onboarding actually worked instead of assuming it did.'
+  expect: awesome-copilot__gtm-enterprise-onboarding
+  category: onboarding
+- task: 'I have four new engineers joining the platform team next Monday and they will be lost in a large codebase. Build an onboarding guide for them that explains how the service is put together, where the important folders are and what a normal change looks like from end to end. Point it at the real code in this repository rather than giving generic advice. Keep the reading order sensible for somebody with no background in this stack, explain the entry points and the tests before they touch anything, and list the small set of commands someone needs to get a change running locally on day one. Include the traps too: which folder looks important but is generated, which test suite is slow, and which configuration file has to be copied before anything works.'
+  expect: understand-anything__understand-onboard
+  category: onboarding
+  stack: [next, typescript]
+- task: 'Our pricing page lists four plans with feature bullets copied straight from the sales deck, and nobody upgrades. Rebuild it as a proper pricing page: the plan structure, a comparison people can scan, copy for each tier, the questions everyone always asks, and the layout patterns that work. We sell a developer tool with a free tier, a team tier and an enterprise tier. Keep the annual toggle, make the recommended plan obvious without shouting, and write the answers in plain sentences.'
+  expect: mengto-skills__pricing-page
+  category: pricing
+  stack: [next, react]
+- task: 'We sell an API that bills on compute time and we still price it like a seat based product. I need a pricing strategy for a technical product: should we use usage based pricing, how do we set the free tier threshold, and how do we structure enterprise pricing without self serve customers discovering that the invoice is unpredictable. Give me the reasoning behind each choice, the metrics that tell us it worked, and the migration path for the customers already on the old plans.'
+  expect: awesome-copilot__gtm-technical-product-pricing
+  category: pricing
+- task: 'Our upgrade modal and the seven day trial paywall are the two biggest sources of angry support tickets. I want the code and the product copy checked for deceptive patterns, especially the countdown timer that resets when you close it and the button that looks disabled but still takes the card details. Give me the findings with the exact file and line where each one lives. Do not redesign the modal and do not rewrite the button labels, I only want to know what is deceptive right now.'
+  expect: design__dark-pattern-audit
+  category: pricing
+  stack: [react]
+- task: 'We have a self serve product where people sign up, invite nobody and disappear after the trial. I need help building the acquisition and expansion motions properly: where activation happens, which behaviour counts as the activation event, how the free tier should convert to paid, and where referrals fit without turning the product into a giveaway. Explain the trade offs, tell me what to measure, and be explicit about which parts of this need a sales conversation instead of code.'
+  expect: awesome-copilot__gtm-product-led-growth
+  category: growth
+- task: 'People sign up, use the tool twice and then quietly disappear, and the activation rate has been flat for two quarters. Diagnose the retention problem and fix it with behaviour design instead of more reminder emails. Make the first session end in a moment that makes sense and build the habit loop that brings them back. I care about the mechanism, not the copy.'
+  expect: skills__improve-retention
+  expect_any: [skills__grow-app]
+  category: growth
+- task: 'We are three weeks away from launching a new background job runner and I do not have a launch plan. I need to go from a rough idea to the first real customers: who tries it first, what the launch week playbook looks like, which channels to use and what we measure before and after. Keep it practical for a two person team with no budget for ads, and tell me which parts of the plan to drop first if we run out of time.'
+  expect: awesome-copilot__gtm-0-to-1-launch
+  category: growth
+- task: 'Every week someone sends me a different spreadsheet of numbers and I have no idea which ones matter. I need help choosing the metrics we should actually track for a subscription product, and then auditing the ones we already look at. Start with the single number that tells us whether the business is healthy, define what a good activation event is, and cut the vanity numbers that only make us feel good. I want a short list we will keep using, not a wall of charts. Do not give me a framework to fill in later, give me the actual metrics for our type of product and say what number we should look at on a Monday morning.'
+  expect: skills__lean-analytics
+  category: analytics
+- task: 'Most of our conversions are missing because the browser blocks the tracking script and the reporting says the channel was direct. Set up server side conversion tracking so purchases reach Facebook, TikTok, Google and Bing even when the script never loads. Show me where to fire the events from, how to pass the identifiers through without breaking the checkout flow, and how to keep the numbers from double counting when the browser script does run.'
+  expect: awesome-copilot__server-side-conversion-tracking
+  category: analytics
+  stack: [next, node]
+- task: 'Our support team keeps telling users to turn on a screen reader, which is not a fix, and one customer legally cannot buy from us until this is sorted. I want a proper audit of the marketing site and the account area against WCAG 2.2, with the issues ordered by how badly they block a real person, and concrete fixes rather than a score. Cover keyboard operation, accessible names and roles on the custom controls, colour contrast in both themes, focus order and focus visibility, and what happens when somebody zooms the screen. Check the error states too, because that is where our forms fall apart. For each finding give me the evidence, the level it fails, and a short explanation of the task a person cannot complete, so I can argue about priority with the product team.'
+  expect: web-quality__accessibility
+  category: accessibility
+- task: 'Our signup is a four step wizard and it is the worst part of the product. Labels are missing on the second and third step, the error message appears below the fold, and autocomplete fills the payment field with the wrong name. I need the form itself fixed properly: every control labelled, validation that explains what to do next, error handling that moves focus to the problem, the right autocomplete attributes on each field, and the wizard working as one flow. Focus on the form, not on the marketing pages.'
+  expect: accessibility-agents__forms-specialist
+  category: accessibility
+  stack: [react]
+- task: 'Our dark mode theme fails contrast and the team argues about which grey is correct. I need a proper colour contrast review that covers the themes, the non text contrast on borders and icons, and the places where colour is the only signal a user gets. Give me the measured ratios for the real pairs we use, the fixes with new values, and a rule that stops the same problem coming back when somebody adds a component.'
+  expect: accessibility-agents__contrast-master
+  category: accessibility
+  stack: [tailwind]
+- task: 'We fix accessibility problems by hand and then they come back two sprints later. I want accessibility checks running in the pull request pipeline: a baseline so we do not block on the old problems, a way for the findings to show up in the review, and a gate that stops new violations from merging. Set it up for this repository, explain the configuration, and show me what a failing and a passing pull request would look like for the team.'
+  expect: accessibility-agents__ci-accessibility
+  category: accessibility
+  stack: [github-actions]
+- task: 'Our marketing site is slow on mobile data and the first thing we hear is that the page is spinning, which is costing us signups on campaigns that send traffic from abroad. Make it fast: the hero image is two megabytes, we ship four font files when one would do, and the hero is a client component that blocks the first paint because it reads a cookie before it renders. While you are in the configuration I also want a strict content security policy header, because the team keeps adding third party tracking scripts we do not control. Please cover the caching and the asset side of the work first and tell me which parts of the policy will break, since the marketing team will not accept a change that breaks the page on a Friday.'
+  expect: web-quality__performance
+  category: performance
+  stack: [next, react]
+- task: 'Our field data shows a bad Largest Contentful Paint on article pages, an Interaction to Next Paint over three hundred milliseconds on the comment box, and layout shift every time the ad slot loads. I want a proper Core Web Vitals investigation that uses the real numbers from the field instead of only a lab run, and then a plan telling me what to fix first and why. Include the measurement setup you need and how we will know the change worked in production.'
+  expect: web-quality__core-web-vitals
+  category: performance
+- task: 'The admin dashboard takes eleven seconds to become usable on a mid range laptop and I am out of ideas. Find the actual causes instead of guessing: the waterfall of sequential requests, the huge dependency graph, and the fact that everything re-renders when one filter changes. Measure, fix and explain the reasoning so the next person does not undo it. Cover the main thread work and the data fetching, and tell me what to check in the build output afterwards.'
+  expect: addyosmani__performance-optimization
+  expect_any: [vercel__vercel-react-best-practices]
+  category: performance
+  stack: [react, next]
+- task: 'Our Vercel bill doubled and the site got slower at the same time, which feels related. Look at the deployed project, find what is driving the cost and the slow responses, and tell me what to change: image handling, caching headers, function regions and how many times the middleware runs. I want the recommendations ordered by the savings they produce, and I need to know which ones we can apply without a code change.'
+  expect: vercel__vercel-optimize
+  category: performance
+  stack: [next, vercel]
+- task: 'Our component library has grown to ninety pieces and nobody agrees what happens when one of them needs to change. I need a governance model: who owns it, how a contribution gets reviewed and merged, how versions are communicated as a contract, and how a component gets deprecated without breaking product teams. Write it so we can put it in the repository and follow it.'
+  expect: design__design-system-governance
+  category: design-system
+- task: 'Product keeps asking for a new variant of the same component and we build it as a one off every time. I need a decision method for how the design system should evolve: when do we reuse an existing piece, when do we add a variant, when do we change the public API and when do we introduce a genuinely new pattern. Give me the decision rules with examples from our library, plus what has to happen before a change is announced to the product teams. I also want to know what we do when two teams want the same change at the same time, because that is the case where we currently end up with two components.'
+  expect: kemiljk-skills__design-system-evolution
+  category: design-system
+  stack: [react]
+- task: 'We decided to build on shadcn components instead of a black box library, and now the project has four copies of the same button because everyone edited their own copy. Manage the components properly: add the ones we are missing, find the duplicates, fix the broken ones and set up the theme so our colours and spacing come from one place. I want the project configured so a new machine can clone it and get the same result, and a way to see at a glance which components we changed locally. The concrete problems are the four buttons, a dropdown that closes as soon as it opens, and a dialog that traps focus in the wrong place so keyboard users cannot escape it. Fix those, then give me the list of components we have.'
+  expect: uiskills-staged__shadcn
+  category: design-system
+  stack: [react, tailwind, shadcn]
+- task: 'Deploy the application to Vercel and give me the link. It is a Next.js project in this repository with a preview branch for every pull request, and the team needs the production deploy to keep behaving exactly as it does now. Do not change the build settings and do not switch to a different output mode, because we hit a problem with that last time. Tell me what you deployed, which commit went out and where the logs are.'
+  expect: vercel__deploy-to-vercel
+  category: deploy
+  stack: [next, vercel]
+- task: 'We want to move our static docs and the edge API that serves them to Cloudflare so we stop paying for a server we barely use. Deploy the project in this repository to Cloudflare Pages and Workers, set up the routing between the static assets and the API, and configure the environment bindings. Keep the custom domain working and tell me what changes in our pipeline.'
+  expect: openai__cloudflare-deploy
+  category: deploy
+  stack: [cloudflare, workers]
+- task: 'Our preview deployments are protected by Vercel Authentication and nobody outside the company can look at them. I need to open one of those protected addresses with a browser automation tool, get past the protection using the credentials we already have, and confirm that the new checkout flow works on the preview. Give me the deployment link, the evidence that the flow completes, and the exact steps you used so I can repeat them.'
+  expect: agent-browser__protected-vercel-deployments
+  category: deploy
+  stack: [vercel, playwright]
+- task: 'Our developer documentation has grown organically and reads like three different people wrote it. Review it against a real style guide and fix the problems: sentence structure, headings that tell the reader what they will find, steps that start with a verb, and reference material that is complete. Keep the technical content correct and do not pad it with marketing language. Show me the pattern you applied to each section so the next contributor follows it.'
+  expect: skills__technical-documentation
+  category: documentation
+- task: 'We need proper documentation for our public API and the platform guides that go with it, and right now everything lives in one long page that mixes tutorials, how to guides, reference and background reading. Restructure it into the right kinds of pages so a reader can tell which page answers which question, write the missing parts, and keep every code sample working. The audience is a developer integrating with us for the first time, so order and clarity matter more than completeness.'
+  expect: awesome-copilot__documentation-writer
+  category: documentation
+- task: 'Our product has content in seven different places and nobody knows which copy is the canonical one. I need a content strategy: what content the product actually needs, how it is structured and tagged, what the voice is, who owns each piece and what happens when marketing and support need the same answer. Include how to run a content audit so we can see the overlap, and a hierarchy that shows how a reader moves from an unfamiliar visitor to somebody who trusts us.'
+  expect: design__content-strategy
+  category: content
+- task: 'We keep changing our signup copy based on opinion and then wondering why nothing moves. I want to run proper experiments on that content: how to write the hypothesis, which metrics to use, how much traffic we need before we trust a result and which variations are worth testing at all. Give me a plan for testing the welcome email sequence against the current version, including how to store the variants and how to stop a test early when it is going badly.'
+  expect: agent-toolkit__content-experimentation-best-practices
+  category: content
+- task: 'I need to check that the local build of the marketplace actually works before the demo. Use a browser tool to walk through the real flow: search for a listing, open it, sign in, add an item to the basket and reach the confirmation step. Report what broke and where it broke, and give me a screenshot for each failure. Also check the empty state for a brand new account, because that is where the demo usually falls apart.'
+  expect: anthropic__webapp-testing
+  category: testing
+  stack: [playwright, react]
+- task: 'Write a browser test for the upgrade flow. The scenario is a signed in customer on the free plan who starts a trial, is sent to a checkout page, pays with a test card and lands back in the app with the plan changed. Generate the test from that description and make it run against our local server. Keep it stable by waiting for the right elements instead of for fixed timings.'
+  expect: awesome-copilot__playwright-generate-test
+  category: testing
+  stack: [playwright]
+- task: 'We keep building features that nobody asked for and then argue about the roadmap with opinion. I want a proper research plan before we commit a sprint to this, starting with the research questions that are actually worth answering, because right now the list is a list of features instead of a list of doubts. Then I need the survey designed so it does not lead the answers, the recruitment criteria, and the usability test set up around the current flow. After that the analysis: how we store the sessions, how two researchers would code the same answers, and what evidence we keep so the decision is traceable later. Give me the sequence of work, the artefacts I should end up with, the honest sample size for each method, and when the result is strong enough to act on.'
+  expect: design__software-ux-research
+  category: research
+- task: 'We suspect people cannot complete the trial setup but we do not know where they get stuck. Plan the research: write the interview guide, recruit the right people, decide what tasks to give them in a usability session, and set the analysis up so two people watching the same session would agree on the findings. Include what we may and may not claim when only five people take part, and how to record the evidence as we go.'
+  expect: cuellarfr-design__ux-research
+  category: research
+- task: 'Order me a pizza for the office on Friday, two large pepperoni and one vegetarian with extra olives, and call ahead so nobody has to queue at the counter.'
+  expect: NONE
+  category: content
+- task: 'Adjust the carburetor mixture on my old mower so it starts on the first pull instead of flooding.'
+  expect: NONE
+  category: performance
+- task: 'Write a short poem about rain on a tin roof for my sister wedding card, and keep it under twelve lines.'
+  expect: NONE
+  category: content
+- task: 'Sort out my tax return from last year, I moved twice during the year and had freelance income on top of my salary, and I do not know where to start.'
+  expect: NONE
+  category: documentation

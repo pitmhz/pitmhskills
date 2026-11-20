@@ -1,0 +1,35 @@
+# Verbose prompts: the class the router used to fail.
+#
+# Every task here is long and multi-clause, the way a real request is. The
+# old scorer divided the match by the number of words in the prompt, so a
+# long prompt diluted itself below the floor and the router said ABSTAIN
+# even when the right skill was an obvious match. These are the regression
+# tests for that.
+- task: "I need to build a multi-step wizard UI for our onboarding flow, so it needs a form with steps, validation, and a progress indicator"
+  expect: pocock__wizard
+- task: "We are adding a Supabase login flow in Next.js and the session cookies keep getting lost on server side render, can you check the JWT claims"
+  expect: supabase__supabase
+- task: "Our Neon Postgres query is slow and I want to add the right index, here is the EXPLAIN ANALYZE output and the table definition"
+  expect: neondatabase__neon-postgres
+- task: "The design of this landing page looks like every other AI generated site, it feels templated and generic, I want a more distinctive art direction"
+  expect: taste-skill__design-taste-frontend
+- task: "Please audit this interface for accessibility, contrast, keyboard focus and screen reader names, it is a checkout form with errors"
+  expect: jakubkrehel-skills__better-accessibility
+- task: "I want to remember the decisions we made about the architecture across sessions so I do not have to repeat myself"
+  expect: local__cavemem
+- task: "Can you find me some new agent skills on GitHub that handle PDF parsing, I want to see the candidates before adding any of them"
+  expect: local__skill-finder
+- task: "This 40 line helper does way too much and I want it cut down to the smallest thing that still works"
+  expect: ponytail__ponytail
+- task: "Set up a color system with semantic tokens, generated palettes and a contrast check so our light and dark themes stay consistent"
+  expect: jakubkrehel-skills__better-colors
+- task: "Build a spring based drag to dismiss sheet animation from scratch, the physics matters more than the easing curve"
+  expect: emilkowalski__animate
+- task: "We need to scrape a pricing dashboard that renders with JavaScript and is behind a bot check, pull the numbers out of it"
+  expect: local__obscura
+- task: "The page feels slow and I think it is because too many of our components are client components in this Next.js app"
+  expect: NONE
+- task: "Tune a diesel engine injection pump and adjust the fuel pressure for cold starts"
+  expect: NONE
+- task: "Simulate quantum chromodynamics on the GPU with a lattice configuration and check the results"
+  expect: NONE

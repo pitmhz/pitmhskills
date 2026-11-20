@@ -1,0 +1,19 @@
+# Adversarial NONE set: a skill name is mentioned but the task is unrelated.
+#-router must abstain (NONE), not pick the mentioned skill. One ponytail case
+# still trips and is kept as a known false positive.
+- task: "I heard cavemem is good for memory, now fix this car brake light"
+  expect: NONE
+- task: "My friend uses the wizard skill for provisioning, can you bake bread?"
+  expect: NONE
+- task: "The cavemem skill is mentioned in our docs, now translate this to Spanish"
+  expect: NONE
+- task: "We use obscura at work, now help me draft an email to my boss"
+  expect: NONE
+- task: "The skill-router skill is in our docs, now bake bread for dinner"
+  expect: NONE
+- task: "The obscura skill is in our docs, now translate this to Spanish"
+  expect: NONE
+- task: "The grill skill is in our docs, now water the plants tomorrow"
+  expect: NONE
+- task: "Ponytail is a skill I like, now outline a birthday party plan"
+  expect: NONE

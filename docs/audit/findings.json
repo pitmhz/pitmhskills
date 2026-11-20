@@ -1,0 +1,2838 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "repo": "pitmhskills",
+    "generated": "2026-11-10",
+    "program": "audit + repair + benchmark + analytics",
+    "owner": "Pieter",
+    "sources": [
+      {
+        "id": "audit",
+        "label": "Manual source audit",
+        "artifact": "chat, 2026-11-10"
+      },
+      {
+        "id": "repair",
+        "label": "Phased repair program (phases 0-9)",
+        "artifact": ".opencode/plan/pitmhskills-audit-repair.md"
+      },
+      {
+        "id": "analytics",
+        "label": "Analytics instrumented run",
+        "artifact": "src/analytics.ts"
+      },
+      {
+        "id": "corpora",
+        "label": "Long prompt corpora build",
+        "artifact": "evals/golden-long-digital-product.yaml, evals/golden-long-cybersec.yaml"
+      },
+      {
+        "id": "probe",
+        "label": "Real model delivery probe",
+        "artifact": "docs/delivery-effectiveness-2026-11-10.md"
+      },
+      {
+        "id": "bench",
+        "label": "Benchmark runner",
+        "artifact": "pending"
+      },
+      {
+        "id": "integration",
+        "label": "Module integration audit",
+        "artifact": "pending"
+      }
+    ]
+  },
+  "legend": {
+    "severity": {
+      "P0": "Blocks correct behaviour on real traffic",
+      "P1": "Degrades accuracy or safety on a large share of tasks",
+      "P2": "Local defect, small share of tasks or cosmetic cost",
+      "P3": "Cleanup, no behaviour change"
+    },
+    "status": {
+      "open": "Not fixed yet",
+      "fixed": "Fixed and verified in this program",
+      "accepted": "Known, accepted on purpose",
+      "reported": "Claimed by a source but not yet verified in code"
+    },
+    "confidence": {
+      "confirmed": "Reproduced in code with a file and line reference",
+      "measured": "Confirmed by a benchmark number",
+      "reported": "Stated by a source, not independently reproduced"
+    }
+  },
+  "summary": {
+    "total": 70,
+    "open": 41,
+    "fixed": 23,
+    "accepted": 5,
+    "reported": 1,
+    "by_severity": {
+      "P0": 15,
+      "P2": 27,
+      "P1": 22,
+      "P3": 6
+    },
+    "by_area": {
+      "delivery": 7,
+      "cards": 9,
+      "router": 9,
+      "retrieval": 8,
+      "scoring": 8,
+      "analytics": 3,
+      "enforcement": 6,
+      "council": 7,
+      "eval": 5,
+      "process": 4,
+      "bench": 4
+    }
+  },
+  "metrics": {
+    "eval": {
+      "tune": {
+        "value": 97.8,
+        "unit": "percent",
+        "n": 90,
+        "baseline": 96.7
+      },
+      "heldout": {
+        "value": 97.2,
+        "unit": "percent",
+        "n": 36,
+        "baseline": 97.2
+      },
+      "verbose": {
+        "value": 92.9,
+        "unit": "percent",
+        "n": 14,
+        "baseline": 71.4
+      },
+      "paraphrase": {
+        "value": 100,
+        "unit": "percent",
+        "n": 25,
+        "baseline": 0
+      },
+      "adversarial": {
+        "value": 100,
+        "unit": "percent",
+        "n": 8,
+        "baseline": 0
+      },
+      "coverage": {
+        "value": 100,
+        "unit": "percent",
+        "n": 70,
+        "baseline": 100
+      },
+      "parsers": {
+        "value": 9,
+        "unit": "pass",
+        "n": 9,
+        "baseline": 9
+      }
+    },
+    "library": {
+      "cards": {
+        "value": 2176,
+        "unit": "cards"
+      },
+      "tier_a": {
+        "value": 70,
+        "unit": "cards",
+        "baseline": 20
+      },
+      "tier_b": {
+        "value": 2103,
+        "unit": "cards",
+        "baseline": 2153
+      },
+      "tier_c": {
+        "value": 3,
+        "unit": "cards",
+        "baseline": 3
+      },
+      "curated": {
+        "value": 506,
+        "unit": "cards"
+      },
+      "empty_disambiguator": {
+        "value": 1894,
+        "unit": "cards"
+      },
+      "empty_goal": {
+        "value": 2035,
+        "unit": "cards"
+      },
+      "largest_domain_share": {
+        "value": 24.7,
+        "unit": "percent",
+        "baseline": 39
+      }
+    },
+    "latency": {
+      "p50": {
+        "value": 204.8,
+        "unit": "ms"
+      },
+      "p95": {
+        "value": 240.8,
+        "unit": "ms"
+      },
+      "max": {
+        "value": 397,
+        "unit": "ms"
+      }
+    },
+    "delivery": {
+      "cap": {
+        "value": 3000,
+        "unit": "bytes"
+      },
+      "body_p50": {
+        "value": 2575,
+        "unit": "bytes"
+      },
+      "body_p95": {
+        "value": 2991,
+        "unit": "bytes"
+      },
+      "usable_as_is": {
+        "value": 0,
+        "unit": "of 15"
+      },
+      "needs_ref": {
+        "value": 4,
+        "unit": "of 15"
+      },
+      "unusable": {
+        "value": 11,
+        "unit": "of 15"
+      },
+      "correct_card_usable_as_is": {
+        "value": 0,
+        "unit": "of 12"
+      },
+      "correct_card_needs_ref": {
+        "value": 11,
+        "unit": "of 12"
+      },
+      "clipped_cases": {
+        "value": 11,
+        "unit": "of 12"
+      },
+      "more_relevant_section_dropped": {
+        "value": 10,
+        "unit": "of 11"
+      },
+      "high_confidence_but_unusable": {
+        "value": 5,
+        "unit": "of 5"
+      }
+    },
+    "analytics": {
+      "offers_window": {
+        "value": 1274,
+        "unit": "offers"
+      },
+      "pick": {
+        "value": 619,
+        "unit": "offers"
+      },
+      "ask": {
+        "value": 300,
+        "unit": "offers"
+      },
+      "abstain": {
+        "value": 355,
+        "unit": "offers"
+      },
+      "usage_rows": {
+        "value": 12,
+        "unit": "rows"
+      },
+      "acceptance_window": {
+        "value": 1.9,
+        "unit": "percent"
+      },
+      "acceptance_live_slice": {
+        "value": 100,
+        "unit": "percent",
+        "n": 12
+      }
+    },
+    "bench": {
+      "n": {
+        "value": 80,
+        "unit": "cases"
+      },
+      "top1": {
+        "value": 1.3,
+        "unit": "percent",
+        "n": 80,
+        "baseline": 97.8
+      },
+      "top1_on_routed": {
+        "value": 1.4,
+        "unit": "percent",
+        "n": 70
+      },
+      "picked": {
+        "value": 1,
+        "unit": "cases"
+      },
+      "asked": {
+        "value": 25,
+        "unit": "cases"
+      },
+      "abstained": {
+        "value": 54,
+        "unit": "cases"
+      },
+      "false_abstain": {
+        "value": 69,
+        "unit": "cases",
+        "n": 70
+      },
+      "false_pick": {
+        "value": 0,
+        "unit": "cases",
+        "n": 10
+      },
+      "wrong_pick": {
+        "value": 0,
+        "unit": "cases",
+        "n": 70
+      },
+      "none_precision": {
+        "value": 90,
+        "unit": "percent",
+        "n": 10
+      },
+      "expected_card_first": {
+        "value": 51.4,
+        "unit": "percent",
+        "n": 70
+      },
+      "expected_card_in_top3": {
+        "value": 58.6,
+        "unit": "percent",
+        "n": 70
+      },
+      "correct_first_but_not_picked": {
+        "value": 35,
+        "unit": "cases",
+        "n": 69
+      },
+      "correct_first_but_below_floor": {
+        "value": 16,
+        "unit": "cases"
+      },
+      "correct_first_but_between_floor_and_pick_floor": {
+        "value": 19,
+        "unit": "cases"
+      },
+      "never_in_shortlist": {
+        "value": 29,
+        "unit": "cases",
+        "n": 70
+      },
+      "determinism_mismatches": {
+        "value": 0,
+        "unit": "cases",
+        "n": 80
+      },
+      "determinism_reverse_mismatches": {
+        "value": 0,
+        "unit": "cases",
+        "n": 80
+      },
+      "latency_p50": {
+        "value": 199.1,
+        "unit": "ms"
+      },
+      "latency_p95": {
+        "value": 235.5,
+        "unit": "ms"
+      },
+      "body_at_cap": {
+        "value": 0,
+        "unit": "cases",
+        "n": 26
+      }
+    },
+    "length_buckets": {
+      "bucket_60_79": {
+        "value": 67.6,
+        "unit": "percent",
+        "n": 37
+      },
+      "bucket_80_99": {
+        "value": 42.1,
+        "unit": "percent",
+        "n": 19
+      },
+      "bucket_100_119": {
+        "value": 20,
+        "unit": "percent",
+        "n": 5
+      },
+      "bucket_120_plus": {
+        "value": 22.2,
+        "unit": "percent",
+        "n": 9
+      },
+      "abstain_60_79": {
+        "value": 48.6,
+        "unit": "percent",
+        "n": 37
+      },
+      "abstain_120_plus": {
+        "value": 88.9,
+        "unit": "percent",
+        "n": 9
+      }
+    },
+    "audit": {
+      "src_modules": {
+        "value": 64,
+        "unit": "files"
+      },
+      "reachable_modules": {
+        "value": 51,
+        "unit": "files"
+      },
+      "script_entry_modules": {
+        "value": 12,
+        "unit": "files"
+      },
+      "test_only_modules": {
+        "value": 1,
+        "unit": "files"
+      },
+      "dead_modules": {
+        "value": 1,
+        "unit": "files"
+      },
+      "dead_exported_symbols": {
+        "value": 36,
+        "unit": "symbols"
+      },
+      "card_fields_never_read": {
+        "value": 7,
+        "unit": "fields"
+      },
+      "card_fields_dropped_at_db": {
+        "value": 2,
+        "unit": "fields"
+      },
+      "config_keys_never_read": {
+        "value": 4,
+        "unit": "keys"
+      },
+      "config_keys_hardcoded_elsewhere": {
+        "value": 3,
+        "unit": "keys"
+      },
+      "bugs_found": {
+        "value": 12,
+        "unit": "bugs"
+      },
+      "bugs_p1": {
+        "value": 4,
+        "unit": "bugs"
+      },
+      "bugs_p2": {
+        "value": 7,
+        "unit": "bugs"
+      },
+      "bugs_p3": {
+        "value": 1,
+        "unit": "bugs"
+      },
+      "integration_test_pass": {
+        "value": 8,
+        "unit": "pass",
+        "n": 8
+      },
+      "integration_test_assertions": {
+        "value": 61,
+        "unit": "assertions"
+      },
+      "project_unit_tests": {
+        "value": 93,
+        "unit": "pass",
+        "n": 95
+      },
+      "vendored_suite_failures": {
+        "value": 331,
+        "unit": "fail"
+      }
+    },
+    "review": {
+      "threshold_ceiling_routed": {
+        "value": 28.6,
+        "unit": "percent",
+        "n": 70
+      },
+      "threshold_ceiling_correct": {
+        "value": 20,
+        "unit": "cases",
+        "n": 70
+      },
+      "plus_floor_drop": {
+        "value": 51.4,
+        "unit": "percent",
+        "n": 70
+      },
+      "plus_rank_promotion": {
+        "value": 58.6,
+        "unit": "percent",
+        "n": 70
+      },
+      "relaxed_rule_correct": {
+        "value": 19,
+        "unit": "cases",
+        "n": 70
+      },
+      "relaxed_rule_wrong": {
+        "value": 4,
+        "unit": "cases",
+        "n": 70
+      },
+      "relaxed_rule_wrong_on_none": {
+        "value": 0,
+        "unit": "cases",
+        "n": 10
+      },
+      "decision_accuracy_now": {
+        "value": 12.5,
+        "unit": "percent",
+        "n": 80
+      },
+      "decision_accuracy_relaxed": {
+        "value": 35,
+        "unit": "percent",
+        "n": 80
+      },
+      "label_suspects": {
+        "value": 11,
+        "unit": "cases",
+        "n": 70
+      },
+      "label_suspect_share": {
+        "value": 15.7,
+        "unit": "percent",
+        "n": 70
+      },
+      "tier_a_self_route_short": {
+        "value": 100,
+        "unit": "percent",
+        "n": 70
+      },
+      "tier_a_self_route_padded": {
+        "value": 70,
+        "unit": "percent",
+        "n": 70
+      },
+      "padded_fail_right_card_rank1": {
+        "value": 13,
+        "unit": "cases",
+        "n": 21
+      },
+      "padded_fail_right_card_missing": {
+        "value": 8,
+        "unit": "cases",
+        "n": 21
+      },
+      "right_first_above_pickfloor": {
+        "value": 1,
+        "unit": "cases",
+        "n": 36
+      },
+      "right_first_between_floor_pickfloor": {
+        "value": 19,
+        "unit": "cases",
+        "n": 36
+      },
+      "right_first_below_floor": {
+        "value": 16,
+        "unit": "cases",
+        "n": 36
+      }
+    },
+    "phase1": {
+      "bench_top1_before": {
+        "value": 1,
+        "unit": "of 80",
+        "baseline": 1
+      },
+      "bench_top1_after": {
+        "value": 18,
+        "unit": "of 80",
+        "baseline": 1
+      },
+      "bench_picked_before": {
+        "value": 1,
+        "unit": "of 80"
+      },
+      "bench_picked_after": {
+        "value": 19,
+        "unit": "of 80"
+      },
+      "bench_asked_after": {
+        "value": 7,
+        "unit": "of 80",
+        "baseline": 25
+      },
+      "bench_wrong_pick": {
+        "value": 1,
+        "unit": "of 70",
+        "baseline": 0
+      },
+      "bench_false_pick_none": {
+        "value": 0,
+        "unit": "of 10",
+        "baseline": 0
+      },
+      "surfaced_rate": {
+        "value": 83,
+        "unit": "percent",
+        "n": 210
+      },
+      "margin_10_right": {
+        "value": 19,
+        "unit": "cases",
+        "n": 70
+      },
+      "margin_10_wrong": {
+        "value": 4,
+        "unit": "cases",
+        "n": 70
+      },
+      "margin_15_right": {
+        "value": 18,
+        "unit": "cases",
+        "n": 70
+      },
+      "margin_15_wrong": {
+        "value": 1,
+        "unit": "cases",
+        "n": 70
+      },
+      "margin_18_right": {
+        "value": 15,
+        "unit": "cases",
+        "n": 70
+      },
+      "pool_80_cluster_32_right": {
+        "value": 126,
+        "unit": "cases",
+        "n": 210,
+        "baseline": 122
+      },
+      "pool_120_wrong": {
+        "value": 5,
+        "unit": "cases",
+        "n": 210,
+        "baseline": 1
+      },
+      "query_terms_25_surfaced": {
+        "value": 179,
+        "unit": "cases",
+        "n": 210,
+        "baseline": 174
+      },
+      "query_terms_40_wrong": {
+        "value": 6,
+        "unit": "cases",
+        "n": 210,
+        "baseline": 1
+      },
+      "generic_terms_in_corpus": {
+        "value": 12,
+        "unit": "of 7036"
+      },
+      "generic_cut_df": {
+        "value": 391,
+        "unit": "cards"
+      }
+    },
+    "trim_trade": {
+      "known_long_hit": {
+        "value": 33,
+        "unit": "of 80"
+      },
+      "known_long_pick": {
+        "value": 22,
+        "unit": "of 80"
+      },
+      "known_long_wrong": {
+        "value": 1,
+        "unit": "of 80"
+      },
+      "known_verbose": {
+        "value": 85.7,
+        "unit": "percent",
+        "n": 14
+      },
+      "rare_long_hit": {
+        "value": 30,
+        "unit": "of 80"
+      },
+      "rare_long_pick": {
+        "value": 19,
+        "unit": "of 80"
+      },
+      "rare_long_wrong": {
+        "value": 1,
+        "unit": "of 80"
+      },
+      "rare_verbose": {
+        "value": 92.9,
+        "unit": "percent",
+        "n": 14
+      },
+      "short_sets_identical": {
+        "value": 1,
+        "unit": "of 5 sets identical"
+      }
+    },
+    "phase2_final": {
+      "bench_top1": {
+        "value": 21,
+        "unit": "of 80",
+        "baseline": 1
+      },
+      "bench_pick": {
+        "value": 22,
+        "unit": "of 80",
+        "baseline": 1
+      },
+      "bench_ask": {
+        "value": 9,
+        "unit": "of 80",
+        "baseline": 25
+      },
+      "bench_wrong_pick": {
+        "value": 1,
+        "unit": "of 70",
+        "baseline": 0
+      },
+      "bench_false_pick_none": {
+        "value": 0,
+        "unit": "of 10",
+        "baseline": 0
+      },
+      "eval_tune": {
+        "value": 97.8,
+        "unit": "percent",
+        "n": 90
+      },
+      "eval_heldout": {
+        "value": 97.2,
+        "unit": "percent",
+        "n": 36
+      },
+      "eval_verbose": {
+        "value": 85.7,
+        "unit": "percent",
+        "n": 14
+      },
+      "eval_paraphrase": {
+        "value": 100,
+        "unit": "percent",
+        "n": 25
+      },
+      "eval_adversarial": {
+        "value": 100,
+        "unit": "percent",
+        "n": 8
+      },
+      "eval_coverage": {
+        "value": 100,
+        "unit": "percent",
+        "n": 70
+      },
+      "latency_p50": {
+        "value": 248,
+        "unit": "ms"
+      },
+      "latency_p95": {
+        "value": 297,
+        "unit": "ms"
+      },
+      "pool_80_same_outcome": {
+        "value": 1,
+        "unit": "of 3 pool settings identical"
+      },
+      "pool_80_extra_latency": {
+        "value": 37,
+        "unit": "ms at p50"
+      },
+      "scoped_tests": {
+        "value": 95,
+        "unit": "pass",
+        "n": 95
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "AUD-DLV-001",
+      "title": "Section packer scores only the first 400 bytes of a section",
+      "area": "delivery",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "A section whose task words sit past byte 400 scores zero, so the packer can drop the section that actually answers the request and deliver a less relevant one instead.",
+      "evidence": [
+        {
+          "file": "src/deliver.ts",
+          "line": 128,
+          "quote": "const st = taskWords(s.slice(0, 400));"
+        },
+        {
+          "file": "src/deliver.ts",
+          "line": 139,
+          "quote": "const st = taskWords(p.slice(0, 400));"
+        }
+      ],
+      "measurement": {
+        "metric": "more relevant section dropped than delivered",
+        "value": "10 of 11 clipped cases",
+        "method": "real model probe, 15 sampled tasks"
+      },
+      "fix": {
+        "summary": "Score the whole section text, not a 400 byte prefix.",
+        "files": [
+          "src/deliver.ts"
+        ],
+        "sketch": "Use taskWords(s) over the full section; if that is too slow, raise the window to 2000 bytes and add a second pass over the tail."
+      }
+    },
+    {
+      "id": "AUD-DLV-002",
+      "title": "Oversized top section is skipped instead of truncated",
+      "area": "delivery",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "The most relevant section is also the largest, so the greedy loop drops it whole. The agent loses the method and keeps the preamble.",
+      "evidence": [
+        {
+          "file": "src/deliver.ts",
+          "line": 166,
+          "quote": "if (encS(cand) > cap) continue;"
+        }
+      ],
+      "measurement": {
+        "metric": "cases where the top scoring section was absent from the body",
+        "value": "9 of 12 cards",
+        "method": "section ranking versus delivered sections"
+      },
+      "fix": {
+        "summary": "Truncate the top scoring section to the remaining budget instead of skipping it.",
+        "files": [
+          "src/deliver.ts"
+        ],
+        "sketch": "When a section does not fit, cut it to the remaining bytes, mark it partial in the SECTIONS line, and stop adding further sections."
+      }
+    },
+    {
+      "id": "AUD-DLV-003",
+      "title": "Delivered body is never usable without a second fetch",
+      "area": "delivery",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "Zero of fifteen delivered bodies were usable as is, and zero of twelve bodies for the correct card were usable as is. The agent must always call get_ref before it can act, so the router adds a round trip on every task.",
+      "evidence": [
+        {
+          "file": "docs/delivery-effectiveness-2026-11-10.md",
+          "line": 0,
+          "quote": "usable-as-is 0/15, needs-ref 4/15, unusable 11/15"
+        }
+      ],
+      "measurement": {
+        "metric": "usable as is",
+        "value": "0 of 15",
+        "method": "real model judged each delivered body"
+      },
+      "fix": {
+        "summary": "Deliver the goal plus the first complete method section, then raise the cap only if the body still fits.",
+        "files": [
+          "src/deliver.ts",
+          "src/deliver-cap.ts"
+        ],
+        "sketch": "Split the budget: goal and core first, then one whole method section. Keep DELIVER_CAP 3000 as the default but allow a per card override for skills whose core is short."
+      }
+    },
+    {
+      "id": "AUD-DLV-004",
+      "title": "Confidence does not predict body quality",
+      "area": "delivery",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "All five delivered bodies cleared the abstain floor of 45 and every one was needs-ref or unusable. The agent trusts a high score and gets an unusable body, which is worse than an abstain.",
+      "evidence": [
+        {
+          "file": "src/route.ts",
+          "line": 0,
+          "quote": "confidence comes from the score, no signal about body completeness"
+        }
+      ],
+      "measurement": {
+        "metric": "high confidence but unusable body",
+        "value": "5 of 5",
+        "method": "probe of every PICK outcome"
+      },
+      "fix": {
+        "summary": "Add a body coverage signal to the route result and to the gate.",
+        "files": [
+          "src/deliver.ts",
+          "src/route.ts"
+        ],
+        "sketch": "loadBody returns a coverage flag: did a whole method section fit. route exposes body_complete. must_delegate becomes true when confidence is high but body_complete is false."
+      }
+    },
+    {
+      "id": "AUD-DLV-005",
+      "title": "MORE line names at most five dropped sections",
+      "area": "delivery",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "A long skill lists a fraction of what was dropped, and seven dropped sections had no name at all across four cases, so the agent cannot ask for them.",
+      "evidence": [
+        {
+          "file": "src/deliver.ts",
+          "line": 156,
+          "quote": "const spill = items.filter((e) => !inDel.has(e)).slice(0, 5);"
+        }
+      ],
+      "fix": {
+        "summary": "Name every dropped section, or state the count when the list is too long.",
+        "files": [
+          "src/deliver.ts"
+        ],
+        "sketch": "Print all dropped labels when there are 12 or fewer, otherwise print the count and the first five."
+      }
+    },
+    {
+      "id": "AUD-DLV-006",
+      "title": "Card metadata disagrees with the file on disk",
+      "area": "cards",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "core_bytes is used for budget decisions but is stale for some cards, so the packer makes size calls on wrong numbers.",
+      "evidence": [
+        {
+          "file": "cards/local__skill-router.json",
+          "line": 0,
+          "quote": "core_bytes 1886 while the source file is 3664 bytes"
+        },
+        {
+          "file": "cards/local__tldraw-offline.json",
+          "line": 0,
+          "quote": "core_bytes 31654 while the source file is 32299 bytes"
+        }
+      ],
+      "measurement": {
+        "metric": "cards with core_bytes off by more than 200 bytes",
+        "value": "2",
+        "method": "compare card json to file size on disk"
+      },
+      "fix": {
+        "summary": "Read the byte count from disk when the card is loaded, not from the stored number.",
+        "files": [
+          "src/deliver.ts",
+          "src/card.ts"
+        ],
+        "sketch": "loadBody already reads the file, so use its byte length. Keep core_bytes only as a hint."
+      }
+    },
+    {
+      "id": "AUD-DLV-007",
+      "title": "Some cards carry install instructions instead of a method",
+      "area": "cards",
+      "severity": "P2",
+      "status": "reported",
+      "confidence": "reported",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "If the claim holds, the expected answer for some tasks is a stub, and the router cannot be blamed for picking a thin card.",
+      "evidence": [
+        {
+          "file": "cards/design__dark-pattern-audit.json",
+          "line": 0,
+          "quote": "named as the expected answer for a case where the body was unusable"
+        }
+      ],
+      "measurement": {
+        "metric": "cards with install-first source",
+        "value": "claimed 150 of 2176, not reproduced",
+        "method": "file size check found 63 cards under 1500 bytes and 0 missing"
+      },
+      "fix": {
+        "summary": "Check the claim per card, then either demote the stubs to tier C or point the card at the real method file.",
+        "files": [
+          "src/card.ts",
+          "cards/"
+        ],
+        "sketch": "Classify a card as a stub when its source has no method heading and only install steps. Stubs become tier C so the router stops offering them."
+      }
+    },
+    {
+      "id": "AUD-RTE-001",
+      "title": "Every ABSTAIN with any candidate row forces a council",
+      "area": "router",
+      "severity": "P0",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "A council is now opened only when the best near candidate reaches the near_floor of 27. Below that bar the router reports that the agent may proceed bare, so ordering a pizza no longer opens a skill council. The dead proceed_bare_allowed branch now has a live path.",
+      "evidence": [
+        {
+          "file": "src/route.ts",
+          "line": 83,
+          "quote": "const near = ranking.slice(0, 3).map((r) => ({ id: r.id, score: r.score }));"
+        },
+        {
+          "file": "src/route.ts",
+          "line": 89,
+          "quote": "must_delegate is set true whenever candidates exist"
+        }
+      ],
+      "measurement": {
+        "metric": "false blocks on out of scope tasks",
+        "value": "0 of 10 in the bench, down from a forced council on every one",
+        "method": "bench with the new gate"
+      },
+      "fix": {
+        "summary": "Done. The near_floor bar lives in src/route-abstain.ts.",
+        "files": [
+          "src/route.ts",
+          "src/route-abstain.ts",
+          "config.json"
+        ]
+      }
+    },
+    {
+      "id": "AUD-RTE-002",
+      "title": "Expected card is often not retrieved at all on long text",
+      "area": "retrieval",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "corpora",
+      "phase": 3,
+      "impact": "On a 138 word accessibility audit the router returned nvidia__tao-train-reid at 24. The same task shortened to 21 words put the right cards at 79 and 65 in the shortlist. Long input loses the card entirely, so no scoring fix can recover it.",
+      "evidence": [
+        {
+          "file": "evals/golden-long-digital-product.yaml",
+          "line": 0,
+          "quote": "WCAG 2.2 audit case, 138 words"
+        }
+      ],
+      "measurement": {
+        "metric": "abstain rate on long corpora",
+        "value": "30 of 40 per corpus",
+        "method": "corpora build with the real router"
+      },
+      "fix": {
+        "summary": "Stop trimming the query to the rarest 12 terms when the task is long, and rank on the intent clause first.",
+        "files": [
+          "src/retrieve.ts",
+          "src/scoring.ts"
+        ],
+        "sketch": "Raise query_terms for long tasks, or score the first sentence separately and add its score as a separate signal so intent is never diluted by context words."
+      }
+    },
+    {
+      "id": "AUD-RTE-003",
+      "title": "Right card is top ranked but scores under the floor",
+      "area": "scoring",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "corpora",
+      "phase": 3,
+      "impact": "The expected card is the best candidate and the router still abstains, for example vercel__deploy-to-vercel at 39 against a floor of 45. The floor is set for short prompts and is wrong for long ones.",
+      "evidence": [
+        {
+          "file": "config.json",
+          "line": 2,
+          "quote": "floor 45"
+        }
+      ],
+      "measurement": {
+        "metric": "expected card rank when not picked",
+        "value": "rank 1 in the false abstain cases",
+        "method": "corpora build"
+      },
+      "fix": {
+        "summary": "Make the floor depend on task length, or lower it when the top candidate is clearly ahead of the field.",
+        "files": [
+          "src/decide.ts",
+          "config.json"
+        ],
+        "sketch": "Use a lower floor for tasks above 60 words, and keep pick_floor for the high confidence path."
+      }
+    },
+    {
+      "id": "AUD-RTE-004",
+      "title": "ASK outcome never takes the session lock, so no usage row is written",
+      "area": "analytics",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "ASK is a blocking outcome but it does not lock a skill, so phase_done reports no active skill and writes no usage row. Acceptance analytics is blind on every ASK, which is 300 of 1274 offers in the measured window.",
+      "evidence": [
+        {
+          "file": "src/route.ts",
+          "line": 0,
+          "quote": "lockSkill is called only on the PICK path"
+        },
+        {
+          "file": "src/serve.ts",
+          "line": 0,
+          "quote": "recordUsage is skipped when there is no active skill"
+        }
+      ],
+      "measurement": {
+        "metric": "usage rows from an ASK only probe run",
+        "value": "0 of 5 ASK outcomes",
+        "method": "MCP probe"
+      },
+      "fix": {
+        "summary": "Record the ASK candidate as a provisional usage so the acceptance rate covers blocked decisions.",
+        "files": [
+          "src/serve.ts",
+          "src/session.ts"
+        ],
+        "sketch": "Store the ASK top candidate in the session as pending_skill, and have phase_done write a usage row for it when no skill was locked."
+      }
+    },
+    {
+      "id": "AUD-RTE-005",
+      "title": "Session lock is advisory, not enforced",
+      "area": "enforcement",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 3,
+      "impact": "The locked flag now reports the real state, and the block on a conflicting pick is driven by a separate lockConflict flag. A pick made with locking disabled no longer claims a lock it never took, and no longer tells the agent to wait for a phase that will never end.",
+      "evidence": [
+        {
+          "file": "src/route.ts",
+          "line": 0,
+          "quote": "locked false with block_reason, the skill is still returned"
+        }
+      ],
+      "fix": {
+        "summary": "Done.",
+        "files": [
+          "src/route.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-RTE-006",
+      "title": "ASK outcome carries no council hint",
+      "area": "council",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "reported",
+      "found_by": "audit",
+      "phase": 3,
+      "impact": "ASK now carries a council hint, so the contested path points at the same shortlist the council opens instead of only asking for a number.",
+      "evidence": [
+        {
+          "file": "src/route.ts",
+          "line": 0,
+          "quote": "council_hint is set on the ABSTAIN path only"
+        }
+      ],
+      "fix": {
+        "summary": "Done.",
+        "files": [
+          "src/route.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-ANA-001",
+      "title": "Acceptance rate is polluted by harness sessions",
+      "area": "analytics",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "probe",
+      "phase": 3,
+      "impact": "The window showed an acceptance rate of 1.9 percent while the live probe slice was 12 of 12. Six hundred of six hundred and nineteen PICK offers came from eval and cover runs that never close a phase.",
+      "evidence": [
+        {
+          "file": "src/analytics-agg.ts",
+          "line": 0,
+          "quote": "aggregate counts every session"
+        }
+      ],
+      "measurement": {
+        "metric": "window acceptance versus live slice acceptance",
+        "value": "1.9 percent versus 100 percent",
+        "method": "analytics run after an MCP probe"
+      },
+      "fix": {
+        "summary": "Separate agent traffic from harness traffic in the aggregate.",
+        "files": [
+          "src/analytics-agg.ts"
+        ],
+        "sketch": "Exclude session ids that start with eval, cover, calibrate, bench, or default. Add an agent_only flag and report both numbers."
+      }
+    },
+    {
+      "id": "AUD-ANA-002",
+      "title": "Harness runs write offer rows into the live analytics table",
+      "area": "analytics",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "analytics",
+      "phase": 3,
+      "impact": "Harness runs write offer rows into the live analytics table. The flag that was meant to stop this only stops the older route_logs write, so every measurement pollutes the table it reads. This is the same defect as AUD-INT-016.",
+      "evidence": [
+        {
+          "file": "src/eval.ts",
+          "line": 0,
+          "quote": "routeWith is called with log false in the golden sets"
+        },
+        {
+          "file": "src/eval.ts",
+          "line": 0,
+          "quote": "runCoverage calls routeWith with log false, yet the table gained cover rows"
+        }
+      ],
+      "measurement": {
+        "metric": "offer rows written by one eval run",
+        "value": "438 skill_offers rows plus 173 route_logs rows, because the offer writer ignores the log flag",
+        "method": "integration audit row count plus bench observation of 240 rows per run"
+      },
+      "fix": {
+        "summary": "Tag the source of each offer row and filter by source in the aggregate.",
+        "files": [
+          "src/analytics.ts",
+          "src/analytics-agg.ts",
+          "src/route.ts"
+        ],
+        "sketch": "Add source values harness and agent. Pass harness from the eval and coverage call sites, agent everywhere else."
+      }
+    },
+    {
+      "id": "AUD-EVL-001",
+      "title": "Eval set was fitted to short prompts",
+      "area": "eval",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "audit",
+      "phase": 2,
+      "impact": "The tune set was short prompts only, so a change that broke long input still passed.",
+      "fix": {
+        "summary": "Added paraphrase, adversarial and verbose strata plus a tier A coverage gate.",
+        "files": [
+          "src/eval.ts",
+          "evals/golden-paraphrase.yaml",
+          "evals/golden-adversarial.yaml",
+          "evals/golden-verbose.yaml"
+        ]
+      },
+      "measurement": {
+        "metric": "verbose top1",
+        "value": "71.4 percent before, 92.9 percent after",
+        "method": "eval"
+      }
+    },
+    {
+      "id": "AUD-EVL-002",
+      "title": "None precision on the tune set was 66.7 percent",
+      "area": "eval",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "audit",
+      "phase": 3,
+      "impact": "On the original tune set the router still picks a skill on one of three tasks that should abstain.",
+      "evidence": [
+        {
+          "file": "evals/golden.yaml",
+          "line": 0,
+          "quote": "wordpress theme and CUDA kernel cases expect NONE"
+        }
+      ],
+      "measurement": {
+        "metric": "tune none precision",
+        "value": "66.7 percent",
+        "method": "eval"
+      },
+      "fix": {
+        "summary": "Add a topic check for the whole task domain before a pick is confirmed.",
+        "files": [
+          "src/scoring.ts",
+          "src/collapse.ts"
+        ],
+        "sketch": "Use the cluster and domain of the task words to reject a card whose domain never appears in the task."
+      }
+    },
+    {
+      "id": "AUD-CRD-001",
+      "title": "Card purpose was a 200 character description slice",
+      "area": "cards",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 3,
+      "impact": "Retrieval matched on thin frontmatter text, so cards scored on nothing.",
+      "fix": {
+        "summary": "Added Card v2 fields goal, when_to_use, when_not_to_use, provides, example, counter_example with an offline summarizer.",
+        "files": [
+          "src/types.ts",
+          "src/card.ts",
+          "src/db.ts",
+          "src/index.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-CRD-002",
+      "title": "do_not_use_when was a generic template string for nearly every card",
+      "area": "cards",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 3,
+      "impact": "The negative gate needs every token of the string to appear in the task, so a template such as tasks unrelated to general never fires. The negative filter was dead for most of the library.",
+      "evidence": [
+        {
+          "file": "src/card.ts",
+          "line": 0,
+          "quote": "do_not_use_when template text for every new card"
+        },
+        {
+          "file": "src/gate.ts",
+          "line": 26,
+          "quote": "the negative match needs every token present"
+        }
+      ],
+      "fix": {
+        "summary": "Mine the negative triggers from the skill body and write them into do_not_use_when.",
+        "files": [
+          "src/cardtext.ts",
+          "src/card.ts"
+        ],
+        "sketch": "Mine lines that match do not use, not for, and use X instead. Keep the template only as a last resort and mark it as generic so the gate can skip it."
+      }
+    },
+    {
+      "id": "AUD-CRD-003",
+      "title": "requires was empty for every templated card",
+      "area": "cards",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 3,
+      "impact": "The stack and file preconditions in the hard filter never fire, so the router offers skills for stacks the repo does not use.",
+      "evidence": [
+        {
+          "file": "src/card.ts",
+          "line": 0,
+          "quote": "requires is an empty object for template cards"
+        },
+        {
+          "file": "src/gate.ts",
+          "line": 14,
+          "quote": "the stack and file checks read requires"
+        }
+      ],
+      "fix": {
+        "summary": "Fill stack_any and files_any from the skill body and the repo it came from.",
+        "files": [
+          "src/cardtext.ts",
+          "src/card.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-CRD-004",
+      "title": "One domain held 39 percent of the routable library",
+      "area": "cards",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "audit",
+      "phase": 4,
+      "impact": "A general bucket of 847 cards crowded the shortlist and made cluster arbitration meaningless.",
+      "fix": {
+        "summary": "Assigned domains from the source provider and capped every domain at 25 percent.",
+        "files": [
+          "cards/",
+          "src/cardtext.ts"
+        ]
+      },
+      "measurement": {
+        "metric": "largest domain share of tier A plus B",
+        "value": "39 percent before, 24.7 percent after",
+        "method": "distribution scan"
+      }
+    },
+    {
+      "id": "AUD-CRD-005",
+      "title": "Tier meant nothing because 91 percent of cards were tier B",
+      "area": "cards",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "audit",
+      "phase": 4,
+      "impact": "Twenty tier A cards against two thousand one hundred and fifty three tier B cards gave the tier gate no power.",
+      "fix": {
+        "summary": "Promoted curated cards that pass the tier A rule and raised tier A to seventy.",
+        "files": [
+          "cards/"
+        ]
+      },
+      "measurement": {
+        "metric": "tier A count",
+        "value": "20 before, 70 after",
+        "method": "distribution scan"
+      }
+    },
+    {
+      "id": "AUD-SCR-001",
+      "title": "Unknown query words counted against a card at full strength",
+      "area": "scoring",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "audit",
+      "phase": 5,
+      "impact": "A long prompt with many unseen words pushed coverage under the floor even when the core words matched perfectly.",
+      "fix": {
+        "summary": "Capped the unknown word mass at min of maxIdf and 4, and aligned the retrieve trim with the scoring denominator.",
+        "files": [
+          "src/scoring.ts",
+          "src/retrieve.ts",
+          "src/lexicon.ts"
+        ]
+      },
+      "measurement": {
+        "metric": "verbose top1",
+        "value": "71.4 percent before, 92.9 percent after",
+        "method": "eval"
+      }
+    },
+    {
+      "id": "AUD-SCR-002",
+      "title": "Three signals ship disabled",
+      "area": "scoring",
+      "severity": "P3",
+      "status": "accepted",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 5,
+      "impact": "PRIMARY_DEFAULT_BONUS is zero, variant_unclaimed is zero, and position_decay was zero. Position decay is now used. The other two stay off because earlier measurement said they hurt.",
+      "evidence": [
+        {
+          "file": "src/weights.ts",
+          "line": 45,
+          "quote": "DEFAULT_WEIGHTS with primary and variant signals off"
+        }
+      ],
+      "fix": {
+        "summary": "Revisit with the new corpus and the fitted weights before changing anything.",
+        "files": [
+          "src/weights.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-DEC-001",
+      "title": "pick_floor was dead code",
+      "area": "router",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 1,
+      "impact": "Two consecutive pick conditions made the configured pick_floor of 80 a no-op.",
+      "fix": {
+        "summary": "PICK now requires pick_floor, and a score between floor and pick_floor becomes ASK.",
+        "files": [
+          "src/decide.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-SEC-001",
+      "title": "get_ref allowed path escapes",
+      "area": "enforcement",
+      "severity": "P0",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 1,
+      "impact": "The path check only removed dot dot sequences, so an absolute path or a drive letter resolved outside the skill directory.",
+      "fix": {
+        "summary": "Resolve the requested path against the skill directory and refuse anything outside it.",
+        "files": [
+          "src/serve.ts",
+          "src/serve-ref.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-CNC-001",
+      "title": "Council spawn count exceeded the parallel limit",
+      "area": "council",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 7,
+      "impact": "A council of four plus a critic is five subagents while the project rule allows three at a time, so candidates were dropped for silence that was caused by the cap.",
+      "fix": {
+        "summary": "Added plan_batches with a maximum of three prompts per batch.",
+        "files": [
+          "src/council.ts",
+          "src/council-types.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-CNC-002",
+      "title": "Compose re-scored the shortlist instead of using the opened state",
+      "area": "council",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 7,
+      "impact": "A config change or index rebuild between council and compose changed the order and the confidence.",
+      "fix": {
+        "summary": "Candidate scores are persisted at open time and compose reads them.",
+        "files": [
+          "src/council.ts",
+          "src/council-compose.ts",
+          "src/council-store.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-CNC-003",
+      "title": "Expiring deliberations were never cleaned",
+      "area": "council",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 7,
+      "impact": "The prune query bound its parameter wrongly and matched no rows, so expired rows and note files stayed forever.",
+      "fix": {
+        "summary": "Fixed the prune query and call prune on route, compose and server start, plus a timer.",
+        "files": [
+          "src/council-store.ts",
+          "src/route.ts",
+          "src/council-compose.ts",
+          "src/serve.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-CNC-004",
+      "title": "Council and router delivered different body sizes for the same skill",
+      "area": "delivery",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 6,
+      "impact": "The router sent three thousand bytes and the council sent twenty thousand for the same card, so an agent got different guidance depending on the path.",
+      "fix": {
+        "summary": "One DELIVER_CAP of 3000 for both paths, complements stay at an 1800 byte guard.",
+        "files": [
+          "src/deliver.ts",
+          "src/route.ts",
+          "src/council.ts",
+          "src/council-compose.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-ENF-001",
+      "title": "The no direct scan rule was advisory only",
+      "area": "enforcement",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 8,
+      "impact": "Nothing stopped an agent from reading every skill file, which is the fallback when the router abstains.",
+      "fix": {
+        "summary": "Added a harness manifest with a deny list, a deny logger, and gate fields on the route result.",
+        "files": [
+          "harness-manifest.json",
+          "src/harness.ts",
+          "src/route.ts",
+          "src/types.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-ENF-002",
+      "title": "The phase gate ran a vacuous slop scan",
+      "area": "enforcement",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 8,
+      "impact": "phase_done always scanned zero files, so the gate always passed.",
+      "fix": {
+        "summary": "phase_done accepts touched_files and passes them to the scanner.",
+        "files": [
+          "src/serve.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-OPT-001",
+      "title": "Card and vector caches were keyed on row count only",
+      "area": "router",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 1,
+      "impact": "An edit that keeps the row count left the cache stale. The fix moved the key to count plus the largest hash, which still misses an in place edit of any card that is not the largest. The defect is not closed.",
+      "fix": {
+        "summary": "Key the cache on a digest that changes when any card changes. Tracked as AUD-INT-008.",
+        "files": [
+          "src/retrieve-cache.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-OPT-002",
+      "title": "Council notes were written without a transaction",
+      "area": "council",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 7,
+      "impact": "A crash between the file write and the database write left the verdict in one place only.",
+      "fix": {
+        "summary": "The file is written first and removed when the database write fails.",
+        "files": [
+          "src/council.ts",
+          "src/council-store.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-OPT-003",
+      "title": "Source files grew past the two hundred line limit",
+      "area": "process",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "confirmed",
+      "found_by": "audit",
+      "phase": 9,
+      "impact": "retrieve.ts, eval.ts, serve.ts, lexicon.ts and doctor.ts were over the limit.",
+      "fix": {
+        "summary": "Split into eval-parsers, retrieve-cache, lexicon-synonyms and serve-ref modules.",
+        "files": [
+          "src/eval-parsers.ts",
+          "src/retrieve-cache.ts",
+          "src/lexicon-synonyms.ts",
+          "src/serve-ref.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-TST-001",
+      "title": "Two decide tests expect PICK but the router now asks",
+      "area": "eval",
+      "severity": "P2",
+      "status": "accepted",
+      "confidence": "measured",
+      "found_by": "audit",
+      "phase": 5,
+      "impact": "The tests still expect the old behaviour where a score above the floor was always a pick. The new rule asks the user when the score sits between floor and pick_floor.",
+      "evidence": [
+        {
+          "file": "tests/decide.test.ts",
+          "line": 86,
+          "quote": "expects PICK"
+        },
+        {
+          "file": "tests/decide.test.ts",
+          "line": 98,
+          "quote": "expects PICK"
+        }
+      ],
+      "fix": {
+        "summary": "Update the two test expectations to ASK, or restore the old rule.",
+        "files": [
+          "tests/decide.test.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-TST-002",
+      "title": "One card is stale against its upstream file",
+      "area": "cards",
+      "severity": "P3",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "audit",
+      "phase": 0,
+      "impact": "cards --check reports one bad card, so the check exits with code 1 and blocks a clean gate run.",
+      "evidence": [
+        {
+          "file": "cards/local__tldraw-offline.json",
+          "line": 0,
+          "quote": "stale: sha mismatch, needs re-review"
+        }
+      ],
+      "fix": {
+        "summary": "Rebuild that card from the current source and review the text.",
+        "files": [
+          "cards/local__tldraw-offline.json"
+        ]
+      }
+    },
+    {
+      "id": "AUD-BEN-001",
+      "title": "Router picks the right skill on 1 of 80 realistic long prompts",
+      "area": "bench",
+      "severity": "P0",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "bench",
+      "phase": 3,
+      "impact": "The threshold work fixed the part that thresholds could fix. Committed picks on the long corpora went from 1 to 18 of 70, wrong commits from 0 to 1, and false picks on out of scope cases stayed at 0. The measured ceiling for threshold work is 20 of 70, so the remaining 50 cases need the retrieval work tracked as AUD-RET-003.",
+      "evidence": [
+        {
+          "file": "src/bench.ts",
+          "line": 0,
+          "quote": "overall top1 1/80 1.3 percent"
+        },
+        {
+          "file": "docs/audit/metrics.md",
+          "line": 0,
+          "quote": "bench top1 1.3 percent against a tune baseline of 97.8 percent"
+        }
+      ],
+      "measurement": {
+        "metric": "committed correct on the long corpora",
+        "value": "1 of 70 before, 18 of 70 after, with a measured ceiling of 20",
+        "method": "bench with the new decision rule at margin 15"
+      },
+      "fix": {
+        "summary": "Done. The decision rule is now score at or above floor and margin at or above margin. The pick floor no longer gates a pick.",
+        "files": [
+          "src/decide.ts",
+          "config.json"
+        ]
+      }
+    },
+    {
+      "id": "AUD-BEN-002",
+      "title": "pick_floor of 80 is unreachable for long prompts, so a correct first candidate becomes ASK",
+      "area": "scoring",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "bench",
+      "phase": 3,
+      "impact": "Nineteen cases had the correct card as candidate one with a score between the floor of 45 and the pick floor of 80. The router asked the user instead of picking. The pick floor was fitted on ten word prompts and no longer fits.",
+      "evidence": [
+        {
+          "file": "config.json",
+          "line": 4,
+          "quote": "pick_floor 80"
+        },
+        {
+          "file": "src/decide.ts",
+          "line": 0,
+          "quote": "a score between floor and pick_floor returns ASK"
+        }
+      ],
+      "measurement": {
+        "metric": "correct first candidate that became ASK",
+        "value": "19 cases, plus 16 more that fell under the floor",
+        "method": "bench score analysis"
+      },
+      "fix": {
+        "summary": "Make the pick floor relative: a clear first candidate with a margin above the runner up should pick, whatever the absolute score.",
+        "files": [
+          "src/decide.ts",
+          "config.json"
+        ],
+        "sketch": "Pick when score is at or above floor and the margin over the runner up is at least the margin value, or when the score is at or above pick_floor. Lower pick_floor for long tasks."
+      }
+    },
+    {
+      "id": "AUD-BEN-003",
+      "title": "Retrieval drops the correct card on long text before the scorer can see it",
+      "area": "retrieval",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "bench",
+      "phase": 3,
+      "impact": "Twenty nine of seventy routed cases never had the correct card in the shortlist. The rate of the correct card appearing first falls from 67.6 percent at 60 to 79 words to 22.2 percent at 120 words and above. A scoring change cannot recover a card that never entered the shortlist.",
+      "evidence": [
+        {
+          "file": "src/retrieve.ts",
+          "line": 0,
+          "quote": "the query is trimmed to the 12 rarest terms before the FTS match"
+        },
+        {
+          "file": "src/scoring.ts",
+          "line": 0,
+          "quote": "the denominator counts every query word including unseen ones"
+        }
+      ],
+      "measurement": {
+        "metric": "expected card in the top three",
+        "value": "70.3 percent at 60 to 79 words, 33.3 percent at 120 words and above",
+        "method": "bench word length buckets"
+      },
+      "fix": {
+        "summary": "Score the intent clause of the request separately from the context, and stop trimming the query so hard on long input.",
+        "files": [
+          "src/retrieve.ts",
+          "src/scoring.ts",
+          "src/lexicon.ts"
+        ],
+        "sketch": "Split the task into the first sentence and the rest. Retrieve with the first sentence plus the rare terms of the whole task. Add the intent score as its own signal so context words cannot dilute it."
+      }
+    },
+    {
+      "id": "AUD-BEN-004",
+      "title": "The abstain floor of 45 is wrong for long prompts",
+      "area": "scoring",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "bench",
+      "phase": 3,
+      "impact": "Sixteen cases had the correct card as candidate one and scored between 27 and 44, under the floor of 45, so the router abstained even though it had the right card in front of it.",
+      "evidence": [
+        {
+          "file": "config.json",
+          "line": 2,
+          "quote": "floor 45"
+        }
+      ],
+      "measurement": {
+        "metric": "correct first candidate below the floor",
+        "value": "16 cases, scores 27 to 44",
+        "method": "bench score analysis"
+      },
+      "fix": {
+        "summary": "Scale the floor with task length, or drop the floor when the first candidate is clearly ahead of the field.",
+        "files": [
+          "src/decide.ts",
+          "config.json"
+        ]
+      }
+    },
+    {
+      "id": "AUD-BEN-005",
+      "title": "The router never commits to a wrong card on the long corpora",
+      "area": "router",
+      "severity": "P2",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "bench",
+      "phase": 3,
+      "impact": "The property is now measured instead of assumed. With the threshold work the router commits on 19 of the 80 long cases, one of them on the wrong card, and never on an out of scope case. The safety property holds and it is backed by a number.",
+      "evidence": [
+        {
+          "file": "docs/audit/metrics.md",
+          "line": 0,
+          "quote": "wrong_pick 0 of 70, false_pick 0 of 10"
+        }
+      ],
+      "measurement": {
+        "metric": "wrong commits and false picks after the threshold work",
+        "value": "1 of 70 wrong commits and 0 of 10 false picks",
+        "method": "bench with the new decision rule"
+      },
+      "fix": {
+        "summary": "Measure wrong picks after the threshold work. Keep the number reported on every bench run.",
+        "files": [
+          "src/bench.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-BEN-006",
+      "title": "The router is deterministic and order independent",
+      "area": "router",
+      "severity": "P3",
+      "status": "accepted",
+      "confidence": "measured",
+      "found_by": "bench",
+      "phase": 3,
+      "impact": "Eighty cases run twice in the same order and once in reverse produced zero differences in outcome, skill, confidence, margin and candidate order. Three separate bench runs gave identical reports.",
+      "evidence": [
+        {
+          "file": "src/bench.ts",
+          "line": 0,
+          "quote": "second pass same order checked 80 mismatches 0, reverse order checked 80 mismatches 0"
+        }
+      ],
+      "measurement": {
+        "metric": "determinism mismatches",
+        "value": "0 of 80 in both directions",
+        "method": "bench determinism pass"
+      },
+      "fix": {
+        "summary": "No action. Keep the determinism pass in the bench so a future change cannot break it silently.",
+        "files": [
+          "src/bench.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-BEN-007",
+      "title": "The corpora notes file holds stale router numbers",
+      "area": "process",
+      "severity": "P3",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "bench",
+      "phase": 3,
+      "impact": "The corpora notes report a top one of 7 of 36 and 13 of 34 for candidate one. The router now gives 13 of 36 and 23 of 34. A reader of the notes would draw the wrong conclusion.",
+      "evidence": [
+        {
+          "file": "evals/long-corpora-notes.md",
+          "line": 0,
+          "quote": "router findings recorded before the final scoring and tier changes"
+        }
+      ],
+      "fix": {
+        "summary": "Regenerate the numbers in the notes file from the bench report, or point the file at the bench output instead of repeating numbers.",
+        "files": [
+          "evals/long-corpora-notes.md"
+        ]
+      }
+    },
+    {
+      "id": "AUD-INT-001",
+      "title": "The whole module graph is wired, but the enforcement module is not",
+      "area": "enforcement",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "src/harness.ts has no importer and no test. AGENTS.md names it as the enforcement path, so the documented no direct scan rule is not enforced anywhere. The other 63 modules are reachable.",
+      "evidence": [
+        {
+          "file": "src/harness.ts",
+          "line": 0,
+          "quote": "no importer in src, no test references it"
+        },
+        {
+          "file": "AGENTS.md",
+          "line": 9,
+          "quote": "the enforcement line points at the harness manifest"
+        }
+      ],
+      "measurement": {
+        "metric": "reachable modules",
+        "value": "51 of 64, with harness.ts the only fully dead module",
+        "method": "importer analysis over src"
+      },
+      "fix": {
+        "summary": "Wire harness.ts into the read path or delete it and drop the claim from AGENTS.md.",
+        "files": [
+          "src/harness.ts",
+          "src/serve.ts",
+          "AGENTS.md"
+        ],
+        "sketch": "Call checkHarnessManifest from the MCP tool that serves file reads, or publish the manifest for the host harness to enforce. If the host cannot enforce it, remove the enforcement claim from the guide."
+      }
+    },
+    {
+      "id": "AUD-INT-002",
+      "title": "Seven card fields are written and never read",
+      "area": "cards",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "Seven card fields are written and never read: body_tokens, core_bytes, curated, keywords, when_not_to_use, example and counter_example. Two of them, curated and keywords, are dropped at the database boundary, so the router reads a card that is not the card the builder wrote. The keywords field alone holds about 26k topical terms that never enter the index. The full consequence is tracked as AUD-RET-001.",
+      "evidence": [
+        {
+          "file": "src/db.ts",
+          "line": 104,
+          "quote": "no column for curated and no column for keywords"
+        },
+        {
+          "file": "src/card.ts",
+          "line": 0,
+          "quote": "the builder writes goal, when_to_use, provides, example and counter_example"
+        },
+        {
+          "file": "src/doctor.ts",
+          "line": 0,
+          "quote": "the doctor re-reads the json from disk, so it disagrees with the router"
+        }
+      ],
+      "measurement": {
+        "metric": "card fields with no reader",
+        "value": "7 fields, 2 of them lost at the database boundary",
+        "method": "consumer search per field"
+      },
+      "fix": {
+        "summary": "Give every field a consumer. The retrieval half is tracked as AUD-RET-001 and is a P0.",
+        "files": [
+          "src/db.ts",
+          "src/index.ts",
+          "src/lexicon.ts",
+          "src/deliver.ts",
+          "src/scoring.ts",
+          "src/gate.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-INT-003",
+      "title": "A critic verdict overwrites the specialist verdict for the same skill",
+      "area": "council",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "Notes are keyed by skill id alone. The critic and the specialist both judge the same card, so the second write replaces the first and one verdict is lost. The role column is written and never read.",
+      "evidence": [
+        {
+          "file": "src/council-store.ts",
+          "line": 79,
+          "quote": "the note file name is the skill id"
+        },
+        {
+          "file": "src/council-store.ts",
+          "line": 170,
+          "quote": "the delete and insert use skill_id without the role"
+        }
+      ],
+      "measurement": {
+        "metric": "notes keyed by skill id only",
+        "value": "1 key for 2 roles",
+        "method": "code read"
+      },
+      "fix": {
+        "summary": "Key notes by skill id and role, and let compose read the specialist verdict as the primary one.",
+        "files": [
+          "src/council-store.ts",
+          "src/council.ts",
+          "src/council-compose.ts"
+        ],
+        "sketch": "notePath uses skill_id plus role. readNotes returns both, and compose prefers the specialist verdict, falling back to the critic verdict."
+      }
+    },
+    {
+      "id": "AUD-INT-004",
+      "title": "The weights option on routeWith has no effect",
+      "area": "router",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "The config weights are merged after the caller weights, so config always wins. Any sweep or experiment that passes weights at call time measures the config values instead.",
+      "evidence": [
+        {
+          "file": "src/route.ts",
+          "line": 41,
+          "quote": "cfg.weights overrides o.weights in the merge order"
+        }
+      ],
+      "fix": {
+        "summary": "Let the caller weights win over the config weights.",
+        "files": [
+          "src/route.ts"
+        ],
+        "sketch": "Merge as default weights, then config weights, then the caller weights."
+      }
+    },
+    {
+      "id": "AUD-INT-005",
+      "title": "The locked flag reports true when locking is off",
+      "area": "router",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "With lock false the result still reports locked true, so a harness that reads the flag cannot tell whether a skill was locked or not.",
+      "evidence": [
+        {
+          "file": "src/route.ts",
+          "line": 128,
+          "quote": "locked is set to true before the lock check"
+        }
+      ],
+      "fix": {
+        "summary": "Report the real lock state.",
+        "files": [
+          "src/route.ts"
+        ],
+        "sketch": "Set locked to false when doLock is false, and to the result of lockSkill otherwise."
+      }
+    },
+    {
+      "id": "AUD-INT-006",
+      "title": "Compose does not lock the skill it chose",
+      "area": "council",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "After a council decides, the session has no active skill, so phase_done reports no active skill and no usage row is written. The acceptance rate stays blind on the council path.",
+      "evidence": [
+        {
+          "file": "src/council-compose.ts",
+          "line": 146,
+          "quote": "the chosen skill is written to the deliberation row only"
+        }
+      ],
+      "fix": {
+        "summary": "Lock the chosen skill in the session when compose succeeds.",
+        "files": [
+          "src/council-compose.ts",
+          "src/session.ts"
+        ],
+        "sketch": "compose takes the session id and calls lockSkill with the chosen id."
+      }
+    },
+    {
+      "id": "AUD-INT-007",
+      "title": "The scoring arm ignores the configured query term count",
+      "area": "scoring",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "config query_terms is 12 and retrieve honours it, but scoring hardcodes 12. A configuration change moves one arm and not the other, and the two arms then disagree about the query.",
+      "evidence": [
+        {
+          "file": "src/scoring.ts",
+          "line": 43,
+          "quote": "the term count is a literal"
+        },
+        {
+          "file": "config.json",
+          "line": 6,
+          "quote": "query_terms 12"
+        }
+      ],
+      "fix": {
+        "summary": "Pass the configured term count into the scoring arm.",
+        "files": [
+          "src/scoring.ts",
+          "src/decide.ts",
+          "src/route.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-INT-008",
+      "title": "The card cache stays stale after an in place card edit",
+      "area": "router",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "The cache key is the row count plus the largest hash. An edit that keeps the row count and does not touch the largest hash leaves a stale card in memory. The earlier fix for the count only cache was not enough.",
+      "evidence": [
+        {
+          "file": "src/retrieve-cache.ts",
+          "line": 12,
+          "quote": "the key is count and max hash"
+        }
+      ],
+      "fix": {
+        "summary": "Key the cache on a content digest that changes when any card changes.",
+        "files": [
+          "src/retrieve-cache.ts"
+        ],
+        "sketch": "Use a checksum over all row hashes, or the database change counter, or an explicit cache invalidation call from the index builder."
+      }
+    },
+    {
+      "id": "AUD-INT-009",
+      "title": "Relative skill paths resolve against the server working directory",
+      "area": "delivery",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "About 380 cards store a relative skill path. loadBody and the get_ref reader resolve them against the current working directory, so the body is missing unless the server happens to run from the repository root.",
+      "evidence": [
+        {
+          "file": "src/deliver.ts",
+          "line": 85,
+          "quote": "the path is used as given"
+        },
+        {
+          "file": "src/serve-ref.ts",
+          "line": 11,
+          "quote": "the same relative resolution"
+        }
+      ],
+      "measurement": {
+        "metric": "cards with a relative skill path",
+        "value": "about 380 of 2176",
+        "method": "path inspection over cards"
+      },
+      "fix": {
+        "summary": "Resolve relative skill paths against the repository root.",
+        "files": [
+          "src/deliver.ts",
+          "src/serve-ref.ts",
+          "src/card.ts"
+        ],
+        "sketch": "Store absolute paths in the card at build time, or resolve a relative path against the package root in the reader."
+      }
+    },
+    {
+      "id": "AUD-INT-010",
+      "title": "The phase gate runs in the server working directory, not the task repository",
+      "area": "enforcement",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "phase_done runs the gate commands and the slop scan in the process working directory. The checks then run against the wrong tree and pass without proving anything about the task.",
+      "evidence": [
+        {
+          "file": "src/serve.ts",
+          "line": 124,
+          "quote": "runGates receives process.cwd()"
+        },
+        {
+          "file": "src/serve.ts",
+          "line": 132,
+          "quote": "the slop scan receives process.cwd()"
+        }
+      ],
+      "fix": {
+        "summary": "Take the working directory from the phase or the session, not from the process.",
+        "files": [
+          "src/serve.ts",
+          "src/session.ts"
+        ],
+        "sketch": "Store the cwd with the session when the phase starts, and use it in phase_done."
+      }
+    },
+    {
+      "id": "AUD-INT-011",
+      "title": "Phase detection routes with the default session and takes the lock",
+      "area": "router",
+      "severity": "P3",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "detectPhases calls route with the default session, so any plan call locks the shared default session and writes a route log for a probe.",
+      "evidence": [
+        {
+          "file": "src/plan.ts",
+          "line": 17,
+          "quote": "route is called without a session id"
+        }
+      ],
+      "fix": {
+        "summary": "Give detectPhases a session id and a no lock flag.",
+        "files": [
+          "src/plan.ts",
+          "src/route.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-INT-012",
+      "title": "Four config keys are never read and three are hardcoded elsewhere",
+      "area": "process",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "top_k_retrieve, max_bytes, avg_bytes_target and fitted_at are never read. query_terms is read in one place and hardcoded in another, max_per_cluster has six fallback values of 3 and max_skills_per_task has two fallback values that disagree, 1 and 2. Editing the config gives the impression of control that does not exist.",
+      "evidence": [
+        {
+          "file": "config.json",
+          "line": 0,
+          "quote": "top_k_retrieve, max_bytes, avg_bytes_target, fitted_at"
+        },
+        {
+          "file": "src/scoring.ts",
+          "line": 43,
+          "quote": "the term count literal"
+        }
+      ],
+      "fix": {
+        "summary": "Read every config key in one place and remove the keys that mean nothing.",
+        "files": [
+          "config.json",
+          "src/db.ts",
+          "src/route.ts",
+          "src/retrieve.ts",
+          "src/scoring.ts",
+          "src/collapse.ts",
+          "src/council-compose.ts"
+        ],
+        "sketch": "Load the config once into a typed object, delete the four dead keys, and replace every fallback literal with the loaded value."
+      }
+    },
+    {
+      "id": "AUD-INT-013",
+      "title": "The test runner collects the vendored skill packages",
+      "area": "process",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "integration",
+      "phase": 3,
+      "impact": "Running the tests without a path collects the skill suites under skills, which fail on a missing vercel command and on path assumptions. The report reads 331 failures for a project with 2 real ones, so the signal is useless.",
+      "evidence": [
+        {
+          "file": "package.json",
+          "line": 0,
+          "quote": "no test script that scopes to the project tests"
+        }
+      ],
+      "measurement": {
+        "metric": "failures reported by the unscoped run against the scoped run",
+        "value": "331 failures against 2",
+        "method": "bun test tests/ compared with bun test over the whole tree"
+      },
+      "fix": {
+        "summary": "Scope the test command to the project tests and make it the documented command.",
+        "files": [
+          "package.json",
+          "README.md",
+          "AGENTS.md"
+        ],
+        "sketch": "Add a test script that runs bun test tests/ and point the guide at it."
+      }
+    },
+    {
+      "id": "AUD-RET-001",
+      "title": "The Card v2 fields never reach the retriever",
+      "area": "retrieval",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "review",
+      "phase": 2,
+      "impact": "Phase 3 of the repair added goal, when_to_use, provides and keywords to every card. The FTS index is built from five columns and does not include goal. The cover hay stack does not include goal. cardText does include goal, but it feeds only the vector arm whose weight is 0.05. The keywords field holds roughly 26k topical terms across the library and is dropped at the database boundary. The largest asset the card work produced is invisible to the router.",
+      "evidence": [
+        {
+          "file": "src/index.ts",
+          "line": 21,
+          "quote": "INSERT INTO cards_fts (id, purpose, use_when_text, domain, task_types)"
+        },
+        {
+          "file": "src/scoring.ts",
+          "line": 81,
+          "quote": "const hay = [c.purpose, c.use_when.join(\" \"), c.domain, c.task_types.join(\" \"), c.id...]"
+        },
+        {
+          "file": "src/lexicon.ts",
+          "line": 149,
+          "quote": "cardText includes c.goal, and feeds only the vector arm with weight 0.05"
+        }
+      ],
+      "measurement": {
+        "metric": "terms added to the library and never indexed",
+        "value": "about 26000 keyword terms across 2176 cards",
+        "method": "read of the index insert, the hay stack and the card schema"
+      },
+      "fix": {
+        "summary": "Put goal, when_to_use and keywords into the FTS index and into the cover hay stack.",
+        "files": [
+          "src/db.ts",
+          "src/index.ts",
+          "src/scoring.ts"
+        ],
+        "sketch": "Add goal_text, when_to_use_text, provides_text and keywords_text columns with the migration pattern already in db.ts. Extend the FTS insert and drop and recreate cards_fts in buildIndex because the column set changed. Add goal and when_to_use to the hay stack in scoring.ts with purpose still first."
+      }
+    },
+    {
+      "id": "AUD-RET-002",
+      "title": "Generic word mass pushes the right card out of the shortlist",
+      "area": "retrieval",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 2,
+      "impact": "All 70 Tier A cards self-route at 100 percent on their own short intent. Padded to 85 words with distractor context they self-route at 70 percent. Across unrelated padded prompts the same generic cards take the top slots with identical scores, so the true card is pushed to rank two or three or out of the shortlist. The cause is the denominator and the generic list, not the query trim.",
+      "evidence": [
+        {
+          "file": "src/lexicon-stats.ts",
+          "line": 0,
+          "quote": "the generic word list does not contain the words that carry the noise"
+        },
+        {
+          "file": "src/scoring.ts",
+          "line": 0,
+          "quote": "the unknown word mass grows with prompt length"
+        }
+      ],
+      "measurement": {
+        "metric": "tier A self route after padding",
+        "value": "70 of 70 short, 49 of 70 padded, 13 failures with the right card at rank one and 8 with it missing from the top three",
+        "method": "padded self route probe over all Tier A cards"
+      },
+      "fix": {
+        "summary": "Cap the contribution of a generic word and stop the unknown word mass from growing with prompt length.",
+        "files": [
+          "src/lexicon-stats.ts",
+          "src/scoring.ts"
+        ],
+        "sketch": "Extend the generic list with team, deadline, budget, review, compliance, week, users, existing, codebase and work. Give a generic word a small fraction of a specific word. Make the unknown mass a function of the unseen content words and not of the prompt length."
+      }
+    },
+    {
+      "id": "AUD-BEN-008",
+      "title": "One of seven long corpus cases carries a wrong or arbitrary label",
+      "area": "bench",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 0,
+      "impact": "Eleven of the seventy routed cases name an expected card whose text overlaps the prompt less than the card the router chose. Some are rivals by design and the corpus has room for only one answer. Others look like mistakes. Until the labels are reviewed the bench number is a trend line and cannot be a pass gate.",
+      "evidence": [
+        {
+          "file": "evals/golden-long-digital-product.yaml",
+          "line": 0,
+          "quote": "the performance case expects a card with overlap one while the router chose a card with overlap eleven"
+        },
+        {
+          "file": "evals/golden-long-cybersec.yaml",
+          "line": 0,
+          "quote": "the gdpr case expects a card with overlap six while the router chose a card with overlap nine"
+        }
+      ],
+      "measurement": {
+        "metric": "cases whose expected card has lower lexical overlap than the router's choice",
+        "value": "11 of 70, 15.7 percent",
+        "method": "lexical overlap comparison over every miss"
+      },
+      "fix": {
+        "summary": "Review every label, and let a case accept more than one skill when the library has rivals.",
+        "files": [
+          "evals/golden-long-digital-product.yaml",
+          "evals/golden-long-cybersec.yaml",
+          "src/bench.ts"
+        ],
+        "sketch": "Add an expect_any list. The bench counts a hit when the offered card is in the list. Record the label version in the bench JSON so old and new numbers never mix."
+      }
+    },
+    {
+      "id": "AUD-BEN-009",
+      "title": "The safety property was never actually tested",
+      "area": "bench",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 1,
+      "impact": "The router never committed to a wrong card on the long corpora, and that was recorded as a safety property. In fact the router almost never committed at all, one pick in eighty. A property that was never exercised cannot be relied on, and it must not block the threshold work that turns the asks into picks.",
+      "evidence": [
+        {
+          "file": "docs/audit/metrics.md",
+          "line": 0,
+          "quote": "wrong pick 0 of 70, false pick 0 of 10, picked 1 of 80"
+        }
+      ],
+      "measurement": {
+        "metric": "picks made",
+        "value": "1 of 80 cases",
+        "method": "bench"
+      },
+      "fix": {
+        "summary": "Treat the safety claim as untested. Measure wrong picks after the threshold work, not before.",
+        "files": [
+          "src/bench.ts"
+        ],
+        "sketch": "The bench must report wrong picks and false picks on every run so the property is measured once picks exist."
+      }
+    },
+    {
+      "id": "AUD-BEN-010",
+      "title": "The threshold work has a measured ceiling of twenty of seventy",
+      "area": "bench",
+      "severity": "P1",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 1,
+      "impact": "The ceiling was measured at 20 of 70 for threshold work and the implementation reached 18 of 70 with 1 wrong commit. The margin of 15 was chosen over the margin of 10 because it trades one correct commit for three fewer wrong commits.",
+      "evidence": [
+        {
+          "file": "src/decide.ts",
+          "line": 41,
+          "quote": "the pick floor gate"
+        },
+        {
+          "file": "src/route.ts",
+          "line": 0,
+          "quote": "the score and margin thresholds"
+        }
+      ],
+      "measurement": {
+        "metric": "correct and wrong commits by margin",
+        "value": "margin 10 gives 19 and 4, margin 15 gives 18 and 1, margin 18 gives 15 and 1",
+        "method": "margin sweep over the long corpora"
+      },
+      "fix": {
+        "summary": "Write the measured ceiling into the phase gate so a missed gate means a real failure.",
+        "files": [
+          "src/decide.ts",
+          "config.json"
+        ],
+        "sketch": "Gate the threshold phase at 19 of 70 correct, 0 false picks on out of scope cases and no more than 4 wrong picks."
+      }
+    },
+    {
+      "id": "AUD-RET-003",
+      "title": "The query trim prefers the noise because rare and unknown words outrank the intent",
+      "area": "retrieval",
+      "severity": "P0",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 2,
+      "impact": "The FTS query no longer fills its slots with words the corpus has never seen. The known trim puts the terms the corpus holds first, so the intent survives a padded request. The rule is configurable because the known trim and the rare trim trade one verbose case against three long-prompt commits, and the choice must be re-measured when the corpus changes.",
+      "evidence": [
+        {
+          "file": "src/retrieve.ts",
+          "line": 79,
+          "quote": "trimToRarest sorts by descending idf and slices the first n"
+        },
+        {
+          "file": "src/lexicon-stats.ts",
+          "line": 52,
+          "quote": "a term unknown to the corpus returns maxIdf, the highest score possible"
+        },
+        {
+          "file": "src/retrieve.ts",
+          "line": 119,
+          "quote": "the MATCH gets the trimmed terms joined by OR"
+        }
+      ],
+      "measurement": {
+        "metric": "long corpus commits under each trim rule",
+        "value": "known 22 commits, rare 19 commits, both with 1 wrong",
+        "method": "trim rule probe"
+      },
+      "fix": {
+        "summary": "Done. matchTerms for the FTS query, trimToRarest for the scoring denominator, match_trim in the config to switch between them.",
+        "files": [
+          "src/retrieve.ts",
+          "src/route.ts",
+          "config.json"
+        ]
+      }
+    },
+    {
+      "id": "AUD-RET-004",
+      "title": "A deeper retrieval pool buys correct commits until it starts buying wrong ones",
+      "area": "retrieval",
+      "severity": "P2",
+      "status": "accepted",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 2,
+      "impact": "The earlier measurement showed a deeper pool buying three more correct commits and it was applied. Re-measured on the current code, every pool setting from 40 to 80 produces identical outcomes, and the deeper pool only costs latency. The pool stays at 40 with a cluster cap of 8. The gain was an artefact of the pre-trim-split retrieval.",
+      "evidence": [
+        {
+          "file": "config.json",
+          "line": 6,
+          "quote": "score_pool 40 and max_per_cluster 8"
+        },
+        {
+          "file": "src/collapse.ts",
+          "line": 120,
+          "quote": "the shortlist caps candidates per cluster"
+        }
+      ],
+      "measurement": {
+        "metric": "hits and picks at pool 40, 60 and 80",
+        "value": "201 hits and 138 picks at every setting",
+        "method": "pool probe on the current code"
+      },
+      "fix": {
+        "summary": "Reverted to score_pool 40 and max_per_cluster 8. Tracked as AUD-RET-007.",
+        "files": [
+          "config.json"
+        ]
+      }
+    },
+    {
+      "id": "AUD-EVL-003",
+      "title": "The eval top1 metric measures surfacing, not commitment",
+      "area": "eval",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "review",
+      "phase": 1,
+      "impact": "The eval counts a case as a hit when the returned skill id equals the expected card. An ASK returns the leader as its skill id, so an ASK with the right card counts as a hit even though the router never committed. The bench counts only committed picks. The two numbers can move in opposite directions, and the eval number was the green one while the router committed to the right skill on 1 of 80 long prompts.",
+      "evidence": [
+        {
+          "file": "src/eval.ts",
+          "line": 134,
+          "quote": "the hit test compares the returned skill id with the expected card"
+        },
+        {
+          "file": "src/bench.ts",
+          "line": 0,
+          "quote": "the bench counts a pick only when the outcome is PICK"
+        }
+      ],
+      "measurement": {
+        "metric": "tune top1 before the threshold work, and committed picks over the same cases",
+        "value": "97.8 percent top1 against 1 committed pick in 80",
+        "method": "eval and bench side by side"
+      },
+      "fix": {
+        "summary": "Report three numbers everywhere: surfaced, committed, and committed correct.",
+        "files": [
+          "src/eval.ts",
+          "src/bench.ts"
+        ],
+        "sketch": "Add a committed column to the eval table and print it next to top1. A green eval with a red committed count is the signal that the router is asking instead of acting."
+      }
+    },
+    {
+      "id": "AUD-SCR-003",
+      "title": "The generic word list almost never fires because the corpus is too large for the cut",
+      "area": "scoring",
+      "severity": "P2",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 2,
+      "impact": "A term is generic when more than 18 percent of cards hold it, which is 391 cards in a library of 2176. Only 12 of the 7036 terms in the corpus reach that bar, so the generic penalty and the generic-only factor almost never apply. The words that actually carry the noise in a long request, deadline, quarter and budget, are rare in the corpus, so they are treated as specific and are handed the highest IDF.",
+      "evidence": [
+        {
+          "file": "src/lexicon-stats.ts",
+          "line": 35,
+          "quote": "the generic cut is 18 percent of the corpus"
+        },
+        {
+          "file": "src/scoring.ts",
+          "line": 92,
+          "quote": "the generic-only factor multiplies the score"
+        }
+      ],
+      "measurement": {
+        "metric": "terms inside the generic cut",
+        "value": "12 of 7036, with a cut at document frequency 391",
+        "method": "corpus document frequency scan"
+      },
+      "fix": {
+        "summary": "Treat a request filler word as generic by the way it is used, not by how many cards hold it.",
+        "files": [
+          "src/lexicon.ts",
+          "src/lexicon-stats.ts"
+        ],
+        "sketch": "Add a request-filler list for the words a long prompt uses as padding: team, deadline, budget, quarter, week, codebase, contractor, instructions, wording, internal. Cap the contribution of a term on that list to a fraction of a specific term."
+      }
+    },
+    {
+      "id": "AUD-RET-006",
+      "title": "The two trim rules trade long-prompt coverage against one verbose case",
+      "area": "retrieval",
+      "severity": "P1",
+      "status": "accepted",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 2,
+      "impact": "The known trim and the rare trim give identical results on all five short golden sets. They differ on long prompts and on one verbose case: the known trim wins 33 of 80 long hits and 22 commits against 30 and 19 for the rare trim, and loses one verbose case, 12 of 14 against 13 of 14. The trade is one case in fourteen against three long-prompt commits. The known trim is shipped because the long corpora are realistic traffic and the short sets are the tuned ones.",
+      "evidence": [
+        {
+          "file": "src/retrieve.ts",
+          "line": 153,
+          "quote": "the MATCH uses matchTerms by default and trimToRarest when match_trim is rare"
+        },
+        {
+          "file": "src/route.ts",
+          "line": 74,
+          "quote": "the route passes match_trim from the config"
+        }
+      ],
+      "measurement": {
+        "metric": "long corpus hits and commits under each trim rule",
+        "value": "known 33 hits and 22 commits, rare 30 hits and 19 commits, both with 1 wrong commit",
+        "method": "trim rule probe over every golden set with the decision rule held fixed"
+      },
+      "fix": {
+        "summary": "Shipped with match_trim known. The rule stays configurable so the trade can be re-measured when the corpus changes.",
+        "files": [
+          "config.json",
+          "src/retrieve.ts",
+          "src/route.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-EVL-004",
+      "title": "The eval metric treats a routed ASK as a hit and a NONE ASK as a miss",
+      "area": "eval",
+      "severity": "P1",
+      "status": "open",
+      "confidence": "confirmed",
+      "found_by": "review",
+      "phase": 1,
+      "impact": "The metric property is confirmed and it changes how every rule must be judged. A routed case counts as a hit whenever the returned skill id equals the expected card, and both PICK and ASK return a skill id. A NONE case counts as a hit only on ABSTAIN, because only ABSTAIN returns a null skill id. Any rule that moves a case from ASK to ABSTAIN must be checked against all five strata and the long corpora at once.",
+      "evidence": [
+        {
+          "file": "src/eval.ts",
+          "line": 134,
+          "quote": "the hit test compares the returned skill id with the expected card"
+        },
+        {
+          "file": "src/route.ts",
+          "line": 0,
+          "quote": "ASK returns the leader as skill_id, ABSTAIN returns null"
+        }
+      ],
+      "measurement": {
+        "metric": "eval strata after an ask_min_margin of 3",
+        "value": "tune 96.7, heldout 94.4, verbose 92.9, paraphrase 96.0 against a baseline of 97.8, 97.2, 92.9 and 100",
+        "method": "eval run with the rule applied"
+      },
+      "fix": {
+        "summary": "Make the eval report picks, asks and abstains separately, plus a committed-only hit rate.",
+        "files": [
+          "src/eval.ts"
+        ]
+      }
+    },
+    {
+      "id": "AUD-RET-007",
+      "title": "The retrieval pool size no longer changes any outcome",
+      "area": "retrieval",
+      "severity": "P3",
+      "status": "fixed",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 2,
+      "impact": "An earlier sweep on the pre-trim-split code showed a deeper pool buying three more correct commits, so the pool was raised to 80 with a cluster cap of 32. Re-measured on the current code, pool 40 with cap 8, pool 60 with cap 16 and pool 80 with cap 32 all produce byte-identical outcomes: 201 of 253 hits, 138 picks, 1 wrong commit. The only difference is latency, 248 ms at p50 for pool 40 against 285 ms for pool 80 and 309 ms for pool 60. The pool was reverted to 40 with cap 8.",
+      "evidence": [
+        {
+          "file": "config.json",
+          "line": 6,
+          "quote": "score_pool 40 and max_per_cluster 8"
+        },
+        {
+          "file": "src/collapse.ts",
+          "line": 120,
+          "quote": "the shortlist caps candidates per cluster"
+        }
+      ],
+      "measurement": {
+        "metric": "hits, picks and wrong commits at three pool settings",
+        "value": "201, 138 and 1 at every setting, with p50 latency 248, 309 and 285 ms",
+        "method": "pool probe on the current code across every golden set"
+      },
+      "fix": {
+        "summary": "Reverted to score_pool 40 and max_per_cluster 8. The earlier gain was an artefact of the pre-trim-split retrieval and did not survive the change.",
+        "files": [
+          "config.json"
+        ]
+      }
+    },
+    {
+      "id": "AUD-SCR-004",
+      "title": "The cover denominator is length dependent, so the right card scores below the floor on long prompts",
+      "area": "scoring",
+      "severity": "P0",
+      "status": "open",
+      "confidence": "measured",
+      "found_by": "review",
+      "phase": 3,
+      "impact": "The denominator counts the idf mass of every query word, so it grows with the prompt. The right card's cover collapses from 0.904 on the tune set to 0.215 on long-d and 0.210 on long-c, while a wrong card on the same prompts holds 0.113 and 0.182. The right card and a wrong card are nearly indistinguishable on a long prompt, and both sit far below the floor of 45. An intent-clause cover separates them: on long-d the right card has a median intent cover of 0.273 against 0.091 for a wrong card, and on long-c 0.222 against 0.111.",
+      "evidence": [
+        {
+          "file": "src/scoring.ts",
+          "line": 102,
+          "quote": "the denominator is the idf mass of every query content word"
+        },
+        {
+          "file": "src/scoring.ts",
+          "line": 144,
+          "quote": "cover is matchedMass over the denominator"
+        }
+      ],
+      "measurement": {
+        "metric": "cover and intent cover for candidate 1, right card against wrong card",
+        "value": "cover: 0.904 against 0.000 on tune, 0.215 against 0.113 on long-d. intent cover: 0.875 against 0.000 on tune, 0.273 against 0.091 on long-d",
+        "method": "denominator probe across every golden set"
+      },
+      "fix": {
+        "summary": "Add an intent-clause signal: score the card against the first sentence of the request, not against the whole prompt, and give that signal its own weight.",
+        "files": [
+          "src/scoring.ts",
+          "src/scoring-types.ts",
+          "src/weights.ts"
+        ],
+        "sketch": "Extract the intent clause as the first sentence or the first 12 content words. Compute its cover against the card. Add it as a separate signal with its own weight so a long prompt cannot bury it under the whole-prompt denominator. Do not use it as a gate: a flat cover floor of 0.35 keeps 137 of 162 right cards and drops 4 of 37 wrong ones, but it would also drop 7 of 21 NONE cases, so it belongs in the score, not in the threshold."
+      }
+    }
+  ]
+}
